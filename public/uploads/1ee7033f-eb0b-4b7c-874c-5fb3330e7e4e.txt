@@ -1,0 +1,38 @@
+1. If the price of sugar increases by 25%, by what percentage must a household reduce its consumption so that total expenditure remains unchanged?
+(A) 15%
+(B) 18%
+(C) 20%
+(D) 25%
+(E) None of these
+
+2. A sum of money doubles itself at simple interest in 8 years. In how many years will it triple itself?
+(A) 12 years
+(B) 14 years
+(C) 16 years
+(D) 18 years
+(E) 20 years
+
+3. What is 35% of 400 plus 45% of 240?
+(A) 248
+(B) 236
+(C) 240
+(D) 250
+(E) 244
+
+4. A train 180 meters long is running at 72 km/h. How many seconds will it take to pass an electric pole?
+(A) 9 seconds
+(B) 10 seconds
+(C) 8 seconds
+(D) 12 seconds
+(E) 15 seconds
+
+5. The average of 5 consecutive odd numbers is 27. What is the largest of these numbers?
+(A) 29
+(B) 31
+(C) 33
+(D) 35
+(E) 27
+
+Correct Answers:
+1 2 3 4 5
+C C A A B

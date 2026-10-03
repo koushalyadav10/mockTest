@@ -1,0 +1,196 @@
+SSC CHSL Maths — Practice Set 2(30 Questions)
+
+**1.** A number is increased by 20% and then decreased by 20%. What is the net percentage change?
+(A) 0%
+(B) 4% increase
+(C) 4% decrease
+(D) 2% decrease
+
+**2.** If 40% of a number is 72, what is 25% of that number?
+(A) 40
+(B) 45
+(C) 50
+(D) 55
+
+**3.** The ratio of two numbers is 5 : 7 and their sum is 144. Find the smaller number.
+(A) 50
+(B) 55
+(C) 60
+(D) 65
+
+**4.** A man buys an article for ₹800 and sells it for ₹920. Find his profit percentage.
+(A) 12%
+(B) 15%
+(C) 18%
+(D) 20%
+
+**5.** An article marked at ₹1,500 is sold after a discount of 12%. Find its selling price.
+(A) ₹1,280
+(B) ₹1,300
+(C) ₹1,320
+(D) ₹1,350
+
+**6.** A shopkeeper gains 25% by selling an article for ₹750. Find its cost price.
+(A) ₹550
+(B) ₹600
+(C) ₹625
+(D) ₹650
+
+**7.** The simple interest on ₹4,000 at 6% per annum for 3 years is:
+(A) ₹620
+(B) ₹680
+(C) ₹720
+(D) ₹760
+
+**8.** A sum of ₹5,000 amounts to ₹5,900 in 3 years at simple interest. Find the rate of interest.
+(A) 5%
+(B) 6%
+(C) 7%
+(D) 8%
+
+**9.** Find the average of 18, 24, 32, 16 and 25.
+(A) 22
+(B) 23
+(C) 24
+(D) 25
+
+**10.** The average of 6 numbers is 24. If one number is removed, the average of the remaining 5 numbers becomes 22. Find the removed number.
+(A) 32
+(B) 34
+(C) 36
+(D) 38
+
+**11.** A train travels 360 km in 5 hours. What is its speed in km/h?
+(A) 60
+(B) 72
+(C) 75
+(D) 80
+
+**12.** A train running at 54 km/h crosses a pole in 20 seconds. Find the length of the train.
+(A) 250 m
+(B) 280 m
+(C) 300 m
+(D) 320 m
+
+**13.** A can complete a work in 12 days and B can complete it in 18 days. In how many days can they complete it together?
+(A) 6 days
+(B) 7⅕ days
+(C) 8 days
+(D) 9 days
+
+**14.** A alone can complete a work in 15 days. B alone can complete it in 30 days. How much work will they complete together in 5 days?
+(A) 1/3
+(B) 1/2
+(C) 2/3
+(D) 3/4
+
+**15.** If 8 men can complete a work in 15 days, how many men are required to complete the same work in 10 days?
+(A) 10
+(B) 12
+(C) 14
+(D) 16
+
+**16.** A pipe can fill a tank in 20 minutes and another pipe can fill it in 30 minutes. How long will they take together?
+(A) 10 min
+(B) 12 min
+(C) 15 min
+(D) 18 min
+
+**17.** A man travels 240 km at a speed of 60 km/h. How much time does he take?
+(A) 3 hours
+(B) 4 hours
+(C) 5 hours
+(D) 6 hours
+
+**18.** A car covers half of a distance at 40 km/h and the other half at 60 km/h. What is its average speed?
+(A) 45 km/h
+(B) 48 km/h
+(C) 50 km/h
+(D) 52 km/h
+
+**19.** Find the HCF of 84 and 126.
+(A) 21
+(B) 28
+(C) 42
+(D) 63
+
+**20.** Find the LCM of 18, 24 and 30.
+(A) 180
+(B) 240
+(C) 360
+(D) 420
+
+**21.** If x + 7 = 19, find the value of x.
+(A) 10
+(B) 11
+(C) 12
+(D) 13
+
+**22.** If 3x − 5 = 16, then x is:
+(A) 5
+(B) 6
+(C) 7
+(D) 8
+
+**23.** The perimeter of a rectangle is 50 cm and its length is 15 cm. Find its breadth.
+(A) 8 cm
+(B) 10 cm
+(C) 12 cm
+(D) 15 cm
+
+**24.** Find the area of a rectangle whose length is 18 cm and breadth is 12 cm.
+(A) 196 cm²
+(B) 206 cm²
+(C) 216 cm²
+(D) 226 cm²
+
+**25.** Find the area of a circle of radius 7 cm. Take π = 22/7.
+(A) 144 cm²
+(B) 154 cm²
+(C) 164 cm²
+(D) 174 cm²
+
+**26.** The sides of a triangle are 6 cm, 8 cm and 10 cm. What type of triangle is it?
+(A) Equilateral
+(B) Isosceles
+(C) Right-angled
+(D) Obtuse-angled
+
+**27.** A sum of money is divided among A and B in the ratio 3 : 5. If B receives ₹800, how much does A receive?
+(A) ₹400
+(B) ₹450
+(C) ₹480
+(D) ₹500
+
+**28.** A person's income increases from ₹20,000 to ₹23,000. What is the percentage increase?
+(A) 10%
+(B) 12%
+(C) 15%
+(D) 18%
+
+**29.** A number is first decreased by 10% and then increased by 10%. If the original number was 500, what is the final number?
+(A) 490
+(B) 495
+(C) 500
+(D) 505
+
+**30.** A boat travels 30 km downstream in 2 hours. If the speed of the stream is 3 km/h, what is the speed of the boat in still water?
+(A) 10 km/h
+(B) 12 km/h
+(C) 15 km/h
+(D) 18 km/h
+
+### Answer Key
+
+| Q  | Ans | Q  | Ans | Q  | Ans |
+| -- | --- | -- | --- | -- | --- |
+| 1  | C   | 11 | B   | 21 | C   |
+| 2  | B   | 12 | C   | 22 | C   |
+| 3  | C   | 13 | B   | 23 | B   |
+| 4  | B   | 14 | B   | 24 | C   |
+| 5  | C   | 15 | B   | 25 | B   |
+| 6  | B   | 16 | B   | 26 | C   |
+| 7  | C   | 17 | B   | 27 | C   |
+| 8  | B   | 18 | B   | 28 | C   |
+| 9  | B   | 19 | C   | 29 | B   |
+| 10 | C   | 20 | C   | 30 | B   |

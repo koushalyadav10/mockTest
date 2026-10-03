@@ -1,0 +1,251 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                String             @id @default(uuid())
+  email             String             @unique
+  name              String
+  passwordHash      String
+  role              String             @default("STUDENT") // STUDENT | TEACHER | ADMIN
+  studentRollNo     String?            @unique
+  phone             String?
+  isEmailVerified   Boolean            @default(false)
+  createdAt         DateTime           @default(now())
+  updatedAt         DateTime           @updatedAt
+  uploadedDocuments UploadedDocument[]
+  testAttempts      TestAttempt[]
+  otpTokens         OtpToken[]
+  violations        AttemptViolation[]
+  auditLogs         AuditLog[]
+}
+
+model OtpToken {
+  id        String    @id @default(uuid())
+  email     String
+  otpHash   String
+  type      String    @default("SIGNUP") // SIGNUP | LOGIN | RESET_PASSWORD
+  attempts  Int       @default(0)
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+  userId    String?
+  user      User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model ExamConfig {
+  id                    String              @id @default(uuid())
+  code                  String              @unique // e.g. SSC_CHSL_TIER_1, SSC_CGL_TIER_1, UP_POLICE_CONSTABLE, UPSI, CUSTOM_PRACTICE
+  title                 String
+  description           String?
+  category              String              @default("SSC") // SSC | UP_POLICE | RAILWAY | BANKING | CUSTOM
+  mode                  String              @default("TIER_1") // TIER_1 | TIER_2 | PRACTICE
+  totalQuestions        Int                 @default(100)
+  totalMarks            Float               @default(200.0)
+  totalDurationMinutes  Int                 @default(60)
+  marksPerCorrect       Float               @default(2.0)
+  negativeMarks         Float               @default(0.50)
+  sectionalTiming       Boolean             @default(false)
+  sectionLock           Boolean             @default(false)
+  allowBackNavigation   Boolean             @default(true)
+  navigationRules       String              @default("FREE") // FREE | SEQUENTIAL
+  questionShuffle       Boolean             @default(true)
+  optionShuffle         Boolean             @default(true)
+  allowedQuestionTypes  String              @default("MCQ") // MCQ
+  difficulty            String              @default("MEDIUM") // EASY | MEDIUM | HARD
+  languages             String              @default("en,hi")
+  instructions          String?
+  availability          String              @default("ALWAYS") // ALWAYS | SCHEDULED
+  startDate             DateTime?
+  endDate               DateTime?
+  scheduledStatus       String              @default("LIVE") // UPCOMING | LIVE | EXPIRED
+  status                String              @default("PUBLISHED") // DRAFT | PUBLISHED | ARCHIVED
+  createdAt             DateTime            @default(now())
+  updatedAt             DateTime            @updatedAt
+  sections              ExamSectionConfig[]
+  testAttempts          TestAttempt[]
+}
+
+model ExamSectionConfig {
+  id                  String     @id @default(uuid())
+  examConfigId        String
+  examConfig          ExamConfig @relation(fields: [examConfigId], references: [id], onDelete: Cascade)
+  name                String // e.g. General Intelligence, General Awareness, Quantitative Aptitude, English
+  order               Int        @default(1)
+  questionCount       Int        @default(25)
+  durationMinutes     Int? // Optional per-section duration
+  marksPerCorrect     Float? // Optional per-section override
+  negativeMarks       Float? // Optional per-section override
+  allowBackNavigation Boolean    @default(true)
+}
+
+model UploadedDocument {
+  id             String     @id @default(uuid())
+  userId         String?
+  user           User?      @relation(fields: [userId], references: [id], onDelete: SetNull)
+  fileName       String
+  fileType       String // application/pdf, image/png, etc.
+  fileSize       Int
+  fileHash       String? // SHA-256 for duplicate detection
+  pageCount      Int        @default(1)
+  isScanned      Boolean    @default(false)
+  status         String     @default("UPLOADING") // UPLOADING | PROCESSING | REVIEW_REQUIRED | COMPLETED | FAILED
+  processingStep String     @default("STEP 1: Document uploaded")
+  rawText        String?
+  errorMessage   String?
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+  questions      Question[]
+}
+
+model Question {
+  id                            String           @id @default(uuid())
+  documentId                    String?
+  document                      UploadedDocument? @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  questionNumber                Int              @default(1)
+  language                      String           @default("en") // en | hi | bilingual
+  subject                       String // Reasoning, Mathematics, English, General Awareness, General Hindi, Law
+  topic                         String // Percentage, Analogy, Syllogism, Cloze Test, etc.
+  subtopic                      String?
+  difficulty                    String           @default("MEDIUM") // EASY | MEDIUM | HARD
+  difficultyConfidence          Float            @default(0.85)
+  questionType                  String           @default("MCQ") // MCQ | NUMERICAL | STATEMENT_BASED | ASSERTION_REASON | MATCHING | PASSAGE_BASED | CLOZE | DIAGRAM_BASED | TABLE_BASED | UNKNOWN
+  source                        String           @default("SOURCE_QUESTION") // SOURCE_QUESTION | AI_GENERATED_PRACTICE
+  sourceType                    String           @default("PDF") // PDF | IMAGE | TXT | DOCX | MANUAL
+  sourceFileName                String?
+  sourcePage                    Int?
+  directionText                 String? // Reading comprehension passage or common instructions
+  year                          Int?
+  exam                          String?
+  tags                          String?
+  questionText                  String
+  hasVisualContent              Boolean          @default(false)
+  visualType                    String           @default("UNKNOWN") // DIAGRAM | GRAPH | TABLE | IMAGE | MAP | CHART | FIGURE | UNKNOWN
+  imageUrl                      String?
+  diagramUrl                    String?
+  visualSourcePage              Int?
+  boundingBoxJson               String? // JSON string of normalized { x, y, width, height }
+  questionBoundingBoxJson       String? // JSON string of question text region { x, y, width, height }
+  optionBoundingBoxesJson       String? // JSON string of array [{ label: 'A', boundingBox: {...} }]
+  visualBoundingBoxJson         String? // JSON string of diagram region { x, y, width, height }
+  sourceAnswer                  String? // A, B, C, D if explicitly detected in source
+  aiSuggestedAnswer             String? // A, B, C, D if derived by AI
+  verifiedAnswer                String? // A, B, C, D if verified by teacher/student review
+  explanation                   String?
+  conceptNotes                  String?
+  requiresReview                Boolean          @default(false)
+  status                        String           @default("APPROVED") // DRAFT | UNDER_REVIEW | APPROVED | REJECTED | ARCHIVED
+  confidenceQuestion            Float            @default(0.95)
+  confidenceOptions             Float            @default(0.95)
+  confidenceClassification      Float            @default(0.92)
+  confidenceSubject             Float            @default(0.95)
+  confidenceTopic               Float            @default(0.92)
+  confidenceDifficulty          Float            @default(0.80)
+  confidenceAnswer              Float            @default(0.85)
+  confidenceVisualAssociation   Float            @default(0.90)
+  extractionVersion             Int              @default(1)
+  aiProvider                    String           @default("LocalHeuristicOCRProvider")
+  aiModel                       String?
+  extractionTimestamp           DateTime         @default(now())
+  createdAt                     DateTime         @default(now())
+  updatedAt                     DateTime         @updatedAt
+  options                       QuestionOption[]
+  testResponses                 TestResponse[]
+}
+
+model QuestionOption {
+  id         String   @id @default(uuid())
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  stableId   String // Stable internal identifier for safe option shuffling (e.g. opt_1)
+  label      String // Original label A, B, C, D
+  text       String
+  isCorrect  Boolean  @default(false)
+}
+
+model TestAttempt {
+  id                  String             @id @default(uuid())
+  userId              String?
+  user                User?              @relation(fields: [userId], references: [id], onDelete: SetNull)
+  studentRollNo       String?            @default("EF-100179719")
+  examConfigId        String
+  examConfig          ExamConfig         @relation(fields: [examConfigId], references: [id], onDelete: Cascade)
+  status              String             @default("NOT_STARTED") // NOT_STARTED | INSTRUCTIONS | RUNNING | SUBMITTED | EVALUATED
+  mode                String             @default("MOCK") // MOCK | PRACTICE
+  startedAt           DateTime?
+  expiresAt           DateTime?
+  completedAt         DateTime?
+  totalQuestions      Int                @default(0)
+  attemptedCount      Int                @default(0)
+  correctCount        Int                @default(0)
+  incorrectCount      Int                @default(0)
+  unattemptedCount    Int                @default(0)
+  markedCount         Int                @default(0)
+  rawScore            Float              @default(0.0)
+  negativeMarksTotal  Float              @default(0.0)
+  finalScore          Float              @default(0.0)
+  accuracy            Float              @default(0.0)
+  timeSpentSeconds    Int                @default(0)
+  currentSectionIndex Int                @default(0)
+  violationCount      Int                @default(0)
+  questionOrderJson   String? // Persisted question ID order for deterministic reproducibility
+  createdAt           DateTime           @default(now())
+  updatedAt           DateTime           @updatedAt
+  responses           TestResponse[]
+  violations          AttemptViolation[]
+}
+
+model TestResponse {
+  id                     String      @id @default(uuid())
+  testAttemptId          String
+  testAttempt            TestAttempt @relation(fields: [testAttemptId], references: [id], onDelete: Cascade)
+  questionId             String
+  question               Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  selectedOptionStableId String? // Matches QuestionOption.stableId
+  correctOptionStableId  String? // Stable ID of correct answer for reproducible attempt scoring
+  responseState          String      @default("NOT_VISITED") // NOT_VISITED | NOT_ANSWERED | ANSWERED | MARKED_FOR_REVIEW | ANSWERED_AND_MARKED_FOR_REVIEW
+  timeSpentSeconds       Int         @default(0)
+  firstViewedAt          DateTime?
+  lastViewedAt           DateTime?
+  answeredAt             DateTime?
+  visitCount             Int         @default(0)
+  answerHistoryJson      String? // Array of changes: [{ answer: "B", timestamp: ... }, { answer: "C", timestamp: ... }]
+  isCorrect              Boolean?
+  marksAwarded           Float       @default(0.0)
+  orderIndex             Int         @default(0) // Ordering for this specific test attempt
+  shuffledOptionsJson    String? // Shuffled options order JSON for this test attempt
+  responseVersion        Int         @default(1)
+  syncStatus             String      @default("SYNCED") // SYNCED | PENDING | OFFLINE
+  createdAt              DateTime    @default(now())
+  updatedAt              DateTime    @updatedAt
+}
+
+model AttemptViolation {
+  id             String      @id @default(uuid())
+  attemptId      String
+  attempt        TestAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  studentId      String?
+  student        User?       @relation(fields: [studentId], references: [id], onDelete: SetNull)
+  type           String // TAB_SWITCH | FOCUS_LOSS | FULLSCREEN_EXIT
+  count          Int         @default(1)
+  sectionName    String?
+  questionNumber Int?
+  timestamp      DateTime    @default(now())
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  userEmail String?
+  action    String
+  entity    String
+  entityId  String?
+  details   String?
+  timestamp DateTime @default(now())
+}
