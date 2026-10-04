@@ -1,10 +1,29 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
+import { getSessionUser } from "@/lib/auth/session";
 
-export async function GET() {
+export async function GET(req: NextRequest) {
   try {
+    const session = getSessionUser(req);
+
+    if (!session?.userId) {
+      return NextResponse.json({
+        stats: {
+          testsAttempted: 0,
+          questionsSolved: 0,
+          accuracy: 0,
+          avgTimePerQuestion: 0,
+          streakDays: 0,
+        },
+        recentTests: [],
+      });
+    }
+
     const attempts = await prisma.testAttempt.findMany({
-      where: { status: "EVALUATED" },
+      where: {
+        userId: session.userId,
+        status: "EVALUATED",
+      },
       include: {
         examConfig: true,
       },
@@ -44,7 +63,7 @@ export async function GET() {
         questionsSolved: totalQuestionsSolved,
         accuracy,
         avgTimePerQuestion,
-        streakDays: testsAttempted > 0 ? 4 : 0, // Real streak
+        streakDays: testsAttempted > 0 ? Math.min(testsAttempted, 7) : 0,
       },
       recentTests,
     });

@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 
-export async function GET() {
+export async function GET(req: NextRequest) {
   try {
-    const exams = await prisma.examConfig.findMany({
+    const rawExams = await prisma.examConfig.findMany({
       include: {
         sections: {
           orderBy: { order: "asc" },
@@ -11,6 +11,29 @@ export async function GET() {
       },
       orderBy: { createdAt: "desc" },
     });
+
+    const now = new Date();
+
+    const exams = rawExams.map((exam) => {
+      let computedStatus = exam.scheduledStatus || "LIVE";
+      if (exam.availability === "SCHEDULED") {
+        if (exam.startDate && now < new Date(exam.startDate)) {
+          computedStatus = "UPCOMING";
+        } else if (exam.endDate && now > new Date(exam.endDate)) {
+          computedStatus = "EXPIRED";
+        } else {
+          computedStatus = "LIVE";
+        }
+      } else {
+        computedStatus = "LIVE";
+      }
+
+      return {
+        ...exam,
+        scheduledStatus: computedStatus,
+      };
+    });
+
     return NextResponse.json({ exams });
   } catch (error: any) {
     return NextResponse.json(

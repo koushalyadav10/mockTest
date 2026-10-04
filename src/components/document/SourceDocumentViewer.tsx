@@ -57,7 +57,7 @@ export const SourceDocumentViewer: React.FC<SourceDocumentViewerProps> = ({
   questionSnippetText,
 }) => {
   const [zoom, setZoom] = useState<number>(100);
-  const [viewMode, setViewMode] = useState<"SHEET" | "PDF">("SHEET");
+  const [viewMode, setViewMode] = useState<"SHEET" | "PDF">(pdfUrl ? "PDF" : "SHEET");
 
   const computedPageCount =
     explicitPageCount ||

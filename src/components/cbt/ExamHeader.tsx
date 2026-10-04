@@ -12,6 +12,7 @@ interface ExamHeaderProps {
   candidateName?: string;
   candidateRollNumber?: string;
   onTimerExpire: () => void;
+  timerKey?: string;
 }
 
 export const ExamHeader: React.FC<ExamHeaderProps> = ({
@@ -22,6 +23,7 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
   candidateName = "Aditya Sharma",
   candidateRollNumber = "SSC2026-CHSL-88491",
   onTimerExpire,
+  timerKey,
 }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [fullscreenAlert, setFullscreenAlert] = useState(false);
@@ -96,6 +98,7 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
           <ExamTimer
             initialRemainingSeconds={remainingSeconds}
             onExpire={onTimerExpire}
+            timerKey={timerKey}
           />
 
           <button

@@ -112,29 +112,27 @@ C C A A B`);
   };
 
   const loadSampleSSCText = () => {
-    setPastedTitle("SSC CHSL Model Questions");
-    setPastedText(`1. Select the option that is related to the third word in the same way as the second word is related to the first word.
-Thermometer : Temperature :: Barometer : ?
-(A) Atmospheric Pressure
-(B) Humidity
-(C) Wind Speed
-(D) Precipitation
+    setPastedTitle("SSC CHSL Quantitative Aptitude Practice");
+    setPastedText(`1. Two pipes A and B can fill a tank in 12 hours and 15 hours respectively. If both pipes are opened together, in how many hours will the tank be filled?
+(A) 6.67 hours
+(B) 7.5 hours
+(C) 8 hours
+(D) 9 hours
 
-2. Which Article of the Indian Constitution provides for the 'Right to Equality'?
-(A) Articles 14 - 18
-(B) Articles 19 - 22
-(C) Articles 23 - 24
-(D) Articles 25 - 28
+2. A train 180 metres long is running at 72 km/h. How many seconds will it take to pass an electric pole?
+(A) 8 seconds
+(B) 9 seconds
+(C) 10 seconds
+(D) 12 seconds
 
-3. Identify the segment with a grammatical error:
-Neither the teacher nor the students was present in the hall.
-(A) Neither the teacher
-(B) nor the students was present
-(C) in the hall
-(D) No error
+3. If the price of sugar increases by 20%, by what percentage must a household reduce its consumption so that total expenditure remains unchanged?
+(A) 16.67%
+(B) 20%
+(C) 25%
+(D) 15%
 
 Answers:
-1: A, 2: A, 3: B`);
+1: A, 2: B, 3: A`);
   };
 
   return (

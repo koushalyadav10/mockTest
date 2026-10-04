@@ -10,12 +10,12 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "primary", size = "md", isLoading, children, disabled, ...props }, ref) => {
     const baseStyles =
-      "inline-flex items-center justify-center font-medium rounded-md transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none select-none";
+      "inline-flex items-center justify-center font-semibold rounded-xl transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none select-none";
 
     const variants = {
-      primary: "bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-600 active:bg-blue-800 shadow-sm",
+      primary: "bg-[#5a4bda] text-white hover:bg-[#4838cc] focus-visible:ring-[#5a4bda] active:bg-[#3727b8] shadow-sm hover:shadow-md",
       secondary: "bg-slate-100 text-slate-800 hover:bg-slate-200 focus-visible:ring-slate-400 active:bg-slate-300",
-      outline: "border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 focus-visible:ring-blue-500",
+      outline: "border border-slate-300 bg-white text-slate-700 hover:bg-purple-50/50 hover:border-[#5a4bda] hover:text-[#5a4bda] focus-visible:ring-[#5a4bda]",
       danger: "bg-red-600 text-white hover:bg-red-700 focus-visible:ring-red-500 shadow-sm",
       ghost: "text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-slate-400",
       "cbt-action": "bg-slate-800 text-white hover:bg-slate-700 border border-slate-700 active:bg-slate-900",

@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { verifyPassword } from "@/lib/auth/password";
-import { createSessionCookie } from "@/lib/auth/session";
+import { createSessionCookie, createSessionToken, SESSION_COOKIE_NAME } from "@/lib/auth/session";
 import { createAndSaveOtp } from "@/lib/auth/otp";
 import { sendOtpEmail } from "@/lib/auth/email";
 
@@ -31,9 +31,27 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    // Check account status (e.g. SUSPENDED or DEACTIVATED)
+    if (user.status === "SUSPENDED" || user.status === "DEACTIVATED") {
+      return NextResponse.json(
+        { error: "Your account has been suspended by administration. Please contact support." },
+        { status: 403 }
+      );
+    }
+
     // Check password
     const isPasswordValid = verifyPassword(password, user.passwordHash);
     if (!isPasswordValid) {
+      await prisma.auditLog.create({
+        data: {
+          userEmail: normalizedEmail,
+          action: "FAILED_LOGIN",
+          entity: "User",
+          entityId: user.id,
+          details: "Invalid password attempt",
+        },
+      }).catch(() => {});
+
       return NextResponse.json(
         { error: "Invalid email or password. Please check your credentials." },
         { status: 401 }
@@ -60,8 +78,8 @@ export async function POST(req: NextRequest) {
     if (user.role === "ADMIN") redirectUrl = "/admin";
     else if (user.role === "TEACHER") redirectUrl = "/teacher";
 
-    // Create session cookie
-    const cookieHeader = createSessionCookie({
+    // Create session token and cookie
+    const token = createSessionToken({
       userId: user.id,
       email: user.email,
       name: user.name,
@@ -69,9 +87,12 @@ export async function POST(req: NextRequest) {
       studentRollNo: user.studentRollNo,
     });
 
+    const cookieHeader = `${SESSION_COOKIE_NAME}=${token}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${7 * 24 * 3600}`;
+
     const response = NextResponse.json({
       success: true,
       message: "Logged in successfully.",
+      token,
       user: {
         id: user.id,
         name: user.name,

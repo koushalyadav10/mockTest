@@ -29,6 +29,16 @@ import {
   FolderOpen,
   Eye,
   RefreshCw,
+  Globe,
+  BarChart2,
+  Download,
+  Mail,
+  Send,
+  X,
+  Shield,
+  Lock,
+  Unlock,
+  ExternalLink,
 } from "lucide-react";
 
 interface DocumentItem {
@@ -42,6 +52,8 @@ interface DocumentItem {
   processingStep: string;
   createdAt: string;
   updatedAt: string;
+  isPublic?: boolean;
+  publishedExamId?: string | null;
   questionCount: number;
   subjectBreakdown: Record<string, number>;
   difficultyBreakdown: Record<string, number>;
@@ -100,6 +112,18 @@ export default function QuestionBankPage() {
   const [questionSearchQuery, setQuestionSearchQuery] = useState("");
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [bulkActionLoading, setBulkActionLoading] = useState(false);
+
+  // Publish & Results Inspection State
+  const [publishingDocId, setPublishingDocId] = useState<string | null>(null);
+  const [resultsModalDoc, setResultsModalDoc] = useState<DocumentItem | null>(null);
+  const [resultsLoading, setResultsLoading] = useState(false);
+  const [resultsData, setResultsData] = useState<any>(null);
+  const [showEmailModal, setShowEmailModal] = useState(false);
+  const [emailSubject, setEmailSubject] = useState("");
+  const [emailNotes, setEmailNotes] = useState("");
+  const [targetCandidateEmail, setTargetCandidateEmail] = useState("");
+  const [isSendingEmails, setIsSendingEmails] = useState(false);
+  const [emailFeedback, setEmailFeedback] = useState<string | null>(null);
 
   // Fetch Documents List
   const fetchDocuments = () => {
@@ -227,6 +251,89 @@ export default function QuestionBankPage() {
     }
   };
 
+  // Toggle Public Live Examination Status (Make Public / Unpublish)
+  const handleTogglePublish = async (doc: DocumentItem) => {
+    try {
+      setPublishingDocId(doc.id);
+      const isPublishing = !doc.isPublic;
+      const method = isPublishing ? "POST" : "DELETE";
+      const res = await fetch(`/api/admin/documents/${doc.id}/publish`, { method });
+      const data = await res.json();
+      if (data.success) {
+        fetchDocuments();
+        if (selectedDoc && selectedDoc.id === doc.id) {
+          setSelectedDoc({ ...selectedDoc, isPublic: isPublishing });
+        }
+        alert(data.message || (isPublishing ? "Paper is now public for students!" : "Paper unpublished."));
+      } else {
+        alert(data.error || "Failed to update publish status");
+      }
+    } catch (e: any) {
+      alert("Error publishing paper: " + e.message);
+    } finally {
+      setPublishingDocId(null);
+    }
+  };
+
+  // Open Results & Scorecard Inspection Modal
+  const handleOpenResultsModal = async (doc: DocumentItem) => {
+    setResultsModalDoc(doc);
+    setResultsLoading(true);
+    setResultsData(null);
+    setEmailFeedback(null);
+    try {
+      const res = await fetch(`/api/admin/documents/${doc.id}/results`);
+      const data = await res.json();
+      if (data.success) {
+        setResultsData(data);
+        if (data.results && data.results.length > 0) {
+          // Pre-populate candidate email from first student attempt if available
+          const firstCandidate = data.results.find((r: any) => r.studentEmail && !r.studentEmail.toLowerCase().includes("admin"));
+          if (firstCandidate) {
+            setTargetCandidateEmail(firstCandidate.studentEmail);
+          } else if (data.results[0]?.studentEmail) {
+            setTargetCandidateEmail(data.results[0].studentEmail);
+          }
+        }
+      } else {
+        alert(data.error || "Failed to fetch candidate results");
+      }
+    } catch (e: any) {
+      alert("Error fetching results: " + e.message);
+    } finally {
+      setResultsLoading(false);
+    }
+  };
+
+  // Dispatch Official Evaluated Scorecards via Email
+  const handleSendEmails = async () => {
+    if (!resultsModalDoc) return;
+    try {
+      setIsSendingEmails(true);
+      setEmailFeedback(null);
+      const res = await fetch(`/api/admin/documents/${resultsModalDoc.id}/notify-results`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          customSubject: emailSubject.trim() || undefined,
+          customMessage: emailNotes.trim() || undefined,
+          targetEmail: targetCandidateEmail.trim() || undefined,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setEmailFeedback(data.message || `Dispatched scorecards to ${data.dispatchedCount} candidates!`);
+        setTimeout(() => setShowEmailModal(false), 2500);
+      } else {
+        alert(data.error || "Failed to dispatch email notifications");
+      }
+    } catch (e: any) {
+      alert("Error dispatching emails: " + e.message);
+    } finally {
+      setIsSendingEmails(false);
+    }
+  };
+
   // Question Selection Helpers
   const toggleSelect = (id: string) => {
     const next = new Set(selectedIds);
@@ -277,6 +384,31 @@ export default function QuestionBankPage() {
   );
 
   const totalQuestionsAcrossAll = documents.reduce((acc, d) => acc + d.questionCount, 0);
+
+  if (currentUser?.role === "STUDENT") {
+    return (
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="p-8 bg-blue-50/70 border border-blue-200 rounded-2xl text-center space-y-4 max-w-lg mx-auto shadow-xs">
+          <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center mx-auto text-xl shadow-xs">
+            🎓
+          </div>
+          <div>
+            <h3 className="text-base font-bold text-slate-900">Faculty Feature Only</h3>
+            <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+              Managing raw question banks and examination papers is restricted to Faculty and Administrators. Candidates can take full CBT examinations from the Mock Tests catalog.
+            </p>
+          </div>
+          <Button
+            variant="primary"
+            onClick={() => router.push("/exams")}
+            className="w-full justify-center text-sm font-bold shadow-md"
+          >
+            Go to Available Mock Tests &rarr;
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
@@ -412,6 +544,14 @@ export default function QuestionBankPage() {
                           </span>
                         </div>
 
+                        {/* Public Exam Badge if published */}
+                        {doc.isPublic && (
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300 flex items-center gap-1 shadow-2xs">
+                            <Globe className="w-3 h-3 text-emerald-600 animate-pulse" />
+                            <span>Public (Live)</span>
+                          </span>
+                        )}
+
                         {/* Status Badge */}
                         <span
                           className={`text-[11px] font-semibold px-2.5 py-0.5 rounded-full flex items-center gap-1.5 ${
@@ -500,6 +640,48 @@ export default function QuestionBankPage() {
                           </div>
                         </div>
                       )}
+
+                      {/* Public CBT Test & Results Action Bar */}
+                      <div className="pt-2 border-t border-slate-100">
+                        {doc.isPublic ? (
+                          <div className="flex items-center gap-2">
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              onClick={() => handleOpenResultsModal(doc)}
+                              className="flex-1 text-[11px] justify-center font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border-emerald-300 shadow-2xs"
+                            >
+                              <BarChart2 className="w-3.5 h-3.5 mr-1 text-emerald-600" />
+                              <span>See Candidate Results</span>
+                            </Button>
+                            {currentUser?.role === "ADMIN" && (
+                              <button
+                                onClick={() => handleTogglePublish(doc)}
+                                disabled={publishingDocId === doc.id}
+                                title="Make Private (Unpublish from student test catalog)"
+                                className="px-2 py-1 text-slate-500 hover:text-amber-800 rounded-lg hover:bg-amber-50 border border-slate-200 hover:border-amber-300 text-[11px] font-semibold flex items-center gap-1 transition-all"
+                              >
+                                <Lock className="w-3 h-3 text-slate-400" />
+                                <span>Unpublish</span>
+                              </button>
+                            )}
+                          </div>
+                        ) : (
+                          currentUser?.role === "ADMIN" && (
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              isLoading={publishingDocId === doc.id}
+                              onClick={() => handleTogglePublish(doc)}
+                              disabled={doc.questionCount === 0}
+                              className="w-full text-[11px] justify-center font-bold text-blue-700 bg-blue-50/70 hover:bg-blue-100/70 border-blue-200 shadow-2xs"
+                            >
+                              <Globe className="w-3.5 h-3.5 mr-1 text-blue-600" />
+                              <span>Make Public (Publish Live Exam)</span>
+                            </Button>
+                          )
+                        )}
+                      </div>
                     </div>
 
                     {/* Card Actions Footer */}
@@ -567,6 +749,16 @@ export default function QuestionBankPage() {
                 <span className="text-xs uppercase font-mono font-bold text-blue-600 bg-blue-50 border border-blue-100 px-2 py-0.5 rounded">
                   Paper Details
                 </span>
+                {selectedDoc.isPublic ? (
+                  <span className="text-xs font-bold text-emerald-800 bg-emerald-100 border border-emerald-300 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-2xs">
+                    <Globe className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
+                    <span>Public Live Exam</span>
+                  </span>
+                ) : (
+                  <span className="text-xs font-semibold text-slate-600 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full">
+                    Private Draft
+                  </span>
+                )}
                 <h2 className="text-xl font-bold text-slate-900 tracking-tight">
                   {selectedDoc.fileName}
                 </h2>
@@ -581,7 +773,47 @@ export default function QuestionBankPage() {
               </div>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
+              {selectedDoc.isPublic ? (
+                <>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => handleOpenResultsModal(selectedDoc)}
+                    className="font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border-emerald-300 shadow-xs"
+                  >
+                    <BarChart2 className="w-4 h-4 mr-1.5 text-emerald-600" />
+                    <span>Inspect Results</span>
+                  </Button>
+                  {currentUser?.role === "ADMIN" && (
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      isLoading={publishingDocId === selectedDoc.id}
+                      onClick={() => handleTogglePublish(selectedDoc)}
+                      className="font-semibold text-slate-600 hover:text-amber-800 hover:bg-amber-50 border-slate-300"
+                    >
+                      <Lock className="w-4 h-4 mr-1 text-slate-400" />
+                      <span>Unpublish</span>
+                    </Button>
+                  )}
+                </>
+              ) : (
+                currentUser?.role === "ADMIN" && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    isLoading={publishingDocId === selectedDoc.id}
+                    onClick={() => handleTogglePublish(selectedDoc)}
+                    disabled={selectedDoc.questionCount === 0}
+                    className="font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 border-blue-200 shadow-xs"
+                  >
+                    <Globe className="w-4 h-4 mr-1.5 text-blue-600" />
+                    <span>Make Public</span>
+                  </Button>
+                )
+              )}
+
               <Button
                 variant="primary"
                 size="sm"
@@ -589,7 +821,7 @@ export default function QuestionBankPage() {
                 className="font-bold shadow-xs"
               >
                 <PlayCircle className="w-4 h-4 mr-1.5" />
-                Create Mock From This Paper
+                Start Practice Mock
               </Button>
 
               <Button
@@ -956,6 +1188,305 @@ export default function QuestionBankPage() {
               })}
             </div>
           )}
+        </div>
+      )}
+
+      {/* ============================================================= */}
+      {/* 4. CANDIDATE RESULTS & SCORECARDS MODAL                      */}
+      {/* ============================================================= */}
+      {resultsModalDoc && (
+        <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs z-50 flex items-center justify-center p-3 sm:p-5 animate-in fade-in duration-200">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[92vh] flex flex-col overflow-hidden border border-slate-200">
+            {/* Modal Header */}
+            <div className="p-5 border-b border-slate-200 bg-slate-50 flex items-center justify-between gap-4">
+              <div>
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300">
+                    Live Exam Analytics
+                  </span>
+                  <span className="text-xs text-slate-500 font-mono">
+                    ID: {resultsModalDoc.id.slice(0, 8)}
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-slate-900 line-clamp-1">
+                  {resultsModalDoc.fileName}
+                </h3>
+                <p className="text-xs text-slate-500">
+                  Real-time authoritative evaluations &amp; student submissions
+                </p>
+              </div>
+
+              <button
+                onClick={() => setResultsModalDoc(null)}
+                className="p-2 text-slate-400 hover:text-slate-600 rounded-xl hover:bg-slate-200/60 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Modal Scrollable Body */}
+            <div className="p-5 overflow-y-auto space-y-5">
+              {resultsLoading ? (
+                <div className="py-16 text-center text-slate-500">
+                  <RefreshCw className="w-6 h-6 animate-spin mx-auto text-blue-600 mb-2" />
+                  <p className="text-xs font-medium">Fetching candidate submissions...</p>
+                </div>
+              ) : (
+                <>
+                  {/* Summary Metric Cards */}
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                      <div className="text-[11px] font-semibold text-slate-500">Total Attempts</div>
+                      <div className="text-2xl font-black font-mono text-slate-900 mt-1">
+                        {resultsData?.stats?.totalAttempts ?? 0}
+                      </div>
+                      <div className="text-[10px] text-slate-400 mt-0.5">Candidates Evaluated</div>
+                    </div>
+
+                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                      <div className="text-[11px] font-semibold text-slate-500">Average Score</div>
+                      <div className="text-2xl font-black font-mono text-blue-600 mt-1">
+                        {resultsData?.stats?.averageScore ?? 0}
+                      </div>
+                      <div className="text-[10px] text-slate-400 mt-0.5">Mean Score</div>
+                    </div>
+
+                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                      <div className="text-[11px] font-semibold text-slate-500">Highest Score</div>
+                      <div className="text-2xl font-black font-mono text-emerald-600 mt-1">
+                        {resultsData?.stats?.highestScore ?? 0}
+                      </div>
+                      <div className="text-[10px] text-emerald-700 mt-0.5">Topper Mark</div>
+                    </div>
+
+                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                      <div className="text-[11px] font-semibold text-slate-500">Paper Status</div>
+                      <div className="text-base font-bold text-emerald-700 mt-1 flex items-center gap-1.5">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                        <span>Public &amp; Live</span>
+                      </div>
+                      <div className="text-[10px] text-slate-400 mt-0.5">Active in portal</div>
+                    </div>
+                  </div>
+
+                  {/* Actions Bar */}
+                  <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
+                    <div className="text-xs font-bold text-slate-800">
+                      Candidate Submissions ({resultsData?.results?.length ?? 0})
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      <a
+                        href={`/api/admin/documents/${resultsModalDoc.id}/results?export=csv`}
+                        download
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold shadow-2xs transition-all"
+                      >
+                        <Download className="w-3.5 h-3.5 text-slate-600" />
+                        <span>Download Report (CSV)</span>
+                      </a>
+
+                      {currentUser?.role === "ADMIN" && (
+                        <button
+                          onClick={() => {
+                            setEmailSubject(`Official Scorecard: ${resultsModalDoc.fileName}`);
+                            setEmailNotes("You have successfully completed the examination. Your official evaluated marks and performance metrics are provided below.");
+                            setEmailFeedback(null);
+                            setShowEmailModal(true);
+                          }}
+                          disabled={!resultsData?.results || resultsData?.results.length === 0}
+                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-black text-white text-xs font-bold shadow-xs transition-all disabled:opacity-50"
+                        >
+                          <Mail className="w-3.5 h-3.5 text-blue-300" />
+                          <span>Email Scorecards</span>
+                        </button>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Results Table */}
+                  <div className="border border-slate-200 rounded-xl overflow-hidden shadow-2xs">
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-left text-xs">
+                        <thead className="bg-slate-100 text-slate-700 font-bold uppercase text-[10px] border-b border-slate-200">
+                          <tr>
+                            <th className="py-2.5 px-3">Rank</th>
+                            <th className="py-2.5 px-3">Roll No</th>
+                            <th className="py-2.5 px-3">Candidate</th>
+                            <th className="py-2.5 px-3">Email</th>
+                            <th className="py-2.5 px-3">Score</th>
+                            <th className="py-2.5 px-3">Percentage</th>
+                            <th className="py-2.5 px-3">Accuracy</th>
+                            <th className="py-2.5 px-3">Submitted At</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 font-sans">
+                          {(!resultsData?.results || resultsData.results.length === 0) ? (
+                            <tr>
+                              <td colSpan={8} className="py-10 text-center text-slate-400 text-xs">
+                                No candidate test attempts recorded yet.
+                                <br />
+                                When candidates submit this exam, their official marks appear here.
+                              </td>
+                            </tr>
+                          ) : (
+                            resultsData.results.map((r: any) => (
+                              <tr key={r.attemptId} className="hover:bg-slate-50/80 transition-colors">
+                                <td className="py-2.5 px-3 font-mono font-bold text-slate-600">
+                                  #{r.rank}
+                                </td>
+                                <td className="py-2.5 px-3 font-mono text-slate-700 font-medium">
+                                  {r.rollNo}
+                                </td>
+                                <td className="py-2.5 px-3 font-semibold text-slate-900">
+                                  {r.name}
+                                </td>
+                                <td className="py-2.5 px-3 text-slate-500 font-mono text-[11px]">
+                                  {r.email}
+                                </td>
+                                <td className="py-2.5 px-3 font-mono font-bold text-blue-600">
+                                  {r.score} / {r.totalMarks}
+                                </td>
+                                <td className="py-2.5 px-3 font-mono text-slate-700">
+                                  {r.percentage}
+                                </td>
+                                <td className="py-2.5 px-3 font-mono text-slate-700">
+                                  {r.accuracy}
+                                </td>
+                                <td className="py-2.5 px-3 text-slate-400 text-[11px] whitespace-nowrap">
+                                  {r.submittedAt ? new Date(r.submittedAt).toLocaleDateString("en-IN", {
+                                    day: "2-digit",
+                                    month: "short",
+                                    hour: "2-digit",
+                                    minute: "2-digit",
+                                  }) : "--"}
+                                </td>
+                              </tr>
+                            ))
+                          )}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+
+            {/* Modal Footer */}
+            <div className="p-4 border-t border-slate-200 bg-slate-50 flex items-center justify-end">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setResultsModalDoc(null)}
+                className="font-semibold text-xs"
+              >
+                Close
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ============================================================= */}
+      {/* 5. EMAIL SCORECARDS MODAL DIALOG                              */}
+      {/* ============================================================= */}
+      {showEmailModal && resultsModalDoc && (
+        <div className="fixed inset-0 bg-slate-950/70 backdrop-blur-xs z-[60] flex items-center justify-center p-4 animate-in fade-in duration-150">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-6 space-y-4 border border-slate-200">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center">
+                  <Mail className="w-4 h-4" />
+                </div>
+                <h3 className="font-bold text-slate-900 text-base">
+                  Email Official Scorecards
+                </h3>
+              </div>
+              <button
+                onClick={() => setShowEmailModal(false)}
+                className="text-slate-400 hover:text-slate-600 p-1"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <p className="text-xs text-slate-500">
+              This will dispatch evaluation emails containing marks secured, accuracy, and solution links to all {resultsData?.results?.length ?? 0} candidate(s) who attempted <strong className="text-slate-800">{resultsModalDoc.fileName}</strong>.
+            </p>
+
+            {emailFeedback && (
+              <div className="p-3 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                <span>{emailFeedback}</span>
+              </div>
+            )}
+
+            <div className="space-y-3 pt-1">
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  Target Candidate Email (Recipient) <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  value={targetCandidateEmail}
+                  onChange={(e) => setTargetCandidateEmail(e.target.value)}
+                  className="w-full text-xs px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 font-sans"
+                  placeholder="e.g. candidate@gmail.com"
+                  required
+                />
+                <p className="text-[11px] text-slate-500 mt-0.5">
+                  The official scorecard will be dispatched directly to this candidate email address.
+                </p>
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  Email Subject
+                </label>
+                <input
+                  type="text"
+                  value={emailSubject}
+                  onChange={(e) => setEmailSubject(e.target.value)}
+                  className="w-full text-xs px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 font-sans"
+                  placeholder="Official Examination Scorecard..."
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  Custom Examiner Notes / Message
+                </label>
+                <textarea
+                  rows={3}
+                  value={emailNotes}
+                  onChange={(e) => setEmailNotes(e.target.value)}
+                  className="w-full text-xs px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 font-sans"
+                  placeholder="Additional feedback or notes for candidates..."
+                />
+              </div>
+            </div>
+
+            <div className="pt-2 flex items-center justify-end gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setShowEmailModal(false)}
+                className="text-xs"
+              >
+                Cancel
+              </Button>
+
+              <Button
+                variant="primary"
+                size="sm"
+                isLoading={isSendingEmails}
+                onClick={handleSendEmails}
+                className="text-xs font-bold bg-slate-900 hover:bg-black"
+              >
+                <Send className="w-3.5 h-3.5 mr-1" />
+                Dispatch Scorecards
+              </Button>
+            </div>
+          </div>
         </div>
       )}
     </div>

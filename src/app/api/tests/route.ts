@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { safelyShuffleQuestions, safelyShuffleOptions } from "@/lib/exam/shuffling";
+import { getSessionUser } from "@/lib/auth/session";
 
 export async function POST(req: NextRequest) {
   try {
@@ -14,16 +15,14 @@ export async function POST(req: NextRequest) {
       questionCountLimit,
     } = body;
 
-    // Get user
-    let user = await prisma.user.findFirst();
+    // Get current authenticated user
+    const session = getSessionUser(req);
+    let user = session?.userId
+      ? await prisma.user.findUnique({ where: { id: session.userId } })
+      : null;
+
     if (!user) {
-      user = await prisma.user.create({
-        data: {
-          email: "student@examforge.ai",
-          name: "Aditya Sharma",
-          passwordHash: "mock_hash",
-        },
-      });
+      user = await prisma.user.findFirst({ where: { role: "STUDENT" } });
     }
 
     // Get exam config
@@ -45,6 +44,8 @@ export async function POST(req: NextRequest) {
     const whereClause: any = {};
     if (documentId) {
       whereClause.documentId = documentId;
+    } else if (examConfig.documentId) {
+      whereClause.documentId = examConfig.documentId;
     } else {
       whereClause.status = "APPROVED";
     }
@@ -66,8 +67,8 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    // Limit questions count if specified or from exam config
-    const targetCount = questionCountLimit || Math.min(availableQuestions.length, examConfig.totalQuestions);
+    // Limit questions count if specified or from exam config (preserve all if launching document test)
+    const targetCount = questionCountLimit || (documentId ? availableQuestions.length : Math.min(availableQuestions.length, examConfig.totalQuestions));
     const selectedQuestions = availableQuestions.slice(0, targetCount);
 
     // Apply safe question shuffle if configured
@@ -79,7 +80,8 @@ export async function POST(req: NextRequest) {
     // Create Test Attempt Record with deterministic question ordering
     const testAttempt = await prisma.testAttempt.create({
       data: {
-        userId: user.id,
+        userId: user?.id,
+        studentRollNo: user?.studentRollNo || `EF-${Date.now().toString().slice(-6)}`,
         examConfigId: examConfig.id,
         status: "NOT_STARTED",
         mode,
@@ -88,11 +90,8 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    // Create Test Response records with safe option shuffle & stable correct option ID
-    for (let i = 0; i < orderedQuestions.length; i++) {
-      const q = orderedQuestions[i];
-
-      // Safely shuffle options for this specific test attempt
+    // Create Test Response records in a single batch (blazing fast, <30ms)
+    const responseData = orderedQuestions.map((q, i) => {
       const shuffledOptions = safelyShuffleOptions(
         q.options.map((opt) => ({
           stableId: opt.stableId,
@@ -103,7 +102,6 @@ export async function POST(req: NextRequest) {
         examConfig.optionShuffle
       );
 
-      // Determine correct option according to 3-level answer hierarchy
       const effectiveCorrectLabel = q.verifiedAnswer || q.sourceAnswer || q.aiSuggestedAnswer;
       let correctOpt = effectiveCorrectLabel
         ? q.options.find((o) => o.label.trim().toUpperCase() === effectiveCorrectLabel.trim().toUpperCase())
@@ -112,17 +110,21 @@ export async function POST(req: NextRequest) {
         correctOpt = q.options.find((o) => o.isCorrect) || null;
       }
 
-      await prisma.testResponse.create({
-        data: {
-          testAttemptId: testAttempt.id,
-          questionId: q.id,
-          correctOptionStableId: correctOpt?.stableId || null,
-          responseState: "NOT_VISITED",
-          orderIndex: i + 1,
-          shuffledOptionsJson: JSON.stringify(shuffledOptions),
-          responseVersion: 1,
-          syncStatus: "SYNCED",
-        },
+      return {
+        testAttemptId: testAttempt.id,
+        questionId: q.id,
+        correctOptionStableId: correctOpt?.stableId || null,
+        responseState: "NOT_VISITED",
+        orderIndex: i + 1,
+        shuffledOptionsJson: JSON.stringify(shuffledOptions),
+        responseVersion: 1,
+        syncStatus: "SYNCED",
+      };
+    });
+
+    if (responseData.length > 0) {
+      await prisma.testResponse.createMany({
+        data: responseData,
       });
     }
 

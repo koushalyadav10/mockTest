@@ -42,6 +42,9 @@ export async function POST(req: NextRequest) {
     const passwordHash = hashPassword(password);
     const rollNo = `EF-${Date.now().toString().slice(-6)}`;
 
+    // Public signup is strictly STUDENT role only - client role parameter is completely ignored
+    const userRole = "STUDENT";
+
     // Create or update unverified user
     const user = existing
       ? await prisma.user.update({
@@ -49,7 +52,8 @@ export async function POST(req: NextRequest) {
           data: {
             name: name.trim(),
             passwordHash,
-            role: role === "ADMIN" || role === "TEACHER" ? role : "STUDENT",
+            role: userRole,
+            status: "ACTIVE",
           },
         })
       : await prisma.user.create({
@@ -57,7 +61,8 @@ export async function POST(req: NextRequest) {
             email: normalizedEmail,
             name: name.trim(),
             passwordHash,
-            role: role === "ADMIN" || role === "TEACHER" ? role : "STUDENT",
+            role: userRole,
+            status: "ACTIVE",
             studentRollNo: rollNo,
             isEmailVerified: false,
           },

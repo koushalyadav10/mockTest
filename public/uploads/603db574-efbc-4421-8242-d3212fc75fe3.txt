@@ -1,0 +1,708 @@
+1. The weights of the five friends are 67 kg, 85 kg, 70 kg, 90 kg and 103 kg. Find the average of their weights in kg.
+   (A) 80
+   (B) 90
+   (C) 87
+   (D) 83
+2. At a courier shop, the weights of 8 parcels were found to be 1.5 kg, 1.25 kg, 1.35 kg, 750 gm, 950 gm, 0.7 kg, 0.4 kg, and 0.5 kg. Find their average weight.
+   (A) 925 gm
+   (B) 700 gm
+   (C) 875 gm
+   (D) 900 gm
+3. The salaries of T in twelve months of a year are: ₹12,000, ₹12,000, ₹12,000, ₹15,000, ₹15,000, ₹15,000, ₹21,000, ₹21,000, ₹21,000, ₹30,000, ₹30,000, ₹30,000. The average salary of T per month in ₹ is _____.
+   (A) 18000
+   (B) 19500
+   (C) 18500
+   (D) 19000
+4. From the following table, find the average weight (in kg) of the given persons.
+Name	Weight (kg)
+Aman	52.7
+Sudha	54
+Vishal	55.2
+Sumedha	57.4
+Sahil	58.7
+Usha	58
+
+
+(A) 56
+(B) 55.5
+(C) 56.33
+(D) 54.33  
+5. If the average of 20, 25, (p + 1), (2p + 5) and (p + 11) is 22, then the value of p is:
+   (A) 8
+   (B) 16
+   (C) 18
+   (D) 12
+6. Find the average of 3²⁰, 3³⁰, 3⁴⁰.
+   (A) (3²⁰ + 3¹⁰ + 3⁴⁰)
+   (B) 3³⁰
+   (C) (3²⁰ + 3³⁰ + 3⁴⁰)
+   (D) (3¹⁹ + 3²⁹ + 3³⁹)
+7. During a donation drive week of school, students determined to donate an average sum of ₹8000 on each working day of the school, collectively (there was no holiday in the donation week except Sunday). From Monday to Friday, they collected ₹7230, ₹6435, ₹6855, ₹6927 and ₹6562, respectively. How much they must collect on Saturday to meet their target?
+   (A) ₹6991
+   (B) ₹13991
+   (C) ₹6000
+   (D) ₹4991
+8. A man bought 4 books for ₹50 each, 5 books for ₹60 each and 6 books for ₹70 each. The average cost of a book for the man is (round up to two decimal places):
+   (A) ₹60.33
+   (B) ₹50.33
+   (C) ₹36.33
+   (D) ₹61.33
+9. In June, Rohit's bank account balance is ₹5,000 for 25 days, ₹20,000 for 2 days and ₹1,500 for 3 days. What is the average balance (in ₹) in Rohit's bank account in June?
+   (A) 5575
+   (B) 5650
+   (C) 5200
+   (D) 6000
+10. The average monthly expenditure of a family was ₹2,500 during the first 4 months, ₹2,750 during the next 5 months and ₹3,550 during the last 3 months of a year. If the total saving during the year was ₹5,500, what was the average monthly income of the family?
+    (A) Rs.3,325
+    (B) Rs.4,375
+    (C) Rs.5,790
+    (D) Rs.7,355
+11. In a subject, there are 40 marks for practical and 110 marks for theory. In another subject, the practical marks are 60 and the theory marks are 40. If R gets an average mark of 40 in practical and an average mark of 60 in theory, then his average marks per subject are _____.
+    (A) 80
+    (B) 60
+    (C) 100
+    (D) 40
+12. In ₹150, B buys 10 pens for ₹8 each, 10 erasers for ₹5 each and some sharpeners for ₹4 each. What is the average price per item in ₹?
+    (A) 8
+    (B) 7
+    (C) 10
+    (D) 6
+13. In a company, the total number of customer calls on Monday, Wednesday and Friday are 15,500 and the total number of calls on Tuesday and Thursday are 12,500. The average call numbers on Saturday and Sunday are 7,000. So tell me how many average calls are made per day in a week?
+    (A) 6500
+    (B) 7500
+    (C) 7000
+    (D) 6000
+14. The average monthly income of A and B is ₹7,000. The average monthly income of B and C is ₹7,750 and the average monthly income of C and A is ₹6,750. What is the monthly income of B?
+    (A) ₹6,500
+    (B) ₹8,000
+    (C) ₹7,500
+    (D) ₹6,000
+15. A man spends ₹2300 monthly on average for the first four months and ₹1800 monthly for the next eight months and saves ₹12,400 a year. Find his monthly income.
+    (A) ₹3,000
+    (B) ₹2,400
+    (C) ₹2,200
+    (D) ₹2,100
+16. The average marks obtained by Saloni in four papers is 51, and in the fifth paper she obtained 56 marks. Find his new average in all the five papers.
+    (A) 52
+    (B) 49
+    (C) 50
+    (D) 51
+17. If the average of s number is r⁴ and the average of r number is s⁴, then find the average of all r + s number?
+    (A) rs(r² + s² − rs)
+    (B) rs
+    (C) r² + s²
+    (D) rs(r² + s²)
+18. In a Hindi exam of 100 marks, 11 students got 78 marks, 7 students got 80 marks, 5 students got 82 marks and 2 students got 86 marks. What was the average marks in Hindi?
+    (A) 84
+    (B) 86
+    (C) 82
+    (D) 80
+19. A shopkeeper has a sale of ₹5,445, ₹5,937, ₹5,865 and ₹6,562 for 4 consecutive days. If he gets an average sale of ₹6,050 for 5 days, then his sale on the fifth day is:
+    (A) ₹6,131
+    (B) ₹6,441
+    (C) ₹6,231
+    (D) ₹6,341
+20. The average of 11 results is 59 and that of the first 10 is 58. The 11th result is?
+    (A) 58
+    (B) 68
+    (C) 69
+    (D) 59
+21. The average of five integers is 48. The average of the first four integers is 50% of the 5th integer. The 5th integer is.
+    (A) 74
+    (B) 80
+    (C) 78
+    (D) 82
+22. A shopkeeper has a sale of ₹10,000, ₹7,500, ₹8,000 and ₹10,500 for 4 consecutive months. How much sale must he have in the fifth month if he gets an average sale of ₹9,000 in five months?
+    (A) ₹10,200
+    (B) ₹8,500
+    (C) ₹11,000
+    (D) ₹9,000
+23. The average of 50 numbers is 23. If each number is multiplied by 13, then the new average is:
+    (A) 299
+    (B) 88
+    (C) 219
+    (D) 650
+24. If the average of 50 numbers N₁, N₂, …, N₅₀ is M. Then the average of the numbers N₁ − 100, N₂ − 100, …, N₅₀ − 100 be:
+    (A) 50 M
+    (B) 100 M
+    (C) M − 50
+    (D) M − 100
+25. The average of twelve numbers is 25. If 6 is added to each number, what will be the new average?
+    (A) 31
+    (B) 20
+    (C) 25
+    (D) 19
+26. The average of n numbers is 45. If 60% the numbers are increased by 5 each and the remaining numbers are decreased by 10 each, then what is the average of the numbers so obtained?
+    (A) 42
+    (B) 43
+    (C) 46
+    (D) 44
+27. Consider ten consecutive odd numbers starting from 5. Multiply each of them, except the first and the second, with three. What will be the average of the ten numbers so formed?
+    (A) 39.6
+    (B) 39
+    (C) 42
+    (D) 38.4
+28. The average of six numbers is 4. The average of two of them is 3.5, while the average of the other two is 3.75. What is the average of the remaining two numbers?
+    (A) 8.375
+    (B) 4.85
+    (C) 4.65
+    (D) 4.75
+29. The average age of 30 students in a class is 12 years. The average age of a group of 5 of the students is 10 years and that of another group of 5 of them is 14 years. The average of the remaining students is:
+    (A) 14 years
+    (B) 12 years
+    (C) 11 years
+    (D) 13 years
+30. Find the weighted arithmetic mean of the first n natural numbers, the weights being the corresponding numbers.
+    (A) n(n + 1)(2n + 1) / 6
+    (B) n(n + 1) / 6
+    (C) (2n + 1) / 3
+    (D) n
+31. Sudesh is the owner of a multipurpose shop. For a specific month, his profits are below:
+Category	Profit earned in ₹
+Groceries	50,000
+Cosmetics	20,000
+Ladies dresses	10,000
+
+
+In order to estimate the expected profit for the next month, he assigns the weights of 6, 5 and 8 to the different categories in the same order. What will be the weighted average of his profits?
+(A) ₹25,265.18 (nearly)
+(B) ₹25,863.16 (nearly)
+(C) ₹25,163.16 (nearly)
+(D) ₹25,263.16 (nearly)  
+32. Sonali applied for a job of Science teacher in a school. In the test for job, she scored 8 in Physics, 8 in Chemistry, 6 in Biology, and 6.5 in the interview. For calculating the final score, weightage of 2, 3, 3, and 4 were assigned to Physics, Chemistry, Biology and interview, respectively. What is the weighted average score of Sonali?
+    (A) 7
+    (B) 8.4
+    (C) 7.2
+    (D) 21
+33. The average of the first 10 natural numbers is:
+    (A) 6
+    (B) 6.5
+    (C) 5.5
+    (D) 5
+34. The average of the first 69 natural numbers is:
+    (A) 34
+    (B) 35
+    (C) 33
+    (D) 36
+35. Find the average of first 125 natural numbers.
+    (A) 62.5
+    (B) 63
+    (C) 62
+    (D) 63.5
+36. Find the average of natural numbers from 1 to 69 (both included).
+    (A) 33
+    (B) 31
+    (C) 37
+    (D) 35
+37. What is the average of natural numbers from 1 to 73?
+    (A) 37
+    (B) 30
+    (C) 28
+    (D) 34
+38. The average of the squares of the first 45 natural numbers is
+    (A) 698.67
+    (B) 699.67
+    (C) 697.67
+    (D) 696.67
+39. The average of the squares of the first 46 natural numbers is
+    (A) 729.5
+    (B) 728.5
+    (C) 727.5
+    (D) 730.5
+40. The average of the squares of the first 47 natural numbers is
+    (A) 760
+    (B) 761
+    (C) 759
+    (D) 762
+41. The average of the squares of the first 48 natural numbers is
+    (A) 793.17
+    (B) 791.17
+    (C) 794.17
+    (D) 792.17
+42. Find the average of the squares of the first five even natural numbers.
+    (A) 46
+    (B) 44
+    (C) 40
+    (D) 42
+43. The average of first 91 even number is
+    (A) 92
+    (B) 90
+    (C) 91
+    (D) 93
+44. The average of first 92 even numbers is:
+    (A) 94
+    (B) 91
+    (C) 92
+    (D) 93
+45. The average of 10 consecutive integers is 33/2. What is the average of first three integers?
+    (A) 12
+    (B) 13
+    (C) 15
+    (D) 11
+46. 10 consecutive numbers are given. If the average of the two numbers given in the middle is 13.5, then what is the sum of the first 6 numbers?
+    (A) 58
+    (B) 55
+    (C) 67
+    (D) 69
+47. The average of four consecutive even numbers a, b, c and d is 33. The value of |bd − ac| is:
+    (A) 144
+    (B) 132
+    (C) 112
+    (D) 121
+48. The average of 5 consecutive even numbers is A. If next 5 even numbers are also included, then what is the average of these 10 numbers?
+    (A) A + 7
+    (B) A + 2
+    (C) A + 9
+    (D) A + 5
+49. What is the difference between the average of first 148 even positive numbers and the average of first 148 odd positive numbers?
+    (A) 23
+    (B) 21
+    (C) 19
+    (D) 20
+50. The average of square of five consecutive odd natural numbers is 233. What is the average of the largest number and the smallest number?
+    (A) 11
+    (B) 17
+    (C) 13
+    (D) 15
+51. The average of eleven consecutive positive integers is d. If the last two numbers are excluded, by how much will the average increase or decrease?
+    (A) Will decrease by 1
+    (B) Will increase by 2
+    (C) Will increase by 1
+    (D) Will decrease by 2
+52. Average of 9 consecutive odd numbers is 27. If the previous and next odd number to these 9 odd numbers are also included, then what will be new average?
+    (A) 32
+    (B) 28
+    (C) 29
+    (D) 27
+53. The average of five consecutive even numbers is M. If the next five even numbers are also included, the average of ten numbers will be
+    (A) M + 5
+    (B) 11
+    (C) 10
+    (D) M + 10
+54. The average of five consecutive odd numbers is m. If the next three numbers are also included, then what is the increase in the average?
+    (A) 3
+    (B) 0
+    (C) 17
+    (D) 8
+55. The average of 7 consecutive odd numbers is A. If next 3 and previous 2 odd numbers to these 7 odd numbers are also included, then what is the new average of these 12 consecutive odd numbers?
+    (A) A + 1
+    (B) A − 2
+    (C) A + 2
+    (D) A + 3
+56. The average of 35 consecutive natural numbers is N. Dropping the first 10 numbers and including the next 10 numbers, the average is changed to M. If the value of M² − N² = 600, then the average of 3M and 5N is:
+    (A) 90
+    (B) 120
+    (C) 100
+    (D) 115
+57. What is the average of the first six prime numbers?
+    (A) 6 2/3
+    (B) 6 5/6
+    (C) 6 1/6
+    (D) 6 1/3
+58. Find the average of the prime numbers lying between 50 and 76.
+    (A) 66
+    (B) 60
+    (C) 62
+    (D) 64
+59. What is the ratio of the average of first eight prime numbers to the average of first ten even natural numbers?
+    (A) 1 : 7
+    (B) 7 : 80
+    (C) 8 : 70
+    (D) 7 : 8
+60. John buys 20 kg of wheat at ₹30 per kg and 30 kg of wheat at ₹50 per kg. Find his average price.
+    (A) ₹40 per kg
+    (B) ₹20 per kg
+    (C) ₹42 per kg
+    (D) ₹21 per kg
+61. The average score of a batsman in twenty matches is 15 and in twenty-five other matches is 24. Find the average score in all the forty-five matches.
+    (A) 21
+    (B) 20
+    (C) 19.5
+    (D) 22
+62. A school has two sections of a class. Section A has 30 students and Section B has 20 students. The average score of the students in Section A is 85, and the average score of the students in Section B is 70. What is the overall average score of the class?
+    (A) 78
+    (B) 81
+    (C) 79
+    (D) 80
+63. In a class of 150 students (boys and girls only), the girls are 60. The average weight of boys is 52 kg and that of girls is 48 kg. What is the average weight (in kg) of the whole class?
+    (A) 50.4
+    (B) 48.8
+    (C) 49.6
+    (D) 51.2
+64. If the average weight of 40 apples is 33 kg and that of 32 apples is 60 kg, then the average weight (in kg) of all the apples is:
+    (A) 45
+    (B) 45.2
+    (C) 46.5
+    (D) 44
+65. A fruit seller has 10 kg of apples and 5 kg of grapes. The price of 1 kg of apples is ₹94.50 and that of grapes is ₹105. He sold all the fruits with him. What is the average amount (in ₹) received by the fruit seller?
+    (A) 101.50
+    (B) 98
+    (C) 100
+    (D) 97.50
+66. If the average score of a cricketer in three matches is 38 and in two other matches is 23, then what is the average score in all five matches?
+    (A) 32
+    (B) 30
+    (C) 34
+    (D) 36
+67. Class X has 45 students scoring average marks of 30 and class Y has 35 students scoring average marks of 18. Find the average marks of the students of both classes together.
+    (A) 25
+    (B) 24.75
+    (C) 28.50
+    (D) 30
+68. The average expenditure of 32 persons is ₹6,000 and that of another 40 persons is ₹3,300. The average expenditure of the whole group is:
+    (A) ₹4,800
+    (B) ₹4,650
+    (C) ₹4,500
+    (D) ₹4,162
+69. The average weight of group A and group B is 12 kg and 24 kg respectively. The ratio of the members in group A to group B is 1 : 2. Find the combined average of both the groups.
+    (A) 16 kg
+    (B) 22 kg
+    (C) 20 kg
+    (D) 18 kg
+70. In an examination of 7 papers of 100 marks each, there were 3 mathematics papers, 2 English papers and 2 Hindi papers. D gets average marks of 45, 55 and 60 in mathematics, English and Hindi, respectively. What are the average marks per paper?
+    (A) 56.5
+    (B) 52.1
+    (C) 55.6
+    (D) 54.1
+71. If the average marks of three batches of 55, 60 and 45 students are 50, 55 and 60 respectively, then what are the average marks of all the students?
+    (A) 51.23
+    (B) 55.98
+    (C) 57.42
+    (D) 54.68
+72. In a class, there are 29 boys and 21 girls. The average score of boys in Maths is 89, whereas the average score of girls in maths is 91. What is the average of the whole class in maths?
+    (A) 91
+    (B) 89
+    (C) 91.84
+    (D) 89.84
+73. A group of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 62. What is the average score of the group?
+    (A) 62
+    (B) 63
+    (C) 60
+    (D) 61
+74. A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 74. What is the average score of the class?
+    (A) 70.2
+    (B) 69.2
+    (C) 68.2
+    (D) 67.2
+75. A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 72. What is the average score of the class?
+    (A) 66
+    (B) 68
+    (C) 67
+    (D) 69
+76. A group of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 76. What is the average score of the group?
+    (A) 71.4
+    (B) 68.4
+    (C) 69.4
+    (D) 70.4
+77. A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 68. What is the average score of the class?
+    (A) 63.6
+    (B) 65.6
+    (C) 66.6
+    (D) 64.6
+78. A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 60. What is the average score of the class?
+    (A) 58.8
+    (B) 61.8
+    (C) 60.8
+    (D) 59.8
+79. A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 78. What is the average score of the class?
+    (A) 72.6
+    (B) 69.6
+    (C) 70.6
+    (D) 71.6
+80. A class of 30 students appeared in a test. The average score of 12 students is 60, and that of the rest is 80. What is the average score of the class?
+    (A) 73
+    (B) 70
+    (C) 71
+    (D) 72
+81. In the 8th class, consisting of 30 students, a Mathematics test was taken. 10 students had an average score of 90. The other students had an average score of 75. What is the average score of the whole class?
+    (A) 78
+    (B) 80
+    (C) 76
+    (D) 74
+82. A class of 25 students took an English test. 15 students had an average score of 80. The other students had an average score of 60. What is the average score of the whole class?
+    (A) 72
+    (B) 80
+    (C) 76
+    (D) 74
+83. In a college, the average weight of 40 boys in a section among 72 students is 33 kg and that of the remaining students is 15 kg. What is the average weight of all the students in the section?
+    (A) 22 kg
+    (B) 24 kg
+    (C) 18 kg
+    (D) 25 kg
+84. Out of a class of 200 people, 50 people's average marks is 40, and the remaining 150 people's average is 60. Find the people's weighted average.
+    (A) 150
+    (B) 200
+    (C) 55
+    (D) 50
+85. A class of 40 students took a mathematics examination. The average marks of 18 students was 75. The average marks of other students was 62. What will be the average marks of the entire class?
+    (A) 67.85
+    (B) 72.52
+    (C) 68.50
+    (D) 69.85
+86. In two successive years, 75 and 50 employees of a company appeared at the departmental examination. Respectively, 84% and 52% of them passed. The average rate of pass percentage is:
+    (A) 41 1/5%
+    (B) 41%
+    (C) 71%
+    (D) 71 1/5%
+87. The university has 750 faculty (male and female only) out of which the females are 60%. The average height of females is 162 cm and that of males is 168 cm. What is the average height of the faculty (in cm) of the university?
+    (A) 164.4
+    (B) 166.4
+    (C) 163.4
+    (D) 161.4
+88. There are 12 workers in an office and the average age of all the workers is 35 1/2 years. A new worker joins the office, the average becomes 37 years. The current age of the newly joined worker is:
+    (A) 55 years
+    (B) 57 1/2 years
+    (C) 55 1/2 years
+    (D) 47 1/2 years
+89. The average weight of 40 students of a school is 52 kg. If the weight of the teacher is included, the average weight rises by 500 grams. Find the weight (in kg) of the teacher.
+    (A) 73.5
+    (B) 71.5
+    (C) 74.5
+    (D) 72.5
+90. Average weight of 20 persons is 60 kg. A new person joins the group and average weight of 21 persons becomes 59 kg. What will be the weight of new person?
+    (A) 41 kg
+    (B) 29 kg
+    (C) 39 kg
+    (D) 40 kg
+91. The average height of 5 boys is 175 cm. A sixth boy joined the group and the average height of all the boys in the group now increased by one centimeter. The height of the sixth boy is:
+    (A) 180 cm
+    (B) 181 cm
+    (C) 179 cm
+    (D) 175 cm
+92. The average weight of 32 students is 70 kg. If the weight of the teacher is included, the average weight of the class becomes 70.5 kg. Find the weight of the teacher.
+    (A) 86.5 kg
+    (B) 88.5 kg
+    (C) 84.5 kg
+    (D) 82.5 kg
+93. The average weight of 30 students in a class is 60 kg. If the weight of the class teacher is also included, the average increases by 0.5 kg. Find the weight of the teacher (in kg).
+    (A) 76.5
+    (B) 75.5
+    (C) 72.5
+    (D) 74.5
+94. Average weight of 15 persons is 30 kg. A new person whose weight is 78 kg joins the group. What will be the average weight of 16 persons?
+    (A) 31.5 kg
+    (B) 34 kg
+    (C) 33 kg
+    (D) 32 kg
+95. Average age of a team having 12 players is 24 years. If the age of the coach is also included, then the average age increases by 2 years. What is the age of the coach?
+    (A) 53 years
+    (B) 57 years
+    (C) 50 years
+    (D) 52 years
+96. The average weight of some students in a class was 58.4 kg. When 5 students having the average weight 62.8 kg joined the class, the average weight of all students in the class increased by 0.55 kg. The number of students initially in the class, were:
+    (A) 30
+    (B) 35
+    (C) 25
+    (D) 40
+97. The average weight of a group of 15 students is 70 kg. Five more students of weight 65 kg, 68 kg, 45 kg, 77 kg and 62 kg join the group. What is the change in the average weight (rounded off to the nearest integer) of the group?
+    (A) Increases by 2 kg
+    (B) Decreases by 2 kg
+    (C) Increases by 1 kg
+    (D) Decreases by 1 kg
+98. The average weight of 8 students is 48 kg. If four students of average weight 44 kg and four students of average weight 58 kg is also added, then find the average weight of 16 students.
+    (A) 49.5 kg
+    (B) 49 kg
+    (C) 48.5 kg
+    (D) 48 kg
+99. The average weight of a certain number of students in a class is 55.5 kg. If 4 students with average weight 60 kg join the class, then the average weight of all students in the class increases by 360 gm. The number of students in the class, initially, is:
+    (A) 41
+    (B) 31
+    (C) 36
+    (D) 46
+100. In a class with a certain number of students, if one student weighing 30 kg is added, then the average weight of the class increases by 1 kg. If one more student weighing 30 kg is added, then the average weight of the class increases by 1.5 kg over the original average. What is the original average weight (in kg) of the class?
+     (A) 27
+     (B) 26.5
+     (C) 25.5
+     (D) 24
+101. The average weight of 20 students of a class was 30.5 kg. After 6 new students joined the class, its average weight increased by 2 kg. Find the average weight of the 6 new students who joined the class (rounded off to one decimal place).
+     (A) 30.5 kg
+     (B) 39.2 kg
+     (C) 32.5 kg
+     (D) 38.5 kg
+102. The average age of the boys in the class was 16 years. When 4 boys whose average age was 13 years are admitted to the class, the average age of the class was reduced by 6 months. How many boys were there initially in the class?
+     (A) 18
+     (B) 25
+     (C) 22
+     (D) 20
+103. The average age of a group of friends is 27 years. If 4 new friends whose average age is 25 years join them, the average age of the entire group becomes 26 years. How many people were there in the group initially?
+     (A) 3
+     (B) 4
+     (C) 5
+     (D) 6
+104. The average marks scored by three students on a test were 55. When two more students (A and B) were added, the new average marks were reduced by 5. If B scores 15 marks more than A, what were the marks scored by A?
+     (A) 33
+     (B) 35
+     (C) 40
+     (D) 30
+105. The average age of a class of 6 girls is x years. Four new girls having ages x − 2, x + 4, x + 8 and x + 10 join the class. What is the new average age of the class?
+     (A) x − 2
+     (B) x + 2
+     (C) x + 5
+     (D) x + 1
+106. The average age of 24 workers and their supervisor is 41 years. If the supervisor's age is excluded, the average reduces by 0.75 years. The age of the supervisor is:
+     (A) 59 years
+     (B) 41 years 9 months
+     (C) 40 years 9 months
+     (D) 49 years
+107. The average age of 10 students and their class teacher is 17 years. If the age of the class teacher is excluded, the average age of the 10 students is reduced by 2 years. What is the age of the class teacher?
+     (A) 38 years
+     (B) 36 years
+     (C) 37 years
+     (D) 35 years
+108. In a hotel, there are 120 staff members. Their average weight is 62.5 kg. When one of the staff members leaves the hotel, the average weight is reduced by 250 gm. Find the weight of the staff member who left the hotel.
+     (A) 64.25 kg
+     (B) 78.75 kg
+     (C) 90.50 kg
+     (D) 92.25 kg
+109. There are six baskets - Green, Red, Blue, Yellow, Black and White. Each basket has some rings in it. The average number of rings in all the six baskets is 38. If the blue basket is removed, the average number of rings in the remaining baskets is 34. How many rings are there in the blue basket?
+     (A) 22
+     (B) 45
+     (C) 37
+     (D) 58
+110. There are 15 students in a class. Their average weight is 40 kg. When one student leaves the class, the average weight is 39.5 kg. What is the weight of the student who left the class?
+     (A) 47 kg
+     (B) 42 kg
+     (C) 52 kg
+     (D) 48 kg
+111. The average of 8 numbers is 18. If one of the numbers is excluded, the average becomes 20. Find the excluded number.
+     (A) 6
+     (B) 10
+     (C) 8
+     (D) 4
+112. The average weight of 35 students in a class is 40 kg. Five of the students of this class whose average weight is 42 kg left the class. Find the average weight of the remaining 30 students.
+     (A) 26 2/3 kg
+     (B) 39 2/3 kg
+     (C) 19 2/3 kg
+     (D) 49 2/3 kg
+113. Average marks obtained by 19 boys of a college is 48. If the highest marks and lowest marks obtained are removed, then the average reduces by 4. What is the average of the highest and lowest marks obtained?
+     (A) 82
+     (B) 80
+     (C) 84
+     (D) 76
+114. The average weight of 5 men decreases by 3 kg when one of them weighing 150 kg is replaced by another person. Find the weight of the new person.
+     (A) 125 kg
+     (B) 100 kg
+     (C) 120 kg
+     (D) 135 kg
+115. The average weight of 10 students is increased by half a kg when one of the students weighing 51 kg is replaced by a new student. Find the weight of the new student.
+     (A) 56 kg
+     (B) 75 kg
+     (C) 45 kg
+     (D) 66 kg
+116. The average weight of 5 boys is increased by 9 kg when one of them, whose weight is 39 kg, is replaced by another boy. What is the weight (in kg) of the new boy?
+     (A) 65
+     (B) 70
+     (C) 69
+     (D) 84
+117. The average weight of 10 persons is increased by 3.5 kg, when one of them whose weight is 45.5 kg is replaced by a new man. The weight (in kg) of the new man is:
+     (A) 70.5
+     (B) 85.5
+     (C) 80.5
+     (D) 75.5
+118. The average weight of 15 people increases by 3.2 kg when a new person comes in place of one of them weighing 52 kg. The weight of the new person is:
+     (A) 96 kg
+     (B) 100 kg
+     (C) 52 kg
+     (D) 48 kg
+119. The average weight of three men is increased by 4 kg when one of them, whose weight is 100 kg, is replaced by another man. What is the weight of the new man?
+     (A) 107 kg
+     (B) 103 kg
+     (C) 104 kg
+     (D) 112 kg
+120. The average weight of a class of 30 students is 45 kg. One of the student weight is 48.5 kg is replaced by another student and average was increased by 200 gm. Find the weight of the new student.
+     (A) 54.5 kg
+     (B) 50 kg
+     (C) 55 kg
+     (D) 51 kg
+121. The average weight of 49 students in a class is 39 kg. Seven of them whose average weight is 40 kg leave the class and other seven students whose average weight is 54 kg join the class. What is the new average weight (in kg) of the class?
+     (A) 41
+     (B) 39
+     (C) 42
+     (D) 40
+122. The average score in an English exam of a class of 45 students in a coaching centre is 52. A group of 6 boys having an average score of 40 leave the class and another group of eight boys having an average score of 43 join the class. What is the new average score of the class?
+     (A) 48
+     (B) 53
+     (C) 49.5
+     (D) 52
+123. There are some children in a camp and their average weight is 40 kg. If 5 children with average weight 36 kg join the camp or if 5 children with average weight 43.2 kg leave the camp, the average weight of children in both cases is equal. How many children are there in the camp, initially?
+     (A) 35
+     (B) 45
+     (C) 40
+     (D) 50
+124. The average height of a certain number of students in a group is 155.6 cm. If 12 students having an average height of 150.5 cm join the group and 7 students having an average height of 159 cm leave the group, the average height of the students in the group will decrease by 34 mm. What is the number of students, initially, in the group?
+     (A) 40
+     (B) 30
+     (C) 20
+     (D) 25
+125. The average weight of a certain number of students in a group is 72 kg. If 10 students having an average weight of 78 kg leave and 4 students having an average weight of 80 kg join the group, the average weight of the students in the group decreases by 0.7 kg. The number of students initially in the group is:
+     (A) 56
+     (B) 46
+     (C) 44
+     (D) 54
+126. The average weight of a group of 12 girls is 48 kg. If 2 girls R and S replace P and Q, the new average weight becomes 46 kg. The weight of P = the weight of Q. The weight of R = the weight of S. Another girl T is included in the group and the new average weight becomes 46 kg. The weight of T = the weight of R. What is the weight of P (in kg)?
+     (A) 56
+     (B) 58
+     (C) 54
+     (D) 50
+127. The average weight of a group of 12 children is 66 kg. If instead of A and B, 2 children, X and Y, join the group, then the new average weight becomes 65 kg. Weight of A = weight of B and weight of X = weight of Y. Another child C is added to the group and the new average weight remains 65 kg. Weight of C = Weight of X. Find the weight of A?
+     (A) 67 kg
+     (B) 69 kg
+     (C) 71 kg
+     (D) 72 kg
+128. The average age of 30 students is 15 years. It was observed that while calculating the average age the age of a student was taken as 15 years instead of 9 years. What will be the correct average?
+     (A) 14.2 years
+     (B) 16.4 years
+     (C) 15.6 years
+     (D) 14.8 years
+129. The average of 45 numbers was found to be 39. Later on, it was detected that a number 65 was misread as 56. Find the correct average of the given numbers.
+     (A) 36.2
+     (B) 37.2
+     (C) 38.2
+     (D) 39.2
+130. Anwesha's marks in a class test of Sanskrit were incorrectly entered as 99 instead of 66. If there are 55 students in the class, then what is the increment in the average marks of the class in Sanskrit because of this typing error?
+     (A) 0.2
+     (B) 0.8
+     (C) 0.4
+     (D) 0.6
+131. The average of the marks of 25 students in a class, in an examination was calculated to be 19. Later, the teacher realized that the marks of two students were taken as 18 and 19 respectively, instead of 14 and 15. Find the new actual average marks of the class.
+     (A) 17.43
+     (B) 16.56
+     (C) 18.68
+     (D) 17.65
+132. The average of 16 numbers is 35. It was found later that four numbers 18, 17, 24 and 35 were taken by mistake. What is the new average after removing these numbers?
+     (A) 38.83
+     (B) 42.33
+     (C) 46.66
+     (D) 33.33
+133. Abhishek's marks in Mathematics were incorrectly entered as 93 instead of 63. Due to this, the average marks of the class in Mathematics got increased by 0.5. How many students were there in the class?
+     (A) 45
+     (B) 55
+     (C) 60
+     (D) 50
+134. The weight of a person was entered incorrectly as 83 kg instead of 63 kg. As a result, the average weight of a group of people increased by 500 gm. What is the total number of people in the group?
+     (A) 44
+     (B) 48
+     (C) 40
+     (D) 50
+135. The average age of a number of persons in a group was calculated as 35 years, which was 2.5 years more than the correct average as there was an error in recording the age of two persons as 38.5 years and 40 years instead of 29 years and 22 years respectively. The number of persons in the group was:
+     (A) 11
+     (B) 12
+     (C) 15
+     (D) 13
+136. The average marks (out of 100) of boys and girls in an examination are 75 and 80, respectively. If the average marks of all the students in that examination are 78, find the ratio of the number of boys to the number of girls.
+     (A) 2 : 3
+     (B) 3 : 4
+     (C) 1 : 3
+     (D) 1 : 2
+137. The average salary of a group of 12 employees in an institution is ₹3,950 per month and that of another group of employees is ₹1,850. If the average salary of all employees is ₹2,150, then the total number of employees is:
+     (A) 100
+     (B) 88
+     (C) 84
+     (D) 72
+138. The average marks scored by the students of a class is 75. If the average marks scored by the girls in the same class is 90 and that of boys is 70, what is the percentage of boys in the class?
+     (A) 70%
+     (B) 75%
+     (C) 65%
+     (D) 60%
+Answers:
+1: D, 2: A, 3: B, 4: A, 5: D, 6: D, 7: B, 8: D, 9: B, 10: A, 11: C, 12: D, 13: D, 14: B, 15: A, 16: A, 17: A, 18: D, 19: B, 20: C, 21: B, 22: D, 23: A, 24: C, 25: A, 26: A, 27: A, 28: C, 29: B, 30: C, 31: D, 32: A, 33: C, 34: B, 35: B, 36: D, 37: A, 38: C, 39: B, 40: C, 41: D, 42: B, 43: A, 44: D, 45: B, 46: D, 47: B, 48: D, 49: D, 50: D, 51: A, 52: D, 53: A, 54: A, 55: A, 56: D, 57: B, 58: D, 59: D, 60: C, 61: A, 62: C, 63: A, 64: B, 65: B, 66: D, 67: B, 68: C, 69: C, 70: B, 71: D, 72: D, 73: A, 74: B, 75: B, 76: D, 77: B, 78: C, 79: D, 80: B, 81: B, 82: A, 83: D, 84: C, 85: A, 86: D, 87: A, 88: A, 89: D, 90: C, 91: B, 92: A, 93: B, 94: C, 95: C, 96: B, 97: B, 98: A, 99: D, 100: A, 101: B, 102: D, 103: B, 104: B, 105: B, 106: C, 107: D, 108: D, 109: D, 110: A, 111: D, 112: B, 113: A, 114: D, 115: A, 116: D, 117: C, 118: D, 119: D, 120: A, 121: A, 122: D, 123: B, 124: C, 125: B, 126: B, 127: C, 128: D, 129: D, 130: D, 131: C, 132: A, 133: C, 134: C, 135: A, 136: A, 137: C, 138: B

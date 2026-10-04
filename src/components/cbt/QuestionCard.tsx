@@ -1,10 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import { ZoomIn, Image as ImageIcon, CheckCircle } from "lucide-react";
+import { ZoomIn, Image as ImageIcon, CheckCircle, Award, Calendar } from "lucide-react";
 import { MathRenderer } from "../math/MathRenderer";
 import { OptionCard } from "./OptionCard";
 import { Modal } from "../ui/Modal";
+import { extractExamTag } from "@/lib/exam/tag-parser";
 
 export interface QuestionCardOption {
   stableId: string;
@@ -57,6 +58,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   explanation,
 }) => {
   const [isZoomOpen, setIsZoomOpen] = useState(false);
+  const { cleanQuestionText, examTag } = extractExamTag(questionText);
 
   return (
     <div className="flex flex-col h-full bg-white rounded-lg border border-slate-200 shadow-xs overflow-y-auto p-4 sm:p-6">
@@ -80,6 +82,16 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           >
             {source === "AI_GENERATED_PRACTICE" ? "AI Practice" : "Official Source"}
           </span>
+
+          {/* Sleek Colorful Official Exam Citation Badge */}
+          {examTag && (
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-amber-50 via-orange-50 to-amber-100/80 border border-amber-300 text-amber-900 font-bold text-[11px] shadow-2xs">
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+              <Award className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+              <span className="tracking-tight">{examTag}</span>
+            </span>
+          )}
+
           {questionType && questionType !== "MCQ" && (
             <span className="text-[10px] bg-slate-100 text-slate-600 border border-slate-200 px-2 py-0.5 rounded font-medium">
               {questionType}
@@ -108,12 +120,24 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           </span>
         </div>
 
+        {/* Clean Mathematical Question Content without clutter */}
         <div className="text-base sm:text-lg leading-relaxed text-slate-900 font-sans">
-          <MathRenderer text={questionText} />
+          <MathRenderer text={cleanQuestionText} />
         </div>
 
-        {/* Visual Content (Diagram / Image / Table) */}
-        {hasVisualContent && (
+        {/* Dedicated Colorful Exam Citation Tag Bar on Side/Bottom of Question */}
+        {examTag && (
+          <div className="flex items-center justify-end pt-1">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-gradient-to-r from-amber-50 to-orange-50/70 border border-amber-200 text-amber-950 text-xs font-medium shadow-2xs">
+              <Calendar className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+              <span className="text-slate-500 text-[11px]">Asked in:</span>
+              <span className="font-bold text-amber-900">{examTag}</span>
+            </div>
+          </div>
+        )}
+
+        {/* Visual Content (Diagram / Image - excluded for TABLE as table renders inline) */}
+        {hasVisualContent && visualType !== "TABLE" && (
           <div className="my-3 p-3 bg-slate-50 border border-slate-200 rounded-lg max-w-xl">
             <div className="flex items-center justify-between mb-2">
               <span className="text-xs font-semibold text-slate-500 flex items-center gap-1.5">

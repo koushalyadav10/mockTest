@@ -18,11 +18,14 @@ import {
   Maximize2,
   ShieldCheck,
   Zap,
+  Award,
+  Calendar,
 } from "lucide-react";
 import { safelyShuffleOptions } from "@/lib/exam/shuffling";
 import { BoundingBox } from "@/lib/ai/types";
 import { SourceDocumentViewer } from "./SourceDocumentViewer";
 import { ConfidenceIndicator } from "./ConfidenceIndicator";
+import { extractExamTag } from "@/lib/exam/tag-parser";
 
 export interface ReviewQuestionItem {
   id: string;
@@ -170,6 +173,8 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
     currentQ.aiSuggestedAnswer ||
     currentQ.options.find((o) => o.isCorrect)?.label;
 
+  const { cleanQuestionText, examTag } = extractExamTag(currentQ.questionText, currentQ.subtopic);
+
   return (
     <div className="flex flex-col h-full bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
       {/* Top Action & Viewport Mode Bar */}
@@ -301,7 +306,7 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
                     )}
                   </div>
                   <p className="text-slate-600 line-clamp-2 leading-relaxed">
-                    {q.questionText}
+                    {extractExamTag(q.questionText).cleanQuestionText}
                   </p>
                 </div>
               );
@@ -318,7 +323,7 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
           {/* Header with Classification Tags */}
           <div className="flex items-center justify-between pb-3 border-b border-slate-100 flex-wrap gap-2">
             <div>
-              <div className="flex items-center gap-2 mb-1">
+              <div className="flex items-center gap-2 mb-1 flex-wrap">
                 <span className="text-xs font-bold text-blue-600 font-mono uppercase tracking-wider">
                   Q.{currentQ.questionNumber}
                 </span>
@@ -328,6 +333,12 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
                 <span className="text-[10px] bg-blue-50 text-blue-700 border border-blue-200 px-2 py-0.5 rounded font-medium">
                   {currentQ.source || "SOURCE_QUESTION"}
                 </span>
+                {examTag && (
+                  <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-300 text-amber-900 font-bold text-[11px] shadow-2xs">
+                    <Award className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+                    <span>{examTag}</span>
+                  </span>
+                )}
               </div>
               <h3 className="text-sm font-semibold text-slate-900">
                 {currentQ.subject} &bull; {currentQ.topic}
@@ -356,10 +367,18 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
 
           {/* Question Text */}
           <div className="space-y-2">
-            <label className="text-xs font-semibold text-slate-700 flex items-center justify-between">
-              <span>Question Content</span>
-              <span className="text-[11px] text-slate-400 font-normal">KaTeX formatted</span>
-            </label>
+            <div className="flex items-center justify-between">
+              <label className="text-xs font-semibold text-slate-700">Question Content</label>
+              <div className="flex items-center gap-2">
+                {examTag && !isEditing && (
+                  <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-800 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded">
+                    <Calendar className="w-3 h-3 text-amber-600 shrink-0" />
+                    {examTag}
+                  </span>
+                )}
+                <span className="text-[11px] text-slate-400 font-normal">KaTeX formatted</span>
+              </div>
+            </div>
             {isEditing ? (
               <textarea
                 rows={4}
@@ -369,7 +388,7 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
               />
             ) : (
               <div className="p-4 bg-slate-50 rounded-lg border border-slate-200 text-slate-900 text-sm leading-relaxed">
-                <MathRenderer text={currentQ.questionText} />
+                <MathRenderer text={cleanQuestionText} />
               </div>
             )}
           </div>

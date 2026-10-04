@@ -27,6 +27,7 @@ export const VisualTypeEnum = z.enum([
   "MAP",
   "CHART",
   "FIGURE",
+  "NONE",
   "UNKNOWN",
 ]);
 
@@ -104,7 +105,7 @@ export const ExtractedQuestionSchema = z.object({
   options: z
     .array(ExtractedOptionSchema)
     .min(2, "Question must have at least 2 options")
-    .max(5),
+    .max(8),
   // Three-Level Answer System
   sourceAnswer: z.string().optional().nullable(), // Found in official answer key
   aiSuggestedAnswer: z.string().optional().nullable(), // Inferred by AI

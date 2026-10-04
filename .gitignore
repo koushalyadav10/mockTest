@@ -17,8 +17,17 @@ yarn-error.log*
 *.log
 
 # local env files
+.env
 .env*.local
+
+# sqlite database
+prisma/*.db
+prisma/*.db-journal
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ocr data & scratch
+*.traineddata
+scratch/

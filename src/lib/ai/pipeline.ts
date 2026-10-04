@@ -42,7 +42,12 @@ export class DocumentProcessingPipeline {
           where: { id: documentId },
           data: {
             processingStep: `STEP ${stepNum}: ${title} - ${status}`,
-            status: status === "FAILED" ? "FAILED" : "PROCESSING",
+            status:
+              status === "FAILED"
+                ? "FAILED"
+                : stepNum === 15 && status === "COMPLETED"
+                ? "COMPLETED"
+                : "PROCESSING",
           },
         });
       } catch (e) {
@@ -123,7 +128,7 @@ export class DocumentProcessingPipeline {
       try {
         const existingQuestions = await prisma.question.findMany({
           select: { id: true, questionText: true },
-          take: 200,
+          take: 30,
         });
         for (const q of extraction.questions) {
           const dupCheck = findPotentialDuplicates(q.questionText, existingQuestions);
@@ -149,6 +154,10 @@ export class DocumentProcessingPipeline {
       // STEP 15: Human review preparation & Database persistence
       await notify(15, "Human review preparation", "IN_PROGRESS", "Storing questions for review workspace");
       try {
+        await prisma.question.deleteMany({
+          where: { documentId },
+        });
+
         for (const q of extraction.questions) {
           await prisma.question.create({
             data: {

@@ -33,13 +33,16 @@ export async function sendEmail(params: {
   let messageId = `msg_${Date.now()}_${Math.random().toString(36).substring(2, 8)}`;
 
   // 1. Check for real Gmail App Password SMTP credentials
-  const gmailUser = process.env.GMAIL_USER;
-  const gmailAppPass = process.env.GMAIL_APP_PASSWORD;
+  const gmailUser = process.env.GMAIL_USER?.trim();
+  const gmailAppPass = process.env.GMAIL_APP_PASSWORD?.replace(/\s+/g, "");
 
   if (gmailUser && gmailAppPass) {
     try {
       const transporter = nodemailer.createTransport({
         service: "gmail",
+        host: "smtp.gmail.com",
+        port: 465,
+        secure: true,
         auth: {
           user: gmailUser,
           pass: gmailAppPass,
@@ -47,7 +50,7 @@ export async function sendEmail(params: {
       });
 
       const info = await transporter.sendMail({
-        from: `"ExamForge Verification" <${gmailUser}>`,
+        from: `"ExamForge AI" <${gmailUser}>`,
         to,
         subject,
         html,

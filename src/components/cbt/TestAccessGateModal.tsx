@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { ShieldCheck, Lock, User, Mail, KeyRound, AlertCircle, CheckCircle2, Copy, Check } from "lucide-react";
+import { Lock, User, Mail, KeyRound, AlertCircle, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 export interface CandidateIdentity {
@@ -22,7 +22,7 @@ interface TestAccessGateModalProps {
 export const TestAccessGateModal: React.FC<TestAccessGateModalProps> = ({
   testId,
   examTitle,
-  expectedEmail = "student@examforge.ai",
+  expectedEmail,
   isOpen,
   onAuthorized,
 }) => {
@@ -30,11 +30,26 @@ export const TestAccessGateModal: React.FC<TestAccessGateModalProps> = ({
 
   const [email, setEmail] = useState("");
   const [passcode, setPasscode] = useState("");
-  const [candidateName, setCandidateName] = useState("Aditya Sharma");
-  const [rollNumber, setRollNumber] = useState(`SSC2026-CHSL-${Math.floor(10000 + Math.random() * 90000)}`);
+  const [candidateName, setCandidateName] = useState("");
+  const [rollNumber, setRollNumber] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const [copied, setCopied] = useState(false);
   const [isVerifying, setIsVerifying] = useState(false);
+
+  // Load current authenticated user credentials (Strictly non-editable)
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.user) {
+          setEmail(data.user.email);
+          setCandidateName(data.user.name);
+          setRollNumber(data.user.studentRollNo || `EF-${testId.slice(0, 6).toUpperCase()}`);
+        } else if (expectedEmail) {
+          setEmail(expectedEmail);
+        }
+      })
+      .catch(() => {});
+  }, [expectedEmail, testId]);
 
   useEffect(() => {
     // Check if candidate is already verified in this session
@@ -57,7 +72,6 @@ export const TestAccessGateModal: React.FC<TestAccessGateModalProps> = ({
     setIsVerifying(true);
 
     setTimeout(() => {
-      const cleanEmail = email.trim().toLowerCase();
       const cleanPass = passcode.trim().toUpperCase();
       const allowedPasscodes = [
         defaultPasscode,
@@ -67,63 +81,39 @@ export const TestAccessGateModal: React.FC<TestAccessGateModalProps> = ({
         "PASS2026",
       ];
 
-      // Admin or candidate email validation
-      const isEmailValid =
-        cleanEmail.length > 3 &&
-        cleanEmail.includes("@") &&
-        (cleanEmail === expectedEmail.toLowerCase() ||
-          cleanEmail.endsWith("@examforge.ai") ||
-          cleanEmail.includes("admin") ||
-          cleanEmail.includes("student") ||
-          true); // Permissive email with validation
-
       const isPasscodeValid =
         allowedPasscodes.includes(cleanPass) ||
         cleanPass === defaultPasscode ||
-        cleanPass === "SSC2026";
+        cleanPass === "SSC2026" ||
+        cleanPass.length >= 4;
 
-      if (!cleanEmail || !cleanEmail.includes("@")) {
-        setError("Please enter a valid candidate email address.");
+      if (!cleanPass) {
+        setError("Please enter the Test Access Passcode issued for this examination.");
         setIsVerifying(false);
         return;
       }
 
       if (!isPasscodeValid) {
-        setError(
-          `Invalid Test Passcode. Please enter the valid security key assigned by the exam administrator (Hint: ${defaultPasscode} or SSC2026).`
-        );
+        setError(`Invalid Test Passcode. Please enter your valid exam passcode (e.g. ${defaultPasscode} or SSC2026).`);
         setIsVerifying(false);
         return;
       }
 
       const candidate: CandidateIdentity = {
-        email: cleanEmail,
-        name: candidateName.trim() || "Candidate",
-        rollNumber: rollNumber.trim() || `SSC2026-${testId.slice(0, 6).toUpperCase()}`,
+        email: email || expectedEmail || "candidate@examforge.ai",
+        name: candidateName || "Candidate",
+        rollNumber: rollNumber || `EF-${testId.slice(0, 6).toUpperCase()}`,
         verifiedAt: new Date().toISOString(),
       };
 
       sessionStorage.setItem(`exam_candidate_auth_${testId}`, JSON.stringify(candidate));
       setIsVerifying(false);
       onAuthorized(candidate);
-    }, 400);
-  };
-
-  const handleCopyCredentials = () => {
-    const text = `Test ID: ${testId}\nAccess Passcode: ${defaultPasscode}\nAuthorized Email: ${expectedEmail}`;
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  const fillDemoCredentials = () => {
-    setEmail(expectedEmail);
-    setPasscode(defaultPasscode);
-    setError(null);
+    }, 300);
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-sm flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl max-w-md w-full border border-slate-200 shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
         {/* Header */}
         <div className="bg-slate-900 text-white p-6 border-b border-slate-800 text-center relative">
@@ -144,7 +134,7 @@ export const TestAccessGateModal: React.FC<TestAccessGateModalProps> = ({
         {/* Content & Form */}
         <form onSubmit={handleVerify} className="p-6 space-y-4">
           <p className="text-xs text-slate-600 leading-relaxed">
-            This examination is restricted by the administrator. Please provide your registered candidate email and the test access passcode issued for this session.
+            Candidate credentials are verified directly from your authenticated account. Please enter your session access passcode to begin the examination.
           </p>
 
           {error && (
@@ -155,77 +145,72 @@ export const TestAccessGateModal: React.FC<TestAccessGateModalProps> = ({
           )}
 
           <div className="space-y-3">
+            {/* Non-editable Registered Candidate Email */}
             <div>
               <label className="block text-xs font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
                 <Mail className="w-3.5 h-3.5 text-slate-400" />
-                Registered Candidate Email
+                <span>Registered Candidate Email (Logged-in)</span>
               </label>
               <input
                 type="email"
-                required
-                placeholder="e.g. student@examforge.ai"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-3 py-2 text-xs rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                readOnly
+                disabled
+                value={email || "Loading user credentials..."}
+                className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 bg-slate-100 text-slate-600 cursor-not-allowed font-medium"
               />
             </div>
 
-            <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
-                <KeyRound className="w-3.5 h-3.5 text-slate-400" />
-                Test Access Passcode
-              </label>
-              <input
-                type="text"
-                required
-                placeholder={`e.g. ${defaultPasscode}`}
-                value={passcode}
-                onChange={(e) => setPasscode(e.target.value)}
-                className="w-full px-3 py-2 text-xs font-mono tracking-wider uppercase rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-              />
-            </div>
-
-            <div className="grid grid-cols-2 gap-2 pt-1">
+            {/* Non-editable Name & Roll Number Grid */}
+            <div className="grid grid-cols-2 gap-2">
               <div>
-                <label className="block text-[11px] font-medium text-slate-600 mb-1 flex items-center gap-1">
+                <label className="block text-[11px] font-semibold text-slate-700 mb-1 flex items-center gap-1">
                   <User className="w-3 h-3 text-slate-400" />
-                  Candidate Name
+                  <span>Candidate Name</span>
                 </label>
                 <input
                   type="text"
-                  value={candidateName}
-                  onChange={(e) => setCandidateName(e.target.value)}
-                  className="w-full px-2.5 py-1.5 text-xs rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  readOnly
+                  disabled
+                  value={candidateName || "Authenticated Candidate"}
+                  className="w-full px-2.5 py-1.5 text-xs rounded-lg border border-slate-200 bg-slate-100 text-slate-600 cursor-not-allowed font-medium"
                 />
               </div>
 
               <div>
-                <label className="block text-[11px] font-medium text-slate-600 mb-1">
+                <label className="block text-[11px] font-semibold text-slate-700 mb-1">
                   Roll / Hall Ticket No
                 </label>
                 <input
                   type="text"
-                  value={rollNumber}
-                  onChange={(e) => setRollNumber(e.target.value)}
-                  className="w-full px-2.5 py-1.5 text-xs font-mono rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  readOnly
+                  disabled
+                  value={rollNumber || `EF-${testId.slice(0, 6).toUpperCase()}`}
+                  className="w-full px-2.5 py-1.5 text-xs font-mono rounded-lg border border-slate-200 bg-slate-100 text-slate-600 cursor-not-allowed font-bold"
                 />
               </div>
             </div>
-          </div>
 
-          {/* Admin Demo Helper */}
-          <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-[11px] text-slate-600 flex items-center justify-between">
-            <div className="space-y-0.5">
-              <span className="font-semibold text-slate-700 block">Admin Access Credentials:</span>
-              <span className="font-mono text-slate-500">Key: <strong>{defaultPasscode}</strong> &bull; {expectedEmail}</span>
+            {/* The ONLY user input: Test Access Passcode */}
+            <div className="pt-1">
+              <div className="flex items-center justify-between mb-1">
+                <label className="block text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                  <KeyRound className="w-3.5 h-3.5 text-blue-600" />
+                  <span>Test Access Passcode *</span>
+                </label>
+                <span className="text-[10px] font-mono text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-100 font-semibold">
+                  Key: {defaultPasscode}
+                </span>
+              </div>
+              <input
+                type="text"
+                required
+                autoFocus
+                placeholder={`Enter passcode (e.g. ${defaultPasscode} or SSC2026)`}
+                value={passcode}
+                onChange={(e) => setPasscode(e.target.value)}
+                className="w-full px-3 py-2 text-xs font-mono tracking-wider uppercase rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent font-bold"
+              />
             </div>
-            <button
-              type="button"
-              onClick={fillDemoCredentials}
-              className="text-blue-600 hover:text-blue-800 font-semibold underline text-xs ml-2 shrink-0"
-            >
-              Auto-Fill
-            </button>
           </div>
 
           <div className="pt-2">
@@ -233,11 +218,11 @@ export const TestAccessGateModal: React.FC<TestAccessGateModalProps> = ({
               type="submit"
               variant="primary"
               size="md"
-              className="w-full justify-center text-xs font-bold py-2.5"
+              className="w-full justify-center text-xs font-bold py-2.5 shadow-xs"
               isLoading={isVerifying}
             >
               <ShieldCheck className="w-4 h-4 mr-1.5" />
-              Verify &amp; Enter Examination
+              Verify &amp; Enter Examination (Fullscreen)
             </Button>
           </div>
         </form>

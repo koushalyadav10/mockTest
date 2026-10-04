@@ -50,6 +50,8 @@ export async function GET(req: NextRequest) {
         processingStep: doc.processingStep,
         createdAt: doc.createdAt.toISOString(),
         updatedAt: doc.updatedAt.toISOString(),
+        isPublic: doc.isPublic,
+        publishedExamId: doc.publishedExamId,
         questionCount: doc.questions.length,
         subjectBreakdown,
         difficultyBreakdown,

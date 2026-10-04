@@ -295,35 +295,37 @@ export default function LoginPage() {
             </p>
           </div>
 
-          {/* Quick Demo Selector for Reviewers */}
-          <div className="relative z-10 pt-6 space-y-2">
-            <div className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">
-              Quick Role Switcher (Pre-filled):
+          {/* Quick Pre-configured Selector for Testing (Only in LOGIN mode, strictly hidden in SIGNUP) */}
+          {authMode === "LOGIN" && (
+            <div className="relative z-10 pt-6 space-y-2">
+              <div className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">
+                Pre-configured Test Accounts:
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                <button
+                  type="button"
+                  onClick={() => selectDemoAccount("STUDENT")}
+                  className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
+                >
+                  🎓 Student
+                </button>
+                <button
+                  type="button"
+                  onClick={() => selectDemoAccount("TEACHER")}
+                  className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
+                >
+                  👨‍🏫 Teacher
+                </button>
+                <button
+                  type="button"
+                  onClick={() => selectDemoAccount("ADMIN")}
+                  className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
+                >
+                  🛡️ Admin
+                </button>
+              </div>
             </div>
-            <div className="flex flex-wrap gap-1.5">
-              <button
-                type="button"
-                onClick={() => selectDemoAccount("STUDENT")}
-                className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
-              >
-                🎓 Student
-              </button>
-              <button
-                type="button"
-                onClick={() => selectDemoAccount("TEACHER")}
-                className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
-              >
-                👨‍🏫 Teacher
-              </button>
-              <button
-                type="button"
-                onClick={() => selectDemoAccount("ADMIN")}
-                className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
-              >
-                🛡️ Admin
-              </button>
-            </div>
-          </div>
+          )}
 
           {/* Bottom Navigation Links */}
           <div className="relative z-10 pt-6 border-t border-teal-600/20 flex items-center justify-between text-xs font-medium text-slate-800">

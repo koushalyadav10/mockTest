@@ -170,7 +170,7 @@ export default function StudentDashboardPage() {
 
         <button
           onClick={() => setIsOneClickModalOpen(true)}
-          className="bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs px-4 py-2 rounded-lg shadow-xs flex items-center gap-2"
+          className="bg-[#5a4bda] hover:bg-[#4838cc] text-white font-bold text-xs px-4 py-2 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center gap-2"
         >
           <PlayCircle className="w-4 h-4" />
           <span>Launch 1-Click Mock</span>
@@ -223,7 +223,7 @@ export default function StudentDashboardPage() {
             </Link>
 
             <Link
-              href="/question-bank"
+              href={currentUser?.role === "TEACHER" || currentUser?.role === "ADMIN" ? "/question-bank" : "/exams"}
               className="bg-white p-5 rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div className="flex items-center gap-3 mb-3">
@@ -231,12 +231,16 @@ export default function StudentDashboardPage() {
                   <Video className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-sm">Curated Question Bank</h3>
-                  <p className="text-[11px] text-slate-500">10,000+ bilingual questions with KaTeX</p>
+                  <h3 className="font-bold text-slate-900 text-sm">
+                    {currentUser?.role === "TEACHER" || currentUser?.role === "ADMIN" ? "Curated Question Bank" : "Official CBT Mock Tests"}
+                  </h3>
+                  <p className="text-[11px] text-slate-500">
+                    {currentUser?.role === "TEACHER" || currentUser?.role === "ADMIN" ? "10,000+ bilingual questions with KaTeX" : "Full-length timed mock tests with sectional timers"}
+                  </p>
                 </div>
               </div>
               <div className="text-xs font-semibold text-blue-700 flex items-center gap-1 pt-2 border-t border-slate-100">
-                <span>Browse Question Bank</span>
+                <span>{currentUser?.role === "TEACHER" || currentUser?.role === "ADMIN" ? "Browse Question Bank" : "Explore Mock Tests"}</span>
                 <ChevronRight className="w-3.5 h-3.5" />
               </div>
             </Link>

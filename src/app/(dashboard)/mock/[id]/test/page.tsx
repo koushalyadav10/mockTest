@@ -50,12 +50,33 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
   const [sections, setSections] = useState<SectionTabItem[]>([]);
   const [syncStatus, setSyncStatus] = useState<"SAVED" | "SYNCING" | "OFFLINE">("SAVED");
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
+  const [isMobilePaletteOpen, setIsMobilePaletteOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [loading, setLoading] = useState(true);
+
+  // Refs for zero-latency proctoring checks during state transitions
+  const isSubmitModalOpenRef = useRef(false);
+  const isSubmittingRef = useRef(false);
+  const isAuthGateOpenRef = useRef(false);
+  const showFullscreenModalRef = useRef(true);
+  const isProctoringActiveRef = useRef(true);
+
+  // Keep refs in sync with state
+  useEffect(() => {
+    isSubmitModalOpenRef.current = isSubmitModalOpen;
+  }, [isSubmitModalOpen]);
+
+  useEffect(() => {
+    isSubmittingRef.current = isSubmitting;
+  }, [isSubmitting]);
 
   // Candidate Access & Identity State
   const [candidate, setCandidate] = useState<CandidateIdentity | null>(null);
   const [isAuthGateOpen, setIsAuthGateOpen] = useState(false);
+
+  useEffect(() => {
+    isAuthGateOpenRef.current = isAuthGateOpen;
+  }, [isAuthGateOpen]);
 
   useEffect(() => {
     const stored = sessionStorage.getItem(`exam_candidate_auth_${params.id}`);
@@ -73,6 +94,10 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
   const [isProctoringWarningOpen, setIsProctoringWarningOpen] = useState(false);
   const [violationCount, setViolationCount] = useState(0);
   const [lastViolationTime, setLastViolationTime] = useState("");
+
+  useEffect(() => {
+    showFullscreenModalRef.current = showFullscreenModal;
+  }, [showFullscreenModal]);
 
   const enterFullscreen = () => {
     if (typeof document !== "undefined" && document.documentElement.requestFullscreen) {
@@ -102,10 +127,11 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
     const handleVisibilityChange = () => {
       if (
         document.visibilityState === "hidden" &&
-        !showFullscreenModal &&
-        !isSubmitting &&
-        !isSubmitModalOpen &&
-        !isAuthGateOpen
+        isProctoringActiveRef.current &&
+        !showFullscreenModalRef.current &&
+        !isSubmittingRef.current &&
+        !isSubmitModalOpenRef.current &&
+        !isAuthGateOpenRef.current
       ) {
         const time = new Date().toLocaleTimeString();
         setLastViolationTime(time);
@@ -118,37 +144,16 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
       }
     };
 
-    const handleBlur = () => {
-      // Do not trigger violation if test is submitting, submit modal is open, or auth gate is active
-      if (
-        !showFullscreenModal &&
-        !isSubmitting &&
-        !isSubmitModalOpen &&
-        !isAuthGateOpen
-      ) {
-        if (typeof document !== "undefined" && document.hasFocus && document.hasFocus()) {
-          return;
-        }
-        const time = new Date().toLocaleTimeString();
-        setLastViolationTime(time);
-        setViolationCount((prev) => {
-          const next = prev + 1;
-          recordViolation("FOCUS_LOSS", next);
-          return next;
-        });
-        setIsProctoringWarningOpen(true);
-      }
-    };
-
     const handleFullscreenChange = () => {
       const inFull = Boolean(document.fullscreenElement);
       // Never trigger when user is submitting or confirm modal is open
       if (
         !inFull &&
-        !showFullscreenModal &&
-        !isSubmitting &&
-        !isSubmitModalOpen &&
-        !isAuthGateOpen
+        isProctoringActiveRef.current &&
+        !showFullscreenModalRef.current &&
+        !isSubmittingRef.current &&
+        !isSubmitModalOpenRef.current &&
+        !isAuthGateOpenRef.current
       ) {
         const time = new Date().toLocaleTimeString();
         setLastViolationTime(time);
@@ -162,15 +167,13 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
     };
 
     document.addEventListener("visibilitychange", handleVisibilityChange);
-    window.addEventListener("blur", handleBlur);
     document.addEventListener("fullscreenchange", handleFullscreenChange);
 
     return () => {
       document.removeEventListener("visibilitychange", handleVisibilityChange);
-      window.removeEventListener("blur", handleBlur);
       document.removeEventListener("fullscreenchange", handleFullscreenChange);
     };
-  }, [showFullscreenModal, isSubmitting, isSubmitModalOpen, isAuthGateOpen]);
+  }, []);
 
   // Load Test Data
   const loadTest = useCallback(async () => {
@@ -352,26 +355,47 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
     }
   };
 
-  // Final Submission
+  // Final Submission with guaranteed max 3.5-second completion
   const handleFinalSubmit = async () => {
     try {
+      isSubmittingRef.current = true;
+      isProctoringActiveRef.current = false;
       setIsSubmitting(true);
       setIsSubmitModalOpen(false);
       setIsProctoringWarningOpen(false);
-      const res = await fetch(`/api/tests/${params.id}/submit`, {
-        method: "POST",
-      });
-      if (res.ok) {
-        if (document.fullscreenElement && document.exitFullscreen) {
-          document.exitFullscreen().catch(() => {});
+
+      // Fail-safe redirect timer: guarantees transition to scorecard even on slow networks
+      const redirectTimer = setTimeout(() => {
+        if (typeof document !== "undefined" && document.fullscreenElement && document.exitFullscreen) {
+          try { document.exitFullscreen(); } catch (e) {}
         }
-        router.push(`/mock/${params.id}/result`);
+        window.location.href = `/mock/${params.id}/result`;
+      }, 3500);
+
+      const controller = new AbortController();
+      const abortTimer = setTimeout(() => controller.abort(), 3000);
+
+      try {
+        await fetch(`/api/tests/${params.id}/submit`, {
+          method: "POST",
+          signal: controller.signal,
+        });
+      } catch (fetchErr) {
+        console.warn("Submit API fetch finished or timed out, proceeding to scorecard:", fetchErr);
+      } finally {
+        clearTimeout(abortTimer);
+        clearTimeout(redirectTimer);
+        if (typeof document !== "undefined" && document.fullscreenElement && document.exitFullscreen) {
+          try { await document.exitFullscreen(); } catch (e) {}
+        }
+        window.location.href = `/mock/${params.id}/result`;
       }
     } catch (e) {
       console.error("Submission failed:", e);
-      alert("Submission error. Please retry.");
-    } finally {
-      setIsSubmitting(false);
+      if (typeof document !== "undefined" && document.fullscreenElement && document.exitFullscreen) {
+        try { document.exitFullscreen(); } catch (err) {}
+      }
+      window.location.href = `/mock/${params.id}/result`;
     }
   };
 
@@ -417,9 +441,10 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
         activeSectionName={currentQ?.subject || "General Section"}
         remainingSeconds={testAttempt.remainingSeconds}
         syncStatus={syncStatus}
-        candidateName={candidate?.name || "Aditya Sharma"}
-        candidateRollNumber={candidate?.rollNumber || "SSC2026-CHSL-88491"}
+        candidateName={candidate?.name || testData?.candidate?.name || "Candidate"}
+        candidateRollNumber={candidate?.rollNumber || testData?.candidate?.studentRollNo || "EF-100179719"}
         onTimerExpire={handleFinalSubmit}
+        timerKey={params.id}
       />
 
       {/* Synchronized Section Navigation Tabs */}
@@ -481,7 +506,39 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
         isFirstQuestion={currentIndex === 0}
         isLastQuestion={currentIndex === questions.length - 1}
         hasSelectedOption={Boolean(currentQ?.selectedOptionStableId)}
+        onToggleMobilePalette={() => setIsMobilePaletteOpen(true)}
+        currentQuestionNumber={currentIndex + 1}
+        totalQuestions={questions.length}
       />
+
+      {/* Mobile Question Palette Drawer (Slide-Up Bottom Sheet) */}
+      {isMobilePaletteOpen && (
+        <div className="fixed inset-0 z-40 lg:hidden bg-slate-950/75 backdrop-blur-xs flex flex-col justify-end animate-in fade-in duration-150">
+          <div className="bg-white rounded-t-2xl max-h-[85vh] flex flex-col overflow-hidden shadow-2xl border-t border-slate-300 animate-in slide-in-from-bottom duration-200">
+            <div className="p-3.5 bg-slate-900 text-white flex items-center justify-between border-b border-slate-800">
+              <div className="flex items-center gap-2">
+                <span className="font-bold text-sm">Question Palette ({questions.length} Questions)</span>
+              </div>
+              <button
+                onClick={() => setIsMobilePaletteOpen(false)}
+                className="text-slate-400 hover:text-white px-2 py-1 rounded-md text-xs font-semibold bg-slate-800"
+              >
+                Close ✕
+              </button>
+            </div>
+            <div className="flex-1 overflow-y-auto p-2 bg-[#f8f9fa]">
+              <QuestionPalette
+                items={paletteItems}
+                currentSectionName={currentQ?.subject}
+                onSelectQuestion={(idx) => {
+                  setCurrentIndex(idx);
+                  setIsMobilePaletteOpen(false);
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Fullscreen Initial Launch Prompt Modal */}
       {showFullscreenModal && (
@@ -537,6 +594,22 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
         }}
       />
 
+      {/* Submitting Progress Overlay */}
+      {isSubmitting && (
+        <div className="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl max-w-sm w-full p-6 text-center space-y-4 shadow-2xl animate-in fade-in zoom-in-95">
+            <div className="w-12 h-12 border-4 border-emerald-600 border-t-transparent rounded-full animate-spin mx-auto" />
+            <div>
+              <h3 className="text-base font-bold text-slate-900">Evaluating Examination</h3>
+              <p className="text-xs text-slate-500 mt-1">Calculating negative marks, accuracy &amp; percentile...</p>
+            </div>
+            <div className="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+              <div className="bg-emerald-600 h-1.5 rounded-full animate-pulse w-3/4" />
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Candidate Verification Gate Modal (if opened directly without prior auth) */}
       <TestAccessGateModal
         testId={params.id}
@@ -545,6 +618,7 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
         onAuthorized={(c) => {
           setCandidate(c);
           setIsAuthGateOpen(false);
+          enterFullscreen();
         }}
       />
     </div>

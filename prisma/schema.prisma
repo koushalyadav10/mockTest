@@ -13,6 +13,9 @@ model User {
   name              String
   passwordHash      String
   role              String             @default("STUDENT") // STUDENT | TEACHER | ADMIN
+  status            String             @default("ACTIVE") // ACTIVE | SUSPENDED | DEACTIVATED
+  department        String?
+  mustChangePassword Boolean           @default(false)
   studentRollNo     String?            @unique
   phone             String?
   isEmailVerified   Boolean            @default(false)
@@ -65,6 +68,7 @@ model ExamConfig {
   endDate               DateTime?
   scheduledStatus       String              @default("LIVE") // UPCOMING | LIVE | EXPIRED
   status                String              @default("PUBLISHED") // DRAFT | PUBLISHED | ARCHIVED
+  documentId            String?
   createdAt             DateTime            @default(now())
   updatedAt             DateTime            @updatedAt
   sections              ExamSectionConfig[]
@@ -94,6 +98,8 @@ model UploadedDocument {
   fileHash       String? // SHA-256 for duplicate detection
   pageCount      Int        @default(1)
   isScanned      Boolean    @default(false)
+  isPublic       Boolean    @default(false) // When true, public mock test is live for students
+  publishedExamId String?
   status         String     @default("UPLOADING") // UPLOADING | PROCESSING | REVIEW_REQUIRED | COMPLETED | FAILED
   processingStep String     @default("STEP 1: Document uploaded")
   rawText        String?
@@ -248,4 +254,16 @@ model AuditLog {
   entityId  String?
   details   String?
   timestamp DateTime @default(now())
+}
+
+model TeacherInvite {
+  id          String    @id @default(uuid())
+  email       String    @unique
+  name        String
+  department  String?
+  inviteToken String    @unique
+  expiresAt   DateTime
+  acceptedAt  DateTime?
+  createdById String?
+  createdAt   DateTime  @default(now())
 }

@@ -10,6 +10,14 @@ export async function GET(
     const testAttempt = await prisma.testAttempt.findUnique({
       where: { id: params.id },
       include: {
+        user: {
+          select: {
+            id: true,
+            name: true,
+            email: true,
+            studentRollNo: true,
+          },
+        },
         examConfig: {
           include: {
             sections: { orderBy: { order: "asc" } },
@@ -136,8 +144,14 @@ export async function GET(
         completedAt: testAttempt.completedAt,
         totalQuestions: testAttempt.totalQuestions,
         currentSectionIndex: testAttempt.currentSectionIndex,
+        studentRollNo: testAttempt.studentRollNo,
         remainingSeconds,
         isExpired,
+      },
+      candidate: testAttempt.user || {
+        name: "Candidate",
+        email: "candidate@examforge.ai",
+        studentRollNo: testAttempt.studentRollNo,
       },
       examConfig: testAttempt.examConfig,
       questions: formattedQuestions,

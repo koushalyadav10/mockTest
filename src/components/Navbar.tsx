@@ -79,12 +79,12 @@ export const Navbar: React.FC = () => {
           {/* Logo & Platform Brand */}
           <div className="flex items-center gap-6">
             <Link href="/dashboard" className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-lg bg-slate-900 text-white flex items-center justify-center font-black text-lg shadow-sm">
+              <div className="w-10 h-10 rounded-full bg-[#1b212d] text-white flex items-center justify-center font-black text-lg tracking-tight shadow-xs select-none">
                 EF
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-slate-900 text-base leading-tight tracking-tight">
-                  ExamForge
+                  ExamForge<span className="text-[#5a4bda]">.AI</span>
                 </span>
                 <span className="text-[10px] text-slate-400 font-semibold tracking-wider uppercase">
                   CBT Testing Engine
@@ -93,7 +93,7 @@ export const Navbar: React.FC = () => {
             </Link>
 
             {/* Desktop Navigation Links */}
-            <div className="hidden lg:flex items-center gap-1">
+            <div className="hidden lg:flex items-center gap-1.5">
               {activeNavLinks.map((link) => {
                 const Icon = link.icon;
                 const isActive =
@@ -102,9 +102,9 @@ export const Navbar: React.FC = () => {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-semibold transition-colors ${
+                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                       isActive
-                        ? "bg-teal-50 text-teal-800 font-bold"
+                        ? "bg-[#f4f2ff] text-[#5a4bda] font-bold shadow-xs border border-purple-200/60"
                         : "text-slate-600 hover:text-slate-900 hover:bg-slate-50"
                     }`}
                   >
@@ -118,9 +118,9 @@ export const Navbar: React.FC = () => {
               {user?.role === "ADMIN" && (
                 <Link
                   href="/admin"
-                  className={`flex items-center gap-1 px-3 py-1.5 rounded-md text-xs font-bold transition-colors ${
+                  className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                     pathname?.startsWith("/admin")
-                      ? "bg-purple-100 text-purple-900"
+                      ? "bg-purple-100 text-purple-900 border border-purple-200"
                       : "text-purple-700 hover:bg-purple-50"
                   }`}
                 >
@@ -133,9 +133,9 @@ export const Navbar: React.FC = () => {
               {user?.role === "TEACHER" && (
                 <Link
                   href="/teacher"
-                  className={`flex items-center gap-1 px-3 py-1.5 rounded-md text-xs font-bold transition-colors ${
+                  className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                     pathname?.startsWith("/teacher")
-                      ? "bg-blue-100 text-blue-900"
+                      ? "bg-blue-100 text-blue-900 border border-blue-200"
                       : "text-blue-700 hover:bg-blue-50"
                   }`}
                 >
@@ -146,13 +146,8 @@ export const Navbar: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Area: Streak, Role-appropriate Action, Profile & Logout */}
+          {/* Right Area: Role-appropriate Action, Profile & Logout */}
           <div className="flex items-center gap-3">
-            {/* Student Streak Indicator */}
-            <div className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 bg-amber-50 border border-amber-200/80 rounded-full text-xs text-amber-800 font-semibold">
-              <Flame className="w-3.5 h-3.5 text-amber-600 fill-amber-500" />
-              <span>4 Day Streak</span>
-            </div>
 
             {/* Faculty Action: Upload Paper */}
             {isTeacherOrAdmin ? (

@@ -20,11 +20,15 @@ export async function POST(
 
     // Try reading saved buffer if present
     let fileBuffer: Buffer | undefined;
-    const filePath = path.join(process.cwd(), "public", "uploads", `${documentId}.pdf`);
-    if (fs.existsSync(filePath)) {
-      try {
-        fileBuffer = fs.readFileSync(filePath);
-      } catch (e) {}
+    const uploadsDir = path.join(process.cwd(), "public", "uploads");
+    for (const ext of ["pdf", "txt", "png", "jpg", "jpeg", "webp"]) {
+      const filePath = path.join(uploadsDir, `${documentId}.${ext}`);
+      if (fs.existsSync(filePath)) {
+        try {
+          fileBuffer = fs.readFileSync(filePath);
+          break;
+        } catch (e) {}
+      }
     }
 
     // Run the 15-step AI extraction pipeline with actual document text
