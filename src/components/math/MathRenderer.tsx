@@ -32,6 +32,7 @@ function renderInlineMath(content: string): React.ReactNode[] {
       const html = katex.renderToString(formula, {
         displayMode: isBlock,
         throwOnError: false,
+        strict: false,
       });
 
       parts.push(

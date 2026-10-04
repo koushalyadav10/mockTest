@@ -233,6 +233,10 @@ export default function ExamsCatalogPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ examConfigId: examId, mode: "MOCK" }),
       });
+      if (res.status === 401) {
+        router.push(`/login?callbackUrl=${encodeURIComponent("/exams")}`);
+        return;
+      }
       const data = await res.json();
       if (data.testAttemptId) {
         router.push(`/mock/${data.testAttemptId}/instructions`);

@@ -25,6 +25,10 @@ export default function QuickPracticePage() {
           count,
         }),
       });
+      if (res.status === 401) {
+        router.push("/login?callbackUrl=/practice");
+        return;
+      }
       const data = await res.json();
       if (data.testAttemptId) {
         router.push(`/mock/${data.testAttemptId}/test?instantFeedback=${instantFeedback}`);

@@ -55,7 +55,17 @@ export default function StudentDashboardPage() {
     fetch("/api/auth/me")
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
-        if (data?.user) setCurrentUser(data.user);
+        if (data?.user) {
+          setCurrentUser(data.user);
+          if (data.user.role === "ADMIN") {
+            router.push("/admin");
+            return;
+          }
+          if (data.user.role === "TEACHER") {
+            router.push("/teacher");
+            return;
+          }
+        }
       })
       .catch(() => {});
 

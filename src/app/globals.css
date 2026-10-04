@@ -10,6 +10,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  /* First-class Hindi / Devanagari Typography */
+  [lang="hi"], .font-hindi {
+    font-family: "Noto Sans Devanagari", "Mangal", "Arial Unicode MS", sans-serif;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+  }
 }
 
 /* Custom Scrollbars */

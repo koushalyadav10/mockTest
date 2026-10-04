@@ -22,7 +22,10 @@ export async function POST(req: NextRequest) {
       : null;
 
     if (!user) {
-      user = await prisma.user.findFirst({ where: { role: "STUDENT" } });
+      return NextResponse.json(
+        { error: "Authentication required. Please log in to start or take any test." },
+        { status: 401 }
+      );
     }
 
     // Get exam config

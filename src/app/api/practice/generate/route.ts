@@ -1,21 +1,23 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { safelyShuffleOptions } from "@/lib/exam/shuffling";
+import { getSessionUser } from "@/lib/auth/session";
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const { subject, topic, count = 10 } = body;
 
-    let user = await prisma.user.findFirst();
+    const session = getSessionUser(req);
+    let user = session?.userId
+      ? await prisma.user.findUnique({ where: { id: session.userId } })
+      : null;
+
     if (!user) {
-      user = await prisma.user.create({
-        data: {
-          email: "student@examforge.ai",
-          name: "Aditya Sharma",
-          passwordHash: "mock_hash",
-        },
-      });
+      return NextResponse.json(
+        { error: "Authentication required. Please log in to start a practice session." },
+        { status: 401 }
+      );
     }
 
     // Find questions matching topic
