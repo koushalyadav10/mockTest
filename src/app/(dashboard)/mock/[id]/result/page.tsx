@@ -97,6 +97,26 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
             Print / Save as PDF
           </Button>
 
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => window.history.back()}
+            className="border-slate-300 text-slate-700"
+          >
+            &larr; Back
+          </Button>
+
+          <Link href="/admin?tab=SUBMISSIONS">
+            <Button
+              variant="outline"
+              size="sm"
+              className="border-purple-200 text-purple-700 bg-purple-50 hover:bg-purple-100"
+            >
+              <Award className="w-3.5 h-3.5 mr-1.5" />
+              Admin Leaderboard
+            </Button>
+          </Link>
+
           <Link href="/dashboard">
             <Button variant="primary" size="sm">
               <Layers className="w-3.5 h-3.5 mr-1.5" />

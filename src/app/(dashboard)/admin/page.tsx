@@ -29,13 +29,27 @@ import {
   Filter,
   FileText,
   Activity,
+  Award,
+  Download,
+  BarChart2,
+  Trophy,
+  Eye,
+  ExternalLink,
+  Target,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
-type AdminTab = "OVERVIEW" | "USERS" | "TEACHERS" | "AUDIT_LOGS";
+type AdminTab = "OVERVIEW" | "SUBMISSIONS" | "USERS" | "TEACHERS" | "AUDIT_LOGS";
 
 export default function AdminDashboardPage() {
   const [activeTab, setActiveTab] = useState<AdminTab>("OVERVIEW");
+
+  // Submissions & Scores Data
+  const [submissionsData, setSubmissionsData] = useState<any>(null);
+  const [submissionsLoading, setSubmissionsLoading] = useState(false);
+  const [submissionExamFilter, setSubmissionExamFilter] = useState("ALL");
+  const [submissionStatusFilter, setSubmissionStatusFilter] = useState("ALL");
+  const [submissionSearch, setSubmissionSearch] = useState("");
 
   // Overview Data
   const [overviewData, setOverviewData] = useState<any>(null);
@@ -121,15 +135,60 @@ export default function AdminDashboardPage() {
       .finally(() => setAuditLogsLoading(false));
   };
 
+  // Fetch Submissions & Candidate Scores
+  const fetchSubmissions = (
+    examId = submissionExamFilter,
+    status = submissionStatusFilter,
+    search = submissionSearch
+  ) => {
+    setSubmissionsLoading(true);
+    const params = new URLSearchParams();
+    if (examId && examId !== "ALL") params.append("examConfigId", examId);
+    if (status && status !== "ALL") params.append("status", status);
+    if (search) params.append("search", search);
+
+    fetch(`/api/admin/submissions?${params.toString()}`)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((d) => {
+        if (d) setSubmissionsData(d);
+      })
+      .catch(console.error)
+      .finally(() => setSubmissionsLoading(false));
+  };
+
+  // Handle URL query parameters (?tab=SUBMISSIONS&examId=...)
   useEffect(() => {
-    fetchOverview();
+    if (typeof window !== "undefined") {
+      const sp = new URLSearchParams(window.location.search);
+      const tabParam = sp.get("tab") as AdminTab | null;
+      const examParam = sp.get("examId");
+      if (tabParam === "SUBMISSIONS") {
+        setActiveTab("SUBMISSIONS");
+      }
+      if (examParam) {
+        setSubmissionExamFilter(examParam);
+      }
+    }
   }, []);
 
   useEffect(() => {
+    fetchOverview();
+    fetchSubmissions();
+  }, []);
+
+  useEffect(() => {
+    if (activeTab === "SUBMISSIONS") fetchSubmissions();
     if (activeTab === "USERS") fetchUsers();
     if (activeTab === "TEACHERS") fetchTeachers();
     if (activeTab === "AUDIT_LOGS") fetchAuditLogs();
-  }, [activeTab, userRoleFilter, userStatusFilter, auditActionFilter]);
+  }, [
+    activeTab,
+    submissionExamFilter,
+    submissionStatusFilter,
+    userRoleFilter,
+    userStatusFilter,
+    auditActionFilter,
+  ]);
 
   // Handle User Status Toggle (Suspend / Activate)
   const handleToggleUserStatus = async (user: any) => {
@@ -286,6 +345,23 @@ export default function AdminDashboardPage() {
         >
           <Activity className="w-4 h-4" />
           <span>System Overview</span>
+        </button>
+
+        <button
+          onClick={() => setActiveTab("SUBMISSIONS")}
+          className={`px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-2 border-b-2 shrink-0 ${
+            activeTab === "SUBMISSIONS"
+              ? "border-emerald-600 text-emerald-700 bg-emerald-50/50"
+              : "border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-50"
+          }`}
+        >
+          <Award className="w-4 h-4 text-emerald-600" />
+          <span>Exam Results &amp; Scores</span>
+          {submissionsData?.stats?.totalSubmissions !== undefined && (
+            <span className="text-[10px] bg-emerald-100 text-emerald-800 px-1.5 py-0.2 rounded-full font-mono font-bold">
+              {submissionsData.stats.totalSubmissions}
+            </span>
+          )}
         </button>
 
         <button
@@ -467,13 +543,19 @@ export default function AdminDashboardPage() {
                   </div>
                 ) : (
                   overviewData.recentAttempts.map((att: any) => (
-                    <div key={att.id} className="p-4 flex items-center justify-between gap-3 text-xs hover:bg-slate-50">
+                    <Link
+                      key={att.id}
+                      href={`/mock/${att.id}/result`}
+                      className="p-4 flex items-center justify-between gap-3 text-xs hover:bg-slate-50 transition-colors group"
+                      title="Click to view detailed mock result"
+                    >
                       <div>
-                        <div className="font-bold text-slate-900">
-                          {att.user?.name || "Student Candidate"}{" "}
+                        <div className="font-bold text-slate-900 group-hover:text-blue-600 transition-colors flex items-center gap-1.5">
+                          <span>{att.user?.name || "Student Candidate"}</span>
                           <span className="font-mono text-slate-400 text-[10px]">
                             ({att.studentRollNo || att.user?.studentRollNo || "EF-100179719"})
                           </span>
+                          <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 text-blue-500 transition-opacity" />
                         </div>
                         <div className="text-[11px] text-slate-500 mt-0.5">
                           {att.examConfig?.title} &bull; Mode: {att.mode}
@@ -494,9 +576,20 @@ export default function AdminDashboardPage() {
                           {new Date(att.createdAt).toLocaleTimeString()}
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   ))
                 )}
+              </div>
+
+              <div className="p-3 bg-slate-50 border-t border-slate-100 flex items-center justify-between text-xs">
+                <span className="text-slate-500 font-medium">Want full scores and candidate rankings?</span>
+                <button
+                  onClick={() => setActiveTab("SUBMISSIONS")}
+                  className="font-bold text-blue-600 hover:text-blue-800 flex items-center gap-1 transition-colors"
+                >
+                  <span>View All Submissions &amp; Leaderboard</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </button>
               </div>
             </div>
 
@@ -537,6 +630,454 @@ export default function AdminDashboardPage() {
               </div>
             </div>
           </div>
+        </div>
+      )}
+
+      {/* ============================================================= */}
+      {/* TAB 2: EXAM RESULTS & CANDIDATE SCORES (SUBMISSIONS)          */}
+      {/* ============================================================= */}
+      {activeTab === "SUBMISSIONS" && (
+        <div className="space-y-6 animate-in fade-in duration-200">
+          {/* Top High-Level Stats */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+              <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
+                <span>Total Submissions</span>
+                <FileCheck2 className="w-4 h-4 text-emerald-600" />
+              </div>
+              <div className="text-3xl font-black font-mono text-slate-900 tabular-nums">
+                {submissionsData?.stats?.totalSubmissions ?? "..."}
+              </div>
+              <div className="text-[11px] text-emerald-600 font-medium">
+                {submissionsData?.stats?.evaluatedCount ?? 0} Evaluated &amp; Scored
+              </div>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+              <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
+                <span>Unique Candidates</span>
+                <Users className="w-4 h-4 text-blue-600" />
+              </div>
+              <div className="text-3xl font-black font-mono text-slate-900 tabular-nums">
+                {submissionsData?.stats?.uniqueCandidates ?? "..."}
+              </div>
+              <div className="text-[11px] text-blue-600 font-medium">Distinct Test Takers</div>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+              <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
+                <span>Average Score</span>
+                <BarChart2 className="w-4 h-4 text-indigo-600" />
+              </div>
+              <div className="text-3xl font-black font-mono text-slate-900 tabular-nums">
+                {submissionsData?.stats?.averageScore ?? "--"}
+              </div>
+              <div className="text-[11px] text-slate-500 font-medium">Across all attempts</div>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+              <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
+                <span>Highest Score</span>
+                <Trophy className="w-4 h-4 text-amber-500" />
+              </div>
+              <div className="text-3xl font-black font-mono text-amber-600 tabular-nums">
+                {submissionsData?.stats?.topScore ?? "--"}
+              </div>
+              <div className="text-[11px] text-amber-700 font-medium">Top Leaderboard Mark</div>
+            </div>
+          </div>
+
+          {/* Exam Summary Filter Pills (Horizontal Scrollable) */}
+          {submissionsData?.exams && submissionsData.exams.length > 0 && (
+            <div className="space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold text-slate-700 uppercase tracking-wider">
+                  Quick Filter by Exam / Paper
+                </span>
+                <span className="text-xs text-slate-400">
+                  {submissionsData.exams.length} Configured Papers
+                </span>
+              </div>
+              <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-thin">
+                <button
+                  onClick={() => setSubmissionExamFilter("ALL")}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border shrink-0 ${
+                    submissionExamFilter === "ALL"
+                      ? "bg-slate-900 text-white border-slate-900 shadow-xs"
+                      : "bg-white text-slate-700 border-slate-200 hover:border-slate-300 hover:bg-slate-50"
+                  }`}
+                >
+                  All Exams ({submissionsData.stats?.totalSubmissions ?? 0})
+                </button>
+
+                {submissionsData.exams.map((ex: any) => (
+                  <button
+                    key={ex.id}
+                    onClick={() => setSubmissionExamFilter(ex.id)}
+                    className={`px-3.5 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all border shrink-0 flex items-center gap-2 ${
+                      submissionExamFilter === ex.id
+                        ? "bg-blue-600 text-white border-blue-600 shadow-xs font-bold"
+                        : "bg-white text-slate-700 border-slate-200 hover:border-slate-300 hover:bg-slate-50"
+                    }`}
+                  >
+                    <span>{ex.title}</span>
+                    <span
+                      className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+                        submissionExamFilter === ex.id
+                          ? "bg-blue-800 text-white"
+                          : "bg-slate-100 text-slate-600"
+                      }`}
+                    >
+                      {ex.totalAttempts} att.
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Controls Bar: Search, Status, CSV Export */}
+          <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs flex flex-wrap items-center justify-between gap-3">
+            {/* Search Input */}
+            <div className="flex items-center gap-2 flex-1 min-w-[240px] max-w-md">
+              <div className="relative flex-1">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <input
+                  type="text"
+                  placeholder="Search candidate name, email, roll number..."
+                  value={submissionSearch}
+                  onChange={(e) => setSubmissionSearch(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && fetchSubmissions()}
+                  className="w-full pl-9 pr-3 py-1.5 text-xs rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                />
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => fetchSubmissions()}
+                className="text-xs"
+              >
+                Search
+              </Button>
+            </div>
+
+            {/* Exam & Status Dropdowns + Export Button */}
+            <div className="flex flex-wrap items-center gap-2">
+              <select
+                value={submissionExamFilter}
+                onChange={(e) => setSubmissionExamFilter(e.target.value)}
+                className="text-xs px-3 py-1.5 rounded-lg border border-slate-300 bg-white font-medium focus:outline-none focus:ring-2 focus:ring-blue-600 max-w-[220px]"
+              >
+                <option value="ALL">All Exams</option>
+                {submissionsData?.exams?.map((ex: any) => (
+                  <option key={ex.id} value={ex.id}>
+                    {ex.title} ({ex.totalAttempts})
+                  </option>
+                ))}
+              </select>
+
+              <select
+                value={submissionStatusFilter}
+                onChange={(e) => setSubmissionStatusFilter(e.target.value)}
+                className="text-xs px-3 py-1.5 rounded-lg border border-slate-300 bg-white font-medium focus:outline-none focus:ring-2 focus:ring-blue-600"
+              >
+                <option value="ALL">All Statuses</option>
+                <option value="EVALUATED">Evaluated / Submitted</option>
+                <option value="RUNNING">In Progress (Running)</option>
+              </select>
+
+              {/* Download CSV Report */}
+              <button
+                type="button"
+                onClick={() => {
+                  const params = new URLSearchParams({ export: "csv" });
+                  if (submissionExamFilter !== "ALL") params.append("examConfigId", submissionExamFilter);
+                  if (submissionStatusFilter !== "ALL") params.append("status", submissionStatusFilter);
+                  if (submissionSearch) params.append("search", submissionSearch);
+                  window.open(`/api/admin/submissions?${params.toString()}`, "_blank");
+                }}
+                className="px-3 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-300 text-xs font-bold transition-all flex items-center gap-1.5 shadow-2xs"
+                title="Download candidate scores as CSV spreadsheet"
+              >
+                <Download className="w-3.5 h-3.5 text-emerald-700" />
+                <span>Export CSV</span>
+              </button>
+
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => fetchSubmissions()}
+                className="text-xs"
+                disabled={submissionsLoading}
+              >
+                <RefreshCw className={`w-3.5 h-3.5 ${submissionsLoading ? "animate-spin" : ""}`} />
+              </Button>
+            </div>
+          </div>
+
+          {/* Submissions List Container */}
+          {submissionsLoading ? (
+            <div className="bg-white p-12 rounded-2xl border border-slate-200 text-center text-xs text-slate-500">
+              <div className="animate-spin w-7 h-7 border-3 border-emerald-600 border-t-transparent rounded-full mx-auto mb-3" />
+              Loading candidate examination scores and submissions...
+            </div>
+          ) : !submissionsData?.submissions || submissionsData.submissions.length === 0 ? (
+            <div className="bg-white p-12 rounded-2xl border border-slate-200 text-center text-xs text-slate-400 space-y-2">
+              <Award className="w-8 h-8 text-slate-300 mx-auto" />
+              <div className="font-bold text-slate-600 text-sm">No exam submissions found</div>
+              <div>Try changing your search query or exam filter.</div>
+            </div>
+          ) : (
+            <>
+              {/* MOBILE VIEW (Touch-Friendly Cards, Visible on Phones) */}
+              <div className="block sm:hidden space-y-3">
+                {submissionsData.submissions.map((sub: any) => {
+                  const isTopRank = sub.rank <= 3;
+                  const medalBadge =
+                    sub.rank === 1
+                      ? "bg-amber-100 text-amber-900 border-amber-300"
+                      : sub.rank === 2
+                      ? "bg-slate-200 text-slate-800 border-slate-300"
+                      : sub.rank === 3
+                      ? "bg-orange-100 text-orange-900 border-orange-200"
+                      : "bg-slate-100 text-slate-700 border-slate-200";
+
+                  return (
+                    <div
+                      key={sub.id}
+                      className="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs space-y-3"
+                    >
+                      {/* Top Row: Rank, Candidate Name, Status */}
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="flex items-center gap-2">
+                          <span
+                            className={`px-2 py-0.5 rounded-full text-[11px] font-black border font-mono ${medalBadge}`}
+                          >
+                            {sub.rank === 1 ? "🥇 #1" : sub.rank === 2 ? "🥈 #2" : sub.rank === 3 ? "🥉 #3" : `#${sub.rank}`}
+                          </span>
+                          <div>
+                            <div className="font-bold text-slate-900 text-sm leading-tight">
+                              {sub.candidateName}
+                            </div>
+                            <div className="text-[10px] font-mono text-slate-400 mt-0.5">
+                              Roll: {sub.candidateRollNo} &bull; {sub.candidateEmail}
+                            </div>
+                          </div>
+                        </div>
+
+                        <span
+                          className={`text-[10px] font-bold font-mono px-2 py-0.5 rounded-full border shrink-0 ${
+                            sub.status === "EVALUATED"
+                              ? "bg-emerald-50 text-emerald-700 border-emerald-200"
+                              : sub.status === "SUBMITTED"
+                              ? "bg-teal-50 text-teal-700 border-teal-200"
+                              : "bg-blue-50 text-blue-700 border-blue-200"
+                          }`}
+                        >
+                          {sub.status}
+                        </span>
+                      </div>
+
+                      {/* Exam Title Tag */}
+                      <div className="text-xs text-slate-600 bg-slate-50 p-2 rounded-xl border border-slate-100">
+                        <span className="font-bold text-slate-800">{sub.examTitle}</span>
+                        <span className="text-[10px] font-mono text-slate-400 ml-1.5">
+                          ({sub.examCategory})
+                        </span>
+                      </div>
+
+                      {/* Score Highlight Box */}
+                      <div className="bg-slate-900 text-white p-3 rounded-xl flex items-center justify-between">
+                        <div>
+                          <div className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">
+                            Score Obtained
+                          </div>
+                          <div className="text-2xl font-black font-mono">
+                            {sub.finalScore}{" "}
+                            <span className="text-xs font-normal text-slate-400">
+                              / {sub.totalMarks} Marks
+                            </span>
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-lg font-black text-emerald-400 font-mono">
+                            {sub.percentage}%
+                          </div>
+                          <div className="text-[10px] text-slate-400">Percentage</div>
+                        </div>
+                      </div>
+
+                      {/* 4-Item Performance Metrics Grid */}
+                      <div className="grid grid-cols-4 gap-1.5 text-center bg-slate-50 p-2 rounded-xl border border-slate-100 text-xs">
+                        <div>
+                          <div className="text-[10px] text-slate-400 font-medium">Accuracy</div>
+                          <div className="font-bold font-mono text-slate-800">{sub.accuracy}%</div>
+                        </div>
+                        <div>
+                          <div className="text-[10px] text-emerald-600 font-medium">Correct</div>
+                          <div className="font-bold font-mono text-emerald-700">+{sub.correctCount}</div>
+                        </div>
+                        <div>
+                          <div className="text-[10px] text-rose-600 font-medium">Wrong</div>
+                          <div className="font-bold font-mono text-rose-700">-{sub.incorrectCount}</div>
+                        </div>
+                        <div>
+                          <div className="text-[10px] text-slate-400 font-medium">Time</div>
+                          <div className="font-bold font-mono text-slate-800">
+                            {Math.floor(sub.timeSpentSeconds / 60)}m
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Action Button: View Full Mock Scorecard */}
+                      <Link
+                        href={`/mock/${sub.id}/result`}
+                        className="w-full py-2.5 px-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all shadow-xs"
+                      >
+                        <Eye className="w-4 h-4" />
+                        <span>View Detailed Scorecard &amp; Solutions</span>
+                        <ArrowRight className="w-3.5 h-3.5 ml-auto" />
+                      </Link>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* DESKTOP VIEW (Dense High-Yield Table) */}
+              <div className="hidden sm:block bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
+                <div className="overflow-x-auto">
+                  <table className="w-full text-left text-xs text-slate-700">
+                    <thead className="bg-slate-50 border-b border-slate-200 text-slate-600 font-semibold">
+                      <tr>
+                        <th className="py-3 px-4 w-12 text-center">Rank</th>
+                        <th className="py-3 px-4">Candidate Information</th>
+                        <th className="py-3 px-4">Exam / Paper</th>
+                        <th className="py-3 px-4 text-center">Score / Marks</th>
+                        <th className="py-3 px-4 text-center">Accuracy</th>
+                        <th className="py-3 px-4 text-center">Breakdown (C / W / U)</th>
+                        <th className="py-3 px-4 text-center">Time Spent</th>
+                        <th className="py-3 px-4 text-center">Status</th>
+                        <th className="py-3 px-4 text-right">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100">
+                      {submissionsData.submissions.map((sub: any) => {
+                        const medalBadge =
+                          sub.rank === 1
+                            ? "bg-amber-100 text-amber-900 border-amber-300"
+                            : sub.rank === 2
+                            ? "bg-slate-200 text-slate-800 border-slate-300"
+                            : sub.rank === 3
+                            ? "bg-orange-100 text-orange-900 border-orange-200"
+                            : "bg-slate-100 text-slate-700 border-slate-200";
+
+                        return (
+                          <tr key={sub.id} className="hover:bg-slate-50 transition-colors">
+                            {/* Rank */}
+                            <td className="py-3.5 px-4 text-center">
+                              <span
+                                className={`px-2 py-0.5 rounded-full text-[11px] font-black border font-mono inline-block ${medalBadge}`}
+                              >
+                                {sub.rank === 1 ? "🥇 1" : sub.rank === 2 ? "🥈 2" : sub.rank === 3 ? "🥉 3" : `#${sub.rank}`}
+                              </span>
+                            </td>
+
+                            {/* Candidate */}
+                            <td className="py-3.5 px-4">
+                              <div className="font-bold text-slate-900">{sub.candidateName}</div>
+                              <div className="text-[11px] text-slate-500 font-mono">
+                                {sub.candidateRollNo} &bull; {sub.candidateEmail}
+                              </div>
+                            </td>
+
+                            {/* Exam */}
+                            <td className="py-3.5 px-4 max-w-[200px]">
+                              <div className="font-semibold text-slate-800 truncate" title={sub.examTitle}>
+                                {sub.examTitle}
+                              </div>
+                              <span className="text-[10px] font-mono text-slate-400 bg-slate-100 px-1.5 py-0.2 rounded">
+                                {sub.examCategory}
+                              </span>
+                            </td>
+
+                            {/* Score */}
+                            <td className="py-3.5 px-4 text-center">
+                              <div className="font-black text-slate-900 font-mono text-sm">
+                                {sub.finalScore}{" "}
+                                <span className="text-[11px] font-normal text-slate-400">
+                                  / {sub.totalMarks}
+                                </span>
+                              </div>
+                              <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.2 rounded border border-emerald-200">
+                                {sub.percentage}%
+                              </span>
+                            </td>
+
+                            {/* Accuracy */}
+                            <td className="py-3.5 px-4 text-center">
+                              <span className="font-bold font-mono text-slate-800">
+                                {sub.accuracy}%
+                              </span>
+                            </td>
+
+                            {/* Breakdown */}
+                            <td className="py-3.5 px-4 text-center">
+                              <div className="font-mono text-xs flex items-center justify-center gap-1.5">
+                                <span className="text-emerald-700 font-bold" title="Correct">
+                                  +{sub.correctCount}
+                                </span>
+                                <span className="text-slate-300">/</span>
+                                <span className="text-rose-600 font-bold" title="Incorrect">
+                                  -{sub.incorrectCount}
+                                </span>
+                                <span className="text-slate-300">/</span>
+                                <span className="text-slate-400" title="Unattempted">
+                                  {sub.unattemptedCount}
+                                </span>
+                              </div>
+                            </td>
+
+                            {/* Time Spent */}
+                            <td className="py-3.5 px-4 text-center font-mono text-xs text-slate-600">
+                              {Math.floor(sub.timeSpentSeconds / 60)}m {sub.timeSpentSeconds % 60}s
+                            </td>
+
+                            {/* Status */}
+                            <td className="py-3.5 px-4 text-center">
+                              <span
+                                className={`text-[10px] font-bold font-mono px-2 py-0.5 rounded-full border ${
+                                  sub.status === "EVALUATED"
+                                    ? "bg-emerald-50 text-emerald-700 border-emerald-200"
+                                    : sub.status === "SUBMITTED"
+                                    ? "bg-teal-50 text-teal-700 border-teal-200"
+                                    : "bg-blue-50 text-blue-700 border-blue-200"
+                                }`}
+                              >
+                                {sub.status}
+                              </span>
+                            </td>
+
+                            {/* Action */}
+                            <td className="py-3.5 px-4 text-right">
+                              <Link
+                                href={`/mock/${sub.id}/result`}
+                                className="px-3 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 text-xs font-bold transition-all inline-flex items-center gap-1 group"
+                                title="View detailed evaluation scorecard and answers"
+                              >
+                                <Eye className="w-3.5 h-3.5" />
+                                <span>Scorecard</span>
+                                <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                              </Link>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       )}
 

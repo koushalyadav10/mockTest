@@ -46,6 +46,7 @@ interface ExamConfigItem {
   sectionalTiming: boolean;
   sectionLock: boolean;
   navigationRules: string;
+  totalAttempts?: number;
   sections?: { name: string; questionCount: number; durationMinutes?: number }[];
 }
 
@@ -616,6 +617,20 @@ export default function ExamsCatalogPage() {
                             <SlidersHorizontal className="w-3.5 h-3.5" />
                             <span className="hidden sm:inline">Configure</span>
                           </button>
+
+                          {/* Candidate Scores & Submissions (Admin Only) */}
+                          {currentUser?.role === "ADMIN" && (
+                            <Link
+                              href={`/admin?tab=SUBMISSIONS&examId=${exam.id}`}
+                              className="p-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 text-xs font-semibold transition-colors flex items-center gap-1"
+                              title="View candidate submissions, marks, and detailed scorecards for this exam"
+                            >
+                              <BarChart2 className="w-3.5 h-3.5 text-emerald-600" />
+                              <span className="hidden sm:inline">
+                                Scores {exam.totalAttempts ? `(${exam.totalAttempts})` : ""}
+                              </span>
+                            </Link>
+                          )}
                         </div>
                       )}
 

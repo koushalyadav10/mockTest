@@ -8,6 +8,9 @@ export async function GET(req: NextRequest) {
         sections: {
           orderBy: { order: "asc" },
         },
+        _count: {
+          select: { testAttempts: true },
+        },
       },
       orderBy: { createdAt: "desc" },
     });
@@ -30,6 +33,7 @@ export async function GET(req: NextRequest) {
 
       return {
         ...exam,
+        totalAttempts: exam._count?.testAttempts || 0,
         scheduledStatus: computedStatus,
       };
     });

@@ -252,7 +252,7 @@ export default function TeacherDashboardPage() {
               <p className="text-[11px] text-slate-500">Live test submissions and score distributions</p>
             </div>
             <Link href="/analytics" className="text-xs font-bold text-teal-700 hover:underline">
-              Full Analytics &rarr;
+              Student Performance Analytics &rarr;
             </Link>
           </div>
 
@@ -265,9 +265,13 @@ export default function TeacherDashboardPage() {
               </div>
             ) : (
               recentAttempts.map((att) => (
-                <div key={att.id} className="p-4 flex items-center justify-between gap-3 text-xs hover:bg-slate-50">
+                <Link
+                  key={att.id}
+                  href={`/mock/${att.id}/result`}
+                  className="p-4 flex items-center justify-between gap-3 text-xs hover:bg-slate-50 transition-colors group"
+                >
                   <div>
-                    <div className="font-bold text-slate-900">
+                    <div className="font-bold text-slate-900 group-hover:text-teal-700 transition-colors">
                       {att.user?.name || "Student Candidate"}
                     </div>
                     <div className="text-[11px] text-slate-500">
@@ -282,7 +286,7 @@ export default function TeacherDashboardPage() {
                       {new Date(att.createdAt).toLocaleTimeString()}
                     </div>
                   </div>
-                </div>
+                </Link>
               ))
             )}
           </div>
