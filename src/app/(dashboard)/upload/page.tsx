@@ -11,6 +11,7 @@ import { PipelineStep } from "@/lib/ai/types";
 
 export default function UploadCenterPage() {
   const router = useRouter();
+  const [currentUser, setCurrentUser] = useState<any>(null);
   const [file, setFile] = useState<File | null>(null);
   const [documentId, setDocumentId] = useState<string | null>(null);
   const [uploadedFileName, setUploadedFileName] = useState<string>("Uploaded_Document.pdf");
@@ -20,6 +21,15 @@ export default function UploadCenterPage() {
   const [stepsLog, setStepsLog] = useState<PipelineStep[]>([]);
   const [extractedQuestions, setExtractedQuestions] = useState<ReviewQuestionItem[] | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  React.useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.user) setCurrentUser(data.user);
+      })
+      .catch(() => {});
+  }, []);
 
   const startExtraction = async (params?: { file?: File; rawText?: string; title?: string }) => {
     try {
@@ -152,8 +162,29 @@ export default function UploadCenterPage() {
         )}
       </div>
 
-      {/* Main Content Area */}
-      {!extractedQuestions ? (
+      {/* Student Role Guard */}
+      {currentUser?.role === "STUDENT" ? (
+        <div className="p-8 bg-blue-50/70 border border-blue-200 rounded-2xl text-center space-y-4 max-w-lg mx-auto my-12 shadow-xs">
+          <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center mx-auto text-xl shadow-xs">
+            🎓
+          </div>
+          <div>
+            <h3 className="text-base font-bold text-slate-900">Faculty Feature Only</h3>
+            <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+              Question Paper Upload &amp; OCR parsing is reserved for Faculty and Administrators. Candidates can take full CBT examinations from the Mock Tests catalog.
+            </p>
+          </div>
+          <Button
+            variant="primary"
+            onClick={() => router.push("/exams")}
+            className="w-full justify-center text-sm font-bold shadow-md"
+          >
+            Go to Available Mock Tests &rarr;
+          </Button>
+        </div>
+      ) : (
+        /* Main Content Area */
+        !extractedQuestions ? (
         <div className="max-w-2xl mx-auto space-y-6">
           {!processing ? (
             <UploadDropzone
@@ -210,7 +241,7 @@ export default function UploadCenterPage() {
             onGenerateTest={handleGenerateTest}
           />
         </div>
-      )}
+      ))}
     </div>
   );
 }

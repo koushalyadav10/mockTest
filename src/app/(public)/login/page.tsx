@@ -268,20 +268,6 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen bg-[#f1f5f9] flex items-center justify-center p-3 sm:p-6 font-sans relative">
-      {/* Dev Mailbox Drawer Trigger in Top Right */}
-      <div className="fixed top-4 right-4 z-40">
-        <button
-          onClick={() => {
-            fetchDevMailbox();
-            setMailboxOpen(true);
-          }}
-          className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-300 text-slate-700 text-xs font-semibold shadow-xs hover:border-teal-500 hover:text-teal-700 transition-all"
-        >
-          <Inbox className="w-3.5 h-3.5 text-teal-600" />
-          <span>Real Email Inbox ({recentEmails.length})</span>
-        </button>
-      </div>
-
       {/* Main 2-Column Authentication Card inspired by Reference Screenshot 2 */}
       <div className="max-w-4xl w-full bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden grid grid-cols-1 md:grid-cols-12 min-h-[580px]">
         {/* Left Column: Teal/Cyan Brand Area (Exact Reference UX) */}
@@ -426,10 +412,20 @@ export default function LoginPage() {
 
           {/* 1. OTP INPUT STEP */}
           {isOtpStep ? (
-            <form onSubmit={handleVerifyOtp} className="space-y-6">
+            <form onSubmit={handleVerifyOtp} className="space-y-5">
+              <div className="p-3.5 rounded-xl bg-teal-50 border border-teal-200 text-xs text-teal-900 space-y-1">
+                <div className="font-bold flex items-center gap-1.5 text-teal-950">
+                  <Mail className="w-4 h-4 text-teal-600 shrink-0" />
+                  <span>Verification Code Dispatched</span>
+                </div>
+                <p className="text-[12px] text-teal-800 leading-relaxed">
+                  A 6-digit OTP has been sent to <strong>{email}</strong>. Please check your Gmail / Email inbox (also check the Spam or Updates folder).
+                </p>
+              </div>
+
               <div className="space-y-2">
                 <label className="text-xs font-bold text-slate-700 block">
-                  6-Digit OTP Code
+                  Enter 6-Digit OTP Code
                 </label>
                 <div className="flex items-center justify-between gap-2">
                   {otpDigits.map((digit, idx) => (
@@ -636,86 +632,6 @@ export default function LoginPage() {
           )}
         </div>
       </div>
-
-      {/* DEV MAILBOX DRAWER: Real-time visual inspector for dispatched emails & OTP codes */}
-      {mailboxOpen && (
-        <div className="fixed inset-0 z-50 bg-black/50 backdrop-blur-xs flex justify-end">
-          <div className="w-full max-w-md bg-white h-full shadow-2xl flex flex-col p-6 overflow-hidden animate-in slide-in-from-right">
-            <div className="flex items-center justify-between pb-4 border-b border-slate-200">
-              <div className="flex items-center gap-2">
-                <Inbox className="w-5 h-5 text-teal-600" />
-                <h4 className="font-bold text-slate-900 text-base">Real Email Dispatch Log</h4>
-              </div>
-              <button
-                onClick={() => setMailboxOpen(false)}
-                className="p-1 rounded-md text-slate-400 hover:text-slate-700"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            <p className="text-xs text-slate-500 py-2">
-              ExamForge transactional email service logs dispatched emails here for instant inspection.
-            </p>
-
-            <div className="flex-1 overflow-y-auto space-y-3 py-2">
-              {recentEmails.length === 0 ? (
-                <div className="text-center py-12 text-xs text-slate-400">
-                  No emails dispatched yet in this session.
-                </div>
-              ) : (
-                recentEmails.map((item) => (
-                  <div
-                    key={item.id}
-                    className="p-3.5 rounded-xl border border-slate-200 bg-slate-50 space-y-2 text-xs"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="font-bold text-slate-900 truncate max-w-[200px]">
-                        To: {item.to}
-                      </span>
-                      <span className="text-[10px] bg-teal-100 text-teal-800 font-mono font-semibold px-2 py-0.5 rounded">
-                        {item.provider}
-                      </span>
-                    </div>
-
-                    <div className="font-medium text-slate-700">{item.subject}</div>
-
-                    {item.otpCode && (
-                      <div className="p-2.5 rounded-lg bg-teal-50 border border-teal-200 text-center flex items-center justify-between">
-                        <span className="font-semibold text-teal-900">Live 6-Digit OTP:</span>
-                        <span className="font-mono font-black text-lg text-teal-700 tracking-widest bg-white px-2 py-0.5 rounded border border-teal-300">
-                          {item.otpCode}
-                        </span>
-                      </div>
-                    )}
-
-                    <div className="text-[10px] text-slate-400 text-right">
-                      {new Date(item.sentAt).toLocaleTimeString()}
-                    </div>
-                  </div>
-                ))
-              )}
-            </div>
-
-            <div className="pt-3 border-t border-slate-200 flex justify-between items-center text-xs">
-              <button
-                type="button"
-                onClick={fetchDevMailbox}
-                className="text-teal-600 font-semibold hover:underline flex items-center gap-1"
-              >
-                <RefreshCw className="w-3.5 h-3.5" /> Refresh Inbox
-              </button>
-              <button
-                type="button"
-                onClick={() => setMailboxOpen(false)}
-                className="px-3 py-1 bg-slate-100 rounded-md text-slate-700 font-medium"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

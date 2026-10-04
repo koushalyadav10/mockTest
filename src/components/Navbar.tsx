@@ -10,7 +10,6 @@ import {
   FileCheck2,
   BarChart3,
   History,
-  Settings,
   Flame,
   Menu,
   X,
@@ -18,8 +17,8 @@ import {
   Shield,
   GraduationCap,
   LogOut,
+  Sparkles,
 } from "lucide-react";
-import { Button } from "./ui/Button";
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -50,15 +49,28 @@ export const Navbar: React.FC = () => {
     return null;
   }
 
-  const navLinks = [
+  const isTeacherOrAdmin = user?.role === "TEACHER" || user?.role === "ADMIN";
+
+  // Strict Role-Based Navigation: Students must never see Upload & OCR or Question Bank
+  const studentNavLinks = [
     { href: "/dashboard", label: "Dashboard", icon: Layers },
-    { href: "/exams", label: "Exams", icon: FileCheck2 },
-    { href: "/upload", label: "Upload & OCR", icon: Upload },
-    { href: "/question-bank", label: "Question Bank", icon: BookOpen },
+    { href: "/exams", label: "Mock Tests", icon: FileCheck2 },
     { href: "/practice", label: "Quick Practice", icon: PlayCircle },
     { href: "/analytics", label: "Analytics", icon: BarChart3 },
     { href: "/history", label: "Test History", icon: History },
   ];
+
+  const facultyNavLinks = [
+    { href: "/dashboard", label: "Dashboard", icon: Layers },
+    { href: "/exams", label: "Exams", icon: FileCheck2 },
+    { href: "/upload", label: "Upload & OCR", icon: Upload },
+    { href: "/question-bank", label: "Question Bank", icon: BookOpen },
+    { href: "/practice", label: "Practice Mode", icon: PlayCircle },
+    { href: "/analytics", label: "Analytics", icon: BarChart3 },
+    { href: "/history", label: "History", icon: History },
+  ];
+
+  const activeNavLinks = isTeacherOrAdmin ? facultyNavLinks : studentNavLinks;
 
   return (
     <nav className="bg-white border-b border-slate-200 sticky top-0 z-40 select-none">
@@ -82,9 +94,10 @@ export const Navbar: React.FC = () => {
 
             {/* Desktop Navigation Links */}
             <div className="hidden lg:flex items-center gap-1">
-              {navLinks.map((link) => {
+              {activeNavLinks.map((link) => {
                 const Icon = link.icon;
-                const isActive = pathname === link.href || (link.href !== "/dashboard" && pathname?.startsWith(link.href));
+                const isActive =
+                  pathname === link.href || (link.href !== "/dashboard" && pathname?.startsWith(link.href));
                 return (
                   <Link
                     key={link.href}
@@ -101,7 +114,7 @@ export const Navbar: React.FC = () => {
                 );
               })}
 
-              {/* Conditional Admin or Teacher link */}
+              {/* Conditional Admin link */}
               {user?.role === "ADMIN" && (
                 <Link
                   href="/admin"
@@ -116,6 +129,7 @@ export const Navbar: React.FC = () => {
                 </Link>
               )}
 
+              {/* Conditional Teacher / Faculty link */}
               {user?.role === "TEACHER" && (
                 <Link
                   href="/teacher"
@@ -132,7 +146,7 @@ export const Navbar: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Area: Streak, Role Badge, Profile & Logout */}
+          {/* Right Area: Streak, Role-appropriate Action, Profile & Logout */}
           <div className="flex items-center gap-3">
             {/* Student Streak Indicator */}
             <div className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 bg-amber-50 border border-amber-200/80 rounded-full text-xs text-amber-800 font-semibold">
@@ -140,15 +154,29 @@ export const Navbar: React.FC = () => {
               <span>4 Day Streak</span>
             </div>
 
-            <Link href="/upload">
-              <button
-                type="button"
-                className="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs shadow-xs transition-all"
-              >
-                <Upload className="w-3.5 h-3.5" />
-                <span>Upload Paper</span>
-              </button>
-            </Link>
+            {/* Faculty Action: Upload Paper */}
+            {isTeacherOrAdmin ? (
+              <Link href="/upload">
+                <button
+                  type="button"
+                  className="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs shadow-xs transition-all"
+                >
+                  <Upload className="w-3.5 h-3.5" />
+                  <span>Upload Paper</span>
+                </button>
+              </Link>
+            ) : (
+              /* Student Action: Browse Mock Tests */
+              <Link href="/exams">
+                <button
+                  type="button"
+                  className="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all"
+                >
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Browse Tests</span>
+                </button>
+              </Link>
+            )}
 
             {/* Profile Avatar / Initials */}
             <div className="flex items-center gap-2 pl-2 border-l border-slate-200 text-xs">
@@ -157,7 +185,7 @@ export const Navbar: React.FC = () => {
               </div>
               <div className="hidden md:block leading-tight text-left">
                 <div className="font-bold text-slate-800 truncate max-w-[120px]">
-                  {user?.name || "Aditya Sharma"}
+                  {user?.name || "Candidate"}
                 </div>
                 <div className="text-[10px] text-slate-400 font-mono">
                   {user?.role || "STUDENT"}
@@ -188,7 +216,7 @@ export const Navbar: React.FC = () => {
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-slate-200 bg-white px-4 pt-2 pb-4 space-y-1 shadow-lg animate-in slide-in-from-top-2">
-          {navLinks.map((link) => {
+          {activeNavLinks.map((link) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
             return (
@@ -215,6 +243,16 @@ export const Navbar: React.FC = () => {
             >
               <Shield className="w-4 h-4" />
               <span>Admin Console</span>
+            </Link>
+          )}
+          {user?.role === "TEACHER" && (
+            <Link
+              href="/teacher"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm font-bold text-blue-700 hover:bg-blue-50"
+            >
+              <GraduationCap className="w-4 h-4" />
+              <span>Faculty Workspace</span>
             </Link>
           )}
           <button

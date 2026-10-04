@@ -77,6 +77,7 @@ interface QuestionItem {
 
 export default function QuestionBankPage() {
   const router = useRouter();
+  const [currentUser, setCurrentUser] = useState<any>(null);
 
   // Primary navigation: "DOCUMENTS" (File Cards) or "QUESTIONS" (All Flat List)
   const [activeTab, setActiveTab] = useState<"DOCUMENTS" | "QUESTIONS">("DOCUMENTS");
@@ -136,8 +137,19 @@ export default function QuestionBankPage() {
   };
 
   useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.user) {
+          setCurrentUser(data.user);
+          if (data.user.role === "STUDENT") {
+            router.push("/exams");
+          }
+        }
+      })
+      .catch(() => {});
     fetchDocuments();
-  }, []);
+  }, [router]);
 
   useEffect(() => {
     if (activeTab === "QUESTIONS" || selectedDoc) {
@@ -516,14 +528,16 @@ export default function QuestionBankPage() {
                         <span>Start Mock</span>
                       </Button>
 
-                      {/* Delete Document */}
-                      <button
-                        onClick={() => handleDeleteDocument(doc.id, doc.fileName)}
-                        title="Delete paper and its questions"
-                        className="p-1.5 text-slate-400 hover:text-rose-600 rounded-lg hover:bg-rose-50 border border-transparent hover:border-rose-200 transition-colors"
-                      >
-                        <Trash2 className="w-4 h-4" />
-                      </button>
+                      {/* Delete Document (Restricted to Faculty & Admin) */}
+                      {(currentUser?.role === "ADMIN" || currentUser?.role === "TEACHER") && (
+                        <button
+                          onClick={() => handleDeleteDocument(doc.id, doc.fileName)}
+                          title="Delete paper and its questions"
+                          className="p-1.5 text-slate-400 hover:text-rose-600 rounded-lg hover:bg-rose-50 border border-transparent hover:border-rose-200 transition-colors"
+                        >
+                          <Trash2 className="w-4 h-4" />
+                        </button>
+                      )}
                     </div>
                   </div>
                 );

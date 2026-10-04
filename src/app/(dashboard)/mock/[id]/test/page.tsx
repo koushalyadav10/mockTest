@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState, useCallback, useRef } from "react";
+import React, { useEffect, useState, useCallback, useRef, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { ExamHeader } from "@/components/cbt/ExamHeader";
 import { SectionTabs, SectionTabItem } from "@/components/cbt/SectionTabs";
@@ -37,7 +37,7 @@ interface QuestionData {
   explanation?: string | null;
 }
 
-export default function CBTExaminationTestPage({ params }: { params: { id: string } }) {
+function CBTExaminationTestContent({ params }: { params: { id: string } }) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const instantFeedback = searchParams.get("instantFeedback") === "true";
@@ -100,7 +100,13 @@ export default function CBTExaminationTestPage({ params }: { params: { id: strin
   // Anti-Cheat Tab Switch & Window Focus Monitor
   useEffect(() => {
     const handleVisibilityChange = () => {
-      if (document.visibilityState === "hidden" && !showFullscreenModal && !isSubmitting) {
+      if (
+        document.visibilityState === "hidden" &&
+        !showFullscreenModal &&
+        !isSubmitting &&
+        !isSubmitModalOpen &&
+        !isAuthGateOpen
+      ) {
         const time = new Date().toLocaleTimeString();
         setLastViolationTime(time);
         setViolationCount((prev) => {
@@ -113,7 +119,16 @@ export default function CBTExaminationTestPage({ params }: { params: { id: strin
     };
 
     const handleBlur = () => {
-      if (!showFullscreenModal && !isSubmitting) {
+      // Do not trigger violation if test is submitting, submit modal is open, or auth gate is active
+      if (
+        !showFullscreenModal &&
+        !isSubmitting &&
+        !isSubmitModalOpen &&
+        !isAuthGateOpen
+      ) {
+        if (typeof document !== "undefined" && document.hasFocus && document.hasFocus()) {
+          return;
+        }
         const time = new Date().toLocaleTimeString();
         setLastViolationTime(time);
         setViolationCount((prev) => {
@@ -127,7 +142,14 @@ export default function CBTExaminationTestPage({ params }: { params: { id: strin
 
     const handleFullscreenChange = () => {
       const inFull = Boolean(document.fullscreenElement);
-      if (!inFull && !showFullscreenModal && !isSubmitting) {
+      // Never trigger when user is submitting or confirm modal is open
+      if (
+        !inFull &&
+        !showFullscreenModal &&
+        !isSubmitting &&
+        !isSubmitModalOpen &&
+        !isAuthGateOpen
+      ) {
         const time = new Date().toLocaleTimeString();
         setLastViolationTime(time);
         setViolationCount((prev) => {
@@ -148,7 +170,7 @@ export default function CBTExaminationTestPage({ params }: { params: { id: strin
       window.removeEventListener("blur", handleBlur);
       document.removeEventListener("fullscreenchange", handleFullscreenChange);
     };
-  }, [showFullscreenModal, isSubmitting, currentIndex, currentQ]);
+  }, [showFullscreenModal, isSubmitting, isSubmitModalOpen, isAuthGateOpen]);
 
   // Load Test Data
   const loadTest = useCallback(async () => {
@@ -334,6 +356,8 @@ export default function CBTExaminationTestPage({ params }: { params: { id: strin
   const handleFinalSubmit = async () => {
     try {
       setIsSubmitting(true);
+      setIsSubmitModalOpen(false);
+      setIsProctoringWarningOpen(false);
       const res = await fetch(`/api/tests/${params.id}/submit`, {
         method: "POST",
       });
@@ -524,5 +548,22 @@ export default function CBTExaminationTestPage({ params }: { params: { id: strin
         }}
       />
     </div>
+  );
+}
+
+export default function CBTExaminationTestPage(props: { params: { id: string } }) {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex h-screen items-center justify-center bg-[#f6f8fa]">
+          <div className="text-center space-y-3">
+            <div className="w-10 h-10 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto" />
+            <p className="text-xs font-semibold text-slate-600">Initializing Exam Session...</p>
+          </div>
+        </div>
+      }
+    >
+      <CBTExaminationTestContent {...props} />
+    </Suspense>
   );
 }
