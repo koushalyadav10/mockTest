@@ -90,6 +90,12 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
   const [isEditing, setIsEditing] = useState(false);
   const [viewMode, setViewMode] = useState<"SPLIT_SOURCE" | "QUESTION_LIST">("SPLIT_SOURCE");
   const [activePage, setActivePage] = useState<number>(1);
+  const [toastMessage, setToastMessage] = useState<string | null>(null);
+
+  const showToast = (msg: string) => {
+    setToastMessage(msg);
+    setTimeout(() => setToastMessage(null), 3500);
+  };
 
   const currentQ = questions[selectedIndex] || questions[0];
 
@@ -122,6 +128,7 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
       verifiedAnswer: optLabel,
       requiresReview: false,
     });
+    showToast(`✓ Option (${optLabel}) set as verified correct answer`);
   };
 
   const handleShuffleCurrentOptions = () => {
@@ -144,6 +151,7 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
     }));
 
     handleUpdateCurrent({ options: remapped });
+    showToast(`✓ Options safely shuffled`);
   };
 
   const handleApproveAll = () => {
@@ -155,6 +163,7 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
     }));
     setQuestions(approved);
     approved.forEach((q) => onSaveQuestion(q));
+    showToast(`✓ All ${questions.length} questions approved successfully!`);
   };
 
   if (!currentQ) {
@@ -265,7 +274,7 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
             <SourceDocumentViewer
               fileName={fileName}
               documentId={documentId}
-              pdfUrl={pdfUrl || (documentId ? `/uploads/${documentId}.pdf` : null)}
+              pdfUrl={fileName?.toLowerCase().endsWith(".pdf") ? (pdfUrl || (documentId ? `/uploads/${documentId}.pdf` : null)) : null}
               questions={questions}
               currentPage={activePage}
               onPageChange={(p) => setActivePage(p)}
@@ -340,9 +349,30 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
                   </span>
                 )}
               </div>
-              <h3 className="text-sm font-semibold text-slate-900">
-                {currentQ.subject} &bull; {currentQ.topic}
-              </h3>
+              <div className="flex flex-wrap items-center gap-2 mt-1">
+                <select
+                  value={currentQ.subject}
+                  onChange={(e) => {
+                    handleUpdateCurrent({ subject: e.target.value });
+                    showToast(`✓ Subject set to ${e.target.value}`);
+                  }}
+                  className="text-xs font-bold px-2 py-1 rounded bg-slate-100 hover:bg-slate-200 border border-slate-300 text-slate-800 focus:outline-none focus:ring-1 focus:ring-blue-500 cursor-pointer"
+                >
+                  <option value="General Awareness">General Awareness (GK & GS)</option>
+                  <option value="Quantitative Aptitude">Quantitative Aptitude (Maths)</option>
+                  <option value="General Intelligence">General Intelligence (Reasoning)</option>
+                  <option value="English Language">English Language</option>
+                  <option value="General Hindi">General Hindi</option>
+                </select>
+                <span className="text-slate-400 text-xs">&bull;</span>
+                <input
+                  type="text"
+                  value={currentQ.topic}
+                  onChange={(e) => handleUpdateCurrent({ topic: e.target.value })}
+                  placeholder="Topic / Chapter..."
+                  className="text-xs px-2.5 py-1 rounded bg-slate-100 border border-slate-300 text-slate-800 focus:outline-none focus:ring-1 focus:ring-blue-500 max-w-[200px]"
+                />
+              </div>
             </div>
 
             <div className="flex items-center gap-1.5">
@@ -564,25 +594,35 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
           {/* Actions: Approve / Delete */}
           <div className="space-y-2 pt-2">
             <Button
-              variant="primary"
+              variant={currentQ.status === "APPROVED" && !currentQ.requiresReview ? "outline" : "primary"}
               size="sm"
-              className="w-full"
+              className={`w-full ${
+                currentQ.status === "APPROVED" && !currentQ.requiresReview
+                  ? "bg-emerald-50 text-emerald-800 border-emerald-300 hover:bg-emerald-100 font-bold"
+                  : "bg-blue-600 hover:bg-blue-700 text-white font-bold"
+              }`}
               onClick={() => {
                 handleUpdateCurrent({
                   requiresReview: false,
                   status: "APPROVED",
                   verifiedAnswer: effectiveAnswer,
                 });
+                showToast(`✓ Question Q.${currentQ.questionNumber} marked as Approved!`);
               }}
             >
-              <Check className="w-3.5 h-3.5 mr-1" />
-              Approve Question
+              <Check className="w-3.5 h-3.5 mr-1 text-emerald-600" />
+              {currentQ.status === "APPROVED" && !currentQ.requiresReview
+                ? `✓ Question Q.${currentQ.questionNumber} Approved`
+                : `Approve Question Q.${currentQ.questionNumber}`}
             </Button>
             <Button
               variant="danger"
               size="sm"
               className="w-full bg-red-50 text-red-700 border border-red-200 hover:bg-red-100"
-              onClick={() => onDeleteQuestion(currentQ.id)}
+              onClick={() => {
+                onDeleteQuestion(currentQ.id);
+                showToast(`Question Q.${currentQ.questionNumber} deleted`);
+              }}
             >
               <Trash2 className="w-3.5 h-3.5 mr-1" />
               Delete Question
@@ -590,6 +630,14 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Floating Interactive Toast Feedback */}
+      {toastMessage && (
+        <div className="fixed bottom-6 right-6 z-50 bg-slate-900/95 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center gap-2.5 text-xs font-bold border border-slate-700 backdrop-blur-sm transition-all duration-300">
+          <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
+          <span>{toastMessage}</span>
+        </div>
+      )}
     </div>
   );
 };

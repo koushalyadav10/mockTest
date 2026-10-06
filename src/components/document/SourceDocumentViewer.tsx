@@ -56,8 +56,12 @@ export const SourceDocumentViewer: React.FC<SourceDocumentViewerProps> = ({
   imageUrl,
   questionSnippetText,
 }) => {
+  const isPdf = Boolean(
+    (fileName && fileName.toLowerCase().endsWith(".pdf")) ||
+    (pdfUrl && pdfUrl.toLowerCase().endsWith(".pdf"))
+  );
   const [zoom, setZoom] = useState<number>(100);
-  const [viewMode, setViewMode] = useState<"SHEET" | "PDF">(pdfUrl ? "PDF" : "SHEET");
+  const [viewMode, setViewMode] = useState<"SHEET" | "PDF">(isPdf && pdfUrl ? "PDF" : "SHEET");
 
   const computedPageCount =
     explicitPageCount ||
@@ -123,7 +127,7 @@ export const SourceDocumentViewer: React.FC<SourceDocumentViewerProps> = ({
 
         {/* Zoom & View Mode Controls */}
         <div className="flex items-center gap-2">
-          {pdfUrl && (
+          {isPdf && pdfUrl && (
             <div className="flex items-center bg-slate-900 border border-slate-800 rounded p-0.5 text-[10px]">
               <button
                 onClick={() => setViewMode("SHEET")}
@@ -177,7 +181,7 @@ export const SourceDocumentViewer: React.FC<SourceDocumentViewerProps> = ({
 
       {/* Interactive Document Canvas Viewport */}
       <div className="flex-1 overflow-auto p-4 sm:p-6 bg-slate-950/80 flex justify-center items-start">
-        {viewMode === "PDF" && pdfUrl ? (
+        {viewMode === "PDF" && isPdf && pdfUrl ? (
           <div
             className="w-full h-[750px] bg-white rounded-lg shadow-2xl overflow-hidden border border-slate-700"
             style={{ transform: `scale(${zoom / 100})`, transformOrigin: "top center" }}

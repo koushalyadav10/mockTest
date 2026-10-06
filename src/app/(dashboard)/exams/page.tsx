@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   Clock,
   Target,
@@ -27,7 +27,7 @@ import {
   Mail,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { formatCleanChapterTitle, isAssignedExam } from "@/lib/exam/tag-parser";
+import { formatCleanChapterTitle, isAssignedExam, getExamSubject } from "@/lib/exam/tag-parser";
 
 const SUBJECTS = [
   {
@@ -59,8 +59,8 @@ const SUBJECTS = [
     name: "GK & GS",
     hindiName: "सामान्य ज्ञान",
     icon: "🌍",
-    active: false,
-    countBadge: "Coming Soon",
+    active: true,
+    countBadge: "Live Available",
   },
   {
     id: "HINDI",
@@ -96,13 +96,25 @@ interface ExamConfigItem {
   sections?: { name: string; questionCount: number; durationMinutes?: number }[];
 }
 
-export default function ExamsCatalogPage() {
+function ExamsCatalogContent() {
   const router = useRouter();
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [exams, setExams] = useState<ExamConfigItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [creatingTestId, setCreatingTestId] = useState<string | null>(null);
+  const searchParams = useSearchParams();
+  const subjectParam = searchParams.get("subject");
   const [selectedSubject, setSelectedSubject] = useState<string>("MATHS");
+
+  useEffect(() => {
+    if (subjectParam) {
+      const up = subjectParam.toUpperCase();
+      if (["GK_GS", "GK", "GS", "GENERAL_AWARENESS"].includes(up)) setSelectedSubject("GK_GS");
+      else if (["MATHS", "MATHEMATICS", "QUANT"].includes(up)) setSelectedSubject("MATHS");
+      else if (["REASONING"].includes(up)) setSelectedSubject("REASONING");
+      else if (["ENGLISH"].includes(up)) setSelectedSubject("ENGLISH");
+      else if (["HINDI"].includes(up)) setSelectedSubject("HINDI");
+    }
+  }, [subjectParam]);
 
   // Filters & Tabs
   const [activeTab, setActiveTab] = useState<"ALL" | "LIVE" | "ASSIGNED" | "UPCOMING" | "EXPIRED" | "DRAFT">("LIVE");
@@ -299,6 +311,12 @@ export default function ExamsCatalogPage() {
     .filter((e) => {
       const isAssigned = isAssignedExam(e);
 
+      // Subject Module filter
+      if (selectedSubject) {
+        const examSub = getExamSubject(e);
+        if (examSub !== selectedSubject) return false;
+      }
+
       // Role filter: Students only see published exams
       if (!isAdminOrTeacher && e.status === "DRAFT") return false;
 
@@ -396,19 +414,34 @@ export default function ExamsCatalogPage() {
                   {sub.hindiName}
                 </div>
                 <div className="mt-2.5">
-                  <span
-                    className={`text-[9px] font-bold px-2 py-0.5 rounded-full ${
-                      sub.active
-                        ? isSelected
-                          ? "bg-amber-400 text-slate-950"
-                          : "bg-emerald-50 text-emerald-700 border border-emerald-200"
-                        : isSelected
-                        ? "bg-slate-800 text-slate-300 border border-slate-700"
-                        : "bg-slate-100 text-slate-500 border border-slate-200"
-                    }`}
-                  >
-                    {sub.countBadge}
-                  </span>
+                  {(() => {
+                    const subCount = exams.filter(
+                      (e) => getExamSubject(e) === sub.id && (isAdminOrTeacher || e.status === "PUBLISHED")
+                    ).length;
+                    const badgeText =
+                      sub.id === "MATHS"
+                        ? "30 Chapters • 6,486 Qs"
+                        : subCount > 0
+                        ? `${subCount} Tests Available`
+                        : sub.countBadge;
+                    const isAvailable = sub.active || subCount > 0;
+
+                    return (
+                      <span
+                        className={`text-[9px] font-bold px-2 py-0.5 rounded-full ${
+                          isAvailable
+                            ? isSelected
+                              ? "bg-amber-400 text-slate-950 font-bold"
+                              : "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                            : isSelected
+                            ? "bg-slate-800 text-slate-300 border border-slate-700"
+                            : "bg-slate-100 text-slate-500 border border-slate-200"
+                        }`}
+                      >
+                        {badgeText}
+                      </span>
+                    );
+                  })()}
                 </div>
               </button>
             );
@@ -610,35 +643,28 @@ export default function ExamsCatalogPage() {
             <div className="w-8 h-8 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin mx-auto mb-2" />
             Loading examination catalog...
           </div>
-        ) : selectedSubject !== "MATHS" ? (
+        ) : filteredExams.length === 0 ? (
           <div className="p-12 text-center rounded-3xl bg-white border border-slate-200/90 shadow-2xs space-y-4 max-w-2xl mx-auto my-6">
             <div className="w-16 h-16 rounded-2xl bg-indigo-50 border border-indigo-200 text-indigo-600 flex items-center justify-center text-3xl mx-auto shadow-2xs">
-              {SUBJECTS.find((s) => s.id === selectedSubject)?.icon}
+              {SUBJECTS.find((s) => s.id === selectedSubject)?.icon || "📚"}
             </div>
             <div className="space-y-1.5">
               <h3 className="text-lg font-bold text-slate-900">
                 {SUBJECTS.find((s) => s.id === selectedSubject)?.name} Module
               </h3>
               <p className="text-xs text-slate-500 leading-relaxed max-w-md mx-auto">
-                Question banks and chapterwise tests for this subject are currently being prepared. You can switch to
-                <strong> Mathematics</strong> to practice all 30 Aditya Ranjan TCS chapters.
+                No active examinations found in <strong>{SUBJECTS.find((s) => s.id === selectedSubject)?.name}</strong> for the selected tab.
               </p>
             </div>
             {isAdminOrTeacher && (
               <div className="pt-2">
-                <Link href="/upload">
+                <Link href={`/upload`}>
                   <Button variant="primary" size="sm" className="bg-indigo-600 hover:bg-indigo-700 text-xs font-bold">
-                    Upload &amp; Process PDF for this Subject
+                    Upload &amp; Create Paper for this Subject &rarr;
                   </Button>
                 </Link>
               </div>
             )}
-          </div>
-        ) : filteredExams.length === 0 ? (
-          <div className="p-12 text-center rounded-xl bg-slate-50 border border-dashed border-slate-200 text-xs text-slate-500 space-y-2">
-            <AlertCircle className="w-8 h-8 text-slate-400 mx-auto" />
-            <p className="font-bold text-slate-700">No examinations match the selected filter criteria.</p>
-            <p className="text-[11px]">Try clearing search filters or check with the administrator.</p>
           </div>
         ) : (
           <div className="space-y-3">
@@ -1112,5 +1138,13 @@ export default function ExamsCatalogPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function ExamsCatalogPage() {
+  return (
+    <Suspense fallback={<div className="p-12 text-center text-xs text-slate-500">Loading catalog...</div>}>
+      <ExamsCatalogContent />
+    </Suspense>
   );
 }

@@ -90,4 +90,70 @@ export function isAssignedExam(exam: { title?: string; code?: string; category?:
   return false;
 }
 
+/**
+ * Determines which subject curriculum module an exam belongs to:
+ * "GK_GS" | "MATHS" | "REASONING" | "ENGLISH" | "HINDI"
+ */
+export function getExamSubject(exam: {
+  title?: string;
+  code?: string;
+  category?: string;
+  instructions?: string | null;
+  sections?: { name: string }[];
+} | null | undefined): "GK_GS" | "MATHS" | "REASONING" | "ENGLISH" | "HINDI" {
+  if (!exam) return "MATHS";
+
+  // 1. Check instructions JSON
+  if (exam.instructions) {
+    try {
+      const parsed = JSON.parse(exam.instructions);
+      if (parsed.subject) {
+        const s = parsed.subject.toUpperCase();
+        if (["GK_GS", "GK", "GS", "GENERAL_AWARENESS"].includes(s)) return "GK_GS";
+        if (["MATHS", "MATHEMATICS", "QUANT"].includes(s)) return "MATHS";
+        if (["REASONING", "REASON", "GI"].includes(s)) return "REASONING";
+        if (["ENGLISH", "ENG"].includes(s)) return "ENGLISH";
+        if (["HINDI"].includes(s)) return "HINDI";
+      }
+    } catch (e) {}
+  }
+
+  // 2. Check category
+  const cat = (exam.category || "").toUpperCase();
+  if (["GK_GS", "GK", "GS", "GENERAL_AWARENESS", "GA"].includes(cat)) return "GK_GS";
+  if (["MATHS", "MATHEMATICS", "QUANT"].includes(cat)) return "MATHS";
+  if (["REASONING", "REASON", "GI"].includes(cat)) return "REASONING";
+  if (["ENGLISH", "ENG"].includes(cat)) return "ENGLISH";
+  if (["HINDI"].includes(cat)) return "HINDI";
+
+  // 3. Check title / code heuristics
+  const title = (exam.title || "").toLowerCase();
+  const code = (exam.code || "").toLowerCase();
+  if (
+    title.includes("gs") ||
+    title.includes("gk") ||
+    title.includes("general awareness") ||
+    title.includes("polity") ||
+    title.includes("history") ||
+    title.includes("geography") ||
+    title.includes("science") ||
+    code.includes("gs") ||
+    code.includes("gk")
+  ) {
+    return "GK_GS";
+  }
+  if (title.includes("reasoning") || code.includes("reasoning")) {
+    return "REASONING";
+  }
+  if (title.includes("english") || code.includes("english")) {
+    return "ENGLISH";
+  }
+  if (title.includes("hindi") || code.includes("hindi")) {
+    return "HINDI";
+  }
+
+  // 4. Default to MATHS for SSC Aditya Ranjan chapters
+  return "MATHS";
+}
+
 

@@ -28,6 +28,17 @@ function UploadCenterContent() {
   const [uploadedDocs, setUploadedDocs] = useState<any[]>([]);
   const [loadingExisting, setLoadingExisting] = useState(false);
 
+  const [selectedSubject, setSelectedSubject] = useState<string>("GK_GS");
+  const [publishedModal, setPublishedModal] = useState<{
+    isOpen: boolean;
+    examId?: string;
+    testAttemptId?: string;
+    title: string;
+    questionCount: number;
+    subject: string;
+  } | null>(null);
+  const [isPublishing, setIsPublishing] = useState(false);
+
   // Fetch current user & documents list
   useEffect(() => {
     fetch("/api/auth/me")
@@ -66,8 +77,12 @@ function UploadCenterContent() {
 
       setDocumentId(id);
       setUploadedFileName(data.document.fileName);
-      setPdfUrl(`/uploads/${id}.pdf`);
+      const isPdfDoc = data.document.fileName?.toLowerCase().endsWith(".pdf");
+      setPdfUrl(isPdfDoc ? `/uploads/${id}.pdf` : null);
       setExtractedQuestions(data.questions || []);
+      if (data.questions?.some((q: any) => q.subject === "General Awareness")) {
+        setSelectedSubject("GK_GS");
+      }
     } catch (err: any) {
       console.error("Error loading document:", err);
       setErrorMessage(err.message || "Failed to load document");
@@ -76,12 +91,15 @@ function UploadCenterContent() {
     }
   };
 
-  const startExtraction = async (params?: { file?: File; rawText?: string; title?: string }) => {
+  const startExtraction = async (params?: { file?: File; rawText?: string; title?: string; targetSubject?: string }) => {
     try {
       setProcessing(true);
       setErrorMessage(null);
       setExtractedQuestions(null);
       setCurrentStep(1);
+
+      const targetSub = params?.targetSubject || selectedSubject;
+      if (params?.targetSubject) setSelectedSubject(params.targetSubject);
 
       let uploadRes: Response;
 
@@ -97,6 +115,7 @@ function UploadCenterContent() {
           body: JSON.stringify({
             rawText: params.rawText,
             fileName,
+            targetSubject: targetSub,
           }),
         });
       } else if (params?.file) {
@@ -104,6 +123,7 @@ function UploadCenterContent() {
         const selectedFile = params.file;
         const formData = new FormData();
         formData.append("file", selectedFile);
+        formData.append("targetSubject", targetSub);
         setUploadedFileName(selectedFile.name);
 
         uploadRes = await fetch("/api/documents/upload", {
@@ -115,6 +135,7 @@ function UploadCenterContent() {
         const blob = new Blob(["Sample SSC Question Paper Content"], { type: "application/pdf" });
         const formData = new FormData();
         formData.append("file", blob, "SSC_CHSL_Tier1_Official_Model_Paper_2026.pdf");
+        formData.append("targetSubject", targetSub);
         setUploadedFileName("SSC_CHSL_Tier1_Official_Model_Paper_2026.pdf");
 
         uploadRes = await fetch("/api/documents/upload", {
@@ -129,11 +150,17 @@ function UploadCenterContent() {
       const docId = uploadData.documentId;
       setDocumentId(docId);
       if (uploadData.fileName) setUploadedFileName(uploadData.fileName);
-      if (uploadData.pdfUrl) setPdfUrl(uploadData.pdfUrl);
+      if (uploadData.fileName?.toLowerCase().endsWith(".pdf")) {
+        setPdfUrl(uploadData.pdfUrl || `/uploads/${docId}.pdf`);
+      } else {
+        setPdfUrl(null);
+      }
 
-      // Trigger AI & OCR processing immediately in parallel with visual progress
+      // Trigger AI & OCR processing with targetSubject
       const processPromise = fetch(`/api/documents/${docId}/process`, {
         method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ targetSubject: targetSub }),
       });
 
       // Smooth step pacing while backend processes
@@ -172,20 +199,45 @@ function UploadCenterContent() {
 
   const handleGenerateTest = async () => {
     try {
+      setIsPublishing(true);
+      if (!documentId) throw new Error("No active document to publish");
+
+      // 1. Publish document so it exists as ExamConfig under target subject
+      const pubRes = await fetch(`/api/admin/documents/${documentId}/publish`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ subject: selectedSubject }),
+      });
+      const pubData = await pubRes.json();
+      const examId = pubData.exam?.id;
+
+      // 2. Generate CBT test attempt
       const res = await fetch("/api/tests", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           mode: "MOCK",
-          documentId: documentId || undefined,
+          documentId,
+          examConfigId: examId,
         }),
       });
       const data = await res.json();
-      if (data.testAttemptId) {
-        router.push(`/mock/${data.testAttemptId}/instructions`);
-      }
-    } catch (e) {
+
+      setPublishedModal({
+        isOpen: true,
+        examId,
+        testAttemptId: data.testAttemptId,
+        title: uploadedFileName.replace(/\.[^/.]+$/, "").replace(/[-_]/g, " "),
+        questionCount: extractedQuestions?.length || 30,
+        subject: selectedSubject,
+      });
+
+      loadDocumentsList();
+    } catch (e: any) {
       console.error("Failed to generate test:", e);
+      alert(e.message || "Failed to publish paper and create mock test.");
+    } finally {
+      setIsPublishing(false);
     }
   };
 
@@ -248,12 +300,14 @@ function UploadCenterContent() {
             <div className="max-w-2xl mx-auto space-y-6">
               {!processing ? (
                 <UploadDropzone
-                  onFileSelect={(f) => {
+                  onFileSelect={(f, targetSub) => {
                     setFile(f);
-                    startExtraction({ file: f });
+                    if (targetSub) setSelectedSubject(targetSub);
+                    startExtraction({ file: f, targetSubject: targetSub });
                   }}
-                  onTextSubmit={(text, title) => {
-                    startExtraction({ rawText: text, title });
+                  onTextSubmit={(text, title, targetSub) => {
+                    if (targetSub) setSelectedSubject(targetSub);
+                    startExtraction({ rawText: text, title, targetSubject: targetSub });
                   }}
                   isProcessing={processing}
                 />
@@ -362,7 +416,14 @@ function UploadCenterContent() {
                 >
                   &larr; Switch Paper
                 </Button>
-                <Button variant="primary" size="sm" onClick={handleGenerateTest} className="text-xs font-bold">
+                <Button
+                  variant="primary"
+                  size="sm"
+                  onClick={handleGenerateTest}
+                  isLoading={isPublishing}
+                  className="text-xs font-bold bg-indigo-600 hover:bg-indigo-700"
+                >
+                  <PlayCircle className="w-3.5 h-3.5 mr-1" />
                   Launch Mock Test &rarr;
                 </Button>
               </div>
@@ -388,6 +449,85 @@ function UploadCenterContent() {
             />
           </div>
         )
+      )}
+
+      {/* Success Publication Modal */}
+      {publishedModal?.isOpen && (
+        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 animate-in fade-in duration-200 font-sans">
+          <div className="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 space-y-6 shadow-2xl border border-slate-100 text-center">
+            <div className="w-16 h-16 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-3xl mx-auto shadow-sm">
+              🎉
+            </div>
+            <div className="space-y-2">
+              <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                Aap Ka Paper Public Ho Gya Hai!
+              </span>
+              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">
+                Examination Published Successfully
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed max-w-sm mx-auto">
+                Aap ka paper official CBT mock test catalog mai live publish ho chuka hai. Candidates is test ko attempt kar sakte hain.
+              </p>
+            </div>
+
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 text-xs space-y-2 text-left font-sans">
+              <div className="flex justify-between">
+                <span className="text-slate-500">Test Title:</span>
+                <span className="font-bold text-slate-800 truncate max-w-[240px]">{publishedModal.title}</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-slate-500">Subject Module:</span>
+                <span className="font-bold text-indigo-700">
+                  {publishedModal.subject === "GK_GS" ? "🌍 GK & GS (General Awareness)" : "📐 Mathematics"}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-slate-500">Total Questions:</span>
+                <span className="font-bold text-slate-800 font-mono">{publishedModal.questionCount} Questions</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-slate-500">Status:</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                  Live in Catalog
+                </span>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+              {publishedModal.testAttemptId && (
+                <Button
+                  variant="primary"
+                  size="md"
+                  onClick={() => router.push(`/mock/${publishedModal.testAttemptId}/instructions`)}
+                  className="w-full justify-center text-xs font-bold shadow-md bg-indigo-600 hover:bg-indigo-700"
+                >
+                  <PlayCircle className="w-4 h-4 mr-1.5" />
+                  Take CBT Test Now &rarr;
+                </Button>
+              )}
+              <Button
+                variant="outline"
+                size="md"
+                onClick={() => router.push(`/exams?subject=${publishedModal.subject}`)}
+                className="w-full justify-center text-xs font-bold border-slate-300 text-slate-700 hover:bg-slate-50"
+              >
+                <BookOpen className="w-4 h-4 mr-1.5" />
+                View in Subject Catalog
+              </Button>
+            </div>
+
+            <div className="pt-1">
+              <button
+                type="button"
+                onClick={() => setPublishedModal(null)}
+                className="text-[11px] text-slate-400 hover:text-slate-600 font-medium underline"
+              >
+                Stay on review workspace
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

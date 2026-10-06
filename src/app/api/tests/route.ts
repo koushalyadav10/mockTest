@@ -37,6 +37,15 @@ export async function POST(req: NextRequest) {
           where: { id: examConfigId },
           include: { sections: { orderBy: { order: "asc" } } },
         })
+      : documentId
+      ? (await prisma.examConfig.findFirst({
+          where: { documentId },
+          include: { sections: { orderBy: { order: "asc" } } },
+        })) ||
+        (await prisma.examConfig.findFirst({
+          where: { code: "SSC_CHSL_TIER_1" },
+          include: { sections: { orderBy: { order: "asc" } } },
+        }))
       : await prisma.examConfig.findFirst({
           where: { code: "SSC_CHSL_TIER_1" },
           include: { sections: { orderBy: { order: "asc" } } },

@@ -7,7 +7,7 @@ export async function POST(
   { params }: { params: { id: string } }
 ) {
   try {
-    const { user, errorResponse } = requireAuth(req, ["ADMIN"]);
+    const { user, errorResponse } = requireAuth(req, ["ADMIN", "TEACHER"]);
     if (errorResponse) return errorResponse;
 
     const documentId = params.id;
@@ -32,6 +32,19 @@ export async function POST(
       );
     }
 
+    // Read optional target subject from body
+    const body = await req.json().catch(() => ({}));
+    let targetSubject = body.subject || body.category;
+    if (!targetSubject) {
+      const hasGA = document.questions.some(q => q.subject === "General Awareness") || /GS|GK/i.test(document.fileName);
+      const hasReasoning = document.questions.some(q => q.subject === "General Intelligence");
+      const hasEnglish = document.questions.some(q => q.subject === "English Language");
+      if (hasGA) targetSubject = "GK_GS";
+      else if (hasReasoning) targetSubject = "REASONING";
+      else if (hasEnglish) targetSubject = "ENGLISH";
+      else targetSubject = "MATHS";
+    }
+
     // Determine clean exam title
     const cleanTitle = document.fileName
       .replace(/\.(pdf|txt|png|jpe?g)$/i, "")
@@ -40,6 +53,16 @@ export async function POST(
     const totalQuestions = document.questions.length;
     const totalMarks = totalQuestions * 2.0;
     const totalDurationMinutes = Math.max(15, Math.ceil(totalQuestions * 1.2)); // ~1.2 min per question
+
+    const sectionName = targetSubject === "GK_GS"
+      ? "General Awareness"
+      : targetSubject === "MATHS"
+      ? "Quantitative Aptitude"
+      : targetSubject === "REASONING"
+      ? "General Intelligence"
+      : targetSubject === "ENGLISH"
+      ? "English Language"
+      : "General Knowledge & Subject Section";
 
     // Check if exam config already exists for this document
     let examConfig = document.publishedExamId
@@ -51,12 +74,14 @@ export async function POST(
         where: { id: examConfig.id },
         data: {
           title: cleanTitle,
+          category: targetSubject,
           status: "PUBLISHED",
           scheduledStatus: "LIVE",
           totalQuestions,
           totalMarks,
           totalDurationMinutes,
           documentId: document.id,
+          instructions: JSON.stringify({ subject: targetSubject }),
         },
       });
     } else {
@@ -65,7 +90,7 @@ export async function POST(
           code: `PUB_DOC_${document.id.slice(0, 8).toUpperCase()}`,
           title: cleanTitle,
           description: `Official All-India CBT Mock Test extracted from ${document.fileName}`,
-          category: "SSC",
+          category: targetSubject,
           mode: "TIER_1",
           totalQuestions,
           totalMarks,
@@ -77,10 +102,11 @@ export async function POST(
           documentId: document.id,
           questionShuffle: false,
           optionShuffle: false,
+          instructions: JSON.stringify({ subject: targetSubject }),
           sections: {
             create: [
               {
-                name: "Official Section",
+                name: sectionName,
                 order: 1,
                 questionCount: totalQuestions,
                 marksPerCorrect: 2.0,
@@ -92,7 +118,15 @@ export async function POST(
       });
     }
 
-    // Mark document as public
+    // Approve questions and mark document as public
+    await prisma.question.updateMany({
+      where: { documentId: document.id },
+      data: {
+        status: "APPROVED",
+        requiresReview: false,
+      },
+    });
+
     await prisma.uploadedDocument.update({
       where: { id: document.id },
       data: {

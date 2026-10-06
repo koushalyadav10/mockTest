@@ -5,8 +5,8 @@ import { UploadCloud, FileText, Image as ImageIcon, AlertCircle } from "lucide-r
 import { Button } from "../ui/Button";
 
 interface UploadDropzoneProps {
-  onFileSelect: (file: File) => void;
-  onTextSubmit?: (text: string, title: string) => void;
+  onFileSelect: (file: File, targetSubject?: string) => void;
+  onTextSubmit?: (text: string, title: string, targetSubject?: string) => void;
   isProcessing?: boolean;
 }
 
@@ -16,9 +16,10 @@ export const UploadDropzone: React.FC<UploadDropzoneProps> = ({
   isProcessing = false,
 }) => {
   const [activeTab, setActiveTab] = useState<"FILE" | "TEXT">("FILE");
+  const [targetSubject, setTargetSubject] = useState<string>("GK_GS");
   const [isDragging, setIsDragging] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  const [pastedTitle, setPastedTitle] = useState("Custom Question Paper");
+  const [pastedTitle, setPastedTitle] = useState("SSC CHSL GS Practice Paper");
   const [pastedText, setPastedText] = useState("");
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -47,7 +48,7 @@ export const UploadDropzone: React.FC<UploadDropzoneProps> = ({
       return;
     }
 
-    onFileSelect(file);
+    onFileSelect(file, targetSubject);
   };
 
   const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
@@ -65,11 +66,79 @@ export const UploadDropzone: React.FC<UploadDropzoneProps> = ({
     }
     setErrorMsg(null);
     if (onTextSubmit) {
-      onTextSubmit(pastedText.trim(), pastedTitle.trim() || "Custom Question Paper");
+      onTextSubmit(pastedText.trim(), pastedTitle.trim() || "Custom Question Paper", targetSubject);
     }
   };
 
+  const loadSampleGSText = () => {
+    setTargetSubject("GK_GS");
+    setPastedTitle("SSC CHSL – 30 Most Important GS Questions");
+    setPastedText(`1. Which Article of the Indian Constitution provides for the Right to Equality?
+(A) Article 14
+(B) Article 19
+(C) Article 21
+(D) Article 32
+
+2. Who was the first Governor-General of independent India?
+(A) Lord Mountbatten
+(B) C. Rajagopalachari
+(C) Warren Hastings
+(D) Lord Canning
+
+3. Which river is known as the "Sorrow of Bihar"?
+(A) Ganga
+(B) Kosi
+(C) Yamuna
+(D) Son
+
+4. What is the SI unit of electric current?
+(A) Volt
+(B) Ohm
+(C) Ampere
+(D) Watt
+
+5. Who wrote the book Discovery of India?
+(A) Mahatma Gandhi
+(B) Jawaharlal Nehru
+(C) Sardar Patel
+(D) B. R. Ambedkar
+
+6. Which is the largest planet in our Solar System?
+(A) Earth
+(B) Saturn
+(C) Jupiter
+(D) Neptune
+
+7. The Battle of Plassey was fought in which year?
+(A) 1757
+(B) 1764
+(C) 1857
+(D) 1773
+
+8. Which vitamin is mainly produced in the human body when exposed to sunlight?
+(A) Vitamin A
+(B) Vitamin B12
+(C) Vitamin C
+(D) Vitamin D
+
+9. Who is known as the "Father of the Indian Constitution"?
+(A) Mahatma Gandhi
+(B) B. R. Ambedkar
+(C) Jawaharlal Nehru
+(D) Rajendra Prasad
+
+10. Which state has the longest coastline in India?
+(A) Maharashtra
+(B) Tamil Nadu
+(C) Gujarat
+(D) Andhra Pradesh
+
+Correct Answers:
+1: A, 2: A, 3: B, 4: C, 5: B, 6: C, 7: A, 8: D, 9: B, 10: C`);
+  };
+
   const loadSampleBankingText = () => {
+    setTargetSubject("MATHS");
     setPastedTitle("Banking & Quantitative Aptitude Quiz");
     setPastedText(`1. If the price of sugar increases by 25%, by what percentage must a household reduce its consumption so that total expenditure remains unchanged?
 (A) 15%
@@ -137,6 +206,49 @@ Answers:
 
   return (
     <div className="w-full bg-white rounded-xl border border-slate-200 shadow-sm p-4 sm:p-6 space-y-4">
+      {/* Target Subject Curriculum Module Selector */}
+      <div className="bg-slate-50 border border-slate-200 rounded-xl p-3 sm:p-4 space-y-2">
+        <div className="flex items-center justify-between">
+          <label className="text-xs font-bold text-slate-800 uppercase tracking-wide flex items-center gap-1.5">
+            <span>📁 Target Subject Module / विषय चुनें</span>
+            <span className="text-[10px] text-indigo-700 bg-indigo-50 border border-indigo-200 px-2 py-0.5 rounded-full font-bold">
+              Required Destination
+            </span>
+          </label>
+          <span className="text-[11px] text-slate-500 hidden sm:inline">
+            Questions will be organized under this subject catalog
+          </span>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+          {[
+            { id: "GK_GS", name: "GK & GS", icon: "🌍", desc: "General Awareness" },
+            { id: "MATHS", name: "Mathematics", icon: "📐", desc: "Quant Aptitude" },
+            { id: "REASONING", name: "Reasoning", icon: "🧠", desc: "General Intelligence" },
+            { id: "ENGLISH", name: "English", icon: "📖", desc: "Language & Vocab" },
+            { id: "HINDI", name: "Hindi", icon: "🇮🇳", desc: "General Hindi" },
+          ].map((s) => (
+            <button
+              key={s.id}
+              type="button"
+              onClick={() => setTargetSubject(s.id)}
+              className={`p-2.5 rounded-lg border text-left transition-all flex flex-col justify-between ${
+                targetSubject === s.id
+                  ? "bg-slate-900 text-white border-slate-900 shadow-xs ring-2 ring-indigo-500/60"
+                  : "bg-white text-slate-700 hover:bg-slate-100 border-slate-200"
+              }`}
+            >
+              <div className="flex items-center gap-1.5 font-bold text-xs">
+                <span>{s.icon}</span>
+                <span>{s.name}</span>
+              </div>
+              <span className={`text-[10px] mt-1 ${targetSubject === s.id ? "text-slate-300" : "text-slate-400"}`}>
+                {s.desc}
+              </span>
+            </button>
+          ))}
+        </div>
+      </div>
+
       {/* Mode Switcher Tabs */}
       <div className="flex items-center gap-2 p-1 bg-slate-100 rounded-lg border border-slate-200 text-xs font-semibold">
         <button
@@ -258,7 +370,14 @@ Answers:
                 className="w-full text-xs sm:text-sm px-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-slate-50"
               />
             </div>
-            <div className="flex items-end gap-1.5 pt-5">
+            <div className="flex items-end gap-1.5 pt-5 flex-wrap">
+              <button
+                type="button"
+                onClick={loadSampleGSText}
+                className="text-[11px] px-2.5 py-1.5 bg-amber-50 text-amber-800 rounded-md border border-amber-300 hover:bg-amber-100 font-bold"
+              >
+                + GS 30 Sample (CHSL)
+              </button>
               <button
                 type="button"
                 onClick={loadSampleBankingText}

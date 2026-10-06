@@ -13,15 +13,15 @@ interface SubjectClassificationResult {
 
 const TOPIC_TAXONOMY: Record<SSCSubject, Record<string, string[]>> = {
   "Quantitative Aptitude": {
-    Percentage: ["percentage", "percent", "%", "fraction", "rate of increase", "प्रतिशत"],
-    "Profit & Loss": ["profit", "loss", "cost price", "selling price", "cp", "sp", "discount", "marked price", "लाभ", "हानि"],
+    Percentage: ["percentage", "percent", "fraction", "rate of increase", "प्रतिशत"],
+    "Profit & Loss": ["profit", "loss", "cost price", "selling price", "discount", "marked price", "लाभ", "हानि"],
     "Ratio & Proportion": ["ratio", "proportion", "proportional", "divided among", "share of", "अनुपात", "समानुपात"],
-    "Simple & Compound Interest": ["simple interest", "compound interest", "si", "ci", "per annum", "principal", "ब्याज"],
+    "Simple & Compound Interest": ["simple interest", "compound interest", "per annum", "principal", "ब्याज"],
     "Time & Work": ["time and work", "work done", "pipes and cistern", "days to complete", "कार्य", "समय"],
     "Time, Speed & Distance": ["speed", "distance", "train", "km/h", "m/s", "boat and stream", "चाल", "दूरी"],
-    Algebra: ["x +", "x^2", "x²", "equation", "polynomial", "quadratic", "value of x", "बीजगणित"],
-    Geometry: ["triangle", "circle", "radius", "diameter", "angle", "tangent", "chord", "polygon", "त्रिभुज", "वृत्त"],
-    Mensuration: ["area", "perimeter", "volume", "surface area", "cylinder", "cone", "sphere", "क्षेत्रफल", "आयतन"],
+    Algebra: ["equation", "polynomial", "quadratic", "value of x", "बीजगणित"],
+    Geometry: ["triangle", "circle", "radius", "diameter", "tangent", "chord", "polygon", "त्रिभुज", "वृत्त"],
+    Mensuration: ["perimeter", "cylinder", "cone", "क्षेत्रफल", "आयतन"],
     Trigonometry: ["sin", "cos", "tan", "theta", "cosec", "sec", "cot", "triangular height", "त्रिकोणमिति"],
     "Number System": ["divisible", "prime", "remainder", "hcf", "lcm", "integer", "संख्या पद्धति"],
   },
@@ -29,12 +29,12 @@ const TOPIC_TAXONOMY: Record<SSCSubject, Record<string, string[]>> = {
     Analogy: ["analogy", "related to", "in the same way", "is related as", "सादृश्यता"],
     Classification: ["odd one out", "does not belong", "different from the rest", "वर्गीकरण", "भिन्न"],
     Series: ["next number in the series", "series", "sequence", "missing number", "श्रृंखला"],
-    "Coding-Decoding": ["coded as", "code", "in a certain code language", "कूटलेखन"],
+    "Coding-Decoding": ["coded as", "in a certain code language", "कूटलेखन"],
     "Blood Relations": ["mother", "father", "sister", "brother", "maternal", "paternal", "रक्त संबंध"],
     "Direction & Distance": ["north", "south", "east", "west", "turns left", "turns right", "दिशा"],
     Syllogism: ["statements", "conclusions", "some are", "all are", "no is", "न्याय निगमन"],
     "Venn Diagram": ["venn diagram", "represents", "diagram represents", "वेन आरेख"],
-    "Non-Verbal / Pattern": ["figure", "fold", "mirror image", "water image", "embedded figure", "दर्पण प्रतिबिंब"],
+    "Non-Verbal / Pattern": ["fold", "mirror image", "water image", "embedded figure", "दर्पण प्रतिबिंब"],
   },
   "English Language": {
     "Spot the Error": ["spot the error", "grammatical error", "error in the sentence", "contains an error"],
@@ -47,19 +47,158 @@ const TOPIC_TAXONOMY: Record<SSCSubject, Record<string, string[]>> = {
     "Cloze Test / Reading Comprehension": ["comprehension", "passage", "passage below", "according to the author"],
   },
   "General Awareness": {
-    "Indian Polity": ["article", "constitution", "parliament", "president", "fundamental rights", "amendment", "संविधान", "अनुच्छेद"],
-    "Modern History": ["revolt of 1857", "british", "gandhi", "congress", "viceroy", "battle of", "इतिहास"],
-    "Ancient & Medieval History": ["maurya", "mughal", "gupta", "sultanate", "harappa", "vedic", "सिंधु घाटी"],
-    Geography: ["river", "mountain", "himalayas", "soil", "climate", "equator", "tributary", "भूगोल"],
-    "Economics & Budget": ["gdp", "inflation", "rbi", "repo rate", "fiscal deficit", "monetary policy", "अर्थशास्त्र"],
-    "General Science": ["photosynthesis", "cell", "newton", "periodic table", "acid", "voltage", "chromosome", "विज्ञान"],
-    "Current Affairs & Static GK": ["headquarters", "unesco", "national park", "classical dance", "festival", "stadium"],
+    "Indian Polity": [
+      "article",
+      "constitution",
+      "right to equality",
+      "fundamental rights",
+      "parliament",
+      "president",
+      "governor",
+      "amendment",
+      "preamble",
+      "lok sabha",
+      "rajya sabha",
+      "supreme court",
+      "high court",
+      "writs",
+      "habeas corpus",
+      "father of the indian constitution",
+      "b. r. ambedkar",
+      "संविधान",
+      "अनुच्छेद",
+    ],
+    "Modern History": [
+      "governor-general",
+      "viceroy",
+      "battle of plassey",
+      "plassey",
+      "1757",
+      "revolt of 1857",
+      "1857",
+      "lord mountbatten",
+      "c. rajagopalachari",
+      "warren hastings",
+      "lord canning",
+      "discovery of india",
+      "jawaharlal nehru",
+      "mahatma gandhi",
+      "sardar patel",
+      "brahmo samaj",
+      "arya samaj",
+      "quit india",
+      "swadeshi",
+      "dandi march",
+      "इतिहास",
+    ],
+    "Ancient & Medieval History": [
+      "maurya",
+      "ashoka",
+      "gupta",
+      "mughal",
+      "babur",
+      "akbar",
+      "shah jahan",
+      "delhi sultanate",
+      "harappa",
+      "mohenjo-daro",
+      "indus valley",
+      "vedic",
+      "buddhism",
+      "jainism",
+    ],
+    Geography: [
+      "sorrow of bihar",
+      "sorrow of bengal",
+      "kosi",
+      "ganga",
+      "yamuna",
+      "son river",
+      "godavari",
+      "narmada",
+      "brahmaputra",
+      "river",
+      "coastline",
+      "longest coastline",
+      "gujarat",
+      "lake",
+      "freshwater lake",
+      "wular",
+      "chilika",
+      "tropic of cancer",
+      "western ghats",
+      "himalayas",
+      "equator",
+      "soil",
+      "capital of",
+      "port",
+      "mountain",
+      "atmosphere",
+      "भूगोल",
+    ],
+    "General Science": [
+      "si unit",
+      "electric current",
+      "ampere",
+      "volt",
+      "ohm",
+      "watt",
+      "joule",
+      "solar system",
+      "largest planet",
+      "jupiter",
+      "saturn",
+      "neptune",
+      "planet",
+      "vitamin",
+      "sunlight",
+      "vitamin a",
+      "vitamin b",
+      "vitamin b12",
+      "vitamin c",
+      "vitamin d",
+      "rickets",
+      "photosynthesis",
+      "mitochondria",
+      "powerhouse of the cell",
+      "blood group",
+      "universal donor",
+      "universal recipient",
+      "o negative",
+      "periodic table",
+      "chemical formula",
+      "acid",
+      "base",
+      "science",
+      "विज्ञान",
+    ],
+    "Economics & Current Affairs": [
+      "green revolution",
+      "crop",
+      "gdp",
+      "inflation",
+      "rbi",
+      "reserve bank",
+      "repo rate",
+      "niti aayog",
+      "five year plan",
+      "headquarters",
+      "unesco",
+      "national park",
+      "dance",
+      "festival",
+    ],
   },
 };
 
+function escapeRegex(str: string): string {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 export function classifySubjectAndTopic(
   questionText: string,
-  options: { text: string }[]
+  options: { text: string }[],
+  targetSubjectHint?: string
 ): SubjectClassificationResult {
   const combinedText = `${questionText} ${options.map((o) => o.text).join(" ")}`.toLowerCase();
 
@@ -72,9 +211,34 @@ export function classifySubjectAndTopic(
     for (const [topicName, keywords] of Object.entries(topics)) {
       let score = 0;
       for (const kw of keywords) {
-        if (combinedText.includes(kw.toLowerCase())) {
-          score += kw.length > 5 ? 3 : 2;
+        const lowerKw = kw.toLowerCase();
+        // Use word boundaries for short words or words without spaces to avoid accidental substring matching
+        let matched = false;
+        if (lowerKw.length <= 4 || !lowerKw.includes(" ")) {
+          const regex = new RegExp(`\\b${escapeRegex(lowerKw)}\\b`, "i");
+          matched = regex.test(combinedText);
+        } else {
+          matched = combinedText.includes(lowerKw);
         }
+
+        if (matched) {
+          score += lowerKw.length > 5 ? 4 : 2;
+        }
+      }
+
+      // If user/document gave an explicit targetSubjectHint, boost that subject
+      if (
+        targetSubjectHint &&
+        (targetSubjectHint === "GK_GS" || targetSubjectHint === "General Awareness") &&
+        subject === "General Awareness"
+      ) {
+        score += 3;
+      } else if (
+        targetSubjectHint &&
+        (targetSubjectHint === "MATHS" || targetSubjectHint === "Quantitative Aptitude") &&
+        subject === "Quantitative Aptitude"
+      ) {
+        score += 3;
       }
 
       if (score > maxScore) {
@@ -87,17 +251,25 @@ export function classifySubjectAndTopic(
 
   // Heuristic fallbacks if no specific keyword matched
   if (maxScore === 0) {
-    if (/[\+\-\*\/\=\^\√\%\$\<\>]/.test(questionText) || /\d+[\.,]\d+/.test(questionText)) {
+    if (targetSubjectHint === "GK_GS" || targetSubjectHint === "General Awareness") {
+      bestSubject = "General Awareness";
+      bestTopic = "Static GK";
+      maxScore = 2;
+    } else if (targetSubjectHint === "MATHS" || targetSubjectHint === "Quantitative Aptitude") {
       bestSubject = "Quantitative Aptitude";
       bestTopic = "Arithmetic";
       maxScore = 2;
     } else if (
-      /(\bwhich\b|\bwho\b|\bwhen\b|\bwhere\b|\bcapital\b|\btreaty\b|\bminister\b)/i.test(
+      /(\bwhich\b|\bwho\b|\bwhen\b|\bwhere\b|\bcapital\b|\btreaty\b|\bminister\b|\barticle\b|\briver\b|\bplanet\b)/i.test(
         questionText
       )
     ) {
       bestSubject = "General Awareness";
       bestTopic = "Static GK";
+      maxScore = 2;
+    } else if (/[\+\-\*\/\=\^\√\%\$\<\>]/.test(questionText) || /\d+[\.,]\d+/.test(questionText)) {
+      bestSubject = "Quantitative Aptitude";
+      bestTopic = "Arithmetic";
       maxScore = 2;
     } else if (
       /(\bthe\b|\ba\b|\ban\b|\bis\b|\bare\b|\bwas\b|\bwere\b)/i.test(questionText) &&

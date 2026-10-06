@@ -31,6 +31,10 @@ export async function POST(
       }
     }
 
+    // Read optional targetSubject from body or query
+    const body = await req.json().catch(() => ({}));
+    const targetSubject = body.targetSubject || req.nextUrl.searchParams.get("targetSubject") || undefined;
+
     // Run the 15-step AI extraction pipeline with actual document text
     const pipeline = new DocumentProcessingPipeline();
 
@@ -40,6 +44,7 @@ export async function POST(
       fileType: document.fileType,
       fileBuffer,
       textFallback: document.rawText || undefined,
+      targetSubject,
     });
 
     return NextResponse.json({

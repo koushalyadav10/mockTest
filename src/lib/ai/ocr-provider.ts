@@ -20,6 +20,7 @@ export interface IOCRProvider {
     textFallback?: string;
     fileName: string;
     fileType: string;
+    targetSubject?: string;
   }): Promise<DocumentExtractionResult>;
 }
 
@@ -115,6 +116,7 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
     textFallback?: string;
     fileName: string;
     fileType: string;
+    targetSubject?: string;
   }): Promise<DocumentExtractionResult> {
     let rawText = params.textFallback || "";
     let pageCount = 1;
@@ -210,7 +212,7 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
       if (questionBlocks.length > 0) {
         let qNum = 1;
         for (const block of questionBlocks) {
-          const parsedQ = this.parseQuestionBlock(block, qNum, answerKeyMap);
+          const parsedQ = this.parseQuestionBlock(block, qNum, answerKeyMap, params.targetSubject);
           if (parsedQ) {
             questions.push(parsedQ);
             qNum++;
@@ -218,7 +220,7 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
         }
       } else if (rawText && rawText.trim().length > 30) {
         // Dynamic paragraph-based extraction from actual document text
-        questions.push(...this.extractQuestionsFromParagraphs(rawText, params.fileName));
+        questions.push(...this.extractQuestionsFromParagraphs(rawText, params.fileName, params.targetSubject));
       }
     }
 
@@ -319,7 +321,8 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
   private parseQuestionBlock(
     block: string,
     fallbackNumber: number,
-    answerKeyMap: Record<number, string>
+    answerKeyMap: Record<number, string>,
+    targetSubject?: string
   ): ExtractedQuestion | null {
     // Remove Answer Key section from question block if attached
     const cleanBlock = block.replace(/(?:correct\s*answers?|answer\s*key|उत्तर\s*कुंजी)[\:\s\S]*$/i, "").trim();
@@ -468,7 +471,7 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
     }
 
     // Classification & Difficulty
-    const classification = classifySubjectAndTopic(questionText, options);
+    const classification = classifySubjectAndTopic(questionText, options, targetSubject);
     const difficultyEst = estimateQuestionDifficulty(questionText, options, hasVisualContent);
     const qType = detectQuestionType(questionText, options, hasVisualContent);
 
@@ -544,7 +547,8 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
 
   private extractQuestionsFromParagraphs(
     text: string,
-    fileName: string
+    fileName: string,
+    targetSubject?: string
   ): ExtractedQuestion[] {
     if (!text || text.trim().length < 20) {
       return [];
@@ -592,7 +596,10 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
               { id: `opt_${qNum}_D`, label: "D", text: "Option D", isCorrect: false },
             ];
 
-      const cleanTitle = fileName.replace(/\.[^/.]+$/, "");
+      const cleanTitle = fileName.replace(/\.[^/.]+$/, "").replace(/[-_]/g, " ");
+      const qText = firstLine.replace(/^(?:Q\d+[\.\:\)]|\d+[\.\:\)])\s*/i, "").trim() || para;
+      const classification = classifySubjectAndTopic(qText, options, targetSubject);
+
       return {
         questionNumber: qNum,
         language: /[\u0900-\u097F]/.test(para) ? "hi" : "en",
@@ -604,9 +611,9 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
         year: 2026,
         exam: "CBT Assessment",
         tags: cleanTitle,
-        subject: "Quantitative Aptitude",
-        topic: cleanTitle,
-        questionText: firstLine.replace(/^(?:Q\d+[\.\:\)]|\d+[\.\:\)])\s*/i, "").trim() || para,
+        subject: classification.subject,
+        topic: classification.topic || cleanTitle,
+        questionText: qText,
         hasVisualContent: false,
         visualType: "NONE",
         imageUrl: null,

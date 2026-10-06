@@ -23,9 +23,10 @@ export class DocumentProcessingPipeline {
     textFallback?: string;
     fileName: string;
     fileType: string;
+    targetSubject?: string;
     onProgress?: PipelineProgressCallback;
   }): Promise<DocumentExtractionResult> {
-    const { documentId, fileBuffer, textFallback, fileName, fileType, onProgress } = params;
+    const { documentId, fileBuffer, textFallback, fileName, fileType, targetSubject, onProgress } = params;
 
     const notify = async (stepNum: number, title: string, status: PipelineStep["status"], message?: string) => {
       const step: PipelineStep = {
@@ -83,6 +84,7 @@ export class DocumentProcessingPipeline {
         textFallback,
         fileName,
         fileType,
+        targetSubject,
       });
       await notify(3, "OCR / Document understanding", "COMPLETED", `Extracted ${extraction.questions.length} candidates`);
 

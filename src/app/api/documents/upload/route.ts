@@ -120,6 +120,7 @@ export async function POST(req: NextRequest) {
 
     // Save uploaded file to public/uploads directory for preview & embedding
     let pdfUrl: string | null = null;
+    let fileUrl: string | null = null;
     try {
       const uploadsDir = path.join(process.cwd(), "public", "uploads");
       if (!fs.existsSync(uploadsDir)) {
@@ -128,7 +129,10 @@ export async function POST(req: NextRequest) {
       const ext = fileType === "application/pdf" ? "pdf" : fileType.startsWith("image/") ? "png" : "txt";
       const savedFilePath = path.join(uploadsDir, `${documentRecord.id}.${ext}`);
       fs.writeFileSync(savedFilePath, buffer);
-      pdfUrl = `/uploads/${documentRecord.id}.${ext}`;
+      fileUrl = `/uploads/${documentRecord.id}.${ext}`;
+      if (ext === "pdf") {
+        pdfUrl = fileUrl;
+      }
     } catch (saveErr) {
       console.warn("Could not write file to public/uploads:", saveErr);
     }
@@ -142,6 +146,8 @@ export async function POST(req: NextRequest) {
       pageCount,
       hasExtractedText: Boolean(rawText && rawText.length > 0),
       pdfUrl,
+      fileUrl,
+      rawText: rawText ? rawText.slice(0, 1000) : null,
     });
   } catch (error: any) {
     console.error("Document upload failed:", error);
