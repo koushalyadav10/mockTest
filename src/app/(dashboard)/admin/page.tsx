@@ -36,6 +36,7 @@ import {
   Eye,
   ExternalLink,
   Target,
+  Trash2,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
@@ -51,6 +52,11 @@ export default function AdminDashboardPage() {
   const [submissionStatusFilter, setSubmissionStatusFilter] = useState("ALL");
   const [submissionSearch, setSubmissionSearch] = useState("");
 
+  // Attempt Deletion Modal State
+  const [attemptToDelete, setAttemptToDelete] = useState<any | null>(null);
+  const [deleteScope, setDeleteScope] = useState<"both" | "admin">("both");
+  const [isDeletingAttempt, setIsDeletingAttempt] = useState(false);
+
   // Overview Data
   const [overviewData, setOverviewData] = useState<any>(null);
   const [overviewLoading, setOverviewLoading] = useState(true);
@@ -62,6 +68,7 @@ export default function AdminDashboardPage() {
   const [userRoleFilter, setUserRoleFilter] = useState("ALL");
   const [userStatusFilter, setUserStatusFilter] = useState("ALL");
   const [userActionLoadingId, setUserActionLoadingId] = useState<string | null>(null);
+  const [deletingUserId, setDeletingUserId] = useState<string | null>(null);
 
   // Teachers Data
   const [teachers, setTeachers] = useState<any[]>([]);
@@ -74,10 +81,12 @@ export default function AdminDashboardPage() {
   const [invitingTeacher, setInvitingTeacher] = useState(false);
   const [inviteFeedback, setInviteFeedback] = useState<string | null>(null);
 
-  // Audit Logs Data
+  // Audit Logs & Violations Data
   const [auditLogs, setAuditLogs] = useState<any[]>([]);
   const [auditLogsLoading, setAuditLogsLoading] = useState(false);
   const [auditActionFilter, setAuditActionFilter] = useState("ALL");
+  const [clearingAuditLogs, setClearingAuditLogs] = useState(false);
+  const [clearingViolations, setClearingViolations] = useState(false);
 
   // Fetch Overview
   const fetchOverview = () => {
@@ -282,6 +291,119 @@ export default function AdminDashboardPage() {
       alert("Error: " + e.message);
     } finally {
       setInvitingTeacher(false);
+    }
+  };
+
+  // Handle Scorecard / Attempt Deletion with Scope
+  const handleConfirmDeleteAttempt = async () => {
+    if (!attemptToDelete) return;
+    try {
+      setIsDeletingAttempt(true);
+      const res = await fetch(
+        `/api/admin/submissions?attemptId=${attemptToDelete.id}&scope=${deleteScope}`,
+        { method: "DELETE" }
+      );
+      const data = await res.json();
+      if (data.success) {
+        // Remove from current submissions list
+        setSubmissionsData((prev: any) => {
+          if (!prev) return prev;
+          const nextSubs = prev.submissions?.filter((s: any) => s.id !== attemptToDelete.id) || [];
+          return {
+            ...prev,
+            submissions: nextSubs,
+            stats: {
+              ...prev.stats,
+              totalSubmissions: Math.max(0, (prev.stats?.totalSubmissions || 1) - 1),
+            },
+          };
+        });
+        setAttemptToDelete(null);
+        fetchOverview(); // Refresh overview numbers
+      } else {
+        alert(data.error || "Failed to delete attempt");
+      }
+    } catch (e: any) {
+      alert("Error deleting attempt: " + e.message);
+    } finally {
+      setIsDeletingAttempt(false);
+    }
+  };
+
+  // Handle User Permanent Deletion
+  const handleDeleteUser = async (user: any) => {
+    if (
+      !confirm(
+        `Are you sure you want to PERMANENTLY delete candidate ${user.name} (${user.email})?\n\nThis will remove their account and all associated test scores.`
+      )
+    ) {
+      return;
+    }
+
+    try {
+      setDeletingUserId(user.id);
+      const res = await fetch(`/api/admin/users?userId=${user.id}`, {
+        method: "DELETE",
+      });
+      const data = await res.json();
+      if (data.success) {
+        setUsers((prev) => prev.filter((u) => u.id !== user.id));
+        fetchOverview();
+      } else {
+        alert(data.error || "Failed to delete user");
+      }
+    } catch (e: any) {
+      alert("Error: " + e.message);
+    } finally {
+      setDeletingUserId(null);
+    }
+  };
+
+  // Handle Clear Audit History
+  const handleClearAuditLogs = async () => {
+    if (
+      !confirm(
+        "Are you sure you want to permanently clear all administrative audit logs? This action cannot be undone."
+      )
+    ) {
+      return;
+    }
+
+    try {
+      setClearingAuditLogs(true);
+      const res = await fetch("/api/admin/audit-logs", { method: "DELETE" });
+      const data = await res.json();
+      if (data.success) {
+        setAuditLogs([]);
+      } else {
+        alert(data.error || "Failed to clear audit trail");
+      }
+    } catch (e: any) {
+      alert("Error: " + e.message);
+    } finally {
+      setClearingAuditLogs(false);
+    }
+  };
+
+  // Handle Clear Violation Logs
+  const handleClearViolations = async () => {
+    if (!confirm("Are you sure you want to clear all anti-cheat proctoring violation logs?")) {
+      return;
+    }
+
+    try {
+      setClearingViolations(true);
+      const res = await fetch("/api/admin/violations", { method: "DELETE" });
+      const data = await res.json();
+      if (data.success) {
+        setOverviewData((prev: any) => (prev ? { ...prev, recentViolations: [] } : prev));
+      } else {
+        alert(data.error || "Failed to clear violations");
+      }
+    } catch (e: any) {
+      alert("Error: " + e.message);
+    } finally {
+      setClearingViolations(false);
     }
   };
 
@@ -527,21 +649,108 @@ export default function AdminDashboardPage() {
             </Link>
           </div>
 
-          {/* REAL-TIME ATTEMPTS AUDIT & ANTI-CHEAT MONITORING */}
+          {/* REAL-TIME CANDIDATE EXAM PROCTORING & ANTI-CHEAT MONITORING */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            {/* Recent Attempts (7 Cols) */}
+            {/* Live Candidate Exam Status & Activity (7 Cols) */}
             <div className="lg:col-span-7 bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
               <div className="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
-                <h3 className="font-bold text-slate-900 text-sm">Recent Candidate Test Sessions</h3>
-                <span className="text-[11px] font-mono text-slate-400">Authoritative Server Logs</span>
+                <div>
+                  <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
+                    <Activity className="w-4 h-4 text-emerald-600" />
+                    <span>Live Candidate Examination Status</span>
+                  </h3>
+                  <p className="text-[11px] text-slate-500 mt-0.5">
+                    Real-time candidate proctoring (Running, Evaluated, and Registered)
+                  </p>
+                </div>
+                <span className="text-[11px] font-mono font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                  Live Sync
+                </span>
               </div>
 
-              <div className="divide-y divide-slate-100">
-                {!overviewData?.recentAttempts || overviewData.recentAttempts.length === 0 ? (
-                  <div className="p-8 text-center text-xs text-slate-400">
-                    No mock test sessions recorded yet.
-                  </div>
-                ) : (
+              <div className="divide-y divide-slate-100 max-h-[380px] overflow-y-auto">
+                {overviewData?.candidateLiveStatuses && overviewData.candidateLiveStatuses.length > 0 ? (
+                  overviewData.candidateLiveStatuses.map((cand: any) => {
+                    const isRunning = cand.examState === "RUNNING";
+                    const isEvaluated = cand.examState === "EVALUATED";
+                    const latest = cand.latestAttempt;
+
+                    return (
+                      <div
+                        key={cand.id}
+                        className={`p-4 flex items-center justify-between gap-3 text-xs transition-colors ${
+                          isRunning ? "bg-emerald-50/40" : "hover:bg-slate-50/70"
+                        }`}
+                      >
+                        <div className="space-y-1">
+                          <div className="flex items-center gap-2">
+                            <span className="font-bold text-slate-900 text-sm">
+                              {cand.name}
+                            </span>
+                            <span className="font-mono text-slate-400 text-[11px]">
+                              ({cand.studentRollNo || "EF-Candidate"})
+                            </span>
+                          </div>
+
+                          <div className="text-[11px] text-slate-600">
+                            {latest ? (
+                              <span>
+                                <span className="font-semibold text-slate-800">
+                                  {latest.examConfig?.title || "Mock Exam"}
+                                </span>{" "}
+                                &bull;{" "}
+                                {isRunning ? (
+                                  <span className="text-emerald-700 font-medium">
+                                    In progress since{" "}
+                                    {new Date(latest.startedAt || latest.createdAt).toLocaleTimeString()}
+                                  </span>
+                                ) : (
+                                  <span className="text-slate-500 font-mono">
+                                    Submitted at{" "}
+                                    {new Date(latest.completedAt || latest.createdAt).toLocaleTimeString()}{" "}
+                                    (Score: {latest.rawScore} pts)
+                                  </span>
+                                )}
+                              </span>
+                            ) : (
+                              <span className="text-slate-400 italic">
+                                Account active &bull; No active test in session
+                              </span>
+                            )}
+                          </div>
+                        </div>
+
+                        <div className="flex items-center gap-2">
+                          {isRunning ? (
+                            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-bold font-mono bg-emerald-100 text-emerald-800 border border-emerald-300 animate-pulse">
+                              <span className="w-2 h-2 rounded-full bg-emerald-600"></span>
+                              RUNNING
+                            </span>
+                          ) : isEvaluated ? (
+                            <div className="flex items-center gap-2">
+                              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-bold font-mono bg-blue-50 text-blue-700 border border-blue-200">
+                                🔵 EVALUATED
+                              </span>
+                              {latest?.id && (
+                                <Link
+                                  href={`/mock/${latest.id}/result`}
+                                  className="text-blue-600 hover:text-blue-800 p-1"
+                                  title="View Result"
+                                >
+                                  <ExternalLink className="w-3.5 h-3.5" />
+                                </Link>
+                              )}
+                            </div>
+                          ) : (
+                            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-bold font-mono bg-amber-50 text-amber-700 border border-amber-200">
+                              🟡 NOT STARTED
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })
+                ) : overviewData?.recentAttempts && overviewData.recentAttempts.length > 0 ? (
                   overviewData.recentAttempts.map((att: any) => (
                     <Link
                       key={att.id}
@@ -578,6 +787,10 @@ export default function AdminDashboardPage() {
                       </div>
                     </Link>
                   ))
+                ) : (
+                  <div className="p-8 text-center text-xs text-slate-400">
+                    No candidate sessions active at the moment.
+                  </div>
                 )}
               </div>
 
@@ -600,13 +813,30 @@ export default function AdminDashboardPage() {
                   <ShieldAlert className="w-4 h-4 text-red-600" />
                   <h3 className="font-bold text-slate-900 text-sm">Focus Warnings &amp; Violations</h3>
                 </div>
-                <span className="text-[11px] font-mono text-red-600 font-bold">Anti-Cheat</span>
+                <div className="flex items-center gap-2">
+                  {overviewData?.recentViolations && overviewData.recentViolations.length > 0 && (
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={handleClearViolations}
+                      disabled={clearingViolations}
+                      className="text-[11px] font-bold text-rose-600 hover:text-rose-700 hover:bg-rose-50 border-rose-200 py-0.5 px-2 h-auto"
+                      title="Clear anti-cheat violation records"
+                    >
+                      <Trash2 className="w-3 h-3 mr-1" />
+                      Clear Logs
+                    </Button>
+                  )}
+                  <span className="text-[11px] font-mono text-red-600 font-bold">Anti-Cheat</span>
+                </div>
               </div>
 
-              <div className="divide-y divide-slate-100">
+              <div className="divide-y divide-slate-100 max-h-[380px] overflow-y-auto">
                 {!overviewData?.recentViolations || overviewData.recentViolations.length === 0 ? (
-                  <div className="p-8 text-center text-xs text-slate-400">
-                    No focus violations logged yet. Test integrity intact.
+                  <div className="p-10 text-center text-xs text-slate-400 space-y-1">
+                    <ShieldCheck className="w-8 h-8 text-emerald-500 mx-auto mb-1" />
+                    <div className="font-bold text-slate-700">Test Integrity Verified</div>
+                    <div>No focus violations or tab switches logged.</div>
                   </div>
                 ) : (
                   overviewData.recentViolations.map((v: any) => (
@@ -617,7 +847,8 @@ export default function AdminDashboardPage() {
                           <span>{v.type} (Violation #{v.count})</span>
                         </div>
                         <div className="text-[11px] text-slate-600 mt-0.5">
-                          {v.student?.name || "Candidate"} &bull; Q.{v.questionNumber || "--"} &bull; {v.sectionName || "General"}
+                          <span className="font-bold text-slate-800">{v.student?.name || "Candidate"}</span>{" "}
+                          &bull; Q.{v.questionNumber || "--"} &bull; {v.sectionName || "General"}
                         </div>
                       </div>
 
@@ -929,15 +1160,28 @@ export default function AdminDashboardPage() {
                         </div>
                       </div>
 
-                      {/* Action Button: View Full Mock Scorecard */}
-                      <Link
-                        href={`/mock/${sub.id}/result`}
-                        className="w-full py-2.5 px-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all shadow-xs"
-                      >
-                        <Eye className="w-4 h-4" />
-                        <span>View Detailed Scorecard &amp; Solutions</span>
-                        <ArrowRight className="w-3.5 h-3.5 ml-auto" />
-                      </Link>
+                      {/* Action Buttons: View Scorecard & Delete */}
+                      <div className="flex items-center gap-2 pt-1">
+                        <Link
+                          href={`/mock/${sub.id}/result`}
+                          className="flex-1 py-2 px-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all shadow-xs"
+                        >
+                          <Eye className="w-4 h-4" />
+                          <span>View Scorecard</span>
+                          <ArrowRight className="w-3.5 h-3.5 ml-auto" />
+                        </Link>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setAttemptToDelete(sub);
+                            setDeleteScope("both");
+                          }}
+                          className="p-2 rounded-xl border border-rose-200 bg-rose-50 hover:bg-rose-100 text-rose-600 transition-colors"
+                          title="Delete Scorecard / Attempt"
+                        >
+                          <Trash2 className="w-4 h-4" />
+                        </button>
+                      </div>
                     </div>
                   );
                 })}
@@ -1057,17 +1301,30 @@ export default function AdminDashboardPage() {
                               </span>
                             </td>
 
-                            {/* Action */}
+                            {/* Action: Scorecard + Delete */}
                             <td className="py-3.5 px-4 text-right">
-                              <Link
-                                href={`/mock/${sub.id}/result`}
-                                className="px-3 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 text-xs font-bold transition-all inline-flex items-center gap-1 group"
-                                title="View detailed evaluation scorecard and answers"
-                              >
-                                <Eye className="w-3.5 h-3.5" />
-                                <span>Scorecard</span>
-                                <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                              </Link>
+                              <div className="inline-flex items-center gap-1.5 justify-end">
+                                <Link
+                                  href={`/mock/${sub.id}/result`}
+                                  className="px-2.5 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 text-xs font-bold transition-all inline-flex items-center gap-1 group"
+                                  title="View detailed evaluation scorecard and answers"
+                                >
+                                  <Eye className="w-3.5 h-3.5" />
+                                  <span>Scorecard</span>
+                                  <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                </Link>
+                                <button
+                                  type="button"
+                                  onClick={() => {
+                                    setAttemptToDelete(sub);
+                                    setDeleteScope("both");
+                                  }}
+                                  className="p-1.5 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 transition-colors"
+                                  title="Delete Scorecard / Attempt"
+                                >
+                                  <Trash2 className="w-3.5 h-3.5" />
+                                </button>
+                              </div>
                             </td>
                           </tr>
                         );
@@ -1077,6 +1334,128 @@ export default function AdminDashboardPage() {
                 </div>
               </div>
             </>
+          )}
+
+          {/* Scope-Selection Delete Attempt Modal */}
+          {attemptToDelete && (
+            <div className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-xs flex items-center justify-center p-4">
+              <div className="bg-white rounded-2xl max-w-lg w-full border border-slate-200 shadow-2xl p-6 space-y-5 animate-in fade-in zoom-in-95">
+                <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+                  <div className="flex items-center gap-2 text-rose-600 font-bold text-base">
+                    <Trash2 className="w-5 h-5" />
+                    <h3>Delete Scorecard / Attempt</h3>
+                  </div>
+                  <button
+                    onClick={() => setAttemptToDelete(null)}
+                    className="text-slate-400 hover:text-slate-700 p-1 rounded-lg"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+
+                <div className="p-3.5 bg-slate-50 rounded-xl border border-slate-200 text-xs space-y-1">
+                  <div>
+                    <span className="text-slate-500 font-medium">Candidate: </span>
+                    <span className="font-bold text-slate-800">{attemptToDelete.candidateName}</span>{" "}
+                    <span className="font-mono text-slate-400">({attemptToDelete.candidateRollNo})</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-500 font-medium">Exam Paper: </span>
+                    <span className="font-bold text-slate-800">{attemptToDelete.examTitle}</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-500 font-medium">Score: </span>
+                    <span className="font-bold font-mono text-slate-900">
+                      {attemptToDelete.finalScore} / {attemptToDelete.totalMarks} Marks ({attemptToDelete.percentage}%)
+                    </span>
+                  </div>
+                </div>
+
+                <div className="space-y-2.5 text-xs">
+                  <div className="font-bold text-slate-800 text-xs uppercase tracking-wider">
+                    Select Deletion Scope:
+                  </div>
+
+                  {/* Option 1: Both Admin and Candidate (Permanent) */}
+                  <label
+                    onClick={() => setDeleteScope("both")}
+                    className={`flex items-start gap-3 p-3.5 rounded-xl border cursor-pointer transition-all ${
+                      deleteScope === "both"
+                        ? "border-rose-500 bg-rose-50/70 ring-1 ring-rose-500/50"
+                        : "border-slate-200 hover:border-slate-300 hover:bg-slate-50"
+                    }`}
+                  >
+                    <input
+                      type="radio"
+                      name="scope"
+                      value="both"
+                      checked={deleteScope === "both"}
+                      onChange={() => setDeleteScope("both")}
+                      className="mt-0.5 text-rose-600 focus:ring-rose-500"
+                    />
+                    <div>
+                      <div className="font-bold text-slate-900 flex items-center gap-1.5">
+                        <span>Delete for Both (Candidate &amp; Admin)</span>
+                        <span className="text-[10px] font-black uppercase text-rose-600 bg-rose-100/80 px-1.5 py-0.2 rounded">
+                          Recommended
+                        </span>
+                      </div>
+                      <div className="text-[11px] text-slate-500 mt-0.5 leading-relaxed">
+                        Permanently wipes exam attempt, responses, and scorecard from the database. The candidate will no longer see this attempt.
+                      </div>
+                    </div>
+                  </label>
+
+                  {/* Option 2: Admin only */}
+                  <label
+                    onClick={() => setDeleteScope("admin")}
+                    className={`flex items-start gap-3 p-3.5 rounded-xl border cursor-pointer transition-all ${
+                      deleteScope === "admin"
+                        ? "border-blue-500 bg-blue-50/70 ring-1 ring-blue-500/50"
+                        : "border-slate-200 hover:border-slate-300 hover:bg-slate-50"
+                    }`}
+                  >
+                    <input
+                      type="radio"
+                      name="scope"
+                      value="admin"
+                      checked={deleteScope === "admin"}
+                      onChange={() => setDeleteScope("admin")}
+                      className="mt-0.5 text-blue-600 focus:ring-blue-500"
+                    />
+                    <div>
+                      <div className="font-bold text-slate-900">
+                        Delete for Admin Only (Hide from Submissions View)
+                      </div>
+                      <div className="text-[11px] text-slate-500 mt-0.5 leading-relaxed">
+                        Hides this score from the Admin results table while allowing the candidate to retain their scorecard in student portal.
+                      </div>
+                    </div>
+                  </label>
+                </div>
+
+                <div className="flex items-center justify-end gap-2.5 pt-3 border-t border-slate-100">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => setAttemptToDelete(null)}
+                    disabled={isDeletingAttempt}
+                  >
+                    Cancel
+                  </Button>
+                  <Button
+                    variant="primary"
+                    size="sm"
+                    onClick={handleConfirmDeleteAttempt}
+                    isLoading={isDeletingAttempt}
+                    className="bg-rose-600 hover:bg-rose-700 text-white font-bold"
+                  >
+                    <Trash2 className="w-3.5 h-3.5 mr-1.5" />
+                    Confirm Delete
+                  </Button>
+                </div>
+              </div>
+            </div>
           )}
         </div>
       )}
@@ -1221,29 +1600,43 @@ export default function AdminDashboardPage() {
                             })}
                           </td>
                           <td className="py-3 px-4 text-right">
-                            <Button
-                              variant="outline"
-                              size="sm"
-                              isLoading={isWorking}
-                              onClick={() => handleToggleUserStatus(u)}
-                              className={`text-[11px] font-bold ${
-                                u.status === "ACTIVE"
-                                  ? "text-rose-600 hover:text-rose-700 hover:bg-rose-50 border-rose-200"
-                                  : "text-emerald-700 hover:text-emerald-800 hover:bg-emerald-50 border-emerald-200"
-                              }`}
-                            >
-                              {u.status === "ACTIVE" ? (
-                                <>
-                                  <Lock className="w-3 h-3 mr-1" />
-                                  Suspend
-                                </>
-                              ) : (
-                                <>
-                                  <Unlock className="w-3 h-3 mr-1" />
-                                  Activate
-                                </>
-                              )}
-                            </Button>
+                            <div className="inline-flex items-center gap-1.5 justify-end">
+                              <Button
+                                variant="outline"
+                                size="sm"
+                                isLoading={isWorking}
+                                onClick={() => handleToggleUserStatus(u)}
+                                className={`text-[11px] font-bold ${
+                                  u.status === "ACTIVE"
+                                    ? "text-slate-700 hover:text-slate-900 hover:bg-slate-50 border-slate-200"
+                                    : "text-emerald-700 hover:text-emerald-800 hover:bg-emerald-50 border-emerald-200"
+                                }`}
+                              >
+                                {u.status === "ACTIVE" ? (
+                                  <>
+                                    <Lock className="w-3 h-3 mr-1" />
+                                    Suspend
+                                  </>
+                                ) : (
+                                  <>
+                                    <Unlock className="w-3 h-3 mr-1" />
+                                    Activate
+                                  </>
+                                )}
+                              </Button>
+
+                              <Button
+                                variant="outline"
+                                size="sm"
+                                isLoading={deletingUserId === u.id}
+                                onClick={() => handleDeleteUser(u)}
+                                className="text-[11px] font-bold text-rose-600 hover:text-rose-700 hover:bg-rose-50 border-rose-200"
+                                title="Permanently delete candidate account and test records"
+                              >
+                                <Trash2 className="w-3 h-3 mr-1" />
+                                Delete
+                              </Button>
+                            </div>
                           </td>
                         </tr>
                       );
@@ -1375,6 +1768,18 @@ export default function AdminDashboardPage() {
                 <option value="USER_MODIFIED">USER_MODIFIED</option>
                 <option value="USER_LOGIN">USER_LOGIN</option>
               </select>
+
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleClearAuditLogs}
+                disabled={clearingAuditLogs}
+                className="text-xs text-rose-600 hover:text-rose-700 hover:bg-rose-50 border-rose-200 font-bold"
+                title="Wipe administrative audit trail"
+              >
+                <Trash2 className="w-3.5 h-3.5 mr-1" />
+                Clear History
+              </Button>
 
               <Button variant="outline" size="sm" onClick={fetchAuditLogs} className="text-xs">
                 <RefreshCw className="w-3.5 h-3.5 text-slate-500" />

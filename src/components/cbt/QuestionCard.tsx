@@ -79,11 +79,11 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto p-4 sm:p-7">
+    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300 p-3.5 sm:p-6">
       {/* Top Header Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-slate-200/80 text-xs">
+      <div className="flex flex-wrap items-center justify-between gap-2.5 pb-3.5 border-b border-slate-200/80 text-xs">
         {/* Left: Question No + Topic + Question Timer */}
-        <div className="flex items-center gap-2.5 flex-wrap">
+        <div className="flex items-center gap-2 sm:gap-2.5 flex-wrap">
           <span className="text-base sm:text-lg font-black text-slate-900 font-mono tracking-tight">
             Q.{questionNumber}
           </span>
@@ -126,10 +126,10 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       </div>
 
       {/* Question Content Body */}
-      <div className="py-5 space-y-4 flex-1">
+      <div className="py-4 space-y-3.5 flex-1 w-full max-w-4xl lg:max-w-5xl">
         {/* Authentic Aditya Ranjan Type Badge (if present) */}
         {typeHeader && (
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
             <span className="text-amber-400">◆</span>
             <span>{typeHeader}</span>
             <span className="text-amber-400">◆</span>
@@ -137,13 +137,13 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         )}
 
         {/* Highlighted Crisp Question Text */}
-        <div className="text-[17px] sm:text-[18px] font-semibold text-slate-900 leading-relaxed tracking-tight py-1">
+        <div className="text-[16px] sm:text-[18px] font-semibold text-slate-900 leading-relaxed tracking-tight py-1">
           <MathRenderer text={displayQuestionText} />
         </div>
 
         {/* Visual Content if any */}
         {hasVisualContent && visualType !== "TABLE" && imageUrl && (
-          <div className="my-3 p-3 bg-white border border-slate-200 rounded-xl inline-block max-w-md">
+          <div className="my-2 p-3 bg-white border border-slate-200 rounded-xl inline-block max-w-md">
             <img
               src={imageUrl}
               alt={`Question ${questionNumber} Diagram`}
@@ -153,8 +153,8 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           </div>
         )}
 
-        {/* Compact, Soothing Option Boxes */}
-        <div className="pt-2 space-y-2.5 w-full max-w-3xl">
+        {/* Compact, Soothing Option Boxes Utilizing Available Width */}
+        <div className="pt-1.5 space-y-2 w-full">
           <div className="text-xs font-bold text-slate-400 uppercase tracking-wider pb-0.5">
             Select Your Option:
           </div>
@@ -191,7 +191,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
         {/* Step-by-Step Explanation Box (revealed when instant feedback is ON and option is marked) */}
         {isInstantFeedbackActive && selectedOptionStableId && (
-          <div className="mt-5 p-4 sm:p-5 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2.5 w-full max-w-3xl transition-all animate-in fade-in duration-200">
+          <div className="mt-4 p-4 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2 w-full transition-all animate-in fade-in duration-200">
             <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider">
               <Sparkles className="w-4 h-4 text-blue-600" />
               <span>Step-by-Step Solution &amp; Approach</span>

@@ -33,3 +33,24 @@ export async function GET(req: NextRequest) {
     );
   }
 }
+
+// DELETE clear all audit logs history (Admin Only)
+export async function DELETE(req: NextRequest) {
+  try {
+    const { errorResponse } = requireAuth(req, ["ADMIN"]);
+    if (errorResponse) return errorResponse;
+
+    await prisma.auditLog.deleteMany({});
+
+    return NextResponse.json({
+      success: true,
+      message: "Administrative audit trail history cleared successfully.",
+    });
+  } catch (error: any) {
+    return NextResponse.json(
+      { error: error.message || "Failed to clear audit trail" },
+      { status: 500 }
+    );
+  }
+}
+

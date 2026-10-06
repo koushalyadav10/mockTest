@@ -58,7 +58,7 @@ export const OptionCard: React.FC<OptionCardProps> = ({
           onSelect();
         }
       }}
-      className={`group relative flex items-center gap-3 py-2.5 px-3.5 sm:py-3 sm:px-4 rounded-xl border transition-all select-none cursor-pointer w-full max-w-3xl ${containerStyles}`}
+      className={`group relative flex items-center gap-3 py-2.5 px-3.5 sm:py-2.5 sm:px-4 rounded-xl border transition-all select-none cursor-pointer w-full ${containerStyles}`}
     >
       {/* Radio Circle & Label */}
       <div

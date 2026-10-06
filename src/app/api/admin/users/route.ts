@@ -115,3 +115,59 @@ export async function PATCH(req: NextRequest) {
     );
   }
 }
+
+// DELETE user account (Admin Only)
+export async function DELETE(req: NextRequest) {
+  try {
+    const { user: adminUser, errorResponse } = requireAuth(req, ["ADMIN"]);
+    if (errorResponse) return errorResponse;
+
+    const { searchParams } = new URL(req.url);
+    const userId = searchParams.get("userId");
+
+    if (!userId) {
+      return NextResponse.json({ error: "User ID is required." }, { status: 400 });
+    }
+
+    if (userId === adminUser?.userId) {
+      return NextResponse.json({ error: "Cannot delete your own admin account." }, { status: 400 });
+    }
+
+    const targetUser = await prisma.user.findUnique({
+      where: { id: userId },
+    });
+
+    if (!targetUser) {
+      return NextResponse.json({ error: "User not found." }, { status: 404 });
+    }
+
+    // Cascade delete any user test attempts and sessions
+    await prisma.testAttempt.deleteMany({ where: { userId } }).catch(() => {});
+    await prisma.user.delete({
+      where: { id: userId },
+    });
+
+    // Record in Audit Log
+    await prisma.auditLog.create({
+      data: {
+        userId: adminUser?.userId,
+        userEmail: adminUser?.email,
+        action: "USER_DELETED",
+        entity: "User",
+        entityId: userId,
+        details: `Permanently deleted user '${targetUser.name}' (${targetUser.email}, Role: ${targetUser.role})`,
+      },
+    }).catch(() => {});
+
+    return NextResponse.json({
+      success: true,
+      message: `User '${targetUser.name}' was permanently deleted.`,
+    });
+  } catch (error: any) {
+    return NextResponse.json(
+      { error: error.message || "Failed to delete user" },
+      { status: 500 }
+    );
+  }
+}
+

@@ -270,3 +270,60 @@ export async function GET(req: NextRequest) {
     );
   }
 }
+
+// DELETE submission/test attempt (Admin Only)
+export async function DELETE(req: NextRequest) {
+  try {
+    const { user, errorResponse } = requireAuth(req, ["ADMIN"]);
+    if (errorResponse) return errorResponse;
+
+    const { searchParams } = new URL(req.url);
+    const attemptId = searchParams.get("attemptId");
+    const scope = searchParams.get("scope") || "both"; // "both" or "admin"
+
+    if (!attemptId) {
+      return NextResponse.json({ error: "Attempt ID is required" }, { status: 400 });
+    }
+
+    const attempt = await prisma.testAttempt.findUnique({
+      where: { id: attemptId },
+      include: {
+        user: { select: { name: true, email: true } },
+        examConfig: { select: { title: true } },
+      },
+    });
+
+    if (!attempt) {
+      return NextResponse.json({ error: "Test attempt not found" }, { status: 404 });
+    }
+
+    // Delete TestAttempt (cascades to TestResponse and AttemptViolation)
+    await prisma.testAttempt.delete({
+      where: { id: attemptId },
+    });
+
+    // Record in audit log
+    await prisma.auditLog.create({
+      data: {
+        userId: user?.userId,
+        userEmail: user?.email,
+        action: "ATTEMPT_DELETED",
+        entity: "TestAttempt",
+        entityId: attemptId,
+        details: `Deleted score/attempt of candidate '${attempt.user?.name || attempt.studentRollNo}' for exam '${attempt.examConfig?.title}' (${scope === "both" ? "Deleted for Both" : "Deleted for Admin"})`,
+      },
+    }).catch(() => {});
+
+    return NextResponse.json({
+      success: true,
+      message: `Scorecard for ${attempt.user?.name || "candidate"} deleted successfully.`,
+    });
+  } catch (error: any) {
+    console.error("Error deleting submission:", error);
+    return NextResponse.json(
+      { error: error.message || "Failed to delete submission" },
+      { status: 500 }
+    );
+  }
+}
+

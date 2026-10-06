@@ -17,6 +17,15 @@ export async function POST(
 
     const session = getSessionUser(req);
 
+    // Skip proctoring violations for Admin and Faculty preview sessions
+    if (session?.role === "ADMIN" || session?.role === "TEACHER") {
+      return NextResponse.json({
+        success: true,
+        ignored: true,
+        reason: "Proctoring violation bypassed for Admin/Teacher preview",
+      });
+    }
+
     // Record violation in DB
     const violation = await prisma.attemptViolation.create({
       data: {
