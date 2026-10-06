@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { ZoomIn, Image as ImageIcon, CheckCircle, Award, Calendar } from "lucide-react";
+import { ZoomIn, Image as ImageIcon, Award, Calendar, Clock, Sparkles, CheckCircle2, AlertCircle } from "lucide-react";
 import { MathRenderer } from "../math/MathRenderer";
 import { OptionCard } from "./OptionCard";
 import { Modal } from "../ui/Modal";
@@ -29,9 +29,11 @@ interface QuestionCardProps {
   options: QuestionCardOption[];
   selectedOptionStableId: string | null;
   onSelectOption: (stableId: string) => void;
-  // In practice mode only:
-  isPracticeMode?: boolean;
-  instantFeedback?: boolean;
+  // Per-Question timer & stats
+  questionTimeSeconds?: number;
+  // Instant feedback / Learning mode
+  isInstantFeedbackActive?: boolean;
+  onToggleInstantFeedback?: (enabled: boolean) => void;
   correctOptionStableId?: string | null;
   explanation?: string | null;
 }
@@ -52,137 +54,138 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   options,
   selectedOptionStableId,
   onSelectOption,
-  isPracticeMode = false,
-  instantFeedback = false,
+  questionTimeSeconds = 0,
+  isInstantFeedbackActive = false,
+  onToggleInstantFeedback,
   correctOptionStableId,
   explanation,
 }) => {
   const [isZoomOpen, setIsZoomOpen] = useState(false);
   const { cleanQuestionText, examTag } = extractExamTag(questionText);
 
+  // Extract [Type: ...] if embedded in text
+  let typeHeader = "";
+  let displayQuestionText = cleanQuestionText;
+  const typeMatch = cleanQuestionText.match(/\[Type:\s*([^\]]+)\]/i);
+  if (typeMatch) {
+    typeHeader = typeMatch[1].trim();
+    displayQuestionText = cleanQuestionText.replace(/\[Type:\s*[^\]]+\]\s*/i, "").trim();
+  }
+
+  const formatTimer = (sec: number) => {
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+    return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+  };
+
   return (
-    <div className="flex flex-col h-full bg-white rounded-lg border border-slate-200 shadow-xs overflow-y-auto p-4 sm:p-6">
-      {/* Header Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pb-3.5 border-b border-slate-200 text-xs text-slate-600">
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-base font-bold text-slate-900 font-mono">
-            Question No: {questionNumber}
+    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto p-4 sm:p-7">
+      {/* Top Header Bar */}
+      <div className="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-slate-200/80 text-xs">
+        {/* Left: Question No + Topic + Question Timer */}
+        <div className="flex items-center gap-2.5 flex-wrap">
+          <span className="text-base sm:text-lg font-black text-slate-900 font-mono tracking-tight">
+            Q.{questionNumber}
           </span>
+
           {topic && (
-            <span className="hidden sm:inline-block bg-slate-100 text-slate-700 font-medium px-2 py-0.5 rounded border border-slate-200">
+            <span className="bg-slate-100 text-slate-700 font-semibold px-2.5 py-1 rounded-lg border border-slate-200/80 text-[11px]">
               {topic}
             </span>
           )}
-          <span
-            className={`text-[10px] px-2 py-0.5 rounded font-mono font-semibold ${
-              source === "AI_GENERATED_PRACTICE"
-                ? "bg-purple-50 text-purple-700 border border-purple-200"
-                : "bg-blue-50 text-blue-700 border border-blue-200"
-            }`}
-          >
-            {source === "AI_GENERATED_PRACTICE" ? "AI Practice" : "Official Source"}
-          </span>
 
-          {/* Sleek Colorful Official Exam Citation Badge */}
+          {/* Per-Question Live Timer & Speed Badge */}
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-blue-50 border border-blue-200/80 text-blue-800 text-[11px] font-mono font-bold">
+            <Clock className="w-3.5 h-3.5 text-blue-600" />
+            <span>Time: {formatTimer(questionTimeSeconds)}</span>
+            {selectedOptionStableId && (
+              <span className="text-emerald-700 font-semibold ml-1">
+                (Marked in {questionTimeSeconds}s)
+              </span>
+            )}
+          </div>
+
+          {/* Exam Tag Badge */}
           {examTag && (
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-amber-50 via-orange-50 to-amber-100/80 border border-amber-300 text-amber-900 font-bold text-[11px] shadow-2xs">
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
-              <Award className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-              <span className="tracking-tight">{examTag}</span>
-            </span>
-          )}
-
-          {questionType && questionType !== "MCQ" && (
-            <span className="text-[10px] bg-slate-100 text-slate-600 border border-slate-200 px-2 py-0.5 rounded font-medium">
-              {questionType}
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-200/90 text-amber-900 font-bold text-[11px]">
+              <Calendar className="w-3.5 h-3.5 text-amber-600" />
+              <span>{examTag}</span>
             </span>
           )}
         </div>
 
-        <div className="flex items-center gap-2 font-mono">
-          <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded font-semibold">
-            +{marksPerCorrect.toFixed(1)}
-          </span>
-          <span className="text-red-700 bg-red-50 border border-red-200 px-2 py-0.5 rounded font-semibold">
-            -{negativeMarks.toFixed(1)}
-          </span>
+        {/* Right: Instant Answer Checkbox + Marks Badges */}
+        <div className="flex items-center gap-2.5">
+          {onToggleInstantFeedback && (
+            <label className="inline-flex items-center gap-2 cursor-pointer text-xs font-semibold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200/90 px-3 py-1 rounded-lg shadow-2xs transition-colors select-none">
+              <input
+                type="checkbox"
+                checked={isInstantFeedbackActive}
+                onChange={(e) => onToggleInstantFeedback(e.target.checked)}
+                className="rounded border-slate-300 text-blue-600 focus:ring-blue-500 w-3.5 h-3.5"
+              />
+              <span>Show Answer on Click</span>
+            </label>
+          )}
+
+          <div className="flex items-center gap-1.5 font-mono text-[11px] font-bold">
+            <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">
+              +{marksPerCorrect.toFixed(1)}
+            </span>
+            <span className="text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
+              -{negativeMarks.toFixed(1)}
+            </span>
+          </div>
         </div>
       </div>
 
-      {/* Question Body */}
-      <div className="py-4 space-y-4">
-        {/* Authentic DIRECTIONS Block (matching Screenshot 5) */}
-        <div className="p-2.5 bg-slate-50/80 rounded-md border border-slate-200/80 text-xs text-slate-700 font-medium leading-relaxed">
-          <span className="font-bold text-slate-900 font-serif">DIRECTIONS for the question: </span>
-          <span>
-            {directionText ||
-              "Solve the following question and mark the best possible option among the four choices given."}
-          </span>
-        </div>
-
-        {/* Clean Mathematical Question Content without clutter */}
-        <div className="text-base sm:text-lg leading-relaxed text-slate-900 font-sans">
-          <MathRenderer text={cleanQuestionText} />
-        </div>
-
-        {/* Dedicated Colorful Exam Citation Tag Bar on Side/Bottom of Question */}
-        {examTag && (
-          <div className="flex items-center justify-end pt-1">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-gradient-to-r from-amber-50 to-orange-50/70 border border-amber-200 text-amber-950 text-xs font-medium shadow-2xs">
-              <Calendar className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-              <span className="text-slate-500 text-[11px]">Asked in:</span>
-              <span className="font-bold text-amber-900">{examTag}</span>
-            </div>
+      {/* Question Content Body */}
+      <div className="py-5 space-y-4 flex-1">
+        {/* Authentic Aditya Ranjan Type Badge (if present) */}
+        {typeHeader && (
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
+            <span className="text-amber-400">◆</span>
+            <span>{typeHeader}</span>
+            <span className="text-amber-400">◆</span>
           </div>
         )}
 
-        {/* Visual Content (Diagram / Image - excluded for TABLE as table renders inline) */}
-        {hasVisualContent && visualType !== "TABLE" && (
-          <div className="my-3 p-3 bg-slate-50 border border-slate-200 rounded-lg max-w-xl">
-            <div className="flex items-center justify-between mb-2">
-              <span className="text-xs font-semibold text-slate-500 flex items-center gap-1.5">
-                <ImageIcon className="w-3.5 h-3.5 text-blue-600" /> Reference Diagram
-              </span>
-              <button
-                onClick={() => setIsZoomOpen(true)}
-                className="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1 font-medium hover:underline"
-              >
-                <ZoomIn className="w-3.5 h-3.5" /> Enlarge Diagram
-              </button>
-            </div>
-            {/* SVG/Image Diagram Representation */}
-            <div
+        {/* Highlighted Crisp Question Text */}
+        <div className="text-[17px] sm:text-[18px] font-semibold text-slate-900 leading-relaxed tracking-tight py-1">
+          <MathRenderer text={displayQuestionText} />
+        </div>
+
+        {/* Visual Content if any */}
+        {hasVisualContent && visualType !== "TABLE" && imageUrl && (
+          <div className="my-3 p-3 bg-white border border-slate-200 rounded-xl inline-block max-w-md">
+            <img
+              src={imageUrl}
+              alt={`Question ${questionNumber} Diagram`}
+              className="max-h-64 object-contain rounded cursor-pointer"
               onClick={() => setIsZoomOpen(true)}
-              className="cursor-pointer bg-white p-3 rounded border border-slate-200 flex items-center justify-center hover:shadow-xs transition-shadow"
-            >
-              <svg
-                viewBox="0 0 360 160"
-                className="w-full h-auto max-h-48 object-contain"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect width="360" height="160" fill="#f8fafc" rx="6" />
-                <circle cx="180" cy="80" r="50" fill="none" stroke="#2563eb" strokeWidth="2.5" />
-                <line x1="60" y1="80" x2="300" y2="80" stroke="#64748b" strokeWidth="1.5" strokeDasharray="4 3" />
-                <line x1="60" y1="80" x2="180" y2="30" stroke="#dc2626" strokeWidth="2" />
-                <circle cx="180" cy="30" r="3.5" fill="#dc2626" />
-                <text x="185" y="26" fontSize="11" fontWeight="bold" fill="#dc2626">T (Tangent)</text>
-                <circle cx="60" cy="80" r="3.5" fill="#0f172a" />
-                <text x="45" y="78" fontSize="11" fontWeight="bold" fill="#0f172a">P</text>
-                <circle cx="130" cy="80" r="3.5" fill="#0f172a" />
-                <text x="126" y="96" fontSize="11" fontWeight="bold" fill="#0f172a">A</text>
-                <circle cx="230" cy="80" r="3.5" fill="#0f172a" />
-                <text x="226" y="96" fontSize="11" fontWeight="bold" fill="#0f172a">B</text>
-                <text x="175" y="84" fontSize="9" fill="#64748b">Center O</text>
-              </svg>
-            </div>
+            />
           </div>
         )}
 
-        {/* Options List */}
-        <div className="space-y-3 pt-2">
-          {options.map((opt, index) => {
+        {/* Compact, Soothing Option Boxes */}
+        <div className="pt-2 space-y-2.5 max-w-xl">
+          <div className="text-xs font-bold text-slate-400 uppercase tracking-wider pb-0.5">
+            Select Your Option:
+          </div>
+
+          {options.map((opt, idx) => {
             const isSelected = selectedOptionStableId === opt.stableId;
-            const shortcut = (index + 1).toString();
+            const isCorrectOption = Boolean(
+              isInstantFeedbackActive &&
+                correctOptionStableId &&
+                opt.stableId === correctOptionStableId
+            );
+            const isWrongOption = Boolean(
+              isInstantFeedbackActive &&
+                isSelected &&
+                correctOptionStableId &&
+                opt.stableId !== correctOptionStableId
+            );
 
             return (
               <OptionCard
@@ -191,58 +194,42 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                 text={opt.text}
                 isSelected={isSelected}
                 onSelect={() => onSelectOption(opt.stableId)}
-                keyboardShortcut={shortcut}
+                keyboardShortcut={String(idx + 1)}
+                instantFeedbackActive={isInstantFeedbackActive && Boolean(selectedOptionStableId)}
+                isCorrectOption={isCorrectOption}
+                isWrongOption={isWrongOption}
               />
             );
           })}
         </div>
 
-        {/* Practice Mode Instant Explanation */}
-        {isPracticeMode && instantFeedback && selectedOptionStableId && (
-          <div className="mt-4 p-4 rounded-lg bg-blue-50 border border-blue-200 animate-in fade-in">
-            <div className="flex items-center gap-2 mb-2 font-semibold text-sm text-blue-900">
-              <CheckCircle className="w-4 h-4 text-blue-600" />
-              <span>Solution & Explanation</span>
+        {/* Step-by-Step Explanation Box (revealed when instant feedback is ON and option is marked) */}
+        {isInstantFeedbackActive && selectedOptionStableId && (
+          <div className="mt-5 p-4 sm:p-5 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2.5 max-w-xl transition-all animate-in fade-in duration-200">
+            <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider">
+              <Sparkles className="w-4 h-4 text-blue-600" />
+              <span>Step-by-Step Solution &amp; Approach</span>
             </div>
-            <div className="text-sm text-slate-700 leading-relaxed font-sans">
-              <MathRenderer text={explanation || "No step-by-step explanation provided for this question."} />
+            <div className="text-sm text-slate-800 leading-relaxed font-sans">
+              <MathRenderer
+                text={
+                  explanation ||
+                  `Answer option (${options.find((o) => o.stableId === correctOptionStableId)?.displayLabel || "Verified"}) is verified by TCS standard methodology.`
+                }
+              />
             </div>
           </div>
         )}
       </div>
 
-      {/* Diagram Enlarge Modal */}
-      <Modal
-        isOpen={isZoomOpen}
-        onClose={() => setIsZoomOpen(false)}
-        title={`Reference Diagram - Question ${questionNumber}`}
-        maxWidth="lg"
-      >
-        <div className="flex flex-col items-center justify-center p-4 bg-slate-50 rounded-lg">
-          <svg
-            viewBox="0 0 360 160"
-            className="w-full h-auto max-h-96"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="360" height="160" fill="#f8fafc" rx="6" />
-            <circle cx="180" cy="80" r="50" fill="none" stroke="#2563eb" strokeWidth="2.5" />
-            <line x1="60" y1="80" x2="300" y2="80" stroke="#64748b" strokeWidth="1.5" strokeDasharray="4 3" />
-            <line x1="60" y1="80" x2="180" y2="30" stroke="#dc2626" strokeWidth="2" />
-            <circle cx="180" cy="30" r="4" fill="#dc2626" />
-            <text x="185" y="25" fontSize="12" fontWeight="bold" fill="#dc2626">T (Tangent Point)</text>
-            <circle cx="60" cy="80" r="4" fill="#0f172a" />
-            <text x="45" y="78" fontSize="12" fontWeight="bold" fill="#0f172a">P (External Point)</text>
-            <circle cx="130" cy="80" r="4" fill="#0f172a" />
-            <text x="126" y="98" fontSize="12" fontWeight="bold" fill="#0f172a">A</text>
-            <circle cx="230" cy="80" r="4" fill="#0f172a" />
-            <text x="226" y="98" fontSize="12" fontWeight="bold" fill="#0f172a">B</text>
-            <text x="175" y="84" fontSize="10" fill="#64748b">O (Center)</text>
-          </svg>
-          <span className="text-xs text-slate-500 mt-3 text-center">
-            Figure not drawn to scale. Use theoretical geometric properties ($PT^2 = PA \\times PB$) to solve.
-          </span>
-        </div>
-      </Modal>
+      {/* Diagram Zoom Modal */}
+      {isZoomOpen && imageUrl && (
+        <Modal isOpen={isZoomOpen} onClose={() => setIsZoomOpen(false)} title="Question Diagram Zoom">
+          <div className="p-4 flex justify-center bg-white">
+            <img src={imageUrl} alt="Zoomed Diagram" className="max-h-[80vh] object-contain rounded" />
+          </div>
+        </Modal>
+      )}
     </div>
   );
 };

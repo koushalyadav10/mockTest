@@ -54,6 +54,18 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [loading, setLoading] = useState(true);
 
+  // Instant Feedback & Question-level live speed timer
+  const [isInstantFeedbackActive, setIsInstantFeedbackActive] = useState(instantFeedback);
+  const [questionTimeSeconds, setQuestionTimeSeconds] = useState(0);
+
+  useEffect(() => {
+    setQuestionTimeSeconds(0);
+    const interval = setInterval(() => {
+      setQuestionTimeSeconds((prev) => prev + 1);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [currentIndex]);
+
   // Refs for zero-latency proctoring checks during state transitions
   const isSubmitModalOpenRef = useRef(false);
   const isSubmittingRef = useRef(false);
@@ -478,8 +490,9 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
               options={currentQ.options}
               selectedOptionStableId={currentQ.selectedOptionStableId}
               onSelectOption={handleSelectOption}
-              isPracticeMode={testAttempt.mode === "PRACTICE"}
-              instantFeedback={instantFeedback}
+              questionTimeSeconds={questionTimeSeconds}
+              isInstantFeedbackActive={isInstantFeedbackActive}
+              onToggleInstantFeedback={setIsInstantFeedbackActive}
               correctOptionStableId={currentQ.correctOptionStableId}
               explanation={currentQ.explanation}
             />

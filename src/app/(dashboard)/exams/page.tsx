@@ -25,6 +25,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { ChapterHubModal } from "@/components/cbt/ChapterHubModal";
 
 interface ExamConfigItem {
   id: string;
@@ -56,6 +57,10 @@ export default function ExamsCatalogPage() {
   const [exams, setExams] = useState<ExamConfigItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [creatingTestId, setCreatingTestId] = useState<string | null>(null);
+
+  // Chapter Practice & Hub Modal
+  const [selectedHubExam, setSelectedHubExam] = useState<ExamConfigItem | null>(null);
+  const [isLaunchingHubSession, setIsLaunchingHubSession] = useState(false);
 
   // Filters & Tabs
   const [activeTab, setActiveTab] = useState<"ALL" | "LIVE" | "UPCOMING" | "EXPIRED" | "DRAFT">("ALL");
@@ -225,30 +230,54 @@ export default function ExamsCatalogPage() {
     }
   };
 
-  // Start Exam / Mock
-  const handleStartExam = async (examId: string) => {
+  // Start Exam / Mock from Chapter Hub
+  const handleLaunchHubSession = async (options: {
+    examId: string;
+    subtopicFilter?: string;
+    examFilter?: string;
+    shuffle?: boolean;
+    instantFeedback?: boolean;
+    broadcastToStudents?: boolean;
+  }) => {
+    if (options.broadcastToStudents) {
+      // Re-fetch exams so newly assigned test shows up in catalog immediately
+      fetchExams();
+      return;
+    }
+
     try {
-      setCreatingTestId(examId);
+      setIsLaunchingHubSession(true);
       const res = await fetch("/api/tests", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ examConfigId: examId, mode: "MOCK" }),
+        body: JSON.stringify({
+          examConfigId: options.examId,
+          subtopicFilter: options.subtopicFilter,
+          examFilter: options.examFilter,
+          shuffle: options.shuffle,
+          mode: options.instantFeedback ? "PRACTICE" : "MOCK",
+        }),
       });
+
       if (res.status === 401) {
         router.push(`/login?callbackUrl=${encodeURIComponent("/exams")}`);
         return;
       }
+
       const data = await res.json();
       if (data.testAttemptId) {
-        router.push(`/mock/${data.testAttemptId}/instructions`);
+        setSelectedHubExam(null);
+        router.push(
+          `/mock/${data.testAttemptId}/test?instantFeedback=${options.instantFeedback ? "true" : "false"}`
+        );
       } else {
-        alert(data.error || "Could not launch exam session");
+        alert(data.error || "Could not launch practice session");
       }
-    } catch (e) {
-      console.error("Failed to initiate test:", e);
+    } catch (e: any) {
+      console.error("Failed to launch session:", e);
       alert("Failed to initiate test session. Please check your connection.");
     } finally {
-      setCreatingTestId(null);
+      setIsLaunchingHubSession(false);
     }
   };
 
@@ -548,8 +577,12 @@ export default function ExamsCatalogPage() {
                         </span>
                       </div>
 
-                      <h3 className="font-bold text-slate-900 text-base sm:text-lg tracking-tight">
-                        {exam.title}
+                      <h3
+                        onClick={() => setSelectedHubExam(exam)}
+                        className="font-bold text-slate-900 text-base sm:text-lg tracking-tight cursor-pointer hover:text-indigo-600 transition-colors flex items-center gap-1.5"
+                      >
+                        <span>{exam.title}</span>
+                        <ChevronRight className="w-4 h-4 text-slate-400" />
                       </h3>
 
                       {exam.description && (
@@ -646,8 +679,7 @@ export default function ExamsCatalogPage() {
                           </div>
                         ) : (
                           <button
-                            onClick={() => handleStartExam(exam.id)}
-                            disabled={creatingTestId === exam.id}
+                            onClick={() => setSelectedHubExam(exam)}
                             className={`px-4 sm:px-5 py-2.5 rounded-xl text-white font-bold text-xs shadow-xs hover:shadow-md transition-all inline-flex items-center gap-2 active:scale-98 ${
                               isExamMode
                                 ? "bg-indigo-600 hover:bg-indigo-700"
@@ -656,13 +688,11 @@ export default function ExamsCatalogPage() {
                           >
                             <PlayCircle className="w-4 h-4" />
                             <span>
-                              {creatingTestId === exam.id
-                                ? "Launching CBT..."
-                                : isUpcoming
+                              {isUpcoming
                                 ? "Preview (Admin)"
                                 : isExamMode
                                 ? "Take CBT Exam"
-                                : "Start Mock Test"}
+                                : "Start Practice / Test"}
                             </span>
                           </button>
                         )}
@@ -902,6 +932,18 @@ export default function ExamsCatalogPage() {
           </div>
         </div>
       )}
+
+      {/* ============================================================= */}
+      {/* 5. CHAPTER PRACTICE & DIAGNOSTIC HUB MODAL                    */}
+      {/* ============================================================= */}
+      <ChapterHubModal
+        isOpen={Boolean(selectedHubExam)}
+        onClose={() => setSelectedHubExam(null)}
+        exam={selectedHubExam}
+        isAdmin={Boolean(isAdminOrTeacher)}
+        onStartSession={handleLaunchHubSession}
+        isLoading={isLaunchingHubSession}
+      />
     </div>
   );
 }

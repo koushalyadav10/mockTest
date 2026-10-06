@@ -12,6 +12,9 @@ export async function POST(req: NextRequest) {
       mode = "MOCK", // MOCK | PRACTICE
       subjectFilter,
       topicFilter,
+      subtopicFilter,
+      examFilter,
+      shuffle = false,
       questionCountLimit,
     } = body;
 
@@ -43,6 +46,30 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Exam configuration not found" }, { status: 404 });
     }
 
+    // Read stored filters from exam instructions if not explicitly passed in body
+    let effectiveSubtopicFilter = subtopicFilter;
+    let effectiveExamFilter = examFilter;
+    let effectiveShuffle = shuffle;
+    let effectiveMode = mode;
+
+    if (examConfig.instructions) {
+      try {
+        const parsed = JSON.parse(examConfig.instructions);
+        if (parsed.subtopicFilter && !effectiveSubtopicFilter) {
+          effectiveSubtopicFilter = parsed.subtopicFilter;
+        }
+        if (parsed.examFilter && !effectiveExamFilter) {
+          effectiveExamFilter = parsed.examFilter;
+        }
+        if (parsed.shuffle !== undefined && shuffle === false) {
+          effectiveShuffle = parsed.shuffle;
+        }
+        if (parsed.instantFeedback && effectiveMode === "MOCK") {
+          effectiveMode = "PRACTICE";
+        }
+      } catch (e) {}
+    }
+
     // Query questions from Question Bank
     const whereClause: any = {};
     if (documentId) {
@@ -54,6 +81,12 @@ export async function POST(req: NextRequest) {
     }
     if (subjectFilter && subjectFilter !== "ALL") whereClause.subject = subjectFilter;
     if (topicFilter && topicFilter !== "ALL") whereClause.topic = topicFilter;
+    if (effectiveSubtopicFilter && effectiveSubtopicFilter !== "ALL") {
+      whereClause.subtopic = { contains: effectiveSubtopicFilter };
+    }
+    if (effectiveExamFilter && effectiveExamFilter !== "ALL") {
+      whereClause.questionText = { contains: effectiveExamFilter };
+    }
 
     let availableQuestions = await prisma.question.findMany({
       where: whereClause,
@@ -65,7 +98,7 @@ export async function POST(req: NextRequest) {
       orderBy: { questionNumber: "asc" },
     });
 
-    if (availableQuestions.length === 0 && !documentId) {
+    if (availableQuestions.length === 0 && !documentId && !examConfig.documentId) {
       // Fallback to all approved questions
       availableQuestions = await prisma.question.findMany({
         where: { status: "APPROVED" },
@@ -78,15 +111,15 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    // Limit questions count if specified or from exam config (preserve all if launching document test)
-    const targetCount = questionCountLimit || (documentId ? availableQuestions.length : Math.min(availableQuestions.length, examConfig.totalQuestions));
+    // Determine target count: if filtered or document-linked, preserve all available filtered questions
+    const hasFilter = Boolean(effectiveSubtopicFilter || effectiveExamFilter || documentId || examConfig.documentId);
+    const targetCount = questionCountLimit || (hasFilter ? availableQuestions.length : Math.min(availableQuestions.length, examConfig.totalQuestions));
     const selectedQuestions = availableQuestions.slice(0, targetCount);
 
-    // When test is derived from a document or specific exam config with questionShuffle = false,
-    // ALWAYS preserve exact sequential order (1, 2, 3, ... N) from the source paper/book.
+    // Honor explicit shuffle flag (e.g. from Chapter Hub mix mode), else adhere to sequential exam config
     const isDocumentOrSequentialExam = Boolean(documentId || examConfig.documentId || !examConfig.questionShuffle);
-    const shouldShuffleQuestions = !isDocumentOrSequentialExam && examConfig.questionShuffle;
-    const shouldShuffleOptions = !isDocumentOrSequentialExam && examConfig.optionShuffle;
+    const shouldShuffleQuestions = Boolean(effectiveShuffle) || (!isDocumentOrSequentialExam && examConfig.questionShuffle);
+    const shouldShuffleOptions = Boolean(effectiveShuffle) || (!isDocumentOrSequentialExam && examConfig.optionShuffle);
 
     const orderedQuestions = shouldShuffleQuestions
       ? safelyShuffleQuestions(selectedQuestions, true)

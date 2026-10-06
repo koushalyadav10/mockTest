@@ -31,3 +31,5 @@ next-env.d.ts
 # ocr data & scratch
 *.traineddata
 scratch/
+__pycache__/
+*.pyc

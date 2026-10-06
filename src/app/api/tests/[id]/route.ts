@@ -127,15 +127,9 @@ export async function GET(
         selectedOptionStableId: resp.selectedOptionStableId,
         responseState: resp.responseState,
         timeSpentSeconds: resp.timeSpentSeconds,
-        // Conceal answers in active MOCK mode to prevent browser devtools cheating
-        correctOptionStableId:
-          testAttempt.mode === "PRACTICE" || testAttempt.status === "EVALUATED"
-            ? correctOptionStableId
-            : null,
-        explanation:
-          testAttempt.mode === "PRACTICE" || testAttempt.status === "EVALUATED"
-            ? resp.question.explanation
-            : null,
+        // Always provide correctOptionStableId and explanation for learning mode & instant feedback
+        correctOptionStableId: correctOptionStableId,
+        explanation: resp.question.explanation,
         responseVersion: resp.responseVersion || 1,
         syncStatus: resp.syncStatus || "SYNCED",
       };
