@@ -19,6 +19,7 @@ import {
   BookmarkCheck,
   HelpCircle,
   ArrowRight,
+  Mail,
 } from "lucide-react";
 
 export default function ExamResultPage({ params }: { params: { id: string } }) {
@@ -39,16 +40,23 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
       .finally(() => setLoading(false));
   }, [params.id]);
 
-  const handlePublishResults = async (examConfigId: string) => {
+  const handlePublishResults = async (examConfigId: string, emailAll = false) => {
     try {
       setIsPublishingResults(true);
       setPublishFeedback(null);
       const res = await fetch(`/api/exams/${examConfigId}/publish-results`, {
         method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ emailAll }),
       });
       const data = await res.json();
       if (data.success) {
-        setPublishFeedback("Results have been published and are now visible to all students!");
+        setPublishFeedback(
+          data.message ||
+            (emailAll
+              ? "Results published and scorecards emailed to all candidates!"
+              : "Results have been published and are now visible to all students!")
+        );
         // Refresh local state
         setResultData((prev: any) => ({
           ...prev,
@@ -147,17 +155,27 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
               <span>Results are currently ON HOLD for students</span>
             </div>
             <p className="text-xs text-amber-100">
-              Students see &quot;Evaluation in Progress&quot;. Click below when ready to make scorecards and solutions public.
+              Students see &quot;Evaluation in Progress&quot;. Choose below to make scorecards public or email them directly.
             </p>
           </div>
 
-          <Button
-            onClick={() => handlePublishResults(testAttempt.examConfigId)}
-            disabled={isPublishingResults}
-            className="bg-white hover:bg-amber-50 text-amber-900 font-extrabold text-xs shadow-xs px-4 py-2"
-          >
-            {isPublishingResults ? "Publishing..." : "🚀 Publish Results to All Students"}
-          </Button>
+          <div className="flex items-center gap-2 flex-wrap">
+            <Button
+              onClick={() => handlePublishResults(testAttempt.examConfigId, false)}
+              disabled={isPublishingResults}
+              className="bg-white hover:bg-amber-50 text-amber-900 font-extrabold text-xs shadow-xs px-3.5 py-2"
+            >
+              {isPublishingResults ? "Publishing..." : "🚀 Publish (Portal Only)"}
+            </Button>
+            <Button
+              onClick={() => handlePublishResults(testAttempt.examConfigId, true)}
+              disabled={isPublishingResults}
+              className="bg-slate-900 hover:bg-slate-800 text-white font-extrabold text-xs shadow-xs px-4 py-2 flex items-center gap-1.5"
+            >
+              <Mail className="w-3.5 h-3.5 text-amber-400" />
+              <span>{isPublishingResults ? "Sending..." : "✉️ Publish & Email All Candidates"}</span>
+            </Button>
+          </div>
         </div>
       )}
 
@@ -183,7 +201,25 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
           </p>
         </div>
 
-        <div className="flex items-center gap-2 no-print">
+        <div className="flex items-center gap-2 no-print flex-wrap">
+          {testAttempt?.examConfigId && (
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => {
+                if (confirm("Send official scorecard email to all candidates who completed this exam?")) {
+                  handlePublishResults(testAttempt.examConfigId, true);
+                }
+              }}
+              disabled={isPublishingResults}
+              className="border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 font-bold text-xs"
+              title="Broadcast official scorecards to all candidates via email"
+            >
+              <Mail className="w-3.5 h-3.5 mr-1.5 text-blue-600" />
+              Email All Candidates
+            </Button>
+          )}
+
           <Button
             variant="outline"
             size="sm"

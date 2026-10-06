@@ -80,19 +80,19 @@ export const OptionCard: React.FC<OptionCardProps> = ({
 
       {/* Instant Feedback indicator badge */}
       {instantFeedbackActive && isCorrectOption && (
-        <span className="text-[11px] font-bold text-emerald-700 bg-emerald-100/80 px-2 py-0.5 rounded-md">
+        <span className="text-[11px] font-bold text-emerald-700 bg-emerald-100/80 px-2 py-0.5 rounded-md ml-auto shrink-0">
           Correct
         </span>
       )}
       {instantFeedbackActive && isWrongOption && (
-        <span className="text-[11px] font-bold text-rose-700 bg-rose-100/80 px-2 py-0.5 rounded-md">
+        <span className="text-[11px] font-bold text-rose-700 bg-rose-100/80 px-2 py-0.5 rounded-md ml-auto shrink-0">
           Incorrect
         </span>
       )}
 
       {/* Optional keyboard shortcut hint */}
       {!instantFeedbackActive && keyboardShortcut && (
-        <span className="hidden sm:inline-block text-[10px] font-mono text-slate-400 bg-slate-100 border border-slate-200/80 px-1.5 py-0.5 rounded">
+        <span className="hidden sm:inline-block text-[10px] font-mono text-slate-400 bg-slate-100 border border-slate-200/80 px-2 py-0.5 rounded ml-auto shrink-0">
           {keyboardShortcut}
         </span>
       )}

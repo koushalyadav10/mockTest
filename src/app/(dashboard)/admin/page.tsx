@@ -1034,6 +1034,44 @@ export default function AdminDashboardPage() {
                 <span>Export CSV</span>
               </button>
 
+              {/* Batch Email Results to All Candidates */}
+              <button
+                type="button"
+                onClick={async () => {
+                  const examTarget =
+                    submissionExamFilter !== "ALL"
+                      ? submissionExamFilter
+                      : submissionsData?.exams?.[0]?.id;
+                  if (!examTarget) {
+                    alert("Please select an exam first to email results.");
+                    return;
+                  }
+                  if (
+                    !confirm(
+                      "Dispatch official scorecards via email to all candidates who completed this examination?"
+                    )
+                  ) {
+                    return;
+                  }
+                  try {
+                    const res = await fetch(`/api/exams/${examTarget}/publish-results`, {
+                      method: "POST",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({ emailAll: true }),
+                    });
+                    const data = await res.json();
+                    alert(data.message || "Scorecards dispatched via email!");
+                  } catch (e: any) {
+                    alert("Failed to send emails: " + e.message);
+                  }
+                }}
+                className="px-3 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-800 border border-blue-300 text-xs font-bold transition-all flex items-center gap-1.5 shadow-2xs"
+                title="Email official scorecards to all candidates who took this exam"
+              >
+                <Mail className="w-3.5 h-3.5 text-blue-700" />
+                <span>Email All Candidates</span>
+              </button>
+
               <Button
                 variant="outline"
                 size="sm"

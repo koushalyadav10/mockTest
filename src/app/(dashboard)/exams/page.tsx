@@ -24,6 +24,7 @@ import {
   Check,
   ChevronRight,
   Trash2,
+  Mail,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { formatCleanChapterTitle, isAssignedExam } from "@/lib/exam/tag-parser";
@@ -775,6 +776,37 @@ export default function ExamsCatalogPage() {
                               {exam.status === "PUBLISHED" ? "Unpublish" : "Publish"}
                             </span>
                           </button>
+
+                          {/* 1-Click Email All Candidates */}
+                          {currentUser?.role === "ADMIN" && (
+                            <button
+                              onClick={async () => {
+                                if (
+                                  !confirm(
+                                    `Dispatch official scorecards via email to all candidates who completed "${exam.title}"?`
+                                  )
+                                ) {
+                                  return;
+                                }
+                                try {
+                                  const res = await fetch(`/api/exams/${exam.id}/publish-results`, {
+                                    method: "POST",
+                                    headers: { "Content-Type": "application/json" },
+                                    body: JSON.stringify({ emailAll: true }),
+                                  });
+                                  const data = await res.json();
+                                  alert(data.message || "Scorecards dispatched via email!");
+                                } catch (e: any) {
+                                  alert("Failed to send emails: " + e.message);
+                                }
+                              }}
+                              className="p-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 text-xs font-semibold transition-colors flex items-center gap-1"
+                              title="Broadcast scorecards via email to all candidates who completed this exam"
+                            >
+                              <Mail className="w-3.5 h-3.5" />
+                              <span className="hidden sm:inline">Email All</span>
+                            </button>
+                          )}
 
                           {/* Edit Schedule / Mode */}
                           <button

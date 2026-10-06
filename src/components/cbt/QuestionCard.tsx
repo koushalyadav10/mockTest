@@ -126,7 +126,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       </div>
 
       {/* Question Content Body */}
-      <div className="py-4 space-y-3.5 flex-1 w-full max-w-4xl lg:max-w-5xl">
+      <div className="py-4 space-y-3.5 flex-1 w-full">
         {/* Authentic Aditya Ranjan Type Badge (if present) */}
         {typeHeader && (
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">

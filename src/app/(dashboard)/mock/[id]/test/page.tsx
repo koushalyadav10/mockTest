@@ -58,38 +58,43 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
   // Instant Feedback & Question-level live speed timer (Freezes once marked)
   const [isInstantFeedbackActive, setIsInstantFeedbackActive] = useState(instantFeedback);
   const [questionTimeSeconds, setQuestionTimeSeconds] = useState(0);
+  const currentQuestionTimeRef = useRef(0);
 
   useEffect(() => {
     if (!currentQ) return;
 
+    const recordedTime = currentQ.timeSpentSeconds || 0;
+    currentQuestionTimeRef.current = recordedTime;
+    setQuestionTimeSeconds(recordedTime);
+
     // If answer is already marked, lock the timer at solve time and DO NOT tick!
     if (currentQ.selectedOptionStableId) {
-      setQuestionTimeSeconds(currentQ.timeSpentSeconds || 0);
       return;
     }
 
-    // Unanswered: start from recorded time and tick upward
-    setQuestionTimeSeconds(currentQ.timeSpentSeconds || 0);
+    // Unanswered: start ticking upward every second
     const interval = setInterval(() => {
-      setQuestionTimeSeconds((prev) => {
-        const nextSec = prev + 1;
-        setQuestions((prevQuestions) => {
-          if (!prevQuestions[currentIndex] || prevQuestions[currentIndex].selectedOptionStableId) {
-            return prevQuestions;
-          }
-          const copy = [...prevQuestions];
-          copy[currentIndex] = {
-            ...copy[currentIndex],
-            timeSpentSeconds: nextSec,
-          };
-          return copy;
-        });
-        return nextSec;
-      });
+      currentQuestionTimeRef.current += 1;
+      setQuestionTimeSeconds(currentQuestionTimeRef.current);
     }, 1000);
 
-    return () => clearInterval(interval);
-  }, [currentIndex, Boolean(currentQ?.selectedOptionStableId)]);
+    return () => {
+      clearInterval(interval);
+      // Persist elapsed time to question state so navigation preserves it
+      const elapsed = currentQuestionTimeRef.current;
+      setQuestions((prevQuestions) => {
+        if (!prevQuestions[currentIndex] || prevQuestions[currentIndex].selectedOptionStableId) {
+          return prevQuestions;
+        }
+        const copy = [...prevQuestions];
+        copy[currentIndex] = {
+          ...copy[currentIndex],
+          timeSpentSeconds: elapsed,
+        };
+        return copy;
+      });
+    };
+  }, [currentIndex, currentQ?.questionId, Boolean(currentQ?.selectedOptionStableId)]);
 
   // Refs for zero-latency proctoring checks during state transitions
   const isSubmitModalOpenRef = useRef(false);
@@ -342,7 +347,7 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
     // Freeze timer at current seconds when marked
     const finalSolveTime = currentQ.selectedOptionStableId
       ? (currentQ.timeSpentSeconds || questionTimeSeconds)
-      : questionTimeSeconds;
+      : (currentQuestionTimeRef.current || questionTimeSeconds || 1);
 
     nextList[currentIndex] = {
       ...currentQ,
