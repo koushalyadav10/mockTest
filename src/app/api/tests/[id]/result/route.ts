@@ -5,6 +5,8 @@ import {
   analyzeTopicPerformance,
   computeKnowledgeSpeedMatrix,
 } from "@/lib/exam/analytics-engine";
+import { getSessionUser } from "@/lib/auth/session";
+import { formatCleanChapterTitle } from "@/lib/exam/tag-parser";
 
 export async function GET(
   req: NextRequest,
@@ -29,6 +31,38 @@ export async function GET(
 
     if (!testAttempt) {
       return NextResponse.json({ error: "Test attempt not found" }, { status: 404 });
+    }
+
+    // Check if results are held for instructor evaluation
+    const session = getSessionUser(req);
+    let isUserAdmin = false;
+    if (session?.userId) {
+      const dbUser = await prisma.user.findUnique({
+        where: { id: session.userId },
+        select: { role: true },
+      });
+      isUserAdmin = dbUser?.role === "ADMIN" || dbUser?.role === "TEACHER";
+    }
+
+    let isHeldForStudents = false;
+    if (testAttempt.examConfig?.instructions) {
+      try {
+        const parsed = JSON.parse(testAttempt.examConfig.instructions);
+        if (parsed.holdResults === true) {
+          isHeldForStudents = true;
+        }
+      } catch (e) {}
+    }
+
+    // Students are blocked from seeing score/answers while results are held
+    if (isHeldForStudents && !isUserAdmin) {
+      return NextResponse.json({
+        isHeld: true,
+        candidateName: testAttempt.user?.name || "Student",
+        examTitle: formatCleanChapterTitle(testAttempt.examConfig.title),
+        completedAt: testAttempt.completedAt || testAttempt.updatedAt,
+        message: "Results are held for instructor evaluation and will be published shortly.",
+      });
     }
 
     // Helper to resolve authoritative correct option stable ID
@@ -131,11 +165,13 @@ export async function GET(
     return NextResponse.json({
       testAttempt: {
         id: testAttempt.id,
-        examTitle: testAttempt.examConfig.title,
+        examConfigId: testAttempt.examConfigId,
+        examTitle: formatCleanChapterTitle(testAttempt.examConfig.title),
         category: testAttempt.examConfig.category,
         candidateName: testAttempt.user?.name || "Aditya Sharma",
         completedAt: testAttempt.completedAt || testAttempt.updatedAt,
         totalMarks: testAttempt.examConfig.totalMarks,
+        isHeldForStudents,
       },
       evaluation,
       topicPerformance,

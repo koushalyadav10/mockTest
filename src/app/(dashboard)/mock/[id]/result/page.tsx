@@ -26,16 +26,46 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
   const [resultData, setResultData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [practiceLoading, setPracticeLoading] = useState<string | null>(null);
+  const [isPublishingResults, setIsPublishingResults] = useState(false);
+  const [publishFeedback, setPublishFeedback] = useState<string | null>(null);
 
   useEffect(() => {
     fetch(`/api/tests/${params.id}/result`)
       .then((res) => res.json())
       .then((data) => {
-        if (data.evaluation) setResultData(data);
+        setResultData(data);
       })
       .catch((err) => console.error("Error loading result:", err))
       .finally(() => setLoading(false));
   }, [params.id]);
+
+  const handlePublishResults = async (examConfigId: string) => {
+    try {
+      setIsPublishingResults(true);
+      setPublishFeedback(null);
+      const res = await fetch(`/api/exams/${examConfigId}/publish-results`, {
+        method: "POST",
+      });
+      const data = await res.json();
+      if (data.success) {
+        setPublishFeedback("Results have been published and are now visible to all students!");
+        // Refresh local state
+        setResultData((prev: any) => ({
+          ...prev,
+          testAttempt: {
+            ...prev.testAttempt,
+            isHeldForStudents: false,
+          },
+        }));
+      } else {
+        alert(data.error || "Failed to publish results");
+      }
+    } catch (e: any) {
+      alert("Error publishing results: " + e.message);
+    } finally {
+      setIsPublishingResults(false);
+    }
+  };
 
   const handleStartSpecializedPractice = async (mode: "MISTAKES" | "MARKED" | "UNATTEMPTED") => {
     try {
@@ -67,10 +97,77 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
     );
   }
 
+  // Student Held Screen: Instructor evaluation in progress
+  if (resultData.isHeld) {
+    return (
+      <div className="max-w-xl mx-auto my-16 p-8 bg-white rounded-3xl border border-slate-200 shadow-sm text-center space-y-5 font-sans">
+        <div className="w-16 h-16 rounded-2xl bg-amber-50 border border-amber-200 text-amber-600 flex items-center justify-center mx-auto shadow-2xs">
+          <BookmarkCheck className="w-8 h-8" />
+        </div>
+        <div className="space-y-1">
+          <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
+            Test Submitted Successfully!
+          </h2>
+          <p className="text-xs text-slate-500">
+            Candidate: <strong>{resultData.candidateName}</strong> &bull; Examination: {resultData.examTitle}
+          </p>
+        </div>
+
+        <div className="p-4 rounded-2xl bg-amber-50/70 border border-amber-200 text-amber-950 text-xs leading-relaxed font-medium text-left space-y-1">
+          <p className="font-bold flex items-center gap-1.5">
+            <span>📋 Scorecard Held by Instructor</span>
+          </p>
+          <p className="text-[11px] text-amber-900">
+            The official scorecard, ranking percentile, and detailed solutions for this examination are currently under
+            instructor review. They will be published to your portal or sent via email as soon as evaluation is completed.
+          </p>
+        </div>
+
+        <div className="pt-2">
+          <Link href="/exams">
+            <Button variant="primary" size="md" className="bg-indigo-600 hover:bg-indigo-700 text-xs font-bold">
+              Return to Examination Catalog
+            </Button>
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
   const { testAttempt, evaluation, topicPerformance, knowledgeSpeedMatrix, questions } = resultData;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 font-sans">
+      {/* Instructor Result Release Bar */}
+      {testAttempt?.isHeldForStudents && (
+        <div className="p-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-white shadow-md flex flex-wrap items-center justify-between gap-3">
+          <div className="space-y-0.5">
+            <div className="text-sm font-bold flex items-center gap-2">
+              <BookmarkCheck className="w-4 h-4 text-white" />
+              <span>Results are currently ON HOLD for students</span>
+            </div>
+            <p className="text-xs text-amber-100">
+              Students see &quot;Evaluation in Progress&quot;. Click below when ready to make scorecards and solutions public.
+            </p>
+          </div>
+
+          <Button
+            onClick={() => handlePublishResults(testAttempt.examConfigId)}
+            disabled={isPublishingResults}
+            className="bg-white hover:bg-amber-50 text-amber-900 font-extrabold text-xs shadow-xs px-4 py-2"
+          >
+            {isPublishingResults ? "Publishing..." : "🚀 Publish Results to All Students"}
+          </Button>
+        </div>
+      )}
+
+      {publishFeedback && (
+        <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 text-xs font-bold flex items-center gap-2 animate-in fade-in duration-200">
+          <BookmarkCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+          <span>{publishFeedback}</span>
+        </div>
+      )}
+
       {/* Top Banner with Print / Export */}
       <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-200">
         <div>

@@ -8,7 +8,17 @@ export async function POST(req: NextRequest) {
     if (errorResponse) return errorResponse;
 
     const body = await req.json();
-    const { examId, subtopicFilter, examFilter, shuffle, instantFeedback } = body;
+    const {
+      examId,
+      subtopicFilter,
+      examFilter,
+      shuffle,
+      instantFeedback,
+      marksPerCorrect,
+      negativeMarks,
+      allotmentDays,
+      holdResults = true,
+    } = body;
 
     const sourceExam = await prisma.examConfig.findUnique({
       where: { id: examId },
@@ -52,28 +62,43 @@ export async function POST(req: NextRequest) {
     const assignedTitle = `📢 [Assigned] ${topicName} — ${filterTag}`;
     const uniqueCode = `ASSIGNED_${Date.now().toString().slice(-6)}_${Math.random().toString(36).substring(2, 6).toUpperCase()}`;
 
+    // Calculate schedule dates if allotment days specified
+    const now = new Date();
+    const isScheduled = Boolean(allotmentDays && allotmentDays > 0);
+    const startDate = isScheduled ? now : null;
+    const endDate = isScheduled ? new Date(now.getTime() + Number(allotmentDays) * 24 * 60 * 60 * 1000) : null;
+
+    const effectiveMarksPerCorrect = marksPerCorrect !== undefined ? Number(marksPerCorrect) : (sourceExam.marksPerCorrect || 2.0);
+    const effectiveNegativeMarks = negativeMarks !== undefined ? Number(negativeMarks) : (sourceExam.negativeMarks || 0.5);
+
     const newExam = await prisma.examConfig.create({
       data: {
         code: uniqueCode,
         title: assignedTitle,
-        description: `Official practice test assigned by ${user?.name || "Admin"}. Topic: ${topicName} | Filters: ${filterTag}. Total Questions: ${questionCount}.`,
+        description: `Official practice test assigned by ${user?.name || "Admin"}. Topic: ${topicName} | Filters: ${filterTag}. Total Questions: ${questionCount}. ${
+          isScheduled ? `Complete within ${allotmentDays} day(s).` : "Unlimited access."
+        }`,
         category: sourceExam.category || "SSC",
         mode: instantFeedback ? "PRACTICE" : "MOCK",
         status: "PUBLISHED",
-        availability: "ALWAYS",
+        availability: isScheduled ? "SCHEDULED" : "ALWAYS",
+        startDate,
+        endDate,
+        scheduledStatus: "LIVE",
         documentId: sourceExam.documentId,
         totalQuestions: questionCount,
-        totalMarks: questionCount * (sourceExam.marksPerCorrect || 2.0),
+        totalMarks: questionCount * effectiveMarksPerCorrect,
         totalDurationMinutes: Math.max(10, Math.ceil(questionCount * 1.2)),
-        marksPerCorrect: sourceExam.marksPerCorrect || 2.0,
-        negativeMarks: sourceExam.negativeMarks || 0.5,
+        marksPerCorrect: effectiveMarksPerCorrect,
+        negativeMarks: effectiveNegativeMarks,
         questionShuffle: Boolean(shuffle),
         optionShuffle: Boolean(shuffle),
         instructions: JSON.stringify({
           subtopicFilter: subtopicFilter !== "ALL" ? subtopicFilter : undefined,
           examFilter: examFilter !== "ALL" ? examFilter : undefined,
           shuffle: Boolean(shuffle),
-          instantFeedback: Boolean(instantFeedback),
+          instantFeedback: false, // Students NEVER get instant answers during test
+          holdResults: Boolean(holdResults),
         }),
       },
     });

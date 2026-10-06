@@ -61,3 +61,20 @@ export function extractExamTag(rawText: string, fallbackTag?: string | null): Pa
     examTag: fallbackTag || null,
   };
 }
+
+/**
+ * Formats a raw book chapter title into a clean, concise title:
+ * e.g. "SSC Maths (Aditya Ranjan) — Chapter 30: Data Interpretation (डी.आई. (Data Interpretation))"
+ *   -> "SSC Chapter 30: Data Interpretation"
+ */
+export function formatCleanChapterTitle(rawTitle: string): string {
+  if (!rawTitle) return "";
+  const chMatch = rawTitle.match(/Chapter\s+(\d+)[:\s\-]+([^(—]+)/i);
+  if (chMatch) {
+    const chNum = chMatch[1];
+    const chName = chMatch[2].trim();
+    return `SSC Chapter ${chNum}: ${chName}`;
+  }
+  return rawTitle.replace(/^SSC Maths\s*\([^)]*\)\s*[—\-:]*\s*/i, "SSC ").split("(")[0].trim();
+}
+

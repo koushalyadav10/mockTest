@@ -114,28 +114,14 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           )}
         </div>
 
-        {/* Right: Instant Answer Checkbox + Marks Badges */}
-        <div className="flex items-center gap-2.5">
-          {onToggleInstantFeedback && (
-            <label className="inline-flex items-center gap-2 cursor-pointer text-xs font-semibold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200/90 px-3 py-1 rounded-lg shadow-2xs transition-colors select-none">
-              <input
-                type="checkbox"
-                checked={isInstantFeedbackActive}
-                onChange={(e) => onToggleInstantFeedback(e.target.checked)}
-                className="rounded border-slate-300 text-blue-600 focus:ring-blue-500 w-3.5 h-3.5"
-              />
-              <span>Show Answer on Click</span>
-            </label>
-          )}
-
-          <div className="flex items-center gap-1.5 font-mono text-[11px] font-bold">
-            <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">
-              +{marksPerCorrect.toFixed(1)}
-            </span>
-            <span className="text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
-              -{negativeMarks.toFixed(1)}
-            </span>
-          </div>
+        {/* Right: Marks Badges */}
+        <div className="flex items-center gap-1.5 font-mono text-[11px] font-bold">
+          <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">
+            +{marksPerCorrect.toFixed(1)}
+          </span>
+          <span className="text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
+            -{negativeMarks.toFixed(1)}
+          </span>
         </div>
       </div>
 
@@ -168,7 +154,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         )}
 
         {/* Compact, Soothing Option Boxes */}
-        <div className="pt-2 space-y-2.5 max-w-xl">
+        <div className="pt-2 space-y-2.5 w-full max-w-3xl">
           <div className="text-xs font-bold text-slate-400 uppercase tracking-wider pb-0.5">
             Select Your Option:
           </div>
@@ -205,7 +191,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
         {/* Step-by-Step Explanation Box (revealed when instant feedback is ON and option is marked) */}
         {isInstantFeedbackActive && selectedOptionStableId && (
-          <div className="mt-5 p-4 sm:p-5 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2.5 max-w-xl transition-all animate-in fade-in duration-200">
+          <div className="mt-5 p-4 sm:p-5 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2.5 w-full max-w-3xl transition-all animate-in fade-in duration-200">
             <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider">
               <Sparkles className="w-4 h-4 text-blue-600" />
               <span>Step-by-Step Solution &amp; Approach</span>

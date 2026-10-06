@@ -25,7 +25,50 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { ChapterHubModal } from "@/components/cbt/ChapterHubModal";
+import { formatCleanChapterTitle } from "@/lib/exam/tag-parser";
+
+const SUBJECTS = [
+  {
+    id: "MATHS",
+    name: "Mathematics",
+    hindiName: "गणित",
+    icon: "📐",
+    active: true,
+    countBadge: "30 Chapters • 6,486 Qs",
+  },
+  {
+    id: "REASONING",
+    name: "Reasoning",
+    hindiName: "तर्कशक्ति",
+    icon: "🧠",
+    active: false,
+    countBadge: "Coming Soon",
+  },
+  {
+    id: "ENGLISH",
+    name: "English Language",
+    hindiName: "अंग्रेजी",
+    icon: "📖",
+    active: false,
+    countBadge: "Coming Soon",
+  },
+  {
+    id: "GK_GS",
+    name: "GK & GS",
+    hindiName: "सामान्य ज्ञान",
+    icon: "🌍",
+    active: false,
+    countBadge: "Coming Soon",
+  },
+  {
+    id: "HINDI",
+    name: "General Hindi",
+    hindiName: "सामान्य हिंदी",
+    icon: "🇮🇳",
+    active: false,
+    countBadge: "Coming Soon",
+  },
+];
 
 interface ExamConfigItem {
   id: string;
@@ -57,10 +100,7 @@ export default function ExamsCatalogPage() {
   const [exams, setExams] = useState<ExamConfigItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [creatingTestId, setCreatingTestId] = useState<string | null>(null);
-
-  // Chapter Practice & Hub Modal
-  const [selectedHubExam, setSelectedHubExam] = useState<ExamConfigItem | null>(null);
-  const [isLaunchingHubSession, setIsLaunchingHubSession] = useState(false);
+  const [selectedSubject, setSelectedSubject] = useState<string>("MATHS");
 
   // Filters & Tabs
   const [activeTab, setActiveTab] = useState<"ALL" | "LIVE" | "UPCOMING" | "EXPIRED" | "DRAFT">("ALL");
@@ -230,57 +270,6 @@ export default function ExamsCatalogPage() {
     }
   };
 
-  // Start Exam / Mock from Chapter Hub
-  const handleLaunchHubSession = async (options: {
-    examId: string;
-    subtopicFilter?: string;
-    examFilter?: string;
-    shuffle?: boolean;
-    instantFeedback?: boolean;
-    broadcastToStudents?: boolean;
-  }) => {
-    if (options.broadcastToStudents) {
-      // Re-fetch exams so newly assigned test shows up in catalog immediately
-      fetchExams();
-      return;
-    }
-
-    try {
-      setIsLaunchingHubSession(true);
-      const res = await fetch("/api/tests", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          examConfigId: options.examId,
-          subtopicFilter: options.subtopicFilter,
-          examFilter: options.examFilter,
-          shuffle: options.shuffle,
-          mode: options.instantFeedback ? "PRACTICE" : "MOCK",
-        }),
-      });
-
-      if (res.status === 401) {
-        router.push(`/login?callbackUrl=${encodeURIComponent("/exams")}`);
-        return;
-      }
-
-      const data = await res.json();
-      if (data.testAttemptId) {
-        setSelectedHubExam(null);
-        router.push(
-          `/mock/${data.testAttemptId}/test?instantFeedback=${options.instantFeedback ? "true" : "false"}`
-        );
-      } else {
-        alert(data.error || "Could not launch practice session");
-      }
-    } catch (e: any) {
-      console.error("Failed to launch session:", e);
-      alert("Failed to initiate test session. Please check your connection.");
-    } finally {
-      setIsLaunchingHubSession(false);
-    }
-  };
-
   // Filtered and Sorted Exams
   const filteredExams = exams
     .filter((e) => {
@@ -322,7 +311,58 @@ export default function ExamsCatalogPage() {
   const draftCount = exams.filter((e) => e.status === "DRAFT").length;
 
   return (
-    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-5 font-sans">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 font-sans">
+      {/* 0. SUBJECT CURRICULUM SELECTION CARDS */}
+      <div className="space-y-2.5">
+        <div className="flex items-center justify-between">
+          <h2 className="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
+            <span>📚 Subject Curriculum Modules</span>
+          </h2>
+          <span className="text-[11px] text-slate-500 font-medium">Select a subject to view topic chapter tests</span>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2.5 sm:gap-3">
+          {SUBJECTS.map((sub) => {
+            const isSelected = selectedSubject === sub.id;
+            return (
+              <button
+                key={sub.id}
+                type="button"
+                onClick={() => setSelectedSubject(sub.id)}
+                className={`p-3.5 rounded-2xl border text-left transition-all ${
+                  isSelected
+                    ? "bg-slate-900 text-white border-slate-900 shadow-md ring-2 ring-indigo-500/50"
+                    : "bg-white hover:bg-slate-50 text-slate-800 border-slate-200/90 shadow-2xs"
+                }`}
+              >
+                <div className="text-xl sm:text-2xl mb-1">{sub.icon}</div>
+                <div className={`font-bold text-xs sm:text-sm tracking-tight ${isSelected ? "text-white" : "text-slate-900"}`}>
+                  {sub.name}
+                </div>
+                <div className={`text-[10px] mt-0.5 ${isSelected ? "text-slate-300" : "text-slate-500"}`}>
+                  {sub.hindiName}
+                </div>
+                <div className="mt-2.5">
+                  <span
+                    className={`text-[9px] font-bold px-2 py-0.5 rounded-full ${
+                      sub.active
+                        ? isSelected
+                          ? "bg-amber-400 text-slate-950"
+                          : "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                        : isSelected
+                        ? "bg-slate-800 text-slate-300 border border-slate-700"
+                        : "bg-slate-100 text-slate-500 border border-slate-200"
+                    }`}
+                  >
+                    {sub.countBadge}
+                  </span>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       {/* 1. TOP THREE ANALYSIS TABS (Matching Reference Screenshot 4) */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-3">
         <Link
@@ -501,6 +541,30 @@ export default function ExamsCatalogPage() {
             <div className="w-8 h-8 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin mx-auto mb-2" />
             Loading examination catalog...
           </div>
+        ) : selectedSubject !== "MATHS" ? (
+          <div className="p-12 text-center rounded-3xl bg-white border border-slate-200/90 shadow-2xs space-y-4 max-w-2xl mx-auto my-6">
+            <div className="w-16 h-16 rounded-2xl bg-indigo-50 border border-indigo-200 text-indigo-600 flex items-center justify-center text-3xl mx-auto shadow-2xs">
+              {SUBJECTS.find((s) => s.id === selectedSubject)?.icon}
+            </div>
+            <div className="space-y-1.5">
+              <h3 className="text-lg font-bold text-slate-900">
+                {SUBJECTS.find((s) => s.id === selectedSubject)?.name} Module
+              </h3>
+              <p className="text-xs text-slate-500 leading-relaxed max-w-md mx-auto">
+                Question banks and chapterwise tests for this subject are currently being prepared. You can switch to
+                <strong> Mathematics</strong> to practice all 30 Aditya Ranjan TCS chapters.
+              </p>
+            </div>
+            {isAdminOrTeacher && (
+              <div className="pt-2">
+                <Link href="/upload">
+                  <Button variant="primary" size="sm" className="bg-indigo-600 hover:bg-indigo-700 text-xs font-bold">
+                    Upload &amp; Process PDF for this Subject
+                  </Button>
+                </Link>
+              </div>
+            )}
+          </div>
         ) : filteredExams.length === 0 ? (
           <div className="p-12 text-center rounded-xl bg-slate-50 border border-dashed border-slate-200 text-xs text-slate-500 space-y-2">
             <AlertCircle className="w-8 h-8 text-slate-400 mx-auto" />
@@ -578,10 +642,10 @@ export default function ExamsCatalogPage() {
                       </div>
 
                       <h3
-                        onClick={() => setSelectedHubExam(exam)}
+                        onClick={() => router.push(`/exams/${exam.id}`)}
                         className="font-bold text-slate-900 text-base sm:text-lg tracking-tight cursor-pointer hover:text-indigo-600 transition-colors flex items-center gap-1.5"
                       >
-                        <span>{exam.title}</span>
+                        <span>{formatCleanChapterTitle(exam.title)}</span>
                         <ChevronRight className="w-4 h-4 text-slate-400" />
                       </h3>
 
@@ -679,7 +743,7 @@ export default function ExamsCatalogPage() {
                           </div>
                         ) : (
                           <button
-                            onClick={() => setSelectedHubExam(exam)}
+                            onClick={() => router.push(`/exams/${exam.id}`)}
                             className={`px-4 sm:px-5 py-2.5 rounded-xl text-white font-bold text-xs shadow-xs hover:shadow-md transition-all inline-flex items-center gap-2 active:scale-98 ${
                               isExamMode
                                 ? "bg-indigo-600 hover:bg-indigo-700"
@@ -692,7 +756,7 @@ export default function ExamsCatalogPage() {
                                 ? "Preview (Admin)"
                                 : isExamMode
                                 ? "Take CBT Exam"
-                                : "Start Practice / Test"}
+                                : "Open Chapter Studio"}
                             </span>
                           </button>
                         )}
@@ -932,18 +996,6 @@ export default function ExamsCatalogPage() {
           </div>
         </div>
       )}
-
-      {/* ============================================================= */}
-      {/* 5. CHAPTER PRACTICE & DIAGNOSTIC HUB MODAL                    */}
-      {/* ============================================================= */}
-      <ChapterHubModal
-        isOpen={Boolean(selectedHubExam)}
-        onClose={() => setSelectedHubExam(null)}
-        exam={selectedHubExam}
-        isAdmin={Boolean(isAdminOrTeacher)}
-        onStartSession={handleLaunchHubSession}
-        isLoading={isLaunchingHubSession}
-      />
     </div>
   );
 }

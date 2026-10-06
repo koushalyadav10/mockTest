@@ -54,17 +54,41 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  // Instant Feedback & Question-level live speed timer
+  // Instant Feedback & Question-level live speed timer (Freezes once marked)
   const [isInstantFeedbackActive, setIsInstantFeedbackActive] = useState(instantFeedback);
   const [questionTimeSeconds, setQuestionTimeSeconds] = useState(0);
 
   useEffect(() => {
-    setQuestionTimeSeconds(0);
+    if (!currentQ) return;
+
+    // If answer is already marked, lock the timer at solve time and DO NOT tick!
+    if (currentQ.selectedOptionStableId) {
+      setQuestionTimeSeconds(currentQ.timeSpentSeconds || 0);
+      return;
+    }
+
+    // Unanswered: start from recorded time and tick upward
+    setQuestionTimeSeconds(currentQ.timeSpentSeconds || 0);
     const interval = setInterval(() => {
-      setQuestionTimeSeconds((prev) => prev + 1);
+      setQuestionTimeSeconds((prev) => {
+        const nextSec = prev + 1;
+        setQuestions((prevQuestions) => {
+          if (!prevQuestions[currentIndex] || prevQuestions[currentIndex].selectedOptionStableId) {
+            return prevQuestions;
+          }
+          const copy = [...prevQuestions];
+          copy[currentIndex] = {
+            ...copy[currentIndex],
+            timeSpentSeconds: nextSec,
+          };
+          return copy;
+        });
+        return nextSec;
+      });
     }, 1000);
+
     return () => clearInterval(interval);
-  }, [currentIndex]);
+  }, [currentIndex, Boolean(currentQ?.selectedOptionStableId)]);
 
   // Refs for zero-latency proctoring checks during state transitions
   const isSubmitModalOpenRef = useRef(false);
@@ -308,12 +332,19 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
       currentQ.responseState === "MARKED_FOR_REVIEW" ||
       currentQ.responseState === "ANSWERED_AND_MARKED_FOR_REVIEW";
 
+    // Freeze timer at current seconds when marked
+    const finalSolveTime = currentQ.selectedOptionStableId
+      ? (currentQ.timeSpentSeconds || questionTimeSeconds)
+      : questionTimeSeconds;
+
     nextList[currentIndex] = {
       ...currentQ,
       selectedOptionStableId: stableId,
       responseState: isMarked ? "ANSWERED_AND_MARKED_FOR_REVIEW" : "ANSWERED",
+      timeSpentSeconds: finalSolveTime,
     };
     setQuestions(nextList);
+    setQuestionTimeSeconds(finalSolveTime);
     persistResponse(currentQ.questionId, stableId, "SELECT_OPTION");
   };
 

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
-import { requireAuth } from "@/lib/auth/session";
+import { requireAuth, getSessionUser } from "@/lib/auth/session";
 
 // GET single exam configuration with live calculated status
 export async function GET(
@@ -34,12 +34,37 @@ export async function GET(
       computedStatus = "LIVE";
     }
 
+    // Optional: Fetch current user's latest completed attempt for report card download
+    const session = getSessionUser(req);
+    let userAttempt = null;
+    if (session?.userId) {
+      userAttempt = await prisma.testAttempt.findFirst({
+        where: {
+          examConfigId: params.id,
+          userId: session.userId,
+          status: { in: ["SUBMITTED", "EVALUATED"] },
+        },
+        orderBy: { createdAt: "desc" },
+        select: {
+          id: true,
+          status: true,
+          finalScore: true,
+          totalQuestions: true,
+          correctCount: true,
+          incorrectCount: true,
+          accuracy: true,
+          completedAt: true,
+        },
+      });
+    }
+
     return NextResponse.json({
       success: true,
       exam: {
         ...exam,
         scheduledStatus: computedStatus,
       },
+      userAttempt,
     });
   } catch (error: any) {
     return NextResponse.json(

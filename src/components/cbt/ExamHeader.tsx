@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { Maximize2, Minimize2, CheckCircle2, RefreshCw, WifiOff, ShieldCheck } from "lucide-react";
 import { ExamTimer } from "./ExamTimer";
+import { formatCleanChapterTitle } from "@/lib/exam/tag-parser";
 
 interface ExamHeaderProps {
   examTitle: string;
@@ -62,7 +63,7 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
             <span className="font-bold tracking-tight text-white text-base sm:text-lg">
-              {examTitle}
+              {formatCleanChapterTitle(examTitle)}
             </span>
           </div>
           <span className="text-slate-500 hidden md:inline">|</span>
