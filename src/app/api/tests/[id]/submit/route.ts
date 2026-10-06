@@ -110,6 +110,16 @@ export async function POST(
       },
     });
 
+    // Update persistent user metrics (guarantees count persists even if test attempt is deleted)
+    if (testAttempt.userId) {
+      await prisma.user.update({
+        where: { id: testAttempt.userId },
+        data: {
+          totalTestsAttended: { increment: 1 },
+        },
+      }).catch(() => {});
+    }
+
     return NextResponse.json({
       success: true,
       testAttemptId: updatedAttempt.id,

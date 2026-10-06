@@ -1,3 +1,4 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap');
 @import "katex/dist/katex.min.css";
 
 @tailwind base;
@@ -6,6 +7,7 @@
 
 @layer base {
   body {
+    font-family: 'Satoshi', sans-serif;
     @apply bg-[#f6f8fa] text-slate-800 antialiased font-sans selection:bg-blue-100 selection:text-blue-900;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

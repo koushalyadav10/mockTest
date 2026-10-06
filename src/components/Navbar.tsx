@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { UserAvatar } from "@/components/ui/UserAvatar";
 import {
   Layers,
   Upload,
@@ -18,13 +19,17 @@ import {
   GraduationCap,
   LogOut,
   Sparkles,
+  ChevronDown,
+  User as UserIcon,
 } from "lucide-react";
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
   const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [profileMenuOpen, setProfileMenuOpen] = useState(false);
   const [user, setUser] = useState<any>(null);
+  const profileDropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     fetch("/api/auth/me")
@@ -34,6 +39,20 @@ export const Navbar: React.FC = () => {
       })
       .catch(() => {});
   }, [pathname]);
+
+  // Handle outside click to close profile dropdown
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        profileDropdownRef.current &&
+        !profileDropdownRef.current.contains(event.target as Node)
+      ) {
+        setProfileMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   const handleLogout = async () => {
     try {
@@ -173,29 +192,74 @@ export const Navbar: React.FC = () => {
               </Link>
             )}
 
-            {/* Profile Avatar / Initials */}
-            <div className="flex items-center gap-2 pl-2 border-l border-slate-200 text-xs">
-              <div className="w-8 h-8 rounded-full bg-slate-900 text-white font-bold flex items-center justify-center text-xs">
-                {user?.name ? user.name[0].toUpperCase() : "EF"}
-              </div>
-              <div className="hidden md:block leading-tight text-left">
-                <div className="font-bold text-slate-800 truncate max-w-[120px]">
-                  {user?.name || "Candidate"}
-                </div>
-                <div className="text-[10px] text-slate-400 font-mono">
-                  {user?.role || "STUDENT"}
-                </div>
-              </div>
+            {/* Profile Avatar & Greeting with Dropdown */}
+            {user ? (
+              <div className="relative pl-3 border-l border-slate-200" ref={profileDropdownRef}>
+                <button
+                  type="button"
+                  onClick={() => setProfileMenuOpen(!profileMenuOpen)}
+                  className="flex items-center gap-2 px-2 py-1 rounded-full hover:bg-slate-100 transition-all focus:outline-hidden group"
+                  aria-expanded={profileMenuOpen}
+                  aria-haspopup="true"
+                >
+                  {/* Greeting Text: "Hi, Koushal" */}
+                  <span className="font-bold text-slate-800 text-sm hidden sm:inline-block tracking-tight">
+                    Hi, <span className="text-slate-900">{user?.name ? user.name.split(" ")[0] : "Candidate"}</span>
+                  </span>
 
-              <button
-                type="button"
-                onClick={handleLogout}
-                title="Log Out"
-                className="p-1.5 rounded-md text-slate-400 hover:text-red-600 hover:bg-red-50 transition-colors ml-1"
-              >
-                <LogOut className="w-4 h-4" />
-              </button>
-            </div>
+                  {/* Illustrated Round Avatar (Male or Female based on user.gender) */}
+                  <UserAvatar
+                    gender={user?.gender || "MALE"}
+                    size="sm"
+                    className="ring-2 ring-purple-100 group-hover:ring-purple-300 transition-all shadow-xs"
+                  />
+
+                  {/* Dropdown Chevron Arrow */}
+                  <ChevronDown
+                    className={`w-3.5 h-3.5 text-slate-500 transition-transform duration-200 ${
+                      profileMenuOpen ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+
+                {/* Dropdown Card (2 options: My Profile, Logout) */}
+                {profileMenuOpen && (
+                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-slate-200/90 py-1.5 z-50 animate-in fade-in zoom-in-95 duration-150">
+                    <Link
+                      href="/profile"
+                      onClick={() => setProfileMenuOpen(false)}
+                      className="flex items-center gap-3 px-4 py-2.5 text-sm font-semibold text-slate-700 hover:text-slate-900 hover:bg-slate-50 transition-colors"
+                    >
+                      <UserIcon className="w-4 h-4 text-slate-500" />
+                      <span>My Profile</span>
+                    </Link>
+
+                    <div className="h-px bg-slate-100 my-1" />
+
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setProfileMenuOpen(false);
+                        handleLogout();
+                      }}
+                      className="w-full flex items-center gap-3 px-4 py-2.5 text-sm font-semibold text-slate-700 hover:text-red-600 hover:bg-red-50/60 transition-colors text-left"
+                    >
+                      <LogOut className="w-4 h-4 text-slate-500 group-hover:text-red-600" />
+                      <span>Logout</span>
+                    </button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="flex items-center gap-2">
+                <Link
+                  href="/login"
+                  className="px-3 py-1.5 rounded-lg text-xs font-bold text-slate-700 hover:bg-slate-100 transition-all"
+                >
+                  Login
+                </Link>
+              </div>
+            )}
 
             {/* Mobile hamburger menu toggle */}
             <button
@@ -248,6 +312,16 @@ export const Navbar: React.FC = () => {
             >
               <GraduationCap className="w-4 h-4" />
               <span>Faculty Workspace</span>
+            </Link>
+          )}
+          {user && (
+            <Link
+              href="/profile"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm font-semibold text-slate-800 hover:bg-slate-50"
+            >
+              <UserAvatar gender={user?.gender || "MALE"} size="xs" />
+              <span>My Profile ({user?.name || "Candidate"})</span>
             </Link>
           )}
           <button

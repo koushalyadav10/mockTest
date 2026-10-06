@@ -19,6 +19,20 @@ model User {
   studentRollNo     String?            @unique
   phone             String?
   isEmailVerified   Boolean            @default(false)
+  
+  // Profile Demographics & Settings
+  city              String?
+  gender            String             @default("MALE") // MALE | FEMALE
+  academicClass     String?            // e.g. "12+", "Graduation", "10th", "12th"
+  board             String?            // e.g. "CBSE", "UP Board", "ICSE"
+  targetExam        String?            // e.g. "SSC CGL", "SSC CHSL", "NEET"
+  language          String             @default("English") // English | Hindi
+  isProfileLocked   Boolean            @default(false)
+  avatarUrl         String?
+  totalTestsAttended Int               @default(0)
+  highestScore      Float              @default(0.0)
+  starsEarned       Int                @default(0)
+
   createdAt         DateTime           @default(now())
   updatedAt         DateTime           @updatedAt
   uploadedDocuments UploadedDocument[]

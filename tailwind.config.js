@@ -42,7 +42,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Plus Jakarta Sans", "Noto Sans Devanagari", "Inter", "system-ui", "-apple-system", "sans-serif"],
+        sans: ["Satoshi", "Plus Jakarta Sans", "Noto Sans Devanagari", "Inter", "system-ui", "-apple-system", "sans-serif"],
         hindi: ["Noto Sans Devanagari", "Mangal", "Arial Unicode MS", "sans-serif"],
         mono: ["JetBrains Mono", "SFMono-Regular", "Menlo", "monospace"],
       },
