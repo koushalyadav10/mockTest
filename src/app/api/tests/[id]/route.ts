@@ -26,7 +26,11 @@ export async function GET(
         responses: {
           include: {
             question: {
-              include: { options: true },
+              include: {
+                options: {
+                  orderBy: { label: "asc" },
+                },
+              },
             },
           },
           orderBy: { orderIndex: "asc" },
@@ -65,7 +69,7 @@ export async function GET(
     }
 
     const formattedQuestions = orderedResponses.map((resp, index) => {
-      // Parse shuffled options
+      // Parse shuffled options or keep sorted options
       let optionsList = resp.question.options.map((o) => ({
         stableId: o.stableId,
         displayLabel: o.label,
@@ -82,6 +86,9 @@ export async function GET(
           }));
         } catch (e) {}
       }
+
+      // Ensure options are always displayed in clean alphabetical order A, B, C, D
+      optionsList.sort((a, b) => a.displayLabel.localeCompare(b.displayLabel));
 
       // Authoritative 3-level answer resolution
       const effectiveCorrectLabel =

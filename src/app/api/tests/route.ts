@@ -57,7 +57,11 @@ export async function POST(req: NextRequest) {
 
     let availableQuestions = await prisma.question.findMany({
       where: whereClause,
-      include: { options: true },
+      include: {
+        options: {
+          orderBy: { label: "asc" },
+        },
+      },
       orderBy: { questionNumber: "asc" },
     });
 
@@ -65,7 +69,11 @@ export async function POST(req: NextRequest) {
       // Fallback to all approved questions
       availableQuestions = await prisma.question.findMany({
         where: { status: "APPROVED" },
-        include: { options: true },
+        include: {
+          options: {
+            orderBy: { label: "asc" },
+          },
+        },
         orderBy: { questionNumber: "asc" },
       });
     }
@@ -74,11 +82,15 @@ export async function POST(req: NextRequest) {
     const targetCount = questionCountLimit || (documentId ? availableQuestions.length : Math.min(availableQuestions.length, examConfig.totalQuestions));
     const selectedQuestions = availableQuestions.slice(0, targetCount);
 
-    // Apply safe question shuffle if configured
-    const orderedQuestions = safelyShuffleQuestions(
-      selectedQuestions,
-      examConfig.questionShuffle
-    );
+    // When test is derived from a document or specific exam config with questionShuffle = false,
+    // ALWAYS preserve exact sequential order (1, 2, 3, ... N) from the source paper/book.
+    const isDocumentOrSequentialExam = Boolean(documentId || examConfig.documentId || !examConfig.questionShuffle);
+    const shouldShuffleQuestions = !isDocumentOrSequentialExam && examConfig.questionShuffle;
+    const shouldShuffleOptions = !isDocumentOrSequentialExam && examConfig.optionShuffle;
+
+    const orderedQuestions = shouldShuffleQuestions
+      ? safelyShuffleQuestions(selectedQuestions, true)
+      : [...selectedQuestions].sort((a, b) => (a.questionNumber || 0) - (b.questionNumber || 0));
 
     // Create Test Attempt Record with deterministic question ordering
     const testAttempt = await prisma.testAttempt.create({
@@ -95,15 +107,23 @@ export async function POST(req: NextRequest) {
 
     // Create Test Response records in a single batch (blazing fast, <30ms)
     const responseData = orderedQuestions.map((q, i) => {
-      const shuffledOptions = safelyShuffleOptions(
-        q.options.map((opt) => ({
-          stableId: opt.stableId,
-          label: opt.label,
-          text: opt.text,
-          isCorrect: opt.isCorrect,
-        })),
-        examConfig.optionShuffle
-      );
+      const sortedSourceOptions = [...q.options].sort((a, b) => (a.label || "").localeCompare(b.label || ""));
+      const shuffledOptions = shouldShuffleOptions
+        ? safelyShuffleOptions(
+            sortedSourceOptions.map((opt) => ({
+              stableId: opt.stableId,
+              label: opt.label,
+              text: opt.text,
+              isCorrect: opt.isCorrect,
+            })),
+            true
+          )
+        : sortedSourceOptions.map((opt) => ({
+            stableId: opt.stableId,
+            displayLabel: opt.label,
+            text: opt.text,
+            isCorrect: opt.isCorrect,
+          }));
 
       const effectiveCorrectLabel = q.verifiedAnswer || q.sourceAnswer || q.aiSuggestedAnswer;
       let correctOpt = effectiveCorrectLabel

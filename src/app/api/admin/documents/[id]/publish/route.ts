@@ -75,6 +75,8 @@ export async function POST(
           status: "PUBLISHED",
           scheduledStatus: "LIVE",
           documentId: document.id,
+          questionShuffle: false,
+          optionShuffle: false,
           sections: {
             create: [
               {
