@@ -10,6 +10,7 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const {
       examId,
+      customTitle,
       subtopicFilter,
       examFilter,
       shuffle,
@@ -59,7 +60,13 @@ export async function POST(req: NextRequest) {
 
     const filterTag = filterParts.length > 0 ? filterParts.join(" • ") : "Full Chapter Practice";
 
-    const assignedTitle = `📢 [Assigned] ${topicName} — ${filterTag}`;
+    let assignedTitle = "";
+    if (customTitle && String(customTitle).trim()) {
+      const clean = String(customTitle).trim();
+      assignedTitle = clean.includes("[Assigned]") ? clean : `📢 [Assigned] ${clean}`;
+    } else {
+      assignedTitle = `📢 [Assigned] ${topicName} — ${filterTag}`;
+    }
     const uniqueCode = `ASSIGNED_${Date.now().toString().slice(-6)}_${Math.random().toString(36).substring(2, 6).toUpperCase()}`;
 
     // Calculate schedule dates if allotment days specified
@@ -78,8 +85,8 @@ export async function POST(req: NextRequest) {
         description: `Official practice test assigned by ${user?.name || "Admin"}. Topic: ${topicName} | Filters: ${filterTag}. Total Questions: ${questionCount}. ${
           isScheduled ? `Complete within ${allotmentDays} day(s).` : "Unlimited access."
         }`,
-        category: sourceExam.category || "SSC",
-        mode: instantFeedback ? "PRACTICE" : "MOCK",
+        category: "ASSIGNED",
+        mode: "EXAM",
         status: "PUBLISHED",
         availability: isScheduled ? "SCHEDULED" : "ALWAYS",
         startDate,
@@ -97,8 +104,9 @@ export async function POST(req: NextRequest) {
           subtopicFilter: subtopicFilter !== "ALL" ? subtopicFilter : undefined,
           examFilter: examFilter !== "ALL" ? examFilter : undefined,
           shuffle: Boolean(shuffle),
-          instantFeedback: false, // Students NEVER get instant answers during test
+          instantFeedback: false, // Students NEVER get instant answers during assigned CBT test
           holdResults: Boolean(holdResults),
+          isAssigned: true,
         }),
       },
     });

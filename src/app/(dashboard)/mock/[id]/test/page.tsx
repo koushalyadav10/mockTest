@@ -13,6 +13,7 @@ import { TestAccessGateModal, CandidateIdentity } from "@/components/cbt/TestAcc
 import { ResponseState } from "@/lib/exam/state-machine";
 import { Maximize, ShieldCheck, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { isAssignedExam } from "@/lib/exam/tag-parser";
 
 interface QuestionData {
   responseId: string;
@@ -225,6 +226,12 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
 
       setTestData(data);
       setQuestions(data.questions);
+
+      // Security: If exam is an assigned test or official exam mode, students NEVER see instant answers!
+      const isAssigned = isAssignedExam(data.examConfig) || data.examConfig?.mode === "EXAM";
+      if (isAssigned) {
+        setIsInstantFeedbackActive(false);
+      }
 
       // Build Section Tabs from Exam Config or Questions
       if (data.examConfig.sections && data.examConfig.sections.length > 0) {

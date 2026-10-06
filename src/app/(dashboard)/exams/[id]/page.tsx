@@ -24,9 +24,10 @@ import {
   Eye,
   Sliders,
   Check,
+  Edit3,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { formatCleanChapterTitle } from "@/lib/exam/tag-parser";
+import { formatCleanChapterTitle, isAssignedExam } from "@/lib/exam/tag-parser";
 
 const EXAM_FILTERS = ["ALL", "CHSL", "CGL", "CPO", "MTS", "Selection Post"];
 
@@ -43,6 +44,10 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
   const [selectedExam, setSelectedExam] = useState("ALL");
   const [shuffleQuestions, setShuffleQuestions] = useState(false);
   const [enableInstantFeedback, setEnableInstantFeedback] = useState(false);
+  const [customAssignedTitle, setCustomAssignedTitle] = useState("");
+
+  // Student Learning Mode (ONLY for regular chapter practice, NEVER for assigned tests)
+  const [studentLearningMode, setStudentLearningMode] = useState(false);
 
   // Negative Marking & Marks
   const [enableNegativeMarking, setEnableNegativeMarking] = useState(true);
@@ -99,7 +104,19 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
       .catch(() => {});
   }, [params.id]);
 
+  // Synchronize default custom title when exam or filter parameters change
+  useEffect(() => {
+    if (exam) {
+      const cleanName = formatCleanChapterTitle(exam.title);
+      const sub = selectedType !== "ALL" ? ` • ${selectedType}` : "";
+      const shf = selectedExam !== "ALL" ? ` • ${selectedExam}` : "";
+      const shuf = shuffleQuestions ? " • Shuffled Mix" : "";
+      setCustomAssignedTitle(`[Assigned] ${cleanName}${sub}${shf}${shuf}`);
+    }
+  }, [exam, selectedType, selectedExam, shuffleQuestions]);
+
   const isAdminOrTeacher = currentUser?.role === "ADMIN" || currentUser?.role === "TEACHER";
+  const isAssigned = isAssignedExam(exam);
 
   // Calculate deadline string if allotmentDays is set
   const getDeadlineString = (days: number) => {
@@ -117,6 +134,11 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
   const handleStartSelfTest = async () => {
     try {
       setIsLaunching(true);
+      // If student is attempting an assigned exam, learning mode is STRICTLY FORBIDDEN!
+      const effectiveInstantFeedback = isAdminOrTeacher
+        ? enableInstantFeedback
+        : (!isAssigned && studentLearningMode);
+
       const res = await fetch("/api/tests", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -125,7 +147,7 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
           subtopicFilter: selectedType !== "ALL" ? selectedType : undefined,
           examFilter: selectedExam !== "ALL" ? selectedExam : undefined,
           shuffle: shuffleQuestions,
-          mode: enableInstantFeedback && isAdminOrTeacher ? "PRACTICE" : "MOCK",
+          mode: effectiveInstantFeedback ? "PRACTICE" : "MOCK",
         }),
       });
 
@@ -137,7 +159,7 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
       const data = await res.json();
       if (data.testAttemptId) {
         router.push(
-          `/mock/${data.testAttemptId}/test?instantFeedback=${enableInstantFeedback && isAdminOrTeacher ? "true" : "false"}`
+          `/mock/${data.testAttemptId}/test?instantFeedback=${effectiveInstantFeedback ? "true" : "false"}`
         );
       } else {
         alert(data.error || "Could not launch test session");
@@ -162,10 +184,11 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           examId: exam.id,
+          customTitle: customAssignedTitle.trim(),
           subtopicFilter: selectedType !== "ALL" ? selectedType : undefined,
           examFilter: selectedExam !== "ALL" ? selectedExam : undefined,
           shuffle: shuffleQuestions,
-          instantFeedback: false, // Students NEVER get instant feedback during test
+          instantFeedback: false, // Students NEVER get instant feedback during assigned CBT test
           marksPerCorrect: Number(marksPerCorrect),
           negativeMarks: effectiveNegative,
           allotmentDays: allotmentDays,
@@ -176,7 +199,7 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
       const data = await res.json();
       if (data.success) {
         setBroadcastFeedback(
-          data.message || "Test has been successfully assigned and made available to all candidates!"
+          data.message || `Test "${customAssignedTitle}" has been successfully assigned and made available to all candidates!`
         );
       } else {
         alert(data.error || "Failed to assign test");
@@ -330,13 +353,41 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
             </div>
           </div>
 
-          <div className="p-3.5 rounded-xl bg-blue-50/70 border border-blue-200 text-blue-900 text-xs flex items-center gap-2.5">
-            <ShieldCheck className="w-5 h-5 text-blue-600 shrink-0" />
-            <span>
-              <strong>Authentic Exam Discipline:</strong> Detailed solutions and report cards will be released upon
-              completion in accordance with instructor evaluation guidelines.
-            </span>
-          </div>
+          {/* Student Learning Mode for Regular Chapter Practice */}
+          {!isAssigned ? (
+            <div className="p-3.5 rounded-2xl bg-amber-50/70 border border-amber-200/90 flex items-center justify-between">
+              <div className="space-y-0.5">
+                <div className="text-xs font-bold text-amber-950 flex items-center gap-1.5">
+                  <Sparkles className="w-4 h-4 text-amber-600" />
+                  <span>Practice with Instant Solutions (Learning Mode)</span>
+                </div>
+                <p className="text-[11px] text-amber-800">
+                  Reveals correct answer and step-by-step solution immediately after selecting an option.
+                </p>
+              </div>
+              <label className="flex items-center gap-2 cursor-pointer bg-white px-3 py-1.5 rounded-xl border border-amber-300 shadow-2xs">
+                <input
+                  type="checkbox"
+                  checked={studentLearningMode}
+                  onChange={(e) => setStudentLearningMode(e.target.checked)}
+                  className="w-4 h-4 rounded text-amber-600 border-amber-300 focus:ring-amber-500 cursor-pointer"
+                />
+                <span className="text-xs font-bold text-amber-900">
+                  {studentLearningMode ? "ON" : "OFF"}
+                </span>
+              </label>
+            </div>
+          ) : (
+            <div className="p-3.5 rounded-2xl bg-slate-900 text-white flex items-center gap-3">
+              <ShieldCheck className="w-5 h-5 text-emerald-400 shrink-0" />
+              <div>
+                <div className="text-xs font-bold">Official Proctored Examination</div>
+                <div className="text-[11px] text-slate-300">
+                  Solutions and answer keys are strictly locked during test. You cannot view answers while solving.
+                </div>
+              </div>
+            </div>
+          )}
 
           <Button
             onClick={handleStartSelfTest}
@@ -377,6 +428,29 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
               <span>{broadcastFeedback}</span>
             </div>
           )}
+
+          {/* Custom Assigned Test Title (Admin Editable) */}
+          <div className="p-4 rounded-2xl border border-indigo-200 bg-indigo-50/60 space-y-2">
+            <div className="flex items-center justify-between">
+              <label className="text-xs font-bold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
+                <Edit3 className="w-3.5 h-3.5 text-indigo-600" />
+                <span>Test Name / Title (Admin Custom Name)</span>
+              </label>
+              <span className="text-[10px] text-indigo-700 font-bold bg-white px-2.5 py-0.5 rounded-full border border-indigo-200">
+                Visible to Students
+              </span>
+            </div>
+            <input
+              type="text"
+              value={customAssignedTitle}
+              onChange={(e) => setCustomAssignedTitle(e.target.value)}
+              placeholder="e.g. SSC CHSL 2024 Tier-1 Special Mock Test - Arithmetic"
+              className="w-full px-3.5 py-2.5 text-xs font-bold text-slate-900 rounded-xl border border-indigo-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
+            />
+            <p className="text-[11px] text-slate-500">
+              Students will see this allotted test in their <strong>CBT Exams</strong> tab under this title.
+            </p>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Left Column: Marking Scheme & Time Allotment */}

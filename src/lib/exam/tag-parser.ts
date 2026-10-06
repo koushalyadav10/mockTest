@@ -69,7 +69,8 @@ export function extractExamTag(rawText: string, fallbackTag?: string | null): Pa
  */
 export function formatCleanChapterTitle(rawTitle: string): string {
   if (!rawTitle) return "";
-  const chMatch = rawTitle.match(/Chapter\s+(\d+)[:\s\-]+([^(—]+)/i);
+  if (rawTitle.includes("[Assigned]")) return rawTitle.replace(/^📢\s*/, "").trim();
+  const chMatch = rawTitle.match(/(?:Chapter|Ch)\s*(\d+)[:\s\-]+([^(—]+)/i);
   if (chMatch) {
     const chNum = chMatch[1];
     const chName = chMatch[2].trim();
@@ -77,4 +78,16 @@ export function formatCleanChapterTitle(rawTitle: string): string {
   }
   return rawTitle.replace(/^SSC Maths\s*\([^)]*\)\s*[—\-:]*\s*/i, "SSC ").split("(")[0].trim();
 }
+
+/**
+ * Determines whether an exam is an instructor-assigned test vs a permanent chapter test.
+ */
+export function isAssignedExam(exam: { title?: string; code?: string; category?: string; mode?: string } | null | undefined): boolean {
+  if (!exam) return false;
+  if (exam.category === "ASSIGNED" || exam.category === "CUSTOM") return true;
+  if (exam.code?.startsWith("ASSIGNED_")) return true;
+  if (exam.title?.includes("[Assigned]")) return true;
+  return false;
+}
+
 

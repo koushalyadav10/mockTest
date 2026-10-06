@@ -23,9 +23,10 @@ import {
   Save,
   Check,
   ChevronRight,
+  Trash2,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { formatCleanChapterTitle } from "@/lib/exam/tag-parser";
+import { formatCleanChapterTitle, isAssignedExam } from "@/lib/exam/tag-parser";
 
 const SUBJECTS = [
   {
@@ -103,7 +104,7 @@ export default function ExamsCatalogPage() {
   const [selectedSubject, setSelectedSubject] = useState<string>("MATHS");
 
   // Filters & Tabs
-  const [activeTab, setActiveTab] = useState<"ALL" | "LIVE" | "UPCOMING" | "EXPIRED" | "DRAFT">("ALL");
+  const [activeTab, setActiveTab] = useState<"ALL" | "LIVE" | "ASSIGNED" | "UPCOMING" | "EXPIRED" | "DRAFT">("LIVE");
   const [modeFilter, setModeFilter] = useState<"ALL" | "MOCK" | "EXAM">("ALL");
   const [searchQuery, setSearchQuery] = useState("");
   const [sortOrder, setSortOrder] = useState<"NEWEST" | "DURATION">("NEWEST");
@@ -170,6 +171,28 @@ export default function ExamsCatalogPage() {
       }
     } catch (e: any) {
       alert("Error toggling status: " + e.message);
+    }
+  };
+
+  // Permanent Delete Exam (Admin Only)
+  const handleDeleteExam = async (exam: ExamConfigItem) => {
+    if (
+      !window.confirm(
+        `Are you sure you want to permanently delete "${formatCleanChapterTitle(exam.title)}"? This will delete all candidate submissions and cannot be undone.`
+      )
+    ) {
+      return;
+    }
+    try {
+      const res = await fetch(`/api/exams/${exam.id}`, { method: "DELETE" });
+      const data = await res.json();
+      if (data.success) {
+        setExams((prev) => prev.filter((e) => e.id !== exam.id));
+      } else {
+        alert(data.error || "Failed to delete exam");
+      }
+    } catch (e: any) {
+      alert("Error deleting exam: " + e.message);
     }
   };
 
@@ -273,18 +296,40 @@ export default function ExamsCatalogPage() {
   // Filtered and Sorted Exams
   const filteredExams = exams
     .filter((e) => {
+      const isAssigned = isAssignedExam(e);
+
       // Role filter: Students only see published exams
       if (!isAdminOrTeacher && e.status === "DRAFT") return false;
 
-      // Status tab filter
-      if (activeTab === "LIVE" && e.scheduledStatus !== "LIVE") return false;
-      if (activeTab === "UPCOMING" && e.scheduledStatus !== "UPCOMING") return false;
-      if (activeTab === "EXPIRED" && e.scheduledStatus !== "EXPIRED") return false;
-      if (activeTab === "DRAFT" && e.status !== "DRAFT") return false;
+      // Status & Category Tab filter
+      if (activeTab === "LIVE") {
+        // Only published & live exams!
+        if (e.status !== "PUBLISHED") return false;
+        if (e.scheduledStatus !== "LIVE") return false;
+        // In Live Now, students see strictly the permanent chapters!
+        if (!isAdminOrTeacher && isAssigned) return false;
+      } else if (activeTab === "ASSIGNED") {
+        // Assigned CBT tests only!
+        if (!isAssigned) return false;
+        if (!isAdminOrTeacher && e.status !== "PUBLISHED") return false;
+      } else if (activeTab === "UPCOMING") {
+        if (e.scheduledStatus !== "UPCOMING") return false;
+        if (!isAdminOrTeacher && e.status !== "PUBLISHED") return false;
+      } else if (activeTab === "EXPIRED") {
+        if (e.scheduledStatus !== "EXPIRED") return false;
+        if (!isAdminOrTeacher && e.status !== "PUBLISHED") return false;
+      } else if (activeTab === "DRAFT") {
+        if (e.status !== "DRAFT") return false;
+      } else if (activeTab === "ALL") {
+        if (!isAdminOrTeacher && e.status !== "PUBLISHED") return false;
+      }
 
       // Mode filter
-      if (modeFilter === "MOCK" && e.mode === "EXAM") return false;
-      if (modeFilter === "EXAM" && e.mode !== "EXAM") return false;
+      if (modeFilter === "MOCK") {
+        if (e.mode === "EXAM" || isAssigned) return false;
+      } else if (modeFilter === "EXAM") {
+        if (e.mode !== "EXAM" && !isAssigned) return false;
+      }
 
       // Search query filter
       const q = searchQuery.toLowerCase().trim();
@@ -305,9 +350,16 @@ export default function ExamsCatalogPage() {
       return 0; // default order from API
     });
 
-  // Calculate live counts
-  const liveCount = exams.filter((e) => e.scheduledStatus === "LIVE" && e.status === "PUBLISHED").length;
-  const upcomingCount = exams.filter((e) => e.scheduledStatus === "UPCOMING").length;
+  // Calculate accurate live counts
+  const liveCount = exams.filter(
+    (e) => e.scheduledStatus === "LIVE" && e.status === "PUBLISHED" && (!isAdminOrTeacher ? !isAssignedExam(e) : true)
+  ).length;
+  const chaptersCount = exams.filter((e) => !isAssignedExam(e) && e.status === "PUBLISHED").length;
+  const assignedAllCount = exams.filter((e) => isAssignedExam(e)).length;
+  const assignedPublishedCount = exams.filter((e) => isAssignedExam(e) && e.status === "PUBLISHED").length;
+  const upcomingCount = exams.filter(
+    (e) => e.scheduledStatus === "UPCOMING" && (isAdminOrTeacher || e.status === "PUBLISHED")
+  ).length;
   const draftCount = exams.filter((e) => e.status === "DRAFT").length;
 
   return (
@@ -431,27 +483,43 @@ export default function ExamsCatalogPage() {
         {/* Status Tabs */}
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-3">
           <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 touch-pan-x w-full sm:w-auto">
-            <button
-              onClick={() => setActiveTab("ALL")}
-              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 ${
-                activeTab === "ALL"
-                  ? "bg-[#5a4bda] text-white shadow-xs"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-              }`}
-            >
-              All Tests ({exams.length})
-            </button>
+            {isAdminOrTeacher && (
+              <button
+                onClick={() => setActiveTab("ALL")}
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 ${
+                  activeTab === "ALL"
+                    ? "bg-[#5a4bda] text-white shadow-xs"
+                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
+              >
+                All Tests ({exams.length})
+              </button>
+            )}
 
             <button
               onClick={() => setActiveTab("LIVE")}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 flex items-center gap-1.5 ${
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 flex items-center gap-1.5 ${
                 activeTab === "LIVE"
                   ? "bg-emerald-600 text-white shadow-xs"
                   : "bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200/60"
               }`}
             >
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>Live Now ({liveCount})</span>
+              <span>Permanent Chapters ({chaptersCount})</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab("ASSIGNED")}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 flex items-center gap-1.5 ${
+                activeTab === "ASSIGNED"
+                  ? "bg-indigo-600 text-white shadow-xs"
+                  : "bg-indigo-50 text-indigo-800 hover:bg-indigo-100 border border-indigo-200/60"
+              }`}
+            >
+              <span>🎯</span>
+              <span>
+                Assigned CBT Tests ({isAdminOrTeacher ? assignedAllCount : assignedPublishedCount})
+              </span>
             </button>
 
             <button
@@ -574,12 +642,13 @@ export default function ExamsCatalogPage() {
         ) : (
           <div className="space-y-3">
             {filteredExams.map((exam) => {
-              const isExamMode = exam.mode === "EXAM";
+              const isAssigned = isAssignedExam(exam);
+              const isExamMode = exam.mode === "EXAM" || isAssigned;
               const isScheduled = exam.availability === "SCHEDULED";
-              const isLive = exam.scheduledStatus === "LIVE";
-              const isUpcoming = exam.scheduledStatus === "UPCOMING";
-              const isExpired = exam.scheduledStatus === "EXPIRED";
               const isDraft = exam.status === "DRAFT";
+              const isLive = exam.scheduledStatus === "LIVE" && !isDraft;
+              const isUpcoming = exam.scheduledStatus === "UPCOMING" && !isDraft;
+              const isExpired = exam.scheduledStatus === "EXPIRED";
 
               return (
                 <div
@@ -597,12 +666,14 @@ export default function ExamsCatalogPage() {
                         {/* Mode Badge */}
                         <span
                           className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider border ${
-                            isExamMode
+                            isAssigned
                               ? "bg-indigo-50 text-indigo-700 border-indigo-200"
-                              : "bg-purple-50 text-purple-700 border-purple-200"
+                              : isExamMode
+                              ? "bg-purple-50 text-purple-700 border-purple-200"
+                              : "bg-slate-100 text-slate-700 border-slate-200"
                           }`}
                         >
-                          {isExamMode ? "Official CBT Exam" : "Practice Mock"}
+                          {isAssigned ? "🎯 Assigned CBT Exam" : isExamMode ? "Official CBT Exam" : "Practice Mock"}
                         </span>
 
                         {/* Scheduled / Availability Status Badge */}
@@ -728,6 +799,16 @@ export default function ExamsCatalogPage() {
                               </span>
                             </Link>
                           )}
+
+                          {/* 1-Click Permanent Delete Test (Admin Only) */}
+                          <button
+                            onClick={() => handleDeleteExam(exam)}
+                            className="p-1.5 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 text-xs font-semibold transition-colors flex items-center gap-1"
+                            title="Permanently Delete Test"
+                          >
+                            <Trash2 className="w-3.5 h-3.5 text-rose-600" />
+                            <span className="hidden sm:inline">Delete</span>
+                          </button>
                         </div>
                       )}
 
@@ -754,9 +835,11 @@ export default function ExamsCatalogPage() {
                             <span>
                               {isUpcoming
                                 ? "Preview (Admin)"
-                                : isExamMode
-                                ? "Take CBT Exam"
-                                : "Open Chapter Studio"}
+                                : isAssigned
+                                ? "Take Assigned Test"
+                                : isAdminOrTeacher
+                                ? "Open Chapter Studio"
+                                : "Practice Chapter"}
                             </span>
                           </button>
                         )}
