@@ -19,6 +19,8 @@ export async function POST(req: NextRequest) {
       negativeMarks,
       allotmentDays,
       holdResults = true,
+      rangeFrom,
+      rangeTo,
     } = body;
 
     const sourceExam = await prisma.examConfig.findUnique({
@@ -43,17 +45,31 @@ export async function POST(req: NextRequest) {
       whereClause.questionText = { contains: examFilter };
     }
 
-    const questionCount = await prisma.question.count({ where: whereClause });
-    if (questionCount === 0) {
+    const totalAvailable = await prisma.question.count({ where: whereClause });
+    if (totalAvailable === 0) {
       return NextResponse.json(
         { error: "No questions match the selected filter criteria." },
         { status: 400 }
       );
     }
 
+    let effectiveRangeFrom: number | undefined;
+    let effectiveRangeTo: number | undefined;
+    let questionCount = totalAvailable;
+
     const rawTitle = sourceExam.title.replace(/^SSC Maths \(Aditya Ranjan\) — Chapter \d+:\s*/i, "");
     const topicName = rawTitle.split("(")[0].trim();
     const filterParts: string[] = [];
+
+    if (rangeFrom !== undefined && rangeTo !== undefined && rangeFrom !== null && rangeTo !== null) {
+      effectiveRangeFrom = Math.max(1, Number(rangeFrom));
+      effectiveRangeTo = Math.min(totalAvailable, Number(rangeTo));
+      if (effectiveRangeTo >= effectiveRangeFrom) {
+        questionCount = effectiveRangeTo - effectiveRangeFrom + 1;
+        filterParts.push(`Q.${effectiveRangeFrom}-Q.${effectiveRangeTo}`);
+      }
+    }
+
     if (subtopicFilter && subtopicFilter !== "ALL") filterParts.push(subtopicFilter);
     if (examFilter && examFilter !== "ALL") filterParts.push(examFilter);
     if (shuffle) filterParts.push("Shuffled Mix");
@@ -95,7 +111,7 @@ export async function POST(req: NextRequest) {
         documentId: sourceExam.documentId,
         totalQuestions: questionCount,
         totalMarks: questionCount * effectiveMarksPerCorrect,
-        totalDurationMinutes: Math.max(10, Math.ceil(questionCount * 1.2)),
+        totalDurationMinutes: Math.max(10, Math.ceil(questionCount * 1.0)),
         marksPerCorrect: effectiveMarksPerCorrect,
         negativeMarks: effectiveNegativeMarks,
         questionShuffle: Boolean(shuffle),
@@ -103,6 +119,8 @@ export async function POST(req: NextRequest) {
         instructions: JSON.stringify({
           subtopicFilter: subtopicFilter !== "ALL" ? subtopicFilter : undefined,
           examFilter: examFilter !== "ALL" ? examFilter : undefined,
+          rangeFrom: effectiveRangeFrom,
+          rangeTo: effectiveRangeTo,
           shuffle: Boolean(shuffle),
           instantFeedback: false, // Students NEVER get instant answers during assigned CBT test
           holdResults: Boolean(holdResults),

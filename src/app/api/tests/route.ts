@@ -16,6 +16,8 @@ export async function POST(req: NextRequest) {
       examFilter,
       shuffle = false,
       questionCountLimit,
+      rangeFrom,
+      rangeTo,
     } = body;
 
     // Get current authenticated user
@@ -55,11 +57,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Exam configuration not found" }, { status: 404 });
     }
 
-    // Read stored filters from exam instructions if not explicitly passed in body
+    // Read stored filters and range from exam instructions if not explicitly passed in body
     let effectiveSubtopicFilter = subtopicFilter;
     let effectiveExamFilter = examFilter;
     let effectiveShuffle = shuffle;
     let effectiveMode = mode;
+    let effectiveRangeFrom = rangeFrom !== undefined && rangeFrom !== null ? Number(rangeFrom) : undefined;
+    let effectiveRangeTo = rangeTo !== undefined && rangeTo !== null ? Number(rangeTo) : undefined;
 
     if (examConfig.instructions) {
       try {
@@ -69,6 +73,12 @@ export async function POST(req: NextRequest) {
         }
         if (parsed.examFilter && !effectiveExamFilter) {
           effectiveExamFilter = parsed.examFilter;
+        }
+        if (parsed.rangeFrom !== undefined && effectiveRangeFrom === undefined) {
+          effectiveRangeFrom = Number(parsed.rangeFrom);
+        }
+        if (parsed.rangeTo !== undefined && effectiveRangeTo === undefined) {
+          effectiveRangeTo = Number(parsed.rangeTo);
         }
         if (parsed.shuffle !== undefined && shuffle === false) {
           effectiveShuffle = parsed.shuffle;
@@ -120,8 +130,26 @@ export async function POST(req: NextRequest) {
       });
     }
 
+    // Apply Question Range Filter (e.g. Q.55 to Q.80)
+    if (
+      effectiveRangeFrom !== undefined &&
+      effectiveRangeTo !== undefined &&
+      effectiveRangeFrom >= 1 &&
+      effectiveRangeTo >= effectiveRangeFrom
+    ) {
+      const fromIdx = Math.max(0, effectiveRangeFrom - 1);
+      const toIdx = Math.min(availableQuestions.length, effectiveRangeTo);
+      availableQuestions = availableQuestions.slice(fromIdx, toIdx);
+    }
+
     // Determine target count: if filtered or document-linked, preserve all available filtered questions
-    const hasFilter = Boolean(effectiveSubtopicFilter || effectiveExamFilter || documentId || examConfig.documentId);
+    const hasFilter = Boolean(
+      effectiveSubtopicFilter ||
+      effectiveExamFilter ||
+      effectiveRangeFrom !== undefined ||
+      documentId ||
+      examConfig.documentId
+    );
     const targetCount = questionCountLimit || (hasFilter ? availableQuestions.length : Math.min(availableQuestions.length, examConfig.totalQuestions));
     const selectedQuestions = availableQuestions.slice(0, targetCount);
 

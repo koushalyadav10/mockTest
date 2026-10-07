@@ -46,6 +46,12 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
   const [enableInstantFeedback, setEnableInstantFeedback] = useState(false);
   const [customAssignedTitle, setCustomAssignedTitle] = useState("");
 
+  // Custom Question Number Range States (e.g. Q.1-30 or Q.55-80)
+  const [isCustomRangeActive, setIsCustomRangeActive] = useState(false);
+  const [rangeFrom, setRangeFrom] = useState<number>(1);
+  const [rangeTo, setRangeTo] = useState<number>(30);
+  const [rangeError, setRangeError] = useState<string | null>(null);
+
   // Student Learning Mode (ONLY for regular chapter practice, NEVER for assigned tests)
   const [studentLearningMode, setStudentLearningMode] = useState(false);
 
@@ -86,6 +92,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
           setMarksPerCorrect(data.exam.marksPerCorrect ?? 2.0);
           setNegativeMarks(data.exam.negativeMarks ?? 0.5);
           setEnableNegativeMarking((data.exam.negativeMarks ?? 0.5) > 0);
+          const totalQ = data.exam.totalQuestions || 253;
+          setRangeTo(Math.min(30, totalQ));
         }
         if (data.userAttempt) {
           setUserAttempt(data.userAttempt);
@@ -111,12 +119,52 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
       const sub = selectedType !== "ALL" ? ` • ${selectedType}` : "";
       const shf = selectedExam !== "ALL" ? ` • ${selectedExam}` : "";
       const shuf = shuffleQuestions ? " • Shuffled Mix" : "";
-      setCustomAssignedTitle(`[Assigned] ${cleanName}${sub}${shf}${shuf}`);
+      const rangeTag = isCustomRangeActive ? ` (Q.${rangeFrom} - Q.${rangeTo})` : "";
+      setCustomAssignedTitle(`[Assigned] ${cleanName}${rangeTag}${sub}${shf}${shuf}`);
     }
-  }, [exam, selectedType, selectedExam, shuffleQuestions]);
+  }, [exam, selectedType, selectedExam, shuffleQuestions, isCustomRangeActive, rangeFrom, rangeTo]);
 
   const isAdminOrTeacher = currentUser?.role === "ADMIN" || currentUser?.role === "TEACHER";
   const isAssigned = isAssignedExam(exam);
+
+  const totalChapterQuestions = exam?.totalQuestions || 0;
+  const effectiveQuestionCount = isCustomRangeActive
+    ? Math.max(1, Math.min(totalChapterQuestions, rangeTo) - Math.max(1, rangeFrom) + 1)
+    : totalChapterQuestions;
+
+  const handleRangeFromChange = (val: number) => {
+    const maxQ = totalChapterQuestions || 253;
+    setRangeError(null);
+    if (val < 1) {
+      setRangeFrom(1);
+      return;
+    }
+    if (val > maxQ) {
+      setRangeFrom(maxQ);
+      setRangeError(`⚠️ Maximum ${maxQ} questions available. Set to ${maxQ}.`);
+      return;
+    }
+    setRangeFrom(val);
+    if (val > rangeTo) {
+      setRangeTo(Math.min(maxQ, val + 24));
+    }
+  };
+
+  const handleRangeToChange = (val: number) => {
+    const maxQ = totalChapterQuestions || 253;
+    setRangeError(null);
+    if (val > maxQ) {
+      setRangeTo(maxQ);
+      setRangeError(`⚠️ Maximum ${maxQ} questions available in this chapter! Cannot exceed ${maxQ}.`);
+      return;
+    }
+    if (val < rangeFrom) {
+      setRangeTo(val);
+      setRangeError(`⚠️ End question cannot be less than start question (${rangeFrom}).`);
+      return;
+    }
+    setRangeTo(val);
+  };
 
   // Calculate deadline string if allotmentDays is set
   const getDeadlineString = (days: number) => {
@@ -147,6 +195,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
           subtopicFilter: selectedType !== "ALL" ? selectedType : undefined,
           examFilter: selectedExam !== "ALL" ? selectedExam : undefined,
           shuffle: shuffleQuestions,
+          rangeFrom: isCustomRangeActive ? rangeFrom : undefined,
+          rangeTo: isCustomRangeActive ? rangeTo : undefined,
           mode: effectiveInstantFeedback ? "PRACTICE" : "MOCK",
         }),
       });
@@ -193,6 +243,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
           negativeMarks: effectiveNegative,
           allotmentDays: allotmentDays,
           holdResults: holdResults,
+          rangeFrom: isCustomRangeActive ? rangeFrom : undefined,
+          rangeTo: isCustomRangeActive ? rangeTo : undefined,
         }),
       });
 
@@ -389,13 +441,158 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
             </div>
           )}
 
+          {/* Custom Question Number Range Selector for Students */}
+          <div className="p-4 sm:p-5 rounded-2xl border border-indigo-200/90 bg-indigo-50/40 space-y-3.5">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+              <div>
+                <h4 className="text-xs font-bold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
+                  <Target className="w-3.5 h-3.5 text-indigo-600" />
+                  <span>Question Range Selection / प्रश्न संख्या चुनें</span>
+                </h4>
+                <p className="text-[11px] text-slate-500">
+                  Select a specific range of questions to practice (e.g. Q.1 to Q.30, or Q.55 to Q.80)
+                </p>
+              </div>
+
+              {/* Mode Toggle */}
+              <div className="inline-flex p-1 bg-white rounded-xl border border-indigo-200 text-xs font-bold shadow-2xs">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsCustomRangeActive(false);
+                    setRangeError(null);
+                  }}
+                  className={`px-3 py-1.5 rounded-lg transition-all ${
+                    !isCustomRangeActive
+                      ? "bg-indigo-600 text-white shadow-xs"
+                      : "text-slate-600 hover:text-slate-900"
+                  }`}
+                >
+                  Whole Chapter ({totalChapterQuestions} Qs)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsCustomRangeActive(true);
+                    setRangeError(null);
+                  }}
+                  className={`px-3 py-1.5 rounded-lg transition-all ${
+                    isCustomRangeActive
+                      ? "bg-indigo-600 text-white shadow-xs"
+                      : "text-slate-600 hover:text-slate-900"
+                  }`}
+                >
+                  Custom Range
+                </button>
+              </div>
+            </div>
+
+            {isCustomRangeActive && (
+              <div className="pt-2 border-t border-indigo-100 space-y-3 animate-in fade-in duration-150">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                      Start Question # (से शुरू):
+                    </label>
+                    <div className="relative">
+                      <span className="absolute left-3 top-2.5 text-xs font-bold text-slate-400">Q.</span>
+                      <input
+                        type="number"
+                        min={1}
+                        max={totalChapterQuestions}
+                        value={rangeFrom}
+                        onChange={(e) => handleRangeFromChange(parseInt(e.target.value) || 1)}
+                        className="w-full pl-8 pr-3 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                      End Question # (तक):
+                    </label>
+                    <div className="relative">
+                      <span className="absolute left-3 top-2.5 text-xs font-bold text-slate-400">Q.</span>
+                      <input
+                        type="number"
+                        min={rangeFrom}
+                        max={totalChapterQuestions}
+                        value={rangeTo}
+                        onChange={(e) => handleRangeToChange(parseInt(e.target.value) || rangeFrom)}
+                        className="w-full pl-8 pr-3 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Validation Message if User Tries to Exceed Max Available */}
+                {rangeError && (
+                  <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold flex items-center gap-2">
+                    <AlertCircle className="w-4 h-4 text-amber-600 shrink-0" />
+                    <span>{rangeError}</span>
+                  </div>
+                )}
+
+                {/* Quick Presets */}
+                <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
+                  <span className="text-[11px] font-bold text-slate-500 mr-1">Quick Sets:</span>
+                  {[
+                    { label: "Q. 1 - 25", from: 1, to: Math.min(25, totalChapterQuestions) },
+                    { label: "Q. 26 - 50", from: 26, to: Math.min(50, totalChapterQuestions) },
+                    { label: "Q. 51 - 75", from: 51, to: Math.min(75, totalChapterQuestions) },
+                    { label: "Q. 76 - 100", from: 76, to: Math.min(100, totalChapterQuestions) },
+                    { label: "Q. 101 - 150", from: 101, to: Math.min(150, totalChapterQuestions) },
+                    { label: "Q. 151 - 200", from: 151, to: Math.min(200, totalChapterQuestions) },
+                    { label: "Q. 201 - 250", from: 201, to: Math.min(250, totalChapterQuestions) },
+                  ].filter((p) => p.from <= totalChapterQuestions).map((preset) => (
+                    <button
+                      key={preset.label}
+                      type="button"
+                      onClick={() => {
+                        setRangeFrom(preset.from);
+                        setRangeTo(preset.to);
+                        setRangeError(null);
+                      }}
+                      className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border transition-all ${
+                        rangeFrom === preset.from && rangeTo === preset.to
+                          ? "bg-indigo-600 text-white border-indigo-600 shadow-2xs"
+                          : "bg-white text-slate-700 border-slate-200 hover:bg-slate-100"
+                      }`}
+                    >
+                      {preset.label}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Range Summary Status Pill */}
+                <div className="p-2.5 rounded-xl bg-white border border-indigo-200 text-xs flex flex-wrap items-center justify-between gap-2 shadow-2xs">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                    <span className="font-bold text-slate-900">
+                      Selected: <span className="text-indigo-600 font-extrabold">{effectiveQuestionCount} Questions</span> (Q.{rangeFrom} to Q.{rangeTo})
+                    </span>
+                  </div>
+                  <div className="text-[11px] font-semibold text-slate-500">
+                    Max in Chapter: <strong className="text-slate-800">{totalChapterQuestions} Qs</strong> &bull; Est. Duration: <strong>{effectiveQuestionCount} Mins</strong>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+
           <Button
             onClick={handleStartSelfTest}
             disabled={isLaunching}
             className="w-full py-4 text-sm font-bold bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl shadow-md flex items-center justify-center gap-2 active:scale-98"
           >
             <Play className="w-4 h-4 fill-white" />
-            <span>{isLaunching ? "Launching CBT Session..." : `Start Full Chapter Test (${exam.totalQuestions} Qs)`}</span>
+            <span>
+              {isLaunching
+                ? "Launching CBT Session..."
+                : isCustomRangeActive
+                ? `Start Practice: Q.${rangeFrom} to Q.${rangeTo} (${effectiveQuestionCount} Questions) 🚀`
+                : `Start Full Chapter Test (${exam.totalQuestions} Qs)`}
+            </span>
           </Button>
         </div>
       )}
@@ -596,6 +793,118 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
 
             {/* Right Column: Question Filtering & Diagnostic Shuffling */}
             <div className="space-y-6">
+              {/* Custom Question Range Selector (Admin / Instructor) */}
+              <div className="p-4 rounded-2xl border border-indigo-200 bg-indigo-50/60 space-y-3">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
+                      <Sliders className="w-3.5 h-3.5 text-indigo-600" />
+                      <span>Custom Question Range (e.g. Q.55 - Q.80)</span>
+                    </h4>
+                    <p className="text-[11px] text-slate-500">
+                      Limit allotment or preview to a specific slice of questions
+                    </p>
+                  </div>
+                  <label className="flex items-center gap-2 cursor-pointer text-xs font-bold text-indigo-900">
+                    <input
+                      type="checkbox"
+                      checked={isCustomRangeActive}
+                      onChange={(e) => setIsCustomRangeActive(e.target.checked)}
+                      className="w-4 h-4 rounded text-indigo-600 border-indigo-300 focus:ring-indigo-500 cursor-pointer"
+                    />
+                    <span>{isCustomRangeActive ? "Range ON" : "Full Chapter"}</span>
+                  </label>
+                </div>
+
+                {isCustomRangeActive && (
+                  <div className="space-y-3 pt-2 border-t border-indigo-100">
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                          From Question #:
+                        </label>
+                        <div className="relative">
+                          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400">
+                            Q.
+                          </span>
+                          <input
+                            type="number"
+                            min="1"
+                            max={totalChapterQuestions}
+                            value={rangeFrom}
+                            onChange={(e) => handleRangeFromChange(parseInt(e.target.value) || 1)}
+                            className="w-full pl-8 pr-3 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
+                          />
+                        </div>
+                      </div>
+
+                      <div>
+                        <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                          To Question #:
+                        </label>
+                        <div className="relative">
+                          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400">
+                            Q.
+                          </span>
+                          <input
+                            type="number"
+                            min={rangeFrom}
+                            max={totalChapterQuestions}
+                            value={rangeTo}
+                            onChange={(e) => handleRangeToChange(parseInt(e.target.value) || rangeFrom)}
+                            className="w-full pl-8 pr-3 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Validation Alert */}
+                    {rangeError && (
+                      <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold flex items-center gap-2">
+                        <AlertCircle className="w-4 h-4 text-amber-600 shrink-0" />
+                        <span>{rangeError}</span>
+                      </div>
+                    )}
+
+                    {/* Presets */}
+                    <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
+                      <span className="text-[11px] font-bold text-slate-500 mr-1">Presets:</span>
+                      {[
+                        { label: "Q. 1-25", from: 1, to: Math.min(25, totalChapterQuestions) },
+                        { label: "Q. 26-50", from: 26, to: Math.min(50, totalChapterQuestions) },
+                        { label: "Q. 51-75", from: 51, to: Math.min(75, totalChapterQuestions) },
+                        { label: "Q. 76-100", from: 76, to: Math.min(100, totalChapterQuestions) },
+                        { label: "Q. 101-150", from: 101, to: Math.min(150, totalChapterQuestions) },
+                        { label: "Q. 151-200", from: 151, to: Math.min(200, totalChapterQuestions) },
+                        { label: "Q. 201-250", from: 201, to: Math.min(250, totalChapterQuestions) },
+                      ].filter((p) => p.from <= totalChapterQuestions).map((preset) => (
+                        <button
+                          key={preset.label}
+                          type="button"
+                          onClick={() => {
+                            setRangeFrom(preset.from);
+                            setRangeTo(preset.to);
+                            setRangeError(null);
+                          }}
+                          className={`px-2 py-0.5 rounded-lg text-[11px] font-bold border transition-all ${
+                            rangeFrom === preset.from && rangeTo === preset.to
+                              ? "bg-indigo-600 text-white border-indigo-600 shadow-2xs"
+                              : "bg-white text-slate-700 border-slate-200 hover:bg-slate-100"
+                          }`}
+                        >
+                          {preset.label}
+                        </button>
+                      ))}
+                    </div>
+
+                    <div className="text-[11px] font-semibold text-indigo-700 bg-white border border-indigo-200 px-3 py-1.5 rounded-lg flex items-center justify-between">
+                      <span>Selected: <strong>{effectiveQuestionCount} Questions</strong> (Q.{rangeFrom} to Q.{rangeTo})</span>
+                      <span>Max available: <strong>{totalChapterQuestions} Qs</strong></span>
+                    </div>
+                  </div>
+                )}
+              </div>
+
               {/* Type / Subtopic Filter */}
               <div className="p-4 rounded-2xl border border-slate-200 bg-slate-50/60 space-y-3">
                 <div>
@@ -695,7 +1004,13 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
               className="py-3 text-slate-800 border-slate-300 font-bold rounded-xl text-xs flex items-center justify-center gap-2 hover:bg-slate-50"
             >
               <Play className="w-3.5 h-3.5 fill-slate-800" />
-              <span>{isLaunching ? "Launching..." : "Test for Self (Admin Preview)"}</span>
+              <span>
+                {isLaunching
+                  ? "Launching..."
+                  : isCustomRangeActive
+                  ? `Test Range Q.${rangeFrom}-Q.${rangeTo}`
+                  : "Test for Self (Admin Preview)"}
+              </span>
             </Button>
 
             <Button
@@ -704,7 +1019,13 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
               className="py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold rounded-xl shadow-xs text-xs flex items-center justify-center gap-2"
             >
               <Users className="w-3.5 h-3.5 text-white" />
-              <span>{isAssigning ? "Allotting..." : "Allot & Assign to All Candidates"}</span>
+              <span>
+                {isAssigning
+                  ? "Allotting..."
+                  : isCustomRangeActive
+                  ? `Allot Range (Q.${rangeFrom} - Q.${rangeTo} • ${effectiveQuestionCount} Qs)`
+                  : "Allot & Assign to All Candidates"}
+              </span>
             </Button>
 
             <Link href={`/admin?tab=SUBMISSIONS&examId=${exam.id}`}>
