@@ -242,18 +242,18 @@ function UploadCenterContent() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 font-sans">
+    <div className="w-full max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-10 py-8 space-y-8 font-sans">
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-200">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-purple-50 text-[#5a4bda] text-xs font-semibold mb-2 border border-purple-200">
-            <Sparkles className="w-3.5 h-3.5" /> Dynamic Multi-Format OCR &amp; Document Parsing
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-50 text-[#5a4bda] text-xs font-bold mb-2 border border-purple-200">
+            <Sparkles className="w-3.5 h-3.5 text-purple-600" /> Dynamic Multi-Format OCR &amp; Document Parsing
           </div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
             Document Upload &amp; Question Review Workspace
           </h1>
-          <p className="text-sm text-slate-500 mt-1">
-            Upload any question paper PDF, scanned book, image, or text file. Questions, LaTeX math equations, and options are extracted directly from your document.
+          <p className="text-sm text-slate-500 mt-1 max-w-3xl leading-relaxed">
+            Upload question papers in PDF, images, scanned pages, or plain text. Our layout-aware AI automatically extracts questions, mathematical formulas, answer keys, and previous-year exam tags into a verified CBT format.
           </p>
         </div>
 
@@ -265,7 +265,7 @@ function UploadCenterContent() {
               setExtractedQuestions(null);
               setDocumentId(null);
             }}
-            className="border-slate-300 text-slate-700 hover:bg-slate-50 flex items-center gap-1.5"
+            className="border-slate-300 text-slate-700 hover:bg-slate-50 flex items-center gap-1.5 shadow-2xs font-bold"
           >
             <ArrowLeft className="w-4 h-4" />
             Upload Another Document
@@ -296,8 +296,43 @@ function UploadCenterContent() {
       ) : (
         /* Main Workspace */
         !extractedQuestions ? (
-          <div className="space-y-10">
-            <div className="max-w-2xl mx-auto space-y-6">
+          <div className="space-y-8">
+            {/* AI Capabilities Cards */}
+            {!processing && (
+              <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div className="p-3.5 bg-white border border-slate-200/90 rounded-xl shadow-2xs space-y-1">
+                  <div className="flex items-center gap-2 font-bold text-xs text-slate-900">
+                    <span className="text-amber-500 text-sm">🏛️</span>
+                    <span>Smart PYQ &amp; Year Detection</span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 leading-normal">
+                    Isolates exam citations (e.g. <i>SSC CHSL — 10 March 2023</i>) into an authentic top badge without cluttering question text.
+                  </p>
+                </div>
+
+                <div className="p-3.5 bg-white border border-slate-200/90 rounded-xl shadow-2xs space-y-1">
+                  <div className="flex items-center gap-2 font-bold text-xs text-slate-900">
+                    <span className="text-indigo-500 text-sm">🧠</span>
+                    <span>Context-Aware Safe Parsing</span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 leading-normal">
+                    Distinguishes historical dates (1857, 1919, 1947) in questions from exam tags so your questions stay 100% accurate.
+                  </p>
+                </div>
+
+                <div className="p-3.5 bg-white border border-slate-200/90 rounded-xl shadow-2xs space-y-1">
+                  <div className="flex items-center gap-2 font-bold text-xs text-slate-900">
+                    <span className="text-emerald-500 text-sm">⚡</span>
+                    <span>Multi-Format &amp; Answer Keys</span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 leading-normal">
+                    Extracts A-D/A-E options, aligns answer keys, parses Hindi/English bilingual papers, and processes equations.
+                  </p>
+                </div>
+              </div>
+            )}
+
+            <div className="max-w-4xl mx-auto space-y-6">
               {!processing ? (
                 <UploadDropzone
                   onFileSelect={(f, targetSub) => {

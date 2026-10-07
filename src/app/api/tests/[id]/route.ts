@@ -122,6 +122,7 @@ export async function GET(
         diagramUrl: resp.question.diagramUrl,
         year: resp.question.year,
         exam: resp.question.exam,
+        tags: resp.question.tags,
         directionText: resp.question.directionText || null,
         options: optionsList,
         selectedOptionStableId: resp.selectedOptionStableId,

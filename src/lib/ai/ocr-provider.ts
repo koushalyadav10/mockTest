@@ -12,6 +12,7 @@ import { estimateQuestionDifficulty, detectQuestionType } from "./difficulty-cla
 import { sscAverageChapterQuestions } from "./average-questions";
 import { sscPipeChapterQuestions } from "./pipe-questions";
 import { createWorker } from "tesseract.js";
+import { extractExamTag } from "../exam/tag-parser";
 
 export interface IOCRProvider {
   name: string;
@@ -412,6 +413,10 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
       questionText = questionText.replace(/(?:Explanation|व्याख्या|Solution|हल)[\:\s\-]+[\s\S]*$/i, "").trim();
     }
 
+    // Isolate exam citation, shift, and year metadata from the question stem
+    const { cleanQuestionText, examTag, year: parsedYear, examName: parsedExam } = extractExamTag(questionText);
+    questionText = cleanQuestionText;
+
     const pageIndex = Math.max(1, Math.ceil(qNum / 4));
     const normalizedY = ((qNum - 1) % 4) * 23 + 6;
 
@@ -503,9 +508,9 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
       difficultyConfidence: difficultyEst.confidence,
       questionType: qType,
       source: "SOURCE_QUESTION",
-      year: 2026,
-      exam: "SSC CHSL",
-      tags: `${classification.topic}, ${difficultyEst.difficulty}`,
+      year: parsedYear || 2026,
+      exam: parsedExam || (examTag ? examTag.split(/[-—–]/)[0].trim() : "SSC CHSL"),
+      tags: examTag ? `${classification.topic}, ${examTag}` : `${classification.topic}, ${difficultyEst.difficulty}`,
       questionText,
       hasVisualContent,
       visualType,
@@ -597,7 +602,9 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
             ];
 
       const cleanTitle = fileName.replace(/\.[^/.]+$/, "").replace(/[-_]/g, " ");
-      const qText = firstLine.replace(/^(?:Q\d+[\.\:\)]|\d+[\.\:\)])\s*/i, "").trim() || para;
+      let qText = firstLine.replace(/^(?:Q\d+[\.\:\)]|\d+[\.\:\)])\s*/i, "").trim() || para;
+      const { cleanQuestionText, examTag, year: parsedYear, examName: parsedExam } = extractExamTag(qText);
+      qText = cleanQuestionText;
       const classification = classifySubjectAndTopic(qText, options, targetSubject);
 
       return {
@@ -608,9 +615,9 @@ export class LocalHeuristicOCRProvider implements IOCRProvider {
         difficultyConfidence: 0.9,
         questionType: "MCQ",
         source: "SOURCE_QUESTION",
-        year: 2026,
-        exam: "CBT Assessment",
-        tags: cleanTitle,
+        year: parsedYear || 2026,
+        exam: parsedExam || (examTag ? examTag.split(/[-—–]/)[0].trim() : "CBT Assessment"),
+        tags: examTag ? `${cleanTitle}, ${examTag}` : cleanTitle,
         subject: classification.subject,
         topic: classification.topic || cleanTitle,
         questionText: qText,

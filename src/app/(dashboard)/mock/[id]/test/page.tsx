@@ -36,6 +36,9 @@ interface QuestionData {
   timeSpentSeconds: number;
   correctOptionStableId?: string | null;
   explanation?: string | null;
+  exam?: string | null;
+  year?: number | null;
+  tags?: string | null;
 }
 
 function CBTExaminationTestContent({ params }: { params: { id: string } }) {
@@ -538,6 +541,9 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
               onToggleInstantFeedback={setIsInstantFeedbackActive}
               correctOptionStableId={currentQ.correctOptionStableId}
               explanation={currentQ.explanation}
+              exam={currentQ.exam}
+              year={currentQ.year}
+              tags={currentQ.tags}
             />
           )}
         </main>

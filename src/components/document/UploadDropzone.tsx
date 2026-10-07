@@ -74,60 +74,70 @@ export const UploadDropzone: React.FC<UploadDropzoneProps> = ({
     setTargetSubject("GK_GS");
     setPastedTitle("SSC CHSL – 30 Most Important GS Questions");
     setPastedText(`1. Which Article of the Indian Constitution provides for the Right to Equality?
+SSC CHSL — 09 March 2023
 (A) Article 14
 (B) Article 19
 (C) Article 21
 (D) Article 32
 
 2. Who was the first Governor-General of independent India?
+SSC CGL 2022 Tier-1
 (A) Lord Mountbatten
 (B) C. Rajagopalachari
 (C) Warren Hastings
 (D) Lord Canning
 
 3. Which river is known as the "Sorrow of Bihar"?
+SSC MTS 2023
 (A) Ganga
 (B) Kosi
 (C) Yamuna
 (D) Son
 
 4. What is the SI unit of electric current?
+SSC CPO 2022
 (A) Volt
 (B) Ohm
 (C) Ampere
 (D) Watt
 
 5. Who wrote the book Discovery of India?
+[SSC CHSL 15 March 2023]
 (A) Mahatma Gandhi
 (B) Jawaharlal Nehru
 (C) Sardar Patel
 (D) B. R. Ambedkar
 
 6. Which is the largest planet in our Solar System?
+SSC GD 2022
 (A) Earth
 (B) Saturn
 (C) Jupiter
 (D) Neptune
 
 7. The Battle of Plassey was fought in which year?
+SSC CHSL 2021
 (A) 1757
 (B) 1764
 (C) 1857
 (D) 1773
 
 8. Which vitamin is mainly produced in the human body when exposed to sunlight?
+SSC MTS 2022 Shift-2
 (A) Vitamin A
 (B) Vitamin B12
 (C) Vitamin C
 (D) Vitamin D
 
 9. Who is known as the "Father of the Indian Constitution"?
+SSC CGL 2023
 (A) Mahatma Gandhi
 (B) B. R. Ambedkar
 (C) Jawaharlal Nehru
 (D) Rajendra Prasad
 
 10. Which state has the longest coastline in India?
+SSC CHSL — 10 March 2023
 (A) Maharashtra
 (B) Tamil Nadu
 (C) Gujarat
@@ -205,82 +215,110 @@ Answers:
   };
 
   return (
-    <div className="w-full bg-white rounded-xl border border-slate-200 shadow-sm p-4 sm:p-6 space-y-4">
+    <div className="w-full bg-white rounded-2xl border border-slate-200/90 shadow-sm p-4 sm:p-6 space-y-5">
       {/* Target Subject Curriculum Module Selector */}
-      <div className="bg-slate-50 border border-slate-200 rounded-xl p-3 sm:p-4 space-y-2">
-        <div className="flex items-center justify-between">
-          <label className="text-xs font-bold text-slate-800 uppercase tracking-wide flex items-center gap-1.5">
-            <span>📁 Target Subject Module / विषय चुनें</span>
-            <span className="text-[10px] text-indigo-700 bg-indigo-50 border border-indigo-200 px-2 py-0.5 rounded-full font-bold">
-              Required Destination
+      <div className="bg-slate-50/80 border border-slate-200/90 rounded-2xl p-4 sm:p-5 space-y-3">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pb-1 border-b border-slate-200/60">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="flex items-center justify-center w-5 h-5 rounded-full bg-indigo-600 text-white text-[11px] font-bold">1</span>
+            <span className="text-xs font-extrabold text-slate-900 uppercase tracking-wider">
+              Target Subject Module / विषय चुनें
             </span>
-          </label>
-          <span className="text-[11px] text-slate-500 hidden sm:inline">
+            <span className="text-[10px] text-indigo-700 bg-indigo-50 border border-indigo-200/80 px-2 py-0.5 rounded-full font-bold">
+              Required
+            </span>
+          </div>
+          <span className="text-xs text-slate-500">
             Questions will be organized under this subject catalog
           </span>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
           {[
-            { id: "GK_GS", name: "GK & GS", icon: "🌍", desc: "General Awareness" },
-            { id: "MATHS", name: "Mathematics", icon: "📐", desc: "Quant Aptitude" },
-            { id: "REASONING", name: "Reasoning", icon: "🧠", desc: "General Intelligence" },
-            { id: "ENGLISH", name: "English", icon: "📖", desc: "Language & Vocab" },
-            { id: "HINDI", name: "Hindi", icon: "🇮🇳", desc: "General Hindi" },
-          ].map((s) => (
-            <button
-              key={s.id}
-              type="button"
-              onClick={() => setTargetSubject(s.id)}
-              className={`p-2.5 rounded-lg border text-left transition-all flex flex-col justify-between ${
-                targetSubject === s.id
-                  ? "bg-slate-900 text-white border-slate-900 shadow-xs ring-2 ring-indigo-500/60"
-                  : "bg-white text-slate-700 hover:bg-slate-100 border-slate-200"
-              }`}
-            >
-              <div className="flex items-center gap-1.5 font-bold text-xs">
-                <span>{s.icon}</span>
-                <span>{s.name}</span>
-              </div>
-              <span className={`text-[10px] mt-1 ${targetSubject === s.id ? "text-slate-300" : "text-slate-400"}`}>
-                {s.desc}
-              </span>
-            </button>
-          ))}
+            { id: "GK_GS", name: "GK & GS", icon: "🌍", desc: "General Awareness", hindi: "सामान्य ज्ञान" },
+            { id: "MATHS", name: "Mathematics", icon: "📐", desc: "Quant Aptitude", hindi: "गणित" },
+            { id: "REASONING", name: "Reasoning", icon: "🧠", desc: "General Intelligence", hindi: "तर्कशक्ति" },
+            { id: "ENGLISH", name: "English", icon: "📖", desc: "Language & Vocab", hindi: "अंग्रेजी" },
+            { id: "HINDI", name: "Hindi", icon: "🇮🇳", desc: "General Hindi", hindi: "सामान्य हिंदी" },
+          ].map((s) => {
+            const isSelected = targetSubject === s.id;
+            return (
+              <button
+                key={s.id}
+                type="button"
+                onClick={() => setTargetSubject(s.id)}
+                className={`p-3 rounded-xl border text-left transition-all flex flex-col justify-between relative group ${
+                  isSelected
+                    ? "bg-slate-900 text-white border-slate-900 shadow-md ring-2 ring-indigo-500/80"
+                    : "bg-white text-slate-700 hover:bg-slate-50 hover:border-slate-300 border-slate-200 shadow-2xs"
+                }`}
+              >
+                <div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-lg">{s.icon}</span>
+                    {isSelected && (
+                      <span className="w-2 h-2 rounded-full bg-emerald-400 ring-2 ring-emerald-400/40" />
+                    )}
+                  </div>
+                  <div className="mt-2 font-black text-xs tracking-tight">
+                    {s.name}
+                  </div>
+                  <div className={`text-[10px] ${isSelected ? "text-indigo-200" : "text-slate-400"}`}>
+                    {s.hindi}
+                  </div>
+                </div>
+                <div className={`text-[10px] mt-2 pt-1 border-t ${
+                  isSelected ? "border-slate-800 text-slate-300" : "border-slate-100 text-slate-400"
+                }`}>
+                  {s.desc}
+                </div>
+              </button>
+            );
+          })}
         </div>
       </div>
 
       {/* Mode Switcher Tabs */}
-      <div className="flex items-center gap-2 p-1 bg-slate-100 rounded-lg border border-slate-200 text-xs font-semibold">
-        <button
-          type="button"
-          onClick={() => {
-            setActiveTab("FILE");
-            setErrorMsg(null);
-          }}
-          className={`flex-1 py-2 px-3 rounded-md transition-all flex items-center justify-center gap-2 ${
-            activeTab === "FILE"
-              ? "bg-white text-blue-700 shadow-xs font-bold"
-              : "text-slate-600 hover:text-slate-900"
-          }`}
-        >
-          <UploadCloud className="w-4 h-4" />
-          <span>Upload PDF / Image / Document</span>
-        </button>
-        <button
-          type="button"
-          onClick={() => {
-            setActiveTab("TEXT");
-            setErrorMsg(null);
-          }}
-          className={`flex-1 py-2 px-3 rounded-md transition-all flex items-center justify-center gap-2 ${
-            activeTab === "TEXT"
-              ? "bg-white text-blue-700 shadow-xs font-bold"
-              : "text-slate-600 hover:text-slate-900"
-          }`}
-        >
-          <FileText className="w-4 h-4" />
-          <span>Paste Question Paper Text Directly</span>
-        </button>
+      <div className="space-y-2">
+        <div className="flex items-center gap-2">
+          <span className="flex items-center justify-center w-5 h-5 rounded-full bg-blue-600 text-white text-[11px] font-bold">2</span>
+          <span className="text-xs font-extrabold text-slate-900 uppercase tracking-wider">
+            Choose Upload Method / अपलोड विधि
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 p-1.5 bg-slate-100/80 rounded-xl border border-slate-200 text-xs font-bold">
+          <button
+            type="button"
+            onClick={() => {
+              setActiveTab("FILE");
+              setErrorMsg(null);
+            }}
+            className={`py-2.5 px-4 rounded-lg transition-all flex items-center justify-center gap-2 ${
+              activeTab === "FILE"
+                ? "bg-white text-blue-700 shadow-xs border border-slate-200 font-extrabold"
+                : "text-slate-600 hover:text-slate-900"
+            }`}
+          >
+            <UploadCloud className="w-4 h-4" />
+            <span>Upload PDF / Image / Document</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              setActiveTab("TEXT");
+              setErrorMsg(null);
+            }}
+            className={`py-2.5 px-4 rounded-lg transition-all flex items-center justify-center gap-2 ${
+              activeTab === "TEXT"
+                ? "bg-white text-blue-700 shadow-xs border border-slate-200 font-extrabold"
+                : "text-slate-600 hover:text-slate-900"
+            }`}
+          >
+            <FileText className="w-4 h-4" />
+            <span>Paste Question Paper Text Directly</span>
+          </button>
+        </div>
       </div>
 
       {activeTab === "FILE" ? (
@@ -401,6 +439,17 @@ Answers:
                   Clear
                 </button>
               )}
+            </div>
+          </div>
+
+          {/* Smart AI Guidance Notice */}
+          <div className="p-3 bg-amber-50/80 border border-amber-200/90 rounded-xl flex items-start gap-2.5 text-xs text-amber-950">
+            <span className="text-base leading-none">💡</span>
+            <div className="space-y-0.5">
+              <span className="font-bold text-amber-900">AI PYQ &amp; Exam Year Detection:</span>
+              <p className="text-[11px] text-amber-800 leading-relaxed">
+                You can write previous year question citations like <code className="bg-amber-100/90 px-1 py-0.5 rounded text-amber-950 font-mono font-bold">SSC CHSL — 10 March 2023</code> or <code className="bg-amber-100/90 px-1 py-0.5 rounded text-amber-950 font-mono font-bold">[SSC CGL 2022]</code>. Our AI parser isolates the exam tag into its own dedicated badge box, keeping your question text clean and uncluttered. Historical/factual years in questions are safely preserved.
+              </p>
             </div>
           </div>
 

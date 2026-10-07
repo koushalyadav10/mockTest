@@ -29,6 +29,10 @@ interface QuestionCardProps {
   options: QuestionCardOption[];
   selectedOptionStableId: string | null;
   onSelectOption: (stableId: string) => void;
+  // Exam metadata & citation
+  exam?: string | null;
+  year?: number | null;
+  tags?: string | null;
   // Per-Question timer & stats
   questionTimeSeconds?: number;
   // Instant feedback / Learning mode
@@ -54,6 +58,9 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   options,
   selectedOptionStableId,
   onSelectOption,
+  exam,
+  year,
+  tags,
   questionTimeSeconds = 0,
   isInstantFeedbackActive = false,
   onToggleInstantFeedback,
@@ -61,7 +68,8 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   explanation,
 }) => {
   const [isZoomOpen, setIsZoomOpen] = useState(false);
-  const { cleanQuestionText, examTag } = extractExamTag(questionText);
+  const { cleanQuestionText, examTag: inlineTag, year: parsedYear, examName: parsedExam } = extractExamTag(questionText, tags || exam);
+  const displayExamTag = inlineTag || (exam && exam !== "CBT Assessment" ? exam : null) || (year ? `Exam ${year}` : null);
 
   // Extract [Type: ...] if embedded in text
   let typeHeader = "";
@@ -94,6 +102,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             </span>
           )}
 
+          {/* Dedicated Official Exam Citation & Year Box */}
+          {displayExamTag && (
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50/90 border border-amber-300/90 text-amber-950 font-bold text-[11px] shadow-2xs">
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+              <Calendar className="w-3.5 h-3.5 text-amber-700 shrink-0" />
+              <span>{displayExamTag}</span>
+            </span>
+          )}
+
           {/* Per-Question Live Timer & Speed Badge */}
           <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-blue-50 border border-blue-200/80 text-blue-800 text-[11px] font-mono font-bold">
             <Clock className="w-3.5 h-3.5 text-blue-600" />
@@ -104,14 +121,6 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
               </span>
             )}
           </div>
-
-          {/* Exam Tag Badge */}
-          {examTag && (
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-200/90 text-amber-900 font-bold text-[11px]">
-              <Calendar className="w-3.5 h-3.5 text-amber-600" />
-              <span>{examTag}</span>
-            </span>
-          )}
         </div>
 
         {/* Right: Marks Badges */}
