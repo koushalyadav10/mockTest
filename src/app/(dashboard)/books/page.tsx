@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
   BookOpen,
-  BookMarked,
   Search,
   Sparkles,
   Zap,
@@ -15,16 +14,17 @@ import {
   Filter,
   PlayCircle,
   FileText,
-  HelpCircle,
-  GraduationCap,
-  ChevronRight,
   Clock,
   Award,
-  Bookmark,
-  ExternalLink,
   Flame,
   X,
   Loader2,
+  CheckSquare,
+  Square,
+  Sliders,
+  Send,
+  ChevronRight,
+  ExternalLink,
 } from "lucide-react";
 
 export default function BooksCatalogPage() {
@@ -42,14 +42,26 @@ export default function BooksCatalogPage() {
   const [searching, setSearching] = useState(false);
   const [isSearchActive, setIsSearchActive] = useState(false);
 
-  // Quick Practice Modal State
-  const [generatingTest, setGeneratingTest] = useState(false);
+  // Test Generator & Assign Modal State
   const [practiceModalOpen, setPracticeModalOpen] = useState(false);
+  const [isAssignMode, setIsAssignMode] = useState(false);
   const [selectedBookForPractice, setSelectedBookForPractice] = useState<any | null>(null);
+  const [selectedChapterIds, setSelectedChapterIds] = useState<string[]>([]);
+  const [chapterFilterKeyword, setChapterFilterKeyword] = useState("");
   const [practiceCount, setPracticeCount] = useState<number>(20);
+  const [customCountInput, setCustomCountInput] = useState<string>("");
   const [practiceMode, setPracticeMode] = useState<"PRACTICE" | "MOCK">("PRACTICE");
   const [practiceDifficulty, setPracticeDifficulty] = useState<string>("ALL");
   const [practiceSource, setPracticeSource] = useState<string>("ALL");
+  const [testTitle, setTestTitle] = useState("");
+  const [customDuration, setCustomDuration] = useState<number>(30);
+  const [generatingTest, setGeneratingTest] = useState(false);
+  const [isAssigning, setIsAssigning] = useState(false);
+  const [assignSuccessInfo, setAssignSuccessInfo] = useState<{
+    examId: string;
+    title: string;
+    count: number;
+  } | null>(null);
 
   // Fetch Books
   const fetchBooks = async () => {
@@ -59,7 +71,6 @@ export default function BooksCatalogPage() {
       const data = await res.json();
       if (data?.books) {
         setBooks(data.books);
-        // Initialize default volume filters to ALL
         const initialVolFilters: { [id: string]: string } = {};
         data.books.forEach((b: any) => {
           initialVolFilters[b.id] = "ALL";
@@ -104,21 +115,69 @@ export default function BooksCatalogPage() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  // Launch Quick Test
-  const handleStartPractice = async (bookId: string, chapterId?: string) => {
+  // Open Hub Modal
+  const openTestHub = (book: any, defaultChapterId?: string, assignMode: boolean = false) => {
+    setSelectedBookForPractice(book);
+    setIsAssignMode(assignMode);
+    setAssignSuccessInfo(null);
+    setChapterFilterKeyword("");
+
+    if (defaultChapterId) {
+      setSelectedChapterIds([defaultChapterId]);
+    } else {
+      setSelectedChapterIds(book.chapters ? book.chapters.map((c: any) => c.id) : []);
+    }
+
+    const isGK =
+      book.subject?.toLowerCase().includes("general") ||
+      book.subject?.toLowerCase().includes("gk");
+    setTestTitle(
+      assignMode
+        ? `[Assigned] ${isGK ? "Static GK" : "English"} Mastery Assessment`
+        : ""
+    );
+    setPracticeCount(20);
+    setCustomCountInput("");
+    setCustomDuration(25);
+    setPracticeModalOpen(true);
+  };
+
+  // Toggle chapter selection in Hub
+  const toggleChapterSelection = (chapterId: string) => {
+    setSelectedChapterIds((prev) =>
+      prev.includes(chapterId)
+        ? prev.filter((id) => id !== chapterId)
+        : [...prev, chapterId]
+    );
+  };
+
+  const handleSelectAllChapters = () => {
+    if (!selectedBookForPractice?.chapters) return;
+    const allIds = selectedBookForPractice.chapters.map((c: any) => c.id);
+    setSelectedChapterIds(allIds);
+  };
+
+  const handleDeselectAllChapters = () => {
+    setSelectedChapterIds([]);
+  };
+
+  // Launch Instant Practice
+  const handleStartPractice = async () => {
+    if (selectedChapterIds.length === 0) {
+      alert("Please select at least 1 chapter or topic to practice.");
+      return;
+    }
     try {
       setGeneratingTest(true);
+      const count = customCountInput ? parseInt(customCountInput, 10) : practiceCount;
       const payload: any = {
-        bookId,
-        questionCount: practiceCount,
+        bookId: selectedBookForPractice.id,
+        chapterIds: selectedChapterIds,
+        questionCount: count || 20,
         mode: practiceMode,
         difficulty: practiceDifficulty,
         sourceFilter: practiceSource,
       };
-
-      if (chapterId) {
-        payload.chapterIds = [chapterId];
-      }
 
       const res = await fetch("/api/books/practice/generate", {
         method: "POST",
@@ -133,7 +192,9 @@ export default function BooksCatalogPage() {
 
       const data = await res.json();
       if (data?.testAttemptId) {
-        router.push(`/mock/${data.testAttemptId}/test?instantFeedback=${practiceMode === "PRACTICE"}`);
+        router.push(
+          `/mock/${data.testAttemptId}/test?instantFeedback=${practiceMode === "PRACTICE"}`
+        );
       } else {
         alert(data.error || "Failed to generate practice session");
       }
@@ -141,15 +202,71 @@ export default function BooksCatalogPage() {
       alert("Error: " + e.message);
     } finally {
       setGeneratingTest(false);
-      setPracticeModalOpen(false);
     }
   };
+
+  // Assign Test to Candidates
+  const handleAssignTest = async () => {
+    if (selectedChapterIds.length === 0) {
+      alert("Please select at least 1 chapter or topic to assign.");
+      return;
+    }
+    try {
+      setIsAssigning(true);
+      const isGK =
+        selectedBookForPractice.subject?.toLowerCase().includes("general") ||
+        selectedBookForPractice.subject?.toLowerCase().includes("gk");
+      const count = customCountInput ? parseInt(customCountInput, 10) : practiceCount;
+      const duration = customDuration || Math.max(15, Math.ceil((count || 20) * 1.2));
+
+      const payload = {
+        title: testTitle.trim() || `[Assigned] ${isGK ? "Static GK" : "English"} Assessment (${count} Qs)`,
+        subject: isGK ? "GK_GS" : "ENGLISH",
+        bookId: selectedBookForPractice.id,
+        chapterIds: selectedChapterIds,
+        questionCount: count || 20,
+        difficulty: practiceDifficulty,
+        durationMinutes: duration,
+        marksPerCorrect: 2.0,
+        negativeMarks: 0.5,
+        mode: "EXAM",
+      };
+
+      const res = await fetch("/api/books/assign-test", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        setAssignSuccessInfo({
+          examId: data.examId,
+          title: data.title,
+          count: data.totalQuestions,
+        });
+      } else {
+        alert(data.error || "Failed to assign test");
+      }
+    } catch (e: any) {
+      alert("Error assigning test: " + e.message);
+    } finally {
+      setIsAssigning(false);
+    }
+  };
+
+  // Identify English and GK books for top cards
+  const englishBook = books.find((b) => b.subject.toLowerCase().includes("english"));
+  const gkBook = books.find(
+    (b) => b.subject.toLowerCase().includes("general") || b.subject.toLowerCase().includes("gk")
+  );
 
   // Filter books by subject
   const filteredBooks = books.filter((b) => {
     if (selectedSubject === "ALL") return true;
     if (selectedSubject === "ENGLISH") return b.subject.toLowerCase().includes("english");
-    if (selectedSubject === "GK") return b.subject.toLowerCase().includes("general") || b.subject.toLowerCase().includes("gk");
+    if (selectedSubject === "GK")
+      return b.subject.toLowerCase().includes("general") || b.subject.toLowerCase().includes("gk");
     return true;
   });
 
@@ -158,6 +275,28 @@ export default function BooksCatalogPage() {
   const totalChaptersCount = books.reduce((acc, b) => acc + (b.chapterCount || 0), 0);
   const totalQuestionsCount = books.reduce((acc, b) => acc + (b.totalQuestions || 0), 0);
   const totalTheoryCount = books.reduce((acc, b) => acc + (b.totalTheory || 0), 0);
+
+  // Filtered chapters inside Modal
+  const modalFilteredChapters = useMemo(() => {
+    if (!selectedBookForPractice?.chapters) return [];
+    return selectedBookForPractice.chapters.filter((c: any) => {
+      const q = chapterFilterKeyword.toLowerCase().trim();
+      if (!q) return true;
+      return (
+        c.title.toLowerCase().includes(q) ||
+        String(c.chapterNumber).includes(q) ||
+        (c.summary && c.summary.toLowerCase().includes(q))
+      );
+    });
+  }, [selectedBookForPractice, chapterFilterKeyword]);
+
+  // Questions available in selected chapters
+  const availableQuestionsCount = useMemo(() => {
+    if (!selectedBookForPractice?.chapters) return 0;
+    return selectedBookForPractice.chapters
+      .filter((c: any) => selectedChapterIds.includes(c.id))
+      .reduce((acc: number, c: any) => acc + (c.totalQuestions || 0), 0);
+  }, [selectedBookForPractice, selectedChapterIds]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 font-sans">
@@ -176,7 +315,7 @@ export default function BooksCatalogPage() {
           </h1>
 
           <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-            Preserving 100% authentic theory, grammatical rules, exceptions, illustrative examples,
+            Preserving 100% authentic theory, grammatical rules, exceptions, contextual idiom stories,
             and complete MCQ banks with verified step-by-step solutions from Neetu Singh English (Vol 1 &amp; 2)
             and Brahmastra Static GK.
           </p>
@@ -185,7 +324,7 @@ export default function BooksCatalogPage() {
           <div className="pt-2 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
             <div className="bg-white/10 backdrop-blur-xs rounded-xl p-3 border border-white/10">
               <span className="text-slate-400 block text-[11px] font-medium">Reference Books</span>
-              <span className="text-xl font-black text-white">{totalBooksCount || 3} Volumes</span>
+              <span className="text-xl font-black text-white">{totalBooksCount || 2} Volumes</span>
             </div>
             <div className="bg-white/10 backdrop-blur-xs rounded-xl p-3 border border-white/10">
               <span className="text-slate-400 block text-[11px] font-medium">Mapped Chapters</span>
@@ -203,7 +342,102 @@ export default function BooksCatalogPage() {
         </div>
       </div>
 
-      {/* 2. SEARCH & SUBJECT NAVIGATION */}
+      {/* 2. PROMINENT SUBJECT CARDS (English Language & General Awareness) */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {/* ENGLISH CARD */}
+        {englishBook && (
+          <div className="bg-gradient-to-br from-indigo-900 via-indigo-950 to-slate-900 rounded-2xl p-6 text-white border border-indigo-700/50 shadow-md relative overflow-hidden flex flex-col justify-between">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="space-y-3 relative z-10">
+              <div className="flex items-center justify-between">
+                <span className="px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">
+                  English Language • 49 Chapters • 940+ Qs
+                </span>
+                <span className="text-xs text-indigo-300 font-bold">Vol 1 &amp; 2</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
+                Neetu Singh English Language Master
+              </h3>
+              <p className="text-xs sm:text-sm text-indigo-200/80 leading-relaxed">
+                Complete authentic grammar rules, idioms in stories with full contextual passages, vocabulary root tables, cloze tests, and TCS PYQ sets.
+              </p>
+              <div className="flex flex-wrap gap-2 text-[11px] text-indigo-300 font-semibold pt-1">
+                <span className="bg-white/10 px-2 py-0.5 rounded">✓ Grammatical Rules</span>
+                <span className="bg-white/10 px-2 py-0.5 rounded">✓ Idioms in Stories</span>
+                <span className="bg-white/10 px-2 py-0.5 rounded">✓ Vocabulary Tables</span>
+                <span className="bg-white/10 px-2 py-0.5 rounded">✓ Cloze Test &amp; RC</span>
+              </div>
+            </div>
+
+            <div className="pt-6 flex flex-wrap items-center gap-3 relative z-10 border-t border-indigo-800/60 mt-4">
+              <button
+                type="button"
+                onClick={() => openTestHub(englishBook, undefined, false)}
+                className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white font-bold text-xs shadow-md transition-all flex items-center justify-center gap-2"
+              >
+                <PlayCircle className="w-4 h-4" />
+                <span>Custom Practice</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => openTestHub(englishBook, undefined, true)}
+                className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl bg-white hover:bg-indigo-50 text-indigo-950 font-black text-xs shadow-md transition-all flex items-center justify-center gap-2"
+              >
+                <Award className="w-4 h-4 text-indigo-600" />
+                <span>Assign Test to Candidates</span>
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* GENERAL AWARENESS CARD */}
+        {gkBook && (
+          <div className="bg-gradient-to-br from-emerald-950 via-slate-900 to-slate-950 rounded-2xl p-6 text-white border border-emerald-700/50 shadow-md relative overflow-hidden flex flex-col justify-between">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="space-y-3 relative z-10">
+              <div className="flex items-center justify-between">
+                <span className="px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-emerald-500/30 text-emerald-200 border border-emerald-400/30">
+                  General Awareness • 24 Chapters • 871+ Qs
+                </span>
+                <span className="text-xs text-emerald-300 font-bold">Brahmastra Edition</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
+                BRAHMASTRA Static GK (Aditya Ranjan Sir)
+              </h3>
+              <p className="text-xs sm:text-sm text-emerald-200/80 leading-relaxed">
+                Topic-wise coverage of Art &amp; Culture, Rivers, National Parks, Constitutional Amendments, Census 2011, Science formulas, and Sports trophies.
+              </p>
+              <div className="flex flex-wrap gap-2 text-[11px] text-emerald-300 font-semibold pt-1">
+                <span className="bg-white/10 px-2 py-0.5 rounded">✓ Art &amp; Culture</span>
+                <span className="bg-white/10 px-2 py-0.5 rounded">✓ Geography &amp; Rivers</span>
+                <span className="bg-white/10 px-2 py-0.5 rounded">✓ Polity &amp; Articles</span>
+                <span className="bg-white/10 px-2 py-0.5 rounded">✓ TCS Exam Tags</span>
+              </div>
+            </div>
+
+            <div className="pt-6 flex flex-wrap items-center gap-3 relative z-10 border-t border-emerald-900/60 mt-4">
+              <button
+                type="button"
+                onClick={() => openTestHub(gkBook, undefined, false)}
+                className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md transition-all flex items-center justify-center gap-2"
+              >
+                <PlayCircle className="w-4 h-4" />
+                <span>Custom Practice</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => openTestHub(gkBook, undefined, true)}
+                className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl bg-white hover:bg-emerald-50 text-emerald-950 font-black text-xs shadow-md transition-all flex items-center justify-center gap-2"
+              >
+                <Award className="w-4 h-4 text-emerald-600" />
+                <span>Assign Test to Candidates</span>
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* 3. SEARCH & SUBJECT NAVIGATION */}
       <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4">
         {/* Subject Filter Tabs */}
         <div className="flex items-center gap-1.5 p-1 bg-slate-100 rounded-xl border border-slate-200 overflow-x-auto">
@@ -269,7 +503,7 @@ export default function BooksCatalogPage() {
         </div>
       </div>
 
-      {/* 3. INSTANT SEARCH RESULTS DRAWER / OVERLAY */}
+      {/* 4. INSTANT SEARCH RESULTS DRAWER / OVERLAY */}
       {isSearchActive && searchResults && (
         <div className="bg-white rounded-2xl border border-indigo-200 shadow-xl p-5 space-y-4 animate-in fade-in-50 duration-200">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
@@ -376,7 +610,7 @@ export default function BooksCatalogPage() {
         </div>
       )}
 
-      {/* 4. BOOKS AND CHAPTERS SHOWCASE */}
+      {/* 5. BOOKS AND CHAPTERS SHOWCASE */}
       {loading ? (
         <div className="py-20 text-center space-y-3">
           <Loader2 className="w-8 h-8 text-indigo-600 animate-spin mx-auto" />
@@ -394,7 +628,6 @@ export default function BooksCatalogPage() {
             const hasMultipleVolumes = book.volumes && book.volumes.length > 1;
             const currentVolFilter = selectedVolumeFilter[book.id] || "ALL";
 
-            // Filter chapters by volume
             const displayedChapters = (book.chapters || []).filter((ch: any) => {
               if (currentVolFilter === "ALL") return true;
               return ch.volumeId === currentVolFilter;
@@ -433,7 +666,7 @@ export default function BooksCatalogPage() {
                         </p>
                       )}
 
-                      {/* Volume Filter Chips (for English Vol 1 / Vol 2) */}
+                      {/* Volume Filter Chips */}
                       {hasMultipleVolumes && (
                         <div className="pt-2 flex flex-wrap items-center gap-2">
                           <span className="text-xs font-bold text-slate-700 mr-1 flex items-center gap-1">
@@ -474,26 +707,19 @@ export default function BooksCatalogPage() {
                     {/* Book Action Buttons */}
                     <div className="flex flex-wrap sm:flex-nowrap items-center gap-2.5 shrink-0">
                       <button
-                        onClick={() => {
-                          setSelectedBookForPractice(book);
-                          setPracticeModalOpen(true);
-                        }}
+                        onClick={() => openTestHub(book, undefined, false)}
                         className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2"
                       >
                         <PlayCircle className="w-4 h-4" />
-                        <span>Random Practice (20 Qs)</span>
+                        <span>Random Practice (Select Topics)</span>
                       </button>
 
                       <button
-                        onClick={() => {
-                          setSelectedBookForPractice(book);
-                          setPracticeSource("PYQ");
-                          setPracticeModalOpen(true);
-                        }}
+                        onClick={() => openTestHub(book, undefined, true)}
                         className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2"
                       >
-                        <Flame className="w-4 h-4 text-amber-400" />
-                        <span>PYQ Marathon</span>
+                        <Award className="w-4 h-4 text-amber-400" />
+                        <span>Assign Test</span>
                       </button>
                     </div>
                   </div>
@@ -561,7 +787,7 @@ export default function BooksCatalogPage() {
                             </Link>
 
                             <button
-                              onClick={() => handleStartPractice(book.id, chapter.id)}
+                              onClick={() => openTestHub(book, chapter.id, false)}
                               className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-700 text-[11px] font-bold transition-all flex items-center gap-1"
                             >
                               <Zap className="w-3 h-3 text-amber-500 group-hover:text-white" />
@@ -579,39 +805,165 @@ export default function BooksCatalogPage() {
         </div>
       )}
 
-      {/* 5. PRACTICE GENERATION CONFIG MODAL */}
+      {/* 6. ADVANCED TEST GENERATOR & ASSIGNMENT HUB MODAL */}
       {practiceModalOpen && selectedBookForPractice && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-xs p-4 animate-in fade-in duration-150">
-          <div className="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 space-y-5">
-            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-xs p-4 animate-in fade-in duration-150">
+          <div className="bg-white rounded-2xl max-w-2xl w-full p-6 sm:p-7 shadow-2xl border border-slate-200 max-h-[92vh] flex flex-col justify-between overflow-hidden">
+            {/* Header */}
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3.5">
               <div>
-                <span className="text-[10px] font-extrabold text-indigo-600 uppercase tracking-wider block">
-                  Practice Test Generator
-                </span>
-                <h3 className="text-base font-black text-slate-900 mt-0.5">
-                  {selectedBookForPractice.title}
+                <div className="flex items-center gap-2">
+                  <span className="text-[11px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200">
+                    {isAssignMode ? "Faculty Assignment Console" : "CBT Practice Generator"}
+                  </span>
+                  <span className="text-xs text-slate-400 font-semibold">
+                    {selectedBookForPractice.title}
+                  </span>
+                </div>
+                <h3 className="text-lg sm:text-xl font-black text-slate-900 mt-1">
+                  {isAssignMode ? "Configure & Assign Test to Students" : "Custom CBT Test Builder"}
                 </h3>
               </div>
               <button
                 onClick={() => setPracticeModalOpen(false)}
-                className="text-slate-400 hover:text-slate-600 p-1"
+                className="text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100 transition-colors"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
 
-            <div className="space-y-4 text-xs">
-              {/* Question Count */}
+            {/* Scrollable Body */}
+            <div className="overflow-y-auto pr-1 py-4 space-y-5 flex-1 scrollbar-thin">
+              {/* Success Notification if Assigned */}
+              {assignSuccessInfo && (
+                <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-300 text-emerald-950 space-y-2">
+                  <div className="flex items-center gap-2 font-black text-sm">
+                    <CheckCircle2 className="w-5 h-5 text-emerald-600" />
+                    <span>Test Assigned Successfully!</span>
+                  </div>
+                  <p className="text-xs text-emerald-800">
+                    <strong>{assignSuccessInfo.title}</strong> has been published with {assignSuccessInfo.count} questions. It is now visible to candidates under Assigned CBT Tests.
+                  </p>
+                  <div className="pt-1 flex items-center gap-2">
+                    <button
+                      onClick={() => router.push("/exams?tab=ASSIGNED")}
+                      className="px-3 py-1.5 rounded-lg bg-emerald-700 text-white text-xs font-bold hover:bg-emerald-800 transition-all flex items-center gap-1"
+                    >
+                      <span>View in Assigned Tests</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {/* Title Input (If assigning) */}
+              {isAssignMode && (
+                <div className="space-y-1.5">
+                  <label className="text-xs font-bold text-slate-700 block">
+                    Assigned Test Title
+                  </label>
+                  <input
+                    type="text"
+                    value={testTitle}
+                    onChange={(e) => setTestTitle(e.target.value)}
+                    placeholder="e.g. Weekly English Vocab & Grammar Drill"
+                    className="w-full px-3.5 py-2 border border-slate-300 rounded-xl text-xs sm:text-sm bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 font-medium"
+                  />
+                </div>
+              )}
+
+              {/* Chapter Multi-Select Section */}
+              <div className="space-y-2">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                  <div>
+                    <label className="text-xs font-bold text-slate-800 block">
+                      Select Topics / Chapters ({selectedChapterIds.length} of{" "}
+                      {selectedBookForPractice.chapters?.length || 0} Selected)
+                    </label>
+                    <span className="text-[11px] text-slate-500">
+                      Total pool: <strong>{availableQuestionsCount}</strong> questions available
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={handleSelectAllChapters}
+                      className="text-[11px] font-bold text-indigo-600 hover:underline"
+                    >
+                      Select All
+                    </button>
+                    <span className="text-slate-300">|</span>
+                    <button
+                      type="button"
+                      onClick={handleDeselectAllChapters}
+                      className="text-[11px] font-bold text-slate-500 hover:underline"
+                    >
+                      Deselect All
+                    </button>
+                  </div>
+                </div>
+
+                {/* Filter input inside modal */}
+                <div className="relative">
+                  <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    placeholder="Filter chapters by title..."
+                    value={chapterFilterKeyword}
+                    onChange={(e) => setChapterFilterKeyword(e.target.value)}
+                    className="w-full pl-8 pr-3 py-1.5 border border-slate-200 rounded-lg text-xs bg-slate-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-indigo-600"
+                  />
+                </div>
+
+                {/* Scrollable list of chapters */}
+                <div className="border border-slate-200 rounded-xl max-h-48 overflow-y-auto p-2 space-y-1 bg-slate-50/50">
+                  {modalFilteredChapters.map((ch: any) => {
+                    const isChecked = selectedChapterIds.includes(ch.id);
+                    return (
+                      <div
+                        key={ch.id}
+                        onClick={() => toggleChapterSelection(ch.id)}
+                        className={`flex items-center justify-between p-2 rounded-lg cursor-pointer text-xs transition-all ${
+                          isChecked
+                            ? "bg-indigo-50 border border-indigo-200 text-indigo-950 font-bold"
+                            : "bg-white border border-slate-200/80 text-slate-700 hover:bg-slate-100"
+                        }`}
+                      >
+                        <div className="flex items-center gap-2 overflow-hidden">
+                          {isChecked ? (
+                            <CheckSquare className="w-4 h-4 text-indigo-600 shrink-0" />
+                          ) : (
+                            <Square className="w-4 h-4 text-slate-400 shrink-0" />
+                          )}
+                          <span className="truncate">
+                            Ch {ch.chapterNumber}: {ch.title}
+                          </span>
+                        </div>
+                        <span className="text-[10px] px-1.5 py-0.5 rounded bg-slate-100 text-slate-500 font-mono shrink-0 ml-2">
+                          {ch.totalQuestions || 0} Qs
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Question Count Selection */}
               <div className="space-y-1.5">
-                <label className="font-bold text-slate-700 block">Number of Questions</label>
-                <div className="grid grid-cols-4 gap-2">
-                  {[10, 20, 30, 50].map((num) => (
+                <label className="text-xs font-bold text-slate-700 block">
+                  How many questions do you want in this test?
+                </label>
+                <div className="grid grid-cols-5 gap-2 text-xs font-bold">
+                  {[10, 20, 25, 30, 50].map((num) => (
                     <button
                       key={num}
                       type="button"
-                      onClick={() => setPracticeCount(num)}
-                      className={`py-2 rounded-lg font-bold transition-all ${
-                        practiceCount === num
+                      onClick={() => {
+                        setPracticeCount(num);
+                        setCustomCountInput("");
+                      }}
+                      className={`py-2 rounded-xl transition-all ${
+                        practiceCount === num && !customCountInput
                           ? "bg-indigo-600 text-white shadow-xs"
                           : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                       }`}
@@ -620,16 +972,58 @@ export default function BooksCatalogPage() {
                     </button>
                   ))}
                 </div>
+                <div className="pt-1">
+                  <input
+                    type="number"
+                    placeholder="Or enter custom question count (e.g. 15)"
+                    value={customCountInput}
+                    min={1}
+                    max={availableQuestionsCount || 100}
+                    onChange={(e) => setCustomCountInput(e.target.value)}
+                    className="w-full px-3 py-1.5 border border-slate-200 rounded-lg text-xs bg-white focus:outline-none focus:ring-1 focus:ring-indigo-600"
+                  />
+                </div>
               </div>
 
-              {/* Mode Selection */}
+              {/* Mode & Timing */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div className="space-y-1.5">
+                  <label className="font-bold text-slate-700 block">Difficulty Filter</label>
+                  <select
+                    value={practiceDifficulty}
+                    onChange={(e) => setPracticeDifficulty(e.target.value)}
+                    className="w-full px-3 py-2 border border-slate-300 rounded-lg text-xs bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600"
+                  >
+                    <option value="ALL">All Levels (Balanced Mix)</option>
+                    <option value="EASY">Easy (Direct Rules &amp; Basic Facts)</option>
+                    <option value="MEDIUM">Medium (Moderate Conceptual)</option>
+                    <option value="HARD">Hard (Advanced Tricky Exceptions)</option>
+                  </select>
+                </div>
+
+                <div className="space-y-1.5">
+                  <label className="font-bold text-slate-700 block">
+                    Duration (Minutes)
+                  </label>
+                  <input
+                    type="number"
+                    value={customDuration}
+                    onChange={(e) => setCustomDuration(Number(e.target.value))}
+                    min={5}
+                    max={180}
+                    className="w-full px-3 py-2 border border-slate-300 rounded-lg text-xs bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600"
+                  />
+                </div>
+              </div>
+
+              {/* Session Mode Selector */}
               <div className="space-y-1.5">
-                <label className="font-bold text-slate-700 block">Session Mode</label>
-                <div className="grid grid-cols-2 gap-2">
+                <label className="text-xs font-bold text-slate-700 block">Execution Mode</label>
+                <div className="grid grid-cols-2 gap-2 text-xs">
                   <button
                     type="button"
                     onClick={() => setPracticeMode("PRACTICE")}
-                    className={`p-3 rounded-xl border text-left transition-all ${
+                    className={`p-2.5 rounded-xl border text-left transition-all ${
                       practiceMode === "PRACTICE"
                         ? "border-indigo-600 bg-indigo-50/50 text-indigo-900 font-bold"
                         : "border-slate-200 text-slate-600 hover:bg-slate-50"
@@ -639,15 +1033,15 @@ export default function BooksCatalogPage() {
                       <Zap className="w-3.5 h-3.5 text-amber-500" />
                       <span>Study &amp; Learn</span>
                     </div>
-                    <p className="text-[11px] text-slate-500 mt-1 font-normal">
-                      Instant feedback with KaTeX step-by-step explanations on click
+                    <p className="text-[10px] text-slate-500 mt-0.5">
+                      Instant feedback with KaTeX step-by-step solutions
                     </p>
                   </button>
 
                   <button
                     type="button"
                     onClick={() => setPracticeMode("MOCK")}
-                    className={`p-3 rounded-xl border text-left transition-all ${
+                    className={`p-2.5 rounded-xl border text-left transition-all ${
                       practiceMode === "MOCK"
                         ? "border-indigo-600 bg-indigo-50/50 text-indigo-900 font-bold"
                         : "border-slate-200 text-slate-600 hover:bg-slate-50"
@@ -657,69 +1051,63 @@ export default function BooksCatalogPage() {
                       <Clock className="w-3.5 h-3.5 text-blue-600" />
                       <span>Timed CBT Mock</span>
                     </div>
-                    <p className="text-[11px] text-slate-500 mt-1 font-normal">
-                      Authentic SSC exam simulator with timer and final score card
+                    <p className="text-[10px] text-slate-500 mt-0.5">
+                      Real exam simulator with countdown timer
                     </p>
                   </button>
                 </div>
               </div>
-
-              {/* Difficulty Filter */}
-              <div className="space-y-1.5">
-                <label className="font-bold text-slate-700 block">Question Difficulty</label>
-                <select
-                  value={practiceDifficulty}
-                  onChange={(e) => setPracticeDifficulty(e.target.value)}
-                  className="w-full px-3 py-2 border border-slate-300 rounded-lg text-xs bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600"
-                >
-                  <option value="ALL">All Levels (Balanced Mix)</option>
-                  <option value="EASY">Easy (Direct Rules &amp; Basic Facts)</option>
-                  <option value="MEDIUM">Medium (Moderate Conceptual)</option>
-                  <option value="HARD">Hard (Advanced Tricky Exceptions)</option>
-                </select>
-              </div>
-
-              {/* Source Filter */}
-              <div className="space-y-1.5">
-                <label className="font-bold text-slate-700 block">Question Source</label>
-                <select
-                  value={practiceSource}
-                  onChange={(e) => setPracticeSource(e.target.value)}
-                  className="w-full px-3 py-2 border border-slate-300 rounded-lg text-xs bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600"
-                >
-                  <option value="ALL">All Questions in Book</option>
-                  <option value="PYQ">Previous Years SSC Exam Questions (PYQ)</option>
-                  <option value="STANDARD">Standard Textbook Exercise</option>
-                </select>
-              </div>
             </div>
 
-            <div className="pt-2 flex items-center justify-end gap-2 border-t border-slate-100">
+            {/* Footer Dual Actions */}
+            <div className="pt-3.5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
               <button
                 type="button"
                 onClick={() => setPracticeModalOpen(false)}
                 className="px-4 py-2 rounded-xl text-xs font-bold text-slate-600 hover:bg-slate-100 transition-all"
               >
-                Cancel
+                Close
               </button>
-              <button
-                type="button"
-                disabled={generatingTest}
-                onClick={() => handleStartPractice(selectedBookForPractice.id)}
-                className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-xs transition-all flex items-center gap-1.5 disabled:opacity-50"
-              >
-                {generatingTest ? (
-                  <>
-                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                    <span>Launching CBT Engine...</span>
-                  </>
-                ) : (
-                  <>
-                    <PlayCircle className="w-4 h-4" />
-                    <span>Start Practice Session</span>
-                  </>
-                )}
-              </button>
+
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  disabled={isAssigning || selectedChapterIds.length === 0}
+                  onClick={handleAssignTest}
+                  className="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-xs shadow-xs transition-all flex items-center gap-1.5 disabled:opacity-50"
+                >
+                  {isAssigning ? (
+                    <>
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      <span>Publishing Assignment...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Send className="w-3.5 h-3.5 text-amber-400" />
+                      <span>Assign Test to Candidates</span>
+                    </>
+                  )}
+                </button>
+
+                <button
+                  type="button"
+                  disabled={generatingTest || selectedChapterIds.length === 0}
+                  onClick={handleStartPractice}
+                  className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs shadow-xs transition-all flex items-center gap-1.5 disabled:opacity-50"
+                >
+                  {generatingTest ? (
+                    <>
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      <span>Starting CBT...</span>
+                    </>
+                  ) : (
+                    <>
+                      <PlayCircle className="w-4 h-4" />
+                      <span>Start CBT Practice Now</span>
+                    </>
+                  )}
+                </button>
+              </div>
             </div>
           </div>
         </div>

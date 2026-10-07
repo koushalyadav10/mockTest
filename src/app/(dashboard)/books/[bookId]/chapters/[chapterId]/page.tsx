@@ -28,6 +28,7 @@ import {
   FileCheck2,
   AlertTriangle,
   RotateCcw,
+  FileText,
 } from "lucide-react";
 import { MathRenderer } from "@/components/math/MathRenderer";
 
@@ -368,30 +369,30 @@ export default function ChapterStudyHubPage() {
                         >
                           {item.contentType}
                         </span>
-                        <h3 className="font-extrabold text-slate-900 text-sm sm:text-base">
+                        <h3 className="font-extrabold text-slate-900 text-base sm:text-lg">
                           {item.title}
                         </h3>
                       </div>
 
                       {item.sourcePage && (
-                        <span className="text-[11px] text-slate-400 font-bold">
+                        <span className="text-xs text-slate-400 font-bold">
                           Page {item.sourcePage}
                         </span>
                       )}
                     </div>
 
                     {/* Content Text with KaTeX */}
-                    <div className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal whitespace-pre-line">
+                    <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
                       <MathRenderer text={item.content} />
                     </div>
 
                     {/* Key Points Chip List */}
                     {item.keyPoints && (
                       <div className="pt-2 border-t border-slate-100">
-                        <span className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
+                        <span className="text-xs font-extrabold text-slate-600 uppercase tracking-wider block mb-1.5">
                           High-Yield Pointers
                         </span>
-                        <div className="text-xs text-slate-600 bg-slate-50 rounded-xl p-3 border border-slate-200/80 leading-relaxed">
+                        <div className="text-sm text-slate-700 bg-slate-50 rounded-xl p-3 border border-slate-200/80 leading-relaxed">
                           <MathRenderer text={item.keyPoints} />
                         </div>
                       </div>
@@ -494,37 +495,50 @@ export default function ChapterStudyHubPage() {
                   key={q.id}
                   className="bg-white rounded-2xl border border-slate-200/90 p-5 sm:p-6 shadow-2xs space-y-4"
                 >
-                  <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
                     <div className="flex items-center gap-2">
-                      <span className="font-extrabold text-xs text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded-md">
+                      <span className="font-extrabold text-xs sm:text-sm text-indigo-800 bg-indigo-100/80 px-2.5 py-1 rounded-lg">
                         Q.{q.questionNumber || idx + 1}
                       </span>
                       {q.difficulty && (
-                        <span className="text-[10px] font-bold uppercase px-1.5 py-0.5 bg-slate-100 text-slate-600 rounded">
+                        <span className="text-[10px] font-bold uppercase px-2 py-0.5 bg-slate-100 text-slate-600 rounded">
                           {q.difficulty}
                         </span>
                       )}
                       {q.sourcePage && (
-                        <span className="text-[10px] text-slate-400 font-semibold">
+                        <span className="text-xs text-slate-400 font-semibold">
                           p. {q.sourcePage}
                         </span>
                       )}
                     </div>
 
                     {q.year && (
-                      <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                      <span className="text-xs font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200">
                         SSC {q.year}
                       </span>
                     )}
                   </div>
 
+                  {/* Reading Passage / Story Context (if present) */}
+                  {q.directionText && (
+                    <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+                      <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
+                        <FileText className="w-4 h-4 text-amber-700 shrink-0" />
+                        <span>Reference Context / Reading Passage</span>
+                      </div>
+                      <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+                        <MathRenderer text={q.directionText} />
+                      </div>
+                    </div>
+                  )}
+
                   {/* Question Text */}
-                  <div className="text-xs sm:text-sm font-bold text-slate-900 leading-relaxed">
+                  <div className="text-base sm:text-lg font-bold text-slate-900 leading-relaxed tracking-tight py-1">
                     <MathRenderer text={q.questionText} />
                   </div>
 
                   {/* Options with Interactive Practice */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                     {q.options?.map((opt: any) => {
                       const selectedOptId = selectedAnswers[q.id];
                       const isSelected = selectedOptId === opt.id;
@@ -532,7 +546,7 @@ export default function ChapterStudyHubPage() {
                       const isCorrectOption = Boolean(opt.isCorrect);
 
                       let optStyle =
-                        "bg-slate-50/70 border-slate-200 text-slate-700 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
+                        "bg-slate-50/70 border-slate-200 text-slate-800 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
                       let badgeStyle = "bg-white text-slate-700 border-slate-300";
 
                       if (isAnswerRevealed) {
@@ -556,21 +570,21 @@ export default function ChapterStudyHubPage() {
                           type="button"
                           disabled={Boolean(selectedOptId)}
                           onClick={() => handleSelectOption(q.id, opt.id)}
-                          className={`p-3 rounded-xl border text-xs font-semibold transition-all flex items-start gap-2.5 text-left w-full ${optStyle}`}
+                          className={`p-3.5 sm:p-4 rounded-xl border text-sm sm:text-base font-semibold transition-all flex items-start gap-3 text-left w-full ${optStyle}`}
                         >
                           <span
-                            className={`w-5 h-5 rounded-md flex items-center justify-center font-bold text-[11px] shrink-0 ${badgeStyle}`}
+                            className={`w-7 h-7 rounded-lg flex items-center justify-center font-black text-xs sm:text-sm shrink-0 shadow-2xs ${badgeStyle}`}
                           >
                             {opt.label}
                           </span>
-                          <span className="leading-tight pt-0.5 flex-1">
+                          <span className="leading-normal pt-0.5 flex-1">
                             <MathRenderer text={opt.text} />
                           </span>
                           {isAnswerRevealed && isCorrectOption && (
-                            <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                            <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                           )}
                           {isAnswerRevealed && isSelected && !isCorrectOption && (
-                            <XCircle className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
+                            <XCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />
                           )}
                         </button>
                       );
@@ -635,12 +649,12 @@ export default function ChapterStudyHubPage() {
 
                   {/* Revealed Explanation Box */}
                   {isRevealed && (
-                    <div className="p-4 rounded-xl bg-indigo-50/40 border border-indigo-200/80 space-y-2 animate-in fade-in-50 duration-150">
-                      <div className="flex items-center gap-1.5 text-xs font-black text-indigo-900">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                    <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border border-indigo-200/90 space-y-2.5 animate-in fade-in-50 duration-150 shadow-2xs">
+                      <div className="flex items-center gap-2 text-sm font-black text-indigo-950">
+                        <CheckCircle2 className="w-5 h-5 text-emerald-600" />
                         <span>Step-by-Step Explanation &amp; Rule Application</span>
                       </div>
-                      <div className="text-xs text-slate-700 leading-relaxed font-normal whitespace-pre-line">
+                      <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-medium whitespace-pre-line">
                         <MathRenderer
                           text={
                             q.explanation ||
@@ -842,25 +856,46 @@ export default function ChapterStudyHubPage() {
                 return (
                   <div
                     key={q.id}
-                    className="bg-white rounded-2xl border border-slate-200/90 p-5 shadow-2xs space-y-3"
+                    className="bg-white rounded-2xl border border-slate-200/90 p-5 sm:p-6 shadow-2xs space-y-4"
                   >
-                    <div className="flex items-center justify-between">
-                      <span className="font-extrabold text-xs text-rose-700 bg-rose-50 px-2 py-0.5 rounded-md border border-rose-200/60">
-                        PYQ #{idx + 1}
-                      </span>
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
+                      <div className="flex items-center gap-2">
+                        <span className="font-extrabold text-xs sm:text-sm text-rose-800 bg-rose-50 px-2.5 py-1 rounded-lg border border-rose-200/60">
+                          PYQ #{idx + 1}
+                        </span>
+                        {q.difficulty && (
+                          <span className="text-[10px] font-bold uppercase px-2 py-0.5 bg-slate-100 text-slate-600 rounded">
+                            {q.difficulty}
+                          </span>
+                        )}
+                      </div>
                       {q.year && (
-                        <span className="text-[10px] font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded">
+                        <span className="text-xs font-bold text-slate-700 bg-slate-100 px-2.5 py-1 rounded-lg border border-slate-200">
                           SSC Exam {q.year}
                         </span>
                       )}
                     </div>
 
-                    <div className="text-xs sm:text-sm font-bold text-slate-900 leading-relaxed">
+                    {/* Reading Passage / Story Context (if present) */}
+                    {q.directionText && (
+                      <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+                        <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
+                          <FileText className="w-4 h-4 text-amber-700 shrink-0" />
+                          <span>Reference Context / Reading Passage</span>
+                        </div>
+                        <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+                          <MathRenderer text={q.directionText} />
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Question Text */}
+                    <div className="text-base sm:text-lg font-bold text-slate-900 leading-relaxed tracking-tight py-1">
                       <MathRenderer text={q.questionText} />
                     </div>
 
                     {/* Options with Interactive Practice */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                       {q.options?.map((opt: any) => {
                         const selectedOptId = selectedAnswers[q.id];
                         const isSelected = selectedOptId === opt.id;
@@ -868,7 +903,7 @@ export default function ChapterStudyHubPage() {
                         const isCorrectOption = Boolean(opt.isCorrect);
 
                         let optStyle =
-                          "bg-slate-50/70 border-slate-200 text-slate-700 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
+                          "bg-slate-50/70 border-slate-200 text-slate-800 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
                         let badgeStyle = "bg-white text-slate-700 border-slate-300";
 
                         if (isAnswerRevealed) {
@@ -892,18 +927,18 @@ export default function ChapterStudyHubPage() {
                             type="button"
                             disabled={Boolean(selectedOptId)}
                             onClick={() => handleSelectOption(q.id, opt.id)}
-                            className={`p-3 rounded-xl border text-xs font-semibold transition-all flex items-start gap-2.5 text-left w-full ${optStyle}`}
+                            className={`p-3.5 sm:p-4 rounded-xl border text-sm sm:text-base font-semibold transition-all flex items-start gap-3 text-left w-full ${optStyle}`}
                           >
                             <span
-                              className={`w-5 h-5 rounded-md flex items-center justify-center font-bold text-[11px] shrink-0 ${badgeStyle}`}
+                              className={`w-7 h-7 rounded-lg flex items-center justify-center font-black text-xs sm:text-sm shrink-0 shadow-2xs ${badgeStyle}`}
                             >
                               {opt.label}
                             </span>
-                            <span className="leading-tight pt-0.5 flex-1">
+                            <span className="leading-normal pt-0.5 flex-1">
                               <MathRenderer text={opt.text} />
                             </span>
                             {isAnswerRevealed && isCorrectOption && (
-                              <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                              <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                             )}
                             {isAnswerRevealed && isSelected && !isCorrectOption && (
                               <XCircle className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
@@ -969,13 +1004,16 @@ export default function ChapterStudyHubPage() {
                       )}
                     </div>
 
+                    {/* Revealed Explanation Box */}
                     {isRevealed && (
-                      <div className="p-3.5 rounded-xl bg-indigo-50/50 border border-indigo-200/80 text-xs text-slate-700 leading-relaxed space-y-1">
-                        <div className="font-bold text-indigo-950 flex items-center gap-1">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                      <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border border-indigo-200/90 space-y-2.5 animate-in fade-in-50 duration-150 shadow-2xs">
+                        <div className="flex items-center gap-2 text-sm font-black text-indigo-950">
+                          <CheckCircle2 className="w-5 h-5 text-emerald-600" />
                           <span>Authoritative SSC Solution:</span>
                         </div>
-                        <MathRenderer text={q.explanation || "Authoritative answer key solution."} />
+                        <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-medium whitespace-pre-line">
+                          <MathRenderer text={q.explanation || "Authoritative answer key solution."} />
+                        </div>
                       </div>
                     )}
                   </div>

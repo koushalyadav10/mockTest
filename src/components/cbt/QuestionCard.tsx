@@ -11,6 +11,7 @@ import {
   CheckCircle2,
   AlertCircle,
   Languages,
+  FileText,
 } from "lucide-react";
 import { MathRenderer } from "../math/MathRenderer";
 import { OptionCard } from "./OptionCard";
@@ -207,6 +208,19 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             visualType={visualType}
             imageUrl={imageUrl}
           />
+        )}
+
+        {/* Reading Comprehension Passage or Story Context */}
+        {directionText && (
+          <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+            <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
+              <FileText className="w-4 h-4 text-amber-700 shrink-0" />
+              <span>Reference Context / Reading Passage</span>
+            </div>
+            <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+              <MathRenderer text={directionText} />
+            </div>
+          </div>
         )}
 
         {/* Highlighted Crisp Large Question Text */}
