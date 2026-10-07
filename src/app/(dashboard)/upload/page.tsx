@@ -246,13 +246,13 @@ function UploadCenterContent() {
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-200">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-50 text-[#5a4bda] text-xs font-bold mb-2 border border-purple-200">
-            <Sparkles className="w-3.5 h-3.5 text-purple-600" /> Dynamic Multi-Format OCR &amp; Document Parsing
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-50 text-[#5a4bda] text-xs sm:text-sm font-bold mb-3 border border-purple-200 shadow-2xs">
+            <Sparkles className="w-4 h-4 text-purple-600" /> Dynamic Multi-Format OCR &amp; Document Parsing
           </div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             Document Upload &amp; Question Review Workspace
           </h1>
-          <p className="text-sm text-slate-500 mt-1 max-w-3xl leading-relaxed">
+          <p className="text-base sm:text-lg text-slate-700 mt-2.5 max-w-5xl leading-relaxed font-normal">
             Upload question papers in PDF, images, scanned pages, or plain text. Our layout-aware AI automatically extracts questions, mathematical formulas, answer keys, and previous-year exam tags into a verified CBT format.
           </p>
         </div>
@@ -297,42 +297,42 @@ function UploadCenterContent() {
         /* Main Workspace */
         !extractedQuestions ? (
           <div className="space-y-8">
-            {/* AI Capabilities Cards */}
+            {/* AI Capabilities Cards (Full-Width, High Contrast, Large Readable Text) */}
             {!processing && (
-              <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-3">
-                <div className="p-3.5 bg-white border border-slate-200/90 rounded-xl shadow-2xs space-y-1">
-                  <div className="flex items-center gap-2 font-bold text-xs text-slate-900">
-                    <span className="text-amber-500 text-sm">🏛️</span>
+              <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div className="p-5 sm:p-6 bg-white border border-slate-200/90 rounded-2xl shadow-xs hover:shadow-md transition-shadow space-y-2.5">
+                  <div className="flex items-center gap-2.5 font-extrabold text-base sm:text-lg text-slate-900">
+                    <span className="text-2xl">🏛️</span>
                     <span>Smart PYQ &amp; Year Detection</span>
                   </div>
-                  <p className="text-[11px] text-slate-500 leading-normal">
-                    Isolates exam citations (e.g. <i>SSC CHSL — 10 March 2023</i>) into an authentic top badge without cluttering question text.
+                  <p className="text-sm sm:text-[15px] text-slate-600 leading-relaxed">
+                    Isolates exam citations (e.g. <i className="text-slate-800 font-medium">SSC CHSL — 10 March 2023</i>) into an authentic top badge without cluttering question text.
                   </p>
                 </div>
 
-                <div className="p-3.5 bg-white border border-slate-200/90 rounded-xl shadow-2xs space-y-1">
-                  <div className="flex items-center gap-2 font-bold text-xs text-slate-900">
-                    <span className="text-indigo-500 text-sm">🧠</span>
+                <div className="p-5 sm:p-6 bg-white border border-slate-200/90 rounded-2xl shadow-xs hover:shadow-md transition-shadow space-y-2.5">
+                  <div className="flex items-center gap-2.5 font-extrabold text-base sm:text-lg text-slate-900">
+                    <span className="text-2xl">🧠</span>
                     <span>Context-Aware Safe Parsing</span>
                   </div>
-                  <p className="text-[11px] text-slate-500 leading-normal">
+                  <p className="text-sm sm:text-[15px] text-slate-600 leading-relaxed">
                     Distinguishes historical dates (1857, 1919, 1947) in questions from exam tags so your questions stay 100% accurate.
                   </p>
                 </div>
 
-                <div className="p-3.5 bg-white border border-slate-200/90 rounded-xl shadow-2xs space-y-1">
-                  <div className="flex items-center gap-2 font-bold text-xs text-slate-900">
-                    <span className="text-emerald-500 text-sm">⚡</span>
+                <div className="p-5 sm:p-6 bg-white border border-slate-200/90 rounded-2xl shadow-xs hover:shadow-md transition-shadow space-y-2.5">
+                  <div className="flex items-center gap-2.5 font-extrabold text-base sm:text-lg text-slate-900">
+                    <span className="text-2xl">⚡</span>
                     <span>Multi-Format &amp; Answer Keys</span>
                   </div>
-                  <p className="text-[11px] text-slate-500 leading-normal">
+                  <p className="text-sm sm:text-[15px] text-slate-600 leading-relaxed">
                     Extracts A-D/A-E options, aligns answer keys, parses Hindi/English bilingual papers, and processes equations.
                   </p>
                 </div>
               </div>
             )}
 
-            <div className="max-w-4xl mx-auto space-y-6">
+            <div className="w-full space-y-6">
               {!processing ? (
                 <UploadDropzone
                   onFileSelect={(f, targetSub) => {

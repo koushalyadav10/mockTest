@@ -58,23 +58,23 @@ export const OptionCard: React.FC<OptionCardProps> = ({
           onSelect();
         }
       }}
-      className={`group relative flex items-center gap-3 py-2.5 px-3.5 sm:py-2.5 sm:px-4 rounded-xl border transition-all select-none cursor-pointer w-full ${containerStyles}`}
+      className={`group relative flex items-center gap-3.5 py-3 px-4 sm:py-3.5 sm:px-5 rounded-xl border transition-all select-none cursor-pointer w-full ${containerStyles}`}
     >
       {/* Radio Circle & Label */}
       <div
-        className={`flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 rounded-lg flex items-center justify-center font-bold text-xs border transition-colors ${circleStyles}`}
+        className={`flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center font-bold text-xs sm:text-sm border transition-colors ${circleStyles}`}
       >
         {instantFeedbackActive && isCorrectOption ? (
-          <Check className="w-3.5 h-3.5 stroke-[3]" />
+          <Check className="w-4 h-4 stroke-[3]" />
         ) : instantFeedbackActive && isWrongOption ? (
-          <X className="w-3.5 h-3.5 stroke-[3]" />
+          <X className="w-4 h-4 stroke-[3]" />
         ) : (
           label
         )}
       </div>
 
       {/* Option Text with KaTeX and Hindi font support */}
-      <div className="flex-1 text-sm sm:text-[15px] font-medium leading-relaxed">
+      <div className="flex-1 text-[16px] sm:text-[17px] font-medium leading-relaxed">
         <MathRenderer text={text} />
       </div>
 

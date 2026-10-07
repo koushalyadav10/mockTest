@@ -1,11 +1,27 @@
 "use client";
 
 import React, { useState } from "react";
-import { ZoomIn, Image as ImageIcon, Award, Calendar, Clock, Sparkles, CheckCircle2, AlertCircle } from "lucide-react";
+import {
+  ZoomIn,
+  Image as ImageIcon,
+  Award,
+  Calendar,
+  Clock,
+  Sparkles,
+  CheckCircle2,
+  AlertCircle,
+  Languages,
+} from "lucide-react";
 import { MathRenderer } from "../math/MathRenderer";
 import { OptionCard } from "./OptionCard";
 import { Modal } from "../ui/Modal";
-import { extractExamTag } from "@/lib/exam/tag-parser";
+import { extractExamTag, cleanExamCitationTag } from "@/lib/exam/tag-parser";
+import {
+  translateTextToHindi,
+  translateOptionToHindi,
+  translateExplanationToHindi,
+} from "@/lib/exam/bilingual-translator";
+import { DataInterpretationVisual } from "./DataInterpretationVisual";
 
 export interface QuestionCardOption {
   stableId: string;
@@ -68,8 +84,11 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   explanation,
 }) => {
   const [isZoomOpen, setIsZoomOpen] = useState(false);
+  const [questionLang, setQuestionLang] = useState<"en" | "hi">("en");
+
   const { cleanQuestionText, examTag: inlineTag, year: parsedYear, examName: parsedExam } = extractExamTag(questionText, tags || exam);
-  const displayExamTag = inlineTag || (exam && exam !== "CBT Assessment" ? exam : null) || (year ? `Exam ${year}` : null);
+  const rawTag = inlineTag || (exam && exam !== "CBT Assessment" ? exam : null) || (year ? `Exam ${year}` : null);
+  const displayExamTag = cleanExamCitationTag(rawTag, topic);
 
   // Extract [Type: ...] if embedded in text
   let typeHeader = "";
@@ -79,6 +98,22 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     typeHeader = typeMatch[1].trim();
     displayQuestionText = cleanQuestionText.replace(/\[Type:\s*[^\]]+\]\s*/i, "").trim();
   }
+
+  // Determine whether to display Data Interpretation visual card
+  const isDataInterpretation =
+    topic?.toLowerCase().includes("data interpretation") ||
+    typeHeader.toLowerCase().includes("chart") ||
+    typeHeader.toLowerCase().includes("graph") ||
+    typeHeader.toLowerCase().includes("tabular") ||
+    displayQuestionText.toLowerCase().includes("from the given table") ||
+    displayQuestionText.toLowerCase().includes("from the given graph") ||
+    Boolean(hasVisualContent) ||
+    Boolean(imageUrl);
+
+  // Bilingual translation support
+  const activeQuestionText = questionLang === "hi" ? translateTextToHindi(displayQuestionText) : displayQuestionText;
+  const activeTypeHeader = questionLang === "hi" && typeHeader ? translateTextToHindi(typeHeader) : typeHeader;
+  const activeExplanation = questionLang === "hi" ? translateExplanationToHindi(explanation) : explanation;
 
   const formatTimer = (sec: number) => {
     const m = Math.floor(sec / 60);
@@ -90,7 +125,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300 p-3.5 sm:p-6">
       {/* Top Header Bar */}
       <div className="flex flex-wrap items-center justify-between gap-2.5 pb-3.5 border-b border-slate-200/80 text-xs">
-        {/* Left: Question No + Topic + Question Timer */}
+        {/* Left: Question No + Topic + Official Exam Citation + Question Timer */}
         <div className="flex items-center gap-2 sm:gap-2.5 flex-wrap">
           <span className="text-base sm:text-lg font-black text-slate-900 font-mono tracking-tight">
             Q.{questionNumber}
@@ -102,7 +137,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             </span>
           )}
 
-          {/* Dedicated Official Exam Citation & Year Box */}
+          {/* Dedicated Official Exam Citation & Year Box (Stripped of redundant topic prefix) */}
           {displayExamTag && (
             <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50/90 border border-amber-300/90 text-amber-950 font-bold text-[11px] shadow-2xs">
               <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
@@ -123,40 +158,69 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           </div>
         </div>
 
-        {/* Right: Marks Badges */}
-        <div className="flex items-center gap-1.5 font-mono text-[11px] font-bold">
-          <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">
-            +{marksPerCorrect.toFixed(1)}
-          </span>
-          <span className="text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
-            -{negativeMarks.toFixed(1)}
-          </span>
+        {/* Right: Bilingual Single-Question Switcher & Marks Badges */}
+        <div className="flex items-center gap-2.5">
+          {/* Official SSC Real-Time Question Language Toggle */}
+          <div className="flex items-center gap-1.5 bg-white border border-slate-300 rounded-xl px-2.5 py-1 shadow-2xs hover:border-indigo-400 transition-colors">
+            <Languages className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
+            <span className="text-[11px] font-bold text-slate-500 hidden sm:inline">View in:</span>
+            <select
+              value={questionLang}
+              onChange={(e) => setQuestionLang(e.target.value as "en" | "hi")}
+              className="bg-transparent text-xs font-black text-slate-900 border-none outline-none cursor-pointer pr-1"
+              title="Switch language between English and Hindi for this question"
+            >
+              <option value="en">English</option>
+              <option value="hi">हिन्दी (Hindi)</option>
+            </select>
+          </div>
+
+          <div className="flex items-center gap-1 font-mono text-[11px] font-bold">
+            <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">
+              +{marksPerCorrect.toFixed(1)}
+            </span>
+            <span className="text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
+              -{negativeMarks.toFixed(1)}
+            </span>
+          </div>
         </div>
       </div>
 
       {/* Question Content Body */}
       <div className="py-4 space-y-3.5 flex-1 w-full">
         {/* Authentic Aditya Ranjan Type Badge (if present) */}
-        {typeHeader && (
+        {activeTypeHeader && (
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
             <span className="text-amber-400">◆</span>
-            <span>{typeHeader}</span>
+            <span>{activeTypeHeader}</span>
             <span className="text-amber-400">◆</span>
           </div>
         )}
 
-        {/* Highlighted Crisp Question Text */}
-        <div className="text-[16px] sm:text-[18px] font-semibold text-slate-900 leading-relaxed tracking-tight py-1">
-          <MathRenderer text={displayQuestionText} />
+        {/* Data Interpretation Visual or Chart or Diagram */}
+        {isDataInterpretation && (
+          <DataInterpretationVisual
+            questionNumber={questionNumber}
+            subtopic={typeHeader || topic}
+            questionText={displayQuestionText}
+            hasVisualContent={hasVisualContent}
+            visualType={visualType}
+            imageUrl={imageUrl}
+          />
+        )}
+
+        {/* Highlighted Crisp Large Question Text */}
+        <div className="text-[18px] sm:text-[21px] font-semibold text-slate-900 leading-relaxed tracking-tight py-2">
+          <MathRenderer text={activeQuestionText} />
         </div>
 
-        {/* Visual Content if any */}
-        {hasVisualContent && visualType !== "TABLE" && imageUrl && (
-          <div className="my-2 p-3 bg-white border border-slate-200 rounded-xl inline-block max-w-md">
+        {/* Fallback Image for Non-DI questions if imageUrl exists */}
+        {!isDataInterpretation && hasVisualContent && imageUrl && (
+          <div className="my-3 p-4 bg-white border border-slate-200 rounded-2xl shadow-sm block w-full max-w-2xl">
             <img
               src={imageUrl}
               alt={`Question ${questionNumber} Diagram`}
-              className="max-h-64 object-contain rounded cursor-pointer"
+              className="max-h-[440px] sm:max-h-[480px] w-auto mx-auto object-contain rounded-xl cursor-pointer hover:opacity-95 transition-all"
               onClick={() => setIsZoomOpen(true)}
             />
           </div>
@@ -165,7 +229,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         {/* Compact, Soothing Option Boxes */}
         <div className="pt-2 space-y-2.5 w-full max-w-2xl lg:max-w-3xl">
           <div className="text-xs font-bold text-slate-400 uppercase tracking-wider pb-0.5">
-            Select Your Option:
+            {questionLang === "hi" ? "अपना विकल्प चुनें:" : "Select Your Option:"}
           </div>
 
           {options.map((opt, idx) => {
@@ -182,11 +246,13 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                 opt.stableId !== correctOptionStableId
             );
 
+            const optionDisplay = questionLang === "hi" ? translateOptionToHindi(opt.text) : opt.text;
+
             return (
               <OptionCard
                 key={opt.stableId}
                 label={opt.displayLabel}
-                text={opt.text}
+                text={optionDisplay}
                 isSelected={isSelected}
                 onSelect={() => onSelectOption(opt.stableId)}
                 keyboardShortcut={String(idx + 1)}
@@ -203,12 +269,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           <div className="mt-4 p-4 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2 w-full max-w-2xl lg:max-w-3xl transition-all animate-in fade-in duration-200">
             <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider">
               <Sparkles className="w-4 h-4 text-blue-600" />
-              <span>Step-by-Step Solution &amp; Approach</span>
+              <span>{questionLang === "hi" ? "चरणबद्ध समाधान एवं दृष्टिकोण" : "Step-by-Step Solution & Approach"}</span>
             </div>
             <div className="text-sm text-slate-800 leading-relaxed font-sans">
               <MathRenderer
                 text={
-                  explanation ||
+                  activeExplanation ||
                   `Answer option (${options.find((o) => o.stableId === correctOptionStableId)?.displayLabel || "Verified"}) is verified by TCS standard methodology.`
                 }
               />
@@ -228,3 +294,4 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     </div>
   );
 };
+

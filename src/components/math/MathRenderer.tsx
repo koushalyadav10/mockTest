@@ -91,13 +91,13 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
           key={`table-block-${elements.length}`}
           className="overflow-x-auto my-3 border border-slate-200 rounded-xl shadow-xs bg-white touch-pan-x"
         >
-          <table className="min-w-full divide-y divide-slate-200 text-xs sm:text-sm">
-            <thead className="bg-slate-100/90 text-slate-800">
+          <table className="min-w-full divide-y divide-slate-200 text-sm sm:text-base">
+            <thead className="bg-slate-100/90 text-slate-900 font-extrabold">
               <tr>
                 {tableHeader.map((headerCell, hIdx) => (
                   <th
                     key={hIdx}
-                    className="px-3.5 py-2.5 text-left font-bold uppercase tracking-wider text-xs border-r border-slate-200/60 last:border-r-0"
+                    className="px-4 py-3 text-left font-extrabold uppercase tracking-wider text-xs sm:text-sm border-r border-slate-200/80 last:border-r-0"
                   >
                     {renderInlineMath(headerCell)}
                   </th>
@@ -108,12 +108,12 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
               {tableRows.map((rowCells, rIdx) => (
                 <tr
                   key={rIdx}
-                  className={rIdx % 2 === 0 ? "bg-white hover:bg-slate-50/70" : "bg-slate-50/50 hover:bg-slate-100/60"}
+                  className={rIdx % 2 === 0 ? "bg-white hover:bg-slate-50/70" : "bg-slate-50/60 hover:bg-slate-100/70"}
                 >
                   {rowCells.map((cell, cIdx) => (
                     <td
                       key={cIdx}
-                      className="px-3.5 py-2 text-slate-700 font-medium border-r border-slate-100 last:border-r-0"
+                      className="px-4 py-2.5 text-slate-800 font-semibold border-r border-slate-100 last:border-r-0"
                     >
                       {renderInlineMath(cell)}
                     </td>

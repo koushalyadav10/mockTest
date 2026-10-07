@@ -83,9 +83,10 @@ export function extractExamTag(rawText: string, fallbackTag?: string | null): Pa
 
       // Remove the tag from the question text
       const cleanQuestionText = rawText.replace(match[0], "").trim();
+      const rawExtracted = rawTag || fallbackTag || null;
       return {
         cleanQuestionText,
-        examTag: rawTag || fallbackTag || null,
+        examTag: cleanExamCitationTag(rawExtracted),
         year: parsedYear,
         examName: parsedExamName,
       };
@@ -104,10 +105,40 @@ export function extractExamTag(rawText: string, fallbackTag?: string | null): Pa
 
   return {
     cleanQuestionText: rawText.trim(),
-    examTag: fallbackTag || null,
+    examTag: cleanExamCitationTag(fallbackTag),
     year: fallbackYear,
     examName: fallbackExamName,
   };
+}
+
+/**
+ * Cleans an exam citation tag by stripping repeated topic names and generic boilerplate tags.
+ * e.g. "Data Interpretation, SSC CHSL 2024 (Shift-04)" -> "SSC CHSL 2024 (Shift-04)"
+ * e.g. "Data Interpretation, Arithmetic, Aditya Ranjan SSC Maths, TCS 2024" -> "TCS 2024"
+ * e.g. "Profit and Loss, SSC CGL 2024 (Shift-01)" -> "SSC CGL 2024 (Shift-01)"
+ */
+export function cleanExamCitationTag(tag: string | null | undefined, topic?: string | null): string | null {
+  if (!tag) return null;
+  let cleaned = tag.trim();
+
+  // Strip leading topic name if present (e.g. "Data Interpretation, ...", "Profit & Loss, ...")
+  if (topic) {
+    const escapedTopic = topic.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    cleaned = cleaned.replace(new RegExp(`^${escapedTopic}\\s*[,\\-—:]\\s*`, "i"), "");
+  }
+
+  // Strip common known topic prefixes if repeated
+  cleaned = cleaned.replace(
+    /^(?:Data Interpretation|Profit and Loss|Profit & Loss|Percentage|Average|Ratio|Time and Work|Time & Work|Number System|Algebra|Geometry|Trigonometry|Mensuration|Statistics|Probability)\s*[,\\-—:]\s*/i,
+    ""
+  );
+
+  // If it contains boilerplate "Arithmetic, Aditya Ranjan SSC Maths, TCS 2024"
+  cleaned = cleaned.replace(/Arithmetic,\s*Aditya Ranjan SSC Maths,\s*/i, "");
+
+  cleaned = cleaned.replace(/^[\*\(\[\s—\-–,:]+|[\*\)\]\s—\-–,:]+$/g, "").trim();
+
+  return cleaned || null;
 }
 
 /**
