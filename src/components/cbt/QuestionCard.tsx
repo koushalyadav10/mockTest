@@ -153,8 +153,8 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           </div>
         )}
 
-        {/* Compact, Soothing Option Boxes Utilizing Available Width */}
-        <div className="pt-1.5 space-y-2 w-full">
+        {/* Compact, Soothing Option Boxes */}
+        <div className="pt-2 space-y-2.5 w-full max-w-2xl lg:max-w-3xl">
           <div className="text-xs font-bold text-slate-400 uppercase tracking-wider pb-0.5">
             Select Your Option:
           </div>
@@ -191,7 +191,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
         {/* Step-by-Step Explanation Box (revealed when instant feedback is ON and option is marked) */}
         {isInstantFeedbackActive && selectedOptionStableId && (
-          <div className="mt-4 p-4 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2 w-full transition-all animate-in fade-in duration-200">
+          <div className="mt-4 p-4 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2 w-full max-w-2xl lg:max-w-3xl transition-all animate-in fade-in duration-200">
             <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider">
               <Sparkles className="w-4 h-4 text-blue-600" />
               <span>Step-by-Step Solution &amp; Approach</span>

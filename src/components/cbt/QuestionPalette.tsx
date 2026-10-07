@@ -63,7 +63,7 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#f8f9fa] border-l border-slate-200 select-none overflow-y-auto font-sans w-full max-w-[280px]">
+    <div className="flex flex-col h-full bg-[#f8f9fa] select-none overflow-y-auto font-sans w-full">
       {/* Legend & Summary Counters */}
       <div className="p-3 bg-white border-b border-slate-200/90 text-xs space-y-2">
         <div className="flex items-center justify-between">

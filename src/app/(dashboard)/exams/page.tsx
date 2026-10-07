@@ -369,20 +369,23 @@ function ExamsCatalogContent() {
       return 0; // default order from API
     });
 
-  // Calculate accurate live counts
-  const liveCount = exams.filter(
+  // Calculate accurate counts STRICTLY SCOPED to the currently selected subject!
+  const currentSubjectExams = exams.filter((e) => getExamSubject(e) === selectedSubject);
+
+  const liveCount = currentSubjectExams.filter(
     (e) => e.scheduledStatus === "LIVE" && e.status === "PUBLISHED" && (!isAdminOrTeacher ? !isAssignedExam(e) : true)
   ).length;
-  const chaptersCount = exams.filter((e) => !isAssignedExam(e) && e.status === "PUBLISHED").length;
-  const assignedAllCount = exams.filter((e) => isAssignedExam(e)).length;
-  const assignedPublishedCount = exams.filter((e) => isAssignedExam(e) && e.status === "PUBLISHED").length;
-  const upcomingCount = exams.filter(
+
+  const chaptersCount = currentSubjectExams.filter((e) => !isAssignedExam(e) && e.status === "PUBLISHED").length;
+  const assignedAllCount = currentSubjectExams.filter((e) => isAssignedExam(e)).length;
+  const assignedPublishedCount = currentSubjectExams.filter((e) => isAssignedExam(e) && e.status === "PUBLISHED").length;
+  const upcomingCount = currentSubjectExams.filter(
     (e) => e.scheduledStatus === "UPCOMING" && (isAdminOrTeacher || e.status === "PUBLISHED")
   ).length;
-  const draftCount = exams.filter((e) => e.status === "DRAFT").length;
+  const draftCount = currentSubjectExams.filter((e) => e.status === "DRAFT").length;
 
   return (
-    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 font-sans">
+    <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-10 py-6 sm:py-8 space-y-6 font-sans min-h-[calc(100vh-140px)]">
       {/* 0. SUBJECT CURRICULUM SELECTION CARDS */}
       <div className="space-y-2.5">
         <div className="flex items-center justify-between">
@@ -513,7 +516,7 @@ function ExamsCatalogContent() {
       )}
 
       {/* 2. SUB-FILTERS & TABS (Screenshot 4 + Advanced Schedulers) */}
-      <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/90 shadow-2xs space-y-4">
+      <div className="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200/90 shadow-2xs space-y-4 min-h-[560px] flex flex-col justify-start">
         {/* Status Tabs */}
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-3">
           <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 touch-pan-x w-full sm:w-auto">
@@ -526,7 +529,7 @@ function ExamsCatalogContent() {
                     : "bg-slate-100 text-slate-600 hover:bg-slate-200"
                 }`}
               >
-                All Tests ({exams.length})
+                All Tests ({currentSubjectExams.length})
               </button>
             )}
 
@@ -539,7 +542,11 @@ function ExamsCatalogContent() {
               }`}
             >
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>Permanent Chapters ({chaptersCount})</span>
+              <span>
+                {selectedSubject === "MATHS"
+                  ? `Permanent Chapters (${chaptersCount})`
+                  : `Permanent Tests (${chaptersCount})`}
+              </span>
             </button>
 
             <button

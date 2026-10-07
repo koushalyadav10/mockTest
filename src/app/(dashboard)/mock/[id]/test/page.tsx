@@ -512,10 +512,10 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
         />
       )}
 
-      {/* Main Split Body: Question Area (72%) + Question Palette (28%) */}
-      <div className="flex-1 grid grid-cols-12 overflow-hidden">
+      {/* Main Split Body: Question Area (Flex-1) + Right Sidebar Question Palette (300px - 330px) */}
+      <div className="flex-1 flex overflow-hidden w-full">
         {/* Left/Center: Question Card */}
-        <main className="col-span-12 lg:col-span-9 p-3 sm:p-5 overflow-hidden flex flex-col bg-[#f4f6f8]">
+        <main className="flex-1 p-3 sm:p-5 overflow-hidden flex flex-col bg-[#f4f6f8]">
           {currentQ && (
             <QuestionCard
               questionNumber={currentIndex + 1}
@@ -542,8 +542,8 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
           )}
         </main>
 
-        {/* Right: Section-Aware Question Palette */}
-        <aside className="hidden lg:block col-span-3 h-full overflow-hidden border-l border-slate-200 bg-[#f8f9fa]">
+        {/* Right: Section-Aware Question Palette (Zero empty margins) */}
+        <aside className="hidden lg:flex flex-col w-[300px] xl:w-[330px] shrink-0 h-full border-l border-slate-200 bg-[#f8f9fa] overflow-hidden">
           <QuestionPalette
             items={paletteItems}
             currentSectionName={currentQ?.subject}

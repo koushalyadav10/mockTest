@@ -126,7 +126,7 @@ export default function StudentDashboardPage() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6 font-sans">
+    <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-10 py-6 sm:py-8 space-y-6 sm:space-y-8 font-sans">
       {/* 1. TOP BANNER: Performance Insights & Analytics Banner (Inspired by Screenshot 3) */}
       <div className="relative rounded-2xl overflow-hidden bg-gradient-to-r from-[#ffe4bc] via-[#ffd699] to-[#fed38d] border border-amber-300/80 p-6 sm:p-8 shadow-sm">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
