@@ -49,8 +49,9 @@ export default function ChapterStudyHubPage() {
   const [data, setData] = useState<any | null>(null);
   const [loading, setLoading] = useState(true);
 
-  // Solved Questions Tab State
+  // Solved Questions & PYQs Interactive State
   const [revealedAnswers, setRevealedAnswers] = useState<{ [qId: string]: boolean }>({});
+  const [selectedAnswers, setSelectedAnswers] = useState<{ [qId: string]: string }>({});
   const [questionDifficultyFilter, setQuestionDifficultyFilter] = useState("ALL");
 
   // Practice Tab Config State
@@ -134,6 +135,20 @@ export default function ChapterStudyHubPage() {
 
   const toggleRevealAnswer = (qId: string) => {
     setRevealedAnswers((prev) => ({ ...prev, [qId]: !prev[qId] }));
+  };
+
+  const handleSelectOption = (qId: string, optId: string) => {
+    setSelectedAnswers((prev) => ({ ...prev, [qId]: optId }));
+    setRevealedAnswers((prev) => ({ ...prev, [qId]: true }));
+  };
+
+  const handleResetOption = (qId: string) => {
+    setSelectedAnswers((prev) => {
+      const next = { ...prev };
+      delete next[qId];
+      return next;
+    });
+    setRevealedAnswers((prev) => ({ ...prev, [qId]: false }));
   };
 
   if (loading) {
@@ -508,57 +523,114 @@ export default function ChapterStudyHubPage() {
                     <MathRenderer text={q.questionText} />
                   </div>
 
-                  {/* Options */}
+                  {/* Options with Interactive Practice */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {q.options?.map((opt: any) => {
-                      const isCorrect = opt.isCorrect;
-                      const showHighlight = isRevealed && isCorrect;
+                      const selectedOptId = selectedAnswers[q.id];
+                      const isSelected = selectedOptId === opt.id;
+                      const isAnswerRevealed = Boolean(isRevealed || selectedOptId);
+                      const isCorrectOption = Boolean(opt.isCorrect);
+
+                      let optStyle =
+                        "bg-slate-50/70 border-slate-200 text-slate-700 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
+                      let badgeStyle = "bg-white text-slate-700 border-slate-300";
+
+                      if (isAnswerRevealed) {
+                        if (isCorrectOption) {
+                          optStyle =
+                            "bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-200 shadow-xs";
+                          badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                        } else if (isSelected && !isCorrectOption) {
+                          optStyle =
+                            "bg-rose-50 border-rose-400 text-rose-950 font-bold ring-2 ring-rose-200 shadow-xs";
+                          badgeStyle = "bg-rose-600 text-white border-rose-600";
+                        } else {
+                          optStyle = "bg-slate-50/50 border-slate-200/80 text-slate-400 opacity-60";
+                          badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                        }
+                      }
 
                       return (
-                        <div
+                        <button
                           key={opt.id}
-                          className={`p-3 rounded-xl border text-xs font-semibold transition-all flex items-start gap-2.5 ${
-                            showHighlight
-                              ? "bg-emerald-50 border-emerald-400 text-emerald-900 font-bold"
-                              : "bg-slate-50/60 border-slate-200 text-slate-700"
-                          }`}
+                          type="button"
+                          disabled={Boolean(selectedOptId)}
+                          onClick={() => handleSelectOption(q.id, opt.id)}
+                          className={`p-3 rounded-xl border text-xs font-semibold transition-all flex items-start gap-2.5 text-left w-full ${optStyle}`}
                         >
                           <span
-                            className={`w-5 h-5 rounded-md flex items-center justify-center font-bold text-[11px] shrink-0 ${
-                              showHighlight
-                                ? "bg-emerald-600 text-white"
-                                : "bg-white text-slate-700 border border-slate-300"
-                            }`}
+                            className={`w-5 h-5 rounded-md flex items-center justify-center font-bold text-[11px] shrink-0 ${badgeStyle}`}
                           >
                             {opt.label}
                           </span>
-                          <span className="leading-tight pt-0.5">
+                          <span className="leading-tight pt-0.5 flex-1">
                             <MathRenderer text={opt.text} />
                           </span>
-                        </div>
+                          {isAnswerRevealed && isCorrectOption && (
+                            <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                          )}
+                          {isAnswerRevealed && isSelected && !isCorrectOption && (
+                            <XCircle className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
+                          )}
+                        </button>
                       );
                     })}
                   </div>
 
-                  {/* Toggle Reveal Answer & Explanation */}
-                  <div className="pt-2 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                    <button
-                      type="button"
-                      onClick={() => toggleRevealAnswer(q.id)}
-                      className="px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700"
-                    >
-                      {isRevealed ? (
-                        <>
-                          <EyeOff className="w-3.5 h-3.5" />
-                          <span>Hide Answer</span>
-                        </>
-                      ) : (
-                        <>
-                          <Eye className="w-3.5 h-3.5 text-indigo-600" />
-                          <span>View Correct Answer &amp; Explanation</span>
-                        </>
+                  {/* Toggle Reveal Answer, Reset & Instant Validation Status */}
+                  <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        onClick={() => toggleRevealAnswer(q.id)}
+                        className="px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700"
+                      >
+                        {isRevealed ? (
+                          <>
+                            <EyeOff className="w-3.5 h-3.5" />
+                            <span>Hide Explanation</span>
+                          </>
+                        ) : (
+                          <>
+                            <Eye className="w-3.5 h-3.5 text-indigo-600" />
+                            <span>View Answer &amp; Explanation</span>
+                          </>
+                        )}
+                      </button>
+
+                      {selectedAnswers[q.id] && (
+                        <button
+                          type="button"
+                          onClick={() => handleResetOption(q.id)}
+                          className="px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+                        >
+                          <RotateCcw className="w-3.5 h-3.5" />
+                          <span>Try Again</span>
+                        </button>
                       )}
-                    </button>
+                    </div>
+
+                    {selectedAnswers[q.id] && (
+                      <span
+                        className={`text-xs font-extrabold flex items-center gap-1 ${
+                          q.options?.find((o: any) => o.id === selectedAnswers[q.id])?.isCorrect
+                            ? "text-emerald-700"
+                            : "text-rose-600"
+                        }`}
+                      >
+                        {q.options?.find((o: any) => o.id === selectedAnswers[q.id])?.isCorrect ? (
+                          <>
+                            <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                            <span>Correct! Well Done</span>
+                          </>
+                        ) : (
+                          <>
+                            <XCircle className="w-4 h-4 text-rose-500" />
+                            <span>Incorrect — Review solution below</span>
+                          </>
+                        )}
+                      </span>
+                    )}
                   </div>
 
                   {/* Revealed Explanation Box */}
@@ -787,37 +859,122 @@ export default function ChapterStudyHubPage() {
                       <MathRenderer text={q.questionText} />
                     </div>
 
+                    {/* Options with Interactive Practice */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                      {q.options?.map((opt: any) => (
-                        <div
-                          key={opt.id}
-                          className={`p-2.5 rounded-lg border text-xs font-semibold flex items-center gap-2 ${
-                            isRevealed && opt.isCorrect
-                              ? "bg-emerald-50 border-emerald-400 text-emerald-900 font-bold"
-                              : "bg-slate-50 border-slate-200 text-slate-700"
-                          }`}
-                        >
-                          <span className="w-5 h-5 rounded font-bold text-[11px] bg-white border border-slate-300 flex items-center justify-center shrink-0">
-                            {opt.label}
-                          </span>
-                          <span className="leading-tight">
-                            <MathRenderer text={opt.text} />
-                          </span>
-                        </div>
-                      ))}
+                      {q.options?.map((opt: any) => {
+                        const selectedOptId = selectedAnswers[q.id];
+                        const isSelected = selectedOptId === opt.id;
+                        const isAnswerRevealed = Boolean(isRevealed || selectedOptId);
+                        const isCorrectOption = Boolean(opt.isCorrect);
+
+                        let optStyle =
+                          "bg-slate-50/70 border-slate-200 text-slate-700 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
+                        let badgeStyle = "bg-white text-slate-700 border-slate-300";
+
+                        if (isAnswerRevealed) {
+                          if (isCorrectOption) {
+                            optStyle =
+                              "bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-200 shadow-xs";
+                            badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                          } else if (isSelected && !isCorrectOption) {
+                            optStyle =
+                              "bg-rose-50 border-rose-400 text-rose-950 font-bold ring-2 ring-rose-200 shadow-xs";
+                            badgeStyle = "bg-rose-600 text-white border-rose-600";
+                          } else {
+                            optStyle = "bg-slate-50/50 border-slate-200/80 text-slate-400 opacity-60";
+                            badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                          }
+                        }
+
+                        return (
+                          <button
+                            key={opt.id}
+                            type="button"
+                            disabled={Boolean(selectedOptId)}
+                            onClick={() => handleSelectOption(q.id, opt.id)}
+                            className={`p-3 rounded-xl border text-xs font-semibold transition-all flex items-start gap-2.5 text-left w-full ${optStyle}`}
+                          >
+                            <span
+                              className={`w-5 h-5 rounded-md flex items-center justify-center font-bold text-[11px] shrink-0 ${badgeStyle}`}
+                            >
+                              {opt.label}
+                            </span>
+                            <span className="leading-tight pt-0.5 flex-1">
+                              <MathRenderer text={opt.text} />
+                            </span>
+                            {isAnswerRevealed && isCorrectOption && (
+                              <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                            )}
+                            {isAnswerRevealed && isSelected && !isCorrectOption && (
+                              <XCircle className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
+                            )}
+                          </button>
+                        );
+                      })}
                     </div>
 
-                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
-                      <button
-                        onClick={() => toggleRevealAnswer(q.id)}
-                        className="text-xs font-bold text-indigo-600 hover:text-indigo-800"
-                      >
-                        {isRevealed ? "Hide Answer" : "Reveal Answer & Explanation"}
-                      </button>
+                    {/* Toggle Reveal Answer, Reset & Instant Validation Status */}
+                    <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => toggleRevealAnswer(q.id)}
+                          className="px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700"
+                        >
+                          {isRevealed ? (
+                            <>
+                              <EyeOff className="w-3.5 h-3.5" />
+                              <span>Hide Explanation</span>
+                            </>
+                          ) : (
+                            <>
+                              <Eye className="w-3.5 h-3.5 text-indigo-600" />
+                              <span>View Answer &amp; Explanation</span>
+                            </>
+                          )}
+                        </button>
+
+                        {selectedAnswers[q.id] && (
+                          <button
+                            type="button"
+                            onClick={() => handleResetOption(q.id)}
+                            className="px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+                          >
+                            <RotateCcw className="w-3.5 h-3.5" />
+                            <span>Try Again</span>
+                          </button>
+                        )}
+                      </div>
+
+                      {selectedAnswers[q.id] && (
+                        <span
+                          className={`text-xs font-extrabold flex items-center gap-1 ${
+                            q.options?.find((o: any) => o.id === selectedAnswers[q.id])?.isCorrect
+                              ? "text-emerald-700"
+                              : "text-rose-600"
+                          }`}
+                        >
+                          {q.options?.find((o: any) => o.id === selectedAnswers[q.id])?.isCorrect ? (
+                            <>
+                              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                              <span>Correct! Well Done</span>
+                            </>
+                          ) : (
+                            <>
+                              <XCircle className="w-4 h-4 text-rose-500" />
+                              <span>Incorrect — Review solution below</span>
+                            </>
+                          )}
+                        </span>
+                      )}
                     </div>
 
                     {isRevealed && (
-                      <div className="p-3 rounded-lg bg-emerald-50 border border-emerald-200 text-xs text-slate-700 leading-relaxed">
+                      <div className="p-3.5 rounded-xl bg-indigo-50/50 border border-indigo-200/80 text-xs text-slate-700 leading-relaxed space-y-1">
+                        <div className="font-bold text-indigo-950 flex items-center gap-1">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                          <span>Authoritative SSC Solution:</span>
+                        </div>
                         <MathRenderer text={q.explanation || "Authoritative answer key solution."} />
                       </div>
                     )}

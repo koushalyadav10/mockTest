@@ -51,8 +51,8 @@ const SUBJECTS = [
     name: "English Language",
     hindiName: "अंग्रेजी",
     icon: "📖",
-    active: false,
-    countBadge: "Coming Soon",
+    active: true,
+    countBadge: "49 Chapters • 940 Qs",
   },
   {
     id: "GK_GS",
@@ -60,7 +60,7 @@ const SUBJECTS = [
     hindiName: "सामान्य ज्ञान",
     icon: "🌍",
     active: true,
-    countBadge: "Live Available",
+    countBadge: "25 Chapters • 871 Qs",
   },
   {
     id: "HINDI",
