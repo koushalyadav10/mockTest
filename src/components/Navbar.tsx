@@ -8,6 +8,7 @@ import {
   Layers,
   Upload,
   BookOpen,
+  BookMarked,
   FileCheck2,
   BarChart3,
   History,
@@ -74,6 +75,7 @@ export const Navbar: React.FC = () => {
   const studentNavLinks = [
     { href: "/dashboard", label: "Dashboard", icon: Layers },
     { href: "/exams", label: "Mock Tests", icon: FileCheck2 },
+    { href: "/books", label: "Books & Learning", icon: BookOpen },
     { href: "/practice", label: "Quick Practice", icon: PlayCircle },
     { href: "/analytics", label: "Analytics", icon: BarChart3 },
     { href: "/history", label: "Test History", icon: History },
@@ -82,8 +84,9 @@ export const Navbar: React.FC = () => {
   const facultyNavLinks = [
     { href: "/dashboard", label: "Dashboard", icon: Layers },
     { href: "/exams", label: "Exams", icon: FileCheck2 },
+    { href: "/books", label: "Books & Learning", icon: BookOpen },
     { href: "/upload", label: "Upload & OCR", icon: Upload },
-    { href: "/question-bank", label: "Question Bank", icon: BookOpen },
+    { href: "/question-bank", label: "Question Bank", icon: BookMarked },
     { href: "/practice", label: "Practice Mode", icon: PlayCircle },
     { href: "/analytics", label: "Analytics", icon: BarChart3 },
     { href: "/history", label: "History", icon: History },

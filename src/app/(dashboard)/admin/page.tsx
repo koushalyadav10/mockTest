@@ -433,6 +433,16 @@ export default function AdminDashboardPage() {
         </div>
 
         <div className="flex items-center gap-3">
+          <Link href="/admin/books">
+            <button
+              type="button"
+              className="px-4 py-2 rounded-xl border border-purple-300 bg-purple-50 hover:bg-purple-100 text-purple-800 font-bold text-xs shadow-2xs transition-all flex items-center gap-1.5"
+            >
+              <BookOpen className="w-4 h-4 text-purple-600" />
+              <span>Book Library</span>
+            </button>
+          </Link>
+
           <Link href="/upload">
             <button
               type="button"

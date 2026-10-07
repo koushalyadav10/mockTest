@@ -40,6 +40,7 @@ model User {
   otpTokens         OtpToken[]
   violations        AttemptViolation[]
   auditLogs         AuditLog[]
+  chapterProgress   ChapterUserProgress[]
 }
 
 model OtpToken {
@@ -127,6 +128,13 @@ model Question {
   id                            String           @id @default(uuid())
   documentId                    String?
   document                      UploadedDocument? @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  bookId                        String?
+  volumeId                      String?
+  chapterId                     String?
+  chapter                       BookChapter?     @relation(fields: [chapterId], references: [id], onDelete: SetNull)
+  generationType                String           @default("ORIGINAL") // ORIGINAL | PYQ | AI_GENERATED
+  sourceConcept                 String?          // e.g. "Rule 4: Since vs For", "Brahmo Samaj 1828"
+  duplicateGroupId              String?
   questionNumber                Int              @default(1)
   language                      String           @default("en") // en | hi | bilingual
   subject                       String // Reasoning, Mathematics, English, General Awareness, General Hindi, Law
@@ -281,3 +289,110 @@ model TeacherInvite {
   createdById String?
   createdAt   DateTime  @default(now())
 }
+
+model Book {
+  id            String        @id @default(uuid())
+  title         String
+  code          String        @unique // e.g. NEETU_SINGH_ENGLISH, BRAHMASTRA_STATIC_GK
+  subject       String        // English, General Awareness, Mathematics, Reasoning
+  author        String?
+  edition       String?
+  examCategory  String        @default("SSC")
+  description   String?
+  coverImageUrl String?
+  totalPages    Int           @default(0)
+  status        String        @default("PUBLISHED") // DRAFT | PROCESSING | PUBLISHED | ARCHIVED
+  isPublished   Boolean       @default(true)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  volumes       BookVolume[]
+  chapters      BookChapter[]
+}
+
+model BookVolume {
+  id               String        @id @default(uuid())
+  bookId           String
+  book             Book          @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  volumeNumber     Int           @default(1)
+  title            String
+  sourcePdfPath    String?
+  totalPages       Int           @default(0)
+  processedPages   Int           @default(0)
+  status           String        @default("READY") // PENDING | PROCESSING | READY | ERROR
+  validationReport String?       // JSON with detailed extraction counts
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  chapters         BookChapter[]
+}
+
+model BookChapter {
+  id                String                @id @default(uuid())
+  bookId            String
+  book              Book                  @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  volumeId          String?
+  volume            BookVolume?           @relation(fields: [volumeId], references: [id], onDelete: SetNull)
+  chapterNumber     Int
+  title             String
+  hindiTitle        String?
+  startPage         Int?
+  endPage           Int?
+  summary           String?
+  orderIndex        Int                   @default(1)
+  totalQuestions    Int                   @default(0)
+  totalTheoryBlocks Int                   @default(0)
+  totalExamples     Int                   @default(0)
+  createdAt         DateTime              @default(now())
+  updatedAt         DateTime              @updatedAt
+  topics            BookTopic[]
+  studyContents     StudyContent[]
+  questions         Question[]
+  userProgress      ChapterUserProgress[]
+}
+
+model BookTopic {
+  id            String         @id @default(uuid())
+  chapterId     String
+  chapter       BookChapter    @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  title         String
+  orderIndex    Int            @default(1)
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  studyContents StudyContent[]
+}
+
+model StudyContent {
+  id           String      @id @default(uuid())
+  chapterId    String
+  chapter      BookChapter @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  topicId      String?
+  topic        BookTopic?  @relation(fields: [topicId], references: [id], onDelete: SetNull)
+  contentType  String      // THEORY | RULE | EXCEPTION | EXAMPLE | SOLVED_EXAMPLE | VOCABULARY | FACT | REVISION_NOTE | TABLE
+  title        String?
+  content      String
+  hindiContent String?
+  sourcePage   Int?
+  orderIndex   Int         @default(1)
+  keyPoints    String?     // JSON array of strings
+  examplesJson String?     // JSON array of { example: string, explanation: string }
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+}
+
+model ChapterUserProgress {
+  id                 String      @id @default(uuid())
+  userId             String
+  user               User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  chapterId          String
+  chapter            BookChapter @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  theoryCompleted    Boolean     @default(false)
+  examplesStudied    Int         @default(0)
+  questionsAttempted Int         @default(0)
+  questionsCorrect   Int         @default(0)
+  accuracyPercent    Float       @default(0.0)
+  weakTopics         String?     // JSON array of weak topic titles
+  lastStudiedAt      DateTime    @default(now())
+  updatedAt          DateTime    @updatedAt
+
+  @@unique([userId, chapterId])
+}
+
