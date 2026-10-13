@@ -1,0 +1,442 @@
+Unit I – Basics of Comparative Public Administration
+
+1. The Comparative Public Administration movement gained momentum after:
+(A) World War I
+(B) Cold War
+(C) French Revolution
+(D) World War II
+
+2. Which of the following is INCORRECTLY matched?
+(A) Concept of CPA – Comparative analysis of administrative systems
+(B) Scope of CPA – Limited only to developed countries
+(C) Significance of CPA – Helps in policy transfer and reform
+(D) Nature of CPA – Empirical, interdisciplinary, and value-neutral
+
+3. Comparative Public Administration helps researchers to:
+(A) Creating political parties
+(B) Increasing tax rates
+(C) Understanding global administrative diversity
+(D) Abolishing bureaucracy
+
+4. Who is known as the father of “Comparative Public Administration”?
+(A) Robert Dahl
+(B) Fred Riggs
+(C) Luther Gulick
+(D) Max Weber
+
+5. Comparative Public Administration differs from traditional Public Administration by:
+(A) Its focus on single-country study
+(B) Its cross-national perspective
+(C) Its emphasis on finance
+(D) Its focus on military administration
+
+6. Assertion (A): Comparative Public Administration focuses on the study and comparison of administrative systems across different countries. Reason (R): This approach ignores cultural, political, and socio-economic contexts in its analysis.
+(A) Both A and R are true, and R is the correct explanation of A
+(B) Both A and R are true, but R is not the correct explanation of A
+(C) A is true, but R is false
+(D) A is false, but R is true
+
+7. Comparative Administration Group was established under:
+(A) American Political Science Association
+(B) United Nations
+(C) World Bank
+(D) International Labour Organization
+
+8. In Riggs’s prismatic–Sala model, the concept of formalism primarily refers to:
+(A) The complete absence of formal administrative rules
+(B) The correspondence between formally prescribed rules and actual administrative behaviour
+(C) A gap between formally prescribed rules and their actual implementation
+(D) The replacement of traditional institutions by modern bureaucratic institutions
+
+9. The central objective of Comparative Public Administration is to:
+(A) Promote democracy
+(B) Compare administrative systems
+(C) Train civil servants
+(D) Frame constitutions
+
+10. Which approach dominated CPA in its early phase?
+(A) Behavioural
+(B) Bureaucratic
+(C) Historical
+(D) Systems
+
+11. Assertion (A): The evolution of Comparative Public Administration was significantly influenced by the behavioural revolution in political science. Reason (R): Behaviouralism shifted the focus from normative to empirical and analytical studies.
+(A) Both A and R are true, and R is the correct explanation of A
+(B) Both A and R are true, but R is not the correct explanation of A
+(C) A is true, but R is false
+(D) A is false, but R is true
+
+12. Which decade is called the “golden age” of CPA?
+(A) 1930s
+(B) 1940s
+(C) 1960s
+(D) 1980s
+
+13. Which of the following is INCORRECTLY matched?
+(A) Evolution phase (1940s–1950s) – Focus on administrative law and structures
+(B) Ferrel Heady – Author of Public Administration: A Comparative Perspective
+(C) Post-1960s CPA – Emphasis on field studies in developing countries
+(D) Scope of CPA – Study of both similarities and differences in administrative systems
+
+14. Comparative Public Administration focuses on:
+(A) Only economic growth
+(B) Political campaign strategies
+(C) Space exploration
+(D) Differences and similarities in administrative systems
+
+15. The nature of Comparative Public Administration is best described as:
+(A) Prescriptive only
+(B) Descriptive and analytical
+(C) Historical only
+(D) Philosophical only
+
+16. CPA’s importance increased due to:
+(A) Technological stagnation
+(B) Global isolation
+(C) Cultural uniformity
+(D) Decolonisation
+
+17. The term “developing countries” in CPA context refers to:
+(A) Countries with high GDP
+(B) Only democratic nations
+(C) Countries with low administrative capacity
+(D) Only monarchies
+
+18. The principal subject of Comparative Public Administration is:
+(A) Only developed nations
+(B) Administrative systems across countries
+(C) Only public policies in one country
+(D) Private sector management
+
+19. Which scholar is widely regarded as a leading founder of Comparative Public Administration?
+(A) Woodrow Wilson
+(B) Dwight Waldo
+(C) F. W. Riggs
+(D) Herbert Simon
+
+20. A commonly used method in Comparative Public Administration is:
+(A) Cross-country comparisons
+(B) Random guessing
+(C) Astrology
+(D) Mythology
+
+## Unit II – Approaches to Comparative Public Administration
+
+21. Structural-functionalists believe every structure:
+(A) Exists for decoration
+(B) Is temporary
+(C) Performs essential functions
+(D) Is irrelevant
+
+22. Bureaucratic model assumes authority is:
+(A) Emotional
+(B) Rational-legal
+(C) Traditional only
+(D) Arbitrary
+
+23. Assertion (A): The bureaucratic approach in Comparative Public Administration draws heavily from Max Weber’s ideal type model. Reason (R): It analyses administrative behaviour based on formal rules, hierarchy, and impersonality.
+(A) Both A and R are true, and R is the correct explanation of A
+(B) Both A and R are true, but R is not the correct explanation of A
+(C) A is true, but R is false
+(D) A is false, but R is true
+
+24. Which of the following is INCORRECTLY matched?
+(A) Behavioural Approach – Emphasis on human behaviour and decision-making patterns
+(B) Systems Approach – Study of administration as an open system interacting with the environment
+(C) Structural-Functional Approach – Analysis of structure without considering functions
+(D) Ecological Approach – Interrelationship between administrative systems and their environment
+
+25. Which administrative approach is most closely linked with Max Weber?
+(A) Behavioural
+(B) Bureaucratic
+(C) Structural functional
+(D) Ecological
+
+26. Behaviouralists focus on:
+(A) Military command
+(B) Legal norms
+(C) Informal group behaviour
+(D) Taxation
+
+27. Ecological approach is useful in:
+(A) Designing factories
+(B) Studying developing nations
+(C) Studying chemical reactions
+(D) Military drills
+
+28. Systems approach is suitable for:
+(A) Closed autocracies only
+(B) Static environments
+(C) Local clubs only
+(D) Complex interdependent organizations
+
+29. The main emphasis of the behavioural approach is:
+(A) Human behaviour in organizations
+(B) Legal rules only
+(C) Mechanical structure
+(D) Climate change
+
+30. Systems approach inputs include:
+(A) Historical data only
+(B) Machine output
+(C) Laws only
+(D) Demands and supports
+
+31. Which of the following is INCORRECTLY matched?
+(A) Max Weber – Bureaucratic approach
+(B) Almond & Powell – Structural-functional approach
+(C) David Easton – Behavioural approach
+(D) Fred W. Riggs – Ecological approach
+
+32. Assertion (A): The ecological approach examines administrative systems in isolation from their environment. Reason (R): It focuses on the mutual influence between administration and its surrounding socio-cultural context.
+(A) Both A and R are true, and R is the correct explanation of A
+(B) Both A and R are true, but R is not the correct explanation of A
+(C) A is true, but R is false
+(D) A is false, but R is true
+
+33. Behavioural approach uses tools from:
+(A) Physics
+(B) Astronomy
+(C) Psychology and sociology
+(D) Chemistry
+
+34. Bureaucratic approach strengths include:
+(A) Predictability and stability
+(B) Random decision-making
+(C) Informal governance
+(D) Flexible, no rules
+
+35. Ecological approach emphasizes:
+(A) Interaction between admin system and environment
+(B) Isolated office work
+(C) Technology only
+(D) Military structure
+
+36. From the systems perspective, administration is viewed as:
+(A) Isolated from environment
+(B) An open system interacting with environment
+(C) A closed legal structure
+(D) A historical record
+
+37. The ecological approach examines administration in relation to:
+(A) Environment and societal factors
+(B) Only political systems
+(C) Only economic development
+(D) Computer technology
+
+38. Systems approach outputs are:
+(A) Random outcomes
+(B) Climate data
+(C) Tax forms only
+(D) Policies and decisions
+
+39. In the structural-functional approach, “functions” refer to:
+(A) Official duties performed by structures
+(B) Economic policies
+(C) Political campaigns
+(D) Historical events
+
+40. Structural-functional approach originated in:
+(A) Chemistry
+(B) Physics
+(C) Computer science
+(D) Anthropology and sociology
+
+## Unit III – Riggs’s Ecological Approach and Fused–Prismatic–Diffracted Model
+
+41. Riggs’ fused-prismatic-diffracted model is based on:
+(A) Cultural homogeneity
+(B) Economic growth
+(C) War strategies
+(D) Structural differentiation
+
+42. Which features are characteristic of a prismatic society?
+(A) Total homogeneity
+(B) Pure rationality
+(C) Heterogeneity and formalism
+(D) No political interference
+
+43. Sala model suggests:
+(A) Multiple overlapping administrative systems
+(B) Single clear structure
+(C) No bureaucracy
+(D) Only traditional chiefs
+
+44. Which concept is most closely associated with the prismatic society in Riggs’s model?
+(A) Formalism
+(B) Judicial review
+(C) Political neutrality
+(D) Administrative anonymity
+
+45. Which sequence correctly represents the stages in Riggs’s Fused–Prismatic–Diffracted model?
+(A) Diffracted → Fused → Prismatic
+(B) Fused → Prismatic → Diffracted
+(C) Prismatic → Fused → Diffracted
+(D) Fused → Diffracted → Prismatic
+
+46. According to Riggs, administrative systems should be studied in relation to their:
+(A) Constitutional provisions alone
+(B) Political parties alone
+(C) Social and ecological environment
+(D) Economic policies alone
+
+47. In Sala model, formalism refers to:
+(A) Gap between norms and practice
+(B) Strict legal compliance
+(C) Complete transparency
+(D) Lack of structure
+
+48. Formalism in Sala model means:
+(A) Laws exist but are poorly implemented
+(B) Laws are always obeyed
+(C) There are no laws
+(D) Laws are based on religion only
+
+49. Riggs’s ecological approach focuses on the relationship between:
+(A) Only economics with politics
+(B) Technology with military
+(C) Law with history
+(D) Administrative system with environment
+
+50. In Riggs’s model, a fused society is characterized mainly by:
+(A) Highly specialized administrative structures
+(B) Differentiation of social and administrative functions
+(C) Undifferentiated structures performing multiple functions
+(D) Complete separation of political and administrative institutions
+
+51. Assertion (A): The Sala model depicts the functioning of administration in prismatic societies. Reason (R): It highlights phenomena such as nepotism, poly-normativism, and formalism.
+(A) Both A and R are true, and R is the correct explanation of A
+(B) Both A and R are true, but R is not the correct explanation of A
+(C) A is true, but R is false
+(D) A is false, but R is true
+
+52. Which statement best captures Riggs’s major contribution to Comparative Public Administration?
+(A) He argued that administrative systems should be studied independently of society.
+(B) He emphasized that administrative structures and behaviour are influenced by their social environment.
+(C) He proposed that all countries should adopt the same administrative model.
+(D) He focused exclusively on constitutional law as the basis of administration.
+
+53. A diffracted society in Riggs’s framework is generally associated with:
+(A) Greater functional differentiation and specialization
+(B) Overlapping and multifunctional institutions
+(C) Predominance of traditional structures
+(D) Absence of formal organizations
+
+54. In fused societies, the economy is:
+(A) Undifferentiated from family and politics
+(B) Fully specialized
+(C) Market-based only
+(D) Globalized
+
+55. Assertion (A): In Riggs’ fused–prismatic–diffracted model, the prismatic society represents a transitional stage between traditional and modern societies. Reason (R): In prismatic societies, administrative structures are perfectly adapted to environmental needs.
+(A) Both A and R are true, and R is the correct explanation of A
+(B) Both A and R are true, but R is not the correct explanation of A
+(C) A is true, but R is false
+(D) A is false, but R is true
+
+56. Prismatic societies face challenge of:
+(A) Corruption and nepotism
+(B) Perfect transparency
+(C) No political interference
+(D) Purely merit-based hiring
+
+57. F. W. Riggs is particularly associated with which approach to Comparative Public Administration?
+(A) Legal approach
+(B) Ecological approach
+(C) Historical approach
+(D) Institutional approach
+
+58. Prismatic society often has:
+(A) Mixed economy
+(B) Only free market economy
+(C) Only subsistence economy
+(D) Only command economy
+
+59. Which of the following best describes formalism in Riggs’s prismatic model?
+(A) Complete absence of administrative rules
+(B) A gap between formally prescribed rules and actual administrative practices
+(C) Complete conformity between rules and administrative behaviour
+(D) Rejection of formal organizations
+
+60. Diffracted society bureaucracy is:
+(A) Arbitrary
+(B) Nepotistic
+(C) Impersonal and merit-based
+(D) Informal
+
+61. Sala model is applied to:
+(A) Prismatic societies
+(B) Diffracted societies
+(C) Fused societies
+(D) All societies
+
+62. The prismatic society is considered an intermediate type between:
+(A) Traditional and political societies
+(B) Fused and diffracted societies
+(C) Rural and urban societies
+(D) Democratic and authoritarian societies
+
+63. Within Riggs’s model, India is commonly characterized as:
+(A) Diffracted society
+(B) Prismatic society
+(C) Fused society
+(D) Industrial society
+
+64. In Riggs’s fused society, administrative roles are generally:
+(A) Undifferentiated
+(B) Highly specialized
+(C) Politically neutral
+(D) Market-driven
+
+65. Riggs’ models are useful to:
+(A) Build schools
+(B) Design military campaigns
+(C) Conduct elections
+(D) Analyse administrative development stages
+
+66. Which of the following is INCORRECTLY matched?
+(A) Fused society – Homogeneous social and administrative structure
+(B) Prismatic society – High level of functional specificity and differentiation
+(C) Diffracted society – Modern, industrialised administrative structure
+(D) Sala model – Poly-communalism and formalism
+
+67. In a diffracted society, administration is generally characterized as:
+(A) Based on traditions only
+(B) Feudal
+(C) Arbitrary
+(D) Rational and secular
+
+68. Which of the following is INCORRECTLY matched?
+(A) Poly-normativism – Coexistence of multiple and conflicting norms
+(B) Nepotism – Appointment based on kinship rather than merit
+(C) Formalism – Wide gap between formal rules and actual practices
+(D) Diffracted society – Low degree of structural differentiation
+
+69. In the Prismatic–Sala model, the term “Sala” refers primarily to:
+(A) A highly specialized modern bureaucracy
+(B) A traditional village institution
+(C) An administrative structure characterized by overlapping and multifunctional roles
+(D) An independent judicial institution
+
+## Correct Answers
+
+1 2 3 4 5 6 7 8 9 10  
+D B C B B C A C B A
+
+11 12 13 14 15 16 17 18 19 20  
+A C A D B D C B C A
+
+21 22 23 24 25 26 27 28 29 30  
+C B A C B C B D A D
+
+31 32 33 34 35 36 37 38 39 40  
+C D C A A B A D A D
+
+41 42 43 44 45 46 47 48 49 50  
+D C A A B C A A D C
+
+51 52 53 54 55 56 57 58 59 60  
+A B A A C A B A B C
+
+61 62 63 64 65 66 67 68 69  
+A B B A D B D D C

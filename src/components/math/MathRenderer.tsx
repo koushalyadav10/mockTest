@@ -9,19 +9,118 @@ interface MathRendererProps {
 }
 
 /**
- * Render inline text with KaTeX formulas
+ * Parse inline markdown bold (**text**) and remove stray raw asterisks
+ */
+function parseMarkdownText(text: string, keyPrefix: string): React.ReactNode[] {
+  if (!text) return [];
+  const boldRegex = /\*\*([^*]+)\*\*/g;
+  const nodes: React.ReactNode[] = [];
+  let lastIdx = 0;
+  let bMatch: RegExpExecArray | null;
+
+  while ((bMatch = boldRegex.exec(text)) !== null) {
+    if (bMatch.index > lastIdx) {
+      nodes.push(text.substring(lastIdx, bMatch.index).replace(/\*\*/g, ""));
+    }
+    nodes.push(
+      <strong key={`${keyPrefix}-b-${bMatch.index}`} className="font-bold text-slate-950">
+        {bMatch[1]}
+      </strong>
+    );
+    lastIdx = bMatch.index + bMatch[0].length;
+  }
+
+  if (lastIdx < text.length) {
+    nodes.push(text.substring(lastIdx).replace(/\*\*/g, ""));
+  }
+
+  return nodes;
+}
+
+/**
+ * Auto-wrap unwrapped LaTeX math expressions and sanitize malformed tokens
+ */
+function sanitizeAndWrapLatex(text: string): string {
+  if (!text) return "";
+
+  // 1. Clean corruptions like stray /fskd, /frac, double slashes etc.
+  let cleaned = text
+    .replace(/\/fskd/gi, "")
+    .replace(/\/+(frac|sqrt|times|div|pm|circ|degree|pi|theta|alpha|beta)\b/gi, "\\$1");
+
+  // 2. Wrap unwrapped LaTeX commands and surrounding numbers/symbols
+  const parts = cleaned.split(/(\$\$[\s\S]*?\$\$|\$[^\$\n]+?\$)/g);
+  return parts
+    .map((part) => {
+      if (part.startsWith("$")) return part;
+
+      let p = part;
+
+      // Normalize unicode superscripts & roots
+      p = p.replace(/²/g, "^2").replace(/³/g, "^3").replace(/⁴/g, "^4").replace(/⁵/g, "^5");
+      p = p.replace(/∛\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[3]{$1}");
+      p = p.replace(/⁶√\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[6]{$1}");
+      p = p.replace(/④√\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[4]{$1}");
+      p = p.replace(/÷/g, " \\div ");
+
+      // Repeating decimal with overline
+      p = p.replace(/(\d+\.)(\d+)[\u0305\u0304]/g, "$1\\overline{$2}");
+      p = p.replace(/(\d+)[\u0305\u0304]/g, "\\overline{$1}");
+      p = p.replace(/(\d+\.\d+)̅/g, "\\overline{$1}");
+
+      // Auto-convert mixed fractions with %: e.g. "33 1/3%" or "2 21/29 %" -> "$33\frac{1}{3}\%$"
+      p = p.replace(/\b(\d+)\s+(\d+)\/(\d+)\s*%/g, (_, w, n, d) => `$${w}\\frac{${n}}{${d}}\\%$`);
+      // Auto-convert mixed fractions without %: e.g. "1852 1/3" -> "$1852\frac{1}{3}$"
+      p = p.replace(/(?<![\d/$])(\d+)\s+(\d+)\/(\d+)(?!\s*[%$/])/g, (_, w, n, d) => `$${w}\\frac{${n}}{${d}}$`);
+      // Auto-convert simple fractions with %: e.g. "175/4%" -> "$\frac{175}{4}\%$"
+      p = p.replace(/(?<![\d/$])(\d+)\/(\d+)\s*%/g, (_, n, d) => `$\\frac{${n}}{${d}}\\%$`);
+      // Auto-convert standalone option fractions: e.g. "17/200" or "3/4"
+      p = p.replace(/^\s*(\d+)\/(\d+)\s*$/, (_, n, d) => `$\\frac{${n}}{${d}}$`);
+
+      // Standalone roots: e.g. "√2" or "√67"
+      p = p.replace(/^\s*√\s*(\d+|\w+)\s*$/, (_, v) => `$\\sqrt{${v}}$`);
+      p = p.replace(/^\s*\\sqrt(\[\d+\])?\{[^}]+\}\s*$/, (m) => `$${m.trim()}$`);
+
+      // Roots in expressions: √(inner) -> \sqrt{inner}
+      p = p.replace(/√\s*\(([^)]+)\)/g, (_, inner) => {
+        const cleanedInner = inner.replace(/(\b[a-zA-Z0-9]+)\s*\/\s*(\b[0-9]+)/g, "\\frac{$1}{$2}");
+        return `$\\sqrt{${cleanedInner}}$`;
+      });
+      p = p.replace(/√\s*\[([^\]]+)\]/g, (_, inner) => `$\\sqrt{${inner}}$`);
+
+      // Exponents: e.g. 2^(x+4) -> 2^{x+4}
+      p = p.replace(/(\d+|[a-zA-Z]|\([^)]+\))\^\(([^)]+)\)/g, "$1^{$2}");
+
+      return p.replace(
+        /((?:[-+±]|\b|\s|^)(?:[0-9.]*\s*)?\\[a-zA-Z]+(?:\{[^{}]*\}|\[[^\[\]]*\]|[0-9a-zA-Z_^{}\\+\-*\/])*)/g,
+        (m) => {
+          const trimmed = m.trim();
+          if (!trimmed) return m;
+          const leadingSpace = m.startsWith(" ") ? " " : "";
+          const trailingSpace = m.endsWith(" ") ? " " : "";
+          return `${leadingSpace}$${trimmed}$${trailingSpace}`;
+        }
+      );
+    })
+    .join("");
+}
+
+/**
+ * Render inline text with KaTeX formulas and bold markdown
  */
 function renderInlineMath(content: string): React.ReactNode[] {
   if (!content) return [];
+  const processedContent = sanitizeAndWrapLatex(content);
   const parts: React.ReactNode[] = [];
   const mathRegex = /(\$\$[\s\S]*?\$\$|\$[^\$\n]+?\$)/g;
 
   let lastIndex = 0;
   let match: RegExpExecArray | null;
 
-  while ((match = mathRegex.exec(content)) !== null) {
+  while ((match = mathRegex.exec(processedContent)) !== null) {
     if (match.index > lastIndex) {
-      parts.push(content.substring(lastIndex, match.index));
+      const plainText = processedContent.substring(lastIndex, match.index);
+      parts.push(...parseMarkdownText(plainText, `txt-${lastIndex}`));
     }
 
     const rawMatch = match[0];
@@ -49,8 +148,9 @@ function renderInlineMath(content: string): React.ReactNode[] {
     lastIndex = match.index + rawMatch.length;
   }
 
-  if (lastIndex < content.length) {
-    parts.push(content.substring(lastIndex));
+  if (lastIndex < processedContent.length) {
+    const plainText = processedContent.substring(lastIndex);
+    parts.push(...parseMarkdownText(plainText, `end-${lastIndex}`));
   }
 
   return parts;
@@ -58,7 +158,7 @@ function renderInlineMath(content: string): React.ReactNode[] {
 
 /**
  * MathRenderer parses inline math ($...$), block math ($$...$$),
- * and Markdown tables (| Col 1 | Col 2 |).
+ * Markdown bold (**text**), and Markdown tables (| Col 1 | Col 2 |).
  */
 export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = "" }) => {
   if (!text) return null;
@@ -89,15 +189,15 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
       elements.push(
         <div
           key={`table-block-${elements.length}`}
-          className="overflow-x-auto my-3 border border-slate-200 rounded-xl shadow-xs bg-white touch-pan-x"
+          className="overflow-x-auto my-1.5 sm:my-2 border border-slate-200/90 rounded-xl shadow-2xs bg-white max-w-full sm:max-w-2xl touch-pan-x"
         >
-          <table className="min-w-full divide-y divide-slate-200 text-sm sm:text-base">
-            <thead className="bg-slate-100/90 text-slate-900 font-extrabold">
+          <table className="min-w-full divide-y divide-slate-200 text-xs sm:text-[13px]">
+            <thead className="bg-slate-100/90 text-slate-800 font-bold">
               <tr>
                 {tableHeader.map((headerCell, hIdx) => (
                   <th
                     key={hIdx}
-                    className="px-4 py-3 text-left font-extrabold uppercase tracking-wider text-xs sm:text-sm border-r border-slate-200/80 last:border-r-0"
+                    className="px-2.5 py-1.5 sm:px-3 sm:py-2 text-center font-bold text-[11px] sm:text-xs text-slate-800 border-r border-slate-200/80 last:border-r-0 whitespace-nowrap first:text-left first:pl-3"
                   >
                     {renderInlineMath(headerCell)}
                   </th>
@@ -113,7 +213,7 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
                   {rowCells.map((cell, cIdx) => (
                     <td
                       key={cIdx}
-                      className="px-4 py-2.5 text-slate-800 font-semibold border-r border-slate-100 last:border-r-0"
+                      className="px-2.5 py-1 sm:px-3 sm:py-1.5 text-center text-slate-800 font-medium text-xs sm:text-[13px] border-r border-slate-100 last:border-r-0 first:text-left first:pl-3 first:font-semibold"
                     >
                       {renderInlineMath(cell)}
                     </td>

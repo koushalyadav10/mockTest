@@ -27,48 +27,63 @@ import {
   Mail,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { formatCleanChapterTitle, isAssignedExam, getExamSubject } from "@/lib/exam/tag-parser";
+import {
+  formatCleanChapterTitle,
+  isAssignedExam,
+  getExamSubject,
+  isUpssscExam,
+  isUpssscFullMock,
+  isUpssscSubjectBank,
+} from "@/lib/exam/tag-parser";
 
 const SUBJECTS = [
   {
-    id: "MATHS",
-    name: "Mathematics",
-    hindiName: "गणित",
-    icon: "📐",
+    id: "ALL",
+    name: "All Subjects",
+    hindiName: "सभी विषय",
+    icon: "🌟",
     active: true,
-    countBadge: "30 Chapters • 6,486 Qs",
-  },
-  {
-    id: "REASONING",
-    name: "Reasoning",
-    hindiName: "तर्कशक्ति",
-    icon: "🧠",
-    active: false,
-    countBadge: "Coming Soon",
-  },
-  {
-    id: "ENGLISH",
-    name: "English Language",
-    hindiName: "अंग्रेजी",
-    icon: "📖",
-    active: true,
-    countBadge: "49 Chapters • 940 Qs",
-  },
-  {
-    id: "GK_GS",
-    name: "GK & GS",
-    hindiName: "सामान्य ज्ञान",
-    icon: "🌍",
-    active: true,
-    countBadge: "25 Chapters • 871 Qs",
+    countBadge: "All Tests",
   },
   {
     id: "HINDI",
     name: "General Hindi",
     hindiName: "सामान्य हिंदी",
     icon: "🇮🇳",
-    active: false,
-    countBadge: "Coming Soon",
+    active: true,
+    countBadge: "150 Qs Bank",
+  },
+  {
+    id: "MATHS",
+    name: "Mathematics & DI",
+    hindiName: "गणित एवं ग्राफ/डी.आई.",
+    icon: "📐",
+    active: true,
+    countBadge: "30 Chs + 150 Qs DI",
+  },
+  {
+    id: "REASONING",
+    name: "Reasoning",
+    hindiName: "तर्क एवं तर्कशक्ति",
+    icon: "🧠",
+    active: true,
+    countBadge: "150 Qs Bank",
+  },
+  {
+    id: "ENGLISH",
+    name: "General English",
+    hindiName: "अंग्रेजी (हिंदी माध्यम)",
+    icon: "📖",
+    active: true,
+    countBadge: "49 Chs + 150 Qs",
+  },
+  {
+    id: "GK_GS",
+    name: "GK & GS / Current",
+    hindiName: "सामान्य अध्ययन व करेंट",
+    icon: "🌍",
+    active: true,
+    countBadge: "27 Chs + 300 Qs",
   },
 ];
 
@@ -103,9 +118,20 @@ function ExamsCatalogContent() {
   const [loading, setLoading] = useState(true);
   const searchParams = useSearchParams();
   const subjectParam = searchParams.get("subject");
-  const [selectedSubject, setSelectedSubject] = useState<string>("MATHS");
+  const boardParam = searchParams.get("board") || searchParams.get("category");
+  const [selectedBoard, setSelectedBoard] = useState<"ALL" | "UPSSSC_PET" | "SSC">("ALL");
+  const [upssscTab, setUpssscTab] = useState<"ALL" | "FULL_MOCKS" | "SUBJECT_BANKS">("ALL");
+  const [selectedSubject, setSelectedSubject] = useState<string>("ALL");
 
   useEffect(() => {
+    if (boardParam) {
+      const b = boardParam.toUpperCase();
+      if (b.includes("UPSSSC") || b.includes("PET")) {
+        setSelectedBoard("UPSSSC_PET");
+      } else if (b.includes("SSC")) {
+        setSelectedBoard("SSC");
+      }
+    }
     if (subjectParam) {
       const up = subjectParam.toUpperCase();
       if (["GK_GS", "GK", "GS", "GENERAL_AWARENESS"].includes(up)) setSelectedSubject("GK_GS");
@@ -113,8 +139,9 @@ function ExamsCatalogContent() {
       else if (["REASONING"].includes(up)) setSelectedSubject("REASONING");
       else if (["ENGLISH"].includes(up)) setSelectedSubject("ENGLISH");
       else if (["HINDI"].includes(up)) setSelectedSubject("HINDI");
+      else if (["ALL"].includes(up)) setSelectedSubject("ALL");
     }
-  }, [subjectParam]);
+  }, [subjectParam, boardParam]);
 
   // Filters & Tabs
   const [activeTab, setActiveTab] = useState<"ALL" | "LIVE" | "ASSIGNED" | "UPCOMING" | "EXPIRED" | "DRAFT">("LIVE");
@@ -310,22 +337,32 @@ function ExamsCatalogContent() {
   const filteredExams = exams
     .filter((e) => {
       const isAssigned = isAssignedExam(e);
+      const isUpsssc = isUpssscExam(e);
 
-      // Subject Module filter
-      if (selectedSubject) {
+      // 1. Board / Track Filter
+      if (selectedBoard === "UPSSSC_PET") {
+        if (!isUpsssc) return false;
+        if (upssscTab === "FULL_MOCKS" && !isUpssscFullMock(e)) return false;
+        if (upssscTab === "SUBJECT_BANKS" && !isUpssscSubjectBank(e)) return false;
+      } else if (selectedBoard === "SSC") {
+        if (isUpsssc) return false;
+      }
+
+      // 2. Subject Module filter (only when not ALL)
+      if (selectedSubject && selectedSubject !== "ALL") {
         const examSub = getExamSubject(e);
         if (examSub !== selectedSubject) return false;
       }
 
-      // Role filter: Students only see published exams
+      // 3. Role filter: Students only see published exams
       if (!isAdminOrTeacher && e.status === "DRAFT") return false;
 
-      // Status & Category Tab filter
+      // 4. Status & Category Tab filter
       if (activeTab === "LIVE") {
         // Only published & live exams!
         if (e.status !== "PUBLISHED") return false;
         if (e.scheduledStatus !== "LIVE") return false;
-        // In Live Now, students see strictly the permanent chapters!
+        // In Live Now, students see strictly the permanent chapters/mocks!
         if (!isAdminOrTeacher && isAssigned) return false;
       } else if (activeTab === "ASSIGNED") {
         // Assigned CBT tests only!
@@ -343,14 +380,14 @@ function ExamsCatalogContent() {
         if (!isAdminOrTeacher && e.status !== "PUBLISHED") return false;
       }
 
-      // Mode filter
+      // 5. Mode filter
       if (modeFilter === "MOCK") {
         if (e.mode === "EXAM" || isAssigned) return false;
       } else if (modeFilter === "EXAM") {
         if (e.mode !== "EXAM" && !isAssigned) return false;
       }
 
-      // Search query filter
+      // 6. Search query filter
       const q = searchQuery.toLowerCase().trim();
       if (q) {
         return (
@@ -363,14 +400,30 @@ function ExamsCatalogContent() {
       return true;
     })
     .sort((a, b) => {
+      // For UPSSSC, place the 2026 Model Mock Paper first, then 2023, 2022, 2021
+      if (selectedBoard === "UPSSSC_PET") {
+        const aCode = a.code || "";
+        const bCode = b.code || "";
+        if (aCode.includes("2026_MOCK")) return -1;
+        if (bCode.includes("2026_MOCK")) return 1;
+      }
       if (sortOrder === "DURATION") {
         return b.totalDurationMinutes - a.totalDurationMinutes;
       }
       return 0; // default order from API
     });
 
-  // Calculate accurate counts STRICTLY SCOPED to the currently selected subject!
-  const currentSubjectExams = exams.filter((e) => getExamSubject(e) === selectedSubject);
+  // Calculate accurate counts SCOPED to the board and subject
+  const currentBoardExams = exams.filter((e) => {
+    if (selectedBoard === "UPSSSC_PET") return isUpssscExam(e);
+    if (selectedBoard === "SSC") return !isUpssscExam(e);
+    return true;
+  });
+
+  const currentSubjectExams = currentBoardExams.filter((e) => {
+    if (!selectedSubject || selectedSubject === "ALL") return true;
+    return getExamSubject(e) === selectedSubject;
+  });
 
   const liveCount = currentSubjectExams.filter(
     (e) => e.scheduledStatus === "LIVE" && e.status === "PUBLISHED" && (!isAdminOrTeacher ? !isAssignedExam(e) : true)
@@ -386,7 +439,214 @@ function ExamsCatalogContent() {
 
   return (
     <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-10 py-6 sm:py-8 space-y-6 font-sans min-h-[calc(100vh-140px)]">
-      {/* 0. SUBJECT CURRICULUM SELECTION CARDS */}
+      {/* 0A. EXAM BOARD & CURRICULUM SELECTOR */}
+      <div className="bg-white p-3.5 sm:p-5 rounded-3xl border border-slate-200/90 shadow-2xs">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-3.5">
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="text-base">🏛️</span>
+              <h2 className="text-xs sm:text-sm font-black text-slate-900 uppercase tracking-wider">
+                Select Examination Board / Course Track
+              </h2>
+            </div>
+            <p className="text-[11px] text-slate-500 font-medium mt-0.5">
+              Choose your competitive exam syllabus to filter full CBT tests and chapter banks
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0 touch-pan-x">
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedBoard("ALL");
+                setSelectedSubject("ALL");
+              }}
+              className={`px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-2xl text-xs font-bold transition-all shrink-0 flex items-center gap-2 active:scale-98 ${
+                selectedBoard === "ALL"
+                  ? "bg-slate-900 text-white shadow-md ring-2 ring-slate-800"
+                  : "bg-slate-100 hover:bg-slate-200 text-slate-700"
+              }`}
+            >
+              <span>🌟 All Examinations</span>
+              <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${
+                selectedBoard === "ALL" ? "bg-slate-800 text-slate-200" : "bg-white text-slate-600"
+              }`}>
+                {exams.filter((e) => isAdminOrTeacher || e.status === "PUBLISHED").length}
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedBoard("UPSSSC_PET");
+                setSelectedSubject("ALL");
+                setUpssscTab("ALL");
+              }}
+              className={`px-4 sm:px-5 py-2 sm:py-2.5 rounded-2xl text-xs font-black transition-all shrink-0 flex items-center gap-2 active:scale-98 ${
+                selectedBoard === "UPSSSC_PET"
+                  ? "bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-md ring-2 ring-amber-400/60"
+                  : "bg-amber-50 hover:bg-amber-100 text-amber-950 border border-amber-200"
+              }`}
+            >
+              <span>🏛️ UPSSSC 2026 (UP PET)</span>
+              <span className={`text-[10px] px-2 py-0.5 rounded-full font-black tracking-wide ${
+                selectedBoard === "UPSSSC_PET" ? "bg-white text-orange-700 shadow-2xs" : "bg-amber-200 text-amber-900"
+              }`}>
+                NEW • 1,500 Qs
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedBoard("SSC");
+                setSelectedSubject("MATHS");
+              }}
+              className={`px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-2xl text-xs font-bold transition-all shrink-0 flex items-center gap-2 active:scale-98 ${
+                selectedBoard === "SSC"
+                  ? "bg-indigo-600 text-white shadow-md ring-2 ring-indigo-500/50"
+                  : "bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200"
+              }`}
+            >
+              <span>🎯 SSC CGL / CHSL (TCS)</span>
+              <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${
+                selectedBoard === "SSC" ? "bg-indigo-700 text-indigo-100" : "bg-white text-indigo-700"
+              }`}>
+                30 Chapters
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* 0B. DEDICATED UPSSSC PET 2026 HERO FEATURE CARD */}
+      {selectedBoard === "UPSSSC_PET" && (
+        <div className="bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white rounded-3xl p-5 sm:p-7 border border-amber-500/30 shadow-lg relative overflow-hidden space-y-5">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-amber-500/15 to-orange-500/5 rounded-full blur-3xl pointer-events-none" />
+
+          <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-5">
+            <div className="space-y-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="px-3 py-1 rounded-full bg-gradient-to-r from-amber-500 to-orange-600 text-white font-black text-xs uppercase tracking-wider shadow-sm flex items-center gap-1.5">
+                  <span>🏛️ UPSSSC 2026</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                </span>
+                <span className="px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold text-[11px]">
+                  आधिकारिक परीक्षा पैटर्न
+                </span>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 font-bold text-[11px]">
+                  1,500 MCQs • 12 Test Papers
+                </span>
+              </div>
+
+              <h1 className="text-xl sm:text-2xl lg:text-3xl font-black text-white tracking-tight">
+                उत्तर प्रदेश प्रारंभिक अर्हता परीक्षा (UP PET 2026)
+              </h1>
+              <p className="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed">
+                5 आधिकारिक वास्तविक हल प्रश्नपत्र (2021-2023) + 1 ऑफिशियल 2026 मॉडल टेस्ट पेपर (600 Qs) एवं 6 कोर विषयवार प्रश्न बैंक (900 Qs)। 
+                प्रत्येक प्रश्न में प्रामाणिक देवनागरी हिंदी प्रश्न, 4 शुद्ध विकल्प और चरण-दर-चरण विस्तृत समाधान।
+              </p>
+            </div>
+
+            {/* Quick 1-Click Launch Button for the 2026 Official Model Paper */}
+            <div className="shrink-0 flex flex-col sm:flex-row lg:flex-col gap-2.5">
+              {(() => {
+                const mock2026 = exams.find((e) => e.code === "UPSSSC_PET_2026_MOCK");
+                return (
+                  mock2026 && (
+                    <button
+                      type="button"
+                      onClick={() => router.push(`/exams/${mock2026.id}`)}
+                      className="px-5 py-3 rounded-2xl bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-300 hover:to-orange-400 text-slate-950 font-black text-xs sm:text-sm shadow-md transition-all flex items-center justify-center gap-2 active:scale-98"
+                    >
+                      <PlayCircle className="w-4 h-4 fill-slate-950 text-amber-400" />
+                      <span>2026 ऑफिशियल मॉडल टेस्ट शुरू करें</span>
+                    </button>
+                  )
+                );
+              })()}
+            </div>
+          </div>
+
+          {/* Metric Highlights Pill Row */}
+          <div className="relative z-10 grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 pt-2 border-t border-slate-700/60">
+            <div className="bg-slate-800/80 p-3 rounded-2xl border border-slate-700/80 text-left">
+              <div className="text-[10px] text-slate-400 uppercase font-bold">समय सीमा (Duration)</div>
+              <div className="text-sm sm:text-base font-extrabold text-white mt-0.5 flex items-center gap-1.5">
+                <Clock className="w-4 h-4 text-amber-400" />
+                <span>120 मिनट (2 घंटे)</span>
+              </div>
+            </div>
+
+            <div className="bg-slate-800/80 p-3 rounded-2xl border border-slate-700/80 text-left">
+              <div className="text-[10px] text-slate-400 uppercase font-bold">प्रश्नों की संख्या</div>
+              <div className="text-sm sm:text-base font-extrabold text-white mt-0.5 flex items-center gap-1.5">
+                <Target className="w-4 h-4 text-emerald-400" />
+                <span>100 प्रश्न / 100 अंक</span>
+              </div>
+            </div>
+
+            <div className="bg-slate-800/80 p-3 rounded-2xl border border-slate-700/80 text-left">
+              <div className="text-[10px] text-slate-400 uppercase font-bold">अंकन पद्धति (Marking)</div>
+              <div className="text-sm sm:text-base font-extrabold text-white mt-0.5">
+                <span className="text-emerald-400 font-bold">+1.0 सही</span> &bull; <span className="text-rose-400 font-bold">-0.25 नेगेटिव</span>
+              </div>
+            </div>
+
+            <div className="bg-slate-800/80 p-3 rounded-2xl border border-slate-700/80 text-left">
+              <div className="text-[10px] text-slate-400 uppercase font-bold">माध्यम व समाधान</div>
+              <div className="text-sm sm:text-base font-extrabold text-white mt-0.5 flex items-center gap-1.5">
+                <Sparkles className="w-4 h-4 text-amber-400" />
+                <span>100% हिंदी माध्यम</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Sub-Category Filter Selector for UPSSSC PET */}
+          <div className="relative z-10 flex flex-wrap items-center gap-2 pt-1 border-t border-slate-700/60">
+            <span className="text-xs font-bold text-slate-400 mr-1">श्रेणी चुनें:</span>
+            <button
+              type="button"
+              onClick={() => setUpssscTab("ALL")}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                upssscTab === "ALL"
+                  ? "bg-amber-400 text-slate-950 shadow-sm"
+                  : "bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700"
+              }`}
+            >
+              संपूर्ण UP PET टेस्ट (12 Papers)
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setUpssscTab("FULL_MOCKS")}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                upssscTab === "FULL_MOCKS"
+                  ? "bg-amber-400 text-slate-950 shadow-sm"
+                  : "bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700"
+              }`}
+            >
+              <span>🏆</span>
+              <span>6 फुल CBT पेपर्स (600 Qs)</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setUpssscTab("SUBJECT_BANKS")}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                upssscTab === "SUBJECT_BANKS"
+                  ? "bg-amber-400 text-slate-950 shadow-sm"
+                  : "bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700"
+              }`}
+            >
+              <span>📚</span>
+              <span>6 विषयवार प्रश्न बैंक (900 Qs)</span>
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* 0C. SUBJECT CURRICULUM SELECTION CARDS */}
       <div className="space-y-2.5">
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
@@ -395,7 +655,7 @@ function ExamsCatalogContent() {
           <span className="text-[11px] text-slate-500 font-medium">Select a subject to view topic chapter tests</span>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2.5 sm:gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2.5 sm:gap-3">
           {SUBJECTS.map((sub) => {
             const isSelected = selectedSubject === sub.id;
             return (
@@ -418,12 +678,18 @@ function ExamsCatalogContent() {
                 </div>
                 <div className="mt-2.5">
                   {(() => {
-                    const subCount = exams.filter(
-                      (e) => getExamSubject(e) === sub.id && (isAdminOrTeacher || e.status === "PUBLISHED")
-                    ).length;
+                    let subCount = 0;
+                    if (sub.id === "ALL") {
+                      subCount = currentBoardExams.filter((e) => isAdminOrTeacher || e.status === "PUBLISHED").length;
+                    } else {
+                      subCount = currentBoardExams.filter(
+                        (e) => getExamSubject(e) === sub.id && (isAdminOrTeacher || e.status === "PUBLISHED")
+                      ).length;
+                    }
+
                     const badgeText =
-                      sub.id === "MATHS"
-                        ? "30 Chapters • 6,486 Qs"
+                      sub.id === "ALL"
+                        ? `${subCount} Tests Total`
                         : subCount > 0
                         ? `${subCount} Tests Available`
                         : sub.countBadge;
@@ -677,7 +943,10 @@ function ExamsCatalogContent() {
           <div className="space-y-3">
             {filteredExams.map((exam) => {
               const isAssigned = isAssignedExam(exam);
-              const isExamMode = exam.mode === "EXAM" || isAssigned;
+              const isUpsssc = isUpssscExam(exam);
+              const isFullMock = isUpssscFullMock(exam);
+              const isSubjBank = isUpssscSubjectBank(exam);
+              const isExamMode = exam.mode === "EXAM" || isAssigned || isFullMock;
               const isScheduled = exam.availability === "SCHEDULED";
               const isDraft = exam.status === "DRAFT";
               const isLive = exam.scheduledStatus === "LIVE" && !isDraft;
@@ -690,6 +959,8 @@ function ExamsCatalogContent() {
                   className={`p-4 sm:p-5 rounded-2xl border transition-all ${
                     isDraft
                       ? "bg-slate-50/70 border-slate-300/80 border-dashed"
+                      : isUpsssc
+                      ? "bg-white hover:border-amber-300 shadow-2xs hover:shadow-xs border-amber-200/80"
                       : "bg-white hover:border-slate-300 shadow-2xs hover:shadow-xs border-slate-200/90"
                   }`}
                 >
@@ -702,12 +973,24 @@ function ExamsCatalogContent() {
                           className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider border ${
                             isAssigned
                               ? "bg-indigo-50 text-indigo-700 border-indigo-200"
+                              : isUpsssc
+                              ? isFullMock
+                                ? "bg-amber-50 text-amber-800 border-amber-300 font-black"
+                                : "bg-orange-50 text-orange-800 border-orange-300 font-black"
                               : isExamMode
                               ? "bg-purple-50 text-purple-700 border-purple-200"
                               : "bg-slate-100 text-slate-700 border-slate-200"
                           }`}
                         >
-                          {isAssigned ? "🎯 Assigned CBT Exam" : isExamMode ? "Official CBT Exam" : "Practice Mock"}
+                          {isAssigned
+                            ? "🎯 Assigned CBT Exam"
+                            : isUpsssc
+                            ? isFullMock
+                              ? "🏆 UP PET Full CBT Mock (100 Qs)"
+                              : "📚 UP PET Subject Bank (150 Qs)"
+                            : isExamMode
+                            ? "Official CBT Exam"
+                            : "Practice Mock"}
                         </span>
 
                         {/* Scheduled / Availability Status Badge */}
@@ -890,18 +1173,24 @@ function ExamsCatalogContent() {
                         ) : (
                           <button
                             onClick={() => router.push(`/exams/${exam.id}`)}
-                            className={`px-4 sm:px-5 py-2.5 rounded-xl text-white font-bold text-xs shadow-xs hover:shadow-md transition-all inline-flex items-center gap-2 active:scale-98 ${
-                              isExamMode
+                            className={`w-full sm:w-auto px-4 sm:px-5 py-2.5 rounded-xl text-white font-bold text-xs shadow-xs hover:shadow-md transition-all inline-flex items-center justify-center gap-2 active:scale-98 ${
+                              isUpsssc
+                                ? "bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 shadow-amber-500/20"
+                                : isExamMode
                                 ? "bg-indigo-600 hover:bg-indigo-700"
                                 : "bg-[#5a4bda] hover:bg-[#4838cc]"
                             }`}
                           >
-                            <PlayCircle className="w-4 h-4" />
+                            <PlayCircle className="w-4 h-4 shrink-0" />
                             <span>
                               {isUpcoming
                                 ? "Preview (Admin)"
                                 : isAssigned
                                 ? "Take Assigned Test"
+                                : isUpsssc
+                                ? isFullMock
+                                  ? "Take Official PET CBT Test"
+                                  : "Practice Subject Bank"
                                 : isAdminOrTeacher
                                 ? "Open Chapter Studio"
                                 : "Practice Chapter"}

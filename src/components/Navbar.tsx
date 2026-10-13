@@ -74,6 +74,7 @@ export const Navbar: React.FC = () => {
   // Strict Role-Based Navigation: Students must never see Upload & OCR or Question Bank
   const studentNavLinks = [
     { href: "/dashboard", label: "Dashboard", icon: Layers },
+    { href: "/exams?board=UPSSSC_PET", label: "UP PET 2026", icon: Sparkles, badge: "NEW" },
     { href: "/exams", label: "Mock Tests", icon: FileCheck2 },
     { href: "/books", label: "Books & Learning", icon: BookOpen },
     { href: "/practice", label: "Quick Practice", icon: PlayCircle },
@@ -83,6 +84,7 @@ export const Navbar: React.FC = () => {
 
   const facultyNavLinks = [
     { href: "/dashboard", label: "Dashboard", icon: Layers },
+    { href: "/exams?board=UPSSSC_PET", label: "UP PET 2026", icon: Sparkles, badge: "NEW" },
     { href: "/exams", label: "Exams", icon: FileCheck2 },
     { href: "/books", label: "Books & Learning", icon: BookOpen },
     { href: "/upload", label: "Upload & OCR", icon: Upload },
@@ -116,10 +118,10 @@ export const Navbar: React.FC = () => {
 
             {/* Desktop Navigation Links */}
             <div className="hidden lg:flex items-center gap-1.5">
-              {activeNavLinks.map((link) => {
+              {activeNavLinks.map((link: any) => {
                 const Icon = link.icon;
                 const isActive =
-                  pathname === link.href || (link.href !== "/dashboard" && pathname?.startsWith(link.href));
+                  pathname === link.href || (link.href !== "/dashboard" && pathname?.startsWith(link.href.split("?")[0]));
                 return (
                   <Link
                     key={link.href}
@@ -132,6 +134,11 @@ export const Navbar: React.FC = () => {
                   >
                     <Icon className="w-3.5 h-3.5" />
                     <span>{link.label}</span>
+                    {link.badge && (
+                      <span className="px-1.5 py-0.2 text-[9px] font-black rounded-full bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950 uppercase shadow-2xs">
+                        {link.badge}
+                      </span>
+                    )}
                   </Link>
                 );
               })}
@@ -278,7 +285,7 @@ export const Navbar: React.FC = () => {
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
         <div className="lg:hidden border-t border-slate-200 bg-white px-4 pt-2 pb-4 space-y-1 shadow-lg animate-in slide-in-from-top-2">
-          {activeNavLinks.map((link) => {
+          {activeNavLinks.map((link: any) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
             return (
@@ -286,14 +293,21 @@ export const Navbar: React.FC = () => {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`flex items-center gap-2.5 px-3 py-2 rounded-md text-sm font-medium ${
+                className={`flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-medium transition-all ${
                   isActive
-                    ? "bg-teal-50 text-teal-800 font-bold"
+                    ? "bg-[#f4f2ff] text-[#5a4bda] font-bold"
                     : "text-slate-700 hover:bg-slate-50"
                 }`}
               >
-                <Icon className="w-4 h-4 text-slate-500" />
-                <span>{link.label}</span>
+                <div className="flex items-center gap-2.5">
+                  <Icon className="w-4 h-4 text-slate-500" />
+                  <span>{link.label}</span>
+                </div>
+                {link.badge && (
+                  <span className="px-2 py-0.5 text-[9px] font-black rounded-full bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950 uppercase shadow-2xs">
+                    {link.badge}
+                  </span>
+                )}
               </Link>
             );
           })}

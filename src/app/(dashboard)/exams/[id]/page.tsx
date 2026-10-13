@@ -27,7 +27,13 @@ import {
   Edit3,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { formatCleanChapterTitle, isAssignedExam } from "@/lib/exam/tag-parser";
+import {
+  formatCleanChapterTitle,
+  isAssignedExam,
+  isUpssscExam,
+  isUpssscFullMock,
+  isUpssscSubjectBank,
+} from "@/lib/exam/tag-parser";
 
 const EXAM_FILTERS = ["ALL", "CHSL", "CGL", "CPO", "MTS", "Selection Post"];
 
@@ -288,20 +294,29 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
   }
 
   const cleanTitle = formatCleanChapterTitle(exam.title);
+  const isUpsssc = isUpssscExam(exam);
+  const isFullMock = isUpssscFullMock(exam);
+  const isSubjBank = isUpssscSubjectBank(exam);
 
   return (
     <div className="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-6 space-y-6 font-sans">
       {/* 1. Breadcrumb Navigation */}
-      <div className="flex items-center gap-2 text-xs text-slate-500">
+      <div className="flex items-center gap-2 text-xs text-slate-500 flex-wrap">
         <Link
-          href="/exams"
+          href={`/exams${isUpsssc ? "?board=UPSSSC_PET" : ""}`}
           className="inline-flex items-center gap-1.5 font-bold text-indigo-600 hover:text-indigo-800 transition-colors"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
-          <span>All Examinations</span>
+          <span>{isUpsssc ? "UPSSSC PET 2026 Portal" : "All Examinations"}</span>
         </Link>
         <span>/</span>
-        <span className="font-semibold text-slate-700">Quantitative Aptitude (Maths)</span>
+        <span className="font-semibold text-slate-700">
+          {isUpsssc
+            ? isFullMock
+              ? "Full CBT Verified Papers"
+              : "Subject-wise Question Banks"
+            : "Quantitative Aptitude (Maths)"}
+        </span>
         <span>/</span>
         <span className="font-semibold text-slate-900 truncate max-w-xs">{cleanTitle}</span>
       </div>
@@ -310,17 +325,29 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
       <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-800 space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <span className="px-3 py-1 rounded-lg bg-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider">
-              Aditya Ranjan 6500+ TCS
+            <span className={`px-3 py-1 rounded-lg font-black text-xs uppercase tracking-wider ${
+              isUpsssc
+                ? "bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950"
+                : "bg-amber-400 text-slate-950"
+            }`}>
+              {isUpsssc
+                ? isFullMock
+                  ? "UP PET 2026 Official CBT Paper"
+                  : "UP PET 2026 Subject Bank"
+                : "Aditya Ranjan 6500+ TCS"}
             </span>
             <span className="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 font-mono text-xs border border-slate-700">
-              {exam.category || "SSC"}
+              {exam.category || (isUpsssc ? "UPSSSC_PET" : "SSC")}
             </span>
           </div>
 
           <div className="flex items-center gap-2 text-xs text-emerald-400 font-bold bg-emerald-950/60 border border-emerald-800 px-3 py-1 rounded-full">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>Strict Sequential Order (1..{exam.totalQuestions})</span>
+            <span>
+              {isUpsssc
+                ? "100% Devanagari Hindi Verified Solutions"
+                : `Strict Sequential Order (1..${exam.totalQuestions})`}
+            </span>
           </div>
         </div>
 
@@ -583,7 +610,11 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
           <Button
             onClick={handleStartSelfTest}
             disabled={isLaunching}
-            className="w-full py-4 text-sm font-bold bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl shadow-md flex items-center justify-center gap-2 active:scale-98"
+            className={`w-full py-4 text-sm font-bold text-white rounded-2xl shadow-md flex items-center justify-center gap-2 active:scale-98 ${
+              isUpsssc
+                ? "bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 shadow-amber-500/20"
+                : "bg-indigo-600 hover:bg-indigo-700"
+            }`}
           >
             <Play className="w-4 h-4 fill-white" />
             <span>
@@ -591,6 +622,10 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
                 ? "Launching CBT Session..."
                 : isCustomRangeActive
                 ? `Start Practice: Q.${rangeFrom} to Q.${rangeTo} (${effectiveQuestionCount} Questions) 🚀`
+                : isUpsssc
+                ? isFullMock
+                  ? `Start Official UP PET Full CBT Exam (${exam.totalQuestions} Qs • ${exam.totalDurationMinutes} Mins) 🚀`
+                  : `Start UP PET Subject Bank Practice (${exam.totalQuestions} Qs) 🚀`
                 : `Start Full Chapter Test (${exam.totalQuestions} Qs)`}
             </span>
           </Button>

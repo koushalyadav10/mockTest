@@ -148,6 +148,9 @@ export function cleanExamCitationTag(tag: string | null | undefined, topic?: str
  */
 export function formatCleanChapterTitle(rawTitle: string): string {
   if (!rawTitle) return "";
+  if (rawTitle.includes("UPSSSC") || rawTitle.includes("UP PET")) {
+    return rawTitle.trim();
+  }
   if (rawTitle.includes("[Assigned]")) return rawTitle.replace(/^📢\s*/, "").trim();
   const chMatch = rawTitle.match(/(?:Chapter|Ch)\s*(\d+)[:\s\-]+([^(—]+)/i);
   if (chMatch) {
@@ -170,8 +173,37 @@ export function isAssignedExam(exam: { title?: string; code?: string; category?:
 }
 
 /**
+ * Determines whether an exam belongs to UPSSSC / UP PET 2026.
+ */
+export function isUpssscExam(exam: { title?: string; code?: string; category?: string } | null | undefined): boolean {
+  if (!exam) return false;
+  if (exam.category === "UPSSSC_PET" || exam.category?.includes("UPSSSC")) return true;
+  if (exam.code?.startsWith("UPSSSC_")) return true;
+  if (exam.title?.includes("UPSSSC") || exam.title?.includes("UP PET")) return true;
+  return false;
+}
+
+/**
+ * Determines whether an exam is a UPSSSC PET Full CBT Mock / Verified Paper (100 Qs).
+ */
+export function isUpssscFullMock(exam: { title?: string; code?: string; category?: string } | null | undefined): boolean {
+  if (!exam) return false;
+  const code = (exam.code || "").toUpperCase();
+  return code.startsWith("UPSSSC_PET_202") && !code.includes("_SUBJ_");
+}
+
+/**
+ * Determines whether an exam is a UPSSSC PET Subject-Wise Question Bank (150 Qs).
+ */
+export function isUpssscSubjectBank(exam: { title?: string; code?: string; category?: string } | null | undefined): boolean {
+  if (!exam) return false;
+  const code = (exam.code || "").toUpperCase();
+  return code.includes("UPSSSC_PET_SUBJ_");
+}
+
+/**
  * Determines which subject curriculum module an exam belongs to:
- * "GK_GS" | "MATHS" | "REASONING" | "ENGLISH" | "HINDI"
+ * "GK_GS" | "MATHS" | "REASONING" | "ENGLISH" | "HINDI" | "FULL_MOCK"
  */
 export function getExamSubject(exam: {
   title?: string;
@@ -179,8 +211,24 @@ export function getExamSubject(exam: {
   category?: string;
   instructions?: string | null;
   sections?: { name: string }[];
-} | null | undefined): "GK_GS" | "MATHS" | "REASONING" | "ENGLISH" | "HINDI" {
+} | null | undefined): "GK_GS" | "MATHS" | "REASONING" | "ENGLISH" | "HINDI" | "FULL_MOCK" {
   if (!exam) return "MATHS";
+
+  const code = (exam.code || "").toUpperCase();
+  const title = (exam.title || "").toLowerCase();
+
+  // UPSSSC PET explicit subject mappings
+  if (code.includes("SUBJ_01_HINDI") || title.includes("सामान्य हिंदी")) return "HINDI";
+  if (code.includes("SUBJ_02_ENGLISH") || title.includes("general english")) return "ENGLISH";
+  if (code.includes("SUBJ_03_MATHS_DI") || title.includes("अंकगणित") || title.includes("ग्राफ/तालिका")) return "MATHS";
+  if (code.includes("SUBJ_04_REASONING") || title.includes("तर्क एवं तर्कशक्ति")) return "REASONING";
+  if (code.includes("SUBJ_05_GS_GK") || title.includes("सामान्य अध्ययन")) return "GK_GS";
+  if (code.includes("SUBJ_06_CURRENT_AFFAIRS") || title.includes("समसामयिकी")) return "GK_GS";
+
+  // UPSSSC PET Full 100-Question Mocks cover all subjects
+  if (isUpssscFullMock(exam)) {
+    return "FULL_MOCK";
+  }
 
   // 1. Check instructions JSON
   if (exam.instructions) {
@@ -206,8 +254,6 @@ export function getExamSubject(exam: {
   if (["HINDI"].includes(cat)) return "HINDI";
 
   // 3. Check title / code heuristics
-  const title = (exam.title || "").toLowerCase();
-  const code = (exam.code || "").toLowerCase();
   if (
     title.includes("gs") ||
     title.includes("gk") ||

@@ -103,12 +103,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   // Determine whether to display Data Interpretation visual card
   const isDataInterpretation =
     topic?.toLowerCase().includes("data interpretation") ||
+    topic?.toLowerCase().includes("di") ||
     typeHeader.toLowerCase().includes("chart") ||
     typeHeader.toLowerCase().includes("graph") ||
     typeHeader.toLowerCase().includes("tabular") ||
     displayQuestionText.toLowerCase().includes("from the given table") ||
     displayQuestionText.toLowerCase().includes("from the given graph") ||
-    Boolean(hasVisualContent) ||
+    displayQuestionText.toLowerCase().includes("bar graph") ||
+    displayQuestionText.toLowerCase().includes("line graph") ||
+    displayQuestionText.toLowerCase().includes("pie chart") ||
     Boolean(imageUrl);
 
   // Bilingual translation support

@@ -1,0 +1,928 @@
+1. What is the compound interest on ₹62,500 for 2 years at 8% per annum compounded yearly?
+SSC CHSL 03/08/2023 (Shift-03)
+(A) ₹10,500
+(B) ₹10,300
+(C) ₹10,400
+(D) ₹10,600
+
+2. Kalyan invested a sum of ₹12,000 for two years at the rate of 5% and 10% respectively. What is the compound interest (in ₹) at the end of two years?
+SSC CHSL 07/08/2023 (Shift-03)
+(A) ₹1920
+(B) ₹1860
+(C) ₹1900
+(D) ₹1880
+
+3. If the interest rate is 2.5% per annum for the first year and 2% per annum for the second year, find the compound interest of ₹6,000 in two years.
+SSC CHSL-II 10/01/2024 (Shift-01)
+(A) ₹240
+(B) ₹270
+(C) ₹273
+(D) ₹135
+
+4. If interest be compounded half-yearly, then find the compound interest on ₹8,000 at 20% p.a. for 1 year.
+SSC CPO 05/10/2023 (Shift-01)
+(A) ₹1685
+(B) ₹1680
+(C) ₹1675
+(D) ₹1690
+
+5. What is the present value of the sum if the interest compounded at the rate of 18% per annum for two years is ₹981?
+SSC CHSL 03/08/2023 Shift-04
+(A) ₹2800
+(B) ₹2500
+(C) ₹3600
+(D) ₹2400
+
+6. What will be the present value of ₹13,230 due two years hence, when the interest is compounded at the rate of 5% per annum?
+SSC CHSL 07/08/2023 (Shift-01)
+(A) ₹13,000
+(B) ₹10,500
+(C) ₹11,500
+(D) ₹12,000
+
+7. Compound interest (compounding annually) on a sum for 2 years is ₹4180. If rate of interest is 20 percent per annum, then what is the sum?
+SSC CHSL 09/03/2023 (Shift-04)
+(A) ₹8800
+(B) ₹9800
+(C) ₹9500
+(D) ₹8500
+
+8. Priya borrowed a certain sum of money at 12% per annum. If she paid a sum of ₹10176 as interest compounded annually at the end of 2 years, then what was the amount she borrowed?
+SSC MTS 04/05/2023 (Shift-03)
+(A) ₹40000
+(B) ₹20000
+(C) ₹50000
+(D) ₹30000
+
+9. A sum of ₹20000 is lent for 1 year at the rate of 16 percent annual compound interest. If the interest is compounded half-yearly, how much interest will be received?
+SSC MTS 08/05/2023 (Shift-03)
+(A) ₹3180
+(B) ₹3396
+(C) ₹3224
+(D) ₹3328
+
+10. What is the difference between the compound interest on ₹6,400 for 1 year at 5% per annum C.I. compounded yearly and half-yearly?
+SSC CHSL 10/08/2023 (Shift-03)
+(A) ₹8
+(B) ₹9
+(C) ₹4
+(D) ₹7
+
+11. On a certain sum of money lent out of 16% per annum, the difference between the compound interest for 1 year, payable half-yearly, and the simple interest for 1 year is ₹60. The sum is?
+SSC CPO 11/11/2022 (Shift-02)
+(A) ₹937.5
+(B) ₹9,000
+(C) ₹9,365
+(D) ₹9,375
+
+12. The difference in interests earned on ₹1,50,000 at 8% rate of interest per annum in a year when the interest is compounded half-yearly and annually, respectively, is ₹.....
+SSC MTS 01/09/2023 (Shift-03)
+(A) 240
+(B) 120
+(C) 420
+(D) 360
+
+13. The compound interest (compounding annually) on a certain sum at the rate of 8 percent per annum for two years is ₹6656. What would be the simple interest on the same sum at the same rate of interest for two years?
+SSC CGL TIER-II (08/08/2022)
+(A) ₹6224
+(B) ₹6336
+(C) ₹5600
+(D) ₹6400
+
+14. Rahul invested equal sums of money at compound interest under two schemes A and B. Under scheme A, the interest rate was 10% per annum and under scheme B, the interest rate was 12% p.a. The compound interest after two years on the sum invested in scheme A was ₹1,050. How much is the interest earned under scheme B after two years, if the interest is compounded annually in both schemes?
+SSC CGL TIER-II 18/11/2020
+(A) ₹1270
+(B) ₹1372
+(C) ₹1722
+(D) ₹1272
+
+15. What is the compound interest on ₹25,000 for 3 years at 10% per annum compounded annually?
+SSC CHSL 04/08/2023 (Shift-02)
+(A) ₹8,125
+(B) ₹8,000
+(C) ₹8,200
+(D) ₹8,275
+
+16. ₹21,000 is lent at compound interest of 10% p.a. for three years. Find the amount?
+SSC Phase-X 05/08/2022 (Shift-03)
+(A) ₹27,000
+(B) ₹27,951
+(C) ₹6,951
+(D) ₹28,951
+
+17. The compound interest on a sum of ₹5,500 at 15% p.a. for 2 years, when the interest compounded 8 monthly is:
+SSC CGL TIER-II 15/11/2020
+(A) ₹1880
+(B) ₹1,820.50
+(C) ₹1,773.75
+(D) ₹1,850
+
+18. Find the compound interest on ₹10,000 for 1 1/2 years at 20% per annum, interest payable half-yearly.
+SSC CHSL 08/08/2023 Shift-01
+(A) ₹3315
+(B) ₹3310
+(C) ₹3305
+(D) ₹3320
+
+19. Find the amount if a sum of ₹7500 is invested on compound interest at 8% p.a. for 1.5 years when the interest is compounded half yearly.
+SSC CPO 10/11/2022 (Shift-02)
+(A) ₹8,436.48
+(B) ₹8,736.48
+(C) ₹8,657.48
+(D) ₹8,564.48
+
+20. What would be the compound interest on ₹15,750 at 20% per annum, in two years, if the interest is compounded half yearly?
+SSC CGL 03/12/2022 (Shift-03)
+(A) ₹5,213.25
+(B) ₹3,307.5
+(C) ₹7,305.975
+(D) ₹7,309.575
+
+21. If C is the compound interest on ₹10,000 for one year at 4% per annum when compounded quarterly, then which one of the following is correct?
+UPSC CDS-II 2022
+(A) C < ₹100
+(B) ₹100 < C < ₹200
+(C) ₹200 < C < ₹400
+(D) C > ₹400
+
+22. What sum at the rate of 2 1/2% become ₹9826 in 18 months if the interest is compounded half yearly.
+SSC CHSL 14/08/2023 (Shift-04)
+(A) ₹9,392.00
+(B) ₹9,444.00
+(C) ₹9,512.45
+(D) ₹9,466.55
+
+23. What is the compound interest on a sum of ₹25,000 after three years at a rate of 12 percent per annum interest compounded yearly?
+SSC CPO 03/10/2023 (Shift-03)
+(A) ₹10,123.20
+(B) ₹9,824.00
+(C) ₹9,956.86
+(D) ₹10,520.00
+
+24. A sum of money was invested at 10% interest per year, compounded half-yearly, for 18 months. If the amount payable on maturity was ₹64,827, what was the sum invested?
+SSC CPO 04/10/2023 (Shift-01)
+(A) ₹55,600
+(B) ₹56,500
+(C) ₹56,800
+(D) ₹56,000
+
+25. What sum of money invested at 8% per annum in 1 1/2 years, compounded half-yearly, shall become ₹17,576?
+SSC MTS 06/09/2023 (Shift-03)
+(A) ₹15,525
+(B) ₹15,625
+(C) ₹15,000
+(D) ₹16,500
+
+26. A person borrowed ₹8000 on compound interest at the rate of 20 percent per annum. If the interest is compounded half yearly, then what will be the amount to be paid after 1.5 years?
+SSC CHSL 16/03/2023 (Shift-02)
+(A) ₹10648
+(B) ₹11488
+(C) ₹10825
+(D) ₹9865
+
+27. A sum of ₹30000 is lent at compound interest (compounded annually) for 3 years. If the rate of interest is 10 percent for the first year, 20 percent for the second year and 30 percent for the third year, then what will be the total compound interest?
+SSC MTS 14/06/2023 (Shift-02)
+(A) ₹21480
+(B) ₹19270
+(C) ₹20560
+(D) ₹22580
+
+28. Vipul and Manish invested the sum of ₹15000 and ₹20000 at the rate of 20 percent p.a and 30 percent p.a. respectively on compound interest (compounding annually). If time period is 3 years for both, then what will be the total compound interest earned by Vipul and Manish?
+SSC CGL TIER-II 08/08/2022
+(A) ₹34860
+(B) ₹32480
+(C) ₹29460
+(D) ₹31688
+
+29. What is the difference between the compound interest, compounded half yearly on ₹72,000 for 1.5 years at 10% per annum and its simple interest for 3 years at 5% per annum?
+SSC MTS 06/09/2023 (Shift-01)
+(A) ₹549
+(B) ₹449
+(C) ₹559
+(D) ₹540
+
+30. The amount of a certain sum in 2 years at 20% p.a. is ₹7776, interest compounded yearly. What will be the amount of the same sum in 1 1/2 years at the same rate of interest, compounded half yearly? (Nearest to a ₹)
+ICAR 29/07/2022 (Shift-04)
+(A) ₹7,187
+(B) ₹7,178
+(C) ₹7,285
+(D) ₹7,085
+
+31. A sum of ₹15,000 was lent for 3 years at the rate of 4%, 5%, 6% per annum, respectively, at compound interest for the first year, second year and third year compounded annually. Find the compound interest for 3 years.
+SSC MTS 12/09/2023 (Shift-03)
+(A) ₹2,335.60
+(B) ₹2,338.80
+(C) ₹2,362.80
+(D) ₹2,388.60
+
+32. Find the compound interest (in ₹) on a sum of ₹7,500 for 4 years if the rate of interest is 20% per annum for the first two years and 10% per annum for the next two years. (The interest is compounded annually.)
+SSC CHSL 10/08/2021 (Shift-02)
+(A) ₹6,558
+(B) ₹5,658
+(C) ₹5,586
+(D) ₹5,568
+
+33. If an increase of 40% is observed on an amount in 4 years at simple interest, what will be the compound interest on ₹80,000 after 4 years at the same rate of interest?
+SSC CHSL TIER-II (18/11/2024)
+(A) ₹17,128
+(B) ₹39,724
+(C) ₹29,728
+(D) ₹37,128
+
+34. Find the amount (integral value only) if a sum of ₹6,500 is being borrowed at 10% interest per annum for 2 years if interest is compounded half-yearly.
+SSC CPO 05/10/2023 (Shift-02)
+(A) ₹7,900
+(B) ₹8,150
+(C) ₹8,250
+(D) ₹7,650
+
+35. Mohan invested ₹5,000 in a bank which offered interest at the rate of 10% per year compounded semi-annually. How much amount will he get after 2 years? [Give your answer correct to the nearest integer value.]
+SSC MTS 07/07/2022 (Shift-01)
+(A) ₹6512
+(B) ₹6320
+(C) ₹6250
+(D) ₹6078
+
+36. A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 years is ₹5082. Find the sum (in ₹)
+SSC CGL 11/04/2022 (Shift-01)
+(A) 20000
+(B) 25500
+(C) 50820
+(D) 10164
+
+37. A borrowed a sum of ₹1,60,000 from B at 10% per annum simple interest. At the same time, he lent the same sum to C at the same rate on compound interest, compounded semi-annually for 2 years. Find the profit (in ₹) earned by A in the whole transaction.
+SSC CGL 17/08/2021 (Shift-02)
+(A) 4280
+(B) 4281
+(C) 2481
+(D) 2840
+
+38. Jonathan had borrowed a sum of money 3 years ago at 10% interest per annum compounded annually for a 5-year period, with the amount to be paid at the end of the period being ₹1,61,051. However, there is no pre-payment penalty and Jonathan has received some bonus payment now, with which he has decided to clear his debt. How much does Jonathan have to pay now to clear his debt?
+SSC CPO 03/10/2023 (Shift-01)
+(A) ₹1,33,100
+(B) ₹1,33,200
+(C) ₹1,33,000
+(D) ₹1,32,900
+
+39. Peter invested a certain sum of money in a scheme paying 10% simple interest per annum, while Rachel invested half of the sum that Peter invested in a scheme paying 10% interest per annum compounded annually. Also, while Peter invested for 2 years, Rachel invested for 3 years. If the difference in the interest earned by Peter and Rachel was ₹897, what was the sum that Rachel had invested?
+SSC CPO 04/10/2023 (Shift-02)
+(A) ₹12,900
+(B) ₹13,000
+(C) ₹13,100
+(D) ₹12,960
+
+40. A certain amount of money was lent for a period of 1 year 9 months at a rate of 10% per annum compounded annually. If the compound interest is ₹1460, find the amount of money lent?
+SSC CHSL 02/08/2023 (Shift-01)
+(A) ₹8200
+(B) ₹7500
+(C) ₹6000
+(D) ₹8000
+
+41. What is the compound interest (in ₹) on a sum of ₹8192 for 1 1/4 years at 15% per annum, if interest is compounded 5-monthly?
+SSC CGL 13/08/2021 (Shift-01)
+(A) 1,640
+(B) 1,740
+(C) 1,634
+(D) 1,735
+
+42. What is the compound interest on a sum of ₹10,000 at 14% p.a. for 2 5/7 years where the interest is compounded yearly? (nearest to ₹1)
+SSC CGL 06/06/2019 (Shift-02)
+(A) ₹4,295.6
+(B) ₹4,296
+(C) ₹4,439
+(D) ₹4,394
+
+43. What is the compound interest (in ₹) on a sum of ₹25,000 for 3 2/5 years at 10% p.a., if the interest is compounded annually?
+SSC Phase-IX 2022
+(A) 9606
+(B) 8275
+(C) 9516
+(D) 8425
+
+44. On a sum of money for 2 years compound interest is ₹550 and simple interest is ₹500 respectively. Find the rate of interest (in per annum).
+SSC CHSL 08/08/2023 (Shift-03)
+(A) 40%
+(B) 10%
+(C) 20%
+(D) 30%
+
+45. The difference between the simple interest and the compound interest on a certain amount at 9% per annum for two years is ₹162, what is the principal?
+SSC CHSL 09/08/2023 (Shift-01)
+(A) ₹19700
+(B) ₹19000
+(C) ₹20000
+(D) ₹18500
+
+46. The difference between the compound interest and the simple interest on a given principal is ₹1,725 in 2 years and the rate of interest in both cases is 25% per annum. Find the principal.
+SSC CHSL 26/05/2022 (Shift-01)
+(A) ₹25,600
+(B) ₹26,500
+(C) ₹26,400
+(D) ₹27,600
+
+47. The difference between compound interest compounded annually and simple interest on a certain sum at a rate of 15% per annum for 2 years is ₹1,944. Find the compound interest compounded annually (in ₹) on the same sum for the same period at a rate of 10% per annum.
+SSC CGL 20/04/2022 (Shift-01)
+(A) 18,060
+(B) 27,216
+(C) 18,144
+(D) 20,500
+
+48. A deposited ₹1,56,250 at 8% simple interest for 2 years. How much more money will A have in his account at the end of two years, if at the same rate of interest the sum is invested on compound interest, compounded annually
+SSC CHSL 11/08/2023 (Shift-02)
+(A) ₹1,740.90
+(B) ₹1,000
+(C) ₹2,000
+(D) ₹1,540.40
+
+49. Nutan gets two offers of loan from a bank and an app. The app offered ₹10,000 at 15 percent per annum compounded annually for 2 years and the bank offered the same amount at the same rate for the same time but on simple interest. Find the difference between the interests.
+SSC CHSL 10/03/2023 (Shift-03)
+(A) ₹375
+(B) ₹400
+(C) ₹250
+(D) ₹225
+
+50. A certain sum was invested at the rate of 10% for a period of 2 years at compound interest compounded annually. The same sum was invested for the same period and same rate of interest at simple interest. if the difference of compound interest and simple interest was ₹200, find the sum.
+SSC CHSL 04/08/2023 Shift-04
+(A) ₹30,000
+(B) ₹25,000
+(C) ₹22,000
+(D) ₹20,000
+
+51. If the difference between the compound interest and simple interest on a certain sum of money for 3 years at the rate of 4% per annum is ₹76, then what is the sum?
+SSC CHSL 04/08/2023 (Shift-01)
+(A) ₹16,725
+(B) ₹12,925
+(C) ₹15,625
+(D) ₹18,825
+
+52. Find the difference between the compound interest and simple interest when a sum of ₹15,625 is invested for 3 years at 4% per annum.
+SSC CPO 10/11/2022 (Shift-03)
+(A) ₹76
+(B) ₹96
+(C) ₹56
+(D) ₹86
+
+53. On what sum of money will the difference between the simple interest and compound interest (Compounded annually) for 3 years at 5% per annum be ₹15.25?
+SSC MTS 13/09/2023 (Shift-01)
+(A) ₹2,000
+(B) ₹2,500
+(C) ₹4,000
+(D) ₹1,000
+
+54. Find the difference between the simple interest and the compound interest payable annually on a sum of ₹6,500 at 7% per annum for 3 years. (Correct two decimal places.)
+SSC CPO 09/11/2022 (Shift-02)
+(A) ₹94.34
+(B) ₹97.78
+(C) ₹98.73
+(D) ₹95.67
+
+55. Calculate the difference between the compound interest and the simple interest on a sum of ₹5,000 at the rate of 8% for 3 years (to nearest integer).
+SSC CHSL 26/05/2022 (Shift-03)
+(A) ₹108
+(B) ₹105
+(C) ₹102
+(D) ₹99
+
+56. ₹6000 is lend at the annual rate of 10 percent for 2 years. Which of the following statement(s) is/are correct?
+I. Simple interest to be received on this sum is ₹1200.
+II. Compound Interest (compounding annually) to be received on this sum is ₹1260.
+SSC CHSL 10/03/2023 (Shift-02)
+(A) Statement I is correct
+(B) Both statement I and II are correct
+(C) Statement II is correct.
+(D) None of them are correct.
+
+57. What is the compound interest (in ₹) at the rate of 10%, compounded annually, for 3 years on the principal which in 8 years at the rate of 12% per annum gives ₹4,800 as simple interest?
+SSC CGL 19/04/2022 (Shift-03)
+(A) 1,505
+(B) 1,655
+(C) 1,455
+(D) 2,015
+
+58. The compound interest (compounded annually) on a certain sum of money for 2 years at 60 per cent per annum is ₹6240. What will be the simple interest on the same sum of money and the same rate of interest for 3 years?
+SSC MTS 09/05/2023 (Shift-02)
+(A) ₹6800
+(B) ₹7200
+(C) ₹7100
+(D) ₹6500
+
+59. The difference in the compound interest on a certain sum at 10% p.a. for one year, when the interest is compounded half yearly and yearly, is ₹88.80. What is the simple interest on this same sum for 1 2/3 years at the same rate?
+SSC CGL 4/03/2020 (Shift-02)
+(A) ₹5,916
+(B) ₹5,986
+(C) ₹5,980
+(D) ₹5,920
+
+60. A certain sum amounts to ₹14,641 in 4 years at 10% p.a. when interest is compounded annually. What will be the amount of the same sum (in ₹) in 3 2/5 years at the same rate at simple interest?
+SSC Phase-IX 2022
+(A) 14000
+(B) 13600
+(C) 13400
+(D) 13200
+
+61. A certain sum amounts to ₹11,520 in 4 years at the rate of 15% p.a. simple interest. What will be the amount of the same sum in 2 years at the same rate, if the interest is compounded 8-monthly (nearest to a ₹)?
+SSC Phase-IX 2022
+(A) ₹9853
+(B) ₹9338
+(C) ₹9583
+(D) ₹9538
+
+62. A certain amount of money was lent for a period of 1 year 9 months at a rate of 10% per annum compounded annually. If the compound interest is ₹1460, find the amount of money lent.
+SSC CHSL 02/08/2023 Shift-01
+(A) ₹8200
+(B) ₹7500
+(C) ₹6000
+(D) ₹8000
+
+63. Varun and Madhur invested ₹25,000 each in different schemes. Varun earned simple interest at 11% per annum, whereas Madhur earned compound interest at 10% per annum compounded annually. Who received more interest after 2 years and how much?
+SSC CHSL 04/08/2021 (Shift-02)
+(A) Madhur, ₹302.50
+(B) Varun, ₹250
+(C) Madhur, ₹250
+(D) Varun, ₹500
+
+64. The simple interest accrued on a certain principal is ₹1200 in 3 years at the rate of 8% per annum. What would be the compound interest (compounding annually) accrued on twice of that principal at the rate of 10% per annum in 2 years?
+SSC CHSL 13/03/2023 (Shift-01)
+(A) ₹1,050
+(B) ₹2,150
+(C) ₹2,100
+(D) ₹1,100
+
+65. A moneylender borrows money at 4% per annum and pays the interest at the end of the year. He lends it at 8% per annum compound interest, compounded half-yearly, and receives the interest at the end of the year. In this way, he gains ₹166.4 a year. Find the amount of money he borrows.
+DP CONSTABLE 28/11/2023 (Shift-01)
+(A) ₹6,500
+(B) ₹4,000
+(C) ₹5,050
+(D) ₹4,500
+
+66. The simple interest on a sum of money at 10% per annum for 4 years is ₹3,200. What will be the amount (in ₹) of the same sum for the same period at the same rate of interest when the interest is compounded annually?
+SSC CGL 20/04/2022 (Shift-02)
+(A) 11,172.80
+(B) 11,712.80
+(C) 11,127.80
+(D) 11,217.80
+
+67. The simple interest on a sum of money at 10% per annum for 2 years is ₹8,100. What would be the compound interest (in ₹) on the same sum for the period at 15% p.a. when the interest is compounded yearly? (nearest to ₹1)
+SSC CPO 25/11/2020 (Shift-02)
+(A) 13,061
+(B) 14,671
+(C) 8,100
+(D) 12,751
+
+68. The simple interest on a sum of ₹8,000 at certain rate percent per annum for 3 years is ₹3,600. What will be the amount (in ₹) of the same sum after 2 years at the same rate, if the interest is compounded 8-monthly?
+SSC CHSL 05/08/2021 (Shift-01)
+(A) ₹10,580
+(B) ₹10,450
+(C) ₹10,648
+(D) ₹11,239
+
+69. The simple interest on a certain sum for 3 years at 12% p.a. is ₹6,750. What is the compound interest (in ₹) on the same sum for 2 years at 20% p.a., if interest is compounded half-yearly? (rounded off to the nearest ₹)
+SSC CHSL 12/04/2021 (Shift-03)
+(A) ₹8000
+(B) ₹8702
+(C) ₹6750
+(D) ₹7729
+
+70. A certain sum amounts to ₹ 15,500 in 2 years at 12% p.a. simple interest. The same sum will amount to what in 1 1/2 years at 10% p.a., if the interest is compounded half yearly (nearest to ₹1)?
+SSC CGL TIER-II 15/11/2020
+(A) ₹ 14,470
+(B) ₹ 13,460
+(C) ₹ 14,360
+(D) ₹ 15,125
+
+71. The simple interest on a certain sum of P at a rate of r% per annum for 3 years is ₹ 11,250 and the compound interest on the same sum for 2 years at the same rate percent p.a. is ₹7,650. What is the value of P and r, respectively?
+SSC Phase-IX 2022
+(A) ₹92500 & 6%
+(B) ₹92500 & 7%
+(C) ₹93750 & 4%
+(D) ₹93750 & 5%
+
+72. A sum of ₹3125 amounts to ₹3515.20 in 3 years at x% p.a., interest being compounded yearly. What will be the simple interest (in ₹) on the same sum and for the same time at (x + 2)% p.a.?
+SSC CGL 18/08/2021 (Shift-02)
+(A) 554
+(B) 562.50
+(C) 565.50
+(D) 550
+
+73. At what annual rate will a sum of ₹6,400 yield ₹1,344 as compound interest (compounded annually) in 2 years?
+MTS 06/09/2023 (Shift-02)
+(A) 5%
+(B) 12%
+(C) 10%
+(D) 8%
+
+74. The compound interest on a sum of ₹8,000 becomes ₹9,261 in 18 months. Find the rate of interest if interest is compounded half-yearly.
+DP CONSTABLE 14/11/2023 (Shift-03)
+(A) 8%
+(B) 10%
+(C) 20%
+(D) 12%
+
+75. A sum becomes 1.96 times of itself in 2 years when invested at compound interest (compounding annually). What is the annual rate of interest?
+SSC CHSL 16/03/2023 (Shift-04)
+(A) 20%
+(B) 25%
+(C) 40%
+(D) 30%
+
+76. At what rate percentage per annum will ₹14,400 amount to ₹15,876 in one year, if interest is compounded half-yearly?
+SSC Phase-IX 2022
+(A) 15%
+(B) 12%
+(C) 8%
+(D) 10%
+
+77. Hema invested ₹1728 at the rate of compound interest (Compounded annually) for 3 years. She got ₹4,096 after the specified period. Find the rate of interest per annum Compounded annually.
+SSC MTS 12/09/2023 (Shift-01)
+(A) 33 1/3 %
+(B) 33 1/2 %
+(C) 30 1/2 %
+(D) 30 1/3 %
+
+78. At what rate of annual compound interest, the interest on ₹20000 compounded half-yearly in 1 year 6 months becomes ₹23152.50?
+SSC MTS 04/05/2023 (Shift-02)
+(A) 10% yearly
+(B) 5% yearly
+(C) 12% yearly
+(D) 8% yearly
+
+79. A sum of ₹9500 amounts to ₹11495 in 2 years at a certain rate percent per annum, interest compounded yearly. What is the simple interest (in ₹) on the same sum for the same time and double the rate?
+SSC CGL 24/08/2021 (Shift-01)
+(A) 3420
+(B) 3990
+(C) 3800
+(D) 4560
+
+80. In how many years will a sum of ₹18,000 amount to ₹23,958 at the annual rate of 20% compounded half yearly?
+MTS 05/09/2023 (Shift-03)
+(A) 1 1/4
+(B) 1 1/2
+(C) 2 1/2
+(D) 3 1/2
+
+81. The compound interest on ₹10,000 at 20% per annum is ₹4,641. when interest is compounded half-yearly, then for how many years was the sum invested?
+SSC CGL TIER II 26/10/2023
+(A) 2 years
+(B) 3 years
+(C) 4 years
+(D) 6 years
+
+82. In how many years will ₹1,60,000 become ₹2,79,841 at a compound interest (Compounded annually) rate of 15% per annum?
+SSC MTS 11/09/2023 (Shift-03)
+(A) 6 years
+(B) 3 years
+(C) 4 years
+(D) 5 years
+
+83. A sum becomes ₹33800 in 2 years and ₹43,940 in 3 years, when lent in a scheme of compound interest (compounding annually). If double the sum is invested in the same scheme for 2 years, then what will be the amount obtained at end of 2 years?
+SSC MTS 13/06/2023 (Shift-01)
+(A) ₹62480
+(B) ₹67600
+(C) ₹71240
+(D) ₹60,420
+
+84. In how many years will a sum of ₹800 become ₹1216.70 at 30% per annum C.I. compounding half-yearly?
+SSC Phase-X 04/08/2022 (Shift-03)
+(A) 2 year
+(B) 1 year
+(C) 2.5 year
+(D) 1.5 year
+
+85. The compound interest on ₹18,000 at 7% per annum, compounded annually, is ₹1,260. What is the period of time?
+SSC MTS 25/07/2022 (Shift-03)
+(A) 1 years
+(B) 2 years
+(C) 3 years
+(D) 4 years
+
+86. A sum of ₹7500 amounts to ₹9075 at 10% p.a. interest being compounded yearly in a certain time. The simple interest (in ₹) on the same sum for the same time and the same rate is:
+SSC CGL 16/08/2021 (Shift-01)
+(A) 1500
+(B) 1480
+(C) 1520
+(D) 1530
+
+87. A sum of ₹ 8,000 invested at 10% p.a. amounts to ₹ 9,261 in a certain time, interest compounded half-yearly. What will be the compound interest (in ₹) on the same sum for the same time at double the earlier rate of interest, when interest is compounded annually?
+SSC CGL 04/03/2020 (Shift-03)
+(A) ₹2,520
+(B) ₹2,480
+(C) ₹2,560
+(D) ₹2,500
+
+88. A sum amounts to ₹6580 in 2 years and amounts to ₹7896 in 3 years on compound interest (compounding annually) at the same rate of interest. What is the annual rate of interest?
+SSC CHSL 17/03/2023 (Shift-04)
+(A) 30%
+(B) 40%
+(C) 15%
+(D) 20%
+
+89. A sum of money amounts to ₹1,200 in 2 years and becomes ₹1,260 in 3 years at compound interest, when interest is compounded annually. What is the rate of compound interest per annum?
+SSC CPO 04/10/2023 (Shift-03)
+(A) 6%
+(B) 3%
+(C) 5%
+(D) 7%
+
+90. A sum of money becomes ₹6,400 in 3 years and ₹8,100 in 5 years on compound interest compounded annually. Find the rate of interest per annum.
+SSC MTS 01/09/2023 (Shift-02)
+(A) 12 3/4 %
+(B) 12 5/8 %
+(C) 12 3/8 %
+(D) 12 1/2 %
+
+91. A sum amounts to ₹6,120 in 2 years and ₹7,340 in 3 years at compound interest. The sum (in ₹) is (rounded off to 2 decimal places):
+SSC CHSL 03/08/2023 (Shift-02)
+(A) 4,050.13
+(B) 4,254.63
+(C) 4,850.32
+(D) 4,560.23
+
+92. The amount received on a certain sum after 3 years and 5 years on compound interest (compounding annually) is ₹20,736 and ₹29,859.84 respectively. What is that sum?
+SSC MTS 14/06/2023 (Shift-03)
+(A) ₹9000
+(B) ₹14000
+(C) ₹15000
+(D) ₹12000
+
+93. A sum invested at compound interest amounts to ₹7,800 in 3 years and ₹11,232 in 5 years. What is the rate of interest?
+SSC CGL 11/04/2022 (Shift-02)
+(A) 26%
+(B) 20%
+(C) 15%
+(D) 18%
+
+94. On a certain sum the compound interest (compounding annually) for fourth year is ₹15000 and the compound interest (compounding annually) for sixth year is ₹25350. What is the rate of interest per annum?
+SSC MTS 20/06/2023 (Shift-01)
+(A) 35%
+(B) 30%
+(C) 40%
+(D) 25%
+
+95. On a certain sum, the interest is compounded annually. If the compound interest for the second year is ₹400 and the compound interest for the fourth year is 576, then what is the rate of interest per annum?
+SSC MTS 20/07/2022 (Shift-02)
+(A) 20%
+(B) 25%
+(C) 15%
+(D) 44%
+
+96. A sum amounts to ₹7,562 in 4 years and to ₹8,469.44 in 5 years, at a certain rate percent per annum when the interest is compounded yearly. If ₹10,000 at the same rate of interest is borrowed for two years, then what will be the compound interest (in ₹)?
+SSC CPO 25/11/2020 (Shift-01)
+(A) 2,544
+(B) 2,764
+(C) 1,965
+(D) 1,736
+
+97. A sum of money at compound interest doubles itself in 4 years. In how many years does the sum become 8 times of itself at the same rate of interest?
+SSC CPO 27/06/2024 (Shift-01)
+(A) 15 years
+(B) 12 years
+(C) 8 years
+(D) 10 years
+
+98. A certain amount of money becomes thrice in 5 years at compound interest. How many years it will take to become 9 times?
+SSC CPO 28/06/2024 (Shift-01)
+(A) 15 years
+(B) 8 years
+(C) 10 years
+(D) 25 years
+
+99. Money is doubled in a bank account in 7 years, when the interest is compounded annually. What time in years is needed to make an amount 8 times in the bank?
+SSC MTS 14/09/2023 (Shift-02)
+(A) 35 years
+(B) 28 years
+(C) 21 years
+(D) 14 years
+
+100. A sum of ₹4,000 is lent at 10% p.a., interest compounded annually. What is the difference between the compound interest for the 2nd year and the 3rd year?
+SSC MTS 08/10/2021 (Shift-02)
+(A) ₹44.00
+(B) ₹45.40
+(C) ₹46.50
+(D) ₹45.00
+
+101. Mukesh invested ₹100000 in a company. He would be paid interest at 7% per annum compounded annually. Find the interest for the 3rd year.
+CISF HC 30/10/2023 (Shift-01)
+(A) ₹8200.33
+(B) ₹7550.53
+(C) ₹8333.33
+(D) ₹8014.3
+
+102. A sum of money becomes two times of itself in 8 years at simple interest, and it becomes four times of itself in 2 years at compound interest, when interest is compounded annually. Find the ratio of the rate of simple interest to the rate of compound interest offered per year.
+SSC MTS 05/07/2022 (Shift-03)
+(A) 2 : 3
+(B) 3 : 5
+(C) 3 : 5
+(D) 1 : 8
+
+103. The difference between the compound interests on a certain sum for 1 1/2 years at a rate of 20% p.a. is ₹1,716 when the interest is compounded half yearly and compounded annually. The sum (in ₹) is:
+ICAR 29/07/2022 (Shift-01)
+(A) 1,32,000
+(B) 1,43,000
+(C) 2,14,500
+(D) 1,56,000
+
+104. A sum of ₹1,00,000 was taken from a bank at the rate of 7% p.a. to be compounded annually for 5 years. Calculate the compound interest. (Closest to a ₹)
+SSC CPO 03/10/2023 (Shift-02)
+(A) 40,587
+(B) 40,000
+(C) 20,963
+(D) 40,255
+
+105. Find the amount of ₹75,000 for one year at the rate of 16% per annum, if the interest is compounded quarterly (rounded off to two decimal places).
+SSC MTS 05/09/2023 (Shift-02)
+(A) ₹87,937.40
+(B) ₹89,773.40
+(C) ₹87,739.40
+(D) ₹87,379.40
+
+106. If 10 percent per annum rate of compound interest compounded yearly is equivalent to the x percent per annum rate of compound interest compounded half yearly, then what is the value (Approximate) of x ?
+SSC CHSL 14/03/2023 (Shift-02)
+(A) 6.25%
+(B) 5.32%
+(C) 4.88%
+(D) 4.55%
+
+107. A man invested a total of ₹12,050 in two parts, one at 10% p.a. simple interest for 2 years and the other at the same rate at compound interest, interest being compounded annually, for the same time. The amount he received from both the parts are equal. The sum (in ₹) invested at the compound interest is:
+SSC CHSL 15/04/2021 (Shift-01)
+(A) ₹5,850
+(B) ₹6,000
+(C) ₹5,780
+(D) ₹5,800
+
+108. A and B together borrowed a sum of ₹ 51,750 at an interest rate of 7% p.a. compound interest in such a way that to settle the loan, A paid as much amount after three years as paid by B after 4 years from the day of borrowing. The sum (in ₹) borrowed by A was :
+SSC CGL 05/03/2020 (Shift-02)
+(A) ₹25,000
+(B) ₹25,650
+(C) ₹24,860
+(D) ₹26,750
+
+109. The compound interest on a sum of ₹12,000 at a rate of x % p.a. for 1 1/2 years is ₹3,840, compounded yearly. What will be the compound interest on the same sum at the same rate and for the same period if the interest is compounded half-yearly?
+ICAR 29/07/2022 (Shift- 03)
+(A) ₹3,972
+(B) ₹3,876
+(C) ₹3,944
+(D) ₹3,846
+
+110. Joseph deposited a total of ₹52,500 in a bank in the names of his two daughters aged 15 years and 16 years in such a way that they would get equal amounts when they become 18 years old. If the bank gives 10% compound interest compounded annually, then what is the amount (in ₹) that Joseph had deposited in the name of his younger daughter ?
+SSC CGL 18/04/2022 (Shift-02)
+(A) 25,500
+(B) 26,000
+(C) 24,500
+(D) 25,000
+
+111. Divide ₹66,300 between A and B in such a way that the amount that A receives after 8 years is equal to the amount that B receives after 10 years; with compound interest being compounded annually at a rate of 10% per annum.
+SSC CGL 20/04/2022 (Shift-03)
+(A) A = ₹35,200, B = ₹31,100
+(B) A = ₹36,300, B = ₹30,000
+(C) A = ₹37,000, B = ₹29,300
+(D) A = ₹35,520, B = ₹30,810
+
+112. Nidhi invested her savings in schemes A and B in the ratio 2 : 3, respectively, for 1 1/2 years. Scheme A offers interest at 20% p.a. compounded half yearly, while Scheme B offers interest at 10% p.a. compounded yearly. If the total interest received by her from both the schemes is ₹13,524, then the amount (in ₹) invested by her in Scheme A is:
+ICAR 29/07/2022 (Shift- 01)
+(A) 36,000
+(B) 24,000
+(C) 15,000
+(D) 18,000
+
+113. A certain sum was invested for three years in a scheme in which the interest gets compounded annually. During the first two years, the scheme provided growths at the rates of 80% and 60%, respectively, but during the third year there was a decline by 40%. What was the overall interest rate for three years?
+SSC MTS 12/10/2021 (Shift-02)
+(A) 22.5%
+(B) 24%
+(C) 20%
+(D) 48.6%
+
+114. Loan is to be repaid in two equal yearly installments. If the rate of interest is 10% per annum, compounded annually, and each installment is ₹6,897, then find the total interest charged.
+SSC CHSL 27/05/2022 (Shift-01)
+(A) ₹1,644
+(B) ₹1,824
+(C) ₹1,914
+(D) ₹1,734
+
+115. A loan of ₹2,550 is to be paid back in two equal half-yearly installments. How much is each installment if the interest is compounded half-yearly at 8% p.a.?
+SSC Phase-XII 24/06/2024 (Shift-01)
+(A) ₹1250
+(B) ₹1352
+(C) ₹1745
+(D) ₹1457
+
+116. An item is bought on a condition that three equal installments of ₹3,993 are to be paid at a rate of 10% compound interest, compounded annually. The cost of the item is:
+SSC Phase-XI 27/06/2023 (Shift-01)
+(A) ₹10,000
+(B) ₹9,050
+(C) ₹9,590
+(D) ₹9,930
+
+117. A loan of ₹8,925 is to be paid back in two equal half-yearly installments. How much is each installment if the interest is compounded half-yearly at 8% per annum?
+SSC CHSL 24/05/2022 (Shift-01)
+(A) ₹4,372
+(B) ₹4,732
+(C) ₹4,654
+(D) ₹4,564
+
+118. A loan is to be returned in two equal yearly installments. If the rate of interest is 10% p.a., compounded annually and each installment is ₹6534, then the total interest charged (in ₹) is:
+SSC CGL 20/08/2021 (Shift-03)
+(A) 1728
+(B) 1867
+(C) 1642
+(D) 1579
+
+119. A certain loan was returned in two equal half yearly installments each of ₹6,760. If the rate of interest was 8% p.a., compounded yearly, how much was the interest paid on the loan?
+SSC CGL TIER-II 13/09/2019
+(A) ₹750
+(B) ₹810
+(C) ₹790
+(D) ₹770
+
+120. A loan is to be returned in two equal yearly installments. If the rate of interest is 10% p.a. compounded annually and each installment is ₹5,808 then 60% of the total interest (nearest to a ₹) charged in this scheme is:
+SSC CGL TIER-II 29/01/2022
+(A) 917
+(B) 911
+(C) 913
+(D) 922
+
+121. Surekha borrowed a sum of money and returned it in two equal annual installments of ₹ 5547 each. If the rate of interest was 7 1/2 % p.a. compounded yearly, then the total interest paid by her was :
+SSC CGL TIER-II 15/11/2020
+(A) ₹ 1,144
+(B) ₹ 1,134
+(C) ₹ 1,096
+(D) ₹ 1,126
+
+122. A sum of ₹6,000 is to be paid back in two equal annual installments. Each installment is to be paid at the end of every year. How much is each installment if the interest is compounded annually at 2% p.a.? (Rounded off up to two decimal places)
+SSC CGL 02/12/2022 (Shift-01)
+(A) ₹2,092.29
+(B) ₹3,090.30
+(C) ₹2,291.29
+(D) ₹3,589.30
+
+123. Sita takes a loan of ₹35,000 at an interest rate of 10% compound interest, compounded annually. She agrees to pay two equal installments in 2 years, one installment at the end of each year. Find the value of each installment. (Round off to the nearest integer)
+SSC CPO 29/06/2024 (Shift-01)
+(A) ₹20,167
+(B) ₹40,167
+(C) ₹10,167
+(D) ₹30,167
+
+124. Rajnish borrowed ₹1,500 from a bank and repaid the entire amount with interest in two equal annual installments, the first installment being paid one year after Rajnish borrowed from the bank. If the rate of interest was 40% per annum, compounded annually, then what was the value (in ₹) of each installment paid by Rajnish?
+SSC CGL TIER-II 07/03/2023
+(A) 1125
+(B) 1470
+(C) 1225
+(D) 1350
+
+125. A mobile phone is available for ₹79,860 by cash payment or by paying cash of ₹60,000 as down payment and the remaining amount in three equal annual installments. If the shopkeeper charges interest at the rate of 10% per annum compounded annually, then the amount of each installment (in ₹) will be:
+SSC CHSL 16/04/2021 (Shift-02)
+(A) ₹6,789
+(B) ₹7,986
+(C) ₹6,000
+(D) ₹6,689
+
+126. A money lender finds that due to the fall in the annual rate of interest from 18% to 15%, his yearly income diminishes by ₹750. His capital is:
+SSC Phase-XI 30/06/2023 (Shift-01)
+(A) ₹25,500
+(B) ₹25,000
+(C) ₹5,000
+(D) ₹2,500
+
+127. Geeta deposited a certain sum of money in her bank account which amounted to ₹27,783 in 3 years at 5% per annum, the interest being compounded annually. What amount did she deposit?
+SSC MTS 01/09/2023 (Shift-01)
+(A) ₹25,000
+(B) ₹24,000
+(C) ₹25,500
+(D) ₹26,000
+
+128. A man borrowed ₹50,000 from a bank at 10% per annum, compounded annually. At the end of every year, he pays ₹15,000 as part payment of the loan and interest. How much does he still owe to the bank after three such installments?
+SSC CPO 10/11/2022 (Shift-01)
+(A) ₹16,900
+(B) ₹15,800
+(C) ₹15,200
+(D) ₹16,200
+
+129. Amit borrows a sum of ₹8,000 at 10% p.a. compound interest for 4 years. He repays ₹2,800 at the end of the first year and ₹2,600 at the end of the second year. To clear the loan, how much should he pay after 4 years, interest being compounded yearly?
+SSC MTS 27/10/2021 (Shift-02)
+(A) ₹4800
+(B) ₹4880
+(C) ₹4840
+(D) ₹4780
+
+130. A man borrowed a certain sum and agrees to repay it by paying ₹4000 at the end of first year and ₹7700 at the end of second year. If the rate of compound interest compounded annually is 10% per annum, then find the sum (in ₹)
+SSC CGL 17/08/2021 (Shift-03)
+(A) 11500
+(B) 11000
+(C) 9000
+(D) 10000
+
+131. A person borrowed a sum of ₹30800 at 10% p.a. for 3 years, interest compounded annually. At the end of two years, he paid a sum of ₹13268. At the end of 3rd year, he paid ₹x to clear of the debt. What is the value of x?
+SSC CGL 23/08/2021 (Shift-03)
+(A) 26200
+(B) 26620
+(C) 26400
+(D) 26510
+
+132. A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 years is ₹5082. Find the sum (in ₹)
+SSC CGL 11/04/2022 (Shift-01)
+(A) 20000
+(B) 25500
+(C) 50820
+(D) 10164
+
+Correct Answers:
+1: C, 2: B, 3: C, 4: B, 5: B, 6: D, 7: C, 8: A, 9: D, 10: C, 11: D, 12: A, 13: D, 14: D, 15: D, 16: B, 17: B, 18: B, 19: A, 20: D, 21: D, 22: D, 23: A, 24: D, 25: B, 26: A, 27: A, 28: A, 29: A, 30: A, 31: C, 32: D, 33: D, 34: A, 35: D, 36: A, 37: C, 38: A, 39: B, 40: D, 41: C, 42: A, 43: A, 44: C, 45: C, 46: D, 47: C, 48: B, 49: D, 50: D, 51: C, 52: A, 53: A, 54: B, 55: D, 56: B, 57: B, 58: B, 59: D, 60: C, 61: C, 62: D, 63: B, 64: C, 65: B, 66: B, 67: A, 68: C, 69: B, 70: A, 71: C, 72: B, 73: C, 74: B, 75: C, 76: D, 77: A, 78: A, 79: C, 80: B, 81: A, 82: C, 83: B, 84: D, 85: A, 86: A, 87: C, 88: D, 89: C, 90: D, 91: B, 92: D, 93: B, 94: B, 95: A, 96: A, 97: B, 98: C, 99: C, 100: A, 101: D, 102: D, 103: D, 104: D, 105: C, 106: C, 107: B, 108: D, 109: A, 110: D, 111: B, 112: B, 113: C, 114: B, 115: B, 116: D, 117: B, 118: A, 119: D, 120: D, 121: B, 122: B, 123: A, 124: C, 125: B, 126: B, 127: B, 128: A, 129: C, 130: D, 131: C, 132: A

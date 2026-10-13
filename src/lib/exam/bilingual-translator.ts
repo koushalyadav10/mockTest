@@ -63,9 +63,9 @@ const UNIT_TRANSLATIONS: Record<string, string> = {
 export function translateTextToHindi(englishText: string): string {
   if (!englishText) return "";
 
-  // If text already has substantial Hindi Devanagari characters, return as is
+  // If text already contains Hindi Devanagari characters, return as is
   const devanagariCount = (englishText.match(/[\u0900-\u097F]/g) || []).length;
-  if (devanagariCount > 20) {
+  if (devanagariCount > 3) {
     return englishText;
   }
 
