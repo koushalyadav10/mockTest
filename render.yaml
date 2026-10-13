@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: mocktest-cbt
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        value: file:./examforge.db
+      - key: NEXTAUTH_SECRET
+        generateValue: true
+      - key: GMAIL_USER
+        value: koushalyadavyadav01@gmail.com
+      - key: GMAIL_APP_PASSWORD
+        value: hskw ugpz tdga pkqu
