@@ -7,54 +7,22 @@ const prisma = new PrismaClient();
 async function main() {
   console.log("🌱 Starting ExamForge Database Seeding...");
 
-  // 1. Seed Real Users for all 3 RBAC Roles
-  const studentUser = await prisma.user.upsert({
-    where: { email: "student@examforge.ai" },
-    update: {
-      passwordHash: hashPassword("Student@123"),
-      isEmailVerified: true,
-      role: "STUDENT",
-    },
-    create: {
-      email: "student@examforge.ai",
-      name: "Aditya Sharma",
-      passwordHash: hashPassword("Student@123"),
-      role: "STUDENT",
-      studentRollNo: "EF-100179719",
-      isEmailVerified: true,
-    },
-  });
-
-  const teacherUser = await prisma.user.upsert({
-    where: { email: "teacher@examforge.ai" },
-    update: {
-      passwordHash: hashPassword("Teacher@123"),
-      isEmailVerified: true,
-      role: "TEACHER",
-    },
-    create: {
-      email: "teacher@examforge.ai",
-      name: "Prof. Rajesh Kumar Verma",
-      passwordHash: hashPassword("Teacher@123"),
-      role: "TEACHER",
-      studentRollNo: "FAC-TCH-491",
-      isEmailVerified: true,
-    },
-  });
-
+  // 1. Seed Real Users: Platform Admin (Koushal) & Student (Suman)
   const adminUser = await prisma.user.upsert({
-    where: { email: "admin@examforge.ai" },
+    where: { email: "koushalyadavyadav01@gmail.com" },
     update: {
-      passwordHash: hashPassword("Admin@123"),
-      isEmailVerified: true,
+      name: "Koushal Yadav (Platform Admin)",
       role: "ADMIN",
+      status: "ACTIVE",
+      isEmailVerified: true,
     },
     create: {
-      email: "admin@examforge.ai",
-      name: "Head Examination Controller",
-      passwordHash: hashPassword("Admin@123"),
+      email: "koushalyadavyadav01@gmail.com",
+      name: "Koushal Yadav (Platform Admin)",
+      passwordHash: hashPassword("Admin@7388"),
       role: "ADMIN",
-      studentRollNo: "ADM-CTR-001",
+      status: "ACTIVE",
+      studentRollNo: "ADM-001",
       isEmailVerified: true,
     },
   });
@@ -85,7 +53,7 @@ async function main() {
     },
   });
 
-  console.log("✅ Seeded Users: student@examforge.ai, teacher@examforge.ai, admin@examforge.ai, suman.chauhan.22334@gmail.com");
+  console.log("✅ Seeded Users: koushalyadavyadav01@gmail.com, suman.chauhan.22334@gmail.com");
 
   // 2. Seed Competitive Exams with Dynamic Section Configurations
 
@@ -334,44 +302,6 @@ async function main() {
   console.log(`✅ Seeded ${REAL_SSC_CHSL_SAMPLE_QUESTIONS.length} high-quality bilingual questions into Question Bank`);
 
   // 5. Create an initial active practice mock test attempt for instant student testing
-  const chslExam = await prisma.examConfig.findUnique({
-    where: { code: "SSC_CHSL_TIER_1" },
-  });
-
-  if (chslExam) {
-    const questions = await prisma.question.findMany({
-      include: { options: true },
-      take: 20,
-    });
-
-    if (questions.length > 0) {
-      const attempt = await prisma.testAttempt.create({
-        data: {
-          userId: studentUser.id,
-          studentRollNo: studentUser.studentRollNo || "EF-100179719",
-          examConfigId: chslExam.id,
-          status: "RUNNING",
-          mode: "MOCK",
-          startedAt: new Date(),
-          expiresAt: new Date(Date.now() + chslExam.totalDurationMinutes * 60 * 1000),
-          totalQuestions: questions.length,
-          questionOrderJson: JSON.stringify(questions.map((q) => q.id)),
-          responses: {
-            create: questions.map((q, idx) => ({
-              questionId: q.id,
-              orderIndex: idx,
-              responseState: idx === 0 ? "NOT_ANSWERED" : "NOT_VISITED",
-              firstViewedAt: idx === 0 ? new Date() : null,
-              lastViewedAt: idx === 0 ? new Date() : null,
-              visitCount: idx === 0 ? 1 : 0,
-            })),
-          },
-        },
-      });
-      console.log(`✅ Seeded ready-to-test Attempt: ${attempt.id} for student ${studentUser.email}`);
-    }
-  }
-
   console.log("🎉 Seeding completed successfully!");
 }
 

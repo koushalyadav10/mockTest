@@ -26,10 +26,22 @@ import {
 export default function ExamResultPage({ params }: { params: { id: string } }) {
   const router = useRouter();
   const [resultData, setResultData] = useState<any>(null);
+  const [currentUser, setCurrentUser] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [practiceLoading, setPracticeLoading] = useState<string | null>(null);
   const [isPublishingResults, setIsPublishingResults] = useState(false);
   const [publishFeedback, setPublishFeedback] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.user) setCurrentUser(data.user);
+      })
+      .catch(() => {});
+  }, []);
+
+  const isAdminOrTeacher = currentUser?.role === "ADMIN" || currentUser?.role === "TEACHER";
 
   useEffect(() => {
     fetch(`/api/tests/${params.id}/result`)
@@ -155,8 +167,8 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 font-sans">
-      {/* Instructor Result Release Bar */}
-      {testAttempt?.isHeldForStudents && (
+      {/* Instructor Result Release Bar (Admin / Teacher Only) */}
+      {isAdminOrTeacher && testAttempt?.isHeldForStudents && (
         <div className="p-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-white shadow-md flex flex-wrap items-center justify-between gap-3">
           <div className="space-y-0.5">
             <div className="text-sm font-bold flex items-center gap-2">
@@ -224,7 +236,7 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
         </div>
 
         <div className="flex items-center gap-2 no-print flex-wrap">
-          {testAttempt?.examConfigId && (
+          {isAdminOrTeacher && testAttempt?.examConfigId && (
             <Button
               variant="outline"
               size="sm"
@@ -261,16 +273,18 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
             &larr; Back
           </Button>
 
-          <Link href="/admin?tab=SUBMISSIONS">
-            <Button
-              variant="outline"
-              size="sm"
-              className="border-purple-200 text-purple-700 bg-purple-50 hover:bg-purple-100"
-            >
-              <Award className="w-3.5 h-3.5 mr-1.5" />
-              Admin Leaderboard
-            </Button>
-          </Link>
+          {isAdminOrTeacher && (
+            <Link href="/admin?tab=SUBMISSIONS">
+              <Button
+                variant="outline"
+                size="sm"
+                className="border-purple-200 text-purple-700 bg-purple-50 hover:bg-purple-100"
+              >
+                <Award className="w-3.5 h-3.5 mr-1.5" />
+                Admin Leaderboard
+              </Button>
+            </Link>
+          )}
 
           <Link href="/dashboard">
             <Button variant="primary" size="sm">

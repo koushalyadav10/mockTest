@@ -22,7 +22,85 @@ export async function GET(req: NextRequest) {
       });
     }
 
-    // Query all attempts of this user
+    const user = await prisma.user.findUnique({
+      where: { id: session.userId },
+      select: { id: true, role: true, email: true, name: true },
+    });
+    const isAdminOrTeacher = user?.role === "ADMIN" || user?.role === "TEACHER";
+
+    if (isAdminOrTeacher) {
+      const allExams = await prisma.examConfig.findMany({
+        include: {
+          testAttempts: {
+            include: {
+              user: {
+                select: { id: true, name: true, email: true, studentRollNo: true },
+              },
+            },
+            orderBy: { createdAt: "desc" },
+          },
+        },
+        orderBy: { createdAt: "desc" },
+      });
+
+      const allAttempts = allExams.flatMap((e) => e.testAttempts);
+      const uniqueCandidates = new Set(allAttempts.map((a) => a.userId).filter(Boolean)).size;
+
+      const evaluatedAttempts = allAttempts.filter((a) => a.status === "EVALUATED");
+      const totalScore = evaluatedAttempts.reduce((acc, curr) => acc + curr.finalScore, 0);
+      const overallAverageScore =
+        evaluatedAttempts.length > 0
+          ? Number((totalScore / evaluatedAttempts.length).toFixed(1))
+          : 0;
+
+      const examAnalytics = allExams.map((exam) => {
+        const attempts = exam.testAttempts;
+        const evaluated = attempts.filter((a) => a.status === "EVALUATED");
+        const inProgress = attempts.filter(
+          (a) => a.status === "RUNNING" || a.status === "NOT_STARTED" || a.status === "SUBMITTED"
+        );
+        const topScore =
+          evaluated.length > 0 ? Math.max(...evaluated.map((a) => a.finalScore)) : null;
+        const avgScore =
+          evaluated.length > 0
+            ? Number(
+                (
+                  evaluated.reduce((acc, curr) => acc + curr.finalScore, 0) / evaluated.length
+                ).toFixed(1)
+              )
+            : null;
+
+        return {
+          id: exam.id,
+          title: formatCleanChapterTitle(exam.title),
+          category: exam.category,
+          mode: exam.mode,
+          status: exam.status,
+          totalQuestions: exam.totalQuestions,
+          totalMarks: exam.totalMarks,
+          totalDurationMinutes: exam.totalDurationMinutes,
+          candidateCount: attempts.length,
+          evaluatedCount: evaluated.length,
+          inProgressCount: inProgress.length,
+          avgScore,
+          topScore,
+          lastAttemptedAt: attempts[0]?.createdAt || null,
+        };
+      });
+
+      return NextResponse.json({
+        isAdmin: true,
+        adminStats: {
+          totalExams: allExams.length,
+          totalAttempts: allAttempts.length,
+          uniqueCandidates,
+          overallAverageScore,
+        },
+        examAnalytics,
+      });
+    }
+
+    // Query all attempts of this student user
     const attempts = await prisma.testAttempt.findMany({
       where: {
         userId: session.userId,
