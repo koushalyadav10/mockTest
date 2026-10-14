@@ -29,15 +29,14 @@ export default function LoginPage() {
 
   // Form Fields
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("student@examforge.ai");
-  const [password, setPassword] = useState("Student@123");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
   // OTP Verification state
   const [isOtpStep, setIsOtpStep] = useState(false);
   const [otpDigits, setOtpDigits] = useState(["", "", "", "", "", ""]);
   const [cooldown, setCooldown] = useState(0);
-  const [availableOtp, setAvailableOtp] = useState<string | null>(null);
 
   // Status & Feedback
   const [loading, setLoading] = useState(false);
@@ -69,23 +68,6 @@ export default function LoginPage() {
     fetchDevMailbox();
   }, [isOtpStep]);
 
-  // Handle Quick Demo Account Selection
-  const selectDemoAccount = (role: "STUDENT" | "TEACHER" | "ADMIN") => {
-    setAuthMode("LOGIN");
-    setLoginMethod("PASSWORD");
-    setIsOtpStep(false);
-    setErrorMessage(null);
-    if (role === "STUDENT") {
-      setEmail("student@examforge.ai");
-      setPassword("Student@123");
-    } else if (role === "TEACHER") {
-      setEmail("teacher@examforge.ai");
-      setPassword("Teacher@123");
-    } else if (role === "ADMIN") {
-      setEmail("admin@examforge.ai");
-      setPassword("Admin@123");
-    }
-  };
 
   // Handle OTP digit inputs
   const handleDigitChange = (index: number, val: string) => {
@@ -129,9 +111,6 @@ export default function LoginPage() {
         setIsOtpStep(true);
         setCooldown(data.cooldownRemainingSeconds || 60);
         setSuccessMessage(`6-digit OTP dispatched to ${email}. Please verify.`);
-        if (data.devOtp) {
-          setAvailableOtp(data.devOtp);
-        }
         fetchDevMailbox();
         return;
       }
@@ -195,9 +174,6 @@ export default function LoginPage() {
       setIsOtpStep(true);
       setCooldown(data.resendCooldownSeconds || 60);
       setSuccessMessage(data.message || "Verification code sent to your email.");
-      if (data.devOtp) {
-        setAvailableOtp(data.devOtp);
-      }
       fetchDevMailbox();
     } catch (err: any) {
       setErrorMessage(err.message || "Registration failed");
@@ -265,9 +241,6 @@ export default function LoginPage() {
 
       setCooldown(data.cooldownRemainingSeconds || 60);
       setSuccessMessage("A fresh 6-digit code has been dispatched to your email.");
-      if (data.devOtp) {
-        setAvailableOtp(data.devOtp);
-      }
       fetchDevMailbox();
     } catch (err: any) {
       setErrorMessage(err.message || "Failed to resend code");
@@ -305,51 +278,26 @@ export default function LoginPage() {
             </p>
           </div>
 
-          {/* Quick Pre-configured Selector for Testing (Only in LOGIN mode, strictly hidden in SIGNUP) */}
-          {authMode === "LOGIN" && (
-            <div className="relative z-10 pt-6 space-y-2">
-              <div className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">
-                Pre-configured Test Accounts:
+          {/* Platform Highlights */}
+          <div className="relative z-10 pt-6 space-y-2.5">
+            <div className="text-[11px] font-bold text-slate-800 uppercase tracking-wider">
+              Examination Features:
+            </div>
+            <div className="space-y-2 text-xs text-slate-700">
+              <div className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-teal-800" />
+                <span>Full-Length Bilingual Mock Tests (Hindi &amp; English)</span>
               </div>
-              <div className="flex flex-wrap gap-1.5">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setAuthMode("LOGIN");
-                    setLoginMethod("PASSWORD");
-                    setIsOtpStep(false);
-                    setErrorMessage(null);
-                    setEmail("suman.chauhan.22334@gmail.com");
-                    setPassword("Suman@7388");
-                  }}
-                  className="px-2.5 py-1 rounded-md bg-pink-100 hover:bg-pink-200 text-pink-900 text-xs font-bold shadow-2xs border border-pink-300 transition-all flex items-center gap-1"
-                >
-                  🌸 Suman (GF)
-                </button>
-                <button
-                  type="button"
-                  onClick={() => selectDemoAccount("STUDENT")}
-                  className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
-                >
-                  🎓 Student
-                </button>
-                <button
-                  type="button"
-                  onClick={() => selectDemoAccount("TEACHER")}
-                  className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
-                >
-                  👨‍🏫 Teacher
-                </button>
-                <button
-                  type="button"
-                  onClick={() => selectDemoAccount("ADMIN")}
-                  className="px-2.5 py-1 rounded-md bg-white/80 hover:bg-white text-slate-900 text-xs font-semibold shadow-2xs border border-white/60 transition-all"
-                >
-                  🛡️ Admin
-                </button>
+              <div className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-teal-800" />
+                <span>Authoritative Countdown Timer &amp; Section Switching</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-teal-800" />
+                <span>AI-Driven Strength &amp; Weakness Performance Diagnostics</span>
               </div>
             </div>
-          )}
+          </div>
 
           {/* Bottom Navigation Links */}
           <div className="relative z-10 pt-6 border-t border-teal-600/20 flex items-center justify-between text-xs font-medium text-slate-800">
@@ -448,23 +396,6 @@ export default function LoginPage() {
                   A 6-digit OTP has been sent to <strong>{email}</strong>. Please check your Gmail / Email inbox (also check Spam or Updates).
                 </p>
               </div>
-
-              {availableOtp && (
-                <button
-                  type="button"
-                  onClick={() => {
-                    const digits = availableOtp.slice(0, 6).split("");
-                    setOtpDigits(digits);
-                  }}
-                  className="w-full p-2.5 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-300 text-amber-950 text-xs font-bold flex items-center justify-between transition-all shadow-2xs cursor-pointer"
-                >
-                  <span className="flex items-center gap-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-                    <span>Instant Verification Code: <strong className="font-mono text-sm tracking-widest text-blue-700 bg-white px-2 py-0.5 rounded border border-blue-200">{availableOtp}</strong></span>
-                  </span>
-                  <span className="text-[11px] font-extrabold underline text-amber-800">1-Click Auto Fill &rarr;</span>
-                </button>
-              )}
 
               <div className="space-y-2">
                 <label className="text-xs font-bold text-slate-700 block">

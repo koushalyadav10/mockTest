@@ -83,7 +83,6 @@ export async function POST(req: NextRequest) {
       userId: user.id,
       expiresAt,
       resendCooldownSeconds: cooldownRemainingSeconds,
-      devOtp: otp,
     });
   } catch (error: any) {
     console.error("Registration error:", error);

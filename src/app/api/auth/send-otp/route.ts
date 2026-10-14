@@ -39,7 +39,6 @@ export async function POST(req: NextRequest) {
       message: `A new 6-digit verification code has been dispatched to ${normalizedEmail}.`,
       expiresAt,
       cooldownRemainingSeconds,
-      devOtp: otp, // Ensures user and Suman are never blocked by email delays
     });
   } catch (error: any) {
     return NextResponse.json(
