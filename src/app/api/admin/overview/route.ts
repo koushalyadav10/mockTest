@@ -83,7 +83,7 @@ export async function GET(req: NextRequest) {
       const latest = cand.testAttempts[0];
       let examState: "RUNNING" | "EVALUATED" | "NOT_STARTED" = "NOT_STARTED";
       if (latest) {
-        if (latest.status === "IN_PROGRESS") {
+        if (latest.status === "RUNNING" || latest.status === "IN_PROGRESS" || latest.status === "INSTRUCTIONS") {
           examState = "RUNNING";
         } else if (latest.status === "EVALUATED" || latest.status === "SUBMITTED") {
           examState = "EVALUATED";

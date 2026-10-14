@@ -23,7 +23,7 @@ export async function POST(
       where: { id: params.id },
       data: {
         status: "RUNNING",
-        startedAt: testAttempt.startedAt || now,
+        startedAt: now,
         expiresAt: testAttempt.expiresAt || expiresAt,
       },
     });

@@ -18,6 +18,26 @@ interface ScoreOverviewCardProps {
   unattemptedCount: number;
   totalTimeSeconds: number;
   averageTimeSeconds: number;
+  startedAt?: string | Date | null;
+  completedAt?: string | Date | null;
+}
+
+function formatScorecardTimestamp(d?: string | Date | null) {
+  if (!d) return "--";
+  try {
+    const date = new Date(d);
+    if (isNaN(date.getTime())) return "--";
+    return date.toLocaleString("en-IN", {
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: true,
+    });
+  } catch (e) {
+    return "--";
+  }
 }
 
 export const ScoreOverviewCard: React.FC<ScoreOverviewCardProps> = ({
@@ -34,6 +54,8 @@ export const ScoreOverviewCard: React.FC<ScoreOverviewCardProps> = ({
   unattemptedCount,
   totalTimeSeconds,
   averageTimeSeconds,
+  startedAt,
+  completedAt,
 }) => {
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 space-y-6">
@@ -97,6 +119,38 @@ export const ScoreOverviewCard: React.FC<ScoreOverviewCardProps> = ({
           </div>
           <div className="text-[11px] text-slate-500 mt-1">
             Avg. {averageTimeSeconds}s per question
+          </div>
+        </div>
+      </div>
+
+      {/* Official Examination Session Timing Strip */}
+      <div className="bg-slate-50/90 border border-slate-200/90 rounded-xl p-3.5 flex flex-wrap items-center justify-between gap-3 text-xs">
+        <div className="flex items-center gap-2">
+          <Clock className="w-4 h-4 text-indigo-600 shrink-0" />
+          <span className="font-bold text-slate-800 uppercase tracking-wider text-[11px]">
+            Examination Session Timings:
+          </span>
+        </div>
+        <div className="flex flex-wrap items-center gap-3 sm:gap-6 font-mono text-[11px]">
+          <div className="flex items-center gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+            <span className="text-slate-500 font-sans">Test Khola (Opened):</span>
+            <span className="font-bold text-slate-900 bg-white px-2 py-0.5 rounded border border-slate-200 shadow-2xs">
+              {formatScorecardTimestamp(startedAt)}
+            </span>
+          </div>
+          <div className="flex items-center gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+            <span className="text-slate-500 font-sans">Test Band (Submitted):</span>
+            <span className="font-bold text-slate-900 bg-white px-2 py-0.5 rounded border border-slate-200 shadow-2xs">
+              {formatScorecardTimestamp(completedAt)}
+            </span>
+          </div>
+          <div className="flex items-center gap-1.5">
+            <span className="text-slate-500 font-sans">Total Duration:</span>
+            <span className="font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200 shadow-2xs">
+              {formatSecondsToHHMMSS(totalTimeSeconds)} ({Math.floor(totalTimeSeconds / 60)}m {totalTimeSeconds % 60}s)
+            </span>
           </div>
         </div>
       </div>

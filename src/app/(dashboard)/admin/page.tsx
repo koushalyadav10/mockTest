@@ -42,6 +42,33 @@ import { Button } from "@/components/ui/Button";
 
 type AdminTab = "OVERVIEW" | "SUBMISSIONS" | "USERS" | "TEACHERS" | "AUDIT_LOGS";
 
+function formatAdminDateTime(d?: string | Date | null) {
+  if (!d) return "--";
+  try {
+    const date = new Date(d);
+    if (isNaN(date.getTime())) return "--";
+    return date.toLocaleString("en-IN", {
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: true,
+    });
+  } catch (e) {
+    return "--";
+  }
+}
+
+function formatAdminDuration(seconds?: number | null) {
+  if (!seconds || seconds <= 0) return "0s";
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  if (mins === 0) return `${secs}s`;
+  if (secs === 0) return `${mins}m`;
+  return `${mins}m ${secs}s`;
+}
+
 export default function AdminDashboardPage() {
   const [activeTab, setActiveTab] = useState<AdminTab>("OVERVIEW");
 
@@ -1237,6 +1264,30 @@ export default function AdminDashboardPage() {
                         </span>
                       </div>
 
+                      {/* Session Timing Telemetry Bar */}
+                      <div className="bg-slate-50 border border-slate-200/80 rounded-xl p-2.5 flex flex-col gap-1 text-[11px] font-mono text-slate-700">
+                        <div className="flex items-center justify-between">
+                          <span className="text-slate-400 font-sans flex items-center gap-1">
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                            Test Khola (Opened):
+                          </span>
+                          <span className="font-bold text-slate-800">
+                            {formatAdminDateTime(sub.startedAt)}
+                          </span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-slate-400 font-sans flex items-center gap-1">
+                            <span className={`w-1.5 h-1.5 rounded-full ${sub.completedAt ? "bg-blue-500" : "bg-amber-500 animate-pulse"}`}></span>
+                            Test Band (Submitted):
+                          </span>
+                          <span className="font-bold text-slate-800">
+                            {sub.completedAt ? formatAdminDateTime(sub.completedAt) : (
+                              <span className="text-amber-600 font-sans font-bold">In Progress / Ongoing</span>
+                            )}
+                          </span>
+                        </div>
+                      </div>
+
                       {/* Score Highlight Box */}
                       <div className="bg-slate-900 text-white p-3 rounded-xl flex items-center justify-between">
                         <div>
@@ -1273,9 +1324,9 @@ export default function AdminDashboardPage() {
                           <div className="font-bold font-mono text-rose-700">-{sub.incorrectCount}</div>
                         </div>
                         <div>
-                          <div className="text-[10px] text-slate-400 font-medium">Time</div>
+                          <div className="text-[10px] text-slate-400 font-medium">Time Taken</div>
                           <div className="font-bold font-mono text-slate-800">
-                            {Math.floor(sub.timeSpentSeconds / 60)}m
+                            {formatAdminDuration(sub.timeSpentSeconds)}
                           </div>
                         </div>
                       </div>
@@ -1319,7 +1370,7 @@ export default function AdminDashboardPage() {
                         <th className="py-3 px-4 text-center">Score / Marks</th>
                         <th className="py-3 px-4 text-center">Accuracy</th>
                         <th className="py-3 px-4 text-center">Breakdown (C / W / U)</th>
-                        <th className="py-3 px-4 text-center">Time Spent</th>
+                        <th className="py-3 px-4 text-center">Timing &amp; Duration</th>
                         <th className="py-3 px-4 text-center">Status</th>
                         <th className="py-3 px-4 text-right">Action</th>
                       </tr>
@@ -1419,9 +1470,24 @@ export default function AdminDashboardPage() {
                               </div>
                             </td>
 
-                            {/* Time Spent */}
-                            <td className="py-3.5 px-4 text-center font-mono text-xs text-slate-600">
-                              {Math.floor(sub.timeSpentSeconds / 60)}m {sub.timeSpentSeconds % 60}s
+                            {/* Timing & Duration */}
+                            <td className="py-3.5 px-4 text-center">
+                              <div className="font-bold font-mono text-slate-900 text-xs">
+                                ⏱️ {formatAdminDuration(sub.timeSpentSeconds)}
+                              </div>
+                              <div className="text-[10px] font-mono text-slate-500 flex flex-col items-center gap-0.5 mt-1">
+                                <span title="Test Khola (Start Time)">
+                                  <span className="text-slate-400 font-sans">In:</span> {formatAdminDateTime(sub.startedAt)}
+                                </span>
+                                <span title="Test Band (Submit Time)">
+                                  <span className="text-slate-400 font-sans">Out:</span>{" "}
+                                  {sub.completedAt ? (
+                                    formatAdminDateTime(sub.completedAt)
+                                  ) : (
+                                    <span className="text-amber-600 font-sans font-bold">In Progress</span>
+                                  )}
+                                </span>
+                              </div>
                             </td>
 
                             {/* Status */}

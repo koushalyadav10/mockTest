@@ -169,6 +169,7 @@ export async function POST(req: NextRequest) {
         studentRollNo: user?.studentRollNo || `EF-${Date.now().toString().slice(-6)}`,
         examConfigId: examConfig.id,
         status: "NOT_STARTED",
+        startedAt: new Date(),
         mode,
         totalQuestions: orderedQuestions.length,
         questionOrderJson: JSON.stringify(orderedQuestions.map((q) => q.id)),

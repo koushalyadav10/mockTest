@@ -204,9 +204,22 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
           <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
             Performance Analytics &amp; Result Report
           </h1>
-          <p className="text-xs sm:text-sm text-slate-500 mt-1">
-            {testAttempt.examTitle} &bull; Candidate: {testAttempt.candidateName} &bull; Completed on{" "}
-            {new Date(testAttempt.completedAt).toLocaleDateString()}
+          <p className="text-xs sm:text-sm text-slate-500 mt-1 flex flex-wrap items-center gap-1.5">
+            <span className="font-semibold text-slate-700">{testAttempt.examTitle}</span>
+            <span>&bull;</span>
+            <span>Candidate: <strong className="text-slate-800">{testAttempt.candidateName}</strong></span>
+            {testAttempt.startedAt && (
+              <>
+                <span>&bull;</span>
+                <span>Started: <strong className="text-slate-700 font-mono">{new Date(testAttempt.startedAt).toLocaleString("en-IN", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: true })}</strong></span>
+              </>
+            )}
+            {testAttempt.completedAt && (
+              <>
+                <span>&bull;</span>
+                <span>Submitted: <strong className="text-slate-700 font-mono">{new Date(testAttempt.completedAt).toLocaleString("en-IN", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: true })}</strong></span>
+              </>
+            )}
           </p>
         </div>
 
@@ -294,6 +307,8 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
         unattemptedCount={evaluation.unattemptedCount}
         totalTimeSeconds={evaluation.totalTimeSeconds}
         averageTimeSeconds={evaluation.averageTimePerQuestionSeconds}
+        startedAt={testAttempt.startedAt}
+        completedAt={testAttempt.completedAt}
       />
 
       {/* Action Strip: Specialized Practice Triggers */}

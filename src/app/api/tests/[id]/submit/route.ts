@@ -91,12 +91,20 @@ export async function POST(
       await prisma.$transaction(updateOperations);
     }
 
+    const submitNow = new Date();
+    const effectiveStartedAt = testAttempt.startedAt || testAttempt.createdAt;
+    const elapsedSeconds = effectiveStartedAt
+      ? Math.max(0, Math.round((submitNow.getTime() - new Date(effectiveStartedAt).getTime()) / 1000))
+      : 0;
+    const finalTimeSpentSeconds = Math.max(evaluation.totalTimeSeconds, elapsedSeconds);
+
     // Update Test Attempt summary
     const updatedAttempt = await prisma.testAttempt.update({
       where: { id: params.id },
       data: {
         status: "EVALUATED",
-        completedAt: new Date(),
+        completedAt: submitNow,
+        startedAt: effectiveStartedAt,
         attemptedCount: evaluation.attemptedCount,
         correctCount: evaluation.correctCount,
         incorrectCount: evaluation.incorrectCount,
@@ -106,7 +114,7 @@ export async function POST(
         negativeMarksTotal: evaluation.negativeMarksTotal,
         finalScore: evaluation.finalScore,
         accuracy: evaluation.accuracy,
-        timeSpentSeconds: evaluation.totalTimeSeconds,
+        timeSpentSeconds: finalTimeSpentSeconds > 0 ? finalTimeSpentSeconds : evaluation.totalTimeSeconds,
       },
     });
 

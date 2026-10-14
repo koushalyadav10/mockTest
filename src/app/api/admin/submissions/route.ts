@@ -23,6 +23,8 @@ export async function GET(req: NextRequest) {
     if (status !== "ALL") {
       if (status === "EVALUATED") {
         where.status = { in: ["EVALUATED", "SUBMITTED"] };
+      } else if (status === "RUNNING") {
+        where.status = { in: ["RUNNING", "IN_PROGRESS", "INSTRUCTIONS"] };
       } else {
         where.status = status;
       }
@@ -129,8 +131,8 @@ export async function GET(req: NextRequest) {
           incorrectCount: att.incorrectCount,
           unattemptedCount: att.unattemptedCount,
           timeSpentSeconds: att.timeSpentSeconds,
-          startedAt: att.startedAt || att.createdAt,
-          completedAt: att.completedAt,
+          startedAt: (att.startedAt || att.createdAt).toISOString(),
+          completedAt: att.completedAt ? att.completedAt.toISOString() : null,
           rank,
           violationCount: att.violationCount,
           resultUrl: `/mock/${att.id}/result`,
