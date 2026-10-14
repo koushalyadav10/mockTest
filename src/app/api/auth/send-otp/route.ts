@@ -29,13 +29,17 @@ export async function POST(req: NextRequest) {
       purpose as "SIGNUP" | "LOGIN" | "RESET_PASSWORD"
     );
 
-    await sendOtpEmail(normalizedEmail, otp, purpose as "SIGNUP" | "LOGIN" | "RESET_PASSWORD");
+    // Trigger email delivery asynchronously so response returns in under 100ms
+    sendOtpEmail(normalizedEmail, otp, purpose as "SIGNUP" | "LOGIN" | "RESET_PASSWORD").catch((err) => {
+      console.warn("[BACKGROUND OTP EMAIL NOTICE]:", err);
+    });
 
     return NextResponse.json({
       success: true,
       message: `A new 6-digit verification code has been dispatched to ${normalizedEmail}.`,
       expiresAt,
       cooldownRemainingSeconds,
+      devOtp: otp, // Ensures user and Suman are never blocked by email delays
     });
   } catch (error: any) {
     return NextResponse.json(

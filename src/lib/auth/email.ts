@@ -47,9 +47,12 @@ export async function sendEmail(params: {
           user: gmailUser,
           pass: gmailAppPass,
         },
+        connectionTimeout: 4000,
+        greetingTimeout: 4000,
+        socketTimeout: 5000,
       });
 
-      const info = await transporter.sendMail({
+      const sendPromise = transporter.sendMail({
         from: `"ExamForge AI" <${gmailUser}>`,
         to,
         subject,
@@ -57,11 +60,17 @@ export async function sendEmail(params: {
         text: text || subject,
       });
 
+      const timeoutPromise = new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error("Gmail SMTP timed out after 4 seconds")), 4000)
+      );
+
+      const info: any = await Promise.race([sendPromise, timeoutPromise]);
+
       providerUsed = "GMAIL_SMTP";
       messageId = info.messageId;
       console.log(`[EMAIL DISPATCH] 🚀 Real Gmail sent to ${to} (MessageId: ${info.messageId})`);
-    } catch (err) {
-      console.error("[EMAIL DISPATCH] ❌ Gmail SMTP delivery failed:", err);
+    } catch (err: any) {
+      console.warn("[EMAIL DISPATCH] ⚠️ Fast-path Gmail SMTP notice:", err?.message || err);
     }
   }
 

@@ -32,7 +32,7 @@ export const ExamFooter: React.FC<ExamFooterProps> = ({
   totalQuestions,
 }) => {
   return (
-    <footer className="bg-slate-900 text-white border-t border-slate-800 px-3 sm:px-4 py-2 sm:py-2.5 flex flex-wrap items-center justify-between gap-2 select-none shadow-lg z-20">
+    <footer className="bg-slate-900 text-white border-t border-slate-800 px-3 sm:px-4 py-2 sm:py-2.5 landscape:py-1 landscape:px-3 flex flex-wrap items-center justify-between gap-1.5 sm:gap-2 select-none shadow-lg z-20">
       {/* Left Action Buttons */}
       <div className="flex items-center gap-1.5 sm:gap-2">
         <Button

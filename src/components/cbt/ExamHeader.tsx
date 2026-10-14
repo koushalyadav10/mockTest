@@ -57,7 +57,7 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
 
   return (
     <>
-      <header className="bg-slate-900 text-slate-100 border-b border-slate-800 px-4 py-2.5 flex items-center justify-between select-none shadow-md z-30">
+      <header className="bg-slate-900 text-slate-100 border-b border-slate-800 px-3 sm:px-4 py-2 sm:py-2.5 landscape:py-1 landscape:px-3 flex items-center justify-between select-none shadow-md z-30">
         {/* Left: Exam and Section */}
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2">

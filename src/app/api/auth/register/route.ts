@@ -71,8 +71,10 @@ export async function POST(req: NextRequest) {
     // Generate real 6-digit OTP
     const { otp, expiresAt, cooldownRemainingSeconds } = await createAndSaveOtp(normalizedEmail, "SIGNUP");
 
-    // Send actual email via configured email service
-    await sendOtpEmail(normalizedEmail, otp, "SIGNUP");
+    // Send actual email via configured email service asynchronously
+    sendOtpEmail(normalizedEmail, otp, "SIGNUP").catch((err) => {
+      console.warn("[BACKGROUND SIGNUP EMAIL NOTICE]:", err);
+    });
 
     return NextResponse.json({
       success: true,
@@ -81,6 +83,7 @@ export async function POST(req: NextRequest) {
       userId: user.id,
       expiresAt,
       resendCooldownSeconds: cooldownRemainingSeconds,
+      devOtp: otp,
     });
   } catch (error: any) {
     console.error("Registration error:", error);

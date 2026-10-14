@@ -126,9 +126,9 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300 p-3.5 sm:p-6">
+    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto landscape:overflow-hidden scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300 p-3 sm:p-6 landscape:p-3">
       {/* Top Header Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-2.5 pb-3.5 border-b border-slate-200/80 text-xs">
+      <div className="flex flex-wrap items-center justify-between gap-2 pb-2 sm:pb-3.5 border-b border-slate-200/80 text-xs shrink-0">
         {/* Left: Question No + Topic + Official Exam Citation + Question Timer */}
         <div className="flex items-center gap-2 sm:gap-2.5 flex-wrap">
           <span className="text-base sm:text-lg font-black text-slate-900 font-mono tracking-tight">
@@ -190,114 +190,119 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         </div>
       </div>
 
-      {/* Question Content Body */}
-      <div className="py-4 space-y-3.5 flex-1 w-full">
-        {/* Authentic Aditya Ranjan Type Badge (if present) */}
-        {activeTypeHeader && (
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
-            <span className="text-amber-400">◆</span>
-            <span>{activeTypeHeader}</span>
-            <span className="text-amber-400">◆</span>
-          </div>
-        )}
-
-        {/* Data Interpretation Visual or Chart or Diagram */}
-        {isDataInterpretation && (
-          <DataInterpretationVisual
-            questionNumber={questionNumber}
-            subtopic={typeHeader || topic}
-            questionText={displayQuestionText}
-            hasVisualContent={hasVisualContent}
-            visualType={visualType}
-            imageUrl={imageUrl}
-          />
-        )}
-
-        {/* Reading Comprehension Passage or Story Context */}
-        {directionText && (
-          <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
-            <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
-              <FileText className="w-4 h-4 text-amber-700 shrink-0" />
-              <span>Reference Context / Reading Passage</span>
+      {/* Question Content Body: Single column in Portrait, 2-column half/half split in Landscape */}
+      <div className="py-2.5 sm:py-4 flex-1 w-full grid grid-cols-1 landscape:grid-cols-2 gap-3 sm:gap-6 landscape:gap-4 overflow-hidden min-h-0">
+        {/* Left Side: Question Text, Context Passage, DI Visuals / Diagrams */}
+        <div className="space-y-3 overflow-y-auto pr-1 landscape:pr-2.5 scrollbar-thin scrollbar-thumb-slate-200">
+          {/* Authentic Aditya Ranjan Type Badge (if present) */}
+          {activeTypeHeader && (
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
+              <span className="text-amber-400">◆</span>
+              <span>{activeTypeHeader}</span>
+              <span className="text-amber-400">◆</span>
             </div>
-            <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
-              <MathRenderer text={directionText} />
-            </div>
-          </div>
-        )}
+          )}
 
-        {/* Highlighted Crisp Large Question Text */}
-        <div className="text-[18px] sm:text-[21px] font-semibold text-slate-900 leading-relaxed tracking-tight py-2">
-          <MathRenderer text={activeQuestionText} />
+          {/* Reading Comprehension Passage or Story Context */}
+          {directionText && (
+            <div className="p-3.5 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+              <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
+                <FileText className="w-4 h-4 text-amber-700 shrink-0" />
+                <span>Reference Context / Reading Passage</span>
+              </div>
+              <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+                <MathRenderer text={directionText} />
+              </div>
+            </div>
+          )}
+
+          {/* Data Interpretation Visual or Chart or Diagram */}
+          {isDataInterpretation && (
+            <DataInterpretationVisual
+              questionNumber={questionNumber}
+              subtopic={typeHeader || topic}
+              questionText={displayQuestionText}
+              hasVisualContent={hasVisualContent}
+              visualType={visualType}
+              imageUrl={imageUrl}
+            />
+          )}
+
+          {/* Highlighted Crisp Large Question Text */}
+          <div className="text-[17px] sm:text-[21px] font-semibold text-slate-900 leading-relaxed tracking-tight py-1 sm:py-2">
+            <MathRenderer text={activeQuestionText} />
+          </div>
+
+          {/* Fallback Image for Non-DI questions if imageUrl exists */}
+          {!isDataInterpretation && hasVisualContent && imageUrl && (
+            <div className="my-2 p-3 bg-white border border-slate-200 rounded-2xl shadow-sm block w-full max-w-2xl">
+              <img
+                src={imageUrl}
+                alt={`Question ${questionNumber} Diagram`}
+                className="max-h-[300px] sm:max-h-[480px] w-auto mx-auto object-contain rounded-xl cursor-pointer hover:opacity-95 transition-all"
+                onClick={() => setIsZoomOpen(true)}
+              />
+            </div>
+          )}
         </div>
 
-        {/* Fallback Image for Non-DI questions if imageUrl exists */}
-        {!isDataInterpretation && hasVisualContent && imageUrl && (
-          <div className="my-3 p-4 bg-white border border-slate-200 rounded-2xl shadow-sm block w-full max-w-2xl">
-            <img
-              src={imageUrl}
-              alt={`Question ${questionNumber} Diagram`}
-              className="max-h-[440px] sm:max-h-[480px] w-auto mx-auto object-contain rounded-xl cursor-pointer hover:opacity-95 transition-all"
-              onClick={() => setIsZoomOpen(true)}
-            />
-          </div>
-        )}
-
-        {/* Compact, Soothing Option Boxes */}
-        <div className="pt-2 space-y-2.5 w-full max-w-2xl lg:max-w-3xl">
-          <div className="text-xs font-bold text-slate-400 uppercase tracking-wider pb-0.5">
+        {/* Right Side: Options & Instant Feedback Explanation */}
+        <div className="space-y-2.5 overflow-y-auto pl-0 landscape:pl-2.5 scrollbar-thin scrollbar-thumb-slate-200 flex flex-col justify-start">
+          <div className="text-xs font-bold text-slate-400 uppercase tracking-wider pb-0.5 shrink-0">
             {questionLang === "hi" ? "अपना विकल्प चुनें:" : "Select Your Option:"}
           </div>
 
-          {options.map((opt, idx) => {
-            const isSelected = selectedOptionStableId === opt.stableId;
-            const isCorrectOption = Boolean(
-              isInstantFeedbackActive &&
-                correctOptionStableId &&
-                opt.stableId === correctOptionStableId
-            );
-            const isWrongOption = Boolean(
-              isInstantFeedbackActive &&
-                isSelected &&
-                correctOptionStableId &&
-                opt.stableId !== correctOptionStableId
-            );
+          <div className="space-y-2 sm:space-y-2.5 w-full">
+            {options.map((opt, idx) => {
+              const isSelected = selectedOptionStableId === opt.stableId;
+              const isCorrectOption = Boolean(
+                isInstantFeedbackActive &&
+                  correctOptionStableId &&
+                  opt.stableId === correctOptionStableId
+              );
+              const isWrongOption = Boolean(
+                isInstantFeedbackActive &&
+                  isSelected &&
+                  correctOptionStableId &&
+                  opt.stableId !== correctOptionStableId
+              );
 
-            const optionDisplay = questionLang === "hi" ? translateOptionToHindi(opt.text) : opt.text;
+              const optionDisplay = questionLang === "hi" ? translateOptionToHindi(opt.text) : opt.text;
 
-            return (
-              <OptionCard
-                key={opt.stableId}
-                label={opt.displayLabel}
-                text={optionDisplay}
-                isSelected={isSelected}
-                onSelect={() => onSelectOption(opt.stableId)}
-                keyboardShortcut={String(idx + 1)}
-                instantFeedbackActive={isInstantFeedbackActive && Boolean(selectedOptionStableId)}
-                isCorrectOption={isCorrectOption}
-                isWrongOption={isWrongOption}
-              />
-            );
-          })}
-        </div>
-
-        {/* Step-by-Step Explanation Box (revealed when instant feedback is ON and option is marked) */}
-        {isInstantFeedbackActive && selectedOptionStableId && (
-          <div className="mt-4 p-4 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2 w-full max-w-2xl lg:max-w-3xl transition-all animate-in fade-in duration-200">
-            <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider">
-              <Sparkles className="w-4 h-4 text-blue-600" />
-              <span>{questionLang === "hi" ? "चरणबद्ध समाधान एवं दृष्टिकोण" : "Step-by-Step Solution & Approach"}</span>
-            </div>
-            <div className="text-sm text-slate-800 leading-relaxed font-sans">
-              <MathRenderer
-                text={
-                  activeExplanation ||
-                  `Answer option (${options.find((o) => o.stableId === correctOptionStableId)?.displayLabel || "Verified"}) is verified by TCS standard methodology.`
-                }
-              />
-            </div>
+              return (
+                <OptionCard
+                  key={opt.stableId}
+                  label={opt.displayLabel}
+                  text={optionDisplay}
+                  isSelected={isSelected}
+                  onSelect={() => onSelectOption(opt.stableId)}
+                  keyboardShortcut={String(idx + 1)}
+                  instantFeedbackActive={isInstantFeedbackActive && Boolean(selectedOptionStableId)}
+                  isCorrectOption={isCorrectOption}
+                  isWrongOption={isWrongOption}
+                />
+              );
+            })}
           </div>
-        )}
+
+          {/* Step-by-Step Explanation Box (revealed when instant feedback is ON and option is marked) */}
+          {isInstantFeedbackActive && selectedOptionStableId && (
+            <div className="mt-3 p-3.5 sm:p-4 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2 w-full transition-all animate-in fade-in duration-200">
+              <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider">
+                <Sparkles className="w-4 h-4 text-blue-600" />
+                <span>{questionLang === "hi" ? "चरणबद्ध समाधान एवं दृष्टिकोण" : "Step-by-Step Solution & Approach"}</span>
+              </div>
+              <div className="text-xs sm:text-sm text-slate-800 leading-relaxed font-sans">
+                <MathRenderer
+                  text={
+                    activeExplanation ||
+                    `Answer option (${options.find((o) => o.stableId === correctOptionStableId)?.displayLabel || "Verified"}) is verified by TCS standard methodology.`
+                  }
+                />
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Diagram Zoom Modal */}

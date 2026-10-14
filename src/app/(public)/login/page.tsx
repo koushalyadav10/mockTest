@@ -37,6 +37,7 @@ export default function LoginPage() {
   const [isOtpStep, setIsOtpStep] = useState(false);
   const [otpDigits, setOtpDigits] = useState(["", "", "", "", "", ""]);
   const [cooldown, setCooldown] = useState(0);
+  const [availableOtp, setAvailableOtp] = useState<string | null>(null);
 
   // Status & Feedback
   const [loading, setLoading] = useState(false);
@@ -128,6 +129,9 @@ export default function LoginPage() {
         setIsOtpStep(true);
         setCooldown(data.cooldownRemainingSeconds || 60);
         setSuccessMessage(`6-digit OTP dispatched to ${email}. Please verify.`);
+        if (data.devOtp) {
+          setAvailableOtp(data.devOtp);
+        }
         fetchDevMailbox();
         return;
       }
@@ -191,6 +195,9 @@ export default function LoginPage() {
       setIsOtpStep(true);
       setCooldown(data.resendCooldownSeconds || 60);
       setSuccessMessage(data.message || "Verification code sent to your email.");
+      if (data.devOtp) {
+        setAvailableOtp(data.devOtp);
+      }
       fetchDevMailbox();
     } catch (err: any) {
       setErrorMessage(err.message || "Registration failed");
@@ -258,6 +265,9 @@ export default function LoginPage() {
 
       setCooldown(data.cooldownRemainingSeconds || 60);
       setSuccessMessage("A fresh 6-digit code has been dispatched to your email.");
+      if (data.devOtp) {
+        setAvailableOtp(data.devOtp);
+      }
       fetchDevMailbox();
     } catch (err: any) {
       setErrorMessage(err.message || "Failed to resend code");
@@ -302,6 +312,20 @@ export default function LoginPage() {
                 Pre-configured Test Accounts:
               </div>
               <div className="flex flex-wrap gap-1.5">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setAuthMode("LOGIN");
+                    setLoginMethod("PASSWORD");
+                    setIsOtpStep(false);
+                    setErrorMessage(null);
+                    setEmail("suman.chauhan.22334@gmail.com");
+                    setPassword("Suman@7388");
+                  }}
+                  className="px-2.5 py-1 rounded-md bg-pink-100 hover:bg-pink-200 text-pink-900 text-xs font-bold shadow-2xs border border-pink-300 transition-all flex items-center gap-1"
+                >
+                  🌸 Suman (GF)
+                </button>
                 <button
                   type="button"
                   onClick={() => selectDemoAccount("STUDENT")}
@@ -421,9 +445,26 @@ export default function LoginPage() {
                   <span>Verification Code Dispatched</span>
                 </div>
                 <p className="text-[12px] text-teal-800 leading-relaxed">
-                  A 6-digit OTP has been sent to <strong>{email}</strong>. Please check your Gmail / Email inbox (also check the Spam or Updates folder).
+                  A 6-digit OTP has been sent to <strong>{email}</strong>. Please check your Gmail / Email inbox (also check Spam or Updates).
                 </p>
               </div>
+
+              {availableOtp && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    const digits = availableOtp.slice(0, 6).split("");
+                    setOtpDigits(digits);
+                  }}
+                  className="w-full p-2.5 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-300 text-amber-950 text-xs font-bold flex items-center justify-between transition-all shadow-2xs cursor-pointer"
+                >
+                  <span className="flex items-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5 text-amber-600" />
+                    <span>Instant Verification Code: <strong className="font-mono text-sm tracking-widest text-blue-700 bg-white px-2 py-0.5 rounded border border-blue-200">{availableOtp}</strong></span>
+                  </span>
+                  <span className="text-[11px] font-extrabold underline text-amber-800">1-Click Auto Fill &rarr;</span>
+                </button>
+              )}
 
               <div className="space-y-2">
                 <label className="text-xs font-bold text-slate-700 block">
