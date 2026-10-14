@@ -58,34 +58,34 @@ export const OptionCard: React.FC<OptionCardProps> = ({
           onSelect();
         }
       }}
-      className={`group relative flex items-center gap-3.5 landscape:gap-2.5 py-3 px-4 sm:py-3.5 sm:px-5 landscape:py-2 landscape:px-3 rounded-xl border transition-all select-none cursor-pointer w-full ${containerStyles}`}
+      className={`group relative flex items-center gap-2.5 sm:gap-3.5 landscape:gap-2 py-2 sm:py-3.5 landscape:py-1 px-3 sm:px-5 landscape:px-2.5 rounded-xl landscape:rounded-lg border transition-all select-none cursor-pointer w-full landscape:min-h-0 ${containerStyles}`}
     >
       {/* Radio Circle & Label */}
       <div
-        className={`flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 landscape:w-6 landscape:h-6 rounded-lg flex items-center justify-center font-bold text-xs sm:text-sm landscape:text-xs border transition-colors ${circleStyles}`}
+        className={`flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 landscape:w-5 landscape:h-5 rounded-lg landscape:rounded-md flex items-center justify-center font-bold text-xs sm:text-sm landscape:text-[10px] border transition-colors ${circleStyles}`}
       >
         {instantFeedbackActive && isCorrectOption ? (
-          <Check className="w-4 h-4 stroke-[3]" />
+          <Check className="w-3.5 h-3.5 sm:w-4 sm:h-4 landscape:w-3 landscape:h-3 stroke-[3]" />
         ) : instantFeedbackActive && isWrongOption ? (
-          <X className="w-4 h-4 stroke-[3]" />
+          <X className="w-3.5 h-3.5 sm:w-4 sm:h-4 landscape:w-3 landscape:h-3 stroke-[3]" />
         ) : (
           label
         )}
       </div>
 
       {/* Option Text with KaTeX and Hindi font support */}
-      <div className="flex-1 text-[16px] sm:text-[17px] landscape:text-[14px] sm:landscape:text-[15px] font-medium leading-relaxed">
+      <div className="flex-1 text-[15px] sm:text-[17px] landscape:text-[12px] sm:landscape:text-[13px] landscape:leading-tight font-medium">
         <MathRenderer text={text} />
       </div>
 
       {/* Instant Feedback indicator badge */}
       {instantFeedbackActive && isCorrectOption && (
-        <span className="text-[11px] font-bold text-emerald-700 bg-emerald-100/80 px-2 py-0.5 rounded-md ml-auto shrink-0">
+        <span className="text-[10px] sm:text-[11px] landscape:text-[9px] font-bold text-emerald-700 bg-emerald-100/80 px-1.5 py-0.5 sm:px-2 sm:py-0.5 landscape:py-0 rounded-md ml-auto shrink-0">
           Correct
         </span>
       )}
       {instantFeedbackActive && isWrongOption && (
-        <span className="text-[11px] font-bold text-rose-700 bg-rose-100/80 px-2 py-0.5 rounded-md ml-auto shrink-0">
+        <span className="text-[10px] sm:text-[11px] landscape:text-[9px] font-bold text-rose-700 bg-rose-100/80 px-1.5 py-0.5 sm:px-2 sm:py-0.5 landscape:py-0 rounded-md ml-auto shrink-0">
           Incorrect
         </span>
       )}

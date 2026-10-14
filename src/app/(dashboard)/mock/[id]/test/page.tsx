@@ -518,7 +518,7 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
       {/* Main Split Body: Question Area (Flex-1) + Right Sidebar Question Palette (300px - 330px) */}
       <div className="flex-1 flex overflow-hidden w-full">
         {/* Left/Center: Question Card */}
-        <main className="flex-1 p-2.5 sm:p-5 landscape:p-2 overflow-hidden flex flex-col bg-[#f4f6f8]">
+        <main className="flex-1 p-2 sm:p-5 landscape:p-1.5 overflow-hidden flex flex-col bg-[#f4f6f8]">
           {currentQ && (
             <QuestionCard
               questionNumber={currentIndex + 1}

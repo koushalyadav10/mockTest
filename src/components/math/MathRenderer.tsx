@@ -189,15 +189,15 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
       elements.push(
         <div
           key={`table-block-${elements.length}`}
-          className="overflow-x-auto my-1.5 sm:my-2 border border-slate-200/90 rounded-xl shadow-2xs bg-white max-w-full sm:max-w-2xl touch-pan-x"
+          className="overflow-x-auto my-1 sm:my-2 border border-slate-200/90 rounded-xl shadow-2xs bg-white max-w-full sm:max-w-2xl touch-pan-x touch-pan-y overscroll-contain [-webkit-overflow-scrolling:touch]"
         >
-          <table className="min-w-full divide-y divide-slate-200 text-xs sm:text-[13px]">
+          <table className="min-w-full divide-y divide-slate-200 text-xs sm:text-[13px] landscape:text-[11px]">
             <thead className="bg-slate-100/90 text-slate-800 font-bold">
               <tr>
                 {tableHeader.map((headerCell, hIdx) => (
                   <th
                     key={hIdx}
-                    className="px-2.5 py-1.5 sm:px-3 sm:py-2 text-center font-bold text-[11px] sm:text-xs text-slate-800 border-r border-slate-200/80 last:border-r-0 whitespace-nowrap first:text-left first:pl-3"
+                    className="px-2 py-1 sm:px-3 sm:py-2 landscape:px-1.5 landscape:py-0.5 text-center font-bold text-[11px] sm:text-xs landscape:text-[10px] text-slate-800 border-r border-slate-200/80 last:border-r-0 whitespace-nowrap first:text-left first:pl-2.5 sm:first:pl-3"
                   >
                     {renderInlineMath(headerCell)}
                   </th>
@@ -213,7 +213,7 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
                   {rowCells.map((cell, cIdx) => (
                     <td
                       key={cIdx}
-                      className="px-2.5 py-1 sm:px-3 sm:py-1.5 text-center text-slate-800 font-medium text-xs sm:text-[13px] border-r border-slate-100 last:border-r-0 first:text-left first:pl-3 first:font-semibold"
+                      className="px-2 py-0.5 sm:px-3 sm:py-1.5 landscape:px-1.5 landscape:py-0.5 text-center text-slate-800 font-medium text-xs sm:text-[13px] landscape:text-[11px] border-r border-slate-100 last:border-r-0 first:text-left first:pl-2.5 sm:first:pl-3 first:font-semibold"
                     >
                       {renderInlineMath(cell)}
                     </td>
