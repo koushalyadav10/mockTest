@@ -133,6 +133,41 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
   const isAdminOrTeacher = currentUser?.role === "ADMIN" || currentUser?.role === "TEACHER";
   const isAssigned = isAssignedExam(exam);
 
+  // Scheduled Lockdown & Live Countdown State
+  const isUpcoming = exam?.scheduledStatus === "UPCOMING" || Boolean(
+    exam?.availability === "SCHEDULED" && exam?.startDate && new Date(exam.startDate) > new Date()
+  );
+  const isExpired = exam?.scheduledStatus === "EXPIRED" || Boolean(
+    exam?.availability === "SCHEDULED" && exam?.endDate && new Date(exam.endDate) < new Date()
+  );
+
+  const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0, isLive: false });
+
+  useEffect(() => {
+    if (!exam?.startDate || exam.availability !== "SCHEDULED") return;
+
+    const startTarget = new Date(exam.startDate).getTime();
+
+    const tick = () => {
+      const now = Date.now();
+      const diff = startTarget - now;
+      if (diff <= 0) {
+        setCountdown({ days: 0, hours: 0, minutes: 0, seconds: 0, isLive: true });
+        setExam((prev: any) => prev ? { ...prev, scheduledStatus: "LIVE" } : prev);
+        return;
+      }
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+      setCountdown({ days, hours, minutes, seconds, isLive: false });
+    };
+
+    tick();
+    const interval = setInterval(tick, 1000);
+    return () => clearInterval(interval);
+  }, [exam?.startDate, exam?.availability]);
+
   const totalChapterQuestions = exam?.totalQuestions || 0;
   const effectiveQuestionCount = isCustomRangeActive
     ? Math.max(1, Math.min(totalChapterQuestions, rangeTo) - Math.max(1, rangeFrom) + 1)
@@ -405,8 +440,146 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
         </div>
       )}
 
+      {/* 4A. SCHEDULED EXAM LOCKDOWN & LIVE COUNTDOWN WAITING ROOM */}
+      {isUpcoming && !isAdminOrTeacher && (
+        <div className="bg-white rounded-3xl border border-blue-200/90 p-6 sm:p-10 shadow-sm text-center space-y-6 animate-in fade-in duration-200">
+          <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-indigo-50 to-blue-100 border border-blue-200 flex items-center justify-center mx-auto shadow-inner text-indigo-600 relative">
+            <Lock className="w-10 h-10" />
+            <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-blue-500 animate-ping" />
+          </div>
+
+          <div className="space-y-2 max-w-lg mx-auto">
+            <span className="px-3 py-1 rounded-full bg-blue-100 text-blue-900 text-[11px] font-black uppercase tracking-wider border border-blue-200 inline-flex items-center gap-1.5">
+              <span>🔒 Official Examination Room is Locked</span>
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+              Test Opens In:
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
+              This scheduled computer-based examination is locked until the scheduled start time. 
+              The test room will automatically admit you as soon as the countdown timer hits zero.
+            </p>
+          </div>
+
+          {/* Large Live Digital Countdown Timer */}
+          <div className="flex items-center justify-center gap-2 sm:gap-4 max-w-md mx-auto">
+            <div className="flex-1 bg-slate-950 text-white rounded-2xl p-3 sm:p-4 text-center border border-slate-800 shadow-md">
+              <div className="font-mono text-2xl sm:text-4xl font-black text-indigo-400">
+                {String(countdown.days).padStart(2, "0")}
+              </div>
+              <div className="text-[10px] text-slate-400 font-bold uppercase mt-1 tracking-wider">Days</div>
+            </div>
+            <span className="text-2xl font-bold text-slate-400">:</span>
+            <div className="flex-1 bg-slate-950 text-white rounded-2xl p-3 sm:p-4 text-center border border-slate-800 shadow-md">
+              <div className="font-mono text-2xl sm:text-4xl font-black text-indigo-400">
+                {String(countdown.hours).padStart(2, "0")}
+              </div>
+              <div className="text-[10px] text-slate-400 font-bold uppercase mt-1 tracking-wider">Hours</div>
+            </div>
+            <span className="text-2xl font-bold text-slate-400">:</span>
+            <div className="flex-1 bg-slate-950 text-white rounded-2xl p-3 sm:p-4 text-center border border-slate-800 shadow-md">
+              <div className="font-mono text-2xl sm:text-4xl font-black text-indigo-400">
+                {String(countdown.minutes).padStart(2, "0")}
+              </div>
+              <div className="text-[10px] text-slate-400 font-bold uppercase mt-1 tracking-wider">Mins</div>
+            </div>
+            <span className="text-2xl font-bold text-slate-400">:</span>
+            <div className="flex-1 bg-slate-950 text-white rounded-2xl p-3 sm:p-4 text-center border border-slate-800 shadow-md">
+              <div className="font-mono text-2xl sm:text-4xl font-black text-emerald-400">
+                {String(countdown.seconds).padStart(2, "0")}
+              </div>
+              <div className="text-[10px] text-slate-400 font-bold uppercase mt-1 tracking-wider">Secs</div>
+            </div>
+          </div>
+
+          {/* Candidate Admission Pass Card */}
+          <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 max-w-lg mx-auto text-left space-y-3 text-xs">
+            <div className="font-bold text-slate-700 flex items-center justify-between border-b border-slate-200 pb-2">
+              <span className="flex items-center gap-1.5 text-xs">
+                <ShieldCheck className="w-4 h-4 text-indigo-600" />
+                <span>Candidate Verification &amp; Admit Pass</span>
+              </span>
+              <span className="text-[10px] font-mono bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-bold">
+                WAITING ROOM
+              </span>
+            </div>
+            <div className="grid grid-cols-2 gap-3 text-[11px] pt-1">
+              <div>
+                <span className="text-slate-400 block">Candidate Name:</span>
+                <span className="font-bold text-slate-900">{currentUser?.name || "Student"}</span>
+              </div>
+              <div>
+                <span className="text-slate-400 block">Roll Number:</span>
+                <span className="font-mono font-bold text-slate-900">{currentUser?.studentRollNo || "EF-738822"}</span>
+              </div>
+              <div>
+                <span className="text-slate-400 block">Scheduled Start Time:</span>
+                <span className="font-bold text-indigo-700 font-mono">
+                  {exam.startDate ? new Date(exam.startDate).toLocaleString("en-IN", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: true }) : "--"}
+                </span>
+              </div>
+              <div>
+                <span className="text-slate-400 block">Duration &amp; Marks:</span>
+                <span className="font-bold text-slate-900">{exam.totalDurationMinutes} Mins &bull; {exam.totalMarks} Marks</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Locked Action Button */}
+          <div className="max-w-lg mx-auto pt-2 space-y-2">
+            <button
+              disabled
+              className="w-full py-4 text-xs sm:text-sm font-bold text-slate-400 bg-slate-100 border border-slate-200 rounded-2xl cursor-not-allowed flex items-center justify-center gap-2 shadow-inner"
+            >
+              <Lock className="w-4 h-4 text-slate-400" />
+              <span>
+                Examination Hall is Locked &bull; Please Wait
+              </span>
+            </button>
+            <p className="text-[11px] text-slate-400">
+              ⚡ Room unlocks automatically when countdown reaches 00:00:00. Please do not close this window.
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* 4B. EXPIRED EXAM NOTICE */}
+      {isExpired && !isAdminOrTeacher && (
+        <div className="bg-white rounded-3xl border border-slate-200 p-8 text-center space-y-4">
+          <div className="w-16 h-16 rounded-2xl bg-slate-100 text-slate-400 flex items-center justify-center mx-auto">
+            <Lock className="w-8 h-8" />
+          </div>
+          <h2 className="text-xl font-bold text-slate-900">Examination Closed</h2>
+          <p className="text-xs text-slate-500 max-w-md mx-auto">
+            The scheduled time window for this examination has ended. No new attempts can be started.
+          </p>
+          <Link href="/exams">
+            <Button variant="primary" size="sm">Back to Examinations Catalog</Button>
+          </Link>
+        </div>
+      )}
+
+      {/* Faculty Preview Warning Banner */}
+      {isUpcoming && isAdminOrTeacher && (
+        <div className="bg-amber-500/10 border border-amber-500/30 rounded-2xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-amber-950 text-xs">
+          <div className="flex items-center gap-2.5">
+            <AlertCircle className="w-5 h-5 text-amber-600 shrink-0" />
+            <div>
+              <span className="font-bold">Faculty Preview Mode:</span> This examination is scheduled for the future (Opens on{" "}
+              <strong>
+                {exam.startDate ? new Date(exam.startDate).toLocaleString("en-IN", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: true }) : "--"}
+              </strong>
+              ). Students see a locked waiting room with a live countdown timer. You have faculty override access.
+            </div>
+          </div>
+          <span className="px-2.5 py-1 rounded-full bg-amber-200 text-amber-950 text-[10px] font-bold font-mono shrink-0 self-start sm:self-auto border border-amber-300">
+            ADMIN BYPASS
+          </span>
+        </div>
+      )}
+
       {/* 4. Student Practice Box */}
-      {!isAdminOrTeacher && (
+      {!isAdminOrTeacher && !isUpcoming && !isExpired && (
         <div className="bg-white rounded-3xl border border-slate-200/90 p-6 sm:p-8 shadow-xs space-y-6">
           <div className="space-y-1">
             <h3 className="text-lg font-bold text-slate-900">Official Computer Based Test (CBT) Practice</h3>

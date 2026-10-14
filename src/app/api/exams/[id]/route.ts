@@ -108,6 +108,9 @@ export async function PATCH(
       totalMarks,
       sectionLock,
       sectionalTiming,
+      questionShuffle,
+      optionShuffle,
+      holdResults,
     } = body;
 
     const updateData: any = {};
@@ -124,6 +127,19 @@ export async function PATCH(
     if (totalMarks !== undefined) updateData.totalMarks = Number(totalMarks);
     if (sectionLock !== undefined) updateData.sectionLock = Boolean(sectionLock);
     if (sectionalTiming !== undefined) updateData.sectionalTiming = Boolean(sectionalTiming);
+    if (questionShuffle !== undefined) updateData.questionShuffle = Boolean(questionShuffle);
+    if (optionShuffle !== undefined) updateData.optionShuffle = Boolean(optionShuffle);
+
+    if (holdResults !== undefined) {
+      let parsedInstructions: any = {};
+      if (existing.instructions) {
+        try {
+          parsedInstructions = JSON.parse(existing.instructions);
+        } catch (e) {}
+      }
+      parsedInstructions.holdResults = Boolean(holdResults);
+      updateData.instructions = JSON.stringify(parsedInstructions);
+    }
 
     // Date & Time Scheduling
     if (availability === "ALWAYS") {

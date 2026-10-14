@@ -109,6 +109,9 @@ interface ExamConfigItem {
   navigationRules: string;
   totalAttempts?: number;
   sections?: { name: string; questionCount: number; durationMinutes?: number }[];
+  instructions?: string | null;
+  questionShuffle?: boolean;
+  optionShuffle?: boolean;
 }
 
 function ExamsCatalogContent() {
@@ -161,6 +164,9 @@ function ExamsCatalogContent() {
   const [editDuration, setEditDuration] = useState(60);
   const [editMarksPerCorrect, setEditMarksPerCorrect] = useState(2.0);
   const [editNegativeMarks, setEditNegativeMarks] = useState(0.5);
+  const [editHoldResults, setEditHoldResults] = useState(false);
+  const [editShuffleQuestions, setEditShuffleQuestions] = useState(true);
+  const [editShuffleOptions, setEditShuffleOptions] = useState(true);
   const [isSavingExam, setIsSavingExam] = useState(false);
   const [editFeedback, setEditFeedback] = useState<string | null>(null);
 
@@ -269,6 +275,17 @@ function ExamsCatalogContent() {
     setEditDuration(exam.totalDurationMinutes || 60);
     setEditMarksPerCorrect(exam.marksPerCorrect ?? 2.0);
     setEditNegativeMarks(exam.negativeMarks ?? 0.5);
+
+    let isHold = false;
+    if (exam.instructions) {
+      try {
+        const parsed = typeof exam.instructions === "string" ? JSON.parse(exam.instructions) : exam.instructions;
+        if (parsed.holdResults === true) isHold = true;
+      } catch (e) {}
+    }
+    setEditHoldResults(isHold);
+    setEditShuffleQuestions(exam.questionShuffle !== false);
+    setEditShuffleOptions(exam.optionShuffle !== false);
     setEditFeedback(null);
   };
 
@@ -297,6 +314,9 @@ function ExamsCatalogContent() {
         totalDurationMinutes: Number(editDuration),
         marksPerCorrect: Number(editMarksPerCorrect),
         negativeMarks: Number(editNegativeMarks),
+        holdResults: editHoldResults,
+        questionShuffle: editShuffleQuestions,
+        optionShuffle: editShuffleOptions,
       };
 
       if (editAvailability === "SCHEDULED") {
@@ -1405,6 +1425,86 @@ function ExamsCatalogContent() {
                     onChange={(e) => setEditNegativeMarks(Number(e.target.value))}
                     className="w-full text-xs px-2.5 py-1.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 font-mono"
                   />
+                </div>
+              </div>
+
+              {/* Result Declaration: Instant vs Hold for Instructor */}
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
+                <div className="flex items-center justify-between">
+                  <label className="block font-bold text-slate-800 text-xs">
+                    रिजल्ट घोषणा (Result Declaration)
+                  </label>
+                  <span className="text-[10px] text-slate-500 font-medium">Candidate view on submit</span>
+                </div>
+
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setEditHoldResults(false)}
+                    className={`p-2.5 rounded-lg border text-left font-semibold transition-all ${
+                      !editHoldResults
+                        ? "border-emerald-600 bg-emerald-50/80 text-emerald-900 ring-1 ring-emerald-600"
+                        : "border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                    }`}
+                  >
+                    <div className="font-bold flex items-center gap-1.5 text-xs text-emerald-950">
+                      <span>⚡ Instant Result</span>
+                    </div>
+                    <div className="text-[10px] text-slate-500 font-normal mt-0.5 leading-snug">
+                      Submit karte hi score &amp; solution dikhega
+                    </div>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setEditHoldResults(true)}
+                    className={`p-2.5 rounded-lg border text-left font-semibold transition-all ${
+                      editHoldResults
+                        ? "border-amber-600 bg-amber-50/80 text-amber-900 ring-1 ring-amber-600"
+                        : "border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                    }`}
+                  >
+                    <div className="font-bold flex items-center gap-1.5 text-xs text-amber-950">
+                      <span>📋 Declare Later (On-Hold)</span>
+                    </div>
+                    <div className="text-[10px] text-slate-500 font-normal mt-0.5 leading-snug">
+                      Score lock rahega; Admin manually release karega
+                    </div>
+                  </button>
+                </div>
+              </div>
+
+              {/* Question & Option Shuffle / Mix Controls */}
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
+                <label className="block font-bold text-slate-800 text-xs">
+                  मिक्स व शफल विकल्प (Randomize Order)
+                </label>
+                <div className="grid grid-cols-2 gap-2">
+                  <label className="flex items-center gap-2 p-2 rounded-lg bg-white border border-slate-200 cursor-pointer hover:bg-slate-100 transition-colors">
+                    <input
+                      type="checkbox"
+                      checked={editShuffleQuestions}
+                      onChange={(e) => setEditShuffleQuestions(e.target.checked)}
+                      className="w-4 h-4 text-indigo-600 rounded border-slate-300 focus:ring-indigo-500"
+                    />
+                    <div>
+                      <div className="text-xs font-bold text-slate-800">🔀 Mix Questions</div>
+                      <div className="text-[10px] text-slate-500 font-normal">Shuffle questions order</div>
+                    </div>
+                  </label>
+
+                  <label className="flex items-center gap-2 p-2 rounded-lg bg-white border border-slate-200 cursor-pointer hover:bg-slate-100 transition-colors">
+                    <input
+                      type="checkbox"
+                      checked={editShuffleOptions}
+                      onChange={(e) => setEditShuffleOptions(e.target.checked)}
+                      className="w-4 h-4 text-indigo-600 rounded border-slate-300 focus:ring-indigo-500"
+                    />
+                    <div>
+                      <div className="text-xs font-bold text-slate-800">🎲 Mix Options</div>
+                      <div className="text-[10px] text-slate-500 font-normal">Shuffle A/B/C/D choices</div>
+                    </div>
+                  </label>
                 </div>
               </div>
             </div>

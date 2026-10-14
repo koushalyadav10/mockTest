@@ -57,6 +57,42 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Exam configuration not found" }, { status: 404 });
     }
 
+    // Schedule Lockdown Enforcement: Prevent students from entering room or starting test before scheduled time
+    const isStaff = user.role === "ADMIN" || user.role === "TEACHER";
+    const now = new Date();
+
+    if (examConfig.availability === "SCHEDULED" && !isStaff) {
+      if (examConfig.startDate && new Date(examConfig.startDate) > now) {
+        const opensAt = new Date(examConfig.startDate).toLocaleString("en-IN", {
+          day: "2-digit",
+          month: "short",
+          year: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+          hour12: true,
+        });
+        return NextResponse.json(
+          {
+            error: `Examination Hall is Locked. This scheduled test will officially open on ${opensAt}. Please wait until the start time.`,
+            isLocked: true,
+            opensAt,
+            startDate: examConfig.startDate,
+          },
+          { status: 403 }
+        );
+      }
+
+      if (examConfig.endDate && new Date(examConfig.endDate) < now) {
+        return NextResponse.json(
+          {
+            error: "This scheduled examination has ended and is now closed.",
+            isExpired: true,
+          },
+          { status: 403 }
+        );
+      }
+    }
+
     // Read stored filters and range from exam instructions if not explicitly passed in body
     let effectiveSubtopicFilter = subtopicFilter;
     let effectiveExamFilter = examFilter;
@@ -153,10 +189,15 @@ export async function POST(req: NextRequest) {
     const targetCount = questionCountLimit || (hasFilter ? availableQuestions.length : Math.min(availableQuestions.length, examConfig.totalQuestions));
     const selectedQuestions = availableQuestions.slice(0, targetCount);
 
-    // Honor explicit shuffle flag (e.g. from Chapter Hub mix mode), else adhere to sequential exam config
-    const isDocumentOrSequentialExam = Boolean(documentId || examConfig.documentId || !examConfig.questionShuffle);
-    const shouldShuffleQuestions = Boolean(effectiveShuffle) || (!isDocumentOrSequentialExam && examConfig.questionShuffle);
-    const shouldShuffleOptions = Boolean(effectiveShuffle) || (!isDocumentOrSequentialExam && examConfig.optionShuffle);
+    // Honor explicit shuffle flag (e.g. from Chapter Hub mix mode), else adhere to examConfig settings
+    const shouldShuffleQuestions =
+      effectiveShuffle !== undefined
+        ? Boolean(effectiveShuffle)
+        : Boolean(examConfig.questionShuffle);
+    const shouldShuffleOptions =
+      effectiveShuffle !== undefined
+        ? Boolean(effectiveShuffle)
+        : Boolean(examConfig.optionShuffle);
 
     const orderedQuestions = shouldShuffleQuestions
       ? safelyShuffleQuestions(selectedQuestions, true)

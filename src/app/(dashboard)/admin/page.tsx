@@ -1249,6 +1249,8 @@ export default function AdminDashboardPage() {
                               ? "bg-emerald-50 text-emerald-700 border-emerald-200"
                               : sub.status === "SUBMITTED"
                               ? "bg-teal-50 text-teal-700 border-teal-200"
+                              : sub.status === "NOT_STARTED"
+                              ? "bg-slate-100 text-slate-600 border-slate-200"
                               : "bg-blue-50 text-blue-700 border-blue-200"
                           }`}
                         >
@@ -1281,7 +1283,11 @@ export default function AdminDashboardPage() {
                             Test Band (Submitted):
                           </span>
                           <span className="font-bold text-slate-800">
-                            {sub.completedAt ? formatAdminDateTime(sub.completedAt) : (
+                            {sub.completedAt ? (
+                              formatAdminDateTime(sub.completedAt)
+                            ) : sub.status === "NOT_STARTED" ? (
+                              <span className="text-slate-500 font-sans font-medium">Not Started</span>
+                            ) : (
                               <span className="text-amber-600 font-sans font-bold">In Progress / Ongoing</span>
                             )}
                           </span>
@@ -1295,7 +1301,11 @@ export default function AdminDashboardPage() {
                             Score Obtained
                           </div>
                           <div className="text-2xl font-black font-mono">
-                            {sub.finalScore}{" "}
+                            {sub.status === "NOT_STARTED" ? (
+                              <span className="text-slate-400 font-mono">--</span>
+                            ) : (
+                              sub.finalScore
+                            )}{" "}
                             <span className="text-xs font-normal text-slate-400">
                               / {sub.totalMarks} Marks
                             </span>
@@ -1303,9 +1313,11 @@ export default function AdminDashboardPage() {
                         </div>
                         <div className="text-right">
                           <div className="text-lg font-black text-emerald-400 font-mono">
-                            {sub.percentage}%
+                            {sub.status === "NOT_STARTED" ? "--" : `${sub.percentage}%`}
                           </div>
-                          <div className="text-[10px] text-slate-400">Percentage</div>
+                          <div className="text-[10px] text-slate-400">
+                            {sub.status === "NOT_STARTED" ? "Pending" : "Percentage"}
+                          </div>
                         </div>
                       </div>
 
@@ -1313,20 +1325,26 @@ export default function AdminDashboardPage() {
                       <div className="grid grid-cols-4 gap-1.5 text-center bg-slate-50 p-2 rounded-xl border border-slate-100 text-xs">
                         <div>
                           <div className="text-[10px] text-slate-400 font-medium">Accuracy</div>
-                          <div className="font-bold font-mono text-slate-800">{sub.accuracy}%</div>
+                          <div className="font-bold font-mono text-slate-800">
+                            {sub.status === "NOT_STARTED" ? "--" : `${sub.accuracy}%`}
+                          </div>
                         </div>
                         <div>
                           <div className="text-[10px] text-emerald-600 font-medium">Correct</div>
-                          <div className="font-bold font-mono text-emerald-700">+{sub.correctCount}</div>
+                          <div className="font-bold font-mono text-emerald-700">
+                            {sub.status === "NOT_STARTED" ? "0" : `+${sub.correctCount}`}
+                          </div>
                         </div>
                         <div>
                           <div className="text-[10px] text-rose-600 font-medium">Wrong</div>
-                          <div className="font-bold font-mono text-rose-700">-{sub.incorrectCount}</div>
+                          <div className="font-bold font-mono text-rose-700">
+                            {sub.status === "NOT_STARTED" ? "0" : `-${sub.incorrectCount}`}
+                          </div>
                         </div>
                         <div>
                           <div className="text-[10px] text-slate-400 font-medium">Time Taken</div>
                           <div className="font-bold font-mono text-slate-800">
-                            {formatAdminDuration(sub.timeSpentSeconds)}
+                            {sub.status === "NOT_STARTED" ? "--" : formatAdminDuration(sub.timeSpentSeconds)}
                           </div>
                         </div>
                       </div>
@@ -1435,45 +1453,64 @@ export default function AdminDashboardPage() {
 
                             {/* Score */}
                             <td className="py-3.5 px-4 text-center">
-                              <div className="font-black text-slate-900 font-mono text-sm">
-                                {sub.finalScore}{" "}
-                                <span className="text-[11px] font-normal text-slate-400">
-                                  / {sub.totalMarks}
-                                </span>
-                              </div>
-                              <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.2 rounded border border-emerald-200">
-                                {sub.percentage}%
-                              </span>
+                              {sub.status === "NOT_STARTED" ? (
+                                <div>
+                                  <div className="font-bold text-slate-400 font-mono text-sm">
+                                    -- / {sub.totalMarks}
+                                  </div>
+                                  <span className="text-[10px] text-slate-500 bg-slate-100 px-1.5 py-0.2 rounded font-medium">
+                                    Pending
+                                  </span>
+                                </div>
+                              ) : (
+                                <div>
+                                  <div className="font-black text-slate-900 font-mono text-sm">
+                                    {sub.finalScore}{" "}
+                                    <span className="text-[11px] font-normal text-slate-400">
+                                      / {sub.totalMarks}
+                                    </span>
+                                  </div>
+                                  <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.2 rounded border border-emerald-200">
+                                    {sub.percentage}%
+                                  </span>
+                                </div>
+                              )}
                             </td>
 
                             {/* Accuracy */}
                             <td className="py-3.5 px-4 text-center">
                               <span className="font-bold font-mono text-slate-800">
-                                {sub.accuracy}%
+                                {sub.status === "NOT_STARTED" ? "--" : `${sub.accuracy}%`}
                               </span>
                             </td>
 
                             {/* Breakdown */}
                             <td className="py-3.5 px-4 text-center">
-                              <div className="font-mono text-xs flex items-center justify-center gap-1.5">
-                                <span className="text-emerald-700 font-bold" title="Correct">
-                                  +{sub.correctCount}
+                              {sub.status === "NOT_STARTED" ? (
+                                <span className="text-slate-400 text-xs font-medium">
+                                  Not Started
                                 </span>
-                                <span className="text-slate-300">/</span>
-                                <span className="text-rose-600 font-bold" title="Incorrect">
-                                  -{sub.incorrectCount}
-                                </span>
-                                <span className="text-slate-300">/</span>
-                                <span className="text-slate-400" title="Unattempted">
-                                  {sub.unattemptedCount}
-                                </span>
-                              </div>
+                              ) : (
+                                <div className="font-mono text-xs flex items-center justify-center gap-1.5">
+                                  <span className="text-emerald-700 font-bold" title="Correct">
+                                    +{sub.correctCount}
+                                  </span>
+                                  <span className="text-slate-300">/</span>
+                                  <span className="text-rose-600 font-bold" title="Incorrect">
+                                    -{sub.incorrectCount}
+                                  </span>
+                                  <span className="text-slate-300">/</span>
+                                  <span className="text-slate-400" title="Unattempted">
+                                    {sub.unattemptedCount}
+                                  </span>
+                                </div>
+                              )}
                             </td>
 
                             {/* Timing & Duration */}
                             <td className="py-3.5 px-4 text-center">
                               <div className="font-bold font-mono text-slate-900 text-xs">
-                                ⏱️ {formatAdminDuration(sub.timeSpentSeconds)}
+                                ⏱️ {sub.status === "NOT_STARTED" ? "--" : formatAdminDuration(sub.timeSpentSeconds)}
                               </div>
                               <div className="text-[10px] font-mono text-slate-500 flex flex-col items-center gap-0.5 mt-1">
                                 <span title="Test Khola (Start Time)">
@@ -1483,6 +1520,8 @@ export default function AdminDashboardPage() {
                                   <span className="text-slate-400 font-sans">Out:</span>{" "}
                                   {sub.completedAt ? (
                                     formatAdminDateTime(sub.completedAt)
+                                  ) : sub.status === "NOT_STARTED" ? (
+                                    <span className="text-slate-500 font-sans font-medium">Not Started</span>
                                   ) : (
                                     <span className="text-amber-600 font-sans font-bold">In Progress</span>
                                   )}
@@ -1498,6 +1537,8 @@ export default function AdminDashboardPage() {
                                     ? "bg-emerald-50 text-emerald-700 border-emerald-200"
                                     : sub.status === "SUBMITTED"
                                     ? "bg-teal-50 text-teal-700 border-teal-200"
+                                    : sub.status === "NOT_STARTED"
+                                    ? "bg-slate-100 text-slate-600 border-slate-200"
                                     : "bg-blue-50 text-blue-700 border-blue-200"
                                 }`}
                               >
