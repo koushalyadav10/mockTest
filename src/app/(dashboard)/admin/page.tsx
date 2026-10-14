@@ -51,6 +51,7 @@ export default function AdminDashboardPage() {
   const [submissionExamFilter, setSubmissionExamFilter] = useState("ALL");
   const [submissionStatusFilter, setSubmissionStatusFilter] = useState("ALL");
   const [submissionSearch, setSubmissionSearch] = useState("");
+  const [autoRefreshSubmissions, setAutoRefreshSubmissions] = useState(false);
 
   // Attempt Deletion Modal State
   const [attemptToDelete, setAttemptToDelete] = useState<any | null>(null);
@@ -198,6 +199,19 @@ export default function AdminDashboardPage() {
     userStatusFilter,
     auditActionFilter,
   ]);
+
+  // Live Auto-Refresh for Candidate Scores & Submissions
+  useEffect(() => {
+    let interval: NodeJS.Timeout | null = null;
+    if (activeTab === "SUBMISSIONS" && autoRefreshSubmissions) {
+      interval = setInterval(() => {
+        fetchSubmissions(submissionExamFilter, submissionStatusFilter, submissionSearch);
+      }, 8000);
+    }
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [activeTab, autoRefreshSubmissions, submissionExamFilter, submissionStatusFilter, submissionSearch]);
 
   // Handle User Status Toggle (Suspend / Activate)
   const handleToggleUserStatus = async (user: any) => {
@@ -1026,6 +1040,50 @@ export default function AdminDashboardPage() {
                 <option value="EVALUATED">Evaluated / Submitted</option>
                 <option value="RUNNING">In Progress (Running)</option>
               </select>
+
+              {/* Instant Manual Refresh */}
+              <button
+                type="button"
+                onClick={() => fetchSubmissions()}
+                disabled={submissionsLoading}
+                className="px-3 py-1.5 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-800 border border-indigo-200 text-xs font-bold transition-all flex items-center gap-1.5 shadow-2xs"
+                title="तुरंत नया डेटा लोड करें"
+              >
+                <RefreshCw className={`w-3.5 h-3.5 text-indigo-600 ${submissionsLoading ? "animate-spin" : ""}`} />
+                <span>तुरंत रिफ्रेश</span>
+              </button>
+
+              {/* Live Sync Auto-Refresh Toggle */}
+              <label className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border border-slate-200 bg-slate-50 text-[11px] font-bold text-slate-700 cursor-pointer hover:bg-slate-100 transition-colors">
+                <input
+                  type="checkbox"
+                  checked={autoRefreshSubmissions}
+                  onChange={(e) => setAutoRefreshSubmissions(e.target.checked)}
+                  className="rounded text-indigo-600 focus:ring-indigo-500 w-3.5 h-3.5 cursor-pointer"
+                />
+                <span className="flex items-center gap-1">
+                  {autoRefreshSubmissions && <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping inline-block" />}
+                  <span>Live Sync</span>
+                </span>
+              </label>
+
+              {/* Suman Chauhan Quick Filter Pill */}
+              <button
+                type="button"
+                onClick={() => {
+                  const s = submissionSearch === "suman" ? "" : "suman";
+                  setSubmissionSearch(s);
+                  fetchSubmissions(submissionExamFilter, submissionStatusFilter, s);
+                }}
+                className={`px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 border shadow-2xs ${
+                  submissionSearch.toLowerCase().includes("suman")
+                    ? "bg-purple-600 text-white border-purple-700"
+                    : "bg-purple-50 hover:bg-purple-100 text-purple-800 border-purple-200"
+                }`}
+                title="Filter test attempts of student Suman Chauhan"
+              >
+                <span>👤 Suman Chauhan</span>
+              </button>
 
               {/* Download CSV Report */}
               <button

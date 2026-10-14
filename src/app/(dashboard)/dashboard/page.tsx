@@ -127,6 +127,14 @@ export default function StudentDashboardPage() {
     }
   };
 
+  const assignedTests = availableTests.filter(
+    (t) =>
+      t.category === "ASSIGNED" ||
+      t.title.includes("[Assigned]") ||
+      t.code?.startsWith("ASSIGNED_")
+  );
+  const regularTests = availableTests.filter((t) => !assignedTests.some((a) => a.id === t.id));
+
   return (
     <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-10 py-6 sm:py-8 space-y-6 sm:space-y-8 font-sans">
       {/* 1. TOP BANNER: Performance Insights & Analytics Banner (Inspired by Screenshot 3) */}
@@ -176,7 +184,7 @@ export default function StudentDashboardPage() {
             Welcome back, {currentUser?.name || "Student"}
           </h1>
           <p className="text-xs text-slate-500 mt-0.5">
-            Roll No: {currentUser?.studentRollNo || "EF-100179719"} &bull; Target: SSC CHSL / UPSI Tier-1
+            Roll No: {currentUser?.studentRollNo || "EF-738822"} &bull; Target: {currentUser?.targetExam || "UPSSSC PET 2026"}
           </p>
         </div>
 
@@ -324,7 +332,64 @@ export default function StudentDashboardPage() {
             </Link>
           </div>
 
-          {/* Available Mock Tests (Prompt Section 5) */}
+          {/* 1. ASSIGNED TESTS (Directly assigned by Instructor / Admin) */}
+          {assignedTests.length > 0 && (
+            <div className="bg-gradient-to-r from-purple-50 via-indigo-50 to-blue-50 rounded-2xl border-2 border-purple-300 overflow-hidden shadow-xs">
+              <div className="px-6 py-4 border-b border-purple-200/80 flex items-center justify-between bg-white/70">
+                <div className="flex items-center gap-2.5">
+                  <span className="w-2.5 h-2.5 rounded-full bg-purple-600 animate-pulse" />
+                  <div>
+                    <h3 className="text-base font-extrabold text-purple-950 flex items-center gap-2">
+                      <span>📢 Assigned Tests (प्रशासन/शिक्षक द्वारा सौंपे गए टेस्ट)</span>
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-black bg-purple-600 text-white uppercase tracking-wider">
+                        {assignedTests.length} Allotted
+                      </span>
+                    </h3>
+                    <p className="text-xs text-purple-700">Special assigned mock tests allotted specifically for candidate practice</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="divide-y divide-purple-100 bg-white">
+                {assignedTests.map((test) => (
+                  <div
+                    key={test.id}
+                    className="p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 hover:bg-purple-50/40 transition-colors"
+                  >
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2">
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-purple-100 text-purple-800 border border-purple-200">
+                          ASSIGNED
+                        </span>
+                        <h4 className="text-sm font-bold text-slate-900">{test.title}</h4>
+                      </div>
+
+                      <div className="flex items-center gap-3 text-xs text-slate-500 pt-1">
+                        <span>{test.questions} Questions</span>
+                        <span>&bull;</span>
+                        <span>{test.marks} Marks</span>
+                        <span>&bull;</span>
+                        <span className="flex items-center gap-1">
+                          <Clock className="w-3 h-3 text-slate-400" />
+                          {test.duration} Minutes
+                        </span>
+                      </div>
+                    </div>
+
+                    <button
+                      onClick={() => handleStartTest(test.id)}
+                      className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-1.5 shrink-0"
+                    >
+                      <span>Take Assigned Test</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* 2. Available Mock Tests (Prompt Section 5) */}
           <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
             <div className="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
               <div>
@@ -332,12 +397,12 @@ export default function StudentDashboardPage() {
                 <p className="text-xs text-slate-500">Real CBT blueprints with live timer countdown</p>
               </div>
               <Link href="/exams" className="text-xs font-bold text-teal-700 hover:underline">
-                View All &rarr;
+                View All ({regularTests.length}) &rarr;
               </Link>
             </div>
 
             <div className="divide-y divide-slate-100">
-              {availableTests.map((test) => (
+              {regularTests.slice(0, 6).map((test) => (
                 <div
                   key={test.id}
                   className="p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 hover:bg-slate-50/80 transition-colors"

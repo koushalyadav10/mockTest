@@ -59,7 +59,33 @@ async function main() {
     },
   });
 
-  console.log("✅ Seeded Users: student@examforge.ai, teacher@examforge.ai, admin@examforge.ai");
+  // Dedicated Student: Suman Chauhan
+  await prisma.user.upsert({
+    where: { email: "suman.chauhan.22334@gmail.com" },
+    update: {
+      name: "Suman Chauhan",
+      passwordHash: hashPassword("Suman@7388"),
+      role: "STUDENT",
+      status: "ACTIVE",
+      gender: "FEMALE",
+      isEmailVerified: true,
+      studentRollNo: "EF-738822",
+      targetExam: "UPSSSC PET 2026",
+    },
+    create: {
+      email: "suman.chauhan.22334@gmail.com",
+      name: "Suman Chauhan",
+      passwordHash: hashPassword("Suman@7388"),
+      role: "STUDENT",
+      status: "ACTIVE",
+      gender: "FEMALE",
+      isEmailVerified: true,
+      studentRollNo: "EF-738822",
+      targetExam: "UPSSSC PET 2026",
+    },
+  });
+
+  console.log("✅ Seeded Users: student@examforge.ai, teacher@examforge.ai, admin@examforge.ai, suman.chauhan.22334@gmail.com");
 
   // 2. Seed Competitive Exams with Dynamic Section Configurations
 
