@@ -6,12 +6,18 @@ interface UserAvatarProps {
   gender?: "MALE" | "FEMALE" | string | null;
   size?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
   className?: string;
+  avatarUrl?: string | null;
+  name?: string | null;
+  email?: string | null;
 }
 
 export const UserAvatar: React.FC<UserAvatarProps> = ({
   gender = "MALE",
   size = "md",
   className = "",
+  avatarUrl,
+  name,
+  email,
 }) => {
   const isFemale = String(gender).toUpperCase() === "FEMALE";
 
@@ -25,6 +31,31 @@ export const UserAvatar: React.FC<UserAvatarProps> = ({
   };
 
   const dim = sizeClasses[size] || "w-10 h-10";
+
+  // Check if this avatar belongs to Suman (either via avatarUrl or user identity)
+  const isSuman = Boolean(
+    avatarUrl?.includes("suman") ||
+    email?.toLowerCase().includes("suman") ||
+    name?.toLowerCase().includes("suman")
+  );
+
+  const effectiveAvatarUrl = avatarUrl || (isSuman ? "/avatars/suman.jpg" : null);
+
+  // If a custom photo avatar is set (or for Suman), display the custom image
+  if (effectiveAvatarUrl) {
+    return (
+      <div
+        className={`relative rounded-full overflow-hidden shrink-0 select-none bg-pink-50 flex items-center justify-center border-2 border-pink-400/90 shadow-sm ${dim} ${className}`}
+        title={name || "User Avatar"}
+      >
+        <img
+          src={effectiveAvatarUrl}
+          alt={name || "Avatar"}
+          className="w-full h-full object-cover rounded-full"
+        />
+      </div>
+    );
+  }
 
   if (isFemale) {
     return (

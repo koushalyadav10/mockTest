@@ -39,6 +39,7 @@ interface UserProfileData {
   isProfileLocked: boolean;
   role: string;
   studentRollNo?: string | null;
+  avatarUrl?: string | null;
 }
 
 interface UserStats {
@@ -247,7 +248,14 @@ export default function ProfilePage() {
           {/* Avatar with Camera Icon Overlay */}
           <div className="relative group cursor-pointer" onClick={() => setIsAvatarModalOpen(true)}>
             <div className="p-1 rounded-full ring-4 ring-purple-100 shadow-md">
-              <UserAvatar gender={profile?.gender || "MALE"} size="xl" className="shadow-xs" />
+              <UserAvatar
+                gender={profile?.gender || "MALE"}
+                avatarUrl={profile?.avatarUrl}
+                name={profile?.name}
+                email={profile?.email}
+                size="xl"
+                className="shadow-xs"
+              />
             </div>
             {/* Camera Edit Badge */}
             <button
@@ -433,7 +441,13 @@ export default function ProfilePage() {
                     {profile?.gender ? profile.gender.toLowerCase() : "Male"}
                   </span>
                 </div>
-                <UserAvatar gender={profile?.gender || "MALE"} size="xs" />
+                <UserAvatar
+                  gender={profile?.gender || "MALE"}
+                  avatarUrl={profile?.avatarUrl}
+                  name={profile?.name}
+                  email={profile?.email}
+                  size="xs"
+                />
               </div>
             </div>
           </div>

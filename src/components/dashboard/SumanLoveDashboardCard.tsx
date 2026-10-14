@@ -102,28 +102,44 @@ export const SumanLoveDashboardCard: React.FC<SumanLoveDashboardCardProps> = ({ 
       <div className="absolute bottom-0 left-10 w-60 h-60 bg-gradient-to-tr from-amber-300/10 to-rose-300/10 rounded-full blur-2xl pointer-events-none" />
 
       <div className="relative z-10 space-y-5">
-        {/* Top Header: Rotating Love Greeting & Tag */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-pink-200/70 pb-4">
-          <div className="space-y-1">
-            <div className="flex items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 text-white text-xs font-black uppercase tracking-wider shadow-xs">
-                <Heart className="w-3.5 h-3.5 fill-white" />
-                <span>Special Corner for Suman</span>
-              </span>
-              <span className="px-2.5 py-0.5 rounded-full bg-white text-rose-700 border border-rose-200 text-[11px] font-bold shadow-2xs">
-                {greeting.tag}
+        {/* Top Header: Rotating Love Greeting & Tag + Suman's Custom Avatar */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-pink-200/70 pb-4">
+          <div className="flex items-center gap-3.5 sm:gap-4">
+            {/* Glowing Suman Avatar */}
+            <div className="relative shrink-0">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden p-0.5 bg-gradient-to-tr from-pink-500 via-rose-400 to-amber-300 shadow-md">
+                <img
+                  src="/avatars/suman.jpg"
+                  alt="Suman"
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <span className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 text-white flex items-center justify-center text-xs shadow-xs border-2 border-white">
+                💖
               </span>
             </div>
-            <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight pt-1 flex items-center gap-2">
-              <span>{greeting.title}</span>
-              <span className="text-xl">{greeting.emoji}</span>
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium max-w-2xl">
-              {greeting.message}
-            </p>
+
+            <div className="space-y-1">
+              <div className="flex items-center gap-2">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 text-white text-xs font-black uppercase tracking-wider shadow-xs">
+                  <Heart className="w-3.5 h-3.5 fill-white" />
+                  <span>Special Corner for Suman</span>
+                </span>
+                <span className="px-2.5 py-0.5 rounded-full bg-white text-rose-700 border border-rose-200 text-[11px] font-bold shadow-2xs">
+                  {greeting.tag}
+                </span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight pt-0.5 flex items-center gap-2">
+                <span>{greeting.title}</span>
+                <span className="text-xl">{greeting.emoji}</span>
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium max-w-2xl">
+                {greeting.message}
+              </p>
+            </div>
           </div>
 
-          <div className="shrink-0 flex items-center gap-2 bg-white/80 backdrop-blur-xs px-3.5 py-2 rounded-2xl border border-pink-200 shadow-2xs">
+          <div className="shrink-0 flex items-center gap-2 bg-white/80 backdrop-blur-xs px-3.5 py-2 rounded-2xl border border-pink-200 shadow-2xs self-start sm:self-auto">
             <div className="w-8 h-8 rounded-full bg-pink-100 text-pink-600 flex items-center justify-center font-bold">
               <Flame className="w-4 h-4 fill-pink-500 text-pink-500 animate-bounce" />
             </div>

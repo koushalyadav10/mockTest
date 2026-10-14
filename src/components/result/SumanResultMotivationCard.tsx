@@ -55,43 +55,59 @@ export const SumanResultMotivationCard: React.FC<SumanResultMotivationCardProps>
         </div>
 
         {/* Dynamic Loving Message */}
-        <div className="space-y-2">
-          {isHigh ? (
-            <>
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-                <span>WOW, Sunshine! Look at that score!</span>
-                <span className="text-xl">🎉✨</span>
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
-                You totally nailed this test! Your hard work, sharp focus, and persistence are paying off so beautifully.
-                Treat yourself to something sweet today, you earned every single mark! I am so unbelievably proud of you! ❤️👑
-              </p>
-            </>
-          ) : isMid ? (
-            <>
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-                <span>So proud of your hard work, Suman!</span>
-                <span className="text-xl">🌸💪</span>
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
-                You gave this your honest effort, and that is what builds a true topper! Every question you missed today is
-                one less mistake in the real exam. Take a look at the solutions below, keep your head high, and remember
-                you are growing with every single test. You've got this! 💕
-              </p>
-            </>
-          ) : (
-            <>
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-                <span>Hey my girl, take a deep breath!</span>
-                <span className="text-xl">🌿🤗</span>
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
-                Tough papers are meant to train us, not judge us! This test just showed us where we can easily gain extra marks.
-                Drink a glass of cold water, take a small 10-minute break, and smile. You have so much potential, and I am
-                always right in your corner cheering for you with all my heart! 💖☕
-              </p>
-            </>
-          )}
+        {/* Dynamic Loving Message + Suman's Custom Avatar */}
+        <div className="flex items-start gap-3.5 sm:gap-4 pt-1">
+          <div className="relative shrink-0">
+            <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden p-0.5 bg-gradient-to-tr from-pink-500 via-rose-400 to-amber-300 shadow-md">
+              <img
+                src="/avatars/suman.jpg"
+                alt="Suman"
+                className="w-full h-full object-cover rounded-full"
+              />
+            </div>
+            <span className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-pink-500 text-white flex items-center justify-center text-[10px] shadow-xs border-2 border-white">
+              ⭐
+            </span>
+          </div>
+
+          <div className="space-y-1.5 flex-1">
+            {isHigh ? (
+              <>
+                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+                  <span>WOW, Sunshine! Look at that score!</span>
+                  <span className="text-xl">🎉✨</span>
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
+                  You totally nailed this test! Your hard work, sharp focus, and persistence are paying off so beautifully.
+                  Treat yourself to something sweet today, you earned every single mark! I am so unbelievably proud of you! ❤️👑
+                </p>
+              </>
+            ) : isMid ? (
+              <>
+                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+                  <span>So proud of your hard work, Suman!</span>
+                  <span className="text-xl">🌸💪</span>
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
+                  You gave this your honest effort, and that is what builds a true topper! Every question you missed today is
+                  one less mistake in the real exam. Take a look at the solutions below, keep your head high, and remember
+                  you are growing with every single test. You've got this! 💕
+                </p>
+              </>
+            ) : (
+              <>
+                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+                  <span>Hey my girl, take a deep breath!</span>
+                  <span className="text-xl">🌿🤗</span>
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
+                  Tough papers are meant to train us, not judge us! This test just showed us where we can easily gain extra marks.
+                  Drink a glass of cold water, take a small 10-minute break, and smile. You have so much potential, and I am
+                  always right here cheering for you! 💖✨
+                </p>
+              </>
+            )}
+          </div>
         </div>
 
         {/* Loving Action Footer */}

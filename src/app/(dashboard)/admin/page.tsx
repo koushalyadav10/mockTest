@@ -1192,12 +1192,26 @@ export default function AdminDashboardPage() {
                           >
                             {sub.rank === 1 ? "🥇 #1" : sub.rank === 2 ? "🥈 #2" : sub.rank === 3 ? "🥉 #3" : `#${sub.rank}`}
                           </span>
-                          <div>
-                            <div className="font-bold text-slate-900 text-sm leading-tight">
-                              {sub.candidateName}
-                            </div>
-                            <div className="text-[10px] font-mono text-slate-400 mt-0.5">
-                              Roll: {sub.candidateRollNo} &bull; {sub.candidateEmail}
+                          <div className="flex items-center gap-2">
+                            {sub.candidateEmail?.toLowerCase().includes("suman") && (
+                              <img
+                                src="/avatars/suman.jpg"
+                                alt="Suman"
+                                className="w-8 h-8 rounded-full object-cover ring-2 ring-pink-400 shrink-0 shadow-2xs"
+                              />
+                            )}
+                            <div>
+                              <div className="font-bold text-slate-900 text-sm leading-tight flex items-center gap-1.5">
+                                <span>{sub.candidateName}</span>
+                                {sub.candidateEmail?.toLowerCase().includes("suman") && (
+                                  <span className="text-[10px] text-pink-700 bg-pink-50 border border-pink-200 px-1.5 py-0.2 rounded font-bold">
+                                    Student
+                                  </span>
+                                )}
+                              </div>
+                              <div className="text-[10px] font-mono text-slate-400 mt-0.5">
+                                Roll: {sub.candidateRollNo} &bull; {sub.candidateEmail}
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -1334,9 +1348,27 @@ export default function AdminDashboardPage() {
 
                             {/* Candidate */}
                             <td className="py-3.5 px-4">
-                              <div className="font-bold text-slate-900">{sub.candidateName}</div>
-                              <div className="text-[11px] text-slate-500 font-mono">
-                                {sub.candidateRollNo} &bull; {sub.candidateEmail}
+                              <div className="flex items-center gap-2.5">
+                                {sub.candidateEmail?.toLowerCase().includes("suman") && (
+                                  <img
+                                    src="/avatars/suman.jpg"
+                                    alt="Suman"
+                                    className="w-7 h-7 rounded-full object-cover ring-2 ring-pink-400 shrink-0 shadow-2xs"
+                                  />
+                                )}
+                                <div>
+                                  <div className="font-bold text-slate-900 flex items-center gap-1.5">
+                                    <span>{sub.candidateName}</span>
+                                    {sub.candidateEmail?.toLowerCase().includes("suman") && (
+                                      <span className="text-[10px] text-pink-700 bg-pink-50 border border-pink-200 px-1.5 py-0.2 rounded font-bold">
+                                        Student
+                                      </span>
+                                    )}
+                                  </div>
+                                  <div className="text-[11px] text-slate-500 font-mono">
+                                    {sub.candidateRollNo} &bull; {sub.candidateEmail}
+                                  </div>
+                                </div>
                               </div>
                             </td>
 

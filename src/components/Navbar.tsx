@@ -217,9 +217,12 @@ export const Navbar: React.FC = () => {
                     Hi, <span className="text-slate-900">{user?.name ? user.name.split(" ")[0] : "Candidate"}</span>
                   </span>
 
-                  {/* Illustrated Round Avatar (Male or Female based on user.gender) */}
+                  {/* Illustrated Round Avatar (or Suman's Custom Photo) */}
                   <UserAvatar
                     gender={user?.gender || "MALE"}
+                    avatarUrl={user?.avatarUrl}
+                    name={user?.name}
+                    email={user?.email}
                     size="sm"
                     className="ring-2 ring-purple-100 group-hover:ring-purple-300 transition-all shadow-xs"
                   />
@@ -337,7 +340,13 @@ export const Navbar: React.FC = () => {
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm font-semibold text-slate-800 hover:bg-slate-50"
             >
-              <UserAvatar gender={user?.gender || "MALE"} size="xs" />
+              <UserAvatar
+                gender={user?.gender || "MALE"}
+                avatarUrl={user?.avatarUrl}
+                name={user?.name}
+                email={user?.email}
+                size="xs"
+              />
               <span>My Profile ({user?.name || "Candidate"})</span>
             </Link>
           )}
