@@ -31,10 +31,22 @@ export default function BooksCatalogPage() {
   const router = useRouter();
 
   // State
+  const [currentUser, setCurrentUser] = useState<any>(null);
   const [books, setBooks] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedSubject, setSelectedSubject] = useState<string>("ALL");
   const [selectedVolumeFilter, setSelectedVolumeFilter] = useState<{ [bookId: string]: string }>({});
+
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((d) => {
+        if (d?.user) setCurrentUser(d.user);
+      })
+      .catch(() => {});
+  }, []);
+
+  const isAdminOrTeacher = currentUser?.role === "ADMIN" || currentUser?.role === "TEACHER";
 
   // Search State
   const [searchQuery, setSearchQuery] = useState("");
@@ -117,8 +129,9 @@ export default function BooksCatalogPage() {
 
   // Open Hub Modal
   const openTestHub = (book: any, defaultChapterId?: string, assignMode: boolean = false) => {
+    const effectiveAssign = Boolean(isAdminOrTeacher && assignMode);
     setSelectedBookForPractice(book);
-    setIsAssignMode(assignMode);
+    setIsAssignMode(effectiveAssign);
     setAssignSuccessInfo(null);
     setChapterFilterKeyword("");
 
@@ -132,7 +145,7 @@ export default function BooksCatalogPage() {
       book.subject?.toLowerCase().includes("general") ||
       book.subject?.toLowerCase().includes("gk");
     setTestTitle(
-      assignMode
+      effectiveAssign
         ? `[Assigned] ${isGK ? "Static GK" : "English"} Mastery Assessment`
         : ""
     );
@@ -378,14 +391,16 @@ export default function BooksCatalogPage() {
                 <PlayCircle className="w-4 h-4" />
                 <span>Custom Practice</span>
               </button>
-              <button
-                type="button"
-                onClick={() => openTestHub(englishBook, undefined, true)}
-                className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl bg-white hover:bg-indigo-50 text-indigo-950 font-black text-xs shadow-md transition-all flex items-center justify-center gap-2"
-              >
-                <Award className="w-4 h-4 text-indigo-600" />
-                <span>Assign Test to Candidates</span>
-              </button>
+              {isAdminOrTeacher && (
+                <button
+                  type="button"
+                  onClick={() => openTestHub(englishBook, undefined, true)}
+                  className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl bg-white hover:bg-indigo-50 text-indigo-950 font-black text-xs shadow-md transition-all flex items-center justify-center gap-2"
+                >
+                  <Award className="w-4 h-4 text-indigo-600" />
+                  <span>Assign Test to Candidates</span>
+                </button>
+              )}
             </div>
           </div>
         )}
@@ -424,14 +439,16 @@ export default function BooksCatalogPage() {
                 <PlayCircle className="w-4 h-4" />
                 <span>Custom Practice</span>
               </button>
-              <button
-                type="button"
-                onClick={() => openTestHub(gkBook, undefined, true)}
-                className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl bg-white hover:bg-emerald-50 text-emerald-950 font-black text-xs shadow-md transition-all flex items-center justify-center gap-2"
-              >
-                <Award className="w-4 h-4 text-emerald-600" />
-                <span>Assign Test to Candidates</span>
-              </button>
+              {isAdminOrTeacher && (
+                <button
+                  type="button"
+                  onClick={() => openTestHub(gkBook, undefined, true)}
+                  className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl bg-white hover:bg-emerald-50 text-emerald-950 font-black text-xs shadow-md transition-all flex items-center justify-center gap-2"
+                >
+                  <Award className="w-4 h-4 text-emerald-600" />
+                  <span>Assign Test to Candidates</span>
+                </button>
+              )}
             </div>
           </div>
         )}
@@ -714,13 +731,15 @@ export default function BooksCatalogPage() {
                         <span>Random Practice (Select Topics)</span>
                       </button>
 
-                      <button
-                        onClick={() => openTestHub(book, undefined, true)}
-                        className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2"
-                      >
-                        <Award className="w-4 h-4 text-amber-400" />
-                        <span>Assign Test</span>
-                      </button>
+                      {isAdminOrTeacher && (
+                        <button
+                          onClick={() => openTestHub(book, undefined, true)}
+                          className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2"
+                        >
+                          <Award className="w-4 h-4 text-amber-400" />
+                          <span>Assign Test</span>
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>

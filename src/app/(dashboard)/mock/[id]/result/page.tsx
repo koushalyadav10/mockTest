@@ -8,6 +8,7 @@ import { SubjectPerformanceCard } from "@/components/result/SubjectPerformanceCa
 import { WeakTopicDiagnosis } from "@/components/result/WeakTopicDiagnosis";
 import { KnowledgeSpeedMatrix } from "@/components/result/KnowledgeSpeedMatrix";
 import { QuestionReviewList } from "@/components/result/QuestionReviewList";
+import { SumanResultMotivationCard } from "@/components/result/SumanResultMotivationCard";
 import { Button } from "@/components/ui/Button";
 import {
   Printer,
@@ -143,6 +144,14 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
   }
 
   const { testAttempt, evaluation, topicPerformance, knowledgeSpeedMatrix, questions } = resultData;
+  const isCandidateSuman = Boolean(
+    testAttempt?.candidateEmail?.toLowerCase().includes("suman") ||
+    testAttempt?.candidateName?.toLowerCase().includes("suman")
+  );
+  const scorePercentage =
+    testAttempt?.totalMarks && testAttempt.totalMarks > 0
+      ? Math.round((evaluation.finalScore / testAttempt.totalMarks) * 100)
+      : Math.round(evaluation.accuracy || 0);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 font-sans">
@@ -258,6 +267,17 @@ export default function ExamResultPage({ params }: { params: { id: string } }) {
           </Link>
         </div>
       </div>
+
+      {/* Personalized Motivation for Suman */}
+      {isCandidateSuman && (
+        <SumanResultMotivationCard
+          candidateName={testAttempt.candidateName}
+          score={evaluation.finalScore}
+          totalMarks={testAttempt.totalMarks}
+          percentage={scorePercentage}
+          accuracy={evaluation.accuracy}
+        />
+      )}
 
       {/* 1. Score Overview Banner */}
       <ScoreOverviewCard

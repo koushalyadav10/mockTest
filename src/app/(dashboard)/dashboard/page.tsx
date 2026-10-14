@@ -23,6 +23,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { OneClickMockModal } from "@/components/dashboard/OneClickMockModal";
+import { SumanLoveDashboardCard } from "@/components/dashboard/SumanLoveDashboardCard";
 
 interface TestCard {
   id: string;
@@ -133,10 +134,21 @@ export default function StudentDashboardPage() {
       t.title.includes("[Assigned]") ||
       t.code?.startsWith("ASSIGNED_")
   );
-  const regularTests = availableTests.filter((t) => !assignedTests.some((a) => a.id === t.id));
+  const regularTests = availableTests.filter(
+    (t) =>
+      t.category !== "ASSIGNED" &&
+      !t.title.includes("[Assigned]") &&
+      !t.code?.startsWith("ASSIGNED_")
+  );
+  const isSuman =
+    currentUser?.email === "suman.chauhan.22334@gmail.com" ||
+    currentUser?.name?.toLowerCase().includes("suman");
 
   return (
     <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-10 py-6 sm:py-8 space-y-6 sm:space-y-8 font-sans">
+      {/* 0. SPECIAL LOVING DASHBOARD FOR SUMAN */}
+      {isSuman && <SumanLoveDashboardCard user={currentUser} stats={stats} />}
+
       {/* 1. TOP BANNER: Performance Insights & Analytics Banner (Inspired by Screenshot 3) */}
       <div className="relative rounded-2xl overflow-hidden bg-gradient-to-r from-[#ffe4bc] via-[#ffd699] to-[#fed38d] border border-amber-300/80 p-6 sm:p-8 shadow-sm">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">

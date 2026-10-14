@@ -150,21 +150,21 @@ export const ExamTimer: React.FC<ExamTimerProps> = ({
 
   return (
     <div
-      className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border font-mono text-sm tracking-wider font-semibold select-none transition-all shadow-2xs ${
+      className={`flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border font-mono text-xs sm:text-sm tracking-wider font-semibold select-none transition-all shadow-2xs shrink-0 ${
         isLowTime
           ? "bg-red-950/60 text-red-300 border-red-700/80 animate-pulse"
           : "bg-slate-800/90 text-white border-slate-700/80"
       }`}
     >
       {isLowTime ? (
-        <AlertTriangle className="w-4 h-4 text-red-400 shrink-0" />
+        <AlertTriangle className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-red-400 shrink-0" />
       ) : (
-        <Clock className="w-4 h-4 text-cyan-400 shrink-0" />
+        <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-cyan-400 shrink-0" />
       )}
-      <span className="text-xs uppercase tracking-normal text-slate-300 font-sans font-medium mr-0.5">
+      <span className="text-[10px] sm:text-xs uppercase tracking-normal text-slate-300 font-sans font-medium mr-0.5 hidden sm:inline">
         TIME LEFT:
       </span>
-      <span className="tabular-nums text-base font-bold text-white tracking-widest">
+      <span className="tabular-nums text-xs sm:text-base font-bold text-white tracking-wider sm:tracking-widest">
         {formatSecondsToHHMMSS(seconds)}
       </span>
     </div>

@@ -1,10 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
-import { cookies } from "next/headers";
-import { verifyJwt } from "@/lib/auth/jwt";
+import { requireAuth } from "@/lib/auth/session";
 
 export async function POST(req: NextRequest) {
   try {
+    const { user, errorResponse } = requireAuth(req, ["ADMIN", "TEACHER"]);
+    if (errorResponse) return errorResponse;
+
     const body = await req.json();
     const {
       title,
@@ -22,20 +24,8 @@ export async function POST(req: NextRequest) {
       endDate,
     } = body;
 
-    // Optional user authentication
-    let userId: string | null = null;
-    let userEmail = "faculty@examforge.ai";
-    const token = cookies().get("auth-token")?.value;
-    if (token) {
-      try {
-        const decoded = verifyJwt(token);
-        if (decoded?.userId) {
-          userId = decoded.userId;
-          const user = await prisma.user.findUnique({ where: { id: userId } });
-          if (user?.email) userEmail = user.email;
-        }
-      } catch (e) {}
-    }
+    const userId = user?.userId || null;
+    const userEmail = user?.email || "admin@examforge.ai";
 
     // 1. Resolve questions matching the criteria
     const whereClause: any = {};

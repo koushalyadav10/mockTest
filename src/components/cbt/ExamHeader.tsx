@@ -61,8 +61,8 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
         {/* Left: Exam and Section */}
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="font-bold tracking-tight text-white text-base sm:text-lg">
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
+            <span className="font-bold tracking-tight text-white text-xs sm:text-base md:text-lg truncate max-w-[150px] sm:max-w-xs md:max-w-none">
               {formatCleanChapterTitle(examTitle)}
             </span>
           </div>

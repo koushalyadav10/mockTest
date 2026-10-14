@@ -2,8 +2,11 @@ import { NextRequest, NextResponse } from "next/server";
 
 export const config = {
   matcher: [
+    "/",
     "/dashboard",
     "/dashboard/:path*",
+    "/books",
+    "/books/:path*",
     "/mock/:path*",
     "/exams",
     "/exams/:path*",
@@ -21,6 +24,8 @@ export const config = {
     "/analytics/:path*",
     "/history",
     "/history/:path*",
+    "/profile",
+    "/profile/:path*",
     "/settings",
     "/settings/:path*",
   ],
@@ -51,8 +56,17 @@ export function middleware(req: NextRequest) {
   // Unauthenticated user -> strictly redirect to /login
   if (!user) {
     const loginUrl = new URL("/login", req.url);
-    loginUrl.searchParams.set("callbackUrl", path);
+    if (path !== "/") {
+      loginUrl.searchParams.set("callbackUrl", path);
+    }
     return NextResponse.redirect(loginUrl);
+  }
+
+  // Authenticated user landing on root "/" -> redirect to their designated home
+  if (path === "/") {
+    if (user.role === "ADMIN") return NextResponse.redirect(new URL("/admin", req.url));
+    if (user.role === "TEACHER") return NextResponse.redirect(new URL("/teacher", req.url));
+    return NextResponse.redirect(new URL("/dashboard", req.url));
   }
 
   // Role-based route redirection:

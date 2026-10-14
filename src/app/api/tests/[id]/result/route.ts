@@ -169,6 +169,7 @@ export async function GET(
         examTitle: formatCleanChapterTitle(testAttempt.examConfig.title),
         category: testAttempt.examConfig.category,
         candidateName: testAttempt.user?.name || "Aditya Sharma",
+        candidateEmail: testAttempt.user?.email || null,
         completedAt: testAttempt.completedAt || testAttempt.updatedAt,
         totalMarks: testAttempt.examConfig.totalMarks,
         isHeldForStudents,
