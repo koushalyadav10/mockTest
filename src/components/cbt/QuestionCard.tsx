@@ -104,8 +104,10 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   const [isTranslating, setIsTranslating] = useState(false);
 
   const { cleanQuestionText, examTag: inlineTag, year: parsedYear, examName: parsedExam } = extractExamTag(questionText, tags || exam);
-  const rawTag = inlineTag || (exam && exam !== "CBT Assessment" ? exam : null) || (year ? `Exam ${year}` : null);
+  const rawTag = inlineTag || tags || (exam && exam !== "CBT Assessment" ? exam : null) || (year ? `Exam ${year}` : null);
   const displayExamTag = cleanExamCitationTag(rawTag, topic);
+  // User requested: only show exam citation when a year/shift is actually present
+  const hasYear = Boolean(displayExamTag && /\b(19\d{2}|20\d{2})\b/.test(displayExamTag));
 
   // Extract [Type: ...] if embedded in text
   let typeHeader = "";
@@ -243,14 +245,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             </span>
           )}
 
-          {/* Exam Citation */}
-          {displayExamTag && (
-            <span className="hidden sm:inline-flex max-lg:landscape:hidden items-center gap-1.5 px-3 py-1 rounded-lg bg-amber-50/90 border border-amber-300/90 text-amber-950 font-bold text-xs shadow-2xs shrink-0">
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
-              <Calendar className="w-3.5 h-3.5 text-amber-700 shrink-0" />
-              <span className="max-w-[200px] truncate">{displayExamTag}</span>
-            </span>
-          )}
+
 
           {/* Per-Question Live Timer & Speed Badge */}
           <div className="inline-flex items-center gap-1.5 px-2.5 py-1 max-lg:landscape:px-1.5 max-lg:landscape:py-0.5 rounded-lg bg-blue-50 border border-blue-200/80 text-blue-800 text-xs max-lg:landscape:text-[10px] font-mono font-bold shrink-0">
@@ -335,6 +330,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           <div className="text-[18px] sm:text-[22px] lg:text-[24px] max-lg:landscape:text-[14px] font-bold text-slate-900 leading-snug sm:leading-relaxed tracking-tight py-1.5 sm:py-3 max-lg:landscape:py-0.5">
             <MathRenderer text={activeQuestionText} />
           </div>
+
+          {/* Official Exam Year & Shift Badge (Shown under question text only when year/shift exists) */}
+          {hasYear && displayExamTag && (
+            <div className="flex justify-end pt-0.5 pb-2">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#c5e1dd] text-[#0f4037] border border-[#a8d3cc] font-bold text-xs sm:text-sm tracking-wide shadow-2xs select-none">
+                {displayExamTag}
+              </span>
+            </div>
+          )}
 
           {/* Fallback Image for Non-DI questions if imageUrl exists */}
           {!isDataInterpretation && hasVisualContent && imageUrl && (

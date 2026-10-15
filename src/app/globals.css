@@ -6,6 +6,12 @@
 @tailwind utilities;
 
 @layer base {
+  html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
   body {
     font-family: 'Satoshi', sans-serif;
     @apply bg-[#f6f8fa] text-slate-800 antialiased font-sans selection:bg-blue-100 selection:text-blue-900;
