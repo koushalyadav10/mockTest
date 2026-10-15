@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { requireAuth } from "@/lib/auth/session";
+import { getEffectiveDurationMinutes } from "@/lib/exam/timer";
 
 export async function POST(req: NextRequest) {
   try {
@@ -21,6 +22,7 @@ export async function POST(req: NextRequest) {
       holdResults = true,
       rangeFrom,
       rangeTo,
+      durationMinutes,
     } = body;
 
     const sourceExam = await prisma.examConfig.findUnique({
@@ -94,6 +96,13 @@ export async function POST(req: NextRequest) {
     const effectiveMarksPerCorrect = marksPerCorrect !== undefined ? Number(marksPerCorrect) : (sourceExam.marksPerCorrect || 2.0);
     const effectiveNegativeMarks = negativeMarks !== undefined ? Number(negativeMarks) : (sourceExam.negativeMarks || 0.5);
 
+    const assignedDurationMinutes = getEffectiveDurationMinutes(
+      questionCount,
+      sourceExam.totalDurationMinutes,
+      totalAvailable,
+      durationMinutes
+    );
+
     const newExam = await prisma.examConfig.create({
       data: {
         code: uniqueCode,
@@ -111,7 +120,7 @@ export async function POST(req: NextRequest) {
         documentId: sourceExam.documentId,
         totalQuestions: questionCount,
         totalMarks: questionCount * effectiveMarksPerCorrect,
-        totalDurationMinutes: Math.max(10, Math.ceil(questionCount * 1.0)),
+        totalDurationMinutes: assignedDurationMinutes,
         marksPerCorrect: effectiveMarksPerCorrect,
         negativeMarks: effectiveNegativeMarks,
         questionShuffle: Boolean(shuffle),

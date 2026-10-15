@@ -98,7 +98,7 @@ export async function POST(req: NextRequest) {
         mode: mode === "EXAM" ? "EXAM" : "MOCK",
         totalQuestions: selectedQuestions.length,
         totalMarks: selectedQuestions.length * marksPerCorrect,
-        totalDurationMinutes: Number(durationMinutes) || Math.max(15, Math.ceil(selectedQuestions.length * 1.2)),
+        totalDurationMinutes: Number(durationMinutes) || Math.max(10, Math.ceil(selectedQuestions.length * 1.5)),
         marksPerCorrect: Number(marksPerCorrect),
         negativeMarks: Number(negativeMarks),
         sectionalTiming: false,

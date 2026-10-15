@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { safelyShuffleQuestions, safelyShuffleOptions } from "@/lib/exam/shuffling";
 import { getSessionUser } from "@/lib/auth/session";
+import { getEffectiveDurationMinutes } from "@/lib/exam/timer";
 
 export async function POST(req: NextRequest) {
   try {
@@ -18,6 +19,7 @@ export async function POST(req: NextRequest) {
       questionCountLimit,
       rangeFrom,
       rangeTo,
+      durationMinutes,
     } = body;
 
     // Get current authenticated user
@@ -203,6 +205,15 @@ export async function POST(req: NextRequest) {
       ? safelyShuffleQuestions(selectedQuestions, true)
       : [...selectedQuestions].sort((a, b) => (a.questionNumber || 0) - (b.questionNumber || 0));
 
+    const effectiveDurationMinutes = getEffectiveDurationMinutes(
+      orderedQuestions.length,
+      examConfig.totalDurationMinutes,
+      examConfig.totalQuestions,
+      durationMinutes
+    );
+    const attemptNow = new Date();
+    const expiresAt = new Date(attemptNow.getTime() + effectiveDurationMinutes * 60 * 1000);
+
     // Create Test Attempt Record with deterministic question ordering
     const testAttempt = await prisma.testAttempt.create({
       data: {
@@ -210,7 +221,8 @@ export async function POST(req: NextRequest) {
         studentRollNo: user?.studentRollNo || `EF-${Date.now().toString().slice(-6)}`,
         examConfigId: examConfig.id,
         status: "NOT_STARTED",
-        startedAt: new Date(),
+        startedAt: attemptNow,
+        expiresAt: expiresAt,
         mode,
         totalQuestions: orderedQuestions.length,
         questionOrderJson: JSON.stringify(orderedQuestions.map((q) => q.id)),
@@ -268,6 +280,7 @@ export async function POST(req: NextRequest) {
       testAttemptId: testAttempt.id,
       mode,
       totalQuestions: orderedQuestions.length,
+      durationMinutes: effectiveDurationMinutes,
     });
   } catch (error: any) {
     console.error("Failed to create test attempt:", error);

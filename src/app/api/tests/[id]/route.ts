@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
-import { calculateRemainingSeconds } from "@/lib/exam/timer";
+import { calculateRemainingSeconds, getEffectiveDurationMinutes } from "@/lib/exam/timer";
 
 export async function GET(
   req: NextRequest,
@@ -42,14 +42,24 @@ export async function GET(
       return NextResponse.json({ error: "Test attempt not found" }, { status: 404 });
     }
 
-    // Compute Authoritative Server Timer
-    let remainingSeconds = testAttempt.examConfig.totalDurationMinutes * 60;
+    // Compute Authoritative Server Timer & Effective Duration
+    const effectiveDurationMinutes = getEffectiveDurationMinutes(
+      testAttempt.totalQuestions,
+      testAttempt.examConfig.totalDurationMinutes,
+      testAttempt.examConfig.totalQuestions
+    );
+
+    let remainingSeconds = effectiveDurationMinutes * 60;
     let isExpired = false;
 
-    if (testAttempt.startedAt && testAttempt.status === "RUNNING") {
+    if (testAttempt.expiresAt && testAttempt.status === "RUNNING") {
+      const diffMs = new Date(testAttempt.expiresAt).getTime() - Date.now();
+      remainingSeconds = Math.max(0, Math.floor(diffMs / 1000));
+      isExpired = remainingSeconds <= 0;
+    } else if (testAttempt.startedAt && testAttempt.status === "RUNNING") {
       const timerCalc = calculateRemainingSeconds(
         testAttempt.startedAt.toISOString(),
-        testAttempt.examConfig.totalDurationMinutes
+        effectiveDurationMinutes
       );
       remainingSeconds = timerCalc.remainingSeconds;
       isExpired = timerCalc.isExpired;
@@ -155,7 +165,10 @@ export async function GET(
         email: "candidate@examforge.ai",
         studentRollNo: testAttempt.studentRollNo,
       },
-      examConfig: testAttempt.examConfig,
+      examConfig: {
+        ...testAttempt.examConfig,
+        totalDurationMinutes: effectiveDurationMinutes,
+      },
       questions: formattedQuestions,
     });
   } catch (error: any) {

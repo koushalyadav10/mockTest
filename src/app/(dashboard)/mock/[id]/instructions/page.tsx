@@ -72,7 +72,13 @@ export default function ExamInstructionsPage({ params }: { params: { id: string 
 
         <div className="flex items-center gap-4 text-xs font-mono text-slate-700 bg-slate-50 px-4 py-2 rounded-lg border border-slate-200">
           <div>
-            Duration: <strong className="text-slate-900">{examConfig.totalDurationMinutes} mins</strong>
+            Duration:{" "}
+            <strong className="text-slate-900">
+              {testAttempt.totalQuestions && testAttempt.totalQuestions < examConfig.totalQuestions
+                ? Math.min(examConfig.totalDurationMinutes, Math.max(5, Math.ceil(testAttempt.totalQuestions * 1.5)))
+                : examConfig.totalDurationMinutes}{" "}
+              mins
+            </strong>
           </div>
           <span>•</span>
           <div>

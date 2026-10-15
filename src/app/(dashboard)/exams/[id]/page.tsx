@@ -69,6 +69,10 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
   // Time Window Allotment
   const [allotmentDays, setAllotmentDays] = useState<number | null>(null); // null = Unlimited
 
+  // Test Duration & Time Limit (1.5x per question when range is active, or whole test duration in one go)
+  const [customDurationMinutes, setCustomDurationMinutes] = useState<number>(60);
+  const [isDurationManuallyEdited, setIsDurationManuallyEdited] = useState(false);
+
   // Result Holding Control
   const [holdResults, setHoldResults] = useState(true);
 
@@ -130,6 +134,18 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
     }
   }, [exam, selectedType, selectedExam, shuffleQuestions, isCustomRangeActive, rangeFrom, rangeTo]);
 
+  // Synchronize test duration: 1.5X per question for custom range, or master duration for full chapter
+  useEffect(() => {
+    if (exam && !isDurationManuallyEdited) {
+      if (isCustomRangeActive) {
+        const count = Math.max(1, rangeTo - rangeFrom + 1);
+        setCustomDurationMinutes(Math.ceil(count * 1.5));
+      } else {
+        setCustomDurationMinutes(exam.totalDurationMinutes || 60);
+      }
+    }
+  }, [exam, isCustomRangeActive, rangeFrom, rangeTo, isDurationManuallyEdited]);
+
   const isAdminOrTeacher = currentUser?.role === "ADMIN" || currentUser?.role === "TEACHER";
   const isAssigned = isAssignedExam(exam);
 
@@ -186,8 +202,13 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
       return;
     }
     setRangeFrom(val);
+    const effectiveTo = val > rangeTo ? Math.min(maxQ, val + 24) : rangeTo;
     if (val > rangeTo) {
-      setRangeTo(Math.min(maxQ, val + 24));
+      setRangeTo(effectiveTo);
+    }
+    if (!isDurationManuallyEdited) {
+      const count = Math.max(1, effectiveTo - val + 1);
+      setCustomDurationMinutes(Math.ceil(count * 1.5));
     }
   };
 
@@ -205,6 +226,10 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
       return;
     }
     setRangeTo(val);
+    if (!isDurationManuallyEdited) {
+      const count = Math.max(1, val - rangeFrom + 1);
+      setCustomDurationMinutes(Math.ceil(count * 1.5));
+    }
   };
 
   // Calculate deadline string if allotmentDays is set
@@ -238,6 +263,7 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
           shuffle: shuffleQuestions,
           rangeFrom: isCustomRangeActive ? rangeFrom : undefined,
           rangeTo: isCustomRangeActive ? rangeTo : undefined,
+          durationMinutes: customDurationMinutes,
           mode: effectiveInstantFeedback ? "PRACTICE" : "MOCK",
         }),
       });
@@ -283,6 +309,7 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
           marksPerCorrect: Number(marksPerCorrect),
           negativeMarks: effectiveNegative,
           allotmentDays: allotmentDays,
+          durationMinutes: customDurationMinutes,
           holdResults: holdResults,
           rangeFrom: isCustomRangeActive ? rangeFrom : undefined,
           rangeTo: isCustomRangeActive ? rangeTo : undefined,
@@ -910,6 +937,71 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
                 </div>
               </div>
 
+              {/* Test Duration & Time Limit (परीक्षा समय - 1.5X Per Question) */}
+              <div className="p-4 rounded-2xl border border-indigo-200 bg-indigo-50/70 space-y-3">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
+                      <Clock className="w-3.5 h-3.5 text-indigo-600" />
+                      <span>Test Duration &amp; Time Limit (परीक्षा समय)</span>
+                    </h4>
+                    <p className="text-[11px] text-slate-500">
+                      {isCustomRangeActive
+                        ? `Auto-set at 1.5 min per question (${effectiveQuestionCount} Qs × 1.5 = ${Math.ceil(effectiveQuestionCount * 1.5)} Mins)`
+                        : `Whole Chapter: Master exam duration (${exam.totalDurationMinutes} Mins in one go)`}
+                    </p>
+                  </div>
+                  <span className="text-xs font-black px-2.5 py-1 rounded-lg bg-indigo-600 text-white shadow-2xs">
+                    {customDurationMinutes} Mins
+                  </span>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <div className="relative flex-1">
+                    <input
+                      type="number"
+                      min="1"
+                      max="1440"
+                      value={customDurationMinutes}
+                      onChange={(e) => {
+                        setCustomDurationMinutes(Math.max(1, parseInt(e.target.value) || 1));
+                        setIsDurationManuallyEdited(true);
+                      }}
+                      className="w-full pl-3 pr-16 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
+                    />
+                    <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[11px] font-bold text-slate-400">
+                      Minutes
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsDurationManuallyEdited(false);
+                      const auto = isCustomRangeActive
+                        ? Math.ceil(effectiveQuestionCount * 1.5)
+                        : (exam.totalDurationMinutes || 60);
+                      setCustomDurationMinutes(auto);
+                    }}
+                    className="px-3 py-2 rounded-xl text-xs font-bold bg-white text-indigo-700 border border-indigo-200 hover:bg-indigo-50 transition-colors shadow-2xs"
+                    title="Reset to standard 1.5X time"
+                  >
+                    Auto 1.5X
+                  </button>
+                </div>
+
+                <div className="text-[11px] font-semibold text-indigo-800 bg-white/90 border border-indigo-200 px-3 py-1.5 rounded-lg flex items-center justify-between">
+                  <span>
+                    {isCustomRangeActive
+                      ? `🎯 Custom Range: ${effectiveQuestionCount} Questions = ${customDurationMinutes} Mins`
+                      : `📚 Whole Test: ${exam.totalQuestions} Questions = ${customDurationMinutes} Mins`}
+                  </span>
+                  <span className="text-slate-500 font-mono text-[10px]">
+                    (~{(customDurationMinutes / Math.max(1, isCustomRangeActive ? effectiveQuestionCount : exam.totalQuestions)).toFixed(1)} min/Q)
+                  </span>
+                </div>
+              </div>
+
               {/* Time Window Allotment & Deadline */}
               <div className="p-4 rounded-2xl border border-slate-200 bg-slate-50/60 space-y-3">
                 <div>
@@ -1017,7 +1109,18 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
                     <input
                       type="checkbox"
                       checked={isCustomRangeActive}
-                      onChange={(e) => setIsCustomRangeActive(e.target.checked)}
+                      onChange={(e) => {
+                        const active = e.target.checked;
+                        setIsCustomRangeActive(active);
+                        if (!isDurationManuallyEdited) {
+                          if (active) {
+                            const count = Math.max(1, rangeTo - rangeFrom + 1);
+                            setCustomDurationMinutes(Math.ceil(count * 1.5));
+                          } else {
+                            setCustomDurationMinutes(exam?.totalDurationMinutes || 60);
+                          }
+                        }
+                      }}
                       className="w-4 h-4 rounded text-indigo-600 border-indigo-300 focus:ring-indigo-500 cursor-pointer"
                     />
                     <span>{isCustomRangeActive ? "Range ON" : "Full Chapter"}</span>
@@ -1093,6 +1196,10 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
                             setRangeFrom(preset.from);
                             setRangeTo(preset.to);
                             setRangeError(null);
+                            if (!isDurationManuallyEdited) {
+                              const count = Math.max(1, preset.to - preset.from + 1);
+                              setCustomDurationMinutes(Math.ceil(count * 1.5));
+                            }
                           }}
                           className={`px-2 py-0.5 rounded-lg text-[11px] font-bold border transition-all ${
                             rangeFrom === preset.from && rangeTo === preset.to
@@ -1107,7 +1214,7 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
 
                     <div className="text-[11px] font-semibold text-indigo-700 bg-white border border-indigo-200 px-3 py-1.5 rounded-lg flex items-center justify-between">
                       <span>Selected: <strong>{effectiveQuestionCount} Questions</strong> (Q.{rangeFrom} to Q.{rangeTo})</span>
-                      <span>Max available: <strong>{totalChapterQuestions} Qs</strong></span>
+                      <span>Duration: <strong className="text-indigo-950">{customDurationMinutes} Mins</strong> (1.5X)</span>
                     </div>
                   </div>
                 )}
@@ -1216,8 +1323,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
                 {isLaunching
                   ? "Launching..."
                   : isCustomRangeActive
-                  ? `Test Range Q.${rangeFrom}-Q.${rangeTo}`
-                  : "Test for Self (Admin Preview)"}
+                  ? `Test Range Q.${rangeFrom}-Q.${rangeTo} (${customDurationMinutes} Mins)`
+                  : `Test for Self (${customDurationMinutes} Mins)`}
               </span>
             </Button>
 
@@ -1231,8 +1338,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
                 {isAssigning
                   ? "Allotting..."
                   : isCustomRangeActive
-                  ? `Allot Range (Q.${rangeFrom} - Q.${rangeTo} • ${effectiveQuestionCount} Qs)`
-                  : "Allot & Assign to All Candidates"}
+                  ? `Allot Range (Q.${rangeFrom} - Q.${rangeTo} • ${effectiveQuestionCount} Qs • ${customDurationMinutes} Mins)`
+                  : `Allot & Assign to All Candidates (${customDurationMinutes} Mins)`}
               </span>
             </Button>
 

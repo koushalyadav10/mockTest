@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
+import { getEffectiveDurationMinutes } from "@/lib/exam/timer";
 
 export async function POST(
   req: NextRequest,
@@ -16,15 +17,19 @@ export async function POST(
     }
 
     const now = new Date();
-    const durationMinutes = testAttempt.examConfig.totalDurationMinutes;
-    const expiresAt = new Date(now.getTime() + durationMinutes * 60 * 1000);
+    const effectiveDurationMinutes = getEffectiveDurationMinutes(
+      testAttempt.totalQuestions,
+      testAttempt.examConfig.totalDurationMinutes,
+      testAttempt.examConfig.totalQuestions
+    );
+    const expiresAt = new Date(now.getTime() + effectiveDurationMinutes * 60 * 1000);
 
     const updated = await prisma.testAttempt.update({
       where: { id: params.id },
       data: {
         status: "RUNNING",
         startedAt: now,
-        expiresAt: testAttempt.expiresAt || expiresAt,
+        expiresAt: expiresAt,
       },
     });
 

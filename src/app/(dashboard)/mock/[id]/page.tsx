@@ -129,7 +129,10 @@ export default function MockLobbyPage({ params }: { params: { id: string } }) {
           <div>
             <span className="text-[11px] text-slate-400 block font-sans">Duration</span>
             <span className="text-lg sm:text-xl font-bold text-slate-800">
-              {examConfig.totalDurationMinutes} Min
+              {testAttempt.totalQuestions && testAttempt.totalQuestions < examConfig.totalQuestions
+                ? Math.min(examConfig.totalDurationMinutes, Math.max(5, Math.ceil(testAttempt.totalQuestions * 1.5)))
+                : examConfig.totalDurationMinutes}{" "}
+              Min
             </span>
           </div>
           <div>

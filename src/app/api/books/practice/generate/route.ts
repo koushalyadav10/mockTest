@@ -117,7 +117,7 @@ export async function POST(req: NextRequest) {
         mode: mode === "PRACTICE" ? "PRACTICE" : "TIER_1",
         totalQuestions: selectedQuestions.length,
         totalMarks: selectedQuestions.length * 2.0,
-        totalDurationMinutes: Math.max(10, Math.ceil(selectedQuestions.length * 1.2)),
+        totalDurationMinutes: Math.max(10, Math.ceil(selectedQuestions.length * 1.5)),
         marksPerCorrect: 2.0,
         negativeMarks: 0.5,
         sectionalTiming: false,
