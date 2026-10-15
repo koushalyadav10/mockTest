@@ -44,6 +44,13 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
     return () => document.removeEventListener("fullscreenchange", handleFullscreenChange);
   }, [isFullscreen]);
 
+  useEffect(() => {
+    if (fullscreenAlert) {
+      const timer = setTimeout(() => setFullscreenAlert(false), 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [fullscreenAlert]);
+
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
       document.documentElement.requestFullscreen().catch(() => {});

@@ -55,6 +55,15 @@ export default function ChapterStudyHubPage() {
   const [selectedAnswers, setSelectedAnswers] = useState<{ [qId: string]: string }>({});
   const [questionDifficultyFilter, setQuestionDifficultyFilter] = useState("ALL");
 
+  // Single-Question Focus Mode vs List View States
+  const [solvedViewMode, setSolvedViewMode] = useState<"SINGLE" | "LIST">("SINGLE");
+  const [solvedIdx, setSolvedIdx] = useState(0);
+  const [isSolvedPaletteOpen, setIsSolvedPaletteOpen] = useState(false);
+
+  const [pyqViewMode, setPyqViewMode] = useState<"SINGLE" | "LIST">("SINGLE");
+  const [pyqIdx, setPyqIdx] = useState(0);
+  const [isPyqPaletteOpen, setIsPyqPaletteOpen] = useState(false);
+
   // Practice Tab Config State
   const [practiceCount, setPracticeCount] = useState(20);
   const [practiceMode, setPracticeMode] = useState<"PRACTICE" | "MOCK">("PRACTICE");
@@ -185,27 +194,29 @@ export default function ChapterStudyHubPage() {
   });
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6 font-sans">
+    <div className="w-full max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-4 sm:space-y-6 font-sans overflow-x-hidden">
       {/* 1. TOP BREADCRUMBS & NAVIGATION */}
-      <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
-        <div className="flex items-center gap-2">
+      <div className="flex flex-wrap items-center justify-between gap-2.5 text-xs text-slate-500">
+        <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
           <Link
             href="/books"
-            className="flex items-center gap-1 font-bold text-indigo-600 hover:text-indigo-800 transition-colors"
+            className="flex items-center gap-1 font-bold text-indigo-600 hover:text-indigo-800 transition-colors shrink-0"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span>Books &amp; Learning</span>
           </Link>
           <span>/</span>
-          <span className="font-semibold text-slate-700">{chapter.book?.title}</span>
+          <span className="font-semibold text-slate-700 truncate max-w-[140px] sm:max-w-none">
+            {chapter.book?.title}
+          </span>
           <span>/</span>
-          <span className="font-extrabold text-slate-900">
+          <span className="font-extrabold text-slate-900 shrink-0">
             Chapter {chapter.chapterNumber}
           </span>
         </div>
 
         {/* Page citation & Volume Badge */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0">
           {chapter.volume && (
             <span className="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[11px] font-bold">
               Vol {chapter.volume.volumeNumber}
@@ -219,20 +230,20 @@ export default function ChapterStudyHubPage() {
         </div>
       </div>
 
-      {/* 2. CHAPTER HERO BANNER */}
-      <div className="rounded-2xl bg-white border border-slate-200/90 p-6 sm:p-7 shadow-xs">
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-          <div className="space-y-2">
+      {/* 2. CHAPTER HERO BANNER (Fixed for mobile with 100% width buttons) */}
+      <div className="rounded-2xl bg-white border border-slate-200/90 p-4 sm:p-7 shadow-xs overflow-hidden">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 sm:gap-6">
+          <div className="space-y-2 min-w-0">
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-indigo-600 text-white">
+              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-indigo-600 text-white shrink-0">
                 Chapter {chapter.chapterNumber}
               </span>
-              <span className="text-xs text-slate-500 font-semibold">
+              <span className="text-xs text-slate-500 font-semibold truncate">
                 {chapter.book?.subject}
               </span>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+            <h1 className="text-xl sm:text-2xl lg:text-3xl font-black text-slate-900 tracking-tight break-words">
               {chapter.title}
             </h1>
 
@@ -243,21 +254,21 @@ export default function ChapterStudyHubPage() {
             )}
 
             {/* Quick Metrics Bar */}
-            <div className="pt-2 flex flex-wrap items-center gap-3 text-xs text-slate-600 font-semibold">
-              <span className="flex items-center gap-1.5 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200">
+            <div className="pt-1.5 flex flex-wrap items-center gap-2 text-xs text-slate-600 font-semibold">
+              <span className="flex items-center gap-1.5 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200 shrink-0">
                 <FileCheck2 className="w-3.5 h-3.5 text-indigo-600" />
                 <strong>{chapter.counts?.questions || 0}</strong> Questions
               </span>
-              <span className="flex items-center gap-1.5 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200">
+              <span className="flex items-center gap-1.5 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200 shrink-0">
                 <BookOpen className="w-3.5 h-3.5 text-amber-600" />
                 <strong>{chapter.counts?.theory || 0}</strong> Theory Blocks
               </span>
-              <span className="flex items-center gap-1.5 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200">
+              <span className="flex items-center gap-1.5 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200 shrink-0">
                 <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
                 <strong>{chapter.counts?.examples || 0}</strong> Examples
               </span>
               {chapter.counts?.pyqs > 0 && (
-                <span className="flex items-center gap-1.5 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200">
+                <span className="flex items-center gap-1.5 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-200 shrink-0">
                   <Flame className="w-3.5 h-3.5 text-rose-500" />
                   <strong>{chapter.counts.pyqs}</strong> PYQs
                 </span>
@@ -265,12 +276,12 @@ export default function ChapterStudyHubPage() {
             </div>
           </div>
 
-          {/* Quick Practice Launcher Button */}
-          <div className="shrink-0 flex flex-col sm:flex-row gap-2">
+          {/* Quick Practice Launcher Button (Full width on mobile, side-by-side on tablet/desktop) */}
+          <div className="w-full lg:w-auto grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2 lg:mt-0 shrink-0">
             <button
               onClick={() => handleLaunchPractice({ mode: "PRACTICE", questionCount: 20 })}
               disabled={isGeneratingPractice}
-              className="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2 disabled:opacity-50"
+              className="w-full px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2 disabled:opacity-50 active:scale-[0.98]"
             >
               <Zap className="w-4 h-4 text-amber-300" />
               <span>Instant Practice (20 Qs)</span>
@@ -279,7 +290,7 @@ export default function ChapterStudyHubPage() {
             <button
               onClick={() => handleLaunchPractice({ mode: "MOCK", questionCount: 25 })}
               disabled={isGeneratingPractice}
-              className="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2 disabled:opacity-50"
+              className="w-full px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-2 disabled:opacity-50 active:scale-[0.98]"
             >
               <Clock className="w-4 h-4 text-teal-400" />
               <span>Timed CBT Test</span>
@@ -458,216 +469,544 @@ export default function ChapterStudyHubPage() {
         </div>
       )}
 
-      {/* TAB 3: SOLVED QUESTIONS (Interactive Practice with Instant Reveal) */}
+      {/* TAB 3: SOLVED QUESTIONS (Interactive Practice with Single-Question Focus & List Modes) */}
       {activeTab === "solved" && (
         <div className="space-y-4">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white p-4 rounded-xl border border-slate-200">
-            <div>
-              <h2 className="text-sm font-extrabold text-slate-800 uppercase tracking-wider">
-                Authentic Solved Questions ({displayedSolvedQuestions.length})
-              </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                Review questions one by one with verified step-by-step solutions
-              </p>
-            </div>
+          {/* Top Control Bar: Navigation, Question Jump, Filter & View Mode */}
+          <div className="bg-white p-3.5 sm:p-4 rounded-2xl border border-slate-200/90 shadow-2xs flex flex-wrap items-center justify-between gap-3">
+            {/* Left: Previous, Jump to Question, Next */}
+            {displayedSolvedQuestions.length > 0 && solvedViewMode === "SINGLE" && (
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <button
+                  type="button"
+                  disabled={solvedIdx === 0}
+                  onClick={() => setSolvedIdx((prev) => Math.max(0, prev - 1))}
+                  className="px-2.5 sm:px-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 disabled:opacity-30 text-xs font-bold text-slate-700 flex items-center gap-1 transition-all active:scale-95"
+                >
+                  <span>&larr; Prev</span>
+                </button>
 
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-slate-600">Filter Level:</span>
+                {/* Jump to Question Dropdown Button */}
+                <button
+                  type="button"
+                  onClick={() => setIsSolvedPaletteOpen(true)}
+                  className="px-3 sm:px-4 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 text-indigo-900 font-extrabold text-xs flex items-center gap-1.5 transition-all active:scale-95 shadow-2xs"
+                >
+                  <span>Q.{solvedIdx + 1} / {displayedSolvedQuestions.length}</span>
+                  <span className="text-[10px] text-indigo-600 bg-white px-1.5 py-0.2 rounded font-mono border border-indigo-200">
+                    Jump 📑
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  disabled={solvedIdx >= displayedSolvedQuestions.length - 1}
+                  onClick={() => setSolvedIdx((prev) => Math.min(displayedSolvedQuestions.length - 1, prev + 1))}
+                  className="px-2.5 sm:px-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 disabled:opacity-30 text-xs font-bold text-slate-700 flex items-center gap-1 transition-all active:scale-95"
+                >
+                  <span>Next &rarr;</span>
+                </button>
+              </div>
+            )}
+
+            {/* Right: Difficulty Filter & Mode Switcher */}
+            <div className="flex items-center gap-2 ml-auto">
               <select
                 value={questionDifficultyFilter}
-                onChange={(e) => setQuestionDifficultyFilter(e.target.value)}
-                className="px-2.5 py-1.5 border border-slate-300 rounded-lg text-xs bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600"
+                onChange={(e) => {
+                  setQuestionDifficultyFilter(e.target.value);
+                  setSolvedIdx(0);
+                }}
+                className="px-2.5 py-1.5 border border-slate-200 rounded-xl text-xs font-semibold bg-slate-50 focus:outline-none"
               >
                 <option value="ALL">All Levels</option>
                 <option value="EASY">Easy</option>
                 <option value="MEDIUM">Medium</option>
                 <option value="HARD">Hard</option>
               </select>
+
+              {/* View Mode Toggle */}
+              <div className="flex items-center bg-slate-100 p-0.5 rounded-xl border border-slate-200">
+                <button
+                  type="button"
+                  onClick={() => setSolvedViewMode("SINGLE")}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+                    solvedViewMode === "SINGLE"
+                      ? "bg-white text-indigo-700 shadow-2xs"
+                      : "text-slate-500 hover:text-slate-800"
+                  }`}
+                >
+                  1-by-1
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setSolvedViewMode("LIST")}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+                    solvedViewMode === "LIST"
+                      ? "bg-white text-indigo-700 shadow-2xs"
+                      : "text-slate-500 hover:text-slate-800"
+                  }`}
+                >
+                  List All
+                </button>
+              </div>
             </div>
           </div>
 
-          <div className="space-y-4">
-            {displayedSolvedQuestions.map((q: any, idx: number) => {
+          {displayedSolvedQuestions.length === 0 ? (
+            <div className="p-8 text-center bg-white rounded-2xl border border-slate-200">
+              <p className="text-xs text-slate-500">No questions found matching this difficulty filter.</p>
+            </div>
+          ) : solvedViewMode === "SINGLE" ? (
+            /* 1-BY-1 SINGLE QUESTION FOCUS VIEW */
+            (() => {
+              const currentIdx = Math.min(Math.max(0, solvedIdx), displayedSolvedQuestions.length - 1);
+              const q = displayedSolvedQuestions[currentIdx];
               const isRevealed = revealedAnswers[q.id];
+              const selectedOptId = selectedAnswers[q.id];
 
               return (
-                <div
-                  key={q.id}
-                  className="bg-white rounded-2xl border border-slate-200/90 p-5 sm:p-6 shadow-2xs space-y-4"
-                >
-                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
-                    <div className="flex items-center gap-2">
-                      <span className="font-extrabold text-xs sm:text-sm text-indigo-800 bg-indigo-100/80 px-2.5 py-1 rounded-lg">
-                        Q.{q.questionNumber || idx + 1}
-                      </span>
-                      {q.difficulty && (
-                        <span className="text-[10px] font-bold uppercase px-2 py-0.5 bg-slate-100 text-slate-600 rounded">
-                          {q.difficulty}
+                <div className="space-y-4">
+                  <div className="bg-white rounded-2xl border border-slate-200/90 p-5 sm:p-7 shadow-2xs space-y-4 animate-in fade-in-50 duration-150">
+                    {/* Question Header */}
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2.5">
+                      <div className="flex items-center gap-2">
+                        <span className="font-extrabold text-xs sm:text-sm text-indigo-800 bg-indigo-100/80 px-2.5 py-1 rounded-lg">
+                          Q.{q.questionNumber || currentIdx + 1} of {displayedSolvedQuestions.length}
                         </span>
-                      )}
-                      {q.sourcePage && (
-                        <span className="text-xs text-slate-400 font-semibold">
-                          p. {q.sourcePage}
+                        {q.difficulty && (
+                          <span className="text-[10px] font-bold uppercase px-2 py-0.5 bg-slate-100 text-slate-600 rounded">
+                            {q.difficulty}
+                          </span>
+                        )}
+                        {q.sourcePage && (
+                          <span className="text-xs text-slate-400 font-semibold">
+                            p. {q.sourcePage}
+                          </span>
+                        )}
+                      </div>
+
+                      {q.year && (
+                        <span className="text-xs font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200">
+                          SSC {q.year}
                         </span>
                       )}
                     </div>
 
-                    {q.year && (
-                      <span className="text-xs font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200">
-                        SSC {q.year}
-                      </span>
+                    {/* Reading Passage / Story Context (if present) */}
+                    {q.directionText && (
+                      <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+                        <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
+                          <FileText className="w-4 h-4 text-amber-700 shrink-0" />
+                          <span>Reference Context / Reading Passage</span>
+                        </div>
+                        <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+                          <MathRenderer text={q.directionText} />
+                        </div>
+                      </div>
                     )}
-                  </div>
 
-                  {/* Reading Passage / Story Context (if present) */}
-                  {q.directionText && (
-                    <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
-                      <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
-                        <FileText className="w-4 h-4 text-amber-700 shrink-0" />
-                        <span>Reference Context / Reading Passage</span>
-                      </div>
-                      <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
-                        <MathRenderer text={q.directionText} />
-                      </div>
+                    {/* Question Text */}
+                    <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed tracking-tight py-1">
+                      <MathRenderer text={q.questionText} />
                     </div>
-                  )}
 
-                  {/* Question Text */}
-                  <div className="text-base sm:text-lg font-bold text-slate-900 leading-relaxed tracking-tight py-1">
-                    <MathRenderer text={q.questionText} />
-                  </div>
+                    {/* Options with Interactive Practice */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                      {q.options?.map((opt: any) => {
+                        const isSelected = selectedOptId === opt.id;
+                        const isAnswerRevealed = Boolean(isRevealed || selectedOptId);
+                        const isCorrectOption = Boolean(opt.isCorrect);
 
-                  {/* Options with Interactive Practice */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                    {q.options?.map((opt: any) => {
-                      const selectedOptId = selectedAnswers[q.id];
-                      const isSelected = selectedOptId === opt.id;
-                      const isAnswerRevealed = Boolean(isRevealed || selectedOptId);
-                      const isCorrectOption = Boolean(opt.isCorrect);
+                        let optStyle =
+                          "bg-slate-50/70 border-slate-200 text-slate-800 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
+                        let badgeStyle = "bg-white text-slate-700 border-slate-300";
 
-                      let optStyle =
-                        "bg-slate-50/70 border-slate-200 text-slate-800 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
-                      let badgeStyle = "bg-white text-slate-700 border-slate-300";
-
-                      if (isAnswerRevealed) {
-                        if (isCorrectOption) {
-                          optStyle =
-                            "bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-200 shadow-xs";
-                          badgeStyle = "bg-emerald-600 text-white border-emerald-600";
-                        } else if (isSelected && !isCorrectOption) {
-                          optStyle =
-                            "bg-rose-50 border-rose-400 text-rose-950 font-bold ring-2 ring-rose-200 shadow-xs";
-                          badgeStyle = "bg-rose-600 text-white border-rose-600";
-                        } else {
-                          optStyle = "bg-slate-50/50 border-slate-200/80 text-slate-400 opacity-60";
-                          badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                        if (isAnswerRevealed) {
+                          if (isCorrectOption) {
+                            optStyle =
+                              "bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-200 shadow-xs";
+                            badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                          } else if (isSelected && !isCorrectOption) {
+                            optStyle =
+                              "bg-rose-50 border-rose-400 text-rose-950 font-bold ring-2 ring-rose-200 shadow-xs";
+                            badgeStyle = "bg-rose-600 text-white border-rose-600";
+                          } else {
+                            optStyle = "bg-slate-50/50 border-slate-200/80 text-slate-400 opacity-60";
+                            badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                          }
                         }
-                      }
 
-                      return (
-                        <button
-                          key={opt.id}
-                          type="button"
-                          disabled={Boolean(selectedOptId)}
-                          onClick={() => handleSelectOption(q.id, opt.id)}
-                          className={`p-3.5 sm:p-4 rounded-xl border text-sm sm:text-base font-semibold transition-all flex items-start gap-3 text-left w-full ${optStyle}`}
-                        >
-                          <span
-                            className={`w-7 h-7 rounded-lg flex items-center justify-center font-black text-xs sm:text-sm shrink-0 shadow-2xs ${badgeStyle}`}
+                        return (
+                          <button
+                            key={opt.id}
+                            type="button"
+                            disabled={Boolean(selectedOptId)}
+                            onClick={() => handleSelectOption(q.id, opt.id)}
+                            className={`p-3.5 sm:p-4 rounded-xl border text-sm sm:text-base font-semibold transition-all flex items-start gap-3 text-left w-full active:scale-[0.99] ${optStyle}`}
                           >
-                            {opt.label}
-                          </span>
-                          <span className="leading-normal pt-0.5 flex-1">
-                            <MathRenderer text={opt.text} />
-                          </span>
-                          {isAnswerRevealed && isCorrectOption && (
-                            <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-                          )}
-                          {isAnswerRevealed && isSelected && !isCorrectOption && (
-                            <XCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />
+                            <span
+                              className={`w-7 h-7 rounded-lg flex items-center justify-center font-black text-xs sm:text-sm shrink-0 shadow-2xs ${badgeStyle}`}
+                            >
+                              {opt.label}
+                            </span>
+                            <span className="leading-normal pt-0.5 flex-1">
+                              <MathRenderer text={opt.text} />
+                            </span>
+                            {isAnswerRevealed && isCorrectOption && (
+                              <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                            )}
+                            {isAnswerRevealed && isSelected && !isCorrectOption && (
+                              <XCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />
+                            )}
+                          </button>
+                        );
+                      })}
+                    </div>
+
+                    {/* Toggle Reveal Answer, Reset & Instant Validation Status */}
+                    <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => toggleRevealAnswer(q.id)}
+                          className="px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700"
+                        >
+                          {isRevealed ? (
+                            <>
+                              <EyeOff className="w-3.5 h-3.5" />
+                              <span>Hide Explanation</span>
+                            </>
+                          ) : (
+                            <>
+                              <Eye className="w-3.5 h-3.5 text-indigo-600" />
+                              <span>View Answer &amp; Explanation</span>
+                            </>
                           )}
                         </button>
-                      );
-                    })}
-                  </div>
 
-                  {/* Toggle Reveal Answer, Reset & Instant Validation Status */}
-                  <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2">
-                    <div className="flex items-center gap-2">
+                        {selectedOptId && (
+                          <button
+                            type="button"
+                            onClick={() => handleResetOption(q.id)}
+                            className="px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+                          >
+                            <RotateCcw className="w-3.5 h-3.5" />
+                            <span>Try Again</span>
+                          </button>
+                        )}
+                      </div>
+
+                      {selectedOptId && (
+                        <span
+                          className={`text-xs font-extrabold flex items-center gap-1 ${
+                            q.options?.find((o: any) => o.id === selectedOptId)?.isCorrect
+                              ? "text-emerald-700"
+                              : "text-rose-600"
+                          }`}
+                        >
+                          {q.options?.find((o: any) => o.id === selectedOptId)?.isCorrect ? (
+                            <>
+                              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                              <span>Correct! Well Done</span>
+                            </>
+                          ) : (
+                            <>
+                              <XCircle className="w-4 h-4 text-rose-500" />
+                              <span>Incorrect — Review solution below</span>
+                            </>
+                          )}
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Step-by-Step Explanation Box (Revealed) */}
+                    {isRevealed && (
+                      <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border border-indigo-200/90 space-y-2.5 animate-in fade-in-50 duration-150 shadow-2xs">
+                        <div className="flex items-center gap-2 text-sm font-black text-indigo-950">
+                          <CheckCircle2 className="w-5 h-5 text-emerald-600" />
+                          <span>Step-by-Step Explanation &amp; Rule Application</span>
+                        </div>
+                        <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-medium whitespace-pre-line">
+                          <MathRenderer
+                            text={
+                              q.explanation ||
+                              "Correct answer marked directly from authoritative textbook key."
+                            }
+                          />
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Bottom Navigation Row */}
+                    <div className="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
                       <button
                         type="button"
-                        onClick={() => toggleRevealAnswer(q.id)}
-                        className="px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700"
+                        disabled={currentIdx === 0}
+                        onClick={() => setSolvedIdx(Math.max(0, currentIdx - 1))}
+                        className="px-4 py-2 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 disabled:opacity-30 text-xs font-bold text-slate-700 flex items-center gap-1.5 transition-all active:scale-95"
                       >
-                        {isRevealed ? (
-                          <>
-                            <EyeOff className="w-3.5 h-3.5" />
-                            <span>Hide Explanation</span>
-                          </>
-                        ) : (
-                          <>
-                            <Eye className="w-3.5 h-3.5 text-indigo-600" />
-                            <span>View Answer &amp; Explanation</span>
-                          </>
-                        )}
+                        <span>&larr; Previous Question</span>
                       </button>
 
-                      {selectedAnswers[q.id] && (
+                      {currentIdx < displayedSolvedQuestions.length - 1 ? (
                         <button
                           type="button"
-                          onClick={() => handleResetOption(q.id)}
-                          className="px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+                          onClick={() => setSolvedIdx(currentIdx + 1)}
+                          className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold flex items-center gap-1.5 transition-all active:scale-95 shadow-xs"
                         >
-                          <RotateCcw className="w-3.5 h-3.5" />
-                          <span>Try Again</span>
+                          <span>Next Question &rarr;</span>
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => setSolvedIdx(0)}
+                          className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-xs"
+                        >
+                          <span>Practice Finished (Restart Q.1) ↺</span>
                         </button>
                       )}
                     </div>
-
-                    {selectedAnswers[q.id] && (
-                      <span
-                        className={`text-xs font-extrabold flex items-center gap-1 ${
-                          q.options?.find((o: any) => o.id === selectedAnswers[q.id])?.isCorrect
-                            ? "text-emerald-700"
-                            : "text-rose-600"
-                        }`}
-                      >
-                        {q.options?.find((o: any) => o.id === selectedAnswers[q.id])?.isCorrect ? (
-                          <>
-                            <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                            <span>Correct! Well Done</span>
-                          </>
-                        ) : (
-                          <>
-                            <XCircle className="w-4 h-4 text-rose-500" />
-                            <span>Incorrect — Review solution below</span>
-                          </>
-                        )}
-                      </span>
-                    )}
                   </div>
 
-                  {/* Revealed Explanation Box */}
-                  {isRevealed && (
-                    <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border border-indigo-200/90 space-y-2.5 animate-in fade-in-50 duration-150 shadow-2xs">
-                      <div className="flex items-center gap-2 text-sm font-black text-indigo-950">
-                        <CheckCircle2 className="w-5 h-5 text-emerald-600" />
-                        <span>Step-by-Step Explanation &amp; Rule Application</span>
-                      </div>
-                      <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-medium whitespace-pre-line">
-                        <MathRenderer
-                          text={
-                            q.explanation ||
-                            "Correct answer marked directly from authoritative textbook key."
-                          }
-                        />
+                  {/* Question Jump Palette Modal */}
+                  {isSolvedPaletteOpen && (
+                    <div className="fixed inset-0 z-50 bg-slate-950/75 backdrop-blur-xs flex items-center justify-center p-4">
+                      <div className="bg-white rounded-3xl max-w-md w-full border border-slate-200 shadow-2xl p-5 space-y-4 animate-in fade-in zoom-in-95 max-h-[85vh] flex flex-col">
+                        <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                          <div>
+                            <h3 className="font-black text-slate-900 text-sm">Jump to Question</h3>
+                            <p className="text-[11px] text-slate-500">Tap any question number to open</p>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => setIsSolvedPaletteOpen(false)}
+                            className="p-1 rounded-lg text-slate-400 hover:text-slate-800 hover:bg-slate-100"
+                          >
+                            <X className="w-4 h-4" />
+                          </button>
+                        </div>
+
+                        <div className="flex-1 overflow-y-auto p-1 grid grid-cols-6 sm:grid-cols-8 gap-2">
+                          {displayedSolvedQuestions.map((item: any, i: number) => {
+                            const isAnswered = Boolean(selectedAnswers[item.id]);
+                            const isCorrect = isAnswered && item.options?.find((o: any) => o.id === selectedAnswers[item.id])?.isCorrect;
+                            const isCurrent = i === currentIdx;
+
+                            let color = "bg-slate-100 text-slate-700 hover:bg-slate-200";
+                            if (isAnswered) {
+                              color = isCorrect ? "bg-emerald-500 text-white font-bold" : "bg-rose-500 text-white font-bold";
+                            }
+                            if (isCurrent) {
+                              color += " ring-2 ring-indigo-600 ring-offset-1 font-black";
+                            }
+
+                            return (
+                              <button
+                                key={item.id}
+                                type="button"
+                                onClick={() => {
+                                  setSolvedIdx(i);
+                                  setIsSolvedPaletteOpen(false);
+                                }}
+                                className={`h-9 rounded-lg text-xs flex items-center justify-center transition-all ${color}`}
+                              >
+                                {i + 1}
+                              </button>
+                            );
+                          })}
+                        </div>
                       </div>
                     </div>
                   )}
                 </div>
               );
-            })}
-          </div>
+            })()
+          ) : (
+            /* LIST ALL MODE */
+            <div className="space-y-4">
+              {displayedSolvedQuestions.map((q: any, idx: number) => {
+                const isRevealed = revealedAnswers[q.id];
+                const selectedOptId = selectedAnswers[q.id];
+
+                return (
+                  <div
+                    key={q.id}
+                    className="bg-white rounded-2xl border border-slate-200/90 p-5 sm:p-6 shadow-2xs space-y-4"
+                  >
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
+                      <div className="flex items-center gap-2">
+                        <span className="font-extrabold text-xs sm:text-sm text-indigo-800 bg-indigo-100/80 px-2.5 py-1 rounded-lg">
+                          Q.{q.questionNumber || idx + 1}
+                        </span>
+                        {q.difficulty && (
+                          <span className="text-[10px] font-bold uppercase px-2 py-0.5 bg-slate-100 text-slate-600 rounded">
+                            {q.difficulty}
+                          </span>
+                        )}
+                        {q.sourcePage && (
+                          <span className="text-xs text-slate-400 font-semibold">
+                            p. {q.sourcePage}
+                          </span>
+                        )}
+                      </div>
+
+                      {q.year && (
+                        <span className="text-xs font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200">
+                          SSC {q.year}
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Reading Passage / Story Context (if present) */}
+                    {q.directionText && (
+                      <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+                        <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
+                          <FileText className="w-4 h-4 text-amber-700 shrink-0" />
+                          <span>Reference Context / Reading Passage</span>
+                        </div>
+                        <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+                          <MathRenderer text={q.directionText} />
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Question Text */}
+                    <div className="text-base sm:text-lg font-bold text-slate-900 leading-relaxed tracking-tight py-1">
+                      <MathRenderer text={q.questionText} />
+                    </div>
+
+                    {/* Options with Interactive Practice */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                      {q.options?.map((opt: any) => {
+                        const isSelected = selectedOptId === opt.id;
+                        const isAnswerRevealed = Boolean(isRevealed || selectedOptId);
+                        const isCorrectOption = Boolean(opt.isCorrect);
+
+                        let optStyle =
+                          "bg-slate-50/70 border-slate-200 text-slate-800 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
+                        let badgeStyle = "bg-white text-slate-700 border-slate-300";
+
+                        if (isAnswerRevealed) {
+                          if (isCorrectOption) {
+                            optStyle =
+                              "bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-200 shadow-xs";
+                            badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                          } else if (isSelected && !isCorrectOption) {
+                            optStyle =
+                              "bg-rose-50 border-rose-400 text-rose-950 font-bold ring-2 ring-rose-200 shadow-xs";
+                            badgeStyle = "bg-rose-600 text-white border-rose-600";
+                          } else {
+                            optStyle = "bg-slate-50/50 border-slate-200/80 text-slate-400 opacity-60";
+                            badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                          }
+                        }
+
+                        return (
+                          <button
+                            key={opt.id}
+                            type="button"
+                            disabled={Boolean(selectedOptId)}
+                            onClick={() => handleSelectOption(q.id, opt.id)}
+                            className={`p-3.5 sm:p-4 rounded-xl border text-sm sm:text-base font-semibold transition-all flex items-start gap-3 text-left w-full ${optStyle}`}
+                          >
+                            <span
+                              className={`w-7 h-7 rounded-lg flex items-center justify-center font-black text-xs sm:text-sm shrink-0 shadow-2xs ${badgeStyle}`}
+                            >
+                              {opt.label}
+                            </span>
+                            <span className="leading-normal pt-0.5 flex-1">
+                              <MathRenderer text={opt.text} />
+                            </span>
+                            {isAnswerRevealed && isCorrectOption && (
+                              <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                            )}
+                            {isAnswerRevealed && isSelected && !isCorrectOption && (
+                              <XCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />
+                            )}
+                          </button>
+                        );
+                      })}
+                    </div>
+
+                    {/* Toggle Reveal Answer, Reset & Instant Validation Status */}
+                    <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => toggleRevealAnswer(q.id)}
+                          className="px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700"
+                        >
+                          {isRevealed ? (
+                            <>
+                              <EyeOff className="w-3.5 h-3.5" />
+                              <span>Hide Explanation</span>
+                            </>
+                          ) : (
+                            <>
+                              <Eye className="w-3.5 h-3.5 text-indigo-600" />
+                              <span>View Answer &amp; Explanation</span>
+                            </>
+                          )}
+                        </button>
+
+                        {selectedOptId && (
+                          <button
+                            type="button"
+                            onClick={() => handleResetOption(q.id)}
+                            className="px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+                          >
+                            <RotateCcw className="w-3.5 h-3.5" />
+                            <span>Try Again</span>
+                          </button>
+                        )}
+                      </div>
+
+                      {selectedOptId && (
+                        <span
+                          className={`text-xs font-extrabold flex items-center gap-1 ${
+                            q.options?.find((o: any) => o.id === selectedOptId)?.isCorrect
+                              ? "text-emerald-700"
+                              : "text-rose-600"
+                          }`}
+                        >
+                          {q.options?.find((o: any) => o.id === selectedOptId)?.isCorrect ? (
+                            <>
+                              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                              <span>Correct! Well Done</span>
+                            </>
+                          ) : (
+                            <>
+                              <XCircle className="w-4 h-4 text-rose-500" />
+                              <span>Incorrect — Review solution below</span>
+                            </>
+                          )}
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Revealed Explanation Box */}
+                    {isRevealed && (
+                      <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border border-indigo-200/90 space-y-2.5 animate-in fade-in-50 duration-150 shadow-2xs">
+                        <div className="flex items-center gap-2 text-sm font-black text-indigo-950">
+                          <CheckCircle2 className="w-5 h-5 text-emerald-600" />
+                          <span>Step-by-Step Explanation &amp; Rule Application</span>
+                        </div>
+                        <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-medium whitespace-pre-line">
+                          <MathRenderer
+                            text={
+                              q.explanation ||
+                              "Correct answer marked directly from authoritative textbook key."
+                            }
+                          />
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          )}
         </div>
       )}
 
@@ -831,24 +1170,330 @@ export default function ChapterStudyHubPage() {
       {/* TAB 5: PYQS (Previous Years Questions) */}
       {activeTab === "pyqs" && (
         <div className="space-y-4">
-          <div className="flex items-center justify-between">
-            <h2 className="text-sm font-extrabold text-slate-800 uppercase tracking-wider">
-              Previous Years SSC Questions ({pyqs?.length || 0})
-            </h2>
-            <button
-              onClick={() => handleLaunchPractice({ sourceFilter: "PYQ", questionCount: 20 })}
-              className="px-3.5 py-1.5 rounded-lg bg-slate-900 text-white text-xs font-bold flex items-center gap-1.5 hover:bg-black transition-all"
-            >
-              <Flame className="w-3.5 h-3.5 text-amber-400" />
-              <span>Test All PYQs</span>
-            </button>
+          <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-4 rounded-2xl border border-slate-200/90 shadow-2xs">
+            <div>
+              <h2 className="text-sm font-extrabold text-slate-800 uppercase tracking-wider">
+                Previous Years SSC Questions ({pyqs?.length || 0})
+              </h2>
+              <p className="text-[11px] text-slate-500">
+                Official past examination questions with step-by-step verified explanations
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                type="button"
+                onClick={() => handleLaunchPractice({ sourceFilter: "PYQ", questionCount: 20 })}
+                className="px-3.5 py-1.5 rounded-lg bg-slate-900 text-white text-xs font-bold flex items-center gap-1.5 hover:bg-black transition-all shadow-xs"
+              >
+                <Flame className="w-3.5 h-3.5 text-amber-400" />
+                <span>Test All PYQs</span>
+              </button>
+
+              {/* View Switcher: Focus 1-by-1 vs List All */}
+              <div className="inline-flex rounded-xl bg-slate-100 p-0.5 border border-slate-200 text-xs font-bold">
+                <button
+                  type="button"
+                  onClick={() => setPyqViewMode("SINGLE")}
+                  className={`px-3 py-1.5 rounded-lg transition-all ${
+                    pyqViewMode === "SINGLE"
+                      ? "bg-white text-indigo-700 shadow-xs"
+                      : "text-slate-600 hover:text-slate-900"
+                  }`}
+                >
+                  Focus 1-by-1
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPyqViewMode("LIST")}
+                  className={`px-3 py-1.5 rounded-lg transition-all ${
+                    pyqViewMode === "LIST"
+                      ? "bg-white text-indigo-700 shadow-xs"
+                      : "text-slate-600 hover:text-slate-900"
+                  }`}
+                >
+                  List All
+                </button>
+              </div>
+            </div>
           </div>
 
           {pyqs?.length === 0 ? (
             <div className="p-8 text-center bg-white rounded-2xl border border-slate-200">
               <p className="text-xs text-slate-500">No standalone PYQs mapped for this chapter.</p>
             </div>
+          ) : pyqViewMode === "SINGLE" ? (
+            /* 1-BY-1 SINGLE PYQ QUESTION FOCUS VIEW */
+            (() => {
+              const currentIdx = Math.min(Math.max(0, pyqIdx), (pyqs?.length || 1) - 1);
+              const q = pyqs[currentIdx];
+              const isRevealed = revealedAnswers[q.id];
+              const selectedOptId = selectedAnswers[q.id];
+
+              return (
+                <div className="space-y-4">
+                  <div className="bg-white rounded-2xl border border-slate-200/90 p-5 sm:p-7 shadow-2xs space-y-4 animate-in fade-in-50 duration-150">
+                    {/* Header with Jump to Question button */}
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2.5">
+                      <div className="flex items-center gap-2">
+                        <span className="font-extrabold text-xs sm:text-sm text-rose-800 bg-rose-50 px-2.5 py-1 rounded-lg border border-rose-200/60">
+                          PYQ #{currentIdx + 1} of {pyqs.length}
+                        </span>
+                        {q.difficulty && (
+                          <span className="text-[10px] font-bold uppercase px-2 py-0.5 bg-slate-100 text-slate-600 rounded">
+                            {q.difficulty}
+                          </span>
+                        )}
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        {q.year && (
+                          <span className="text-xs font-bold text-slate-700 bg-slate-100 px-2.5 py-1 rounded-lg border border-slate-200">
+                            SSC Exam {q.year}
+                          </span>
+                        )}
+                        <button
+                          type="button"
+                          onClick={() => setIsPyqPaletteOpen(true)}
+                          className="px-2.5 py-1 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-bold transition-all border border-indigo-200 flex items-center gap-1"
+                        >
+                          <span>Palette ({pyqs.length})</span>
+                          <span className="text-[10px]">▾</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Reading Passage / Story Context (if present) */}
+                    {q.directionText && (
+                      <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+                        <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
+                          <FileText className="w-4 h-4 text-amber-700 shrink-0" />
+                          <span>Reference Context / Reading Passage</span>
+                        </div>
+                        <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+                          <MathRenderer text={q.directionText} />
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Question Text */}
+                    <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed tracking-tight py-1">
+                      <MathRenderer text={q.questionText} />
+                    </div>
+
+                    {/* Options with Interactive Practice */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                      {q.options?.map((opt: any) => {
+                        const isSelected = selectedOptId === opt.id;
+                        const isAnswerRevealed = Boolean(isRevealed || selectedOptId);
+                        const isCorrectOption = Boolean(opt.isCorrect);
+
+                        let optStyle =
+                          "bg-slate-50/70 border-slate-200 text-slate-800 hover:border-indigo-400 hover:bg-indigo-50/30 cursor-pointer";
+                        let badgeStyle = "bg-white text-slate-700 border-slate-300";
+
+                        if (isAnswerRevealed) {
+                          if (isCorrectOption) {
+                            optStyle =
+                              "bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-200 shadow-xs";
+                            badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                          } else if (isSelected && !isCorrectOption) {
+                            optStyle =
+                              "bg-rose-50 border-rose-400 text-rose-950 font-bold ring-2 ring-rose-200 shadow-xs";
+                            badgeStyle = "bg-rose-600 text-white border-rose-600";
+                          } else {
+                            optStyle = "bg-slate-50/50 border-slate-200/80 text-slate-400 opacity-60";
+                            badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
+                          }
+                        }
+
+                        return (
+                          <button
+                            key={opt.id}
+                            type="button"
+                            disabled={Boolean(selectedOptId)}
+                            onClick={() => handleSelectOption(q.id, opt.id)}
+                            className={`p-3.5 sm:p-4 rounded-xl border text-sm sm:text-base font-semibold transition-all flex items-start gap-3 text-left w-full active:scale-[0.99] ${optStyle}`}
+                          >
+                            <span
+                              className={`w-7 h-7 rounded-lg flex items-center justify-center font-black text-xs sm:text-sm shrink-0 shadow-2xs ${badgeStyle}`}
+                            >
+                              {opt.label}
+                            </span>
+                            <span className="leading-normal pt-0.5 flex-1">
+                              <MathRenderer text={opt.text} />
+                            </span>
+                            {isAnswerRevealed && isCorrectOption && (
+                              <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                            )}
+                            {isAnswerRevealed && isSelected && !isCorrectOption && (
+                              <XCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />
+                            )}
+                          </button>
+                        );
+                      })}
+                    </div>
+
+                    {/* Toggle Reveal Answer, Reset & Instant Validation Status */}
+                    <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => toggleRevealAnswer(q.id)}
+                          className="px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700"
+                        >
+                          {isRevealed ? (
+                            <>
+                              <EyeOff className="w-3.5 h-3.5" />
+                              <span>Hide Explanation</span>
+                            </>
+                          ) : (
+                            <>
+                              <Eye className="w-3.5 h-3.5 text-indigo-600" />
+                              <span>View Answer &amp; Explanation</span>
+                            </>
+                          )}
+                        </button>
+
+                        {selectedOptId && (
+                          <button
+                            type="button"
+                            onClick={() => handleResetOption(q.id)}
+                            className="px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+                          >
+                            <RotateCcw className="w-3.5 h-3.5" />
+                            <span>Try Again</span>
+                          </button>
+                        )}
+                      </div>
+
+                      {selectedOptId && (
+                        <span
+                          className={`text-xs font-extrabold flex items-center gap-1 ${
+                            q.options?.find((o: any) => o.id === selectedOptId)?.isCorrect
+                              ? "text-emerald-700"
+                              : "text-rose-600"
+                          }`}
+                        >
+                          {q.options?.find((o: any) => o.id === selectedOptId)?.isCorrect ? (
+                            <>
+                              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                              <span>Correct! Well Done</span>
+                            </>
+                          ) : (
+                            <>
+                              <XCircle className="w-4 h-4 text-rose-500" />
+                              <span>Incorrect — Review solution below</span>
+                            </>
+                          )}
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Step-by-Step Explanation Box (Revealed) */}
+                    {isRevealed && (
+                      <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border border-indigo-200/90 space-y-2.5 animate-in fade-in-50 duration-150 shadow-2xs">
+                        <div className="flex items-center gap-2 text-sm font-black text-indigo-950">
+                          <CheckCircle2 className="w-5 h-5 text-emerald-600" />
+                          <span>Authoritative SSC Solution:</span>
+                        </div>
+                        <div className="text-sm sm:text-base text-slate-800 leading-relaxed font-medium whitespace-pre-line">
+                          <MathRenderer
+                            text={
+                              q.explanation ||
+                              "Authoritative solution from official SSC exam answer key."
+                            }
+                          />
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Bottom Navigation Row */}
+                    <div className="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+                      <button
+                        type="button"
+                        disabled={currentIdx === 0}
+                        onClick={() => setPyqIdx(Math.max(0, currentIdx - 1))}
+                        className="px-4 py-2 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 disabled:opacity-30 text-xs font-bold text-slate-700 flex items-center gap-1.5 transition-all active:scale-95"
+                      >
+                        <span>&larr; Previous PYQ</span>
+                      </button>
+
+                      {currentIdx < pyqs.length - 1 ? (
+                        <button
+                          type="button"
+                          onClick={() => setPyqIdx(currentIdx + 1)}
+                          className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold flex items-center gap-1.5 transition-all active:scale-95 shadow-xs"
+                        >
+                          <span>Next PYQ &rarr;</span>
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => setPyqIdx(0)}
+                          className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-xs"
+                        >
+                          <span>PYQs Completed (Restart #1) ↺</span>
+                        </button>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* PYQ Question Jump Palette Modal */}
+                  {isPyqPaletteOpen && (
+                    <div className="fixed inset-0 z-50 bg-slate-950/75 backdrop-blur-xs flex items-center justify-center p-4">
+                      <div className="bg-white rounded-3xl max-w-md w-full border border-slate-200 shadow-2xl p-5 space-y-4 animate-in fade-in zoom-in-95 max-h-[85vh] flex flex-col">
+                        <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                          <div>
+                            <h3 className="font-black text-slate-900 text-sm">Jump to PYQ Question</h3>
+                            <p className="text-[11px] text-slate-500">Tap any question number to open</p>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => setIsPyqPaletteOpen(false)}
+                            className="p-1 rounded-lg text-slate-400 hover:text-slate-800 hover:bg-slate-100"
+                          >
+                            <X className="w-4 h-4" />
+                          </button>
+                        </div>
+
+                        <div className="flex-1 overflow-y-auto p-1 grid grid-cols-6 sm:grid-cols-8 gap-2">
+                          {pyqs.map((item: any, i: number) => {
+                            const isAnswered = Boolean(selectedAnswers[item.id]);
+                            const isCorrect = isAnswered && item.options?.find((o: any) => o.id === selectedAnswers[item.id])?.isCorrect;
+                            const isCurrent = i === currentIdx;
+
+                            let color = "bg-slate-100 text-slate-700 hover:bg-slate-200";
+                            if (isAnswered) {
+                              color = isCorrect ? "bg-emerald-500 text-white font-bold" : "bg-rose-500 text-white font-bold";
+                            }
+                            if (isCurrent) {
+                              color += " ring-2 ring-indigo-600 ring-offset-1 font-black";
+                            }
+
+                            return (
+                              <button
+                                key={item.id}
+                                type="button"
+                                onClick={() => {
+                                  setPyqIdx(i);
+                                  setIsPyqPaletteOpen(false);
+                                }}
+                                className={`h-9 rounded-lg text-xs flex items-center justify-center transition-all ${color}`}
+                              >
+                                {i + 1}
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })()
           ) : (
+            /* LIST ALL MODE FOR PYQS */
             <div className="space-y-4">
               {pyqs.map((q: any, idx: number) => {
                 const isRevealed = revealedAnswers[q.id];
@@ -941,7 +1586,7 @@ export default function ChapterStudyHubPage() {
                               <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                             )}
                             {isAnswerRevealed && isSelected && !isCorrectOption && (
-                              <XCircle className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
+                              <XCircle className="w-5 h-5 text-rose-500 shrink-0 mt-0.5" />
                             )}
                           </button>
                         );

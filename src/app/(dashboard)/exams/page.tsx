@@ -122,7 +122,7 @@ function ExamsCatalogContent() {
   const searchParams = useSearchParams();
   const subjectParam = searchParams.get("subject");
   const boardParam = searchParams.get("board") || searchParams.get("category");
-  const [selectedBoard, setSelectedBoard] = useState<"ALL" | "UPSSSC_PET" | "SSC">("ALL");
+  const [selectedBoard, setSelectedBoard] = useState<"ALL" | "UPSSSC_PET" | "SSC" | "RAILWAY">("ALL");
   const [upssscTab, setUpssscTab] = useState<"ALL" | "FULL_MOCKS" | "SUBJECT_BANKS">("ALL");
   const [selectedSubject, setSelectedSubject] = useState<string>("ALL");
 
@@ -133,6 +133,8 @@ function ExamsCatalogContent() {
         setSelectedBoard("UPSSSC_PET");
       } else if (b.includes("SSC")) {
         setSelectedBoard("SSC");
+      } else if (b.includes("RAILWAY") || b.includes("RRB")) {
+        setSelectedBoard("RAILWAY");
       }
     }
     if (subjectParam) {
@@ -492,9 +494,40 @@ function ExamsCatalogContent() {
   // Calculate accurate counts SCOPED to the board and subject
   const currentBoardExams = exams.filter((e) => {
     if (selectedBoard === "UPSSSC_PET") return isUpssscExam(e);
-    if (selectedBoard === "SSC") return !isUpssscExam(e);
+    if (selectedBoard === "SSC") {
+      const cat = (e.category || "").toUpperCase();
+      const code = (e.code || "").toUpperCase();
+      const title = (e.title || "").toUpperCase();
+      return !isUpssscExam(e) && !cat.includes("RAILWAY") && !title.includes("RAILWAY") && !code.includes("RRB");
+    }
+    if (selectedBoard === "RAILWAY") {
+      const cat = (e.category || "").toUpperCase();
+      const code = (e.code || "").toUpperCase();
+      const title = (e.title || "").toUpperCase();
+      return cat.includes("RAILWAY") || title.includes("RAILWAY") || code.includes("RRB");
+    }
     return true;
   });
+
+  const totalExamCount = exams.filter((e) => isAdminOrTeacher || e.status === "PUBLISHED").length;
+  const sscExamCount = exams.filter(
+    (e) =>
+      !isUpssscExam(e) &&
+      !(e.category || "").toUpperCase().includes("RAILWAY") &&
+      !(e.title || "").toUpperCase().includes("RAILWAY") &&
+      !(e.code || "").toUpperCase().includes("RRB") &&
+      (isAdminOrTeacher || e.status === "PUBLISHED")
+  ).length;
+  const upssscExamCount = exams.filter(
+    (e) => isUpssscExam(e) && (isAdminOrTeacher || e.status === "PUBLISHED")
+  ).length;
+  const railwayExamCount = exams.filter(
+    (e) =>
+      ((e.category || "").toUpperCase().includes("RAILWAY") ||
+        (e.title || "").toUpperCase().includes("RAILWAY") ||
+        (e.code || "").toUpperCase().includes("RRB")) &&
+      (isAdminOrTeacher || e.status === "PUBLISHED")
+  ).length;
 
   const currentSubjectExams = currentBoardExams.filter((e) => {
     if (!selectedSubject || selectedSubject === "ALL") return true;
@@ -514,13 +547,13 @@ function ExamsCatalogContent() {
   const draftCount = currentSubjectExams.filter((e) => e.status === "DRAFT").length;
 
   return (
-    <div className="w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-10 py-6 sm:py-8 space-y-6 font-sans min-h-[calc(100vh-140px)]">
-      {/* 0A. EXAM BOARD & CURRICULUM SELECTOR */}
-      <div className="bg-white p-3.5 sm:p-5 rounded-3xl border border-slate-200/90 shadow-2xs">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-3.5">
+    <div className="w-full max-w-[1720px] mx-auto px-3 sm:px-6 lg:px-10 py-5 sm:py-8 space-y-5 sm:space-y-6 font-sans min-h-[calc(100vh-140px)]">
+      {/* 0A. EXAM BOARD & COURSE TRACK GRID CARDS */}
+      <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/90 shadow-2xs space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-3">
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-base">🏛️</span>
+              <span className="text-xl">🏛️</span>
               <h2 className="text-xs sm:text-sm font-black text-slate-900 uppercase tracking-wider">
                 Select Examination Board / Course Track
               </h2>
@@ -530,68 +563,165 @@ function ExamsCatalogContent() {
             </p>
           </div>
 
-          <div className="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0 touch-pan-x">
-            <button
-              type="button"
-              onClick={() => {
-                setSelectedBoard("ALL");
-                setSelectedSubject("ALL");
-              }}
-              className={`px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-2xl text-xs font-bold transition-all shrink-0 flex items-center gap-2 active:scale-98 ${
-                selectedBoard === "ALL"
-                  ? "bg-slate-900 text-white shadow-md ring-2 ring-slate-800"
-                  : "bg-slate-100 hover:bg-slate-200 text-slate-700"
-              }`}
-            >
-              <span>🌟 All Examinations</span>
-              <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${
-                selectedBoard === "ALL" ? "bg-slate-800 text-slate-200" : "bg-white text-slate-600"
-              }`}>
-                {exams.filter((e) => isAdminOrTeacher || e.status === "PUBLISHED").length}
-              </span>
-            </button>
+          {isAdminOrTeacher && (
+            <div className="flex items-center gap-2">
+              <Link
+                href="/exams/create"
+                className="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 text-xs font-bold flex items-center gap-1.5 transition-all shadow-xs shrink-0"
+              >
+                <PlusCircle className="w-3.5 h-3.5" />
+                <span>+ Create New Exam</span>
+              </Link>
+            </div>
+          )}
+        </div>
 
-            <button
-              type="button"
-              onClick={() => {
-                setSelectedBoard("UPSSSC_PET");
-                setSelectedSubject("ALL");
-                setUpssscTab("ALL");
-              }}
-              className={`px-4 sm:px-5 py-2 sm:py-2.5 rounded-2xl text-xs font-black transition-all shrink-0 flex items-center gap-2 active:scale-98 ${
-                selectedBoard === "UPSSSC_PET"
-                  ? "bg-gradient-to-r from-amber-500 to-orange-600 text-white shadow-md ring-2 ring-amber-400/60"
-                  : "bg-amber-50 hover:bg-amber-100 text-amber-950 border border-amber-200"
-              }`}
-            >
-              <span>🏛️ UPSSSC 2026 (UP PET)</span>
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-black tracking-wide ${
-                selectedBoard === "UPSSSC_PET" ? "bg-white text-orange-700 shadow-2xs" : "bg-amber-200 text-amber-900"
-              }`}>
-                NEW • 1,500 Qs
+        {/* 4-Card Responsive Grid for Board Selection */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {/* Card 1: All Examinations */}
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedBoard("ALL");
+              setSelectedSubject("ALL");
+            }}
+            className={`p-4 rounded-2xl border text-left transition-all relative overflow-hidden group flex flex-col justify-between active:scale-[0.99] ${
+              selectedBoard === "ALL"
+                ? "bg-slate-900 text-white border-slate-900 shadow-md ring-2 ring-indigo-500/50"
+                : "bg-[#f8fafd] hover:bg-slate-100/80 text-slate-800 border-slate-200/90 shadow-2xs"
+            }`}
+          >
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-2xl">🌟</span>
+                <span className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-full ${
+                  selectedBoard === "ALL" ? "bg-slate-800 text-slate-200" : "bg-white text-slate-700 border border-slate-200"
+                }`}>
+                  {totalExamCount} Tests Total
+                </span>
+              </div>
+              <h3 className={`text-sm sm:text-base font-black tracking-tight ${selectedBoard === "ALL" ? "text-white" : "text-slate-900"}`}>
+                All Examinations
+              </h3>
+              <p className={`text-[11px] mt-1 leading-snug ${selectedBoard === "ALL" ? "text-slate-300" : "text-slate-500"}`}>
+                Complete mock tests, topic chapter banks &amp; official PYQs across all syllabus
+              </p>
+            </div>
+            <div className="mt-3 pt-2.5 border-t border-slate-200/40 flex items-center justify-between text-[11px] font-bold">
+              <span className={selectedBoard === "ALL" ? "text-indigo-300" : "text-indigo-600"}>
+                {selectedBoard === "ALL" ? "● Currently Selected" : "Click to View All →"}
               </span>
-            </button>
+            </div>
+          </button>
 
-            <button
-              type="button"
-              onClick={() => {
-                setSelectedBoard("SSC");
-                setSelectedSubject("MATHS");
-              }}
-              className={`px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-2xl text-xs font-bold transition-all shrink-0 flex items-center gap-2 active:scale-98 ${
-                selectedBoard === "SSC"
-                  ? "bg-indigo-600 text-white shadow-md ring-2 ring-indigo-500/50"
-                  : "bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200"
-              }`}
-            >
-              <span>🎯 SSC CGL / CHSL (TCS)</span>
-              <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono ${
-                selectedBoard === "SSC" ? "bg-indigo-700 text-indigo-100" : "bg-white text-indigo-700"
-              }`}>
-                30 Chapters
+          {/* Card 2: SSC Exams */}
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedBoard("SSC");
+              setSelectedSubject("ALL");
+            }}
+            className={`p-4 rounded-2xl border text-left transition-all relative overflow-hidden group flex flex-col justify-between active:scale-[0.99] ${
+              selectedBoard === "SSC"
+                ? "bg-gradient-to-br from-indigo-900 via-indigo-950 to-slate-900 text-white border-indigo-700 shadow-md ring-2 ring-indigo-500"
+                : "bg-[#f8fafd] hover:bg-slate-100/80 text-slate-800 border-slate-200/90 shadow-2xs"
+            }`}
+          >
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-2xl">🎯</span>
+                <span className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-full ${
+                  selectedBoard === "SSC" ? "bg-indigo-800 text-indigo-100" : "bg-indigo-50 text-indigo-700 border border-indigo-200"
+                }`}>
+                  {sscExamCount} Tests Available
+                </span>
+              </div>
+              <h3 className={`text-sm sm:text-base font-black tracking-tight ${selectedBoard === "SSC" ? "text-white" : "text-slate-900"}`}>
+                SSC CGL / CHSL / MTS
+              </h3>
+              <p className={`text-[11px] mt-1 leading-snug ${selectedBoard === "SSC" ? "text-indigo-200" : "text-slate-500"}`}>
+                Authentic TCS Pattern Tier-1 papers, 30 Math Chapters + Neetu Singh English
+              </p>
+            </div>
+            <div className="mt-3 pt-2.5 border-t border-slate-200/40 flex items-center justify-between text-[11px] font-bold">
+              <span className={selectedBoard === "SSC" ? "text-indigo-300" : "text-indigo-600"}>
+                {selectedBoard === "SSC" ? "● Currently Selected" : "Click to View SSC →"}
               </span>
-            </button>
-          </div>
+            </div>
+          </button>
+
+          {/* Card 3: UPSSSC PET */}
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedBoard("UPSSSC_PET");
+              setSelectedSubject("ALL");
+              setUpssscTab("ALL");
+            }}
+            className={`p-4 rounded-2xl border text-left transition-all relative overflow-hidden group flex flex-col justify-between active:scale-[0.99] ${
+              selectedBoard === "UPSSSC_PET"
+                ? "bg-gradient-to-br from-amber-600 to-orange-700 text-white border-orange-500 shadow-md ring-2 ring-amber-400"
+                : "bg-[#fdfaf5] hover:bg-amber-50/80 text-slate-800 border-amber-200 shadow-2xs"
+            }`}
+          >
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-2xl">🏛️</span>
+                <span className={`text-[10px] font-black px-2 py-0.5 rounded-full uppercase ${
+                  selectedBoard === "UPSSSC_PET" ? "bg-white text-orange-800" : "bg-amber-100 text-amber-900 border border-amber-300"
+                }`}>
+                  1,500 Qs • {upssscExamCount} Tests
+                </span>
+              </div>
+              <h3 className={`text-sm sm:text-base font-black tracking-tight ${selectedBoard === "UPSSSC_PET" ? "text-white" : "text-slate-900"}`}>
+                UPSSSC PET 2026
+              </h3>
+              <p className={`text-[11px] mt-1 leading-snug ${selectedBoard === "UPSSSC_PET" ? "text-amber-100" : "text-slate-600"}`}>
+                5 Official Papers + 2026 Model Mock Paper + 6 Subject Question Banks (DI, GS)
+              </p>
+            </div>
+            <div className="mt-3 pt-2.5 border-t border-slate-200/40 flex items-center justify-between text-[11px] font-bold">
+              <span className={selectedBoard === "UPSSSC_PET" ? "text-amber-200" : "text-orange-700"}>
+                {selectedBoard === "UPSSSC_PET" ? "● Currently Selected" : "Click to View UPSSSC →"}
+              </span>
+            </div>
+          </button>
+
+          {/* Card 4: Railway RRB */}
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedBoard("RAILWAY");
+              setSelectedSubject("ALL");
+            }}
+            className={`p-4 rounded-2xl border text-left transition-all relative overflow-hidden group flex flex-col justify-between active:scale-[0.99] ${
+              selectedBoard === "RAILWAY"
+                ? "bg-gradient-to-br from-emerald-900 to-teal-950 text-white border-teal-700 shadow-md ring-2 ring-teal-500"
+                : "bg-[#f5fbf8] hover:bg-emerald-50/80 text-slate-800 border-emerald-200 shadow-2xs"
+            }`}
+          >
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-2xl">🚂</span>
+                <span className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-full ${
+                  selectedBoard === "RAILWAY" ? "bg-teal-800 text-teal-100" : "bg-emerald-100 text-emerald-800 border border-emerald-200"
+                }`}>
+                  {railwayExamCount > 0 ? `${railwayExamCount} Tests Available` : "Speed Tests Available"}
+                </span>
+              </div>
+              <h3 className={`text-sm sm:text-base font-black tracking-tight ${selectedBoard === "RAILWAY" ? "text-white" : "text-slate-900"}`}>
+                Railway RRB (NTPC &amp; Group D)
+              </h3>
+              <p className={`text-[11px] mt-1 leading-snug ${selectedBoard === "RAILWAY" ? "text-emerald-200" : "text-slate-500"}`}>
+                Recruitment Board speed tests, Science &amp; Technical practice modules
+              </p>
+            </div>
+            <div className="mt-3 pt-2.5 border-t border-slate-200/40 flex items-center justify-between text-[11px] font-bold">
+              <span className={selectedBoard === "RAILWAY" ? "text-emerald-300" : "text-teal-700"}>
+                {selectedBoard === "RAILWAY" ? "● Currently Selected" : "Click to View Railway →"}
+              </span>
+            </div>
+          </button>
         </div>
       </div>
 

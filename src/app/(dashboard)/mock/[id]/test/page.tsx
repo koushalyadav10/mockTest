@@ -145,12 +145,24 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
   }, [showFullscreenModal]);
 
   const enterFullscreen = () => {
-    if (typeof document !== "undefined" && document.documentElement.requestFullscreen) {
+    // Only call native browser requestFullscreen on desktop (screen width >= 768).
+    // On mobile devices, calling requestFullscreen causes Android Chrome to display the intrusive 5-second
+    // "To exit full screen, drag from the top and touch the back button" banner!
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+    if (!isMobile && typeof document !== "undefined" && document.documentElement.requestFullscreen) {
       document.documentElement.requestFullscreen().catch(() => {});
     }
     setShowFullscreenModal(false);
     setIsProctoringWarningOpen(false);
   };
+
+  // Auto-dismiss the launch modal after 1 second so it doesn't block the screen
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      enterFullscreen();
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
 
   const recordViolation = async (type: string, count: number) => {
     try {
