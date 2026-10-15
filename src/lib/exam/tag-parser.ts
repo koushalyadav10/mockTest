@@ -168,7 +168,9 @@ export function isAssignedExam(exam: { title?: string; code?: string; category?:
   if (!exam) return false;
   if (exam.category === "ASSIGNED" || exam.category === "CUSTOM") return true;
   if (exam.code?.startsWith("ASSIGNED_")) return true;
+  if (exam.code?.includes("_SCHED_")) return true;
   if (exam.title?.includes("[Assigned]")) return true;
+  if (exam.title?.includes("[Scheduled]")) return true;
   return false;
 }
 

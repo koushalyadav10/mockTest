@@ -220,13 +220,17 @@ function ExamsCatalogContent() {
     }
   };
 
-  // Permanent Delete Exam (Admin Only)
+  // Permanent Delete Exam (Admin Only) - Safe for Master Exams
   const handleDeleteExam = async (exam: ExamConfigItem) => {
-    if (
-      !window.confirm(
-        `Are you sure you want to permanently delete "${formatCleanChapterTitle(exam.title)}"? This will delete all candidate submissions and cannot be undone.`
-      )
-    ) {
+    const isCloned =
+      Boolean(exam.code?.includes("_SCHED_")) ||
+      Boolean(exam.instructions && exam.instructions.includes("isClonedInstance"));
+
+    const confirmMessage = isCloned
+      ? `क्या आप इस शेड्यूल्ड टेस्ट "${formatCleanChapterTitle(exam.title)}" को Upcoming से हटाना चाहते हैं?\n\nचिंता न करें: आपका मुख्य ओरिजिनल टेस्ट 'Permanent Tests' में 100% सुरक्षित रहेगा और कभी डिलीट नहीं होगा।`
+      : `Are you sure you want to permanently delete "${formatCleanChapterTitle(exam.title)}"? This will delete all candidate submissions and cannot be undone.`;
+
+    if (!window.confirm(confirmMessage)) {
       return;
     }
     try {
@@ -245,11 +249,14 @@ function ExamsCatalogContent() {
   // Open Edit & Schedule Modal
   const handleOpenEditModal = (exam: ExamConfigItem) => {
     setEditingExam(exam);
-    setEditTitle(exam.title);
     setEditCategory(exam.category || "SSC");
     setEditMode(exam.mode === "EXAM" ? "EXAM" : "MOCK");
     setEditStatus(exam.status === "DRAFT" ? "DRAFT" : "PUBLISHED");
     setEditAvailability(exam.availability === "SCHEDULED" ? "SCHEDULED" : "ALWAYS");
+
+    // If opening an existing master exam to schedule, provide an editable default title
+    const isMasterExam = exam.availability === "ALWAYS" && !exam.code.includes("_SCHED_");
+    setEditTitle(exam.title);
 
     // Format ISO string to datetime-local (YYYY-MM-DDTHH:mm)
     if (exam.startDate) {
@@ -298,13 +305,62 @@ function ExamsCatalogContent() {
     setEditEndDate(end.toISOString().slice(0, 16));
   };
 
-  // Save Schedule Changes
+  // Save Schedule Changes (Clones master exam so original stays 100% untouched)
   const handleSaveExamSettings = async () => {
     if (!editingExam) return;
     try {
       setIsSavingExam(true);
       setEditFeedback(null);
 
+      const isMasterExamToClone =
+        editAvailability === "SCHEDULED" &&
+        editingExam.availability === "ALWAYS" &&
+        !editingExam.code.includes("_SCHED_");
+
+      // CASE 1: Scheduling a Master Exam -> Create Cloned Instance in Upcoming!
+      if (isMasterExamToClone) {
+        if (!editStartDate || !editEndDate) {
+          alert("कृपया शेड्यूल्ड टेस्ट के लिए Start Date और End Date दोनों चुनें।");
+          setIsSavingExam(false);
+          return;
+        }
+
+        const scheduledTitle = editTitle.trim();
+        if (!scheduledTitle) {
+          alert("कृपया शेड्यूल्ड टेस्ट के लिए नाम दर्ज करें।");
+          setIsSavingExam(false);
+          return;
+        }
+
+        const res = await fetch(`/api/exams/${editingExam.id}/clone`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            title: scheduledTitle,
+            startDate: new Date(editStartDate).toISOString(),
+            endDate: new Date(editEndDate).toISOString(),
+            mode: editMode,
+            totalDurationMinutes: Number(editDuration),
+            marksPerCorrect: Number(editMarksPerCorrect),
+            negativeMarks: Number(editNegativeMarks),
+            holdResults: editHoldResults,
+            questionShuffle: editShuffleQuestions,
+            optionShuffle: editShuffleOptions,
+          }),
+        });
+
+        const data = await res.json();
+        if (data.success) {
+          setEditFeedback("शेड्यूल्ड टेस्ट कॉपी सफलतापूर्वक 'Upcoming' में जोड़ दी गई है! मुख्य टेस्ट 'Permanent Tests' में सुरक्षित है।");
+          fetchExams();
+          setTimeout(() => setEditingExam(null), 1400);
+        } else {
+          alert(data.error || "Failed to create scheduled copy");
+        }
+        return;
+      }
+
+      // CASE 2: Modifying an existing Scheduled Instance or Master Settings (ALWAYS)
       const payload: any = {
         title: editTitle.trim(),
         category: editCategory,
@@ -382,8 +438,8 @@ function ExamsCatalogContent() {
         // Only published & live exams!
         if (e.status !== "PUBLISHED") return false;
         if (e.scheduledStatus !== "LIVE") return false;
-        // In Live Now, students see strictly the permanent chapters/mocks!
-        if (!isAdminOrTeacher && isAssigned) return false;
+        // In Live Now, strictly display permanent chapters/tests!
+        if (isAssigned) return false;
       } else if (activeTab === "ASSIGNED") {
         // Assigned CBT tests only!
         if (!isAssigned) return false;
@@ -1031,6 +1087,12 @@ function ExamsCatalogContent() {
                           </span>
                         )}
 
+                        {Boolean(exam.code?.includes("_SCHED_") || (exam.instructions && exam.instructions.includes("isClonedInstance"))) && (
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-violet-50 text-violet-700 border border-violet-200 flex items-center gap-1">
+                            <span>📋 Scheduled Copy</span>
+                          </span>
+                        )}
+
                         {/* Public / Private Badge */}
                         {isDraft ? (
                           <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200 flex items-center gap-1">
@@ -1168,15 +1230,20 @@ function ExamsCatalogContent() {
                             </Link>
                           )}
 
-                          {/* 1-Click Permanent Delete Test (Admin Only) */}
-                          <button
-                            onClick={() => handleDeleteExam(exam)}
-                            className="p-1.5 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 text-xs font-semibold transition-colors flex items-center gap-1"
-                            title="Permanently Delete Test"
-                          >
-                            <Trash2 className="w-3.5 h-3.5 text-rose-600" />
-                            <span className="hidden sm:inline">Delete</span>
-                          </button>
+                          {/* 1-Click Delete Test (Admin Only) */}
+                          {(() => {
+                            const isClonedExam = Boolean(exam.code?.includes("_SCHED_") || (exam.instructions && exam.instructions.includes("isClonedInstance")));
+                            return (
+                              <button
+                                onClick={() => handleDeleteExam(exam)}
+                                className="p-1.5 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 text-xs font-semibold transition-colors flex items-center gap-1"
+                                title={isClonedExam ? "Delete Scheduled Copy from Upcoming (Master exam remains 100% safe)" : "Permanently Delete Test"}
+                              >
+                                <Trash2 className="w-3.5 h-3.5 text-rose-600" />
+                                <span className="hidden sm:inline">{isClonedExam ? "Remove Schedule" : "Delete"}</span>
+                              </button>
+                            );
+                          })()}
                         </div>
                       )}
 
@@ -1263,13 +1330,23 @@ function ExamsCatalogContent() {
 
               {/* Title */}
               <div>
-                <label className="block font-bold text-slate-700 mb-1">Exam Title</label>
+                <label className="block font-bold text-slate-700 mb-1">
+                  {editAvailability === "SCHEDULED" && editingExam.availability === "ALWAYS" && !editingExam.code.includes("_SCHED_")
+                    ? "शेड्यूल्ड टेस्ट का नाम (Scheduled Exam Title for Students)"
+                    : "Exam Title"}
+                </label>
                 <input
                   type="text"
                   value={editTitle}
                   onChange={(e) => setEditTitle(e.target.value)}
+                  placeholder="उदा. [Scheduled CBT] SSC Mock..."
                   className="w-full text-xs px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 font-sans"
                 />
+                {editAvailability === "SCHEDULED" && editingExam.availability === "ALWAYS" && !editingExam.code.includes("_SCHED_") && (
+                  <p className="text-[11px] text-indigo-600 font-medium mt-1">
+                    विद्यार्थियों को CBT रूम और Upcoming में यह नाम दिखेगा (Master Test अपनी जगह सुरक्षित रहेगा)।
+                  </p>
+                )}
               </div>
 
               {/* Exam Mode: MOCK vs OFFICIAL EXAM */}
@@ -1321,7 +1398,14 @@ function ExamsCatalogContent() {
 
                   <button
                     type="button"
-                    onClick={() => setEditAvailability("SCHEDULED")}
+                    onClick={() => {
+                      setEditAvailability("SCHEDULED");
+                      if (editingExam.availability === "ALWAYS" && !editingExam.code.includes("_SCHED_")) {
+                        if (!editTitle.startsWith("[Scheduled]")) {
+                          setEditTitle(`[Scheduled] ${formatCleanChapterTitle(editingExam.title)}`);
+                        }
+                      }
+                    }}
                     className={`p-2.5 rounded-lg border text-left font-semibold transition-all ${
                       editAvailability === "SCHEDULED"
                         ? "border-blue-600 bg-blue-50/80 text-blue-900 ring-1 ring-blue-600"
@@ -1336,6 +1420,19 @@ function ExamsCatalogContent() {
                 {/* If Time-Based Window is selected, show start & end date pickers & presets */}
                 {editAvailability === "SCHEDULED" && (
                   <div className="space-y-3 pt-2 border-t border-slate-200">
+                    {/* Master Test Safe Mode Notification */}
+                    {editingExam.availability === "ALWAYS" && !editingExam.code.includes("_SCHED_") && (
+                      <div className="p-2.5 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-950 space-y-1">
+                        <div className="font-bold flex items-center gap-1.5 text-xs text-indigo-900">
+                          <ShieldCheck className="w-4 h-4 text-indigo-600" />
+                          <span>मास्टर टेस्ट सुरक्षित रहेगा (Scheduled Clone Mode)</span>
+                        </div>
+                        <p className="text-[11px] text-indigo-800 leading-relaxed">
+                          इस टेस्ट को शेड्यूल करने पर आपका मुख्य टेस्ट (<strong>{formatCleanChapterTitle(editingExam.title)}</strong>) <strong>'Permanent Tests'</strong> में वैसा ही रहेगा। इसकी एक अलग <strong>शेड्यूल्ड कॉपी</strong> बनकर <strong>'Upcoming'</strong> में जाएगी जिसे आप कभी भी डिलीट कर सकते हैं।
+                        </p>
+                      </div>
+                    )}
+
                     {/* Quick Presets */}
                     <div className="flex items-center gap-1.5 flex-wrap">
                       <span className="text-[11px] text-slate-500">Quick Presets:</span>
@@ -1526,8 +1623,17 @@ function ExamsCatalogContent() {
                 onClick={handleSaveExamSettings}
                 className="text-xs font-bold bg-indigo-600 hover:bg-indigo-700"
               >
-                <Save className="w-3.5 h-3.5 mr-1" />
-                Save &amp; Apply Schedule
+                {editAvailability === "SCHEDULED" && editingExam.availability === "ALWAYS" && !editingExam.code.includes("_SCHED_") ? (
+                  <>
+                    <PlusCircle className="w-3.5 h-3.5 mr-1" />
+                    Create Scheduled Copy (कॉपी बनाएँ)
+                  </>
+                ) : (
+                  <>
+                    <Save className="w-3.5 h-3.5 mr-1" />
+                    Save &amp; Apply Schedule
+                  </>
+                )}
               </Button>
             </div>
           </div>
