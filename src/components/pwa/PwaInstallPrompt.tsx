@@ -39,6 +39,16 @@ export function PwaInstallPrompt() {
     }
 
     if (typeof window !== "undefined") {
+      // Auto-upgrade plain HTTP to HTTPS so Chrome enables native PWA installation
+      if (
+        window.location.protocol === "http:" &&
+        window.location.hostname !== "localhost" &&
+        !window.location.hostname.startsWith("127.")
+      ) {
+        window.location.replace("https://13.235.234.124.nip.io" + window.location.pathname + window.location.search);
+        return;
+      }
+
       // 2. Check if already running in standalone PWA mode
       const standalone =
         window.matchMedia("(display-mode: standalone)").matches ||
