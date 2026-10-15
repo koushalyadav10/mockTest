@@ -251,6 +251,20 @@ export const Navbar: React.FC = () => {
                       <span>My Profile</span>
                     </Link>
 
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setProfileMenuOpen(false);
+                        if (typeof window !== "undefined") {
+                          window.dispatchEvent(new CustomEvent("open-pwa-install"));
+                        }
+                      }}
+                      className="w-full flex items-center gap-3 px-4 py-2.5 text-sm font-semibold text-slate-700 hover:text-blue-600 hover:bg-blue-50/60 transition-colors text-left"
+                    >
+                      <Smartphone className="w-4 h-4 text-slate-500" />
+                      <span>Download App</span>
+                    </button>
+
                     <div className="h-px bg-slate-100 my-1" />
 
                     <button

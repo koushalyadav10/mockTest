@@ -21,7 +21,8 @@ export function PwaInstallPrompt() {
   const [isStandalone, setIsStandalone] = useState(false);
   const [isIos, setIsIos] = useState(false);
   const [isAndroid, setIsAndroid] = useState(false);
-  const [showBanner, setShowBanner] = useState(true);
+  // Default to false so it doesn't flash before checking localStorage
+  const [showBanner, setShowBanner] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [activeTab, setActiveTab] = useState<"android" | "ios">("android");
 
@@ -65,9 +66,14 @@ export function PwaInstallPrompt() {
       if (apple) setActiveTab("ios");
       else setActiveTab("android");
 
-      // Check session dismissal
-      const dismissed = sessionStorage.getItem("pwa_banner_dismissed");
-      if (dismissed === "true" || standalone) {
+      // Check persistent dismissal in localStorage
+      const isDismissed =
+        localStorage.getItem("pwa_banner_dismissed") === "true" ||
+        sessionStorage.getItem("pwa_banner_dismissed") === "true";
+
+      if (!isDismissed && !standalone) {
+        setShowBanner(true);
+      } else {
         setShowBanner(false);
       }
 
@@ -76,11 +82,18 @@ export function PwaInstallPrompt() {
         e.preventDefault();
         setDeferredPrompt(e);
         (window as any).__studyBaeDeferredPrompt = e;
-        setShowBanner(true); // Re-open banner when native install becomes ready
         console.log("[PWA] beforeinstallprompt event captured");
+
+        // Do NOT re-open if the user previously cut/dismissed it
+        const dismissedNow =
+          localStorage.getItem("pwa_banner_dismissed") === "true" ||
+          sessionStorage.getItem("pwa_banner_dismissed") === "true";
+        if (!dismissedNow && !standalone) {
+          setShowBanner(true);
+        }
       };
 
-      // 4. Custom global event listener for any "Install App" button in UI
+      // 4. Custom global event listener for any explicit "Install App" button in UI (menu/profile)
       const handleOpenInstallModal = async () => {
         const prompt = (window as any).__studyBaeDeferredPrompt || deferredPrompt;
         if (prompt) {
@@ -89,6 +102,10 @@ export function PwaInstallPrompt() {
             const { outcome } = await prompt.userChoice;
             console.log("[PWA] User choice outcome:", outcome);
             if (outcome === "accepted") {
+              try {
+                localStorage.setItem("pwa_banner_dismissed", "true");
+                sessionStorage.setItem("pwa_banner_dismissed", "true");
+              } catch (e) {}
               setShowModal(false);
               setShowBanner(false);
               setDeferredPrompt(null);
@@ -120,6 +137,10 @@ export function PwaInstallPrompt() {
         const { outcome } = await prompt.userChoice;
         console.log("[PWA] User choice outcome:", outcome);
         if (outcome === "accepted") {
+          try {
+            localStorage.setItem("pwa_banner_dismissed", "true");
+            sessionStorage.setItem("pwa_banner_dismissed", "true");
+          } catch (e) {}
           setShowModal(false);
           setShowBanner(false);
           setDeferredPrompt(null);
@@ -136,37 +157,45 @@ export function PwaInstallPrompt() {
 
   const handleDismissBanner = () => {
     setShowBanner(false);
+    try {
+      localStorage.setItem("pwa_banner_dismissed", "true");
+      sessionStorage.setItem("pwa_banner_dismissed", "true");
+    } catch (e) {
+      console.warn("Storage error:", e);
+    }
   };
 
   return (
     <>
-      {/* 1. FLOATING BOTTOM APP INSTALL BANNER (Visible on mobile & desktop unless running as standalone app) */}
+      {/* 1. FLOATING APP INSTALL BANNER (Shown once on web, dismissible with X, never shows again once dismissed) */}
       {!isStandalone && showBanner && (
-        <div className="fixed bottom-3 left-3 right-3 sm:left-auto sm:right-6 sm:bottom-6 sm:w-[420px] z-50 animate-in slide-in-from-bottom-4 duration-300">
-          <div className="bg-slate-900/95 text-white p-4 rounded-2xl shadow-2xl border border-slate-700/80 backdrop-blur-md">
+        <div className="fixed bottom-20 sm:bottom-6 left-3 right-3 sm:left-auto sm:right-6 sm:w-[420px] z-50 animate-in slide-in-from-bottom-4 duration-300">
+          <div className="bg-slate-900/95 text-white p-3.5 sm:p-4 rounded-2xl shadow-2xl border border-slate-700/80 backdrop-blur-md">
             <div className="flex items-start justify-between gap-3">
               <div className="flex items-center gap-3">
                 <img
                   src="/app-icon.png"
                   alt="StudyBae"
-                  className="w-11 h-11 rounded-xl object-cover shadow-md ring-1 ring-white/40 shrink-0"
+                  className="w-10 h-10 rounded-xl object-cover shadow-md ring-1 ring-white/40 shrink-0"
                 />
                 <div>
                   <div className="font-bold text-sm text-white flex items-center gap-1.5">
-                    <span>Install StudyBae App</span>
+                    <span>Download StudyBae App</span>
                     <span className="text-[10px] bg-pink-500/20 text-pink-300 font-mono px-1.5 py-0.5 rounded font-bold border border-pink-500/30">
-                      Live AWS
+                      PWA
                     </span>
                   </div>
                   <p className="text-[11px] text-slate-300 mt-0.5 leading-snug">
-                    Phone screen par App ki tarah chalayein bina browser link ke!
+                    Phone screen par direct app chalayein bina browser link ke!
                   </p>
                 </div>
               </div>
               <button
+                type="button"
                 onClick={handleDismissBanner}
-                className="text-slate-400 hover:text-white p-1 rounded-lg transition-colors shrink-0"
-                title="Dismiss"
+                className="text-slate-400 hover:text-white hover:bg-slate-800 p-1.5 rounded-lg transition-colors shrink-0"
+                title="Cut / Close"
+                aria-label="Cut / Close"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -176,33 +205,21 @@ export function PwaInstallPrompt() {
               <button
                 type="button"
                 onClick={handleTriggerInstall}
-                className="flex-1 py-2.5 px-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2 active:scale-98"
+                className="flex-1 py-2 px-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl text-xs font-bold transition-all shadow-md flex items-center justify-center gap-1.5 active:scale-98"
               >
-                <Download className="w-4 h-4" />
-                <span>📲 Phone me Install Karein</span>
+                <Download className="w-3.5 h-3.5" />
+                <span>📲 Install App</span>
               </button>
               <button
                 type="button"
                 onClick={handleDismissBanner}
-                className="py-2.5 px-3 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl text-xs font-semibold transition-colors"
+                className="py-2 px-3 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl text-xs font-medium transition-colors"
               >
                 Baad Me
               </button>
             </div>
           </div>
         </div>
-      )}
-
-      {/* Discrete Persistent Mobile Floating Pill if banner is closed */}
-      {!isStandalone && !showBanner && (
-        <button
-          type="button"
-          onClick={() => handleTriggerInstall()}
-          className="fixed bottom-16 right-4 sm:bottom-6 sm:right-6 z-40 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-3.5 py-2 rounded-full shadow-lg border border-white/20 flex items-center gap-2 text-xs font-bold hover:scale-105 active:scale-95 transition-all"
-        >
-          <img src="/app-icon.png" alt="StudyBae" className="w-5 h-5 rounded-full object-cover" />
-          <span>📲 Install App</span>
-        </button>
       )}
 
       {/* 2. COMPREHENSIVE INTERACTIVE INSTALLATION MODAL GUIDE */}
