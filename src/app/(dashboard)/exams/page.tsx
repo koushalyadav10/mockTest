@@ -67,7 +67,7 @@ const SUBJECTS = [
     hindiName: "तर्क एवं तर्कशक्ति",
     icon: "🧠",
     active: true,
-    countBadge: "150 Qs Bank",
+    countBadge: "Ch 1 (850 Qs) + Bank",
   },
   {
     id: "ENGLISH",
