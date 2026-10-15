@@ -17,6 +17,8 @@ import {
   Inbox,
   X,
   BookOpen,
+  Download,
+  Smartphone,
 } from "lucide-react";
 
 export default function LoginPage() {
@@ -250,7 +252,39 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f1f5f9] flex items-center justify-center p-3 sm:p-6 font-sans relative">
+    <div className="min-h-screen bg-[#f1f5f9] flex flex-col items-center justify-center p-3 sm:p-6 font-sans relative">
+      {/* Top Mobile App Callout Banner (Always visible on mobile & desktop) */}
+      <div className="max-w-4xl w-full mb-3 p-3 sm:p-3.5 bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white rounded-2xl shadow-lg border border-blue-600/30 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center shrink-0 shadow-inner">
+            <Smartphone className="w-5 h-5 text-white" />
+          </div>
+          <div>
+            <div className="text-xs sm:text-sm font-extrabold flex items-center gap-2">
+              <span>ExamForge Mobile Application</span>
+              <span className="text-[10px] bg-emerald-400 text-slate-950 font-black px-2 py-0.5 rounded-full uppercase tracking-wider shadow-xs">
+                Live App
+              </span>
+            </div>
+            <p className="text-[11px] text-blue-100 font-medium">
+              Phone me app install karein — 1-tap me bina browser link ke full-screen test khulega!
+            </p>
+          </div>
+        </div>
+        <button
+          type="button"
+          onClick={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new CustomEvent("open-pwa-install"));
+            }
+          }}
+          className="w-full sm:w-auto px-4 py-2.5 bg-white text-blue-900 hover:bg-blue-50 text-xs font-black rounded-xl shadow-md transition-all flex items-center justify-center gap-2 shrink-0 active:scale-95"
+        >
+          <Download className="w-4 h-4 text-blue-700" />
+          <span>📲 Install / Download Mobile App</span>
+        </button>
+      </div>
+
       {/* Main 2-Column Authentication Card inspired by Reference Screenshot 2 */}
       <div className="max-w-4xl w-full bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden grid grid-cols-1 md:grid-cols-12 min-h-[580px]">
         {/* Left Column: Teal/Cyan Brand Area (Exact Reference UX) */}
@@ -297,6 +331,34 @@ export default function LoginPage() {
                 <span>AI-Driven Strength &amp; Weakness Performance Diagnostics</span>
               </div>
             </div>
+          </div>
+
+          {/* PWA Mobile App Card in Brand Sidebar */}
+          <div className="relative z-10 my-4 p-3.5 bg-teal-900/10 border border-teal-800/20 rounded-2xl space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                <Smartphone className="w-4 h-4 text-teal-900" />
+                <span>Mobile App Available</span>
+              </span>
+              <span className="text-[10px] bg-teal-850 text-white font-bold px-1.5 py-0.5 rounded-md">
+                Live AWS
+              </span>
+            </div>
+            <p className="text-[11px] text-slate-800 leading-snug">
+              Direct mobile screen par app install karein. Baar-baar link kholne ki tension khatam!
+            </p>
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  window.dispatchEvent(new CustomEvent("open-pwa-install"));
+                }
+              }}
+              className="w-full py-2.5 px-3 bg-slate-900 hover:bg-black text-white text-xs font-bold rounded-xl shadow-xs flex items-center justify-center gap-1.5 transition-all active:scale-98"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>📲 Install App on Phone</span>
+            </button>
           </div>
 
           {/* Bottom Navigation Links */}
@@ -604,6 +666,35 @@ export default function LoginPage() {
               </button>
             </form>
           )}
+
+          {/* Quick Install Pill / Button for Mobile Users */}
+          <div className="mt-6 pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 bg-slate-50/80 p-3.5 rounded-2xl border border-slate-200/80">
+            <div className="flex items-center gap-2.5">
+              <div className="w-7 h-7 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center shrink-0">
+                <Smartphone className="w-4 h-4" />
+              </div>
+              <div>
+                <span className="text-xs font-bold text-slate-800 block">
+                  Mobile App Install Karein
+                </span>
+                <span className="text-[11px] text-slate-500 block">
+                  Bina browser bar ke 1-click me test start hoga
+                </span>
+              </div>
+            </div>
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  window.dispatchEvent(new CustomEvent("open-pwa-install"));
+                }
+              }}
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition-all shadow-xs shrink-0 active:scale-95"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>📲 Install App</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

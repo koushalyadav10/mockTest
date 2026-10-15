@@ -22,6 +22,8 @@ import {
   Sparkles,
   ChevronDown,
   User as UserIcon,
+  Download,
+  Smartphone,
 } from "lucide-react";
 
 export const Navbar: React.FC = () => {
@@ -202,6 +204,22 @@ export const Navbar: React.FC = () => {
               </Link>
             )}
 
+            {/* Direct Mobile App Install Button */}
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  window.dispatchEvent(new CustomEvent("open-pwa-install"));
+                }
+              }}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-850 border border-emerald-300 font-bold text-xs shadow-2xs transition-all active:scale-95"
+              title="Install Mobile App on Phone"
+            >
+              <Download className="w-3.5 h-3.5 text-emerald-600" />
+              <span className="hidden sm:inline">📲 Install App</span>
+              <span className="sm:hidden">📲 App</span>
+            </button>
+
             {/* Profile Avatar & Greeting with Dropdown */}
             {user ? (
               <div className="relative pl-3 border-l border-slate-200" ref={profileDropdownRef}>
@@ -350,6 +368,22 @@ export const Navbar: React.FC = () => {
               <span>My Profile ({user?.name || "Candidate"})</span>
             </Link>
           )}
+
+          {/* Direct Mobile App Install Option in Mobile Drawer */}
+          <button
+            type="button"
+            onClick={() => {
+              setMobileMenuOpen(false);
+              if (typeof window !== "undefined") {
+                window.dispatchEvent(new CustomEvent("open-pwa-install"));
+              }
+            }}
+            className="w-full text-left flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 transition-colors border border-emerald-200"
+          >
+            <Download className="w-4 h-4 text-emerald-600 shrink-0" />
+            <span>📲 Phone me App Install Karein</span>
+          </button>
+
           <button
             onClick={handleLogout}
             className="w-full text-left flex items-center gap-2.5 px-3 py-2 rounded-md text-sm font-semibold text-red-600 hover:bg-red-50"
