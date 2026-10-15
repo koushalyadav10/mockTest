@@ -7,14 +7,14 @@ import { AppSplashScreen } from "@/components/pwa/AppSplashScreen";
 import { MobileBottomNav } from "@/components/pwa/MobileBottomNav";
 
 export const metadata: Metadata = {
-  title: "ExamForge AI | SSC CBT Mock Test & Practice Engine",
-  description: "AI-Powered SSC CBT Mock-Test and Practice Platform with Document OCR Understanding, Real-Time Authoritative Timer, and Diagnostic Analytics.",
+  title: "StudyBae | Smart CBT Mock Test & Practice Engine",
+  description: "StudyBae — Mock Tests • Real Progress • Together. AI-Powered CBT Mock-Test and Practice Platform.",
   manifest: "/manifest.json",
   themeColor: "#2563eb",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "ExamForge",
+    title: "StudyBae",
   },
 };
 
@@ -34,7 +34,7 @@ export default function RootLayout({
         <link rel="icon" href="/app-icon.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="ExamForge" />
+        <meta name="apple-mobile-web-app-title" content="StudyBae" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="theme-color" content="#2563eb" />
         {/* Satoshi Font Link */}

@@ -50,7 +50,7 @@ export function AppSplashScreen() {
           <div className="absolute -inset-1.5 rounded-3xl bg-gradient-to-tr from-purple-500 via-pink-400 to-indigo-400 blur-sm opacity-70 animate-pulse" />
           <img
             src="/app-icon.png"
-            alt="ExamForge AI App"
+            alt="StudyBae"
             className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-3xl object-cover shadow-2xl ring-4 ring-white/30"
           />
           <div className="absolute -bottom-2 -right-2 bg-gradient-to-r from-pink-500 to-purple-600 p-1.5 rounded-full shadow-lg border-2 border-white">
@@ -60,17 +60,17 @@ export function AppSplashScreen() {
 
         {/* Dynamic App Title */}
         <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-white flex items-center justify-center gap-1.5">
-          <span>ExamForge</span>
-          <span className="text-purple-400">.AI</span>
+          <span>StudyBae</span>
+          <span className="text-pink-400">♥</span>
         </h1>
 
-        {/* Motto from Image: Dream • Study • Achieve */}
+        {/* Motto from Image: Mock Tests • Real Progress • Together */}
         <div className="mt-2 flex items-center gap-2 text-xs font-semibold text-purple-200/90 tracking-wide">
-          <span>Dream</span>
-          <span className="text-pink-400">•</span>
-          <span>Study</span>
-          <span className="text-pink-400">•</span>
-          <span>Achieve</span>
+          <span>Mock Tests</span>
+          <span className="text-pink-400">♥</span>
+          <span>Real Progress</span>
+          <span className="text-pink-400">♥</span>
+          <span>Together</span>
         </div>
 
         <p className="mt-1 text-[11px] text-slate-400 max-w-xs">

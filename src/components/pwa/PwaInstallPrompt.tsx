@@ -128,18 +128,18 @@ export function PwaInstallPrompt() {
               <div className="flex items-center gap-3">
                 <img
                   src="/app-icon.png"
-                  alt="ExamForge App"
+                  alt="StudyBae"
                   className="w-11 h-11 rounded-xl object-cover shadow-md ring-1 ring-white/40 shrink-0"
                 />
                 <div>
                   <div className="font-bold text-sm text-white flex items-center gap-1.5">
-                    <span>Install ExamForge App</span>
-                    <span className="text-[10px] bg-emerald-500/20 text-emerald-400 font-mono px-1.5 py-0.5 rounded font-bold border border-emerald-500/30">
+                    <span>Install StudyBae App</span>
+                    <span className="text-[10px] bg-pink-500/20 text-pink-300 font-mono px-1.5 py-0.5 rounded font-bold border border-pink-500/30">
                       Live AWS
                     </span>
                   </div>
                   <p className="text-[11px] text-slate-300 mt-0.5 leading-snug">
-                    Phone screen per App ki tarah chalayein bina browser link ke!
+                    Phone screen par App ki tarah chalayein bina browser link ke!
                   </p>
                 </div>
               </div>
@@ -192,13 +192,13 @@ export function PwaInstallPrompt() {
             <div className="flex items-center gap-3.5 mb-4">
               <img
                 src="/app-icon.png"
-                alt="ExamForge AI"
+                alt="StudyBae"
                 className="w-13 h-13 rounded-2xl object-cover shadow-md ring-2 ring-purple-300 shrink-0"
               />
               <div>
                 <h3 className="text-lg sm:text-xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-                  <span>Install ExamForge App</span>
-                  <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  <span>Install StudyBae App</span>
+                  <span className="text-[10px] bg-pink-100 text-pink-700 font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
                     PWA App
                   </span>
                 </h3>
@@ -299,7 +299,7 @@ export function PwaInstallPrompt() {
                   <div>
                     <div className="font-bold text-slate-900">Pop-up me &quot;Install&quot; ya &quot;Add&quot; dabayein</div>
                     <div className="text-[11px] text-slate-500 mt-0.5">
-                      ExamForge ka App icon aapke mobile home screen per aa jayega!
+                      StudyBae ka App icon aapke mobile home screen par aa jayega!
                     </div>
                   </div>
                 </div>
@@ -340,7 +340,7 @@ export function PwaInstallPrompt() {
                   <div>
                     <div className="font-bold text-slate-900">Top-right me &quot;Add&quot; dabayein</div>
                     <div className="text-[11px] text-slate-500 mt-0.5">
-                      ExamForge app iPhone screen par add ho jayegi aur bina browser address bar ke khulegi.
+                      StudyBae app iPhone screen par add ho jayegi aur bina browser address bar ke khulegi.
                     </div>
                   </div>
                 </div>

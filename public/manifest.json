@@ -1,8 +1,8 @@
 {
   "id": "/",
-  "name": "ExamForge AI — SSC CBT Test Engine",
-  "short_name": "ExamForge",
-  "description": "Smart Computer Based Test (CBT) & Mock Exam Platform with Instant Auto-Sync",
+  "name": "StudyBae — Smart CBT Tests & Exam Prep",
+  "short_name": "StudyBae",
+  "description": "StudyBae — Mock Tests • Real Progress • Together",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",

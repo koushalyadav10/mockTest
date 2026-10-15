@@ -58,6 +58,9 @@ interface QuestionCardProps {
   onToggleInstantFeedback?: (enabled: boolean) => void;
   correctOptionStableId?: string | null;
   explanation?: string | null;
+  // Session-wide or controlled language state
+  activeLanguage?: "en" | "hi";
+  onLanguageChange?: (lang: "en" | "hi") => void;
 }
 
 export const QuestionCard: React.FC<QuestionCardProps> = ({
@@ -84,9 +87,13 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   onToggleInstantFeedback,
   correctOptionStableId,
   explanation,
+  activeLanguage,
+  onLanguageChange,
 }) => {
   const [isZoomOpen, setIsZoomOpen] = useState(false);
-  const [questionLang, setQuestionLang] = useState<"en" | "hi">("en");
+  const [internalLang, setInternalLang] = useState<"en" | "hi">("en");
+  const effectiveLang = activeLanguage || internalLang;
+
   const [translatedMap, setTranslatedMap] = useState<Record<string, {
     questionText: string;
     typeHeader?: string;
@@ -109,11 +116,21 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     displayQuestionText = cleanQuestionText.replace(/\[Type:\s*[^\]]+\]\s*/i, "").trim();
   }
 
-  // Question translation key
-  const questionKey = `q_${questionNumber}_${displayQuestionText.slice(0, 35)}`;
+  // Detect whether original source text is in Hindi Devanagari or English
+  const combinedSample = displayQuestionText + " " + (options[0]?.text || "");
+  const devanagariCount = (combinedSample.match(/[\u0900-\u097F]/g) || []).length;
+  const isOriginalHindi = devanagariCount > 3;
+
+  // Determine if translation is needed:
+  // If effectiveLang is 'hi' and original is English -> translate to 'hi'
+  // If effectiveLang is 'en' and original is Hindi -> translate to 'en'
+  const needsTranslation = (effectiveLang === "hi" && !isOriginalHindi) || (effectiveLang === "en" && isOriginalHindi);
+
+  // Question translation key (scoped by target language)
+  const questionKey = `q_${questionNumber}_${effectiveLang}_${displayQuestionText.slice(0, 35)}`;
 
   useEffect(() => {
-    if (questionLang !== "hi") return;
+    if (!needsTranslation) return;
     if (translatedMap[questionKey]) return;
 
     let isMounted = true;
@@ -130,7 +147,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     fetch("/api/translate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ texts, targetLang: "hi" }),
+      body: JSON.stringify({ texts, targetLang: effectiveLang }),
     })
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
@@ -162,7 +179,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     return () => {
       isMounted = false;
     };
-  }, [questionLang, questionKey, displayQuestionText, typeHeader, directionText, explanation, options]);
+  }, [needsTranslation, effectiveLang, questionKey, displayQuestionText, typeHeader, directionText, explanation, options]);
 
   // Determine whether to display Data Interpretation visual card
   const isDataInterpretation =
@@ -178,24 +195,31 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     displayQuestionText.toLowerCase().includes("pie chart") ||
     Boolean(imageUrl);
 
-  // Bilingual translation support
+  // Active texts based on language and translation
   const currentTranslation = translatedMap[questionKey];
-  const activeQuestionText =
-    questionLang === "hi"
-      ? currentTranslation?.questionText || translateTextToHindi(displayQuestionText)
-      : displayQuestionText;
-  const activeTypeHeader =
-    questionLang === "hi"
-      ? currentTranslation?.typeHeader || (typeHeader ? translateTextToHindi(typeHeader) : typeHeader)
-      : typeHeader;
-  const activeDirectionText =
-    questionLang === "hi"
-      ? currentTranslation?.directionText || directionText
-      : directionText;
-  const activeExplanation =
-    questionLang === "hi"
-      ? currentTranslation?.explanation || translateExplanationToHindi(explanation)
-      : explanation;
+  const activeQuestionText = needsTranslation
+    ? currentTranslation?.questionText || (effectiveLang === "hi" ? translateTextToHindi(displayQuestionText) : displayQuestionText)
+    : displayQuestionText;
+
+  const activeTypeHeader = needsTranslation
+    ? currentTranslation?.typeHeader || (typeHeader ? (effectiveLang === "hi" ? translateTextToHindi(typeHeader) : typeHeader) : typeHeader)
+    : typeHeader;
+
+  const activeDirectionText = needsTranslation
+    ? currentTranslation?.directionText || directionText
+    : directionText;
+
+  const activeExplanation = needsTranslation
+    ? currentTranslation?.explanation || (effectiveLang === "hi" ? translateExplanationToHindi(explanation) : explanation)
+    : explanation;
+
+  const handleLangChange = (newLang: "en" | "hi") => {
+    if (onLanguageChange) {
+      onLanguageChange(newLang);
+    } else {
+      setInternalLang(newLang);
+    }
+  };
 
   const formatTimer = (sec: number) => {
     const m = Math.floor(sec / 60);
@@ -247,10 +271,10 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             <Languages className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
             <span className="text-xs font-bold text-slate-500 hidden md:inline">View in:</span>
             <select
-              value={questionLang}
-              onChange={(e) => setQuestionLang(e.target.value as "en" | "hi")}
+              value={effectiveLang}
+              onChange={(e) => handleLangChange(e.target.value as "en" | "hi")}
               className="bg-transparent text-xs font-black text-slate-900 border-none outline-none cursor-pointer pr-0.5"
-              title="Switch language between English and Hindi for this question"
+              title="Switch language between English and Hindi for this test"
             >
               <option value="en">English</option>
               <option value="hi">हिन्दी</option>
@@ -328,7 +352,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         {/* Options & Instant Feedback Explanation */}
         <div className="space-y-2.5 sm:space-y-3.5 max-lg:landscape:space-y-1 overflow-visible max-lg:landscape:overflow-y-auto pl-0 max-lg:landscape:pl-2 flex flex-col justify-start">
           <div className="text-xs sm:text-sm font-bold text-slate-500 uppercase tracking-wider pb-1 shrink-0 max-lg:landscape:hidden">
-            {questionLang === "hi" ? "अपना विकल्प चुनें (Select Your Option):" : "Select Your Option:"}
+            {effectiveLang === "hi" ? "अपना विकल्प चुनें (Select Your Option):" : "Select Your Option:"}
           </div>
 
           <div className="space-y-2.5 sm:space-y-3.5 max-lg:landscape:space-y-1 w-full">
@@ -346,10 +370,9 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                   opt.stableId !== correctOptionStableId
               );
 
-              const optionDisplay =
-                questionLang === "hi"
-                  ? currentTranslation?.options[opt.stableId] || translateOptionToHindi(opt.text)
-                  : opt.text;
+              const optionDisplay = needsTranslation
+                ? currentTranslation?.options[opt.stableId] || (effectiveLang === "hi" ? translateOptionToHindi(opt.text) : opt.text)
+                : opt.text;
 
               return (
                 <OptionCard
@@ -372,7 +395,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             <div className="mt-3 p-3.5 sm:p-4 rounded-2xl border border-blue-200/90 bg-blue-50/40 space-y-2 w-full transition-all animate-in fade-in duration-200">
               <div className="flex items-center gap-2 text-xs font-bold text-blue-900 uppercase tracking-wider">
                 <Sparkles className="w-4 h-4 text-blue-600" />
-                <span>{questionLang === "hi" ? "चरणबद्ध समाधान एवं दृष्टिकोण" : "Step-by-Step Solution & Approach"}</span>
+                <span>{effectiveLang === "hi" ? "चरणबद्ध समाधान एवं दृष्टिकोण" : "Step-by-Step Solution & Approach"}</span>
               </div>
               <div className="text-xs sm:text-sm text-slate-800 leading-relaxed font-sans">
                 <MathRenderer

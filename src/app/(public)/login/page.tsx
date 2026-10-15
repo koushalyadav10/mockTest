@@ -295,11 +295,11 @@ export default function LoginPage() {
             <Link href="/" className="inline-flex items-center gap-2.5">
               <img
                 src="/app-icon.png"
-                alt="ExamForge AI"
+                alt="StudyBae"
                 className="w-11 h-11 rounded-2xl object-cover shadow-md ring-2 ring-white/60"
               />
-              <span className="font-extrabold text-2xl tracking-tight text-slate-900">
-                ExamForge<span className="text-teal-900">.AI</span>
+              <span className="font-extrabold text-2xl tracking-tight text-slate-900 flex items-center gap-1">
+                StudyBae<span className="text-pink-600 font-black">♥</span>
               </span>
             </Link>
 

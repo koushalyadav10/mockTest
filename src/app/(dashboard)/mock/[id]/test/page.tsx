@@ -63,6 +63,9 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
   const [questionTimeSeconds, setQuestionTimeSeconds] = useState(0);
   const currentQuestionTimeRef = useRef(0);
 
+  // Session-wide Active Test Language ("en" or "hi") - persists across all questions
+  const [activeTestLanguage, setActiveTestLanguage] = useState<"en" | "hi">("en");
+
   useEffect(() => {
     if (!currentQ) return;
 
@@ -534,6 +537,7 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
         <main className="flex-1 p-2.5 sm:p-5 lg:p-6 max-lg:landscape:p-1.5 overflow-hidden flex flex-col bg-[#f4f6f8]">
           {currentQ && (
             <QuestionCard
+              key={`${currentQ.questionId || currentIndex}_${activeTestLanguage}`}
               questionNumber={currentIndex + 1}
               questionText={currentQ.questionText}
               subject={currentQ.subject}
@@ -557,6 +561,8 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
               exam={currentQ.exam}
               year={currentQ.year}
               tags={currentQ.tags}
+              activeLanguage={activeTestLanguage}
+              onLanguageChange={setActiveTestLanguage}
             />
           )}
         </main>
@@ -627,7 +633,7 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
             <div>
               <h3 className="text-lg font-bold text-slate-900">Proctored Examination Mode</h3>
               <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-                ExamForge AI enforces an authentic CBT environment. The test will open in full-screen mode to prevent tab switches.
+                StudyBae enforces an authentic CBT environment. The test will open in full-screen mode to prevent tab switches.
               </p>
             </div>
             <div className="bg-slate-50 rounded-lg p-3 text-[11px] text-slate-600 text-left border border-slate-200 space-y-1">

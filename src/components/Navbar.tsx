@@ -107,15 +107,15 @@ export const Navbar: React.FC = () => {
             <Link href="/dashboard" className="flex items-center gap-2.5">
               <img
                 src="/app-icon.png"
-                alt="ExamForge AI"
+                alt="StudyBae"
                 className="w-10 h-10 rounded-xl object-cover shadow-sm ring-1 ring-purple-200"
               />
               <div className="flex flex-col">
-                <span className="font-extrabold text-slate-900 text-base leading-tight tracking-tight">
-                  ExamForge<span className="text-[#5a4bda]">.AI</span>
+                <span className="font-extrabold text-slate-900 text-base leading-tight tracking-tight flex items-center gap-1">
+                  StudyBae<span className="text-pink-500 font-black">♥</span>
                 </span>
                 <span className="text-[10px] text-slate-400 font-semibold tracking-wider uppercase">
-                  CBT Testing Engine
+                  Mock Tests &amp; Prep
                 </span>
               </div>
             </Link>

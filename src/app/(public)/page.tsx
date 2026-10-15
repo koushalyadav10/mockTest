@@ -126,15 +126,17 @@ export default function ExamForgeLandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           {/* Left: Logo + ExamForge */}
           <Link href="/" className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-lg bg-slate-900 text-white flex items-center justify-center font-black text-lg shadow-sm">
-              EF
-            </div>
+            <img
+              src="/app-icon.png"
+              alt="StudyBae"
+              className="w-10 h-10 rounded-xl object-cover shadow-sm ring-1 ring-purple-200"
+            />
             <div className="flex flex-col">
-              <span className="font-extrabold text-slate-900 text-xl tracking-tight leading-tight">
-                ExamForge
+              <span className="font-extrabold text-slate-900 text-xl tracking-tight leading-tight flex items-center gap-1">
+                StudyBae<span className="text-pink-500 font-black">♥</span>
               </span>
               <span className="text-[10px] text-slate-500 font-semibold tracking-wider uppercase">
-                Mock Test Platform
+                Mock Tests &amp; Prep
               </span>
             </div>
           </Link>
@@ -375,10 +377,12 @@ export default function ExamForgeLandingPage() {
       <footer className="bg-white py-10 text-xs text-slate-500 border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2 font-bold text-slate-900">
-            <div className="w-6 h-6 rounded bg-slate-900 text-white flex items-center justify-center text-[10px] font-black">
-              EF
-            </div>
-            <span>ExamForge Testing Systems</span>
+            <img
+              src="/app-icon.png"
+              alt="StudyBae"
+              className="w-6 h-6 rounded-md object-cover shadow-xs"
+            />
+            <span>StudyBae Testing Systems</span>
           </div>
 
           <div className="flex flex-wrap items-center gap-6 font-medium text-slate-600">
@@ -396,7 +400,7 @@ export default function ExamForgeLandingPage() {
             </Link>
           </div>
 
-          <div>&copy; 2026 ExamForge. Professional Mock Testing Platform.</div>
+          <div>&copy; 2026 StudyBae. Smart CBT Tests &amp; Exam Prep.</div>
         </div>
       </footer>
     </div>
