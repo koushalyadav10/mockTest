@@ -1,0 +1,3987 @@
+{
+  "chapterNumber": 6,
+  "chapterCode": "ratio",
+  "chapterTitleEnglish": "Ratio",
+  "chapterTitleHindi": "अनुपात",
+  "totalQuestions": 153,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-01)",
+      "questionText": "The ratio of red to green sweets in a bag is 3 : 4. How many red sweets are there in the bag if the number of green sweets is 120?",
+      "options": [
+        {
+          "label": "A",
+          "text": "90"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "70"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Two numbers are in the ratio 2 : 3. Their sum is 135. Find the numbers.",
+      "options": [
+        {
+          "label": "A",
+          "text": "45, 90"
+        },
+        {
+          "label": "B",
+          "text": "60, 75"
+        },
+        {
+          "label": "C",
+          "text": "54, 81"
+        },
+        {
+          "label": "D",
+          "text": "50, 85"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "Two quantities are in the ratio 3 : 5. If the first quantity is 155 kg. Find the other quantity (approximately).",
+      "options": [
+        {
+          "label": "A",
+          "text": "150.5 kg"
+        },
+        {
+          "label": "B",
+          "text": "240.6 kg"
+        },
+        {
+          "label": "C",
+          "text": "258.3 kg"
+        },
+        {
+          "label": "D",
+          "text": "200.4 kg"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 30/05/2022 (Shift-01)",
+      "questionText": "In a bag, black tablet covers and white tablet covers are in the ratio 5 : 9. If there are 450 white tablet covers, how many black tablet covers are there in the bag?",
+      "options": [
+        {
+          "label": "A",
+          "text": "200"
+        },
+        {
+          "label": "B",
+          "text": "275"
+        },
+        {
+          "label": "C",
+          "text": "225"
+        },
+        {
+          "label": "D",
+          "text": "250"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "The ratio of two numbers is 2 : 5 and their difference is 210. The smaller number is ______",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "150"
+        },
+        {
+          "label": "C",
+          "text": "140"
+        },
+        {
+          "label": "D",
+          "text": "350"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-04)",
+      "questionText": "The difference between two numbers is 48. The ratio of these two numbers is 7 : 3. What is the sum of the two numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "100"
+        },
+        {
+          "label": "B",
+          "text": "90"
+        },
+        {
+          "label": "C",
+          "text": "110"
+        },
+        {
+          "label": "D",
+          "text": "120"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-04)",
+      "questionText": "The prices of a school bag and a school dress are in the ratio of 8 : 7. The price of the school bag is ₹400 more than the price of the school dress. Find the price of the school dress.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹3400"
+        },
+        {
+          "label": "B",
+          "text": "₹2800"
+        },
+        {
+          "label": "C",
+          "text": "₹3800"
+        },
+        {
+          "label": "D",
+          "text": "₹2400"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "Two numbers are in the ratio 5:3 and the difference between these two numbers is 34. Find the smaller of the two numbers.",
+      "options": [
+        {
+          "label": "A",
+          "text": "68"
+        },
+        {
+          "label": "B",
+          "text": "34"
+        },
+        {
+          "label": "C",
+          "text": "51"
+        },
+        {
+          "label": "D",
+          "text": "85"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-01)",
+      "questionText": "A box filled with gift articles weight 25 kg. If the weight of the box and the gift articles, respectively, are in the ratio 1 : 9, then the weight of the articles (in grams) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "24500"
+        },
+        {
+          "label": "B",
+          "text": "23500"
+        },
+        {
+          "label": "C",
+          "text": "21500"
+        },
+        {
+          "label": "D",
+          "text": "22500"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-04)",
+      "questionText": "The strength of a school is 640, with the number of boys being 400. Find the ratio of girls to boys.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 : 6"
+        },
+        {
+          "label": "B",
+          "text": "3 : 5"
+        },
+        {
+          "label": "C",
+          "text": "8 : 5"
+        },
+        {
+          "label": "D",
+          "text": "4 : 5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-02)",
+      "questionText": "If x : y = 5 : 6 then 2x + 3y : 3x + 5y is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "18 : 45"
+        },
+        {
+          "label": "B",
+          "text": "18 : 35"
+        },
+        {
+          "label": "C",
+          "text": "28 : 48"
+        },
+        {
+          "label": "D",
+          "text": "28 : 45"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 26/05/2022 (Shift-02)",
+      "questionText": "If x : y = 1 : 2, find the value of (2x + 4y) : (x + 4y).",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 : 9"
+        },
+        {
+          "label": "B",
+          "text": "8 : 7"
+        },
+        {
+          "label": "C",
+          "text": "5 : 4"
+        },
+        {
+          "label": "D",
+          "text": "9 : 8"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 08/08/2023 (Shift-04)",
+      "questionText": "If a : b = 5 : 7, then (6a² – 2b²) : (b² – a²) will be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 : 5"
+        },
+        {
+          "label": "B",
+          "text": "21 : 5"
+        },
+        {
+          "label": "C",
+          "text": "13 : 6"
+        },
+        {
+          "label": "D",
+          "text": "17 : 8"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 24/07/2023 (Shift-03)",
+      "questionText": "If a/b = 7/6, then find the value of the expression (6a + 13b) / (6a – 13b)",
+      "options": [
+        {
+          "label": "A",
+          "text": "-3/10"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{10}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "-10/3"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{10}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 06/09/2023 (Shift-02)",
+      "questionText": "If p : q = 5 : 2, then p² – q² : p² + q² = ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21 : 29"
+        },
+        {
+          "label": "B",
+          "text": "4 : 3"
+        },
+        {
+          "label": "C",
+          "text": "29 : 21"
+        },
+        {
+          "label": "D",
+          "text": "3 : 4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+      "questionText": "If x/4y = 3/4, then the value of (2x + 3y)/(x – 2y) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 19/06/2023 (Shift-03)",
+      "questionText": "If (7x + y) : (7x – y) = 7 : 2, then what is the value of x : y?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 : 35"
+        },
+        {
+          "label": "B",
+          "text": "11 : 42"
+        },
+        {
+          "label": "C",
+          "text": "6 : 41"
+        },
+        {
+          "label": "D",
+          "text": "17 : 52"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+      "questionText": "If (5x + 3y)/(5x – 3y) = 7/3, then find x : y.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 : 3"
+        },
+        {
+          "label": "B",
+          "text": "3 : 2"
+        },
+        {
+          "label": "C",
+          "text": "3 : 5"
+        },
+        {
+          "label": "D",
+          "text": "2 : 3"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-01)",
+      "questionText": "If p/q = r/s = t/u = 2/5, then what is the value of (4p + 3r + 7t) : (4q + 3s + 7u)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 11"
+        },
+        {
+          "label": "B",
+          "text": "3 : 7"
+        },
+        {
+          "label": "C",
+          "text": "2 : 5"
+        },
+        {
+          "label": "D",
+          "text": "5 : 9"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 26/09/2024 (Shift-02)",
+      "questionText": "If a : b = c : d = e : f = 5 : 7, then what is the ratio of (3a + 5c + 11e) : (3b + 5d + 11f)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 : 11"
+        },
+        {
+          "label": "B",
+          "text": "3 : 7"
+        },
+        {
+          "label": "C",
+          "text": "5 : 7"
+        },
+        {
+          "label": "D",
+          "text": "11 : 7"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 02/08/2023 (Shift-03)",
+      "questionText": "If x : y : z = 3 : 4 : 5, then what will be the ratio of (x/y) : (y/z) : (z/x) ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "49 : 37 : 100"
+        },
+        {
+          "label": "B",
+          "text": "45 : 48 : 100"
+        },
+        {
+          "label": "C",
+          "text": "41 : 37 : 100"
+        },
+        {
+          "label": "D",
+          "text": "37 : 47 : 100"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-02)",
+      "questionText": "If 1/M : 1/N : 1/O = 3 : 4 : 5, then M : N : O is equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 : 15 : 12"
+        },
+        {
+          "label": "B",
+          "text": "15 : 20 : 12"
+        },
+        {
+          "label": "C",
+          "text": "12 : 15 : 20"
+        },
+        {
+          "label": "D",
+          "text": "20 : 12 : 15"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 14/06/2023 (Shift-03)",
+      "questionText": "If A : B : C = 2 : 3 : 4, then what will be the value of (A/B) : (B/C) : (C/A) ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9:5:36"
+        },
+        {
+          "label": "B",
+          "text": "8:7:25"
+        },
+        {
+          "label": "C",
+          "text": "8:9:24"
+        },
+        {
+          "label": "D",
+          "text": "12:10:13"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase-XI 27/06/2023 (Shift-01)",
+      "questionText": "If C = 2/3 of D and D = 3/8 of E, then find the ratio of C : E.",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 1"
+        },
+        {
+          "label": "B",
+          "text": "1 : 4"
+        },
+        {
+          "label": "C",
+          "text": "3 : 4"
+        },
+        {
+          "label": "D",
+          "text": "1 : 3"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "If 40% of A = 60% of B = 1/6 of C, then find the ratio of A : B : C.",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 : 10 : 18"
+        },
+        {
+          "label": "B",
+          "text": "36 : 10 : 15"
+        },
+        {
+          "label": "C",
+          "text": "15 : 10 : 36"
+        },
+        {
+          "label": "D",
+          "text": "10 : 15 : 36"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase-XI 28/06/2023 (Shift-03)",
+      "questionText": "If 2P = 3Q = 4R = 5S, the find P : Q : R : S.",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 : 20 : 12 : 15"
+        },
+        {
+          "label": "B",
+          "text": "12 : 20 : 30 : 15"
+        },
+        {
+          "label": "C",
+          "text": "20 : 30 : 15 : 12"
+        },
+        {
+          "label": "D",
+          "text": "30 : 20 : 15 : 12"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 05/09/2023 (Shift-01)",
+      "questionText": "If 15x = 24y = 32z, then x : y : z is equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "32 : 15 : 20"
+        },
+        {
+          "label": "B",
+          "text": "15 : 24 : 32"
+        },
+        {
+          "label": "C",
+          "text": "32 : 20 : 15"
+        },
+        {
+          "label": "D",
+          "text": "24 : 15 : 4"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-04)",
+      "questionText": "Divide some money in the ratio Ravi, Reeta and Rahul that 5 (Part of Ravi) = 3 (Part of Reeta) = 11 (Part of Rahul). The money ratio of Ravi : Reeta : Rahul is equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "11 : 5 : 3"
+        },
+        {
+          "label": "B",
+          "text": "33 : 55 : 15"
+        },
+        {
+          "label": "C",
+          "text": "5 : 11 : 3"
+        },
+        {
+          "label": "D",
+          "text": "11 : 33 : 15"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "If A : B = 6 : 8 and B : C = 5 : 10, then A : B : C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 4 : 8"
+        },
+        {
+          "label": "B",
+          "text": "1 : 3 : 4"
+        },
+        {
+          "label": "C",
+          "text": "4 : 3 : 2"
+        },
+        {
+          "label": "D",
+          "text": "1 : 2 : 4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "If A : B = 6 : 8 and B : C = 5 : 12, then A : B : C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "11 : 32 : 44"
+        },
+        {
+          "label": "B",
+          "text": "10 : 23 : 14"
+        },
+        {
+          "label": "C",
+          "text": "14 : 31 : 28"
+        },
+        {
+          "label": "D",
+          "text": "15 : 20 : 48"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+      "questionText": "If A : B = 6 : 8 and B : C = 7 : 10, then A : B : C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "21:28:40"
+        },
+        {
+          "label": "B",
+          "text": "21:23:40"
+        },
+        {
+          "label": "C",
+          "text": "23:32:40"
+        },
+        {
+          "label": "D",
+          "text": "14:31:20"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 18/09/2024 (Shift-03)",
+      "questionText": "If A : B = 6 : 8 and B : C = 7 : 12, then A : B : C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "14 : 31 : 20"
+        },
+        {
+          "label": "B",
+          "text": "21 : 32 : 40"
+        },
+        {
+          "label": "C",
+          "text": "11 : 23 : 40"
+        },
+        {
+          "label": "D",
+          "text": "21 : 28 : 48"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 25/09/2024 (Shift-02)",
+      "questionText": "If A : B = 6 : 8 and B : C = 5 : 11, then A : B : C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "11:23:14"
+        },
+        {
+          "label": "B",
+          "text": "14:31:25"
+        },
+        {
+          "label": "C",
+          "text": "15:32:44"
+        },
+        {
+          "label": "D",
+          "text": "15:20:44"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-02)",
+      "questionText": "If a : b = 3 : 7 and b : c = 4 : 9, then find a : b : c.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 : 28 : 63"
+        },
+        {
+          "label": "B",
+          "text": "12 : 28 : 9"
+        },
+        {
+          "label": "C",
+          "text": "3 : 28 : 9"
+        },
+        {
+          "label": "D",
+          "text": "3 : 28 : 63"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "If A : B = 3 : 7 and B : C = 2 : 5, find A : B : C.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 : 14 : 35"
+        },
+        {
+          "label": "B",
+          "text": "4 : 10 : 3"
+        },
+        {
+          "label": "C",
+          "text": "10 : 3 : 4"
+        },
+        {
+          "label": "D",
+          "text": "4 : 3 : 10"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "If A : B = 5 : 8 and B : C = 7 : 8, then find A : C.",
+      "options": [
+        {
+          "label": "A",
+          "text": "55 : 30"
+        },
+        {
+          "label": "B",
+          "text": "35 : 64"
+        },
+        {
+          "label": "C",
+          "text": "34 : 64"
+        },
+        {
+          "label": "D",
+          "text": "35 : 56"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II (20/01/2025)",
+      "questionText": "If a : b = 2 : 3, b : c = 5 : 7, then find the ratio c : a.",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 : 21"
+        },
+        {
+          "label": "B",
+          "text": "20 : 21"
+        },
+        {
+          "label": "C",
+          "text": "21 : 10"
+        },
+        {
+          "label": "D",
+          "text": "10 : 21"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 09/11/2022 (Shift-01)",
+      "questionText": "If p : q = 4 : 5, q : r = 3 : 4 and r : s = 2 : 5, then p : s is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 5"
+        },
+        {
+          "label": "B",
+          "text": "6 : 25"
+        },
+        {
+          "label": "C",
+          "text": "5 : 2"
+        },
+        {
+          "label": "D",
+          "text": "25 : 6"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-04)",
+      "questionText": "If A : B = 2 : 3 and B : C = 7 : 8, find A : C.",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 : 2"
+        },
+        {
+          "label": "B",
+          "text": "4 : 7"
+        },
+        {
+          "label": "C",
+          "text": "12 : 7"
+        },
+        {
+          "label": "D",
+          "text": "7 : 12"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 16/06/2023 (Shift-02)",
+      "questionText": "If P : Q : R = 4 : 7 : 9 and R : S = 2 : 5, then what is the value of P : S?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 : 45"
+        },
+        {
+          "label": "B",
+          "text": "1 : 5"
+        },
+        {
+          "label": "C",
+          "text": "9 : 57"
+        },
+        {
+          "label": "D",
+          "text": "10 : 43"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-01)",
+      "questionText": "If a : b = 3 : 4, b : c = 2 : 3, and c : d = 5 : 6, then a : b : c : d is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 : 20 : 30 : 36"
+        },
+        {
+          "label": "B",
+          "text": "15 : 20 : 35 : 36"
+        },
+        {
+          "label": "C",
+          "text": "15 : 20 : 30 : 36"
+        },
+        {
+          "label": "D",
+          "text": "15 : 25 : 30 : 36"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase XII 20/06/2024 (Shift-03)",
+      "questionText": "If A : B = 8 : 13, B : C = 5 : 8 and C : D = 4 : 5, then A : B : C : D is equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "40 : 65 : 104 : 130"
+        },
+        {
+          "label": "B",
+          "text": "20 : 50 : 105 : 119"
+        },
+        {
+          "label": "C",
+          "text": "38 : 65 : 111 : 120"
+        },
+        {
+          "label": "D",
+          "text": "40 : 60 : 103 : 112"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 25/07/2022 (Shift-03)",
+      "questionText": "If A : B = 5 : 4, B : C = 6 : 5, C : D = 7 : 10, then what is the value of A : D?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21 : 25"
+        },
+        {
+          "label": "B",
+          "text": "7 : 3"
+        },
+        {
+          "label": "C",
+          "text": "21 : 20"
+        },
+        {
+          "label": "D",
+          "text": "25 : 24"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 06/09/2023 (Shift-03)",
+      "questionText": "If A : B = 1/3 : 1/5, B : C = 1/7 : 1/8 and C : D = 1/10 : 1/21 then A : B : C : D is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "14 : 24 : 28 : 10"
+        },
+        {
+          "label": "B",
+          "text": "40 : 24 : 21 : 10"
+        },
+        {
+          "label": "C",
+          "text": "8 : 3 : 7 : 5"
+        },
+        {
+          "label": "D",
+          "text": "48 : 23 : 25 : 8"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER II 26/10/2023",
+      "questionText": "If P : Q = 3 : 4 and Q : R = 4 : 7, then find the value of (P + Q) : (Q + R) : (R + P).",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 : 3 : 11"
+        },
+        {
+          "label": "B",
+          "text": "11 : 4 : 7"
+        },
+        {
+          "label": "C",
+          "text": "3 : 4 : 7"
+        },
+        {
+          "label": "D",
+          "text": "7 : 11 : 10"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 08/10/2021 (Shift-02)",
+      "questionText": "If (a + b) : (b + c) : (c + a) = 15 : 14 : 11, and a + b + c = 40, then what is the value of (3a + b – 4c)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "17"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II 29/06/2022",
+      "questionText": "If a, b and c are positive numbers such that (a² + b²) : (b² + c²) : (c² + a²) = 34 : 61 : 45, then b – a : c – b : c – a = ______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "2 : 1 : 3"
+        },
+        {
+          "label": "C",
+          "text": "3 : 1 : 2"
+        },
+        {
+          "label": "D",
+          "text": "3 : 2 : 1"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 05/07/2022 (Shift-03)",
+      "questionText": "If K² : M : : M : 16, then what is the value of (K² + 2M²) : (K² + M²)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 1"
+        },
+        {
+          "label": "B",
+          "text": "33 : 17"
+        },
+        {
+          "label": "C",
+          "text": "17 : 16"
+        },
+        {
+          "label": "D",
+          "text": "32 : 17"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 05/10/2021 (Shift-01)",
+      "questionText": "If x and y are two numbers having opposite signs, and x² : y² = 16 : 81, then what is the value of (3x + 4y) / (2x – 3y) ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "-24/35"
+        },
+        {
+          "label": "B",
+          "text": "-27/40"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{48}{35}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{12}{25}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 12/09/2023 (Shift-01)",
+      "questionText": "The sum of the two numbers is the same as 9 times their difference. The ratio of the numbers is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 : 5"
+        },
+        {
+          "label": "B",
+          "text": "3 : 7"
+        },
+        {
+          "label": "C",
+          "text": "5 : 4"
+        },
+        {
+          "label": "D",
+          "text": "3 : 4"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 11/09/2023 (Shift-01)",
+      "questionText": "If the income of T is 8 times his savings, then his expenditure is _______ times his savings.",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 20/07/2023 (Shift-01)",
+      "questionText": "Radhika owns 2 dogs, 3 rabbits and 4 parrots as pets. What is the ratio of the number of rabbits to the total number of pets Radhika owns?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "1 : 3"
+        },
+        {
+          "label": "C",
+          "text": "3 : 1"
+        },
+        {
+          "label": "D",
+          "text": "3 : 2"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+      "questionText": "In a school, the total number of boys is 20% more than the total number of girls. What is the ratio of the number of boys to that of girls in the school?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 : 5"
+        },
+        {
+          "label": "B",
+          "text": "5 : 6"
+        },
+        {
+          "label": "C",
+          "text": "5 : 3"
+        },
+        {
+          "label": "D",
+          "text": "4 : 5"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-03)",
+      "questionText": "Which of the following ratios is greater?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "1 : 5"
+        },
+        {
+          "label": "C",
+          "text": "8 : 3"
+        },
+        {
+          "label": "D",
+          "text": "7 : 4"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 10/11/2022 (Shift-01)",
+      "questionText": "Which of the following is the smallest ratio",
+      "options": [
+        {
+          "label": "A",
+          "text": "41 : 92"
+        },
+        {
+          "label": "B",
+          "text": "33 : 41"
+        },
+        {
+          "label": "C",
+          "text": "42 : 49"
+        },
+        {
+          "label": "D",
+          "text": "35 : 47"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "Among the ratios 3 : 4, 5 : 8, 1 : 2, 6 : 9 which is the greatest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 : 9"
+        },
+        {
+          "label": "B",
+          "text": "1 : 2"
+        },
+        {
+          "label": "C",
+          "text": "5 : 8"
+        },
+        {
+          "label": "D",
+          "text": "3 : 4"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+      "questionText": "Ram has 12 hens and 5 cows, Shyam has 18 hens and 9 cows, Preetham has 4 hens and 8 cows, and Vinay has 10 hens and 7 cows. Who has a greater ratio of hens to cows?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Shyam"
+        },
+        {
+          "label": "B",
+          "text": "Preetham"
+        },
+        {
+          "label": "C",
+          "text": "Vinay"
+        },
+        {
+          "label": "D",
+          "text": "Ram"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-03)",
+      "questionText": "Rishi and Sarita have ₹4,760. If 9/16 of Rishi's amount is equal to 3/4 of Sarita's amount, how much does Sarita have ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2,720"
+        },
+        {
+          "label": "B",
+          "text": "₹3,570"
+        },
+        {
+          "label": "C",
+          "text": "₹2,040"
+        },
+        {
+          "label": "D",
+          "text": "₹2,190"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL TIER-II (20/01/2025)",
+      "questionText": "Adi and dia togetehr have Rs.1440. If 3/10 of Adi's amount is equal to 3/5 of Dia's amount, how much amount does Dia have?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.480"
+        },
+        {
+          "label": "B",
+          "text": "Rs.540"
+        },
+        {
+          "label": "C",
+          "text": "Rs.464"
+        },
+        {
+          "label": "D",
+          "text": "Rs.512"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL TIER-II (18/11/2024)",
+      "questionText": "A number 37 is divided into two parts such that 5 times one part and 11 times the other is together equal to 227. Find the value of 9 times the smaller number.",
+      "options": [
+        {
+          "label": "A",
+          "text": "62"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "61"
+        },
+        {
+          "label": "D",
+          "text": "63"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL TIER-II (18/01/2025)",
+      "questionText": "A sum of money is to be distributed among 3 friends P, Q and R in the Ratio of 5 : 3 : 4. If P gets ₹1,500 more than R, what is Q's share?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹4,950"
+        },
+        {
+          "label": "B",
+          "text": "₹4,680"
+        },
+        {
+          "label": "C",
+          "text": "₹4,500"
+        },
+        {
+          "label": "D",
+          "text": "₹5,100"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "The ratio of marks of A and B is 3 : 4 and the ratio of marks of B and C is 4 : 5. If the difference in the marks of C and A is 30, then how much marks does B get?",
+      "options": [
+        {
+          "label": "A",
+          "text": "52"
+        },
+        {
+          "label": "B",
+          "text": "64"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "56"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "A sum of money is divided among P, Q, R and S in the proportion of 4 : 9 : 2 : 3. If Q gets ₹560 more than R, then the share of S is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.140"
+        },
+        {
+          "label": "B",
+          "text": "Rs.340"
+        },
+        {
+          "label": "C",
+          "text": "Rs.240"
+        },
+        {
+          "label": "D",
+          "text": "Rs.440"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-04)",
+      "questionText": "The sum of the four numbers A, B, C and D is 875. If the ratio of A to B is 1 : 2, the ratio of B to C is 3 : 1 and the ratio of C to D is 2 : 3, find the value of C.",
+      "options": [
+        {
+          "label": "A",
+          "text": "125"
+        },
+        {
+          "label": "B",
+          "text": "120"
+        },
+        {
+          "label": "C",
+          "text": "135"
+        },
+        {
+          "label": "D",
+          "text": "130"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC MTS 27/10/2021 (Shift-02)",
+      "questionText": "A sum of ₹ x is divided between A, B, C and D such that the ratio of the shares of A and B is 3 : 2, that of B and C is 9 : 8 and that of C and D is 4 : 3. If the difference between the shares of B and D is ₹ 708, then what is the value of x?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8732"
+        },
+        {
+          "label": "B",
+          "text": "8496"
+        },
+        {
+          "label": "C",
+          "text": "8850"
+        },
+        {
+          "label": "D",
+          "text": "8614"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 14/03/2023 (Shift-02)",
+      "questionText": "The ratio of income of P and Q is 1 : 2. Ratio of income of Q and R is 3 : 2. If one-third of P's income is ₹4400 less than the half of P's income, then what is the Q's income'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹56600"
+        },
+        {
+          "label": "B",
+          "text": "₹52800"
+        },
+        {
+          "label": "C",
+          "text": "₹46600"
+        },
+        {
+          "label": "D",
+          "text": "₹41200"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL 07/06/2019 (Shift-03)",
+      "questionText": "A sum of ₹x is divided among A, B and C such that the ratio of shares of A and B is 7 : 12 and that of B and C is 8 : 5. If the difference in the share of A and C is ₹214, then the value of x is.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹11556"
+        },
+        {
+          "label": "B",
+          "text": "₹11128"
+        },
+        {
+          "label": "C",
+          "text": "₹11770"
+        },
+        {
+          "label": "D",
+          "text": "₹11342"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 15/03/2023 (Shift-03)",
+      "questionText": "The ratio of the prices of A and B is 5 : 9 and prices of C and D is 24 : 13. The price of C is ₹1500 more than the price of B, and the price of D is ₹1300. Find the price of A.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2,400"
+        },
+        {
+          "label": "B",
+          "text": "₹900"
+        },
+        {
+          "label": "C",
+          "text": "₹1,000"
+        },
+        {
+          "label": "D",
+          "text": "₹500"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CPO 10/11/2022 (Shift-03)",
+      "questionText": "The salaries of A, B and C are in ratio of 3/2 : 6/5 : 4/3 . The salary of A and B together is ₹ 40,500. By what percentage is the salary of A more than that of C?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12%"
+        },
+        {
+          "label": "B",
+          "text": "13%"
+        },
+        {
+          "label": "C",
+          "text": "11.5%"
+        },
+        {
+          "label": "D",
+          "text": "12.5%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL 24/07/2023 (Shift-02)",
+      "questionText": "Three numbers are in the ratio 4/5 : 5/6 : 9/10 . The difference between the smallest and the greatest numbers is 12. Find the number which is NEITHER the smallest NOR the greatest.",
+      "options": [
+        {
+          "label": "A",
+          "text": "96"
+        },
+        {
+          "label": "B",
+          "text": "108"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "104"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "A sum of ₹ 17,600 was divided between Jeevan, Praveen and Kanan, such that the ratio of the sums received by Jeevan and Praveen was 5 : 8, while the ratio of the sums received by Praveen and Kanan was 3 : 2 How much did Jeevan receive as his share?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹4,900"
+        },
+        {
+          "label": "B",
+          "text": "₹4,750"
+        },
+        {
+          "label": "C",
+          "text": "₹4,850"
+        },
+        {
+          "label": "D",
+          "text": "₹4,800"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC PHASE-IX 2022",
+      "questionText": "Certain sum is divided among A, B, C and D such that the ratio of the shares of A : B = 1 : 3 ; B : C = 2 : 5 ; C : D = 2 : 3. If the difference between the shares of B and D is ₹6,435, then the total sum (in ₹) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "15,477"
+        },
+        {
+          "label": "B",
+          "text": "17,457"
+        },
+        {
+          "label": "C",
+          "text": "14,775"
+        },
+        {
+          "label": "D",
+          "text": "17,745"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-03)",
+      "questionText": "A sum of money was divided between Cyrus, Rohan and Mishti. The ratio of the sums received by Cyrus and Rohan was 3 : 2, while the ratio of the sums received by Rohan and Mishti was 7: 12. If the sum received by Cyrus was ₹1,800 less than the sum received by Mishti, how many rupees did Rohan receive as his share?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹7,560"
+        },
+        {
+          "label": "B",
+          "text": "₹9,240"
+        },
+        {
+          "label": "C",
+          "text": "₹6,300"
+        },
+        {
+          "label": "D",
+          "text": "₹8,400"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL Tier-I 24/08/2021",
+      "questionText": "A certain sum is divided among A, B, C and D such that the ratio of the shares is A : B : C : D = 4 : 12 : 30 : 45. If the difference between the shares of A and D is ₹5,535, then the total sum (in ₹) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "12285"
+        },
+        {
+          "label": "B",
+          "text": "11000"
+        },
+        {
+          "label": "C",
+          "text": "12785"
+        },
+        {
+          "label": "D",
+          "text": "13550"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 19/04/2021 (Shift-02)",
+      "questionText": "A sum of ₹ 12,992 is divided among A, B and C such that the ratio of the shares of A and C is 4 : 15 and that of the shares of A and B is 2 : 5. The difference (in ₹) between the shares of B and C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1,792"
+        },
+        {
+          "label": "B",
+          "text": "3,136"
+        },
+        {
+          "label": "C",
+          "text": "2,240"
+        },
+        {
+          "label": "D",
+          "text": "2,688"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 25/05/2022 (Shift-02)",
+      "questionText": "In Class 8 of a school, the ratio of students playing cricket to those playing football is 27 : 13, while the ratio of those playing football to those playing hockey is 26 : 14. If the total number of students in Class 8 is 470, and each student plays exactly one game, find the percentage of students of the class playing cricket. [Give your answer correct to two decimal places.]",
+      "options": [
+        {
+          "label": "A",
+          "text": "55.47%"
+        },
+        {
+          "label": "B",
+          "text": "54.75%"
+        },
+        {
+          "label": "C",
+          "text": "57.45%"
+        },
+        {
+          "label": "D",
+          "text": "56.35%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC PHASE-IX 2022",
+      "questionText": "A sum of ₹ 7,410 is divided between A, B and C such that the ratio of the share of A to the combined share of B and C is 9 : 17 and the ratio of the share of C to the combined share of A and B is 5 : 8. What is the ratio of the share of B and C?",
+      "options": [
+        {
+          "label": "A",
+          "text": "13 : 17"
+        },
+        {
+          "label": "B",
+          "text": "7 : 10"
+        },
+        {
+          "label": "C",
+          "text": "9 : 10"
+        },
+        {
+          "label": "D",
+          "text": "8 : 9"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC PHASE-IX 2022",
+      "questionText": "Sum of 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the share of B and D is 8 : 9. If C receives ₹1,560, then what is the difference (in ₹) between the share of A and B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "180"
+        },
+        {
+          "label": "B",
+          "text": "240"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "160"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "A sum of ₹46,800 is divided among A, B, C and D in such a way that the ratio of the combined share of A and D to the combined share of B and C is 8 : 5. The ratio of the share of B to that of C is 5: 4. A receives ₹18,400. If x is the difference between the shares of A and B and y is the difference between the shares of C and D, then what is the value of (x – y) (in ₹)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6500"
+        },
+        {
+          "label": "B",
+          "text": "7000"
+        },
+        {
+          "label": "C",
+          "text": "5000"
+        },
+        {
+          "label": "D",
+          "text": "6000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL TIER-II 08/08/2022",
+      "questionText": "A sum of ₹1250 has to distributed among A, B, C and D. Total share of B and D is equal to (14/11) of total share of A and C. Share of D is half of share of A. Share of C is 1.2 of share of A. What are the shares of A, B, C and D respectively?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹250, ₹525, ₹300, ₹125"
+        },
+        {
+          "label": "B",
+          "text": "₹250, ₹575, ₹300, ₹125"
+        },
+        {
+          "label": "C",
+          "text": "₹250, ₹575, ₹300, ₹175"
+        },
+        {
+          "label": "D",
+          "text": "₹350, ₹525, ₹300, ₹125"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-03)",
+      "questionText": "Two numbers are, respectively, 30% and 40% more than the third number. The ratio of the second number to the first number is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "26 : 28"
+        },
+        {
+          "label": "B",
+          "text": "14 : 13"
+        },
+        {
+          "label": "C",
+          "text": "39 : 42"
+        },
+        {
+          "label": "D",
+          "text": "13 : 14"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-01)",
+      "questionText": "Raju and Ramu have more land than Sonu by 15% and 25%, respectively. What is the ratio of land owned by Raju and Ramu?",
+      "options": [
+        {
+          "label": "A",
+          "text": "23 : 25"
+        },
+        {
+          "label": "B",
+          "text": "15 : 25"
+        },
+        {
+          "label": "C",
+          "text": "25 : 23"
+        },
+        {
+          "label": "D",
+          "text": "21 : 23"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "Two numbers are, respectively, 30% and 60% more than a third number. The ratio of the two numbers is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "13 : 17"
+        },
+        {
+          "label": "B",
+          "text": "12 : 13"
+        },
+        {
+          "label": "C",
+          "text": "11 : 15"
+        },
+        {
+          "label": "D",
+          "text": "13 : 16"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Two numbers A and B are such that the sum of 6% of A and 4% of B is two-fifth of the sum of 7% of A and 11% of B, then the ratio A: B is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 7"
+        },
+        {
+          "label": "B",
+          "text": "3 : 7"
+        },
+        {
+          "label": "C",
+          "text": "5 : 8"
+        },
+        {
+          "label": "D",
+          "text": "1 : 8"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 85,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 07/08/2023 (Shift-01)",
+      "questionText": "A man invest ₹44,000 in some shares in the ratio 1 : 4 : 5 which pay dividends of 10%, 15% ,and 25% on his investment for one year respectively . His total dividend income is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹7,850"
+        },
+        {
+          "label": "B",
+          "text": "₹8,580"
+        },
+        {
+          "label": "C",
+          "text": "₹7,970"
+        },
+        {
+          "label": "D",
+          "text": "₹8,510"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 86,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL TIRE-II 08/08/2022",
+      "questionText": "Salaries of B, C, D and E are in the ratio of 2 : 3 : 4 : 5 respectively. Their salaries are increased by 20%, 30%, 40% and 50% respectively. If the increased salary of D is ₹560, then what is the sum of the original salaries of B , C, D and E?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1260"
+        },
+        {
+          "label": "B",
+          "text": "₹1820"
+        },
+        {
+          "label": "C",
+          "text": "₹1560"
+        },
+        {
+          "label": "D",
+          "text": "₹1400"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL 02/12/2022 (Shift-04)",
+      "questionText": "The number of books on Mathematics, Physics and Chemistry in a University library is in the ratio 8 : 5 : 9. There is a proposal to increase these books by 10%, 5% and 5% respectively. What will be the ratio of the number of books after increment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "212 : 117 : 47"
+        },
+        {
+          "label": "B",
+          "text": "37 : 47 : 83"
+        },
+        {
+          "label": "C",
+          "text": "176 : 105 : 189"
+        },
+        {
+          "label": "D",
+          "text": "189 : 115 : 117"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Raj divides ₹1,200 in the ratio 2 : 1 : 3 among three of his friends. The amount equal to the sum of three times the largest share and two times the smallest share is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2,400"
+        },
+        {
+          "label": "B",
+          "text": "₹1,800"
+        },
+        {
+          "label": "C",
+          "text": "₹2,200"
+        },
+        {
+          "label": "D",
+          "text": "₹2,000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 89,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CPO 09/11/2022 (Shift-01)",
+      "questionText": "Four numbers are in the ratio 1 : 2 : 3 : 5. Two time their sum is 44. Find the ratio in the numbers obtained by subtracting 3 from the cube of each number.",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 31 : 204 : 999"
+        },
+        {
+          "label": "B",
+          "text": "2 : 13 : 208 : 992"
+        },
+        {
+          "label": "C",
+          "text": "11 : 67 : 219 : 1003"
+        },
+        {
+          "label": "D",
+          "text": "5 : 61 : 213 : 997"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 90,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CHSL 03/08/2023 (Shift-03)",
+      "questionText": "The cost of 3 cups and 5 plates is ₹1,080 and the costs of 2 cups and 4 plates is ₹840. Find the ratio of the cost of a cup to the cost of a plate.",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 3"
+        },
+        {
+          "label": "B",
+          "text": "2 : 3"
+        },
+        {
+          "label": "C",
+          "text": "1 : 1"
+        },
+        {
+          "label": "D",
+          "text": "1 : 2"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 91,
+      "typeHeader": "TYPE - II: WORD PROBLEMS BASED ON BASIC CONCEPTS",
+      "examShift": "SSC CGL TIER- II 03/03/2023",
+      "questionText": "Rewa has some hens and some goats. If the total number of animal heads is 100 and the total number of animal feet is 348, then what is the total number of goats with Rewa?",
+      "options": [
+        {
+          "label": "A",
+          "text": "76"
+        },
+        {
+          "label": "B",
+          "text": "74"
+        },
+        {
+          "label": "C",
+          "text": "55"
+        },
+        {
+          "label": "D",
+          "text": "80"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 92,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-04)",
+      "questionText": "What should be added to each term of the ratio 5 : 11 so that the ratio becomes 3 : 5 ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 93,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CGL 24/08/2021 (Shift-02)",
+      "questionText": "Monthly salaries of Anil and Kumud are in the ratio 19 : 17. If Anil and Kumud get salary hike of ₹ 2000 and ₹1000 respectively, then the ratio in their salaries become 8 : 7. What is the present salary of Kumud after increase (in ₹)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38000"
+        },
+        {
+          "label": "B",
+          "text": "18000"
+        },
+        {
+          "label": "C",
+          "text": "34000"
+        },
+        {
+          "label": "D",
+          "text": "35000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 94,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "The ratio between male and female members in a club is 2 : 3. If the number of male members is increased by 200, the ratio becomes 5 : 6. How many female members are there in the club?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1200"
+        },
+        {
+          "label": "B",
+          "text": "900"
+        },
+        {
+          "label": "C",
+          "text": "1400"
+        },
+        {
+          "label": "D",
+          "text": "1000"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 95,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "In a company, the ratio of men and women is 5 : 3, respectively. When 150 additional women are employed in the company, the ratio becomes 5 : 4. How many men are employed in the company?",
+      "options": [
+        {
+          "label": "A",
+          "text": "850"
+        },
+        {
+          "label": "B",
+          "text": "750"
+        },
+        {
+          "label": "C",
+          "text": "550"
+        },
+        {
+          "label": "D",
+          "text": "950"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 96,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+      "questionText": "In a collection of rare coins, there is one gold coin for every four non-gold coins. If 20 more gold coins are added to the collection, the ratio of the number of gold coins to that of non-gold coins will be 2 : 3. The total number of coins in the collection will now become _____ .",
+      "options": [
+        {
+          "label": "A",
+          "text": "80"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "48"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 97,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC MTS 13/09/2023 (Shift-01)",
+      "questionText": "The ratio of the number of boys to the number of girls in a school of 1650 students is 6 : 5. If 124 new boys are admitted and few new girls are admitted, the ratio changes to 4 : 3. What is the ratio of the newly admitted girls to the newly admitted boys?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 3"
+        },
+        {
+          "label": "B",
+          "text": "3 : 4"
+        },
+        {
+          "label": "C",
+          "text": "9 : 62"
+        },
+        {
+          "label": "D",
+          "text": "62 : 9"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 98,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC Phase-XI 27/06/2023 (Shift-01)",
+      "questionText": "The students in three batches of a dance class are in ratio 2 : 3 : 5. If 20 students increase in each batch the ratio changes to 4 : 5 : 7. Find the total number of students in the three batches before the increase.",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "150"
+        },
+        {
+          "label": "D",
+          "text": "80"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 99,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CHSL 10/03/2023 (Shift-03)",
+      "questionText": "Weight of Ayush and Abhishek are in the ratio of 8 : 5. Abhishek's weight increases by 40 percent and total weight of Ayush and Abhishek both increases by 60 percent. If total weight becomes 104 kg, then what is the weight of Ayush after the increment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60 kg"
+        },
+        {
+          "label": "B",
+          "text": "75 kg"
+        },
+        {
+          "label": "C",
+          "text": "69 kg"
+        },
+        {
+          "label": "D",
+          "text": "72 kg"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 100,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "Two numbers are in the ratio of 3 : 7. If 11 is subtracted from each, the ratio between the numbers becomes 7 : 20. Find the smaller number.",
+      "options": [
+        {
+          "label": "A",
+          "text": "39"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "27"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 101,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC Phase XII 20/06/2024 (Shift-02)",
+      "questionText": "Two numbers are in the ratio 4 : 5. If 3 is added to the smaller and 7 is subtracted from the larger number, they are in the ratio 1 : 1. Find the numbers.",
+      "options": [
+        {
+          "label": "A",
+          "text": "60, 75"
+        },
+        {
+          "label": "B",
+          "text": "20, 25"
+        },
+        {
+          "label": "C",
+          "text": "40, 50"
+        },
+        {
+          "label": "D",
+          "text": "55, 44"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 102,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CHSL 10/03/2023 (Shift-04)",
+      "questionText": "The ratio of number of boys and girls in a college is 3 : 2. If 40 boys leave the college and 40 girls join the college, then their ratio will becomes 2 : 3. What is the initial number of boys in the college?",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
+          "label": "B",
+          "text": "150"
+        },
+        {
+          "label": "C",
+          "text": "225"
+        },
+        {
+          "label": "D",
+          "text": "75"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 103,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CGL 19/09/2024 (Shift-03)",
+      "questionText": "The ratio of boys to girls initial in a college is 5 : 6. If 40 boys leave the college and 50 girls join the college, the ratio will become 8 : 11. Find the number of girls (initial) in the college.",
+      "options": [
+        {
+          "label": "A",
+          "text": "740"
+        },
+        {
+          "label": "B",
+          "text": "860"
+        },
+        {
+          "label": "C",
+          "text": "720"
+        },
+        {
+          "label": "D",
+          "text": "640"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 104,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-04)",
+      "questionText": "Two numbers are in the ratio 4 : 5. If 17 is subtracted from each, the new numbers are in the ratio 11 : 14. If 20 is added to each of the original numbers, then the ratio becomes:",
+      "options": [
+        {
+          "label": "A",
+          "text": "241 : 275"
+        },
+        {
+          "label": "B",
+          "text": "224 : 241"
+        },
+        {
+          "label": "C",
+          "text": "224 : 275"
+        },
+        {
+          "label": "D",
+          "text": "275 : 241"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 105,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CPO 05/10/2023 (Shift-03)",
+      "questionText": "In a school of 720 students, the ratio of boys to girls is 3 : 5. Find how many new boys may be allowed to the school if 18 new girls are admitted, so that the ratio of boys to girls changes to 2 : 3.",
+      "options": [
+        {
+          "label": "A",
+          "text": "42"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "44"
+        },
+        {
+          "label": "D",
+          "text": "38"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 106,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC MTS 20/07/2022 (Shift-02)",
+      "questionText": "On a tree, there are some parrots and some pigeons in the ratio of 7 : 9, respectively. After an hour, 8 parrots fly away, and 6 pigeons and 10 sparrows come and sit on the tree. The ratio of the parrots and the pigeons on the tree now is 1 : 4. What is the ratio of the parrots and the sparrows that are now on the tree?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 1"
+        },
+        {
+          "label": "B",
+          "text": "1 : 2"
+        },
+        {
+          "label": "C",
+          "text": "3 : 5"
+        },
+        {
+          "label": "D",
+          "text": "4 : 5"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 107,
+      "typeHeader": "TYPE - III: BASED ON ADDITION/SUBTRACTION",
+      "examShift": "SSC CGL TIER-II 03/02/2022",
+      "questionText": "In an examination, the number of students who passed and the number of students who failed were in the ratio 25: 4. If one more student had appeared and passed and the number of failed students was 3 less than earlier, the ratio of passed students to failed students would have become 22: 3. What is the difference between the number of students who, initially, passed the examination and the number of students who failed the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "132"
+        },
+        {
+          "label": "B",
+          "text": "126"
+        },
+        {
+          "label": "C",
+          "text": "174"
+        },
+        {
+          "label": "D",
+          "text": "150"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 108,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-02)",
+      "questionText": "A bag contains a total of 180 coins in the denominations of ₹5 and ₹1. Find the number of ₹5 coins in the bag, if the total value of the coins is ₹500.",
+      "options": [
+        {
+          "label": "A",
+          "text": "100"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "80"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 109,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CGL 17/07/2023 (Shift-03)",
+      "questionText": "A bag contains ₹550 in the form of 50 p, 25 p and 20 p coins in the ratio 2 : 3 : 5. The difference between the amounts that are contributed by the 50p and the 20p coins is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹30"
+        },
+        {
+          "label": "B",
+          "text": "₹20"
+        },
+        {
+          "label": "C",
+          "text": "₹10"
+        },
+        {
+          "label": "D",
+          "text": "₹0"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 110,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-04)",
+      "questionText": "A bag contains one rupee, 50-paise and 25-paise coins in the ratio 3 : 4 : 6. If the total amount is ₹143, the number of 50-paise coins is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "66"
+        },
+        {
+          "label": "B",
+          "text": "90"
+        },
+        {
+          "label": "C",
+          "text": "88"
+        },
+        {
+          "label": "D",
+          "text": "132"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 111,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CGL 09/09/2024 (Shift-01)",
+      "questionText": "R pays ₹100 to P with ₹5, ₹2 and ₹1 coins. The total number of coins used for paying are 40. What is the number of coins of denomination ₹5 in the payment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 112,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "A money bag contains one rupee, 5 rupee and 10 rupee coins in the ratio of 3 : 5 : 7 respectively. If the total amount in the bag is Rs.980,then find the number of coins of Rs.10.",
+      "options": [
+        {
+          "label": "A",
+          "text": "69"
+        },
+        {
+          "label": "B",
+          "text": "70"
+        },
+        {
+          "label": "C",
+          "text": "71"
+        },
+        {
+          "label": "D",
+          "text": "68"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 113,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "A payment of ₹120 is made with ₹10, ₹5 and ₹2 coins. A total of 25 coins are used. Which of the following is the number of ₹10 coins used in the payment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 114,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "P pays Q a sum of ₹150 using coins of ₹2, ₹5 and ₹10. He uses a total of 50 coins. If the ratio of ₹2 and ₹5 coins used is 5 : 2, then how many coins of ₹10 are used in the payment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 115,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CGL TIER- II 06/03/2023",
+      "questionText": "The numbers of coins of 25 paisa, 50 paisa, ₹ 2 and ₹ 5 are in the ratio 5 : 4 : 3 : 1 respectively. If the total amount of coins is ₹ 285, then what will be the difference between the number of 25 paisa and ₹ 5 coins?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "80"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 116,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CGL 13/08/2021(Shift-03)",
+      "questionText": "Atul purchased Bread costing ₹20 and gave a 100 rupee note to the shopkeeper. Shopkeeper gave the balance money in coins of denomination ₹2, ₹5 and ₹10. If these coins are in the ratio 5 : 4 : 1, then how many ₹5 coins did the shopkeeper give?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 117,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "Aman has certain number of notes of denomination ₹20 and ₹10 which amount to ₹390. If the numbers of notes of each kind are interchanged, then the new amount is ₹90 less than before. Find the number of notes of ₹20 denomination.",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 118,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC Phase XII 20/06/2024 (Shift-02)",
+      "questionText": "Pooja, Chameli and Anju have a total of ₹450 in their purses. Pooja has ₹50 more than Chameli. Anju has two times what Pooja has. How much do Pooja, Chameli and Anju, respectively, have in their purses?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹125, ₹50 and ₹275"
+        },
+        {
+          "label": "B",
+          "text": "₹100, ₹50 and ₹300"
+        },
+        {
+          "label": "C",
+          "text": "₹150, ₹75 and ₹225"
+        },
+        {
+          "label": "D",
+          "text": "₹125, ₹75 and ₹250"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 119,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "Radhika requested the cashier of a bank to get her coins in lieu of her cheque worth ₹1,845. Cashier gave her a packet containing ₹5, ₹10 and ₹20 coins in the ratio of 3 : 5 : 7. What is the total worth of the smallest coin received by her?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹125"
+        },
+        {
+          "label": "B",
+          "text": "₹105"
+        },
+        {
+          "label": "C",
+          "text": "₹145"
+        },
+        {
+          "label": "D",
+          "text": "₹135"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 120,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC MTS 12/07/2022 (Shift-02)",
+      "questionText": "In a bag, the number of ₹5 coins is 8 more than the number of ₹10 coins but 20% less than the number of ₹2 coins. If the total amount in the bag is ₹270, what is the number of ₹5 coins?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 121,
+      "typeHeader": "TYPE - IV: BASED ON COINS",
+      "examShift": "SSC MTS 12/07/2022 (Shift-02)",
+      "questionText": "In a bag there are coins of ₹5, ₹10 and ₹20 denominations. The total number of coins in the bag is 240. If the number of coins of ₹5, ₹10 and ₹20 denominations are in the ratio of 2 : 3 : 5, then what is the total amount of money in the bag?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹3540"
+        },
+        {
+          "label": "B",
+          "text": "₹4600"
+        },
+        {
+          "label": "C",
+          "text": "₹4620"
+        },
+        {
+          "label": "D",
+          "text": "₹3360"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 122,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-03)",
+      "questionText": "The ratio of monthly income and expenditure of a man is 7 : 3. If his expenditure is ₹5,400, find his monthly income.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹11,500"
+        },
+        {
+          "label": "B",
+          "text": "₹13,300"
+        },
+        {
+          "label": "C",
+          "text": "₹12,600"
+        },
+        {
+          "label": "D",
+          "text": "₹10,400"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 123,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CPO 09/11/2022 (Shift-02)",
+      "questionText": "The monthly income of two persons is in the ratio of 4 : 5 and their expenditures are in the ratio 7 : 9. If each saves ₹ 50 per month, then their monthly incomes are:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 900; ₹ 500"
+        },
+        {
+          "label": "B",
+          "text": "₹ 400; ₹ 500"
+        },
+        {
+          "label": "C",
+          "text": "₹ 700; ₹ 900"
+        },
+        {
+          "label": "D",
+          "text": "₹ 400; ₹ 700"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 124,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CHSL 10/03/2023 (Shift-01)",
+      "questionText": "The expenditure and savings of a person are in ratio of 4 : 3. His savings increase by $\\frac{1}{5}$ of his income and income remains the same. What is the new ratio of his expenditure and savings?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 : 17"
+        },
+        {
+          "label": "B",
+          "text": "14 : 17"
+        },
+        {
+          "label": "C",
+          "text": "13 : 22"
+        },
+        {
+          "label": "D",
+          "text": "15 : 13"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 125,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC PHASE-XI 28/06/2023 (Shift-01)",
+      "questionText": "The annual incomes of Anand and Bharath are in the ratio 3 : 5 and their annual expenses are in the ratio 1 : 3. If each of them saves ₹ 10,000 at the end of the year, then the annual income of Bharath is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹25,000"
+        },
+        {
+          "label": "B",
+          "text": "₹12,000"
+        },
+        {
+          "label": "C",
+          "text": "₹15,000"
+        },
+        {
+          "label": "D",
+          "text": "₹30,000"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 126,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "The incomes of P, Q and R are in the ratio 10 : 12 : 9 and their expenditures are in the ratio 12 : 15 : 8. If Q saves 25% of his income, then what is the ratio of the savings of P, Q and R?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 : 14 : 21"
+        },
+        {
+          "label": "B",
+          "text": "14 : 15 : 21"
+        },
+        {
+          "label": "C",
+          "text": "21 : 15 : 14"
+        },
+        {
+          "label": "D",
+          "text": "21 : 14 : 15"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 127,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC MTS 14/09/2023 (Shift-03)",
+      "questionText": "The salaries of P and Q together amount to ₹ 6,40,000. P and Q save 60% and 40%, respectively, of their individual salaries. If their expenditures are the same, then what is the ratio of P's salary to Q's salary?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "3 : 2"
+        },
+        {
+          "label": "C",
+          "text": "3 : 4"
+        },
+        {
+          "label": "D",
+          "text": "4 : 3"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 128,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CGL 25/09/2024 (Shift-01)",
+      "questionText": "The salaries of P and Q together amount to Rs.9,60,000. P and Q save 64% and 44%, respectively of their individual salaries. If P's expenditure is 1.5 times Q's expenditure, then what is the ratio of P's salary to Q's salary?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "7 : 3"
+        },
+        {
+          "label": "C",
+          "text": "3 : 7"
+        },
+        {
+          "label": "D",
+          "text": "3 : 2"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 129,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+      "questionText": "The monthly income of an employee was ₹26,500 and his monthly expenditure was ₹22,000. Next year his income increased by 20% and his expenditure increased by 15%. Find the percentage increase in his savings.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$44\\frac{4}{9}\\%$"
+        },
+        {
+          "label": "B",
+          "text": "$44\\frac{7}{9}\\%$"
+        },
+        {
+          "label": "C",
+          "text": "$44\\frac{5}{9}\\%$"
+        },
+        {
+          "label": "D",
+          "text": "$44\\frac{8}{9}\\%$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 130,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CGL 27/07/2023 (Shift-03)",
+      "questionText": "Avinash's monthly salary is ₹50,000 and his monthly expenditure is ₹18,000. Radha's monthly salary is ₹60,000 and her monthly expenditure is ₹24,000. Find the ratio of Radha's savings to Avinash's saving's.",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 : 8"
+        },
+        {
+          "label": "B",
+          "text": "9 : 7"
+        },
+        {
+          "label": "C",
+          "text": "6 : 5"
+        },
+        {
+          "label": "D",
+          "text": "8 : 7"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 131,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CGL 26/09/2024 (Shift-03)",
+      "questionText": "The monthly incomes of A, B and C are in the ratio 2 : 9 : 3 and their expenses are in the ratio 3 : 9 : 5. If A's saving is half of his total income, then savings of A, B and C are, respectively, in the ratio of:",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 9 : 2"
+        },
+        {
+          "label": "B",
+          "text": "2 : 5 : 2"
+        },
+        {
+          "label": "C",
+          "text": "3 : 18 : 4"
+        },
+        {
+          "label": "D",
+          "text": "5 : 18 : 4"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 132,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CHSL 25/05/2022 (Shift-03)",
+      "questionText": "The ratio of income of A to that of B is 4 : 3. The expenditure of A is $\\frac{5}{12}$ of his income and the expenditure of B is $\\frac{7}{15}$ of his income, The difference between their expenditures is ₹4,500. Find the income of B.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹49,625"
+        },
+        {
+          "label": "B",
+          "text": "₹48,625"
+        },
+        {
+          "label": "C",
+          "text": "₹51,625"
+        },
+        {
+          "label": "D",
+          "text": "₹50,625"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 133,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "The income of A is $\\frac{2}{3}$ of B's income and the expenditure of A is $\\frac{3}{4}$ of B's expenditure. If $\\frac{1}{3}$ of the income of B is equal to the expenditure of A, then the ratio of the savings of A to those of B is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 : 3"
+        },
+        {
+          "label": "B",
+          "text": "3 : 5"
+        },
+        {
+          "label": "C",
+          "text": "4 : 3"
+        },
+        {
+          "label": "D",
+          "text": "3 : 4"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 134,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CGL TIER-II 03/02/2022",
+      "questionText": "The ratio of the incomes of A and B in 2020 was 5 : 4. The ratios of their individual incomes in 2020 and 2021 were 4 : 5 and 2 : 3, respectively. If the total income of A and B in 2021 was ₹7,05,600, then what was the income (in) of B in 2021?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹3,45,600"
+        },
+        {
+          "label": "B",
+          "text": "₹2,79,700"
+        },
+        {
+          "label": "C",
+          "text": "₹3,60,000"
+        },
+        {
+          "label": "D",
+          "text": "₹4,25,900"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 135,
+      "typeHeader": "TYPE - V: INCOME EXPENDITURE & SAVINGS",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "The ratio of the incomes of A and B in the last year was 4 : 3. The ratios of their individual incomes in the last year and the present year are 3 : 4 and 5 : 6, respectively. If their total income in the present year is ₹ 24.12 lakhs, then the sum of the income (in ₹ lakhs) of A in the last year and that of B in the present year is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "22.17"
+        },
+        {
+          "label": "B",
+          "text": "21.28"
+        },
+        {
+          "label": "C",
+          "text": "10.98"
+        },
+        {
+          "label": "D",
+          "text": "20.52"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 136,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 03/08/2023 (Shift-04)",
+      "questionText": "The compound ratio of 3 : 4 and 6 : 7 is 36 : X. find X",
+      "options": [
+        {
+          "label": "A",
+          "text": "64"
+        },
+        {
+          "label": "B",
+          "text": "75"
+        },
+        {
+          "label": "C",
+          "text": "56"
+        },
+        {
+          "label": "D",
+          "text": "48"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 137,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+      "questionText": "If two kinds of rice which cost ₹25 a kg and ₹40 a kg are mixed in the ratio of 3 : 2, then find the cost of the mixture per kg",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹32"
+        },
+        {
+          "label": "B",
+          "text": "₹33"
+        },
+        {
+          "label": "C",
+          "text": "₹31"
+        },
+        {
+          "label": "D",
+          "text": "₹30"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 138,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 10/08/2023 (Shift-04)",
+      "questionText": "Rice worth, ₹504 per kg and, ₹540 per kg are mixed with the third variety in the ratio 1 : 1 : 2. If the mixture is worth, ₹612 per kg. Find the price (per kg in 1) of the third variety.",
+      "options": [
+        {
+          "label": "A",
+          "text": "630"
+        },
+        {
+          "label": "B",
+          "text": "702"
+        },
+        {
+          "label": "C",
+          "text": "764"
+        },
+        {
+          "label": "D",
+          "text": "522"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 139,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 07/12/2022 (Shift-01)",
+      "questionText": "Wheat worth ₹80 per kg and ₹50 per kg is mixed with a third variety in the ratio 1 : 2 : 3 . If the mixture is worth ₹75 per kg, then the price of the third variety per kg will be equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹95"
+        },
+        {
+          "label": "B",
+          "text": "₹85"
+        },
+        {
+          "label": "C",
+          "text": "₹80"
+        },
+        {
+          "label": "D",
+          "text": "₹90"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 140,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 09/11/2022 (Shift-01)",
+      "questionText": "The cost of two varieties of tea is ₹300 and ₹ 375 respectively. If both the varieties of tea are mixed together in the ratio 3 : 2, then what should be the price of mixed variety of tea per kg?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹340"
+        },
+        {
+          "label": "B",
+          "text": "₹330"
+        },
+        {
+          "label": "C",
+          "text": "₹350"
+        },
+        {
+          "label": "D",
+          "text": "₹360"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 141,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL MAINS 10/01/2024 (Shift-01)",
+      "questionText": "The ratio of prices of coffee and tea is 3 : 4 and the ratio of their quantities consumed by a family is 4 : 7. Find the ratio of expenditure on coffee and tea.",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 : 4"
+        },
+        {
+          "label": "B",
+          "text": "3 : 7"
+        },
+        {
+          "label": "C",
+          "text": "4 : 7"
+        },
+        {
+          "label": "D",
+          "text": "7 : 3"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 142,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 02/12/2022 (Shift-01)",
+      "questionText": "By mistake, instead of dividing ₹702 among Ram, Ramesh, and Naresh in the ratio $\\frac{1}{3} : \\frac{1}{4} : \\frac{1}{6}$, it was divided in the ratio of 3 : 4 : 6. Who gained the most and by how much?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ram ₹158"
+        },
+        {
+          "label": "B",
+          "text": "Ramesh ₹158"
+        },
+        {
+          "label": "C",
+          "text": "Naresh ₹168"
+        },
+        {
+          "label": "D",
+          "text": "Ram ₹168"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 143,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC PHASE-IX 2022",
+      "questionText": "The ratio of the number of employees (male and female) in offices A and B is 2 : 3. The ratio of the female employees in A and B is 1 : 2, and the ratio of the female employees in A to the total employees in A is 1 : 3. What is the ratio of the male employees in A and B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 : 7"
+        },
+        {
+          "label": "B",
+          "text": "5 : 6"
+        },
+        {
+          "label": "C",
+          "text": "4 : 5"
+        },
+        {
+          "label": "D",
+          "text": "3 : 2"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 144,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 04/05/2023 (Shift-01)",
+      "questionText": "In a party hall, there are people in blue and red dresses. The ratio of number of men in blue to the number of women in red is 3 : 7. The ratio of men in red to the number of women in blue is 2 : 1. If the ratio of number of people in blue to the number of people in red is 35 : 76, then what is the ratio of number of men to the number of women?",
+      "options": [
+        {
+          "label": "A",
+          "text": "47 : 51"
+        },
+        {
+          "label": "B",
+          "text": "40 : 43"
+        },
+        {
+          "label": "C",
+          "text": "62 : 57"
+        },
+        {
+          "label": "D",
+          "text": "52 : 59"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 145,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+      "questionText": "There are 'y' yellow marbles and 'b' blue marbles in a box. 18% of the yellow marbles were added to 24% of the blue marbles, and the total was 30. Three times the number of yellow marbles exceeds two times the number of blue marbles by 200. What is the ratio of $y^2$ to $b^2$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 : 5"
+        },
+        {
+          "label": "B",
+          "text": "4 : 1"
+        },
+        {
+          "label": "C",
+          "text": "2 : 1"
+        },
+        {
+          "label": "D",
+          "text": "5 : 2"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 146,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL, 10/08/2023 (Shift-03)",
+      "questionText": "A blended tea in a barrel contains Assam, Darjeeling and Nilgiri Hills tea in the ratio 2 : 3 : 1. Another barrel contains Darjeeling. Nilgiri Hills and Kangra Valley tea in the ratio 5 : 4 : 3. If equal weights of both blended tea mix together to make a new brand, then the weight of Kangra valley per kilogram in the new brand is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "500 gm"
+        },
+        {
+          "label": "B",
+          "text": "100 gm"
+        },
+        {
+          "label": "C",
+          "text": "250 gm"
+        },
+        {
+          "label": "D",
+          "text": "125 gm"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 147,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 13/06/2023 (Shift-02)",
+      "questionText": "Vikas gave 3 examinations. The respective ratio of marks scored by him in the 3 examinations is 3 : 5 : 6. The respective ratio of maximum marks of the 3 examination is 7 : 11 : 10. If he scored 50 percent marks in total, then in how many examination has he scored marks more than 50 percent?",
+      "options": [
+        {
+          "label": "A",
+          "text": "None"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 148,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "A company is manufacturing boxes of three types – plastic, wood and glass. The ratio of the numbers of plastic, wood and glass boxes is 2 : 3 : 5. The difference between the numbers of wood and glass boxes is 144. If the number of plastic boxes is increased by 25%, then what will be the number of plastic boxes now?",
+      "options": [
+        {
+          "label": "A",
+          "text": "144"
+        },
+        {
+          "label": "B",
+          "text": "216"
+        },
+        {
+          "label": "C",
+          "text": "360"
+        },
+        {
+          "label": "D",
+          "text": "180"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 149,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 03/12/2022 (Shift-02)",
+      "questionText": "The cost of a piece of diamond varies with the square of its weight. A diamond of ₹6,084 value is cut into 3 pieces whose weights are in the ratio 3 : 2 : 1. Find the loss involved in the cutting.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹3,768"
+        },
+        {
+          "label": "B",
+          "text": "₹3,718"
+        },
+        {
+          "label": "C",
+          "text": "₹3,168"
+        },
+        {
+          "label": "D",
+          "text": "₹3,518"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 150,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 07/07/2022 (Shift-01)",
+      "questionText": "The value of a stone is proportional to the square of its weight. A stone worth ₹1,20,000 is broken into two pieces in the ratio of 2 : 3. What is the total price of the two small stones?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 68,400"
+        },
+        {
+          "label": "B",
+          "text": "₹ 62,400"
+        },
+        {
+          "label": "C",
+          "text": "₹ 66,500"
+        },
+        {
+          "label": "D",
+          "text": "₹ 65,400"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 151,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 18/10/2021 (Shift-02)",
+      "questionText": "The price of a semi-precious stone weighing 48 g, is ₹2,30,400. It is broken into two pieces whose weights are in the ratio of 5 : 7. If the price is proportional to the square of the weight, then the loss (in ₹) incurred, is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "112000"
+        },
+        {
+          "label": "B",
+          "text": "40000"
+        },
+        {
+          "label": "C",
+          "text": "118400"
+        },
+        {
+          "label": "D",
+          "text": "78400"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 152,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II 08/08/2022",
+      "questionText": "The cost of a diamond is directly proportional to the square of its weight. The cost of a 14 gm diamond is ₹2560. This diamond got broken down into two pieces in the ratio of 5 : 9. How much loss percent is incurred due to this breakage? (Correct to two decimal places)",
+      "options": [
+        {
+          "label": "A",
+          "text": "53.47 %"
+        },
+        {
+          "label": "B",
+          "text": "49.71 %"
+        },
+        {
+          "label": "C",
+          "text": "55.41 %"
+        },
+        {
+          "label": "D",
+          "text": "45.92 %"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 153,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+      "questionText": "The cost of a diamond varies directly as the square of its weight. Once, this diamond broke into four pieces with weights in the ratio of 4 : 3 : 2 : 1. When the pieces were sold, the merchant got Rs.63,000 less than that of one piece. Find the original price of the diamond.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.86,000"
+        },
+        {
+          "label": "B",
+          "text": "Rs.80,000"
+        },
+        {
+          "label": "C",
+          "text": "Rs.90,000"
+        },
+        {
+          "label": "D",
+          "text": "Rs.75,000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    }
+  ]
+}

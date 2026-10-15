@@ -1,0 +1,1153 @@
+{
+  "chapterNumber": 23,
+  "chapterCode": "SSC_MATHS_CH_23_HEIGHT_DISTANCE",
+  "chapterTitleEnglish": "Height & Distance",
+  "chapterTitleHindi": "ऊंचाई और दूरी",
+  "totalQuestions": 44,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$35\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$60.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$20.2\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$70\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$40\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$69.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$23.1\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$80\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$45\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$77.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$26.0\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$90\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$50\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$86.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$28.9\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$100\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $55\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$55\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$95.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$31.8\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$110\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{55} = 1 \\Rightarrow H = 55\\text{ m}$."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $60\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$60\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$103.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$34.6\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$120\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{60} = 1 \\Rightarrow H = 60\\text{ m}$."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $65\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$65\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$112.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$37.5\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$130\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{65} = 1 \\Rightarrow H = 65\\text{ m}$."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $70\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$70\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$121.2\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$40.4\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$140\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{70} = 1 \\Rightarrow H = 70\\text{ m}$."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $75\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$75\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$129.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$43.3\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$150\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{75} = 1 \\Rightarrow H = 75\\text{ m}$."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $30\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$30\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$52.0\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$17.3\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$60\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{30} = 1 \\Rightarrow H = 30\\text{ m}$."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$35\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$60.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$20.2\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$70\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$40\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$69.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$23.1\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$80\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$45\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$77.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$26.0\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$90\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$50\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$86.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$28.9\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$100\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $55\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$55\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$95.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$31.8\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$110\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{55} = 1 \\Rightarrow H = 55\\text{ m}$."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $60\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$60\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$103.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$34.6\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$120\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{60} = 1 \\Rightarrow H = 60\\text{ m}$."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $65\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$65\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$112.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$37.5\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$130\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{65} = 1 \\Rightarrow H = 65\\text{ m}$."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $70\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$70\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$121.2\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$40.4\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$140\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{70} = 1 \\Rightarrow H = 70\\text{ m}$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $75\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$75\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$129.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$43.3\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$150\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{75} = 1 \\Rightarrow H = 75\\text{ m}$."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $30\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$30\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$52.0\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$17.3\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$60\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{30} = 1 \\Rightarrow H = 30\\text{ m}$."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$35\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$60.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$20.2\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$70\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$40\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$69.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$23.1\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$80\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$45\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$77.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$26.0\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$90\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$50\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$86.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$28.9\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$100\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $55\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$55\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$95.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$31.8\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$110\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{55} = 1 \\Rightarrow H = 55\\text{ m}$."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $60\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$60\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$103.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$34.6\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$120\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{60} = 1 \\Rightarrow H = 60\\text{ m}$."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $65\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$65\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$112.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$37.5\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$130\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{65} = 1 \\Rightarrow H = 65\\text{ m}$."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $70\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$70\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$121.2\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$40.4\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$140\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{70} = 1 \\Rightarrow H = 70\\text{ m}$."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $75\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$75\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$129.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$43.3\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$150\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{75} = 1 \\Rightarrow H = 75\\text{ m}$."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $30\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$30\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$52.0\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$17.3\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$60\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{30} = 1 \\Rightarrow H = 30\\text{ m}$."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$35\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$60.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$20.2\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$70\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$40\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$69.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$23.1\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$80\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$45\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$77.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$26.0\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$90\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$50\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$86.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$28.9\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$100\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $55\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$55\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$95.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$31.8\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$110\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{55} = 1 \\Rightarrow H = 55\\text{ m}$."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $60\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$60\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$103.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$34.6\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$120\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{60} = 1 \\Rightarrow H = 60\\text{ m}$."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $65\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$65\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$112.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$37.5\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$130\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{65} = 1 \\Rightarrow H = 65\\text{ m}$."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $70\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$70\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$121.2\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$40.4\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$140\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{70} = 1 \\Rightarrow H = 70\\text{ m}$."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $75\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$75\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$129.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$43.3\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$150\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{75} = 1 \\Rightarrow H = 75\\text{ m}$."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $30\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$30\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$52.0\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$17.3\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$60\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{30} = 1 \\Rightarrow H = 30\\text{ m}$."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$35\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$60.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$20.2\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$70\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$40\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$69.3\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$23.1\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$80\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$45\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$77.9\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$26.0\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$90\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$50\\text{ m}$"
+        },
+        {
+          "label": "B",
+          "text": "$86.6\\text{ m}$"
+        },
+        {
+          "label": "C",
+          "text": "$28.9\\text{ m}$"
+        },
+        {
+          "label": "D",
+          "text": "$100\\text{ m}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+    }
+  ]
+}

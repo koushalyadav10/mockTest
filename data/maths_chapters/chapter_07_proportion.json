@@ -1,0 +1,2349 @@
+{
+  "chapterNumber": 7,
+  "chapterCode": "proportion",
+  "chapterTitleEnglish": "Proportion",
+  "chapterTitleHindi": "समानुपात",
+  "totalQuestions": 90,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "Basic Question",
+      "questionText": "The first proportional of three numbers 6, 12 and 24 is",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let the first proportional be $x$.\nThen, $x : 6 :: 12 : 24$\n$$\\frac{x}{6} = \\frac{12}{24}$$\n$$x = \\frac{6 \\times 12}{24} = 3$$"
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "Basic Question",
+      "questionText": "The second proportional of three numbers 28, 4 and 5 is",
+      "options": [
+        {
+          "label": "A",
+          "text": "39"
+        },
+        {
+          "label": "B",
+          "text": "48"
+        },
+        {
+          "label": "C",
+          "text": "35"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Let the second proportional be $x$.\nThen, $28 : x :: 4 : 5$\n$$\\frac{28}{x} = \\frac{4}{5}$$\n$$4x = 140 \\implies x = 35$$"
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "Basic Question",
+      "questionText": "The third proportional of three numbers 2, 3 and 15 is :",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let the third proportional be $x$.\nThen, $2 : 3 :: x : 15$\n$$\\frac{2}{3} = \\frac{x}{15}$$\n$$3x = 30 \\implies x = 10$$"
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-02)",
+      "questionText": "Find the third proportional of 9, 7, ?, 14.",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let the missing third term be $x$.\n$$9 : 7 :: x : 14$$\n$$\\frac{9}{7} = \\frac{x}{14}$$\n$$x = \\frac{9 \\times 14}{7} = 18$$"
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 24/05/2022 (Shift-03)",
+      "questionText": "The fourth proportional to the numbers 5, 6 and 8 is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "9.8"
+        },
+        {
+          "label": "B",
+          "text": "9.6"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "9.5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Fourth proportional $d = \\frac{b \\times c}{a} = \\frac{6 \\times 8}{5} = \\frac{48}{5} = 9.6$"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 23/09/2024 (Shift-02)",
+      "questionText": "Find the fourth proportional to 4, 9 and 16.",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "27"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Fourth proportional $d = \\frac{b \\times c}{a} = \\frac{9 \\times 16}{4} = 36$"
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Find the fourth proportional to 2, 6, 8.",
+      "options": [
+        {
+          "label": "A",
+          "text": "36"
+        },
+        {
+          "label": "B",
+          "text": "48"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Fourth proportional $d = \\frac{6 \\times 8}{2} = 24$"
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "Find the fourth proportion to 10, 12, and 15.",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "22"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Fourth proportional $d = \\frac{12 \\times 15}{10} = \\frac{180}{10} = 18$"
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-03)",
+      "questionText": "The fourth proportional of 64, 80 and 88 is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "110"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "90"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Fourth proportional $d = \\frac{80 \\times 88}{64} = \\frac{5 \\times 88}{4} = 110$"
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 27/05/2022 (Shift-03)",
+      "questionText": "Find the fourth proportional to 18, 36 and 52.",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "104"
+        },
+        {
+          "label": "C",
+          "text": "127"
+        },
+        {
+          "label": "D",
+          "text": "81"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Fourth proportional $d = \\frac{36 \\times 52}{18} = 2 \\times 52 = 104$"
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "If 42, 36 and 35 are the first three terms of a proportion, then the fourth term is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "27"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Fourth term $d = \\frac{36 \\times 35}{42} = \\frac{6 \\times 35}{7} = 30$"
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 05/12/2022 (Shift-03)",
+      "questionText": "The fourth proportion to 12, 24 and 27 is the same as the third proportion to A and 36. What is the value of A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "26"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Fourth proportional to 12, 24, 27:\n$$d = \\frac{24 \\times 27}{12} = 54$$\nNow, 54 is the third proportional to $A$ and 36:\n$$\\frac{A}{36} = \\frac{36}{54}$$\n$$A = \\frac{36 \\times 36}{54} = 24$$"
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 14/07/2023 (Shift-01)",
+      "questionText": "If the four numbers, 39, 117, 17 and y are in proportion, then find the value of y.",
+      "options": [
+        {
+          "label": "A",
+          "text": "49"
+        },
+        {
+          "label": "B",
+          "text": "51"
+        },
+        {
+          "label": "C",
+          "text": "57"
+        },
+        {
+          "label": "D",
+          "text": "85"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{39}{117} = \\frac{17}{y}$$\n$$\\frac{1}{3} = \\frac{17}{y} \\implies y = 17 \\times 3 = 51$$"
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 10/11/2022 (Shift-02)",
+      "questionText": "If X, Y, Z and W are in fourth proportion, X = 3, Y = 13 and W = 39, then the value of Z.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{X}{Y} = \\frac{Z}{W} \\implies \\frac{3}{13} = \\frac{Z}{39}$$\n$$Z = \\frac{3 \\times 39}{13} = 9$$"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase XII 21/06/2024 (Shift-03)",
+      "questionText": "Find the ratio between the fourth proportional of 42, 56, 63 and the fourth proportional of 189, 273, and 153.",
+      "options": [
+        {
+          "label": "A",
+          "text": "33 : 84"
+        },
+        {
+          "label": "B",
+          "text": "217 : 42"
+        },
+        {
+          "label": "C",
+          "text": "33 : 221"
+        },
+        {
+          "label": "D",
+          "text": "84 : 221"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Fourth proportional of 42, 56, 63:\n$$x = \\frac{56 \\times 63}{42} = 84$$\nFourth proportional of 189, 273, 153:\n$$y = \\frac{273 \\times 153}{189} = \\frac{39 \\times 153}{27} = 13 \\times 17 = 221$$\nRatio $x : y = 84 : 221$"
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "The fourth proportional to 4, a and 16a is 81. What is the value of a?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{13}{2}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{9}{2}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{11}{2}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{5}{2}"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{4}{a} = \\frac{16a}{81}$$\n$$16a^2 = 4 \\times 81 \\implies 4a^2 = 81 \\implies 2a = 9 \\implies a = \\frac{9}{2}$$"
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC MTS 11/09/2023 (Shift-01)",
+      "questionText": "The fourth proportion of 2, a & 5a is ____.",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{5a^2}{2}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{2a^2}{3}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{2a^2}{5}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{5a^2}{3}"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\frac{2}{a} = \\frac{5a}{x} \\implies x = \\frac{5a^2}{2}$$"
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "Find the fourth proportion to 1.25, 5.75 and 3.5.",
+      "options": [
+        {
+          "label": "A",
+          "text": "16.1"
+        },
+        {
+          "label": "B",
+          "text": "12.5"
+        },
+        {
+          "label": "C",
+          "text": "6.5"
+        },
+        {
+          "label": "D",
+          "text": "4.5"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$d = \\frac{5.75 \\times 3.5}{1.25} = \\frac{23 \\times 3.5}{5} = 23 \\times 0.7 = 16.1$$"
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "The fourth proportional to 0.3, 0.8 and 0.108 is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.482"
+        },
+        {
+          "label": "B",
+          "text": "0.124"
+        },
+        {
+          "label": "C",
+          "text": "0.144"
+        },
+        {
+          "label": "D",
+          "text": "0.288"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$d = \\frac{0.8 \\times 0.108}{0.3} = 0.8 \\times 0.36 = 0.288$$"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase-X 02/08/2022 (Shift-02)",
+      "questionText": "What is the fourth proportional of $\\frac{1}{72}, \\frac{1}{168}, \\frac{1}{150}$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{1}{250}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{1}{275}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{1}{375}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{1}{350}"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$d = \\frac{\\frac{1}{168} \\times \\frac{1}{150}}{\\frac{1}{72}} = \\frac{72}{168 \\times 150} = \\frac{3}{7 \\times 150} = \\frac{1}{350}$$"
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-01)",
+      "questionText": "Find the fourth proportion of the following numbers: $\\frac{1}{3}$rd of 27, $\\frac{4}{5}$th of 30, $\\frac{3}{7}$th of 35.",
+      "options": [
+        {
+          "label": "A",
+          "text": "45"
+        },
+        {
+          "label": "B",
+          "text": "38"
+        },
+        {
+          "label": "C",
+          "text": "40"
+        },
+        {
+          "label": "D",
+          "text": "35"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "First number $= \\frac{1}{3} \\times 27 = 9$\nSecond number $= \\frac{4}{5} \\times 30 = 24$\nThird number $= \\frac{3}{7} \\times 35 = 15$\nFourth proportional $= \\frac{24 \\times 15}{9} = 40$"
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 09/08/2023 (Shift-01)",
+      "questionText": "Find the fourth proportional of the numbers $\\frac{1}{3}$rd of 15, $\\frac{4}{5}$th of 25, $\\frac{3}{7}$th of 35:",
+      "options": [
+        {
+          "label": "A",
+          "text": "65"
+        },
+        {
+          "label": "B",
+          "text": "55"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "First number $= \\frac{1}{3} \\times 15 = 5$\nSecond number $= \\frac{4}{5} \\times 25 = 20$\nThird number $= \\frac{3}{7} \\times 35 = 15$\nFourth proportional $= \\frac{20 \\times 15}{5} = 60$"
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC MTS 14/09/2023 (Shift-03)",
+      "questionText": "Find the fourth proportional of $12^{35}, 3^{12}$ and $4^{12}$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "3^{24}"
+        },
+        {
+          "label": "B",
+          "text": "12^{-23}"
+        },
+        {
+          "label": "C",
+          "text": "4^{24}"
+        },
+        {
+          "label": "D",
+          "text": "12^{-11}"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Fourth proportional} = \\frac{3^{12} \\times 4^{12}}{12^{35}} = \\frac{(3 \\times 4)^{12}}{12^{35}} = \\frac{12^{12}}{12^{35}} = 12^{12-35} = 12^{-23}$$"
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "If $2^3 : 8^{5.06} :: 8^{4.06} : x$, find the value of $x$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{1}{2^3}"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2^3"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 09/08/2023 (Shift-04)",
+      "questionText": "What is the fourth proportional of $3\\sqrt{5}, 5\\sqrt{8}$ and $3\\sqrt{10}$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10\\sqrt{5}"
+        },
+        {
+          "label": "B",
+          "text": "40\\sqrt{2}"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$d = \\frac{5\\sqrt{8} \\times 3\\sqrt{10}}{3\\sqrt{5}} = \\frac{5 \\times 2\\sqrt{2} \\times 3\\sqrt{2}\\sqrt{5}}{3\\sqrt{5}} = 5 \\times 2 \\times 2 = 20$$"
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "Find the fourth proportional of $(a+b)^2 \\times (a^3 - b^3)$, $(a^3 + b^3)$, $(a^2 - b^2)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{(a^2 - ab + b^2)}{(a+b)}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{(a^2 - ab + b^2)}{(a^2 + ab + b^2)}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{(a^2 + ab + b^2)}{(a-b)}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{(a^2 + ab + b^2)}{(a^2 - b^2)}"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Fourth proportional} = \\frac{(a^3 + b^3)(a^2 - b^2)}{(a+b)^2 (a^3 - b^3)} = \\frac{(a+b)(a^2 - ab + b^2)(a+b)(a-b)}{(a+b)^2 (a-b)(a^2 + ab + b^2)} = \\frac{a^2 - ab + b^2}{a^2 + ab + b^2}$$"
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - I: WHEN THREE NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-01)",
+      "questionText": "Find the fourth proportional of $(x^4 - y^4)$, $(x+y)$ and $(x-y)$, provided $x \\ne y$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "(x^2 - y^2)^{-1}"
+        },
+        {
+          "label": "B",
+          "text": "(x^2 + y^2)^{-2}"
+        },
+        {
+          "label": "C",
+          "text": "(x^2 - y^2)^{-2}"
+        },
+        {
+          "label": "D",
+          "text": "(x^2 + y^2)^{-1}"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$d = \\frac{(x+y)(x-y)}{x^4 - y^4} = \\frac{x^2 - y^2}{(x^2 - y^2)(x^2 + y^2)} = \\frac{1}{x^2 + y^2} = (x^2 + y^2)^{-1}$$"
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 24/05/2022 (Shift-02)",
+      "questionText": "Find the mean proportion of 3 & 27.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Mean proportion} = \\sqrt{3 \\times 27} = \\sqrt{81} = 9$$"
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "The mean proportional of 2 & 32 is ...",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Mean proportional} = \\sqrt{2 \\times 32} = \\sqrt{64} = 8$$"
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "Find the mean proportional of 36 and 100.",
+      "options": [
+        {
+          "label": "A",
+          "text": "65"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "55"
+        },
+        {
+          "label": "D",
+          "text": "70"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Mean proportional} = \\sqrt{36 \\times 100} = 6 \\times 10 = 60$$"
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+      "questionText": "Find the mean proportional between 25 and 81.",
+      "options": [
+        {
+          "label": "A",
+          "text": "45"
+        },
+        {
+          "label": "B",
+          "text": "81"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Mean proportional} = \\sqrt{25 \\times 81} = 5 \\times 9 = 45$$"
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "Find the natural number obtained when the number 13 is subtracted from the mean proportional of 75 and 12.",
+      "options": [
+        {
+          "label": "A",
+          "text": "14"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "27"
+        },
+        {
+          "label": "D",
+          "text": "17"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Mean proportional} = \\sqrt{75 \\times 12} = \\sqrt{900} = 30$$\nSubtracting 13:\n$$30 - 13 = 17$$"
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 13/09/2024 (Shift-03)",
+      "questionText": "Find the mean proportional of 12.96 & 0.16.",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "96"
+        },
+        {
+          "label": "C",
+          "text": "1.44"
+        },
+        {
+          "label": "D",
+          "text": "69"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Mean proportional} = \\sqrt{12.96 \\times 0.16} = 3.6 \\times 0.4 = 1.44$$"
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-03)",
+      "questionText": "Find the mean proportion to 0.72 and 2.85 (round up to one decimal place).",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.4"
+        },
+        {
+          "label": "B",
+          "text": "2.8"
+        },
+        {
+          "label": "C",
+          "text": "0.7"
+        },
+        {
+          "label": "D",
+          "text": "1.4"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\sqrt{0.72 \\times 2.85} = \\sqrt{2.052} \\approx 1.432 \\approx 1.4$$"
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "The mean proportion of 0.14 and 2.24 is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.56"
+        },
+        {
+          "label": "B",
+          "text": "1.02"
+        },
+        {
+          "label": "C",
+          "text": "-2.39"
+        },
+        {
+          "label": "D",
+          "text": "1.12"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Mean proportion} = \\sqrt{0.14 \\times 2.24} = \\sqrt{0.3136} = 0.56$$"
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "The mean proportional between 0.03 and 0.0003 is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.0013"
+        },
+        {
+          "label": "B",
+          "text": "0.003"
+        },
+        {
+          "label": "C",
+          "text": "0.0003"
+        },
+        {
+          "label": "D",
+          "text": "0.033"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\sqrt{0.03 \\times 0.0003} = \\sqrt{0.000009} = 0.003$$"
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "What is the ratio of the mean proportion of 1.21 and 0.09 with the mean proportion of 0.16 and 0.36?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11 : 8"
+        },
+        {
+          "label": "B",
+          "text": "13 : 8"
+        },
+        {
+          "label": "C",
+          "text": "13 : 12"
+        },
+        {
+          "label": "D",
+          "text": "11 : 13"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "First mean proportion $= \\sqrt{1.21 \\times 0.09} = 1.1 \\times 0.3 = 0.33$\nSecond mean proportion $= \\sqrt{0.16 \\times 0.36} = 0.4 \\times 0.6 = 0.24$\n$$\\text{Ratio} = \\frac{0.33}{0.24} = \\frac{33}{24} = 11 : 8$$"
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "30 is the mean proportional of 18 and A. Find the value of A.",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "45"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\sqrt{18 \\times A} = 30 \\implies 18A = 900 \\implies A = \\frac{900}{18} = 50$$"
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "If 35 is the mean proportional of 25 and x, then what is value of x?",
+      "options": [
+        {
+          "label": "A",
+          "text": "46"
+        },
+        {
+          "label": "B",
+          "text": "47"
+        },
+        {
+          "label": "C",
+          "text": "49"
+        },
+        {
+          "label": "D",
+          "text": "48"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\sqrt{25 \\times x} = 35 \\implies 5\\sqrt{x} = 35 \\implies \\sqrt{x} = 7 \\implies x = 49$$"
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC MTS 12/09/2023 (Shift-03)",
+      "questionText": "The mean proportion between 17 and some unknown number is 51. What is the unknown number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "153"
+        },
+        {
+          "label": "C",
+          "text": "51"
+        },
+        {
+          "label": "D",
+          "text": "151"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\sqrt{17 \\times x} = 51 \\implies 17x = 51^2 \\implies x = \\frac{51 \\times 51}{17} = 153$$"
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 06/12/2022 (Shift-02)",
+      "questionText": "If x is the mean proportional between 12.8 and 64.8, then the value of x is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "32"
+        },
+        {
+          "label": "B",
+          "text": "34"
+        },
+        {
+          "label": "C",
+          "text": "28.8"
+        },
+        {
+          "label": "D",
+          "text": "26.4"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$x = \\sqrt{12.8 \\times 64.8} = \\sqrt{\\frac{128 \\times 648}{100}} = \\sqrt{\\frac{64 \\times 2 \\times 324 \\times 2}{100}} = \\frac{8 \\times 2 \\times 18}{10} = 28.8$$"
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 10/08/2021 (Shift-03)",
+      "questionText": "What is the ratio of the mean proportional between 1.2 and 10.8 to the third proportional to 0.2 & 1.2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 1"
+        },
+        {
+          "label": "B",
+          "text": "2 : 1"
+        },
+        {
+          "label": "C",
+          "text": "1 : 3"
+        },
+        {
+          "label": "D",
+          "text": "1 : 2"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Mean proportional $= \\sqrt{1.2 \\times 10.8} = 1.2 \\times 3 = 3.6$\nThird proportional $= \\frac{1.2^2}{0.2} = 7.2$\n$$\\text{Ratio} = \\frac{3.6}{7.2} = 1 : 2$$"
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 24/09/2024 (Shift-02)",
+      "questionText": "If the mean proportional between p and q is 12, then the possible values of p and q respectively, are:",
+      "options": [
+        {
+          "label": "A",
+          "text": "3, 38"
+        },
+        {
+          "label": "B",
+          "text": "3, 28"
+        },
+        {
+          "label": "C",
+          "text": "24, 6"
+        },
+        {
+          "label": "D",
+          "text": "24, 16"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\sqrt{pq} = 12 \\implies pq = 144$$\nChecking the options:\n$$24 \\times 6 = 144$$"
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "If $28.9 : x :: x : 36.1$, and $x > 0$, then find the value of $x$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "38.3"
+        },
+        {
+          "label": "B",
+          "text": "32.3"
+        },
+        {
+          "label": "C",
+          "text": "30.4"
+        },
+        {
+          "label": "D",
+          "text": "35"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$x^2 = 28.9 \\times 36.1 = \\frac{289 \\times 361}{100}$$\n$$x = \\frac{17 \\times 19}{10} = \\frac{323}{10} = 32.3$$"
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 18/07/2023 (Shift-02)",
+      "questionText": "If $405 : y :: y : 125$, and $y > 0$, then find the value of $y$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "225"
+        },
+        {
+          "label": "B",
+          "text": "205"
+        },
+        {
+          "label": "C",
+          "text": "215"
+        },
+        {
+          "label": "D",
+          "text": "235"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$y^2 = 405 \\times 125 = 81 \\times 5 \\times 125 = 81 \\times 625$$\n$$y = 9 \\times 25 = 225$$"
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase-XI 28/06/2023 (Shift-03)",
+      "questionText": "Let M denote the mean proportional between 16 and 9 and let N denote the third proportional of 9 and 15. Find the value of 5M + 3N.",
+      "options": [
+        {
+          "label": "A",
+          "text": "300"
+        },
+        {
+          "label": "B",
+          "text": "125"
+        },
+        {
+          "label": "C",
+          "text": "135"
+        },
+        {
+          "label": "D",
+          "text": "225"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$M = \\sqrt{16 \\times 9} = 12$$\n$$N = \\frac{15^2}{9} = \\frac{225}{9} = 25$$\n$$5M + 3N = 5(12) + 3(25) = 60 + 75 = 135$$"
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase-X 04/08/2022 (Shift-02)",
+      "questionText": "If the mean proportional between 5 and 125 is $x$ and the mean proportional between $4^4$ and $6^2$ is $y$, find the value of $2x : y$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "25 : 96"
+        },
+        {
+          "label": "B",
+          "text": "25 : 48"
+        },
+        {
+          "label": "C",
+          "text": "25 : 128"
+        },
+        {
+          "label": "D",
+          "text": "25 : 64"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$x = \\sqrt{5 \\times 125} = 25$$\n$$y = \\sqrt{4^4 \\times 6^2} = 4^2 \\times 6 = 96$$\n$$2x : y = 2(25) : 96 = 50 : 96 = 25 : 48$$"
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 20/07/2023 (Shift-02)",
+      "questionText": "If $a : b :: b : c$, and $b = 96$ then which of the following can be a possible pair of values of $a$ and $c$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a = 24, c = 374"
+        },
+        {
+          "label": "B",
+          "text": "a = 32, c = 288"
+        },
+        {
+          "label": "C",
+          "text": "a = 48, c = 168"
+        },
+        {
+          "label": "D",
+          "text": "a = 16, c = 586"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$b^2 = ac \\implies ac = 96^2 = 9216$$\nChecking option (B):\n$$32 \\times 288 = 9216$$"
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 03/12/2022 (Shift-02)",
+      "questionText": "Find the mean proportion between $(6 + \\sqrt{8})$ and $(3 - \\sqrt{2})$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "2\\sqrt{12}"
+        },
+        {
+          "label": "B",
+          "text": "\\sqrt{14}"
+        },
+        {
+          "label": "C",
+          "text": "(6 - \\sqrt{8})"
+        },
+        {
+          "label": "D",
+          "text": "\\sqrt{15} - 7"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$6 + \\sqrt{8} = 2(3 + \\sqrt{2})$$\n$$\\text{Product} = 2(3 + \\sqrt{2})(3 - \\sqrt{2}) = 2(9 - 2) = 14$$\n$$\\text{Mean proportional} = \\sqrt{14}$$"
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase-XI 27/06/2023 (Shift-02)",
+      "questionText": "The mean proportional between $(3 + \\sqrt{5})$ and $(15 - \\sqrt{125})$ is _____.",
+      "options": [
+        {
+          "label": "A",
+          "text": "3\\sqrt{5}"
+        },
+        {
+          "label": "B",
+          "text": "5\\sqrt{2}"
+        },
+        {
+          "label": "C",
+          "text": "9\\sqrt{5}"
+        },
+        {
+          "label": "D",
+          "text": "2\\sqrt{5}"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$15 - \\sqrt{125} = 15 - 5\\sqrt{5} = 5(3 - \\sqrt{5})$$\n$$\\text{Product} = 5(3 + \\sqrt{5})(3 - \\sqrt{5}) = 5(9 - 5) = 20$$\n$$\\text{Mean proportional} = \\sqrt{20} = 2\\sqrt{5}$$"
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 06/12/2022 (Shift-01)",
+      "questionText": "The mean proportional of $a$ and $b$ is $c$. What is the mean proportion of $a^2 c$ and $b^2 c$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "c"
+        },
+        {
+          "label": "B",
+          "text": "3c"
+        },
+        {
+          "label": "C",
+          "text": "c^3"
+        },
+        {
+          "label": "D",
+          "text": "c^2"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\sqrt{ab} = c \\implies ab = c^2$$\n$$\\text{Mean proportion of } a^2 c \\text{ and } b^2 c = \\sqrt{a^2 c \\times b^2 c} = \\sqrt{(ab)^2 c^2} = ab \\times c = c^2 \\times c = c^3$$"
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 04/10/2023 (Shift-03)",
+      "questionText": "Find the mean proportion of $x^3 y$ and $xy^3$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "xy"
+        },
+        {
+          "label": "B",
+          "text": "x^2 y^2"
+        },
+        {
+          "label": "C",
+          "text": "x^3 y^3"
+        },
+        {
+          "label": "D",
+          "text": "x^4 y^4"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\sqrt{x^3 y \\times xy^3} = \\sqrt{x^4 y^4} = x^2 y^2$$"
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase XII 21/06/2024 (Shift-02)",
+      "questionText": "What is the mean proportional of $45x^4$ and $5y^2$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5x^2 y"
+        },
+        {
+          "label": "B",
+          "text": "15x^2 y"
+        },
+        {
+          "label": "C",
+          "text": "25x^4 y"
+        },
+        {
+          "label": "D",
+          "text": "45x^2 y^2"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\sqrt{45x^4 \\times 5y^2} = \\sqrt{225 x^4 y^2} = 15x^2 y$$"
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC MTS 05/09/2023 (Shift-02)",
+      "questionText": "The mean proportion of $a$ and $\\frac{a}{b^2}$ is .............",
+      "options": [
+        {
+          "label": "A",
+          "text": "ab"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{b}{a}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{a}{2b}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{a}{b}"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\sqrt{a \\times \\frac{a}{b^2}} = \\sqrt{\\frac{a^2}{b^2}} = \\frac{a}{b}$$"
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+      "questionText": "Let $a$ be a positive number and $b = \\frac{4}{a}$. What is the mean proportional of $a$ and $b$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "a"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\sqrt{a \\times b} = \\sqrt{a \\times \\frac{4}{a}} = \\sqrt{4} = 2$$"
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 09/09/2024 (Shift-03)",
+      "questionText": "The mean proportional of $8a^2$ and $\\frac{18}{a^4}$, where $a$ is a positive number, is",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{12}{a^2}"
+        },
+        {
+          "label": "B",
+          "text": "12a"
+        },
+        {
+          "label": "C",
+          "text": "12a^2"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{12}{a}"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\sqrt{8a^2 \\times \\frac{18}{a^4}} = \\sqrt{\\frac{144}{a^2}} = \\frac{12}{a}$$"
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 18/09/2024 (Shift-02)",
+      "questionText": "The mean proportional of $4a^2$ and $x$ is $\\frac{1}{5a}$, where $a$ is a positive number, then the value of $x$ is_____.",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{1}{100a^4}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{1}{100a^2}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{1}{25a^2}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{1}{25a^4}"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\sqrt{4a^2 \\times x} = \\frac{1}{5a} \\implies 4a^2 \\times x = \\frac{1}{25a^2}$$\n$$x = \\frac{1}{100a^4}$$"
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 25/07/2023 (Shift-04)",
+      "questionText": "The mean proportional of $(a+b)(a-b)^3$, $(a+b)^3(a-b)$ is;",
+      "options": [
+        {
+          "label": "A",
+          "text": "(a+b)^2(a-b)"
+        },
+        {
+          "label": "B",
+          "text": "(a+b)^2(a-b)^2"
+        },
+        {
+          "label": "C",
+          "text": "(a+b)(a-b)^2"
+        },
+        {
+          "label": "D",
+          "text": "a^2 - b^2"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\sqrt{(a+b)(a-b)^3 \\times (a+b)^3(a-b)} = \\sqrt{(a+b)^4 (a-b)^4} = (a+b)^2 (a-b)^2$$"
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-04)",
+      "questionText": "Find the mean proportion between $\\frac{p-q}{p+q}$ and $\\frac{(pq)^2}{p^2 - q^2}$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{pq}{p-q}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{p-q}{pq}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{pq}{p+q}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{p+q}{pq}"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$p^2 - q^2 = (p-q)(p+q)$$\n$$\\text{Product} = \\frac{p-q}{p+q} \\times \\frac{(pq)^2}{(p-q)(p+q)} = \\frac{(pq)^2}{(p+q)^2}$$\n$$\\text{Mean proportional} = \\frac{pq}{p+q}$$"
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 06/12/2022 (Shift-03)",
+      "questionText": "Find the mean proportion of $\\frac{a^3 + b^3}{a - b}$ and $\\frac{a^2 - b^2}{a^2 - ab + b^2}$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "a + b"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{a+b}{a-b}"
+        },
+        {
+          "label": "D",
+          "text": "\\sqrt{a+b}"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$a^3 + b^3 = (a+b)(a^2 - ab + b^2)$$\n$$a^2 - b^2 = (a-b)(a+b)$$\n$$\\text{Product} = \\frac{(a+b)(a^2 - ab + b^2)}{a-b} \\times \\frac{(a-b)(a+b)}{a^2 - ab + b^2} = (a+b)^2$$\n$$\\text{Mean proportional} = a+b$$"
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-03)",
+      "questionText": "Find the third proportion to 36 & 48.",
+      "options": [
+        {
+          "label": "A",
+          "text": "54"
+        },
+        {
+          "label": "B",
+          "text": "36"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Third proportion} = \\frac{b^2}{a} = \\frac{48 \\times 48}{36} = 64$$"
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL Tier-I 24/08/2021",
+      "questionText": "If P is the third proportional of 3, 9, then what is the fourth proportional to 6, P, 4?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{3}{2}"
+        },
+        {
+          "label": "B",
+          "text": "2\\sqrt{3}"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$P = \\frac{9^2}{3} = 27$$\n$$\\text{Fourth proportional to } 6, 27, 4 = \\frac{27 \\times 4}{6} = 18$$"
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC MTS 03/05/2023 (Shift-02)",
+      "questionText": "If the third proportion of 3 and x is 27 and the third proportion of 2 and y is 8, then find $x : y$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 : 9"
+        },
+        {
+          "label": "B",
+          "text": "4 : 5"
+        },
+        {
+          "label": "C",
+          "text": "3 : 7"
+        },
+        {
+          "label": "D",
+          "text": "9 : 4"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{x^2}{3} = 27 \\implies x^2 = 81 \\implies x = 9$$\n$$\\frac{y^2}{2} = 8 \\implies y^2 = 16 \\implies y = 4$$\n$$x : y = 9 : 4$$"
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 11/04/2022 (Shift-03)",
+      "questionText": "If p is the third proportional to 8, 20 and q is the fourth proportional to 3, 5, 24, then find the value of (2p + q).",
+      "options": [
+        {
+          "label": "A",
+          "text": "140"
+        },
+        {
+          "label": "B",
+          "text": "126"
+        },
+        {
+          "label": "C",
+          "text": "90"
+        },
+        {
+          "label": "D",
+          "text": "104"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$p = \\frac{20^2}{8} = 50$$\n$$q = \\frac{5 \\times 24}{3} = 40$$\n$$2p + q = 2(50) + 40 = 140$$"
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-03)",
+      "questionText": "The third proportional to $(5^2 - 3^2)$ and $(5 - 3)$ is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{1}{3}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{1}{4}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{1}{2}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{1}{8}"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$a = 5^2 - 3^2 = 16, \\quad b = 5 - 3 = 2$$\n$$\\text{Third proportional} = \\frac{b^2}{a} = \\frac{4}{16} = \\frac{1}{4}$$"
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 18/07/2023 (Shift-01)",
+      "questionText": "The third proportional to $(x^2 - y^2)$ and $(x - y)$ is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "(x - y)"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{x - y}{x + y}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{x + y}{x - y}"
+        },
+        {
+          "label": "D",
+          "text": "(x + y)"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Third proportional} = \\frac{(x - y)^2}{x^2 - y^2} = \\frac{(x - y)^2}{(x - y)(x + y)} = \\frac{x - y}{x + y}$$"
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - II: WHEN TWO NUMBERS ARE GIVEN",
+      "examShift": "SSC CGL 03/12/2022 (Shift-01)",
+      "questionText": "If $a : b = c : d$, then which of the following ratio is equal to $a : c$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a : d"
+        },
+        {
+          "label": "B",
+          "text": "b : c"
+        },
+        {
+          "label": "C",
+          "text": "a + d : b + c"
+        },
+        {
+          "label": "D",
+          "text": "a + b : c + d"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{a}{b} = \\frac{c}{d} \\implies \\frac{a}{c} = \\frac{b}{d}$$\nBy properties of proportions:\n$$\\frac{a}{c} = \\frac{b}{d} = \\frac{a + b}{c + d}$$"
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - III: PROPORTION AFTER ADDITION/SUBTRACTION",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-02)",
+      "questionText": "Which number should be added to 3, 11, 4 and 14 to make them in proportion?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let $x$ be added.\n$$\\frac{3+x}{11+x} = \\frac{4+x}{14+x}$$\nChecking $x = 1$:\n$$\\frac{3+1}{11+1} = \\frac{4}{12} = \\frac{1}{3}$$\n$$\\frac{4+1}{14+1} = \\frac{5}{15} = \\frac{1}{3}$$\nBoth ratios are equal, so $x = 1$."
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - III: PROPORTION AFTER ADDITION/SUBTRACTION",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-04)",
+      "questionText": "When x is added to each of the numbers 7, 11, 18 and 23, then the number so obtained are in proportion. What is the mean proportional between the $(x - 1)$ and $(2x - 10)$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "68"
+        },
+        {
+          "label": "B",
+          "text": "78"
+        },
+        {
+          "label": "C",
+          "text": "98"
+        },
+        {
+          "label": "D",
+          "text": "48"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{7+x}{11+x} = \\frac{18+x}{23+x}$$\n$$(7+x)(23+x) = (11+x)(18+x)$$\n$$161 + 30x + x^2 = 198 + 29x + x^2 \\implies x = 37$$\nMean proportional between $(37 - 1 = 36)$ and $(2 \\times 37 - 10 = 64)$:\n$$\\sqrt{36 \\times 64} = 6 \\times 8 = 48$$"
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - III: PROPORTION AFTER ADDITION/SUBTRACTION",
+      "examShift": "SSC CGL, Tier-II 11/09/2019",
+      "questionText": "When x is added to each of 2, 3, 30 and 35, then the numbers obtained in this order, are in proportion. What is the mean proportional between $(x + 7)$ & $(x - 2)$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\frac{2+x}{3+x} = \\frac{30+x}{35+x}$$\n$$(2+x)(35+x) = (3+x)(30+x)$$\n$$70 + 37x + x^2 = 90 + 33x + x^2 \\implies 4x = 20 \\implies x = 5$$\nMean proportional between $(5 + 7 = 12)$ and $(5 - 2 = 3)$:\n$$\\sqrt{12 \\times 3} = \\sqrt{36} = 6$$"
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - III: PROPORTION AFTER ADDITION/SUBTRACTION",
+      "examShift": "SSC CGL 23/08/2021 (Shift-02)",
+      "questionText": "If x is subtracted from each of 24, 40, 33 and 57, the numbers, so obtained are in proportion. The ratio of $(5x + 12)$ to $(4x + 15)$ is",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 3"
+        },
+        {
+          "label": "B",
+          "text": "14 : 13"
+        },
+        {
+          "label": "C",
+          "text": "7 : 4"
+        },
+        {
+          "label": "D",
+          "text": "7 : 5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{24-x}{40-x} = \\frac{33-x}{57-x}$$\n$$(24-x)(57-x) = (40-x)(33-x)$$\n$$1368 - 81x = 1320 - 73x \\implies 8x = 48 \\implies x = 6$$\n$$\\text{Ratio} = \\frac{5(6)+12}{4(6)+15} = \\frac{42}{39} = 14 : 13$$"
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - III: PROPORTION AFTER ADDITION/SUBTRACTION",
+      "examShift": "SSC MTS 27/10/2021 (Shift-02)",
+      "questionText": "When x is subtracted from each of 24, 33, 20 and 26, the number so obtained in this order are in proportion. What is the mean proportional between $(2x + 1)$ and $(5x - 11)$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "35"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "428"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{24-x}{33-x} = \\frac{20-x}{26-x}$$\n$$(24-x)(26-x) = (33-x)(20-x)$$\n$$624 - 50x = 660 - 53x \\implies 3x = 36 \\implies x = 12$$\nMean proportional between $2(12)+1 = 25$ and $5(12)-11 = 49$:\n$$\\sqrt{25 \\times 49} = 5 \\times 7 = 35$$"
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+      "questionText": "If four distinct positive numbers, a, b, c and d in the order given are in proportion then which of the following options is NOT correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "b, a, d and c, in the order given are in proportion"
+        },
+        {
+          "label": "B",
+          "text": "c, d, b and a, in the order given are in proportion."
+        },
+        {
+          "label": "C",
+          "text": "d, c, b and a, in the order given are in proportion."
+        },
+        {
+          "label": "D",
+          "text": "a, c, b and d, in the order given are in proportion."
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Given $\\frac{a}{b} = \\frac{c}{d}$.\n(A) $\\frac{b}{a} = \\frac{d}{c}$ is correct (invertendo).\n(C) $\\frac{d}{c} = \\frac{b}{a}$ is correct.\n(D) $\\frac{a}{c} = \\frac{b}{d}$ is correct (alternendo).\n(B) $\\frac{c}{d} = \\frac{b}{a}$ is incorrect because $\\frac{c}{d} = \\frac{a}{b} \\ne \\frac{b}{a}$ (unless $a=b$, but numbers are distinct)."
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-03)",
+      "questionText": "Four distinct positive numbers, 'a', 'b', 'c' and 'd', in the order given, are in proportion. 'b' is 35 more than 'a' and 'd' is 60 more than 'c'. The product of 'a' and 'c' is 5376. What is the sum of 'a', 'b', 'c' and 'd'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "400"
+        },
+        {
+          "label": "B",
+          "text": "398"
+        },
+        {
+          "label": "C",
+          "text": "397"
+        },
+        {
+          "label": "D",
+          "text": "399"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{a}{a+35} = \\frac{c}{c+60}$$\n$$60a = 35c \\implies 12a = 7c \\implies c = \\frac{12a}{7}$$\n$$ac = 5376 \\implies a \\times \\frac{12a}{7} = 5376 \\implies a^2 = 3136 \\implies a = 56$$\n$$c = \\frac{12 \\times 56}{7} = 96$$\n$$b = 56 + 35 = 91, \\quad d = 96 + 60 = 156$$\n$$\\text{Sum} = 56 + 91 + 96 + 156 = 399$$"
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 09/09/2024 (Shift-02)",
+      "questionText": "If x varies inversely as y and x = 2 when y = 6, then the value of y when x = 3 is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$x \\times y = k \\implies 2 \\times 6 = 12$$\nWhen $x = 3$:\n$$y = \\frac{12}{3} = 4$$"
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "If $a \\propto b$, $b \\propto \\frac{1}{c}$ and $c \\propto d$, then the relation between a and d is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "a \\propto \\sqrt{d}"
+        },
+        {
+          "label": "B",
+          "text": "a \\propto d"
+        },
+        {
+          "label": "C",
+          "text": "a \\propto \\frac{1}{d}"
+        },
+        {
+          "label": "D",
+          "text": "a \\propto d^2"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$a \\propto b \\propto \\frac{1}{c} \\propto \\frac{1}{d} \\implies a \\propto \\frac{1}{d}$$"
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 07/07/2022 (Shift-01)",
+      "questionText": "M is inversely proportional to N. If M is 20, then N is 70. If N = 50, then what is the value of M?",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "700"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "600"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$M \\times N = 20 \\times 70 = 1400$$\nWhen $N = 50$:\n$$M = \\frac{1400}{50} = 28$$"
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 19/07/2023 (Shift-01)",
+      "questionText": "A varies directly as $(B + 18)$ and A = 108 when B = 36. Find the value of A when B = 68.",
+      "options": [
+        {
+          "label": "A",
+          "text": "75"
+        },
+        {
+          "label": "B",
+          "text": "86"
+        },
+        {
+          "label": "C",
+          "text": "127"
+        },
+        {
+          "label": "D",
+          "text": "172"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$A = k(B + 18) \\implies 108 = k(36 + 18) = 54k \\implies k = 2$$\nWhen $B = 68$:\n$$A = 2(68 + 18) = 2(86) = 172$$"
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC Phase-XI 27/06/2023 (Shift-03)",
+      "questionText": "A varies directly with B. When A = 52, B = 91. Find the value of A when B = 126.",
+      "options": [
+        {
+          "label": "A",
+          "text": "76"
+        },
+        {
+          "label": "B",
+          "text": "84"
+        },
+        {
+          "label": "C",
+          "text": "72"
+        },
+        {
+          "label": "D",
+          "text": "70"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\frac{A}{B} = \\frac{52}{91} = \\frac{4}{7}$$\nWhen $B = 126$:\n$$A = \\frac{4}{7} \\times 126 = 72$$"
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-04)",
+      "questionText": "M varies inversely as $(N^2 + 3)$. If M = 3 when N = 3, then what will be the value of M when $N^2 = 69$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{1}{2}"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "\\sqrt{69}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{1}{4}"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$M(N^2 + 3) = k \\implies 3(3^2 + 3) = 3(12) = 36$$\nWhen $N^2 = 69$:\n$$M(69 + 3) = 36 \\implies 72M = 36 \\implies M = \\frac{1}{2}$$"
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 05/12/2022 (Shift-02)",
+      "questionText": "A varies directly as the positive square root of B, and inversely as the cube of C. If A = 15, when B = 27 and C = 2, then find B when A = 9 and C = 2.",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{281}{42}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{243}{25}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{264}{37}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{275}{51}"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Since $C = 2$ in both cases, $A \\propto \\sqrt{B}$.\n$$\\frac{15}{9} = \\frac{\\sqrt{27}}{\\sqrt{B}} \\implies \\frac{5}{3} = \\frac{3\\sqrt{3}}{\\sqrt{B}}$$\n$$5\\sqrt{B} = 9\\sqrt{3} \\implies B = \\frac{81 \\times 3}{25} = \\frac{243}{25}$$"
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-01)",
+      "questionText": "A's marks in Mathematics are directly proportional to practice time. In 6 hours of practice, A gets 70 marks. What should be the practice time (approximately) to get 90 marks?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 hours"
+        },
+        {
+          "label": "B",
+          "text": "8.3 hours"
+        },
+        {
+          "label": "C",
+          "text": "7 hours"
+        },
+        {
+          "label": "D",
+          "text": "7.7 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{T_1}{T_2} = \\frac{M_1}{M_2} \\implies \\frac{6}{T} = \\frac{70}{90} = \\frac{7}{9}$$\n$$T = \\frac{54}{7} \\approx 7.71 \\approx 7.7\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+      "questionText": "A function of two variable varies directly with x and inversely with y. Determine function when x = 5 and y = 3. Given that, for x = 0 and y = 1, f = 15 and for x = 1 and y = 15, f = 2.",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let $f(x, y) = k_1 x + \\frac{k_2}{y}$.\nFor $x = 0, y = 1$: $15 = 0 + k_2 \\implies k_2 = 15$.\nFor $x = 1, y = 15$: $2 = k_1(1) + \\frac{15}{15} \\implies k_1 = 1$.\nWhen $x = 5, y = 3$:\n$$f = 1(5) + \\frac{15}{3} = 5 + 5 = 10$$"
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 25/09/2024 (Shift-03)",
+      "questionText": "'x' varies directly with the cube of 'y', and inversely with the square of 'z'. If $x = \\frac{1}{36}$ when $y = 2$ and $z = 3$, then what is the value of 800x when $y = 3$ and $z = 5$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{9}{800}"
+        },
+        {
+          "label": "B",
+          "text": "27"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{800}{9}"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$x = k \\frac{y^3}{z^2} \\implies \\frac{1}{36} = k \\frac{2^3}{3^2} = k \\frac{8}{9} \\implies k = \\frac{1}{32}$$\nWhen $y = 3, z = 5$:\n$$x = \\frac{1}{32} \\times \\frac{3^3}{5^2} = \\frac{27}{800}$$\n$$800x = 800 \\times \\frac{27}{800} = 27$$"
+    },
+    {
+      "questionNumber": 85,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 12/09/2023 (Shift-02)",
+      "questionText": "y is directly proportional to x + 3 and y = 8 when x = 1, x inversely proportional to z and x = 2 when z = 6. Find the relation between y and z.",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{y-6}{z-24}"
+        },
+        {
+          "label": "B",
+          "text": "z(y - 6) = 24"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{y-6}{z-12}"
+        },
+        {
+          "label": "D",
+          "text": "z(y - 6) = 12"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$y = k_1(x + 3) \\implies 8 = k_1(4) \\implies k_1 = 2 \\implies y - 6 = 2x$$\n$$x = \\frac{k_2}{z} \\implies 2 = \\frac{k_2}{6} \\implies k_2 = 12 \\implies x = \\frac{12}{z}$$\n$$y - 6 = 2 \\left(\\frac{12}{z}\\right) = \\frac{24}{z} \\implies z(y - 6) = 24$$"
+    },
+    {
+      "questionNumber": 86,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-02)",
+      "questionText": "The age of a tree depends on the number of rings in the trunk. The value of a such tree is proportional to its age. If a tree with 40 rings and 50 years of age has a value of ₹50,000, then a tree with 30 rings is its value is ____ years of age and its value is ₹____.",
+      "options": [
+        {
+          "label": "A",
+          "text": "37.5, 57500"
+        },
+        {
+          "label": "B",
+          "text": "37.5, 37500"
+        },
+        {
+          "label": "C",
+          "text": "57.5, 57500"
+        },
+        {
+          "label": "D",
+          "text": "57.5, 37500"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Age per ring $= \\frac{50}{40} = 1.25$ years.\nFor 30 rings, age $= 30 \\times 1.25 = 37.5$ years.\nValue per year of age $= \\frac{50000}{50} = ₹1000$.\nFor 37.5 years, value $= 37.5 \\times 1000 = ₹37,500$."
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 12/09/2023 (Shift-01)",
+      "questionText": "The falling height of an object is directly proportional to the square of the time. An object falls 80 cm in 4 seconds. Then in 8 seconds, from how much height (in cm) will the object fall?",
+      "options": [
+        {
+          "label": "A",
+          "text": "420"
+        },
+        {
+          "label": "B",
+          "text": "320"
+        },
+        {
+          "label": "C",
+          "text": "480"
+        },
+        {
+          "label": "D",
+          "text": "360"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{H_1}{H_2} = \\left(\\frac{t_1}{t_2}\\right)^2$$\n$$\\frac{80}{H_2} = \\left(\\frac{4}{8}\\right)^2 = \\frac{1}{4} \\implies H_2 = 80 \\times 4 = 320\\text{ cm}$$"
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 26/07/2023 (Shift-04)",
+      "questionText": "What smallest positive number should be subtracted from 2 and 3 so that 4 is the third proportion to them?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let $x$ be subtracted.\n$$\\frac{2-x}{3-x} = \\frac{3-x}{4}$$\n$$(3-x)^2 = 4(2-x) \\implies 9 - 6x + x^2 = 8 - 4x$$\n$$x^2 - 2x + 1 = 0 \\implies (x - 1)^2 = 0 \\implies x = 1$$"
+    },
+    {
+      "questionNumber": 89,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 12/09/2023 (Shift-03)",
+      "questionText": "The weight of a circular disc varies directly as the product of the square of the radius and its thickness. Two identical/similar discs have their thickness in the ratio of 16 : 9. What is the ratio of their radii if the weight of the first is four times that of the second?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 2"
+        },
+        {
+          "label": "B",
+          "text": "2 : 3"
+        },
+        {
+          "label": "C",
+          "text": "3 : 2"
+        },
+        {
+          "label": "D",
+          "text": "2 : 1"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\frac{W_1}{W_2} = \\left(\\frac{r_1}{r_2}\\right)^2 \\times \\frac{t_1}{t_2}$$\n$$4 = \\left(\\frac{r_1}{r_2}\\right)^2 \\times \\frac{16}{9} \\implies \\left(\\frac{r_1}{r_2}\\right)^2 = \\frac{36}{16} = \\frac{9}{4} \\implies \\frac{r_1}{r_2} = \\frac{3}{2} = 3 : 2$$"
+    },
+    {
+      "questionNumber": 90,
+      "typeHeader": "TYPE - IV: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 14/09/2023 (Shift-02)",
+      "questionText": "The weight of a cube varies directly as the product of its volume and its density. The ratio of densities of the materials of the first cube and second cube is 27 : 16. If the weight of the first cube is 4 times the weight of the second cube, then what is the ratio of the edges of the first cube and second cube?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 2"
+        },
+        {
+          "label": "B",
+          "text": "2 : 3"
+        },
+        {
+          "label": "C",
+          "text": "3 : 4"
+        },
+        {
+          "label": "D",
+          "text": "4 : 3"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{W_1}{W_2} = \\left(\\frac{a_1}{a_2}\\right)^3 \\times \\frac{d_1}{d_2}$$\n$$4 = \\left(\\frac{a_1}{a_2}\\right)^3 \\times \\frac{27}{16} \\implies \\left(\\frac{a_1}{a_2}\\right)^3 = \\frac{64}{27} \\implies \\frac{a_1}{a_2} = \\frac{4}{3} = 4 : 3$$"
+    }
+  ]
+}

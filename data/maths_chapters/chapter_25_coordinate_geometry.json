@@ -1,0 +1,2297 @@
+{
+  "chapterNumber": 25,
+  "chapterCode": "SSC_MATHS_CH_25_CO_ORDINATE_GEOMETRY",
+  "chapterTitleEnglish": "Co-Ordinate Geometry",
+  "chapterTitleHindi": "निर्देशांक ज्यामिति",
+  "totalQuestions": 88,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Find the distance between the points $A(6, 2)$ and $B(9, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(9-6)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "Find the distance between the points $A(2, 4)$ and $B(5, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(5-2)^2 + (8-4)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "Calculate the slope of the straight line passing through points $A(8, 10)$ and $B(13, 21)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{11}$"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{11}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{11}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{21 - 10}{13 - 8} = \\frac{11}{5}$."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "Find the distance between the points $A(8, 6)$ and $B(11, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(11-8)^2 + (10-6)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "Calculate the slope of the straight line passing through points $A(1, 3)$ and $B(9, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\frac{5}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{8}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{8 - 3}{9 - 1} = \\frac{5}{8}$."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "Find the distance between the points $A(4, 8)$ and $B(7, 12)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(7-4)^2 + (12-8)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "Find the distance between the points $A(0, 0)$ and $B(3, 4)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(3-0)^2 + (4-0)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Find the distance between the points $A(6, 2)$ and $B(9, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(9-6)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "Find the distance between the points $A(2, 4)$ and $B(5, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(5-2)^2 + (8-4)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Find the distance between the points $A(8, 6)$ and $B(11, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(11-8)^2 + (10-6)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Find the distance between the points $A(4, 8)$ and $B(7, 12)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(7-4)^2 + (12-8)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "Find the distance between the points $A(0, 0)$ and $B(3, 4)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(3-0)^2 + (4-0)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Find the distance between the points $A(6, 2)$ and $B(9, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(9-6)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "Find the distance between the points $A(2, 4)$ and $B(5, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(5-2)^2 + (8-4)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "Find the distance between the points $A(8, 6)$ and $B(11, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(11-8)^2 + (10-6)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "TYPE - V: CENTROID",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(3, 4)$"
+        },
+        {
+          "label": "B",
+          "text": "$(4, 3)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, 3)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 4)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "TYPE - I: DISTANCE FORMULA",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "Find the distance between the points $A(4, 8)$ and $B(7, 12)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$d = \\sqrt{(7-4)^2 + (12-8)^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "questionNumber": 85,
+      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5, 7)$"
+        },
+        {
+          "label": "B",
+          "text": "$(6, 7)$"
+        },
+        {
+          "label": "C",
+          "text": "$(5, 8)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 6)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+    },
+    {
+      "questionNumber": 86,
+      "typeHeader": "TYPE - I: SLOPE OF LINE",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - III: INTERCEPT FORM",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+    }
+  ]
+}

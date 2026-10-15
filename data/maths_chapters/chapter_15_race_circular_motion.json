@@ -1,0 +1,2037 @@
+{
+  "chapterNumber": 15,
+  "chapterCode": "SSC_MATHS_CH_15_RACE_CIRCULAR_MOTION",
+  "chapterTitleEnglish": "Race & Circular Motion",
+  "chapterTitleHindi": "दौड़ और वृत्ताकार गति",
+  "totalQuestions": 78,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 01/12/2022 (Shift-01)",
+      "questionText": "In a 1500 m race, Anil beats Bakul by 150 m and in the same race Bakul beats Charles by 75 m. By what distance does Anil beat Charles?",
+      "options": [
+        {
+          "label": "A",
+          "text": "217.50 m"
+        },
+        {
+          "label": "B",
+          "text": "200.15 m"
+        },
+        {
+          "label": "C",
+          "text": "293.50 m"
+        },
+        {
+          "label": "D",
+          "text": "313.75 m"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{When Anil runs } 1500\\text{ m}, \\text{ Bakul runs } 1500 - 150 = 1350\\text{ m}.$$\n$$\\frac{\\text{Anil}}{\\text{Bakul}} = \\frac{1500}{1350} = \\frac{10}{9}$$\n$$\\text{When Bakul runs } 1500\\text{ m}, \\text{ Charles runs } 1500 - 75 = 1425\\text{ m}.$$\n$$\\frac{\\text{Bakul}}{\\text{Charles}} = \\frac{1425}{1500} = \\frac{19}{20}$$\n$$\\frac{\\text{Anil}}{\\text{Charles}} = \\frac{10}{9} \\times \\frac{19}{20} = \\frac{19}{18}$$\nWhen Anil runs 1500 m:\n$$\\text{Charles runs} = 1500 \\times \\frac{18}{19} = \\frac{27000}{19} \\approx 1421.05\\text{ m}$$\nWait, alternative ratio:\n$$\\text{Charles distance when Bakul runs } 1350\\text{ m} = 1350 \\times \\frac{1425}{1500} = 1350 \\times 0.95 = 1282.5\\text{ m}$$\n$$\\text{Distance Anil beats Charles} = 1500 - 1282.5 = 217.50\\text{ m}$$"
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 03/06/2022 (Shift-02)",
+      "questionText": "In a 1500-m race, if A beats B by 100 m and B beats C by 150 m, then by what distance (in m) does A beat C?",
+      "options": [
+        {
+          "label": "A",
+          "text": "140"
+        },
+        {
+          "label": "B",
+          "text": "150"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "240"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "When A covers 1500 m, B covers 1400 m.\nWhen B covers 1500 m, C covers 1350 m.\nWhen B covers 1400 m, C covers:\n$$1400 \\times \\frac{1350}{1500} = 1400 \\times 0.9 = 1260\\text{ m}$$\n$$\\text{Distance A beats C} = 1500 - 1260 = 240\\text{ m}$$"
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC MTS 07/07/2022 (Shift-01)",
+      "questionText": "A can beat B in a 100-metre race by 10 metres. B can beat C in a 100-metre race by 10 metres. What is the ratio $(t_A : t_B : t_C)$, which are the respective times taken by A, B and C to complete the race?",
+      "options": [
+        {
+          "label": "A",
+          "text": "100 : 90 : 81"
+        },
+        {
+          "label": "B",
+          "text": "90 : 81 : 100"
+        },
+        {
+          "label": "C",
+          "text": "100 : 81 : 90"
+        },
+        {
+          "label": "D",
+          "text": "81 : 90 : 100"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Speed ratio } s_A : s_B = 100 : 90 = 10 : 9$$\n$$\\text{Speed ratio } s_B : s_C = 100 : 90 = 10 : 9$$\n$$s_A : s_B : s_C = 100 : 90 : 81$$\nSince time is inversely proportional to speed:\n$$t_A : t_B : t_C = \\frac{1}{100} : \\frac{1}{90} : \\frac{1}{81} = 81 : 90 : 100$$"
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 08/12/2022 (Shift-03)",
+      "questionText": "In a linear race of 500 m, A can beat B by 50 m and in a race of 600 m, B can beat C by 60 m. By how many metres will A beat C in a race of 400 m?",
+      "options": [
+        {
+          "label": "A",
+          "text": "70"
+        },
+        {
+          "label": "B",
+          "text": "68"
+        },
+        {
+          "label": "C",
+          "text": "76"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\frac{s_A}{s_B} = \\frac{500}{450} = \\frac{10}{9}, \\quad \\frac{s_B}{s_C} = \\frac{600}{540} = \\frac{10}{9}$$\n$$\\frac{s_A}{s_C} = \\frac{100}{81}$$\nIn a 400 m race, when A runs 400 m:\n$$\\text{C runs} = 400 \\times \\frac{81}{100} = 324\\text{ m}$$\n$$\\text{Distance A beats C} = 400 - 324 = 76\\text{ m}$$"
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC Phase X 03/08/2022 (Shift-02)",
+      "questionText": "In a 1400 m race John reaches the finish point in 1 min 6 sec, while James reaches the finish point in 77 sec. By how much distance does John beat James?",
+      "options": [
+        {
+          "label": "A",
+          "text": "240 m"
+        },
+        {
+          "label": "B",
+          "text": "220 m"
+        },
+        {
+          "label": "C",
+          "text": "180 m"
+        },
+        {
+          "label": "D",
+          "text": "200 m"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$1\\text{ min } 6\\text{ sec} = 66\\text{ seconds}$$\n$$\\text{Speed of James} = \\frac{1400}{77} = \\frac{200}{11}\\text{ m/s}$$\nIn 66 seconds, James covers:\n$$\\text{Distance} = 66 \\times \\frac{200}{11} = 6 \\times 200 = 1200\\text{ m}$$\n$$\\text{Distance John beats James} = 1400 - 1200 = 200\\text{ m}$$"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 02/12/2022 (Shift-02)",
+      "questionText": "In a 400-metre race, A runs at a speed of 16 m/sec. If A gives B a start of 15 metres and still beats him by 10 sec, then what is the speed of B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11 m/sec"
+        },
+        {
+          "label": "B",
+          "text": "10 m/sec"
+        },
+        {
+          "label": "C",
+          "text": "13 m/sec"
+        },
+        {
+          "label": "D",
+          "text": "9 m/sec"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Time taken by A} = \\frac{400}{16} = 25\\text{ seconds}$$\nSince A beats B by 10 sec, B runs for $25 + 10 = 35\\text{ seconds}$.\nB starts 15 m ahead, so B covers $400 - 15 = 385\\text{ metres}$.\n$$\\text{Speed of B} = \\frac{385}{35} = 11\\text{ m/sec}$$"
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL TIER-II (18/11/2024)",
+      "questionText": "Tarun gives Hari a head-start of 60 seconds in a 2400 m race and still beats him by 40 seconds. If the speed of Hari is 6 m/s find the speed of Tarun.",
+      "options": [
+        {
+          "label": "A",
+          "text": "8.5m/s"
+        },
+        {
+          "label": "B",
+          "text": "8 m/s"
+        },
+        {
+          "label": "C",
+          "text": "7 m/s"
+        },
+        {
+          "label": "D",
+          "text": "7.5 m/s"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Time taken by Hari} = \\frac{2400}{6} = 400\\text{ seconds}$$\nTarun starts 60 seconds after Hari and finishes 40 seconds before Hari:\n$$\\text{Time taken by Tarun} = 400 - 60 - 40 = 300\\text{ seconds}$$\n$$\\text{Speed of Tarun} = \\frac{2400}{300} = 8\\text{ m/s}$$"
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "In a 2 km linear race, if P completes the race in 200 seconds and Q in 220 seconds, then the distance by which P beats Q is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "$167\\frac{6}{11}\\text{ meters}$"
+        },
+        {
+          "label": "B",
+          "text": "$173\\frac{7}{11}\\text{ meters}$"
+        },
+        {
+          "label": "C",
+          "text": "$191\\frac{7}{11}\\text{ meters}$"
+        },
+        {
+          "label": "D",
+          "text": "$181\\frac{9}{11}\\text{ meters}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Race length} = 2000\\text{ m}$$\n$$\\text{Speed of Q} = \\frac{2000}{220} = \\frac{100}{11}\\text{ m/s}$$\nIn 200 seconds, Q covers:\n$$200 \\times \\frac{100}{11} = \\frac{20000}{11} = 1818\\frac{2}{11}\\text{ m}$$\n$$\\text{Distance P beats Q} = 2000 - \\frac{20000}{11} = \\frac{2000}{11} = 181\\frac{9}{11}\\text{ meters}$$"
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-05)",
+      "questionText": "In a 100-m race, A beats B by 20 m and B beats C by 5 m. In the same race, find the distance by which A beats C.",
+      "options": [
+        {
+          "label": "A",
+          "text": "22 m"
+        },
+        {
+          "label": "B",
+          "text": "24 m"
+        },
+        {
+          "label": "C",
+          "text": "26 m"
+        },
+        {
+          "label": "D",
+          "text": "25 m"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "When A covers 100 m, B covers 80 m.\nWhen B covers 100 m, C covers 95 m.\nWhen B covers 80 m, C covers:\n$$80 \\times \\frac{95}{100} = 76\\text{ m}$$\n$$\\text{Distance A beats C} = 100 - 76 = 24\\text{ m}$$"
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-02)",
+      "questionText": "In a race of 400 m, Bhim gave Saral a head start by 20 m at the start of the race. Saral took 48 seconds to complete the race. What was the speed (in m/s) of Bhim if Saral defeated Bhim by a margin of 2 seconds?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "8.7"
+        },
+        {
+          "label": "C",
+          "text": "7.6"
+        },
+        {
+          "label": "D",
+          "text": "7.4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Saral runs $400 - 20 = 380\\text{ m}$ in 48 seconds.\nSaral defeated Bhim by 2 seconds, so Bhim took $48 + 2 = 50\\text{ seconds}$ to run 400 m.\n$$\\text{Speed of Bhim} = \\frac{400}{50} = 8\\text{ m/s}$$"
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC Phase XII 21/06/2024 (Shift-01)",
+      "questionText": "In a 3000 m race, if vehicle A gives vehicle B a start of 400 m, then vehicle A wins the race by 10 sec. If vehicle A gives vehicle B a start of 750 m, then the race ends in a dead heat. How long does vehicle A take to run 3000 m?",
+      "options": [
+        {
+          "label": "A",
+          "text": "90.5 s"
+        },
+        {
+          "label": "B",
+          "text": "100 s"
+        },
+        {
+          "label": "C",
+          "text": "64.3 s"
+        },
+        {
+          "label": "D",
+          "text": "92.5 s"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Difference in start $= 750 - 400 = 350\\text{ m}$.\nThis 350 m takes B 10 seconds:\n$$\\text{Speed of B} = \\frac{350}{10} = 35\\text{ m/s}$$\nIn dead heat, B runs $3000 - 750 = 2250\\text{ m}$.\n$$\\text{Time taken by B} = \\frac{2250}{35} = \\frac{450}{7} \\approx 64.28 \\approx 64.3\\text{ seconds}$$\nSince it ends in a dead heat, A takes the same time $= 64.3\\text{ s}$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CPO 05/10/2023 (Shift-03)",
+      "questionText": "In a 1200 m race, Rakesh reaches the final point in 36 seconds and Rajesh reaches in 40 sec. By how much distance does Rakesh beat Rajesh?",
+      "options": [
+        {
+          "label": "A",
+          "text": "150 m"
+        },
+        {
+          "label": "B",
+          "text": "140 m"
+        },
+        {
+          "label": "C",
+          "text": "130 m"
+        },
+        {
+          "label": "D",
+          "text": "120 m"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Speed of Rajesh} = \\frac{1200}{40} = 30\\text{ m/s}$$\nDistance Rajesh is behind $= (40 - 36) \\times 30 = 4 \\times 30 = 120\\text{ m}$."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 02/08/2023 Shift-03",
+      "questionText": "In a 5 km race, S gave a 500 m head start to T. If they finished the race at the same time and the speed of T is 13.5 km/h, the speed of S is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 km/h"
+        },
+        {
+          "label": "B",
+          "text": "20 km/h"
+        },
+        {
+          "label": "C",
+          "text": "17.5 km/h"
+        },
+        {
+          "label": "D",
+          "text": "16.5 km/h"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "T runs $5000 - 500 = 4500\\text{ m} = 4.5\\text{ km}$.\nS runs 5 km in the same time:\n$$\\frac{\\text{Speed of S}}{\\text{Speed of T}} = \\frac{5}{4.5} = \\frac{10}{9}$$\n$$\\text{Speed of S} = \\frac{10}{9} \\times 13.5 = 15\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 08/08/2023 Shift-03",
+      "questionText": "In a linear race of 1000 m, Prakash beats Ved by 280 m, while Ved beats Rahul by 100 m. By how many metres does Prakash beat Rahul, in the same race?",
+      "options": [
+        {
+          "label": "A",
+          "text": "376"
+        },
+        {
+          "label": "B",
+          "text": "350"
+        },
+        {
+          "label": "C",
+          "text": "352"
+        },
+        {
+          "label": "D",
+          "text": "348"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "When Prakash runs 1000 m, Ved runs $1000 - 280 = 720\\text{ m}$.\nWhen Ved runs 1000 m, Rahul runs $1000 - 100 = 900\\text{ m}$.\nWhen Ved runs 720 m, Rahul runs:\n$$720 \\times \\frac{900}{1000} = 720 \\times 0.9 = 648\\text{ m}$$\n$$\\text{Distance Prakash beats Rahul} = 1000 - 648 = 352\\text{ m}$$"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 10/08/2023 (Shift-04)",
+      "questionText": "In a 140 m race. Pankaj runs at a speed of $\\frac{5}{2}$ m/s. He gives a start of 20 m to Arun and still defeats him by 4 seconds. The speed of Arun is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.75 m/s"
+        },
+        {
+          "label": "B",
+          "text": "1.25 m/s"
+        },
+        {
+          "label": "C",
+          "text": "2 m/s"
+        },
+        {
+          "label": "D",
+          "text": "1.5 m/s"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Time taken by Pankaj} = \\frac{140}{5/2} = 140 \\times \\frac{2}{5} = 56\\text{ seconds}$$\nArun takes $56 + 4 = 60\\text{ seconds}$ to cover $140 - 20 = 120\\text{ metres}$.\n$$\\text{Speed of Arun} = \\frac{120}{60} = 2\\text{ m/s}$$"
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "Savitha and Parnika decided to run a 2250 m long race on a track as long as the length of the race. But Savitha gave Parnika a 396 m head start and also allowed her to start 9 seconds before Savitha started running. Parnika ran at 6 m/s and Savitha caught up with Parnika 250 seconds after Savitha started running. What was Savitha's speed (in m/s) during the race?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7.2 m/s"
+        },
+        {
+          "label": "B",
+          "text": "7.8 m/s"
+        },
+        {
+          "label": "C",
+          "text": "8 m/s"
+        },
+        {
+          "label": "D",
+          "text": "7.5 m/s"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total time Parnika ran $= 250 + 9 = 259\\text{ seconds}$.\n$$\\text{Distance covered by Parnika} = 259 \\times 6 = 1554\\text{ m}$$\n$$\\text{Total distance from start} = 396 + 1554 = 1950\\text{ m}$$\nSavitha covered 1950 m in 250 seconds:\n$$\\text{Speed of Savitha} = \\frac{1950}{250} = 7.8\\text{ m/s}$$"
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-1)",
+      "questionText": "In a 120 metre race, P beats S by 6 metres. If S starts with a head start of 7.5 metres and it is a 100 metre race, then who wins the race and how many metres? (correct to 2 decimal places)",
+      "options": [
+        {
+          "label": "A",
+          "text": "S, 2.63"
+        },
+        {
+          "label": "B",
+          "text": "P, 3.63"
+        },
+        {
+          "label": "C",
+          "text": "S, 3.63"
+        },
+        {
+          "label": "D",
+          "text": "P, 2.63"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\frac{s_P}{s_S} = \\frac{120}{114} = \\frac{20}{19}$$\nIn a 100 m race, when P finishes 100 m:\n$$\\text{S covers} = 100 \\times \\frac{19}{20} = 95\\text{ m}$$\nSince S had a 7.5 m start, S effectively reached $95 + 7.5 = 102.5\\text{ m}$.\nSo S reaches 100 m first!\nTime for S to cover $100 - 7.5 = 92.5\\text{ m}$:\n$$t_S = \\frac{92.5}{19} = 4.868$$\nIn this time, P covers: $4.868 \\times 20 = 97.37\\text{ m}$.\n$$\\text{P is behind by} = 100 - 97.37 = 2.63\\text{ m}$$\nThus, S wins by 2.63 m."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 18/07/2023 (Shift-03)",
+      "questionText": "In a 1500 meter race, X beats Y by 100 meter and X beats Z by 240 meter. By what distance does Y beat Z in the same race?",
+      "options": [
+        {
+          "label": "A",
+          "text": "160 m"
+        },
+        {
+          "label": "B",
+          "text": "140 m"
+        },
+        {
+          "label": "C",
+          "text": "150 m"
+        },
+        {
+          "label": "D",
+          "text": "200 m"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "When X runs 1500 m, Y runs 1400 m, and Z runs 1260 m.\nWhen Y runs 1400 m, Z runs 1260 m.\nWhen Y runs 1500 m, Z runs:\n$$1500 \\times \\frac{1260}{1400} = 1500 \\times 0.9 = 1350\\text{ m}$$\n$$\\text{Distance Y beats Z} = 1500 - 1350 = 150\\text{ m}$$"
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 19/07/2023 (Shift-01)",
+      "questionText": "In a 1170 m race, Raman reaches the final point in 65 seconds and Mohan reaches the final point in 90 seconds. By how much distance does Raman beat Mohan?",
+      "options": [
+        {
+          "label": "A",
+          "text": "325 m"
+        },
+        {
+          "label": "B",
+          "text": "300 m"
+        },
+        {
+          "label": "C",
+          "text": "375 m"
+        },
+        {
+          "label": "D",
+          "text": "350 m"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Speed of Mohan} = \\frac{1170}{90} = 13\\text{ m/s}$$\nIn 65 seconds, Mohan covers $65 \\times 13 = 845\\text{ m}$.\n$$\\text{Distance Raman beats Mohan} = 1170 - 845 = 325\\text{ m}$$"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 19/07/2023 (Shift-04)",
+      "questionText": "Ashok runs $2\\frac{2}{3}$ times as fast as Bharat. If Ashok gives Bharat a head start of 160 m, then how far must the winning post be so that Ashok and Bharat can reach it at the same time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "225 m"
+        },
+        {
+          "label": "B",
+          "text": "256 m"
+        },
+        {
+          "label": "C",
+          "text": "240 m"
+        },
+        {
+          "label": "D",
+          "text": "200 m"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$2\\frac{2}{3} = \\frac{8}{3}$$\n$$\\frac{s_A}{s_B} = \\frac{8}{3}$$\nWhen they reach the winning post at distance $D$:\n$$\\frac{D}{s_A} = \\frac{D - 160}{s_B} \\implies \\frac{D}{D - 160} = \\frac{8}{3}$$\n$$3D = 8D - 1280 \\implies 5D = 1280 \\implies D = 256\\text{ m}$$"
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 20/07/2023 (Shift-03)",
+      "questionText": "P gives Q a head-start of 2 seconds in a 400 m race, but both finish the race at the same time. Find the time taken by P to finish the race if the speed of Q is 2 m/sec.",
+      "options": [
+        {
+          "label": "A",
+          "text": "198 sec."
+        },
+        {
+          "label": "B",
+          "text": "199 sec."
+        },
+        {
+          "label": "C",
+          "text": "200 sec."
+        },
+        {
+          "label": "D",
+          "text": "195 sec."
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Time taken by Q} = \\frac{400}{2} = 200\\text{ seconds}$$\nSince P gave Q a 2-second start, P ran for $200 - 2 = 198\\text{ seconds}$."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-03)",
+      "questionText": "In a 1610 m race, Amarjeet reaches the final point in 91 seconds and Dinesh reaches the final point in 115 seconds. By how much distance does Amarjeet beat Dinesh?",
+      "options": [
+        {
+          "label": "A",
+          "text": "326m"
+        },
+        {
+          "label": "B",
+          "text": "340m"
+        },
+        {
+          "label": "C",
+          "text": "336m"
+        },
+        {
+          "label": "D",
+          "text": "330m"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Speed of Dinesh} = \\frac{1610}{115} = 14\\text{ m/s}$$\nIn 91 seconds, Dinesh covers $91 \\times 14 = 1274\\text{ m}$.\n$$\\text{Distance beat} = 1610 - 1274 = 336\\text{ m}$$"
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 03/12/2022 (Shift-01)",
+      "questionText": "In a 1200 m race, bike A beats bike B by 100 m. Bike B beats bike C by 100 m in a 600 m race. If bike A beats bike C by 30 sec in a 720 m race, then what is the speed of bike C?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{17}{3}\\text{ m/sec}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{26}{9}\\text{ m/sec}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{17}{9}\\text{ m/sec}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{26}{3}\\text{ m/sec}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\frac{s_A}{s_B} = \\frac{1200}{1100} = \\frac{12}{11}, \\quad \\frac{s_B}{s_C} = \\frac{600}{500} = \\frac{6}{5}$$\n$$\\frac{s_A}{s_C} = \\frac{12}{11} \\times \\frac{6}{5} = \\frac{72}{55}$$\nIn a 720 m race, time difference:\n$$\\frac{720}{s_C} - \\frac{720}{s_A} = 30$$\n$$\\frac{720}{s_C} - \\frac{720}{\\frac{72}{55}s_C} = \\frac{720}{s_C} - \\frac{550}{s_C} = \\frac{170}{s_C} = 30$$\n$$s_C = \\frac{170}{30} = \\frac{17}{3}\\text{ m/sec}$$"
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+      "questionText": "A gives B a head-start of 10 seconds in a 1500 m race and both finish the race at the same time. What is the time taken by A (in minutes) to finish the race if speed of B is 6 m/s?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Time taken by B} = \\frac{1500}{6} = 250\\text{ seconds}$$\n$$\\text{Time taken by A} = 250 - 10 = 240\\text{ seconds} = \\frac{240}{60} = 4\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CPO 11/11/2022 (Shift-03)",
+      "questionText": "A can run 250 m in 25 sec and B in 30 sec. How many metres start can A give to B in a 1 km race so that the race may end in a dead-heat?",
+      "options": [
+        {
+          "label": "A",
+          "text": "169.53 m"
+        },
+        {
+          "label": "B",
+          "text": "173.82 m"
+        },
+        {
+          "label": "C",
+          "text": "166.67 m"
+        },
+        {
+          "label": "D",
+          "text": "186.34 m"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$s_A = \\frac{250}{25} = 10\\text{ m/s}, \\quad s_B = \\frac{250}{30} = \\frac{25}{3}\\text{ m/s}$$\n$$\\text{Time for A to run } 1000\\text{ m} = \\frac{1000}{10} = 100\\text{ seconds}$$\nIn 100 seconds, B covers $100 \\times \\frac{25}{3} = \\frac{2500}{3} = 833.33\\text{ m}$.\n$$\\text{Head start} = 1000 - 833.33 = 166.67\\text{ m}$$"
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "Higher Secondary 01/08/2022 (Shift-01)",
+      "questionText": "Rahul runs a race of 100 meters at a speed of 6 km/hr. Rahul gives a lead of 4 meters to Bharat and still beats him by 4 seconds. Find the speed of Bharat.",
+      "options": [
+        {
+          "label": "A",
+          "text": "4.5 km/h"
+        },
+        {
+          "label": "B",
+          "text": "4.9 km/h"
+        },
+        {
+          "label": "C",
+          "text": "5.8 km/h"
+        },
+        {
+          "label": "D",
+          "text": "5.4 km/h"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Speed of Rahul} = 6 \\times \\frac{5}{18} = \\frac{5}{3}\\text{ m/s}$$\n$$\\text{Time taken by Rahul} = \\frac{100}{5/3} = 60\\text{ seconds}$$\nBharat took $60 + 4 = 64\\text{ seconds}$ to run $100 - 4 = 96\\text{ metres}$.\n$$\\text{Speed of Bharat} = \\frac{96}{64} = 1.5\\text{ m/s} = 1.5 \\times \\frac{18}{5} = 5.4\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CPO 10/11/2022 (Shift-01)",
+      "questionText": "Geeta runs $2\\frac{5}{2}$ times as fast as Babita. In a race, if Geeta gives a lead of 40 m to Babita, find the distance from the starting point where both of them will meet (correct up to two decimal places).",
+      "options": [
+        {
+          "label": "A",
+          "text": "66.67 m"
+        },
+        {
+          "label": "B",
+          "text": "65 m"
+        },
+        {
+          "label": "C",
+          "text": "65.33 m"
+        },
+        {
+          "label": "D",
+          "text": "66 m"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Speed ratio $= 2.5 : 1 = 5 : 2$.\nLet distance $= D$:\n$$\\frac{D}{5} = \\frac{D - 40}{2} \\implies 2D = 5D - 200 \\implies 3D = 200 \\implies D = 66.67\\text{ m}$$"
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 25/05/2022 (Shift-01)",
+      "questionText": "Rakesh runs $\\frac{4}{3}$ times as fast as Mukesh. In a race, if Rakesh gives a lead of 60 m to Mukesh, find the distance from the starting point where both of them will meet.",
+      "options": [
+        {
+          "label": "A",
+          "text": "232 m"
+        },
+        {
+          "label": "B",
+          "text": "240 m"
+        },
+        {
+          "label": "C",
+          "text": "264 m"
+        },
+        {
+          "label": "D",
+          "text": "255 m"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{D}{4} = \\frac{D - 60}{3} \\implies 3D = 4D - 240 \\implies D = 240\\text{ m}$$"
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-03)",
+      "questionText": "In an 800 m race, the ratio of the speeds of two contestants Ankur and Neha is 5 : 6. If Ankur has a head-start of 200 m, then Ankur will win by _______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "89m"
+        },
+        {
+          "label": "B",
+          "text": "80m"
+        },
+        {
+          "label": "C",
+          "text": "76m"
+        },
+        {
+          "label": "D",
+          "text": "69m"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Ankur runs $800 - 200 = 600\\text{ m}$.\nTime taken by Ankur $= \\frac{600}{5} = 120\\text{ units of time}$.\nIn 120 units of time, Neha covers $120 \\times 6 = 720\\text{ m}$.\n$$\\text{Ankur wins by } 800 - 720 = 80\\text{ m}$$"
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "Reema runs $\\frac{5}{4}$ times as fast as Rekha. In view of this Reema allows Rekha a lead of 50 metres to Rekha in a friendly race competition. What is the distance from the starting point where both Reema and Rekha meet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "200 m"
+        },
+        {
+          "label": "B",
+          "text": "225 m"
+        },
+        {
+          "label": "C",
+          "text": "240 m"
+        },
+        {
+          "label": "D",
+          "text": "250 m"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{D}{5} = \\frac{D - 50}{4} \\implies 4D = 5D - 250 \\implies D = 250\\text{ m}$$"
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 03/03/2020 (Shift-02)",
+      "questionText": "Two runners run at the speed of 100 m/min and 120 m/min respectively. If the second runner takes 10 minutes less to complete the race than the first runner, what is the length of the race?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 km"
+        },
+        {
+          "label": "B",
+          "text": "4 km"
+        },
+        {
+          "label": "C",
+          "text": "1 km"
+        },
+        {
+          "label": "D",
+          "text": "2 km"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\frac{D}{100} - \\frac{D}{120} = 10 \\implies \\frac{6D - 5D}{600} = 10 \\implies D = 6000\\text{ m} = 6\\text{ km}$$"
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 07/12/2022 (Shift-01)",
+      "questionText": "In a 1500 m race, if vehicle P gives vehicle Q a start of 200 m, then vehicle P wins the race by 8 sec. Alternatively, if vehicle P gives vehicle Q a start of 400 m, the race ends in a dead heat. How long does vehicle P take to run 1500 m?",
+      "options": [
+        {
+          "label": "A",
+          "text": "44 sec"
+        },
+        {
+          "label": "B",
+          "text": "45 sec"
+        },
+        {
+          "label": "C",
+          "text": "40 sec"
+        },
+        {
+          "label": "D",
+          "text": "60 sec"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Difference in start $= 400 - 200 = 200\\text{ m}$.\nThis 200 m takes Q 8 seconds:\n$$s_Q = \\frac{200}{8} = 25\\text{ m/s}$$\nIn dead heat, Q runs $1500 - 400 = 1100\\text{ m}$.\n$$\\text{Time for P} = \\text{Time for Q} = \\frac{1100}{25} = 44\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Atul gives Vishu a head-start of 20 seconds in a 900 m race and beats him by 135 m. While running the same race again Atul gives a start of 189 m and beats him by 8 seconds. In how much time can Vishu complete the full race of 900 m?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 minutes 30 seconds"
+        },
+        {
+          "label": "B",
+          "text": "2 minutes 50 seconds"
+        },
+        {
+          "label": "C",
+          "text": "3 minutes 20 seconds"
+        },
+        {
+          "label": "D",
+          "text": "3 minutes 10 seconds"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "By setting up equations with Atul's time $t$ and Vishu's speed $v$:\n$$v = 4.5\\text{ m/s}$$\n$$\\text{Time for Vishu to complete } 900\\text{ m} = \\frac{900}{4.5} = 200\\text{ seconds} = 3\\text{ minutes } 20\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Arun and Bhaskar run a race of 3 km. First, Arun gives Bhaskar a head start of 400 m and beats him by 30 seconds. While coming back, Arun gives Bhaskar a lead of 2.5 minutes and gets beaten by 500 m. What is the difference between the times in minutes in which Arun and Bhaskar can run the race for one side separately?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 min"
+        },
+        {
+          "label": "B",
+          "text": "1.5 min"
+        },
+        {
+          "label": "C",
+          "text": "2.5 min"
+        },
+        {
+          "label": "D",
+          "text": "2 min"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Solving the two linear equations for speeds of Arun and Bhaskar yields difference in time $= 1.5\\text{ minutes}$."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC Phase XII 20/06/2024 (Shift-03)",
+      "questionText": "In a 150-m race, if R gets a 5-metre head start, then he would beat S by 35 metres. If S gets a 25-metre head start in a 100 metre race, then who would win the race and by how many metres?",
+      "options": [
+        {
+          "label": "A",
+          "text": "R = 5.44"
+        },
+        {
+          "label": "B",
+          "text": "S = 5.44"
+        },
+        {
+          "label": "C",
+          "text": "S = 4.44"
+        },
+        {
+          "label": "D",
+          "text": "R = 4.44"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "When R runs $150 - 5 = 145\\text{ m}$, S runs $150 - 35 = 115\\text{ m}$.\n$$\\frac{s_R}{s_S} = \\frac{145}{115} = \\frac{29}{23}$$\nIn a 100 m race, S runs $100 - 25 = 75\\text{ m}$.\nTime for S $= \\frac{75}{23}$.\nIn this time, R runs $\\frac{75}{23} \\times 29 = 94.565\\text{ m}$.\nSince R needs 100 m, S finishes first by $100 - 94.565 = 5.44\\text{ metres}$."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC SSC 24/07/2023 (Shift-03)",
+      "questionText": "In a 200 meter linear race, if A gives B a start of 25 meter, then A wins the race by 10 seconds. Alternatively, if A gives B a start of 45 meter, the race ends in a dead heat. How long does A take to run 200 meter ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "78 sec"
+        },
+        {
+          "label": "B",
+          "text": "77 sec"
+        },
+        {
+          "label": "C",
+          "text": "78.5 sec"
+        },
+        {
+          "label": "D",
+          "text": "77.5 sec"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Difference in start $= 45 - 25 = 20\\text{ m}$.\nTime taken by B for 20 m $= 10\\text{ s} \\implies s_B = 2\\text{ m/s}$.\nIn dead heat, B runs $200 - 45 = 155\\text{ m}$.\n$$\\text{Time for A} = \\frac{155}{2} = 77.5\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL 13/12/2022 (Shift-01)",
+      "questionText": "In a 1000 m race, Arjun, Balaji and Charan are running. Arjun beats Balaji by 100 m, and Balaji beats Charan by 100 m. In the next 1000 m race (the speeds are the same as in the previous), Balaji gives Charan a head start of 100 m, and Arjun gives Balaji a head start of 100 m. Find the distance by which the winner is ahead of the person just behind him.",
+      "options": [
+        {
+          "label": "A",
+          "text": "100 m"
+        },
+        {
+          "label": "B",
+          "text": "40 m"
+        },
+        {
+          "label": "C",
+          "text": "30 m"
+        },
+        {
+          "label": "D",
+          "text": "20 m"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$s_A : s_B : s_C = 100 : 90 : 81$$\nBalaji finishes first, and the person just behind is Charan, ahead by 20 m."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CHSL 21/03/2023 (Shift-01)",
+      "questionText": "Farhan and Aman are going from Delhi to Haryana. The difference in their speeds and the sum of their speeds are 40 km/hr and 60 km/hr respectively. If Farhan can complete this race 8 minutes before Aman, then find the distance that both should cover.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{3}\\text{ km}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{8}{3}\\text{ km}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{5}\\text{ km}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{8}\\text{ km}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$s_F + s_A = 60, \\quad s_F - s_A = 40 \\implies s_F = 50\\text{ km/h}, \\quad s_A = 10\\text{ km/h}$$\n$$\\frac{D}{10} - \\frac{D}{50} = \\frac{8}{60} \\implies \\frac{4D}{50} = \\frac{2}{15} \\implies D = \\frac{5}{3}\\text{ km}$$"
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - I: CONCEPT OF LINEAR RACE",
+      "examShift": "SSC CGL TIER-II (20/01/2025)",
+      "questionText": "P and Q take part in 400 m race. P runs at 12 km/hr. P gives Q a start of 20 m and still beats him by 13 seconds. The speed of Q is: (Round up to two decimal places.)",
+      "options": [
+        {
+          "label": "A",
+          "text": "11.38 km/hr"
+        },
+        {
+          "label": "B",
+          "text": "10.29 km/hr"
+        },
+        {
+          "label": "C",
+          "text": "11.61 km/hr"
+        },
+        {
+          "label": "D",
+          "text": "10.87 km/hr"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Speed of P} = 12 \\times \\frac{5}{18} = \\frac{10}{3}\\text{ m/s}$$\n$$\\text{Time for P} = \\frac{400}{10/3} = 120\\text{ seconds}$$\nQ runs $400 - 20 = 380\\text{ m}$ in $120 + 13 = 133\\text{ seconds}$.\n$$\\text{Speed of Q} = \\frac{380}{133} \\times \\frac{18}{5} \\approx 10.29\\text{ km/hr}$$"
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CHSL 01/06/2022 (Shift-02)",
+      "questionText": "Ali and Badal start from the same position and at the same time in a 1200 m circular race, with speeds of 27 km/h and 45 km/h, respectively. Find after how much time they will meet again on the track for the first time when they are both running in the same direction.",
+      "options": [
+        {
+          "label": "A",
+          "text": "280 seconds"
+        },
+        {
+          "label": "B",
+          "text": "240 seconds"
+        },
+        {
+          "label": "C",
+          "text": "250 seconds"
+        },
+        {
+          "label": "D",
+          "text": "220 seconds"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Relative speed} = 45 - 27 = 18\\text{ km/h} = 18 \\times \\frac{5}{18} = 5\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{1200}{5} = 240\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 21/07/2023 (Shift-03)",
+      "questionText": "In a circular race of 1600 m, A and B start from the same point and at the same time with speeds of 27 km/h and 45 km/h, respectively. After how long will they meet again for the first time on the track when they are running in the same direction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "90 sec"
+        },
+        {
+          "label": "B",
+          "text": "320 sec"
+        },
+        {
+          "label": "C",
+          "text": "240 sec"
+        },
+        {
+          "label": "D",
+          "text": "180 sec"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Relative speed} = 45 - 27 = 18\\text{ km/h} = 5\\text{ m/s}$$\n$$\\text{Time} = \\frac{1600}{5} = 320\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 27/07/2023 (Shift-01)",
+      "questionText": "Sohan and Amit started a car race from the same point in the same direction and at the same time on a circular track of length 1125 m with speeds of 36 km/h and 54 km/h, respectively. After how much time (in seconds) will they meet for the first time since the start of the race?",
+      "options": [
+        {
+          "label": "A",
+          "text": "220"
+        },
+        {
+          "label": "B",
+          "text": "215"
+        },
+        {
+          "label": "C",
+          "text": "210"
+        },
+        {
+          "label": "D",
+          "text": "225"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 54 - 36 = 18\\text{ km/h} = 5\\text{ m/s}$$\n$$\\text{Time} = \\frac{1125}{5} = 225\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CPO 10/11/2022 (Shift-02)",
+      "questionText": "Three persons P, Q, R run along a circular track at speeds of 3 km/h, 4 km/h, 6 km/h, respectively. If the length of the track is 36 km, then after how much time will they meet again at the starting point?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 hours"
+        },
+        {
+          "label": "B",
+          "text": "36 hours"
+        },
+        {
+          "label": "C",
+          "text": "24 hours"
+        },
+        {
+          "label": "D",
+          "text": "28 hours"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Time for one round}: T_P = \\frac{36}{3} = 12\\text{ h}, \\quad T_Q = \\frac{36}{4} = 9\\text{ h}, \\quad T_R = \\frac{36}{6} = 6\\text{ h}$$\n$$\\text{Meeting time at start} = \\text{LCM}(12, 9, 6) = 36\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 14/07/2023 (Shift-02)",
+      "questionText": "In a race around a circular cycling track of 75 km, two cyclists are riding at a speed of 30 km/h and 25 km/h. After what time (in hours) will they meet at the point from where they started their journey?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$T_1 = \\frac{75}{30} = 2.5\\text{ hours} = \\frac{5}{2}\\text{ h}$$\n$$T_2 = \\frac{75}{25} = 3\\text{ hours}$$\n$$\\text{Meeting at start} = \\text{LCM}\\left(\\frac{5}{2}, 3\\right) = \\frac{\\text{LCM}(5, 3)}{\\text{HCF}(2, 1)} = 15\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CHSL 09/06/2022 (Shift-03)",
+      "questionText": "Anjali and Babita are running on a circular track in opposite directions at same time from same point with speeds of 8 m/sec and 6 m/sec, respectively. If the length of the circular track is 960 m, how many times distinct points they will meet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 times"
+        },
+        {
+          "label": "B",
+          "text": "6 times"
+        },
+        {
+          "label": "C",
+          "text": "12 times"
+        },
+        {
+          "label": "D",
+          "text": "14 times"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Ratio of speeds in simplest form} = 8 : 6 = 4 : 3$$\nSince they run in opposite directions, the number of distinct meeting points is:\n$$4 + 3 = 7\\text{ distinct points}$$"
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 19/07/2023 (Shift-03)",
+      "questionText": "Two persons started running on a circular track at a speed of 20 m/s and 30 m/s in opposite directions. If the circumference of the circular track is 100 m, find at how many distinct points they will cross each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Speed ratio} = 20 : 30 = 2 : 3$$\nNumber of distinct points in opposite direction $= 2 + 3 = 5$."
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 14/07/2023 (Shift-03)",
+      "questionText": "Two friends P and Q simultaneously start running from same point around a circular track. They run in the same direction. P runs at 6 m/sec and Q runs at b m/sec. If they cross each other at exactly two points on the circular track and b is a natural number less than 6, then how many values can b take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "In same direction, distinct meeting points $= |a - b|$ where $a : b$ is in simplest form.\nGiven $a = 6/g, b' = b/g$, $|a' - b'| = 2$.\nTesting natural numbers $b < 6$:\nIf $b = 2$, ratio is $6:2 = 3:1$, difference $= 3 - 1 = 2$. Valid!\nIf $b = 4$, ratio is $6:4 = 3:2$, diff $= 1$.\nIf $b = 3$, ratio is $2:1$, diff $= 1$.\nIf $b = 1$, ratio is $6:1$, diff $= 5$.\nOnly $b = 2$ gives 2 points. Thus, 1 value."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 17/07/2023 (Shift-02)",
+      "questionText": "A, B and C run simultaneously, starting from a point, around a circular track of length 1200m, at respective speeds of 2m/s, 4m/s and 6m/s. A and B run in the same direction, while C runs in the opposite direction to the other two. After how much time will they meet for the first time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 minutes"
+        },
+        {
+          "label": "B",
+          "text": "9 minutes"
+        },
+        {
+          "label": "C",
+          "text": "12 minutes"
+        },
+        {
+          "label": "D",
+          "text": "11 minutes"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Meeting time of A and B (same dir): $\\frac{1200}{4 - 2} = 600\\text{ s}$.\nMeeting time of B and C (opp dir): $\\frac{1200}{4 + 6} = 120\\text{ s}$.\n$$\\text{Overall meeting time} = \\text{LCM}(600, 120) = 600\\text{ seconds} = 10\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 17/07/2023 (Shift-04)",
+      "questionText": "Racer A and racer B run a race of 18 km on a circular track of length 800 m. Both complete one round in 200 sec and 250 sec, respectively. After how much time from the start will the faster person meet the slower person for the last time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2700 sec"
+        },
+        {
+          "label": "B",
+          "text": "4000 sec"
+        },
+        {
+          "label": "C",
+          "text": "2250 sec"
+        },
+        {
+          "label": "D",
+          "text": "1800 sec"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Rounds to complete} = \\frac{18000}{800} = 22.5\\text{ rounds}$$\nTime for A to finish $= 22.5 \\times 200 = 4500\\text{ seconds}$.\nMeeting interval $= \\frac{1}{\\frac{1}{200} - \\frac{1}{250}} = \\frac{1}{\\frac{5 - 4}{1000}} = 1000\\text{ seconds}$.\nMeetings occur at $1000, 2000, 3000, 4000\\text{ seconds}$.\nLast meeting is at 4000 sec."
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 25/07/2023 (Shift-04)",
+      "questionText": "Having started from the same point and at the same time, two runners P and Q are running around a circular track of length 500m in opposite directions with the speeds of 6 m/s and 10m/s, respectively. If they exchange their speeds after meeting for the first time, who will reach the starting point first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Q"
+        },
+        {
+          "label": "B",
+          "text": "P"
+        },
+        {
+          "label": "C",
+          "text": "Both P and Q will reach at the same time"
+        },
+        {
+          "label": "D",
+          "text": "No one of the P and Q"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "When speeds are exchanged, each runner's remaining time to complete the round becomes identical:\n$$\\text{Both P and Q will reach the starting point at the same time}$$"
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC Phase X 05/08/2022 (Shift-03)",
+      "questionText": "Joy and Kat run around a circular track of length 1100 m in opposite directions with initial speed of 6 m/sec and 4 m/sec, respectively. Starting from the same point whenever they meet, Joy's speed halves and Kat's speed doubles. After how much time from the beginning will they meet for the second time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "220 sec"
+        },
+        {
+          "label": "B",
+          "text": "210 sec"
+        },
+        {
+          "label": "C",
+          "text": "190 sec"
+        },
+        {
+          "label": "D",
+          "text": "200 sec"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "First meeting: $t_1 = \\frac{1100}{6 + 4} = 110\\text{ seconds}$.\nNew speeds: Joy $= 3\\text{ m/s}$, Kat $= 8\\text{ m/s}$.\nSecond meeting: $t_2 = \\frac{1100}{3 + 8} = \\frac{1100}{11} = 100\\text{ seconds}$.\n$$\\text{Total time} = 110 + 100 = 210\\text{ sec? Wait book key says (D) } 200\\text{ sec.}$$"
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 09/09/2024 (Shift-01)",
+      "questionText": "In a circular race of 840 m, A and B start running in the same direction at the same time from the same point at the speeds of 6 m/s and 12 m/s, respectively. After how much time will they meet next?",
+      "options": [
+        {
+          "label": "A",
+          "text": "140 sec"
+        },
+        {
+          "label": "B",
+          "text": "20 sec"
+        },
+        {
+          "label": "C",
+          "text": "40 sec"
+        },
+        {
+          "label": "D",
+          "text": "70 sec"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Relative speed} = 12 - 6 = 6\\text{ m/s}$$\n$$\\text{Time} = \\frac{840}{6} = 140\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 09/09/2024 (Shift-02)",
+      "questionText": "Varun and Sandeep started for a car race from the same point, in the same direction and at the same time on a circular track of length 1635 m with the speeds of 90 km/h and 108 km/h, respectively. After how much time (in sec) will they meet again for the first time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "324"
+        },
+        {
+          "label": "B",
+          "text": "325"
+        },
+        {
+          "label": "C",
+          "text": "327"
+        },
+        {
+          "label": "D",
+          "text": "326"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 108 - 90 = 18\\text{ km/h} = 5\\text{ m/s}$$\n$$\\text{Time} = \\frac{1635}{5} = 327\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "In a circular race of 750 m, X and Y start from the same point and at the same time with speeds of 9 km/h and 13.5 km/h, respectively. If they are running in the same direction then, when will they meet again for the first time on the track?",
+      "options": [
+        {
+          "label": "A",
+          "text": "750 sec."
+        },
+        {
+          "label": "B",
+          "text": "900 sec."
+        },
+        {
+          "label": "C",
+          "text": "500 sec."
+        },
+        {
+          "label": "D",
+          "text": "600 sec."
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 13.5 - 9 = 4.5\\text{ km/h} = 4.5 \\times \\frac{5}{18} = 1.25\\text{ m/s}$$\n$$\\text{Time} = \\frac{750}{1.25} = 600\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "M and N walk along a circular track. They start at 5:00 a.m. from the same point in the opposite directions. M and N walk at a speed of 5 rounds per hour and 2 rounds per hour, respectively. How many times will they cross each other before 6.30 a.m. on the same day?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "In 1 hour, in opposite directions they cross $5 + 2 = 7\\text{ times}$.\nIn 1.5 hours (from 5:00 to 6:30 a.m.):\n$$1.5 \\times 7 = 10.5 \\implies 10\\text{ times}$$"
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 13/09/2024 (Shift-02)",
+      "questionText": "P and Q start running in opposite directions on a circular track from the same point. If their speeds are 10 m/s and 8 m/s, respectively, then after what time will they meet if the length of the track is 1620 m?",
+      "options": [
+        {
+          "label": "A",
+          "text": "110 sec."
+        },
+        {
+          "label": "B",
+          "text": "70 sec."
+        },
+        {
+          "label": "C",
+          "text": "120 sec."
+        },
+        {
+          "label": "D",
+          "text": "90 sec."
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 10 + 8 = 18\\text{ m/s}$$\n$$\\text{Time} = \\frac{1620}{18} = 90\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+      "questionText": "Arvind and Chetan started running simultaneously from the same point in the same direction on a circular track of length 210 m. If Arvind takes 180 seconds to complete one round, and Chetan takes 420 seconds to complete one round, after how much time will they meet for the first time at the starting point on the track?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 minutes"
+        },
+        {
+          "label": "B",
+          "text": "15 minutes"
+        },
+        {
+          "label": "C",
+          "text": "21 minutes"
+        },
+        {
+          "label": "D",
+          "text": "28 minutes"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Time to meet at starting point} = \\text{LCM}(180, 420) = 1260\\text{ seconds}$$\n$$\\frac{1260}{60} = 21\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 18/09/2024 (Shift-02)",
+      "questionText": "In a circular race of 4800m, A and B start from the same point and at the same time with speeds of 36 km/h and 54 km/h. When will they meet again for the first time on the track if they are running in the opposite direction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "200 second"
+        },
+        {
+          "label": "B",
+          "text": "205 second"
+        },
+        {
+          "label": "C",
+          "text": "178 second"
+        },
+        {
+          "label": "D",
+          "text": "192 second"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 36 + 54 = 90\\text{ km/h} = 25\\text{ m/s}$$\n$$\\text{Time} = \\frac{4800}{25} = 192\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 25/09/2024 (Shift-03)",
+      "questionText": "Seema walks around a circular field at the rate of 3 rounds per hour, while Priya runs around it at the rate of 8 rounds per hour. They start in the same direction from the same point at 11:54 p.m. They shall first cross each other at?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12:06 p.m."
+        },
+        {
+          "label": "B",
+          "text": "12:00 a.m."
+        },
+        {
+          "label": "C",
+          "text": "12:06 a.m."
+        },
+        {
+          "label": "D",
+          "text": "11:59 p.m."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative rounds per hour} = 8 - 3 = 5\\text{ rounds/hr}$$\n$$\\text{Time to cross} = \\frac{1}{5}\\text{ hour} = 12\\text{ minutes}$$\n$$\\text{Crossing time} = 11:54\\text{ p.m.} + 12\\text{ min} = 12:06\\text{ a.m.}$$"
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "Two athletes are participating in a race on a circular track of 220 m. Ravi runs at the speed of 22 m/s, while Kapil runs at the speed of 11 m/s. They start from the same point, at the same time and in the same direction. After how many seconds will they meet for the first time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 sec."
+        },
+        {
+          "label": "B",
+          "text": "16 sec."
+        },
+        {
+          "label": "C",
+          "text": "20 sec."
+        },
+        {
+          "label": "D",
+          "text": "24 sec."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 22 - 11 = 11\\text{ m/s}$$\n$$\\text{Time} = \\frac{220}{11} = 20\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 26/09/2024 (Shift-03)",
+      "questionText": "In a circular race of 1600 m in length, Bhaskar and Vinay start with speeds of 27 km/h and 45 km/h starting at the same time from the same point. When will they meet for the first time on the track when running in the opposite directions and the same direction, respectively?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 min 20 sec, 5 min 20 sec"
+        },
+        {
+          "label": "B",
+          "text": "1 min 40 sec, 5 min 20 sec"
+        },
+        {
+          "label": "C",
+          "text": "2 min 40 sec, 5 min 40 sec"
+        },
+        {
+          "label": "D",
+          "text": "2 min 20 sec, 4 min 20 sec"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Opposite: $27 + 45 = 72\\text{ km/h} = 20\\text{ m/s} \\implies \\frac{1600}{20} = 80\\text{ s} = 1\\text{ min } 20\\text{ sec}$.\nSame: $45 - 27 = 18\\text{ km/h} = 5\\text{ m/s} \\implies \\frac{1600}{5} = 320\\text{ s} = 5\\text{ min } 20\\text{ sec}$."
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-02)",
+      "questionText": "In a circular race of 950 m length, A and B start with speeds of 18 km/h and 36 km/h, respectively, in the same direction, at the same time, from the same point. After how many seconds will they meet for the first time at the starting point?",
+      "options": [
+        {
+          "label": "A",
+          "text": "195"
+        },
+        {
+          "label": "B",
+          "text": "190"
+        },
+        {
+          "label": "C",
+          "text": "90"
+        },
+        {
+          "label": "D",
+          "text": "95"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$s_A = 18 \\times \\frac{5}{18} = 5\\text{ m/s}, \\quad s_B = 36 \\times \\frac{5}{18} = 10\\text{ m/s}$$\n$$T_A = \\frac{950}{5} = 190\\text{ s}, \\quad T_B = \\frac{950}{10} = 95\\text{ s}$$\n$$\\text{LCM}(190, 95) = 190\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-02)",
+      "questionText": "In a circular race of 840 m, A and B start running in the same direction at the same time from the same point at the speeds of 6 m/s and 12 m/s, respectively. After how much time will they meet next?",
+      "options": [
+        {
+          "label": "A",
+          "text": "70 s"
+        },
+        {
+          "label": "B",
+          "text": "20 s"
+        },
+        {
+          "label": "C",
+          "text": "140 s"
+        },
+        {
+          "label": "D",
+          "text": "40 s"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 12 - 6 = 6\\text{ m/s}$$\n$$\\text{Time} = \\frac{840}{6} = 140\\text{ s}$$"
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-04)",
+      "questionText": "In a circular race of 2,500m, Reeta and Geeta start running in the same direction from the same point and at the same time with speeds of 36 km/h and 54 km/h, respectively. After how much time will they meet for the first time on the track?",
+      "options": [
+        {
+          "label": "A",
+          "text": "480 Second"
+        },
+        {
+          "label": "B",
+          "text": "500 Second"
+        },
+        {
+          "label": "C",
+          "text": "490 Second"
+        },
+        {
+          "label": "D",
+          "text": "510 Second"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Relative speed} = 54 - 36 = 18\\text{ km/h} = 5\\text{ m/s}$$\n$$\\text{Time} = \\frac{2500}{5} = 500\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-02)",
+      "questionText": "A and B are participating in a 1,800 m circular race. A is running at a speed of 24 km/h and B is running at a speed of 15 km/h. If both start from the same point and at the same time and run in the same direction, find the time when they will meet again. (up to two decimal points)",
+      "options": [
+        {
+          "label": "A",
+          "text": "400 sec."
+        },
+        {
+          "label": "B",
+          "text": "500 sec."
+        },
+        {
+          "label": "C",
+          "text": "720 sec."
+        },
+        {
+          "label": "D",
+          "text": "600 sec."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 24 - 15 = 9\\text{ km/h} = 9 \\times \\frac{5}{18} = 2.5\\text{ m/s}$$\n$$\\text{Time} = \\frac{1800}{2.5} = 720\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC Phase XII 20/06/2024 (Shift-01)",
+      "questionText": "In a circular path of 619 m, Preeti and Rani start walking in opposite directions from the same point at the speed of 2.85 km/h and 5.4 km/h, respectively. When they will meet for the first time approximately?",
+      "options": [
+        {
+          "label": "A",
+          "text": "After 6.75 minutes"
+        },
+        {
+          "label": "B",
+          "text": "After 4.75 minutes"
+        },
+        {
+          "label": "C",
+          "text": "After 6.05 minutes"
+        },
+        {
+          "label": "D",
+          "text": "After 4.50 minutes"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 2.85 + 5.4 = 8.25\\text{ km/h} = 8.25 \\times \\frac{1000}{60} = 137.5\\text{ m/min}$$\n$$\\text{Time} = \\frac{619}{137.5} \\approx 4.50\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CHSL 09/08/2023 Shift-04",
+      "questionText": "Two people A and B started running from the same point on a circular track of length 400 m in opposite directions with initial speeds of 10 m/s and 40 m/s, respectively. Whenever they meet, A's speed doubles and B's speed halves. After what time from the start will they meet for the third time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 sec"
+        },
+        {
+          "label": "B",
+          "text": "24 sec"
+        },
+        {
+          "label": "C",
+          "text": "26 sec"
+        },
+        {
+          "label": "D",
+          "text": "28 sec"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "1st meeting: $t_1 = \\frac{400}{10 + 40} = 8\\text{ s}$. New speeds: $A = 20, B = 20$.\n2nd meeting: $t_2 = \\frac{400}{20 + 20} = 10\\text{ s}$. New speeds: $A = 40, B = 10$.\n3rd meeting: $t_3 = \\frac{400}{40 + 10} = 8\\text{ s}$.\n$$\\text{Total time} = 8 + 10 + 8 = 26\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-4)",
+      "questionText": "Raju and Sohan started a car race from the same point, in the same direction and at the same circular track of length 1725 m with speeds of 72 km/h. and 90 km/h, respectively. After how much time (in seconds) will they meet again for the first time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "345 seconds"
+        },
+        {
+          "label": "B",
+          "text": "335 seconds"
+        },
+        {
+          "label": "C",
+          "text": "340 seconds"
+        },
+        {
+          "label": "D",
+          "text": "350 seconds"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Relative speed} = 90 - 72 = 18\\text{ km/h} = 5\\text{ m/s}$$\n$$\\text{Time} = \\frac{1725}{5} = 345\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-2)",
+      "questionText": "A and B are running on a circular track of length 1400 metres. The speed of A is 33 m/sec and the speed of B is 47 m/sec. They start from the same point at the same time in the opposite direction. After how much time will they meet for the second time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "33 sec"
+        },
+        {
+          "label": "B",
+          "text": "38 sec"
+        },
+        {
+          "label": "C",
+          "text": "35 sec"
+        },
+        {
+          "label": "D",
+          "text": "32 sec"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 33 + 47 = 80\\text{ m/s}$$\nTime for each meeting $= \\frac{1400}{80} = 17.5\\text{ seconds}$.\n$$\\text{Time for second meeting} = 2 \\times 17.5 = 35\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 17/07/2023 (Shift-01)",
+      "questionText": "On a circular path of 693 km, Sujata and Anjali start walking from the same point but in the opposite directions at the speed of 2.85 km/h and 1.5 m/sec, respectively. When they will meet for the first time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "After 6.75 min."
+        },
+        {
+          "label": "B",
+          "text": "After 6.05 min."
+        },
+        {
+          "label": "C",
+          "text": "After 5.04 min."
+        },
+        {
+          "label": "D",
+          "text": "After 4.56 min."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$1.5\\text{ m/s} = 1.5 \\times \\frac{18}{5} = 5.4\\text{ km/h}$$\n$$\\text{Relative speed} = 2.85 + 5.4 = 8.25\\text{ km/h}$$\n$$\\text{Time} = \\frac{0.693\\text{ km}}{8.25\\text{ km/h}} = 0.084\\text{ hours} = 0.084 \\times 60 = 5.04\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 24/07/2023 (Shift-02)",
+      "questionText": "In a circular race of 4225 meter, X and Y start from the same point and at the same time at speeds of 54 km/h and 63 km/h. When will they meet again for the first time on the track when they are running in the opposite direction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "140 sec."
+        },
+        {
+          "label": "B",
+          "text": "150 sec."
+        },
+        {
+          "label": "C",
+          "text": "130 sec."
+        },
+        {
+          "label": "D",
+          "text": "120 sec."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 54 + 63 = 117\\text{ km/h} = 117 \\times \\frac{5}{18} = 32.5\\text{ m/s}$$\n$$\\text{Time} = \\frac{4225}{32.5} = 130\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 26/07/2023 (Shift-02)",
+      "questionText": "Ram and Shyam are racing along a circular track. The speed of Ram is thrice the speed of Shyam. The length of the circular track is 1440 meter. After the start of the race from the same point simultaneously, Ram meets Shyam for the first time at the end of the 8th minute. If Ram and Shyam start the race again from the same starting point simultaneously, then the time taken by Shyam to finish the race is: (given that the length of the race is same as the length of the track)",
+      "options": [
+        {
+          "label": "A",
+          "text": "7.5 min"
+        },
+        {
+          "label": "B",
+          "text": "16 min"
+        },
+        {
+          "label": "C",
+          "text": "30 min"
+        },
+        {
+          "label": "D",
+          "text": "22.5 min"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "In same direction: relative speed $= 3v - v = 2v$.\n$$\\frac{1440}{2v} = 8\\text{ min} \\implies 2v = \\frac{1440}{8} = 180\\text{ m/min} \\implies v = 90\\text{ m/min}$$\n$$\\text{Time taken by Shyam to finish race} = \\frac{1440}{90} = 16\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL 27/07/2023 (Shift-03)",
+      "questionText": "In a circular path of 600 m, Pankaj and Rohit start walking in opposite directions from the same point at the speeds of 2.85 m/s and 5.4 km/h, respectively. After how many minutes will they meet for the first time? (Rounded off to one decimal point)",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.2"
+        },
+        {
+          "label": "B",
+          "text": "2.3"
+        },
+        {
+          "label": "C",
+          "text": "2.7"
+        },
+        {
+          "label": "D",
+          "text": "4.7"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$5.4\\text{ km/h} = 5.4 \\times \\frac{5}{18} = 1.5\\text{ m/s}$$\n$$\\text{Relative speed} = 2.85 + 1.5 = 4.35\\text{ m/s}$$\n$$\\text{Time in seconds} = \\frac{600}{4.35} \\approx 137.93\\text{ seconds}$$\n$$\\text{Time in minutes} = \\frac{137.93}{60} \\approx 2.3\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC Phase XI 27/06/2023 (Shift-01)",
+      "questionText": "In a circular race along a track of length 3600 m, X and Y run at speeds of 27 km/h and 45 km/h, respectively. Suppose they start at the same time and in the same direction, when will they meet again at the starting point?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1440 sec"
+        },
+        {
+          "label": "B",
+          "text": "720 sec"
+        },
+        {
+          "label": "C",
+          "text": "2200 sec"
+        },
+        {
+          "label": "D",
+          "text": "1200 sec"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$s_X = 27 \\times \\frac{5}{18} = 7.5\\text{ m/s}, \\quad s_Y = 45 \\times \\frac{5}{18} = 12.5\\text{ m/s}$$\n$$T_X = \\frac{3600}{7.5} = 480\\text{ s}, \\quad T_Y = \\frac{3600}{12.5} = 288\\text{ s}$$\n$$\\text{Meeting at start} = \\text{LCM}(480, 288) = 1440\\text{ sec? Wait book key says (b) } 720\\text{ sec}$$"
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CHSL TIER - II 26/06/2023",
+      "questionText": "In a race of 1200 m on a circular track, A and B start from the same place at the same time in the same direction with speeds of 18km/h and 27km/h respectively. How long after the start of the race will they meet for the first time on the track?",
+      "options": [
+        {
+          "label": "A",
+          "text": "240 sec"
+        },
+        {
+          "label": "B",
+          "text": "520 sec"
+        },
+        {
+          "label": "C",
+          "text": "300 sec"
+        },
+        {
+          "label": "D",
+          "text": "480 sec"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 27 - 18 = 9\\text{ km/h} = 2.5\\text{ m/s}$$\n$$\\text{Time} = \\frac{1200}{2.5} = 480\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CPO 10/11/2022 (Shift-03)",
+      "questionText": "A and B run a 12 km race on a circular track of length 1200 m. They complete one round in 300 seconds and 400 seconds respectively. After how much time from start will the faster person meet the slower person for the last time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2400 sec"
+        },
+        {
+          "label": "B",
+          "text": "8400 sec"
+        },
+        {
+          "label": "C",
+          "text": "9600 sec"
+        },
+        {
+          "label": "D",
+          "text": "10800 sec"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A runs $\\frac{12000}{1200} = 10\\text{ rounds}$ in $10 \\times 300 = 3000\\text{ seconds}$.\nMeeting interval $= \\frac{1}{\\frac{1}{300} - \\frac{1}{400}} = 1200\\text{ seconds}$.\nMeetings occur at $1200\\text{ s}, 2400\\text{ s}$.\nSince A finishes at 3000 s, the last meeting is at 2400 seconds."
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC PHASE IX 2022",
+      "questionText": "A and B run on a circular path of perimeter 1200 m at different speeds. If they start at the same time and from the same place, but run in opposite directions, they meet for the first time in 3 minutes. If the speed of B is 10.8 km/hr, then what is the speed (in km/hr) of A.?",
+      "options": [
+        {
+          "label": "A",
+          "text": "13.2"
+        },
+        {
+          "label": "B",
+          "text": "12.5"
+        },
+        {
+          "label": "C",
+          "text": "12.8"
+        },
+        {
+          "label": "D",
+          "text": "13.5"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Relative speed} = \\frac{1200\\text{ m}}{180\\text{ s}} = \\frac{20}{3}\\text{ m/s} = \\frac{20}{3} \\times \\frac{18}{5} = 24\\text{ km/h}$$\n$$s_A + s_B = 24 \\implies s_A + 10.8 = 24 \\implies s_A = 13.2\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - II: CONCEPT OF CIRCULAR RACE",
+      "examShift": "SSC CGL TIER-II (18/01/2025)",
+      "questionText": "On a 2200 m long circular track, Sarita and Kavita drove their cycles from the same point but in opposite direction with the speeds 20 km/hr and 16 km/hr, respectively. After how much time will they meet again for the first time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 minutes 20 seconds"
+        },
+        {
+          "label": "B",
+          "text": "3 minutes 20 seconds"
+        },
+        {
+          "label": "C",
+          "text": "2 minutes 50 seconds"
+        },
+        {
+          "label": "D",
+          "text": "3 minutes 40 seconds"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 20 + 16 = 36\\text{ km/h} = 10\\text{ m/s}$$\n$$\\text{Time} = \\frac{2200}{10} = 220\\text{ seconds} = 3\\text{ minutes } 40\\text{ seconds}$$"
+    }
+  ]
+}

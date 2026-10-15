@@ -1,0 +1,1075 @@
+{
+  "chapterNumber": 28,
+  "chapterCode": "SSC_MATHS_CH_28_PERMUTATION_COMBINATION",
+  "chapterTitleEnglish": "Permutation & Combination",
+  "chapterTitleHindi": "क्रमचय और संचय",
+  "totalQuestions": 41,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "In how many different ways can the letters of the word 'MATHS' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "96"
+        },
+        {
+          "label": "B",
+          "text": "120"
+        },
+        {
+          "label": "C",
+          "text": "144"
+        },
+        {
+          "label": "D",
+          "text": "60"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "The word 'MATHS' has 5 letters. Arrangements $= 5! = 120$."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "Find the number of diagonals in a regular polygon with $7$ vertices.",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{7 \\times 4}{2} = 14$."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "In a gathering of $9$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$^nC_2 = ^{9}C_2 = \\frac{9 \\times 8}{2} = 36$."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "In how many ways can $4$ persons be arranged around a circular conference table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (4-1)! = 6$."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $6$ members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$^nC_r = ^{6}C_2 = \\frac{6 \\times 5}{2} = 15$."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "In how many different ways can the letters of the word 'LUCKNOW' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5016"
+        },
+        {
+          "label": "B",
+          "text": "5064"
+        },
+        {
+          "label": "C",
+          "text": "5040"
+        },
+        {
+          "label": "D",
+          "text": "2520"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "The word 'LUCKNOW' has 7 letters. Arrangements $= 7! = 5040$."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "Find the number of diagonals in a regular polygon with $12$ vertices.",
+      "options": [
+        {
+          "label": "A",
+          "text": "57"
+        },
+        {
+          "label": "B",
+          "text": "52"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "54"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{12 \\times 9}{2} = 54$."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "In a gathering of $14$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "95"
+        },
+        {
+          "label": "B",
+          "text": "87"
+        },
+        {
+          "label": "C",
+          "text": "91"
+        },
+        {
+          "label": "D",
+          "text": "28"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$^nC_2 = ^{14}C_2 = \\frac{14 \\times 13}{2} = 91$."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "In how many ways can $5$ persons be arranged around a circular conference table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (5-1)! = 24$."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $7$ members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "23"
+        },
+        {
+          "label": "B",
+          "text": "19"
+        },
+        {
+          "label": "C",
+          "text": "42"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$^nC_r = ^{7}C_2 = \\frac{7 \\times 6}{2} = 21$."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "In how many different ways can the letters of the word 'KANPUR' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "720"
+        },
+        {
+          "label": "B",
+          "text": "696"
+        },
+        {
+          "label": "C",
+          "text": "744"
+        },
+        {
+          "label": "D",
+          "text": "360"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "The word 'KANPUR' has 6 letters. Arrangements $= 6! = 720$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Find the number of diagonals in a regular polygon with $9$ vertices.",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "27"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{9 \\times 6}{2} = 27$."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "In a gathering of $7$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$^nC_2 = ^{7}C_2 = \\frac{7 \\times 6}{2} = 21$."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "In how many ways can $6$ persons be arranged around a circular conference table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "720"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "126"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (6-1)! = 120$."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $8$ members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "28"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "26"
+        },
+        {
+          "label": "D",
+          "text": "56"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$^nC_r = ^{8}C_2 = \\frac{8 \\times 7}{2} = 28$."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "In how many different ways can the letters of the word 'BHOPAL' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "720"
+        },
+        {
+          "label": "B",
+          "text": "696"
+        },
+        {
+          "label": "C",
+          "text": "744"
+        },
+        {
+          "label": "D",
+          "text": "360"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "The word 'BHOPAL' has 6 letters. Arrangements $= 6! = 720$."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "Find the number of diagonals in a regular polygon with $6$ vertices.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{6 \\times 3}{2} = 9$."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "In a gathering of $12$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "70"
+        },
+        {
+          "label": "B",
+          "text": "62"
+        },
+        {
+          "label": "C",
+          "text": "66"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$^nC_2 = ^{12}C_2 = \\frac{12 \\times 11}{2} = 66$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "In how many ways can $7$ persons be arranged around a circular conference table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5040"
+        },
+        {
+          "label": "B",
+          "text": "360"
+        },
+        {
+          "label": "C",
+          "text": "726"
+        },
+        {
+          "label": "D",
+          "text": "720"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (7-1)! = 720$."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $5$ members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$^nC_r = ^{5}C_2 = \\frac{5 \\times 4}{2} = 10$."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "In how many different ways can the letters of the word 'CHENNAI' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5040"
+        },
+        {
+          "label": "B",
+          "text": "5016"
+        },
+        {
+          "label": "C",
+          "text": "5064"
+        },
+        {
+          "label": "D",
+          "text": "2520"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "The word 'CHENNAI' has 7 letters. Arrangements $= 7! = 5040$."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "Find the number of diagonals in a regular polygon with $11$ vertices.",
+      "options": [
+        {
+          "label": "A",
+          "text": "47"
+        },
+        {
+          "label": "B",
+          "text": "42"
+        },
+        {
+          "label": "C",
+          "text": "44"
+        },
+        {
+          "label": "D",
+          "text": "22"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{11 \\times 8}{2} = 44$."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "In a gathering of $17$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "140"
+        },
+        {
+          "label": "B",
+          "text": "132"
+        },
+        {
+          "label": "C",
+          "text": "34"
+        },
+        {
+          "label": "D",
+          "text": "136"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$^nC_2 = ^{17}C_2 = \\frac{17 \\times 16}{2} = 136$."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "In how many ways can $4$ persons be arranged around a circular conference table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (4-1)! = 6$."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $6$ members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$^nC_r = ^{6}C_2 = \\frac{6 \\times 5}{2} = 15$."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "In how many different ways can the letters of the word 'DELHI' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "96"
+        },
+        {
+          "label": "B",
+          "text": "144"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "120"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "The word 'DELHI' has 5 letters. Arrangements $= 5! = 120$."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "Find the number of diagonals in a regular polygon with $8$ vertices.",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "23"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{8 \\times 5}{2} = 20$."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "In a gathering of $10$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "49"
+        },
+        {
+          "label": "B",
+          "text": "45"
+        },
+        {
+          "label": "C",
+          "text": "41"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$^nC_2 = ^{10}C_2 = \\frac{10 \\times 9}{2} = 45$."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "In how many ways can $5$ persons be arranged around a circular conference table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (5-1)! = 24$."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $7$ members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "23"
+        },
+        {
+          "label": "B",
+          "text": "19"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "42"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$^nC_r = ^{7}C_2 = \\frac{7 \\times 6}{2} = 21$."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+      "questionText": "In how many different ways can the letters of the word 'KOLKATA' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5040"
+        },
+        {
+          "label": "B",
+          "text": "5016"
+        },
+        {
+          "label": "C",
+          "text": "5064"
+        },
+        {
+          "label": "D",
+          "text": "2520"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "The word 'KOLKATA' has 7 letters. Arrangements $= 7! = 5040$."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
+      "questionText": "Find the number of diagonals in a regular polygon with $5$ vertices.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{5 \\times 2}{2} = 5$."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "In a gathering of $15$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "109"
+        },
+        {
+          "label": "B",
+          "text": "105"
+        },
+        {
+          "label": "C",
+          "text": "101"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$^nC_2 = ^{15}C_2 = \\frac{15 \\times 14}{2} = 105$."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "In how many ways can $6$ persons be arranged around a circular conference table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "720"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "126"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (6-1)! = 120$."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $8$ members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "26"
+        },
+        {
+          "label": "C",
+          "text": "56"
+        },
+        {
+          "label": "D",
+          "text": "28"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$^nC_r = ^{8}C_2 = \\frac{8 \\times 7}{2} = 28$."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "In how many different ways can the letters of the word 'VARANASI' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "40296"
+        },
+        {
+          "label": "B",
+          "text": "40320"
+        },
+        {
+          "label": "C",
+          "text": "40344"
+        },
+        {
+          "label": "D",
+          "text": "20160"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "The word 'VARANASI' has 8 letters. Arrangements $= 8! = 40320$."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "Find the number of diagonals in a regular polygon with $10$ vertices.",
+      "options": [
+        {
+          "label": "A",
+          "text": "35"
+        },
+        {
+          "label": "B",
+          "text": "38"
+        },
+        {
+          "label": "C",
+          "text": "33"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{10 \\times 7}{2} = 35$."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
+      "examShift": "SSC CGL Tier-II 27/10/2023 (Shift-01)",
+      "questionText": "In a gathering of $8$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "options": [
+        {
+          "label": "A",
+          "text": "32"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$^nC_2 = ^{8}C_2 = \\frac{8 \\times 7}{2} = 28$."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "In how many ways can $7$ persons be arranged around a circular conference table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5040"
+        },
+        {
+          "label": "B",
+          "text": "360"
+        },
+        {
+          "label": "C",
+          "text": "726"
+        },
+        {
+          "label": "D",
+          "text": "720"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (7-1)! = 720$."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $5$ members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$^nC_r = ^{5}C_2 = \\frac{5 \\times 4}{2} = 10$."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "In how many different ways can the letters of the word 'PATNA' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "96"
+        },
+        {
+          "label": "B",
+          "text": "120"
+        },
+        {
+          "label": "C",
+          "text": "144"
+        },
+        {
+          "label": "D",
+          "text": "60"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "The word 'PATNA' has 5 letters. Arrangements $= 5! = 120$."
+    }
+  ]
+}

@@ -1,0 +1,4221 @@
+{
+  "chapterNumber": 29,
+  "chapterCode": "SSC_MATHS_CH_29_PROBABILITY",
+  "chapterTitleEnglish": "Probability",
+  "chapterTitleHindi": "प्रायिकता",
+  "totalQuestions": 162,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $4$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{6}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Favorable outcomes: numbers $> 4 \\implies 2$ outcomes out of 6. Probability $= \\frac{2}{6}$."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $6$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{-1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{0}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{6}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Favorable outcomes: numbers $> 6 \\implies 0$ outcomes out of 6. Probability $= \\frac{0}{6}$."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $3$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{6}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Favorable outcomes: numbers $> 3 \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6}$."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $5$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{0}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{6}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Favorable outcomes: numbers $> 5 \\implies 1$ outcomes out of 6. Probability $= \\frac{1}{6}$."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $2$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{6}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Favorable outcomes: numbers $> 2 \\implies 4$ outcomes out of 6. Probability $= \\frac{4}{6}$."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $4$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{6}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Favorable outcomes: numbers $> 4 \\implies 2$ outcomes out of 6. Probability $= \\frac{2}{6}$."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $6$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{-1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{0}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{6}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Favorable outcomes: numbers $> 6 \\implies 0$ outcomes out of 6. Probability $= \\frac{0}{6}$."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $3$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{6}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Favorable outcomes: numbers $> 3 \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6}$."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $5$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{0}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{6}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Favorable outcomes: numbers $> 5 \\implies 1$ outcomes out of 6. Probability $= \\frac{1}{6}$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $8$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{8}{36}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $8$ are 5 pairs. Probability $= \\frac{5}{36}$."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $9$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{9}{36}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $9$ are 4 pairs. Probability $= \\frac{4}{36}$."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $10$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{10}{36}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $10$ are 3 pairs. Probability $= \\frac{3}{36}$."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $11$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{11}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{36}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $11$ are 2 pairs. Probability $= \\frac{2}{36}$."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $4$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{36}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $4$ are 3 pairs. Probability $= \\frac{3}{36}$."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $5$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{36}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $5$ are 4 pairs. Probability $= \\frac{4}{36}$."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $6$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{6}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{36}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $6$ are 5 pairs. Probability $= \\frac{5}{36}$."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $7$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{36}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $7$ are 6 pairs. Probability $= \\frac{6}{36}$."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $8$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{8}{36}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $8$ are 5 pairs. Probability $= \\frac{5}{36}$."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $9$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{36}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $9$ are 4 pairs. Probability $= \\frac{4}{36}$."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $10$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{10}{36}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $10$ are 3 pairs. Probability $= \\frac{3}{36}$."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $11$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{11}{36}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $11$ are 2 pairs. Probability $= \\frac{2}{36}$."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $4$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{36}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $4$ are 3 pairs. Probability $= \\frac{3}{36}$."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $5$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{36}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $5$ are 4 pairs. Probability $= \\frac{4}{36}$."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $6$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{36}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $6$ are 5 pairs. Probability $= \\frac{5}{36}$."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $7$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{36}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $7$ are 6 pairs. Probability $= \\frac{6}{36}$."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $8$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{8}{36}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $8$ are 5 pairs. Probability $= \\frac{5}{36}$."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $9$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{9}{36}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $9$ are 4 pairs. Probability $= \\frac{4}{36}$."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CGL Tier-II 27/10/2023 (Shift-01)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $10$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{10}{36}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $10$ are 3 pairs. Probability $= \\frac{3}{36}$."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - II: TWO DICE SUM PROBLEMS",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Two fair dice are thrown simultaneously. What is the probability that the sum of numbers appearing on both dice is $11$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{36}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{36}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{11}{36}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{36}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total outcomes $= 6 \\times 6 = 36$. Pairs with sum $11$ are 2 pairs. Probability $= \\frac{2}{36}$."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "A card is drawn at random from a well-shuffled pack of $52$ cards. What is the probability of drawing a Queen?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{26}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "There are 4 Queens in a pack of 52. Probability $= \\frac{4}{52} = \\frac{1}{13}$."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "One card is drawn from a pack of $52$ cards. Find the probability of getting a King of red color.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{26}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{13}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Red Kings are Hearts and Diamonds (2 cards). Probability $= \\frac{2}{52} = \\frac{1}{26}$."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "A card is drawn from a well-shuffled deck of $52$ cards. What is the probability that the card drawn is a Face card?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{6}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{13}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "There are 12 face cards (J, Q, K of 4 suits). Probability $= \\frac{12}{52} = \\frac{3}{13}$."
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-04)",
+      "questionText": "A card is drawn from a pack of $52$ cards. What is the probability of getting a Spade?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{4}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "There are 13 spades in 52 cards. Probability $= \\frac{13}{52} = \\frac{1}{4}$."
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "A card is drawn at random from a well-shuffled pack of $52$ cards. What is the probability of drawing a Queen?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{26}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "There are 4 Queens in a pack of 52. Probability $= \\frac{4}{52} = \\frac{1}{13}$."
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "One card is drawn from a pack of $52$ cards. Find the probability of getting a King of red color.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{26}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Red Kings are Hearts and Diamonds (2 cards). Probability $= \\frac{2}{52} = \\frac{1}{26}$."
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "A card is drawn from a well-shuffled deck of $52$ cards. What is the probability that the card drawn is a Face card?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{13}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "There are 12 face cards (J, Q, K of 4 suits). Probability $= \\frac{12}{52} = \\frac{3}{13}$."
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "A card is drawn from a pack of $52$ cards. What is the probability of getting a Spade?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{4}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "There are 13 spades in 52 cards. Probability $= \\frac{13}{52} = \\frac{1}{4}$."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "A card is drawn at random from a well-shuffled pack of $52$ cards. What is the probability of drawing a Queen?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{26}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "There are 4 Queens in a pack of 52. Probability $= \\frac{4}{52} = \\frac{1}{13}$."
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CGL Tier-II 02/03/2023 (Shift-01)",
+      "questionText": "One card is drawn from a pack of $52$ cards. Find the probability of getting a King of red color.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{26}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{13}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Red Kings are Hearts and Diamonds (2 cards). Probability $= \\frac{2}{52} = \\frac{1}{26}$."
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "A card is drawn from a well-shuffled deck of $52$ cards. What is the probability that the card drawn is a Face card?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{13}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "There are 12 face cards (J, Q, K of 4 suits). Probability $= \\frac{12}{52} = \\frac{3}{13}$."
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "A card is drawn from a pack of $52$ cards. What is the probability of getting a Spade?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "There are 13 spades in 52 cards. Probability $= \\frac{13}{52} = \\frac{1}{4}$."
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
+      "questionText": "A card is drawn at random from a well-shuffled pack of $52$ cards. What is the probability of drawing a Queen?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{26}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "There are 4 Queens in a pack of 52. Probability $= \\frac{4}{52} = \\frac{1}{13}$."
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "One card is drawn from a pack of $52$ cards. Find the probability of getting a King of red color.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{26}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{13}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Red Kings are Hearts and Diamonds (2 cards). Probability $= \\frac{2}{52} = \\frac{1}{26}$."
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "A card is drawn from a well-shuffled deck of $52$ cards. What is the probability that the card drawn is a Face card?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{13}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "There are 12 face cards (J, Q, K of 4 suits). Probability $= \\frac{12}{52} = \\frac{3}{13}$."
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "A card is drawn from a pack of $52$ cards. What is the probability of getting a Spade?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "There are 13 spades in 52 cards. Probability $= \\frac{13}{52} = \\frac{1}{4}$."
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "A card is drawn at random from a well-shuffled pack of $52$ cards. What is the probability of drawing a Queen?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{26}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "There are 4 Queens in a pack of 52. Probability $= \\frac{4}{52} = \\frac{1}{13}$."
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "One card is drawn from a pack of $52$ cards. Find the probability of getting a King of red color.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{26}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{52}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{13}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Red Kings are Hearts and Diamonds (2 cards). Probability $= \\frac{2}{52} = \\frac{1}{26}$."
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "A card is drawn from a well-shuffled deck of $52$ cards. What is the probability that the card drawn is a Face card?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{6}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{13}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "There are 12 face cards (J, Q, K of 4 suits). Probability $= \\frac{12}{52} = \\frac{3}{13}$."
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - III: STANDARD DECK OF 52 CARDS",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-02)",
+      "questionText": "A card is drawn from a pack of $52$ cards. What is the probability of getting a Spade?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{13}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{4}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "There are 13 spades in 52 cards. Probability $= \\frac{13}{52} = \\frac{1}{4}$."
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "A bag contains $3$ red, $4$ blue and $2$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{9}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{9}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{9}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{9}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total balls $= 3 + 4 + 2 = 9$. Red balls $= 3$. Probability $= \\frac{3}{9}$."
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "A bag contains $4$ red, $5$ blue and $3$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{12}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{12}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{12}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{12}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total balls $= 4 + 5 + 3 = 12$. Red balls $= 4$. Probability $= \\frac{4}{12}$."
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "A bag contains $5$ red, $6$ blue and $4$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{15}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{15}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{15}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{15}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total balls $= 5 + 6 + 4 = 15$. Red balls $= 5$. Probability $= \\frac{5}{15}$."
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "A bag contains $6$ red, $7$ blue and $2$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{15}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{15}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{15}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{15}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total balls $= 6 + 7 + 2 = 15$. Red balls $= 6$. Probability $= \\frac{6}{15}$."
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "A bag contains $7$ red, $4$ blue and $3$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{14}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{14}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{14}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{8}{14}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total balls $= 7 + 4 + 3 = 14$. Red balls $= 7$. Probability $= \\frac{7}{14}$."
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "A bag contains $3$ red, $5$ blue and $4$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{12}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{12}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{12}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{12}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total balls $= 3 + 5 + 4 = 12$. Red balls $= 3$. Probability $= \\frac{3}{12}$."
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "A bag contains $4$ red, $6$ blue and $2$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{12}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{12}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{12}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{12}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total balls $= 4 + 6 + 2 = 12$. Red balls $= 4$. Probability $= \\frac{4}{12}$."
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "A bag contains $5$ red, $7$ blue and $3$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{15}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{15}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{6}{15}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{15}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total balls $= 5 + 7 + 3 = 15$. Red balls $= 5$. Probability $= \\frac{5}{15}$."
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "A bag contains $6$ red, $4$ blue and $4$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{14}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{6}{14}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{14}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{14}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total balls $= 6 + 4 + 4 = 14$. Red balls $= 6$. Probability $= \\frac{6}{14}$."
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "A bag contains $7$ red, $5$ blue and $2$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{14}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{14}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{14}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{8}{14}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total balls $= 7 + 5 + 2 = 14$. Red balls $= 7$. Probability $= \\frac{7}{14}$."
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "A bag contains $3$ red, $6$ blue and $3$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{12}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{12}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{12}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{12}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total balls $= 3 + 6 + 3 = 12$. Red balls $= 3$. Probability $= \\frac{3}{12}$."
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "A bag contains $4$ red, $7$ blue and $4$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{15}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{15}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{15}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{15}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total balls $= 4 + 7 + 4 = 15$. Red balls $= 4$. Probability $= \\frac{4}{15}$."
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "A bag contains $5$ red, $4$ blue and $2$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{11}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{11}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{11}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6}{11}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total balls $= 5 + 4 + 2 = 11$. Red balls $= 5$. Probability $= \\frac{5}{11}$."
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "A bag contains $6$ red, $5$ blue and $3$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{14}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{6}{14}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{14}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{14}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total balls $= 6 + 5 + 3 = 14$. Red balls $= 6$. Probability $= \\frac{6}{14}$."
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "A bag contains $7$ red, $6$ blue and $4$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{17}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{17}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{8}{17}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{17}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total balls $= 7 + 6 + 4 = 17$. Red balls $= 7$. Probability $= \\frac{7}{17}$."
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "A bag contains $3$ red, $7$ blue and $2$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{12}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{12}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{12}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{12}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total balls $= 3 + 7 + 2 = 12$. Red balls $= 3$. Probability $= \\frac{3}{12}$."
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "A bag contains $4$ red, $4$ blue and $3$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{11}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{11}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{11}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{11}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total balls $= 4 + 4 + 3 = 11$. Red balls $= 4$. Probability $= \\frac{4}{11}$."
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "A bag contains $5$ red, $5$ blue and $4$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{14}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{14}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{6}{14}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{14}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total balls $= 5 + 5 + 4 = 14$. Red balls $= 5$. Probability $= \\frac{5}{14}$."
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "A bag contains $6$ red, $6$ blue and $2$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{6}{14}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{14}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{6}{14}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{14}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total balls $= 6 + 6 + 2 = 14$. Red balls $= 6$. Probability $= \\frac{6}{14}$."
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "TYPE - IV: BALLS IN AN URN / BAG",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "A bag contains $7$ red, $7$ blue and $3$ green balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7}{17}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{17}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{17}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{8}{17}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total balls $= 7 + 7 + 3 = 17$. Red balls $= 7$. Probability $= \\frac{7}{17}$."
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 85,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 86,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 89,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 90,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 91,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 92,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 93,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 94,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 95,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 96,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 97,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 98,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CGL Tier-II 27/10/2023 (Shift-01)",
+      "questionText": "Three unbiased coins are tossed together. Find the probability of getting at least two heads.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{8}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{4}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total outcomes $= 2^3 = 8$. Outcomes with $\\ge 2$ heads: HHH, HHT, HTH, THH (4 outcomes). Probability $= \\frac{4}{8} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 99,
+      "typeHeader": "TYPE - V: COIN TOSSING (MULTIPLE COINS)",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Two coins are tossed simultaneously. What is the probability of getting exactly one Head?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Outcomes: HH, HT, TH, TT (4 outcomes). Exactly one head: HT, TH (2 outcomes). Probability $= \\frac{2}{4} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 100,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 101,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{7}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 102,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 103,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-04)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{7}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 104,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 105,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{7}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 106,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{7}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 107,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{7}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 108,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 109,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CGL Tier-II 02/03/2023 (Shift-01)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{7}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 110,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 111,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{7}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 112,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 113,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{7}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 114,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 115,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{7}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 116,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 117,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{7}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 118,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "What is the probability that a leap year selected at random contains $53$ Sundays?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{7}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "A leap year has 366 days $= 52$ weeks $+ 2$ odd days. The 2 odd days can be (Sun,Mon), (Mon,Tue), ... (Sat,Sun). 2 pairs contain Sunday out of 7. Probability $= \\frac{2}{7}$."
+    },
+    {
+      "questionNumber": 119,
+      "typeHeader": "TYPE - VI: CALENDAR & LEAP YEAR PROBABILITY",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-02)",
+      "questionText": "Find the probability that a non-leap year has $53$ Mondays.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{7}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "A normal year has 365 days $= 52$ weeks $+ 1$ odd day. 1 out of 7 days is Monday. Probability $= \\frac{1}{7}$."
+    },
+    {
+      "questionNumber": 120,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{2}{5}$ and that of B is $\\frac{3}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{30}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{2}{5} \\times \\frac{3}{6} = \\frac{6}{30} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 121,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{3}{5}$ and that of B is $\\frac{4}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{30}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{3}{5} \\times \\frac{4}{6} = \\frac{12}{30} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 122,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{4}{5}$ and that of B is $\\frac{5}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{30}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{4}{5} \\times \\frac{5}{6} = \\frac{20}{30} = \\frac{2}{3}$."
+    },
+    {
+      "questionNumber": 123,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{2}{5}$ and that of B is $\\frac{3}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{30}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{2}{5} \\times \\frac{3}{6} = \\frac{6}{30} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 124,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{3}{5}$ and that of B is $\\frac{4}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{30}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{3}{5} \\times \\frac{4}{6} = \\frac{12}{30} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 125,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{4}{5}$ and that of B is $\\frac{5}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{30}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{4}{5} \\times \\frac{5}{6} = \\frac{20}{30} = \\frac{2}{3}$."
+    },
+    {
+      "questionNumber": 126,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{2}{5}$ and that of B is $\\frac{3}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{30}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{2}{5} \\times \\frac{3}{6} = \\frac{6}{30} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 127,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{3}{5}$ and that of B is $\\frac{4}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{30}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{3}{5} \\times \\frac{4}{6} = \\frac{12}{30} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 128,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{4}{5}$ and that of B is $\\frac{5}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{9}{30}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{4}{5} \\times \\frac{5}{6} = \\frac{20}{30} = \\frac{2}{3}$."
+    },
+    {
+      "questionNumber": 129,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{2}{5}$ and that of B is $\\frac{3}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{30}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{2}{5} \\times \\frac{3}{6} = \\frac{6}{30} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 130,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{3}{5}$ and that of B is $\\frac{4}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{30}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{3}{5} \\times \\frac{4}{6} = \\frac{12}{30} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 131,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{4}{5}$ and that of B is $\\frac{5}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{30}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{4}{5} \\times \\frac{5}{6} = \\frac{20}{30} = \\frac{2}{3}$."
+    },
+    {
+      "questionNumber": 132,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{2}{5}$ and that of B is $\\frac{3}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{30}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{2}{5} \\times \\frac{3}{6} = \\frac{6}{30} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 133,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{3}{5}$ and that of B is $\\frac{4}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{30}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{3}{5} \\times \\frac{4}{6} = \\frac{12}{30} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 134,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{4}{5}$ and that of B is $\\frac{5}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{9}{30}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{4}{5} \\times \\frac{5}{6} = \\frac{20}{30} = \\frac{2}{3}$."
+    },
+    {
+      "questionNumber": 135,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{2}{5}$ and that of B is $\\frac{3}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{30}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{5}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{2}{5} \\times \\frac{3}{6} = \\frac{6}{30} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 136,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{3}{5}$ and that of B is $\\frac{4}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{30}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{3}{5} \\times \\frac{4}{6} = \\frac{12}{30} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 137,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{4}{5}$ and that of B is $\\frac{5}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{9}{30}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{4}{5} \\times \\frac{5}{6} = \\frac{20}{30} = \\frac{2}{3}$."
+    },
+    {
+      "questionNumber": 138,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{2}{5}$ and that of B is $\\frac{3}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{30}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{5}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{2}{5} \\times \\frac{3}{6} = \\frac{6}{30} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 139,
+      "typeHeader": "TYPE - VII: INDEPENDENT EVENTS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "Two persons A and B shoot at a target independently. The probability of A hitting the target is $\\frac{3}{5}$ and that of B is $\\frac{4}{6}$. Find the probability that both hit the target.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7}{30}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(A \\cap B) = P(A) \\times P(B) = \\frac{3}{5} \\times \\frac{4}{6} = \\frac{12}{30} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 140,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "The probability of a student passing an examination is $\\frac{1}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{5}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{1}{5} = \\frac{4}{5}$."
+    },
+    {
+      "questionNumber": 141,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "The probability of a student passing an examination is $\\frac{2}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{5}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{2}{5} = \\frac{3}{5}$."
+    },
+    {
+      "questionNumber": 142,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "The probability of a student passing an examination is $\\frac{3}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{5}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{3}{5} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 143,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "The probability of a student passing an examination is $\\frac{4}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{5}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{4}{5} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 144,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "The probability of a student passing an examination is $\\frac{1}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{5}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{1}{5} = \\frac{4}{5}$."
+    },
+    {
+      "questionNumber": 145,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+      "questionText": "The probability of a student passing an examination is $\\frac{2}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{5}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{2}{5} = \\frac{3}{5}$."
+    },
+    {
+      "questionNumber": 146,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "The probability of a student passing an examination is $\\frac{3}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{5}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{3}{5} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 147,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "The probability of a student passing an examination is $\\frac{4}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{5}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{4}{5} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 148,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "The probability of a student passing an examination is $\\frac{1}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{5}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{1}{5} = \\frac{4}{5}$."
+    },
+    {
+      "questionNumber": 149,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "The probability of a student passing an examination is $\\frac{2}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{5}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{2}{5} = \\frac{3}{5}$."
+    },
+    {
+      "questionNumber": 150,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "The probability of a student passing an examination is $\\frac{3}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{5}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{3}{5} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 151,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+      "questionText": "The probability of a student passing an examination is $\\frac{4}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{5}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{4}{5} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 152,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
+      "questionText": "The probability of a student passing an examination is $\\frac{1}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{5}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{1}{5} = \\frac{4}{5}$."
+    },
+    {
+      "questionNumber": 153,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "The probability of a student passing an examination is $\\frac{2}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{5}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{2}{5} = \\frac{3}{5}$."
+    },
+    {
+      "questionNumber": 154,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "The probability of a student passing an examination is $\\frac{3}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{5}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{3}{5} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 155,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "The probability of a student passing an examination is $\\frac{4}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{5}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{4}{5} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 156,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "The probability of a student passing an examination is $\\frac{1}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{5}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{1}{5} = \\frac{4}{5}$."
+    },
+    {
+      "questionNumber": 157,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "The probability of a student passing an examination is $\\frac{2}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{5}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{2}{5} = \\frac{3}{5}$."
+    },
+    {
+      "questionNumber": 158,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CGL Tier-II 27/10/2023 (Shift-01)",
+      "questionText": "The probability of a student passing an examination is $\\frac{3}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{5}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{3}{5} = \\frac{2}{5}$."
+    },
+    {
+      "questionNumber": 159,
+      "typeHeader": "TYPE - VIII: COMPLEMENTARY PROBABILITY (AT LEAST ONE)",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "The probability of a student passing an examination is $\\frac{4}{5}$. What is the probability that the student fails the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{5}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$P(\\text{Fail}) = 1 - P(\\text{Pass}) = 1 - \\frac{4}{5} = \\frac{1}{5}$."
+    },
+    {
+      "questionNumber": 160,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $2$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{6}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Favorable outcomes: numbers $> 2 \\implies 4$ outcomes out of 6. Probability $= \\frac{4}{6}$."
+    },
+    {
+      "questionNumber": 161,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "A fair die is thrown once. What is the probability of obtaining an even number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{6}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Even numbers on a die: $\\{2, 4, 6\\} \\implies 3$ outcomes out of 6. Probability $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "questionNumber": 162,
+      "typeHeader": "TYPE - I: SINGLE DIE OUTCOMES",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "A fair die is rolled once. What is the probability of getting a number strictly greater than $4$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{6}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4}{6}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Favorable outcomes: numbers $> 4 \\implies 2$ outcomes out of 6. Probability $= \\frac{2}{6}$."
+    }
+  ]
+}

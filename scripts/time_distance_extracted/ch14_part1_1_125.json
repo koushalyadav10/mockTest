@@ -1,0 +1,3252 @@
+[
+  {
+    "questionNumber": 1,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CGL 05/12/2022 (Shift-01)",
+    "questionText": "Which of the following is not a correct statement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The speed of 20 m/s is less than the speed of 85 km/h"
+      },
+      {
+        "label": "B",
+        "text": "Time may be calculated by dividing the distance by the speed."
+      },
+      {
+        "label": "C",
+        "text": "Covering the same distance in lesser time implies a higher speed."
+      },
+      {
+        "label": "D",
+        "text": "The speed of 99 km/h is less than the speed of 24 m/s"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let us convert speeds to compare:\nFor option A: $$20\\text{ m/s} = 20 \\times \\frac{18}{5} = 72\\text{ km/h} < 85\\text{ km/h}$$, which is correct.\nFor option B: $$\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}$$, which is correct.\nFor option C: Since $$\\text{Speed} \\propto \\frac{1}{\\text{Time}}$$, covering same distance in less time implies higher speed, which is correct.\nFor option D: $$24\\text{ m/s} = 24 \\times \\frac{18}{5} = 86.4\\text{ km/h}$$. Since $$99\\text{ km/h} > 86.4\\text{ km/h}$$, stating that $99\\text{ km/h}$ is less than $24\\text{ m/s}$ is incorrect.\nHence, option D is not a correct statement."
+  },
+  {
+    "questionNumber": 2,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC GD 16/11/2021 (Shift-01)",
+    "questionText": "A man crosses a road 1600 m long in 4 minutes. What is his speed in km/h?",
+    "options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Distance} = 1600\\text{ m}$$\n$$\\text{Time} = 4\\text{ minutes} = 4 \\times 60 = 240\\text{ seconds}$$\n$$\\text{Speed in m/s} = \\frac{1600}{240} = \\frac{20}{3}\\text{ m/s}$$\n$$\\text{Speed in km/h} = \\frac{20}{3} \\times \\frac{18}{5} = 4 \\times 6 = 24\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 3,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 02/06/2022 (Shift-03)",
+    "questionText": "A man runs 200 metres in 24 seconds. His speed is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "30 km/h"
+      },
+      {
+        "label": "B",
+        "text": "32 km/h"
+      },
+      {
+        "label": "C",
+        "text": "24 km/h"
+      },
+      {
+        "label": "D",
+        "text": "33 km/h"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Speed} = \\frac{200}{24}\\text{ m/s}$$\nConverting to km/h:\n$$\\text{Speed} = \\frac{200}{24} \\times \\frac{18}{5} = \\frac{40}{4} \\times 3 = 30\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 4,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CGL TIER - II 08/08/2022",
+    "questionText": "A bus covered a distance of 162 km. If speed of this bus is 15 m/s, then what will be the time taken?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 hours"
+      },
+      {
+        "label": "B",
+        "text": "2 hours"
+      },
+      {
+        "label": "C",
+        "text": "5 hours"
+      },
+      {
+        "label": "D",
+        "text": "4 hours"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Speed of bus} = 15\\text{ m/s} = 15 \\times \\frac{18}{5} = 54\\text{ km/h}$$\n$$\\text{Distance} = 162\\text{ km}$$\n$$\\text{Time taken} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{162}{54} = 3\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 5,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC MTS 05/10/2021 (Shift-01)",
+    "questionText": "The speed of wind during a storm is $10^5\\text{ mm}$ per sec. How long (in seconds) will it take a dust particle suspended in air to travel 1 km?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.01"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "0.1"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Speed} = 10^5\\text{ mm/sec} = \\frac{10^5}{1000}\\text{ m/sec} = 100\\text{ m/sec}$$\n$$\\text{Distance} = 1\\text{ km} = 1000\\text{ m}$$\n$$\\text{Time taken} = \\frac{1000}{100} = 10\\text{ seconds}$$"
+  },
+  {
+    "questionNumber": 6,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC Phase XI 27/06/2023 (Shift-02)",
+    "questionText": "A bus is running at a speed of 60 km/h to cover a distance in 50 min. To reduce the time of the journey to 20 min, at what speed (in km/h) should the bus run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "120"
+      },
+      {
+        "label": "B",
+        "text": "90"
+      },
+      {
+        "label": "C",
+        "text": "140"
+      },
+      {
+        "label": "D",
+        "text": "150"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Distance} = \\text{Speed} \\times \\text{Time} = 60 \\times \\frac{50}{60} = 50\\text{ km}$$\nNew time = $20\\text{ min} = \\frac{20}{60} = \\frac{1}{3}\\text{ hour}$.\n$$\\text{Required Speed} = \\frac{\\text{Distance}}{\\text{New Time}} = \\frac{50}{1/3} = 150\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 7,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-03)",
+    "questionText": "With a uniform speed, a car covers a distance in 16 hours. Had the speed been increased by 20 km/h, the same distance would have been covered in 12 hours. The total distance covered by the car is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "720 km"
+      },
+      {
+        "label": "B",
+        "text": "1080 km"
+      },
+      {
+        "label": "C",
+        "text": "960 km"
+      },
+      {
+        "label": "D",
+        "text": "480 km"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the original uniform speed be $s$ km/h.\n$$\\text{Distance } D = 16s = 12(s + 20)$$\n$$16s = 12s + 240 \\implies 4s = 240 \\implies s = 60\\text{ km/h}$$\n$$\\text{Total distance} = 16 \\times 60 = 960\\text{ km}$$"
+  },
+  {
+    "questionNumber": 8,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-03)",
+    "questionText": "A car covers a certain distance in 85 minutes, if it runs at a speed of 36 km/hr. The speed at which the car must run to reduce the time of journey to 51 minutes will be:",
+    "options": [
+      {
+        "label": "A",
+        "text": "70 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "80 km/hr"
+      },
+      {
+        "label": "C",
+        "text": "60 km/hr"
+      },
+      {
+        "label": "D",
+        "text": "50 km/hr"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Distance} = 36 \\times \\frac{85}{60} = 51\\text{ km}$$\nTo cover 51 km in 51 minutes ($=\\frac{51}{60}$ hours):\n$$\\text{Required Speed} = \\frac{51}{51/60} = 60\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 9,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+    "questionText": "A man walking at the speed of 5 km/h covers a certain distance in 3 hours 45 minutes. If he covers the same distance by a cycle in 2 hours 10 minutes, then the speed of the cycle in km/h is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9\\frac{16}{26}$"
+      },
+      {
+        "label": "B",
+        "text": "$5\\frac{11}{26}$"
+      },
+      {
+        "label": "C",
+        "text": "$7\\frac{16}{26}$"
+      },
+      {
+        "label": "D",
+        "text": "$8\\frac{17}{26}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Distance} = 5 \\times \\left(3 + \\frac{45}{60}\\right) = 5 \\times \\frac{15}{4} = \\frac{75}{4}\\text{ km}$$\n$$\\text{Time by cycle} = 2\\text{ hours } 10\\text{ minutes} = 2 + \\frac{10}{60} = \\frac{13}{6}\\text{ hours}$$\n$$\\text{Speed of cycle} = \\frac{75/4}{13/6} = \\frac{75}{4} \\times \\frac{6}{13} = \\frac{225}{26} = 8\\frac{17}{26}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 10,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+    "questionText": "A man walking at the speed of 4 km/h covers a certain distance in 6 hours and 15 minutes. If he covers the same distance by cycle in 5 hours and 10 minutes, then the speed of the cycle in km/h is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3\\frac{21}{31}$"
+      },
+      {
+        "label": "B",
+        "text": "$3\\frac{11}{31}$"
+      },
+      {
+        "label": "C",
+        "text": "$2\\frac{9}{31}$"
+      },
+      {
+        "label": "D",
+        "text": "$4\\frac{26}{31}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Distance} = 4 \\times \\left(6 + \\frac{15}{60}\\right) = 4 \\times \\frac{25}{4} = 25\\text{ km}$$\n$$\\text{Time by cycle} = 5\\text{ hours } 10\\text{ minutes} = 5 + \\frac{10}{60} = \\frac{31}{6}\\text{ hours}$$\n$$\\text{Speed of cycle} = \\frac{25}{31/6} = \\frac{150}{31} = 4\\frac{26}{31}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 11,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-02)",
+    "questionText": "To reach at a destination, D takes 45 minutes if he drives at a speed of 60 km/h. Due to some urgency, he is to reach the destination in 30 minutes. What should be his speed in km/h?",
+    "options": [
+      {
+        "label": "A",
+        "text": "80"
+      },
+      {
+        "label": "B",
+        "text": "75"
+      },
+      {
+        "label": "C",
+        "text": "90"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Distance} = 60 \\times \\frac{45}{60} = 45\\text{ km}$$\n$$\\text{Target time} = 30\\text{ minutes} = \\frac{1}{2}\\text{ hour}$$\n$$\\text{Required speed} = \\frac{45}{1/2} = 90\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 12,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CPO 29/06/2024 (Shift-03)",
+    "questionText": "If a car runs at a speed of 60 km/h and takes 180 minutes to cover a certain distance, then what time will it take to cover the same distance at a speed of 40 km/h?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 hr"
+      },
+      {
+        "label": "B",
+        "text": "4 hr 30 min"
+      },
+      {
+        "label": "C",
+        "text": "3 hr 45 min"
+      },
+      {
+        "label": "D",
+        "text": "3 hr 15 min"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Time} = 180\\text{ minutes} = 3\\text{ hours}$$\n$$\\text{Distance} = 60 \\times 3 = 180\\text{ km}$$\n$$\\text{Time at 40 km/h} = \\frac{180}{40} = 4.5\\text{ hours} = 4\\text{ hr } 30\\text{ min}$$"
+  },
+  {
+    "questionNumber": 13,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 20/03/2023 (Shift-03)",
+    "questionText": "A man can cover a certain distance in 2 hours and 10 minutes if he walks at the rate of 12 km/hr. If he covers the same distance on cycle at the rate of 13 km/hr, then find the time taken by him.",
+    "options": [
+      {
+        "label": "A",
+        "text": "90 minutes"
+      },
+      {
+        "label": "B",
+        "text": "110 minutes"
+      },
+      {
+        "label": "C",
+        "text": "120 minutes"
+      },
+      {
+        "label": "D",
+        "text": "115 minutes"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Walking time} = 2\\text{ hours } 10\\text{ minutes} = \\frac{13}{6}\\text{ hours}$$\n$$\\text{Distance} = 12 \\times \\frac{13}{6} = 26\\text{ km}$$\n$$\\text{Time by cycle} = \\frac{26}{13} = 2\\text{ hours} = 120\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 14,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC Phase XII 25/06/2024 (Shift-04)",
+    "questionText": "If a car covers 90 km using 4 litres of petrol, how much distance (in km) will it cover using 32 litres of petrol?",
+    "options": [
+      {
+        "label": "A",
+        "text": "720"
+      },
+      {
+        "label": "B",
+        "text": "650"
+      },
+      {
+        "label": "C",
+        "text": "710"
+      },
+      {
+        "label": "D",
+        "text": "680"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Mileage} = \\frac{90}{4} = 22.5\\text{ km/litre}$$\n$$\\text{Distance with 32 litres} = 32 \\times 22.5 = 720\\text{ km}$$"
+  },
+  {
+    "questionNumber": 15,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 17/03/2023 (Shift-01)",
+    "questionText": "The distance between P and Q is 720 km. A train leaves P at 6 am and runs at a speed of 20 m/s. The train stops on the way for 1 hour 30 minutes. At what time train will reach at Q ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 : 00 pm"
+      },
+      {
+        "label": "B",
+        "text": "4 : 45 pm"
+      },
+      {
+        "label": "C",
+        "text": "5 : 15 pm"
+      },
+      {
+        "label": "D",
+        "text": "5 : 30 pm"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Speed} = 20\\text{ m/s} = 20 \\times \\frac{18}{5} = 72\\text{ km/h}$$\n$$\\text{Running time} = \\frac{720}{72} = 10\\text{ hours}$$\n$$\\text{Total time} = 10\\text{ hours} + 1\\text{ hour } 30\\text{ minutes} = 11\\text{ hours } 30\\text{ minutes}$$\n$$\\text{Arrival time} = 6:00\\text{ am} + 11\\text{ hr } 30\\text{ min} = 5:30\\text{ pm}$$"
+  },
+  {
+    "questionNumber": 16,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CPO 10/11/2022 (Shift-03)",
+    "questionText": "A bus travels at 100 km/h for the first 1/2 hour. Later it travels at 80 km/h. Find the time taken by the bus to travel 290 km.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 hours"
+      },
+      {
+        "label": "B",
+        "text": "3.5 hours"
+      },
+      {
+        "label": "C",
+        "text": "3 hours"
+      },
+      {
+        "label": "D",
+        "text": "2.5 hours"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Distance in first } 0.5\\text{ hour} = 100 \\times 0.5 = 50\\text{ km}$$\n$$\\text{Remaining distance} = 290 - 50 = 240\\text{ km}$$\n$$\\text{Time taken at 80 km/h} = \\frac{240}{80} = 3\\text{ hours}$$\n$$\\text{Total time taken} = 0.5 + 3 = 3.5\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 17,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CGL 12/04/2022 (Shift - 03)",
+    "questionText": "A journey of 900 km is completed in 11 h. If $\\frac{2}{5}$ of the journey is completed at the speed of 60 km/h, at what speed (in km/h) is the remaining journey completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "108"
+      },
+      {
+        "label": "B",
+        "text": "72"
+      },
+      {
+        "label": "C",
+        "text": "84"
+      },
+      {
+        "label": "D",
+        "text": "90"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{First part of journey} = \\frac{2}{5} \\times 900 = 360\\text{ km}$$\n$$\\text{Time for first part} = \\frac{360}{60} = 6\\text{ hours}$$\n$$\\text{Remaining distance} = 900 - 360 = 540\\text{ km}$$\n$$\\text{Remaining time} = 11 - 6 = 5\\text{ hours}$$\n$$\\text{Required speed} = \\frac{540}{5} = 108\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 18,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-02)",
+    "questionText": "A car moves at a speed of 108 km/hr after repairing and moves at the speed of 72 km/hr before repairing. It covers a distance of $x$ km in 3 hours after repairing. How much time will it take to cover a distance of $5x$ km before repairing ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25 hrs 20 min"
+      },
+      {
+        "label": "B",
+        "text": "24 hrs"
+      },
+      {
+        "label": "C",
+        "text": "20 hrs 40 min"
+      },
+      {
+        "label": "D",
+        "text": "22 hrs 30 min"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$x = 108 \\times 3 = 324\\text{ km}$$\n$$5x = 5 \\times 324 = 1620\\text{ km}$$\n$$\\text{Time before repairing} = \\frac{1620}{72} = 22.5\\text{ hours} = 22\\text{ hrs } 30\\text{ min}$$"
+  },
+  {
+    "questionNumber": 19,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CGL TIER-II 26/10/2023",
+    "questionText": "Vipin travels one-third of the distance of a journey at a speed of 30 km/h and the remaining distance at a speed of 40 km/h. If he took a total of 12 hours to complete the journey, what was the total distance (in km) of the journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "445"
+      },
+      {
+        "label": "B",
+        "text": "450"
+      },
+      {
+        "label": "C",
+        "text": "412"
+      },
+      {
+        "label": "D",
+        "text": "432"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the total distance be $D$ km.\n$$\\frac{D/3}{30} + \\frac{2D/3}{40} = 12$$\n$$\\frac{D}{90} + \\frac{D}{60} = 12$$\n$$\\frac{2D + 3D}{180} = 12 \\implies \\frac{5D}{180} = 12$$\n$$\\frac{D}{36} = 12 \\implies D = 36 \\times 12 = 432\\text{ km}$$"
+  },
+  {
+    "questionNumber": 20,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CPO 04/10/2023 (Shift-03)",
+    "questionText": "Jimmy has to cover a distance of 88 km in 16 hours. If she covers half of the journey in $\\frac{3}{4}$ time, then what should be her speed to cover the remaining distance in the time left?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 km/h"
+      },
+      {
+        "label": "B",
+        "text": "10 km/h"
+      },
+      {
+        "label": "C",
+        "text": "13 km/h"
+      },
+      {
+        "label": "D",
+        "text": "11 km/h"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Remaining distance} = \\frac{88}{2} = 44\\text{ km}$$\n$$\\text{Time consumed} = \\frac{3}{4} \\times 16 = 12\\text{ hours}$$\n$$\\text{Time left} = 16 - 12 = 4\\text{ hours}$$\n$$\\text{Required speed} = \\frac{44}{4} = 11\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 21,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 07/08/2023 (Shift-01)",
+    "questionText": "A man decided to cover a distance of 12 km in 78 minutes. He decided to cover the initial two-thirds of the distance at 10 km/h and the remaining at some different speed. Find the speed for the last one-third of the distance.",
+    "options": [
+      {
+        "label": "A",
+        "text": "7.8 km/h"
+      },
+      {
+        "label": "B",
+        "text": "8 km/h"
+      },
+      {
+        "label": "C",
+        "text": "8.4 km/h"
+      },
+      {
+        "label": "D",
+        "text": "9 km/h"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{First part} = \\frac{2}{3} \\times 12 = 8\\text{ km}$$\n$$\\text{Time for first part} = \\frac{8}{10}\\text{ hr} = \\frac{4}{5} \\times 60 = 48\\text{ minutes}$$\n$$\\text{Remaining distance} = 12 - 8 = 4\\text{ km}$$\n$$\\text{Remaining time} = 78 - 48 = 30\\text{ minutes} = 0.5\\text{ hour}$$\n$$\\text{Speed for last one-third} = \\frac{4}{0.5} = 8\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 22,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC MTS 17/05/2023 (Shift-01)",
+    "questionText": "A man starts from a place A and reaches the place B in 50 hours. He travels $\\frac{1}{4}$ distance at the speed of 5 km/hr and the remaining distance at the speed of 15 km/hr. What is the distance between A and B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "525 km"
+      },
+      {
+        "label": "B",
+        "text": "500 km"
+      },
+      {
+        "label": "C",
+        "text": "375 km"
+      },
+      {
+        "label": "D",
+        "text": "425 km"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let the total distance between A and B be $D$ km.\n$$\\frac{D/4}{5} + \\frac{3D/4}{15} = 50$$\n$$\\frac{D}{20} + \\frac{D}{20} = 50 \\implies \\frac{2D}{20} = 50$$\n$$\\frac{D}{10} = 50 \\implies D = 500\\text{ km}$$"
+  },
+  {
+    "questionNumber": 23,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-01)",
+    "questionText": "Tom travelled 285 km in 6 hours. In his total travelling, he travelled the first part by bus at 40 km/hr and the remaining part by train at 55 km/hr. How much distance has he travelled by train?",
+    "options": [
+      {
+        "label": "A",
+        "text": "155 km"
+      },
+      {
+        "label": "B",
+        "text": "120 km"
+      },
+      {
+        "label": "C",
+        "text": "165 km"
+      },
+      {
+        "label": "D",
+        "text": "135 km"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the time travelled by bus be $t$ hours. Then time travelled by train is $(6 - t)$ hours.\n$$40t + 55(6 - t) = 285$$\n$$40t + 330 - 55t = 285$$\n$$15t = 45 \\implies t = 3\\text{ hours}$$\n$$\\text{Distance travelled by train} = 55 \\times (6 - 3) = 55 \\times 3 = 165\\text{ km}$$"
+  },
+  {
+    "questionNumber": 24,
+    "typeHeader": "TYPE - I: BASIC QUESTIONS",
+    "examShift": "SSC MTS 04/09/2023 (Shift-01)",
+    "questionText": "Yug covers a certain distance with a speed of 56 km/h in $\\frac{3}{2}$ hours. If he wants to cover the same distance in 7 hours, what would be his speed (in km/h)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Distance} = 56 \\times \\frac{3}{2} = 84\\text{ km}$$\n$$\\text{Required Speed} = \\frac{84}{7} = 12\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 25,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CGL 01/12/2022 (Shift-01)",
+    "questionText": "If Ram covers a certain journey at 60% of his usual speed, he reaches the destination late by 36 min. His usual time (in min) to reach the destination is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "60"
+      },
+      {
+        "label": "B",
+        "text": "72"
+      },
+      {
+        "label": "C",
+        "text": "50"
+      },
+      {
+        "label": "D",
+        "text": "54"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Speed ratio} = 60\\% : 100\\% = 3 : 5$$\nSince distance is constant, $$\\text{Time ratio} = 5 : 3$$.\nDifference in time units = $5 - 3 = 2$ units.\n$$2\\text{ units} = 36\\text{ minutes} \\implies 1\\text{ unit} = 18\\text{ minutes}$$\n$$\\text{Usual time} = 3\\text{ units} = 3 \\times 18 = 54\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 26,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+    "questionText": "Moving at $\\frac{6}{7}$ of its usual speed, a bus is 20 minutes late. What is the usual time to cover the journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 hours"
+      },
+      {
+        "label": "B",
+        "text": "4 hours"
+      },
+      {
+        "label": "C",
+        "text": "1.5 hours"
+      },
+      {
+        "label": "D",
+        "text": "3 hours"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Speed ratio} = 6 : 7 \\implies \\text{Time ratio} = 7 : 6$$\nDifference = $7 - 6 = 1$ unit $= 20\\text{ minutes}$.\n$$\\text{Usual time} = 6 \\times 20 = 120\\text{ minutes} = 2\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 27,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+    "questionText": "A vehicle is going at one-fourth of its usual speed and it takes an extra 45 minutes to reach its destination. Its usual time to cover the same distance is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "20 minutes"
+      },
+      {
+        "label": "B",
+        "text": "15 minutes"
+      },
+      {
+        "label": "C",
+        "text": "10 minutes"
+      },
+      {
+        "label": "D",
+        "text": "30 minutes"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Speed ratio} = 1 : 4 \\implies \\text{Time ratio} = 4 : 1$$\nExtra time units = $4 - 1 = 3$ units.\n$$3\\text{ units} = 45\\text{ minutes} \\implies 1\\text{ unit} = 15\\text{ minutes}$$\n$$\\text{Usual time} = 1\\text{ unit} = 15\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 28,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CPO 24/11/2020 (Shift-2)",
+    "questionText": "A boy increases his speed to $\\frac{9}{5}$ times of his original speed. By doing this, he reaches his school 40 minutes before the usual time. How much time (in minutes) does he take usually?",
+    "options": [
+      {
+        "label": "A",
+        "text": "120"
+      },
+      {
+        "label": "B",
+        "text": "30"
+      },
+      {
+        "label": "C",
+        "text": "90"
+      },
+      {
+        "label": "D",
+        "text": "45"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Speed ratio (New : Original)} = 9 : 5$$\n$$\\text{Time ratio (New : Original)} = 5 : 9$$\nTime saved = $9 - 5 = 4$ units.\n$$4\\text{ units} = 40\\text{ minutes} \\implies 1\\text{ unit} = 10\\text{ minutes}$$\n$$\\text{Usual time} = 9\\text{ units} = 9 \\times 10 = 90\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 29,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+    "questionText": "Two cars run to a place at the speeds of 45 km/h and 55 km/h, respectively. If the second car takes 40 minutes less than the first for the journey, then what is the length of the journey (in km)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "145"
+      },
+      {
+        "label": "B",
+        "text": "165"
+      },
+      {
+        "label": "C",
+        "text": "180"
+      },
+      {
+        "label": "D",
+        "text": "99"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Difference in time} = 40\\text{ minutes} = \\frac{40}{60} = \\frac{2}{3}\\text{ hour}$$\n$$\\text{Distance } D = \\frac{s_1 \\times s_2}{s_2 - s_1} \\times \\Delta t$$\n$$D = \\frac{45 \\times 55}{55 - 45} \\times \\frac{2}{3} = \\frac{2475}{10} \\times \\frac{2}{3} = 247.5 \\times \\frac{2}{3} = 165\\text{ km}$$"
+  },
+  {
+    "questionNumber": 30,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC MTS 14/09/2023 (Shift-02)",
+    "questionText": "If a person walks at 18 km/hr instead of 12 km/hr, he would have walked 24 km more. What is the actual distance travelled by him?",
+    "options": [
+      {
+        "label": "A",
+        "text": "60 km"
+      },
+      {
+        "label": "B",
+        "text": "48 km"
+      },
+      {
+        "label": "C",
+        "text": "55 km"
+      },
+      {
+        "label": "D",
+        "text": "52 km"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Since time is constant, $$\\text{Distance} \\propto \\text{Speed}$$.\n$$\\frac{D_{\\text{new}}}{D_{\\text{actual}}} = \\frac{18}{12} = \\frac{3}{2}$$\nDifference = $3 - 2 = 1$ unit $= 24\\text{ km}$.\n$$\\text{Actual distance} = 2 \\times 24 = 48\\text{ km}$$"
+  },
+  {
+    "questionNumber": 31,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC MTS 12/10/2021 (Shift-02)",
+    "questionText": "A lady walks to her office every day from home and maintains a fixed time for the same. On one day she decreases her speed by 25%. By what fraction of her usual time will she be late on that day?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{1}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1}{6}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{2}{3}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{New speed} = 100\\% - 25\\% = 75\\% = \\frac{3}{4}\\text{ of usual speed}$$\n$$\\text{New time} = \\frac{4}{3}\\text{ of usual time}$$\n$$\\text{Fraction of time late} = \\frac{4}{3} - 1 = \\frac{1}{3}$$"
+  },
+  {
+    "questionNumber": 32,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CGL 19/04/2022 (Shift -01)",
+    "questionText": "A takes 3 hours more than B to walk 'd' km. If A doubles his speed, then he can make it in 1 hour less than B. How much time (in hours) does A require to walk 'd' km?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the original time taken by A be $T_A$ and B be $T_B$.\n$$T_A = T_B + 3$$\nWhen A doubles his speed, his time becomes $\\frac{T_A}{2}$:\n$$\\frac{T_A}{2} = T_B - 1$$\nSubtracting the second equation from the first:\n$$T_A - \\frac{T_A}{2} = (T_B + 3) - (T_B - 1)$$\n$$\\frac{T_A}{2} = 4 \\implies T_A = 8\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 33,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CGL 17/08/2021 (Shift 01)",
+    "questionText": "A takes 8 hours more than the time taken by B to cover a distance of 160 km. If A doubles his speed, he takes 3 hours more than B to cover the same distance. The speed (in km/h) of B is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "72"
+      },
+      {
+        "label": "B",
+        "text": "80"
+      },
+      {
+        "label": "C",
+        "text": "70"
+      },
+      {
+        "label": "D",
+        "text": "75"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let times taken by A and B be $T_A$ and $T_B$.\n$$T_A = T_B + 8$$\nWhen A doubles speed, time taken is $\\frac{T_A}{2}$:\n$$\\frac{T_A}{2} = T_B + 3$$\nSubtracting:\n$$T_A - \\frac{T_A}{2} = 8 - 3 \\implies \\frac{T_A}{2} = 5 \\implies T_A = 10\\text{ hours}$$\n$$T_B = 10 - 8 = 2\\text{ hours}$$\n$$\\text{Speed of B} = \\frac{160}{2} = 80\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 34,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CGL TIER-II 13/09/2019 (Shift-01)",
+    "questionText": "To cover a distance of 416 km, a train A takes $2\\frac{2}{3}$ hours more than train B. If the speed of A is doubled, it would take $1\\frac{1}{3}$ hours less than B. What is the speed (in km/h) of train A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "56"
+      },
+      {
+        "label": "B",
+        "text": "54"
+      },
+      {
+        "label": "C",
+        "text": "52"
+      },
+      {
+        "label": "D",
+        "text": "65"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Difference in times taken by train A when doubling speed:\n$$\\Delta T_A = 2\\frac{2}{3} - \\left(-1\\frac{1}{3}\\right) = \\frac{8}{3} + \\frac{4}{3} = \\frac{12}{3} = 4\\text{ hours}$$\nSince doubling speed halves the travel time:\n$$T_A - \\frac{T_A}{2} = 4 \\implies \\frac{T_A}{2} = 4 \\implies T_A = 8\\text{ hours}$$\n$$\\text{Speed of train A} = \\frac{416}{8} = 52\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 35,
+    "typeHeader": "TYPE - II: WHEN SPEED IS INCREASED/DECREASED",
+    "examShift": "SSC CGL 04/06/2019 (Shift-01)",
+    "questionText": "A takes 30 minutes more than B to cover a distance of 15 km at a certain speed. But if A doubles his speed, he takes one hour less than B to cover the same distance. What is the speed (in km/hr) of B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "$6\\frac{1}{2}$"
+      },
+      {
+        "label": "D",
+        "text": "$5\\frac{1}{2}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$T_A = T_B + 0.5$$\n$$\\frac{T_A}{2} = T_B - 1$$\nSubtracting gives:\n$$T_A - \\frac{T_A}{2} = 0.5 - (-1) = 1.5\\text{ hours} \\implies T_A = 3\\text{ hours}$$\n$$T_B = 3 - 0.5 = 2.5\\text{ hours}$$\n$$\\text{Speed of B} = \\frac{15}{2.5} = 6\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 36,
+    "typeHeader": "TYPE - III: WHEN DISTANCE IS CONSTANT AND TOTAL TIME IS GIVEN",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+    "questionText": "A person travels from one place to another at 60 km/hr and returns at 75 km/hr. If the total time taken is 6 hours, then find the total distance travelled.",
+    "options": [
+      {
+        "label": "A",
+        "text": "300 km"
+      },
+      {
+        "label": "B",
+        "text": "240 km"
+      },
+      {
+        "label": "C",
+        "text": "250 km"
+      },
+      {
+        "label": "D",
+        "text": "400 km"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the one-way distance be $d$ km.\n$$\\frac{d}{60} + \\frac{d}{75} = 6$$\n$$\\frac{5d + 4d}{300} = 6 \\implies \\frac{9d}{300} = 6$$\n$$9d = 1800 \\implies d = 200\\text{ km}$$\n$$\\text{Total distance travelled (round trip)} = 2d = 2 \\times 200 = 400\\text{ km}$$"
+  },
+  {
+    "questionNumber": 37,
+    "typeHeader": "TYPE - III: WHEN DISTANCE IS CONSTANT AND TOTAL TIME IS GIVEN",
+    "examShift": "SSC Phase XII 21/06/2024 (Shift-04)",
+    "questionText": "Ram goes to his office from his house at a speed of 8 km/h and returns at a speed of 2 km/h. If he takes four hours in going and coming back, find the distance between the house and the office.",
+    "options": [
+      {
+        "label": "A",
+        "text": "6.4 km"
+      },
+      {
+        "label": "B",
+        "text": "5.3 km"
+      },
+      {
+        "label": "C",
+        "text": "7.4 km"
+      },
+      {
+        "label": "D",
+        "text": "6.3 km"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the distance between house and office be $d$ km.\n$$\\frac{d}{8} + \\frac{d}{2} = 4$$\n$$\\frac{d + 4d}{8} = 4 \\implies \\frac{5d}{8} = 4$$\n$$5d = 32 \\implies d = \\frac{32}{5} = 6.4\\text{ km}$$"
+  },
+  {
+    "questionNumber": 38,
+    "typeHeader": "TYPE - III: WHEN DISTANCE IS CONSTANT AND TOTAL TIME IS GIVEN",
+    "examShift": "SSC MTS 14/09/2023 (Shift- 03)",
+    "questionText": "A man goes from his house to a vegetable market at the speed of 15 km/h and walked back at the speed of 10 km/h. If the whole journey took 2 hours 30 minutes, find the distance from his house to the vegetable market (in km).",
+    "options": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total time} = 2\\text{ hours } 30\\text{ minutes} = 2.5 = \\frac{5}{2}\\text{ hours}$$\nLet the distance be $d$ km.\n$$\\frac{d}{15} + \\frac{d}{10} = \\frac{5}{2}$$\n$$\\frac{2d + 3d}{30} = \\frac{5}{2} \\implies \\frac{5d}{30} = \\frac{5}{2}$$\n$$\\frac{d}{6} = \\frac{5}{2} \\implies d = 15\\text{ km}$$"
+  },
+  {
+    "questionNumber": 39,
+    "typeHeader": "TYPE - III: WHEN DISTANCE IS CONSTANT AND TOTAL TIME IS GIVEN",
+    "examShift": "SSC CHSL 25/05/2022 (Shift- 03)",
+    "questionText": "A man completes a journey in ten hours. He travels at a speed of 21 km/h for the first half of the journey and at a speed of 24 km/h for the second half. Calculate the total distance travelled (in kilometres).",
+    "options": [
+      {
+        "label": "A",
+        "text": "212"
+      },
+      {
+        "label": "B",
+        "text": "224"
+      },
+      {
+        "label": "C",
+        "text": "235"
+      },
+      {
+        "label": "D",
+        "text": "230"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let the half distance be $d$ km, so total distance is $2d$ km.\n$$\\frac{d}{21} + \\frac{d}{24} = 10$$\n$$\\text{LCM}(21, 24) = 168$$\n$$\\frac{8d + 7d}{168} = 10 \\implies \\frac{15d}{168} = 10$$\n$$15d = 1680 \\implies d = 112\\text{ km}$$\n$$\\text{Total distance} = 2d = 2 \\times 112 = 224\\text{ km}$$"
+  },
+  {
+    "questionNumber": 40,
+    "typeHeader": "TYPE - III: WHEN DISTANCE IS CONSTANT AND TOTAL TIME IS GIVEN",
+    "examShift": "SSC MTS 27/10/2021 (Shift-02)",
+    "questionText": "A train travels for $5\\frac{1}{2}$ hours, the first half of the distance at 60 km/h and the other half at 20 m/sec. The total distance (in km) travelled is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "360"
+      },
+      {
+        "label": "B",
+        "text": "250"
+      },
+      {
+        "label": "C",
+        "text": "300"
+      },
+      {
+        "label": "D",
+        "text": "240"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Speed of second half} = 20\\text{ m/sec} = 20 \\times \\frac{18}{5} = 72\\text{ km/h}$$\n$$\\text{Total time} = 5\\frac{1}{2} = \\frac{11}{2}\\text{ hours}$$\nLet each half distance be $d$ km.\n$$\\frac{d}{60} + \\frac{d}{72} = \\frac{11}{2}$$\n$$\\text{LCM}(60, 72) = 360$$\n$$\\frac{6d + 5d}{360} = \\frac{11}{2} \\implies \\frac{11d}{360} = \\frac{11}{2}$$\n$$d = 180\\text{ km}$$\n$$\\text{Total distance} = 2d = 360\\text{ km}$$"
+  },
+  {
+    "questionNumber": 41,
+    "typeHeader": "TYPE - III: WHEN DISTANCE IS CONSTANT AND TOTAL TIME IS GIVEN",
+    "examShift": "SSC CGL TIER - II 29/01/2022",
+    "questionText": "A student goes to school at a speed of $5\\frac{1}{2}$ km/h and returns at a speed of 4 km/h. If he takes $4\\frac{3}{4}$ hours for the entire journey, then the total distance covered by the student (in km) is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "22"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let the one-way distance be $d$ km.\n$$\\frac{d}{11/2} + \\frac{d}{4} = \\frac{19}{4}$$\n$$\\frac{2d}{11} + \\frac{d}{4} = \\frac{19}{4}$$\n$$\\frac{8d + 11d}{44} = \\frac{19}{4} \\implies \\frac{19d}{44} = \\frac{19}{4}$$\n$$d = 11\\text{ km}$$\n$$\\text{Total distance covered (round trip)} = 2d = 22\\text{ km}$$"
+  },
+  {
+    "questionNumber": 42,
+    "typeHeader": "TYPE - III: WHEN DISTANCE IS CONSTANT AND TOTAL TIME IS GIVEN",
+    "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+    "questionText": "A man travels some distance at a speed of 12 km/h and returns at a speed of 8 km/h. If the total time taken by him is 3 hours and 45 minutes, then the total distance (in km) travelled is.",
+    "options": [
+      {
+        "label": "A",
+        "text": "32"
+      },
+      {
+        "label": "B",
+        "text": "42"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total time} = 3\\text{ hours } 45\\text{ minutes} = 3\\frac{3}{4} = \\frac{15}{4}\\text{ hours}$$\nLet one-way distance be $d$ km.\n$$\\frac{d}{12} + \\frac{d}{8} = \\frac{15}{4}$$\n$$\\frac{2d + 3d}{24} = \\frac{15}{4} \\implies \\frac{5d}{24} = \\frac{15}{4}$$\n$$5d = 90 \\implies d = 18\\text{ km}$$\n$$\\text{Total distance} = 2d = 36\\text{ km}$$"
+  },
+  {
+    "questionNumber": 43,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-02)",
+    "questionText": "A boy covers a certain distance between his house and school on a cycle. Riding on an average speed of 15 km/h, he is late by 10 min. However, with an average speed of 20 km/h, he reaches the school 5 min earlier. Find the distance between his house and school.",
+    "options": [
+      {
+        "label": "A",
+        "text": "25 km"
+      },
+      {
+        "label": "B",
+        "text": "20 km"
+      },
+      {
+        "label": "C",
+        "text": "15 km"
+      },
+      {
+        "label": "D",
+        "text": "30 km"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Difference in time} = 10\\text{ min late} - (-5\\text{ min early}) = 15\\text{ minutes} = \\frac{15}{60} = \\frac{1}{4}\\text{ hour}$$\n$$\\text{Distance } D = \\frac{s_1 s_2}{s_2 - s_1} \\times \\Delta t = \\frac{15 \\times 20}{20 - 15} \\times \\frac{1}{4} = \\frac{300}{5} \\times \\frac{1}{4} = 60 \\times \\frac{1}{4} = 15\\text{ km}$$"
+  },
+  {
+    "questionNumber": 44,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+    "questionText": "If Tanya walks at the speed of 6 km/h, she misses a train by 2 minutes. However, if she walks at the speed of 8 km/h, she reaches the station 3 minutes before the arrival of the train. The distance covered by Tanya to reach the station is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 km"
+      },
+      {
+        "label": "B",
+        "text": "2.5 km"
+      },
+      {
+        "label": "C",
+        "text": "2.75 km"
+      },
+      {
+        "label": "D",
+        "text": "2 km"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\Delta t = 2\\text{ min} - (-3\\text{ min}) = 5\\text{ minutes} = \\frac{5}{60} = \\frac{1}{12}\\text{ hour}$$\n$$D = \\frac{s_1 s_2}{s_2 - s_1} \\times \\Delta t = \\frac{6 \\times 8}{8 - 6} \\times \\frac{1}{12} = \\frac{48}{2} \\times \\frac{1}{12} = 24 \\times \\frac{1}{12} = 2\\text{ km}$$"
+  },
+  {
+    "questionNumber": 45,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-01)",
+    "questionText": "A person reaches his destination 30 minutes late, if his speed is 3 km/h, and reaches 30 minutes before time if his speed is 4 km/h. Find the distance of his destination from the starting point.",
+    "options": [
+      {
+        "label": "A",
+        "text": "14 km"
+      },
+      {
+        "label": "B",
+        "text": "11 km"
+      },
+      {
+        "label": "C",
+        "text": "12 km"
+      },
+      {
+        "label": "D",
+        "text": "13 km"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\Delta t = 30\\text{ min late} - (-30\\text{ min early}) = 60\\text{ minutes} = 1\\text{ hour}$$\n$$D = \\frac{s_1 s_2}{s_2 - s_1} \\times \\Delta t = \\frac{3 \\times 4}{4 - 3} \\times 1 = 12\\text{ km}$$"
+  },
+  {
+    "questionNumber": 46,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC MTS 11/05/2023 (Shift-01)",
+    "questionText": "Ram walks at the speed of 12 km/h and reaches his school 12 minutes late. If he walks at 16 km/hr, then he reaches 8 minutes before the scheduled time. What is the distance of his school from his house?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16 km"
+      },
+      {
+        "label": "B",
+        "text": "30 km"
+      },
+      {
+        "label": "C",
+        "text": "20 km"
+      },
+      {
+        "label": "D",
+        "text": "24 km"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\Delta t = 12 - (-8) = 20\\text{ minutes} = \\frac{20}{60} = \\frac{1}{3}\\text{ hour}$$\n$$D = \\frac{12 \\times 16}{16 - 12} \\times \\frac{1}{3} = \\frac{192}{4} \\times \\frac{1}{3} = 48 \\times \\frac{1}{3} = 16\\text{ km}$$"
+  },
+  {
+    "questionNumber": 47,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC CHSL 21/03/2023 (Shift-02)",
+    "questionText": "A person goes to his office by scooter at the speed of 80 km/hr and reaches 60 minutes earlier. If he goes at the speed of 50 km/hr then he reaches 48 minutes late. What will be the speed of the scooter to reach on the usual time?",
+    "options": [
+      {
+        "label": "A",
+        "text": "64 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "66 km/hr"
+      },
+      {
+        "label": "C",
+        "text": "60 km/hr"
+      },
+      {
+        "label": "D",
+        "text": "62 km/hr"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\Delta t = 48 - (-60) = 108\\text{ minutes} = \\frac{108}{60} = \\frac{9}{5}\\text{ hours}$$\n$$D = \\frac{80 \\times 50}{80 - 50} \\times \\frac{9}{5} = \\frac{4000}{30} \\times \\frac{9}{5} = \\frac{400}{3} \\times \\frac{9}{5} = 240\\text{ km}$$\nTime taken at 80 km/hr = $\\frac{240}{80} = 3\\text{ hours}$.\nSince he reaches 60 minutes (1 hour) early at 80 km/hr, usual time = $3 + 1 = 4\\text{ hours}$.\n$$\\text{Usual speed} = \\frac{240}{4} = 60\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 48,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC CHSL 24/05/2022 (Shift-01)",
+    "questionText": "Ramesh drives from his home at a speed of 40 km/h and reaches his college 25 minutes late. The next day he increases his speed by 10 km/h, yet he is late by 10 minutes. How far is his college from his home?",
+    "options": [
+      {
+        "label": "A",
+        "text": "50 km"
+      },
+      {
+        "label": "B",
+        "text": "55 km"
+      },
+      {
+        "label": "C",
+        "text": "45 km"
+      },
+      {
+        "label": "D",
+        "text": "60 km"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$s_1 = 40\\text{ km/h}, \\quad s_2 = 40 + 10 = 50\\text{ km/h}$$\n$$\\Delta t = 25 - 10 = 15\\text{ minutes} = \\frac{15}{60} = \\frac{1}{4}\\text{ hour}$$\n$$D = \\frac{40 \\times 50}{50 - 40} \\times \\frac{1}{4} = \\frac{2000}{10} \\times \\frac{1}{4} = 200 \\times \\frac{1}{4} = 50\\text{ km}$$"
+  },
+  {
+    "questionNumber": 49,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC CGL 20/04/2022 (Shift -02)",
+    "questionText": "If Raman drives his bike at a speed of 24 km/h, he reaches his office 5 minutes late. If he drives at a speed of 30 km/h, he reaches his office 4 minutes early. How much time (in minutes) will he take to reach his office at a speed of 27 km/h?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40"
+      },
+      {
+        "label": "B",
+        "text": "55"
+      },
+      {
+        "label": "C",
+        "text": "50"
+      },
+      {
+        "label": "D",
+        "text": "45"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\Delta t = 5 - (-4) = 9\\text{ minutes} = \\frac{9}{60}\\text{ hour}$$\n$$D = \\frac{24 \\times 30}{30 - 24} \\times \\frac{9}{60} = \\frac{720}{6} \\times \\frac{9}{60} = 120 \\times \\frac{9}{60} = 18\\text{ km}$$\n$$\\text{Time at 27 km/h} = \\frac{18}{27} = \\frac{2}{3}\\text{ hour} = \\frac{2}{3} \\times 60 = 40\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 50,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC MTS 12/07/2022 (Shift-02)",
+    "questionText": "Punit goes from his home to his relative's place at a speed of 45 km/h. While returning from the relative's place, due to traffic, it takes him an hour longer as he can only drive at the speed of 40 km/h. Find the distance (in km) of his relative's place from his home.",
+    "options": [
+      {
+        "label": "A",
+        "text": "400"
+      },
+      {
+        "label": "B",
+        "text": "720"
+      },
+      {
+        "label": "C",
+        "text": "180"
+      },
+      {
+        "label": "D",
+        "text": "360"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\Delta t = 1\\text{ hour}$$\n$$D = \\frac{s_1 s_2}{s_1 - s_2} \\times \\Delta t = \\frac{45 \\times 40}{45 - 40} \\times 1 = \\frac{1800}{5} = 360\\text{ km}$$"
+  },
+  {
+    "questionNumber": 51,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC MTS 08/09/2023 (Shift- 03)",
+    "questionText": "A boy covers a certain distance between his house and school on a cycle. Having an average speed of 10 km/h, he is late by 10 min. However, with an average speed of 15 km/h, he reaches the school in 5 min, earlier. Find the distance (in km) between his house and school.",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "8.5"
+      },
+      {
+        "label": "C",
+        "text": "7.5"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\Delta t = 10 - (-5) = 15\\text{ minutes} = \\frac{15}{60} = \\frac{1}{4}\\text{ hour}$$\n$$D = \\frac{10 \\times 15}{15 - 10} \\times \\frac{1}{4} = \\frac{150}{5} \\times \\frac{1}{4} = 30 \\times \\frac{1}{4} = 7.5\\text{ km}$$"
+  },
+  {
+    "questionNumber": 52,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC MTS 04/09/2023 (Shift- 01)",
+    "questionText": "P and Q start from point A to point B, at the same time at speeds of 32 km/h and 40 km/h, respectively. If in covering the journey P takes 15 minutes longer than Q, the total distance AB of the journey is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "36 km"
+      },
+      {
+        "label": "B",
+        "text": "32 km"
+      },
+      {
+        "label": "C",
+        "text": "40 km"
+      },
+      {
+        "label": "D",
+        "text": "44 km"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\Delta t = 15\\text{ minutes} = \\frac{15}{60} = \\frac{1}{4}\\text{ hour}$$\n$$D = \\frac{32 \\times 40}{40 - 32} \\times \\frac{1}{4} = \\frac{1280}{8} \\times \\frac{1}{4} = 160 \\times \\frac{1}{4} = 40\\text{ km}$$"
+  },
+  {
+    "questionNumber": 53,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC CHSL 17/03/2023 (Shift-02)",
+    "questionText": "Aman drove from home to a town at the speed of 60 km/hr and on his return journey, he drove at the speed of 30 km/hr and took an hour longer to reach home. What distance did he cover each way?",
+    "options": [
+      {
+        "label": "A",
+        "text": "75 km"
+      },
+      {
+        "label": "B",
+        "text": "55 km"
+      },
+      {
+        "label": "C",
+        "text": "60 km"
+      },
+      {
+        "label": "D",
+        "text": "80 km"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\Delta t = 1\\text{ hour}$$\n$$D = \\frac{60 \\times 30}{60 - 30} \\times 1 = \\frac{1800}{30} = 60\\text{ km}$$"
+  },
+  {
+    "questionNumber": 54,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC MTS 17/05/2023 (Shift 03)",
+    "questionText": "In covering a distance of 50 km, Somya takes 1 hour more than Sunny. If Somya doubles his speed, then he would take 1 hour less than Sunny. Somya's speed is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "18.4 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "12.5 km/hr"
+      },
+      {
+        "label": "C",
+        "text": "14.8 km/hr"
+      },
+      {
+        "label": "D",
+        "text": "15.6 km/hr"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let Somya's time be $T_{\\text{Somya}}$ and Sunny's time be $T_{\\text{Sunny}}$.\n$$T_{\\text{Somya}} = T_{\\text{Sunny}} + 1$$\nWhen Somya doubles speed, his time is $\\frac{T_{\\text{Somya}}}{2}$:\n$$\\frac{T_{\\text{Somya}}}{2} = T_{\\text{Sunny}} - 1$$\nSubtracting gives:\n$$T_{\\text{Somya}} - \\frac{T_{\\text{Somya}}}{2} = 1 - (-1) = 2 \\implies \\frac{T_{\\text{Somya}}}{2} = 2 \\implies T_{\\text{Somya}} = 4\\text{ hours}$$\n$$\\text{Somya's speed} = \\frac{50}{4} = 12.5\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 55,
+    "typeHeader": "TYPE - IV: WHEN DISTANCE IS CONSTANT AND DIFFERENCE OF TIME IS GIVEN",
+    "examShift": "SSC CGL TIER-II 16/11/2020 (Shift-01)",
+    "questionText": "Amita travels from her house at $3\\frac{1}{2}$ km/h and reaches her school 6 minutes late. The next day she travels at $4\\frac{1}{2}$ km/h and reaches her school 10 minutes early. What is the distance between her house and the school?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5.4 km"
+      },
+      {
+        "label": "B",
+        "text": "5.6 km"
+      },
+      {
+        "label": "C",
+        "text": "4.8 km"
+      },
+      {
+        "label": "D",
+        "text": "4.2 km"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$s_1 = 3.5 = \\frac{7}{2}\\text{ km/h}, \\quad s_2 = 4.5 = \\frac{9}{2}\\text{ km/h}$$\n$$\\Delta t = 6 - (-10) = 16\\text{ minutes} = \\frac{16}{60} = \\frac{4}{15}\\text{ hour}$$\n$$D = \\frac{s_1 s_2}{s_2 - s_1} \\times \\Delta t = \\frac{3.5 \\times 4.5}{4.5 - 3.5} \\times \\frac{4}{15} = \\frac{15.75}{1} \\times \\frac{4}{15} = 4.2\\text{ km}$$"
+  },
+  {
+    "questionNumber": 56,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-01)",
+    "questionText": "Shankar covers a certain distance by a car driving at 40 km/h and he returns to the starting point riding on a scooter with a speed of 20 km/h. Find the average speed of the whole journey.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$22\\frac{2}{3}\\text{ km/h}$"
+      },
+      {
+        "label": "B",
+        "text": "$24\\frac{2}{3}\\text{ km/h}$"
+      },
+      {
+        "label": "C",
+        "text": "$29\\frac{2}{3}\\text{ km/h}$"
+      },
+      {
+        "label": "D",
+        "text": "$26\\frac{2}{3}\\text{ km/h}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Average speed} = \\frac{2 s_1 s_2}{s_1 + s_2} = \\frac{2 \\times 40 \\times 20}{40 + 20} = \\frac{1600}{60} = \\frac{80}{3} = 26\\frac{2}{3}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 57,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 29/06/2024 (Shift-03)",
+    "questionText": "A man travels some distance from his house to the exhibition ground by an auto at a speed of 30 km/h and returns by a cab at a speed of 50 km/h. What is his average speed (in km/h)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "38"
+      },
+      {
+        "label": "B",
+        "text": "28"
+      },
+      {
+        "label": "C",
+        "text": "40"
+      },
+      {
+        "label": "D",
+        "text": "37.5"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Average speed} = \\frac{2 \\times 30 \\times 50}{30 + 50} = \\frac{3000}{80} = 37.5\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 58,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 03/08/2023 (Shift-02)",
+    "questionText": "Rajinder drives his car at an average speed of 40 km per hour to cover half of his total distance and thereafter he increases his speed to 60 km per hour. He covers his journey in 7 hours. What is the average speed of Rajinder in this journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "52 km per hour"
+      },
+      {
+        "label": "B",
+        "text": "48 km per hour"
+      },
+      {
+        "label": "C",
+        "text": "50 km per hour"
+      },
+      {
+        "label": "D",
+        "text": "54 km per hour"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Since equal distances (half and half) are covered at 40 km/h and 60 km/h:\n$$\\text{Average speed} = \\frac{2 \\times 40 \\times 60}{40 + 60} = \\frac{4800}{100} = 48\\text{ km per hour}$$"
+  },
+  {
+    "questionNumber": 59,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+    "questionText": "A motorcyclist rides his motorcycle at a speed of 90 km/hr in the first one hour and the next two hours at a speed of 120 km/hr. Find the average speed of the rider.",
+    "options": [
+      {
+        "label": "A",
+        "text": "110 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "115 km/hr"
+      },
+      {
+        "label": "C",
+        "text": "105 km/hr"
+      },
+      {
+        "label": "D",
+        "text": "120 km/hr"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total distance} = (90 \\times 1) + (120 \\times 2) = 90 + 240 = 330\\text{ km}$$\n$$\\text{Total time} = 1 + 2 = 3\\text{ hours}$$\n$$\\text{Average speed} = \\frac{330}{3} = 110\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 60,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+    "questionText": "The distance between two stations A and B is 800 km. A train covers the journey from A to B at a speed of 90 km/h and returns to A with a uniform speed of 65 km/h. Find the average speed of train during the whole journey (in km/h).",
+    "options": [
+      {
+        "label": "A",
+        "text": "82.36"
+      },
+      {
+        "label": "B",
+        "text": "80.50"
+      },
+      {
+        "label": "C",
+        "text": "70.45"
+      },
+      {
+        "label": "D",
+        "text": "75.48"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Average speed} = \\frac{2 \\times 90 \\times 65}{90 + 65} = \\frac{11700}{155} = \\frac{2340}{31} \\approx 75.48\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 61,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 14/08/2023 (Shift-2)",
+    "questionText": "The speed of a car going from A to B is 110 km/h. While coming back, its speed is 76 km/h. What is the average speed during the entire journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$87\\frac{81}{99}\\text{ km/h}$"
+      },
+      {
+        "label": "B",
+        "text": "$83\\frac{89}{93}\\text{ km/h}$"
+      },
+      {
+        "label": "C",
+        "text": "$89\\frac{83}{93}\\text{ km/h}$"
+      },
+      {
+        "label": "D",
+        "text": "$82\\frac{91}{97}\\text{ km/h}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Average speed} = \\frac{2 \\times 110 \\times 76}{110 + 76} = \\frac{16720}{186} = \\frac{8360}{93} = 89\\frac{83}{93}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 62,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CGL 13/06/2019 (Shift-02)",
+    "questionText": "A person goes to his office at one-fourth the speed at which he returns home from his office. If the average speed during the whole round (trip) is 15 km/hr, what would have been his speed while going to office?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{75}{8}\\text{ km/h}$"
+      },
+      {
+        "label": "B",
+        "text": "9 km/h"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{17}{3}\\text{ km/h}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{15}{2}\\text{ km/h}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let speed while going to office be $v$ km/h, and return speed be $4v$ km/h.\n$$\\text{Average speed} = \\frac{2(v)(4v)}{v + 4v} = \\frac{8v^2}{5v} = \\frac{8}{5}v$$\nGiven average speed $= 15\\text{ km/hr}$:\n$$\\frac{8}{5}v = 15 \\implies v = \\frac{75}{8}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 63,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "Ram travelled an equal distance with speed of 40 km/hr, 45 km/hr and 60 km/hr. What is the average speed of Ram during the whole journey? Correct to two decimal places.",
+    "options": [
+      {
+        "label": "A",
+        "text": "66.94 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "94.66 km/hr"
+      },
+      {
+        "label": "C",
+        "text": "64.96 km/hr"
+      },
+      {
+        "label": "D",
+        "text": "46.96 km/hr"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the equal distance for each part be $d$ km. Total distance $= 3d$.\n$$\\text{Total time} = \\frac{d}{40} + \\frac{d}{45} + \\frac{d}{60}$$\n$$\\text{LCM}(40, 45, 60) = 360$$\n$$\\text{Total time} = d\\left(\\frac{9 + 8 + 6}{360}\\right) = \\frac{23d}{360}$$\n$$\\text{Average speed} = \\frac{3d}{23d/360} = \\frac{1080}{23} \\approx 46.96\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 64,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+    "questionText": "A person divides his total route of journey into three equal parts and decides to travel the three parts at the speeds of 80 km/h, 60 km/h and 30 km/h, respectively. What is the average speed during the journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "49 km/h"
+      },
+      {
+        "label": "B",
+        "text": "40 km/h"
+      },
+      {
+        "label": "C",
+        "text": "48 km/h"
+      },
+      {
+        "label": "D",
+        "text": "45 km/h"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Average speed} = \\frac{3}{\\frac{1}{80} + \\frac{1}{60} + \\frac{1}{30}}$$\n$$\\text{LCM}(80, 60, 30) = 240$$\n$$\\frac{1}{80} + \\frac{1}{60} + \\frac{1}{30} = \\frac{3 + 4 + 8}{240} = \\frac{15}{240} = \\frac{1}{16}$$\n$$\\text{Average speed} = \\frac{3}{1/16} = 48\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 65,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-04)",
+    "questionText": "A man makes four trips of equal distances. His speed on first trip was 720 km/hr and in each subsequent trip his speed was half of the previous trip. What is the average speed of the man in these four trips ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "104 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "156 km/hr"
+      },
+      {
+        "label": "C",
+        "text": "192 km/hr"
+      },
+      {
+        "label": "D",
+        "text": "288 km/hr"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The four speeds are $720, 360, 180, 90$ km/hr.\n$$\\text{Average speed} = \\frac{4}{\\frac{1}{720} + \\frac{1}{360} + \\frac{1}{180} + \\frac{1}{90}}$$\n$$\\frac{1 + 2 + 4 + 8}{720} = \\frac{15}{720} = \\frac{1}{48}$$\n$$\\text{Average speed} = \\frac{4}{1/48} = 192\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 66,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XII 21/06/2024 (Shift-02)",
+    "questionText": "P drives a car for 5 hours and after every hour he doubles the speed. In the fifth hour, his speed is 128 km/h. What is his average speed of the journey in km/h?",
+    "options": [
+      {
+        "label": "A",
+        "text": "52.6"
+      },
+      {
+        "label": "B",
+        "text": "62.6"
+      },
+      {
+        "label": "C",
+        "text": "49.6"
+      },
+      {
+        "label": "D",
+        "text": "55.6"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Working backwards from the fifth hour where speed is 128 km/h:\n- 4th hour speed: $128 / 2 = 64\\text{ km/h}$\n- 3rd hour speed: $64 / 2 = 32\\text{ km/h}$\n- 2nd hour speed: $32 / 2 = 16\\text{ km/h}$\n- 1st hour speed: $16 / 2 = 8\\text{ km/h}$\nSince each segment lasts exactly 1 hour:\n$$\\text{Total distance} = 8 + 16 + 32 + 64 + 128 = 248\\text{ km}$$\n$$\\text{Total time} = 5\\text{ hours}$$\n$$\\text{Average speed} = \\frac{248}{5} = 49.6\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 67,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-01)",
+    "questionText": "A cyclist rides 10 km at an average speed of 15 km/hr and then the next 15 km at an average speed of 10 km/hr. The average speed of the entire ride is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "20 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "12.5 km/hr"
+      },
+      {
+        "label": "C",
+        "text": "10 km/hr"
+      },
+      {
+        "label": "D",
+        "text": "11.54 km/hr"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total distance} = 10 + 15 = 25\\text{ km}$$\n$$\\text{Total time} = \\frac{10}{15} + \\frac{15}{10} = \\frac{2}{3} + \\frac{3}{2} = \\frac{4 + 9}{6} = \\frac{13}{6}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{25}{13/6} = \\frac{150}{13} \\approx 11.54\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 68,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+    "questionText": "A motorcycle covered the first 60 km of its journey at an average speed of 40 km/h. The speed of the motorcycle for covering the rest of the journey, i.e. 90 km, was 45 km/h. During the whole journey, the overall average speed of the motorcycle was:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$42\\frac{6}{7}\\text{ km/h}$"
+      },
+      {
+        "label": "B",
+        "text": "42 km/h"
+      },
+      {
+        "label": "C",
+        "text": "$42\\frac{1}{7}\\text{ km/h}$"
+      },
+      {
+        "label": "D",
+        "text": "$42\\frac{1}{2}\\text{ km/h}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total distance} = 60 + 90 = 150\\text{ km}$$\n$$\\text{Total time} = \\frac{60}{40} + \\frac{90}{45} = \\frac{3}{2} + 2 = \\frac{7}{2}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{150}{7/2} = \\frac{300}{7} = 42\\frac{6}{7}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 69,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+    "questionText": "A bus covers the first 50 km of its journey in 40 minutes and covers the remaining 75 km in 40 minutes. What is the average speed (in km/h) of the bus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$95\\frac{1}{4}$"
+      },
+      {
+        "label": "B",
+        "text": "$93\\frac{3}{4}$"
+      },
+      {
+        "label": "C",
+        "text": "$101\\frac{1}{4}$"
+      },
+      {
+        "label": "D",
+        "text": "$105\\frac{3}{4}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total distance} = 50 + 75 = 125\\text{ km}$$\n$$\\text{Total time} = 40 + 40 = 80\\text{ minutes} = \\frac{80}{60} = \\frac{4}{3}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{125}{4/3} = \\frac{375}{4} = 93\\frac{3}{4}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 70,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+    "questionText": "R reaches office from home in 30 minutes and comes back in 20 minutes. The distance to his office from home is 12.5 km. What is his average speed (in km/h) from home to office and then back home?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "25"
+      },
+      {
+        "label": "C",
+        "text": "60"
+      },
+      {
+        "label": "D",
+        "text": "30"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total distance} = 12.5 + 12.5 = 25\\text{ km}$$\n$$\\text{Total time} = 30 + 20 = 50\\text{ minutes} = \\frac{50}{60} = \\frac{5}{6}\\text{ hour}$$\n$$\\text{Average speed} = \\frac{25}{5/6} = 25 \\times \\frac{6}{5} = 30\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 71,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "A travels for 8 hours at the rate of 4 km/h and for 4 hours at the rate of 8 km/h. The average speed of the journey (in km/h) is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5\\frac{2}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$4\\frac{2}{3}$"
+      },
+      {
+        "label": "C",
+        "text": "$5\\frac{1}{3}$"
+      },
+      {
+        "label": "D",
+        "text": "$4\\frac{1}{3}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Distance}_1 = 8 \\times 4 = 32\\text{ km}$$\n$$\\text{Distance}_2 = 4 \\times 8 = 32\\text{ km}$$\n$$\\text{Total distance} = 32 + 32 = 64\\text{ km}$$\n$$\\text{Total time} = 8 + 4 = 12\\text{ hours}$$\n$$\\text{Average speed} = \\frac{64}{12} = \\frac{16}{3} = 5\\frac{1}{3}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 72,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XII 20/06/2024 (Shift-03)",
+    "questionText": "A truck travels 75 km in the first hour and 33 km in the second hour. Find the average speed of the truck (in km/h).",
+    "options": [
+      {
+        "label": "A",
+        "text": "54"
+      },
+      {
+        "label": "B",
+        "text": "42"
+      },
+      {
+        "label": "C",
+        "text": "108"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total distance} = 75 + 33 = 108\\text{ km}$$\n$$\\text{Total time} = 1 + 1 = 2\\text{ hours}$$\n$$\\text{Average speed} = \\frac{108}{2} = 54\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 73,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XII 20/06/2024 (Shift-02)",
+    "questionText": "A bus covers the first 70 km of its journey in 40 minutes and the remaining 60 km in 30 minutes. The average speed of the bus, in km/h, is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$109\\frac{3}{7}$"
+      },
+      {
+        "label": "B",
+        "text": "$106\\frac{5}{7}$"
+      },
+      {
+        "label": "C",
+        "text": "$91\\frac{2}{7}$"
+      },
+      {
+        "label": "D",
+        "text": "$111\\frac{3}{7}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total distance} = 70 + 60 = 130\\text{ km}$$\n$$\\text{Total time} = 40 + 30 = 70\\text{ minutes} = \\frac{70}{60} = \\frac{7}{6}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{130}{7/6} = \\frac{780}{7} = 111\\frac{3}{7}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 74,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XII 20/06/2024 (Shift-02)",
+    "questionText": "Sahil covers a distance of 96 km at the speed of 16 km/h and covers another distance at the speed of 21 km/h in 5 hours. What is his average speed (in km/h)? (Rounded off to 2 decimal places)",
+    "options": [
+      {
+        "label": "A",
+        "text": "19.45"
+      },
+      {
+        "label": "B",
+        "text": "18.50"
+      },
+      {
+        "label": "C",
+        "text": "18.27"
+      },
+      {
+        "label": "D",
+        "text": "17.47"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Time for first part} = \\frac{96}{16} = 6\\text{ hours}$$\n$$\\text{Distance for second part} = 21 \\times 5 = 105\\text{ km}$$\n$$\\text{Total distance} = 96 + 105 = 201\\text{ km}$$\n$$\\text{Total time} = 6 + 5 = 11\\text{ hours}$$\n$$\\text{Average speed} = \\frac{201}{11} \\approx 18.27\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 75,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC MTS 05/09/2023 (Shift- 02)",
+    "questionText": "The total journey is 800 km. A car travels the first 320 km of the journey at the speed of 64 km/hr. What should be the speed of the next 480 km so that average speed will become 80 km/hr?",
+    "options": [
+      {
+        "label": "A",
+        "text": "89 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "96 km/hr"
+      },
+      {
+        "label": "C",
+        "text": "69 km/hr"
+      },
+      {
+        "label": "D",
+        "text": "86 km/hr"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total time required} = \\frac{800}{80} = 10\\text{ hours}$$\n$$\\text{Time for first } 320\\text{ km} = \\frac{320}{64} = 5\\text{ hours}$$\n$$\\text{Remaining time} = 10 - 5 = 5\\text{ hours}$$\n$$\\text{Required speed} = \\frac{480}{5} = 96\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 76,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC MTS 11/09/2023 (Shift- 03)",
+    "questionText": "Two-fifth of a journey is covered at a speed of 45 km/h, and the remaining distance is covered at the rate of 63 km/h. The average speed for the whole journey (in km/h, rounded off to the nearest integer) is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "54"
+      },
+      {
+        "label": "B",
+        "text": "55"
+      },
+      {
+        "label": "C",
+        "text": "58"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let total distance be 5 units. First part = 2 units, remaining = 3 units.\n$$\\text{Total time} = \\frac{2}{45} + \\frac{3}{63} = \\frac{2}{45} + \\frac{1}{21}$$\n$$\\text{LCM}(45, 21) = 315$$\n$$\\text{Total time} = \\frac{14 + 15}{315} = \\frac{29}{315}$$\n$$\\text{Average speed} = \\frac{5}{29/315} = \\frac{1575}{29} \\approx 54.31 \\approx 54\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 77,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XI 28/06/2023 (Shift-01)",
+    "questionText": "A person completes 80 km of a journey at 10 km/h and the remaining 70 km in 7 hours. His average speed for the whole journey is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "10.5 km/h"
+      },
+      {
+        "label": "B",
+        "text": "9 km/h"
+      },
+      {
+        "label": "C",
+        "text": "10 km/h"
+      },
+      {
+        "label": "D",
+        "text": "9.5 km/h"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Time for first part} = \\frac{80}{10} = 8\\text{ hours}$$\n$$\\text{Time for second part} = 7\\text{ hours}$$\n$$\\text{Total distance} = 80 + 70 = 150\\text{ km}$$\n$$\\text{Total time} = 8 + 7 = 15\\text{ hours}$$\n$$\\text{Average speed} = \\frac{150}{15} = 10\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 78,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XI 28/06/2023 (Shift-03)",
+    "questionText": "A car travels the first 180 km at a speed of 20 km/h. It covers the next 210 km at a speed of 35 km/h. Find the average speed of the car (in km/h).",
+    "options": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "55"
+      },
+      {
+        "label": "C",
+        "text": "27.5"
+      },
+      {
+        "label": "D",
+        "text": "26"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Time}_1 = \\frac{180}{20} = 9\\text{ hours}$$\n$$\\text{Time}_2 = \\frac{210}{35} = 6\\text{ hours}$$\n$$\\text{Total distance} = 180 + 210 = 390\\text{ km}$$\n$$\\text{Total time} = 9 + 6 = 15\\text{ hours}$$\n$$\\text{Average speed} = \\frac{390}{15} = 26\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 79,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+    "questionText": "In a 100-km journey, the average speed of S is 40 km/h. He covers the first 60 km in 40 minutes and the next 20 km in 50 minutes. What is his speed in the last 20 km (in km/h)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "25"
+      },
+      {
+        "label": "D",
+        "text": "30"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total time for entire journey} = \\frac{100}{40} = 2.5\\text{ hours} = 150\\text{ minutes}$$\n$$\\text{Time spent in first two parts} = 40 + 50 = 90\\text{ minutes}$$\n$$\\text{Remaining time for last } 20\\text{ km} = 150 - 90 = 60\\text{ minutes} = 1\\text{ hour}$$\n$$\\text{Speed in last } 20\\text{ km} = \\frac{20}{1} = 20\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 80,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 11/08/2023 (Shift-3)",
+    "questionText": "The total distance in a journey is 750 km. A bus travel the first 200 km at a speed of 40 km/hr. Find the speed of the bus (km/hr) for the next 550 km such that the average speed of the bus is 50 kmph.",
+    "options": [
+      {
+        "label": "A",
+        "text": "55"
+      },
+      {
+        "label": "B",
+        "text": "60"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "40"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total time needed} = \\frac{750}{50} = 15\\text{ hours}$$\n$$\\text{Time for first } 200\\text{ km} = \\frac{200}{40} = 5\\text{ hours}$$\n$$\\text{Time remaining for next } 550\\text{ km} = 15 - 5 = 10\\text{ hours}$$\n$$\\text{Required speed} = \\frac{550}{10} = 55\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 81,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+    "questionText": "Mithila covers 50 km by bus in 90 minutes. After deboarding the bus, she takes rest for 15 minutes and covers another 30 km by a taxi in 35 minutes. Find the average speed (in km/h) for the whole journey.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$31\\frac{2}{7}$"
+      },
+      {
+        "label": "B",
+        "text": "$32\\frac{2}{7}$"
+      },
+      {
+        "label": "C",
+        "text": "$34\\frac{2}{7}$"
+      },
+      {
+        "label": "D",
+        "text": "$33\\frac{2}{7}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total distance} = 50 + 30 = 80\\text{ km}$$\n$$\\text{Total time taken} = 90 + 15 + 35 = 140\\text{ minutes} = \\frac{140}{60} = \\frac{7}{3}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{80}{7/3} = \\frac{240}{7} = 34\\frac{2}{7}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 82,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+    "questionText": "A man travels 1200 km by train at 80 km/h, 1600 km by ship at 40 km/h, 1000 km by plane at 400 km/h, and 200 km by car at 50 km/h. What is the average speed for the entire distance? (rounded off to 2 decimal places)",
+    "options": [
+      {
+        "label": "A",
+        "text": "75.40 km/h"
+      },
+      {
+        "label": "B",
+        "text": "68.14 km/h"
+      },
+      {
+        "label": "C",
+        "text": "72.40km/h"
+      },
+      {
+        "label": "D",
+        "text": "65.04 km/h"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total distance} = 1200 + 1600 + 1000 + 200 = 4000\\text{ km}$$\n$$\\text{Time by train} = \\frac{1200}{80} = 15\\text{ h}$$\n$$\\text{Time by ship} = \\frac{1600}{40} = 40\\text{ h}$$\n$$\\text{Time by plane} = \\frac{1000}{400} = 2.5\\text{ h}$$\n$$\\text{Time by car} = \\frac{200}{50} = 4\\text{ h}$$\n$$\\text{Total time} = 15 + 40 + 2.5 + 4 = 61.5\\text{ hours}$$\n$$\\text{Average speed} = \\frac{4000}{61.5} = \\frac{8000}{123} \\approx 65.04\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 83,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "Ashish covers 72 km at a speed of 45 km/h by bike, 28 km at a speed of 4 km/h by bicycle, and another 160 km at a speed of 20 km/h by car. Find his average speed (in km/h) for the whole journey. (Rounded off to two decimal places)",
+    "options": [
+      {
+        "label": "A",
+        "text": "15.66"
+      },
+      {
+        "label": "B",
+        "text": "25.25"
+      },
+      {
+        "label": "C",
+        "text": "28.33"
+      },
+      {
+        "label": "D",
+        "text": "27.65"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total distance} = 72 + 28 + 160 = 260\\text{ km}$$\n$$\\text{Time by bike} = \\frac{72}{45} = 1.6\\text{ h}$$\n$$\\text{Time by bicycle} = \\frac{28}{4} = 7\\text{ h}$$\n$$\\text{Time by car} = \\frac{160}{20} = 8\\text{ h}$$\n$$\\text{Total time} = 1.6 + 7 + 8 = 16.6\\text{ hours}$$\n$$\\text{Average speed} = \\frac{260}{16.6} = \\frac{1300}{83} \\approx 15.66\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 84,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CGL 02/12/2022 (Shift- 03)",
+    "questionText": "If a man travels at $\\frac{1}{x}$ km/h on a journey and returns at $\\frac{1}{x^2}$ km/h, then his average speed for the journey is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{x+1}{x^2}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{2}{x + x^2}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1}{x + x^2}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{2x^2}{x + 1}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Average speed} = \\frac{2 s_1 s_2}{s_1 + s_2} = \\frac{2 \\left(\\frac{1}{x}\\right)\\left(\\frac{1}{x^2}\\right)}{\\frac{1}{x} + \\frac{1}{x^2}} = \\frac{\\frac{2}{x^3}}{\\frac{x + 1}{x^2}} = \\frac{2}{x^3} \\times \\frac{x^2}{x + 1} = \\frac{2}{x(x + 1)} = \\frac{2}{x + x^2}$$"
+  },
+  {
+    "questionNumber": 85,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase-X 04/08/2022 (Shift-03)",
+    "questionText": "A car travels from P to Q at the speed of 45 km/h and from Q to R at 65 km/h. If the distance from P to Q is 60 km and the distance from Q to R is 100 km, what is the average speed of the car during the whole journey (corrected to two decimal places)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "55.71 km/h"
+      },
+      {
+        "label": "B",
+        "text": "60.31 km/h"
+      },
+      {
+        "label": "C",
+        "text": "54.71 km/h"
+      },
+      {
+        "label": "D",
+        "text": "61.31 km/h"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total distance} = 60 + 100 = 160\\text{ km}$$\n$$\\text{Total time} = \\frac{60}{45} + \\frac{100}{65} = \\frac{4}{3} + \\frac{20}{13} = \\frac{52 + 60}{39} = \\frac{112}{39}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{160}{112/39} = \\frac{160 \\times 39}{112} = \\frac{10 \\times 39}{7} = \\frac{390}{7} \\approx 55.71\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 86,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+    "questionText": "A person covers 11 km with a speed of 7 km/h, 25 km with a speed of 10 km/h and 30 km with a speed of 20 km/h. What is the average speed of the person?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$11\\frac{7}{13}\\text{ km/h}$"
+      },
+      {
+        "label": "B",
+        "text": "$11\\frac{11}{13}\\text{ km/h}$"
+      },
+      {
+        "label": "C",
+        "text": "$11\\frac{10}{13}\\text{ km/h}$"
+      },
+      {
+        "label": "D",
+        "text": "$11\\frac{9}{13}\\text{ km/h}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total distance} = 11 + 25 + 30 = 66\\text{ km}$$\n$$\\text{Total time} = \\frac{11}{7} + \\frac{25}{10} + \\frac{30}{20} = \\frac{11}{7} + 2.5 + 1.5 = \\frac{11}{7} + 4 = \\frac{39}{7}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{66}{39/7} = \\frac{66 \\times 7}{39} = \\frac{22 \\times 7}{13} = \\frac{154}{13} = 11\\frac{11}{13}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 87,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "A person drives 110 miles at 55 miles per hour, he drives the next 120 miles at 60 miles per hour, and then he drives the next 60 miles in an hour. What is his average speed for the entire journey in miles per hour ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "63"
+      },
+      {
+        "label": "B",
+        "text": "58"
+      },
+      {
+        "label": "C",
+        "text": "55"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total distance} = 110 + 120 + 60 = 290\\text{ miles}$$\n$$\\text{Time}_1 = \\frac{110}{55} = 2\\text{ hours}$$\n$$\\text{Time}_2 = \\frac{120}{60} = 2\\text{ hours}$$\n$$\\text{Time}_3 = 1\\text{ hour}$$\n$$\\text{Total time} = 2 + 2 + 1 = 5\\text{ hours}$$\n$$\\text{Average speed} = \\frac{290}{5} = 58\\text{ miles per hour}$$"
+  },
+  {
+    "questionNumber": 88,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+    "questionText": "A bus travels $\\frac{1}{3}$ of the distance initially at a speed of 40 km/h, the next $\\frac{1}{3}$ of the distance 50 km/h and the final $\\frac{1}{3}$ of the distance at 60 km/h. Find the average speed of the bus for the entire journey. (Rounded off to two decimal places)",
+    "options": [
+      {
+        "label": "A",
+        "text": "48.65 km/h."
+      },
+      {
+        "label": "B",
+        "text": "51.43 km/h."
+      },
+      {
+        "label": "C",
+        "text": "54.13 km/h."
+      },
+      {
+        "label": "D",
+        "text": "46.85 km/h."
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Average speed} = \\frac{3}{\\frac{1}{40} + \\frac{1}{50} + \\frac{1}{60}}$$\n$$\\text{LCM}(40, 50, 60) = 600$$\n$$\\frac{1}{40} + \\frac{1}{50} + \\frac{1}{60} = \\frac{15 + 12 + 10}{600} = \\frac{37}{600}$$\n$$\\text{Average speed} = \\frac{3 \\times 600}{37} = \\frac{1800}{37} \\approx 48.65\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 89,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 03/08/2023 (Shift-01)",
+    "questionText": "Mohan completed a certain journey by car. If he covered 30% of the distance at 90 km/h, 45% of the distance at 135 km/h and the remaining distance at 75 km/h. His average speed (in km/h) for the entire journey is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "90"
+      },
+      {
+        "label": "C",
+        "text": "105"
+      },
+      {
+        "label": "D",
+        "text": "95"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the total distance be 100 km.\n- First part: $30\\text{ km}$ at $90\\text{ km/h} \\implies t_1 = \\frac{30}{90} = \\frac{1}{3}\\text{ hour}$\n- Second part: $45\\text{ km}$ at $135\\text{ km/h} \\implies t_2 = \\frac{45}{135} = \\frac{1}{3}\\text{ hour}$\n- Remaining part: $100 - (30 + 45) = 25\\text{ km}$ at $75\\text{ km/h} \\implies t_3 = \\frac{25}{75} = \\frac{1}{3}\\text{ hour}$\n$$\\text{Total time} = \\frac{1}{3} + \\frac{1}{3} + \\frac{1}{3} = 1\\text{ hour}$$\n$$\\text{Average speed} = \\frac{100}{1} = 100\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 90,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+    "questionText": "A car covers 20 km in the first quarter of an hour, 25 km in the second quarter of that hour and 15 km in the third quarter. The average speed of the car (in km/h) over the entire journey is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "70 km/h"
+      },
+      {
+        "label": "B",
+        "text": "75 km/h"
+      },
+      {
+        "label": "C",
+        "text": "80 km/h"
+      },
+      {
+        "label": "D",
+        "text": "65 km/h"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total distance} = 20 + 25 + 15 = 60\\text{ km}$$\n$$\\text{Total time} = 3\\text{ quarters of an hour} = \\frac{3}{4}\\text{ hour}$$\n$$\\text{Average speed} = \\frac{60}{3/4} = 60 \\times \\frac{4}{3} = 80\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 91,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL TIER-II 02/11/2023",
+    "questionText": "A person covers $\\frac{1}{4}$ of his journey at the speed of 25 km/h, $\\frac{1}{2}$ of the journey at 40 km/h and the remaining at the speed of 50 km/h. Find his average speed per hour for the whole journey (in km/h).",
+    "options": [
+      {
+        "label": "A",
+        "text": "$36\\frac{4}{11}$"
+      },
+      {
+        "label": "B",
+        "text": "$34\\frac{6}{11}$"
+      },
+      {
+        "label": "C",
+        "text": "$36\\frac{6}{11}$"
+      },
+      {
+        "label": "D",
+        "text": "$34\\frac{6}{11}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the total distance be 100 km.\n- First part: $\\frac{1}{4} \\times 100 = 25\\text{ km} \\implies t_1 = \\frac{25}{25} = 1\\text{ h}$\n- Second part: $\\frac{1}{2} \\times 100 = 50\\text{ km} \\implies t_2 = \\frac{50}{40} = \\frac{5}{4}\\text{ h}$\n- Remaining part: $100 - (25 + 50) = 25\\text{ km} \\implies t_3 = \\frac{25}{50} = \\frac{1}{2} = \\frac{2}{4}\\text{ h}$\n$$\\text{Total time} = 1 + \\frac{5}{4} + \\frac{2}{4} = \\frac{11}{4}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{100}{11/4} = \\frac{400}{11} = 36\\frac{4}{11}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 92,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XI 28/06/2023 (Shift-02)",
+    "questionText": "Two-thirds of a certain distance was covered at the speed of 15 km/h, one-fifth at the speed of 25 km/h and the rest at the speed of 50 km/h. Find the average speed (in km/h) for the whole journey (rounded off to two decimal places).",
+    "options": [
+      {
+        "label": "A",
+        "text": "22.65"
+      },
+      {
+        "label": "B",
+        "text": "25.25"
+      },
+      {
+        "label": "C",
+        "text": "18.15"
+      },
+      {
+        "label": "D",
+        "text": "20.25"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let total distance be 15 units.\n- Distance 1: $\\frac{2}{3} \\times 15 = 10\\text{ units} \\implies t_1 = \\frac{10}{15} = \\frac{2}{3}\\text{ h}$\n- Distance 2: $\\frac{1}{5} \\times 15 = 3\\text{ units} \\implies t_2 = \\frac{3}{25}\\text{ h}$\n- Distance 3: $15 - (10 + 3) = 2\\text{ units} \\implies t_3 = \\frac{2}{50} = \\frac{1}{25}\\text{ h}$\n$$\\text{Total time} = \\frac{2}{3} + \\frac{3}{25} + \\frac{1}{25} = \\frac{2}{3} + \\frac{4}{25} = \\frac{50 + 12}{75} = \\frac{62}{75}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{15}{62/75} = \\frac{1125}{62} \\approx 18.15\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 93,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XI 28/06/2023 (Shift-04)",
+    "questionText": "Medha covers 81 km at a speed of 27 km/h by bike, 12 km at a speed of 6 km/h by bicycle, and another 270 km at a speed of 45 km/h by car. Find her average speed for the whole journey.",
+    "options": [
+      {
+        "label": "A",
+        "text": "33 km/h"
+      },
+      {
+        "label": "B",
+        "text": "36 km/h"
+      },
+      {
+        "label": "C",
+        "text": "34 km/h"
+      },
+      {
+        "label": "D",
+        "text": "35 km/h"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total distance} = 81 + 12 + 270 = 363\\text{ km}$$\n$$\\text{Time by bike} = \\frac{81}{27} = 3\\text{ h}$$\n$$\\text{Time by bicycle} = \\frac{12}{6} = 2\\text{ h}$$\n$$\\text{Time by car} = \\frac{270}{45} = 6\\text{ h}$$\n$$\\text{Total time} = 3 + 2 + 6 = 11\\text{ hours}$$\n$$\\text{Average speed} = \\frac{363}{11} = 33\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 94,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC MTS 14/06/2023 (Shift-01)",
+    "questionText": "A man covers half part of a certain distance at 35 km/hr. He covers 40 percent of remaining distance at the speed of 8 km/hr and covers rest of the distance at the speed of 18 km/hr. What is his average speed for the entire journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{920}{47}\\text{ km/hr}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{480}{47}\\text{ km/hr}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{840}{47}\\text{ km/hr}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{760}{47}\\text{ km/hr}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the total distance be 100 km.\n- Half distance = $50\\text{ km}$ at $35\\text{ km/hr} \\implies t_1 = \\frac{50}{35} = \\frac{10}{7}\\text{ h}$\n- 40% of remaining 50 km = $20\\text{ km}$ at $8\\text{ km/hr} \\implies t_2 = \\frac{20}{8} = \\frac{5}{2}\\text{ h}$\n- Rest distance = $30\\text{ km}$ at $18\\text{ km/hr} \\implies t_3 = \\frac{30}{18} = \\frac{5}{3}\\text{ h}$\n$$\\text{Total time} = \\frac{10}{7} + \\frac{5}{2} + \\frac{5}{3} = \\frac{60 + 105 + 70}{42} = \\frac{235}{42}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{100}{235/42} = \\frac{4200}{235} = \\frac{840}{47}\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 95,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 16/03/2023 (Shift-01)",
+    "questionText": "One third part of a certain journey is covered at the speed of 10 km/hr, one fourth part at the speed of 15 km/hr and the rest part at the speed of 20 km/hr. What will be the average speed for the whole journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15 km/hr"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{200}{17}\\text{ km/hr}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{240}{17}\\text{ km/hr}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{280}{17}\\text{ km/hr}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the total distance be 12 units.\n- One-third part: $\\frac{1}{3} \\times 12 = 4\\text{ units} \\implies t_1 = \\frac{4}{10} = \\frac{2}{5}\\text{ h}$\n- One-fourth part: $\\frac{1}{4} \\times 12 = 3\\text{ units} \\implies t_2 = \\frac{3}{15} = \\frac{1}{5}\\text{ h}$\n- Rest part: $12 - (4 + 3) = 5\\text{ units} \\implies t_3 = \\frac{5}{20} = \\frac{1}{4}\\text{ h}$\n$$\\text{Total time} = \\frac{2}{5} + \\frac{1}{5} + \\frac{1}{4} = \\frac{3}{5} + \\frac{1}{4} = \\frac{12 + 5}{20} = \\frac{17}{20}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{12}{17/20} = \\frac{240}{17}\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 96,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CGL TIER-II 06/03/2023",
+    "questionText": "Reshma travels 45 km at 15 km/h by cycle, 80 km at 40 km/h by car and the remaining 6 km by foot at 2 km/h. Find his average speed for the whole journey. (Rounded off to 2 decimal places)",
+    "options": [
+      {
+        "label": "A",
+        "text": "15.25 km/h"
+      },
+      {
+        "label": "B",
+        "text": "16.38 km/h"
+      },
+      {
+        "label": "C",
+        "text": "18.36 km/h"
+      },
+      {
+        "label": "D",
+        "text": "43.50 km/h"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total distance} = 45 + 80 + 6 = 131\\text{ km}$$\n$$\\text{Time by cycle} = \\frac{45}{15} = 3\\text{ hours}$$\n$$\\text{Time by car} = \\frac{80}{40} = 2\\text{ hours}$$\n$$\\text{Time by foot} = \\frac{6}{2} = 3\\text{ hours}$$\n$$\\text{Total time} = 3 + 2 + 3 = 8\\text{ hours}$$\n$$\\text{Average speed} = \\frac{131}{8} = 16.375 \\approx 16.38\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 97,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CGL 09/12/2022 (Shift- 02)",
+    "questionText": "A person travels by a car at 40 km/h for 3 hours, by a bike at 30 km/h for 2 hours, and by a train at 80 km/h for 5 hours. What is the average speed at which he travelled?",
+    "options": [
+      {
+        "label": "A",
+        "text": "56 km/h"
+      },
+      {
+        "label": "B",
+        "text": "60 km/h"
+      },
+      {
+        "label": "C",
+        "text": "62 km/h"
+      },
+      {
+        "label": "D",
+        "text": "58 km/h"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Distance}_1 = 40 \\times 3 = 120\\text{ km}$$\n$$\\text{Distance}_2 = 30 \\times 2 = 60\\text{ km}$$\n$$\\text{Distance}_3 = 80 \\times 5 = 400\\text{ km}$$\n$$\\text{Total distance} = 120 + 60 + 400 = 580\\text{ km}$$\n$$\\text{Total time} = 3 + 2 + 5 = 10\\text{ hours}$$\n$$\\text{Average speed} = \\frac{580}{10} = 58\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 98,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 10/11/2022 (Shift-01)",
+    "questionText": "A car travels with a speed of 21 m/sec in the first 10 minutes, 9 km in the next 10 minutes and 10 km in the last 10 minutes of its journey. What is the average speed of the car (in km/h) during its entire journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "60 km/h"
+      },
+      {
+        "label": "B",
+        "text": "63.2 km/h"
+      },
+      {
+        "label": "C",
+        "text": "62 km/h"
+      },
+      {
+        "label": "D",
+        "text": "65.3 km/h"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Speed in first segment} = 21\\text{ m/sec} = 21 \\times \\frac{18}{5} = 75.6\\text{ km/h}$$\n$$\\text{Distance in first 10 minutes} = 75.6 \\times \\frac{10}{60} = 12.6\\text{ km}$$\n$$\\text{Total distance} = 12.6 + 9 + 10 = 31.6\\text{ km}$$\n$$\\text{Total time} = 10 + 10 + 10 = 30\\text{ minutes} = 0.5\\text{ hour}$$\n$$\\text{Average speed} = \\frac{31.6}{0.5} = 63.2\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 99,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CGL 01/12/2022 (Shift- 04)",
+    "questionText": "Two-thirds of a certain distance was covered at the speed of 45 km/h, one-fourth at the speed of 60 km/h and the rest at the speed of 75 km/h. Find the average speed per hour for the whole journey. (correct to 2 decimal places)",
+    "options": [
+      {
+        "label": "A",
+        "text": "51.25 km/h"
+      },
+      {
+        "label": "B",
+        "text": "45.75 km/h"
+      },
+      {
+        "label": "C",
+        "text": "58.25 km/h"
+      },
+      {
+        "label": "D",
+        "text": "49.77 km/h"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the total distance be 12 units.\n- Part 1: $\\frac{2}{3} \\times 12 = 8\\text{ units} \\implies t_1 = \\frac{8}{45}\\text{ h}$\n- Part 2: $\\frac{1}{4} \\times 12 = 3\\text{ units} \\implies t_2 = \\frac{3}{60} = \\frac{1}{20}\\text{ h}$\n- Part 3: $12 - (8 + 3) = 1\\text{ unit} \\implies t_3 = \\frac{1}{75}\\text{ h}$\n$$\\text{LCM}(45, 20, 75) = 900$$\n$$\\text{Total time} = \\frac{8 \\times 20 + 1 \\times 45 + 1 \\times 12}{900} = \\frac{160 + 45 + 12}{900} = \\frac{217}{900}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{12}{217/900} = \\frac{10800}{217} \\approx 49.77\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 100,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 10/11/2022 (Shift-02)",
+    "questionText": "In a journey of three unequal laps, a car covers a distance of 200 km in 4 h in the first lap, while another 162 km at the speed of 15 m/s in the second lap. It covered the remaining distance of the final lap in 4 h such that the average speed of the car for entire journey was 50 km/h. What was the speed of the car in the third lap of the journey?",
+    "options": [
+      {
+        "label": "A",
+        "text": "47 km/h"
+      },
+      {
+        "label": "B",
+        "text": "52 km/h"
+      },
+      {
+        "label": "C",
+        "text": "42 km/h"
+      },
+      {
+        "label": "D",
+        "text": "45 km/h"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Speed in second lap = $15\\text{ m/s} = 15 \\times \\frac{18}{5} = 54\\text{ km/h}$.\n$$\\text{Time in second lap} = \\frac{162}{54} = 3\\text{ hours}$$\n$$\\text{Total time for 3 laps} = 4 + 3 + 4 = 11\\text{ hours}$$\n$$\\text{Total distance} = 50 \\times 11 = 550\\text{ km}$$\n$$\\text{Distance in third lap} = 550 - (200 + 162) = 550 - 362 = 188\\text{ km}$$\n$$\\text{Speed in third lap} = \\frac{188}{4} = 47\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 101,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XII 21/06/2024 (Shift-03)",
+    "questionText": "While travelling from A to B, Raghav travels a quarter of the distance at 10 km/h, the next quarter of the distance at 15 km/h, the third quarter of the distance at 20 km/h, and the final quarter of the distance at 30 km/h. While travelling on exactly the same route, Manish travels for a quarter of the total time taken for his journey at 10 km/h, the next quarter of the total time taken for his journey at 15 km/h, the third quarter of the total time taken for his journey at 20 km/h, and the final quarter of the total time taken for his journey at 30 km/h. If the overall average speed of Raghav during his journey is given as y km/h, and that of Manish is given as z km/h, find the value of (z - y).",
+    "options": [
+      {
+        "label": "A",
+        "text": "2.5"
+      },
+      {
+        "label": "B",
+        "text": "2.75"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "1.5"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For Manish (equal time spent in each speed segment):\n$$z = \\frac{10 + 15 + 20 + 30}{4} = \\frac{75}{4} = 18.75\\text{ km/h}$$\nFor Raghav (equal distance covered in each speed segment):\n$$y = \\frac{4}{\\frac{1}{10} + \\frac{1}{15} + \\frac{1}{20} + \\frac{1}{30}} = \\frac{4}{\\frac{6 + 4 + 3 + 2}{60}} = \\frac{4 \\times 60}{15} = 16\\text{ km/h}$$\n$$z - y = 18.75 - 16 = 2.75$$"
+  },
+  {
+    "questionNumber": 102,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+    "questionText": "A man runs for 40 km. The time taken by him in the first 10 km is twice the time taken by him in the second 10 km. The time taken in the third 10 km is half of the time taken in the fourth 10 km, and the time taken in the fourth 10 km is equal to the time taken in the first 10 km. If his speed in the first 10 km is 40 km/h, then what is the average speed for 40 km?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{160}{3}\\text{ km/h}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{70}{3}\\text{ km/h}$"
+      },
+      {
+        "label": "C",
+        "text": "50 km/h"
+      },
+      {
+        "label": "D",
+        "text": "40 km/h"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Time in 1st 10 km} = t_1 = \\frac{10}{40} = \\frac{1}{4}\\text{ hour}$$\n$$t_1 = 2 t_2 \\implies t_2 = \\frac{1}{8}\\text{ hour}$$\n$$t_4 = t_1 = \\frac{1}{4}\\text{ hour}$$\n$$t_3 = \\frac{1}{2} t_4 = \\frac{1}{8}\\text{ hour}$$\n$$\\text{Total time} = t_1 + t_2 + t_3 + t_4 = \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{8} + \\frac{1}{4} = \\frac{3}{4}\\text{ hours}$$\n$$\\text{Average speed} = \\frac{40}{3/4} = \\frac{160}{3}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 103,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+    "questionText": "A car, during its entire journey of 5 hours, travels the first 45 minutes at a certain speed, the next 75 minutes at a speed of 85 km/h, and the last 3 hours at a speed of 70 km/h. During its entire journey, the average speed of the car is found to be 73 km/h. What is the speed (in km/h) of the car during the first 45 minutes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "62"
+      },
+      {
+        "label": "B",
+        "text": "65"
+      },
+      {
+        "label": "C",
+        "text": "72"
+      },
+      {
+        "label": "D",
+        "text": "68"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total distance} = 73 \\times 5 = 365\\text{ km}$$\n$$\\text{Distance}_2 = 85 \\times \\frac{75}{60} = 85 \\times 1.25 = 106.25\\text{ km}$$\n$$\\text{Distance}_3 = 70 \\times 3 = 210\\text{ km}$$\n$$\\text{Distance}_1 = 365 - (106.25 + 210) = 48.75\\text{ km}$$\n$$\\text{Time}_1 = 45\\text{ minutes} = 0.75\\text{ hour}$$\n$$\\text{Speed during first 45 minutes} = \\frac{48.75}{0.75} = 65\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 104,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CGL 12/12/2022 (Shift-03)",
+    "questionText": "Some students went on a field trip. At a speed of 6 km/h, they travelled by bikes for 2 hours; then at a speed of 2 km/h, they walked for another hour; then they took rest for an hour and had lunch for half an hour; then at a speed of 1 m/s, they walked for an hour to visit a garden; and finally at a speed 4 km/h, they returned home in 3 hours. Their average speed in km/h, (rounded off to two places of decimal) is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3.48"
+      },
+      {
+        "label": "B",
+        "text": "129.23"
+      },
+      {
+        "label": "C",
+        "text": "0.28"
+      },
+      {
+        "label": "D",
+        "text": "251.62"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Speed of $1\\text{ m/s} = 1 \\times \\frac{18}{5} = 3.6\\text{ km/h}$.\n$$\\text{Distances}:$$\n- Bike: $6 \\times 2 = 12\\text{ km}$\n- Walk 1: $2 \\times 1 = 2\\text{ km}$\n- Rest & lunch: $0\\text{ km}$\n- Garden walk: $3.6 \\times 1 = 3.6\\text{ km}$\n- Return: $4 \\times 3 = 12\\text{ km}$\n$$\\text{Total distance} = 12 + 2 + 3.6 + 12 = 29.6\\text{ km}$$\n$$\\text{Total time} = 2 + 1 + 1 + 0.5 + 1 + 3 = 8.5\\text{ hours}$$\n$$\\text{Average speed} = \\frac{29.6}{8.5} \\approx 3.48\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 105,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase-X 04/08/2022 (Shift-02)",
+    "questionText": "A bus during its journey travels 60 min at a speed of 80 km/h, another 90 min at a speed of 100 km/h and 4 hours at a certain speed. If the average speed of the bus during its whole journey is 70 km/h, what is the speed of the bus during the 4 hours?",
+    "options": [
+      {
+        "label": "A",
+        "text": "56.25 km/h"
+      },
+      {
+        "label": "B",
+        "text": "67.75 km/h"
+      },
+      {
+        "label": "C",
+        "text": "62.35 km/h"
+      },
+      {
+        "label": "D",
+        "text": "70.00 km/h"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$t_1 = 60\\text{ min} = 1\\text{ hour} \\implies d_1 = 80 \\times 1 = 80\\text{ km}$$\n$$t_2 = 90\\text{ min} = 1.5\\text{ hours} \\implies d_2 = 100 \\times 1.5 = 150\\text{ km}$$\n$$t_3 = 4\\text{ hours}$$\n$$\\text{Total time} = 1 + 1.5 + 4 = 6.5\\text{ hours}$$\n$$\\text{Total distance} = 70 \\times 6.5 = 455\\text{ km}$$\n$$d_3 = 455 - (80 + 150) = 225\\text{ km}$$\n$$\\text{Speed in 4 hours} = \\frac{225}{4} = 56.25\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 106,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CGL TIER-II 29/01/2022",
+    "questionText": "The ratio of the distance between two places A and B to the distance between places B and C is 3 : 5. A man travels from A to B at a speed of x km/h and from B to C at a speed of 50 km/h. If his average speed for the entire journey is 40 km/h, then what is the value of (x - 10) : (x + 1)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20 : 31"
+      },
+      {
+        "label": "B",
+        "text": "31 : 20"
+      },
+      {
+        "label": "C",
+        "text": "11 : 10"
+      },
+      {
+        "label": "D",
+        "text": "10 : 11"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let distance AB $= 3d$, distance BC $= 5d$. Total distance $= 8d$.\n$$\\text{Average speed} = \\frac{8d}{\\frac{3d}{x} + \\frac{5d}{50}} = 40$$\n$$\\frac{8}{\\frac{3}{x} + \\frac{1}{10}} = 40 \\implies \\frac{3}{x} + \\frac{1}{10} = \\frac{8}{40} = \\frac{1}{5}$$\n$$\\frac{3}{x} = \\frac{1}{5} - \\frac{1}{10} = \\frac{1}{10} \\implies x = 30\\text{ km/h}$$\n$$(x - 10) : (x + 1) = (30 - 10) : (30 + 1) = 20 : 31$$"
+  },
+  {
+    "questionNumber": 107,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC MTS 18/10/2021 (Shift-02)",
+    "questionText": "P and Q are two towns. A man drives from P to Q at an average speed of 50 km/h. He stops at Q for 4 hours and then heads back to P at an average speed of 40 km/h following the same route. What is his average speed (in km/h correct to two decimal places) if he takes 22 hours for the entire trip?",
+    "options": [
+      {
+        "label": "A",
+        "text": "48.48"
+      },
+      {
+        "label": "B",
+        "text": "45.00"
+      },
+      {
+        "label": "C",
+        "text": "36.36"
+      },
+      {
+        "label": "D",
+        "text": "42.42"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Running time} = 22 - 4 = 18\\text{ hours}$$\nLet one-way distance be $d$ km.\n$$\\frac{d}{50} + \\frac{d}{40} = 18 \\implies \\frac{9d}{200} = 18 \\implies d = 400\\text{ km}$$\n$$\\text{Total distance} = 2 \\times 400 = 800\\text{ km}$$\n$$\\text{Average speed for entire trip} = \\frac{800}{22} = \\frac{400}{11} \\approx 36.36\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 108,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "S drives his car and covers 37 km and 500 m in 90 minutes. What is his average speed (in km/h)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25"
+      },
+      {
+        "label": "B",
+        "text": "22.5"
+      },
+      {
+        "label": "C",
+        "text": "40"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Distance} = 37.5\\text{ km}$$\n$$\\text{Time} = 90\\text{ minutes} = 1.5\\text{ hours}$$\n$$\\text{Average speed} = \\frac{37.5}{1.5} = 25\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 109,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC Phase XII 20/06/2024 (Shift-01)",
+    "questionText": "A bus covers 1200 km in 30 hours. What is its average speed in m/s?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$11\\frac{1}{9}$"
+      },
+      {
+        "label": "B",
+        "text": "$12\\frac{1}{3}$"
+      },
+      {
+        "label": "C",
+        "text": "$12\\frac{1}{9}$"
+      },
+      {
+        "label": "D",
+        "text": "$13\\frac{1}{9}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Speed in km/h} = \\frac{1200}{30} = 40\\text{ km/h}$$\n$$\\text{Speed in m/s} = 40 \\times \\frac{5}{18} = \\frac{100}{9} = 11\\frac{1}{9}\\text{ m/s}$$"
+  },
+  {
+    "questionNumber": 110,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC MTS 18/10/2021 (Shift-02)",
+    "questionText": "A girl cycles from A to B, a distance of 25 km in 2 hours 20 minutes. The road from A is a levelled road for 15 km and then it slopes down to B. The average speed of the girl on the levelled road is 10 km/h. Her average downhill speed (in km/h) is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Time on levelled road} = \\frac{15}{10} = 1.5\\text{ hours} = 90\\text{ minutes}$$\n$$\\text{Total time} = 2\\text{ hours } 20\\text{ minutes} = 140\\text{ minutes}$$\n$$\\text{Downhill time} = 140 - 90 = 50\\text{ minutes} = \\frac{50}{60} = \\frac{5}{6}\\text{ hour}$$\n$$\\text{Downhill distance} = 25 - 15 = 10\\text{ km}$$\n$$\\text{Downhill speed} = \\frac{10}{5/6} = 12\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 111,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 16/04/2021 (Shift-01)",
+    "questionText": "A man cycles from P to Q, a distance of 30km, in 2 hours 48 minutes. The road from P is a level road for 18km, and then it is uphill to Q. The man's average speed on the level road is 15km/h. What is his average uphill speed (in km/h)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10.5"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "7.5"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Time on level road} = \\frac{18}{15} = 1.2\\text{ hours} = 72\\text{ minutes}$$\n$$\\text{Total time} = 2\\text{ hours } 48\\text{ minutes} = 168\\text{ minutes}$$\n$$\\text{Uphill time} = 168 - 72 = 96\\text{ minutes} = \\frac{96}{60} = 1.6\\text{ hours}$$\n$$\\text{Uphill distance} = 30 - 18 = 12\\text{ km}$$\n$$\\text{Uphill speed} = \\frac{12}{1.6} = 7.5\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 112,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+    "questionText": "A bus driver must complete a 240 km trip in 4 hours. If he averages 70 km an hour for the first 3 hours of his trip, how fast must he travel (in km/h) in the last/final hour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "60"
+      },
+      {
+        "label": "B",
+        "text": "35"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "50"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Distance in first 3 hours} = 70 \\times 3 = 210\\text{ km}$$\n$$\\text{Remaining distance} = 240 - 210 = 30\\text{ km}$$\n$$\\text{Time left} = 4 - 3 = 1\\text{ hour}$$\n$$\\text{Required speed} = \\frac{30}{1} = 30\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 113,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 29/06/2024 (Shift-03)",
+    "questionText": "A student goes to his school by cycle. The distance from his house to school is 5 km and he covers this distance in 1 hour. While going he stops twice for 5 minutes each. Find his average speed (in km/h).",
+    "options": [
+      {
+        "label": "A",
+        "text": "5.5"
+      },
+      {
+        "label": "B",
+        "text": "6.5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "4.5"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Actual moving time (excluding stoppages):\n$$\\text{Moving time} = 60 - (2 \\times 5) = 50\\text{ minutes} = \\frac{50}{60} = \\frac{5}{6}\\text{ hour}$$\n$$\\text{Average speed while cycling} = \\frac{5}{5/6} = 6\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 114,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC CPO 05/10/2023 (Shift-3)",
+    "questionText": "A man covers a certain distance by bike. If he covers 25% of the distance at the speed of 25 km/h, 50% of the distance at the speed of 50 km/h and the remaining distance at the speed of 12.5 km/h, find his average speed over the whole journey.",
+    "options": [
+      {
+        "label": "A",
+        "text": "25 km/h"
+      },
+      {
+        "label": "B",
+        "text": "30 km/h"
+      },
+      {
+        "label": "C",
+        "text": "35 km/h"
+      },
+      {
+        "label": "D",
+        "text": "20 km/h"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the total distance be 100 km.\n- 25% distance = $25\\text{ km}$ at $25\\text{ km/h} \\implies t_1 = 1\\text{ hour}$\n- 50% distance = $50\\text{ km}$ at $50\\text{ km/h} \\implies t_2 = 1\\text{ hour}$\n- Remaining 25% distance = $25\\text{ km}$ at $12.5\\text{ km/h} \\implies t_3 = 2\\text{ hours}$\n$$\\text{Total time} = 1 + 1 + 2 = 4\\text{ hours}$$\n$$\\text{Average speed} = \\frac{100}{4} = 25\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 115,
+    "typeHeader": "TYPE - V: AVERAGE SPEED",
+    "examShift": "SSC MTS 19/05/2023 (Shift-02)",
+    "questionText": "A man drives his car at a speed of 50 km/hr for 2 hours and then decides to slow down to 40 km/hr till the end of the journey. If his average speed for the journey was 44 km/hr, then for how much time he drives his car at speed of 40 km/hr?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 hours"
+      },
+      {
+        "label": "B",
+        "text": "1 hour"
+      },
+      {
+        "label": "C",
+        "text": "3 hours"
+      },
+      {
+        "label": "D",
+        "text": "4 hours"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the time driven at 40 km/hr be $t$ hours.\n$$\\text{Total distance} = (50 \\times 2) + 40t = 100 + 40t$$\n$$\\text{Total time} = 2 + t$$\n$$\\frac{100 + 40t}{2 + t} = 44$$\n$$100 + 40t = 88 + 44t$$\n$$4t = 12 \\implies t = 3\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 116,
+    "typeHeader": "TYPE - VI: AVERAGE SPEED WITH STOPPAGE",
+    "examShift": "SSC CHSL 13/03/2023 (Shift-03)",
+    "questionText": "The speed of a train including stoppages is 75 kmph and excluding stoppages, the speed of the train is 90 kmph. For how many minutes does the train stop per hour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 min"
+      },
+      {
+        "label": "B",
+        "text": "15 min"
+      },
+      {
+        "label": "C",
+        "text": "20 min"
+      },
+      {
+        "label": "D",
+        "text": "11 min"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Stoppage time per hour} = \\frac{\\text{Speed without stoppage} - \\text{Speed with stoppage}}{\\text{Speed without stoppage}} \\times 60$$\n$$= \\frac{90 - 75}{90} \\times 60 = \\frac{15}{90} \\times 60 = 10\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 117,
+    "typeHeader": "TYPE - VI: AVERAGE SPEED WITH STOPPAGE",
+    "examShift": "SSC CHSL 20/03/2023 (Shift-03)",
+    "questionText": "Excluding stoppages, the speed of a bus is 60 kmph and including stoppages, it is 54 kmph. For how many minutes does the bus stop per hour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 mins"
+      },
+      {
+        "label": "B",
+        "text": "6 mins"
+      },
+      {
+        "label": "C",
+        "text": "7 mins"
+      },
+      {
+        "label": "D",
+        "text": "5 mins"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Stoppage time per hour} = \\frac{60 - 54}{60} \\times 60 = 6\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 118,
+    "typeHeader": "TYPE - VI: AVERAGE SPEED WITH STOPPAGE",
+    "examShift": "SSC MTS 05/10/2021 (Shift-02)",
+    "questionText": "The speed of a bus without stoppages is 40 km/h and with stoppages is 32 km/h. How many minutes per hour does the bus stop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Stoppage time per hour} = \\frac{40 - 32}{40} \\times 60 = \\frac{8}{40} \\times 60 = 12\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 119,
+    "typeHeader": "TYPE - VI: AVERAGE SPEED WITH STOPPAGE",
+    "examShift": "SSC CGL 11/06/2019 (Shift-01)",
+    "questionText": "A train without stoppage travels with an average speed of 65 km/hr and with stoppage, it travels with an average speed of 52 km/hr. For how many minutes does the train stop on an average per hour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Stoppage time per hour} = \\frac{65 - 52}{65} \\times 60 = \\frac{13}{65} \\times 60 = \\frac{1}{5} \\times 60 = 12\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 120,
+    "typeHeader": "TYPE - VI: AVERAGE SPEED WITH STOPPAGE",
+    "examShift": "SSC CGL TIER-II 18/11/2020 (Shift-01)",
+    "questionText": "A man walks at a speed of 8 km/h. After every kilometre, he takes a rest for 4 minutes. How much time will he take to cover a distance of 6 km?",
+    "options": [
+      {
+        "label": "A",
+        "text": "69 min"
+      },
+      {
+        "label": "B",
+        "text": "60 min"
+      },
+      {
+        "label": "C",
+        "text": "65 min"
+      },
+      {
+        "label": "D",
+        "text": "70 min"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Walking time} = \\frac{6}{8}\\text{ hours} = \\frac{3}{4} \\times 60 = 45\\text{ minutes}$$\nNumber of rest stops = 5 (after 1st, 2nd, 3rd, 4th, and 5th km; at 6 km the journey ends).\n$$\\text{Total resting time} = 5 \\times 4 = 20\\text{ minutes}$$\n$$\\text{Total time} = 45 + 20 = 65\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 121,
+    "typeHeader": "TYPE - VII: RADHA CONCEPT",
+    "examShift": "SSC CGL 12/04/2022 (Shift - 02)",
+    "questionText": "A and B started their journeys from X to Y and Y to X, respectively. After crossing each other, A and B completed remaining parts of their journeys in $6\\frac{1}{8}$ hours and 8 hours, respectively. If the speed of A is 32 km/h, then the speed (in km/h) of B is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "21"
+      },
+      {
+        "label": "B",
+        "text": "28"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "25"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "By Radha Concept (after meeting each other):\n$$\\frac{s_A}{s_B} = \\sqrt{\\frac{T_B}{T_A}}$$\nHere $T_A = 6\\frac{1}{8} = \\frac{49}{8}\\text{ hours}$, $T_B = 8\\text{ hours}$.\n$$\\frac{s_A}{s_B} = \\sqrt{\\frac{8}{49/8}} = \\sqrt{\\frac{64}{49}} = \\frac{8}{7}$$\nGiven $s_A = 32\\text{ km/h}$:\n$$\\frac{32}{s_B} = \\frac{8}{7} \\implies s_B = \\frac{32 \\times 7}{8} = 28\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 122,
+    "typeHeader": "TYPE - VII: RADHA CONCEPT",
+    "examShift": "SSC CGL 18/08/2021 (Shift 02)",
+    "questionText": "Suman travels from place X to Y and Rekha travels from Y to X, simultaneously. After meeting on the way, Suman and Rekha reach Y and X, in 3 hours 12 minutes and 1 hour 48 minutes, respectively. If the speed of Rekha is 9 km/h, then the speed (in km/h) of Suman is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7\\frac{1}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "$6\\frac{3}{4}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "By Radha Concept:\n$$\\frac{s_S}{s_R} = \\sqrt{\\frac{T_R}{T_S}}$$\n$$T_S = 3\\text{ hours } 12\\text{ minutes} = 3\\frac{1}{5} = \\frac{16}{5}\\text{ hours}$$\n$$T_R = 1\\text{ hour } 48\\text{ minutes} = 1\\frac{4}{5} = \\frac{9}{5}\\text{ hours}$$\n$$\\frac{s_S}{s_R} = \\sqrt{\\frac{9/5}{16/5}} = \\sqrt{\\frac{9}{16}} = \\frac{3}{4}$$\nGiven $s_R = 9\\text{ km/h}$:\n$$s_S = 9 \\times \\frac{3}{4} = \\frac{27}{4} = 6\\frac{3}{4}\\text{ km/h}$$"
+  },
+  {
+    "questionNumber": 123,
+    "typeHeader": "TYPE - VII: RADHA CONCEPT",
+    "examShift": "SSC CGL 15/11/2020 (Shift-01)",
+    "questionText": "A and B start moving towards each other from places X and Y respectively, at the same time on the same day. The speed of A is 20% more than that of B. After meeting on the way, A and B take p hours and $7\\frac{1}{5}$ hours, respectively, to reach Y and X, respectively. What is the value of p?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "5.5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "4.5"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\frac{s_A}{s_B} = \\frac{120}{100} = \\frac{6}{5}$$\nBy Radha Concept:\n$$\\frac{s_A}{s_B} = \\sqrt{\\frac{T_B}{T_A}}$$\n$$\\frac{6}{5} = \\sqrt{\\frac{36/5}{p}}$$\nSquaring both sides:\n$$\\frac{36}{25} = \\frac{36}{5p}$$\n$$\\frac{1}{25} = \\frac{1}{5p} \\implies 5p = 25 \\implies p = 5$$"
+  },
+  {
+    "questionNumber": 124,
+    "typeHeader": "TYPE - VII: RADHA CONCEPT",
+    "examShift": "SSC CGL 06/06/2019 (Shift-01)",
+    "questionText": "A and B are travelling towards each other from the points P and Q respectively. After crossing each other, A and B take $6\\frac{1}{8}$ hours and 8 hours respectively, to reach their destinations Q and P respectively. If the speed of B is 16.8 km/hr, then the speed (in km/hr) of A is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "20.8"
+      },
+      {
+        "label": "B",
+        "text": "19.8"
+      },
+      {
+        "label": "C",
+        "text": "19.2"
+      },
+      {
+        "label": "D",
+        "text": "20.4"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$T_A = 6\\frac{1}{8} = \\frac{49}{8}\\text{ hours}, \\quad T_B = 8\\text{ hours}$$\nBy Radha Concept:\n$$\\frac{s_A}{s_B} = \\sqrt{\\frac{T_B}{T_A}} = \\sqrt{\\frac{8}{49/8}} = \\sqrt{\\frac{64}{49}} = \\frac{8}{7}$$\nGiven $s_B = 16.8\\text{ km/hr}$:\n$$s_A = 16.8 \\times \\frac{8}{7} = 2.4 \\times 8 = 19.2\\text{ km/hr}$$"
+  },
+  {
+    "questionNumber": 125,
+    "typeHeader": "TYPE - VII: RADHA CONCEPT",
+    "examShift": "SSC Phase XII 21/06/2024 (Shift-01)",
+    "questionText": "Two trains, A and B started travelling towards each other at the same time from places P to Q and Q to P, respectively. After crossing each other, A and B took 9 hours and 16 hours to reach Q and P, respectively. If the speed of A was 56 km/h, then what was the speed (in km/h) of B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "38"
+      },
+      {
+        "label": "B",
+        "text": "42"
+      },
+      {
+        "label": "C",
+        "text": "40"
+      },
+      {
+        "label": "D",
+        "text": "46"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$T_A = 9\\text{ hours}, \\quad T_B = 16\\text{ hours}$$\nBy Radha Concept:\n$$\\frac{s_A}{s_B} = \\sqrt{\\frac{T_B}{T_A}} = \\sqrt{\\frac{16}{9}} = \\frac{4}{3}$$\nGiven $s_A = 56\\text{ km/h}$:\n$$\\frac{56}{s_B} = \\frac{4}{3} \\implies s_B = \\frac{56 \\times 3}{4} = 14 \\times 3 = 42\\text{ km/h}$$"
+  }
+]

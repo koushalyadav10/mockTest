@@ -1,0 +1,5677 @@
+{
+  "chapterNumber": 11,
+  "chapterCode": "SSC_MATHS_CH_11_AVERAGE",
+  "chapterTitleEnglish": "Average",
+  "chapterTitleHindi": "औसत",
+  "totalQuestions": 218,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-01)",
+      "questionText": "The weights of the five friends are 67 kg, 85 kg, 70 kg, 90 kg and 103 kg. Find the average of their weights in kg.",
+      "options": [
+        {
+          "label": "A",
+          "text": "80"
+        },
+        {
+          "label": "B",
+          "text": "90"
+        },
+        {
+          "label": "C",
+          "text": "87"
+        },
+        {
+          "label": "D",
+          "text": "83"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 83$$"
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "At a courier shop, the weights of 8 parcels were found to be 1.5 kg, 1.25 kg, 1.35 kg, 750 gm, 950 gm, 0.7 kg, 0.4 kg, and 0.5 kg. Find their average weight.",
+      "options": [
+        {
+          "label": "A",
+          "text": "925gm"
+        },
+        {
+          "label": "B",
+          "text": "700gm"
+        },
+        {
+          "label": "C",
+          "text": "875gm"
+        },
+        {
+          "label": "D",
+          "text": "900gm"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 925gm$$"
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-02)",
+      "questionText": "The salaries of T in twelve months of a year are: ₹12,000, ₹12,000, ₹12,000, ₹15,000, ₹15,000, ₹15,000, ₹21,000, ₹21,000, ₹21,000, ₹30,000, ₹30,000, ₹30,000. The average salary of T per month in ₹ is _______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "18000"
+        },
+        {
+          "label": "B",
+          "text": "19500"
+        },
+        {
+          "label": "C",
+          "text": "18500"
+        },
+        {
+          "label": "D",
+          "text": "19000"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 19500$$"
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-03)",
+      "questionText": "From the following table, find the average weight (in kg) of the given persons?\n\n| Name | Weight (kg) |\n| :--- | :--- |\n| Aman | 52.7 |\n| Sudha | 54 |\n| Vishal | 55.2 |\n| Sumedha | 57.4 |\n| Sahil | 58.7 |\n| Usha | 58 |",
+      "options": [
+        {
+          "label": "A",
+          "text": "56"
+        },
+        {
+          "label": "B",
+          "text": "55.5"
+        },
+        {
+          "label": "C",
+          "text": "56.33"
+        },
+        {
+          "label": "D",
+          "text": "54.33"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 56$$"
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Selection Post Phase IX",
+      "questionText": "If the average of 20, 25, (p + 1), (2p + 5) and (p + 11) is 22, then the value of p is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 12$$"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Exam",
+      "questionText": "Find the average of 3²⁰, 3³⁰, 3⁴⁰.\nSelection Post 03/08/2022 (Shift-03)",
+      "options": [
+        {
+          "label": "A",
+          "text": "(3²⁰ + 3¹⁰ + 3⁴⁰)"
+        },
+        {
+          "label": "B",
+          "text": "3³⁰"
+        },
+        {
+          "label": "C",
+          "text": "(3²⁰ + 3³⁰ + 3⁴⁰)"
+        },
+        {
+          "label": "D",
+          "text": "(3¹⁹ + 3²⁹ + 3³⁹)"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = (3¹⁹ + 3²⁹ + 3³⁹)$$"
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 09/08/2023 (Shift-02)",
+      "questionText": "During a donation drive week of school. Students determined to donate an average sum of ₹ 8000 on each working day of the School, collectively (there was no holiday in the donation week except Sunday). From Monday to Friday, they collected ₹ 7230, ₹ 6435, ₹6855, ₹6927 and ₹ 6562, respectively. How much they must collect on Saturday to meet their target?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 6991"
+        },
+        {
+          "label": "B",
+          "text": "₹ 13991"
+        },
+        {
+          "label": "C",
+          "text": "₹ 6000"
+        },
+        {
+          "label": "D",
+          "text": "₹ 4991"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = ₹ 13991$$"
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-04)",
+      "questionText": "A man bought 4 books for ₹50 each, 5 books for ₹60 each and 6 books for ₹70 each. The average cost of a book for the man is (round up to two decimal places):",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹60.33"
+        },
+        {
+          "label": "B",
+          "text": "₹50.33"
+        },
+        {
+          "label": "C",
+          "text": "₹36.33"
+        },
+        {
+          "label": "D",
+          "text": "₹61.33"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = ₹61.33$$"
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-04)",
+      "questionText": "In June, Rohit's bank account balance is ₹5,000 for 25 days, ₹20,000 for 2 days and ₹1,500 for 3 days. What is the average balance (in ₹) in Rohit's bank account in june ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5575"
+        },
+        {
+          "label": "B",
+          "text": "5650"
+        },
+        {
+          "label": "C",
+          "text": "5200"
+        },
+        {
+          "label": "D",
+          "text": "6000"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 5650$$"
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "The average monthly expenditure of a family was ₹2,500 during the first 4 months, ₹2,750 during the next 5 months and 3,550 during the last 3 months of a year. If the total saving during the year was ₹5,500, what was the average monthly income of the family?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.3,325"
+        },
+        {
+          "label": "B",
+          "text": "Rs.4,375"
+        },
+        {
+          "label": "C",
+          "text": "Rs.5,790"
+        },
+        {
+          "label": "D",
+          "text": "Rs.7,355"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = Rs.3,325$$"
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 12/09/2023 (Shift-03)",
+      "questionText": "In a subject, there are 40 marks for practical and 110 marks for theory. In another subject, the practical marks are 60 and the theory marks are 40. If R gets an average mark of 40 in practical and an average mark of 60 in theory, then his average marks per subject are _______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "80"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 100$$"
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 19/07/2023 (Shift-03)",
+      "questionText": "In ₹150, B buys 10 pens for ₹8 each, 10 erasers for ₹5 each and some sharpeners for ₹4 each. What is the average price per item in ₹?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 6$$"
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Exam",
+      "questionText": "In a company, the total number of customer calls on Monday, Wednesday and Friday are 15,500 and the total number of calls on Tuesday and Thursday are 12,500. The average call numbers on Saturday and Sunday are 7,000. So tell me how many average calls are made per day in a week?\nSelection post 28/06/2023 (Shift-01)",
+      "options": [
+        {
+          "label": "A",
+          "text": "6500"
+        },
+        {
+          "label": "B",
+          "text": "7500"
+        },
+        {
+          "label": "C",
+          "text": "7000"
+        },
+        {
+          "label": "D",
+          "text": "6000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 6000$$"
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 13/03/2023 (Shift-04)",
+      "questionText": "The average monthly income of A and B is ₹7,000. The average monthly income of B and C is ₹7,750 and the average monthly income of C and A is ₹6,750. What is the monthly income of B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6,500"
+        },
+        {
+          "label": "B",
+          "text": "₹8,000"
+        },
+        {
+          "label": "C",
+          "text": "₹7,500"
+        },
+        {
+          "label": "D",
+          "text": "₹6,000"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = ₹8,000$$"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 20/03/2023 (Shift-03)",
+      "questionText": "A man spends ₹2300 monthly on average for the first four months and ₹1800 monthly for the next eight months and saves ₹12,400 a year. Find his monthly income.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹3,000"
+        },
+        {
+          "label": "B",
+          "text": "₹2,400"
+        },
+        {
+          "label": "C",
+          "text": "₹2,200"
+        },
+        {
+          "label": "D",
+          "text": "₹2,100"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = ₹3,000$$"
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER II 06/03/2023",
+      "questionText": "The average marks obtained by Saloni in four papers is 51, and in the fifth paper she obtained 56 marks. Find his new average in all the five papers.",
+      "options": [
+        {
+          "label": "A",
+          "text": "52"
+        },
+        {
+          "label": "B",
+          "text": "49"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "51"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 52$$"
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 09/12/2022 (Shift-04)",
+      "questionText": "If the average of s number is r⁴ and the average of r number is s⁴, then find the average of all r + s number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "rs (r² + s² - rs)"
+        },
+        {
+          "label": "B",
+          "text": "rs"
+        },
+        {
+          "label": "C",
+          "text": "r² + s²"
+        },
+        {
+          "label": "D",
+          "text": "rs (r² + s²)"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = rs (r² + s² - rs)$$"
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Exam",
+      "questionText": "In a Hindi exam of 100 marks, 11 students got 78 marks, 7 students got 80 marks, 5 students got 82 marks and 2 students got 86 marks. What was the average marks in Hindi?\nSelection Post 04/08/2022 (Shift-02)",
+      "options": [
+        {
+          "label": "A",
+          "text": "84"
+        },
+        {
+          "label": "B",
+          "text": "86"
+        },
+        {
+          "label": "C",
+          "text": "82"
+        },
+        {
+          "label": "D",
+          "text": "80"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 80$$"
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "A shopkeeper has a sale of ₹5,445, ₹5,937, ₹5,865 and ₹6,562 for 4 consecutive days. If he gets an average sale of ₹6,050 for 5 days, then his sale on the fifth day is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6,131"
+        },
+        {
+          "label": "B",
+          "text": "₹6,441"
+        },
+        {
+          "label": "C",
+          "text": "₹6,231"
+        },
+        {
+          "label": "D",
+          "text": "₹6,341"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = ₹6,441$$"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL TIER-II (18/11/2024)",
+      "questionText": "The average of 11 results is 59 and that of the first 10 is 58. The 11ᵗʰ result is?",
+      "options": [
+        {
+          "label": "A",
+          "text": "58"
+        },
+        {
+          "label": "B",
+          "text": "68"
+        },
+        {
+          "label": "C",
+          "text": "69"
+        },
+        {
+          "label": "D",
+          "text": "59"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 69$$"
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL TIER-II (18/11/2024)",
+      "questionText": "The average of five integers is 48. The average of the first four integers is 50% of the 5ᵗʰ integer. The 5ᵗʰ integer is.",
+      "options": [
+        {
+          "label": "A",
+          "text": "74"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "78"
+        },
+        {
+          "label": "D",
+          "text": "82"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 80$$"
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 16/03/2023 (Shift-04)",
+      "questionText": "A shopkeeper has a sale of ₹10,000, ₹7,500, ₹8,000 and ₹10,500 for 4 consecutive months. How much sale must he have in the fifth month so he gets an average sale of ₹9,000 in five months ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹10,200"
+        },
+        {
+          "label": "B",
+          "text": "₹8,500"
+        },
+        {
+          "label": "C",
+          "text": "₹11,000"
+        },
+        {
+          "label": "D",
+          "text": "₹9,000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = ₹9,000$$"
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "The average of 50 numbers is 23. If each number is multiplied by 13, then the new average is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "299"
+        },
+        {
+          "label": "B",
+          "text": "88"
+        },
+        {
+          "label": "C",
+          "text": "219"
+        },
+        {
+          "label": "D",
+          "text": "650"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 299$$"
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-02)",
+      "questionText": "If the average of 50 number N₁, N₂ ____ N₅₀ is M. Then the average of the number N₁-100, N₂-100 ____ N₅₀-100 will be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "50 M"
+        },
+        {
+          "label": "B",
+          "text": "100 M"
+        },
+        {
+          "label": "C",
+          "text": "M - 50"
+        },
+        {
+          "label": "D",
+          "text": "M - 100"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = M - 100$$"
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Exam",
+      "questionText": "The average of twelve numbers is 25. If 6 is added to each number, what will be the new average?\nSelection Post 02/08/2022 (Shift-02)",
+      "options": [
+        {
+          "label": "A",
+          "text": "31"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "19"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 31$$"
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II 03/02/2022",
+      "questionText": "The average of n numbers is 45. If 60% the numbers are increased by 5 each and the remaining numbers are decreased by 10 each, then what is the average of the numbers so obtained?",
+      "options": [
+        {
+          "label": "A",
+          "text": "42"
+        },
+        {
+          "label": "B",
+          "text": "43"
+        },
+        {
+          "label": "C",
+          "text": "46"
+        },
+        {
+          "label": "D",
+          "text": "44"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 44$$"
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 05/10/2021 (Shift-01)",
+      "questionText": "Consider ten consecutive odd numbers starting from 5. Multiply each of them, except the first and the second, with three. What will be the average of the ten numbers so formed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "39.6"
+        },
+        {
+          "label": "B",
+          "text": "39"
+        },
+        {
+          "label": "C",
+          "text": "42"
+        },
+        {
+          "label": "D",
+          "text": "38.4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 39.6$$"
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-03)",
+      "questionText": "The average of six numbers is 4. The average of two of them is 3.5, while the average of the other two is 3.75. What is the average of the remaining two numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8.375"
+        },
+        {
+          "label": "B",
+          "text": "4.85"
+        },
+        {
+          "label": "C",
+          "text": "4.65"
+        },
+        {
+          "label": "D",
+          "text": "4.75"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 4.75$$"
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 04/08/2023 (Shift-04)",
+      "questionText": "The average age of 30 students in a class is 12 years. The average age of a group of 5 of the students is 10 years and that of another group of 5 of them is 14 years . The average of the remaining students is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "14 years"
+        },
+        {
+          "label": "B",
+          "text": "12 years"
+        },
+        {
+          "label": "C",
+          "text": "11 years"
+        },
+        {
+          "label": "D",
+          "text": "13 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 12 years$$"
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 02/12/2022 (Shift-02)",
+      "questionText": "Find the weighted arithmetic mean of the first 'n' natural numbers, the weights being the corresponding numbers.",
+      "options": [
+        {
+          "label": "A",
+          "text": "{n(n + 1)(2n + 1)} / 6"
+        },
+        {
+          "label": "B",
+          "text": "{n(n + 1)} / 6"
+        },
+        {
+          "label": "C",
+          "text": "(2n + 1) / 3"
+        },
+        {
+          "label": "D",
+          "text": "n"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = (2n + 1) / 3$$"
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 03/08/2023 (Shift-02)",
+      "questionText": "Sudesh is the owner of a multipurpose shop. For a specific month, his profits are below.\n\n| Category | Profit earned in ₹ |\n| :--- | :--- |\n| Groceries | 50,000 |\n| Cosmetics | 20,000 |\n| Ladies dresses | 10,000 |\n\nIn order to estimate the expected profit for the next month, he assigns the weights of 6, 5 and 8 to the different categories in the same order. What will be the weighted average of his profits?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 25,265.18 (nearly)"
+        },
+        {
+          "label": "B",
+          "text": "₹ 25,863.16 (nearly)"
+        },
+        {
+          "label": "C",
+          "text": "₹ 25,163.16 (nearly)"
+        },
+        {
+          "label": "D",
+          "text": "₹ 25,263.16 (nearly)"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = ₹ 25,263.16 (nearly)$$"
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 06/12/2022 (Shift-01)",
+      "questionText": "Sonali applied for a job of Science teacher in a school. In the test for job, she scored 8 in Physics, 8 in Chemistry, 6 in Biology, and 6.5 in the interview. For calculating the final score, weightage of 2, 3, 3, and 4 were assigned to Physics, Chemistry, Biology and interview, respectively. What is the weighted average score of Sonali?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8.4"
+        },
+        {
+          "label": "C",
+          "text": "7.2"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 7$$"
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "The average of the first 10 natural numbers is _______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "6.5"
+        },
+        {
+          "label": "C",
+          "text": "5.5"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 5.5$$"
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC Exam",
+      "questionText": "The average of the first 69 natural numbers is:\nMTS 04/09/2023 (Shift-01)",
+      "options": [
+        {
+          "label": "A",
+          "text": "34"
+        },
+        {
+          "label": "B",
+          "text": "35"
+        },
+        {
+          "label": "C",
+          "text": "33"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 35$$"
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 18/09/2024 (Shift-03)",
+      "questionText": "Find the average of first 125 natural numbers.",
+      "options": [
+        {
+          "label": "A",
+          "text": "62.5"
+        },
+        {
+          "label": "B",
+          "text": "63"
+        },
+        {
+          "label": "C",
+          "text": "62"
+        },
+        {
+          "label": "D",
+          "text": "63.5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 63$$"
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-01)",
+      "questionText": "Find the average of natural numbers from 1 to 69. (both included)",
+      "options": [
+        {
+          "label": "A",
+          "text": "33"
+        },
+        {
+          "label": "B",
+          "text": "31"
+        },
+        {
+          "label": "C",
+          "text": "37"
+        },
+        {
+          "label": "D",
+          "text": "35"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 35$$"
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC MTS 13/09/2023 (Shift-03)",
+      "questionText": "What is the average of natural numbers from 1 to 73?",
+      "options": [
+        {
+          "label": "A",
+          "text": "37"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "34"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 37$$"
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "The average of the squares of the first 45 natural numbers is",
+      "options": [
+        {
+          "label": "A",
+          "text": "698.67"
+        },
+        {
+          "label": "B",
+          "text": "699.67"
+        },
+        {
+          "label": "C",
+          "text": "697.67"
+        },
+        {
+          "label": "D",
+          "text": "696.67"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 697.67$$"
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "The average of the squares of the first 46 natural numbers is",
+      "options": [
+        {
+          "label": "A",
+          "text": "729.5"
+        },
+        {
+          "label": "B",
+          "text": "728.5"
+        },
+        {
+          "label": "C",
+          "text": "727.5"
+        },
+        {
+          "label": "D",
+          "text": "730.5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 728.5$$"
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+      "questionText": "The average of the squares of the first 47 natural numbers is",
+      "options": [
+        {
+          "label": "A",
+          "text": "760"
+        },
+        {
+          "label": "B",
+          "text": "761"
+        },
+        {
+          "label": "C",
+          "text": "759"
+        },
+        {
+          "label": "D",
+          "text": "762"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 760$$"
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 25/09/2024 (Shift-01)",
+      "questionText": "The average of the squares of the first 48 natural numbers is",
+      "options": [
+        {
+          "label": "A",
+          "text": "793.17"
+        },
+        {
+          "label": "B",
+          "text": "791.17"
+        },
+        {
+          "label": "C",
+          "text": "794.17"
+        },
+        {
+          "label": "D",
+          "text": "792.17"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 792.17$$"
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CHSL TIER II 26/06/2023",
+      "questionText": "Find the average of the squares of the first five even natural numbers.",
+      "options": [
+        {
+          "label": "A",
+          "text": "46"
+        },
+        {
+          "label": "B",
+          "text": "44"
+        },
+        {
+          "label": "C",
+          "text": "40"
+        },
+        {
+          "label": "D",
+          "text": "42"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 44$$"
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL TIER-II (18/01/2025)",
+      "questionText": "The average of first 91 even number is",
+      "options": [
+        {
+          "label": "A",
+          "text": "92"
+        },
+        {
+          "label": "B",
+          "text": "90"
+        },
+        {
+          "label": "C",
+          "text": "91"
+        },
+        {
+          "label": "D",
+          "text": "93"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 92$$"
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL TIER-II (20/01/2025)",
+      "questionText": "The average of first 92 even numbers is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "94"
+        },
+        {
+          "label": "B",
+          "text": "91"
+        },
+        {
+          "label": "C",
+          "text": "92"
+        },
+        {
+          "label": "D",
+          "text": "93"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 93$$"
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CHSL 13/03/2023 (Shift-01)",
+      "questionText": "The average of 10 consecutive integers is 33/2. What is the average of first three integers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "13"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 13$$"
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CHSL 14/03/2023 (Shift-03)",
+      "questionText": "10 Consecutive numbers are given. If the average of the two numbers given in the middle is 13.5, then what is the sum of the first 6 numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "58"
+        },
+        {
+          "label": "B",
+          "text": "55"
+        },
+        {
+          "label": "C",
+          "text": "67"
+        },
+        {
+          "label": "D",
+          "text": "69"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 69$$"
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC Exam",
+      "questionText": "The average of four consecutive even numbers a, b, c and d is 33. The value of |bd - ac| is:\nSelection Post 09/02/2022 (Shift-02)",
+      "options": [
+        {
+          "label": "A",
+          "text": "144"
+        },
+        {
+          "label": "B",
+          "text": "132"
+        },
+        {
+          "label": "C",
+          "text": "112"
+        },
+        {
+          "label": "D",
+          "text": "121"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 132$$"
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CHSL 21/03/2023 (Shift-02)",
+      "questionText": "The average of 5 consecutive even numbers is A. If next 5 even numbers are also included, then what is the average of these 10 numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A + 7"
+        },
+        {
+          "label": "B",
+          "text": "A + 2"
+        },
+        {
+          "label": "C",
+          "text": "A + 9"
+        },
+        {
+          "label": "D",
+          "text": "A + 5"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = A + 5$$"
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL TIER II (08/08/2022)",
+      "questionText": "What is the difference between the average of first 148 even positive numbers and the average of first 129 odd positive numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "23"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "19"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 20$$"
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 20/08/2021 (Shift-01)",
+      "questionText": "The average of square of five consecutive odd natural numbers is 233. What is the average of the largest number and the smallest number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 15$$"
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 20/04/2022 (Shift-01)",
+      "questionText": "The average of eleven consecutive positive integers is d. If the last two numbers are excluded, by how much will the average increase or decrease?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Will decrease by 1"
+        },
+        {
+          "label": "B",
+          "text": "Will increase by 2"
+        },
+        {
+          "label": "C",
+          "text": "Will increase by 1"
+        },
+        {
+          "label": "D",
+          "text": "Will decrease by 2"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = Will decrease by 1$$"
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-04)",
+      "questionText": "Average of 9 consecutive odd numbers is 27. If the previous and next odd number to these 9 odd numbers are also included, then what will be new average?",
+      "options": [
+        {
+          "label": "A",
+          "text": "32"
+        },
+        {
+          "label": "B",
+          "text": "28"
+        },
+        {
+          "label": "C",
+          "text": "29"
+        },
+        {
+          "label": "D",
+          "text": "27"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 27$$"
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 03/03/2020 (Shift-02)",
+      "questionText": "The average of five consecutive even numbers is M. If the next five even numbers are also included, the average of ten numbers will be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "M + 5"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "M + 10"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = M + 5$$"
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 07/03/2020 (Shift-01)",
+      "questionText": "The average of five consecutive odd numbers is m. If the next three odd numbers are also included, then what is the increase in the average?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "17"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 3$$"
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC MTS 05/05/2023 (Shift-02)",
+      "questionText": "The average of 7 consecutive odd numbers is A. If next 3 and previous 2 odd numbers to these 7 odd numbers are also included, then what is the new average of these 12 consecutive odd numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A + 1"
+        },
+        {
+          "label": "B",
+          "text": "A - 2"
+        },
+        {
+          "label": "C",
+          "text": "A + 2"
+        },
+        {
+          "label": "D",
+          "text": "A + 3"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = A + 1$$"
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CHSL 13/10/2020 (Shift-01)",
+      "questionText": "The average of 35 consecutive natural numbers is N. Dropping the first 10 numbers and including the next 10 numbers, the average is changed to M. If the value of M² - N² = 600, then the average of 3M and 5N is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "90"
+        },
+        {
+          "label": "B",
+          "text": "120"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "115"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 115$$"
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-03)",
+      "questionText": "What is the average of the first six prime numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 2/3"
+        },
+        {
+          "label": "B",
+          "text": "6 5/6"
+        },
+        {
+          "label": "C",
+          "text": "6 1/6"
+        },
+        {
+          "label": "D",
+          "text": "6 1/3"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 6 5/6$$"
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "Find the average of the prime numbers lying between 50 and 76.",
+      "options": [
+        {
+          "label": "A",
+          "text": "66"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "62"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 64$$"
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - II: BASED ON CONSECUTIVE NATURAL NUMBERS",
+      "examShift": "SSC CGL 16/08/2021 (Shift-02)",
+      "questionText": "What is the ratio of the average of first eight prime numbers to the average of first ten even natural numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 7"
+        },
+        {
+          "label": "B",
+          "text": "7 : 80"
+        },
+        {
+          "label": "C",
+          "text": "8 : 70"
+        },
+        {
+          "label": "D",
+          "text": "7 : 8"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 7 : 8$$"
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-02)",
+      "questionText": "John buys 20 kg of wheat at ₹30 per kg and 30 kg of wheat at ₹50 per kg. Find his average price.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹40 per kg"
+        },
+        {
+          "label": "B",
+          "text": "₹20 per kg"
+        },
+        {
+          "label": "C",
+          "text": "₹42 per kg"
+        },
+        {
+          "label": "D",
+          "text": "₹21 per kg"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = ₹42 per kg$$"
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "The average score of a batsman in twenty matches is 15 and in twenty-five other matches is 24. Find the average score in all the forty-five matches.",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "19.5"
+        },
+        {
+          "label": "D",
+          "text": "22"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 20$$"
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC MTS 05/09/2023 (Shift-02)",
+      "questionText": "A school has two sections of a class. Section A has 30 students and Section B has 20 students. The average score of the students in Section A is 85, and the average score of the students in Section B is 70. What is the overall average score of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "78"
+        },
+        {
+          "label": "B",
+          "text": "81"
+        },
+        {
+          "label": "C",
+          "text": "79"
+        },
+        {
+          "label": "D",
+          "text": "80"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 79$$"
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "In a class of 150 students (boys and girls only), the girls are 60. The average weight of boys is 52 kg and that of girls is 48 kg. What is the average weight (in kg) of the whole class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50.4"
+        },
+        {
+          "label": "B",
+          "text": "48.8"
+        },
+        {
+          "label": "C",
+          "text": "49.6"
+        },
+        {
+          "label": "D",
+          "text": "51.2"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 50.4$$"
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "If the average weight of 40 apples is 33 kg and that of 32 apples is 60 kg, then the average weight (in kg) of all the apples is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "45"
+        },
+        {
+          "label": "B",
+          "text": "45.2"
+        },
+        {
+          "label": "C",
+          "text": "46.5"
+        },
+        {
+          "label": "D",
+          "text": "44"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 45$$"
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC Phase XII 21/06/2024 (Shift-03)",
+      "questionText": "A fruit seller has 10 kg of apples and 5 kg of grapes. The price of 1 kg of apples is ₹ 94.50 and that of grapes is ₹105. He sold all the fruits with him. What is the average amount (in ₹) received by the fruit seller?",
+      "options": [
+        {
+          "label": "A",
+          "text": "101.50"
+        },
+        {
+          "label": "B",
+          "text": "98"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "97.50"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 98$$"
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-03)",
+      "questionText": "If the average score of a cricketer in three matches is 38 and in two other matches is 23, then what is the average score in all five matches?",
+      "options": [
+        {
+          "label": "A",
+          "text": "32"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "34"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 32$$"
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-02)",
+      "questionText": "Class X has 45 students scoring average marks of 30 and class Y has 35 students scoring average marks of 18. Find the average marks of the students of both classes together.",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "24.75"
+        },
+        {
+          "label": "C",
+          "text": "28.50"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 24.75$$"
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC MTS 13/09/2023 (Shift-03)",
+      "questionText": "The average expenditure of 32 persons is ₹ 6,000 and that of another 40 persons is ₹ 3,300. The average expenditure of the whole group is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 4,800"
+        },
+        {
+          "label": "B",
+          "text": "₹ 4,650"
+        },
+        {
+          "label": "C",
+          "text": "₹ 4,500"
+        },
+        {
+          "label": "D",
+          "text": "₹ 4,162"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = ₹ 4,500$$"
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CHSL 02/08/2023 (Shift-02)",
+      "questionText": "The average weight of group A and group B is 12 kg and 24 kg, respectively. The ratio of the members in group A to group B is 1 : 2. Find the combined average of both the groups.",
+      "options": [
+        {
+          "label": "A",
+          "text": "16 kg"
+        },
+        {
+          "label": "B",
+          "text": "22 kg"
+        },
+        {
+          "label": "C",
+          "text": "20 kg"
+        },
+        {
+          "label": "D",
+          "text": "18 kg"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 20 kg$$"
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 26/07/2023 (Shift-04)",
+      "questionText": "In an examination of 7 papers of 100 marks each, there were 3 mathematics papers, 2 English papers and 2 Hindi papers. D gets average marks of 45, 55 and 60 in mathematics, English and Hindi, respectively. What are the average marks per paper?",
+      "options": [
+        {
+          "label": "A",
+          "text": "56.5"
+        },
+        {
+          "label": "B",
+          "text": "52.1"
+        },
+        {
+          "label": "C",
+          "text": "55.6"
+        },
+        {
+          "label": "D",
+          "text": "54.1"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 52.1$$"
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC Exam",
+      "questionText": "If the average marks of three batches of 55, 60 and 45 students are 50, 55 and 60 respectively, then what are the average marks of all the students?\nSelection phase 30/06/2023 (Shift-04)",
+      "options": [
+        {
+          "label": "A",
+          "text": "51.23"
+        },
+        {
+          "label": "B",
+          "text": "55.98"
+        },
+        {
+          "label": "C",
+          "text": "57.42"
+        },
+        {
+          "label": "D",
+          "text": "54.68"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 54.68$$"
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CHSL 24/05/2022 (Shift-01)",
+      "questionText": "In a class, there are 29 boys and 21 girls. The average score of boys in Maths is 89, whereas the average score of girls in maths is 91. What is the average of the whole class in maths?",
+      "options": [
+        {
+          "label": "A",
+          "text": "91"
+        },
+        {
+          "label": "B",
+          "text": "89"
+        },
+        {
+          "label": "C",
+          "text": "91.84"
+        },
+        {
+          "label": "D",
+          "text": "89.84"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 89.84$$"
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "A group of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 62. What is the average score of the group?",
+      "options": [
+        {
+          "label": "A",
+          "text": "62"
+        },
+        {
+          "label": "B",
+          "text": "63"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "61"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 62$$"
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "A class of 30 students appeared in a test. The average score of 12 students is 62, and the of the rest is 74. What is the average score of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "70.2"
+        },
+        {
+          "label": "B",
+          "text": "69.2"
+        },
+        {
+          "label": "C",
+          "text": "68.2"
+        },
+        {
+          "label": "D",
+          "text": "67.2"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 69.2$$"
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 13/09/2024 (Shift-03)",
+      "questionText": "A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 72. What is the average score of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "66"
+        },
+        {
+          "label": "B",
+          "text": "68"
+        },
+        {
+          "label": "C",
+          "text": "67"
+        },
+        {
+          "label": "D",
+          "text": "69"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 68$$"
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "A group of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 76. What is the average score of the group?",
+      "options": [
+        {
+          "label": "A",
+          "text": "71.4"
+        },
+        {
+          "label": "B",
+          "text": "68.4"
+        },
+        {
+          "label": "C",
+          "text": "69.4"
+        },
+        {
+          "label": "D",
+          "text": "70.4"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 70.4$$"
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-03)",
+      "questionText": "A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 68. What is the average score of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "63.6"
+        },
+        {
+          "label": "B",
+          "text": "65.6"
+        },
+        {
+          "label": "C",
+          "text": "66.6"
+        },
+        {
+          "label": "D",
+          "text": "64.6"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 65.6$$"
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 60. What is the average score of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "58.8"
+        },
+        {
+          "label": "B",
+          "text": "61.8"
+        },
+        {
+          "label": "C",
+          "text": "60.8"
+        },
+        {
+          "label": "D",
+          "text": "59.8"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 60.8$$"
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "A class of 30 students appeared in a test. The average score of 12 students is 62, and that of the rest is 78. What is the average score of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "72.6"
+        },
+        {
+          "label": "B",
+          "text": "69.6"
+        },
+        {
+          "label": "C",
+          "text": "70.6"
+        },
+        {
+          "label": "D",
+          "text": "71.6"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 71.6$$"
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 25/09/2024 (Shift-03)",
+      "questionText": "A class of 30 students appeared in a test. The average score of 12 students is 60, and that of the rest is 80. What is the average score of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "73"
+        },
+        {
+          "label": "B",
+          "text": "70"
+        },
+        {
+          "label": "C",
+          "text": "71"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 72$$"
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CGL 25/09/2024 (Shift-02)",
+      "questionText": "In the 8ᵗʰ class, consisting of 30 students, a Mathematics test was taken. 10 students had an average score of 90. The other students had an average score of 75. What is the average score of the whole class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "78"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "76"
+        },
+        {
+          "label": "D",
+          "text": "74"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 80$$"
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-04)",
+      "questionText": "A class of 25 students took an English test. 15 students had an average score of 80. The other students had an average score of 60. What is the average score of the whole class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "72"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "76"
+        },
+        {
+          "label": "D",
+          "text": "74"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 72$$"
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "In a college, the average weight of 40 boys in a section among 72 students is 33 kg and that of the remaining students is 15 kg. What is the average weight of all the students in the section?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22 kg"
+        },
+        {
+          "label": "B",
+          "text": "24 kg"
+        },
+        {
+          "label": "C",
+          "text": "18 kg"
+        },
+        {
+          "label": "D",
+          "text": "25 kg"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 25 kg$$"
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-03)",
+      "questionText": "Out of a class of 200 people, 50 people's average marks is 40, and the remaining 150 people's average is 60. Find the people's weighted average.",
+      "options": [
+        {
+          "label": "A",
+          "text": "150"
+        },
+        {
+          "label": "B",
+          "text": "200"
+        },
+        {
+          "label": "C",
+          "text": "55"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 55$$"
+    },
+    {
+      "questionNumber": 85,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC Exam",
+      "questionText": "A class of 40 students took a mathematics examination. The average marks of 18 students was 75. The average marks of other students was 62. What will be the average marks of the entire class?\nSelection phase 30/06/2023 (Shift-03)",
+      "options": [
+        {
+          "label": "A",
+          "text": "67.85"
+        },
+        {
+          "label": "B",
+          "text": "72.52"
+        },
+        {
+          "label": "C",
+          "text": "68.50"
+        },
+        {
+          "label": "D",
+          "text": "69.85"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 67.85$$"
+    },
+    {
+      "questionNumber": 86,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-03)",
+      "questionText": "In two successive years, 75 and 50 employees of a company appeared at the departmental examination. Respectively, 84% and 52% of them passed. The average rate of pass percentage is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "41 1/5 %"
+        },
+        {
+          "label": "B",
+          "text": "41%"
+        },
+        {
+          "label": "C",
+          "text": "71%"
+        },
+        {
+          "label": "D",
+          "text": "71 1/5 %"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 71 1/5 %$$"
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - III: BASED ON WEIGHTED AVERAGE",
+      "examShift": "SSC Phase XII 21/06/2024 (Shift-03)",
+      "questionText": "The university has 750 faculty (male and female only) out of which the females are 60%. The average height of females is 162 cm and that of males is 168 cm. What is the average height of the faculty (in cm) of the university?",
+      "options": [
+        {
+          "label": "A",
+          "text": "164.4"
+        },
+        {
+          "label": "B",
+          "text": "166.4"
+        },
+        {
+          "label": "C",
+          "text": "163.4"
+        },
+        {
+          "label": "D",
+          "text": "161.4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 164.4$$"
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-04)",
+      "questionText": "There are 12 workers in an office and the average age of all the workers is 35 1/2 years. A new worker joins the office, the average becomes 37 years. The current age of the newly joined worker is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "55 years"
+        },
+        {
+          "label": "B",
+          "text": "57 1/2 years"
+        },
+        {
+          "label": "C",
+          "text": "55 1/2 years"
+        },
+        {
+          "label": "D",
+          "text": "47 1/2 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 55 years$$"
+    },
+    {
+      "questionNumber": 89,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CHSL TIER II 02/11/2023",
+      "questionText": "The average weight of 40 students of a school is 52 kg. If the weight of the teacher is included, the average weight rises by 500 grams. Find the weight (in kg) of the teacher.",
+      "options": [
+        {
+          "label": "A",
+          "text": "73.5"
+        },
+        {
+          "label": "B",
+          "text": "71.5"
+        },
+        {
+          "label": "C",
+          "text": "74.5"
+        },
+        {
+          "label": "D",
+          "text": "72.5"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 72.5$$"
+    },
+    {
+      "questionNumber": 90,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-02)",
+      "questionText": "Average weight of 20 persons is 60 kg. A new person joins the group and average weight of 21 persons becomes 59 kg. What will be the weight of new person?",
+      "options": [
+        {
+          "label": "A",
+          "text": "41 kg"
+        },
+        {
+          "label": "B",
+          "text": "29 kg"
+        },
+        {
+          "label": "C",
+          "text": "39 kg"
+        },
+        {
+          "label": "D",
+          "text": "40 kg"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 39 kg$$"
+    },
+    {
+      "questionNumber": 91,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CGL 05/03/2020 (Shift-01)",
+      "questionText": "The average height of 5 boys is 175 cm. A sixth boy joined the group and the average height of all the boys in the group now increased by one centimeter. The height of the sixth boy is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "180 cm"
+        },
+        {
+          "label": "B",
+          "text": "181 cm"
+        },
+        {
+          "label": "C",
+          "text": "179 cm"
+        },
+        {
+          "label": "D",
+          "text": "175 cm"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 181 cm$$"
+    },
+    {
+      "questionNumber": 92,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC Exam",
+      "questionText": "The average weight of 32 students is 70 kg. If the weight of the teacher is included, the average weight of the class becomes 70.5 kg. Find the weight of the teacher.\nSelection Post 04/08/2022 (Shift-03)",
+      "options": [
+        {
+          "label": "A",
+          "text": "86.5 kg"
+        },
+        {
+          "label": "B",
+          "text": "88.5 kg"
+        },
+        {
+          "label": "C",
+          "text": "84.5 kg"
+        },
+        {
+          "label": "D",
+          "text": "82.5 kg"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 86.5 kg$$"
+    },
+    {
+      "questionNumber": 93,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC Exam",
+      "questionText": "The average weight of 30 students in a class is 60 kg. If the weight of the class teacher is also included, the average increases by 0.5 kg. Find the weight of the teacher (in kg).\nSelection post 27/06/2023 (Shift-04)",
+      "options": [
+        {
+          "label": "A",
+          "text": "76.5"
+        },
+        {
+          "label": "B",
+          "text": "75.5"
+        },
+        {
+          "label": "C",
+          "text": "72.5"
+        },
+        {
+          "label": "D",
+          "text": "74.5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 75.5$$"
+    },
+    {
+      "questionNumber": 94,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-03)",
+      "questionText": "Average weight of 15 persons is 30 kg. A new person whose weight is 78 kg joins the group. What will be the average weight of 16 persons?",
+      "options": [
+        {
+          "label": "A",
+          "text": "31.5 kg"
+        },
+        {
+          "label": "B",
+          "text": "34 kg"
+        },
+        {
+          "label": "C",
+          "text": "33 kg"
+        },
+        {
+          "label": "D",
+          "text": "32 kg"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 33 kg$$"
+    },
+    {
+      "questionNumber": 95,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CHSL 16/03/2023 (Shift-03)",
+      "questionText": "Average age of a team having 12 players is 24 years. If the age of the coach is also included, then the average age increases by 2 years. What is the age of the coach?",
+      "options": [
+        {
+          "label": "A",
+          "text": "53 years"
+        },
+        {
+          "label": "B",
+          "text": "57 years"
+        },
+        {
+          "label": "C",
+          "text": "50 years"
+        },
+        {
+          "label": "D",
+          "text": "52 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 50 years$$"
+    },
+    {
+      "questionNumber": 96,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CGL 04/03/2020 (Shift-02)",
+      "questionText": "The average weight of some students in a class was 58.4 kg. When 5 students having the average weight 62.8 kg joined the class, the average weight of all students in the class increased by 0.55 kg. The number of students initially in the class, were:",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "35"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 35$$"
+    },
+    {
+      "questionNumber": 97,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-03)",
+      "questionText": "The average weight of a group of 15 students is 70 kg. Five more students of weight 65 kg, 68 kg, 45 kg, 77 kg and 62 kg join the group. What is the change in the average weight (rounded off to the nearest integer) of the group?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Increases by 2 kg"
+        },
+        {
+          "label": "B",
+          "text": "Decreases by 2 kg"
+        },
+        {
+          "label": "C",
+          "text": "Increases by 1 kg"
+        },
+        {
+          "label": "D",
+          "text": "Decreases by 1 kg"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = Decreases by 2 kg$$"
+    },
+    {
+      "questionNumber": 98,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "The average weight of 8 students is 48 kg. If four students of average weight 44 kg and four students of average weight 58 kg is also added, then find the average weight of 16 students.",
+      "options": [
+        {
+          "label": "A",
+          "text": "49.5 kg"
+        },
+        {
+          "label": "B",
+          "text": "49 kg"
+        },
+        {
+          "label": "C",
+          "text": "48.5 kg"
+        },
+        {
+          "label": "D",
+          "text": "48 kg"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 49.5 kg$$"
+    },
+    {
+      "questionNumber": 99,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CGL 20/08/2021 (Shift-03)",
+      "questionText": "The average weight of a certain number of students in a class is 55.5 kg. If 4 students with average weight 60 kg join the class, then the average weight of all students in the class increases by 360 gm. The number of students in the class, initially, is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "41"
+        },
+        {
+          "label": "B",
+          "text": "31"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "46"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 46$$"
+    },
+    {
+      "questionNumber": 100,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-04)",
+      "questionText": "In a class with a certain number of students, if one student weighing 30 kg is added, then the average weight of the class increases by 1 kg. If one more student weighing 30 kg is added, then the average weight of the class increases by 1.5 kg over the original average. What is the original average weight (in kg) of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "27"
+        },
+        {
+          "label": "B",
+          "text": "26.5"
+        },
+        {
+          "label": "C",
+          "text": "25.5"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 27$$"
+    },
+    {
+      "questionNumber": 101,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC MTS 06/09/2023 (Shift-01)",
+      "questionText": "The average weight of 20 students of a class was 30.5 kg. After 6 new students joined the class, its average weight increased by 2 kg. Find the average weight of the 6 new students who joined the class (rounded off to one decimal place).",
+      "options": [
+        {
+          "label": "A",
+          "text": "30.5 kg"
+        },
+        {
+          "label": "B",
+          "text": "39.2 kg"
+        },
+        {
+          "label": "C",
+          "text": "32.5 kg"
+        },
+        {
+          "label": "D",
+          "text": "38.5 kg"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 39.2 kg$$"
+    },
+    {
+      "questionNumber": 102,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC MTS 12/09/2023 (Shift-01)",
+      "questionText": "The average age of the boys in the class was 16 years. When 4 boys whose average age was 13 years are admitted to the class, the average age of the class was reduced by 6 months. How many boys were there initially in the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "22"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 20$$"
+    },
+    {
+      "questionNumber": 103,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CGL 20/07/2023 (Shift-01)",
+      "questionText": "The average age of a group of friends is 27 years. If 4 new friends whose average age is 25 years join them, the average age of the entire group becomes 26 years. How many people were there in the group initially?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 4$$"
+    },
+    {
+      "questionNumber": 104,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CHSL 17/03/2023 (Shift-02)",
+      "questionText": "The average marks scored by three students on a test were 55. When two more students (A and B) were added, the new average marks were reduced by 5. If B scores 15 marks more than A, what were the marks scored by A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "33"
+        },
+        {
+          "label": "B",
+          "text": "35"
+        },
+        {
+          "label": "C",
+          "text": "40"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 35$$"
+    },
+    {
+      "questionNumber": 105,
+      "typeHeader": "TYPE - IV: BASED ON INCLUSION",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-03)",
+      "questionText": "The average age of a class of 6 girls is x years. Four new girls having ages x - 2, x + 4, x + 8 and x + 10 joins the class. What is the new average age of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "x - 2"
+        },
+        {
+          "label": "B",
+          "text": "x + 2"
+        },
+        {
+          "label": "C",
+          "text": "x + 5"
+        },
+        {
+          "label": "D",
+          "text": "x + 1"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = x + 2$$"
+    },
+    {
+      "questionNumber": 106,
+      "typeHeader": "TYPE - V: BASED ON EXCLUSION",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-02)",
+      "questionText": "The average age of 24 workers and their supervisor is 41 years. If the supervisor's age is excluded, the average reduces by 0.75 years. The age of the supervisor is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "59 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years 9 months"
+        },
+        {
+          "label": "C",
+          "text": "40 years 9 months"
+        },
+        {
+          "label": "D",
+          "text": "49 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 59 years$$"
+    },
+    {
+      "questionNumber": 107,
+      "typeHeader": "TYPE - V: BASED ON EXCLUSION",
+      "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+      "questionText": "The average age of 10 students and their class teacher is 17 years. If the age of the class teacher is excluded, the average age of the 10 students is reduced by 2 years. What is the age of the class teacher?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 years"
+        },
+        {
+          "label": "B",
+          "text": "36 years"
+        },
+        {
+          "label": "C",
+          "text": "37 years"
+        },
+        {
+          "label": "D",
+          "text": "35 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 37 years$$"
+    },
+    {
+      "questionNumber": 108,
+      "typeHeader": "TYPE - V: BASED ON EXCLUSION",
+      "examShift": "SSC CGL 09/12/2022 (Shift-01)",
+      "questionText": "In a hotel, there are 120 staff members. Their average weight is 62.5 kg. When one of the staff members leaves the hotel, the average weight is reduced by 250 gm. Find the weight of the staff member who left the hotel.",
+      "options": [
+        {
+          "label": "A",
+          "text": "64.25 kg"
+        },
+        {
+          "label": "B",
+          "text": "78.75 kg"
+        },
+        {
+          "label": "C",
+          "text": "90.50 kg"
+        },
+        {
+          "label": "D",
+          "text": "92.25 kg"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 92.25 kg$$"
+    },
+    {
+      "questionNumber": 109,
+      "typeHeader": "TYPE - V: BASED ON EXCLUSION",
+      "examShift": "SSC CPO 09/11/2022 (Shift-03)",
+      "questionText": "There are six baskets - Green, Red, Blue, Yellow, Black and White. Each basket has some rings in it. The average number of rings in all the six baskets is 38. If the blue basket is removed, the average number of rings in the remaining baskets is 34. How many rings are there in the blue basket?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22"
+        },
+        {
+          "label": "B",
+          "text": "45"
+        },
+        {
+          "label": "C",
+          "text": "37"
+        },
+        {
+          "label": "D",
+          "text": "58"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 58$$"
+    },
+    {
+      "questionNumber": 110,
+      "typeHeader": "TYPE - V: BASED ON EXCLUSION",
+      "examShift": "SSC CGL 21/07/2023 (Shift-03)",
+      "questionText": "There are 15 students in a class. Their average weight is 40 kg. When one student leaves the class, the average weight is 39.5 kg. What is the weight of the student who left the class (where kg means kilogram)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "47 kg"
+        },
+        {
+          "label": "B",
+          "text": "42 kg"
+        },
+        {
+          "label": "C",
+          "text": "52 kg"
+        },
+        {
+          "label": "D",
+          "text": "48 kg"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 47 kg$$"
+    },
+    {
+      "questionNumber": 111,
+      "typeHeader": "TYPE - V: BASED ON EXCLUSION",
+      "examShift": "SSC CGL 19/07/2023 (Shift-04)",
+      "questionText": "The average of 8 numbers is 18. If one of the numbers is excluded, the average becomes 20. Find the excluded number.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 4$$"
+    },
+    {
+      "questionNumber": 112,
+      "typeHeader": "TYPE - V: BASED ON EXCLUSION",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-04)",
+      "questionText": "The average weight of 35 students in a class is 40 kg. Five of the students of this class whose average weight is 42 kg left the class. Find the average weight of the remaining 30 students.",
+      "options": [
+        {
+          "label": "A",
+          "text": "26 2/3 kg"
+        },
+        {
+          "label": "B",
+          "text": "39 2/3 kg"
+        },
+        {
+          "label": "C",
+          "text": "19 2/3 kg"
+        },
+        {
+          "label": "D",
+          "text": "49 2/3 kg"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 39 2/3 kg$$"
+    },
+    {
+      "questionNumber": 113,
+      "typeHeader": "TYPE - V: BASED ON EXCLUSION",
+      "examShift": "SSC MTS 03/05/2023 (Shift-02)",
+      "questionText": "Average marks obtained by 19 boys of a college is 48. If the highest marks and lowest marks obtained are removed, then the average reduces by 4. What is the average of the highest and lowest marks obtained?",
+      "options": [
+        {
+          "label": "A",
+          "text": "82"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "84"
+        },
+        {
+          "label": "D",
+          "text": "76"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 82$$"
+    },
+    {
+      "questionNumber": 114,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CGL 05/12/2022 (Shift-02)",
+      "questionText": "The average weight of 5 men decreases by 3 kg when one of them weighing 150 kg is replaced by another person. Find the weight of the new person.",
+      "options": [
+        {
+          "label": "A",
+          "text": "125 kg"
+        },
+        {
+          "label": "B",
+          "text": "100 kg"
+        },
+        {
+          "label": "C",
+          "text": "120 kg"
+        },
+        {
+          "label": "D",
+          "text": "135 kg"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 135 kg$$"
+    },
+    {
+      "questionNumber": 115,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CGL 18/09/2024 (Shift-02)",
+      "questionText": "The average weight of 10 students is increased by half a kg when one of the students weighing 51 kg is replaced by a new student. Find the weight of the new student.",
+      "options": [
+        {
+          "label": "A",
+          "text": "56 kg"
+        },
+        {
+          "label": "B",
+          "text": "75 kg"
+        },
+        {
+          "label": "C",
+          "text": "45 kg"
+        },
+        {
+          "label": "D",
+          "text": "66 kg"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 56 kg$$"
+    },
+    {
+      "questionNumber": 116,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-02)",
+      "questionText": "The average weight of 5 boys is increased by 9 kg when one of them, whose weight is 39 kg, is replaced by another boy. What is the weight (in kg) of the new boy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "65"
+        },
+        {
+          "label": "B",
+          "text": "70"
+        },
+        {
+          "label": "C",
+          "text": "69"
+        },
+        {
+          "label": "D",
+          "text": "84"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 84$$"
+    },
+    {
+      "questionNumber": 117,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-02)",
+      "questionText": "The average weight of 10 persons is increased by 3.5 kg, when one of them whose weight is 45.5 kg is replaced by a new man. The weight (in kg) of the new man is _______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "70.5"
+        },
+        {
+          "label": "B",
+          "text": "85.5"
+        },
+        {
+          "label": "C",
+          "text": "80.5"
+        },
+        {
+          "label": "D",
+          "text": "75.5"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 80.5$$"
+    },
+    {
+      "questionNumber": 118,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "The average weight of 15 people increases by 3.2 kg when a new person comes in place of one of them weighting 52 kg. The weight of the new person is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "96 kg"
+        },
+        {
+          "label": "B",
+          "text": "100 kg"
+        },
+        {
+          "label": "C",
+          "text": "52 kg"
+        },
+        {
+          "label": "D",
+          "text": "48 kg"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 100 kg$$"
+    },
+    {
+      "questionNumber": 119,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CGL TIER II 03/03/2023",
+      "questionText": "The average weight of three men is increased by 4 kg when one of them, whose weight is 100 kg, is replaced by another man. What is the weight of the new man?",
+      "options": [
+        {
+          "label": "A",
+          "text": "107 kg."
+        },
+        {
+          "label": "B",
+          "text": "103 kg."
+        },
+        {
+          "label": "C",
+          "text": "104 kg."
+        },
+        {
+          "label": "D",
+          "text": "112 kg"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 112 kg$$"
+    },
+    {
+      "questionNumber": 120,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "The average weight of a class of 30 students is 45 kg. One of the student weight is 48.5 kg is replaced by another student and average was increased by 200 gm. Find the weight of the new student.",
+      "options": [
+        {
+          "label": "A",
+          "text": "54.5 kg"
+        },
+        {
+          "label": "B",
+          "text": "50 kg"
+        },
+        {
+          "label": "C",
+          "text": "55 kg"
+        },
+        {
+          "label": "D",
+          "text": "51 kg"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 54.5 kg$$"
+    },
+    {
+      "questionNumber": 121,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CGL 02/12/2022 (Shift-04)",
+      "questionText": "The average weight of 49 students in a class is 39 kg. Seven of them whose average weight is 40 kg leave the class and other seven students whose average weight is 54 kg join the class. What is the new average weight (in kg) of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "41"
+        },
+        {
+          "label": "B",
+          "text": "39"
+        },
+        {
+          "label": "C",
+          "text": "42"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 41$$"
+    },
+    {
+      "questionNumber": 122,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CPO 11/11/2022 (Shift-03)",
+      "questionText": "The average score in an English exam of a class of 45 students in a coaching centre is 52. A group of 6 boys having an average score of 40 leave the class and another group of eight boys having an average score of 43 join the class. What is the new average score of the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "53"
+        },
+        {
+          "label": "C",
+          "text": "49.5"
+        },
+        {
+          "label": "D",
+          "text": "52"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 52$$"
+    },
+    {
+      "questionNumber": 123,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CGL 23/08/2021 (Shift-03)",
+      "questionText": "There are some children in a camp and their average weight is 40 kg. If 5 children with average weight 36 kg join the camp or if 5 children with average weight 43.2 kg leave the camp, the average weight of children in both cases is equal. How many children are there in the camp, initially?",
+      "options": [
+        {
+          "label": "A",
+          "text": "35"
+        },
+        {
+          "label": "B",
+          "text": "45"
+        },
+        {
+          "label": "C",
+          "text": "40"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 45$$"
+    },
+    {
+      "questionNumber": 124,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CHSL 05/08/2021 (Shift-01)",
+      "questionText": "The average height of a certain number of students in a group is 155.6 cm. If 12 students having an average height of 150.5 cm join the group and 7 students having an average height of 159 cm leave the group, the average height of the students in the group will decrease by 34 mm. What is the number of students, initially, in the group?",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 20$$"
+    },
+    {
+      "questionNumber": 125,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CGL TIER-II 12/09/2019",
+      "questionText": "The average weight of a certain number of students in a group is 72kg. If 10 students having an average weight of 78 kg leave and 4 students having an average weight of 80 kg join the group, the average weight of the students in the group decreases by 0.7kg. The number of students initially in the group is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "56"
+        },
+        {
+          "label": "B",
+          "text": "46"
+        },
+        {
+          "label": "C",
+          "text": "44"
+        },
+        {
+          "label": "D",
+          "text": "54"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 46$$"
+    },
+    {
+      "questionNumber": 126,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC Exam",
+      "questionText": "The average weight of a group of 12 girls is 48 kg. If 2 girls R and S replace P and Q, the new average weight becomes 46 kg. The weight of P = the weight of Q. The weight of R = the weight of S. Another girl T, is included in the group and the new average weight becomes 46 kg. The weight of T = the weight of R. What is the weight of P (in kg)?\nSelection post 16/03/2022 (Shift-03)",
+      "options": [
+        {
+          "label": "A",
+          "text": "56"
+        },
+        {
+          "label": "B",
+          "text": "58"
+        },
+        {
+          "label": "C",
+          "text": "54"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 58$$"
+    },
+    {
+      "questionNumber": 127,
+      "typeHeader": "TYPE - VI: BASED ON REPLACEMENT",
+      "examShift": "SSC CHSL 04/08/2023 (Shift-03)",
+      "questionText": "The average weight of a group of 12 children is 66 kg. If instead of A and B, 2 children, X and Y, join the group, then the new average weight becomes 65 kg. Weight of A = weight of B and weight of X = weight of Y. Another child C is added to the group and the new average weight remains 65 kg. Weight of C = Weight of X. Find the weight of A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "67 kg"
+        },
+        {
+          "label": "B",
+          "text": "69 kg"
+        },
+        {
+          "label": "C",
+          "text": "71 kg"
+        },
+        {
+          "label": "D",
+          "text": "72 kg"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 71 kg$$"
+    },
+    {
+      "questionNumber": 128,
+      "typeHeader": "TYPE - VII: BASED ON WRONGLY ENTERED DATA",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-01)",
+      "questionText": "The average age of 30 students is 15 years. It was observed that while calculating the average age the age of a student was taken as 15 years instead of 9 years. What will be the correct average?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14.2 years"
+        },
+        {
+          "label": "B",
+          "text": "16.4 years"
+        },
+        {
+          "label": "C",
+          "text": "15.6 years"
+        },
+        {
+          "label": "D",
+          "text": "14.8 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 14.8 years$$"
+    },
+    {
+      "questionNumber": 129,
+      "typeHeader": "TYPE - VII: BASED ON WRONGLY ENTERED DATA",
+      "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+      "questionText": "The average of 45 numbers was found to be 39. Later on, it was detected that a number 65 was misread as 56. Find the correct average of the given numbers.",
+      "options": [
+        {
+          "label": "A",
+          "text": "36.2"
+        },
+        {
+          "label": "B",
+          "text": "37.2"
+        },
+        {
+          "label": "C",
+          "text": "38.2"
+        },
+        {
+          "label": "D",
+          "text": "39.2"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 39.2$$"
+    },
+    {
+      "questionNumber": 130,
+      "typeHeader": "TYPE - VII: BASED ON WRONGLY ENTERED DATA",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "Anwesha's marks in a class test of Sanskrit were incorrectly entered as 99 instead of 66. If there are 55 students in the class, then what is the increment in the average marks of the class in Sanskrit because of this typing error?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.2"
+        },
+        {
+          "label": "B",
+          "text": "0.8"
+        },
+        {
+          "label": "C",
+          "text": "0.4"
+        },
+        {
+          "label": "D",
+          "text": "0.6"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Correct Option: (D)\n$$\\text{Answer} = 0.6$$"
+    },
+    {
+      "questionNumber": 131,
+      "typeHeader": "TYPE - VII: BASED ON WRONGLY ENTERED DATA",
+      "examShift": "SSC CGL 01/12/2022 (Shift-02)",
+      "questionText": "The average of the marks of 25 students in a class, in an examination was calculated to be 19. Later, the teacher realized that the marks of two students were taken as 18 and 19 respectively, instead of 14 and 15. Find the new actual average marks of the class.",
+      "options": [
+        {
+          "label": "A",
+          "text": "17.43"
+        },
+        {
+          "label": "B",
+          "text": "16.56"
+        },
+        {
+          "label": "C",
+          "text": "18.68"
+        },
+        {
+          "label": "D",
+          "text": "17.65"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 18.68$$"
+    },
+    {
+      "questionNumber": 132,
+      "typeHeader": "TYPE - VII: BASED ON WRONGLY ENTERED DATA",
+      "examShift": "SSC CHSL 14/03/2023 (Shift-02)",
+      "questionText": "The average of 16 numbers is 35. It was found later that four numbers 18, 17, 24 and 35 were taken by mistake. What is the new average after removing these numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38.83"
+        },
+        {
+          "label": "B",
+          "text": "42.33"
+        },
+        {
+          "label": "C",
+          "text": "46.66"
+        },
+        {
+          "label": "D",
+          "text": "33.33"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 38.83$$"
+    },
+    {
+      "questionNumber": 133,
+      "typeHeader": "TYPE - VII: BASED ON WRONGLY ENTERED DATA",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-01)",
+      "questionText": "Abhishek's marks in Mathematics were incorrectly entered as 93 instead of 63. Due to this, the average marks of the class in Mathematics got increased by 0.5. How many students were there in the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "45"
+        },
+        {
+          "label": "B",
+          "text": "55"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 60$$"
+    },
+    {
+      "questionNumber": 134,
+      "typeHeader": "TYPE - VII: BASED ON WRONGLY ENTERED DATA",
+      "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+      "questionText": "The weight of a person was entered incorrectly as 83 kg instead of 63 kg. As a result, the average weight of a group of people increased by 500 gm. What is the total number of people in the group?",
+      "options": [
+        {
+          "label": "A",
+          "text": "44"
+        },
+        {
+          "label": "B",
+          "text": "48"
+        },
+        {
+          "label": "C",
+          "text": "40"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 40$$"
+    },
+    {
+      "questionNumber": 135,
+      "typeHeader": "TYPE - VII: BASED ON WRONGLY ENTERED DATA",
+      "examShift": "SSC CGL 04/03/2020 (Shift-02)",
+      "questionText": "The average age of a number of persons in a group was calculated as 35 years, which was 2.5 years more than the correct average as there was an error in recording the age of two persons as 38.5 years and 40 years instead of 29 years and 22 years respectively. The number of persons in the group was:",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 11$$"
+    },
+    {
+      "questionNumber": 136,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CGL 09/09/2024 (Shift-01)",
+      "questionText": "The average marks (out of 100) of boys and girls in an examination are 75 and 80, respectively. If the average marks of all the students in that examination are 78. Find the ratio of the number of boys to the number of girls.",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "3 : 4"
+        },
+        {
+          "label": "C",
+          "text": "1 : 3"
+        },
+        {
+          "label": "D",
+          "text": "1 : 2"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Correct Option: (A)\n$$\\text{Answer} = 2 : 3$$"
+    },
+    {
+      "questionNumber": 137,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-02)",
+      "questionText": "The average salary of a group of 12 employees in an institution is ₹3,950 per month and that of another group of employees is ₹1,850. If the average salary of all employees is ₹2,150, then the total number of employees is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "100"
+        },
+        {
+          "label": "B",
+          "text": "88"
+        },
+        {
+          "label": "C",
+          "text": "84"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Correct Option: (C)\n$$\\text{Answer} = 84$$"
+    },
+    {
+      "questionNumber": 138,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "The average marks scored by the students of a class is 75. If the average marks scored by the girls in the same class is 90 and that of boys is 70, what is the percentage of boys in the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "70%"
+        },
+        {
+          "label": "B",
+          "text": "75%"
+        },
+        {
+          "label": "C",
+          "text": "65%"
+        },
+        {
+          "label": "D",
+          "text": "60%"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Correct Option: (B)\n$$\\text{Answer} = 75%$$"
+    },
+    {
+      "questionNumber": 139,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "Selection Post 02/08/2022 (Shift-01)",
+      "questionText": "In a company, the average salary of all the employees is ₹ 20,000. The average salary of employees in group A is ₹ 32,000 while the average salary of employees in group B is ₹ 18,000. If there are 72 employees in group B then what is the number of employees in group A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "By Alligation method:\nGroup A salary $= 32000$, Group B salary $= 18000$, Average $= 20000$.\n$$\\text{Ratio of employees (A : B)} = (20000 - 18000) : (32000 - 20000) = 2000 : 12000 = 1 : 6$$\nGiven employees in group B $= 72$ (which corresponds to $6$ units):\n$$1\\text{ unit} = \\frac{72}{6} = 12$$\n$$\\text{Number of employees in Group A} = 12$$"
+    },
+    {
+      "questionNumber": 140,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CHSL 21/03/2023 (Shift-01)",
+      "questionText": "The average marks obtained by 80 students in an examination is 50. If the average marks of passed students is 55 and the number of students who failed the examination are 30, then what is the average marks of students who failed the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "41.66"
+        },
+        {
+          "label": "B",
+          "text": "46.66"
+        },
+        {
+          "label": "C",
+          "text": "40.33"
+        },
+        {
+          "label": "D",
+          "text": "52.33"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total students $= 80$, Failed students $= 30$, Passed students $= 50$.\n$$\\text{Total marks} = 80 \\times 50 = 4000$$\n$$\\text{Marks of passed students} = 50 \\times 55 = 2750$$\n$$\\text{Marks of failed students} = 4000 - 2750 = 1250$$\n$$\\text{Average marks of failed students} = \\frac{1250}{30} = 41.66$$"
+    },
+    {
+      "questionNumber": 141,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+      "questionText": "In a class, there are 60 students. The average weight of the entire class is 42 kg. If there are 36 boys in the class and the average weight of all the boys is 50 kg, then what is the average weight (in kg) of all the girls?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "34"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total students $= 60$, Boys $= 36$, Girls $= 60 - 36 = 24$.\n$$\\text{Total weight} = 60 \\times 42 = 2520\\text{ kg}$$\n$$\\text{Weight of boys} = 36 \\times 50 = 1800\\text{ kg}$$\n$$\\text{Weight of girls} = 2520 - 1800 = 720\\text{ kg}$$\n$$\\text{Average weight of girls} = \\frac{720}{24} = 30\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 142,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "Rakesh runs a coaching institute having 50 faculty members. The average monthly salary of 35 faculty members is ₹37,500. What will be the average monthly salary (in ₹) of the other 15 faculty members, if the average monthly salary of all the 50 faculty members is found to be ₹30,000?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12,000"
+        },
+        {
+          "label": "B",
+          "text": "13,000"
+        },
+        {
+          "label": "C",
+          "text": "12,500"
+        },
+        {
+          "label": "D",
+          "text": "13,500"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total monthly salary $= 50 \\times 30000 = ₹15,00,000$.\n$$\\text{Salary of 35 faculty} = 35 \\times 37500 = ₹13,12,500$$\n$$\\text{Salary of remaining 15 faculty} = 15,00,000 - 13,12,500 = ₹1,87,500$$\n$$\\text{Average monthly salary} = \\frac{1,87,500}{15} = ₹12,500$$"
+    },
+    {
+      "questionNumber": 143,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC MTS 27/10/2021 (Shift-03)",
+      "questionText": "In a group of 108 persons, the ratio of the number of males and females is 5 : 4. The average height of the males is 158.7 cm and that of the females is x cm. If the average height of all the persons in the group is 155.5 cm, then the value of x is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "152.2"
+        },
+        {
+          "label": "B",
+          "text": "153.4"
+        },
+        {
+          "label": "C",
+          "text": "151.5"
+        },
+        {
+          "label": "D",
+          "text": "150.8"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Ratio of males to females $= 5 : 4$.\n$$5 \\times 158.7 + 4x = (5 + 4) \\times 155.5$$\n$$793.5 + 4x = 9 \\times 155.5 = 1399.5$$\n$$4x = 1399.5 - 793.5 = 606 \\implies x = 151.5\\text{ cm}$$"
+    },
+    {
+      "questionNumber": 144,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CGL TIER-II 15/11/2020 (Shift-01)",
+      "questionText": "The average score in Mathematics of 90 students of section A and B of class IX was 63. The number of students in A were 10 more than those in B. The average score of students in A was 30% more than that of students in B. The average score of students in B is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "54"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "56"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let students in B $= x$, then $A = x + 10$.\n$$x + x + 10 = 90 \\implies 2x = 80 \\implies x = 40$$\nSo $B = 40$ students, $A = 50$ students. Ratio of $A : B = 5 : 4$.\nLet average score of B $= 10k$, then $A = 13k$.\n$$5(13k) + 4(10k) = 9 \\times 63 \\implies 65k + 40k = 567 \\implies 105k = 567 \\implies k = 5.4$$\n$$\\text{Average score of B} = 10k = 10 \\times 5.4 = 54$$"
+    },
+    {
+      "questionNumber": 145,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CHSL 24/05/2022 (Shift-02)",
+      "questionText": "In a test, the average score of 50 students is 66. Out of the total students, 40% are girls and the rest are boys. The average score of the boys is 20% less than that of the girls. What is the average score of the girls?",
+      "options": [
+        {
+          "label": "A",
+          "text": "70"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "75"
+        },
+        {
+          "label": "D",
+          "text": "65"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Ratio of girls to boys $= 40% : 60% = 2 : 3$.\nLet average of girls $= 5x$, then boys $= 4x$.\n$$2(5x) + 3(4x) = 5 \\times 66 \\implies 10x + 12x = 330 \\implies 22x = 330 \\implies x = 15$$\n$$\\text{Average score of girls} = 5x = 5 \\times 15 = 75$$"
+    },
+    {
+      "questionNumber": 146,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CGL 24/07/2023 (Shift-02)",
+      "questionText": "In a class of 60 students, 20 are girls. The average weight of the boys in the class is 40 kg, while that of all the girls is 35 kg. What is the average weight (in kg) of the entire class (correct to two decimal places)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "36.67"
+        },
+        {
+          "label": "B",
+          "text": "38.33"
+        },
+        {
+          "label": "C",
+          "text": "33.33"
+        },
+        {
+          "label": "D",
+          "text": "40.67"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Girls $= 20$, Boys $= 40$. Ratio Boys : Girls $= 2 : 1$.\n$$\\text{Average weight} = \\frac{2 \\times 40 + 1 \\times 35}{3} = \\frac{80 + 35}{3} = \\frac{115}{3} = 38.33\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 147,
+      "typeHeader": "TYPE - VIII: BASED ON ALLIGATION",
+      "examShift": "SSC CGL 07/12/2022 (Shift-04)",
+      "questionText": "The average weight of apples in a basket is 50 kg. 6 more apples with the average weight of 60 kg are added in the basket. If the average weight of the basket is increased by 5 kg, then find the number of apples in the basket originally.",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let original number of apples $= n$.\n$$\\frac{50n + 6 \\times 60}{n + 6} = 55 \\implies 50n + 360 = 55n + 330 \\implies 5n = 30 \\implies n = 6$$"
+    },
+    {
+      "questionNumber": 148,
+      "typeHeader": "TYPE - IX: BASED ON CRICKET",
+      "examShift": "SSC CHSL 11/08/2021 (Shift-01)",
+      "questionText": "A batsman in his 13th innings makes a score of 97 runs, there by increasing his average score by 5. What is his average score after the 13th innings?",
+      "options": [
+        {
+          "label": "A",
+          "text": "37"
+        },
+        {
+          "label": "B",
+          "text": "57"
+        },
+        {
+          "label": "C",
+          "text": "77"
+        },
+        {
+          "label": "D",
+          "text": "67"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let previous average for 12 innings $= A$.\n$$12A + 97 = 13(A + 5) \\implies 12A + 97 = 13A + 65 \\implies A = 32$$\n$$\\text{Average score after 13th innings} = 32 + 5 = 57$$"
+    },
+    {
+      "questionNumber": 149,
+      "typeHeader": "TYPE - IX: BASED ON CRICKET",
+      "examShift": "SSC CHSL 08/08/2023 (Shift-03)",
+      "questionText": "The average number of runs scored by a cricketer in 42 innings is 30. The difference between his maximum and minimum scores in an inning is 100. If these two innings are not taken into consideration, then the average score of remaining 40 innings is 28. What are the maximum runs scored by him in an inning.",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
+          "label": "B",
+          "text": "105"
+        },
+        {
+          "label": "C",
+          "text": "110"
+        },
+        {
+          "label": "D",
+          "text": "115"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total runs in 42 innings $= 42 \\times 30 = 1260$.\n$$\\text{Runs in remaining 40 innings} = 40 \\times 28 = 1120$$\n$$\\text{Max} + \\text{Min} = 1260 - 1120 = 140$$\n$$\\text{Max} - \\text{Min} = 100$$\n$$2 \\times \\text{Max} = 240 \\implies \\text{Max} = 120\\text{ runs}$$"
+    },
+    {
+      "questionNumber": 150,
+      "typeHeader": "TYPE - IX: BASED ON CRICKET",
+      "examShift": "SSC MTS 12/09/2023 (Shift-02)",
+      "questionText": "The average score of 22 players in an IPL match is 72. Out of these 22 players, the average score of 10 players is 80, the next 5 players got an average score of 75 and the rest 5 players got an average score of 55. Then the average score of the remaining two players is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "72"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "65"
+        },
+        {
+          "label": "D",
+          "text": "67"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total score $= 22 \\times 72 = 1584$.\n$$\\text{Score of 20 players} = (10 \\times 80) + (5 \\times 75) + (5 \\times 55) = 800 + 375 + 275 = 1450$$\n$$\\text{Score of remaining 2 players} = 1584 - 1450 = 134$$\n$$\\text{Average score} = \\frac{134}{2} = 67$$"
+    },
+    {
+      "questionNumber": 151,
+      "typeHeader": "TYPE - IX: BASED ON CRICKET",
+      "examShift": "SSC CGL 11/04/2022 (Shift-02)",
+      "questionText": "In the first 10 overs of a cricket game, the run rate was only 7.2. What should be the average run rate in the remaining 40 overs to reach the target of 272 runs?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Runs scored in 10 overs $= 10 \\times 7.2 = 72$.\n$$\\text{Runs required in remaining 40 overs} = 272 - 72 = 200$$\n$$\\text{Required run rate} = \\frac{200}{40} = 5$$"
+    },
+    {
+      "questionNumber": 152,
+      "typeHeader": "TYPE - IX: BASED ON CRICKET",
+      "examShift": "Selection Post 14/03/2022 (Shift-02)",
+      "questionText": "The average runs scored by Sumit in the first 3 matches is 122. In the 4th match, he scored some runs such that his average runs now become 130. In the 5th match, he scored 14 less runs than those in the 4th match, and now the average of his last 4 matches becomes 164. The runs scored by Sumit in the 1st match is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Runs in first 3 matches $= 3 \\times 122 = 366$.\n$$\\text{Runs in 4 matches} = 4 \\times 130 = 520 \\implies \\text{Match 4} = 520 - 366 = 154$$\n$$\\text{Match 5} = 154 - 14 = 140$$\n$$\\text{Total in last 4 matches (matches 2, 3, 4, 5)} = 4 \\times 164 = 656$$\n$$\\text{Match } 2 + 3 = 656 - (154 + 140) = 656 - 294 = 362$$\n$$\\text{Runs in Match 1} = 366 - 362 = 4$$"
+    },
+    {
+      "questionNumber": 153,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "SSC CGL 12/12/2022 (Shift-04)",
+      "questionText": "The average age of six members of a family is 40 years. If the age of a guest is included, then the average age increases by 12.5%. What is the age (in years) of the guest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "59"
+        },
+        {
+          "label": "B",
+          "text": "65"
+        },
+        {
+          "label": "C",
+          "text": "75"
+        },
+        {
+          "label": "D",
+          "text": "69"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Original average $= 40$ years.\n$$\\text{New average} = 40 \\times (1 + 0.125) = 45\\text{ years}$$\n$$\\text{Total with guest (7 members)} = 7 \\times 45 = 315\\text{ years}$$\n$$\\text{Total without guest (6 members)} = 6 \\times 40 = 240\\text{ years}$$\n$$\\text{Age of guest} = 315 - 240 = 75\\text{ years}$$"
+    },
+    {
+      "questionNumber": 154,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "Average age of three boys, are 25 years and their ages are in the ratio of 3 : 5 : 7. What is the age of youngest boy'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21 years"
+        },
+        {
+          "label": "B",
+          "text": "12 years"
+        },
+        {
+          "label": "C",
+          "text": "24 years"
+        },
+        {
+          "label": "D",
+          "text": "15 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total age $= 3 \\times 25 = 75$ years.\n$$\\text{Ratio sum} = 3 + 5 + 7 = 15\\text{ units}$$\n$$1\\text{ unit} = \\frac{75}{15} = 5\\text{ years}$$\n$$\\text{Age of youngest boy} = 3 \\times 5 = 15\\text{ years}$$"
+    },
+    {
+      "questionNumber": 155,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "SSC CHSL 20/03/2023 (Shift-04)",
+      "questionText": "The average age of Abhay, his wife and Their child 6 years ago was 42 years and that of his wife and their child 8 years ago was 30 years. Find the present age of Abhay.",
+      "options": [
+        {
+          "label": "A",
+          "text": "68 years"
+        },
+        {
+          "label": "B",
+          "text": "63 years"
+        },
+        {
+          "label": "C",
+          "text": "64 years"
+        },
+        {
+          "label": "D",
+          "text": "66 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "6 years ago, total age of (Abhay + Wife + Child) $= 3 \\times 42 = 126$.\n$$\\text{Present sum} = 126 + 3 \\times 6 = 144\\text{ years}$$\n8 years ago, total age of (Wife + Child) $= 2 \\times 30 = 60$.\n$$\\text{Present sum} = 60 + 2 \\times 8 = 76\\text{ years}$$\n$$\\text{Present age of Abhay} = 144 - 76 = 68\\text{ years}$$"
+    },
+    {
+      "questionNumber": 156,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "SSC CGL TIER II (08/08/2022)",
+      "questionText": "Average age of 7 students of a class is 28 years. Average age of first three students is 30 years. Age of fourth student is 4 years less than the age of fifth student. Ages of last two students is same and is 5 more than the average age of first three students. What is the average age of fourth and fifth student?",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 years"
+        },
+        {
+          "label": "B",
+          "text": "18 years"
+        },
+        {
+          "label": "C",
+          "text": "36 years"
+        },
+        {
+          "label": "D",
+          "text": "16 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total age of 7 students $= 7 \\times 28 = 196$.\n$$\\text{First 3 students} = 3 \\times 30 = 90$$\n$$\\text{Last 2 students each} = 30 + 5 = 35 \\implies \\text{Sum} = 70$$\n$$\\text{Sum of 4th and 5th students} = 196 - (90 + 70) = 36$$\n$$\\text{Average age of 4th and 5th students} = \\frac{36}{2} = 18\\text{ years}$$"
+    },
+    {
+      "questionNumber": 157,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "Selection Post 14/03/2022 (Shift-01)",
+      "questionText": "Eight years ago, the average age of A, B and C was 22 years. The average age of A and C after 2 years from now will be 32.5 years. What will be the age (in years) of B after 3 years from now?",
+      "options": [
+        {
+          "label": "A",
+          "text": "37"
+        },
+        {
+          "label": "B",
+          "text": "31"
+        },
+        {
+          "label": "C",
+          "text": "39"
+        },
+        {
+          "label": "D",
+          "text": "32"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Present average of (A, B, C) $= 22 + 8 = 30$ years.\n$$\\text{Present total} = 3 \\times 30 = 90\\text{ years}$$\n$$\\text{Present average of (A, C)} = 32.5 - 2 = 30.5\\text{ years}$$\n$$\\text{Present sum of (A, C)} = 2 \\times 30.5 = 61\\text{ years}$$\n$$\\text{Present age of B} = 90 - 61 = 29\\text{ years}$$\n$$\\text{Age of B after 3 years} = 29 + 3 = 32\\text{ years}$$"
+    },
+    {
+      "questionNumber": 158,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "SSC MTS 18/10/2021 (Shift-02)",
+      "questionText": "The average age of a 10-person committee increases by 3 when three men aged 35 years, 48 years and 49 years are substituted by three women. The average age (in years) of the three women is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "54"
+        },
+        {
+          "label": "B",
+          "text": "74"
+        },
+        {
+          "label": "C",
+          "text": "64"
+        },
+        {
+          "label": "D",
+          "text": "44"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total increase in age $= 10 \\times 3 = 30$ years.\n$$\\text{Sum of ages of 3 men} = 35 + 48 + 49 = 132\\text{ years}$$\n$$\\text{Sum of ages of 3 women} = 132 + 30 = 162\\text{ years}$$\n$$\\text{Average age of the 3 women} = \\frac{162}{3} = 54\\text{ years}$$"
+    },
+    {
+      "questionNumber": 159,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "SSC CGL TIER-II (18/01/2025)",
+      "questionText": "If the average age of three persons is 56 years and their ages are in the ratio 2 : 5 : 7, then find the age of the youngest person.",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 years"
+        },
+        {
+          "label": "B",
+          "text": "22 years"
+        },
+        {
+          "label": "C",
+          "text": "24 years"
+        },
+        {
+          "label": "D",
+          "text": "26 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total age $= 3 \\times 56 = 168$ years.\n$$\\text{Ratio sum} = 2 + 5 + 7 = 14\\text{ units}$$\n$$1\\text{ unit} = \\frac{168}{14} = 12\\text{ years}$$\n$$\\text{Age of youngest person} = 2 \\times 12 = 24\\text{ years}$$"
+    },
+    {
+      "questionNumber": 160,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "SSC CGL TIER-II 18/11/2020 (Shift-01)",
+      "questionText": "The average ages of Kishore, his wife and their child 6 years ago was 38 years and that of his wife and the child 8 years ago was 32 years. Find the present age of Kishore.",
+      "options": [
+        {
+          "label": "A",
+          "text": "52 years"
+        },
+        {
+          "label": "B",
+          "text": "48 years"
+        },
+        {
+          "label": "C",
+          "text": "50 years"
+        },
+        {
+          "label": "D",
+          "text": "55 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Present sum of (Kishore + Wife + Child) $= 3 \\times (38 + 6) = 3 \\times 44 = 132$.\n$$\\text{Present sum of (Wife + Child)} = 2 \\times (32 + 8) = 2 \\times 40 = 80$$\n$$\\text{Present age of Kishore} = 132 - 80 = 52\\text{ years}$$"
+    },
+    {
+      "questionNumber": 161,
+      "typeHeader": "TYPE - X: BASED ON AGE",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-01)",
+      "questionText": "The average age of 120 members of a society is 62.5 years. By addition of 30 new members, the average age becomes 58.2 years. What is the average age of newly joined members?",
+      "options": [
+        {
+          "label": "A",
+          "text": "40 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "39 years"
+        },
+        {
+          "label": "D",
+          "text": "42 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total age of 150 members $= 150 \\times 58.2 = 8730$.\n$$\\text{Age of original 120 members} = 120 \\times 62.5 = 7500$$\n$$\\text{Age of 30 new members} = 8730 - 7500 = 1230$$\n$$\\text{Average age of new members} = \\frac{1230}{30} = 41\\text{ years}$$"
+    },
+    {
+      "questionNumber": 162,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "Selection post 30/06/2023 (Shift-01)",
+      "questionText": "The average marks of 13 students is 67. If the average marks of the first seven students is 61 and the average marks of the last seven students is 65, then what is the marks of the seventh student?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total marks $= 13 \\times 67 = 871$.\n$$\\text{Sum of first 7} = 7 \\times 61 = 427$$\n$$\\text{Sum of last 7} = 7 \\times 65 = 455$$\n$$\\text{Marks of 7th student} = (427 + 455) - 871 = 882 - 871 = 11$$"
+    },
+    {
+      "questionNumber": 163,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC MTS 20/07/2022 (Shift-01)",
+      "questionText": "Out of a total of 9 books arranged in a particular order, the mean of the number of pages in the first 5 books is 430, the mean of the number of pages in the last 5 books is 380 and the mean of the number of pages in all the 9 books is 400. Find the number of pages in the fifth book.",
+      "options": [
+        {
+          "label": "A",
+          "text": "450"
+        },
+        {
+          "label": "B",
+          "text": "420"
+        },
+        {
+          "label": "C",
+          "text": "430"
+        },
+        {
+          "label": "D",
+          "text": "440"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total pages of 9 books $= 9 \\times 400 = 3600$.\n$$\\text{Sum of first 5} = 5 \\times 430 = 2150$$\n$$\\text{Sum of last 5} = 5 \\times 380 = 1900$$\n$$\\text{Pages in 5th book} = (2150 + 1900) - 3600 = 4050 - 3600 = 450$$"
+    },
+    {
+      "questionNumber": 164,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CHSL 10/03/2023 (Shift-01)",
+      "questionText": "Of the five subjects, the average marks of Rakesh in first 3 subjects was 75 and the average marks in the last 3 subjects was 82. If his marks in the third subject was 66, what was his average marks in all the 5 subjects?",
+      "options": [
+        {
+          "label": "A",
+          "text": "76"
+        },
+        {
+          "label": "B",
+          "text": "84"
+        },
+        {
+          "label": "C",
+          "text": "80"
+        },
+        {
+          "label": "D",
+          "text": "81"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Sum of first 3 $= 3 \\times 75 = 225$, Sum of last 3 $= 3 \\times 82 = 246$.\n$$\\text{Total marks in 5 subjects} = 225 + 246 - 66 = 405$$\n$$\\text{Average marks} = \\frac{405}{5} = 81$$"
+    },
+    {
+      "questionNumber": 165,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CPO 10/11/2022 (Shift-01)",
+      "questionText": "The average of 15 results is 21. The average of the first 7 of those is 21 and the average of the last 7 is 20. What is the 8th result?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "31"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "22"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total of 15 results $= 15 \\times 21 = 315$.\n$$\\text{First 7} = 7 \\times 21 = 147, \\quad \\text{Last 7} = 7 \\times 20 = 140$$\n$$\\text{8th result} = 315 - (147 + 140) = 315 - 287 = 28$$"
+    },
+    {
+      "questionNumber": 166,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL TIER II 03/03/2023",
+      "questionText": "The average of 20 numbers is 32. If two numbers are 29 and 31, then what is the average of the remaining numbers (correct up to two decimals)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "31.24"
+        },
+        {
+          "label": "B",
+          "text": "30.22"
+        },
+        {
+          "label": "C",
+          "text": "34.44"
+        },
+        {
+          "label": "D",
+          "text": "32.22"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total sum $= 20 \\times 32 = 640$.\n$$\\text{Remaining sum} = 640 - (29 + 31) = 640 - 60 = 580$$\n$$\\text{Average of 18 numbers} = \\frac{580}{18} = 32.22$$"
+    },
+    {
+      "questionNumber": 167,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL 21/04/2022 (Shift-03)",
+      "questionText": "Ras Bihari, a plumber, earned on an average ₹ 925 per day in the month of January. He earned on an average ₹ 881 per day during the first 20 days and ₹ 915 per day during the last 20 days. What was his average income (in ₹) per day from 12th January to 20th January?",
+      "options": [
+        {
+          "label": "A",
+          "text": "875"
+        },
+        {
+          "label": "B",
+          "text": "792"
+        },
+        {
+          "label": "C",
+          "text": "805"
+        },
+        {
+          "label": "D",
+          "text": "800"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total January (31 days) $= 31 \\times 925 = ₹28,675$.\n$$\\text{First 20 days} = 20 \\times 881 = ₹17,620$$\n$$\\text{Last 20 days} = 20 \\times 915 = ₹18,300$$\n$$\\text{Sum of first 20 and last 20} = 17620 + 18300 = ₹35,920$$\n$$\\text{Overlapping 9 days (12th to 20th)} = 35920 - 28675 = ₹7,245$$\n$$\\text{Average income} = \\frac{7245}{9} = ₹805$$"
+    },
+    {
+      "questionNumber": 168,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL 18/08/2021 (Shift-03)",
+      "questionText": "The average daily production of toys in a factory in the month of December is 512. If the average production during the first 20 days is 515 and that of the last 13 days is 510, then what is the average of production on 19 and 20 December?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1058"
+        },
+        {
+          "label": "B",
+          "text": "529"
+        },
+        {
+          "label": "C",
+          "text": "513"
+        },
+        {
+          "label": "D",
+          "text": "512"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total December (31 days) $= 31 \\times 512 = 15872$.\n$$\\text{First 20 days} = 20 \\times 515 = 10300$$\n$$\\text{Last 13 days} = 13 \\times 510 = 6630$$\n$$\\text{Sum} = 10300 + 6630 = 16930$$\n$$\\text{Production on 19th & 20th (2 days)} = 16930 - 15872 = 1058$$\n$$\\text{Average} = \\frac{1058}{2} = 529$$"
+    },
+    {
+      "questionNumber": 169,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL 09/09/2024 (Shift-02)",
+      "questionText": "The average temperature of a city for the first sixteen days of January is 22°C, and the average temperature for the last sixteen days of the same month is 26°C. If the average temperature for the entire month is 24°C, what is the temperature on the sixteenth day?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24° C"
+        },
+        {
+          "label": "B",
+          "text": "25° C"
+        },
+        {
+          "label": "C",
+          "text": "23° C"
+        },
+        {
+          "label": "D",
+          "text": "22° C"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total January (31 days) $= 31 \\times 24 = 744$.\n$$\\text{First 16} = 16 \\times 22 = 352, \\quad \\text{Last 16} = 16 \\times 26 = 416$$\n$$\\text{16th day temperature} = (352 + 416) - 744 = 768 - 744 = 24^\\circ\\text{C}$$"
+    },
+    {
+      "questionNumber": 170,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-02)",
+      "questionText": "The average temperature of a city for the first four days of the week is 25°C, and the average temperature for the last four days is 30°C. If the average temperature for the entire week is 27°C, then what is the temperature on the fourth day?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30°C"
+        },
+        {
+          "label": "B",
+          "text": "31°C"
+        },
+        {
+          "label": "C",
+          "text": "29°C"
+        },
+        {
+          "label": "D",
+          "text": "28°C"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total for 7 days $= 7 \\times 27 = 189$.\n$$\\text{First 4 days} = 4 \\times 25 = 100, \\quad \\text{Last 4 days} = 4 \\times 30 = 120$$\n$$\\text{4th day temperature} = (100 + 120) - 189 = 220 - 189 = 31^\\circ\\text{C}$$"
+    },
+    {
+      "questionNumber": 171,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL TIER-II 16/11/2020",
+      "questionText": "The average of twenty-five numbers is 54. The average of the first 13 numbers and that of the last 13 numbers is 52.8 and 62.2, respectively. If the 13th number is excluded, then what is the average of the remaining numbers (correct to one decimal place)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "51.2"
+        },
+        {
+          "label": "B",
+          "text": "49.8"
+        },
+        {
+          "label": "C",
+          "text": "50.2"
+        },
+        {
+          "label": "D",
+          "text": "50.6"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total of 25 numbers $= 25 \\times 54 = 1350$.\n$$\\text{First 13} = 13 \\times 52.8 = 686.4, \\quad \\text{Last 13} = 13 \\times 62.2 = 808.6$$\n$$\\text{13th number} = (686.4 + 808.6) - 1350 = 1495 - 1350 = 145$$\n$$\\text{Remaining 24 numbers sum} = 1350 - 145 = 1205$$\n$$\\text{Average} = \\frac{1205}{24} = 50.2$$"
+    },
+    {
+      "questionNumber": 172,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL 13/08/2021 (Shift-01)",
+      "questionText": "The average of 28 numbers is 77. The average of first 14 numbers is 74 and the average of last 15 numbers is 84. If the 14th number is excluded, then what is the average of remaining numbers? (correct to one decimal place)",
+      "options": [
+        {
+          "label": "A",
+          "text": "77"
+        },
+        {
+          "label": "B",
+          "text": "74.7"
+        },
+        {
+          "label": "C",
+          "text": "76.9"
+        },
+        {
+          "label": "D",
+          "text": "73.1"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total of 28 numbers $= 28 \\times 77 = 2156$.\n$$\\text{First 14} = 14 \\times 74 = 1036, \\quad \\text{Last 15} = 15 \\times 84 = 1260$$\n$$\\text{14th number} = (1036 + 1260) - 2156 = 2296 - 2156 = 140$$\n$$\\text{Remaining 27 numbers sum} = 2156 - 140 = 2016$$\n$$\\text{Average} = \\frac{2016}{27} = 74.66 \\approx 74.7$$"
+    },
+    {
+      "questionNumber": 173,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CHSL 04/08/2021 (Shift-03)",
+      "questionText": "The average of 19 numbers is 48. The average of the first 7 numbers is 50.6 and that of the last 13 numbers is 47.6. If the 7th number is excluded, then what is the average of the remaining numbers (correct to one decimal place)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "49.5"
+        },
+        {
+          "label": "B",
+          "text": "47.3"
+        },
+        {
+          "label": "C",
+          "text": "39.6"
+        },
+        {
+          "label": "D",
+          "text": "42.4"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total of 19 numbers $= 19 \\times 48 = 912$.\n$$\\text{First 7} = 7 \\times 50.6 = 354.2, \\quad \\text{Last 13} = 13 \\times 47.6 = 618.8$$\n$$\\text{7th number} = (354.2 + 618.8) - 912 = 973 - 912 = 61$$\n$$\\text{Remaining 18 numbers sum} = 912 - 61 = 851$$\n$$\\text{Average} = \\frac{851}{18} = 47.27 \\approx 47.3$$"
+    },
+    {
+      "questionNumber": 174,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL TIER-II 03/02/2022",
+      "questionText": "The average of 25 numbers is 64. The averages of the first 13 numbers and that of the last 13 numbers are 62.8 and 72.2, respectively. If the 12th number is 61, and if the 12th and 13th numbers are excluded, then what is the average of the remaining numbers (correct to one decimal place)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "59.2"
+        },
+        {
+          "label": "B",
+          "text": "62.2"
+        },
+        {
+          "label": "C",
+          "text": "60.2"
+        },
+        {
+          "label": "D",
+          "text": "61.5"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total of 25 numbers $= 25 \\times 64 = 1600$.\n$$\\text{First 13} = 13 \\times 62.8 = 816.4, \\quad \\text{Last 13} = 13 \\times 72.2 = 938.6$$\n$$\\text{13th number} = (816.4 + 938.6) - 1600 = 1755 - 1600 = 155$$\n$$\\text{Sum of 12th and 13th} = 61 + 155 = 216$$\n$$\\text{Remaining 23 numbers sum} = 1600 - 216 = 1384$$\n$$\\text{Average} = \\frac{1384}{23} = 60.17 \\approx 60.2$$"
+    },
+    {
+      "questionNumber": 175,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC Phase XII 20/06/2024 (Shift-03)",
+      "questionText": "The average of 12 numbers is 47. The average of the first 5 numbers is 45 and the average of the next 4 numbers is 52. If the 10th number is 10 less than the 11th number and is 5 more than the 12th number, then what is the average value of the 11th and 12th numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "44.5"
+        },
+        {
+          "label": "B",
+          "text": "47.5"
+        },
+        {
+          "label": "C",
+          "text": "42.5"
+        },
+        {
+          "label": "D",
+          "text": "46.5"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total of 12 numbers $= 12 \\times 47 = 564$.\n$$\\text{Sum of first 9 numbers} = 5 \\times 45 + 4 \\times 52 = 225 + 208 = 433$$\n$$\\text{Sum of 10th, 11th, 12th} = 564 - 433 = 131$$\nLet 10th number $= x$. Then 11th $= x + 10$, 12th $= x - 5$.\n$$x + (x + 10) + (x - 5) = 131 \\implies 3x + 5 = 131 \\implies 3x = 126 \\implies x = 42$$\n$$\\text{11th number} = 52, \\quad \\text{12th number} = 37$$\n$$\\text{Average} = \\frac{52 + 37}{2} = 44.5$$"
+    },
+    {
+      "questionNumber": 176,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "The average of 12 numbers is 48. The average of the first 5 numbers is 45 and the average of next 4 numbers is 52. If the 10th number is 10 less than the 11th number and is 5 more than the 12th number, then the average of the 11th and 12th numbers is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "50.5"
+        },
+        {
+          "label": "B",
+          "text": "46.5"
+        },
+        {
+          "label": "C",
+          "text": "47.5"
+        },
+        {
+          "label": "D",
+          "text": "48.5"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total of 12 numbers $= 12 \\times 48 = 576$.\n$$\\text{Sum of first 9} = 5 \\times 45 + 4 \\times 52 = 433$$\n$$\\text{Sum of 10th, 11th, 12th} = 576 - 433 = 143$$\n$$3x + 5 = 143 \\implies 3x = 138 \\implies x = 46$$\n$$\\text{11th} = 56, \\quad \\text{12th} = 41$$\n$$\\text{Average} = \\frac{56 + 41}{2} = 48.5$$"
+    },
+    {
+      "questionNumber": 177,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL 21/04/2022 (Shift-02)",
+      "questionText": "In the month of March, Dalip earned on an average ₹501 per day. For the first 18 days, his average earning was ₹495 and for the last 15 days, his average earning as ₹505. On 18th March, he earned ₹50 more than that earned on 17th March. How much (in ₹) did he earn on 18th March?",
+      "options": [
+        {
+          "label": "A",
+          "text": "498"
+        },
+        {
+          "label": "B",
+          "text": "500"
+        },
+        {
+          "label": "C",
+          "text": "501"
+        },
+        {
+          "label": "D",
+          "text": "502"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "March has 31 days. Total $= 31 \\times 501 = 15531$.\n$$\\text{First 18 days} = 18 \\times 495 = 8910$$\n$$\\text{Last 15 days} = 15 \\times 505 = 7575$$\n$$\\text{Sum of 17th and 18th March} = (8910 + 7575) - 15531 = 16485 - 15531 = 954$$\nGiven 18th $= 17\\text{th} + 50$.\n$$2 \\times (17\\text{th}) + 50 = 954 \\implies 2 \\times (17\\text{th}) = 904 \\implies 17\\text{th} = 452$$\n$$\\text{Earning on 18th March} = 452 + 50 = ₹502$$"
+    },
+    {
+      "questionNumber": 178,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CGL 13/04/2022 (Shift-02)",
+      "questionText": "The average of sixteen numbers is 48. The average of the first six of these numbers is 45 and that of the last seven numbers is 53. The seventh and the eighth numbers are, respectively, 3 and 7 greater than the ninth number. What is the average of the ninth and seventh numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "42"
+        },
+        {
+          "label": "B",
+          "text": "41.5"
+        },
+        {
+          "label": "C",
+          "text": "39"
+        },
+        {
+          "label": "D",
+          "text": "40.5"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total of 16 numbers $= 16 \\times 48 = 768$.\n$$\\text{First 6} = 6 \\times 45 = 270, \\quad \\text{Last 7} = 7 \\times 53 = 371$$\n$$\\text{Sum of 7th, 8th, 9th} = 768 - (270 + 371) = 768 - 641 = 127$$\nLet 9th number $= x$. 7th $= x + 3$, 8th $= x + 7$.\n$$3x + 10 = 127 \\implies 3x = 117 \\implies x = 39$$\n$$\\text{7th} = 42, \\quad \\text{9th} = 39$$\n$$\\text{Average} = \\frac{42 + 39}{2} = 40.5$$"
+    },
+    {
+      "questionNumber": 179,
+      "typeHeader": "TYPE - XI: BASED ON NUMBERS",
+      "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+      "questionText": "The average of twelve numbers is 39. The average of the last five numbers is 35, and that of the first four numbers is 40. The fifth number is 6 less than the sixth number and 5 more than the seventh number. The average of the fifth and sixth numbers is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "39"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "44"
+        },
+        {
+          "label": "D",
+          "text": "47"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Total of 12 numbers $= 12 \\times 39 = 468$.\n$$\\text{First 4} = 4 \\times 40 = 160, \\quad \\text{Last 5} = 5 \\times 35 = 175$$\n$$\\text{Sum of 5th, 6th, 7th} = 468 - (160 + 175) = 133$$\nLet 5th $= x$. 6th $= x + 6$, 7th $= x - 5$.\n$$3x + 1 = 133 \\implies 3x = 132 \\implies x = 44$$\n$$\\text{5th} = 44, \\quad \\text{6th} = 50$$\n$$\\text{Average} = \\frac{44 + 50}{2} = 47$$"
+    },
+    {
+      "questionNumber": 180,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 24/11/2020 (Shift-02)",
+      "questionText": "The average temperature of Monday, Wednesday and Friday was 41°C. The average temperature of Wednesday, Friday and Thursday was 42°C. If the temperature on Thursday was 43°C, then the temperature on Monday was:",
+      "options": [
+        {
+          "label": "A",
+          "text": "43°C"
+        },
+        {
+          "label": "B",
+          "text": "41°C"
+        },
+        {
+          "label": "C",
+          "text": "42°C"
+        },
+        {
+          "label": "D",
+          "text": "40°C"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{M} + \\text{W} + \\text{F} = 3 \\times 41 = 123$$\n$$\\text{W} + \\text{F} + \\text{Th} = 3 \\times 42 = 126$$\n$$\\text{Th} - \\text{M} = 126 - 123 = 3$$\n$$\\text{M} = 43^\\circ\\text{C} - 3 = 40^\\circ\\text{C}$$"
+    },
+    {
+      "questionNumber": 181,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 26/05/2022 (Shift-02)",
+      "questionText": "The mean of three numbers $\\frac{a}{3}$, b and c is the same as the mean of the numbers $\\frac{b}{3}, \\frac{c}{3}$ and x. The value of 3x is (where a, b, c are positive numbers):",
+      "options": [
+        {
+          "label": "A",
+          "text": "b + c"
+        },
+        {
+          "label": "B",
+          "text": "a + 2b + 2c"
+        },
+        {
+          "label": "C",
+          "text": "a"
+        },
+        {
+          "label": "D",
+          "text": "a + 3b + 3c"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{\\frac{a}{3} + b + c}{3} = \\frac{\\frac{b}{3} + \\frac{c}{3} + x}{3}$$\n$$\\frac{a}{3} + b + c = \\frac{b}{3} + \\frac{c}{3} + x$$\n$$a + 3b + 3c = b + c + 3x$$\n$$3x = a + 2b + 2c$$"
+    },
+    {
+      "questionNumber": 182,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 11/04/2022 (Shift-01)",
+      "questionText": "The average of 52, 71, 43, 22, a, and b is 55 and the average of 42, 45, 49, 51, 42, c, and d is 53. What is the average of a, b, c, and d?",
+      "options": [
+        {
+          "label": "A",
+          "text": "54.7"
+        },
+        {
+          "label": "B",
+          "text": "71"
+        },
+        {
+          "label": "C",
+          "text": "54"
+        },
+        {
+          "label": "D",
+          "text": "142"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$52 + 71 + 43 + 22 + a + b = 6 \\times 55 = 330 \\implies 188 + a + b = 330 \\implies a + b = 142$$\n$$42 + 45 + 49 + 51 + 42 + c + d = 7 \\times 53 = 371 \\implies 229 + c + d = 371 \\implies c + d = 142$$\n$$\\text{Average of } a, b, c, d = \\frac{(a + b) + (c + d)}{4} = \\frac{142 + 142}{4} = \\frac{284}{4} = 71$$"
+    },
+    {
+      "questionNumber": 183,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 19/04/2022 (Shift-01)",
+      "questionText": "Of the three numbers, second is one-third of first and is also three-fourth of the third number. If the average of three numbers is 112, then what is the smallest number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "63"
+        },
+        {
+          "label": "B",
+          "text": "45"
+        },
+        {
+          "label": "C",
+          "text": "84"
+        },
+        {
+          "label": "D",
+          "text": "189"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let second number $= 3x$. Then first $= 9x$, third $= 4x$.\n$$9x + 3x + 4x = 3 \\times 112 = 336 \\implies 16x = 336 \\implies x = 21$$\n$$\\text{Smallest number} = 3x = 3 \\times 21 = 63$$"
+    },
+    {
+      "questionNumber": 184,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 23/11/2020 (Shift-02)",
+      "questionText": "If A is 1/6 of C, and B is twice of A, and the average of A, B and C is 30, then the difference between A and C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "80"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Let $C = 6x$. Then $A = x$, $B = 2x$.\n$$A + B + C = x + 2x + 6x = 9x$$\n$$9x = 3 \\times 30 = 90 \\implies x = 10$$\n$$\\text{Difference } C - A = 6x - x = 5x = 5 \\times 10 = 50$$"
+    },
+    {
+      "questionNumber": 185,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II 18/11/2020",
+      "questionText": "The average of five positive numbers is 56. If the first number is three-fourth of the sum of the last four numbers, then the average of the last four numbers is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "35"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Total of 5 numbers $= 5 \\times 56 = 280$.\nLet sum of last four numbers $= S$. First number $= \\frac{3}{4}S$.\n$$\\frac{3}{4}S + S = 280 \\implies \\frac{7}{4}S = 280 \\implies S = 160$$\n$$\\text{Average of last four numbers} = \\frac{160}{4} = 40$$"
+    },
+    {
+      "questionNumber": 186,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-01)",
+      "questionText": "If the average of a number and its reciprocal is 2, then the average of its cube and its reciprocal is equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "28"
+        },
+        {
+          "label": "B",
+          "text": "26"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{x + \\frac{1}{x}}{2} = 2 \\implies x + \\frac{1}{x} = 4$$\n$$x^3 + \\frac{1}{x^3} = \\left(x + \\frac{1}{x}\\right)^3 - 3\\left(x + \\frac{1}{x}\\right) = 4^3 - 3(4) = 64 - 12 = 52$$\n$$\\text{Average} = \\frac{x^3 + \\frac{1}{x^3}}{2} = \\frac{52}{2} = 26$$"
+    },
+    {
+      "questionNumber": 187,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 27/10/2021 (Shift-02)",
+      "questionText": "The average of the 4-digit numbers 1244, 2345, 33x3 and 4x38 is 2925. What is the average of (5x + 3) and (9x - 5)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "42"
+        },
+        {
+          "label": "B",
+          "text": "55"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "41"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Sum of 4 numbers $= 4 \\times 2925 = 11700$.\n$$1244 + 2345 + (3303 + 10x) + (4038 + 100x) = 11700$$\n$$10930 + 110x = 11700 \\implies 110x = 770 \\implies x = 7$$\n$$5x + 3 = 5(7) + 3 = 38, \\quad 9x - 5 = 9(7) - 5 = 58$$\n$$\\text{Average} = \\frac{38 + 58}{2} = 48$$"
+    },
+    {
+      "questionNumber": 188,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 08/08/2023 (Shift-01)",
+      "questionText": "If $A = \\frac{1}{7}$ and $B = \\frac{1}{8}$ and the average of A, B and C is $\\frac{1}{13}$, then the value of C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "-\\frac{31}{728}"
+        },
+        {
+          "label": "B",
+          "text": "-\\frac{27}{728}"
+        },
+        {
+          "label": "C",
+          "text": "-\\frac{89}{728}"
+        },
+        {
+          "label": "D",
+          "text": "-\\frac{49}{728}"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{A + B + C}{3} = \\frac{1}{13} \\implies A + B + C = \\frac{3}{13}$$\n$$C = \\frac{3}{13} - \\left(\\frac{1}{7} + \\frac{1}{8}\\right) = \\frac{3}{13} - \\frac{15}{56} = \\frac{168 - 195}{728} = -\\frac{27}{728}$$"
+    },
+    {
+      "questionNumber": 189,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 13/04/2021 (Shift-03)",
+      "questionText": "The average of the numbers a, b, c and d is $2d + 4$. Also, the average of the numbers a and b; b and c; c and d are 8, 5 and 4, respectively. If $e = a + d + 1$, then what is the average of the numbers d and e?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "8.5"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$a + b = 16, \\quad b + c = 10, \\quad c + d = 8$$\n$$(a + b) + (c + d) = 16 + 8 = 24 \\implies a + b + c + d = 24$$\n$$\\text{Average} = \\frac{24}{4} = 6 \\implies 2d + 4 = 6 \\implies 2d = 2 \\implies d = 1$$\n$$c = 8 - 1 = 7, \\quad b = 10 - 7 = 3, \\quad a = 16 - 3 = 13$$\n$$e = a + d + 1 = 13 + 1 + 1 = 15$$\n$$\\text{Average of } d \\text{ and } e = \\frac{1 + 15}{2} = 8$$"
+    },
+    {
+      "questionNumber": 190,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 19/10/2020 (Shift-03)",
+      "questionText": "A library has an average of 265 visitors on Sundays and 130 visitors on other days. The average number of visitors per day in a month of 30 days beginning with a Monday is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "148"
+        },
+        {
+          "label": "B",
+          "text": "135"
+        },
+        {
+          "label": "C",
+          "text": "165"
+        },
+        {
+          "label": "D",
+          "text": "129"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A 30-day month starting with Monday contains 4 Sundays and 26 other days.\n$$\\text{Total visitors} = 4 \\times 265 + 26 \\times 130 = 1060 + 3380 = 4440$$\n$$\\text{Average per day} = \\frac{4440}{30} = 148$$"
+    },
+    {
+      "questionNumber": 191,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-03)",
+      "questionText": "A public library has an average attendance of 410 on Sundays and 230 for the remaining days. The average attendance per day of a month of 30 days beginning with Sunday would be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "230"
+        },
+        {
+          "label": "B",
+          "text": "254"
+        },
+        {
+          "label": "C",
+          "text": "320"
+        },
+        {
+          "label": "D",
+          "text": "260"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "A 30-day month starting with Sunday contains 5 Sundays and 25 other days.\n$$\\text{Total attendance} = 5 \\times 410 + 25 \\times 230 = 2050 + 5750 = 7800$$\n$$\\text{Average attendance} = \\frac{7800}{30} = 260$$"
+    },
+    {
+      "questionNumber": 192,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 04/06/2019 (Shift-02)",
+      "questionText": "Three number are such that if the average of any two of them is added to the third number, the sums obtained are 168, 174 and 180 respectively. What is the average of the original three number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "86"
+        },
+        {
+          "label": "B",
+          "text": "87"
+        },
+        {
+          "label": "C",
+          "text": "89"
+        },
+        {
+          "label": "D",
+          "text": "84"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{a+b}{2} + c = 168 \\implies a + b + 2c = 336$$\n$$a + 2b + c = 348, \\quad 2a + b + c = 360$$\n$$4(a + b + c) = 336 + 348 + 360 = 1044 \\implies a + b + c = 261$$\n$$\\text{Average} = \\frac{261}{3} = 87$$"
+    },
+    {
+      "questionNumber": 193,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 23/11/2020 (Shift-02)",
+      "questionText": "The average weight of a group of 3 people A, B and C is 70 kg. When D joins this group, the average becomes 60 kg. One man E, whose weight is 5 kg more than that of D, replace A and the average weight of B, C, D and E now becomes 59 kg. A's weight (in kg) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "39"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "59"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$A + B + C = 3 \\times 70 = 210$$\n$$A + B + C + D = 4 \\times 60 = 240 \\implies D = 30\\text{ kg}$$\n$$E = 30 + 5 = 35\\text{ kg}$$\n$$B + C + D + E = 4 \\times 59 = 236$$\n$$(A + B + C + D) - (B + C + D + E) = 240 - 236 \\implies A - E = 4$$\n$$A = 35 + 4 = 39\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 194,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-03)",
+      "questionText": "The average weight of A, B and C is 77 kg. If the average weight of A and B is 68 kg and that of B and C is 83 kg, then the weight (in kg) of B is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "71"
+        },
+        {
+          "label": "B",
+          "text": "74"
+        },
+        {
+          "label": "C",
+          "text": "67"
+        },
+        {
+          "label": "D",
+          "text": "73"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$A + B + C = 3 \\times 77 = 231$$\n$$A + B = 2 \\times 68 = 136, \\quad B + C = 2 \\times 83 = 166$$\n$$(A + B) + (B + C) = 136 + 166 = 302$$\n$$B = 302 - 231 = 71\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 195,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 21/03/2023 (Shift-03)",
+      "questionText": "The average of marks obtained by X and Y is 35 less than the average marks obtained by Y and Z. If the marks obtained by Z is 85. what is the marks obtained by X?",
+      "options": [
+        {
+          "label": "A",
+          "text": "155"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "35"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{Y + Z}{2} - \\frac{X + Y}{2} = 35 \\implies \\frac{Z - X}{2} = 35 \\implies Z - X = 70$$\n$$X = 85 - 70 = 15$$"
+    },
+    {
+      "questionNumber": 196,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "The number of students in section A and section B of a class are 50 and 62, respectively. The average score in mathematics of all the students is 75. If the average score of students in section A is 20% more than that of students in section B, then what is the average score of students in section A (correct to one decimal place)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "84.3"
+        },
+        {
+          "label": "B",
+          "text": "82.6"
+        },
+        {
+          "label": "C",
+          "text": "87.5"
+        },
+        {
+          "label": "D",
+          "text": "85.7"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let score of B $= 5x$, then $A = 6x$.\n$$50(6x) + 62(5x) = (50 + 62) \\times 75 = 112 \\times 75 = 8400$$\n$$300x + 310x = 8400 \\implies 610x = 8400 \\implies x = \\frac{840}{61}$$\n$$\\text{Average score of A} = 6x = 6 \\times \\frac{840}{61} = \\frac{5040}{61} \\approx 82.6$$"
+    },
+    {
+      "questionNumber": 197,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 18/07/2023 (Shift-03)",
+      "questionText": "According to Raghav, his weight is more than 64 kg but less than 74 kg. His sister does not agree with Raghav and she thinks that his weight is more than 60 kg but less than 69 kg. His mother's view is that his weight cannot be more than 68 kg. His father's view is that his weight cannot be more than 67 kg. If all are them are correct in their estimation, then what is the average of different probable weights of Raghav measured (in kg)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "66"
+        },
+        {
+          "label": "B",
+          "text": "67"
+        },
+        {
+          "label": "C",
+          "text": "68"
+        },
+        {
+          "label": "D",
+          "text": "65"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Raghav: $> 64$ and $< 74$.\nSister: $> 60$ and $< 69$.\nMother: $\\le 68$.\nFather: $\\le 67$.\nCommon range: $64 < \\text{weight} \\le 67$. Probable integer weights $= 65, 66, 67$.\n$$\\text{Average} = \\frac{65 + 66 + 67}{3} = 66\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 198,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 10/08/2021 (Shift-01)",
+      "questionText": "There are 3 groups of persons - male, female and children. There are 20 males and the number of females and children taken together is 4 more than that of the males. The average weight of males is 54 kg, that of females is 49 kg and that of children is 30 kg. If the average weight of the whole group is 48.25 kg, then what is the difference between the number of females and the number of children?",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$M = 20$, $F + C = 20 + 4 = 24$. Total $= 44$ persons.\n$$\\text{Total weight} = 44 \\times 48.25 = 2123\\text{ kg}$$\n$$\\text{Weight of males} = 20 \\times 54 = 1080\\text{ kg}$$\n$$\\text{Weight of (F + C)} = 2123 - 1080 = 1043\\text{ kg}$$\n$$49F + 30C = 1043 \\quad \\text{and} \\quad F + C = 24$$\n$$49F + 30(24 - F) = 1043 \\implies 19F + 720 = 1043 \\implies 19F = 323 \\implies F = 17$$\n$$C = 24 - 17 = 7$$\n$$\\text{Difference } |F - C| = 17 - 7 = 10$$"
+    },
+    {
+      "questionNumber": 199,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 23/08/2021 (Shift-01)",
+      "questionText": "In an examination, the average score of a student was 67.6. If he would have got 27 more marks in Mathematics, 10 more marks in Computer Science, 18 more marks in History and retained the same marks in other subjects, then his average score would have been 72.6. How many papers were there in the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total extra marks} = 27 + 10 + 18 = 55$$\n$$\\text{Increase in average} = 72.6 - 67.6 = 5$$\n$$\\text{Number of papers} = \\frac{55}{5} = 11$$"
+    },
+    {
+      "questionNumber": 200,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 09/03/2020 (Shift-01)",
+      "questionText": "When 2 is subtracted from each of the given n number, then the sum of the numbers so obtained is 102. When 5 is subtracted from each of them, then the sum of the numbers so obtained is 12. What is the average of the given n numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6.2"
+        },
+        {
+          "label": "B",
+          "text": "5.8"
+        },
+        {
+          "label": "C",
+          "text": "5.4"
+        },
+        {
+          "label": "D",
+          "text": "6.6"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$S - 2n = 102 \\quad \\text{and} \\quad S - 5n = 12$$\nSubtracting equations:\n$$3n = 90 \\implies n = 30$$\n$$S = 102 + 2(30) = 162$$\n$$\\text{Average} = \\frac{S}{n} = \\frac{162}{30} = 5.4$$"
+    },
+    {
+      "questionNumber": 201,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 05/08/2021 (Shift-01)",
+      "questionText": "The numbers 2, 3, 4 and 5 occurs (k + 5k), (5k - 7), (2k - 3) and (k + 2) times, respectively. The average of the numbers is 2.85. Later on, the number 2 was replaced by 6 in all the places. What is the average of the new numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2.4"
+        },
+        {
+          "label": "B",
+          "text": "4.75"
+        },
+        {
+          "label": "C",
+          "text": "3.85"
+        },
+        {
+          "label": "D",
+          "text": "5.25"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Frequencies: for $2$ is $6k$, for $3$ is $5k-7$, for $4$ is $2k-3$, for $5$ is $k+2$.\nSum of frequencies $N = 14k - 8$.\nTotal sum $= 2(6k) + 3(5k-7) + 4(2k-3) + 5(k+2) = 12k + 15k - 21 + 8k - 12 + 5k + 10 = 40k - 23$.\n$$\\frac{40k - 23}{14k - 8} = 2.85 \\implies 40k - 23 = 39.9k - 22.8 \\implies 0.1k = 0.2 \\implies k = 2$$\nFor $k = 2$, frequency of $2$ is $6(2) = 12$. Total count $N = 14(2) - 8 = 20$.\nReplacing $2$ with $6$ adds $4$ to each of the $12$ instances, adding $12 \\times 4 = 48$.\n$$\\text{Increase in average} = \\frac{48}{20} = 2.4$$\n$$\\text{New average} = 2.85 + 2.4 = 5.25$$"
+    },
+    {
+      "questionNumber": 202,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "Selection post 16/03/2022 (Shift-01)",
+      "questionText": "The average of x occurring 5 times and y occurring 7 times is 37. Also the average of x occurring 7 times and y occurring 5 times is 35. The value of x/6 is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$5x + 7y = 12 \\times 37 = 444$$\n$$7x + 5y = 12 \\times 35 = 420$$\nAdding equations: $12x + 12y = 864 \\implies x + y = 72$.\nSubtracting equations: $2x - 2y = -24 \\implies x - y = -12$.\n$$2x = 60 \\implies x = 30$$\n$$\\frac{x}{6} = \\frac{30}{6} = 5$$"
+    },
+    {
+      "questionNumber": 203,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "In an examination, average marks of a student per paper were 71. If he would have obtained 35 more marks in sciences; 11 more marks in history and 4 more marks in computer science, his average marks per paper would have been 76. How many papers were there in the examination?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Total extra marks} = 35 + 11 + 4 = 50$$\n$$\\text{Increase in average} = 76 - 71 = 5$$\n$$\\text{Number of papers} = \\frac{50}{5} = 10$$"
+    },
+    {
+      "questionNumber": 204,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 12/04/2021 (Shift-01)",
+      "questionText": "The average weight of 30 persons of group A is 3 kg more than the average weight of 25 persons of group B. The average weight of 25 persons of group B is 2.5 kg more than the average weight of 20 persons of group C. If the total weight of 30 persons of group A is 1725 kg, then what will be the average weight of the persons of group A and group C taken together (in kg)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "55.3"
+        },
+        {
+          "label": "B",
+          "text": "55.1"
+        },
+        {
+          "label": "C",
+          "text": "55"
+        },
+        {
+          "label": "D",
+          "text": "55.4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Average of A} = \\frac{1725}{30} = 57.5\\text{ kg}$$\n$$\\text{Average of B} = 57.5 - 3 = 54.5\\text{ kg}$$\n$$\\text{Average of C} = 54.5 - 2.5 = 52\\text{ kg}$$\n$$\\text{Total weight of C (20 persons)} = 20 \\times 52 = 1040\\text{ kg}$$\n$$\\text{Total weight (A + C)} = 1725 + 1040 = 2765\\text{ kg}$$\n$$\\text{Combined average (50 persons)} = \\frac{2765}{50} = 55.3\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 205,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 09/09/2024 (Shift-03)",
+      "questionText": "A stock portfolio consists of four stocks. Stock A represents 20% of the portfolio and has a return of 6%. Stock B represents 30% of the portfolio and has a return of 8%. Stock C represents 20% of the portfolio and has a return of 4%. Stock D represents the remaining 30% of the portfolio and has a negative-return of 5%. What is the average return of the portfolio?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2.9%"
+        },
+        {
+          "label": "B",
+          "text": "2.6%"
+        },
+        {
+          "label": "C",
+          "text": "3.2%"
+        },
+        {
+          "label": "D",
+          "text": "3.4%"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Average return} = 0.20(6) + 0.30(8) + 0.20(4) + 0.30(-5)$$\n$$= 1.2 + 2.4 + 0.8 - 1.5 = 4.4 - 1.5 = 2.9\\%$$"
+    },
+    {
+      "questionNumber": 206,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-03)",
+      "questionText": "A stock portfolio consists of three stocks. Stock A represents 30% of the portfolio and has a return of 5%. Stock B represents 40% of the portfolio and has a return of 10%. Stock C represents the remaining 30% of the portfolio and has a return of 8%. What is the average return percentage of the portfolio?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7.2%"
+        },
+        {
+          "label": "B",
+          "text": "7.5%"
+        },
+        {
+          "label": "C",
+          "text": "8.1%"
+        },
+        {
+          "label": "D",
+          "text": "7.9%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Average return} = 0.30(5) + 0.40(10) + 0.30(8)$$\n$$= 1.5 + 4.0 + 2.4 = 7.9\\%$$"
+    },
+    {
+      "questionNumber": 207,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-04)",
+      "questionText": "The average of 25 integers is zero. What is the maximum possible number of positive integers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Sum of 25 integers $= 25 \\times 0 = 0$.\nIf 24 integers are positive, their sum can be cancelled by a single negative integer whose magnitude equals the sum of the 24 positive integers.\n$$\\text{Maximum possible positive integers} = 24$$"
+    },
+    {
+      "questionNumber": 208,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 17/06/2019 (Shift-01)",
+      "questionText": "The average of 27 numbers is zero. Out of them, how many may be greater than zero, at the most?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "26"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Sum of 27 numbers $= 0$. At most, 26 numbers can be positive, balanced by 1 negative number.\n$$\\text{Maximum numbers greater than zero} = 26$$"
+    },
+    {
+      "questionNumber": 209,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "In a team of seven members, the average age of six of the members is 42 years while the age of the seventh member of the team is 36 years more than the average age of all the seven members taken together. Find the age (in years) of the seventh member of the team.",
+      "options": [
+        {
+          "label": "A",
+          "text": "90"
+        },
+        {
+          "label": "B",
+          "text": "84"
+        },
+        {
+          "label": "C",
+          "text": "80"
+        },
+        {
+          "label": "D",
+          "text": "78"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let overall average $= A$. Seventh member $= A + 36$.\n$$6 \\times 42 + (A + 36) = 7A \\implies 252 + 36 = 6A \\implies 6A = 288 \\implies A = 48$$\n$$\\text{Age of 7th member} = 48 + 36 = 84\\text{ years}$$"
+    },
+    {
+      "questionNumber": 210,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-03)",
+      "questionText": "The average weight of Rohan and his three friends is 62 kg. If Rohan's weight is 8 kg more than the average weight of his three friends, what is Rohan's weight (in kg)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "65"
+        },
+        {
+          "label": "C",
+          "text": "68"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Total weight of 4 persons $= 4 \\times 62 = 248\\text{ kg}$.\nLet average weight of 3 friends $= F$. Rohan $= F + 8$.\n$$3F + (F + 8) = 248 \\implies 4F = 240 \\implies F = 60$$\n$$\\text{Rohan's weight} = 60 + 8 = 68\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 211,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER II 26/10/2023",
+      "questionText": "The average weight of the first thirteen persons among fourteen persons is 78 kg. The weight of the 14th person is 39 kg more than the average weight of all the fourteen persons. Find the weight of the 14th person.",
+      "options": [
+        {
+          "label": "A",
+          "text": "110 kg"
+        },
+        {
+          "label": "B",
+          "text": "118 kg"
+        },
+        {
+          "label": "C",
+          "text": "98 kg"
+        },
+        {
+          "label": "D",
+          "text": "120 kg"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Let overall average $= A$. 14th person $= A + 39$.\n$$13 \\times 78 + (A + 39) = 14A \\implies 1014 + 39 = 13A \\implies 13A = 1053 \\implies A = 81\\text{ kg}$$\n$$\\text{Weight of 14th person} = 81 + 39 = 120\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 212,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 17/07/2023 (Shift-04)",
+      "questionText": "20 Students of a college went to a hotel. 19 of them spent ₹ 175 each on their meal and the 20th student spent ₹ 19 more than the average of all the 20. Find the total money spent by them.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 3490"
+        },
+        {
+          "label": "B",
+          "text": "₹ 3540"
+        },
+        {
+          "label": "C",
+          "text": "₹ 3520"
+        },
+        {
+          "label": "D",
+          "text": "₹ 3500"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Let average spent by 20 students $= A$. 20th student spent $A + 19$.\n$$19 \\times 175 + (A + 19) = 20A \\implies 3325 + 19 = 19A \\implies 19A = 3344 \\implies A = 176$$\n$$\\text{Total money spent} = 20 \\times 176 = ₹3520$$"
+    },
+    {
+      "questionNumber": 213,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 02/05/2023 (Shift-02)",
+      "questionText": "Eleven friends spent ₹ 18 each on a tour and the twelfth friend spent ₹11 less than the average expenditure of all twelve of them. What is the total money spent by twelve friends?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹204"
+        },
+        {
+          "label": "B",
+          "text": "₹215"
+        },
+        {
+          "label": "C",
+          "text": "₹212"
+        },
+        {
+          "label": "D",
+          "text": "₹208"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let overall average $= A$. 12th friend spent $A - 11$.\n$$11 \\times 18 + (A - 11) = 12A \\implies 198 - 11 = 11A \\implies 11A = 187 \\implies A = 17$$\n$$\\text{Total money spent} = 12 \\times 17 = ₹204$$"
+    },
+    {
+      "questionNumber": 214,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 11/04/2022 (Shift-01)",
+      "questionText": "The average weight of P and his three friends is 55 kg. If P is 4 kg more than the average weight of his three friends, what is P's weight (in kg)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "54"
+        },
+        {
+          "label": "B",
+          "text": "58"
+        },
+        {
+          "label": "C",
+          "text": "62"
+        },
+        {
+          "label": "D",
+          "text": "60"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Total weight of 4 $= 4 \\times 55 = 220\\text{ kg}$.\nLet average weight of 3 friends $= F$. $P = F + 4$.\n$$3F + (F + 4) = 220 \\implies 4F = 216 \\implies F = 54$$\n$$P = 54 + 4 = 58\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 215,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 06/08/2021 (Shift-02)",
+      "questionText": "There are 90 students in a hostel. Due to new admissions, 30 new students join the mess and the daily expenses of the mess increases by ₹ 560, while the average expenditure per head diminishes by ₹ 10. What was the original daily expenditure (in ₹) of the mess?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4,980"
+        },
+        {
+          "label": "B",
+          "text": "4,280"
+        },
+        {
+          "label": "C",
+          "text": "5,280"
+        },
+        {
+          "label": "D",
+          "text": "3,680"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Let original average expenditure per head $= x$.\nOriginal daily expenditure $= 90x$.\n$$120(x - 10) = 90x + 560 \\implies 120x - 1200 = 90x + 560 \\implies 30x = 1760$$\n$$\\text{Original expenditure} = 90x = 3 \\times (30x) = 3 \\times 1760 = ₹5,280$$"
+    },
+    {
+      "questionNumber": 216,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC Phase XII 25/06/2024 (Shift-03)",
+      "questionText": "The average monthly income of A and B is ₹5,050, the average monthly income of B and C is ₹6,250, and the average monthly income of A and C is ₹5,200. What is the sum of the monthly incomes (in ₹) of A, B and C?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18000"
+        },
+        {
+          "label": "B",
+          "text": "19500"
+        },
+        {
+          "label": "C",
+          "text": "16500"
+        },
+        {
+          "label": "D",
+          "text": "11000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$A + B = 2 \\times 5050 = 10100$$\n$$B + C = 2 \\times 6250 = 12500$$\n$$A + C = 2 \\times 5200 = 10400$$\n$$2(A + B + C) = 10100 + 12500 + 10400 = 33000$$\n$$A + B + C = \\frac{33000}{2} = ₹16,500$$"
+    },
+    {
+      "questionNumber": 217,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 12/09/2023 (Shift-01)",
+      "questionText": "There are 75 students in the hostel. Due to new admissions, 15 new students join the mess, and the daily expenses of the mess increased by ₹ 240, while the average expenditure per head diminished by 5. What was the original expenditure (in ₹) of the mess?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4,530"
+        },
+        {
+          "label": "B",
+          "text": "3,450"
+        },
+        {
+          "label": "C",
+          "text": "4,350"
+        },
+        {
+          "label": "D",
+          "text": "3,540"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let original average per head $= x$.\nOriginal daily expenditure $= 75x$.\n$$90(x - 5) = 75x + 240 \\implies 90x - 450 = 75x + 240 \\implies 15x = 690 \\implies x = 46$$\n$$\\text{Original expenditure} = 75 \\times 46 = ₹3,450$$"
+    },
+    {
+      "questionNumber": 218,
+      "typeHeader": "TYPE - XII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II (20/01/2025)",
+      "questionText": "8 kg of maize costing Rs.51 per kg, is mixed with 9 kg of maize costing Rs.68 per kg. The average per kg price of mixed maize is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.60"
+        },
+        {
+          "label": "B",
+          "text": "Rs.58"
+        },
+        {
+          "label": "C",
+          "text": "Rs.59"
+        },
+        {
+          "label": "D",
+          "text": "Rs.61"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total cost} = 8 \\times 51 + 9 \\times 68 = 408 + 612 = \\text{Rs. } 1020$$\n$$\\text{Total quantity} = 8 + 9 = 17\\text{ kg}$$\n$$\\text{Average price per kg} = \\frac{1020}{17} = \\text{Rs. } 60$$"
+    }
+  ]
+}

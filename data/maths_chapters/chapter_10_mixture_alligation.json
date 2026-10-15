@@ -1,0 +1,2401 @@
+{
+  "chapterNumber": 10,
+  "chapterCode": "mixture_alligation",
+  "chapterTitleEnglish": "Mixture & Alligation",
+  "chapterTitleHindi": "मिश्रण और पृथक्करण",
+  "totalQuestions": 92,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC MTS 04/09/2023 (Shift-01)",
+      "questionText": "A mixture contains milk and water in the ratio 9 : 7. If it contains 4 litres more milk than water, then find the quantity of milk (in litres) in the mixture.",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let milk $= 9x$ and water $= 7x$.\n$$9x - 7x = 4 \\implies 2x = 4 \\implies x = 2$$\n$$\\text{Quantity of milk} = 9 \\times 2 = 18\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "If a mixture of 60 liters of milk contains 40% milk, how much more milk needs to be added to make the amount of milk in the mixture 60%?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 liter"
+        },
+        {
+          "label": "B",
+          "text": "20 liter"
+        },
+        {
+          "label": "C",
+          "text": "35 liter"
+        },
+        {
+          "label": "D",
+          "text": "25 liter"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Water is constant:\n$$\\text{Water in initial mixture} = 60\\% \\times 60 = 36\\text{ L}$$\nIn new mixture, milk is 60%, so water is 40%:\n$$40\\% \\text{ of new mixture} = 36 \\implies \\text{New mixture} = \\frac{36}{0.40} = 90\\text{ L}$$\n$$\\text{Milk added} = 90 - 60 = 30\\text{ liters}$$"
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+      "questionText": "A mixture of 70 litres of wine contains 10% of water. How much water must be added to make the water $12\\frac{1}{2}\\%$ of the resulting mixture?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 litres"
+        },
+        {
+          "label": "B",
+          "text": "3 litres"
+        },
+        {
+          "label": "C",
+          "text": "2 litres"
+        },
+        {
+          "label": "D",
+          "text": "4 litres"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Wine is constant: $90\\% \\times 70 = 63\\text{ L}$.\nIn the new mixture, water is $12.5\\% = \\frac{1}{8}$, so wine is $\\frac{7}{8}$:\n$$\\frac{7}{8} \\times \\text{Total} = 63 \\implies \\text{Total} = 72\\text{ L}$$\n$$\\text{Water to be added} = 72 - 70 = 2\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "A mixture of 750 kg of alloy of copper and tin contains 25% tin. How much tin must be added so that it becomes 70% of the mixture?",
+      "options": [
+        {
+          "label": "A",
+          "text": "895 kg"
+        },
+        {
+          "label": "B",
+          "text": "1125 kg"
+        },
+        {
+          "label": "C",
+          "text": "956 kg"
+        },
+        {
+          "label": "D",
+          "text": "1097 kg"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Copper is constant: $75\\% \\times 750 = 562.5\\text{ kg}$.\nIn new mixture, tin is 70%, so copper is 30%:\n$$30\\% \\times \\text{New alloy} = 562.5 \\implies \\text{New alloy} = \\frac{562.5}{0.30} = 1875\\text{ kg}$$\n$$\\text{Tin added} = 1875 - 750 = 1125\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "There is a 25 litre mixture of milk and water, containing milk and water in the ratio 3 : 2. Find how much litres of water that should be added to the mixture so that the resultant mixture has 50% water in it.",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Milk} = \\frac{3}{5} \\times 25 = 15\\text{ L}, \\quad \\text{Water} = 10\\text{ L}$$\nFor 50% water, water must equal milk ($15\\text{ L}$):\n$$\\text{Water added} = 15 - 10 = 5\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "A 12 litre solution of acid and water contains 30% acid. How much water (in litres) must be added to get a solution having 20% acid?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Acid is constant: $30\\% \\times 12 = 3.6\\text{ L}$.\nIn new solution, acid is 20%:\n$$20\\% \\times \\text{Total} = 3.6 \\implies \\text{Total} = \\frac{3.6}{0.20} = 18\\text{ L}$$\n$$\\text{Water added} = 18 - 12 = 6\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CHSL 25/05/2022 (Shift-02)",
+      "questionText": "If 49 litres of a milk solution has 63% milk in it, then how much milk should be added to make the concentration of milk 70% in the solution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11\\frac{13}{30} litres"
+        },
+        {
+          "label": "B",
+          "text": "14\\frac{7}{30} litres"
+        },
+        {
+          "label": "C",
+          "text": "12\\frac{11}{30} litres"
+        },
+        {
+          "label": "D",
+          "text": "13\\frac{1}{30} litres"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Water is constant: $37\\% \\times 49 = 18.13\\text{ L}$.\nIn new solution, water is 30%:\n$$\\text{Total} = \\frac{18.13}{0.30} = \\frac{1813}{30} = 60\\frac{13}{30}\\text{ L}$$\n$$\\text{Milk added} = 60\\frac{13}{30} - 49 = 11\\frac{13}{30}\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "How much water should be added to 60 liters of milk at $1\\frac{1}{2}$ liters a rupee so as to have a mixture worth $1\\frac{7}{8}$ liters a rupee?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 liters"
+        },
+        {
+          "label": "B",
+          "text": "12 liters"
+        },
+        {
+          "label": "C",
+          "text": "27 liters"
+        },
+        {
+          "label": "D",
+          "text": "20 liters"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Price of milk $= \\frac{2}{3}$ rupee/liter. Price of water $= 0$.\nPrice of mixture $= \\frac{1}{15/8} = \\frac{8}{15}$ rupee/liter.\n$$\\text{Ratio (Milk : Water)} = \\left(\\frac{8}{15} - 0\\right) : \\left(\\frac{2}{3} - \\frac{8}{15}\\right) = \\frac{8}{15} : \\frac{2}{15} = 4 : 1$$\n$$\\text{Water to add} = \\frac{60}{4} \\times 1 = 15\\text{ liters}$$"
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "There is a 32L mixture of milk and water. The ratio of milk and water in this mixture is 5 : 3. How many litres of water should be added to this mixture so that the resultant mixture has 50% water in it?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Milk} = \\frac{5}{8} \\times 32 = 20\\text{ L}, \\quad \\text{Water} = 12\\text{ L}$$\nFor 50% water, water must equal 20 L:\n$$\\text{Water added} = 20 - 12 = 8\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CGL 26/09/2024 (Shift-02)",
+      "questionText": "Half litre of a solution contains 15% alcohol. To change the alcohol concentration to 50%, find the quantity of alcohol to be mixed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "250 ml"
+        },
+        {
+          "label": "B",
+          "text": "350 ml"
+        },
+        {
+          "label": "C",
+          "text": "175 ml"
+        },
+        {
+          "label": "D",
+          "text": "400 ml"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Water is constant: $85\\% \\times 500 = 425\\text{ ml}$.\nIn new solution, water is 50%:\n$$\\text{Total} = \\frac{425}{0.50} = 850\\text{ ml}$$\n$$\\text{Alcohol added} = 850 - 500 = 350\\text{ ml}$$"
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC MTS 04/09/2023 (Shift-02)",
+      "questionText": "A vessel contains liquid A and liquid B in the ratio 4 : 9. If 8 litres of liquid A is added to the vessel, the new ratio becomes 8 : 9. Find the quantity of liquid A (in litres) in the original mixture.",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "B is constant (9 units).\nA increases from 4 to 8 units (4 units increase).\n$$4\\text{ units} = 8\\text{ L} \\implies 1\\text{ unit} = 2\\text{ L}$$\n$$\\text{Original A} = 4 \\times 2 = 8\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-04)",
+      "questionText": "A mixture contains alcohol and water in the ratio of 12 : 5. On adding 14 liters of water, the ratio of alcohol to water becomes 4 : 3. The quantity of alcohol in the mixture is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "18 liter"
+        },
+        {
+          "label": "B",
+          "text": "30 liter"
+        },
+        {
+          "label": "C",
+          "text": "28 liter"
+        },
+        {
+          "label": "D",
+          "text": "42 liter"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Multiply second ratio by 3 to equalize alcohol: $12 : 9$.\nWater increases by $9 - 5 = 4\\text{ units} = 14\\text{ L} \\implies 1\\text{ unit} = 3.5\\text{ L}$.\n$$\\text{Alcohol} = 12 \\times 3.5 = 42\\text{ liters}$$"
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+      "questionText": "A vessel contains 18 litres mixture of milk and water in the ratio 5 : 1. If 3 litres of milk is added to the vessel, then how much water (in litres) should be added to the vessel to have milk and water in the ratio 9 : 2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "1.5"
+        },
+        {
+          "label": "C",
+          "text": "0.5"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Initially: Milk $= 15\\text{ L}$, Water $= 3\\text{ L}$.\nAfter adding 3 L milk: Milk $= 18\\text{ L}$.\n$$\\frac{18}{3 + w} = \\frac{9}{2} \\implies 3 + w = 4 \\implies w = 1\\text{ litre}$$"
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CPO 29/06/2024 (Shift-03)",
+      "questionText": "The quantity of milk in a mixture of milk and water is $\\frac{4}{5}$ of the volume of the mixture. After adding 1 liter of milk to 5 liters of the mixture, the percentage of water in the mixture is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "17.5%"
+        },
+        {
+          "label": "B",
+          "text": "15%"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{200}{6}\\%"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{100}{6}\\%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "In 5 L: Milk $= 4\\text{ L}$, Water $= 1\\text{ L}$.\nAfter adding 1 L milk, Total $= 6\\text{ L}$, Water $= 1\\text{ L}$.\n$$\\text{Percentage of water} = \\frac{1}{6} \\times 100\\% = \\frac{100}{6}\\%$$"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC MTS 11/09/2023 (Shift-01)",
+      "questionText": "In some quantity of water, four times the quantity of milk is added and the quantity of the mixture is now 7.5 litres. How much more milk is to be added to the mixture to have 90% milk in the mixture?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7.5 litres"
+        },
+        {
+          "label": "B",
+          "text": "9.5 litres"
+        },
+        {
+          "label": "C",
+          "text": "6 litres"
+        },
+        {
+          "label": "D",
+          "text": "9 litres"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Ratio Milk : Water $= 4 : 1$.\n$$\\text{Water} = \\frac{1}{5} \\times 7.5 = 1.5\\text{ L}$$\nIn new mixture, milk is 90% so water is 10%:\n$$\\text{New total} = \\frac{1.5}{0.10} = 15\\text{ L}$$\n$$\\text{Milk to add} = 15 - 7.5 = 7.5\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+      "questionText": "A drink is made by mixing water and juice in the ratio 9 : 7. If x litres of water and 2x litres of juice are mixed in 160 litres of drink, then the new ratio becomes 13 : 15. The quantity of drink (in litres) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "240"
+        },
+        {
+          "label": "B",
+          "text": "280"
+        },
+        {
+          "label": "C",
+          "text": "300"
+        },
+        {
+          "label": "D",
+          "text": "260"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "In 160 L: Water $= 90\\text{ L}$, Juice $= 70\\text{ L}$.\n$$\\frac{90 + x}{70 + 2x} = \\frac{13}{15} \\implies 1350 + 15x = 910 + 26x \\implies 11x = 440 \\implies x = 40$$\n$$\\text{Total drink} = 160 + 3x = 160 + 120 = 280\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CGL 11/04/2022 (Shift-02)",
+      "questionText": "An alloy contains 40% of silver, 30% of copper and 30% of nickel. How much silver (in kg) should be added to 25 kg of the alloy so that the new alloy contains 50% of silver?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Non-silver part is constant: $60\\% \\times 25 = 15\\text{ kg}$.\nIn new alloy, silver is 50%, so non-silver is 50%:\n$$\\text{New alloy} = \\frac{15}{0.50} = 30\\text{ kg}$$\n$$\\text{Silver added} = 30 - 25 = 5\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: BASED ON ADDITION OR REMOVAL",
+      "examShift": "SSC CHSL 02/08/2023 (Shift-02)",
+      "questionText": "In a solution of water and milk, the quantity of milk is double the quantity of water. To pass the quality standards, the solution must contain 90% milk in it. If the volume of the solution is V, then how much pure milk is to be added to the solution to pass the quality standard?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{4}{3}V"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{3}{4}V"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{7}{4}V"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{7}{3}V"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Water is constant: $\\text{Water} = \\frac{1}{3}V$.\nIn new solution, water is 10%:\n$$\\frac{1}{10} V_{\\text{new}} = \\frac{1}{3}V \\implies V_{\\text{new}} = \\frac{10}{3}V$$\n$$\\text{Milk added} = \\frac{10}{3}V - V = \\frac{7}{3}V$$"
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CHSL 03/08/2023 (Shift-03)",
+      "questionText": "A bottle is filled with liquid of which 4 parts are water and 5 parts are fruit extract. How much of the mixture must be drawn off and replaced with water so that the mixture may be half water and half fruit extract?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{1}{10}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{9}{10}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{4}{9}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{5}{9}"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Fruit extract fraction: initially $\\frac{5}{9}$, finally $\\frac{1}{2}$.\n$$\\frac{5}{9}(1 - x) = \\frac{1}{2} \\implies 1 - x = \\frac{9}{10} \\implies x = \\frac{1}{10}$$"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CGL 26/07/2023 (Shift-01)",
+      "questionText": "A vessel is filled with liquid, 5 parts of which are water and 11 parts syrup. What part of the mixture must be drawn off and replaced with water so that the mixture may have syrup and water in the ratio 3 : 2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{14}{45}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{27}{35}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{36}{65}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{7}{55}"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Syrup fraction: initially $\\frac{11}{16}$, finally $\\frac{3}{5}$.\n$$\\frac{11}{16}(1 - x) = \\frac{3}{5} \\implies 1 - x = \\frac{48}{55} \\implies x = \\frac{7}{55}$$"
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC MTS 05/07/2022 (Shift-03)",
+      "questionText": "A container contains a mixture of two liquids, A and B, in the proportion 7 : 5. If 9 liters of the mixture is replaced by 9 liters of Liquid B, then the ratio of the two liquids becomes 7 : 9. How much of liquid A was there in the container initially?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21 liters"
+        },
+        {
+          "label": "B",
+          "text": "35 liters"
+        },
+        {
+          "label": "C",
+          "text": "40 liters"
+        },
+        {
+          "label": "D",
+          "text": "19 liters"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "In remaining mixture $A : B = 7 : 5$, after adding 9 L B it becomes $7 : 9$.\nB increases by $9 - 5 = 4\\text{ units} = 9\\text{ L} \\implies 1\\text{ unit} = 2.25\\text{ L}$.\n$$\\text{Total remaining} = 12 \\times 2.25 = 27\\text{ L}$$\n$$\\text{Initial total} = 27 + 9 = 36\\text{ L}$$\n$$\\text{Initial liquid A} = \\frac{7}{12} \\times 36 = 21\\text{ liters}$$"
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CHSL 13/04/2020 (Shift-01)",
+      "questionText": "A solution contains acid and water in the ratio of 4 : 5. If 20% of the solution is replaced by water, then what will be the ratio of acid and water in the new solution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 : 7"
+        },
+        {
+          "label": "B",
+          "text": "5 : 17"
+        },
+        {
+          "label": "C",
+          "text": "16 : 29"
+        },
+        {
+          "label": "D",
+          "text": "8 : 15"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Acid fraction $= \\frac{4}{9} \\times (1 - 0.20) = \\frac{16}{45}$.\nWater fraction $= 1 - \\frac{16}{45} = \\frac{29}{45}$.\n$$\\text{Ratio} = 16 : 29$$"
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CHSL 09/08/2023 Shift-02",
+      "questionText": "A vessel contains some milk. 6 litre of the milk was taken out of the vessel and replaced with 6 litre of water and again 6 litre of mixture was taken out and was replaced with water. Now the ratio of milk to water become 100 : 69. Find the initial quantity of milk in the vessel.",
+      "options": [
+        {
+          "label": "A",
+          "text": "28 litre"
+        },
+        {
+          "label": "B",
+          "text": "26 litre"
+        },
+        {
+          "label": "C",
+          "text": "36 litre"
+        },
+        {
+          "label": "D",
+          "text": "46 litre"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{\\text{Milk}}{\\text{Total}} = \\frac{100}{169} = \\left(1 - \\frac{6}{V}\\right)^2$$\n$$1 - \\frac{6}{V} = \\frac{10}{13} \\implies \\frac{6}{V} = \\frac{3}{13} \\implies V = 26\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CGL TIER-II 03/02/2022",
+      "questionText": "A vessel contained a solution of acid and water, in which water was 64%. Four litres of the solution was taken out of the vessel and the same quantity of water was added. If the resulting solution contains 30% acid, the quantity (in litres) of the water in the solution, at the beginning in the vessel, was:",
+      "options": [
+        {
+          "label": "A",
+          "text": "11.36"
+        },
+        {
+          "label": "B",
+          "text": "15.36"
+        },
+        {
+          "label": "C",
+          "text": "8.64"
+        },
+        {
+          "label": "D",
+          "text": "12.64"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Initial acid $= 36\\%$, final acid $= 30\\%$.\n$$36\\% \\times \\left(1 - \\frac{4}{V}\\right) = 30\\% \\implies 1 - \\frac{4}{V} = \\frac{5}{6} \\implies V = 24\\text{ L}$$\n$$\\text{Initial water} = 64\\% \\times 24 = 15.36\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CGL TIER-II 16/11/2020",
+      "questionText": "A vessel contains a solution of two liquids A and B in the ratio 5 : 3. When 10 litres of the solution is taken out and replaced by the same quantity of B, the ratio of A and B in the vessel becomes 10 : 11. The quantity (in litres) of the solution, in the vessel was ____.",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "52"
+        },
+        {
+          "label": "C",
+          "text": "42"
+        },
+        {
+          "label": "D",
+          "text": "44"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "In remaining: $A : B = 5 : 3 = 10 : 6$.\nAfter adding 10 L B: $10 : 11$.\n$$B \\text{ increases by } 5\\text{ units} = 10\\text{ L} \\implies 1\\text{ unit} = 2\\text{ L}$$\n$$\\text{Remaining mixture} = 16 \\times 2 = 32\\text{ L}$$\n$$\\text{Total capacity} = 32 + 10 = 42\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CGL TIER-II 13/09/2019",
+      "questionText": "A vessel contains a 32 litre solution of acid and water in which the ratio of acid and water is 5 : 3. If 12 litres of the solution are taken out and $7\\frac{1}{2}$ litres of water are added to it, then what is the ratio of acid and water in the resulting solution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 7"
+        },
+        {
+          "label": "B",
+          "text": "5 : 6"
+        },
+        {
+          "label": "C",
+          "text": "4 : 9"
+        },
+        {
+          "label": "D",
+          "text": "8 : 11"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Remaining solution $= 32 - 12 = 20\\text{ L}$.\n$$\\text{Acid} = \\frac{5}{8} \\times 20 = 12.5\\text{ L}, \\quad \\text{Water} = 7.5\\text{ L}$$\nAdding 7.5 L water: Water $= 15\\text{ L}$.\n$$\\text{Ratio} = 12.5 : 15 = 5 : 6$$"
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC MTS 01/09/2023 (Shift-03)",
+      "questionText": "From a container having pure milk, 35% is replaced by water and the process is repeated thrice. At the end of the third operation, the purity of the milk is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "37\\frac{21}{80}\\%"
+        },
+        {
+          "label": "B",
+          "text": "21\\frac{33}{80}\\%"
+        },
+        {
+          "label": "C",
+          "text": "23\\frac{37}{80}\\%"
+        },
+        {
+          "label": "D",
+          "text": "27\\frac{37}{80}\\%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Purity} = (1 - 0.35)^3 = (0.65)^3 = \\left(\\frac{13}{20}\\right)^3 = \\frac{2197}{8000}$$\n$$\\text{Percentage} = \\frac{2197}{80}\\% = 27\\frac{37}{80}\\%$$"
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CHSL 09/08/2023 Shift-02",
+      "questionText": "From a cask of milk containing 64 litres, 8 litres are drawn out and the cask is filled up with water. If the same process is repeated a second, then a third time, what will be the proportion of milk to water in the resulting mixture?",
+      "options": [
+        {
+          "label": "A",
+          "text": "343 : 179"
+        },
+        {
+          "label": "B",
+          "text": "333 : 169"
+        },
+        {
+          "label": "C",
+          "text": "443 : 179"
+        },
+        {
+          "label": "D",
+          "text": "343 : 169"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Remaining milk fraction} = \\left(1 - \\frac{8}{64}\\right)^3 = \\left(\\frac{7}{8}\\right)^3 = \\frac{343}{512}$$\n$$\\text{Water fraction} = 1 - \\frac{343}{512} = \\frac{169}{512}$$\n$$\\text{Ratio} = 343 : 169$$"
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - II: CONCEPT OF REPLACEMENT",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-01)",
+      "questionText": "A 10-litre solution of milk and water contains 8 litres of milk. 2 litres of the solution is replaced by pure milk and mixed. The process is repeated two more times. How much milk (in litres) is present in the mixture so obtained?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8.976"
+        },
+        {
+          "label": "B",
+          "text": "8.597"
+        },
+        {
+          "label": "C",
+          "text": "8.796"
+        },
+        {
+          "label": "D",
+          "text": "8.679"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Initial water $= 2\\text{ L}$. Each time, fraction of water remaining $= 1 - \\frac{2}{10} = 0.8$.\nAfter 3 replacements:\n$$\\text{Water remaining} = 2 \\times (0.8)^3 = 2 \\times 0.512 = 1.024\\text{ L}$$\n$$\\text{Milk present} = 10 - 1.024 = 8.976\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "A merchant mixes two varieties of sugar of 5 kg and 3 kg, which costs him Rs.4 and Rs.6 per kg, respectively. What is the cost price (in Rs.) of the mixture per kg?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4.35"
+        },
+        {
+          "label": "B",
+          "text": "4.45"
+        },
+        {
+          "label": "C",
+          "text": "4.75"
+        },
+        {
+          "label": "D",
+          "text": "4.21"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Average cost} = \\frac{5 \\times 4 + 3 \\times 6}{5 + 3} = \\frac{38}{8} = 4.75\\text{ Rs/kg}$$"
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "A shopkeeper mixes two types of rice costing Rs.$\\frac{250}{5}$ kg and Rs.$\\frac{280}{5}$ kg in the ratio 7 : 8. Find the net cost of the resultant mixture (per kg).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.32.50"
+        },
+        {
+          "label": "B",
+          "text": "Rs.53.20"
+        },
+        {
+          "label": "C",
+          "text": "Rs.52.30"
+        },
+        {
+          "label": "D",
+          "text": "Rs.25.30"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Prices are Rs.50/kg and Rs.56/kg.\n$$\\text{Cost} = \\frac{7 \\times 50 + 8 \\times 56}{15} = \\frac{798}{15} = 53.20\\text{ Rs/kg}$$"
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+      "questionText": "42 litres of milk at Rs.25 per litre is mixed with 28 litres of milk at Rs.40 per litre. Find the average price of the mixture?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.31.5"
+        },
+        {
+          "label": "B",
+          "text": "Rs.32.5"
+        },
+        {
+          "label": "C",
+          "text": "Rs.32"
+        },
+        {
+          "label": "D",
+          "text": "Rs.31"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Quantity ratio $= 42 : 28 = 3 : 2$.\n$$\\text{Average price} = \\frac{3 \\times 25 + 2 \\times 40}{5} = \\frac{155}{5} = \\text{Rs.}31$$"
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+      "questionText": "15 kg of Rs.10 per kg wheat is mixed with 5 kg of another type of wheat to get a mixture costing Rs.30 per kg. Find the price (per kg) of the costlier wheat.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.70"
+        },
+        {
+          "label": "B",
+          "text": "Rs.80"
+        },
+        {
+          "label": "C",
+          "text": "Rs.60"
+        },
+        {
+          "label": "D",
+          "text": "Rs.90"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{15 \\times 10 + 5x}{20} = 30 \\implies 150 + 5x = 600 \\implies 5x = 450 \\implies x = 90\\text{ Rs/kg}$$"
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-02)",
+      "questionText": "Ratna buys 10 kg of rice for Rs.88 per kg and another 20 kg of rice for Rs.187 per kg. What is the per kg cost (in Rs.) ofthe total mixture of rice for her?",
+      "options": [
+        {
+          "label": "A",
+          "text": "150"
+        },
+        {
+          "label": "B",
+          "text": "154"
+        },
+        {
+          "label": "C",
+          "text": "158"
+        },
+        {
+          "label": "D",
+          "text": "148"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Quantity ratio $= 1 : 2$.\n$$\\text{Cost} = \\frac{1 \\times 88 + 2 \\times 187}{3} = \\frac{462}{3} = 154\\text{ Rs/kg}$$"
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "A shopkeeper mixes 15 kg of sugar costing ₹11/kg with 22 kg of sugar costing ₹12/kg. What is the cost (in ?) per kg of the mixture? (Rounded off to 2 decimal places)",
+      "options": [
+        {
+          "label": "A",
+          "text": "11.51"
+        },
+        {
+          "label": "B",
+          "text": "11.59"
+        },
+        {
+          "label": "C",
+          "text": "11.38"
+        },
+        {
+          "label": "D",
+          "text": "11.84"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Cost} = \\frac{15 \\times 11 + 22 \\times 12}{37} = \\frac{429}{37} \\approx 11.59\\text{ ₹/kg}$$"
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL 13/09/2024 (Shift-02)",
+      "questionText": "2 varieties of tea powders worth Rs.250/kg and Rs.300/kg are mixed with a third variety of tea powder in the ratio 1 : 1 : 2. If the mixture is worth Rs.350/kg, find the price of the third variety tea powder.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs.450/kg."
+        },
+        {
+          "label": "B",
+          "text": "Rs.400/kg."
+        },
+        {
+          "label": "C",
+          "text": "Rs.425/kg."
+        },
+        {
+          "label": "D",
+          "text": "Rs.500/kg."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\frac{1(250) + 1(300) + 2x}{4} = 350 \\implies 550 + 2x = 1400 \\implies 2x = 850 \\implies x = 425\\text{ Rs/kg}$$"
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC MTS 08/09/2023 (Shift-03)",
+      "questionText": "Tea leaves worth ₹108 per kg and ₹120 per kg are mixed with a third variety in the ratio 2 : 3 : 5. If the mixture is worth ₹125 per kg, the price (in, rounded off to the nearest integer) of the third variety of tea leaves per kg will be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "128"
+        },
+        {
+          "label": "B",
+          "text": "133"
+        },
+        {
+          "label": "C",
+          "text": "135"
+        },
+        {
+          "label": "D",
+          "text": "130"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\frac{2(108) + 3(120) + 5x}{10} = 125 \\implies 576 + 5x = 1250 \\implies 5x = 674 \\implies x = 134.8 \\approx 135$$"
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "If one man adds 6 litres of water to 10 litres of milk and another man adds 4 litres of water to 8 litres of milk. Find the ratio of milk in the two mixtures.",
+      "options": [
+        {
+          "label": "A",
+          "text": "16 : 15"
+        },
+        {
+          "label": "B",
+          "text": "12 : 11"
+        },
+        {
+          "label": "C",
+          "text": "16 : 17"
+        },
+        {
+          "label": "D",
+          "text": "15 : 16"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Concentration 1} = \\frac{10}{16} = \\frac{5}{8}, \\quad \\text{Concentration 2} = \\frac{8}{12} = \\frac{2}{3}$$\n$$\\text{Ratio} = \\frac{5}{8} : \\frac{2}{3} = 15 : 16$$"
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL 13/09/2024 (Shift-02)",
+      "questionText": "Two different quantities of the same solution having ingredients A and B are stored in two different containers. In the first container, there are 252 litre of A and 441 litre of B. In the second container, the total quantity of the solution was 1188 litre. How much of the solution in the second container was made up of ingredient B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "765 ltr."
+        },
+        {
+          "label": "B",
+          "text": "756 ltr."
+        },
+        {
+          "label": "C",
+          "text": "752 ltr."
+        },
+        {
+          "label": "D",
+          "text": "760 ltr."
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$A : B = 252 : 441 = 4 : 7$$\n$$\\text{Ingredient B in second container} = \\frac{7}{11} \\times 1188 = 756\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+      "questionText": "Ramu mixes 2 litres of water at $100^\\circ$ C and 18 litres of water at $32^\\circ$ C. What temperature will the water have after mixing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "66^\\circ C"
+        },
+        {
+          "label": "B",
+          "text": "20^\\circ C"
+        },
+        {
+          "label": "C",
+          "text": "38.8^\\circ C"
+        },
+        {
+          "label": "D",
+          "text": "40^\\circ C"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$T = \\frac{2(100) + 18(32)}{20} = \\frac{776}{20} = 38.8^\\circ\\text{C}$$"
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "In alloys A and B, the ratio of lead to tin is 5 : 3 and 3 : 1, respectively. 80 kg of alloy A and 100 kg of alloy B are mixed together to form a new alloy. What is the amount of tin (in kg) in the new alloy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "90"
+        },
+        {
+          "label": "B",
+          "text": "55"
+        },
+        {
+          "label": "C",
+          "text": "68"
+        },
+        {
+          "label": "D",
+          "text": "81.3"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Tin in A} = \\frac{3}{8} \\times 80 = 30\\text{ kg}, \\quad \\text{Tin in B} = \\frac{1}{4} \\times 100 = 25\\text{ kg}$$\n$$\\text{Total Tin} = 30 + 25 = 55\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CHSL 07/08/2023 (Shift-04)",
+      "questionText": "In two alloys, the ratio of aluminum and zinc are 5 : 6 and 3 : 5. If 242 kg of the first alloy and 144 kg of the second alloy are mixed, then ratio of aluminum and zinc in the new alloy will be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "76 : 117"
+        },
+        {
+          "label": "B",
+          "text": "82 : 111"
+        },
+        {
+          "label": "C",
+          "text": "93 : 100"
+        },
+        {
+          "label": "D",
+          "text": "68 : 125"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "From first alloy: $\\text{Al} = \\frac{5}{11} \\times 242 = 110$, $\\text{Zn} = 132$.\nFrom second alloy: $\\text{Al} = \\frac{3}{8} \\times 144 = 54$, $\\text{Zn} = 90$.\n$$\\text{Total Al} = 164, \\quad \\text{Total Zn} = 222$$\n$$\\text{Ratio} = 164 : 222 = 82 : 111$$"
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "One cup has juice and water in the ratio 5 : 2, while another cup of the same capacity has them in the ratio 7 : 4, respectively. If contents of both the cups (when full) are poured in a vessel, then what will be the final ratio of water to juice in the vessel?",
+      "options": [
+        {
+          "label": "A",
+          "text": "52 : 25"
+        },
+        {
+          "label": "B",
+          "text": "25 : 26"
+        },
+        {
+          "label": "C",
+          "text": "26 : 25"
+        },
+        {
+          "label": "D",
+          "text": "25 : 52"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Equal capacity (LCM of 7 and 11 is 77):\nCup 1: Juice $= 55$, Water $= 22$.\nCup 2: Juice $= 49$, Water $= 28$.\n$$\\text{Total Water} = 22 + 28 = 50, \\quad \\text{Total Juice} = 55 + 49 = 104$$\n$$\\text{Ratio (Water : Juice)} = 50 : 104 = 25 : 52$$"
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CHSL 21/03/2023 (Shift-04)",
+      "questionText": "Two vessels of equal capacity contain juice and water in the ratio of 3 : 5 and 3 : 1 respectively. The mixture of both the vessels are mixed and transferred into a bigger vessel. What is the ratio of juice and water in the new mixture?",
+      "options": [
+        {
+          "label": "A",
+          "text": "13 : 9"
+        },
+        {
+          "label": "B",
+          "text": "9 : 7"
+        },
+        {
+          "label": "C",
+          "text": "8 : 9"
+        },
+        {
+          "label": "D",
+          "text": "7 : 3"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Equal capacity of 8 units:\nVessel 1: Juice $= 3$, Water $= 5$.\nVessel 2: Juice $= 6$, Water $= 2$.\n$$\\text{Total Juice} = 9, \\quad \\text{Total Water} = 7$$\n$$\\text{Ratio} = 9 : 7$$"
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "Two containers of equal capacity are full of mixture of milk and water. In the first, the ratio of milk to water is 3 : 7 and in the second it is 7 : 9. Now both the mixtures are mixed in a bigger container. What is the resulting ratio of milk to water?",
+      "options": [
+        {
+          "label": "A",
+          "text": "59 : 101"
+        },
+        {
+          "label": "B",
+          "text": "57 : 107"
+        },
+        {
+          "label": "C",
+          "text": "61 : 97"
+        },
+        {
+          "label": "D",
+          "text": "58 : 103"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Equal capacity (LCM of 10 and 16 is 80):\nContainer 1: Milk $= 24$, Water $= 56$.\nContainer 2: Milk $= 35$, Water $= 45$.\n$$\\text{Total Milk} = 59, \\quad \\text{Total Water} = 101$$\n$$\\text{Ratio} = 59 : 101$$"
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC MTS 06/09/2023 (Shift-02)",
+      "questionText": "Two containers of equal capacity are full of a mixture of milk and water. In the first container, the ratio of milk to water is 3 : 11 and in the second container the ratio is 9 : 11. If both the mixtures are mixed in a container, what is the resulting ratio of milk to water?",
+      "options": [
+        {
+          "label": "A",
+          "text": "93 : 187"
+        },
+        {
+          "label": "B",
+          "text": "21 : 87"
+        },
+        {
+          "label": "C",
+          "text": "93 : 179"
+        },
+        {
+          "label": "D",
+          "text": "87 : 197"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Equal capacity (LCM of 14 and 20 is 140):\nContainer 1: Milk $= 30$, Water $= 110$.\nContainer 2: Milk $= 63$, Water $= 77$.\n$$\\text{Total Milk} = 93, \\quad \\text{Total Water} = 187$$\n$$\\text{Ratio} = 93 : 187$$"
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CPO 04/10/2023 (Shift-03)",
+      "questionText": "The compositions of two mixtures A and B are as follows: The ratio of copper and tin in mixture A is 1 : 2. The ratio of copper and tin in mixture B is 1 : 3. If mixture C is made by using equal quantities of mixture A and B, then find the ratio of copper and tin in mixture C.",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 5"
+        },
+        {
+          "label": "B",
+          "text": "7 : 17"
+        },
+        {
+          "label": "C",
+          "text": "7 : 12"
+        },
+        {
+          "label": "D",
+          "text": "1 : 5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Equal quantities (12 units each):\nA: Copper $= 4$, Tin $= 8$.\nB: Copper $= 3$, Tin $= 9$.\n$$\\text{Total Copper} = 7, \\quad \\text{Total Tin} = 17$$\n$$\\text{Ratio} = 7 : 17$$"
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "Alloy A contain metals x and y in the ratio 5 : 2 and alloy B contains these metals in the ratio 3 : 4. Alloy C is prepared by mixing A and B in the ratio 4 : 5. The percentage of y in alloy C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "44\\frac{4}{9}\\%"
+        },
+        {
+          "label": "B",
+          "text": "33\\frac{4}{9}\\%"
+        },
+        {
+          "label": "C",
+          "text": "66\\frac{4}{9}\\%"
+        },
+        {
+          "label": "D",
+          "text": "55\\frac{4}{9}\\%"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Metal y in C} = 4 \\times \\frac{2}{7} + 5 \\times \\frac{4}{7} = \\frac{28}{7} = 4$$\n$$\\text{Total alloy} = 4 + 5 = 9$$\n$$\\text{Percentage of y} = \\frac{4}{9} \\times 100\\% = 44\\frac{4}{9}\\%$$"
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "Two jars A and B are containing the solutions of two liquids P and Q. The ratio of the liquids P and Q in the jars A and B are 2 : 19 and 1 : 11, respectively. If 7 litres of the solution of jar A and 4 litres of the solution of jar B are mixed, what is the ratio of the solutions P and Q in the new mixture.",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 : 1"
+        },
+        {
+          "label": "B",
+          "text": "1 : 9"
+        },
+        {
+          "label": "C",
+          "text": "9 : 1"
+        },
+        {
+          "label": "D",
+          "text": "1 : 10"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{From A (7 L)}: P = 7 \\times \\frac{2}{21} = \\frac{2}{3}, \\quad Q = 7 \\times \\frac{19}{21} = \\frac{19}{3}$$\n$$\\text{From B (4 L)}: P = 4 \\times \\frac{1}{12} = \\frac{1}{3}, \\quad Q = 4 \\times \\frac{11}{12} = \\frac{11}{3}$$\n$$\\text{Total } P = 1, \\quad \\text{Total } Q = 10$$\n$$\\text{Ratio } P : Q = 1 : 10$$"
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL 23/09/2024 (Shift-02)",
+      "questionText": "A mango juice is made by mixing water and mango concentrate in the ratio 9 : 7. If x litres of water and 3x litres of mango concentrate is mixed in 160 litres of mango juice, then the new ratio becomes 13 : 14. What is the quantity of the new mango juice (in litres)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "197 litre"
+        },
+        {
+          "label": "B",
+          "text": "212 litre"
+        },
+        {
+          "label": "C",
+          "text": "206 litre"
+        },
+        {
+          "label": "D",
+          "text": "216 litre"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "In 160 L: Water $= 90\\text{ L}$, Concentrate $= 70\\text{ L}$.\n$$\\frac{90 + x}{70 + 3x} = \\frac{13}{14} \\implies 1260 + 14x = 910 + 39x \\implies 25x = 350 \\implies x = 14$$\n$$\\text{New quantity} = 160 + 4x = 160 + 56 = 216\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC Selection Post Phase-IX 2022",
+      "questionText": "In vessels X and Y, the ratio of acid and water are 3 : 7 and 1 : 3, respectively. The contents of X and Y are mixed in the ratio of 1 : 2 to get a solution in which acid and water are in the ratio a : b. What is the value of $\\frac{b+a}{b-a}$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{15}{7}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{11}{7}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{13}{7}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{12}{7}"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Take 20 units as base:\nIn X: Acid $= 6$, Water $= 14$.\nIn Y: Acid $= 5$, Water $= 15$.\nMixed in ratio $1 : 2$:\n$$a = 1(6) + 2(5) = 16, \\quad b = 1(14) + 2(15) = 44$$\n$$\\frac{b+a}{b-a} = \\frac{44 + 16}{44 - 16} = \\frac{60}{28} = \\frac{15}{7}$$"
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL TIER-II (18/01/2025)",
+      "questionText": "Vessel A contains milk and water in the ratio 4 : 5. Vessel B contains milk and water in the ratio 2 : 1. If x litres mixture of A is mixed with y litres mixture of B, then the ratio of milk to water in the mixture becomes 8 : 5. Find the ratio x : y.",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 10"
+        },
+        {
+          "label": "B",
+          "text": "5 : 6"
+        },
+        {
+          "label": "C",
+          "text": "2 : 5"
+        },
+        {
+          "label": "D",
+          "text": "3 : 4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Milk fraction in A is $\\frac{4}{9}$, in B is $\\frac{2}{3}$, and in mixture is $\\frac{8}{13}$.\nBy alligation:\n$$\\left(\\frac{2}{3} - \\frac{8}{13}\\right) : \\left(\\frac{8}{13} - \\frac{4}{9}\\right) = \\frac{2}{39} : \\frac{20}{117} = 6 : 20 = 3 : 10$$"
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC MTS 08/10/2021 (Shift-01)",
+      "questionText": "The ratio of copper and Zinc in alloy A is 5 : 7 and that in alloy B is 4 : 5. A and B are taken in the ratio of 1 : 2 and mixed to form a new alloy C. What part of C is copper?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{5}{12}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{61}{108}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{4}{9}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{47}{108}"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Copper in C} = \\frac{1 \\times \\frac{5}{12} + 2 \\times \\frac{4}{9}}{3} = \\frac{\\frac{15 + 32}{36}}{3} = \\frac{47}{108}$$"
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL TIER-II 15/11/2020",
+      "questionText": "A and B are solutions of acid and water. The ratios of water and acid in A and B are 4 : 5 and 1 : 2, respectively. If x litres of A is mixed with y litres of B, then the ratio of water and acid in the mixture becomes 8 : 13. What is x : y?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 : 6"
+        },
+        {
+          "label": "B",
+          "text": "2 : 5"
+        },
+        {
+          "label": "C",
+          "text": "3 : 4"
+        },
+        {
+          "label": "D",
+          "text": "2 : 3"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Water fraction in A is $\\frac{4}{9}$, in B is $\\frac{1}{3}$, and in mixture is $\\frac{8}{21}$.\nBy alligation:\n$$\\left(\\frac{8}{21} - \\frac{1}{3}\\right) : \\left(\\frac{4}{9} - \\frac{8}{21}\\right) = \\frac{1}{21} : \\frac{4}{63} = 3 : 4$$"
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "Selection post 27/06/2023 (Shift-03)",
+      "questionText": "If 36 liters of solution containing 20% milk is added to 48 liters of solution containing 10% milk, what will be the percentage of milk in the resulting solution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14.28%"
+        },
+        {
+          "label": "B",
+          "text": "15.48%"
+        },
+        {
+          "label": "C",
+          "text": "14.38%"
+        },
+        {
+          "label": "D",
+          "text": "13.36%"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total milk} = 36(0.20) + 48(0.10) = 7.2 + 4.8 = 12\\text{ L}$$\n$$\\text{Total mixture} = 84\\text{ L}$$\n$$\\text{Percentage} = \\frac{12}{84} \\times 100\\% = 14.28\\%$$"
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC MTS 15/06/2023 (Shift-01)",
+      "questionText": "One liquid contains 20% of acid the other liquid contain 30% of acid. A can is filled with 7 parts of the first liquid and 3 parts of the second liquid. The percentage of the acid in the new mixture is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "13%"
+        },
+        {
+          "label": "B",
+          "text": "30%"
+        },
+        {
+          "label": "C",
+          "text": "14%"
+        },
+        {
+          "label": "D",
+          "text": "23%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Percentage} = \\frac{7(20) + 3(30)}{10} = 23\\%$$"
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL Tier-II 12/09/2019",
+      "questionText": "40 litres of 60% concentration of acid solution is added to 35 litres of 80% concentration of acid solution. What is the concentration of acid in the new solution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "66%"
+        },
+        {
+          "label": "B",
+          "text": "66\\frac{2}{3}\\%"
+        },
+        {
+          "label": "C",
+          "text": "69\\frac{1}{3}\\%"
+        },
+        {
+          "label": "D",
+          "text": "69%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Concentration} = \\frac{40(60) + 35(80)}{75} = \\frac{5200}{75} = 69\\frac{1}{3}\\%$$"
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC Selection Post Phase-IX 2022",
+      "questionText": "Three bottles of the same capacity are 30%, 40% and 25% full of orange juice, respectively. They are filled up completely by adding apple juice. The contents of the three bottles are emptied into another vessel. What is the percentage of apple juice in the mixture?",
+      "options": [
+        {
+          "label": "A",
+          "text": "65%"
+        },
+        {
+          "label": "B",
+          "text": "68\\frac{1}{3}\\%"
+        },
+        {
+          "label": "C",
+          "text": "51\\frac{2}{3}\\%"
+        },
+        {
+          "label": "D",
+          "text": "72%"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Apple juice in the three bottles: $70\\%, 60\\%, 75\\%$.\n$$\\text{Average} = \\frac{70 + 60 + 75}{3} = 68\\frac{1}{3}\\%$$"
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "Alloy A contains metals x and y only in the ratio 5 : 2, while alloy B contains them in the ratio 3 : 4. Alloy C is prepared by mixing alloys A and B in the ratio 4 : 5. The percentage of x in alloy C is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "55\\frac{2}{9}\\%"
+        },
+        {
+          "label": "B",
+          "text": "55\\frac{1}{9}\\%"
+        },
+        {
+          "label": "C",
+          "text": "55\\frac{4}{9}\\%"
+        },
+        {
+          "label": "D",
+          "text": "55\\frac{5}{9}\\%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Metal x in C} = 4 \\times \\frac{5}{7} + 5 \\times \\frac{3}{7} = \\frac{35}{7} = 5$$\n$$\\text{Percentage of x} = \\frac{5}{9} \\times 100\\% = 55\\frac{5}{9}\\%$$"
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CGL TIER-II 12/09/2019",
+      "questionText": "Alloy A contains copper and zinc in the ratio of 4 : 3 and alloy B contains copper and zinc in the ratio of 5 : 2. A and B are taken in the ratio of 5 : 6 and melted to form a new alloy. The percentage of zinc in the new alloy is closest to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "54"
+        },
+        {
+          "label": "B",
+          "text": "34.2"
+        },
+        {
+          "label": "C",
+          "text": "36.8"
+        },
+        {
+          "label": "D",
+          "text": "35"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Zinc in new alloy} = 5 \\times \\frac{3}{7} + 6 \\times \\frac{2}{7} = \\frac{27}{7}$$\n$$\\text{Percentage of zinc} = \\frac{27/7}{11} \\times 100\\% = \\frac{2700}{77} \\approx 35.06\\% \\approx 35\\%$$"
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - III: MIXING DIFFERENT MIXTURES TO FORM A SINGLE MIXTURE",
+      "examShift": "SSC CPO 29/06/2024 (Shift-03)",
+      "questionText": "An alloy contains the metals A, B and C in the ratio 2 : 3 : 1 and another contains the metals B, C and D in the ratio 5 : 4 : 3. If equal weights of both alloys are mixed together to form a third alloy, then how much part of the metal B is in new alloy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{1}{8}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{1}{6}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{3}{24}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{11}{24}"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Fraction of B} = \\frac{\\frac{3}{6} + \\frac{5}{12}}{2} = \\frac{\\frac{11}{12}}{2} = \\frac{11}{24}$$"
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC MTS 10/05/2023 (Shift-02)",
+      "questionText": "There are three cups of mixture of milk and water in ratio 4 : 5, 5 : 6, 9 : 7. 36 liters of first and 44 liters of second cup are taken. How much quantity from third cup is to be taken so that final mixture from the three cups will have milk and water in ratio 1 : 1?",
+      "options": [
+        {
+          "label": "A",
+          "text": "32 litres"
+        },
+        {
+          "label": "B",
+          "text": "64 litres"
+        },
+        {
+          "label": "C",
+          "text": "54 litres"
+        },
+        {
+          "label": "D",
+          "text": "60 litres"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Cup 1: Milk $= 16\\text{ L}$, Water $= 20\\text{ L}$.\nCup 2: Milk $= 20\\text{ L}$, Water $= 24\\text{ L}$.\nTotal: Milk $= 36\\text{ L}$, Water $= 44\\text{ L}$ (water excess $= 8\\text{ L}$).\nIn Cup 3, milk excess is $\\frac{9 - 7}{16} = \\frac{1}{8}$ of its volume:\n$$\\frac{1}{8} X = 8 \\implies X = 64\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC MTS 05/09/2023 (Shift-01)",
+      "questionText": "If two varieties of a grain worth ₹202 per kg and ₹250 per kg, respectively, are mixed in the ratio of 7 : 5, then what is the cost (in ₹) of the resulting mixture per kg?",
+      "options": [
+        {
+          "label": "A",
+          "text": "218"
+        },
+        {
+          "label": "B",
+          "text": "220"
+        },
+        {
+          "label": "C",
+          "text": "222"
+        },
+        {
+          "label": "D",
+          "text": "225"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Cost} = \\frac{7(202) + 5(250)}{12} = \\frac{2664}{12} = 222\\text{ ₹/kg}$$"
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC CGL 24/09/2024 (Shift-02)",
+      "questionText": "A man buys 10 kg of wheat at a rate of Rs.26/kg. The wheat is mixed with 6 kg of other good quality of wheat to get a mixture at a price of Rs.35/kg. The price of good quality wheat per kg (in Rs.) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "38"
+        },
+        {
+          "label": "B",
+          "text": "42"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "46"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\frac{10(26) + 6x}{16} = 35 \\implies 260 + 6x = 560 \\implies 6x = 300 \\implies x = 50\\text{ Rs/kg}$$"
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC CGL 26/09/2024 (Shift-03)",
+      "questionText": "How much rice of Rs.4/kg should be mixed to 15 kg of rice of Rs.10/kg, so as to make a mixture worth Rs.6.50/kg?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 kg"
+        },
+        {
+          "label": "B",
+          "text": "21 kg"
+        },
+        {
+          "label": "C",
+          "text": "30 kg"
+        },
+        {
+          "label": "D",
+          "text": "40 kg"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "By alligation: $(10 - 6.5) : (6.5 - 4) = 3.5 : 2.5 = 7 : 5$.\n$$5\\text{ parts} = 15\\text{ kg} \\implies 7\\text{ parts} = 21\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "In what ratio must a grocer mix two varieties of pulses costing ₹60 and ₹75 per kg, respectively, so as to get a mixture worth ₹65 per kg?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 4"
+        },
+        {
+          "label": "B",
+          "text": "1 : 2"
+        },
+        {
+          "label": "C",
+          "text": "2 : 3"
+        },
+        {
+          "label": "D",
+          "text": "2 : 1"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Ratio} = (75 - 65) : (65 - 60) = 10 : 5 = 2 : 1$$"
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC CHSL 24/05/2022 (Shift-03)",
+      "questionText": "5 kg of ₹18 per kg wheat is mixed with 2 kg of another type of wheat to get a mixture costing ₹20 per kg. Find the price (per kg) of the costlier wheat.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹27"
+        },
+        {
+          "label": "B",
+          "text": "₹25"
+        },
+        {
+          "label": "C",
+          "text": "₹29"
+        },
+        {
+          "label": "D",
+          "text": "₹30"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{5(18) + 2x}{7} = 20 \\implies 90 + 2x = 140 \\implies 2x = 50 \\implies x = ₹25$$"
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC CGL 21/07/2023 (Shift-02)",
+      "questionText": "Rice worth ₹126 per kg and ₹135 kg are mixed with a third variety in the ratio of 1 : 1 : 2. If the mixture is worth ₹153 per kg, then price of the third variety per kg (in ₹)",
+      "options": [
+        {
+          "label": "A",
+          "text": "182.5"
+        },
+        {
+          "label": "B",
+          "text": "195.5"
+        },
+        {
+          "label": "C",
+          "text": "175.5"
+        },
+        {
+          "label": "D",
+          "text": "133.5"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\frac{1(126) + 1(135) + 2x}{4} = 153 \\implies 261 + 2x = 612 \\implies 2x = 351 \\implies x = 175.5\\text{ ₹/kg}$$"
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC CGL 08/12/2022 (Shift-01)",
+      "questionText": "A 100 ml solution of $\\text{H}_2\\text{SO}_4$ having concentration of 20% is mixed with a 50% concentrated x ml mixture such that the net mixture is 30% concentrated. Determine x.",
+      "options": [
+        {
+          "label": "A",
+          "text": "70 ml"
+        },
+        {
+          "label": "B",
+          "text": "80 ml"
+        },
+        {
+          "label": "C",
+          "text": "60 ml"
+        },
+        {
+          "label": "D",
+          "text": "50 ml"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "By alligation: $(50 - 30) : (30 - 20) = 20 : 10 = 2 : 1$.\n$$2\\text{ parts} = 100\\text{ ml} \\implies 1\\text{ part} = 50\\text{ ml}$$"
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC CGL 20/04/2022 (Shift-01)",
+      "questionText": "80% and 90% pure acid solutions are mixed to obtain 20 litres of 87% pure acid solution. Find the quantity (in litres) of 80% pure acid solution taken to form the mixture.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "By alligation: $(90 - 87) : (87 - 80) = 3 : 7$.\n$$\\text{Quantity of 80% acid} = \\frac{3}{10} \\times 20 = 6\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "A person mixes two liquids, x and y. One litre of x weighs approximately 900g, and one litre of y weighs approximately 750 g. If one litre of the mixture weighs approximately 800g, then the percentage of x in the mixture is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "33\\frac{1}{3}\\%"
+        },
+        {
+          "label": "B",
+          "text": "27\\frac{1}{2}\\%"
+        },
+        {
+          "label": "C",
+          "text": "30%"
+        },
+        {
+          "label": "D",
+          "text": "50%"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Ratio } x : y = (800 - 750) : (900 - 800) = 50 : 100 = 1 : 2$$\n$$\\text{Percentage of x} = \\frac{1}{3} \\times 100\\% = 33\\frac{1}{3}\\%$$"
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC MTS 07/07/2022 (Shift-01)",
+      "questionText": "A solution of 45% alcohol is mixed with a solution of 60% alcohol in the ratio of 2 : 3. In what ratio should the resultant solution be mixed with a 72% alcohol solution to get a 66% alcohol solution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 7"
+        },
+        {
+          "label": "B",
+          "text": "1 : 3"
+        },
+        {
+          "label": "C",
+          "text": "1 : 2"
+        },
+        {
+          "label": "D",
+          "text": "2 : 3"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "First solution concentration $= \\frac{2(45) + 3(60)}{5} = 54\\%$.\nMix 54% and 72% to get 66%:\n$$\\text{Ratio} = (72 - 66) : (66 - 54) = 6 : 12 = 1 : 2$$"
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - IV: BASED ON ALLIGATION",
+      "examShift": "SSC Phase-XII 20/06/2024 (Shift-01)",
+      "questionText": "A chemistry laboratory requests for a 25% solution of ferrous sulphate. A supplier has 40 millilitres of 20% solution. How many millilitres of 40% solution should be added to make it a 25% solution (correct to two decimal places)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14.30"
+        },
+        {
+          "label": "B",
+          "text": "15.20"
+        },
+        {
+          "label": "C",
+          "text": "16.40"
+        },
+        {
+          "label": "D",
+          "text": "13.33"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "By alligation: $(40 - 25) : (25 - 20) = 15 : 5 = 3 : 1$.\n$$3\\text{ parts} = 40\\text{ ml} \\implies 1\\text{ part} = \\frac{40}{3} \\approx 13.33\\text{ ml}$$"
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC MTS 04/09/2023 (Shift-02)",
+      "questionText": "A grocer purchased 50 kg of sugar at ₹40 per kg and mixed with 70 kg of sugar at ₹30 per kg. At what rate should he sell the mixture (per kg) to gain 20%?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹41"
+        },
+        {
+          "label": "B",
+          "text": "₹35"
+        },
+        {
+          "label": "C",
+          "text": "₹20"
+        },
+        {
+          "label": "D",
+          "text": "₹60"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{CP} = \\frac{50(40) + 70(30)}{120} = \\frac{4100}{120} = \\frac{205}{6}\\text{ ₹/kg}$$\n$$\\text{SP} = \\frac{205}{6} \\times 1.20 = ₹41/\\text{kg}$$"
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC CGL Tier-II 16/11/2020",
+      "questionText": "In what ratio should sugar costing ₹40 per kg be mixed with sugar costing ₹48 per kg, so as to earn a profit of 20% by selling the mixture at ₹54 per kg?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 5"
+        },
+        {
+          "label": "B",
+          "text": "4 : 7"
+        },
+        {
+          "label": "C",
+          "text": "2 : 3"
+        },
+        {
+          "label": "D",
+          "text": "5 : 8"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{CP of mixture} = \\frac{54}{1.20} = ₹45/\\text{kg}$$\n$$\\text{Ratio} = (48 - 45) : (45 - 40) = 3 : 5$$"
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC CGL 24/09/2024 (Shift-01)",
+      "questionText": "In what ratio, sugar costing Rs.78 per kg be mixed with sugar costing Rs.46 per kg such that by selling the mixture at Rs.75 per kg there is a gain of 20%?",
+      "options": [
+        {
+          "label": "A",
+          "text": "33 : 37"
+        },
+        {
+          "label": "B",
+          "text": "31 : 29"
+        },
+        {
+          "label": "C",
+          "text": "37 : 31"
+        },
+        {
+          "label": "D",
+          "text": "33 : 31"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{CP of mixture} = \\frac{75}{1.20} = 62.5\\text{ Rs/kg}$$\n$$\\text{Ratio} = (62.5 - 46) : (78 - 62.5) = 16.5 : 15.5 = 33 : 31$$"
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "In what proportion must tea worth Rs.27 and Rs.31 per kg be mixed so as to gain 25% by selling the mixture at Rs.36 per kg?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 7"
+        },
+        {
+          "label": "B",
+          "text": "2 : 11"
+        },
+        {
+          "label": "C",
+          "text": "11 : 9"
+        },
+        {
+          "label": "D",
+          "text": "9 : 11"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{CP of mixture} = \\frac{36}{1.25} = 28.8\\text{ Rs/kg}$$\n$$\\text{Ratio} = (31 - 28.8) : (28.8 - 27) = 2.2 : 1.8 = 11 : 9$$"
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC MTS 01/09/2023 (Shift-03)",
+      "questionText": "How many kilograms of sugar at ₹3.80 per kg must be mixed with 60 kg of sugar at ₹4.60 per kg, so that by selling the mixture at ₹5.20 per kg there may be a gain of 30%?",
+      "options": [
+        {
+          "label": "A",
+          "text": "120 kg"
+        },
+        {
+          "label": "B",
+          "text": "160 kg"
+        },
+        {
+          "label": "C",
+          "text": "170 kg"
+        },
+        {
+          "label": "D",
+          "text": "180 kg"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{CP of mixture} = \\frac{5.20}{1.30} = ₹4.00/\\text{kg}$$\n$$\\text{Ratio} = (4.60 - 4.00) : (4.00 - 3.80) = 0.60 : 0.20 = 3 : 1$$\n$$1\\text{ part} = 60\\text{ kg} \\implies 3\\text{ parts} = 180\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC MTS 11/09/2023 (Shift-02)",
+      "questionText": "A milk vendor mixes water with milk and by selling the mixture at the cost price he gains $16\\frac{1}{4}\\%$. Find the ratio of milk to water in the mixture.",
+      "options": [
+        {
+          "label": "A",
+          "text": "13 : 80"
+        },
+        {
+          "label": "B",
+          "text": "80 : 13"
+        },
+        {
+          "label": "C",
+          "text": "40 : 7"
+        },
+        {
+          "label": "D",
+          "text": "7 : 40"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Gain} = 16.25\\% = \\frac{65}{400} = \\frac{13}{80} = \\frac{\\text{Water}}{\\text{Milk}}$$\n$$\\text{Milk : Water} = 80 : 13$$"
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC CGL 27/07/2023 (Shift-01)",
+      "questionText": "Rini has mixed two colours '$\\text{C}_1$' and '$\\text{C}_2$' in the ratio 2 : 3. If the rate of the colour '$\\text{C}_1$' is ₹500 per unit and she is selling the mixture of the two colours at ₹650 per unit at breakeven price, then what is the rate (in ₹) per unit of the second colour, that is, '$\\text{C}_2$'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "750"
+        },
+        {
+          "label": "B",
+          "text": "725"
+        },
+        {
+          "label": "C",
+          "text": "760"
+        },
+        {
+          "label": "D",
+          "text": "765"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\frac{2(500) + 3(C_2)}{5} = 650 \\implies 1000 + 3C_2 = 3250 \\implies 3C_2 = 2250 \\implies C_2 = ₹750$$"
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "Selection post 27/06/2023 (Shift-02)",
+      "questionText": "A businessman bought two types of rice at the rate of ₹120/kg and ₹220/kg. How much rice (in kg) of the first type should be mixed with 72 kg of rice of the second type so that the resulting mixture can be sold at ₹280/kg to earn a profit of 40%?",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "22"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{CP of mixture} = \\frac{280}{1.40} = ₹200/\\text{kg}$$\n$$\\text{Ratio} = (220 - 200) : (200 - 120) = 20 : 80 = 1 : 4$$\n$$4\\text{ parts} = 72\\text{ kg} \\implies 1\\text{ part} = 18\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC CHSL 13/03/2023 (Shift-02)",
+      "questionText": "A milk merchant buys 30 litres of milk at the rate of ₹50 per litre and mixes 20 litres of water in it (water is free of cost). If he sells this mixture at the rate of ₹48 per litre, then what is the profit percentage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50%"
+        },
+        {
+          "label": "B",
+          "text": "60%"
+        },
+        {
+          "label": "C",
+          "text": "40%"
+        },
+        {
+          "label": "D",
+          "text": "66.66%"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{CP} = 30 \\times 50 = ₹1500$$\n$$\\text{SP} = (30 + 20) \\times 48 = ₹2400$$\n$$\\text{Profit \\%} = \\frac{2400 - 1500}{1500} \\times 100\\% = 60\\%$$"
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "TYPE - V: BASED ON PROFIT/LOSS",
+      "examShift": "SSC CGL TIER-II 07/03/2023",
+      "questionText": "How many kilogram of rice costing ₹60 per kg. must be mixed with 24 kg. of rice costing ₹42 per kg. so that there may be a gain of 12% by selling the mixture at ₹56 per kg.?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22 kg."
+        },
+        {
+          "label": "B",
+          "text": "20 kg."
+        },
+        {
+          "label": "C",
+          "text": "19.2 kg."
+        },
+        {
+          "label": "D",
+          "text": "21.2 kg."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{CP of mixture} = \\frac{56}{1.12} = ₹50/\\text{kg}$$\n$$\\text{Ratio} = (50 - 42) : (60 - 50) = 8 : 10 = 4 : 5$$\n$$5\\text{ parts} = 24\\text{ kg} \\implies 4\\text{ parts} = 4 \\times 4.8 = 19.2\\text{ kg}$$"
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "The concentrations of three acids, A, B, and C, are specified as 20%, 30%, and 40%, respectively. They are blended in a ratio of 3 : 5 : a, yielding a solution with a concentration of 30%. What is the value of 'a'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\frac{3(20) + 5(30) + a(40)}{3 + 5 + a} = 30 \\implies 210 + 40a = 240 + 30a \\implies 10a = 30 \\implies a = 3$$"
+    },
+    {
+      "questionNumber": 85,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II 26/10/2023",
+      "questionText": "80 litres of a mixture of spirit and water in the ratio 7 : 9 is present in a container A. 20 litres of the mixture is transferred to another container B. Then the container A is filled with 20 litres of water. Then 32 litres of the mixture is again transferred to container B. The ratio of water to spirit of the mixture in container B is equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "87 : 41"
+        },
+        {
+          "label": "B",
+          "text": "131 : 77"
+        },
+        {
+          "label": "C",
+          "text": "77 : 131"
+        },
+        {
+          "label": "D",
+          "text": "41 : 87"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "First transfer to B (20 L): Spirit $= 8.75$, Water $= 11.25$.\nIn A after adding 20 L water: Spirit $= 26.25$, Water $= 53.75$ (total 80 L).\nSecond transfer to B (32 L): Spirit $= 32 \\times \\frac{26.25}{80} = 10.5$, Water $= 32 \\times \\frac{53.75}{80} = 21.5$.\n$$\\text{Total in B: Spirit} = 8.75 + 10.5 = 19.25, \\quad \\text{Water} = 11.25 + 21.5 = 32.75$$\n$$\\text{Ratio (Water : Spirit)} = 32.75 : 19.25 = 131 : 77$$"
+    },
+    {
+      "questionNumber": 86,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 13/09/2023 (Shift-01)",
+      "questionText": "A milk vendor has 2 vessels of milk and water. The first contains 80% milk and the rest is water. The second contains 50% milk. How much mixture (in L) should he mix from each of the vessels so as to get 9 litres of mixture such that the ratio of water to milk is 1 : 2? (Write your answer in the order of vessel 1 and vessel 2)",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 5"
+        },
+        {
+          "label": "B",
+          "text": "6 : 3"
+        },
+        {
+          "label": "C",
+          "text": "5 : 4"
+        },
+        {
+          "label": "D",
+          "text": "3 : 6"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Resulting milk concentration $= \\frac{2}{3} = 66\\frac{2}{3}\\%$.\nBy alligation: $(66\\frac{2}{3} - 50) : (80 - 66\\frac{2}{3}) = 50 : 40 = 5 : 4$.\nTotal is 9 L, so 5 L of vessel 1 and 4 L of vessel 2."
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-03)",
+      "questionText": "In an experiment, it was observed that metal A is 19 times heavier than water and metal B is 9 times heavier than water. In what ratio metal A and B mixed so that the mixture thus obtained be 15 times heavier than water?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "1 : 3"
+        },
+        {
+          "label": "C",
+          "text": "3 : 1"
+        },
+        {
+          "label": "D",
+          "text": "3 : 2"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Ratio} = (15 - 9) : (19 - 15) = 6 : 4 = 3 : 2$$"
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 13/12/2022 (Shift-04)",
+      "questionText": "P and Q are two alloys of aluminum and copper. The ratios of aluminum and copper in P and Q are 5 : 11 and 3 : 5, respectively. If a third alloy is formed by mixing alloys P and Q in the ratio of 1 : 3, then aluminum is what percentage (rounded off to the nearest integer) of the copper in the third alloy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "63%"
+        },
+        {
+          "label": "B",
+          "text": "52%"
+        },
+        {
+          "label": "C",
+          "text": "48%"
+        },
+        {
+          "label": "D",
+          "text": "56%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Al} = 1 \\times \\frac{5}{16} + 3 \\times \\frac{6}{16} = \\frac{23}{16}$$\n$$\\text{Cu} = 1 \\times \\frac{11}{16} + 3 \\times \\frac{10}{16} = \\frac{41}{16}$$\n$$\\text{Percentage} = \\frac{23}{41} \\times 100\\% \\approx 56.09\\% \\approx 56\\%$$"
+    },
+    {
+      "questionNumber": 89,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "Pomegranate juice contains 10% sugar solution and orange juice contains 30% sugar solution. What is the percentage of sugar solution in a mixture of two litres of pomegranate juice and three litres of orange juice?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22%"
+        },
+        {
+          "label": "B",
+          "text": "25%"
+        },
+        {
+          "label": "C",
+          "text": "20%"
+        },
+        {
+          "label": "D",
+          "text": "40%"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Percentage} = \\frac{2(10) + 3(30)}{5} = \\frac{110}{5} = 22\\%$$"
+    },
+    {
+      "questionNumber": 90,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-04)",
+      "questionText": "There are 160 multiple choice questions in a test. 4 marks are allotted for correct answer and 1 mark is deducted for a wrong answer or un-attempted question from the total score of correct answers. If a candidate scored 400 marks in the test, how many question did he answer correctly ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "110"
+        },
+        {
+          "label": "B",
+          "text": "115"
+        },
+        {
+          "label": "C",
+          "text": "112"
+        },
+        {
+          "label": "D",
+          "text": "120"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$4C - 1(160 - C) = 400 \\implies 5C = 560 \\implies C = 112$$"
+    },
+    {
+      "questionNumber": 91,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II 03/03/2023",
+      "questionText": "The cost of 3 kg of rice is ₹180. The cost of 8 kg of rice is equal to that of 5 kg of pulse. The cost of 15 kg of pulses is equal to that of 2 kg of tea. The cost of 3 kg of tea is equal to that of 6 kg of walnuts. What is the cost (in ₹) of 10 kg of walnuts?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2400"
+        },
+        {
+          "label": "B",
+          "text": "3200"
+        },
+        {
+          "label": "C",
+          "text": "2800"
+        },
+        {
+          "label": "D",
+          "text": "3600"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Rice $= ₹60/\\text{kg}$.\nPulses $= \\frac{8 \\times 60}{5} = ₹96/\\text{kg}$.\nTea $= \\frac{15 \\times 96}{2} = ₹720/\\text{kg}$.\nWalnuts $= \\frac{3 \\times 720}{6} = ₹360/\\text{kg}$.\n$$\\text{Cost of 10 kg walnuts} = 10 \\times 360 = ₹3600$$"
+    },
+    {
+      "questionNumber": 92,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-03)",
+      "questionText": "Two mixtures A and B have the following compositions: Mixture A has copper and tin in a ratio of 1 : 2. Mixture B has copper and tin in a ratio of 1 : 3. If equal quantities of mixtures A and B are used for producing mixture C then find the ratio of copper and tin in mixture C.",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 5"
+        },
+        {
+          "label": "B",
+          "text": "7 : 17"
+        },
+        {
+          "label": "C",
+          "text": "7 : 12"
+        },
+        {
+          "label": "D",
+          "text": "1 : 5"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Equal quantities (12 units each):\nA: Copper $= 4$, Tin $= 8$.\nB: Copper $= 3$, Tin $= 9$.\n$$\\text{Total Copper} = 7, \\quad \\text{Total Tin} = 17$$\n$$\\text{Ratio} = 7 : 17$$"
+    }
+  ]
+}

@@ -1,0 +1,3642 @@
+[
+  {
+    "questionNumber": 1,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+    "questionText": "John alone can do a piece of work in 20 days, while Ravi alone can do the same work in 28 days. If they work together, then in how many days can both of them complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12\\frac{2}{3}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$12\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$11\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$11\\frac{2}{3}\\text{ days}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 28) = 140\\text{ units}$$\n$$\\text{Efficiency of John} = \\frac{140}{20} = 7\\text{ units/day}$$\n$$\\text{Efficiency of Ravi} = \\frac{140}{28} = 5\\text{ units/day}$$\n$$\\text{Combined efficiency} = 7 + 5 = 12\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{140}{12} = \\frac{35}{3} = 11\\frac{2}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 2,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC Phase XII 26/06/2024 (Shift-02)",
+    "questionText": "A completes a piece of work in 4 days and B completes it in 6 days. How long will it take to complete the same piece of work if they both work together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2\\frac{3}{5}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "3 days"
+      },
+      {
+        "label": "C",
+        "text": "$2\\frac{2}{5}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "4 days"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(4, 6) = 12\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{12}{4} = 3\\text{ units/day}$$\n$$\\text{Efficiency of B} = \\frac{12}{6} = 2\\text{ units/day}$$\n$$\\text{Combined efficiency} = 3 + 2 = 5\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{12}{5} = 2\\frac{2}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 3,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-02)",
+    "questionText": "Shobhita can complete a painting work in 20 hours while Saroj can complete the same work in 15 hours. In how much time (in hours) can the entire work of painting be completed, if both Shobhita and Saroj work simultaneously?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "$7\\frac{4}{7}$"
+      },
+      {
+        "label": "C",
+        "text": "$8\\frac{4}{7}$"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 15) = 60\\text{ units}$$\n$$\\text{Efficiency of Shobhita} = \\frac{60}{20} = 3\\text{ units/hour}$$\n$$\\text{Efficiency of Saroj} = \\frac{60}{15} = 4\\text{ units/hour}$$\n$$\\text{Combined efficiency} = 3 + 4 = 7\\text{ units/hour}$$\n$$\\text{Time required} = \\frac{60}{7} = 8\\frac{4}{7}\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 4,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-04)",
+    "questionText": "Akhil can complete a piece of work in 24 days. Shyam can complete the same piece of work in 12 days. If both of them work together, in how many days can they complete the same piece of work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 days"
+      },
+      {
+        "label": "B",
+        "text": "8 days"
+      },
+      {
+        "label": "C",
+        "text": "10 days"
+      },
+      {
+        "label": "D",
+        "text": "12 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(24, 12) = 24\\text{ units}$$\n$$\\text{Efficiency of Akhil} = \\frac{24}{24} = 1\\text{ unit/day}$$\n$$\\text{Efficiency of Shyam} = \\frac{24}{12} = 2\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{24}{1 + 2} = \\frac{24}{3} = 8\\text{ days}$$"
+  },
+  {
+    "questionNumber": 5,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-04)",
+    "questionText": "A can finish a piece of work by working alone in 4 days. B, while working alone, can finish the same work in 12 days. If both of them work together, then in how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(4, 12) = 12\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{12}{4} = 3\\text{ units/day}$$\n$$\\text{Efficiency of B} = \\frac{12}{12} = 1\\text{ unit/day}$$\n$$\\text{Time taken together} = \\frac{12}{3 + 1} = \\frac{12}{4} = 3\\text{ days}$$"
+  },
+  {
+    "questionNumber": 6,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+    "questionText": "A and B can do a piece of work in 9 days and 15 days, respectively. If they work together, then the work will be completed in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3\\frac{3}{8}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$2\\frac{1}{8}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$5\\frac{5}{8}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$4\\frac{5}{8}\\text{ days}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(9, 15) = 45\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{45}{9} = 5\\text{ units/day}$$\n$$\\text{Efficiency of B} = \\frac{45}{15} = 3\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{45}{5 + 3} = \\frac{45}{8} = 5\\frac{5}{8}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 7,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+    "questionText": "P completes a work in 12 days and Q in 24 days. In how many days P and Q working together can complete the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16 days"
+      },
+      {
+        "label": "B",
+        "text": "8 days"
+      },
+      {
+        "label": "C",
+        "text": "6 days"
+      },
+      {
+        "label": "D",
+        "text": "12 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 24) = 24\\text{ units}$$\n$$\\text{Efficiency of P} = \\frac{24}{12} = 2\\text{ units/day}$$\n$$\\text{Efficiency of Q} = \\frac{24}{24} = 1\\text{ unit/day}$$\n$$\\text{Time taken together} = \\frac{24}{2 + 1} = \\frac{24}{3} = 8\\text{ days}$$"
+  },
+  {
+    "questionNumber": 8,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+    "questionText": "A and B can do a work in 10 days and 40 days, respectively. How long will it take together to complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 days"
+      },
+      {
+        "label": "B",
+        "text": "8 days"
+      },
+      {
+        "label": "C",
+        "text": "20 days"
+      },
+      {
+        "label": "D",
+        "text": "15 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 40) = 40\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{40}{10} = 4\\text{ units/day}$$\n$$\\text{Efficiency of B} = \\frac{40}{40} = 1\\text{ unit/day}$$\n$$\\text{Time taken together} = \\frac{40}{4 + 1} = \\frac{40}{5} = 8\\text{ days}$$"
+  },
+  {
+    "questionNumber": 9,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC MTS 13/09/2023 (Shift-03)",
+    "questionText": "P can complete $\\frac{1}{5}$ of a work in 12 days and Q can complete $\\frac{1}{6}$ of a work in 8 days. In how many days can both P and Q together complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$26\\frac{2}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$25\\frac{4}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "$22\\frac{4}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "$24\\frac{2}{3}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Time taken by P alone} = 12 \\times 5 = 60\\text{ days}$$\n$$\\text{Time taken by Q alone} = 8 \\times 6 = 48\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(60, 48) = 240\\text{ units}$$\n$$\\text{Efficiency of P} = \\frac{240}{60} = 4,\\quad \\text{Efficiency of Q} = \\frac{240}{48} = 5$$\n$$\\text{Time taken together} = \\frac{240}{4 + 5} = \\frac{240}{9} = \\frac{80}{3} = 26\\frac{2}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 10,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CGL 25/07/2023 (Shift-02)",
+    "questionText": "A can complete $\\frac{1}{3}$ of a work in 7 days and B can complete $\\frac{2}{7}$ of the same work in 10 days. In how many days can both A and B together complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12\\frac{3}{8}$"
+      },
+      {
+        "label": "B",
+        "text": "$11\\frac{7}{8}$"
+      },
+      {
+        "label": "C",
+        "text": "$13\\frac{1}{8}$"
+      },
+      {
+        "label": "D",
+        "text": "$15\\frac{1}{7}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Time taken by A alone} = 7 \\times 3 = 21\\text{ days}$$\n$$\\text{Time taken by B alone} = 10 \\times \\frac{7}{2} = 35\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(21, 35) = 105\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{105}{21} = 5,\\quad \\text{Efficiency of B} = \\frac{105}{35} = 3$$\n$$\\text{Time taken together} = \\frac{105}{5 + 3} = \\frac{105}{8} = 13\\frac{1}{8}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 11,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CGL TIER-II (08/08/2022)",
+    "questionText": "A can do 1/4 part of a work in 9 days. B can do 2/3 part of the same work in 28 days. Working together, in how many days can A and B complete the whole work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{261}{15}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{198}{17}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{252}{13}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{262}{11}\\text{ days}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Time taken by A alone} = 9 \\times 4 = 36\\text{ days}$$\n$$\\text{Time taken by B alone} = 28 \\times \\frac{3}{2} = 42\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(36, 42) = 252\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{252}{36} = 7,\\quad \\text{Efficiency of B} = \\frac{252}{42} = 6$$\n$$\\text{Time taken together} = \\frac{252}{7 + 6} = \\frac{252}{13}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 12,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 03/08/2023 (Shift-04)",
+    "questionText": "Disha takes 12 hours to copy a 75-page manuscript, while Mohit can copy the same manuscript in 10 hours. How many hours will it take to copy a 150-page manuscript if they work together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9\\frac{9}{11}\\text{ hours}$"
+      },
+      {
+        "label": "B",
+        "text": "$10\\frac{10}{11}\\text{ hours}$"
+      },
+      {
+        "label": "C",
+        "text": "$8\\frac{9}{11}\\text{ hours}$"
+      },
+      {
+        "label": "D",
+        "text": "$11\\frac{8}{11}\\text{ hours}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Rate of Disha} = \\frac{75}{12} = \\frac{25}{4}\\text{ pages/hour}$$\n$$\\text{Rate of Mohit} = \\frac{75}{10} = \\frac{15}{2} = \\frac{30}{4}\\text{ pages/hour}$$\n$$\\text{Combined typing rate} = \\frac{25}{4} + \\frac{30}{4} = \\frac{55}{4}\\text{ pages/hour}$$\n$$\\text{Time taken for 150 pages} = \\frac{150}{\\frac{55}{4}} = \\frac{600}{55} = \\frac{120}{11} = 10\\frac{10}{11}\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 13,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 14/08/2023 (Shift-01)",
+    "questionText": "Jason can do a piece of work alone in 23.4 days, while Refigure can do the same piece of work alone in 39 days. In how many days can the duo complete the same if they work together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "14.750"
+      },
+      {
+        "label": "B",
+        "text": "14.625"
+      },
+      {
+        "label": "C",
+        "text": "14.875"
+      },
+      {
+        "label": "D",
+        "text": "14.375"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Time taken together} = \\frac{x \\times y}{x + y} = \\frac{23.4 \\times 39}{23.4 + 39} = \\frac{912.6}{62.4} = 14.625\\text{ days}$$"
+  },
+  {
+    "questionNumber": 14,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CGL 17/07/2023 (Shift-04)",
+    "questionText": "A can do 20% of a job in 7 days and B can do 25% of the job in 7 days if they worked alone. How much of the job (in percentage) can they complete in 7 days if they worked together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "38%"
+      },
+      {
+        "label": "B",
+        "text": "52%"
+      },
+      {
+        "label": "C",
+        "text": "56%"
+      },
+      {
+        "label": "D",
+        "text": "45%"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Work done by A in 7 days} = 20\\%$$\n$$\\text{Work done by B in 7 days} = 25\\%$$\n$$\\text{Work done together in 7 days} = 20\\% + 25\\% = 45\\%$$"
+  },
+  {
+    "questionNumber": 15,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 21/03/2023 (Shift-01)",
+    "questionText": "A can complete 3/8 part of a work in 36 days. B can complete 1/2 part of the same work in 27 days. Which of the following statement(s) is/are correct?\nI. A is less efficient than B.\nII. A and B working together can complete $\\frac{11}{15}$ part of the same work in 36 days.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither I nor II"
+      },
+      {
+        "label": "B",
+        "text": "Only I"
+      },
+      {
+        "label": "C",
+        "text": "Only II"
+      },
+      {
+        "label": "D",
+        "text": "Both I & II"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Time taken by A for complete work} = 36 \\times \\frac{8}{3} = 96\\text{ days}$$\n$$\\text{Time taken by B for complete work} = 27 \\times 2 = 54\\text{ days}$$\n$$\\text{Since A takes more days than B, A is less efficient than B (Statement I is correct).}$$\n$$\\text{Work done by both in 36 days} = 36 \\times \\left(\\frac{1}{96} + \\frac{1}{54}\\right) = 36 \\times \\frac{9 + 16}{864} = 36 \\times \\frac{25}{864} = \\frac{25}{24} \\neq \\frac{11}{15}$$\n$$\\text{Thus Statement II is incorrect. Hence, Only I is correct.}$$"
+  },
+  {
+    "questionNumber": 16,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CPO 24/11/2020 (Shift-01)",
+    "questionText": "A and B can do a piece of work in 25 days. B alone can do $66\\frac{2}{3}\\%$ of the same work in 30 days. In how many days can A alone do $\\frac{4}{15}$ part of the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Time taken by B alone for total work} = 30 \\times \\frac{3}{2} = 45\\text{ days}$$\n$$\\text{Time taken by (A + B) together} = 25\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(25, 45) = 225\\text{ units}$$\n$$\\text{Efficiency of (A + B)} = \\frac{225}{25} = 9,\\quad \\text{Efficiency of B} = \\frac{225}{45} = 5$$\n$$\\text{Efficiency of A} = 9 - 5 = 4\\text{ units/day}$$\n$$\\text{Work required} = \\frac{4}{15} \\times 225 = 60\\text{ units}$$\n$$\\text{Time taken by A} = \\frac{60}{4} = 15\\text{ days}$$\n$$\\text{[Note: Option (B) is designated as the official key per commission records.]}$$"
+  },
+  {
+    "questionNumber": 17,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC MTS 04/09/2023 (Shift-01)",
+    "questionText": "Julie and Rahul together can complete the work of painting a room in 12 days. If Julie alone can paint the room in 20 days, then in how many days can Rahul complete the same work of painting the room alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30"
+      },
+      {
+        "label": "B",
+        "text": "25"
+      },
+      {
+        "label": "C",
+        "text": "40"
+      },
+      {
+        "label": "D",
+        "text": "35"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 20) = 60\\text{ units}$$\n$$\\text{Efficiency of (Julie + Rahul)} = \\frac{60}{12} = 5\\text{ units/day}$$\n$$\\text{Efficiency of Julie} = \\frac{60}{20} = 3\\text{ units/day}$$\n$$\\text{Efficiency of Rahul} = 5 - 3 = 2\\text{ units/day}$$\n$$\\text{Time taken by Rahul alone} = \\frac{60}{2} = 30\\text{ days}$$"
+  },
+  {
+    "questionNumber": 18,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CGL 26/07/2023 (Shift-02)",
+    "questionText": "A can complete a piece of work alone in 120 days, while A and B, working together, can complete this piece of work in 72 days. In how many days can B, working alone, complete this piece of work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "180"
+      },
+      {
+        "label": "B",
+        "text": "200"
+      },
+      {
+        "label": "C",
+        "text": "160"
+      },
+      {
+        "label": "D",
+        "text": "216"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(120, 72) = 360\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{360}{120} = 3,\\quad \\text{Efficiency of (A + B)} = \\frac{360}{72} = 5$$\n$$\\text{Efficiency of B} = 5 - 3 = 2\\text{ units/day}$$\n$$\\text{Time taken by B alone} = \\frac{360}{2} = 180\\text{ days}$$"
+  },
+  {
+    "questionNumber": 19,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CGL 26/09/2024 (Shift-02)",
+    "questionText": "Varun and Raju, working together, can complete a job in 40 hours whereas Varun alone can complete the same job in 50 hours. The number of hours required by Raju to complete the job alone is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "200"
+      },
+      {
+        "label": "B",
+        "text": "150"
+      },
+      {
+        "label": "C",
+        "text": "170"
+      },
+      {
+        "label": "D",
+        "text": "190"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(40, 50) = 200\\text{ units}$$\n$$\\text{Efficiency of (Varun + Raju)} = \\frac{200}{40} = 5,\\quad \\text{Efficiency of Varun} = \\frac{200}{50} = 4$$\n$$\\text{Efficiency of Raju} = 5 - 4 = 1\\text{ unit/hour}$$\n$$\\text{Time taken by Raju alone} = \\frac{200}{1} = 200\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 20,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+    "questionText": "A and B, working together, take 15 days to complete a piece of work. If A alone can complete the job in 18 days, how long will B take to complete the same job?",
+    "options": [
+      {
+        "label": "A",
+        "text": "90 days"
+      },
+      {
+        "label": "B",
+        "text": "33 days"
+      },
+      {
+        "label": "C",
+        "text": "15 days"
+      },
+      {
+        "label": "D",
+        "text": "8 days"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 18) = 90\\text{ units}$$\n$$\\text{Efficiency of (A + B)} = \\frac{90}{15} = 6,\\quad \\text{Efficiency of A} = \\frac{90}{18} = 5$$\n$$\\text{Efficiency of B} = 6 - 5 = 1\\text{ unit/day}$$\n$$\\text{Time taken by B alone} = \\frac{90}{1} = 90\\text{ days}$$"
+  },
+  {
+    "questionNumber": 21,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+    "questionText": "Rohan takes 10 hours to mow a large lawn. Rohan and Mohan together can mow it in 4 hours. How long will Mohan take to mow the lawn if he works alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{16}{3}\\text{ hours}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{40}{3}\\text{ hours}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{10}{3}\\text{ hours}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{20}{3}\\text{ hours}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 4) = 20\\text{ units}$$\n$$\\text{Efficiency of Rohan} = \\frac{20}{10} = 2,\\quad \\text{Efficiency of (Rohan + Mohan)} = \\frac{20}{4} = 5$$\n$$\\text{Efficiency of Mohan} = 5 - 2 = 3\\text{ units/hour}$$\n$$\\text{Time taken by Mohan alone} = \\frac{20}{3}\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 22,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-01)",
+    "questionText": "Sapna finishes a job in 12 hours working alone. If Sapna and Riya finish the same job in 8 hours working together at their respective constant rates, then, in how many hours can Riya do the job working alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 8) = 24\\text{ units}$$\n$$\\text{Efficiency of Sapna} = \\frac{24}{12} = 2,\\quad \\text{Efficiency of (Sapna + Riya)} = \\frac{24}{8} = 3$$\n$$\\text{Efficiency of Riya} = 3 - 2 = 1\\text{ unit/hour}$$\n$$\\text{Time taken by Riya alone} = \\frac{24}{1} = 24\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 23,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-01)",
+    "questionText": "Antony and Julie can simultaneously complete a work of floor decoration in 15 days and Julie alone in 20 days. In how many days can Antony alone complete the work of floor decoration?",
+    "options": [
+      {
+        "label": "A",
+        "text": "55"
+      },
+      {
+        "label": "B",
+        "text": "60"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "50"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 20) = 60\\text{ units}$$\n$$\\text{Efficiency of (Antony + Julie)} = \\frac{60}{15} = 4,\\quad \\text{Efficiency of Julie} = \\frac{60}{20} = 3$$\n$$\\text{Efficiency of Antony} = 4 - 3 = 1\\text{ unit/day}$$\n$$\\text{Time taken by Antony alone} = \\frac{60}{1} = 60\\text{ days}$$"
+  },
+  {
+    "questionNumber": 24,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "A and B can do a piece of work in 8 days and B alone can do it in 16 days. In how many days can A do it alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24 days"
+      },
+      {
+        "label": "B",
+        "text": "16 days"
+      },
+      {
+        "label": "C",
+        "text": "18 days"
+      },
+      {
+        "label": "D",
+        "text": "10 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(8, 16) = 16\\text{ units}$$\n$$\\text{Efficiency of (A + B)} = \\frac{16}{8} = 2,\\quad \\text{Efficiency of B} = \\frac{16}{16} = 1$$\n$$\\text{Efficiency of A} = 2 - 1 = 1\\text{ unit/day}$$\n$$\\text{Time taken by A alone} = \\frac{16}{1} = 16\\text{ days}$$"
+  },
+  {
+    "questionNumber": 25,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CPO 29/06/2024 (Shift-03)",
+    "questionText": "Sumit and Rajiv, working together, can do a job in 20 hours whereas Sumit alone can do the same job in 25 hours. In how many hours can Rajiv alone do the job?",
+    "options": [
+      {
+        "label": "A",
+        "text": "70"
+      },
+      {
+        "label": "B",
+        "text": "90"
+      },
+      {
+        "label": "C",
+        "text": "80"
+      },
+      {
+        "label": "D",
+        "text": "100"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 25) = 100\\text{ units}$$\n$$\\text{Efficiency of (Sumit + Rajiv)} = \\frac{100}{20} = 5,\\quad \\text{Efficiency of Sumit} = \\frac{100}{25} = 4$$\n$$\\text{Efficiency of Rajiv} = 5 - 4 = 1\\text{ unit/hour}$$\n$$\\text{Time taken by Rajiv alone} = \\frac{100}{1} = 100\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 26,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+    "questionText": "Jeevan can do a piece of work alone in 42 days, while Rishi and Jeevan together can do the same piece of work in 27 days. How many days will Rishi take to complete the same piece of work alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$75\\frac{4}{5}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$75\\frac{1}{5}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$75\\frac{3}{5}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$74\\frac{3}{5}\\text{ days}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(42, 27) = 378\\text{ units}$$\n$$\\text{Efficiency of Jeevan} = \\frac{378}{42} = 9,\\quad \\text{Efficiency of (Rishi + Jeevan)} = \\frac{378}{27} = 14$$\n$$\\text{Efficiency of Rishi} = 14 - 9 = 5\\text{ units/day}$$\n$$\\text{Time taken by Rishi alone} = \\frac{378}{5} = 75\\frac{3}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 27,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CPO 09/11/2022 (Shift-02)",
+    "questionText": "A can do a piece of work in 10 days while A and B together can complete it in $2\\frac{1}{2}$ days. How long will B alone take to complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{3}{10}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{10}{3}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "3 days"
+      },
+      {
+        "label": "D",
+        "text": "4 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$2\\frac{1}{2}\\text{ days} = \\frac{5}{2}\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}\\left(10, \\frac{5}{2}\\right) = 10\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{10}{10} = 1,\\quad \\text{Efficiency of (A + B)} = \\frac{10}{5/2} = 4$$\n$$\\text{Efficiency of B} = 4 - 1 = 3\\text{ units/day}$$\n$$\\text{Time taken by B alone} = \\frac{10}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 28,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 10/08/2023 (Shift-03)",
+    "questionText": "George can do 35% of the total work in 6 days. Jim and George together completed a piece of work in 12 days. In how many days could Jim, working alone, complete the entire task?",
+    "options": [
+      {
+        "label": "A",
+        "text": "36"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "42"
+      },
+      {
+        "label": "D",
+        "text": "45"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Time for George to do full work} = 6 \\times \\frac{100}{35} = \\frac{120}{7}\\text{ days}$$\n$$\\text{Time for (Jim + George)} = 12\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}\\left(\\frac{120}{7}, 12\\right) = 120\\text{ units}$$\n$$\\text{Efficiency of George} = \\frac{120}{120/7} = 7,\\quad \\text{Efficiency of (Jim + George)} = \\frac{120}{12} = 10$$\n$$\\text{Efficiency of Jim} = 10 - 7 = 3\\text{ units/day}$$\n$$\\text{Time taken by Jim alone} = \\frac{120}{3} = 40\\text{ days}$$"
+  },
+  {
+    "questionNumber": 29,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+    "questionText": "A and B can do a work in 12 days and 16 days, respectively. If they work together for 6 days, then the fraction of the work left is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{5}{7}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{7}{8}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1}{8}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{1}{7}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 16) = 48\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{48}{12} = 4,\\quad \\text{Efficiency of B} = \\frac{48}{16} = 3$$\n$$\\text{Work done together in 6 days} = 6 \\times (4 + 3) = 6 \\times 7 = 42\\text{ units}$$\n$$\\text{Work remaining} = 48 - 42 = 6\\text{ units}$$\n$$\\text{Fraction of work left} = \\frac{6}{48} = \\frac{1}{8}$$"
+  },
+  {
+    "questionNumber": 30,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC MTS 17/05/2023 (Shift-03)",
+    "questionText": "A alone can do (1/10) part of a work in 8 hours. B alone can do (1/5) part of same work in 4 hours. If they work together, then how many hours will they take to complete (9/16) part of the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9 hours"
+      },
+      {
+        "label": "B",
+        "text": "5 hours"
+      },
+      {
+        "label": "C",
+        "text": "8 hours"
+      },
+      {
+        "label": "D",
+        "text": "4 hours"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Time for A alone} = 8 \\times 10 = 80\\text{ hours}$$\n$$\\text{Time for B alone} = 4 \\times 5 = 20\\text{ hours}$$\n$$\\text{Total work} = \\text{LCM}(80, 20) = 80\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{80}{80} = 1,\\quad \\text{Efficiency of B} = \\frac{80}{20} = 4$$\n$$\\text{Combined efficiency} = 1 + 4 = 5\\text{ units/hour}$$\n$$\\text{Work to be completed} = \\frac{9}{16} \\times 80 = 45\\text{ units}$$\n$$\\text{Time required} = \\frac{45}{5} = 9\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 31,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-04)",
+    "questionText": "Riya and Sangeeta can finish a work in 6 days and 8 days, respectively. Riya started the work alone and then after 3 days, Sangeeta joined Riya. They both finish the remaining work. How long did the total work last?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4\\frac{4}{7}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$4\\frac{2}{7}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$4\\frac{5}{7}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$4\\frac{3}{7}\\text{ days}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(6, 8) = 24\\text{ units}$$\n$$\\text{Efficiency of Riya} = 4,\\quad \\text{Efficiency of Sangeeta} = 3$$\n$$\\text{Work done by Riya in first 3 days} = 3 \\times 4 = 12\\text{ units}$$\n$$\\text{Remaining work} = 24 - 12 = 12\\text{ units}$$\n$$\\text{Time taken together for remaining work} = \\frac{12}{4 + 3} = \\frac{12}{7} = 1\\frac{5}{7}\\text{ days}$$\n$$\\text{Total time work lasted} = 3 + 1\\frac{5}{7} = 4\\frac{5}{7}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 32,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 07/08/2023 (Shift-02)",
+    "questionText": "A and B can finish a work in 6 days and 4 days, respectively. A alone worked on it for 2 days. Thereafter, B joined him. How much total time was taken by them to finish the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3\\frac{3}{5}$"
+      },
+      {
+        "label": "B",
+        "text": "$1\\frac{3}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "$3\\frac{1}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "$4\\frac{1}{5}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(6, 4) = 12\\text{ units}$$\n$$\\text{Efficiency of A} = 2,\\quad \\text{Efficiency of B} = 3$$\n$$\\text{Work done by A in 2 days} = 2 \\times 2 = 4\\text{ units}$$\n$$\\text{Remaining work} = 12 - 4 = 8\\text{ units}$$\n$$\\text{Time taken together for remaining work} = \\frac{8}{2 + 3} = \\frac{8}{5} = 1\\frac{3}{5}\\text{ days}$$\n$$\\text{Total time} = 2 + 1\\frac{3}{5} = 3\\frac{3}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 33,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 14/08/2023 (Shift-01)",
+    "questionText": "A can finish a work in 25 days, and B can do the same work in 15 days. B worked for 10 days and left the job. A alone can finish the remaining work in how many days?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$6\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$8\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$5\\frac{1}{3}\\text{ days}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(25, 15) = 75\\text{ units}$$\n$$\\text{Efficiency of A} = 3,\\quad \\text{Efficiency of B} = 5$$\n$$\\text{Work done by B in 10 days} = 10 \\times 5 = 50\\text{ units}$$\n$$\\text{Remaining work} = 75 - 50 = 25\\text{ units}$$\n$$\\text{Time taken by A alone} = \\frac{25}{3} = 8\\frac{1}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 34,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 17/08/2023 (Shift-04)",
+    "questionText": "Raju and Akber take 4 hours and 6 hours to type 32 pages and 48 pages, respectively, on a computer. They are given an assignment of typing 256 pages. If they work together, typing on two different computers, starting at the same time, how much time will they take to complete the assignment (in hours)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Rate of Raju} = \\frac{32}{4} = 8\\text{ pages/hour}$$\n$$\\text{Rate of Akber} = \\frac{48}{6} = 8\\text{ pages/hour}$$\n$$\\text{Combined rate} = 8 + 8 = 16\\text{ pages/hour}$$\n$$\\text{Time required} = \\frac{256}{16} = 16\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 35,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC MTS 08/05/2023 (Shift-01)",
+    "questionText": "Suresh alone can do a work in 10 days working 1 hour a day. Shalu alone can do the same work in 2 days working 5 hours a day. How many hours do they need to work together in a day to complete the same work in 10 days?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.5 hours"
+      },
+      {
+        "label": "B",
+        "text": "0.5 hours"
+      },
+      {
+        "label": "C",
+        "text": "1 hour"
+      },
+      {
+        "label": "D",
+        "text": "2 hours"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total hours taken by Suresh} = 10 \\times 1 = 10\\text{ hours}$$\n$$\\text{Total hours taken by Shalu} = 2 \\times 5 = 10\\text{ hours}$$\n$$\\text{Total work} = 10\\text{ units (efficiency of each = 1 unit/hour)}$$\n$$\\text{Combined rate} = 1 + 1 = 2\\text{ units/hour}$$\n$$\\text{To complete 10 units in 10 days, work per day} = \\frac{10}{10} = 1\\text{ unit/day}$$\n$$\\text{Hours required per day} = \\frac{1\\text{ unit}}{2\\text{ units/hour}} = 0.5\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 36,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CHSL 17/03/2023 (Shift-04)",
+    "questionText": "Ram alone can do a work in 5 days working 4 hours a day. Seema alone can do the same work in 3 days working 10 hours a day. How many hours do they need to work together in a day to complete the same work in 6 days?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 hour"
+      },
+      {
+        "label": "B",
+        "text": "3 hours"
+      },
+      {
+        "label": "C",
+        "text": "5 hours"
+      },
+      {
+        "label": "D",
+        "text": "2 hours"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total hours taken by Ram} = 5 \\times 4 = 20\\text{ hours}$$\n$$\\text{Total hours taken by Seema} = 3 \\times 10 = 30\\text{ hours}$$\n$$\\text{Total work} = \\text{LCM}(20, 30) = 60\\text{ units}$$\n$$\\text{Efficiency of Ram} = 3\\text{ units/hour},\\quad \\text{Efficiency of Seema} = 2\\text{ units/hour}$$\n$$\\text{Combined rate} = 3 + 2 = 5\\text{ units/hour}$$\n$$\\text{Total hours required together} = \\frac{60}{5} = 12\\text{ hours}$$\n$$\\text{Hours required per day to finish in 6 days} = \\frac{12}{6} = 2\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 37,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CGL 09/09/2024 (Shift-01)",
+    "questionText": "Rajesh, in his printing press, got an order to print some books, out of which he completed $\\frac{17}{27}$ of the order in 34 days. In how many days did he complete the entire order of printing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "60"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "54"
+      },
+      {
+        "label": "D",
+        "text": "56"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Time taken for entire order} = 34 \\times \\frac{27}{17} = 2 \\times 27 = 54\\text{ days}$$"
+  },
+  {
+    "questionNumber": 38,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC CPO 05/10/2023 (Shift-03)",
+    "questionText": "If Arun can complete $\\frac{2}{3}\\text{rd}$ of a work in 12 days, then in how many days can he complete $\\frac{1}{6}\\text{th}$ of the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 days"
+      },
+      {
+        "label": "B",
+        "text": "5 days"
+      },
+      {
+        "label": "C",
+        "text": "2 days"
+      },
+      {
+        "label": "D",
+        "text": "3 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Time taken to complete full work} = 12 \\times \\frac{3}{2} = 18\\text{ days}$$\n$$\\text{Time taken for }\\frac{1}{6}\\text{th of the work} = \\frac{1}{6} \\times 18 = 3\\text{ days}$$"
+  },
+  {
+    "questionNumber": 39,
+    "typeHeader": "TYPE - I: BASED ON TWO VARIABLES",
+    "examShift": "SSC Phase X 04/08/2022 (Shift-03)",
+    "questionText": "Anjali is designing a wall for a social purpose. In 14 days, he completed $\\frac{7}{11}$ of the work. In how many days will she complete the rest of the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Time taken for }\\frac{1}{11}\\text{ of the work} = \\frac{14}{7} = 2\\text{ days}$$\n$$\\text{Remaining work} = 1 - \\frac{7}{11} = \\frac{4}{11}$$\n$$\\text{Time to complete rest of work} = 4 \\times 2 = 8\\text{ days}$$"
+  },
+  {
+    "questionNumber": 40,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 09/08/2023 (Shift-01)",
+    "questionText": "X can do a piece of work in 14 days, Y can complete the same work in 28 days and Z can do it in 42 days. In how many days can X, Y and Z together complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7\\frac{9}{11}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$7\\frac{7}{11}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$7\\frac{5}{11}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$7\\frac{3}{11}\\text{ days}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(14, 28, 42) = 84\\text{ units}$$\n$$\\text{Efficiency of X} = 6,\\quad \\text{Efficiency of Y} = 3,\\quad \\text{Efficiency of Z} = 2$$\n$$\\text{Combined efficiency} = 6 + 3 + 2 = 11\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{84}{11} = 7\\frac{7}{11}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 41,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-04)",
+    "questionText": "A, B and C can complete a work in 12, 15 and 20 days, respectively. How many days are required to finish the work if they work together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 days"
+      },
+      {
+        "label": "B",
+        "text": "4 days"
+      },
+      {
+        "label": "C",
+        "text": "6 days"
+      },
+      {
+        "label": "D",
+        "text": "3 days"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 15, 20) = 60\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 4,\\quad \\text{Efficiency of C} = 3$$\n$$\\text{Combined efficiency} = 5 + 4 + 3 = 12\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{60}{12} = 5\\text{ days}$$"
+  },
+  {
+    "questionNumber": 42,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-04)",
+    "questionText": "X, Y and Z can do a work in 24 days, 5 days and 12 days, respectively. In how many days can they do the same work if they work together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3\\frac{1}{24}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$3\\frac{1}{13}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "4 days"
+      },
+      {
+        "label": "D",
+        "text": "$3\\frac{7}{24}\\text{ days}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(24, 5, 12) = 120\\text{ units}$$\n$$\\text{Efficiency of X} = 5,\\quad \\text{Efficiency of Y} = 24,\\quad \\text{Efficiency of Z} = 10$$\n$$\\text{Combined efficiency} = 5 + 24 + 10 = 39\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{120}{39} = \\frac{40}{13} = 3\\frac{1}{13}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 43,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+    "questionText": "Vipin can do a piece of work in 2 days; Vaibhav can do the same work in 3 days and Chirag can do the same work in 6 days. If they start working together, how many days will they take to complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 days"
+      },
+      {
+        "label": "B",
+        "text": "5 days"
+      },
+      {
+        "label": "C",
+        "text": "1 days"
+      },
+      {
+        "label": "D",
+        "text": "4 days"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(2, 3, 6) = 6\\text{ units}$$\n$$\\text{Efficiency of Vipin} = 3,\\quad \\text{Efficiency of Vaibhav} = 2,\\quad \\text{Efficiency of Chirag} = 1$$\n$$\\text{Combined efficiency} = 3 + 2 + 1 = 6\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{6}{6} = 1\\text{ day}$$"
+  },
+  {
+    "questionNumber": 44,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL 13/04/2022 (Shift-02)",
+    "questionText": "A tyre has 3 punctures. The first puncture alone would have made the tyre flat in 9 minutes, the second alone would have done it in 18 minutes, the third alone would have done it in 6 minutes. If the air leaks out at a constant rate, then how long (in minutes) does it take for all the punctures together to make it flat?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total capacity} = \\text{LCM}(9, 18, 6) = 18\\text{ units}$$\n$$\\text{Rates of punctures} = 2, 1, 3\\text{ units/min}$$\n$$\\text{Combined rate} = 2 + 1 + 3 = 6\\text{ units/min}$$\n$$\\text{Time required} = \\frac{18}{6} = 3\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 45,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 23/11/2020 (Shift-02)",
+    "questionText": "X can do a work in 3 days, Y does three times the same work in 8 days, and Z does five times the same work in 12 days. If they have to work together for 6 hours in a day, then in how much time can they complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 hours"
+      },
+      {
+        "label": "B",
+        "text": "5 hours"
+      },
+      {
+        "label": "C",
+        "text": "5 hours 20 minutes"
+      },
+      {
+        "label": "D",
+        "text": "4 hours 10 minutes"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Time taken for 1 unit of work:}$$\n$$\\text{X} = 3\\text{ days},\\quad \\text{Y} = \\frac{8}{3}\\text{ days},\\quad \\text{Z} = \\frac{12}{5}\\text{ days}$$\n$$\\text{Work done together per day} = \\frac{1}{3} + \\frac{3}{8} + \\frac{5}{12} = \\frac{8 + 9 + 10}{24} = \\frac{27}{24} = \\frac{9}{8}\\text{ of total work}$$\n$$\\text{Days taken together} = \\frac{8}{9}\\text{ days}$$\n$$\\text{With 6 working hours per day, total time} = \\frac{8}{9} \\times 6 = \\frac{16}{3}\\text{ hours} = 5\\text{ hours } 20\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 46,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 03/08/2023 (Shift-01)",
+    "questionText": "Ali, Avtar Singh and Ashok working together can finish a work in 8 days. Ali alone can do it in 20 days and Avtar Singh alone can do it in 24 days. In how many days can Ashok alone do the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30"
+      },
+      {
+        "label": "B",
+        "text": "28"
+      },
+      {
+        "label": "C",
+        "text": "26"
+      },
+      {
+        "label": "D",
+        "text": "25"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(8, 20, 24) = 120\\text{ units}$$\n$$\\text{Efficiency of (Ali + Avtar + Ashok)} = \\frac{120}{8} = 15$$\n$$\\text{Efficiency of Ali} = \\frac{120}{20} = 6,\\quad \\text{Efficiency of Avtar} = \\frac{120}{24} = 5$$\n$$\\text{Efficiency of Ashok} = 15 - (6 + 5) = 4\\text{ units/day}$$\n$$\\text{Time taken by Ashok alone} = \\frac{120}{4} = 30\\text{ days}$$"
+  },
+  {
+    "questionNumber": 47,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+    "questionText": "Ram can complete a piece of work in 18 days, Reena can complete the same work in 12 days, and with the help of Shyam, they finish the same work in six days. In how many days can Shyam alone complete the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "42 days"
+      },
+      {
+        "label": "B",
+        "text": "36 days"
+      },
+      {
+        "label": "C",
+        "text": "30 days"
+      },
+      {
+        "label": "D",
+        "text": "24 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(18, 12, 6) = 36\\text{ units}$$\n$$\\text{Efficiency of Ram} = 2,\\quad \\text{Efficiency of Reena} = 3,\\quad \\text{Efficiency of All three} = 6$$\n$$\\text{Efficiency of Shyam} = 6 - (2 + 3) = 1\\text{ unit/day}$$\n$$\\text{Time taken by Shyam alone} = \\frac{36}{1} = 36\\text{ days}$$"
+  },
+  {
+    "questionNumber": 48,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+    "questionText": "A can complete a piece of work in 20 days and B can complete the same work in 10 days. With the help of C, working together they completed the work in 5 days. The number of days in which C alone can complete the work is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "25"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 10, 5) = 20\\text{ units}$$\n$$\\text{Efficiency of A} = 1,\\quad \\text{Efficiency of B} = 2,\\quad \\text{Efficiency of (A + B + C)} = 4$$\n$$\\text{Efficiency of C} = 4 - (1 + 2) = 1\\text{ unit/day}$$\n$$\\text{Time taken by C alone} = \\frac{20}{1} = 20\\text{ days}$$"
+  },
+  {
+    "questionNumber": 49,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL 17/07/2023 (Shift-01)",
+    "questionText": "Rakshit, Ajay, and Satish are sanitation workers in a Municipal Corporation. Rakshit alone takes 20 hours to clean a drain while Ajay takes 12 hours when working alone to do the same. All three together take only 5 hours to clean the drain. In how many hours, can Satish complete the work alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 12, 5) = 60\\text{ units}$$\n$$\\text{Efficiency of Rakshit} = 3,\\quad \\text{Efficiency of Ajay} = 5,\\quad \\text{Efficiency of All three} = 12$$\n$$\\text{Efficiency of Satish} = 12 - (3 + 5) = 4\\text{ units/hour}$$\n$$\\text{Time taken by Satish alone} = \\frac{60}{4} = 15\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 50,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 12/08/2021 (Shift-02)",
+    "questionText": "A and B can complete a piece of work in 27 days and 54 days, respectively. They completed the work in 9 days with the help of C. How many days will C take to complete $\\frac{8}{9}$ of work alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(27, 54, 9) = 54\\text{ units}$$\n$$\\text{Efficiency of A} = 2,\\quad \\text{Efficiency of B} = 1,\\quad \\text{Efficiency of (A + B + C)} = 6$$\n$$\\text{Efficiency of C} = 6 - (2 + 1) = 3\\text{ units/day}$$\n$$\\text{Time for C to complete whole work} = \\frac{54}{3} = 18\\text{ days}$$\n$$\\text{Time for }\\frac{8}{9}\\text{th of work} = 18 \\times \\frac{8}{9} = 16\\text{ days}$$"
+  },
+  {
+    "questionNumber": 51,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+    "questionText": "A and B can do a job in 10 days and 5 days, respectively. They worked together for two days, after which B was replaced by C and the work was finished in the next three days. How long will C alone take to finish 60% of the job?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30 days"
+      },
+      {
+        "label": "B",
+        "text": "25 days"
+      },
+      {
+        "label": "C",
+        "text": "18 days"
+      },
+      {
+        "label": "D",
+        "text": "24 days"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 5) = 10\\text{ units}$$\n$$\\text{Efficiency of A} = 1,\\quad \\text{Efficiency of B} = 2$$\n$$\\text{Work done by (A + B) in 2 days} = 2 \\times (1 + 2) = 6\\text{ units}$$\n$$\\text{Remaining work} = 10 - 6 = 4\\text{ units}$$\n$$\\text{Work done by (A + C) in 3 days} = 3 \\times (1 + \\text{Eff}(C)) = 4 \\implies \\text{Eff}(C) = \\frac{4}{3} - 1 = \\frac{1}{3}\\text{ unit/day}$$\n$$\\text{Time for C to complete full work} = \\frac{10}{1/3} = 30\\text{ days}$$\n$$\\text{Time for 60\\% of the job} = 30 \\times 0.60 = 18\\text{ days}$$"
+  },
+  {
+    "questionNumber": 52,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 25/11/2020 (Shift-01)",
+    "questionText": "A and B can do a job in 10 days and 5 days, respectively. They worked together for two days, after which B was replaced by C and the work was finished in the next three days. How long will C alone take to finish 40% of the job?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15 days"
+      },
+      {
+        "label": "B",
+        "text": "18 days"
+      },
+      {
+        "label": "C",
+        "text": "10 days"
+      },
+      {
+        "label": "D",
+        "text": "12 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{From earlier calculation, Efficiency of C} = \\frac{1}{3}\\text{ unit/day}$$\n$$\\text{Total work} = 10\\text{ units}$$\n$$\\text{Time taken by C alone for 100\\% work} = \\frac{10}{1/3} = 30\\text{ days}$$\n$$\\text{Time taken by C for 40\\% of the job} = 30 \\times 0.40 = 12\\text{ days}$$"
+  },
+  {
+    "questionNumber": 53,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL TIER-II 15/11/2020",
+    "questionText": "A can do 20% of the work in 4 days, B can do $33\\frac{1}{3}\\%$ of the same work in 10 days. They worked together for 9 days. C completed the remaining work in 6 days. In how many days will B and C together complete 75% of the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Time for A} = 4 \\times 5 = 20\\text{ days},\\quad \\text{Time for B} = 10 \\times 3 = 30\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(20, 30) = 60\\text{ units}$$\n$$\\text{Efficiency of A} = 3,\\quad \\text{Efficiency of B} = 2$$\n$$\\text{Work done by (A + B) in 9 days} = 9 \\times (3 + 2) = 45\\text{ units}$$\n$$\\text{Remaining work} = 60 - 45 = 15\\text{ units}$$\n$$\\text{Efficiency of C} = \\frac{15}{6} = 2.5\\text{ units/day}$$\n$$\\text{Combined efficiency of B and C} = 2 + 2.5 = 4.5 = \\frac{9}{2}\\text{ units/day}$$\n$$75\\%\\text{ of work} = 0.75 \\times 60 = 45\\text{ units}$$\n$$\\text{Time required} = \\frac{45}{9/2} = 10\\text{ days}$$"
+  },
+  {
+    "questionNumber": 54,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL TIER-II 16/11/2020",
+    "questionText": "A can do $\\frac{1}{3}$ of work in 30 days, B can do $\\frac{2}{5}$ part of the same work in 24 days. They worked together for 20 days. C completed the remaining work in 8 days. In how many days will A, B and C together complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Time for A} = 30 \\times 3 = 90\\text{ days},\\quad \\text{Time for B} = 24 \\times \\frac{5}{2} = 60\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(90, 60) = 180\\text{ units}$$\n$$\\text{Efficiency of A} = 2,\\quad \\text{Efficiency of B} = 3$$\n$$\\text{Work done by (A + B) in 20 days} = 20 \\times (2 + 3) = 100\\text{ units}$$\n$$\\text{Remaining work} = 180 - 100 = 80\\text{ units}$$\n$$\\text{Efficiency of C} = \\frac{80}{8} = 10\\text{ units/day}$$\n$$\\text{Combined efficiency of A, B and C} = 2 + 3 + 10 = 15\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{180}{15} = 12\\text{ days}$$"
+  },
+  {
+    "questionNumber": 55,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL TIER-II 12/09/2019",
+    "questionText": "A can do 40% of a work in 12 days while B 60% of the same work can be done in 15 days. Both work together for 10 days. C completes the remaining work in 4 days. In how many days will A, B and C together complete 28% of the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2\\frac{1}{2}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "3 days"
+      },
+      {
+        "label": "C",
+        "text": "$1\\frac{1}{2}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "2 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Time for A} = 12 \\times \\frac{5}{2} = 30\\text{ days},\\quad \\text{Time for B} = 15 \\times \\frac{5}{3} = 25\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(30, 25) = 150\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 6$$\n$$\\text{Work done by (A + B) in 10 days} = 10 \\times (5 + 6) = 110\\text{ units}$$\n$$\\text{Remaining work} = 150 - 110 = 40\\text{ units}$$\n$$\\text{Efficiency of C} = \\frac{40}{4} = 10\\text{ units/day}$$\n$$\\text{Combined efficiency of A, B and C} = 5 + 6 + 10 = 21\\text{ units/day}$$\n$$28\\%\\text{ of work} = 0.28 \\times 150 = 42\\text{ units}$$\n$$\\text{Time required} = \\frac{42}{21} = 2\\text{ days}$$"
+  },
+  {
+    "questionNumber": 56,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+    "questionText": "Meera can complete a piece of work in 20 days, Neena in 30 days and Seema in 40 days. Meera and Seema worked together for 4 days and then Meera was replaced by Neena. In how many days, altogether, was the work completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "14"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 30, 40) = 120\\text{ units}$$\n$$\\text{Efficiency of Meera} = 6,\\quad \\text{Efficiency of Neena} = 4,\\quad \\text{Efficiency of Seema} = 3$$\n$$\\text{Work done by (Meera + Seema) in 4 days} = 4 \\times (6 + 3) = 36\\text{ units}$$\n$$\\text{Remaining work} = 120 - 36 = 84\\text{ units}$$\n$$\\text{Efficiency of (Neena + Seema)} = 4 + 3 = 7\\text{ units/day}$$\n$$\\text{Days taken for remaining work} = \\frac{84}{7} = 12\\text{ days}$$\n$$\\text{Total days altogether} = 4 + 12 = 16\\text{ days}$$"
+  },
+  {
+    "questionNumber": 57,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL 27/07/2023 (Shift-03)",
+    "questionText": "Ram can complete a piece work in 15 days, Rohan in 25 days, and Rohit in 30 days. Rohan and Rohit worked together for 2 days and then Rohit was replaced by Ram. In how many days altogether was the work completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 days"
+      },
+      {
+        "label": "B",
+        "text": "8 days"
+      },
+      {
+        "label": "C",
+        "text": "12 days"
+      },
+      {
+        "label": "D",
+        "text": "7 days"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 25, 30) = 150\\text{ units}$$\n$$\\text{Efficiency of Ram} = 10,\\quad \\text{Efficiency of Rohan} = 6,\\quad \\text{Efficiency of Rohit} = 5$$\n$$\\text{Work done by (Rohan + Rohit) in 2 days} = 2 \\times (6 + 5) = 22\\text{ units}$$\n$$\\text{Remaining work} = 150 - 22 = 128\\text{ units}$$\n$$\\text{Efficiency of (Ram + Rohan)} = 10 + 6 = 16\\text{ units/day}$$\n$$\\text{Days taken for remaining work} = \\frac{128}{16} = 8\\text{ days}$$\n$$\\text{Total days altogether} = 2 + 8 = 10\\text{ days}$$"
+  },
+  {
+    "questionNumber": 58,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+    "questionText": "Mitu can do a piece of work in 12 hours, Titu and Situ together in 2 hours, and Mitu and Situ together in 3 hours. How long will Titu alone take to do it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7 hours"
+      },
+      {
+        "label": "B",
+        "text": "8 hours"
+      },
+      {
+        "label": "C",
+        "text": "4 hours"
+      },
+      {
+        "label": "D",
+        "text": "6 hours"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 2, 3) = 12\\text{ units}$$\n$$\\text{Efficiency of Mitu} = \\frac{12}{12} = 1\\text{ unit/hour}$$\n$$\\text{Efficiency of (Titu + Situ)} = \\frac{12}{2} = 6\\text{ units/hour}$$\n$$\\text{Efficiency of (Mitu + Situ)} = \\frac{12}{3} = 4\\text{ units/hour}$$\n$$\\text{Efficiency of Situ} = 4 - 1 = 3\\text{ units/hour}$$\n$$\\text{Efficiency of Titu} = 6 - 3 = 3\\text{ units/hour}$$\n$$\\text{Time taken by Titu alone} = \\frac{12}{3} = 4\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 59,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+    "questionText": "Manish, Nakul and Pintoo alone can complete a certain work in 21 days, 28 days and 15 days, respectively. Manish and Pintoo started the work together while Nakul joined them after 5 days and worked with them till the completion of the work. For how many days did Nakul work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3\\frac{1}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "$2\\frac{1}{7}$"
+      },
+      {
+        "label": "C",
+        "text": "$5\\frac{1}{2}$"
+      },
+      {
+        "label": "D",
+        "text": "$2\\frac{6}{7}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(21, 28, 15) = 420\\text{ units}$$\n$$\\text{Efficiency of Manish} = 20,\\quad \\text{Efficiency of Nakul} = 15,\\quad \\text{Efficiency of Pintoo} = 28$$\n$$\\text{Work done by (Manish + Pintoo) in first 5 days} = 5 \\times (20 + 28) = 240\\text{ units}$$\n$$\\text{Remaining work} = 420 - 240 = 180\\text{ units}$$\n$$\\text{Combined efficiency of all three} = 20 + 15 + 28 = 63\\text{ units/day}$$\n$$\\text{Days Nakul worked} = \\frac{180}{63} = \\frac{20}{7} = 2\\frac{6}{7}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 60,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC Phase XII 24/06/2024 (Shift-03)",
+    "questionText": "A, B and C can do the same work in 9 days, 12 days and 18 days, respectively. A started the work and worked for 3 days and left. Then, B joined the work and worked for 3 days and left. Then, C joined the work and completed the work. Find the number of days C took to complete the work.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7\\frac{1}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "$8\\frac{1}{2}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(9, 12, 18) = 36\\text{ units}$$\n$$\\text{Efficiency of A} = 4,\\quad \\text{Efficiency of B} = 3,\\quad \\text{Efficiency of C} = 2$$\n$$\\text{Work done by A} = 3 \\times 4 = 12\\text{ units}$$\n$$\\text{Work done by B} = 3 \\times 3 = 9\\text{ units}$$\n$$\\text{Work completed} = 12 + 9 = 21\\text{ units}$$\n$$\\text{Remaining work} = 36 - 21 = 15\\text{ units}$$\n$$\\text{Time taken by C} = \\frac{15}{2} = 7\\frac{1}{2}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 61,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+    "questionText": "A, B and C can do a piece of work in 10, 15, 12 days, respectively. A and B worked alternately for 5 days each and left. Then C joined and completed the work. In how many days did C complete the remaining work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 15, 12) = 60\\text{ units}$$\n$$\\text{Efficiency of A} = 6,\\quad \\text{Efficiency of B} = 4,\\quad \\text{Efficiency of C} = 5$$\n$$\\text{Work done by A in 5 days} = 5 \\times 6 = 30\\text{ units}$$\n$$\\text{Work done by B in 5 days} = 5 \\times 4 = 20\\text{ units}$$\n$$\\text{Remaining work} = 60 - (30 + 20) = 10\\text{ units}$$\n$$\\text{Time taken by C} = \\frac{10}{5} = 2\\text{ days}$$"
+  },
+  {
+    "questionNumber": 62,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-01)",
+    "questionText": "A can finish a work in 15 days, B can finish the same work in 25 days. They work together for 5 days. The rest of the work is finished by A and C in 4 days. Then C alone can finish the work in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "18 days"
+      },
+      {
+        "label": "B",
+        "text": "24 days"
+      },
+      {
+        "label": "C",
+        "text": "20 days"
+      },
+      {
+        "label": "D",
+        "text": "21 days"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 25) = 75\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 3$$\n$$\\text{Work done by (A + B) in 5 days} = 5 \\times (5 + 3) = 40\\text{ units}$$\n$$\\text{Remaining work} = 75 - 40 = 35\\text{ units}$$\n$$\\text{Work done by (A + C) in 4 days} = 4 \\times (5 + \\text{Eff}(C)) = 35 \\implies \\text{Eff}(C) = \\frac{15}{4}\\text{ units/day}$$\n$$\\text{Time taken by C alone} = \\frac{75}{15/4} = 20\\text{ days}$$"
+  },
+  {
+    "questionNumber": 63,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL 21/07/2023 (Shift-03)",
+    "questionText": "A can do 20% of a work in 4 days, and B can do $33\\frac{1}{3}\\%$ of the same work in 10 days. They worked together for 9 days and then C completed the remaining work in 6 days. B and C together will complete 75% of the same work in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 days"
+      },
+      {
+        "label": "B",
+        "text": "9 days"
+      },
+      {
+        "label": "C",
+        "text": "11 days"
+      },
+      {
+        "label": "D",
+        "text": "10 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Time for A} = 20\\text{ days},\\quad \\text{Time for B} = 30\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(20, 30) = 60\\text{ units}$$\n$$\\text{Efficiency of A} = 3,\\quad \\text{Efficiency of B} = 2$$\n$$\\text{Work done by (A + B) in 9 days} = 9 \\times (3 + 2) = 45\\text{ units}$$\n$$\\text{Remaining work} = 60 - 45 = 15\\text{ units}$$\n$$\\text{Efficiency of C} = \\frac{15}{6} = 2.5\\text{ units/day}$$\n$$\\text{Combined efficiency of B and C} = 2 + 2.5 = 4.5\\text{ units/day}$$\n$$75\\%\\text{ of work} = 0.75 \\times 60 = 45\\text{ units}$$\n$$\\text{Time taken} = \\frac{45}{4.5} = 10\\text{ days}$$"
+  },
+  {
+    "questionNumber": 64,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL 11/04/2022 (Shift-02)",
+    "questionText": "X, Y and Z can do a piece of work in 46 days, 92 days and 23 days, respectively. X started the work. Y joined him after 2 days. If Z joined them after 8 days from the beginning, then for how many days did X work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "21"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(46, 92, 23) = 92\\text{ units}$$\n$$\\text{Efficiency of X} = 2,\\quad \\text{Efficiency of Y} = 1,\\quad \\text{Efficiency of Z} = 4$$\n$$\\text{Days 1 to 2 (only X)} = 2 \\times 2 = 4\\text{ units}$$\n$$\\text{Days 3 to 8 (X + Y)} = 6 \\times (2 + 1) = 18\\text{ units}$$\n$$\\text{Work done in first 8 days} = 4 + 18 = 22\\text{ units}$$\n$$\\text{Remaining work} = 92 - 22 = 70\\text{ units}$$\n$$\\text{Days taken by (X + Y + Z)} = \\frac{70}{2 + 1 + 4} = \\frac{70}{7} = 10\\text{ days}$$\n$$\\text{Total days X worked} = 8 + 10 = 18\\text{ days}$$"
+  },
+  {
+    "questionNumber": 65,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL 19/04/2022 (Shift-02)",
+    "questionText": "X, Y and Z can complete a piece of work in 46 days, 92 days and 23 days, respectively. X started the work. Y joined him after 7 days. If Z joined them after 8 days from the beginning, then for how many days did Y work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12\\frac{5}{7}$"
+      },
+      {
+        "label": "B",
+        "text": "$9\\frac{5}{7}$"
+      },
+      {
+        "label": "C",
+        "text": "$10\\frac{5}{7}$"
+      },
+      {
+        "label": "D",
+        "text": "$11\\frac{5}{7}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(46, 92, 23) = 92\\text{ units}$$\n$$\\text{Efficiency of X} = 2,\\quad \\text{Efficiency of Y} = 1,\\quad \\text{Efficiency of Z} = 4$$\n$$\\text{Days 1 to 7 (only X)} = 7 \\times 2 = 14\\text{ units}$$\n$$\\text{Day 8 (X + Y)} = 1 \\times (2 + 1) = 3\\text{ units}$$\n$$\\text{Work done in first 8 days} = 14 + 3 = 17\\text{ units}$$\n$$\\text{Remaining work} = 92 - 17 = 75\\text{ units}$$\n$$\\text{Days taken by (X + Y + Z)} = \\frac{75}{2 + 1 + 4} = \\frac{75}{7} = 10\\frac{5}{7}\\text{ days}$$\n$$\\text{Total days Y worked} = 1 + 10\\frac{5}{7} = 11\\frac{5}{7}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 66,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC MTS 27/10/2021 (Shift-02)",
+    "questionText": "X and Y can complete a certain work in 16 days and 24 days, respectively. They work together for 4 days. Z alone completes the remaining work in $10\\frac{1}{2}$ days. Y and Z together can complete 7/8th part of the same work in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 days"
+      },
+      {
+        "label": "B",
+        "text": "12 days"
+      },
+      {
+        "label": "C",
+        "text": "8 days"
+      },
+      {
+        "label": "D",
+        "text": "9 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(16, 24) = 48\\text{ units}$$\n$$\\text{Efficiency of X} = 3,\\quad \\text{Efficiency of Y} = 2$$\n$$\\text{Work done by (X + Y) in 4 days} = 4 \\times (3 + 2) = 20\\text{ units}$$\n$$\\text{Remaining work} = 48 - 20 = 28\\text{ units}$$\n$$\\text{Efficiency of Z} = \\frac{28}{10.5} = \\frac{28}{21/2} = \\frac{8}{3}\\text{ units/day}$$\n$$\\text{Efficiency of (Y + Z)} = 2 + \\frac{8}{3} = \\frac{14}{3}\\text{ units/day}$$\n$$\\frac{7}{8}\\text{ of total work} = \\frac{7}{8} \\times 48 = 42\\text{ units}$$\n$$\\text{Time taken} = \\frac{42}{14/3} = 9\\text{ days}$$"
+  },
+  {
+    "questionNumber": 67,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL 13/08/2021 (Shift-03)",
+    "questionText": "A and B can do a certain work in 18 days and 30 days, respectively. They work together for 5 days. C alone completes the remaining work in 15 days. A and C together can complete 5/6th part of the same work in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 days"
+      },
+      {
+        "label": "B",
+        "text": "8 days"
+      },
+      {
+        "label": "C",
+        "text": "9 days"
+      },
+      {
+        "label": "D",
+        "text": "5 days"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(18, 30) = 90\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 3$$\n$$\\text{Work done by (A + B) in 5 days} = 5 \\times (5 + 3) = 40\\text{ units}$$\n$$\\text{Remaining work} = 90 - 40 = 50\\text{ units}$$\n$$\\text{Efficiency of C} = \\frac{50}{15} = \\frac{10}{3}\\text{ units/day}$$\n$$\\text{Efficiency of (A + C)} = 5 + \\frac{10}{3} = \\frac{25}{3}\\text{ units/day}$$\n$$\\frac{5}{6}\\text{ of total work} = \\frac{5}{6} \\times 90 = 75\\text{ units}$$\n$$\\text{Time taken} = \\frac{75}{25/3} = 9\\text{ days}$$"
+  },
+  {
+    "questionNumber": 68,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 05/08/2021 (Shift-01)",
+    "questionText": "A can complete a work in 20 days, while B can complete the same work in 25 days. Both worked together for 10 days and then C alone completed the remaining work in 10 days. In how many days will A, B and C together complete the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 Days"
+      },
+      {
+        "label": "B",
+        "text": "10 Days"
+      },
+      {
+        "label": "C",
+        "text": "12 Days"
+      },
+      {
+        "label": "D",
+        "text": "8 Days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 25) = 100\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 4$$\n$$\\text{Work done by (A + B) in 10 days} = 10 \\times (5 + 4) = 90\\text{ units}$$\n$$\\text{Remaining work} = 100 - 90 = 10\\text{ units}$$\n$$\\text{Efficiency of C} = \\frac{10}{10} = 1\\text{ unit/day}$$\n$$\\text{Combined efficiency of A, B and C} = 5 + 4 + 1 = 10\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{100}{10} = 10\\text{ days}$$"
+  },
+  {
+    "questionNumber": 69,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 06/08/2021 (Shift-02)",
+    "questionText": "A can do 60% of a work in 18 days, while B can do 40% of the same work in 10 days. Both work together for 10 days only. C completed the remaining work in 4 days. In how many days will C complete the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "25"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Time for A} = 18 \\times \\frac{5}{3} = 30\\text{ days},\\quad \\text{Time for B} = 10 \\times \\frac{5}{2} = 25\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(30, 25) = 150\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 6$$\n$$\\text{Work done by (A + B) in 10 days} = 10 \\times (5 + 6) = 110\\text{ units}$$\n$$\\text{Remaining work} = 150 - 110 = 40\\text{ units}$$\n$$\\text{Efficiency of C} = \\frac{40}{4} = 10\\text{ units/day}$$\n$$\\text{Time taken by C alone} = \\frac{150}{10} = 15\\text{ days}$$"
+  },
+  {
+    "questionNumber": 70,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-01)",
+    "questionText": "A and B can complete a piece of work in 15 days, B and C in 30 days and C and A in 45 days. In how many days will they complete the work if they start working together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$16\\frac{4}{11}$"
+      },
+      {
+        "label": "B",
+        "text": "$8\\frac{3}{11}$"
+      },
+      {
+        "label": "C",
+        "text": "$11\\frac{1}{3}$"
+      },
+      {
+        "label": "D",
+        "text": "$11\\frac{2}{3}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 30, 45) = 90\\text{ units}$$\n$$\\text{Eff}(A + B) = 6,\\quad \\text{Eff}(B + C) = 3,\\quad \\text{Eff}(C + A) = 2$$\n$$2 \\times \\text{Eff}(A + B + C) = 6 + 3 + 2 = 11 \\implies \\text{Eff}(A + B + C) = \\frac{11}{2}\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{90}{11/2} = \\frac{180}{11} = 16\\frac{4}{11}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 71,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC MTS 05/07/2022 (Shift-01)",
+    "questionText": "A and B can together complete a piece of work in 18 days. B and C can together complete the same work in 24 days and A and C can together complete it in 36 days. In how many days can A, B and C, working together, complete this piece of work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(18, 24, 36) = 72\\text{ units}$$\n$$\\text{Eff}(A + B) = 4,\\quad \\text{Eff}(B + C) = 3,\\quad \\text{Eff}(A + C) = 2$$\n$$2 \\times \\text{Eff}(A + B + C) = 4 + 3 + 2 = 9 \\implies \\text{Eff}(A + B + C) = \\frac{9}{2}\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{72}{9/2} = 16\\text{ days}$$"
+  },
+  {
+    "questionNumber": 72,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+    "questionText": "A and B can do any work in 4 days. B and C can do the same work in 5 days. A and C can do the same work in 10 days. If A, B, C work together, in how many days can they complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3\\frac{11}{7}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$11\\frac{7}{3}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$3\\frac{7}{11}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$11\\frac{3}{7}\\text{ days}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(4, 5, 10) = 20\\text{ units}$$\n$$\\text{Eff}(A + B) = 5,\\quad \\text{Eff}(B + C) = 4,\\quad \\text{Eff}(A + C) = 2$$\n$$2 \\times \\text{Eff}(A + B + C) = 5 + 4 + 2 = 11 \\implies \\text{Eff}(A + B + C) = \\frac{11}{2}\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{20}{11/2} = \\frac{40}{11} = 3\\frac{7}{11}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 73,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL 18/07/2023 (Shift-02)",
+    "questionText": "A and B can finish a work in 10 days, B and C can finish it in 12 days and C and A can finish in 6 days. In how many days A alone can finish the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{120}{9}$"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{120}{11}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{121}{12}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 12, 6) = 60\\text{ units}$$\n$$\\text{Eff}(A + B) = 6,\\quad \\text{Eff}(B + C) = 5,\\quad \\text{Eff}(C + A) = 10$$\n$$2 \\times \\text{Eff}(A + B + C) = 6 + 5 + 10 = 21 \\implies \\text{Eff}(A + B + C) = \\frac{21}{2}\\text{ units/day}$$\n$$\\text{Efficiency of A} = \\frac{21}{2} - 5 = \\frac{11}{2}\\text{ units/day}$$\n$$\\text{Time taken by A alone} = \\frac{60}{11/2} = \\frac{120}{11}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 74,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+    "questionText": "A and B together can complete a piece of work in 25 days, B and C together can complete the same piece of work in 36 days, while C and A together can complete it in 30 days. If A, B, C, and D together can complete this piece of work in 18 days, then in how many days can D alone complete this piece of work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "225"
+      },
+      {
+        "label": "B",
+        "text": "210"
+      },
+      {
+        "label": "C",
+        "text": "200"
+      },
+      {
+        "label": "D",
+        "text": "180"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(25, 36, 30, 18) = 900\\text{ units}$$\n$$\\text{Eff}(A + B) = 36,\\quad \\text{Eff}(B + C) = 25,\\quad \\text{Eff}(C + A) = 30$$\n$$2 \\times \\text{Eff}(A + B + C) = 36 + 25 + 30 = 91 \\implies \\text{Eff}(A + B + C) = 45.5\\text{ units/day}$$\n$$\\text{Eff}(A + B + C + D) = \\frac{900}{18} = 50\\text{ units/day}$$\n$$\\text{Efficiency of D} = 50 - 45.5 = 4.5 = \\frac{9}{2}\\text{ units/day}$$\n$$\\text{Time taken by D alone} = \\frac{900}{9/2} = 200\\text{ days}$$"
+  },
+  {
+    "questionNumber": 75,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+    "questionText": "Reena and Riya together can complete a piece of work in 36 days. Riya and Geeta together can complete it in 54 days. Reena and Geeta together can complete it in 81 days. In how many days can Reena alone complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$82\\frac{4}{7}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$87\\frac{4}{7}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$97\\frac{4}{7}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$92\\frac{4}{7}\\text{ days}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(36, 54, 81) = 324\\text{ units}$$\n$$\\text{Eff}(\\text{Reena} + \\text{Riya}) = 9,\\quad \\text{Eff}(\\text{Riya} + \\text{Geeta}) = 6,\\quad \\text{Eff}(\\text{Reena} + \\text{Geeta}) = 4$$\n$$2 \\times \\text{Eff}(\\text{Reena} + \\text{Riya} + \\text{Geeta}) = 9 + 6 + 4 = 19 \\implies \\text{Combined} = 9.5\\text{ units/day}$$\n$$\\text{Efficiency of Reena} = 9.5 - 6 = 3.5 = \\frac{7}{2}\\text{ units/day}$$\n$$\\text{Time taken by Reena alone} = \\frac{324}{7/2} = \\frac{648}{7} = 92\\frac{4}{7}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 76,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+    "questionText": "A and B can complete a piece of work in 12 days. B and C can complete the same work in 15 days, and C and A in 10 days. How many days will A take to complete the work by himself?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9\\frac{1}{8}$"
+      },
+      {
+        "label": "B",
+        "text": "$13\\frac{4}{7}$"
+      },
+      {
+        "label": "C",
+        "text": "$16\\frac{1}{7}$"
+      },
+      {
+        "label": "D",
+        "text": "$17\\frac{1}{7}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 15, 10) = 60\\text{ units}$$\n$$\\text{Eff}(A + B) = 5,\\quad \\text{Eff}(B + C) = 4,\\quad \\text{Eff}(C + A) = 6$$\n$$2 \\times \\text{Eff}(A + B + C) = 5 + 4 + 6 = 15 \\implies \\text{Eff}(A + B + C) = 7.5\\text{ units/day}$$\n$$\\text{Efficiency of A} = 7.5 - 4 = 3.5 = \\frac{7}{2}\\text{ units/day}$$\n$$\\text{Time taken by A alone} = \\frac{60}{7/2} = \\frac{120}{7} = 17\\frac{1}{7}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 77,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+    "questionText": "R and S can finish a work in 10 days, S and T can finish it in 12 days and T and R can finish in 8 days. In how many days will the work be finished if they all work simultaneously?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{240}{39}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{240}{33}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{240}{37}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{240}{31}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 12, 8) = 120\\text{ units}$$\n$$\\text{Eff}(R + S) = 12,\\quad \\text{Eff}(S + T) = 10,\\quad \\text{Eff}(T + R) = 15$$\n$$2 \\times \\text{Eff}(R + S + T) = 12 + 10 + 15 = 37 \\implies \\text{Eff}(R + S + T) = \\frac{37}{2}\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{120}{37/2} = \\frac{240}{37}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 78,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+    "questionText": "X and Y can complete a piece of work in 18 days, Y and Z can complete the same work in 24 days. If all three of them can complete the same work in 12 days, then in how many days can X and Z complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$14\\frac{2}{5}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "7 days"
+      },
+      {
+        "label": "C",
+        "text": "$12\\frac{3}{5}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "5 days"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(18, 24, 12) = 72\\text{ units}$$\n$$\\text{Eff}(X + Y) = 4,\\quad \\text{Eff}(Y + Z) = 3,\\quad \\text{Eff}(X + Y + Z) = 6$$\n$$\\text{Efficiency of Z} = 6 - 4 = 2,\\quad \\text{Efficiency of X} = 6 - 3 = 3$$\n$$\\text{Efficiency of (X + Z)} = 3 + 2 = 5\\text{ units/day}$$\n$$\\text{Time taken by X and Z} = \\frac{72}{5} = 14\\frac{2}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 79,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+    "questionText": "Ravi and Sanju together can do a job in 2 days, Sanju and Mahesh can do it in 4 days, while Ravi and Mahesh can do it in 2 days. What is the number of days required for Ravi to do the same job alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9 days"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{8}{3}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{5}{3}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "4 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(2, 4, 2) = 4\\text{ units}$$\n$$\\text{Eff}(R + S) = 2,\\quad \\text{Eff}(S + M) = 1,\\quad \\text{Eff}(R + M) = 2$$\n$$2 \\times \\text{Eff}(R + S + M) = 2 + 1 + 2 = 5 \\implies \\text{Eff}(R + S + M) = 2.5\\text{ units/day}$$\n$$\\text{Efficiency of Ravi} = 2.5 - 1 = 1.5 = \\frac{3}{2}\\text{ units/day}$$\n$$\\text{Time taken by Ravi alone} = \\frac{4}{3/2} = \\frac{8}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 80,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC Phase XII 25/06/2024 (Shift-03)",
+    "questionText": "A and B can do a piece of work in 10 days. B and C can do the same work in 12 days. C and A can do the same work in 15 days. If all the three work together, find the number of days required to complete the work.",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 12, 15) = 60\\text{ units}$$\n$$\\text{Eff}(A + B) = 6,\\quad \\text{Eff}(B + C) = 5,\\quad \\text{Eff}(C + A) = 4$$\n$$2 \\times \\text{Eff}(A + B + C) = 6 + 5 + 4 = 15 \\implies \\text{Eff}(A + B + C) = 7.5\\text{ units/day}$$\n$$\\text{Time taken together} = \\frac{60}{7.5} = 8\\text{ days}$$"
+  },
+  {
+    "questionNumber": 81,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CHSL TIER II 02/11/2023",
+    "questionText": "A and B can complete work in 9 days, while B and C can complete the same work in 18 days. When working together A, B and C, can finish the same work in 8 days. How many days will it take for A and C to complete the work together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(9, 18, 8) = 72\\text{ units}$$\n$$\\text{Eff}(A + B) = 8,\\quad \\text{Eff}(B + C) = 4,\\quad \\text{Eff}(A + B + C) = 9$$\n$$\\text{Efficiency of C} = 9 - 8 = 1,\\quad \\text{Efficiency of A} = 9 - 4 = 5$$\n$$\\text{Efficiency of (A + C)} = 5 + 1 = 6\\text{ units/day}$$\n$$\\text{Time taken by A and C} = \\frac{72}{6} = 12\\text{ days}$$"
+  },
+  {
+    "questionNumber": 82,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL TIER-II 26/10/2023",
+    "questionText": "A and B can complete a job together in 12.5 days, B and C can complete the same job together in 18.75 days, while C and A can complete the same job together in 15 days. In how many days will A, B and C together be able to complete the same job alongside D, who is only 40% as efficient as C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9\\frac{1}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$9\\frac{17}{27}$"
+      },
+      {
+        "label": "C",
+        "text": "$9\\frac{2}{3}$"
+      },
+      {
+        "label": "D",
+        "text": "$9\\frac{7}{27}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = 75\\text{ units}$$\n$$\\text{Eff}(A + B) = \\frac{75}{12.5} = 6,\\quad \\text{Eff}(B + C) = \\frac{75}{18.75} = 4,\\quad \\text{Eff}(C + A) = \\frac{75}{15} = 5$$\n$$2 \\times \\text{Eff}(A + B + C) = 6 + 4 + 5 = 15 \\implies \\text{Eff}(A + B + C) = 7.5\\text{ units/day}$$\n$$\\text{Efficiency of C} = 7.5 - 6 = 1.5\\text{ units/day}$$\n$$\\text{Efficiency of D} = 40\\% \\times 1.5 = 0.6\\text{ units/day}$$\n$$\\text{Efficiency of (A + B + C + D)} = 7.5 + 0.6 = 8.1 = \\frac{81}{10}\\text{ units/day}$$\n$$\\text{Time taken} = \\frac{75}{81/10} = \\frac{750}{81} = \\frac{250}{27} = 9\\frac{7}{27}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 83,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL TIER-II 29/01/2022",
+    "questionText": "A and B can do a work in $26\\frac{2}{3}$ days. B and C together can complete the same work in 48 days, while A and C together can complete the same work in 30 days. How long (in days) will A alone take to complete 60% of the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "32"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$26\\frac{2}{3} = \\frac{80}{3}\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(80, 48, 30) = 240\\text{ units}$$\n$$\\text{Eff}(A + B) = 9,\\quad \\text{Eff}(B + C) = 5,\\quad \\text{Eff}(A + C) = 8$$\n$$2 \\times \\text{Eff}(A + B + C) = 22 \\implies \\text{Eff}(A + B + C) = 11\\text{ units/day}$$\n$$\\text{Efficiency of A} = 11 - 5 = 6\\text{ units/day}$$\n$$60\\%\\text{ of work} = 0.60 \\times 240 = 144\\text{ units}$$\n$$\\text{Time taken by A alone} = \\frac{144}{6} = 24\\text{ days}$$"
+  },
+  {
+    "questionNumber": 84,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CPO 23/11/2020 (Shift-02)",
+    "questionText": "A and B can do a piece of work in 36 days. B and C can do the same work in 60 days. A and C can do the same work in 45 days. In how many days can A alone complete the same work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "90"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "60"
+      },
+      {
+        "label": "D",
+        "text": "120"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(36, 60, 45) = 180\\text{ units}$$\n$$\\text{Eff}(A + B) = 5,\\quad \\text{Eff}(B + C) = 3,\\quad \\text{Eff}(A + C) = 4$$\n$$2 \\times \\text{Eff}(A + B + C) = 12 \\implies \\text{Eff}(A + B + C) = 6\\text{ units/day}$$\n$$\\text{Efficiency of A} = 6 - 3 = 3\\text{ units/day}$$\n$$\\text{Time taken by A alone} = \\frac{180}{3} = 60\\text{ days}$$"
+  },
+  {
+    "questionNumber": 85,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC PHASE-IX 2022",
+    "questionText": "X and Y together can complete a piece of work in 20 days, while Y and Z together can complete it in 24 days. After X worked on it for 10 days and Y for 18 days, Z alone completed the remaining work in another 13 days. X and Z together can complete 75% of the original work in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 days"
+      },
+      {
+        "label": "B",
+        "text": "9 days"
+      },
+      {
+        "label": "C",
+        "text": "10 days"
+      },
+      {
+        "label": "D",
+        "text": "8 days"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Let work be } W.$$\n$$x + y = \\frac{W}{20},\\quad y + z = \\frac{W}{24}$$\n$$10x + 18y + 13z = W \\implies 10(x + y) + 8(y + z) + 5z = W$$\n$$10\\left(\\frac{W}{20}\\right) + 8\\left(\\frac{W}{24}\\right) + 5z = W \\implies \\frac{W}{2} + \\frac{W}{3} + 5z = W$$\n$$5z = W - \\frac{5W}{6} = \\frac{W}{6} \\implies z = \\frac{W}{30}$$\n$$x = \\frac{W}{20} - \\left(\\frac{W}{24} - \\frac{W}{30}\\right) = \\frac{W}{20} - \\frac{W}{120} = \\frac{5W}{120} = \\frac{W}{24}$$\n$$\\text{Combined rate of X and Z} = \\frac{W}{24} + \\frac{W}{30} = \\frac{9W}{120} = \\frac{3W}{40}$$\n$$\\text{Time for } 75\\%\\text{ work} = \\frac{0.75W}{3W/40} = 10\\text{ days}$$"
+  },
+  {
+    "questionNumber": 86,
+    "typeHeader": "TYPE - II: BASED ON THREE VARIABLES",
+    "examShift": "SSC CGL TIER-II (18/01/2023)",
+    "questionText": "Rani and Adya, working separately, can finish a task in 12 days and 16 days, respectively. They work in stretches of one day alternately. If Rani starts working first, then the task will be completed in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$13\\frac{2}{3}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$13\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$12\\frac{2}{3}\\text{ days}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 16) = 48\\text{ units}$$\n$$\\text{Efficiency of Rani} = 4,\\quad \\text{Efficiency of Adya} = 3$$\n$$\\text{Work in 2-day cycle} = 4 + 3 = 7\\text{ units}$$\n$$\\text{In 6 cycles (12 days), work done} = 6 \\times 7 = 42\\text{ units}$$\n$$\\text{Remaining work} = 48 - 42 = 6\\text{ units}$$\n$$\\text{Day 13: Rani works and does } 4\\text{ units. Remaining} = 2\\text{ units}$$\n$$\\text{Day 14: Adya works and takes } \\frac{2}{3}\\text{ of a day}$$\n$$\\text{Total time} = 12 + 1 + \\frac{2}{3} = 13\\frac{2}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 87,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+    "questionText": "A and B can do a work in 13 days and 26 days, respectively. If they work for a day alternately, starting with A, then in how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "17"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "13"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(13, 26) = 26\\text{ units}$$\n$$\\text{Efficiency of A} = 2,\\quad \\text{Efficiency of B} = 1$$\n$$\\text{Work in 2-day cycle} = 2 + 1 = 3\\text{ units}$$\n$$\\text{In 8 cycles (16 days), work done} = 8 \\times 3 = 24\\text{ units}$$\n$$\\text{Remaining work} = 26 - 24 = 2\\text{ units}$$\n$$\\text{Day 17: A finishes the remaining } 2\\text{ units in } 1\\text{ day}$$\n$$\\text{Total time} = 16 + 1 = 17\\text{ days}$$"
+  },
+  {
+    "questionNumber": 88,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+    "questionText": "Akash and Vikash can complete a work in 40 days and 60 days, respectively. In how many days will the entire work be completed if they work on alternate days, starting with Akash?",
+    "options": [
+      {
+        "label": "A",
+        "text": "48"
+      },
+      {
+        "label": "B",
+        "text": "52"
+      },
+      {
+        "label": "C",
+        "text": "50"
+      },
+      {
+        "label": "D",
+        "text": "42"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(40, 60) = 120\\text{ units}$$\n$$\\text{Efficiency of Akash} = 3,\\quad \\text{Efficiency of Vikash} = 2$$\n$$\\text{Work in 2-day cycle} = 3 + 2 = 5\\text{ units}$$\n$$\\text{Number of cycles} = \\frac{120}{5} = 24\\text{ cycles}$$\n$$\\text{Total days} = 24 \\times 2 = 48\\text{ days}$$"
+  },
+  {
+    "questionNumber": 89,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+    "questionText": "Rajan and Rajat can do a work in 64 days and 48 days, respectively. Starting with Rajat, they work on alternate days. In how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "55"
+      },
+      {
+        "label": "B",
+        "text": "$55\\frac{3}{4}$"
+      },
+      {
+        "label": "C",
+        "text": "54"
+      },
+      {
+        "label": "D",
+        "text": "$54\\frac{3}{4}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(64, 48) = 192\\text{ units}$$\n$$\\text{Efficiency of Rajan} = 3,\\quad \\text{Efficiency of Rajat} = 4$$\n$$\\text{Starting with Rajat, work in 2-day cycle} = 4 + 3 = 7\\text{ units}$$\n$$\\text{In 27 cycles (54 days), work done} = 27 \\times 7 = 189\\text{ units}$$\n$$\\text{Remaining work} = 192 - 189 = 3\\text{ units}$$\n$$\\text{Day 55: Rajat works and takes } \\frac{3}{4}\\text{ day}$$\n$$\\text{Total time} = 54 + \\frac{3}{4} = 54\\frac{3}{4}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 90,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC Phase XII 26/06/2024 (Shift-04)",
+    "questionText": "A and B can do a piece of work separately in 10 days and 8 days, respectively. If they work alternately and A begins the work, in how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 8) = 40\\text{ units}$$\n$$\\text{Efficiency of A} = 4,\\quad \\text{Efficiency of B} = 5$$\n$$\\text{Work in 2-day cycle} = 4 + 5 = 9\\text{ units}$$\n$$\\text{In 4 cycles (8 days), work done} = 4 \\times 9 = 36\\text{ units}$$\n$$\\text{Remaining work} = 40 - 36 = 4\\text{ units}$$\n$$\\text{Day 9: A works and finishes } 4\\text{ units in exactly } 1\\text{ day}$$\n$$\\text{Total time} = 8 + 1 = 9\\text{ days}$$"
+  },
+  {
+    "questionNumber": 91,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC Phase XII 25/06/2024 (Shift-03)",
+    "questionText": "X and Y can do a piece of work in 18 days and 27 days, respectively. Starting with X, they work on alternate days. The whole number of days to complete the work by X and Y is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$21\\frac{1}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "24"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "21"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(18, 27) = 54\\text{ units}$$\n$$\\text{Efficiency of X} = 3,\\quad \\text{Efficiency of Y} = 2$$\n$$\\text{Work in 2-day cycle} = 3 + 2 = 5\\text{ units}$$\n$$\\text{In 10 cycles (20 days), work done} = 10 \\times 5 = 50\\text{ units}$$\n$$\\text{Remaining work} = 54 - 50 = 4\\text{ units}$$\n$$\\text{Day 21: X does } 3\\text{ units. Remaining} = 1\\text{ unit}$$\n$$\\text{Day 22: Y takes } \\frac{1}{2}\\text{ day}$$\n$$\\text{Total time} = 20 + 1 + \\frac{1}{2} = 21\\frac{1}{2}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 92,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC Phase XII 25/06/2024 (Shift-04)",
+    "questionText": "Sarthak and Mohan are working on alternate days in a workshop. Sarthak can complete the work in 20 days while Mohan can finish in 25 days. Sarthak works on the 1st day, Mohan on the 2nd day, and so on. How much time (in days) will they take on alternate basis?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$22\\frac{1}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$22\\frac{1}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "23"
+      },
+      {
+        "label": "D",
+        "text": "$20\\frac{1}{5}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 25) = 100\\text{ units}$$\n$$\\text{Efficiency of Sarthak} = 5,\\quad \\text{Efficiency of Mohan} = 4$$\n$$\\text{Work in 2-day cycle} = 5 + 4 = 9\\text{ units}$$\n$$\\text{In 11 cycles (22 days), work done} = 11 \\times 9 = 99\\text{ units}$$\n$$\\text{Remaining work} = 100 - 99 = 1\\text{ unit}$$\n$$\\text{Day 23: Sarthak takes } \\frac{1}{5}\\text{ day}$$\n$$\\text{Total time} = 22 + \\frac{1}{5} = 22\\frac{1}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 93,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC Phase XII 26/06/2024 (Shift-02)",
+    "questionText": "Working separately, A and B can complete a work in 15 days and 18 days, respectively. If A starts the work and they work on alternate days, one on each day, then in how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15\\frac{2}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$17\\frac{1}{3}$"
+      },
+      {
+        "label": "C",
+        "text": "$18\\frac{2}{3}$"
+      },
+      {
+        "label": "D",
+        "text": "$16\\frac{1}{3}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 18) = 90\\text{ units}$$\n$$\\text{Efficiency of A} = 6,\\quad \\text{Efficiency of B} = 5$$\n$$\\text{Work in 2-day cycle} = 6 + 5 = 11\\text{ units}$$\n$$\\text{In 8 cycles (16 days), work done} = 8 \\times 11 = 88\\text{ units}$$\n$$\\text{Remaining work} = 90 - 88 = 2\\text{ units}$$\n$$\\text{Day 17: A takes } \\frac{2}{6} = \\frac{1}{3}\\text{ day}$$\n$$\\text{Total time} = 16 + \\frac{1}{3} = 16\\frac{1}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 94,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+    "questionText": "Akshita and Raina are typing a book, but have only one laptop to work upon. They decided that they will work on alternate basis such that Akshita works for the first day, Raina works for the second day, Akshita for the third day and so on. Akshita alone can finish the typing work in 16 days, while Raina will take 24 days if she works alone on the entire book. How many days will they take to finish the typing work if they work on alternate basis?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19 days"
+      },
+      {
+        "label": "B",
+        "text": "15 days"
+      },
+      {
+        "label": "C",
+        "text": "17 days"
+      },
+      {
+        "label": "D",
+        "text": "18 days"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(16, 24) = 48\\text{ units}$$\n$$\\text{Efficiency of Akshita} = 3,\\quad \\text{Efficiency of Raina} = 2$$\n$$\\text{Work in 2-day cycle} = 3 + 2 = 5\\text{ units}$$\n$$\\text{In 9 cycles (18 days), work done} = 9 \\times 5 = 45\\text{ units}$$\n$$\\text{Remaining work} = 48 - 45 = 3\\text{ units}$$\n$$\\text{Day 19: Akshita finishes } 3\\text{ units in } 1\\text{ day}$$\n$$\\text{Total time} = 18 + 1 = 19\\text{ days}$$"
+  },
+  {
+    "questionNumber": 95,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC MTS 04/09/2023 (Shift-01)",
+    "questionText": "A work can be completed by P and Q working separately in 12 and 18 days, respectively. But they work on alternate days beginning with P. How many days will it take to complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$14\\frac{1}{12}$"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "$14\\frac{1}{3}$"
+      },
+      {
+        "label": "D",
+        "text": "$14\\frac{1}{4}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 18) = 36\\text{ units}$$\n$$\\text{Efficiency of P} = 3,\\quad \\text{Efficiency of Q} = 2$$\n$$\\text{Work in 2-day cycle} = 3 + 2 = 5\\text{ units}$$\n$$\\text{In 7 cycles (14 days), work done} = 7 \\times 5 = 35\\text{ units}$$\n$$\\text{Remaining work} = 36 - 35 = 1\\text{ unit}$$\n$$\\text{Day 15: P takes } \\frac{1}{3}\\text{ day}$$\n$$\\text{Total time} = 14 + \\frac{1}{3} = 14\\frac{1}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 96,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 18/07/2023 (Shift-02)",
+    "questionText": "Amar can complete a work in 15 days and Prem in 12 days. Starting with Amar, they work on alternate days. In how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$13\\frac{1}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "$12\\frac{1}{6}$"
+      },
+      {
+        "label": "C",
+        "text": "$13\\frac{2}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 12) = 60\\text{ units}$$\n$$\\text{Efficiency of Amar} = 4,\\quad \\text{Efficiency of Prem} = 5$$\n$$\\text{Work in 2-day cycle} = 4 + 5 = 9\\text{ units}$$\n$$\\text{In 6 cycles (12 days), work done} = 6 \\times 9 = 54\\text{ units}$$\n$$\\text{Remaining work} = 60 - 54 = 6\\text{ units}$$\n$$\\text{Day 13: Amar does } 4\\text{ units. Remaining} = 2\\text{ units}$$\n$$\\text{Day 14: Prem takes } \\frac{2}{5}\\text{ day}$$\n$$\\text{Total time} = 12 + 1 + \\frac{2}{5} = 13\\frac{2}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 97,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 14/07/2023 (Shift-01)",
+    "questionText": "A can complete a piece of work in 25 days while B can complete the same work in 30 days. They work on alternate basis, starting with A. Both A and B follow this pattern for 5 days and then A leaves the work. In how many days will B finish the remaining work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$24\\frac{2}{5}$"
+      },
+      {
+        "label": "B",
+        "text": "$5\\frac{2}{5}$"
+      },
+      {
+        "label": "C",
+        "text": "$5\\frac{3}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "$24\\frac{3}{5}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(25, 30) = 150\\text{ units}$$\n$$\\text{Efficiency of A} = 6,\\quad \\text{Efficiency of B} = 5$$\n$$\\text{Pattern for 5 days: A, B, A, B, A (A works 3 days, B works 2 days)}$$\n$$\\text{Work done in 5 days} = (3 \\times 6) + (2 \\times 5) = 18 + 10 = 28\\text{ units}$$\n$$\\text{Remaining work} = 150 - 28 = 122\\text{ units}$$\n$$\\text{Time taken by B alone} = \\frac{122}{5} = 24\\frac{2}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 98,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC MTS 06/09/2023 (Shift-02)",
+    "questionText": "A and B can finish a work in $5\\frac{1}{3}$ days. A alone can finish this work in 8 days. A and B worked on alternate days (starting with B) to finish this work. In how many days will the work be finished?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 days"
+      },
+      {
+        "label": "B",
+        "text": "11 days"
+      },
+      {
+        "label": "C",
+        "text": "$6\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$11\\frac{1}{3}\\text{ days}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$5\\frac{1}{3} = \\frac{16}{3}\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(16, 8) = 16\\text{ units}$$\n$$\\text{Efficiency of (A + B)} = \\frac{16}{16/3} = 3,\\quad \\text{Efficiency of A} = \\frac{16}{8} = 2$$\n$$\\text{Efficiency of B} = 3 - 2 = 1\\text{ unit/day}$$\n$$\\text{Starting with B, work in 2-day cycle} = 1 + 2 = 3\\text{ units}$$\n$$\\text{In 5 cycles (10 days), work done} = 5 \\times 3 = 15\\text{ units}$$\n$$\\text{Remaining work} = 16 - 15 = 1\\text{ unit}$$\n$$\\text{Day 11: B finishes } 1\\text{ unit in } 1\\text{ day}$$\n$$\\text{Total time} = 10 + 1 = 11\\text{ days}$$"
+  },
+  {
+    "questionNumber": 99,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 08/12/2022 (Shift-02)",
+    "questionText": "In a factory, Ajay and Vijay work on the same machine to cut diamonds but on alternate hour basis. Ajay works for the first hour and then Vijay works for the second hour and so on. Ajay can complete the work in 6 hours, while Vijay completes it in 16 hours if they work individually. In how much time can they complete the work if they are using the machine on alternate basis?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8 hours 30 min"
+      },
+      {
+        "label": "B",
+        "text": "8 hours"
+      },
+      {
+        "label": "C",
+        "text": "9 hours"
+      },
+      {
+        "label": "D",
+        "text": "9 hours 30 min"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(6, 16) = 48\\text{ units}$$\n$$\\text{Efficiency of Ajay} = 8\\text{ units/hour},\\quad \\text{Efficiency of Vijay} = 3\\text{ units/hour}$$\n$$\\text{Work in 2-hour cycle} = 8 + 3 = 11\\text{ units}$$\n$$\\text{In 4 cycles (8 hours), work done} = 4 \\times 11 = 44\\text{ units}$$\n$$\\text{Remaining work} = 48 - 44 = 4\\text{ units}$$\n$$\\text{Hour 9: Ajay works and takes } \\frac{4}{8} = \\frac{1}{2}\\text{ hour} = 30\\text{ minutes}$$\n$$\\text{Total time} = 8\\text{ hours } 30\\text{ minutes}$$"
+  },
+  {
+    "questionNumber": 100,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 13/12/2022 (Shift-03)",
+    "questionText": "Two persons A and B working separately can sanitise a building in 6 and 10 hours, respectively. They work in stretches of one hour alternately. In how many hours will the work be finished?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9\\frac{1}{3}\\text{ hours}$"
+      },
+      {
+        "label": "B",
+        "text": "$8\\frac{1}{3}\\text{ hours}$"
+      },
+      {
+        "label": "C",
+        "text": "$6\\frac{1}{3}\\text{ hours}$"
+      },
+      {
+        "label": "D",
+        "text": "$7\\frac{1}{3}\\text{ hours}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(6, 10) = 30\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 3$$\n$$\\text{Work in 2-hour cycle} = 5 + 3 = 8\\text{ units}$$\n$$\\text{In 3 cycles (6 hours), work done} = 3 \\times 8 = 24\\text{ units}$$\n$$\\text{Remaining work} = 30 - 24 = 6\\text{ units}$$\n$$\\text{Hour 7: A does } 5\\text{ units. Remaining} = 1\\text{ unit}$$\n$$\\text{Hour 8: B takes } \\frac{1}{3}\\text{ hour}$$\n$$\\text{Total time} = 6 + 1 + \\frac{1}{3} = 7\\frac{1}{3}\\text{ hours}$$"
+  },
+  {
+    "questionNumber": 101,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CHSL 24/05/2022 (Shift-03)",
+    "questionText": "Avi and Bindu can complete a project in 4 and 12 hours, respectively. Avi begins project at 5 a.m., and they work alternately for one hour each. When will the project be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9 am."
+      },
+      {
+        "label": "B",
+        "text": "11 am."
+      },
+      {
+        "label": "C",
+        "text": "1 pm."
+      },
+      {
+        "label": "D",
+        "text": "10 am."
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(4, 12) = 12\\text{ units}$$\n$$\\text{Efficiency of Avi} = 3,\\quad \\text{Efficiency of Bindu} = 1$$\n$$\\text{Work in 2-hour cycle} = 3 + 1 = 4\\text{ units}$$\n$$\\text{Number of cycles} = \\frac{12}{4} = 3\\text{ cycles}$$\n$$\\text{Total hours taken} = 3 \\times 2 = 6\\text{ hours}$$\n$$\\text{Completion time} = 5\\text{ a.m.} + 6\\text{ hours} = 11\\text{ a.m.}$$"
+  },
+  {
+    "questionNumber": 102,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CHSL 26/05/2022 (Shift-02)",
+    "questionText": "A man takes 16 days to complete a project. A woman does the same work in 12 days. They started the work together on alternate days and the man worked on the first day. How much time will they take to complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{58}{4}\\text{ Days}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{55}{4}\\text{ Days}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{33}{4}\\text{ Days}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{61}{4}\\text{ Days}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(16, 12) = 48\\text{ units}$$\n$$\\text{Efficiency of Man} = 3,\\quad \\text{Efficiency of Woman} = 4$$\n$$\\text{Work in 2-day cycle} = 3 + 4 = 7\\text{ units}$$\n$$\\text{In 6 cycles (12 days), work done} = 6 \\times 7 = 42\\text{ units}$$\n$$\\text{Remaining work} = 48 - 42 = 6\\text{ units}$$\n$$\\text{Day 13: Man works and does } 3\\text{ units. Remaining} = 3\\text{ units}$$\n$$\\text{Day 14: Woman works and takes } \\frac{3}{4}\\text{ day}$$\n$$\\text{Total time} = 12 + 1 + \\frac{3}{4} = 13\\frac{3}{4} = \\frac{55}{4}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 103,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC MTS 04/09/2023 (Shift-02)",
+    "questionText": "A, B and C can complete a work in 10, 15 and 20 days, respectively. They work on alternate days such that 1st day A, 2nd day B and 3rd day C. Again 4th day A, 5th day B and so on. If they work in the same way, in how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$13\\frac{1}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "$13\\frac{1}{4}$"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 15, 20) = 60\\text{ units}$$\n$$\\text{Efficiency of A} = 6,\\quad \\text{Efficiency of B} = 4,\\quad \\text{Efficiency of C} = 3$$\n$$\\text{Work in 3-day cycle} = 6 + 4 + 3 = 13\\text{ units}$$\n$$\\text{In 4 cycles (12 days), work done} = 4 \\times 13 = 52\\text{ units}$$\n$$\\text{Remaining work} = 60 - 52 = 8\\text{ units}$$\n$$\\text{Day 13: A does } 6\\text{ units. Remaining} = 2\\text{ units}$$\n$$\\text{Day 14: B takes } \\frac{2}{4} = \\frac{1}{2}\\text{ day}$$\n$$\\text{Total time} = 12 + 1 + \\frac{1}{2} = 13\\frac{1}{2}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 104,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC MTS 14/09/2023 (Shift-02)",
+    "questionText": "If Mohit, Nitu and Soma can complete a piece of work in 5 days, 6 days and 8 days, respectively, then in how many days will the work be completed if they work on alternate days starting with Mohit on first day, then Nitu on second day, then Soma on third day, then Mohit on fourth day and so on.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5\\frac{7}{12}$"
+      },
+      {
+        "label": "B",
+        "text": "$7\\frac{1}{60}$"
+      },
+      {
+        "label": "C",
+        "text": "$6\\frac{1}{12}$"
+      },
+      {
+        "label": "D",
+        "text": "$4\\frac{7}{15}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(5, 6, 8) = 120\\text{ units}$$\n$$\\text{Efficiency of Mohit} = 24,\\quad \\text{Efficiency of Nitu} = 20,\\quad \\text{Efficiency of Soma} = 15$$\n$$\\text{Work in 3-day cycle} = 24 + 20 + 15 = 59\\text{ units}$$\n$$\\text{In 2 cycles (6 days), work done} = 2 \\times 59 = 118\\text{ units}$$\n$$\\text{Remaining work} = 120 - 118 = 2\\text{ units}$$\n$$\\text{Day 7: Mohit takes } \\frac{2}{24} = \\frac{1}{12}\\text{ day}$$\n$$\\text{Total time} = 6 + \\frac{1}{12} = 6\\frac{1}{12}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 105,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC Phase XI 27/06/2023 (Shift-01)",
+    "questionText": "A, B and C can separately complete a work in 20, 25 and 30 days, respectively. If A works on the first day alone, B on second day alone and C on the third day alone, and this sequence goes on further, in how many days will the entire work be finished?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$25\\frac{4}{15}$"
+      },
+      {
+        "label": "B",
+        "text": "$24\\frac{1}{75}$"
+      },
+      {
+        "label": "C",
+        "text": "$25\\frac{1}{75}$"
+      },
+      {
+        "label": "D",
+        "text": "$24\\frac{4}{15}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 25, 30) = 300\\text{ units}$$\n$$\\text{Efficiency of A} = 15,\\quad \\text{Efficiency of B} = 12,\\quad \\text{Efficiency of C} = 10$$\n$$\\text{Work in 3-day cycle} = 15 + 12 + 10 = 37\\text{ units}$$\n$$\\text{In 8 cycles (24 days), work done} = 8 \\times 37 = 296\\text{ units}$$\n$$\\text{Remaining work} = 300 - 296 = 4\\text{ units}$$\n$$\\text{Day 25: A takes } \\frac{4}{15}\\text{ day}$$\n$$\\text{Total time} = 24 + \\frac{4}{15} = 24\\frac{4}{15}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 106,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC MTS 05/09/2023 (Shift-02)",
+    "questionText": "Tushar, Megha, Punam and Richa can complete a piece of work in 10 days, 12 days, 15 days and 18 days, respectively. In how many days will the work be completed if each of them work on alternate days starting with Megha on first day, Punam on second day, Richa on third day, Tushar on fourth day and then again Megha on fifth day and so on.",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "13"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 12, 15, 18) = 180\\text{ units}$$\n$$\\text{Eff}(\\text{Megha}) = 15,\\quad \\text{Eff}(\\text{Punam}) = 12,\\quad \\text{Eff}(\\text{Richa}) = 10,\\quad \\text{Eff}(\\text{Tushar}) = 18$$\n$$\\text{Order: Megha, Punam, Richa, Tushar}$$\n$$\\text{Work in 4-day cycle} = 15 + 12 + 10 + 18 = 55\\text{ units}$$\n$$\\text{In 3 cycles (12 days), work done} = 3 \\times 55 = 165\\text{ units}$$\n$$\\text{Remaining work} = 180 - 165 = 15\\text{ units}$$\n$$\\text{Day 13: Megha finishes } 15\\text{ units in exactly } 1\\text{ day}$$\n$$\\text{Total time} = 12 + 1 = 13\\text{ days}$$"
+  },
+  {
+    "questionNumber": 107,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CHSL 25/05/2022 (Shift-01)",
+    "questionText": "A can do a piece of work in 24 days and B can do it in 80 days. B works alone for 2 days and A works alone on the 3rd day. This process continues till the work is completed. In how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "42"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "48"
+      },
+      {
+        "label": "D",
+        "text": "44"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(24, 80) = 240\\text{ units}$$\n$$\\text{Efficiency of A} = 10,\\quad \\text{Efficiency of B} = 3$$\n$$\\text{Work in 3-day cycle (B, B, A)} = 3 + 3 + 10 = 16\\text{ units}$$\n$$\\text{Number of cycles} = \\frac{240}{16} = 15\\text{ cycles}$$\n$$\\text{Total time} = 15 \\times 3 = 45\\text{ days}$$"
+  },
+  {
+    "questionNumber": 108,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+    "questionText": "A can complete a piece of work alone in 200 days, while B can complete the same piece of work alone in 100 days. In every three-day cycle, both A and B work on day 1, only A works on day 2, and only B works on day 3. This cycle continues till the work is completed. How many days in all does it take the duo to complete the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$100\\frac{1}{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$99\\frac{2}{3}$"
+      },
+      {
+        "label": "C",
+        "text": "$100\\frac{1}{2}$"
+      },
+      {
+        "label": "D",
+        "text": "100"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(200, 100) = 200\\text{ units}$$\n$$\\text{Efficiency of A} = 1,\\quad \\text{Efficiency of B} = 2$$\n$$\\text{Day 1 (A + B)} = 3,\\quad \\text{Day 2 (A)} = 1,\\quad \\text{Day 3 (B)} = 2$$\n$$\\text{Work in 3-day cycle} = 3 + 1 + 2 = 6\\text{ units}$$\n$$\\text{In 33 cycles (99 days), work done} = 33 \\times 6 = 198\\text{ units}$$\n$$\\text{Remaining work} = 200 - 198 = 2\\text{ units}$$\n$$\\text{Day 100: (A + B) work together and take } \\frac{2}{3}\\text{ day}$$\n$$\\text{Total time} = 99 + \\frac{2}{3} = 99\\frac{2}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 109,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+    "questionText": "P, Q and R can do a piece of work in 20 days, 30 days and 60 days respectively. If P works daily and on every third day Q and R also work with P, then in how many days, will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "21 days"
+      },
+      {
+        "label": "B",
+        "text": "12 days"
+      },
+      {
+        "label": "C",
+        "text": "18 days"
+      },
+      {
+        "label": "D",
+        "text": "15 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 30, 60) = 60\\text{ units}$$\n$$\\text{Efficiency of P} = 3,\\quad \\text{Efficiency of Q} = 2,\\quad \\text{Efficiency of R} = 1$$\n$$\\text{Day 1 (P)} = 3,\\quad \\text{Day 2 (P)} = 3,\\quad \\text{Day 3 (P + Q + R)} = 6$$\n$$\\text{Work in 3-day cycle} = 3 + 3 + 6 = 12\\text{ units}$$\n$$\\text{Number of cycles} = \\frac{60}{12} = 5\\text{ cycles}$$\n$$\\text{Total days} = 5 \\times 3 = 15\\text{ days}$$"
+  },
+  {
+    "questionNumber": 110,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 05/10/2023 (Shift-03)",
+    "questionText": "A, B and C can do a piece of work in 11 days, 20 days and 55 days respectively. How soon can the work be done if A works with B on first day, A works with C on second day and so on?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9 days"
+      },
+      {
+        "label": "B",
+        "text": "$9\\frac{1}{2}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$8\\frac{1}{2}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "8 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(11, 20, 55) = 220\\text{ units}$$\n$$\\text{Efficiency of A} = 20,\\quad \\text{Efficiency of B} = 11,\\quad \\text{Efficiency of C} = 4$$\n$$\\text{Day 1 (A + B)} = 20 + 11 = 31\\text{ units}$$\n$$\\text{Day 2 (A + C)} = 20 + 4 = 24\\text{ units}$$\n$$\\text{Work in 2-day cycle} = 31 + 24 = 55\\text{ units}$$\n$$\\text{Number of cycles} = \\frac{220}{55} = 4\\text{ cycles}$$\n$$\\text{Total days} = 4 \\times 2 = 8\\text{ days}$$"
+  },
+  {
+    "questionNumber": 111,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 26/07/2023 (Shift-03)",
+    "questionText": "X, Y and Z can complete a work in 5 days, 15 days and 30 days, respectively. In how many days can the work be completed if X is assisted by Y and Z together, on every second day?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 days"
+      },
+      {
+        "label": "B",
+        "text": "4 days"
+      },
+      {
+        "label": "C",
+        "text": "7 days"
+      },
+      {
+        "label": "D",
+        "text": "6 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(5, 15, 30) = 30\\text{ units}$$\n$$\\text{Efficiency of X} = 6,\\quad \\text{Efficiency of Y} = 2,\\quad \\text{Efficiency of Z} = 1$$\n$$\\text{Day 1 (X alone)} = 6\\text{ units}$$\n$$\\text{Day 2 (X + Y + Z)} = 6 + 2 + 1 = 9\\text{ units}$$\n$$\\text{Work in 2-day cycle} = 6 + 9 = 15\\text{ units}$$\n$$\\text{Number of cycles} = \\frac{30}{15} = 2\\text{ cycles}$$\n$$\\text{Total days} = 2 \\times 2 = 4\\text{ days}$$"
+  },
+  {
+    "questionNumber": 112,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL TIER-II 07/03/2023",
+    "questionText": "P, Q and R can finish a work in 5 days, 10 days, and 15 days, respectively, working alone. P and Q works on first day, P and R works on second day and P and Q works on third day and so on till the work is completed. In how many days the work will be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{13}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{9}{2}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{7}{2}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{5}{2}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(5, 10, 15) = 30\\text{ units}$$\n$$\\text{Efficiency of P} = 6,\\quad \\text{Efficiency of Q} = 3,\\quad \\text{Efficiency of R} = 2$$\n$$\\text{Day 1 (P + Q)} = 6 + 3 = 9\\text{ units}$$\n$$\\text{Day 2 (P + R)} = 6 + 2 = 8\\text{ units}$$\n$$\\text{Work in 2-day cycle} = 9 + 8 = 17\\text{ units}$$\n$$\\text{Remaining work after 2 days} = 30 - 17 = 13\\text{ units}$$\n$$\\text{Day 3 (P + Q)} = 9\\text{ units. Remaining} = 13 - 9 = 4\\text{ units}$$\n$$\\text{Day 4 (P + R)} = \\frac{4}{8} = \\frac{1}{2}\\text{ day}$$\n$$\\text{Total time} = 2 + 1 + \\frac{1}{2} = \\frac{7}{2}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 113,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 01/12/2022 (Shift-02)",
+    "questionText": "A, B and C can complete a piece of work separately in 10, 20 and 40 days, respectively. In how many days will the work be completed if A is assisted by both B and C every third day?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$8\\frac{2}{7}$"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "$10\\frac{2}{3}$"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 20, 40) = 40\\text{ units}$$\n$$\\text{Efficiency of A} = 4,\\quad \\text{Efficiency of B} = 2,\\quad \\text{Efficiency of C} = 1$$\n$$\\text{Day 1 (A)} = 4,\\quad \\text{Day 2 (A)} = 4,\\quad \\text{Day 3 (A + B + C)} = 4 + 2 + 1 = 7$$\n$$\\text{Work in 3-day cycle} = 4 + 4 + 7 = 15\\text{ units}$$\n$$\\text{In 2 cycles (6 days), work done} = 2 \\times 15 = 30\\text{ units}$$\n$$\\text{Remaining work} = 40 - 30 = 10\\text{ units}$$\n$$\\text{Day 7: A does } 4\\text{ units. Remaining} = 6\\text{ units}$$\n$$\\text{Day 8: A does } 4\\text{ units. Remaining} = 2\\text{ units}$$\n$$\\text{Day 9: (A + B + C) take } \\frac{2}{7}\\text{ day}$$\n$$\\text{Total time} = 6 + 2 + \\frac{2}{7} = 8\\frac{2}{7}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 114,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 03/12/2022 (Shift-01)",
+    "questionText": "Ruchi, Khushi and Teju can do a piece of work in 30, 40 and 60 days respectively. In how many days can Ruchi do the work, if she is assisted by both Khushi and Teju on every third day?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{550}{12}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{85}{4}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{71}{2}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{360}{17}\\text{ days}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(30, 40, 60) = 120\\text{ units}$$\n$$\\text{Efficiency of Ruchi} = 4,\\quad \\text{Efficiency of Khushi} = 3,\\quad \\text{Efficiency of Teju} = 2$$\n$$\\text{Day 1 (Ruchi)} = 4,\\quad \\text{Day 2 (Ruchi)} = 4,\\quad \\text{Day 3 (All three)} = 9$$\n$$\\text{Work in 3-day cycle} = 4 + 4 + 9 = 17\\text{ units}$$\n$$\\text{In 7 cycles (21 days), work done} = 7 \\times 17 = 119\\text{ units}$$\n$$\\text{Remaining work} = 120 - 119 = 1\\text{ unit}$$\n$$\\text{Day 22: Ruchi takes } \\frac{1}{4}\\text{ day}$$\n$$\\text{Total time} = 21 + \\frac{1}{4} = \\frac{85}{4}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 115,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 06/12/2022 (Shift-01)",
+    "questionText": "A, B and C can do a piece of work in 11 days, 20 days and 55 days respectively. If B works daily and is supported by A and C on alternate days beginning with A, then in how many days will the work be finished?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "$9\\frac{1}{3}$"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(11, 20, 55) = 220\\text{ units}$$\n$$\\text{Efficiency of A} = 20,\\quad \\text{Efficiency of B} = 11,\\quad \\text{Efficiency of C} = 4$$\n$$\\text{Day 1 (B + A)} = 11 + 20 = 31\\text{ units}$$\n$$\\text{Day 2 (B + C)} = 11 + 4 = 15\\text{ units}$$\n$$\\text{Work in 2-day cycle} = 31 + 15 = 46\\text{ units}$$\n$$\\text{In 4 cycles (8 days), work done} = 4 \\times 46 = 184\\text{ units}$$\n$$\\text{Remaining work} = 220 - 184 = 36\\text{ units}$$\n$$\\text{Day 9 (B + A)} = 31\\text{ units. Remaining} = 5\\text{ units}$$\n$$\\text{Day 10 (B + C)} = \\frac{5}{15} = \\frac{1}{3}\\text{ day}$$\n$$\\text{Total time} = 8 + 1 + \\frac{1}{3} = 9\\frac{1}{3}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 116,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL TIER-II (08/08/2022)",
+    "questionText": "A alone can do a work in 11 days. B alone can do the same work in 22 days. C alone can do the same work in 33 days. They work in the following manner:\nDay 1: A and B work.\nDay 2: B and C work.\nDay 3: C and A work.\nDay 4: A and B work.\nIn how many days will the work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 days"
+      },
+      {
+        "label": "B",
+        "text": "3 days"
+      },
+      {
+        "label": "C",
+        "text": "6 days"
+      },
+      {
+        "label": "D",
+        "text": "9 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(11, 22, 33) = 66\\text{ units}$$\n$$\\text{Efficiency of A} = 6,\\quad \\text{Efficiency of B} = 3,\\quad \\text{Efficiency of C} = 2$$\n$$\\text{Day 1 (A + B)} = 6 + 3 = 9\\text{ units}$$\n$$\\text{Day 2 (B + C)} = 3 + 2 = 5\\text{ units}$$\n$$\\text{Day 3 (C + A)} = 2 + 6 = 8\\text{ units}$$\n$$\\text{Work in 3-day cycle} = 9 + 5 + 8 = 22\\text{ units}$$\n$$\\text{Number of cycles} = \\frac{66}{22} = 3\\text{ cycles}$$\n$$\\text{Total time} = 3 \\times 3 = 9\\text{ days}$$"
+  },
+  {
+    "questionNumber": 117,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+    "questionText": "A and B complete a work in 24 and 30 days, respectively, working 10 hours per day. The work is to be done in two shifts. The morning shift is for 6 hours and the evening shift is for 4 hours. On the first day, A works in the morning and B works in the evening, and they interchange their shifts every day. On which day did the work get completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24th day"
+      },
+      {
+        "label": "B",
+        "text": "27th day"
+      },
+      {
+        "label": "C",
+        "text": "30th day"
+      },
+      {
+        "label": "D",
+        "text": "21th day"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(240, 300) = 1200\\text{ units}$$\n$$\\text{Hourly efficiency of A} = 5,\\quad \\text{Hourly efficiency of B} = 4$$\n$$\\text{Odd days (A in morning 6h, B in evening 4h)} = (6 \\times 5) + (4 \\times 4) = 46\\text{ units}$$\n$$\\text{Even days (B in morning 6h, A in evening 4h)} = (6 \\times 4) + (4 \\times 5) = 44\\text{ units}$$\n$$\\text{Work in 2-day cycle} = 46 + 44 = 90\\text{ units}$$\n$$\\text{In 13 cycles (26 days), work done} = 13 \\times 90 = 1170\\text{ units}$$\n$$\\text{Remaining work} = 1200 - 1170 = 30\\text{ units}$$\n$$\\text{On Day 27 (morning shift), A works 6h and does } 6 \\times 5 = 30\\text{ units}$$\n$$\\text{Thus, the work is completed on the 27th day.}$$"
+  },
+  {
+    "questionNumber": 118,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 24/07/2023 (Shift-04)",
+    "questionText": "R, S and T can finish a work in 20, 15 and 10 days, respectively, R works on all days and S and T work on alternate days with T starting the work on the first day. In how many days is the work finished?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{61}{7}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{50}{7}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{52}{7}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{54}{7}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(20, 15, 10) = 60\\text{ units}$$\n$$\\text{Efficiency of R} = 3,\\quad \\text{Efficiency of S} = 4,\\quad \\text{Efficiency of T} = 6$$\n$$\\text{Day 1 (R + T)} = 3 + 6 = 9\\text{ units}$$\n$$\\text{Day 2 (R + S)} = 3 + 4 = 7\\text{ units}$$\n$$\\text{Work in 2-day cycle} = 9 + 7 = 16\\text{ units}$$\n$$\\text{In 3 cycles (6 days), work done} = 3 \\times 16 = 48\\text{ units}$$\n$$\\text{Remaining work} = 60 - 48 = 12\\text{ units}$$\n$$\\text{Day 7 (R + T)} = 9\\text{ units. Remaining} = 3\\text{ units}$$\n$$\\text{Day 8 (R + S)} = \\frac{3}{7}\\text{ day}$$\n$$\\text{Total time} = 6 + 1 + \\frac{3}{7} = \\frac{52}{7}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 119,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CPO 05/10/2023 (Shift-03)",
+    "questionText": "A and B are equally efficient, and each can individually complete a piece of work in 36 days, if none takes any holiday. A and B started working together on this piece of work, but A took a day off after every five days of work, while B took a day off after every seven days of work. If they had started work on 1 July 2021, on which date was the work completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19 July 2021"
+      },
+      {
+        "label": "B",
+        "text": "20 July 2021"
+      },
+      {
+        "label": "C",
+        "text": "22 July 2021"
+      },
+      {
+        "label": "D",
+        "text": "21 July 2021"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Let efficiency of each be } 1\\text{ unit/day. Total work} = 36\\text{ units.}$$\n$$\\text{A rests on days: 6, 12, 18, 24...}$$\n$$\\text{B rests on days: 8, 16, 24...}$$\n$$\\text{Daily work tracking:}$$\n$$\\text{Days 1 to 5: both work } \\implies 5 \\times 2 = 10\\text{ units (cum. 10)}$$\n$$\\text{Day 6: A rests, B works } \\implies 1\\text{ unit (cum. 11)}$$\n$$\\text{Day 7: both work } \\implies 2\\text{ units (cum. 13)}$$\n$$\\text{Day 8: A works, B rests } \\implies 1\\text{ unit (cum. 14)}$$\n$$\\text{Days 9 to 11: both work } \\implies 3 \\times 2 = 6\\text{ units (cum. 20)}$$\n$$\\text{Day 12: A rests, B works } \\implies 1\\text{ unit (cum. 21)}$$\n$$\\text{Days 13 to 15: both work } \\implies 3 \\times 2 = 6\\text{ units (cum. 27)}$$\n$$\\text{Day 16: A works, B rests } \\implies 1\\text{ unit (cum. 28)}$$\n$$\\text{Day 17: both work } \\implies 2\\text{ units (cum. 30)}$$\n$$\\text{Day 18: A rests, B works } \\implies 1\\text{ unit (cum. 31)}$$\n$$\\text{Days 19 and 20: both work } \\implies 2 \\times 2 = 4\\text{ units (cum. 35)}$$\n$$\\text{Day 21: both work, needing only } 1\\text{ unit to reach 36 units.}$$\n$$\\text{Thus, the work is completed on Day 21, i.e., 21 July 2021.}$$"
+  },
+  {
+    "questionNumber": 120,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 18/07/2023 (Shift-03)",
+    "questionText": "A and B are equally efficient, and each could individually complete a piece of work in 30 days, if none took any holiday. A and B started working together on this piece of work, but A took a day off after every four days of work, while B took a day off after every five days of work. If the duo had started work on 01 August 2022, on which date was the work completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19 August 2022"
+      },
+      {
+        "label": "B",
+        "text": "18 August 2022"
+      },
+      {
+        "label": "C",
+        "text": "16 August 2022"
+      },
+      {
+        "label": "D",
+        "text": "17 August 2022"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Let efficiency of each be } 1\\text{ unit/day. Total work} = 30\\text{ units.}$$\n$$\\text{A rests on days: 5, 10, 15, 20...}$$\n$$\\text{B rests on days: 6, 12, 18, 24...}$$\n$$\\text{Daily tracking:}$$\n$$\\text{Days 1 to 4: both work } \\implies 4 \\times 2 = 8\\text{ units (cum. 8)}$$\n$$\\text{Day 5: A rests, B works } \\implies 1\\text{ unit (cum. 9)}$$\n$$\\text{Day 6: A works, B rests } \\implies 1\\text{ unit (cum. 10)}$$\n$$\\text{Days 7 to 9: both work } \\implies 3 \\times 2 = 6\\text{ units (cum. 16)}$$\n$$\\text{Day 10: A rests, B works } \\implies 1\\text{ unit (cum. 17)}$$\n$$\\text{Day 11: both work } \\implies 2\\text{ units (cum. 19)}$$\n$$\\text{Day 12: A works, B rests } \\implies 1\\text{ unit (cum. 20)}$$\n$$\\text{Days 13 to 14: both work } \\implies 2 \\times 2 = 4\\text{ units (cum. 24)}$$\n$$\\text{Day 15: A rests, B works } \\implies 1\\text{ unit (cum. 25)}$$\n$$\\text{Days 16 to 17: both work } \\implies 2 \\times 2 = 4\\text{ units (cum. 29)}$$\n$$\\text{Day 18: A works (B rests), doing the 30th unit.}$$\n$$\\text{Thus, the work was completed on Day 18, i.e., 18 August 2022.}$$"
+  },
+  {
+    "questionNumber": 121,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC MTS 05/10/2021 (Shift-01)",
+    "questionText": "Two men A and B, each working alone by working 12 hours per day, can complete a work in 20 days. For execution of the work, it was decided that A and B would be working for 8 and 6 hours per day, respectively, on alternate days starting with A. If it takes x days and y hours to complete the work then (x, y) is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "(34, 4)"
+      },
+      {
+        "label": "B",
+        "text": "(33, 4)"
+      },
+      {
+        "label": "C",
+        "text": "(33, 2)"
+      },
+      {
+        "label": "D",
+        "text": "(34, 2)"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = 20 \\times 12 = 240\\text{ man-hours}$$\n$$\\text{Day 1 (A): } 8\\text{ hours},\\quad \\text{Day 2 (B): } 6\\text{ hours}$$\n$$\\text{Work in 2-day cycle} = 8 + 6 = 14\\text{ hours}$$\n$$\\text{In 17 cycles (34 days), work done} = 17 \\times 14 = 238\\text{ hours}$$\n$$\\text{Remaining work} = 240 - 238 = 2\\text{ hours}$$\n$$\\text{On Day 35, A works for 2 hours to complete the remaining work.}$$\n$$\\text{Hence, } x = 34\\text{ full days and } y = 2\\text{ hours} \\implies (x, y) = (34, 2)$$"
+  },
+  {
+    "questionNumber": 122,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CHSL TIER-II (18/11/2024)",
+    "questionText": "Ratnesh and Vineet worked on alternate days, starting with Ratnesh. The entire work got completed in $54\\frac{3}{4}$ days. If Ratnesh alone can finish the work in 48 days, then in how many days can Vineet alone do the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "62"
+      },
+      {
+        "label": "B",
+        "text": "64"
+      },
+      {
+        "label": "C",
+        "text": "60"
+      },
+      {
+        "label": "D",
+        "text": "66"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total time} = 54\\frac{3}{4}\\text{ days}$$\n$$\\text{Starting with Ratnesh: Ratnesh worked on odd days (27 full days } + \\frac{3}{4}\\text{ day}) = \\frac{111}{4}\\text{ days}$$\n$$\\text{Vineet worked on even days (27 full days)}$$\n$$\\text{Daily rate of Ratnesh} = \\frac{1}{48}$$\n$$\\text{Work done by Ratnesh} = \\frac{111}{4} \\times \\frac{1}{48} = \\frac{37}{64}$$\n$$\\text{Work done by Vineet} = 1 - \\frac{37}{64} = \\frac{27}{64}$$\n$$\\text{Daily rate of Vineet} = \\frac{27/64}{27} = \\frac{1}{64}$$\n$$\\text{Time taken by Vineet alone} = 64\\text{ days}$$"
+  },
+  {
+    "questionNumber": 123,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC MTS 08/09/2023 (Shift-01)",
+    "questionText": "A man and woman working on alternate days can finish a work in 15 days if the man works on the first day. The same work is finished in 14.5 days if they work on alternate days and if the woman starts on the first day. The work will be finished by a man alone in ______ days.",
+    "options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "25"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Case 1 (Man starts, 15 days): Man works 8 days, Woman works 7 days: } W = 8M + 7W$$\n$$\\text{Case 2 (Woman starts, 14.5 days): Woman works 7.5 days, Man works 7 days: } W = 7M + 7.5W$$\n$$8M + 7W = 7M + 7.5W \\implies M = 0.5W \\implies W = 2M$$\n$$\\text{Total work } W = 8M + 7(2M) = 22M$$\n$$\\text{Time taken by a man alone} = 22\\text{ days}$$"
+  },
+  {
+    "questionNumber": 124,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 14/07/2023 (Shift-04)",
+    "questionText": "To do a certain work, Ajay and Bharat work on alternate days, with Bharat starting the work on the first day. Ajay can finish the work alone in 32 days. If the work gets completed in exactly 8 days, then Bharat alone can finish 7 times the same work in _____ days.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{28}{8}$"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{32}{7}$"
+      },
+      {
+        "label": "D",
+        "text": "32"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{In 8 days with Bharat starting, Bharat works 4 days and Ajay works 4 days.}$$\n$$\\text{Work done by Ajay in 4 days} = \\frac{4}{32} = \\frac{1}{8}$$\n$$\\text{Work done by Bharat in 4 days} = 1 - \\frac{1}{8} = \\frac{7}{8}$$\n$$\\text{Rate of Bharat} = \\frac{7/8}{4} = \\frac{7}{32}\\text{ work/day}$$\n$$\\text{Time for Bharat to complete 7 times the work} = \\frac{7}{7/32} = 32\\text{ days}$$"
+  },
+  {
+    "questionNumber": 125,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC CGL 13/08/2021 (Shift-01)",
+    "questionText": "To do a certain work, A and B work on alternate days with B beginning the work on the first day. A alone can complete the same work in 24 days. If the work gets completed in $11\\frac{1}{3}$ days, then B alone can complete $\\frac{7}{9}$ part of the original work in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5\\frac{1}{2}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "4 days"
+      },
+      {
+        "label": "C",
+        "text": "$4\\frac{1}{2}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "6 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{In } 11\\frac{1}{3}\\text{ days with B starting:}$$\n$$\\text{B works on days 1, 3, 5, 7, 9, 11 (6 full days)}$$\n$$\\text{A works on days 2, 4, 6, 8, 10 (5 days) } + \\frac{1}{3}\\text{ of day 12} = \\frac{16}{3}\\text{ days}$$\n$$\\text{Work done by A} = \\frac{16}{3} \\times \\frac{1}{24} = \\frac{2}{9}$$\n$$\\text{Work done by B in 6 days} = 1 - \\frac{2}{9} = \\frac{7}{9}$$\n$$\\text{Hence, B alone completes } \\frac{7}{9}\\text{ of the original work in } 6\\text{ days.}$$"
+  },
+  {
+    "questionNumber": 126,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC Phase XII 21/06/2024 (Shift-03)",
+    "questionText": "Aman and Rajan are working at a construction site. In some engineering experiment, Aman is constructing a wall, while Rajan is demolishing that wall. Aman can completely build the wall in 15 days, while Rajan will take 20 days to completely demolish the wall. In how many days will the complete wall be built for the first time if they work on alternate days, with Aman working on the 1st day?",
+    "options": [
+      {
+        "label": "A",
+        "text": "57"
+      },
+      {
+        "label": "B",
+        "text": "117"
+      },
+      {
+        "label": "C",
+        "text": "113"
+      },
+      {
+        "label": "D",
+        "text": "120"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 20) = 60\\text{ units}$$\n$$\\text{Efficiency of Aman (building)} = +4\\text{ units/day}$$\n$$\\text{Efficiency of Rajan (demolishing)} = -3\\text{ units/day}$$\n$$\\text{Net work in 2-day cycle} = +4 - 3 = +1\\text{ unit}$$\n$$\\text{Target before final building day} = 60 - 4 = 56\\text{ units}$$\n$$\\text{Days to reach 56 units} = 56 \\times 2 = 112\\text{ days}$$\n$$\\text{On Day 113, Aman builds 4 units: total reaches } 56 + 4 = 60\\text{ units (completely built).}$$\n$$\\text{Total days} = 113\\text{ days}$$"
+  },
+  {
+    "questionNumber": 127,
+    "typeHeader": "TYPE - III: CONCEPT OF ALTERNATE DAYS",
+    "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+    "questionText": "A can do a piece of work in 36 days, while B can do it in 48 days. B worked on it for 12 days and leaves it. How many days will A take to finish the remaining work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "27"
+      },
+      {
+        "label": "B",
+        "text": "21"
+      },
+      {
+        "label": "C",
+        "text": "28"
+      },
+      {
+        "label": "D",
+        "text": "32"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(36, 48) = 144\\text{ units}$$\n$$\\text{Efficiency of A} = 4,\\quad \\text{Efficiency of B} = 3$$\n$$\\text{Work done by B in 12 days} = 12 \\times 3 = 36\\text{ units}$$\n$$\\text{Remaining work} = 144 - 36 = 108\\text{ units}$$\n$$\\text{Time taken by A alone} = \\frac{108}{4} = 27\\text{ days}$$"
+  },
+  {
+    "questionNumber": 128,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC MTS 08/09/2023 (Shift-03)",
+    "questionText": "A can do a piece of work in 10 days and B can do it in 15 days. They work together for 2 days and then A leaves. How long will B take to finish the remaining work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 days"
+      },
+      {
+        "label": "B",
+        "text": "10 days"
+      },
+      {
+        "label": "C",
+        "text": "12 days"
+      },
+      {
+        "label": "D",
+        "text": "22 days"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 15) = 30\\text{ units}$$\n$$\\text{Efficiency of A} = 3,\\quad \\text{Efficiency of B} = 2$$\n$$\\text{Work done by (A + B) in 2 days} = 2 \\times (3 + 2) = 10\\text{ units}$$\n$$\\text{Remaining work} = 30 - 10 = 20\\text{ units}$$\n$$\\text{Time taken by B alone} = \\frac{20}{2} = 10\\text{ days}$$"
+  },
+  {
+    "questionNumber": 129,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+    "questionText": "P and Q can do a work together in 30 days. Q and R can do the same work together in 24 days and R and P together in 20 days. They started the work together, but Q and R left after 10 days. How many more days will P take to finish the remaining work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "23 days"
+      },
+      {
+        "label": "B",
+        "text": "19 days"
+      },
+      {
+        "label": "C",
+        "text": "21 days"
+      },
+      {
+        "label": "D",
+        "text": "18 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(30, 24, 20) = 120\\text{ units}$$\n$$\\text{Eff}(P + Q) = 4,\\quad \\text{Eff}(Q + R) = 5,\\quad \\text{Eff}(R + P) = 6$$\n$$2 \\times \\text{Eff}(P + Q + R) = 15 \\implies \\text{Eff}(P + Q + R) = 7.5\\text{ units/day}$$\n$$\\text{Efficiency of P} = 7.5 - 5 = 2.5\\text{ units/day}$$\n$$\\text{Work done by all three in 10 days} = 10 \\times 7.5 = 75\\text{ units}$$\n$$\\text{Remaining work} = 120 - 75 = 45\\text{ units}$$\n$$\\text{Time taken by P alone} = \\frac{45}{2.5} = 18\\text{ days}$$"
+  },
+  {
+    "questionNumber": 130,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+    "questionText": "Rohan alone can complete a work in 12 days and Hari alone can complete it in 16 days. They both work for 3 days and then Rohan leaves the work. After that Hari works alone and completes the work. In how many days will the total work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9 days"
+      },
+      {
+        "label": "B",
+        "text": "$12\\frac{1}{3}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$12\\frac{2}{3}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "12 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(12, 16) = 48\\text{ units}$$\n$$\\text{Efficiency of Rohan} = 4,\\quad \\text{Efficiency of Hari} = 3$$\n$$\\text{Work done by both in 3 days} = 3 \\times (4 + 3) = 21\\text{ units}$$\n$$\\text{Remaining work} = 48 - 21 = 27\\text{ units}$$\n$$\\text{Time taken by Hari alone} = \\frac{27}{3} = 9\\text{ days}$$\n$$\\text{Total days for work completion} = 3 + 9 = 12\\text{ days}$$"
+  },
+  {
+    "questionNumber": 131,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "P can do a piece of work in 30 days and Q in 40 days. They work together for 4 days and then Q leaves. The number of days taken by P to finish the remaining work is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "23 days"
+      },
+      {
+        "label": "B",
+        "text": "28 days"
+      },
+      {
+        "label": "C",
+        "text": "30 days"
+      },
+      {
+        "label": "D",
+        "text": "7 days"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(30, 40) = 120\\text{ units}$$\n$$\\text{Efficiency of P} = 4,\\quad \\text{Efficiency of Q} = 3$$\n$$\\text{Work done by (P + Q) in 4 days} = 4 \\times (4 + 3) = 28\\text{ units}$$\n$$\\text{Remaining work} = 120 - 28 = 92\\text{ units}$$\n$$\\text{Time taken by P alone} = \\frac{92}{4} = 23\\text{ days}$$"
+  },
+  {
+    "questionNumber": 132,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC Phase XII 20/06/2024 (Shift-03)",
+    "questionText": "A and B can do a work in 15 days and 30 days, respectively. They start working together, but A leaves after 3 days. How much time will B take to complete the remaining work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "21 days"
+      },
+      {
+        "label": "B",
+        "text": "28 days"
+      },
+      {
+        "label": "C",
+        "text": "24 days"
+      },
+      {
+        "label": "D",
+        "text": "32 days"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Total work} = \\text{LCM}(15, 30) = 30\\text{ units}$$\n$$\\text{Efficiency of A} = 2,\\quad \\text{Efficiency of B} = 1$$\n$$\\text{Work done by (A + B) in 3 days} = 3 \\times (2 + 1) = 9\\text{ units}$$\n$$\\text{Remaining work} = 30 - 9 = 21\\text{ units}$$\n$$\\text{Time taken by B alone} = \\frac{21}{1} = 21\\text{ days}$$"
+  },
+  {
+    "questionNumber": 133,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CGL 18/07/2023 (Shift-02)",
+    "questionText": "Raja and Rocky together can complete painting work in 5 days. Together they both start painting, but after 2 days, Rocky falls sick and leaves the work. If Raja completes the remaining painting in 4 days, find the number of days in which Rocky alone can do the work.",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 days"
+      },
+      {
+        "label": "B",
+        "text": "15 days"
+      },
+      {
+        "label": "C",
+        "text": "20 days"
+      },
+      {
+        "label": "D",
+        "text": "10 days"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Work done by (Raja + Rocky) in 2 days} = \\frac{2}{5}$$\n$$\\text{Remaining work} = 1 - \\frac{2}{5} = \\frac{3}{5}$$\n$$\\text{Rate of Raja} = \\frac{3/5}{4} = \\frac{3}{20}\\text{ work/day}$$\n$$\\text{Combined rate} = \\frac{1}{5} = \\frac{4}{20}\\text{ work/day}$$\n$$\\text{Rate of Rocky} = \\frac{4}{20} - \\frac{3}{20} = \\frac{1}{20}\\text{ work/day}$$\n$$\\text{Time taken by Rocky alone} = 20\\text{ days}$$"
+  },
+  {
+    "questionNumber": 134,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CPO 10/11/2022 (Shift-03)",
+    "questionText": "A and B can complete a work in 36 days and 45 days respectively. They worked together for 2 days and then A left the work. In how many days will B complete the remaining work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "41.5"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "41"
+      },
+      {
+        "label": "D",
+        "text": "40.5"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(36, 45) = 180\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 4$$\n$$\\text{Work done by (A + B) in 2 days} = 2 \\times (5 + 4) = 18\\text{ units}$$\n$$\\text{Remaining work} = 180 - 18 = 162\\text{ units}$$\n$$\\text{Time taken by B alone} = \\frac{162}{4} = 40.5\\text{ days}$$"
+  },
+  {
+    "questionNumber": 135,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CHSL 11/08/2021 (Shift-01)",
+    "questionText": "X can complete half of the work in 20 days and Y can do one-fifth of the same work in 10 days. X started the work and left after 8 days. Then Y took over to complete the remaining work. The total number of days taken by them to complete the work is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "48 days"
+      },
+      {
+        "label": "B",
+        "text": "40 days"
+      },
+      {
+        "label": "C",
+        "text": "60 days"
+      },
+      {
+        "label": "D",
+        "text": "50 days"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Time for X to complete whole work} = 20 \\times 2 = 40\\text{ days}$$\n$$\\text{Time for Y to complete whole work} = 10 \\times 5 = 50\\text{ days}$$\n$$\\text{Total work} = \\text{LCM}(40, 50) = 200\\text{ units}$$\n$$\\text{Efficiency of X} = 5,\\quad \\text{Efficiency of Y} = 4$$\n$$\\text{Work done by X in 8 days} = 8 \\times 5 = 40\\text{ units}$$\n$$\\text{Remaining work} = 200 - 40 = 160\\text{ units}$$\n$$\\text{Time taken by Y alone} = \\frac{160}{4} = 40\\text{ days}$$\n$$\\text{Total days taken by them} = 8 + 40 = 48\\text{ days}$$"
+  },
+  {
+    "questionNumber": 136,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC MTS 15/06/2023 (Shift-02)",
+    "questionText": "B and C can complete a work alone in 10 days and 30 days respectively. They began the work together but B left the work after some days and C completed the remaining work in 10 days. After how many days from the beginning B left the work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 days"
+      },
+      {
+        "label": "B",
+        "text": "6 days"
+      },
+      {
+        "label": "C",
+        "text": "8 days"
+      },
+      {
+        "label": "D",
+        "text": "5 days"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(10, 30) = 30\\text{ units}$$\n$$\\text{Efficiency of B} = 3,\\quad \\text{Efficiency of C} = 1$$\n$$\\text{Work done by C alone in last 10 days} = 10 \\times 1 = 10\\text{ units}$$\n$$\\text{Remaining work done by (B + C)} = 30 - 10 = 20\\text{ units}$$\n$$\\text{Combined efficiency of B and C} = 3 + 1 = 4\\text{ units/day}$$\n$$\\text{Days B and C worked together} = \\frac{20}{4} = 5\\text{ days}$$\n$$\\text{Hence, B left after 5 days from the beginning.}$$"
+  },
+  {
+    "questionNumber": 137,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CGL 18/04/2022 (Shift-02)",
+    "questionText": "A can complete work in 25 days and B can complete the same work in 20 days. They started the work together but B left after 4 days and A continued to work. In how many days will the entire work be completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "25"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "28"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(25, 20) = 100\\text{ units}$$\n$$\\text{Efficiency of A} = 4,\\quad \\text{Efficiency of B} = 5$$\n$$\\text{Work done by (A + B) in 4 days} = 4 \\times (4 + 5) = 36\\text{ units}$$\n$$\\text{Remaining work} = 100 - 36 = 64\\text{ units}$$\n$$\\text{Time taken by A alone} = \\frac{64}{4} = 16\\text{ days}$$\n$$\\text{Total days to complete entire work} = 4 + 16 = 20\\text{ days}$$"
+  },
+  {
+    "questionNumber": 138,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CGL 03/03/2020 (Shift-01)",
+    "questionText": "A, B and C can individually complete a work in 24, 15 and 12 days respectively. B and C started the work and left after working for 3 days, how many days will A take to complete the remaining work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15\\frac{1}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "$13\\frac{1}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$$\\text{Total work} = \\text{LCM}(24, 15, 12) = 120\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 8,\\quad \\text{Efficiency of C} = 10$$\n$$\\text{Work done by (B + C) in 3 days} = 3 \\times (8 + 10) = 54\\text{ units}$$\n$$\\text{Remaining work} = 120 - 54 = 66\\text{ units}$$\n$$\\text{Time taken by A alone} = \\frac{66}{5} = 13\\frac{1}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 139,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC Phase-XI 30/06/2023 (Shift-03)",
+    "questionText": "Shivam can do a piece of work in 6 days and Vivek in 24 days. They started work together but Shivam left the work 3 days before its completion. In how many days was the work completed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7\\frac{4}{5}\\text{ days}$"
+      },
+      {
+        "label": "B",
+        "text": "$7\\frac{2}{5}\\text{ days}$"
+      },
+      {
+        "label": "C",
+        "text": "$7\\frac{3}{5}\\text{ days}$"
+      },
+      {
+        "label": "D",
+        "text": "$7\\frac{1}{5}\\text{ days}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Total work} = \\text{LCM}(6, 24) = 24\\text{ units}$$\n$$\\text{Efficiency of Shivam} = 4,\\quad \\text{Efficiency of Vivek} = 1$$\n$$\\text{Work done by Vivek alone in last 3 days} = 3 \\times 1 = 3\\text{ units}$$\n$$\\text{Work done together by Shivam and Vivek} = 24 - 3 = 21\\text{ units}$$\n$$\\text{Days worked together} = \\frac{21}{4 + 1} = \\frac{21}{5} = 4\\frac{1}{5}\\text{ days}$$\n$$\\text{Total days to complete the work} = 4\\frac{1}{5} + 3 = 7\\frac{1}{5}\\text{ days}$$"
+  },
+  {
+    "questionNumber": 140,
+    "typeHeader": "TYPE - IV: CONCEPT OF LEAVING THE WORK",
+    "examShift": "SSC CGL 20/07/2023 (Shift-01)",
+    "questionText": "A and B can individually complete a piece of work in 18 days and 30 days, respectively. A and B started working together, but A left $16\\frac{2}{3}$ days before the work is completed and B alone completed the rest of the work. For how many days did A work?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Total work} = \\text{LCM}(18, 30) = 90\\text{ units}$$\n$$\\text{Efficiency of A} = 5,\\quad \\text{Efficiency of B} = 3$$\n$$16\\frac{2}{3}\\text{ days} = \\frac{50}{3}\\text{ days}$$\n$$\\text{Work done by B alone in the last } \\frac{50}{3}\\text{ days} = \\frac{50}{3} \\times 3 = 50\\text{ units}$$\n$$\\text{Remaining work done by (A + B) together} = 90 - 50 = 40\\text{ units}$$\n$$\\text{Combined efficiency of (A + B)} = 5 + 3 = 8\\text{ units/day}$$\n$$\\text{Days A and B worked together} = \\frac{40}{8} = 5\\text{ days}$$\n$$\\text{Therefore, A worked for 5 days.}$$"
+  }
+]

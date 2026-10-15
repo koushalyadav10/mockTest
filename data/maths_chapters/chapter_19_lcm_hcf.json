@@ -1,0 +1,2193 @@
+{
+  "chapterNumber": 19,
+  "chapterCode": "SSC_MATHS_CH_19_LCM_HCF",
+  "chapterTitleEnglish": "LCM & HCF",
+  "chapterTitleHindi": "ल.स. और म.स.",
+  "totalQuestions": 84,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "Find the LCM of $44$ and $56$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$616$"
+        },
+        {
+          "label": "B",
+          "text": "$604$"
+        },
+        {
+          "label": "C",
+          "text": "$628$"
+        },
+        {
+          "label": "D",
+          "text": "$1232$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $48$ and $60$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$240$"
+        },
+        {
+          "label": "B",
+          "text": "$228$"
+        },
+        {
+          "label": "C",
+          "text": "$252$"
+        },
+        {
+          "label": "D",
+          "text": "$480$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $52$ and $64$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$832$"
+        },
+        {
+          "label": "B",
+          "text": "$820$"
+        },
+        {
+          "label": "C",
+          "text": "$844$"
+        },
+        {
+          "label": "D",
+          "text": "$1664$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $56$ and $68$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$952$"
+        },
+        {
+          "label": "B",
+          "text": "$940$"
+        },
+        {
+          "label": "C",
+          "text": "$964$"
+        },
+        {
+          "label": "D",
+          "text": "$1904$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $60$ and $72$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$360$"
+        },
+        {
+          "label": "B",
+          "text": "$348$"
+        },
+        {
+          "label": "C",
+          "text": "$372$"
+        },
+        {
+          "label": "D",
+          "text": "$720$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $24$ and $36$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$72$"
+        },
+        {
+          "label": "B",
+          "text": "$60$"
+        },
+        {
+          "label": "C",
+          "text": "$84$"
+        },
+        {
+          "label": "D",
+          "text": "$144$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $44$ and $56$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$616$"
+        },
+        {
+          "label": "B",
+          "text": "$604$"
+        },
+        {
+          "label": "C",
+          "text": "$628$"
+        },
+        {
+          "label": "D",
+          "text": "$1232$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "Find the LCM of $48$ and $60$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$240$"
+        },
+        {
+          "label": "B",
+          "text": "$228$"
+        },
+        {
+          "label": "C",
+          "text": "$252$"
+        },
+        {
+          "label": "D",
+          "text": "$480$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $52$ and $64$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$832$"
+        },
+        {
+          "label": "B",
+          "text": "$820$"
+        },
+        {
+          "label": "C",
+          "text": "$844$"
+        },
+        {
+          "label": "D",
+          "text": "$1664$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $56$ and $68$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$952$"
+        },
+        {
+          "label": "B",
+          "text": "$940$"
+        },
+        {
+          "label": "C",
+          "text": "$964$"
+        },
+        {
+          "label": "D",
+          "text": "$1904$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $60$ and $72$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$360$"
+        },
+        {
+          "label": "B",
+          "text": "$348$"
+        },
+        {
+          "label": "C",
+          "text": "$372$"
+        },
+        {
+          "label": "D",
+          "text": "$720$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $24$ and $36$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$72$"
+        },
+        {
+          "label": "B",
+          "text": "$60$"
+        },
+        {
+          "label": "C",
+          "text": "$84$"
+        },
+        {
+          "label": "D",
+          "text": "$144$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $44$ and $56$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$616$"
+        },
+        {
+          "label": "B",
+          "text": "$604$"
+        },
+        {
+          "label": "C",
+          "text": "$628$"
+        },
+        {
+          "label": "D",
+          "text": "$1232$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "Find the LCM of $48$ and $60$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$240$"
+        },
+        {
+          "label": "B",
+          "text": "$228$"
+        },
+        {
+          "label": "C",
+          "text": "$252$"
+        },
+        {
+          "label": "D",
+          "text": "$480$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "Find the LCM of $52$ and $64$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$832$"
+        },
+        {
+          "label": "B",
+          "text": "$820$"
+        },
+        {
+          "label": "C",
+          "text": "$844$"
+        },
+        {
+          "label": "D",
+          "text": "$1664$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $56$ and $68$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$952$"
+        },
+        {
+          "label": "B",
+          "text": "$940$"
+        },
+        {
+          "label": "C",
+          "text": "$964$"
+        },
+        {
+          "label": "D",
+          "text": "$1904$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $60$ and $72$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$360$"
+        },
+        {
+          "label": "B",
+          "text": "$348$"
+        },
+        {
+          "label": "C",
+          "text": "$372$"
+        },
+        {
+          "label": "D",
+          "text": "$720$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $24$ and $36$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$72$"
+        },
+        {
+          "label": "B",
+          "text": "$60$"
+        },
+        {
+          "label": "C",
+          "text": "$84$"
+        },
+        {
+          "label": "D",
+          "text": "$144$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $44$ and $56$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$616$"
+        },
+        {
+          "label": "B",
+          "text": "$604$"
+        },
+        {
+          "label": "C",
+          "text": "$628$"
+        },
+        {
+          "label": "D",
+          "text": "$1232$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $48$ and $60$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$240$"
+        },
+        {
+          "label": "B",
+          "text": "$228$"
+        },
+        {
+          "label": "C",
+          "text": "$252$"
+        },
+        {
+          "label": "D",
+          "text": "$480$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $52$ and $64$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$832$"
+        },
+        {
+          "label": "B",
+          "text": "$820$"
+        },
+        {
+          "label": "C",
+          "text": "$844$"
+        },
+        {
+          "label": "D",
+          "text": "$1664$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $56$ and $68$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$952$"
+        },
+        {
+          "label": "B",
+          "text": "$940$"
+        },
+        {
+          "label": "C",
+          "text": "$964$"
+        },
+        {
+          "label": "D",
+          "text": "$1904$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $60$ and $72$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$360$"
+        },
+        {
+          "label": "B",
+          "text": "$348$"
+        },
+        {
+          "label": "C",
+          "text": "$372$"
+        },
+        {
+          "label": "D",
+          "text": "$720$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $24$ and $36$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$72$"
+        },
+        {
+          "label": "B",
+          "text": "$60$"
+        },
+        {
+          "label": "C",
+          "text": "$84$"
+        },
+        {
+          "label": "D",
+          "text": "$144$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $44$ and $56$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$616$"
+        },
+        {
+          "label": "B",
+          "text": "$604$"
+        },
+        {
+          "label": "C",
+          "text": "$628$"
+        },
+        {
+          "label": "D",
+          "text": "$1232$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $48$ and $60$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$240$"
+        },
+        {
+          "label": "B",
+          "text": "$228$"
+        },
+        {
+          "label": "C",
+          "text": "$252$"
+        },
+        {
+          "label": "D",
+          "text": "$480$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $52$ and $64$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$832$"
+        },
+        {
+          "label": "B",
+          "text": "$820$"
+        },
+        {
+          "label": "C",
+          "text": "$844$"
+        },
+        {
+          "label": "D",
+          "text": "$1664$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $56$ and $68$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$952$"
+        },
+        {
+          "label": "B",
+          "text": "$940$"
+        },
+        {
+          "label": "C",
+          "text": "$964$"
+        },
+        {
+          "label": "D",
+          "text": "$1904$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $60$ and $72$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$360$"
+        },
+        {
+          "label": "B",
+          "text": "$348$"
+        },
+        {
+          "label": "C",
+          "text": "$372$"
+        },
+        {
+          "label": "D",
+          "text": "$720$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "Find the LCM of $24$ and $36$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$72$"
+        },
+        {
+          "label": "B",
+          "text": "$60$"
+        },
+        {
+          "label": "C",
+          "text": "$84$"
+        },
+        {
+          "label": "D",
+          "text": "$144$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "Find the LCM of $44$ and $56$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$616$"
+        },
+        {
+          "label": "B",
+          "text": "$604$"
+        },
+        {
+          "label": "C",
+          "text": "$628$"
+        },
+        {
+          "label": "D",
+          "text": "$1232$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $48$ and $60$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$240$"
+        },
+        {
+          "label": "B",
+          "text": "$228$"
+        },
+        {
+          "label": "C",
+          "text": "$252$"
+        },
+        {
+          "label": "D",
+          "text": "$480$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $52$ and $64$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$832$"
+        },
+        {
+          "label": "B",
+          "text": "$820$"
+        },
+        {
+          "label": "C",
+          "text": "$844$"
+        },
+        {
+          "label": "D",
+          "text": "$1664$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $56$ and $68$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$952$"
+        },
+        {
+          "label": "B",
+          "text": "$940$"
+        },
+        {
+          "label": "C",
+          "text": "$964$"
+        },
+        {
+          "label": "D",
+          "text": "$1904$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $60$ and $72$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$360$"
+        },
+        {
+          "label": "B",
+          "text": "$348$"
+        },
+        {
+          "label": "C",
+          "text": "$372$"
+        },
+        {
+          "label": "D",
+          "text": "$720$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "Find the LCM of $24$ and $36$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$72$"
+        },
+        {
+          "label": "B",
+          "text": "$60$"
+        },
+        {
+          "label": "C",
+          "text": "$84$"
+        },
+        {
+          "label": "D",
+          "text": "$144$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "Find the LCM of $44$ and $56$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$616$"
+        },
+        {
+          "label": "B",
+          "text": "$604$"
+        },
+        {
+          "label": "C",
+          "text": "$628$"
+        },
+        {
+          "label": "D",
+          "text": "$1232$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "Find the LCM of $48$ and $60$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$240$"
+        },
+        {
+          "label": "B",
+          "text": "$228$"
+        },
+        {
+          "label": "C",
+          "text": "$252$"
+        },
+        {
+          "label": "D",
+          "text": "$480$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $52$ and $64$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$832$"
+        },
+        {
+          "label": "B",
+          "text": "$820$"
+        },
+        {
+          "label": "C",
+          "text": "$844$"
+        },
+        {
+          "label": "D",
+          "text": "$1664$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $56$ and $68$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$952$"
+        },
+        {
+          "label": "B",
+          "text": "$940$"
+        },
+        {
+          "label": "C",
+          "text": "$964$"
+        },
+        {
+          "label": "D",
+          "text": "$1904$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $60$ and $72$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$360$"
+        },
+        {
+          "label": "B",
+          "text": "$348$"
+        },
+        {
+          "label": "C",
+          "text": "$372$"
+        },
+        {
+          "label": "D",
+          "text": "$720$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $24$ and $36$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$72$"
+        },
+        {
+          "label": "B",
+          "text": "$60$"
+        },
+        {
+          "label": "C",
+          "text": "$84$"
+        },
+        {
+          "label": "D",
+          "text": "$144$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $44$ and $56$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$616$"
+        },
+        {
+          "label": "B",
+          "text": "$604$"
+        },
+        {
+          "label": "C",
+          "text": "$628$"
+        },
+        {
+          "label": "D",
+          "text": "$1232$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $48$ and $60$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$240$"
+        },
+        {
+          "label": "B",
+          "text": "$228$"
+        },
+        {
+          "label": "C",
+          "text": "$252$"
+        },
+        {
+          "label": "D",
+          "text": "$480$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
+      "questionText": "Find the LCM of $52$ and $64$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$832$"
+        },
+        {
+          "label": "B",
+          "text": "$820$"
+        },
+        {
+          "label": "C",
+          "text": "$844$"
+        },
+        {
+          "label": "D",
+          "text": "$1664$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $56$ and $68$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$952$"
+        },
+        {
+          "label": "B",
+          "text": "$940$"
+        },
+        {
+          "label": "C",
+          "text": "$964$"
+        },
+        {
+          "label": "D",
+          "text": "$1904$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "Find the LCM of $60$ and $72$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$360$"
+        },
+        {
+          "label": "B",
+          "text": "$348$"
+        },
+        {
+          "label": "C",
+          "text": "$372$"
+        },
+        {
+          "label": "D",
+          "text": "$720$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "Find the LCM of $24$ and $36$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$72$"
+        },
+        {
+          "label": "B",
+          "text": "$60$"
+        },
+        {
+          "label": "C",
+          "text": "$84$"
+        },
+        {
+          "label": "D",
+          "text": "$144$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "Find the LCM of $28$ and $40$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$280$"
+        },
+        {
+          "label": "B",
+          "text": "$268$"
+        },
+        {
+          "label": "C",
+          "text": "$292$"
+        },
+        {
+          "label": "D",
+          "text": "$560$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "Find the LCM of $32$ and $44$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$352$"
+        },
+        {
+          "label": "B",
+          "text": "$340$"
+        },
+        {
+          "label": "C",
+          "text": "$364$"
+        },
+        {
+          "label": "D",
+          "text": "$704$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "Find the LCM of $36$ and $48$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$144$"
+        },
+        {
+          "label": "B",
+          "text": "$132$"
+        },
+        {
+          "label": "C",
+          "text": "$156$"
+        },
+        {
+          "label": "D",
+          "text": "$288$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "LCM & HCF: PRODUCT RULE",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Find the LCM of $40$ and $52$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$520$"
+        },
+        {
+          "label": "B",
+          "text": "$508$"
+        },
+        {
+          "label": "C",
+          "text": "$532$"
+        },
+        {
+          "label": "D",
+          "text": "$1040$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+    }
+  ]
+}

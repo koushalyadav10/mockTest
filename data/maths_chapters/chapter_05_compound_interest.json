@@ -1,0 +1,3441 @@
+{
+  "chapterNumber": 5,
+  "chapterCode": "compound_interest",
+  "chapterTitleEnglish": "Compound Interest",
+  "chapterTitleHindi": "चक्रवृद्धि ब्याज",
+  "totalQuestions": 132,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CHSL 03/08/2023 (Shift-03)",
+      "questionText": "What is the compound interest on ₹62,500 for 2 years at 8% per annum compounded yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹10,500"
+        },
+        {
+          "label": "B",
+          "text": "₹10,300"
+        },
+        {
+          "label": "C",
+          "text": "₹10,400"
+        },
+        {
+          "label": "D",
+          "text": "₹10,600"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CHSL 07/08/2023 (Shift-03)",
+      "questionText": "Kalyan invested a sum of ₹12,000 for two years at the rate of 5% and 10% respectively. What is the compound interest (in ₹) at the end of two years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1920"
+        },
+        {
+          "label": "B",
+          "text": "₹1860"
+        },
+        {
+          "label": "C",
+          "text": "₹1900"
+        },
+        {
+          "label": "D",
+          "text": "₹1880"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CHSL-II 10/01/2024 (Shift-01)",
+      "questionText": "If the interest rate is 2.5% per annum for the first year and 2% per annum for the second year, find the compound interest of ₹6,000 in two years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹240"
+        },
+        {
+          "label": "B",
+          "text": "₹270"
+        },
+        {
+          "label": "C",
+          "text": "₹273"
+        },
+        {
+          "label": "D",
+          "text": "₹135"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "If interest be compounded half-yearly, then find the compound interest on ₹8,000 at 20% p.a. for 1 year.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1685"
+        },
+        {
+          "label": "B",
+          "text": "₹1680"
+        },
+        {
+          "label": "C",
+          "text": "₹1675"
+        },
+        {
+          "label": "D",
+          "text": "₹1690"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CHSL 03/08/2023 Shift-04",
+      "questionText": "What is the present value of the sum if the interest compounded at the rate of 18% per annum for two years is ₹981?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2800"
+        },
+        {
+          "label": "B",
+          "text": "₹2500"
+        },
+        {
+          "label": "C",
+          "text": "₹3600"
+        },
+        {
+          "label": "D",
+          "text": "₹2400"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CHSL 07/08/2023 (Shift-01)",
+      "questionText": "What will be the present value of ₹13,230 due two years hence, when the interest is compounded at the rate of 5% per annum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹13,000"
+        },
+        {
+          "label": "B",
+          "text": "₹10,500"
+        },
+        {
+          "label": "C",
+          "text": "₹11,500"
+        },
+        {
+          "label": "D",
+          "text": "₹12,000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-04)",
+      "questionText": "Compound interest (compounding annually) on a sum for 2 years is ₹4180. If rate of interest is 20 percent per annum, then what is the sum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹8800"
+        },
+        {
+          "label": "B",
+          "text": "₹9800"
+        },
+        {
+          "label": "C",
+          "text": "₹9500"
+        },
+        {
+          "label": "D",
+          "text": "₹8500"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC MTS 04/05/2023 (Shift-03)",
+      "questionText": "Priya borrowed a certain sum of money at 12% per annum. If she paid a sum of ₹10176 as interest compounded annually at the end of 2 years, then what was the amount she borrowed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹40000"
+        },
+        {
+          "label": "B",
+          "text": "₹20000"
+        },
+        {
+          "label": "C",
+          "text": "₹50000"
+        },
+        {
+          "label": "D",
+          "text": "₹30000"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC MTS 08/05/2023 (Shift-03)",
+      "questionText": "A sum of ₹20000 is lent for 1 year at the rate of 16 percent annual compound interest. If the interest is compounded half-yearly, how much interest will be received?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹3180"
+        },
+        {
+          "label": "B",
+          "text": "₹3396"
+        },
+        {
+          "label": "C",
+          "text": "₹3224"
+        },
+        {
+          "label": "D",
+          "text": "₹3328"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CHSL 10/08/2023 (Shift-03)",
+      "questionText": "What is the difference between the compound interest on ₹6,400 for 1 year at 5% per annum C.I. compounded yearly and half-yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹8"
+        },
+        {
+          "label": "B",
+          "text": "₹9"
+        },
+        {
+          "label": "C",
+          "text": "₹4"
+        },
+        {
+          "label": "D",
+          "text": "₹7"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+      "questionText": "On a certain sum of money lent out of 16% per annum, the difference between the compound interest for 1 year, payable half-yearly, and the simple interest for 1 year is ₹60. The sum is?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹937.5"
+        },
+        {
+          "label": "B",
+          "text": "₹9,000"
+        },
+        {
+          "label": "C",
+          "text": "₹9,365"
+        },
+        {
+          "label": "D",
+          "text": "₹9,375"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC MTS 01/09/2023 (Shift-03)",
+      "questionText": "The difference in interests earned on ₹1,50,000 at 8% rate of interest per annum in a year when the interest is compounded half-yearly and annually, respectively, is ₹.....",
+      "options": [
+        {
+          "label": "A",
+          "text": "240"
+        },
+        {
+          "label": "B",
+          "text": "120"
+        },
+        {
+          "label": "C",
+          "text": "420"
+        },
+        {
+          "label": "D",
+          "text": "360"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CGL TIER-II (08/08/2022)",
+      "questionText": "The compound interest (compounding annually) on a certain sum at the rate of 8 percent per annum for two years is ₹6656. What would be the simple interest on the same sum at the same rate of interest for two years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6224"
+        },
+        {
+          "label": "B",
+          "text": "₹6336"
+        },
+        {
+          "label": "C",
+          "text": "₹5600"
+        },
+        {
+          "label": "D",
+          "text": "₹6400"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I : BASED ON 2 CYCLE",
+      "examShift": "SSC CGL TIER-II 18/11/2020",
+      "questionText": "Rahul invested equal sums of money at compound interest under two schemes A and B. Under scheme A, the interest rate was 10% per annum and under scheme B, the interest rate was 12% p.a. The compound interest after two years on the sum invested in scheme A was ₹ 1,050. How much is the interest earned under scheme B after two years, if the interest is compounded annually in both schemes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 1270"
+        },
+        {
+          "label": "B",
+          "text": "₹ 1372"
+        },
+        {
+          "label": "C",
+          "text": "₹ 1722"
+        },
+        {
+          "label": "D",
+          "text": "₹ 1272"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CHSL 04/08/2023 (Shift-02)",
+      "questionText": "What is the compound interest on ₹25,000 for 3 years at 10% per annum compounded annually?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹8,125"
+        },
+        {
+          "label": "B",
+          "text": "₹8,000"
+        },
+        {
+          "label": "C",
+          "text": "₹8,200"
+        },
+        {
+          "label": "D",
+          "text": "₹8,275"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC Phase-X 05/08/2022 (Shift-03)",
+      "questionText": "₹21,000 is lent at compound interest of 10% p.a. for three years. Find the amount?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹27,000"
+        },
+        {
+          "label": "B",
+          "text": "₹27,951"
+        },
+        {
+          "label": "C",
+          "text": "₹6,951"
+        },
+        {
+          "label": "D",
+          "text": "₹28,951"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CGL TIER-II 15/11/2020",
+      "questionText": "The compound interest on a sum of ₹5,500 at 15% p.a. for 2 years, when the interest compounded 8 monthly is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1880"
+        },
+        {
+          "label": "B",
+          "text": "₹1,820.50"
+        },
+        {
+          "label": "C",
+          "text": "₹1,773.75"
+        },
+        {
+          "label": "D",
+          "text": "₹1,850"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CHSL 08/08/2023 Shift-01",
+      "questionText": "Find the compound interest on ₹10,000 for $1\\frac{1}{2}$ years at 20% per annum, interest payable half-yearly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹3315"
+        },
+        {
+          "label": "B",
+          "text": "₹3310"
+        },
+        {
+          "label": "C",
+          "text": "₹3305"
+        },
+        {
+          "label": "D",
+          "text": "₹3320"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CPO 10/11/2022 (Shift-02)",
+      "questionText": "Find the amount if a sum of ₹7500 is invested on compound interest at 8% p.a. for 1.5 years when the interest is compounded half yearly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹8,436.48"
+        },
+        {
+          "label": "B",
+          "text": "₹8,736.48"
+        },
+        {
+          "label": "C",
+          "text": "₹8,657.48"
+        },
+        {
+          "label": "D",
+          "text": "₹8,564.48"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CGL 03/12/2022 (Shift-03)",
+      "questionText": "What would be the compound interest on ₹15,750 at 20% per annum, in two years, if the interest is compounded half yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹5,213.25"
+        },
+        {
+          "label": "B",
+          "text": "₹3,307.5"
+        },
+        {
+          "label": "C",
+          "text": "₹7,305.975"
+        },
+        {
+          "label": "D",
+          "text": "₹7,309.575"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "UPSC CDS-II 2022",
+      "questionText": "If C is the compound interest on ₹10,000 for one year at 4% per annum when compounded quarterly, then which one of the following is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "C < ₹100"
+        },
+        {
+          "label": "B",
+          "text": "₹100 < C < ₹200"
+        },
+        {
+          "label": "C",
+          "text": "₹200 < C < ₹400"
+        },
+        {
+          "label": "D",
+          "text": "C > ₹400"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-04)",
+      "questionText": "What sum at the rate of $2\\frac{1}{2}\\%$ become ₹9826 in 18 months if the interest is compounded half yearly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹9,392.00"
+        },
+        {
+          "label": "B",
+          "text": "₹9,444.00"
+        },
+        {
+          "label": "C",
+          "text": "₹9,512.45"
+        },
+        {
+          "label": "D",
+          "text": "₹9,466.55"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "What is the compound interest on a sum of ₹25,000 after three years at a rate of 12 percent per annum interest compounded yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹10,123.20"
+        },
+        {
+          "label": "B",
+          "text": "₹9,824.00"
+        },
+        {
+          "label": "C",
+          "text": "₹9,956.86"
+        },
+        {
+          "label": "D",
+          "text": "₹10,520.00"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "A sum of money was invested at 10% interest per year, compounded half-yearly, for 18 months. If the amount payable on maturity was ₹64,827, what was the sum invested?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹55,600"
+        },
+        {
+          "label": "B",
+          "text": "₹56,500"
+        },
+        {
+          "label": "C",
+          "text": "₹56,800"
+        },
+        {
+          "label": "D",
+          "text": "₹56,000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC MTS 06/09/2023 (Shift-03)",
+      "questionText": "What sum of money invested at 8% per annum in $1\\frac{1}{2}$ years, compounded half-yearly, shall become ₹17,576?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹15,525"
+        },
+        {
+          "label": "B",
+          "text": "₹15,625"
+        },
+        {
+          "label": "C",
+          "text": "₹15,000"
+        },
+        {
+          "label": "D",
+          "text": "₹16,500"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CHSL 16/03/2023 (Shift-02)",
+      "questionText": "A person borrowed ₹8000 on compound interest at the rate of 20 percent per annum. If the interest is compounded half yearly, then what will be the amount to be paid after 1.5 years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹10648"
+        },
+        {
+          "label": "B",
+          "text": "₹11488"
+        },
+        {
+          "label": "C",
+          "text": "₹10825"
+        },
+        {
+          "label": "D",
+          "text": "₹9865"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC MTS 14/06/2023 (Shift-02)",
+      "questionText": "A sum of ₹30000 is lent at compound interest (compounded annually) for 3 years. If the rate of interest is 10 percent for the first year, 20 percent for the second year and 30 percent for the third year, then what will be the total compound interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹21480"
+        },
+        {
+          "label": "B",
+          "text": "₹19270"
+        },
+        {
+          "label": "C",
+          "text": "₹20560"
+        },
+        {
+          "label": "D",
+          "text": "₹22580"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CGL TIER-II 08/08/2022",
+      "questionText": "Vipul and Manish invested the sum of ₹15000 and ₹20000 at the rate of 20 percent p.a and 30 percent p.a. respectively on compound interest (compounding annually). If time period is 3 years for both, then what will be the total compound interest earned by Vipul and Manish?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹34860"
+        },
+        {
+          "label": "B",
+          "text": "₹32480"
+        },
+        {
+          "label": "C",
+          "text": "₹29460"
+        },
+        {
+          "label": "D",
+          "text": "₹31688"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC MTS 06/09/2023 (Shift-01)",
+      "questionText": "What is the difference between the compound interest, compounded half yearly on ₹72,000 for 1.5 years at 10% per annum and its simple interest for 3 years at 5% per annum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹549"
+        },
+        {
+          "label": "B",
+          "text": "₹449"
+        },
+        {
+          "label": "C",
+          "text": "₹559"
+        },
+        {
+          "label": "D",
+          "text": "₹540"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "ICAR 29/07/2022 (Shift- 04)",
+      "questionText": "The amount of a certain sum in 2 years at 20% p.a. is ₹7776, interest compounded yearly. What will be the amount of the same sum in $1\\frac{1}{2}$ years at the same rate of interest, compounded half yearly? (Nearest to a ₹)",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹7,187"
+        },
+        {
+          "label": "B",
+          "text": "₹7,178"
+        },
+        {
+          "label": "C",
+          "text": "₹7,285"
+        },
+        {
+          "label": "D",
+          "text": "₹7,085"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC MTS 12/09/2023 (Shift-03)",
+      "questionText": "A sum of ₹15,000 was lent for 3 years at the rate of 4%, 5%, 6% per annum, respectively, at compound interest for the first year, second year and third year compounded annually. Find the compound interest for 3 years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2,335.60"
+        },
+        {
+          "label": "B",
+          "text": "₹2,338.80"
+        },
+        {
+          "label": "C",
+          "text": "₹2,362.80"
+        },
+        {
+          "label": "D",
+          "text": "₹2,388.60"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CHSL 10/08/2021 (Shift-02)",
+      "questionText": "Find the compound interest (in ₹) on a sum of ₹7,500 for 4 years if the rate of interest is 20% per annum for the first two years and 10% per annum for the next two years. (The interest is compounded annually.)",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6,558"
+        },
+        {
+          "label": "B",
+          "text": "₹5,658"
+        },
+        {
+          "label": "C",
+          "text": "₹5,586"
+        },
+        {
+          "label": "D",
+          "text": "₹5,568"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CHSL TIER-II (18/11/2024)",
+      "questionText": "If an increase of 40% is observed on an amount in 4 years at simple interest, what will be the compound interest on ₹80,000 after 4 years at the same rate of interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹17,128"
+        },
+        {
+          "label": "B",
+          "text": "₹39,724"
+        },
+        {
+          "label": "C",
+          "text": "₹29,728"
+        },
+        {
+          "label": "D",
+          "text": "₹37,128"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+      "questionText": "Find the amount (integral value only) if a sum of ₹6,500 is being borrowed at 10% interest per annum for 2 years if interest is compounded half-yearly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹7,900"
+        },
+        {
+          "label": "B",
+          "text": "₹8,150"
+        },
+        {
+          "label": "C",
+          "text": "₹8,250"
+        },
+        {
+          "label": "D",
+          "text": "₹7,650"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC MTS 07/07/2022 (Shift-01)",
+      "questionText": "Mohan invested ₹5,000 in a bank which offered interest at the rate of 10% per year compounded semi-annually. How much amount will he get after 2 years? [Give your answer correct to the nearest integer value.]",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6512"
+        },
+        {
+          "label": "B",
+          "text": "₹6320"
+        },
+        {
+          "label": "C",
+          "text": "₹6250"
+        },
+        {
+          "label": "D",
+          "text": "₹6078"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CGL 11/04/2022 (Shift-01)",
+      "questionText": "A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 years is ₹5082. Find the sum (in ₹)",
+      "options": [
+        {
+          "label": "A",
+          "text": "20000"
+        },
+        {
+          "label": "B",
+          "text": "25500"
+        },
+        {
+          "label": "C",
+          "text": "50820"
+        },
+        {
+          "label": "D",
+          "text": "10164"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CGL 17/08/2021 (Shift-02)",
+      "questionText": "A borrowed a sum of ₹1,60,000 from B at 10% per annum simple interest. At the same time, he lent the same sum to C at the same rate on compound interest, compounded semi-annually for 2 years. Find the profit (in ₹) earned by A in the whole transaction.",
+      "options": [
+        {
+          "label": "A",
+          "text": "4280"
+        },
+        {
+          "label": "B",
+          "text": "4281"
+        },
+        {
+          "label": "C",
+          "text": "2481"
+        },
+        {
+          "label": "D",
+          "text": "2840"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "Jonathan had borrowed a sum of money 3 years ago at 10% interest per annum compounded annually for a 5-year period, with the amount to be paid at the end of the period being ₹1,61,051. However, there is no pre-payment penalty and Jonathan has received some bonus payment now, with which he has decided to clear his debt. How much does Jonathan have to pay now to clear his debt?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1,33,100"
+        },
+        {
+          "label": "B",
+          "text": "₹1,33,200"
+        },
+        {
+          "label": "C",
+          "text": "₹1,33,000"
+        },
+        {
+          "label": "D",
+          "text": "₹1,32,900"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - II : BASED ON 3 & 4 CYCLE",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "Peter invested a certain sum of money in a scheme paying 10% simple interest per annum, while Rachel invested half of the sum that Peter invested in a scheme paying 10% interest per annum compounded annually. Also, while Peter invested for 2 years, Rachel invested for 3 years. If the difference in the interest earned by Peter and Rachel was ₹897, what was the sum that Rachel had invested?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹12,900"
+        },
+        {
+          "label": "B",
+          "text": "₹13,000"
+        },
+        {
+          "label": "C",
+          "text": "₹13,100"
+        },
+        {
+          "label": "D",
+          "text": "₹12,960"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - III : WHEN TIME IS GIVEN IN FRACTION",
+      "examShift": "SSC CHSL 02/08/2023 (Shift-01)",
+      "questionText": "A certain amount of money was lent for a period of 1 year 9 months at a rate of 10% per annum compounded annually. If the compound interest is ₹1460, find the amount of money lent?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹8200"
+        },
+        {
+          "label": "B",
+          "text": "₹7500"
+        },
+        {
+          "label": "C",
+          "text": "₹6000"
+        },
+        {
+          "label": "D",
+          "text": "₹8000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - III : WHEN TIME IS GIVEN IN FRACTION",
+      "examShift": "SSC CGL 13/08/2021 (Shift-01)",
+      "questionText": "What is the compound interest (in ₹) on a sum of ₹8192 for $1\\frac{1}{4}$ years at 15% per annum, if interest is compounded 5-monthly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1,640"
+        },
+        {
+          "label": "B",
+          "text": "1,740"
+        },
+        {
+          "label": "C",
+          "text": "1,634"
+        },
+        {
+          "label": "D",
+          "text": "1,735"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - III : WHEN TIME IS GIVEN IN FRACTION",
+      "examShift": "SSC CGL 06/06/2019 (Shift-02)",
+      "questionText": "What is the compound interest on a sum of ₹10,000 at 14% p.a. for $2\\frac{5}{7}$ years where the interest is compounded yearly? (nearest to ₹1)",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹4,295.6"
+        },
+        {
+          "label": "B",
+          "text": "₹4,296"
+        },
+        {
+          "label": "C",
+          "text": "₹4,439"
+        },
+        {
+          "label": "D",
+          "text": "₹4,394"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - III : WHEN TIME IS GIVEN IN FRACTION",
+      "examShift": "SSC Phase-IX 2022",
+      "questionText": "What is the compound interest (in ₹) on a sum of ₹25,000 for $3\\frac{2}{5}$ years at 10% p.a., if the interest is compounded annually?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9606"
+        },
+        {
+          "label": "B",
+          "text": "8275"
+        },
+        {
+          "label": "C",
+          "text": "9516"
+        },
+        {
+          "label": "D",
+          "text": "8425"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CHSL 08/08/2023 (Shift-03)",
+      "questionText": "On a sum of money for 2 years compound interest is ₹550 and simple interest is ₹500 respectively. Find the rate of interest (in per annum).",
+      "options": [
+        {
+          "label": "A",
+          "text": "40%"
+        },
+        {
+          "label": "B",
+          "text": "10%"
+        },
+        {
+          "label": "C",
+          "text": "20%"
+        },
+        {
+          "label": "D",
+          "text": "30%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CHSL 09/08/2023 (Shift-01)",
+      "questionText": "The difference between the simple interest and the compound interest on a certain amount at 9% per annum for two years is ₹162, what is the principal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹19700"
+        },
+        {
+          "label": "B",
+          "text": "₹19000"
+        },
+        {
+          "label": "C",
+          "text": "₹20000"
+        },
+        {
+          "label": "D",
+          "text": "₹18500"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CHSL 26/05/2022 (Shift-01)",
+      "questionText": "The difference between the compound interest and the simple interest on a given principal is ₹1,725 in 2 years and the rate of interest in both cases is 25% per annum. Find the principal.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹25,600"
+        },
+        {
+          "label": "B",
+          "text": "₹26,500"
+        },
+        {
+          "label": "C",
+          "text": "₹26,400"
+        },
+        {
+          "label": "D",
+          "text": "₹27,600"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CGL 20/04/2022 (Shift-01)",
+      "questionText": "The difference between compound interest compounded annually and simple interest on a certain sum at a rate of 15% per annum for 2 years is ₹1,944. Find the compound interest compounded annually (in ₹) on the same sum for the same period at a rate of 10% per annum.",
+      "options": [
+        {
+          "label": "A",
+          "text": "18,060"
+        },
+        {
+          "label": "B",
+          "text": "27,216"
+        },
+        {
+          "label": "C",
+          "text": "18,144"
+        },
+        {
+          "label": "D",
+          "text": "20,500"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-02)",
+      "questionText": "A deposited ₹1,56,250 at 8% simple interest for 2 years. How much more money will A have in his account at the end of two years, if at the same rate of interest the sum is invested on compound interest, compounded annually",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1,740.90"
+        },
+        {
+          "label": "B",
+          "text": "₹1,000"
+        },
+        {
+          "label": "C",
+          "text": "₹2,000"
+        },
+        {
+          "label": "D",
+          "text": "₹1,540.40"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CHSL 10/03/2023 (Shift-03)",
+      "questionText": "Nutan gets two offers of loan from a bank and an app. The app offered ₹10,000 at 15 percent per annum compounded annually for 2 years and the bank offered the same amount at the same rate for the same time but on simple interest. Find the difference between the interests.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹375"
+        },
+        {
+          "label": "B",
+          "text": "₹400"
+        },
+        {
+          "label": "C",
+          "text": "₹250"
+        },
+        {
+          "label": "D",
+          "text": "₹225"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CHSL 04/08/2023 Shift-04",
+      "questionText": "A certain sum was invested at the rate of 10% for a period of 2 years at compound interest compounded annually. The same sum was invested for the same period and same rate of interest at simple interest. if the difference of compound interest and simple interest was ₹200, find the sum.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹30,000"
+        },
+        {
+          "label": "B",
+          "text": "₹25,000"
+        },
+        {
+          "label": "C",
+          "text": "₹22,000"
+        },
+        {
+          "label": "D",
+          "text": "₹20,000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CHSL 04/08/2023 (Shift-01)",
+      "questionText": "If the difference between the compound interest and simple interest on a certain sum of money for 3 years at the rate of 4% per annum is ₹76, then what is the sum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹16,725"
+        },
+        {
+          "label": "B",
+          "text": "₹12,925"
+        },
+        {
+          "label": "C",
+          "text": "₹15,625"
+        },
+        {
+          "label": "D",
+          "text": "₹18,825"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CPO 10/11/2022 (Shift-03)",
+      "questionText": "Find the difference between the compound interest and simple interest when a sum of ₹15,625 is invested for 3 years at 4% per annum.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹76"
+        },
+        {
+          "label": "B",
+          "text": "₹96"
+        },
+        {
+          "label": "C",
+          "text": "₹56"
+        },
+        {
+          "label": "D",
+          "text": "₹86"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC MTS 13/09/2023 (Shift-01)",
+      "questionText": "On what sum of money will the difference between the simple interest and compound interest (Compounded annually) for 3 years at 5% per annum be ₹15.25?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2,000"
+        },
+        {
+          "label": "B",
+          "text": "₹2,500"
+        },
+        {
+          "label": "C",
+          "text": "₹4,000"
+        },
+        {
+          "label": "D",
+          "text": "₹1,000"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CPO 09/11/2022 (Shift-02)",
+      "questionText": "Find the difference between the simple interest and the compound interest payable annually on a sum of ₹6,500 at 7% per annum for 3 years. (Correct two decimal places.)",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹94.34"
+        },
+        {
+          "label": "B",
+          "text": "₹97.78"
+        },
+        {
+          "label": "C",
+          "text": "₹98.73"
+        },
+        {
+          "label": "D",
+          "text": "₹95.67"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - IV: BASED ON DIFFERENCE OF CI FOR 2 & 3 CYCLE",
+      "examShift": "SSC CHSL 26/05/2022 (Shift-03)",
+      "questionText": "Calculate the difference between the compound interest and the simple interest on a sum of ₹5,000 at the rate of 8% for 3 years (to nearest integer).",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹108"
+        },
+        {
+          "label": "B",
+          "text": "₹105"
+        },
+        {
+          "label": "C",
+          "text": "₹102"
+        },
+        {
+          "label": "D",
+          "text": "₹99"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CHSL 10/03/2023 (Shift-02)",
+      "questionText": "₹6000 is lend at the annual rate of 10 percent for 2 years. Which of the following statement(s) is/are correct?\nI. Simple interest to be received on this sum is ₹1200.\nII. Compound Interest (compounding annually) to be received on this sum is ₹1260.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Statement I is correct"
+        },
+        {
+          "label": "B",
+          "text": "Both statement I and II are correct"
+        },
+        {
+          "label": "C",
+          "text": "Statement II is correct."
+        },
+        {
+          "label": "D",
+          "text": "None of them are correct."
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CGL 19/04/2022 (Shift-03)",
+      "questionText": "What is the compound interest (in ₹) at the rate of 10%, compounded annually, for 3 years on the principal which in 8 years at the rate of 12% per annum gives ₹4,800 as simple interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1,505"
+        },
+        {
+          "label": "B",
+          "text": "1,655"
+        },
+        {
+          "label": "C",
+          "text": "1,455"
+        },
+        {
+          "label": "D",
+          "text": "2,015"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC MTS 09/05/2023 (Shift-02)",
+      "questionText": "The compound interest (compounded annually) on a certain sum of money for 2 years at 60 per cent per annum is ₹6240. What will be the simple interest on the same sum of money and the same rate of interest for 3 years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6800"
+        },
+        {
+          "label": "B",
+          "text": "₹7200"
+        },
+        {
+          "label": "C",
+          "text": "₹7100"
+        },
+        {
+          "label": "D",
+          "text": "₹6500"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CGL 4/03/2020 (Shift-02)",
+      "questionText": "The difference in the compound interest on a certain sum at 10% p.a. for one year, when the interest is compounded half yearly and yearly, is ₹88.80. What is the simple interest on this same sum for $1\\frac{2}{3}$ years at the same rate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹5,916"
+        },
+        {
+          "label": "B",
+          "text": "₹5,986"
+        },
+        {
+          "label": "C",
+          "text": "₹5,980"
+        },
+        {
+          "label": "D",
+          "text": "₹5,920"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC Phase-IX 2022",
+      "questionText": "A certain sum amounts to ₹14,641 in 4 years at 10% p.a. when interest is compounded annually. What will be the amount of the same sum (in ₹) in $3\\frac{2}{5}$ years at the same rate at simple interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14000"
+        },
+        {
+          "label": "B",
+          "text": "13600"
+        },
+        {
+          "label": "C",
+          "text": "13400"
+        },
+        {
+          "label": "D",
+          "text": "13200"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC Phase-IX 2022",
+      "questionText": "A certain sum amounts to ₹11,520 in 4 years at the rate of 15% p.a. simple interest. What will be the amount of the same sum in 2 years at the same rate, if the interest is compounded 8-monthly (nearest to a ₹)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹9853"
+        },
+        {
+          "label": "B",
+          "text": "₹9338"
+        },
+        {
+          "label": "C",
+          "text": "₹9583"
+        },
+        {
+          "label": "D",
+          "text": "₹9538"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CHSL 02/08/2023 Shift-01",
+      "questionText": "A certain amount of money was lent for a period of 1 year 9 months at a rate of 10% per annum compounded annually. If the compound interest is ₹1460, find the amount of money lent.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹8200"
+        },
+        {
+          "label": "B",
+          "text": "₹7500"
+        },
+        {
+          "label": "C",
+          "text": "₹6000"
+        },
+        {
+          "label": "D",
+          "text": "₹8000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CHSL 04/08/2021 (Shift-02)",
+      "questionText": "Varun and Madhur invested ₹25,000 each in different schemes. Varun earned simple interest at 11% per annum, whereas Madhur earned compound interest at 10% per annum compounded annually. Who received more interest after 2 years and how much?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Madhur, ₹302.50"
+        },
+        {
+          "label": "B",
+          "text": "Varun, ₹250"
+        },
+        {
+          "label": "C",
+          "text": "Madhur, ₹250"
+        },
+        {
+          "label": "D",
+          "text": "Varun, ₹500"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CHSL 13/03/2023 (Shift-01)",
+      "questionText": "The simple interest accrued on a certain principal is ₹1200 in 3 years at the rate of 8% per annum. What would be the compound interest (compounding annually) accrued on twice of that principal at the rate of 10% per annum in 2 years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1,050"
+        },
+        {
+          "label": "B",
+          "text": "₹2,150"
+        },
+        {
+          "label": "C",
+          "text": "₹2,100"
+        },
+        {
+          "label": "D",
+          "text": "₹1,100"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "DP CONSTABLE 28/11/2023 (Shift-01)",
+      "questionText": "A moneylender borrows money at 4% per annum and pays the interest at the end of the year. He lends it at 8% per annum compound interest, compounded half-yearly, and receives the interest at the end of the year. In this way, he gains ₹166.4 a year. Find the amount of money he borrows.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6,500"
+        },
+        {
+          "label": "B",
+          "text": "₹4,000"
+        },
+        {
+          "label": "C",
+          "text": "₹5,050"
+        },
+        {
+          "label": "D",
+          "text": "₹4,500"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CGL 20/04/2022 (Shift-02)",
+      "questionText": "The simple interest on a sum of money at 10% per annum for 4 years is ₹3,200. What will be the amount (in ₹) of the same sum for the same period at the same rate of interest when the interest is compounded annually?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11,172.80"
+        },
+        {
+          "label": "B",
+          "text": "11,712.80"
+        },
+        {
+          "label": "C",
+          "text": "11,127.80"
+        },
+        {
+          "label": "D",
+          "text": "11,217.80"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CPO 25/11/2020 (Shift-02)",
+      "questionText": "The simple interest on a sum of money at 10% per annum for 2 years is ₹8,100. What would be the compound interest (in ₹) on the same sum for the period at 15% p.a. when the interest is compounded yearly? (nearest to ₹1)",
+      "options": [
+        {
+          "label": "A",
+          "text": "13,061"
+        },
+        {
+          "label": "B",
+          "text": "14,671"
+        },
+        {
+          "label": "C",
+          "text": "8,100"
+        },
+        {
+          "label": "D",
+          "text": "12,751"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CHSL 05/08/2021 (Shift-01)",
+      "questionText": "The simple interest on a sum of ₹8,000 at certain rate percent per annum for 3 years is ₹3,600. What will be the amount (in ₹) of the same sum after 2 years at the same rate, if the interest is compounded 8-monthly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹10,580"
+        },
+        {
+          "label": "B",
+          "text": "₹10,450"
+        },
+        {
+          "label": "C",
+          "text": "₹10,648"
+        },
+        {
+          "label": "D",
+          "text": "₹11,239"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CHSL 12/04/2021 (Shift-03)",
+      "questionText": "The simple interest on a certain sum for 3 years at 12% p.a. is ₹6,750. What is the compound interest (in ₹) on the same sum for 2 years at 20% p.a., if interest is compounded half-yearly? (rounded off to the nearest ₹)",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹8000"
+        },
+        {
+          "label": "B",
+          "text": "₹8702"
+        },
+        {
+          "label": "C",
+          "text": "₹6750"
+        },
+        {
+          "label": "D",
+          "text": "₹7729"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CGL TIER-II 15/11/2020",
+      "questionText": "A certain sum amounts to ₹ 15,500 in 2 years at 12% p.a. simple interest. The same sum will amount to what in $1\\frac{1}{2}$ years at 10% p.a., if the interest is compounded half yearly (nearest to ₹1)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 14,470"
+        },
+        {
+          "label": "B",
+          "text": "₹ 13,460"
+        },
+        {
+          "label": "C",
+          "text": "₹ 14,360"
+        },
+        {
+          "label": "D",
+          "text": "₹ 15,125"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC Phase-IX 2022",
+      "questionText": "The simple interest on a certain sum of P at a rate of r% per annum for 3 years is ₹11,250 and the compound interest on the same sum for 2 years at the same rate percent p.a. is ₹7,650. What is the value of P and r, respectively?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹92500 & 6%"
+        },
+        {
+          "label": "B",
+          "text": "₹92500 & 7%"
+        },
+        {
+          "label": "C",
+          "text": "₹93750 & 4%"
+        },
+        {
+          "label": "D",
+          "text": "₹93750 & 5%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - V: COMBINATION OF CI & SI BOTH",
+      "examShift": "SSC CGL 18/08/2021 (Shift-02)",
+      "questionText": "A sum of ₹3125 amounts to ₹3515.20 in 3 years at x% p.a., interest being compounded yearly. What will be the simple interest (in ₹) on the same sum and for the same time at (x + 2)% p.a.?",
+      "options": [
+        {
+          "label": "A",
+          "text": "554"
+        },
+        {
+          "label": "B",
+          "text": "562.50"
+        },
+        {
+          "label": "C",
+          "text": "565.50"
+        },
+        {
+          "label": "D",
+          "text": "550"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - VI: TO FIND RATE",
+      "examShift": "MTS 06/09/2023 (Shift-02)",
+      "questionText": "At what annual rate will a sum of ₹6,400 yield ₹1,344 as compound interest (compounded annually) in 2 years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5%"
+        },
+        {
+          "label": "B",
+          "text": "12%"
+        },
+        {
+          "label": "C",
+          "text": "10%"
+        },
+        {
+          "label": "D",
+          "text": "8%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - VI: TO FIND RATE",
+      "examShift": "DP CONSTABLE 14/11/2023 (Shift-03)",
+      "questionText": "The compound interest on a sum of ₹8,000 becomes ₹9,261 in 18 months. Find the rate of interest if interest is compounded half-yearly.",
+      "options": [
+        {
+          "label": "A",
+          "text": "8%"
+        },
+        {
+          "label": "B",
+          "text": "10%"
+        },
+        {
+          "label": "C",
+          "text": "20%"
+        },
+        {
+          "label": "D",
+          "text": "12%"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - VI: TO FIND RATE",
+      "examShift": "SSC CHSL 16/03/2023 (Shift-04)",
+      "questionText": "A sum becomes 1.96 times of itself in 2 years when invested at compound interest (compounding annually). What is the annual rate of interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "20%"
+        },
+        {
+          "label": "B",
+          "text": "25%"
+        },
+        {
+          "label": "C",
+          "text": "40%"
+        },
+        {
+          "label": "D",
+          "text": "30%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - VI: TO FIND RATE",
+      "examShift": "SSC Phase-IX 2022",
+      "questionText": "At what rate percentage per annum will ₹14,400 amount to ₹15,876 in one year, if interest is compounded half-yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15%"
+        },
+        {
+          "label": "B",
+          "text": "12%"
+        },
+        {
+          "label": "C",
+          "text": "8%"
+        },
+        {
+          "label": "D",
+          "text": "10%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - VI: TO FIND RATE",
+      "examShift": "SSC MTS 12/09/2023 (Shift-01)",
+      "questionText": "Hema invested ₹1728 at the rate of compound interest (Compounded annually) for 3 years. She got ₹4,096 after the specified period. Find the rate of interest per annum Compounded annually.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$33\\frac{1}{3}\\%"
+        },
+        {
+          "label": "B",
+          "text": "$33\\frac{1}{2}\\%"
+        },
+        {
+          "label": "C",
+          "text": "$30\\frac{1}{2}\\%"
+        },
+        {
+          "label": "D",
+          "text": "$30\\frac{1}{3}\\%"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - VI: TO FIND RATE",
+      "examShift": "SSC MTS 04/05/2023 (Shift-02)",
+      "questionText": "At what rate of annual compound interest, the interest on ₹20000 compounded half-yearly in 1 year 6 months becomes ₹23152.50?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10% yearly"
+        },
+        {
+          "label": "B",
+          "text": "5% yearly"
+        },
+        {
+          "label": "C",
+          "text": "12% yearly"
+        },
+        {
+          "label": "D",
+          "text": "8% yearly"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "TYPE - VI: TO FIND RATE",
+      "examShift": "SSC CGL 24/08/2021 (Shift-01)",
+      "questionText": "A sum of ₹9500 amounts to ₹11495 in 2 years at a certain rate percent per annum, interest compounded yearly. What is the simple interest (in ₹) on the same sum for the same time and double the rate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3420"
+        },
+        {
+          "label": "B",
+          "text": "3990"
+        },
+        {
+          "label": "C",
+          "text": "3800"
+        },
+        {
+          "label": "D",
+          "text": "4560"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "TYPE - VII: TO FIND TIME",
+      "examShift": "MTS 05/09/2023 (Shift-03)",
+      "questionText": "In how many years will a sum of ₹18,000 amount to ₹23,958 at the annual rate of 20% compounded half yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1\\frac{1}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$1\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$2\\frac{1}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$3\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "TYPE - VII: TO FIND TIME",
+      "examShift": "SSC CGL TIER II 26/10/2023",
+      "questionText": "The compound interest on ₹10,000 at 20% per annum is ₹4,641. when interest is compounded half-yearly, then for how many years was the sum invested?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 years"
+        },
+        {
+          "label": "B",
+          "text": "3 years"
+        },
+        {
+          "label": "C",
+          "text": "4 years"
+        },
+        {
+          "label": "D",
+          "text": "6 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "TYPE - VII: TO FIND TIME",
+      "examShift": "SSC MTS 11/09/2023 (Shift-03)",
+      "questionText": "In how many years will ₹1,60,000 become ₹2,79,841 at a compound interest (Compounded annually) rate of 15% per annum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 years"
+        },
+        {
+          "label": "B",
+          "text": "3 years"
+        },
+        {
+          "label": "C",
+          "text": "4 years"
+        },
+        {
+          "label": "D",
+          "text": "5 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "TYPE - VII: TO FIND TIME",
+      "examShift": "SSC MTS 13/06/2023 (Shift-01)",
+      "questionText": "A sum becomes ₹33800 in 2 years and ₹43,940 in 3 years, when lent in a scheme of compound interest (compounding annually). If double the sum is invested in the same scheme for 2 years, then what will be the amount obtained at end of 2 years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹62480"
+        },
+        {
+          "label": "B",
+          "text": "₹67600"
+        },
+        {
+          "label": "C",
+          "text": "₹71240"
+        },
+        {
+          "label": "D",
+          "text": "₹60,420"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "TYPE - VII: TO FIND TIME",
+      "examShift": "SSC Phase-X 04/08/2022 (Shift-03)",
+      "questionText": "In how many years will a sum of ₹800 become ₹1216.70 at 30% per annum C.I. compounding half-yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 year"
+        },
+        {
+          "label": "B",
+          "text": "1 year"
+        },
+        {
+          "label": "C",
+          "text": "2.5 year"
+        },
+        {
+          "label": "D",
+          "text": "1.5 year"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 85,
+      "typeHeader": "TYPE - VII: TO FIND TIME",
+      "examShift": "SSC MTS 25/07/2022 (Shift-03)",
+      "questionText": "The compound interest on ₹18,000 at 7% per annum, compounded annually, is ₹1,260. What is the period of time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 years"
+        },
+        {
+          "label": "B",
+          "text": "2 years"
+        },
+        {
+          "label": "C",
+          "text": "3 years"
+        },
+        {
+          "label": "D",
+          "text": "4 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 86,
+      "typeHeader": "TYPE - VII: TO FIND TIME",
+      "examShift": "SSC CGL 16/08/2021 (Shift-01)",
+      "questionText": "A sum of ₹7500 amounts to ₹9075 at 10% p.a. interest being compounded yearly in a certain time. The simple interest (in ₹) on the same sum for the same time and the same rate is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1500"
+        },
+        {
+          "label": "B",
+          "text": "1480"
+        },
+        {
+          "label": "C",
+          "text": "1520"
+        },
+        {
+          "label": "D",
+          "text": "1530"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - VII: TO FIND TIME",
+      "examShift": "SSC CGL 04/03/2020 (Shift-03)",
+      "questionText": "A sum of ₹ 8,000 invested at 10% p.a. amounts to ₹ 9,261 in a certain time, interest compounded half-yearly. What will be the compound interest (in ₹) on the same sum for the same time at double the earlier rate of interest, when interest is compounded annually?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2,520"
+        },
+        {
+          "label": "B",
+          "text": "₹2,480"
+        },
+        {
+          "label": "C",
+          "text": "₹2,560"
+        },
+        {
+          "label": "D",
+          "text": "₹2,500"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC CHSL 17/03/2023 (Shift-04)",
+      "questionText": "A sum amounts to ₹6580 in 2 years and amounts to ₹7896 in 3 years on compound interest (compounding annually) at the same rate of interest. What is the annual rate of interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30%"
+        },
+        {
+          "label": "B",
+          "text": "40%"
+        },
+        {
+          "label": "C",
+          "text": "15%"
+        },
+        {
+          "label": "D",
+          "text": "20%"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 89,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC CPO 04/10/2023 (Shift-03)",
+      "questionText": "A sum of money amounts to ₹1,200 in 2 years and becomes ₹1,260 in 3 years at compound interest, when interest is compounded annually. What is the rate of compound interest per annum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6%"
+        },
+        {
+          "label": "B",
+          "text": "3%"
+        },
+        {
+          "label": "C",
+          "text": "5%"
+        },
+        {
+          "label": "D",
+          "text": "7%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 90,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "A sum of money becomes ₹6,400 in 3 years and ₹8,100 in 5 years on compound interest compounded annually. Find the rate of interest per annum.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$12\\frac{3}{4}\\%$"
+        },
+        {
+          "label": "B",
+          "text": "$12\\frac{5}{8}\\%$"
+        },
+        {
+          "label": "C",
+          "text": "$12\\frac{3}{8}\\%$"
+        },
+        {
+          "label": "D",
+          "text": "$12\\frac{1}{2}\\%$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 91,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC CHSL 03/08/2023 (Shift-02)",
+      "questionText": "A sum amounts to ₹6,120 in 2 years and ₹7,340 in 3 years at compound interest. The sum (in ₹) is (rounded off to 2 decimal places):",
+      "options": [
+        {
+          "label": "A",
+          "text": "4,050.13"
+        },
+        {
+          "label": "B",
+          "text": "4,254.63"
+        },
+        {
+          "label": "C",
+          "text": "4,850.32"
+        },
+        {
+          "label": "D",
+          "text": "4,560.23"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 92,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC MTS 14/06/2023 (Shift-03)",
+      "questionText": "The amount received on a certain sum after 3 years and 5 years on compound interest (compounding annually) is ₹20,736 and ₹29,859.84 respectively. What is that sum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹9000"
+        },
+        {
+          "label": "B",
+          "text": "₹14000"
+        },
+        {
+          "label": "C",
+          "text": "₹15000"
+        },
+        {
+          "label": "D",
+          "text": "₹12000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 93,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC CGL 11/04/2022 (Shift-02)",
+      "questionText": "A sum invested at compound interest amounts to ₹7,800 in 3 years and ₹11,232 in 5 years. What is the rate of interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "26%"
+        },
+        {
+          "label": "B",
+          "text": "20%"
+        },
+        {
+          "label": "C",
+          "text": "15%"
+        },
+        {
+          "label": "D",
+          "text": "18%"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 94,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC MTS 20/06/2023 (Shift-01)",
+      "questionText": "On a certain sum the compound interest (compounding annually) for fourth year is ₹15000 and the compound interest (compounding annually) for sixth year is ₹25350. What is the rate of interest per annum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "35%"
+        },
+        {
+          "label": "B",
+          "text": "30%"
+        },
+        {
+          "label": "C",
+          "text": "40%"
+        },
+        {
+          "label": "D",
+          "text": "25%"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 95,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC MTS 20/07/2022 (Shift-02)",
+      "questionText": "On a certain sum, the interest is compounded annually. If the compound interest for the second year is ₹400 and the compound interest for the fourth year is 576, then what is the rate of interest per annum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "20%"
+        },
+        {
+          "label": "B",
+          "text": "25%"
+        },
+        {
+          "label": "C",
+          "text": "15%"
+        },
+        {
+          "label": "D",
+          "text": "44%"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 96,
+      "typeHeader": "TYPE - VIII: MUNNI METHOD",
+      "examShift": "SSC CPO 25/11/2020 (Shift-01)",
+      "questionText": "A sum amounts to ₹7,562 in 4 years and to ₹8,469.44 in 5 years, at a certain rate percent per annum when the interest is compounded yearly. If ₹10,000 at the same rate of interest is borrowed for two years, then what will be the compound interest (in ₹)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2,544"
+        },
+        {
+          "label": "B",
+          "text": "2,764"
+        },
+        {
+          "label": "C",
+          "text": "1,965"
+        },
+        {
+          "label": "D",
+          "text": "1,736"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 97,
+      "typeHeader": "TYPE - IX: PRINCIPAL BECOMES N TIMES AFTER T YEARS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "A sum of money at compound interest doubles itself in 4 years. In how many years does the sum become 8 times of itself at the same rate of interest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 years"
+        },
+        {
+          "label": "B",
+          "text": "12 years"
+        },
+        {
+          "label": "C",
+          "text": "8 years"
+        },
+        {
+          "label": "D",
+          "text": "10 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 98,
+      "typeHeader": "TYPE - IX: PRINCIPAL BECOMES N TIMES AFTER T YEARS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "A certain amount of money becomes thrice in 5 years at compound interest. How many years it will take to become 9 times?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 years"
+        },
+        {
+          "label": "B",
+          "text": "8 years"
+        },
+        {
+          "label": "C",
+          "text": "10 years"
+        },
+        {
+          "label": "D",
+          "text": "25 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 99,
+      "typeHeader": "TYPE - IX: PRINCIPAL BECOMES N TIMES AFTER T YEARS",
+      "examShift": "SSC MTS 14/09/2023 (Shift-02)",
+      "questionText": "Money is doubled in a bank account in 7 years, when the interest is compounded annually. What time in years is needed to make an amount 8 times in the bank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "35 years"
+        },
+        {
+          "label": "B",
+          "text": "28 years"
+        },
+        {
+          "label": "C",
+          "text": "21 years"
+        },
+        {
+          "label": "D",
+          "text": "14 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 100,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 08/10/2021 (Shift-02)",
+      "questionText": "A sum of ₹4,000 is lent at 10% p.a., interest compounded annually. What is the difference between the compound interest for the 2nd year and the 3rd year?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹44.00"
+        },
+        {
+          "label": "B",
+          "text": "₹45.40"
+        },
+        {
+          "label": "C",
+          "text": "₹46.50"
+        },
+        {
+          "label": "D",
+          "text": "₹45.00"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 101,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "CISF HC 30/10/2023 (Shift-01)",
+      "questionText": "Mukesh invested ₹100000 in a company. He would be paid interest at 7% per annum compounded annually. Find the interest for the 3rd year.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹8200.33"
+        },
+        {
+          "label": "B",
+          "text": "₹7550.53"
+        },
+        {
+          "label": "C",
+          "text": "₹8333.33"
+        },
+        {
+          "label": "D",
+          "text": "₹8014.3"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 102,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 05/07/2022 (Shift-03)",
+      "questionText": "A sum of money becomes two times of itself in 8 years at simple interest, and it becomes four times of itself in 2 years at compound interest, when interest is compounded annually. Find the ratio of the rate of simple interest to the rate of compound interest offered per year.",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "3 : 5"
+        },
+        {
+          "label": "C",
+          "text": "3 : 5"
+        },
+        {
+          "label": "D",
+          "text": "1 : 8"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 103,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "ICAR 29/07/2022 (Shift-01)",
+      "questionText": "The difference between the compound interests on a certain sum for $1\\frac{1}{2}$ years at a rate of 20% p.a. is ₹1,716 when the interest is compounded half yearly and compounded annually. The sum (in ₹) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1,32,000"
+        },
+        {
+          "label": "B",
+          "text": "1,43,000"
+        },
+        {
+          "label": "C",
+          "text": "2,14,500"
+        },
+        {
+          "label": "D",
+          "text": "1,56,000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 104,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "A sum of ₹1,00,000 was taken from a bank at the rate of 7% p.a. to be compounded annually for 5 years. Calculate the compound interest. (Closest to a ₹)",
+      "options": [
+        {
+          "label": "A",
+          "text": "40,587"
+        },
+        {
+          "label": "B",
+          "text": "40,000"
+        },
+        {
+          "label": "C",
+          "text": "20,963"
+        },
+        {
+          "label": "D",
+          "text": "40,255"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 105,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 05/09/2023 (Shift-02)",
+      "questionText": "Find the amount of ₹75,000 for one year at the rate of 16% per annum, if the interest is compounded quarterly (rounded off to two decimal places).",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹87,937.40"
+        },
+        {
+          "label": "B",
+          "text": "₹89,773.40"
+        },
+        {
+          "label": "C",
+          "text": "₹87,739.40"
+        },
+        {
+          "label": "D",
+          "text": "₹87,379.40"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 106,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 14/03/2023 (Shift-02)",
+      "questionText": "If 10 percent per annum rate of compound interest compounded yearly is equivalent to the x percent per annum rate of compound interest compounded half yearly, then what is the value (Approximate) of x?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6.25%"
+        },
+        {
+          "label": "B",
+          "text": "5.32%"
+        },
+        {
+          "label": "C",
+          "text": "4.88%"
+        },
+        {
+          "label": "D",
+          "text": "4.55%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 107,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL 15/04/2021 (Shift-01)",
+      "questionText": "A man invested a total of ₹12,050 in two parts, one at 10% p.a. simple interest for 2 years and the other at the same rate at compound interest, interest being compounded annually, for the same time. The amount he received from both the parts are equal. The sum (in ₹) invested at the compound interest is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹5,850"
+        },
+        {
+          "label": "B",
+          "text": "₹6,000"
+        },
+        {
+          "label": "C",
+          "text": "₹5,780"
+        },
+        {
+          "label": "D",
+          "text": "₹5,800"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 108,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 05/03/2020 (Shift-02)",
+      "questionText": "A and B together borrowed a sum of ₹51,750 at an interest rate of 7% p.a. compound interest in such a way that to settle the loan, A paid as much amount after three years as paid by B after 4 years from the day of borrowing. The sum (in ₹) borrowed by A was :",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹25,000"
+        },
+        {
+          "label": "B",
+          "text": "₹25,650"
+        },
+        {
+          "label": "C",
+          "text": "₹24,860"
+        },
+        {
+          "label": "D",
+          "text": "₹26,750"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 109,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "ICAR 29/07/2022 (Shift-03)",
+      "questionText": "The compound interest on a sum of ₹12,000 at a rate of x % p.a. for $1\\frac{1}{2}$ years is ₹3,840, compounded yearly. What will be the compound interest on the same sum at the same rate and for the same period if the interest is compounded half-yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹3,972"
+        },
+        {
+          "label": "B",
+          "text": "₹3,876"
+        },
+        {
+          "label": "C",
+          "text": "₹3,944"
+        },
+        {
+          "label": "D",
+          "text": "₹3,846"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 110,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 18/04/2022 (Shift-02)",
+      "questionText": "Joseph deposited a total of ₹52,500 in a bank in the names of his two daughters aged 15 years and 16 years in such a way that they would get equal amounts when they become 18 years old. If the bank gives 10% compound interest compounded annually, then what is the amount (in ₹) that Joseph had deposited in the name of his younger daughter ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25,500"
+        },
+        {
+          "label": "B",
+          "text": "26,000"
+        },
+        {
+          "label": "C",
+          "text": "24,500"
+        },
+        {
+          "label": "D",
+          "text": "25,000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 111,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 20/04/2022 (Shift-03)",
+      "questionText": "Divide ₹66,300 between A and B in such a way that the amount that A receives after 8 years is equal to the amount that B receives after 10 years; with compound interest being compounded annually at a rate of 10% per annum.",
+      "options": [
+        {
+          "label": "A",
+          "text": "A = ₹35,200, B = ₹31,100"
+        },
+        {
+          "label": "B",
+          "text": "A = ₹36,300, B = ₹30,000"
+        },
+        {
+          "label": "C",
+          "text": "A = ₹37,000, B = ₹29,300"
+        },
+        {
+          "label": "D",
+          "text": "A = ₹35,520, B = ₹30,810"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 112,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "ICAR 29/07/2022 (Shift-01)",
+      "questionText": "Nidhi invested her savings in schemes A and B in the ratio 2 : 3, respectively, for $1\\frac{1}{2}$ years. Scheme A offers interest at 20% p.a. compounded half yearly, while Scheme B offers interest at 10% p.a. compounded yearly. If the total interest received by her from both the schemes is ₹13,524, then the amount (in ₹) invested by her in Scheme A is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "36,000"
+        },
+        {
+          "label": "B",
+          "text": "24,000"
+        },
+        {
+          "label": "C",
+          "text": "15,000"
+        },
+        {
+          "label": "D",
+          "text": "18,000"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 113,
+      "typeHeader": "TYPE - X: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 12/10/2021 (Shift-02)",
+      "questionText": "A certain sum was invested for three years in a scheme in which the interest gets compounded annually. During the first two years, the scheme provided growths at the rates of 80% and 60%, respectively, but during the third year there was a decline by 40%. What was the overall interest rate for three years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22.5%"
+        },
+        {
+          "label": "B",
+          "text": "24%"
+        },
+        {
+          "label": "C",
+          "text": "20%"
+        },
+        {
+          "label": "D",
+          "text": "48.6%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 114,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CHSL 27/05/2022 (Shift-01)",
+      "questionText": "Loan is to be repaid in two equal yearly installments. If the rate of interest is 10% per annum, compounded annually, and each installment is ₹6,897, then find the total interest charged.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1,644"
+        },
+        {
+          "label": "B",
+          "text": "₹1,824"
+        },
+        {
+          "label": "C",
+          "text": "₹1,914"
+        },
+        {
+          "label": "D",
+          "text": "₹1,734"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 115,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "A loan of ₹2,550 is to be paid back in two equal half-yearly installments. How much is each installment if the interest is compounded half-yearly at 8% p.a.?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1250"
+        },
+        {
+          "label": "B",
+          "text": "₹1352"
+        },
+        {
+          "label": "C",
+          "text": "₹1745"
+        },
+        {
+          "label": "D",
+          "text": "₹1457"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 116,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC Phase-XI 27/06/2023 (Shift-01)",
+      "questionText": "An item is bought on a condition that three equal installments of ₹3,993 are to be paid at a rate of 10% compound interest, compounded annually. The cost of the item is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹10,000"
+        },
+        {
+          "label": "B",
+          "text": "₹9,050"
+        },
+        {
+          "label": "C",
+          "text": "₹9,590"
+        },
+        {
+          "label": "D",
+          "text": "₹9,930"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 117,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CHSL 24/05/2022 (Shift-01)",
+      "questionText": "A loan of ₹8,925 is to be paid back in two equal half-yearly installments. How much is each installment if the interest is compounded half-yearly at 8% per annum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹4,372"
+        },
+        {
+          "label": "B",
+          "text": "₹4,732"
+        },
+        {
+          "label": "C",
+          "text": "₹4,654"
+        },
+        {
+          "label": "D",
+          "text": "₹4,564"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 118,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CGL 20/08/2021 (Shift-03)",
+      "questionText": "A loan is to be returned in two equal yearly installments. If the rate of interest is 10% p.a., compounded annually and each installment is ₹6534, then the total interest charged (in ₹) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1728"
+        },
+        {
+          "label": "B",
+          "text": "1867"
+        },
+        {
+          "label": "C",
+          "text": "1642"
+        },
+        {
+          "label": "D",
+          "text": "1579"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 119,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CGL TIER-II 13/09/2019",
+      "questionText": "A certain loan was returned in two equal half yearly installments each of ₹6,760. If the rate of interest was 8% p.a., compounded yearly, how much was the interest paid on the loan?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹750"
+        },
+        {
+          "label": "B",
+          "text": "₹810"
+        },
+        {
+          "label": "C",
+          "text": "₹790"
+        },
+        {
+          "label": "D",
+          "text": "₹770"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 120,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CGL Tier-II 29/01/2022",
+      "questionText": "A loan is to be returned in two equal yearly installments. If the rate of interest is 10% p.a. compounded annually and each installment is ₹5,808 then 60% of the total interest (nearest to a ₹) charged in this scheme is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "917"
+        },
+        {
+          "label": "B",
+          "text": "911"
+        },
+        {
+          "label": "C",
+          "text": "913"
+        },
+        {
+          "label": "D",
+          "text": "922"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 121,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CGL TIER-II 15/11/2020",
+      "questionText": "Surekha borrowed a sum of money and returned it in two equal annual installments of ₹ 5547 each. If the rate of interest was $7\\frac{1}{2}\\%$ p.a. compounded yearly, then the total interest paid by her was :",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹ 1,144"
+        },
+        {
+          "label": "B",
+          "text": "₹ 1,134"
+        },
+        {
+          "label": "C",
+          "text": "₹ 1,096"
+        },
+        {
+          "label": "D",
+          "text": "₹ 1,126"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 122,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CGL 02/12/2022 (Shift-01)",
+      "questionText": "A sum of ₹6,000 is to be paid back in two equal annual installments. Each installment is to be paid at the end of every year. How much is each installment if the interest is compounded annually at 2% p.a.? (Rounded off up to two decimal places)",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2,092.29"
+        },
+        {
+          "label": "B",
+          "text": "₹3,090.30"
+        },
+        {
+          "label": "C",
+          "text": "₹2,291.29"
+        },
+        {
+          "label": "D",
+          "text": "₹3,589.30"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 123,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+      "questionText": "Sita takes a loan of ₹35,000 at an interest rate of 10% compound interest, compounded annually. She agrees to pay two equal installments in 2 years, one installment at the end of each year. Find the value of each installment. (Round off to the nearest integer)",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹20,167"
+        },
+        {
+          "label": "B",
+          "text": "₹40,167"
+        },
+        {
+          "label": "C",
+          "text": "₹10,167"
+        },
+        {
+          "label": "D",
+          "text": "₹30,167"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 124,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CGL TIER-II 07/03/2023",
+      "questionText": "Rajnish borrowed ₹1,500 from a bank and repaid the entire amount with interest in two equal annual installments, the first installment being paid one year after Rajnish borrowed from the bank. If the rate of interest was 40% per annum, compounded annually, then what was the value (in ₹) of each installment paid by Rajnish?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1125"
+        },
+        {
+          "label": "B",
+          "text": "1470"
+        },
+        {
+          "label": "C",
+          "text": "1225"
+        },
+        {
+          "label": "D",
+          "text": "1350"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 125,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC CHSL 16/04/2021 (Shift-02)",
+      "questionText": "A mobile phone is available for ₹79,860 by cash payment or by paying cash of ₹60,000 as down payment and the remaining amount in three equal annual installments. If the shopkeeper charges interest at the rate of 10% per annum compounded annually, then the amount of each installment (in ₹) will be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6,789"
+        },
+        {
+          "label": "B",
+          "text": "₹7,986"
+        },
+        {
+          "label": "C",
+          "text": "₹6,000"
+        },
+        {
+          "label": "D",
+          "text": "₹6,689"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 126,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-01)",
+      "questionText": "A money lender finds that due to the fall in the annual rate of interest from 18% to 15%, his yearly income diminishes by ₹750. His capital is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹25,500"
+        },
+        {
+          "label": "B",
+          "text": "₹25,000"
+        },
+        {
+          "label": "C",
+          "text": "₹5,000"
+        },
+        {
+          "label": "D",
+          "text": "₹2,500"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 127,
+      "typeHeader": "TYPE - XI: INSTALLMENT",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "Geeta deposited a certain sum of money in her bank account which amounted to ₹27,783 in 3 years at 5% per annum, the interest being compounded annually. What amount did she deposit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹25,000"
+        },
+        {
+          "label": "B",
+          "text": "₹24,000"
+        },
+        {
+          "label": "C",
+          "text": "₹25,500"
+        },
+        {
+          "label": "D",
+          "text": "₹26,000"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "According to the official TCS answer key, the correct option is (B)."
+    },
+    {
+      "questionNumber": 128,
+      "typeHeader": "TYPE - VIII: INSTALLMENT",
+      "examShift": "SSC CPO 10/11/2022 (Shift-01)",
+      "questionText": "A man borrowed ₹50,000 from a bank at 10% per annum, compounded annually. At the end of every year, he pays ₹15,000 as part payment of the loan and interest. How much does he still owe to the bank after three such installments?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹16,900"
+        },
+        {
+          "label": "B",
+          "text": "₹15,800"
+        },
+        {
+          "label": "C",
+          "text": "₹15,200"
+        },
+        {
+          "label": "D",
+          "text": "₹16,200"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    },
+    {
+      "questionNumber": 129,
+      "typeHeader": "TYPE - VIII: INSTALLMENT",
+      "examShift": "SSC MTS 27/10/2021 (Shift-02)",
+      "questionText": "Amit borrows a sum of ₹8,000 at 10% p.a. compound interest for 4 years. He repays ₹2,800 at the end of the first year and ₹2,600 at the end of the second year. To clear the loan, how much should he pay after 4 years, interest being compounded yearly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹4800"
+        },
+        {
+          "label": "B",
+          "text": "₹4880"
+        },
+        {
+          "label": "C",
+          "text": "₹4840"
+        },
+        {
+          "label": "D",
+          "text": "₹4780"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 130,
+      "typeHeader": "TYPE - VIII: INSTALLMENT",
+      "examShift": "SSC CGL 17/08/2021 (Shift-03)",
+      "questionText": "A man borrowed a certain sum and agrees to repay it by paying ₹4000 at the end of first year and ₹7700 at the end of second year. If the rate of compound interest compounded annually is 10% per annum, then find the sum (in ₹)",
+      "options": [
+        {
+          "label": "A",
+          "text": "11500"
+        },
+        {
+          "label": "B",
+          "text": "11000"
+        },
+        {
+          "label": "C",
+          "text": "9000"
+        },
+        {
+          "label": "D",
+          "text": "10000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, the correct option is (D)."
+    },
+    {
+      "questionNumber": 131,
+      "typeHeader": "TYPE - VIII: INSTALLMENT",
+      "examShift": "SSC CGL 23/08/2021 (Shift-03)",
+      "questionText": "A person borrowed a sum of ₹30800 at 10% p.a. for 3 years, interest compounded annually. At the end of two years, he paid a sum of ₹13268. At the end of 3rd year, he paid ₹x to clear of the debt. What is the value of x?",
+      "options": [
+        {
+          "label": "A",
+          "text": "26200"
+        },
+        {
+          "label": "B",
+          "text": "26620"
+        },
+        {
+          "label": "C",
+          "text": "26400"
+        },
+        {
+          "label": "D",
+          "text": "26510"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "According to the official TCS answer key, the correct option is (C)."
+    },
+    {
+      "questionNumber": 132,
+      "typeHeader": "TYPE - VIII: INSTALLMENT",
+      "examShift": "SSC CGL 11/04/2022 (Shift-01)",
+      "questionText": "A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 years is ₹5082. Find the sum (in ₹)",
+      "options": [
+        {
+          "label": "A",
+          "text": "20000"
+        },
+        {
+          "label": "B",
+          "text": "25500"
+        },
+        {
+          "label": "C",
+          "text": "50820"
+        },
+        {
+          "label": "D",
+          "text": "10164"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "According to the official TCS answer key, the correct option is (A)."
+    }
+  ]
+}

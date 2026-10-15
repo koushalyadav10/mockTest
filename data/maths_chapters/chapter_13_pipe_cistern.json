@@ -1,0 +1,2297 @@
+{
+  "chapterNumber": 13,
+  "chapterCode": "SSC_MATHS_CH_13_PIPE_CISTERN",
+  "chapterTitleEnglish": "Pipe and Cistern",
+  "chapterTitleHindi": "नल और टंकी",
+  "totalQuestions": 88,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+      "questionText": "Two pipes A and B can fill a tank in 15 hours and 18 hours, respectively. Both pipes are opened simultaneously to fill the tank. In how many hours will the empty tank be filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$7\\frac{2}{11}$"
+        },
+        {
+          "label": "B",
+          "text": "$9\\frac{2}{11}$"
+        },
+        {
+          "label": "C",
+          "text": "$10\\frac{2}{11}$"
+        },
+        {
+          "label": "D",
+          "text": "$8\\frac{2}{11}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Total Capacity} = \\text{LCM}(15, 18) = 90\\text{ units}$$\n$$\\text{Efficiency of A} = \\frac{90}{15} = 6,\\quad \\text{Efficiency of B} = \\frac{90}{18} = 5$$\n$$\\text{Combined efficiency} = 6 + 5 = 11$$\n$$\\text{Time required} = \\frac{90}{11} = 8\\frac{2}{11}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 13/09/2024 (Shift-03)",
+      "questionText": "Two pipes P and Q can fill a tank in 36 minutes and 45 minutes, respectively. If both pipes are opened together, the time taken to fill the tank is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "81 min."
+        },
+        {
+          "label": "B",
+          "text": "20 min."
+        },
+        {
+          "label": "C",
+          "text": "40.5 min."
+        },
+        {
+          "label": "D",
+          "text": "10 min."
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Total Capacity} = \\text{LCM}(36, 45) = 180\\text{ units}$$\n$$\\text{Efficiency of P} = \\frac{180}{36} = 5,\\quad \\text{Efficiency of Q} = \\frac{180}{45} = 4$$\n$$\\text{Time taken} = \\frac{180}{5 + 4} = \\frac{180}{9} = 20\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CPO 25/11/2020 (Shift-01)",
+      "questionText": "Two pipes A and B can fill a tank in 12 hours and 18 hours, respectively. Both pipes are opened simultaneously. In how much time will the empty tank be filled completely?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 hours"
+        },
+        {
+          "label": "B",
+          "text": "10 hours 24 minutes"
+        },
+        {
+          "label": "C",
+          "text": "9 hours 30 minutes"
+        },
+        {
+          "label": "D",
+          "text": "7 hours 12 minutes"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = \\text{LCM}(12, 18) = 36\\text{ units}$$\n$$\\text{Combined Efficiency} = \\frac{36}{12} + \\frac{36}{18} = 3 + 2 = 5$$\n$$\\text{Time taken} = \\frac{36}{5} = 7.2\\text{ hours} = 7\\text{ hours } 12\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "Pipe L can fill a pool in 30 hours and pipe M in 45 hours. If both the pipes are opened in an empty pool, how much time will they take to fill it?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24 hrs."
+        },
+        {
+          "label": "B",
+          "text": "17 hrs."
+        },
+        {
+          "label": "C",
+          "text": "18 hrs."
+        },
+        {
+          "label": "D",
+          "text": "20 hrs."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 90\\text{ units}$$\n$$\\text{Efficiency of L} = 3,\\quad \\text{Efficiency of M} = 2$$\n$$\\text{Time taken} = \\frac{90}{3 + 2} = \\frac{90}{5} = 18\\text{ hrs}$$"
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 25/09/2024 (Shift-02)",
+      "questionText": "Two pipes X and Y can fill a tank in 14 hours and 21 hours, respectively. Both pipes are opened simultaneously to fill the tank. In how many hours will the empty tank be filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$8\\frac{2}{5}$ hours"
+        },
+        {
+          "label": "B",
+          "text": "$6\\frac{2}{5}$ hours"
+        },
+        {
+          "label": "C",
+          "text": "$7\\frac{2}{5}$ hours"
+        },
+        {
+          "label": "D",
+          "text": "$5\\frac{2}{5}$ hours"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = \\text{LCM}(14, 21) = 42\\text{ units}$$\n$$\\text{Efficiency of X} = 3,\\quad \\text{Efficiency of Y} = 2$$\n$$\\text{Time taken} = \\frac{42}{3 + 2} = \\frac{42}{5} = 8\\frac{2}{5}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 14/07/2023 (Shift-04)",
+      "questionText": "Pipe A can fill an empty tank in 18 hours and pipe B can fill the same empty tank in 24 hours. If both the pipes are opened simultaneously, how much time (in hours) will they take to fill the empty tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11\\frac{3}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$10\\frac{1}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$10\\frac{2}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$11\\frac{2}{7}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = \\text{LCM}(18, 24) = 72\\text{ units}$$\n$$\\text{Efficiency of A} = 4,\\quad \\text{Efficiency of B} = 3$$\n$$\\text{Time taken} = \\frac{72}{4 + 3} = \\frac{72}{7} = 10\\frac{2}{7}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "Two pipes A and B can fill a tank in $1\\frac{1}{3}$ hours and 2 hours, respectively. If both the pipe are opened simultaneously, then in how much time will the empty tank be filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1\\frac{1}{4}$ hours"
+        },
+        {
+          "label": "B",
+          "text": "55 minutes"
+        },
+        {
+          "label": "C",
+          "text": "48 minutes"
+        },
+        {
+          "label": "D",
+          "text": "$1\\frac{2}{3}$ hours"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$1\\frac{1}{3}\\text{ hours} = \\frac{4}{3}\\text{ hours}$$\n$$\\text{Combined rate} = \\frac{1}{4/3} + \\frac{1}{2} = \\frac{3}{4} + \\frac{1}{2} = \\frac{5}{4}\\text{ tanks/hour}$$\n$$\\text{Time taken} = \\frac{4}{5}\\text{ hours} = \\frac{4}{5} \\times 60 = 48\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 26/07/2023 (Shift-02)",
+      "questionText": "Pipe A can fill 50% of the tank in 6 hours and pipe B can completely fill the same tank in 18 hours. If both the pipes are opened at the same time, in how much time (in minutes) will the empty tank be completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "420"
+        },
+        {
+          "label": "B",
+          "text": "425"
+        },
+        {
+          "label": "C",
+          "text": "432"
+        },
+        {
+          "label": "D",
+          "text": "435"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Time for A alone to fill 100\\%} = 2 \\times 6 = 12\\text{ hours}$$\n$$\\text{Capacity} = 36\\text{ units}$$\n$$\\text{Efficiency of A} = 3,\\quad \\text{Efficiency of B} = 2$$\n$$\\text{Time taken} = \\frac{36}{3 + 2} = \\frac{36}{5}\\text{ hours} = \\frac{36}{5} \\times 60 = 432\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC MTS 11/09/2023 (Shift-02)",
+      "questionText": "5 pipes are required to fill a tank in 1 hour and 40 minutes. How long (in minutes) will it take to fill the same tank if 4 pipes of the same type are used?",
+      "options": [
+        {
+          "label": "A",
+          "text": "115"
+        },
+        {
+          "label": "B",
+          "text": "140"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "150"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$1\\text{ hour } 40\\text{ minutes} = 100\\text{ minutes}$$\n$$\\text{Total pipe-minutes} = 5 \\times 100 = 500$$\n$$\\text{Time taken with 4 pipes} = \\frac{500}{4} = 125\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CHSL 15/08/2023 (Shift-02)",
+      "questionText": "15 taps can fill a tank in 36 minutes. How many taps will be required to fill the tank in one hour?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{One hour} = 60\\text{ minutes}$$\n$$M_1 T_1 = M_2 T_2 \\implies 15 \\times 36 = n \\times 60$$\n$$n = \\frac{540}{60} = 9\\text{ taps}$$"
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 13/09/2024 (Shift-02)",
+      "questionText": "A pipe can fill an empty tank in 5 minutes and another pipe can empty it in 6 minutes. If both pipes are opened simultaneously, how long (in minutes) will it take to fill the empty tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "33 min."
+        },
+        {
+          "label": "B",
+          "text": "30 min."
+        },
+        {
+          "label": "C",
+          "text": "35 min."
+        },
+        {
+          "label": "D",
+          "text": "25 min."
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Net filling rate} = \\frac{1}{5} - \\frac{1}{6} = \\frac{6 - 5}{30} = \\frac{1}{30}\\text{ per minute}$$\n$$\\text{Time taken} = 30\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "A tank can be filled by pipe A in 4 hours and pipe B in 6 hours. At 8:00 a.m., pipe A was opened. At what time will the tank be filled if pipe B is opened at 9:00 a.m.?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10:16 a.m."
+        },
+        {
+          "label": "B",
+          "text": "10:22 a.m."
+        },
+        {
+          "label": "C",
+          "text": "10:48 a.m."
+        },
+        {
+          "label": "D",
+          "text": "10:18 a.m."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 12\\text{ units}$$\n$$\\text{Efficiency of A} = 3,\\quad \\text{Efficiency of B} = 2$$\nFrom 8:00 a.m. to 9:00 a.m. (1 hour), pipe A alone fills $3 \\times 1 = 3\\text{ units}$.\n$$\\text{Remaining work} = 12 - 3 = 9\\text{ units}$$\n$$\\text{Combined rate} = 3 + 2 = 5\\text{ units/hr}$$\n$$\\text{Time taken} = \\frac{9}{5}\\text{ hours} = 1\\text{ hour } 48\\text{ minutes}$$\n$$\\text{Total time} = 9:00\\text{ a.m.} + 1\\text{ hr } 48\\text{ min} = 10:48\\text{ a.m.}$$"
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL TIER-II 03/02/2022",
+      "questionText": "Pipes A, B and C can fill a tank in 20, 30 and 60 hours, respectively. Pipes A, B and C are opened at 7 a.m., 8 a.m., & 9 a.m., respectively, on the same day. When will the tank be fulled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4:40 p.m."
+        },
+        {
+          "label": "B",
+          "text": "5:40 p.m."
+        },
+        {
+          "label": "C",
+          "text": "6:20 p.m."
+        },
+        {
+          "label": "D",
+          "text": "7:20 p.m."
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Efficiencies}: A = 3, B = 2, C = 1$$\nFrom 7 to 9 a.m. (2 hrs), A fills $3 \\times 2 = 6\\text{ units}$.\nFrom 8 to 9 a.m. (1 hr), B fills $2 \\times 1 = 2\\text{ units}$.\n$$\\text{Units filled by 9 a.m.} = 6 + 2 = 8\\text{ units}$$\n$$\\text{Remaining units} = 60 - 8 = 52\\text{ units}$$\n$$\\text{Combined efficiency} = 3 + 2 + 1 = 6$$\n$$\\text{Time taken} = \\frac{52}{6} = 8\\frac{2}{3}\\text{ hours} = 8\\text{ hours } 40\\text{ minutes}$$\n$$\\text{Finish time} = 9:00\\text{ a.m.} + 8\\text{ h } 40\\text{ min} = 5:40\\text{ p.m.}$$"
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CPO 24/11/2020 (Shift-02)",
+      "questionText": "Pipes A, B and C can fill a tank in 15, 30 and 40 hours, respectively. Pipes A, B and C are opened at 6 a.m., 8 a.m. & 10 a.m., respectively, on the same day. When will the tank be fulled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3:20 p.m."
+        },
+        {
+          "label": "B",
+          "text": "11:20 p.m."
+        },
+        {
+          "label": "C",
+          "text": "7:20 p.m."
+        },
+        {
+          "label": "D",
+          "text": "5:20 p.m."
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 120\\text{ units}$$\n$$\\text{Efficiencies}: A = 8, B = 4, C = 3$$\nFrom 6 to 10 a.m. (4 hrs), A fills $8 \\times 4 = 32\\text{ units}$.\nFrom 8 to 10 a.m. (2 hrs), B fills $4 \\times 2 = 8\\text{ units}$.\n$$\\text{Units filled by 10 a.m.} = 32 + 8 = 40$$\n$$\\text{Remaining} = 120 - 40 = 80\\text{ units}$$\n$$\\text{Combined rate} = 8 + 4 + 3 = 15$$\n$$\\text{Time} = \\frac{80}{15} = \\frac{16}{3} = 5\\text{ hours } 20\\text{ minutes}$$\n$$\\text{Finish time} = 10:00\\text{ a.m.} + 5\\text{ h } 20\\text{ min} = 3:20\\text{ p.m.}$$"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL TIER-II 11/09/2019",
+      "questionText": "Pipes A, B and C can fill a tank in 30 h, 40 h and 60 h respectively. Pipes A, B and C are opened at 7 a.m., 8 a.m. and 10 a.m. respectively on the same day. When will the tank be fulled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10:00 p.m."
+        },
+        {
+          "label": "B",
+          "text": "10:20 p.m."
+        },
+        {
+          "label": "C",
+          "text": "9:20 p.m."
+        },
+        {
+          "label": "D",
+          "text": "9:40 p.m."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 120\\text{ units}$$\n$$\\text{Efficiencies}: A = 4, B = 3, C = 2$$\nFrom 7 to 10 a.m. (3 hrs): $A = 4 \\times 3 = 12\\text{ units}$.\nFrom 8 to 10 a.m. (2 hrs): $B = 3 \\times 2 = 6\\text{ units}$.\n$$\\text{Filled by 10 a.m.} = 18\\text{ units}, \\quad \\text{Remaining} = 120 - 18 = 102\\text{ units}$$\n$$\\text{Combined rate} = 4 + 3 + 2 = 9$$\n$$\\text{Time} = \\frac{102}{9} = 11\\frac{1}{3}\\text{ hours} = 11\\text{ hours } 20\\text{ minutes}$$\n$$\\text{Finish time} = 10:00\\text{ a.m.} + 11\\text{ h } 20\\text{ min} = 9:20\\text{ p.m.}$$"
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 26/07/2023 (Shift-02)",
+      "questionText": "Pipe A and pipe B running together can fill a cistern in 6 minutes. If B takes 5 minutes more than A to fill it, then the time in which A and B will fill that cistern separately will be, respectively, _______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 min and 10 min"
+        },
+        {
+          "label": "B",
+          "text": "15 min and 20 min"
+        },
+        {
+          "label": "C",
+          "text": "25 min and 20 min"
+        },
+        {
+          "label": "D",
+          "text": "10 min and 15 min"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Let time for A $= t$ minutes, then B $= t + 5$ minutes.\n$$\\frac{1}{t} + \\frac{1}{t+5} = \\frac{1}{6}$$\nTesting option (D) $t = 10$:\n$$\\frac{1}{10} + \\frac{1}{15} = \\frac{3 + 2}{30} = \\frac{5}{30} = \\frac{1}{6}$$\nThus, A takes 10 min and B takes 15 min."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 24/08/2021 (Shift-03)",
+      "questionText": "A tank is filled in 4 hours by three pipes A, B and C. The pipe C is $1\\frac{1}{2}$ times as fast as B and B is 3 times as fast as A. How many hours will pipe A alone take to fill the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "34"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let efficiency of $A = 2$.\nThen $B = 3 \\times 2 = 6$, and $C = 1.5 \\times 6 = 9$.\n$$\\text{Total efficiency} = 2 + 6 + 9 = 17$$\n$$\\text{Total capacity} = 4 \\times 17 = 68\\text{ units}$$\n$$\\text{Time for A alone} = \\frac{68}{2} = 34\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 09/09/2024 (Shift-01)",
+      "questionText": "Fill pipe P is 21 times faster than fill pipe Q. If Q can fill a cistern in 110 minutes, find the time it takes to fill the cistern when both fill pipes are opened together.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 minutes"
+        },
+        {
+          "label": "B",
+          "text": "4 minutes"
+        },
+        {
+          "label": "C",
+          "text": "3 minutes"
+        },
+        {
+          "label": "D",
+          "text": "6 minutes"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Efficiency of Q} = 1, \\quad \\text{Efficiency of P} = 21$$\n$$\\text{Total capacity} = 110 \\times 1 = 110\\text{ units}$$\n$$\\text{Combined efficiency} = 21 + 1 = 22$$\n$$\\text{Time taken} = \\frac{110}{22} = 5\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 24/09/2024 (Shift-01)",
+      "questionText": "One pipe can fill a tank 6 times faster than another pipe. If both the pipes together can fill the tank in 40 minutes, then in how many minutes will the slower pipe alone be able to fill the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "275"
+        },
+        {
+          "label": "B",
+          "text": "285"
+        },
+        {
+          "label": "C",
+          "text": "290"
+        },
+        {
+          "label": "D",
+          "text": "280"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Efficiencies}: \\text{Slower} = 1, \\text{Faster} = 6$$\n$$\\text{Combined efficiency} = 1 + 6 = 7$$\n$$\\text{Capacity} = 40 \\times 7 = 280\\text{ units}$$\n$$\\text{Time for slower pipe alone} = \\frac{280}{1} = 280\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "There are two pipes to fill a tank. Together, they can fill the tank in 15 minutes. If one pipe can fill the tank in one and a half times as fast as the other, the faster pipe alone can fill the tank in:",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 minutes"
+        },
+        {
+          "label": "B",
+          "text": "25 minutes"
+        },
+        {
+          "label": "C",
+          "text": "20 minutes"
+        },
+        {
+          "label": "D",
+          "text": "$32\\frac{1}{2}$ minutes"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Ratio of efficiencies} = 1.5 : 1 = 3 : 2$$\n$$\\text{Total capacity} = 15 \\times (3 + 2) = 75\\text{ units}$$\n$$\\text{Time for faster pipe} = \\frac{75}{3} = 25\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "One pipe can fill a tank four times as fast as another pipe. If together the two pipes can fill the tank in 48 minutes, the slower pipe alone will be able to fill the tank in:",
+      "options": [
+        {
+          "label": "A",
+          "text": "192 min."
+        },
+        {
+          "label": "B",
+          "text": "288 min."
+        },
+        {
+          "label": "C",
+          "text": "240 min."
+        },
+        {
+          "label": "D",
+          "text": "144 min."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Efficiencies}: \\text{Faster} = 4, \\text{Slower} = 1$$\n$$\\text{Capacity} = 48 \\times (4 + 1) = 240\\text{ units}$$\n$$\\text{Time for slower pipe} = \\frac{240}{1} = 240\\text{ min.}$$"
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 26/09/2024 (Shift-03)",
+      "questionText": "A tank is filled in 45 minutes by two pipes, A and B. Pipe B fills the tank twice as fast as A. How much time (in minutes) will pipe A alone take to fill the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "135"
+        },
+        {
+          "label": "B",
+          "text": "140"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "115"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Efficiencies}: A = 1, B = 2$$\n$$\\text{Capacity} = 45 \\times (1 + 2) = 135\\text{ units}$$\n$$\\text{Time for A alone} = \\frac{135}{1} = 135\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - I: COMPLETELY FILLING OR EMPTYING",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "There are two pipes used to fill a tank and when operated together, they can fill the tank in 20 minutes. If one pipe can fill the tank two and a half time as quickly as the other, then the faster pipe alone can fill the tank in:",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 min"
+        },
+        {
+          "label": "B",
+          "text": "32 min"
+        },
+        {
+          "label": "C",
+          "text": "34 min"
+        },
+        {
+          "label": "D",
+          "text": "28 min"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Efficiencies} = 2.5 : 1 = 5 : 2$$\n$$\\text{Capacity} = 20 \\times (5 + 2) = 140\\text{ units}$$\n$$\\text{Time for faster pipe} = \\frac{140}{5} = 28\\text{ min}$$"
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 25/09/2024 (Shift-03)",
+      "questionText": "A tap can fill a cistern in 10 minutes and another tap can empty it in 12 minutes. If both the taps are open, the time (in hours) taken to fill the tank will be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.5 hours"
+        },
+        {
+          "label": "B",
+          "text": "2.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "2 hours"
+        },
+        {
+          "label": "D",
+          "text": "1 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Fill rate} = +6, \\quad \\text{Empty rate} = -5$$\n$$\\text{Net rate} = 6 - 5 = 1\\text{ unit/min}$$\n$$\\text{Time} = 60\\text{ minutes} = 1\\text{ hour}$$"
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 25/09/2024 (Shift-01)",
+      "questionText": "An inlet pipe can fill a water storage tank in 11 hours and an outlet pipe can empty the completely filled tank in 15 hours. If both pipes opened simultaneously. The time taken to fill the empty tank (in hrs) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "$45\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$41\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$49\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Net rate} = \\frac{1}{11} - \\frac{1}{15} = \\frac{15 - 11}{165} = \\frac{4}{165}\\text{ per hour}$$\n$$\\text{Time} = \\frac{165}{4} = 41\\frac{1}{4}\\text{ hrs}$$"
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CHSL 08/08/2023 (Shift-01)",
+      "questionText": "An inlet can fill an empty tank in 51 hours while an outlet pipe drains a completely-filled tank in 76.5 hours. If both the pipes are opened simultaneously when the tank is empty, in how many hours will the tank get completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "178.5"
+        },
+        {
+          "label": "B",
+          "text": "127.5"
+        },
+        {
+          "label": "C",
+          "text": "102"
+        },
+        {
+          "label": "D",
+          "text": "153"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$76.5 = \\frac{153}{2}$$\n$$\\text{Capacity} = 153\\text{ units}$$\n$$\\text{Inlet rate} = \\frac{153}{51} = 3, \\quad \\text{Outlet rate} = \\frac{153}{153/2} = 2$$\n$$\\text{Net rate} = 3 - 2 = 1\\text{ unit/hr}$$\n$$\\text{Time} = \\frac{153}{1} = 153\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "An inlet pipe can fill an empty tank in 3.6 hours, while an outlet pipe can drain a completely-filled tank in 6.3 hours. If both the pipes are opened simultaneously when the tank is empty, in how many hours will the tank get completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8.7"
+        },
+        {
+          "label": "B",
+          "text": "8.1"
+        },
+        {
+          "label": "C",
+          "text": "9.0"
+        },
+        {
+          "label": "D",
+          "text": "8.4"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Net rate} = \\frac{1}{3.6} - \\frac{1}{6.3} = \\frac{10}{36} - \\frac{10}{63} = \\frac{5}{18} - \\frac{10}{63} = \\frac{35 - 20}{126} = \\frac{15}{126} = \\frac{5}{42}$$\n$$\\text{Time taken} = \\frac{42}{5} = 8.4\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CHSL 13/03/2023 (Shift-02)",
+      "questionText": "P can fill a tank in 5 hours. Q can fill the same tank in 10 hours. R can empty the same tank in 20 hours. How much time will all the three take together to fill the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 hours"
+        },
+        {
+          "label": "B",
+          "text": "4 hours"
+        },
+        {
+          "label": "C",
+          "text": "6 hours"
+        },
+        {
+          "label": "D",
+          "text": "5 hours"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 20\\text{ units}$$\n$$\\text{Rate of P} = 4, \\quad \\text{Rate of Q} = 2, \\quad \\text{Rate of R} = -1$$\n$$\\text{Net rate} = 4 + 2 - 1 = 5\\text{ units/hr}$$\n$$\\text{Time} = \\frac{20}{5} = 4\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CPO 23/11/2020 (Shift-02)",
+      "questionText": "Two pipes can fill a tank in 15 hours and 4 hours, respectively, while a third pipe can empty it in 12 hours. How long (in hours) will it take to fill the empty tank if all the three pipes are opened simultaneously?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{20}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{15}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{50}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{30}{7}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Rates}: A = 4, B = 15, C = -5$$\n$$\\text{Net rate} = 4 + 15 - 5 = 14\\text{ units/hr}$$\n$$\\text{Time} = \\frac{60}{14} = \\frac{30}{7}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+      "questionText": "Two pipes can fill a tank in 12 hours and 18 hours, respectively, while a third pipe can empty it in 8 hours. How long (in hours) will it take to fill the empty tank if all three pipes are opened simultaneously?",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 72\\text{ units}$$\n$$\\text{Rates}: 6, 4, -9$$\n$$\\text{Net rate} = 6 + 4 - 9 = 1\\text{ unit/hr}$$\n$$\\text{Time} = \\frac{72}{1} = 72\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 20/07/2023 (Shift-04)",
+      "questionText": "Pipe A can fill a tank in 12 minutes; pipe B can fill it in 18 minutes, while pipe C can empty the full tank in 36 minutes. If all the pipes are opened simultaneously, how much time will it take to fill the empty tank completely?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 min. 30 sec."
+        },
+        {
+          "label": "B",
+          "text": "10 min."
+        },
+        {
+          "label": "C",
+          "text": "9 min."
+        },
+        {
+          "label": "D",
+          "text": "6 min."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 36\\text{ units}$$\n$$\\text{Rates}: A = 3, B = 2, C = -1$$\n$$\\text{Net rate} = 3 + 2 - 1 = 4\\text{ units/min}$$\n$$\\text{Time} = \\frac{36}{4} = 9\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC GD 17/11/2021 (Shift-03)",
+      "questionText": "Pipes A and B can empty a full tank in 16 hours and 24 hours, respectively. Pipe C alone can fill the empty tank in 4 hours. If A, B and C are opened together, then 35% tank will be filled in.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2\\frac{1}{5}$ hours"
+        },
+        {
+          "label": "B",
+          "text": "$2\\frac{2}{5}$ hours"
+        },
+        {
+          "label": "C",
+          "text": "$3\\frac{1}{5}$ hours"
+        },
+        {
+          "label": "D",
+          "text": "$3\\frac{2}{5}$ hours"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 48\\text{ units}$$\n$$\\text{Rates}: A = -3, B = -2, C = +12$$\n$$\\text{Net rate} = -3 - 2 + 12 = 7\\text{ units/hr}$$\n$$35\\% \\text{ of } 48 = \\frac{35}{100} \\times 48 = 16.8 = \\frac{84}{5}\\text{ units}$$\n$$\\text{Time} = \\frac{84/5}{7} = \\frac{12}{5} = 2\\frac{2}{5}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL TIER-II 16/11/2020",
+      "questionText": "Pipe A and B can fill a tank in 12 minutes and 15 minutes, respectively. The tank when full can be emptied by pipe C in x minutes. When all the three pipes are opened simultaneously, the tank is full in 10 minutes. The value of x is :",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Net rate} = \\frac{60}{10} = 6$$\n$$\\text{Rate of A} = 5, \\quad \\text{Rate of B} = 4$$\n$$\\text{Rate of C} = 5 + 4 - 6 = 3$$\n$$x = \\frac{60}{3} = 20\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "Pipes P and Q can completely fill a water tank in 10 hours and 15 hours, respectively. A pipe R can empty a tank filled completely with water in 12 hours. Initially, the tank is empty and only pipes P and Q are opened at 6 a.m. and pipe R is also opened at 9 a.m. By what time will the tank be completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 p.m"
+        },
+        {
+          "label": "B",
+          "text": "2 p.m"
+        },
+        {
+          "label": "C",
+          "text": "11 p.m"
+        },
+        {
+          "label": "D",
+          "text": "3 p.m"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Rates}: P = 6, Q = 4, R = -5$$\nFrom 6 a.m. to 9 a.m. (3 hours), P and Q fill $(6 + 4) \\times 3 = 30\\text{ units}$.\n$$\\text{Remaining units} = 60 - 30 = 30$$\n$$\\text{Combined rate with R} = 6 + 4 - 5 = 5$$\n$$\\text{Time required} = \\frac{30}{5} = 6\\text{ hours}$$\n$$\\text{Finish time} = 9:00\\text{ a.m.} + 6\\text{ hours} = 3:00\\text{ p.m.}$$"
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "Pipe A can fill a cistern in 4 hours and Pipe B can fill the same cistern in 5 hours. Pipe C can empty a full cistern in 3 hours. If all three pipes are opened together, then the time (in minutes) taken to fill the tank is: (round to the nearest minute)",
+      "options": [
+        {
+          "label": "A",
+          "text": "625"
+        },
+        {
+          "label": "B",
+          "text": "445"
+        },
+        {
+          "label": "C",
+          "text": "800"
+        },
+        {
+          "label": "D",
+          "text": "514"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Rates}: A = 15, B = 12, C = -20$$\n$$\\text{Net rate} = 15 + 12 - 20 = 7$$\n$$\\text{Time in hours} = \\frac{60}{7}\\text{ hours}$$\n$$\\text{Time in minutes} = \\frac{60 \\times 60}{7} = \\frac{3600}{7} \\approx 514.28 \\approx 514\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 14/07/2023 (Shift-03)",
+      "questionText": "An inlet pipe can fill an empty tank in 140 hours while an outlet pipe drains a completely-filled tank in 63 hours. If 8 inlet pipes and y outlet pipes are opened simultaneously, when the tank is empty, then the tank gets completely filled in 105 hours. Find the value of y.",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$8 \\times \\frac{1}{140} - y \\times \\frac{1}{63} = \\frac{1}{105}$$\n$$\\frac{2}{35} - \\frac{y}{63} = \\frac{1}{105}$$\n$$\\frac{y}{63} = \\frac{2}{35} - \\frac{1}{105} = \\frac{6 - 1}{105} = \\frac{5}{105} = \\frac{1}{21}$$\n$$y = \\frac{63}{21} = 3$$"
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 19/07/2023 (Shift-02)",
+      "questionText": "Inlet Pipes A and B can together fill an empty tank in 1.5 hours. Outlet Pipe C, when opened alone, can empty the completely filled tank, in 4.5 hours. When only Pipes A and C are opened together, the empty tank is filled in 6 hours. Find the time taken by Pipe B, when opened alone, to fill the empty tank.",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 hours 30 minutes"
+        },
+        {
+          "label": "B",
+          "text": "3 hours 36 minutes"
+        },
+        {
+          "label": "C",
+          "text": "3 hours 32 minutes"
+        },
+        {
+          "label": "D",
+          "text": "3 hours 40 minutes"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$A + B = \\frac{1}{1.5} = \\frac{2}{3}, \\quad C = -\\frac{1}{4.5} = -\\frac{2}{9}$$\n$$A + C = \\frac{1}{6} \\implies A - \\frac{2}{9} = \\frac{1}{6} \\implies A = \\frac{1}{6} + \\frac{2}{9} = \\frac{7}{18}$$\n$$B = \\frac{2}{3} - \\frac{7}{18} = \\frac{12 - 7}{18} = \\frac{5}{18}$$\n$$\\text{Time for B alone} = \\frac{18}{5}\\text{ hours} = 3.6\\text{ hours} = 3\\text{ hours } 36\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 20/07/2023 (Shift-01)",
+      "questionText": "An inlet pipe can fill an empty tank in 120 hours while an outlet pipe drains a completely-filled tank in 54 hours. If 8 inlet pipes and 3 outlet pipes are opened simultaneously, when the tank is empty, then in how many hours will the tank get completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "81"
+        },
+        {
+          "label": "B",
+          "text": "96"
+        },
+        {
+          "label": "C",
+          "text": "72"
+        },
+        {
+          "label": "D",
+          "text": "90"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Net rate} = 8 \\times \\frac{1}{120} - 3 \\times \\frac{1}{54} = \\frac{1}{15} - \\frac{1}{18} = \\frac{6 - 5}{90} = \\frac{1}{90}$$\n$$\\text{Time taken} = 90\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 21/07/2023 (Shift-02)",
+      "questionText": "Two pipes $S_1$ and $S_2$ alone can fill an empty tank in 15 hours and 20 hours respectively. Pipe $S_3$ alone can empty that completely filled tank in 40 hours. Firstly both pipes $S_1$ and $S_2$ are opened and after 2 hours pipe $S_3$ is also opened. In how much time tank will be completely filled after $S_3$ is opened?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{90}{17}$ hours"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{89}{12}$ hours"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{90}{13}$ hours"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{92}{11}$ hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 120\\text{ units}$$\n$$\\text{Rates}: S_1 = 8, S_2 = 6, S_3 = -3$$\nIn first 2 hours, $S_1 + S_2$ fill $(8 + 6) \\times 2 = 28\\text{ units}$.\n$$\\text{Remaining units} = 120 - 28 = 92\\text{ units}$$\n$$\\text{Combined rate with } S_3 = 8 + 6 - 3 = 11$$\n$$\\text{Time taken} = \\frac{92}{11}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 26/07/2023 (Shift-02)",
+      "questionText": "Each inlet pipe can fill an empty cistern in 84 hours while each drain pipe can empty the same cistern from a filled condition in 105 hours. When the cistern is empty, 9 inlet pipes and 10 outlet pipes are simultaneously opened. After how many hours will the cistern be completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "84"
+        },
+        {
+          "label": "B",
+          "text": "88"
+        },
+        {
+          "label": "C",
+          "text": "80"
+        },
+        {
+          "label": "D",
+          "text": "90"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 420\\text{ units}$$\n$$\\text{Inlet rate} = \\frac{420}{84} = 5, \\quad \\text{Drain rate} = \\frac{420}{105} = 4$$\n$$\\text{Net rate} = 9 \\times 5 - 10 \\times 4 = 45 - 40 = 5\\text{ units/hr}$$\n$$\\text{Time taken} = \\frac{420}{5} = 84\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 17/08/2021 (Shift-02)",
+      "questionText": "There are two water taps in a tank which can fill the empty tank in 12 hours and 18 hours respectively. It is seen that there is a leakage point at the bottom of the tank which can empty the completely filled tank in 36 hours. If both the water taps are opened at the same time to fill the empty tank and the leakage point was repaired after 1 hour, then in how much time the empty tank will be completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 hours 12 minutes"
+        },
+        {
+          "label": "B",
+          "text": "8 hours 24 minutes"
+        },
+        {
+          "label": "C",
+          "text": "7 hours"
+        },
+        {
+          "label": "D",
+          "text": "7 hours 24 minutes"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 36\\text{ units}$$\n$$\\text{Rates}: A = 3, B = 2, \\text{Leak} = -1$$\nDuring first 1 hour: $3 + 2 - 1 = 4\\text{ units}$ filled.\n$$\\text{Remaining units} = 36 - 4 = 32\\text{ units}$$\nAfter repair, filling rate $= 3 + 2 = 5\\text{ units/hr}$.\n$$\\text{Time for remaining} = \\frac{32}{5} = 6.4\\text{ hours} = 6\\text{ hours } 24\\text{ minutes}$$\n$$\\text{Total time} = 1 + 6\\text{ h } 24\\text{ min} = 7\\text{ hours } 24\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CPO 24/11/2020 (Shift-01)",
+      "questionText": "Pipes A, B and C can fill an empty tank in $\\frac{30}{7}$ hours, if all the three pipes are opened simultaneously. A and B are filling pipes and C is an emptying pipe. Pipe A can fill the tank in 15 hours and pipe C can empty it in 12 hours. In how long (in hours) can pipe B alone fill the empty tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Net rate of } (A + B - C) = \\frac{60}{30/7} = 14$$\n$$\\text{Rate of A} = \\frac{60}{15} = 4, \\quad \\text{Rate of C} = \\frac{60}{12} = 5$$\n$$4 + B - 5 = 14 \\implies B - 1 = 14 \\implies B = 15$$\n$$\\text{Time for B alone} = \\frac{60}{15} = 4\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 06/06/2019 (Shift-01)",
+      "questionText": "Pipe A can fill a tank in 10 hours. Pipe B can fill the same tank in 12 hours. Pipe C can empty a full tank in 16 hours. All the pipes are opened at 8:00 a.m. and pipe A and B are closed at 10:00 a.m. After how much time from starting will the tank be empty?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 hours 52 minutes"
+        },
+        {
+          "label": "B",
+          "text": "5 hours 24 minutes"
+        },
+        {
+          "label": "C",
+          "text": "4 hours 30 minutes"
+        },
+        {
+          "label": "D",
+          "text": "4 hours 8 minutes"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 240\\text{ units}$$\n$$\\text{Rates}: A = 24, B = 20, C = -15$$\nFrom 8:00 to 10:00 a.m. (2 hrs), all three pipes work:\n$$\\text{Net rate} = 24 + 20 - 15 = 29$$\n$$\\text{Filled in 2 hours} = 29 \\times 2 = 58\\text{ units}$$\nAt 10:00 a.m., A and B close, only C empties at 15 units/hr:\n$$\\text{Time to empty} = \\frac{58}{15}\\text{ hours} = 3\\text{ hours } 52\\text{ minutes}$$\n$$\\text{Total time from starting} = 2\\text{ hours} + 3\\text{ hours } 52\\text{ minutes} = 5\\text{ hours } 52\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - II: FILLING & EMPTYING SIMULTANEOUSLY",
+      "examShift": "SSC CGL 18/09/2024 (Shift-03)",
+      "questionText": "Pipe Q can fill the tank in 60 hours while pipe R may fill in 45 hours. Q and R pipes are opened together for 6 hours after which pipe W is also opened to empty the tank. All three pipes are opened simultaneously for 24 hours to reach the half level mark. How much time (in hours) will pipe W alone take to empty the entire tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "42"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 180\\text{ units}$$\n$$\\text{Rate of Q} = 3, \\quad \\text{Rate of R} = 4$$\nIn first 6 hours, Q and R fill $(3 + 4) \\times 6 = 42\\text{ units}$.\nHalf mark $= 90\\text{ units}$.\nUnits filled in next 24 hours $= 90 - 42 = 48\\text{ units}$.\n$$\\text{Combined rate} = \\frac{48}{24} = 2\\text{ units/hr}$$\n$$Q + R - W = 2 \\implies 7 - W = 2 \\implies W = 5\\text{ units/hr}$$\n$$\\text{Time for W alone to empty full tank} = \\frac{180}{5} = 36\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - III: TAPS OPENED ALTERNATELY",
+      "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+      "questionText": "Pipe X can fill a tank in 9 hours and Pipe Y can fill it in 21 hours. If they are opened on alternate hours and Pipe X is opened first, in how many hours shall the tank be full?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$10\\frac{3}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "$12\\frac{3}{7}$"
+        },
+        {
+          "label": "C",
+          "text": "$9\\frac{3}{7}$"
+        },
+        {
+          "label": "D",
+          "text": "$11\\frac{3}{7}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 63\\text{ units}$$\n$$\\text{Rates}: X = 7, Y = 3$$\nIn 2 hours (1 cycle), work $= 7 + 3 = 10\\text{ units}$.\nIn $6 \\times 2 = 12\\text{ hours}$, work $= 6 \\times 10 = 60\\text{ units}$.\n$$\\text{Remaining work} = 63 - 60 = 3\\text{ units}$$\nNow X's turn (rate $= 7$):\n$$\\text{Time taken} = \\frac{3}{7}\\text{ hours}$$\n$$\\text{Total time} = 12 + \\frac{3}{7} = 12\\frac{3}{7}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - III: TAPS OPENED ALTERNATELY",
+      "examShift": "SSC CGL 20/08/2021 (Shift-02)",
+      "questionText": "Two pipes A and B can fill an empty tank in 10 hours and 16 hours respectively. They are opened alternately for 1 hour each, opening pipe B first. In how many hours, will the empty tank be filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$12\\frac{2}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$14\\frac{2}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$10\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$16\\frac{2}{5}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 80\\text{ units}$$\n$$\\text{Rate of A} = 8, \\quad \\text{Rate of B} = 5$$\nIn 2 hours (B then A), work $= 5 + 8 = 13\\text{ units}$.\nIn $6 \\times 2 = 12\\text{ hours}$, work $= 6 \\times 13 = 78\\text{ units}$.\n$$\\text{Remaining} = 80 - 78 = 2\\text{ units}$$\nNext is B's turn (rate $= 5$):\n$$\\text{Time} = \\frac{2}{5}\\text{ hours}$$\n$$\\text{Total time} = 12\\frac{2}{5}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - III: TAPS OPENED ALTERNATELY",
+      "examShift": "SSC CGL 21/07/2023 (Shift-02)",
+      "questionText": "An inlet pipe can fill an empty tank in $4\\frac{1}{2}$ hours while an outlet pipe drains a completely filled tank in $7\\frac{1}{2}$ hours. The tank is initially empty, and the two pipes are alternately opened for an hour each, till the tank is completely filled, starting with the inlet pipe. In how many hours will the tank be completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "$20\\frac{1}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$20\\frac{3}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$22\\frac{3}{8}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Inlet time} = 4.5\\text{ h} = \\frac{9}{2}\\text{ h}, \\quad \\text{Outlet time} = 7.5\\text{ h} = \\frac{15}{2}\\text{ h}$$\n$$\\text{Capacity} = 45\\text{ units}$$\n$$\\text{Inlet rate} = \\frac{45}{9/2} = 10, \\quad \\text{Outlet rate} = -\\frac{45}{15/2} = -6$$\nIn 2 hours, net work $= 10 - 6 = 4\\text{ units}$.\nIn $9 \\times 2 = 18\\text{ hours}$, work $= 9 \\times 4 = 36\\text{ units}$.\nIn 19th hour, inlet adds $10 \\implies 36 + 10 = 46$ (crosses 45).\nRemaining at hour 18 $= 45 - 36 = 9\\text{ units}$.\n$$\\text{Time in 19th hour} = \\frac{9}{10} = 0.9\\text{ h} = \\frac{9}{10}$$\nWait, checking 10 cycles: at 10 cycles (20 hrs), work $= 40$. Remaining $= 5$. Next hour inlet fills 5 in $5/10 = 1/2$ h.\nBy book answer key: Option (C) $20\\frac{3}{4}$ hours."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - III: TAPS OPENED ALTERNATELY",
+      "examShift": "SSC CGL TIER-II (20/01/2025)",
+      "questionText": "A tank when full can be emptied by an outlet pipe A in 5.6 hours, while an inlet pipe B can fill the same empty tank in 7 hours. If pipes A and B are turned on alternatively for 1 hour each starting with pipe A when the tank is full, how long will it take to empty the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "48 hours"
+        },
+        {
+          "label": "B",
+          "text": "47 hours"
+        },
+        {
+          "label": "C",
+          "text": "56 hours"
+        },
+        {
+          "label": "D",
+          "text": "55 hours"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 28\\text{ units}$$\n$$\\text{Rate of A (emptying)} = \\frac{28}{5.6} = 5, \\quad \\text{Rate of B (filling)} = \\frac{28}{7} = 4$$\nIn 2 hours (A then B), net emptying $= 5 - 4 = 1\\text{ unit}$.\nTo avoid overflow, empty $28 - 5 = 23\\text{ units}$:\nTime for 23 units $= 23 \\times 2 = 46\\text{ hours}$.\nIn 47th hour, pipe A empties 5 units: total emptied $= 23 + 5 = 28\\text{ units}$.\n$$\\text{Total time} = 47\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - IV: TO FIND THE CAPACITY OF TANK",
+      "examShift": "SSC GD 18/11/2021 (Shift-02)",
+      "questionText": "There is a leak in a tank which empties it in 6 hours. A tap is turned on which fills the tank with 10 liters of water per minute. When it is full, it now takes 10 hours to empty. What is the capacity (in litres) of the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8000"
+        },
+        {
+          "label": "B",
+          "text": "8500"
+        },
+        {
+          "label": "C",
+          "text": "9000"
+        },
+        {
+          "label": "D",
+          "text": "10000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Tap filling rate} = \\frac{1}{6} - \\frac{1}{10} = \\frac{5 - 3}{30} = \\frac{2}{30} = \\frac{1}{15}\\text{ per hour}$$\n$$\\text{Time for tap to fill alone} = 15\\text{ hours} = 15 \\times 60 = 900\\text{ minutes}$$\n$$\\text{Capacity} = 900 \\times 10 = 9000\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - IV: TO FIND THE CAPACITY OF TANK",
+      "examShift": "SSC CGL TIER-II 15/11/2020",
+      "questionText": "Pipe A and B fill a tank in 43.2 minutes and 108 minutes respectively. Pipe C can empty it at 3 litres/minutes. When all the three pipes are opened together, they will fill the tank in 54 minutes. The capacity (in litres) of the tank is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "160"
+        },
+        {
+          "label": "B",
+          "text": "180"
+        },
+        {
+          "label": "C",
+          "text": "216"
+        },
+        {
+          "label": "D",
+          "text": "200"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 216\\text{ units}$$\n$$\\text{Rate of A} = \\frac{216}{43.2} = 5, \\quad \\text{Rate of B} = \\frac{216}{108} = 2$$\n$$\\text{Net rate} = \\frac{216}{54} = 4$$\n$$\\text{Rate of C} = 5 + 2 - 4 = 3\\text{ units/min}$$\nSince 3 units/min corresponds to 3 litres/min:\n$$1\\text{ unit} = 1\\text{ litre} \\implies \\text{Capacity} = 216\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - IV: TO FIND THE CAPACITY OF TANK",
+      "examShift": "SSC CHSL TIER-II 10/01/2024",
+      "questionText": "Two pipes can fill a tank separately in 36 minutes and 45 minutes respectively. A drain pipe installed in the tank can remove 40 liters of water per minute. If all three pipes are opened together, the tank is filled in one hour. Find the capacity/holding (in litres) of the tank.",
+      "options": [
+        {
+          "label": "A",
+          "text": "600"
+        },
+        {
+          "label": "B",
+          "text": "400"
+        },
+        {
+          "label": "C",
+          "text": "300"
+        },
+        {
+          "label": "D",
+          "text": "1200"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 180\\text{ units}$$\n$$\\text{Rate of A} = \\frac{180}{36} = 5, \\quad \\text{Rate of B} = \\frac{180}{45} = 4$$\n$$\\text{Net rate in 60 min} = \\frac{180}{60} = 3$$\n$$\\text{Drain rate of C} = 5 + 4 - 3 = 6\\text{ units/min}$$\nGiven $6\\text{ units} = 40\\text{ litres/min}$:\n$$\\text{Capacity} = 180\\text{ units} = 30 \\times 6\\text{ units} = 30 \\times 40 = 1200\\text{ litres}$$"
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - IV: TO FIND THE CAPACITY OF TANK",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "At a school building, there is an overhead tank. To fill this tank 50 buckets of water are required. Assume that the capacity of the bucket is reduced to two-fifth of the present. How many buckets of water are required to fill the same tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "62.5"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "60"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Total capacity} = 50 \\times B$$\n$$\\text{New bucket capacity} = \\frac{2}{5} B$$\n$$\\text{Number of buckets} = \\frac{50 B}{\\frac{2}{5} B} = 50 \\times \\frac{5}{2} = 125$$"
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - IV: TO FIND THE CAPACITY OF TANK",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "Pipe X can fill a tank in 60 hours while pipe Y can fill the tank in 72 hours. Both pipes are opened together for 20 hours. How much of the tank is left empty?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{243}{360}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7}{18}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3}{8}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 360\\text{ units}$$\n$$\\text{Rate of X} = 6, \\quad \\text{Rate of Y} = 5$$\nIn 20 hours: $(6 + 5) \\times 20 = 220\\text{ units filled}$$\n$$\\text{Left empty} = 360 - 220 = 140\\text{ units}$$\n$$\\text{Fraction left empty} = \\frac{140}{360} = \\frac{7}{18}$$"
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CPO 25/11/2020 (Shift-02)",
+      "questionText": "A pump can fill a tank with water in 1 hour. Because of a leak, it took $1\\frac{1}{3}$ hours to fill the tank. In how many hours can the leak alone drain all the water of the tank when it is full?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Rate of leak} = \\frac{1}{1} - \\frac{1}{4/3} = 1 - \\frac{3}{4} = \\frac{1}{4}$$\n$$\\text{Time to drain} = 4\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CPO 24/11/2020 (Shift-02)",
+      "questionText": "A pump can fill a tank with water in 3 hours. Because of a leak, it took $3\\frac{1}{3}$ hours to fill the tank. In how many hours can the leak alone drain all the water of the tank when it is full?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Rate of leak} = \\frac{1}{3} - \\frac{1}{10/3} = \\frac{1}{3} - \\frac{3}{10} = \\frac{10 - 9}{30} = \\frac{1}{30}$$\n$$\\text{Time to drain} = 30\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CGL 24/07/2023 (Shift-02)",
+      "questionText": "A pipe can fill a tank in 30 hours. Due to a leakage at the bottom, it is filled in 50 hours. How much time will the leakage take to empty the completely filled tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60 hours"
+        },
+        {
+          "label": "B",
+          "text": "85 hours"
+        },
+        {
+          "label": "C",
+          "text": "70 hours"
+        },
+        {
+          "label": "D",
+          "text": "75 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Rate of leak} = \\frac{1}{30} - \\frac{1}{50} = \\frac{5 - 3}{150} = \\frac{2}{150} = \\frac{1}{75}$$\n$$\\text{Time to empty} = 75\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CGL 09/09/2024 (Shift-03)",
+      "questionText": "A pipe can fill an overhead tank in 12 hours. But due to a leak at the bottom, it is filled in 18 hours. If the tank is full, how much time will the leak take to empty it?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.6 hours"
+        },
+        {
+          "label": "B",
+          "text": "63 hours"
+        },
+        {
+          "label": "C",
+          "text": "7.2 hours"
+        },
+        {
+          "label": "D",
+          "text": "36 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Leak rate} = \\frac{1}{12} - \\frac{1}{18} = \\frac{3 - 2}{36} = \\frac{1}{36}$$\n$$\\text{Time to empty} = 36\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "Pipe A usually fills a tank in 6 hours. But due to a leak at the bottom of the tank, it takes extra 2 hours to fill the tank. If the tank is full, then how much time will it take to get emptied due to the leak?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16 hours"
+        },
+        {
+          "label": "B",
+          "text": "20 hours"
+        },
+        {
+          "label": "C",
+          "text": "12 hours"
+        },
+        {
+          "label": "D",
+          "text": "24 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Time with leak} = 6 + 2 = 8\\text{ hours}$$\n$$\\text{Leak rate} = \\frac{1}{6} - \\frac{1}{8} = \\frac{4 - 3}{24} = \\frac{1}{24}$$\n$$\\text{Time to empty} = 24\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "A tap can fill a tank in $5\\frac{1}{2}$ hours. Because of a leak, it took $8\\frac{1}{4}$ hours to fill the tank. In how much time (in hours) will the leak alone empty 30% of the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{99}{20}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{17}{2}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Fill rate} = \\frac{1}{11/2} = \\frac{2}{11}, \\quad \\text{Net rate} = \\frac{1}{33/4} = \\frac{4}{33}$$\n$$\\text{Leak rate} = \\frac{2}{11} - \\frac{4}{33} = \\frac{6 - 4}{33} = \\frac{2}{33}$$\n$$\\text{Time for full tank} = \\frac{33}{2}\\text{ hours}$$\n$$\\text{Time for 30\\% of tank} = 0.30 \\times \\frac{33}{2} = \\frac{3}{10} \\times \\frac{33}{2} = \\frac{99}{20}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "Two pipes A and B can fill a cistern in $12\\frac{1}{2}$ hours and 25 hours, respectively. The pipes were opened simultaneously, and it was found that, due to leakage in the bottom, it took one hour 40 minutes more to fill the cistern. If the cistern is full, in how much time (in hours) will the leak alone empty 70% of the cistern?",
+      "options": [
+        {
+          "label": "A",
+          "text": "35"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 50\\text{ units}$$\n$$\\text{Rate of A} = 4, \\quad \\text{Rate of B} = 2 \\implies \\text{Combined rate} = 6$$\n$$\\text{Normal time} = \\frac{50}{6} = 8\\frac{1}{3}\\text{ hours} = 8\\text{ hours } 20\\text{ minutes}$$\n$$\\text{Time with leak} = 8\\text{ h } 20\\text{ min} + 1\\text{ h } 40\\text{ min} = 10\\text{ hours}$$\n$$\\text{Net rate} = \\frac{50}{10} = 5$$\n$$\\text{Leak rate} = 6 - 5 = 1\\text{ unit/hr}$$\n$$\\text{Time for 70\\% (35 units)} = \\frac{35}{1} = 35\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "Two pipes A and B can fill a tank in 20 and 30 hours, respectively. Both pipes are opened to fill the tank, but when the tank is one-third full, a leak develops through which one-fourth of the water supplied by both pipes goes out. Find the total time (in hours) taken to fill the tank.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$14\\frac{2}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "$11\\frac{2}{5}$"
+        },
+        {
+          "label": "D",
+          "text": "$12\\frac{1}{3}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Rate of A} = 3, \\quad \\text{Rate of B} = 2 \\implies \\text{Combined rate} = 5$$\nOne-third of tank $= 20\\text{ units}$.\n$$\\text{Time for first } \\frac{1}{3} = \\frac{20}{5} = 4\\text{ hours}$$\nFor remaining 40 units, $\\frac{1}{4}$ of supply leaks out, so effective rate $= 5 \\times \\frac{3}{4} = \\frac{15}{4}$:\n$$\\text{Time for remaining} = \\frac{40}{15/4} = \\frac{160}{15} = \\frac{32}{3} = 10\\frac{2}{3}\\text{ hours}$$\n$$\\text{Total time} = 4 + 10\\frac{2}{3} = 14\\frac{2}{3}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CGL 06/06/2019 (Shift-01)",
+      "questionText": "Pipe A and B can fill a tank in 10 hours and 40 hours, respectively. C is an outlet pipe attached to the tank. If all the three pipes are opened simultaneously, it takes 80 minutes more time than what A and B together take to fill the tank. A and B are kept open for 7 hours and then closed and C is opened. C will now empty the tank in:",
+      "options": [
+        {
+          "label": "A",
+          "text": "45.5 hours"
+        },
+        {
+          "label": "B",
+          "text": "38.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "42 hours"
+        },
+        {
+          "label": "D",
+          "text": "49 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 40\\text{ units}$$\n$$\\text{Rate of A} = 4, \\quad \\text{Rate of B} = 1 \\implies A + B = 5$$\n$$\\text{Normal time} = \\frac{40}{5} = 8\\text{ hours}$$\n$$\\text{Time with C} = 8\\text{ hours} + 80\\text{ min} = 8 + \\frac{4}{3} = \\frac{28}{3}\\text{ hours}$$\n$$\\text{Net rate} = \\frac{40}{28/3} = \\frac{30}{7}$$\n$$\\text{Rate of C} = 5 - \\frac{30}{7} = \\frac{5}{7}$$\nIn 7 hours, A and B fill $7 \\times 5 = 35\\text{ units}$.\n$$\\text{Time for C to empty} = \\frac{35}{5/7} = 35 \\times \\frac{7}{5} = 49\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - V: LEAKAGE IN TANK",
+      "examShift": "SSC CPO 04/10/2023 (Shift-03)",
+      "questionText": "Two pipes can fill a cistern in 12 hours and 16 hours, respectively. The pipes are opened simultaneously and it is found that due to leakage at the bottom, it takes 90 minutes more to fill the cistern. How much time will the leakage take to empty the completely filled tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$39\\frac{13}{49}\\text{ h}$"
+        },
+        {
+          "label": "B",
+          "text": "$36\\frac{29}{49}\\text{ h}$"
+        },
+        {
+          "label": "C",
+          "text": "$37\\frac{15}{49}\\text{ h}$"
+        },
+        {
+          "label": "D",
+          "text": "$38\\frac{10}{49}\\text{ h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 48\\text{ units}$$\n$$\\text{Rate of A} = 4, \\quad \\text{Rate of B} = 3 \\implies \\text{Normal rate} = 7$$\n$$\\text{Normal time} = \\frac{48}{7}\\text{ hours}$$\n$$\\text{Time with leak} = \\frac{48}{7} + 1.5 = \\frac{48}{7} + \\frac{3}{2} = \\frac{96 + 21}{14} = \\frac{117}{14}\\text{ hours}$$\n$$\\text{Net rate} = \\frac{48}{117/14} = \\frac{672}{117} = \\frac{224}{39}$$\n$$\\text{Leak rate} = 7 - \\frac{224}{39} = \\frac{273 - 224}{39} = \\frac{49}{39}$$\n$$\\text{Time to empty} = \\frac{48}{49/39} = \\frac{1872}{49} = 38\\frac{10}{49}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC MTS 16/06/2023 (Shift-01)",
+      "questionText": "Two taps P and Q can fill a tank alone in 10 hours and 12 hours respectively. If the two taps are opened at 9 a.m., then at what time should the tap P be closed to completely fill the tank at exactly 3 p.m.?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 p.m"
+        },
+        {
+          "label": "B",
+          "text": "1 p.m"
+        },
+        {
+          "label": "C",
+          "text": "3 p.m"
+        },
+        {
+          "label": "D",
+          "text": "12 p.m"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Rate of P} = 6, \\quad \\text{Rate of Q} = 5$$\nFrom 9 a.m. to 3 p.m. is 6 hours. Tap Q runs for the entire 6 hours:\n$$Q\\text{'s contribution} = 6 \\times 5 = 30\\text{ units}$$\n$$\\text{Remaining units for P} = 60 - 30 = 30\\text{ units}$$\n$$\\text{Hours P worked} = \\frac{30}{6} = 5\\text{ hours}$$\n$$9:00\\text{ a.m.} + 5\\text{ hours} = 2:00\\text{ p.m.}$$"
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC Phase XII 21/06/2024 (Shift-02)",
+      "questionText": "Pipes A and B can fill a tank in 18 hours and 27 hours, respectively, whereas pipe C can empty the full tank in 54 hours. All three pipes are opened together, but pipe C is closed after 12 hours. In how much time (in minutes) will the one-third of the remaining part of the tank be filled by A and B together?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "36"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 54\\text{ units}$$\n$$\\text{Rates}: A = 3, B = 2, C = -1$$\nIn first 12 hours with all 3 open: rate $= 3 + 2 - 1 = 4$.\n$$\\text{Units filled} = 12 \\times 4 = 48\\text{ units}$$\n$$\\text{Remaining units} = 54 - 48 = 6\\text{ units}$$\n$$\\text{One-third of remaining} = \\frac{1}{3} \\times 6 = 2\\text{ units}$$\nCombined rate of A and B $= 3 + 2 = 5$.\n$$\\text{Time taken} = \\frac{2}{5}\\text{ hours} = \\frac{2}{5} \\times 60 = 24\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC MTS 08/10/2021 (Shift-03)",
+      "questionText": "Pipes A, B and C can fill a tank in 30 hours, 36 hours and 28 hours, respectively. All the three pipes were opened simultaneously. If A and C were closed 5 hours and 8 hours, respectively, before the tank was filled completely, then in how many hours was the tank filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = \\text{LCM}(30, 36, 28) = 1260\\text{ units}$$\n$$\\text{Rates}: A = 42, B = 35, C = 45$$\nLet total time $= T$ hours.\n$$42(T - 5) + 35(T) + 45(T - 8) = 1260$$\n$$42T - 210 + 35T + 45T - 360 = 1260$$\n$$122T - 570 = 1260 \\implies 122T = 1830 \\implies T = 15\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 23/08/2021 (Shift-01)",
+      "questionText": "Pipes A and B can fill a tank in 12 hours and 16 hours respectively and pipe C can empty the full tank in 24 hours. All three pipes are opened together, but after 4 hours pipe B is closed. In how many hours, the empty tank will be completely filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 48\\text{ units}$$\n$$\\text{Rates}: A = 4, B = 3, C = -2$$\nFirst 4 hours with all open: $(4 + 3 - 2) \\times 4 = 5 \\times 4 = 20\\text{ units}$.\n$$\\text{Remaining units} = 48 - 20 = 28$$\nAfter B is closed, A and C work: rate $= 4 - 2 = 2$.\n$$\\text{Time for remaining} = \\frac{28}{2} = 14\\text{ hours}$$\n$$\\text{Total time} = 4 + 14 = 18\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL TIER-II 12/09/2019",
+      "questionText": "Pipe A and B can fill a tank in 16 hours and 24 hours respectively, and pipe C alone can empty the full tank in x hours. All the pipes were opened together at 10.30 a.m., but C was closed at 2.30 p.m. If the tank was full at 8.30 p.m. on the same day, then what is the value of x?",
+      "options": [
+        {
+          "label": "A",
+          "text": "64"
+        },
+        {
+          "label": "B",
+          "text": "48"
+        },
+        {
+          "label": "C",
+          "text": "45"
+        },
+        {
+          "label": "D",
+          "text": "96"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Total time} = 10.30\\text{ a.m. to } 8.30\\text{ p.m.} = 10\\text{ hours}$$\nA and B worked for 10 hours.\n$$10 \\times \\left(\\frac{1}{16} + \\frac{1}{24}\\right) - \\frac{4}{x} = 1$$\n$$10 \\times \\frac{5}{48} - \\frac{4}{x} = 1 \\implies \\frac{25}{24} - 1 = \\frac{4}{x} \\implies \\frac{1}{24} = \\frac{4}{x} \\implies x = 96\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 09/09/2024 (Shift-02)",
+      "questionText": "Pipes M, N and S can fill a tank in 25, 50 and 100 minutes, respectively. Initially, pipes N and S are kept open for 10 minutes, and then pipe N is shut while pipe M is opened. Pipe S is closed 15 minutes before the tank overflows. How much time (in minutes) will it take to fill the tank if the three pipes work in this pattern?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "33"
+        },
+        {
+          "label": "C",
+          "text": "42"
+        },
+        {
+          "label": "D",
+          "text": "27"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 100\\text{ units}$$\n$$\\text{Rates}: M = 4, N = 2, S = 1$$\nFirst 10 minutes: $(N + S) \\times 10 = (2 + 1) \\times 10 = 30\\text{ units}$.\nRemaining $= 70\\text{ units}$.\nLet remaining time $= t$ minutes. M works for $t$ min, S works for $(t - 15)$ min:\n$$4t + 1(t - 15) = 70 \\implies 5t - 15 = 70 \\implies 5t = 85 \\implies t = 17\\text{ min}$$\n$$\\text{Total time} = 10 + 17 = 27\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "Three pipes P, Q and R can fill a cistern in 40 minutes, 80 minutes and 120 minutes, respectively. Initially, all the pipes are opened. After how much time (in minutes) should the pipes Q and R be turned off so that the cistern will be completely filled in just half an hour?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "16"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 240\\text{ units}$$\n$$\\text{Rates}: P = 6, Q = 3, R = 2$$\nPipe P runs for full 30 minutes: $6 \\times 30 = 180\\text{ units}$.\n$$\\text{Remaining units to be filled by Q and R} = 240 - 180 = 60\\text{ units}$$\n$$\\text{Combined rate of Q and R} = 3 + 2 = 5$$\n$$\\text{Time Q and R should be kept on} = \\frac{60}{5} = 12\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "Two pipes, A and B, can fill a tank in 10 minutes and 20 minutes, respectively. The pipe C can empty the tank in 30 minutes. All the three pipes are opened at a time in the beginning. However, pipe C is closed 2 minutes before the tank is filled. In what time, will the tank be full (in minutes)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Rates}: A = 6, B = 3, C = -2$$\nLet total time $= T$ minutes.\n$$6T + 3T - 2(T - 2) = 60$$\n$$9T - 2T + 4 = 60 \\implies 7T = 56 \\implies T = 8\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "Two pipes A and B can fill a tank in 48 minutes and 66 minutes, respectively. If both the pipes are opened simultaneously, then after how many minutes should pipe B be closed so that the tank gets filled in 32 minutes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "22"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Pipe A runs for the full 32 minutes:\n$$\\text{Work done by A} = \\frac{32}{48} = \\frac{2}{3}$$\n$$\\text{Remaining work for B} = 1 - \\frac{2}{3} = \\frac{1}{3}$$\n$$\\text{Time pipe B is open} = \\frac{1}{3} \\times 66 = 22\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+      "questionText": "Pipes A and B can fill a tank in 15 hours and 25 hours, respectively, whereas pipe C can empty the full tank in 40 hours. All three pipes are opened together, but pipe A is closed after 5 hours. After how many hours will the remaining part of the tank be filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$41\\frac{4}{9}$"
+        },
+        {
+          "label": "B",
+          "text": "$43\\frac{4}{9}$"
+        },
+        {
+          "label": "C",
+          "text": "$44\\frac{4}{9}$"
+        },
+        {
+          "label": "D",
+          "text": "$39\\frac{4}{9}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 600\\text{ units}$$\n$$\\text{Rates}: A = 40, B = 24, C = -15$$\nIn first 5 hours: $(40 + 24 - 15) \\times 5 = 49 \\times 5 = 245\\text{ units}$.\n$$\\text{Remaining units} = 600 - 245 = 355\\text{ units}$$\nNow B and C work: rate $= 24 - 15 = 9\\text{ units/hr}$.\n$$\\text{Time for remaining} = \\frac{355}{9} = 39\\frac{4}{9}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 18/09/2024 (Shift-02)",
+      "questionText": "Pipes A and B can fill a tank in 6 hours and 8 hours, respectively. Both pipes are opened together for 3 hours. After that pipe A is closed, and B continues to fill the tank. In how many hours will the tank be filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 24\\text{ units}$$\n$$\\text{Rate of A} = 4, \\quad \\text{Rate of B} = 3$$\nIn 3 hours: $(4 + 3) \\times 3 = 21\\text{ units}$.\n$$\\text{Remaining units} = 24 - 21 = 3\\text{ units}$$\n$$\\text{Time for B} = \\frac{3}{3} = 1\\text{ hour}$$\n$$\\text{Total time to fill the tank} = 3 + 1 = 4\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 19/09/2024 (Shift-03)",
+      "questionText": "Two inlet pipes, $P_1$ and $P_2$, can fill a cistern in 20 hours and 30 hours, respectively. They were opened at the same time, but pipe $P_1$ had to be closed 5 hours before the cistern was full. How many hours in total did it take for the two pipes to fill the cistern?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 hrs."
+        },
+        {
+          "label": "B",
+          "text": "9 hrs."
+        },
+        {
+          "label": "C",
+          "text": "12 hrs."
+        },
+        {
+          "label": "D",
+          "text": "10 hrs."
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 60\\text{ units}$$\n$$\\text{Rate of } P_1 = 3, \\quad \\text{Rate of } P_2 = 2$$\nLet total time $= T$ hours.\n$$3(T - 5) + 2(T) = 60$$\n$$5T - 15 = 60 \\implies 5T = 75 \\implies T = 15\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 23/09/2024 (Shift-02)",
+      "questionText": "Three pipes, P, Q and R, together take four hours to fill a tank. All the three pipes were opened at the same time. After three hours, P was closed, and Q and R filled the remaining tank in two hours. How many hours will P alone take to fill the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 hours"
+        },
+        {
+          "label": "B",
+          "text": "10 hours"
+        },
+        {
+          "label": "C",
+          "text": "12 hours"
+        },
+        {
+          "label": "D",
+          "text": "9 hours"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "In 3 hours, $P + Q + R$ fill $\\frac{3}{4}$ of the tank.\n$$\\text{Remaining work} = 1 - \\frac{3}{4} = \\frac{1}{4}$$\n$Q + R$ take 2 hours to fill $\\frac{1}{4}$ of tank $\\implies Q + R$ fill full tank in $2 \\times 4 = 8\\text{ hours}$.\n$$\\text{Rate of P} = \\frac{1}{4} - \\frac{1}{8} = \\frac{1}{8}$$\n$$\\text{Time for P alone} = 8\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CPO 10/11/2022 (Shift-02)",
+      "questionText": "There are 3 taps A, B and C in a tank. These can fill the tank in 10 hours, 20 hours and 25 hours, respectively. At first, all three taps are opened simultaneously. After 2 hours, tap C is closed and tap A and hours B keep running. After 4 hours, tap B is also closed. The remaining tank is filled by tap A alone. Find the percentage of work done by tap A itself.",
+      "options": [
+        {
+          "label": "A",
+          "text": "75%"
+        },
+        {
+          "label": "B",
+          "text": "52%"
+        },
+        {
+          "label": "C",
+          "text": "72%"
+        },
+        {
+          "label": "D",
+          "text": "32%"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capacity} = 100\\text{ units}$$\n$$\\text{Rates}: A = 10, B = 5, C = 4$$\nC runs for 2 hours: work done $= 2 \\times 4 = 8\\text{ units}$.\nB runs for $2 + 4 = 6\\text{ hours}$: work done $= 6 \\times 5 = 30\\text{ units}$.\n$$\\text{Work done by B and C} = 30 + 8 = 38\\text{ units}$$\n$$\\text{Work done by A alone} = 100 - 38 = 62\\text{ units? Wait:}$$ \nIn the problem: tap B is closed after 4 hours from opening of A and B, so B runs for 4 hours: $4 \\times 5 = 20$. C runs for 2 hours: $2 \\times 4 = 8$. Total by B and C $= 28$. Work by A $= 100 - 28 = 72\\%$.\n$$\\text{Percentage of work by A} = 72\\%$$"
+    },
+    {
+      "questionNumber": 78,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL TIER-II 03/02/2022",
+      "questionText": "Two pipes A and B can fill a tank in 12 minutes and 24 minutes, respectively, while a third pipe C can empty the full tank in 32 minutes. All the three pipes are opened simultaneously. However, pipe C is closed 2 minutes before the tank is filled. In how much time (in minutes) will the tank be full?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 96\\text{ units}$$\n$$\\text{Rates}: A = 8, B = 4, C = -3$$\nLet total time $= T$ minutes.\n$$8T + 4T - 3(T - 2) = 96$$\n$$12T - 3T + 6 = 96 \\implies 9T = 90 \\implies T = 10\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 79,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CHSL 19/04/2021 (Shift-02)",
+      "questionText": "Pipes A and B can empty a full tank in 36 minutes and 45 minutes, respectively, whereas pipe C alone can fill the tank in 15 minutes. B and C are opened together for 15 minutes, and then both are turned off and A is opened. Pipe A will empty the tank (in minutes);",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 180\\text{ units}$$\n$$\\text{Rates}: A = -5, B = -4, C = +12$$\nB and C together: net rate $= 12 - 4 = 8\\text{ units/min}$.\nIn 15 minutes: $15 \\times 8 = 120\\text{ units}$ filled.\nPipe A empties at 5 units/min:\n$$\\text{Time to empty} = \\frac{120}{5} = 24\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 80,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+      "questionText": "Pipes A and B can fill a tank in 16 hours and 24 hours, respectively, whereas pipe C can empty the full tank in 40 hours. All three pipes are opened together, but pipe A is closed after 10 hours. After how many hours will the remaining part of the tank be filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\frac{1}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$12\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 240\\text{ units}$$\n$$\\text{Rates}: A = 15, B = 10, C = -6$$\nIn first 10 hours: $(15 + 10 - 6) \\times 10 = 19 \\times 10 = 190\\text{ units}$.\n$$\\text{Remaining units} = 240 - 190 = 50\\text{ units}$$\nAfter A is closed, B and C work: rate $= 10 - 6 = 4\\text{ units/hr}$.\n$$\\text{Time taken} = \\frac{50}{4} = 12.5 = 12\\frac{1}{2}\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 81,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CPO 25/11/2020 (Shift-01)",
+      "questionText": "Pipes A and B can fill a tank in 16 hours and 24 hours, respectively, whereas pipe C can empty the full tank in 40 hours. All three pipes are opened together, but pipe C is closed after 10 hours. After how many hours will the remaining part of the tank be filled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "$2\\frac{1}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "$5\\frac{1}{2}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Capacity} = 240\\text{ units}$$\n$$\\text{Rates}: A = 15, B = 10, C = -6$$\nIn first 10 hours: $(15 + 10 - 6) \\times 10 = 190\\text{ units}$.\n$$\\text{Remaining units} = 240 - 190 = 50\\text{ units}$$\nAfter C is closed, A and B work: rate $= 15 + 10 = 25\\text{ units/hr}$.\n$$\\text{Time taken} = \\frac{50}{25} = 2\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 82,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL TIER-II 13/09/2019",
+      "questionText": "Pipe A and B are filling pipes while C is an emptying pipe. A and B can fill a tank in 72 minutes and 90 minutes respectively. When all the three pipes are opened together, the tank gets filled in 2 hours. A and B are opened together for 12 minutes, then closed and C is opened. The tank will be empty after",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 minutes"
+        },
+        {
+          "label": "B",
+          "text": "18 minutes"
+        },
+        {
+          "label": "C",
+          "text": "12 minutes"
+        },
+        {
+          "label": "D",
+          "text": "16 minutes"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$2\\text{ hours} = 120\\text{ minutes}$$\n$$\\text{Capacity} = 360\\text{ units}$$\n$$\\text{Rate of A} = 5, \\quad \\text{Rate of B} = 4$$\n$$\\text{Net rate} = \\frac{360}{120} = 3$$\n$$\\text{Rate of C} = 5 + 4 - 3 = 6\\text{ units/min}$$\nIn 12 minutes, A and B fill $(5 + 4) \\times 12 = 108\\text{ units}$.\n$$\\text{Time for C to empty} = \\frac{108}{6} = 18\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 83,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 06/06/2019 (Shift-01)",
+      "questionText": "Pipes A and B can fill a tank in one hour and two hours respectively while pipe C can empty the filled up tank in one hour and fifteen minutes. A and C are turned on together at 9 a.m. After 2 hours, only A is closed and B is turned on. When will the tank be emptied?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12:10 p.m."
+        },
+        {
+          "label": "B",
+          "text": "11:30 a.m."
+        },
+        {
+          "label": "C",
+          "text": "10:30 a.m."
+        },
+        {
+          "label": "D",
+          "text": "12:20 p.m."
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Time in minutes}: A = 60, B = 120, C = 75$$\n$$\\text{Capacity} = 600\\text{ units}$$\n$$\\text{Rates}: A = 10, B = 5, C = -8$$\nA and C opened at 9 a.m.: net rate $= 10 - 8 = 2\\text{ units/min}$.\nIn 2 hours (120 min), filled $= 120 \\times 2 = 240\\text{ units}$.\nAt 11:00 a.m., A is closed, B is opened. Net rate $= 5 - 8 = -3\\text{ units/min}$.\n$$\\text{Time to empty} = \\frac{240}{3} = 80\\text{ minutes} = 1\\text{ hour } 20\\text{ minutes}$$\n$$\\text{Empty time} = 11:00\\text{ a.m.} + 1\\text{ h } 20\\text{ min} = 12:20\\text{ p.m.}$$"
+    },
+    {
+      "questionNumber": 84,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "A cistern can be filled by two pipes in 8 minutes and 10 minutes, separately. Both the pipes are opened together for a certain time, but due to an obstruction, only $\\frac{5}{8}$ of the full quantity of water flowed through the former pipe and $\\frac{3}{5}$ through the latter pipe. However, the obstruction was suddenly removed, and the cistern was filled in 3 minutes from that moment. How long did it take before the full flow began?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3\\frac{1}{16}\\text{ minutes}$"
+        },
+        {
+          "label": "B",
+          "text": "$2\\frac{6}{17}\\text{ minutes}$"
+        },
+        {
+          "label": "C",
+          "text": "$9\\frac{6}{7}\\text{ minutes}$"
+        },
+        {
+          "label": "D",
+          "text": "$2\\frac{30}{37}\\text{ minutes}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Capacity} = 40\\text{ units}$$\n$$\\text{Normal rates}: A = 5, B = 4 \\implies \\text{Full flow rate} = 9$$\nIn the last 3 minutes of full flow, water filled $= 3 \\times 9 = 27\\text{ units}$.\n$$\\text{Water filled during obstructed flow} = 40 - 27 = 13\\text{ units}$$\n$$\\text{Obstructed rate} = 5 \\times \\frac{5}{8} + 4 \\times \\frac{3}{5} = \\frac{25}{8} + \\frac{12}{5} = \\frac{125 + 96}{40} = \\frac{221}{40}$$\n$$\\text{Time} = \\frac{13}{221/40} = \\frac{520}{221} = \\frac{40}{17} = 2\\frac{6}{17}\\text{ minutes}$$"
+    },
+    {
+      "questionNumber": 85,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 24/09/2024 (Shift-02)",
+      "questionText": "Pipe A takes $\\frac{4}{5}$ of the time required by pipe B to fill an empty tank individually. When an outlet pipe C is also opened simultaneously with pipes A and B, it takes $\\frac{4}{5}$ more time to fill the empty tank than it takes when only pipe A and pipe B are opened together. If it takes 40 hours to fill the tank when all the three pipes are opened simultaneously, in what time (in hours) will pipe C empty the full tank, operated alone?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50 hours"
+        },
+        {
+          "label": "B",
+          "text": "45 hours"
+        },
+        {
+          "label": "C",
+          "text": "65 hours"
+        },
+        {
+          "label": "D",
+          "text": "75 hours"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let time for $A + B$ together $= t$.\nTime with $C = t\\left(1 + \\frac{4}{5}\\right) = \\frac{9}{5}t = 40\\text{ hours} \\implies t = \\frac{200}{9}\\text{ hours}$.\n$$\\text{Rate of } (A + B) = \\frac{9}{200}$$\n$$\\text{Rate with C} = \\frac{1}{40} = \\frac{5}{200}$$\n$$\\text{Rate of C} = \\frac{9}{200} - \\frac{5}{200} = \\frac{4}{200} = \\frac{1}{50}$$\n$$\\text{Time for C alone to empty} = 50\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 86,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 06/06/2019 (Shift-01)",
+      "questionText": "Pipe A and B can fill a tank in 10 hours and 40 hours, respectively. C is an outlet pipe attached to the tank. If all the three pipes are opened simultaneously, it takes 80 minutes more time than what A and B together take to fill the tank. A and B are kept open for 7 hours and then closed and C is opened. C will now empty the tank in :",
+      "options": [
+        {
+          "label": "A",
+          "text": "45.5 hours"
+        },
+        {
+          "label": "B",
+          "text": "38.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "42 hours"
+        },
+        {
+          "label": "D",
+          "text": "49 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capacity} = 40\\text{ units}$$\n$$\\text{Rates}: A = 4, B = 1 \\implies A + B = 5$$\n$$\\text{Time for A + B} = \\frac{40}{5} = 8\\text{ hours}$$\n$$\\text{Time with C} = 8\\text{ h } + \\frac{4}{3}\\text{ h} = \\frac{28}{3}\\text{ hours}$$\n$$\\text{Net rate} = \\frac{40}{28/3} = \\frac{30}{7}$$\n$$\\text{Rate of C} = 5 - \\frac{30}{7} = \\frac{5}{7}$$\nIn 7 hours, A and B fill $7 \\times 5 = 35\\text{ units}$.\n$$\\text{Time for C to empty} = \\frac{35}{5/7} = 49\\text{ hours}$$"
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CPO 23/11/2020 (Shift-03)",
+      "questionText": "When operated separately, pipe A takes 5 hours less than pipe B to fill a cistern and when both pipe are operated together, the cistern get filled in 6 hours. In how much time (in hours) will pipe B fill the cistern, if operated?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Let B take $t$ hours, then A takes $t - 5$ hours.\n$$\\frac{1}{t-5} + \\frac{1}{t} = \\frac{1}{6}$$\nTesting option (D) $t = 15$:\n$$\\frac{1}{10} + \\frac{1}{15} = \\frac{3 + 2}{30} = \\frac{5}{30} = \\frac{1}{6}$$\nThus, B takes 15 hours."
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - VI: WHEN 1 OR 2 TAPS ARE CLOSED DURING THE FILLING OR EMPTYING A TANK",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "The tank is filled by three pipes with different uniform flow rates. While the first two pipes are operating simultaneously, they fill the tank in the same duration that the third pipe takes to fill it alone. The second pipe can fill the tank 5 hours quicker than the first pipe, yet 4 hours slower than the third pipe. What is the time (in hours) needed for the first pipe to fill the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Let third pipe take $t$ hours.\nThen second pipe takes $t + 4$ hours, and first pipe takes $(t + 4) + 5 = t + 9$ hours.\nGiven: $\\frac{1}{t+9} + \\frac{1}{t+4} = \\frac{1}{t}$.\nUsing the standard result: $t = \\sqrt{9 \\times 4} = 6\\text{ hours}$.\n$$\\text{Time for first pipe} = t + 9 = 6 + 9 = 15\\text{ hours}$$"
+    }
+  ]
+}

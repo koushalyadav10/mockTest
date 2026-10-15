@@ -1,0 +1,1335 @@
+{
+  "chapterNumber": 16,
+  "chapterCode": "SSC_MATHS_CH_16_TRAIN",
+  "chapterTitleEnglish": "Train",
+  "chapterTitleHindi": "ट्रेन (रेलगाड़ी)",
+  "totalQuestions": 51,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: TRAIN PASSING A TELEGRAM POLE, BRIDGE, OR PLATFORM",
+      "examShift": "SSC CHSL 25/05/2022 (Shift-02)",
+      "questionText": "The time taken by a 180 m long train running at a speed of 54 km/h to cross a man standing on the platform is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 Second"
+        },
+        {
+          "label": "B",
+          "text": "12 Second"
+        },
+        {
+          "label": "C",
+          "text": "11 Second"
+        },
+        {
+          "label": "D",
+          "text": "9 Second"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Speed of train} = 54\\text{ km/h} = 54 \\times \\frac{5}{18} = 15\\text{ m/s}$$\n$$\\text{Distance to cross a man} = \\text{Length of train} = 180\\text{ m}$$\n$$\\text{Time taken} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{180}{15} = 12\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: TRAIN PASSING A TELEGRAM POLE, BRIDGE, OR PLATFORM",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-01)",
+      "questionText": "A girl walking at a speed of 9 km/h crosses a bridge in 45 minutes. Find the length of the bridge in metres.",
+      "options": [
+        {
+          "label": "A",
+          "text": "7532"
+        },
+        {
+          "label": "B",
+          "text": "6398"
+        },
+        {
+          "label": "C",
+          "text": "6750"
+        },
+        {
+          "label": "D",
+          "text": "6349"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Speed} = 9\\text{ km/h} = 9 \\times \\frac{5}{18} = 2.5\\text{ m/s}$$\n$$\\text{Time} = 45\\text{ minutes} = 45 \\times 60 = 2700\\text{ seconds}$$\n$$\\text{Length of bridge} = \\text{Speed} \\times \\text{Time} = 2.5 \\times 2700 = 6750\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: TRAIN PASSING A TELEGRAM POLE, BRIDGE, OR PLATFORM",
+      "examShift": "SSC CGL MAINS 07/03/2023",
+      "questionText": "A goods train 350 m long passes through a tunnel of length 1250 m in 80 seconds. What is the speed of the train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "64 km/h"
+        },
+        {
+          "label": "B",
+          "text": "56 km/h"
+        },
+        {
+          "label": "C",
+          "text": "78 km/h"
+        },
+        {
+          "label": "D",
+          "text": "72 km/h"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Total distance} = 350 + 1250 = 1600\\text{ m}$$\n$$\\text{Speed} = \\frac{1600}{80} = 20\\text{ m/s}$$\n$$\\text{Speed in km/h} = 20 \\times \\frac{18}{5} = 72\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: TRAIN PASSING A TELEGRAM POLE, BRIDGE, OR PLATFORM",
+      "examShift": "SSC CGL MAINS (08/08/2022)",
+      "questionText": "Length of a train is 330 metres and it is moving at the speed of 72 km/hr. In how much time will it takes cross a platform of length 710 metres?",
+      "options": [
+        {
+          "label": "A",
+          "text": "52 Sec."
+        },
+        {
+          "label": "B",
+          "text": "72 Sec."
+        },
+        {
+          "label": "C",
+          "text": "56 Sec."
+        },
+        {
+          "label": "D",
+          "text": "64 Sec."
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 330 + 710 = 1040\\text{ m}$$\n$$\\text{Speed of train} = 72\\text{ km/h} = 72 \\times \\frac{5}{18} = 20\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{1040}{20} = 52\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: TRAIN PASSING A TELEGRAM POLE, BRIDGE, OR PLATFORM",
+      "examShift": "SSC CGL 14/07/2023 (Shift-01)",
+      "questionText": "A train 900 m long is running at a speed of 108 km/h. How much time will this train take to completely cross a 900 m long platform?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60 s"
+        },
+        {
+          "label": "B",
+          "text": "45 s"
+        },
+        {
+          "label": "C",
+          "text": "30 s"
+        },
+        {
+          "label": "D",
+          "text": "18 s"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 900 + 900 = 1800\\text{ m}$$\n$$\\text{Speed} = 108\\text{ km/h} = 108 \\times \\frac{5}{18} = 30\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{1800}{30} = 60\\text{ s}$$"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: TRAIN PASSING A TELEGRAM POLE, BRIDGE, OR PLATFORM",
+      "examShift": "SSC MTS 25/07/2022 (Shift-3)",
+      "questionText": "A 750 metres long train crosses a stationary pole in 15 sec. Travelling at the same speed, this train crosses a bridge completely in 25 sec. What is the length of this bridge?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1000 m"
+        },
+        {
+          "label": "B",
+          "text": "750 m"
+        },
+        {
+          "label": "C",
+          "text": "1250 m"
+        },
+        {
+          "label": "D",
+          "text": "500 m"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Speed of train} = \\frac{750}{15} = 50\\text{ m/s}$$\n$$\\text{Total distance in 25 s} = 50 \\times 25 = 1250\\text{ m}$$\n$$\\text{Length of bridge} = 1250 - 750 = 500\\text{ m}$$"
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: TRAIN PASSING A TELEGRAM POLE, BRIDGE, OR PLATFORM",
+      "examShift": "SSC CGL 13/08/2021 (Shift 03)",
+      "questionText": "A train running at $40\\frac{1}{2}\\text{ km/h}$ takes 24 second to cross a pole. How much time (in second) will it take to pass a 450 m long bridge?",
+      "options": [
+        {
+          "label": "A",
+          "text": "56"
+        },
+        {
+          "label": "B",
+          "text": "52"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Speed} = 40\\frac{1}{2}\\text{ km/h} = \\frac{81}{2} \\times \\frac{5}{18} = \\frac{45}{4} = 11.25\\text{ m/s}$$\n$$\\text{Length of train} = 11.25 \\times 24 = 270\\text{ m}$$\n$$\\text{Total distance with bridge} = 270 + 450 = 720\\text{ m}$$\n$$\\text{Time taken} = \\frac{720}{11.25} = 64\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "Two trains 230 m and 270 m long are running in opposite directions at speeds of 42 km/h and 48 km/h, respectively. They cross each other in:",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 seconds"
+        },
+        {
+          "label": "B",
+          "text": "22 seconds"
+        },
+        {
+          "label": "C",
+          "text": "20 seconds"
+        },
+        {
+          "label": "D",
+          "text": "25 seconds"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Total distance} = 230 + 270 = 500\\text{ m}$$\n$$\\text{Relative speed} = 42 + 48 = 90\\text{ km/h} = 90 \\times \\frac{5}{18} = 25\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{500}{25} = 20\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CHSL 09/03/2023 (Shift-04)",
+      "questionText": "Two trains, one 125 metres and the other 375 metres long are running in opposite directions on parallel tracks, at the speed of 81 km/hr and 63 km/hr respectively. How much time will they take to cross each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25 sec."
+        },
+        {
+          "label": "B",
+          "text": "15 sec."
+        },
+        {
+          "label": "C",
+          "text": "12.5 sec."
+        },
+        {
+          "label": "D",
+          "text": "22.5 sec."
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Total distance} = 125 + 375 = 500\\text{ m}$$\n$$\\text{Relative speed} = 81 + 63 = 144\\text{ km/h} = 144 \\times \\frac{5}{18} = 40\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{500}{40} = 12.5\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CHSL 08/06/2022 (Shift- 2)",
+      "questionText": "Two trains having lengths of 230 m and 240 m are 130 m apart. They start moving towards each other on parallel tracks, at speeds of 160 km/h and 200 km/h, respectively. In how much time will the trains cross each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 Sec"
+        },
+        {
+          "label": "B",
+          "text": "6 Sec"
+        },
+        {
+          "label": "C",
+          "text": "8 Sec"
+        },
+        {
+          "label": "D",
+          "text": "7 Sec"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Total distance to cover} = 230 + 240 + 130 = 600\\text{ m}$$\n$$\\text{Relative speed} = 160 + 200 = 360\\text{ km/h} = 360 \\times \\frac{5}{18} = 100\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{600}{100} = 6\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "A train 550 metres long is running at a speed of 78 km/h. How many seconds will it take to cross a 350 metres long train running in the opposite direction at a speed of 30 km/h?",
+      "options": [
+        {
+          "label": "A",
+          "text": "40 seconds"
+        },
+        {
+          "label": "B",
+          "text": "20 seconds"
+        },
+        {
+          "label": "C",
+          "text": "50 seconds"
+        },
+        {
+          "label": "D",
+          "text": "30 seconds"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Total distance} = 550 + 350 = 900\\text{ m}$$\n$$\\text{Relative speed} = 78 + 30 = 108\\text{ km/h} = 108 \\times \\frac{5}{18} = 30\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{900}{30} = 30\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CGL 24/09/2024 (Shift-02)",
+      "questionText": "Two goods trains 132 m and 108 m in length are running towards each other on parallel tracks. The first train is running at a speed of 32 km/h and the second at a speed of 40 km/h. How much time will they take to cross each other after meeting?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 sec"
+        },
+        {
+          "label": "B",
+          "text": "10 sec"
+        },
+        {
+          "label": "C",
+          "text": "13 sec"
+        },
+        {
+          "label": "D",
+          "text": "15 sec"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 132 + 108 = 240\\text{ m}$$\n$$\\text{Relative speed} = 32 + 40 = 72\\text{ km/h} = 72 \\times \\frac{5}{18} = 20\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{240}{20} = 12\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC MTS 11/09/2023 (Shift- 03)",
+      "questionText": "Two trains A and B, 210 m and 150 m, respectively, in length, are running in the same direction on parallel lines. If the speed of A and B be 110 km/h and 128 km/h, respectively, then what will be the time (in seconds) taken by train B to cross train A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "71"
+        },
+        {
+          "label": "B",
+          "text": "74"
+        },
+        {
+          "label": "C",
+          "text": "72"
+        },
+        {
+          "label": "D",
+          "text": "70"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Total distance} = 210 + 150 = 360\\text{ m}$$\n$$\\text{Relative speed} = 128 - 110 = 18\\text{ km/h} = 18 \\times \\frac{5}{18} = 5\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{360}{5} = 72\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC MTS 12/09/2023 (Shift- 01)",
+      "questionText": "Two trains having the same speed are running in opposite directions. If the length of each train is 120 metres and they cross each other in 8 seconds, then what is the speed of each train (in km/h)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "45"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "54"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Total distance} = 120 + 120 = 240\\text{ m}$$\n$$\\text{Relative speed} = \\frac{240}{8} = 30\\text{ m/s}$$\n$$\\text{Since both trains have the same speed, speed of each train} = \\frac{30}{2} = 15\\text{ m/s}$$\n$$\\text{Speed in km/h} = 15 \\times \\frac{18}{5} = 54\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CHSL 25/05/2022 (Shift- 03)",
+      "questionText": "Two trains each 200m long are moving in opposite directions. They cross each other in 10 seconds. If the speed of one train is 90km/h, find the speed of the other train.",
+      "options": [
+        {
+          "label": "A",
+          "text": "90 km/h"
+        },
+        {
+          "label": "B",
+          "text": "45 km/h"
+        },
+        {
+          "label": "C",
+          "text": "54 km/h"
+        },
+        {
+          "label": "D",
+          "text": "36 km/h"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Total distance} = 200 + 200 = 400\\text{ m}$$\n$$\\text{Relative speed} = \\frac{400}{10} = 40\\text{ m/s} = 40 \\times \\frac{18}{5} = 144\\text{ km/h}$$\n$$\\text{Speed of the other train} = 144 - 90 = 54\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CHSL 08/08/2023 Shift-04",
+      "questionText": "A train traveling at 80 km/h crosses another train traveling in the same direction at 26 km/h in 30 seconds. What is the combine length of both the trains?",
+      "options": [
+        {
+          "label": "A",
+          "text": "400 m"
+        },
+        {
+          "label": "B",
+          "text": "450 m"
+        },
+        {
+          "label": "C",
+          "text": "550 m"
+        },
+        {
+          "label": "D",
+          "text": "350 m"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Relative speed} = 80 - 26 = 54\\text{ km/h} = 54 \\times \\frac{5}{18} = 15\\text{ m/s}$$\n$$\\text{Combined length of both trains} = 15 \\times 30 = 450\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CPO 29/06/2024 (Shift-03)",
+      "questionText": "Two trains, P and Q, are running on parallel tracks in opposite directions with lengths of 110 m and 140 m, respectively. Train P is running at a speed of 70 km/h and took 5 seconds to cross train Q. The speed of train Q is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "120 km/h"
+        },
+        {
+          "label": "B",
+          "text": "110 km/h"
+        },
+        {
+          "label": "C",
+          "text": "90 km/h"
+        },
+        {
+          "label": "D",
+          "text": "100 km/h"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Total distance} = 110 + 140 = 250\\text{ m}$$\n$$\\text{Relative speed} = \\frac{250}{5} = 50\\text{ m/s} = 50 \\times \\frac{18}{5} = 180\\text{ km/h}$$\n$$\\text{Speed of train Q} = 180 - 70 = 110\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "Two trains Mumbai Rajdhani and Kissan Express of lengths 850 m and 700 m are 1050 m apart, and are running on parallel tracks towards each other. Mumbai Rajdhani is running at 62 km/h and Kissan Express is running at 55 km/h. In how much time (in sec) will the trains cross each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "80"
+        },
+        {
+          "label": "B",
+          "text": "70"
+        },
+        {
+          "label": "C",
+          "text": "75"
+        },
+        {
+          "label": "D",
+          "text": "45"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 850 + 700 + 1050 = 2600\\text{ m}$$\n$$\\text{Relative speed} = 62 + 55 = 117\\text{ km/h} = 117 \\times \\frac{5}{18} = 32.5\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{2600}{32.5} = 80\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CHSL 20/03/2023 (Shift-02)",
+      "questionText": "A train of length 300 metres crosses a tree in 20 seconds and crosses another train of the same length travelling in opposite direction in 25 seconds. What is the speed of the second train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 m/s"
+        },
+        {
+          "label": "B",
+          "text": "12 m/s"
+        },
+        {
+          "label": "C",
+          "text": "15 m/s"
+        },
+        {
+          "label": "D",
+          "text": "9 m/s"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Speed of first train} = \\frac{300}{20} = 15\\text{ m/s}$$\n$$\\text{Total distance for crossing second train} = 300 + 300 = 600\\text{ m}$$\n$$\\text{Relative speed in opposite direction} = \\frac{600}{25} = 24\\text{ m/s}$$\n$$\\text{Speed of second train} = 24 - 15 = 9\\text{ m/s}$$"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CHSL 16/03/2023 (Shift-02)",
+      "questionText": "A train of length 360 metres crosses an electric pole in 30 seconds and crosses another train of the same length travelling in opposite direction in 15 seconds. What is the speed of the second train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 m/s"
+        },
+        {
+          "label": "B",
+          "text": "36 m/s"
+        },
+        {
+          "label": "C",
+          "text": "24 m/s"
+        },
+        {
+          "label": "D",
+          "text": "60 m/s"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Speed of first train} = \\frac{360}{30} = 12\\text{ m/s}$$\n$$\\text{Total distance for crossing second train} = 360 + 360 = 720\\text{ m}$$\n$$\\text{Relative speed in opposite direction} = \\frac{720}{15} = 48\\text{ m/s}$$\n$$\\text{Speed of second train} = 48 - 12 = 36\\text{ m/s}$$"
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-04)",
+      "questionText": "Two trains of lengths 310 m and 330 m, respectively, are 160 m apart. They start moving towards each other on parallel tracks, at speeds 130 km/h and 158 km/h, respectively. In how much time (in seconds) will the trains cross each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 310 + 330 + 160 = 800\\text{ m}$$\n$$\\text{Relative speed} = 130 + 158 = 288\\text{ km/h} = 288 \\times \\frac{5}{18} = 80\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{800}{80} = 10\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+      "questionText": "A 320 m long train completely crosses a 240 m long train, coming from the opposite direction, in y seconds. If the first train is travelling at the speed of 44 km/h and the second train is travelling at 56.8 km/h, then what is the value of y?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "22"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Total distance} = 320 + 240 = 560\\text{ m}$$\n$$\\text{Relative speed} = 44 + 56.8 = 100.8\\text{ km/h} = 100.8 \\times \\frac{5}{18} = 28\\text{ m/s}$$\n$$y = \\frac{560}{28} = 20\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - II: TWO TRAINS CROSSING EACH OTHER IN OPPOSITE DIRECTION",
+      "examShift": "SSC GD 01/03/2024 (Shift-02)",
+      "questionText": "A train of length 640 m crosses another train of length 920 m in 24 seconds. Two trains are running in opposite direction. If the speed of both the trains is same, what is the speed of the two trains?",
+      "options": [
+        {
+          "label": "A",
+          "text": "117 km/hr"
+        },
+        {
+          "label": "B",
+          "text": "105 km/hr"
+        },
+        {
+          "label": "C",
+          "text": "136 km/hr"
+        },
+        {
+          "label": "D",
+          "text": "129 km/hr"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 640 + 920 = 1560\\text{ m}$$\n$$\\text{Relative speed} = \\frac{1560}{24} = 65\\text{ m/s} = 65 \\times \\frac{18}{5} = 234\\text{ km/h}$$\n$$\\text{Speed of each train} = \\frac{234}{2} = 117\\text{ km/hr}$$"
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+      "questionText": "Two trains, 140 m and 120 m in length, are running in the same direction at the speed of 60 km/h and 78 km/h, respectively. In how much time will they completely cross each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "52 second"
+        },
+        {
+          "label": "B",
+          "text": "58 second"
+        },
+        {
+          "label": "C",
+          "text": "48 second"
+        },
+        {
+          "label": "D",
+          "text": "65 second"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 140 + 120 = 260\\text{ m}$$\n$$\\text{Relative speed} = 78 - 60 = 18\\text{ km/h} = 18 \\times \\frac{5}{18} = 5\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{260}{5} = 52\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "Two trains of lengths 200 m and 250 m are running on parallel rail tracks at speeds of 68 km/h and 50 km/h, respectively. In how much time (in sec.) will they cross each other if they are running in the same direction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "90"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "75"
+        },
+        {
+          "label": "D",
+          "text": "85"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 200 + 250 = 450\\text{ m}$$\n$$\\text{Relative speed} = 68 - 50 = 18\\text{ km/h} = 18 \\times \\frac{5}{18} = 5\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{450}{5} = 90\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CPO 09/11/2022 (Shift-01)",
+      "questionText": "Two trains A and B having the length 195 m and 165 m respectively, are running in the same direction on parallel lines. If the speed of A and B be 77 km/h and 85 km/h respectively, then what will be the time (in seconds) taken by them to cross each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "162"
+        },
+        {
+          "label": "B",
+          "text": "164"
+        },
+        {
+          "label": "C",
+          "text": "160"
+        },
+        {
+          "label": "D",
+          "text": "166"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 195 + 165 = 360\\text{ m}$$\n$$\\text{Relative speed} = 85 - 77 = 8\\text{ km/h} = 8 \\times \\frac{5}{18} = \\frac{20}{9}\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{360}{\\frac{20}{9}} = 360 \\times \\frac{9}{20} = 162\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "MTS 04/09/2023 (Shift- 01)",
+      "questionText": "Two trains of length 200 m and 325 m long are running on parallel rail tracks at speeds of 78 km/h and 60 km/h, respectively. In how much time (in seconds) the faster train cross the slower one if they are running in the same direction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "105"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "115"
+        },
+        {
+          "label": "D",
+          "text": "110"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 200 + 325 = 525\\text{ m}$$\n$$\\text{Relative speed} = 78 - 60 = 18\\text{ km/h} = 18 \\times \\frac{5}{18} = 5\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{525}{5} = 105\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CGL 18/07/2023 (Shift-03)",
+      "questionText": "A train traveling at 70 km/h crosses another train traveling in the same direction at 34 km/h in 25 seconds. What is the combined length of both the trains (in metres)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "225"
+        },
+        {
+          "label": "B",
+          "text": "250"
+        },
+        {
+          "label": "C",
+          "text": "325"
+        },
+        {
+          "label": "D",
+          "text": "500"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Relative speed} = 70 - 34 = 36\\text{ km/h} = 36 \\times \\frac{5}{18} = 10\\text{ m/s}$$\n$$\\text{Combined length of both trains} = 10 \\times 25 = 250\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CHSL 07/08/2023 Shift-01",
+      "questionText": "On parallel tracks, two trains of equal length are moving at speeds of 46 and 36 km/hr in the same direction. In 36 second, the quicker train overtake the slower one. The length of each train is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "60 meter"
+        },
+        {
+          "label": "B",
+          "text": "50 meter"
+        },
+        {
+          "label": "C",
+          "text": "56 meter"
+        },
+        {
+          "label": "D",
+          "text": "52 meters"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Relative speed} = 46 - 36 = 10\\text{ km/h} = 10 \\times \\frac{5}{18} = \\frac{25}{9}\\text{ m/s}$$\n$$\\text{Total distance covered} = \\frac{25}{9} \\times 36 = 100\\text{ m}$$\n$$\\text{Length of each train} = \\frac{100}{2} = 50\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "MTS 06/09/2023 (Shift- 01)",
+      "questionText": "Two trains of equal length are running on parallel lines in the same direction at 36 km/h and 54 km/h. The faster train passes the slower train in 48 seconds. The length of each train (in m) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "80"
+        },
+        {
+          "label": "B",
+          "text": "160"
+        },
+        {
+          "label": "C",
+          "text": "240"
+        },
+        {
+          "label": "D",
+          "text": "120"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 54 - 36 = 18\\text{ km/h} = 18 \\times \\frac{5}{18} = 5\\text{ m/s}$$\n$$\\text{Total distance} = 5 \\times 48 = 240\\text{ m}$$\n$$\\text{Length of each train} = \\frac{240}{2} = 120\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CGL 18/07/2023 (Shift-01)",
+      "questionText": "Two trains P and Q of lengths 320 meter and 540 meter, respectively, are running in the same direction on parallel tracks at 108 km/h and 144 km/h, respectively. How much time will the trains take to cross each other completely?",
+      "options": [
+        {
+          "label": "A",
+          "text": "86 s"
+        },
+        {
+          "label": "B",
+          "text": "54 s"
+        },
+        {
+          "label": "C",
+          "text": "32 s"
+        },
+        {
+          "label": "D",
+          "text": "68 s"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 320 + 540 = 860\\text{ m}$$\n$$\\text{Relative speed} = 144 - 108 = 36\\text{ km/h} = 36 \\times \\frac{5}{18} = 10\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{860}{10} = 86\\text{ s}$$"
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "MTS 01/09/2023 (Shift- 01)",
+      "questionText": "Two trains of length 110 m and 85 m are moving in the same direction at 12 m/s and 7 m/s, respectively. Find the time (in sec) taken by the faster train to cross the slower train.",
+      "options": [
+        {
+          "label": "A",
+          "text": "39"
+        },
+        {
+          "label": "B",
+          "text": "35"
+        },
+        {
+          "label": "C",
+          "text": "19"
+        },
+        {
+          "label": "D",
+          "text": "29"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Total distance} = 110 + 85 = 195\\text{ m}$$\n$$\\text{Relative speed} = 12 - 7 = 5\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{195}{5} = 39\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC MTS 13/09/2023 (Shift- 01)",
+      "questionText": "Two trains are travelling in the same direction on parallel tracks. Train A is travelling at 30 km/h and Train B is travelling at 60 km/h. If Train A is 400 m long and it takes Train B two minutes to pass Train A, what is the length of Train B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "500 m"
+        },
+        {
+          "label": "B",
+          "text": "400 m"
+        },
+        {
+          "label": "C",
+          "text": "600 m"
+        },
+        {
+          "label": "D",
+          "text": "700 m"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 60 - 30 = 30\\text{ km/h} = 30 \\times \\frac{5}{18} = \\frac{25}{3}\\text{ m/s}$$\n$$\\text{Time} = 2\\text{ minutes} = 120\\text{ seconds}$$\n$$\\text{Total distance} = \\frac{25}{3} \\times 120 = 1000\\text{ m}$$\n$$\\text{Length of Train B} = 1000 - 400 = 600\\text{ m}$$"
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CGL 21/04/2022 (Shift-02)",
+      "questionText": "Two trains are running on parallel tracks in the same direction at the speed of 80 km/h and 90 km/h, respectively. The trains crossed each other in 3 minutes. If the length of one train is 230 m, then what is the length (in m) of the other train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "270"
+        },
+        {
+          "label": "B",
+          "text": "300"
+        },
+        {
+          "label": "C",
+          "text": "250"
+        },
+        {
+          "label": "D",
+          "text": "230"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Relative speed} = 90 - 80 = 10\\text{ km/h} = 10 \\times \\frac{5}{18} = \\frac{25}{9}\\text{ m/s}$$\n$$\\text{Time} = 3\\text{ minutes} = 180\\text{ seconds}$$\n$$\\text{Total distance} = \\frac{25}{9} \\times 180 = 500\\text{ m}$$\n$$\\text{Length of the other train} = 500 - 230 = 270\\text{ m}$$"
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC Phase IX 2022",
+      "questionText": "The lengths of two trains are 380 m and 220 m. The faster of these two trains takes 20 seconds to overtake the other, when travelling in same direction. The trains take 12 seconds to cross each other, when travelling in opposite directions. What is the speed (in km/h) of the faster train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "108"
+        },
+        {
+          "label": "B",
+          "text": "126"
+        },
+        {
+          "label": "C",
+          "text": "144"
+        },
+        {
+          "label": "D",
+          "text": "90"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Total distance} = 380 + 220 = 600\\text{ m}$$\n$$\\text{Same direction: } v_1 - v_2 = \\frac{600}{20} = 30\\text{ m/s}$$\n$$\\text{Opposite direction: } v_1 + v_2 = \\frac{600}{12} = 50\\text{ m/s}$$\n$$2 v_1 = 80 \\implies v_1 = 40\\text{ m/s}$$\n$$\\text{Speed of the faster train} = 40 \\times \\frac{18}{5} = 144\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+      "questionText": "Two trains of lengths 150 m and 250 m run on parallel lines. When they run in the same direction, they take 20 seconds to cross each other and, when they run in the opposite direction, they take 5 seconds to cross each other. What is the speed of the two trains?",
+      "options": [
+        {
+          "label": "A",
+          "text": "150 km/h and 105 km/h"
+        },
+        {
+          "label": "B",
+          "text": "150 km/h and 250 km/h"
+        },
+        {
+          "label": "C",
+          "text": "180 km/h and 108 km/h"
+        },
+        {
+          "label": "D",
+          "text": "160 km/h and 106 km/h"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Total distance} = 150 + 250 = 400\\text{ m}$$\n$$\\text{Same direction: } v_1 - v_2 = \\frac{400}{20} = 20\\text{ m/s}$$\n$$\\text{Opposite direction: } v_1 + v_2 = \\frac{400}{5} = 80\\text{ m/s}$$\n$$2 v_1 = 100 \\implies v_1 = 50\\text{ m/s} = 50 \\times \\frac{18}{5} = 180\\text{ km/h}$$\n$$v_2 = 30\\text{ m/s} = 30 \\times \\frac{18}{5} = 108\\text{ km/h}$$\n$$\\text{The speeds are } 180\\text{ km/h and } 108\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - III: TWO TRAINS CROSS EACH OTHER IN SAME DIRECTION",
+      "examShift": "SSC CGL 13/12/2022 (Shift-03)",
+      "questionText": "Train A running at 81 km/h takes 72 sec to overtake train B, when both the trains are running in the same direction, but it takes 36 sec to cross each other if the trains are running in the opposite direction. If the length of train B is 600 metres, then find the length of train A. (in metres)",
+      "options": [
+        {
+          "label": "A",
+          "text": "600"
+        },
+        {
+          "label": "B",
+          "text": "480"
+        },
+        {
+          "label": "C",
+          "text": "590"
+        },
+        {
+          "label": "D",
+          "text": "900"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Speed of train A} = 81\\text{ km/h} = 81 \\times \\frac{5}{18} = 22.5\\text{ m/s}$$\n$$\\text{Total distance} = L_A + 600$$\n$$\\text{Same direction: } \\frac{L_A + 600}{22.5 - v_B} = 72 \\implies L_A + 600 = 1620 - 72 v_B$$\n$$\\text{Opposite direction: } \\frac{L_A + 600}{22.5 + v_B} = 36 \\implies L_A + 600 = 810 + 36 v_B$$\n$$1620 - 72 v_B = 810 + 36 v_B \\implies 108 v_B = 810 \\implies v_B = 7.5\\text{ m/s}$$\n$$L_A + 600 = 810 + 36(7.5) = 1080 \\implies L_A = 1080 - 600 = 480\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - IV: WHEN A TRAIN CROSSES 1 OR 2 RUNNING PERSONS",
+      "examShift": "SSC CHSL 21/03/2023 (Shift-03)",
+      "questionText": "A 1800 metres, long train crosses a man walking in opposite direction in 10 seconds. If the speed of train is 8 times to the speed of man, then what is the speed of train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "576 km/hr"
+        },
+        {
+          "label": "B",
+          "text": "640 km/hr"
+        },
+        {
+          "label": "C",
+          "text": "596 km/hr"
+        },
+        {
+          "label": "D",
+          "text": "570 km/hr"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Relative speed} = v_{\\text{train}} + v_{\\text{man}} = \\frac{1800}{10} = 180\\text{ m/s}$$\n$$\\text{Since } v_{\\text{train}} = 8 v_{\\text{man}} \\implies 9 v_{\\text{man}} = 180 \\implies v_{\\text{man}} = 20\\text{ m/s}$$\n$$v_{\\text{train}} = 8 \\times 20 = 160\\text{ m/s}$$\n$$\\text{Speed of train in km/h} = 160 \\times \\frac{18}{5} = 576\\text{ km/hr}$$"
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - IV: WHEN A TRAIN CROSSES 1 OR 2 RUNNING PERSONS",
+      "examShift": "SSC MTS 14/09/2023 (Shift- 03)",
+      "questionText": "A 228 m long train is running at 125 km/h. In what time (in seconds), will it pass a man running at 17 km/h in the same direction in which the train is going?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9.2"
+        },
+        {
+          "label": "B",
+          "text": "8.5"
+        },
+        {
+          "label": "C",
+          "text": "6.2"
+        },
+        {
+          "label": "D",
+          "text": "7.6"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed} = 125 - 17 = 108\\text{ km/h} = 108 \\times \\frac{5}{18} = 30\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{228}{30} = 7.6\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - IV: WHEN A TRAIN CROSSES 1 OR 2 RUNNING PERSONS",
+      "examShift": "SSC CHSL 04/08/2023 (Shift-02)",
+      "questionText": "If a train 130 m long takes $6\\frac{1}{2}$ seconds to cross a man who is walking at 12 km/h in the same direction in which the train going, then the speed of the train (in km/h) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "84"
+        },
+        {
+          "label": "B",
+          "text": "64"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "74"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Relative speed} = \\frac{130}{6.5} = 20\\text{ m/s} = 20 \\times \\frac{18}{5} = 72\\text{ km/h}$$\n$$\\text{Since man is walking in same direction:}$$\n$$v_{\\text{train}} - 12 = 72 \\implies v_{\\text{train}} = 84\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - IV: WHEN A TRAIN CROSSES 1 OR 2 RUNNING PERSONS",
+      "examShift": "SSC CGL 13/08/2021 (Shift 02)",
+      "questionText": "A 240 m long train overtakes a man walking at 6 km/h, in the same direction, in 9 seconds. How much time (in seconds) will it take to pass a 372 m long tunnel with the same speed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21.6"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "20.4"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Relative speed with man} = \\frac{240}{9} = \\frac{80}{3}\\text{ m/s} = 96\\text{ km/h}$$\n$$v_{\\text{train}} - 6 = 96 \\implies v_{\\text{train}} = 102\\text{ km/h} = 102 \\times \\frac{5}{18} = \\frac{85}{3}\\text{ m/s}$$\n$$\\text{Total distance for tunnel} = 240 + 372 = 612\\text{ m}$$\n$$\\text{Time taken} = \\frac{612}{\\frac{85}{3}} = \\frac{1836}{85} = 21.6\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - IV: WHEN A TRAIN CROSSES 1 OR 2 RUNNING PERSONS",
+      "examShift": "SSC CGL 23/08/2021 (Shift 03)",
+      "questionText": "A train running at 48 km/h crosses a man going with the speed of 12 km/h, in the same direction, in 18 seconds and passes a woman coming from the opposite direction in 12 seconds. The speed (in km/h) of the woman is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed with man} = 48 - 12 = 36\\text{ km/h} = 10\\text{ m/s}$$\n$$\\text{Length of train} = 10 \\times 18 = 180\\text{ m}$$\n$$\\text{Relative speed with woman} = \\frac{180}{12} = 15\\text{ m/s} = 54\\text{ km/h}$$\n$$\\text{Opposite direction: } 48 + v_{\\text{woman}} = 54 \\implies v_{\\text{woman}} = 6\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - IV: WHEN A TRAIN CROSSES 1 OR 2 RUNNING PERSONS",
+      "examShift": "SSC CPO 11/09/2022 (Shift - 02)",
+      "questionText": "A train crosses two persons travelling at 4 km/h and 6 km/h in the same direction in 12sec and 14 sec, respectively. The speed of the train is ______.",
+      "options": [
+        {
+          "label": "A",
+          "text": "18 km/h"
+        },
+        {
+          "label": "B",
+          "text": "26 km/h"
+        },
+        {
+          "label": "C",
+          "text": "20 km/h"
+        },
+        {
+          "label": "D",
+          "text": "24 km/h"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "$$\\text{Let speed of train be } v\\text{ km/h.}$$\n$$\\text{Train length} = (v - 4) \\times \\frac{5}{18} \\times 12 = (v - 6) \\times \\frac{5}{18} \\times 14$$\n$$12(v - 4) = 14(v - 6) \\implies 12v - 48 = 14v - 84 \\implies 2v = 36 \\implies v = 18\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - IV: WHEN A TRAIN CROSSES 1 OR 2 RUNNING PERSONS",
+      "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+      "questionText": "A 234 m long train passes a person running at 9 km/h in the opposite direction, in 6 seconds. In how much time (in seconds) will it pass another person who is moving at 23.4 km/h, in the same direction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "8.4"
+        },
+        {
+          "label": "C",
+          "text": "7.2"
+        },
+        {
+          "label": "D",
+          "text": "7.8"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Relative speed with person in opposite direction} = \\frac{234}{6} = 39\\text{ m/s} = 140.4\\text{ km/h}$$\n$$v_{\\text{train}} + 9 = 140.4 \\implies v_{\\text{train}} = 131.4\\text{ km/h}$$\n$$\\text{Relative speed with person in same direction} = 131.4 - 23.4 = 108\\text{ km/h} = 30\\text{ m/s}$$\n$$\\text{Time taken} = \\frac{234}{30} = 7.8\\text{ seconds}$$"
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - V: WHEN A TRAIN CROSSES A PERSON SITTING INSIDE ANOTHER TRAIN",
+      "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+      "questionText": "Two trains are moving in the same direction at 60 km/h and 42 km/h. The faster train crosses a man in the slower train in 36 seconds. Find the length of the faster train.",
+      "options": [
+        {
+          "label": "A",
+          "text": "185 m"
+        },
+        {
+          "label": "B",
+          "text": "180 m"
+        },
+        {
+          "label": "C",
+          "text": "195 m"
+        },
+        {
+          "label": "D",
+          "text": "175 m"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Distance covered to cross a person in another train} = \\text{Length of the faster train}$$\n$$\\text{Relative speed} = 60 - 42 = 18\\text{ km/h} = 5\\text{ m/s}$$\n$$\\text{Length of faster train} = 5 \\times 36 = 180\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - V: WHEN A TRAIN CROSSES A PERSON SITTING INSIDE ANOTHER TRAIN",
+      "examShift": "SSC CGL TIER II (12/09/2019)",
+      "questionText": "Renu was sitting inside train A, which was travelling at 50 km/h. Another train, B whose length was three times the length of A crossed her in the opposite direction in 15 seconds. If the speed of train B was 58 km/h, then the length of train A (in m) is :",
+      "options": [
+        {
+          "label": "A",
+          "text": "210"
+        },
+        {
+          "label": "B",
+          "text": "180"
+        },
+        {
+          "label": "C",
+          "text": "160"
+        },
+        {
+          "label": "D",
+          "text": "150"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Distance covered to cross Renu} = \\text{Length of train B } (L_B)$$\n$$\\text{Relative speed} = 50 + 58 = 108\\text{ km/h} = 30\\text{ m/s}$$\n$$L_B = 30 \\times 15 = 450\\text{ m}$$\n$$\\text{Length of train A} = \\frac{450}{3} = 150\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - V: WHEN A TRAIN CROSSES A PERSON SITTING INSIDE ANOTHER TRAIN",
+      "examShift": "SSC CGL 07/12/2022 (Shift-04)",
+      "questionText": "Two trains are moving in the same direction at the speed of 36 km/hr and 48 km/hr. The time taken by faster train to cross a man sitting in the slower train is 33 seconds. What will be the length of the faster train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "770 metres"
+        },
+        {
+          "label": "B",
+          "text": "90 metres"
+        },
+        {
+          "label": "C",
+          "text": "110 metres"
+        },
+        {
+          "label": "D",
+          "text": "180 metres"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 48 - 36 = 12\\text{ km/h} = 12 \\times \\frac{5}{18} = \\frac{10}{3}\\text{ m/s}$$\n$$\\text{Length of faster train} = \\frac{10}{3} \\times 33 = 110\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - V: WHEN A TRAIN CROSSES A PERSON SITTING INSIDE ANOTHER TRAIN",
+      "examShift": "SSC Phase IX 2022",
+      "questionText": "Trains P and Q are running in the same direction on parallel tracks with speeds of x km/h and 90 km/h ($90 > x$), respectively. The faster train passes a man sitting in the slower train in 30 seconds. If the length of train Q is 225 m, then what is the value of x?",
+      "options": [
+        {
+          "label": "A",
+          "text": "65"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "68"
+        },
+        {
+          "label": "D",
+          "text": "63"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{The faster train is Q (speed } 90\\text{ km/h, length } 225\\text{ m}), \\text{ slower train is P (speed } x\\text{ km/h}).$$\n$$\\text{Distance covered to pass the man} = 225\\text{ m}$$\n$$\\text{Relative speed} = \\frac{225}{30} = 7.5\\text{ m/s} = 7.5 \\times \\frac{18}{5} = 27\\text{ km/h}$$\n$$90 - x = 27 \\implies x = 63\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 24/11/2020 (Shift-2)",
+      "questionText": "A train travelling at the speed of x km/h crossed a 300 m long platform in 30 seconds, and overtook a man walking in the same direction at 6 km/h in 20 seconds. What is the value of x?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "96"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "102"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Let length of train be } L\\text{ m and speed be } x\\text{ km/h} = \\frac{5x}{18}\\text{ m/s}.$$\n$$\\text{Crossing 300 m platform: } L + 300 = \\frac{5x}{18} \\times 30 = \\frac{25x}{3} \\implies L = \\frac{25x}{3} - 300$$\n$$\\text{Overtaking man walking in same direction at 6 km/h: } L = (x - 6) \\times \\frac{5}{18} \\times 20 = \\frac{50(x - 6)}{9}$$\n$$\\frac{25x}{3} - 300 = \\frac{50x - 300}{9}$$\n$$75x - 2700 = 50x - 300 \\implies 25x = 2400 \\implies x = 96\\text{ km/h}$$"
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "Train 'A' requires 15 seconds to cross train 'B' of length 300 m moving in the opposite direction at a speed of 36 km/h. Further, train 'A' requires 30 seconds to cross a 500 m long stationary train 'C'. Find the length (in m) of train 'A'.",
+      "options": [
+        {
+          "label": "A",
+          "text": "275"
+        },
+        {
+          "label": "B",
+          "text": "200"
+        },
+        {
+          "label": "C",
+          "text": "250"
+        },
+        {
+          "label": "D",
+          "text": "300"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\text{Speed of train B} = 36\\text{ km/h} = 10\\text{ m/s}.$$\n$$\\text{Let length of train A be } L_A\\text{ and speed be } v_A.$$\n$$\\text{Crossing stationary train C (500 m) in 30 s: } L_A + 500 = 30 v_A \\implies v_A = \\frac{L_A + 500}{30}$$\n$$\\text{Crossing train B (300 m) in opposite direction in 15 s: } L_A + 300 = (v_A + 10) \\times 15 = 15 v_A + 150$$\n$$L_A + 300 = 15\\left(\\frac{L_A + 500}{30}\\right) + 150 = \\frac{L_A + 500}{2} + 150$$\n$$2(L_A + 300) = L_A + 800 \\implies 2 L_A + 600 = L_A + 800 \\implies L_A = 200\\text{ metres}$$"
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 27/07/2023 (Shift-03)",
+      "questionText": "A 252 m long train is running at a speed of 125 km/h. What is the time (in seconds) in which it will pass a man who starts from the engine running at the speed of 17 km/h in the same direction as that of the train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7.6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "8.4"
+        },
+        {
+          "label": "D",
+          "text": "6.4"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Relative speed} = 125 - 17 = 108\\text{ km/h} = 108 \\times \\frac{5}{18} = 30\\text{ m/s}$$\n$$\\text{Time taken to pass the man} = \\frac{252}{30} = 8.4\\text{ seconds}$$"
+    }
+  ]
+}

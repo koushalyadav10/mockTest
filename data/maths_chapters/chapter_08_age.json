@@ -1,0 +1,1309 @@
+{
+  "chapterNumber": 8,
+  "chapterCode": "SSC_MATHS_CH_08_AGE",
+  "chapterTitleEnglish": "Age",
+  "chapterTitleHindi": "आयु सम्बन्धी",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $11$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "33 years"
+        },
+        {
+          "label": "D",
+          "text": "43 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Father's present age $= 3 \\times 11 = 33$ years. After 8 years $= 41$ years."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "The sum of the ages of two brothers is $54$ years and their age difference is $8$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "23 years"
+        },
+        {
+          "label": "B",
+          "text": "33 years"
+        },
+        {
+          "label": "C",
+          "text": "31 years"
+        },
+        {
+          "label": "D",
+          "text": "29 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{54 + 8}{2} = 31\\text{ years}$."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $15$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "45 years"
+        },
+        {
+          "label": "B",
+          "text": "53 years"
+        },
+        {
+          "label": "C",
+          "text": "45 years"
+        },
+        {
+          "label": "D",
+          "text": "49 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's age 4 years ago $= 3 \\times 15 = 45$. Present age $= 45 + 4 = 49\\text{ years}$."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $27$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "36 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "44 years"
+        },
+        {
+          "label": "D",
+          "text": "34 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "B's present age $= \\frac{4}{3} \\times 27 = 36$ years. After 5 years $= 41$ years."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $15$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "53 years"
+        },
+        {
+          "label": "B",
+          "text": "50 years"
+        },
+        {
+          "label": "C",
+          "text": "45 years"
+        },
+        {
+          "label": "D",
+          "text": "55 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's present age $= 3 \\times 15 = 45$ years. After 8 years $= 53$ years."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "The sum of the ages of two brothers is $62$ years and their age difference is $6$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "28 years"
+        },
+        {
+          "label": "B",
+          "text": "36 years"
+        },
+        {
+          "label": "C",
+          "text": "34 years"
+        },
+        {
+          "label": "D",
+          "text": "32 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{62 + 6}{2} = 34\\text{ years}$."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $14$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "42 years"
+        },
+        {
+          "label": "B",
+          "text": "50 years"
+        },
+        {
+          "label": "C",
+          "text": "42 years"
+        },
+        {
+          "label": "D",
+          "text": "46 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's age 4 years ago $= 3 \\times 14 = 42$. Present age $= 42 + 4 = 46\\text{ years}$."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $21$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "28 years"
+        },
+        {
+          "label": "B",
+          "text": "36 years"
+        },
+        {
+          "label": "C",
+          "text": "33 years"
+        },
+        {
+          "label": "D",
+          "text": "26 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "B's present age $= \\frac{4}{3} \\times 21 = 28$ years. After 5 years $= 33$ years."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $11$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "33 years"
+        },
+        {
+          "label": "D",
+          "text": "43 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Father's present age $= 3 \\times 11 = 33$ years. After 8 years $= 41$ years."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "The sum of the ages of two brothers is $70$ years and their age difference is $10$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 years"
+        },
+        {
+          "label": "B",
+          "text": "42 years"
+        },
+        {
+          "label": "C",
+          "text": "38 years"
+        },
+        {
+          "label": "D",
+          "text": "40 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{70 + 10}{2} = 40\\text{ years}$."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $13$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "43 years"
+        },
+        {
+          "label": "B",
+          "text": "39 years"
+        },
+        {
+          "label": "C",
+          "text": "47 years"
+        },
+        {
+          "label": "D",
+          "text": "39 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's age 4 years ago $= 3 \\times 13 = 39$. Present age $= 39 + 4 = 43\\text{ years}$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $15$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 years"
+        },
+        {
+          "label": "B",
+          "text": "25 years"
+        },
+        {
+          "label": "C",
+          "text": "28 years"
+        },
+        {
+          "label": "D",
+          "text": "18 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "B's present age $= \\frac{4}{3} \\times 15 = 20$ years. After 5 years $= 25$ years."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $15$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50 years"
+        },
+        {
+          "label": "B",
+          "text": "45 years"
+        },
+        {
+          "label": "C",
+          "text": "55 years"
+        },
+        {
+          "label": "D",
+          "text": "53 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's present age $= 3 \\times 15 = 45$ years. After 8 years $= 53$ years."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "The sum of the ages of two brothers is $78$ years and their age difference is $8$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "35 years"
+        },
+        {
+          "label": "B",
+          "text": "45 years"
+        },
+        {
+          "label": "C",
+          "text": "43 years"
+        },
+        {
+          "label": "D",
+          "text": "41 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{78 + 8}{2} = 43\\text{ years}$."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $12$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "40 years"
+        },
+        {
+          "label": "B",
+          "text": "36 years"
+        },
+        {
+          "label": "C",
+          "text": "44 years"
+        },
+        {
+          "label": "D",
+          "text": "36 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's age 4 years ago $= 3 \\times 12 = 36$. Present age $= 36 + 4 = 40\\text{ years}$."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $27$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "41 years"
+        },
+        {
+          "label": "B",
+          "text": "36 years"
+        },
+        {
+          "label": "C",
+          "text": "44 years"
+        },
+        {
+          "label": "D",
+          "text": "34 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "B's present age $= \\frac{4}{3} \\times 27 = 36$ years. After 5 years $= 41$ years."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $11$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "33 years"
+        },
+        {
+          "label": "D",
+          "text": "43 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Father's present age $= 3 \\times 11 = 33$ years. After 8 years $= 41$ years."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "The sum of the ages of two brothers is $56$ years and their age difference is $6$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "25 years"
+        },
+        {
+          "label": "B",
+          "text": "33 years"
+        },
+        {
+          "label": "C",
+          "text": "31 years"
+        },
+        {
+          "label": "D",
+          "text": "29 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{56 + 6}{2} = 31\\text{ years}$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $16$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "48 years"
+        },
+        {
+          "label": "B",
+          "text": "56 years"
+        },
+        {
+          "label": "C",
+          "text": "48 years"
+        },
+        {
+          "label": "D",
+          "text": "52 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's age 4 years ago $= 3 \\times 16 = 48$. Present age $= 48 + 4 = 52\\text{ years}$."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $21$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "28 years"
+        },
+        {
+          "label": "B",
+          "text": "33 years"
+        },
+        {
+          "label": "C",
+          "text": "36 years"
+        },
+        {
+          "label": "D",
+          "text": "26 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "B's present age $= \\frac{4}{3} \\times 21 = 28$ years. After 5 years $= 33$ years."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $15$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "53 years"
+        },
+        {
+          "label": "B",
+          "text": "50 years"
+        },
+        {
+          "label": "C",
+          "text": "45 years"
+        },
+        {
+          "label": "D",
+          "text": "55 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's present age $= 3 \\times 15 = 45$ years. After 8 years $= 53$ years."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "The sum of the ages of two brothers is $64$ years and their age difference is $10$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "27 years"
+        },
+        {
+          "label": "B",
+          "text": "39 years"
+        },
+        {
+          "label": "C",
+          "text": "37 years"
+        },
+        {
+          "label": "D",
+          "text": "35 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{64 + 10}{2} = 37\\text{ years}$."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $15$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "45 years"
+        },
+        {
+          "label": "B",
+          "text": "53 years"
+        },
+        {
+          "label": "C",
+          "text": "45 years"
+        },
+        {
+          "label": "D",
+          "text": "49 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's age 4 years ago $= 3 \\times 15 = 45$. Present age $= 45 + 4 = 49\\text{ years}$."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $15$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 years"
+        },
+        {
+          "label": "B",
+          "text": "28 years"
+        },
+        {
+          "label": "C",
+          "text": "25 years"
+        },
+        {
+          "label": "D",
+          "text": "18 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "B's present age $= \\frac{4}{3} \\times 15 = 20$ years. After 5 years $= 25$ years."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $11$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "33 years"
+        },
+        {
+          "label": "D",
+          "text": "43 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Father's present age $= 3 \\times 11 = 33$ years. After 8 years $= 41$ years."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "The sum of the ages of two brothers is $72$ years and their age difference is $8$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "32 years"
+        },
+        {
+          "label": "B",
+          "text": "42 years"
+        },
+        {
+          "label": "C",
+          "text": "38 years"
+        },
+        {
+          "label": "D",
+          "text": "40 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{72 + 8}{2} = 40\\text{ years}$."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $14$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "46 years"
+        },
+        {
+          "label": "B",
+          "text": "42 years"
+        },
+        {
+          "label": "C",
+          "text": "50 years"
+        },
+        {
+          "label": "D",
+          "text": "42 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's age 4 years ago $= 3 \\times 14 = 42$. Present age $= 42 + 4 = 46\\text{ years}$."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $27$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "36 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "44 years"
+        },
+        {
+          "label": "D",
+          "text": "34 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "B's present age $= \\frac{4}{3} \\times 27 = 36$ years. After 5 years $= 41$ years."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $15$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50 years"
+        },
+        {
+          "label": "B",
+          "text": "45 years"
+        },
+        {
+          "label": "C",
+          "text": "55 years"
+        },
+        {
+          "label": "D",
+          "text": "53 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's present age $= 3 \\times 15 = 45$ years. After 8 years $= 53$ years."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "The sum of the ages of two brothers is $50$ years and their age difference is $6$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "22 years"
+        },
+        {
+          "label": "B",
+          "text": "30 years"
+        },
+        {
+          "label": "C",
+          "text": "28 years"
+        },
+        {
+          "label": "D",
+          "text": "26 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{50 + 6}{2} = 28\\text{ years}$."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $13$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "43 years"
+        },
+        {
+          "label": "B",
+          "text": "39 years"
+        },
+        {
+          "label": "C",
+          "text": "47 years"
+        },
+        {
+          "label": "D",
+          "text": "39 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's age 4 years ago $= 3 \\times 13 = 39$. Present age $= 39 + 4 = 43\\text{ years}$."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $21$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "33 years"
+        },
+        {
+          "label": "B",
+          "text": "28 years"
+        },
+        {
+          "label": "C",
+          "text": "36 years"
+        },
+        {
+          "label": "D",
+          "text": "26 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "B's present age $= \\frac{4}{3} \\times 21 = 28$ years. After 5 years $= 33$ years."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $11$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "33 years"
+        },
+        {
+          "label": "D",
+          "text": "43 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Father's present age $= 3 \\times 11 = 33$ years. After 8 years $= 41$ years."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "The sum of the ages of two brothers is $58$ years and their age difference is $10$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "24 years"
+        },
+        {
+          "label": "B",
+          "text": "36 years"
+        },
+        {
+          "label": "C",
+          "text": "34 years"
+        },
+        {
+          "label": "D",
+          "text": "32 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{58 + 10}{2} = 34\\text{ years}$."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $12$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "36 years"
+        },
+        {
+          "label": "B",
+          "text": "44 years"
+        },
+        {
+          "label": "C",
+          "text": "36 years"
+        },
+        {
+          "label": "D",
+          "text": "40 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's age 4 years ago $= 3 \\times 12 = 36$. Present age $= 36 + 4 = 40\\text{ years}$."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $15$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 years"
+        },
+        {
+          "label": "B",
+          "text": "25 years"
+        },
+        {
+          "label": "C",
+          "text": "28 years"
+        },
+        {
+          "label": "D",
+          "text": "18 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "B's present age $= \\frac{4}{3} \\times 15 = 20$ years. After 5 years $= 25$ years."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $15$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "53 years"
+        },
+        {
+          "label": "B",
+          "text": "50 years"
+        },
+        {
+          "label": "C",
+          "text": "45 years"
+        },
+        {
+          "label": "D",
+          "text": "55 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's present age $= 3 \\times 15 = 45$ years. After 8 years $= 53$ years."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CGL Tier-II 27/10/2023 (Shift-01)",
+      "questionText": "The sum of the ages of two brothers is $66$ years and their age difference is $8$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "29 years"
+        },
+        {
+          "label": "B",
+          "text": "39 years"
+        },
+        {
+          "label": "C",
+          "text": "37 years"
+        },
+        {
+          "label": "D",
+          "text": "35 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{66 + 8}{2} = 37\\text{ years}$."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $16$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "48 years"
+        },
+        {
+          "label": "B",
+          "text": "56 years"
+        },
+        {
+          "label": "C",
+          "text": "48 years"
+        },
+        {
+          "label": "D",
+          "text": "52 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's age 4 years ago $= 3 \\times 16 = 48$. Present age $= 48 + 4 = 52\\text{ years}$."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $27$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "36 years"
+        },
+        {
+          "label": "B",
+          "text": "44 years"
+        },
+        {
+          "label": "C",
+          "text": "41 years"
+        },
+        {
+          "label": "D",
+          "text": "34 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "B's present age $= \\frac{4}{3} \\times 27 = 36$ years. After 5 years $= 41$ years."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $11$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "33 years"
+        },
+        {
+          "label": "D",
+          "text": "43 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Father's present age $= 3 \\times 11 = 33$ years. After 8 years $= 41$ years."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "The sum of the ages of two brothers is $74$ years and their age difference is $6$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "34 years"
+        },
+        {
+          "label": "B",
+          "text": "42 years"
+        },
+        {
+          "label": "C",
+          "text": "38 years"
+        },
+        {
+          "label": "D",
+          "text": "40 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{74 + 6}{2} = 40\\text{ years}$."
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-04)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $15$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "49 years"
+        },
+        {
+          "label": "B",
+          "text": "45 years"
+        },
+        {
+          "label": "C",
+          "text": "53 years"
+        },
+        {
+          "label": "D",
+          "text": "45 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's age 4 years ago $= 3 \\times 15 = 45$. Present age $= 45 + 4 = 49\\text{ years}$."
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $21$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "28 years"
+        },
+        {
+          "label": "B",
+          "text": "33 years"
+        },
+        {
+          "label": "C",
+          "text": "36 years"
+        },
+        {
+          "label": "D",
+          "text": "26 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "B's present age $= \\frac{4}{3} \\times 21 = 28$ years. After 5 years $= 33$ years."
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $15$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50 years"
+        },
+        {
+          "label": "B",
+          "text": "45 years"
+        },
+        {
+          "label": "C",
+          "text": "55 years"
+        },
+        {
+          "label": "D",
+          "text": "53 years"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Father's present age $= 3 \\times 15 = 45$ years. After 8 years $= 53$ years."
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "The sum of the ages of two brothers is $52$ years and their age difference is $10$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "21 years"
+        },
+        {
+          "label": "B",
+          "text": "33 years"
+        },
+        {
+          "label": "C",
+          "text": "31 years"
+        },
+        {
+          "label": "D",
+          "text": "29 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{52 + 10}{2} = 31\\text{ years}$."
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - IV: RETROSPECTIVE AGE RATIOS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "$4$ years ago, a man was $3$ times as old as his son. If the son's age $4$ years ago was $14$ years, find the father's present age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "46 years"
+        },
+        {
+          "label": "B",
+          "text": "42 years"
+        },
+        {
+          "label": "C",
+          "text": "50 years"
+        },
+        {
+          "label": "D",
+          "text": "42 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Father's age 4 years ago $= 3 \\times 14 = 42$. Present age $= 42 + 4 = 46\\text{ years}$."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - I: AGE RATIO AFTER T YEARS",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "The present ages of A and B are in the ratio $3 : 4$. If A is $15$ years old, find B's age after $5$ years.",
+      "options": [
+        {
+          "label": "A",
+          "text": "25 years"
+        },
+        {
+          "label": "B",
+          "text": "20 years"
+        },
+        {
+          "label": "C",
+          "text": "28 years"
+        },
+        {
+          "label": "D",
+          "text": "18 years"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "B's present age $= \\frac{4}{3} \\times 15 = 20$ years. After 5 years $= 25$ years."
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - II: FATHER & SON AGE RELATION",
+      "examShift": "SSC CGL Tier-II 02/03/2023 (Shift-01)",
+      "questionText": "A father's age is $3$ times his son's age. If the son is currently $11$ years old, what will be the father's age after $8$ years?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 years"
+        },
+        {
+          "label": "B",
+          "text": "41 years"
+        },
+        {
+          "label": "C",
+          "text": "33 years"
+        },
+        {
+          "label": "D",
+          "text": "43 years"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Father's present age $= 3 \\times 11 = 33$ years. After 8 years $= 41$ years."
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - III: SUM AND DIFFERENCE OF AGES",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "The sum of the ages of two brothers is $60$ years and their age difference is $8$ years. Find the elder brother's age.",
+      "options": [
+        {
+          "label": "A",
+          "text": "26 years"
+        },
+        {
+          "label": "B",
+          "text": "36 years"
+        },
+        {
+          "label": "C",
+          "text": "34 years"
+        },
+        {
+          "label": "D",
+          "text": "32 years"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Elder brother $= \\frac{\\text{Sum} + \\text{Diff}}{2} = \\frac{60 + 8}{2} = 34\\text{ years}$."
+    }
+  ]
+}

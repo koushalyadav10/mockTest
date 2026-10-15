@@ -1,0 +1,22 @@
+import json
+import os
+
+os.makedirs("scripts/pipe_cistern_extracted", exist_ok=True)
+
+ANSWER_KEY_88 = {
+    1: "D", 2: "B", 3: "D", 4: "C", 5: "A", 6: "C", 7: "C", 8: "C", 9: "C", 10: "B",
+    11: "B", 12: "C", 13: "B", 14: "A", 15: "C", 16: "D", 17: "B", 18: "A", 19: "D", 20: "B",
+    21: "C", 22: "A", 23: "D", 24: "D", 25: "B", 26: "D", 27: "D", 28: "B", 29: "D", 30: "D",
+    31: "C", 32: "B", 33: "C", 34: "D", 35: "D", 36: "C", 37: "B", 38: "D", 39: "D", 40: "A",
+    41: "D", 42: "A", 43: "A", 44: "C", 45: "B", 46: "A", 47: "C", 48: "B", 49: "C", 50: "C",
+    51: "D", 52: "C", 53: "C", 54: "C", 55: "C", 56: "D", 57: "D", 58: "D", 59: "A", 60: "A",
+    61: "A", 62: "D", 63: "D", 64: "A", 65: "A", 66: "B", 67: "A", 68: "D", 69: "D", 70: "D",
+    71: "C", 72: "C", 73: "D", 74: "B", 75: "A", 76: "A", 77: "C", 78: "B", 79: "B", 80: "B",
+    81: "A", 82: "B", 83: "D", 84: "B", 85: "A", 86: "D", 87: "D", 88: "D"
+}
+
+out_file = "scripts/pipe_cistern_extracted/official_answer_key_88.json"
+with open(out_file, "w", encoding="utf-8") as f:
+    json.dump({str(k): v for k, v in ANSWER_KEY_88.items()}, f, indent=2)
+
+print(f"Saved {len(ANSWER_KEY_88)} official answer keys to {out_file}")

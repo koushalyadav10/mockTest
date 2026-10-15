@@ -1,0 +1,1049 @@
+{
+  "chapterNumber": 9,
+  "chapterCode": "partnership",
+  "chapterTitleEnglish": "Partnership",
+  "chapterTitleHindi": "साझेदारी",
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL TIER-I 15/03/2023 (Shift-02)",
+      "questionText": "X, Y and Z invested ₹4,000, ₹6,000 and ₹8,000 respectively in a business. They invested the money for 3, 2 and 4 years respectively. If the total profit is ₹56,000, then what is the share of Y in the profit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹12000"
+        },
+        {
+          "label": "B",
+          "text": "₹18000"
+        },
+        {
+          "label": "C",
+          "text": "₹15000"
+        },
+        {
+          "label": "D",
+          "text": "₹9000"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Profit ratio $= (4000 \\times 3) : (6000 \\times 2) : (8000 \\times 4) = 12 : 12 : 32 = 3 : 3 : 8$\n$$\\text{Total units} = 3 + 3 + 8 = 14 \\text{ units} = ₹56,000$$\n$$1 \\text{ unit} = ₹4,000$$\n$$\\text{Share of Y} = 3 \\times 4000 = ₹12,000$$"
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL TIER-II 26/06/2023",
+      "questionText": "A and B start a business jointly. The investment made by A is equal to seven times the investment made by B. Find A's share (in ₹) in the annual profit of ₹2,75,000 is.",
+      "options": [
+        {
+          "label": "A",
+          "text": "2,41,225"
+        },
+        {
+          "label": "B",
+          "text": "2,40,625"
+        },
+        {
+          "label": "C",
+          "text": "2,42,365"
+        },
+        {
+          "label": "D",
+          "text": "2,45,625"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Investment ratio $A : B = 7 : 1$.\n$$\\text{Total units} = 7 + 1 = 8$$\n$$\\text{A's share} = \\frac{7}{8} \\times 2,75,000 = ₹2,40,625$$"
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 11/09/2023 (Shift-01)",
+      "questionText": "A, B and C started a business investing amounts of ₹13,750, ₹16,250 and ₹18,750 respectively. If B's share in the profit is ₹5,200. What is the difference in the profit (in ₹) earned by A and C?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1520"
+        },
+        {
+          "label": "B",
+          "text": "₹1600"
+        },
+        {
+          "label": "C",
+          "text": "₹1800"
+        },
+        {
+          "label": "D",
+          "text": "₹1200"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Investment ratio $= 13750 : 16250 : 18750 = 11 : 13 : 15$.\n$$B's \\text{ share} = 13 \\text{ units} = ₹5,200 \\implies 1 \\text{ unit} = ₹400$$\n$$\\text{Difference between C and A} = 15 - 11 = 4 \\text{ units} = 4 \\times 400 = ₹1,600$$"
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II 12/09/2019",
+      "questionText": "A, B and C invested their capitals in the ratio of $2 : 3 : 5$. The ratio of months for which A, B and C invested is $4 : 2 : 3$. If C gets a share of profit which is ₹147,000 more than that of A, then B's share of profit is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "126000"
+        },
+        {
+          "label": "B",
+          "text": "168000"
+        },
+        {
+          "label": "C",
+          "text": "105000"
+        },
+        {
+          "label": "D",
+          "text": "189000"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Profit ratio $= (2 \\times 4) : (3 \\times 2) : (5 \\times 3) = 8 : 6 : 15$.\n$$\\text{Difference between C and A} = 15 - 8 = 7 \\text{ units} = ₹1,47,000$$\n$$1 \\text{ unit} = ₹21,000$$\n$$\\text{B's share} = 6 \\times 21,000 = ₹1,26,000$$"
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 24/11/2020 (Shift-02)",
+      "questionText": "Three partners shared the profit in a business in the ratio $8 : 7 : 5$. They invested their capitals for 7 months, 8 months and 14 months, respectively. What was the ratio of their capitals?",
+      "options": [
+        {
+          "label": "A",
+          "text": "49 : 64 : 20"
+        },
+        {
+          "label": "B",
+          "text": "20 : 49 : 64"
+        },
+        {
+          "label": "C",
+          "text": "20 : 64 : 49"
+        },
+        {
+          "label": "D",
+          "text": "64 : 49 : 20"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capital} = \\frac{\\text{Profit}}{\\text{Time}} = \\frac{8}{7} : \\frac{7}{8} : \\frac{5}{14}$$\nMultiplying each term by $\\text{LCM}(7, 8, 14) = 56$:\n$$8 \\times 8 : 7 \\times 7 : 5 \\times 4 = 64 : 49 : 20$$"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II 02/03/2023",
+      "questionText": "A, B and C did certain investments and the ratio of their time periods is $3 : 2 : 7$ respectively. Ratio of the profits of A, B and C is $4 : 3 : 14$ respectively. What is the ratio of the investments of A, B and C?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 3 : 4"
+        },
+        {
+          "label": "B",
+          "text": "7 : 9 : 11"
+        },
+        {
+          "label": "C",
+          "text": "8 : 9 : 12"
+        },
+        {
+          "label": "D",
+          "text": "2 : 3 : 11"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Investment} = \\frac{\\text{Profit}}{\\text{Time}} = \\frac{4}{3} : \\frac{3}{2} : \\frac{14}{7} = \\frac{4}{3} : \\frac{3}{2} : 2$$\nMultiplying by 6:\n$$8 : 9 : 12$$"
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II 11/09/2019",
+      "questionText": "The ratio of investment by A to that by B in a business is $14 : 15$ and the ratio of their respective profits at the end of a year is $2 : 5$. If A invested the money for 3 months, then for how much time (in months) B invested his money?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{\\text{Profit}_A}{\\text{Profit}_B} = \\frac{I_A \\times T_A}{I_B \\times T_B}$$\n$$\\frac{2}{5} = \\frac{14 \\times 3}{15 \\times T_B} \\implies \\frac{2}{5} = \\frac{14}{5 T_B}$$\n$$2 T_B = 14 \\implies T_B = 7 \\text{ months}$$"
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 13/09/2023 (Shift-03)",
+      "questionText": "A, B and C started a business. A's capital is 7 times the capital of C and B's capital is 2 times the capital of A. If the profit is ₹7,920, then find the share of C (in ₹).",
+      "options": [
+        {
+          "label": "A",
+          "text": "360"
+        },
+        {
+          "label": "B",
+          "text": "355"
+        },
+        {
+          "label": "C",
+          "text": "365"
+        },
+        {
+          "label": "D",
+          "text": "350"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let $C = 1 \\implies A = 7 \\implies B = 2 \\times 7 = 14$.\n$$A : B : C = 7 : 14 : 1$$\n$$\\text{Total} = 7 + 14 + 1 = 22 \\text{ units} = ₹7,920$$\n$$1 \\text{ unit} = \\frac{7920}{22} = ₹360$$\n$$\\text{Share of C} = ₹360$$"
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 24/09/2024 (Shift-01)",
+      "questionText": "A, B and C invested money in a business such that 2 times A's share, 4 times B's share and 6 times C's share are all equal. If they earned Rs.44,000, find the share of A.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹22,000"
+        },
+        {
+          "label": "B",
+          "text": "₹12,000"
+        },
+        {
+          "label": "C",
+          "text": "₹24,000"
+        },
+        {
+          "label": "D",
+          "text": "₹20,000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$2A = 4B = 6C \\implies A : B : C = \\frac{1}{2} : \\frac{1}{4} : \\frac{1}{6} = 6 : 3 : 2$$\n$$\\text{Total units} = 6 + 3 + 2 = 11 \\text{ units} = ₹44,000$$\n$$1 \\text{ unit} = ₹4,000$$\n$$\\text{Share of A} = 6 \\times 4000 = ₹24,000$$"
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 13/03/2023 (Shift-01)",
+      "questionText": "P, Q and R are partners and invest in a business. P invests 1/5th of total investments and Q invests 1/4th of the total investments. What is the ratio of investments of P, Q and R respectively?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 8 : 11"
+        },
+        {
+          "label": "B",
+          "text": "4 : 5 : 11"
+        },
+        {
+          "label": "C",
+          "text": "4 : 7 : 11"
+        },
+        {
+          "label": "D",
+          "text": "4 : 5 : 9"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let total investment $= 20$.\n$$P = \\frac{1}{5} \\times 20 = 4$$\n$$Q = \\frac{1}{4} \\times 20 = 5$$\n$$R = 20 - (4 + 5) = 11$$\n$$P : Q : R = 4 : 5 : 11$$"
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 13/06/2023 (Shift-03)",
+      "questionText": "Three partners P, Q and R invested a total of ₹52,000 in a business. At the end of the year, P got ₹1430, Q got ₹1870 and R got ₹2420 as the share of profit. How much amount did Q invest in the business?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹15300"
+        },
+        {
+          "label": "B",
+          "text": "₹20400"
+        },
+        {
+          "label": "C",
+          "text": "₹17000"
+        },
+        {
+          "label": "D",
+          "text": "₹18700"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Profit ratio $= 1430 : 1870 : 2420 = 13 : 17 : 22$.\n$$\\text{Total} = 13 + 17 + 22 = 52 \\text{ units} = ₹52,000$$\n$$1 \\text{ unit} = ₹1,000$$\n$$\\text{Q's investment} = 17 \\times 1000 = ₹17,000$$"
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 25/11/2020 (Shift-02)",
+      "questionText": "A, B, C invest a sum of ₹75,500 for a business. A invest ₹3,500 more than B, and B invest ₹4,500 more than C. Out of a total profit of ₹45,300, how much (in ₹) does A receive?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹12,600"
+        },
+        {
+          "label": "B",
+          "text": "₹17,400"
+        },
+        {
+          "label": "C",
+          "text": "₹15,000"
+        },
+        {
+          "label": "D",
+          "text": "₹14,700"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Let $C = x \\implies B = x + 4500 \\implies A = x + 8000$.\n$$3x + 12500 = 75500 \\implies 3x = 63000 \\implies x = 21000$$\n$$A = 29000, \\quad B = 25500, \\quad C = 21000$$\n$$\\text{Ratio} = 58 : 51 : 42$$\n$$\\text{Total} = 58 + 51 + 42 = 151 \\text{ units} = ₹45,300$$\n$$1 \\text{ unit} = ₹300$$\n$$\\text{A's receive} = 58 \\times 300 = ₹17,400$$"
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 11/09/2023 (Shift-01)",
+      "questionText": "Arvind, Bilal and Carmen invest ₹49,000 in a business. Arvind invested ₹5,000 more than Bilal and Bilal invests ₹4,000 more than Carmen out of a total profit of ₹98,000, how much does Bilal receive?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹30,500"
+        },
+        {
+          "label": "B",
+          "text": "₹34,400"
+        },
+        {
+          "label": "C",
+          "text": "₹33,200"
+        },
+        {
+          "label": "D",
+          "text": "₹32,000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Let Carmen $= x \\implies \\text{Bilal} = x + 4000 \\implies \\text{Arvind} = x + 9000$.\n$$3x + 13000 = 49000 \\implies 3x = 36000 \\implies x = 12000$$\n$$\\text{Arvind} = 21000, \\quad \\text{Bilal} = 16000, \\quad \\text{Carmen} = 12000$$\n$$\\text{Ratio} = 21 : 16 : 12$$\n$$\\text{Total} = 49 \\text{ units} = ₹98,000 \\implies 1 \\text{ unit} = ₹2,000$$\n$$\\text{Bilal receives} = 16 \\times 2000 = ₹32,000$$"
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 13/04/2022 (Shift-03)",
+      "questionText": "A, B and C start a business. A invests $33\\frac{1}{3}\\%$ of the total capital, B invests 25% of the remaining, and C invests the rest. If the total profit at the end of the year is ₹1,86,000, then A's share of the profit (in ₹) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "62,000"
+        },
+        {
+          "label": "B",
+          "text": "59,000"
+        },
+        {
+          "label": "C",
+          "text": "61,000"
+        },
+        {
+          "label": "D",
+          "text": "64,000"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A invests $33\\frac{1}{3}\\% = \\frac{1}{3}$ of the total capital for the entire year.\n$$\\text{A's share} = \\frac{1}{3} \\times 1,86,000 = ₹62,000$$"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 13/04/2022 (Shift -01)",
+      "questionText": "A, B and C start a business. A invests $33\\frac{1}{3}\\%$ of the total capital, B invests 25% of the remaining and C, the rest. If the total profit at the end of the year is ₹219000, then A's share (in ₹) is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "65000"
+        },
+        {
+          "label": "B",
+          "text": "71000"
+        },
+        {
+          "label": "C",
+          "text": "73000"
+        },
+        {
+          "label": "D",
+          "text": "79000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{A's share} = \\frac{1}{3} \\times 2,19,000 = ₹73,000$$"
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II 12/09/2019",
+      "questionText": "A, B and C start a business. A invests $33\\frac{1}{3}\\%$ of the total capital, B invest 25% of the remaining and C invests the rest. If the total profit at the end of a year is ₹162,000, then A's share in profit is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹81000"
+        },
+        {
+          "label": "B",
+          "text": "₹60000"
+        },
+        {
+          "label": "C",
+          "text": "₹54000"
+        },
+        {
+          "label": "D",
+          "text": "₹90000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{A's share} = \\frac{1}{3} \\times 1,62,000 = ₹54,000$$"
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - II: WHEN SOMEONE JOINED OR LEFT",
+      "examShift": "Selection Phase-XI 30/06/2023 (Shift-04)",
+      "questionText": "A starts a business with ₹45,000 and was joined afterwards by B with ₹30,000. When did B join if the profit at the end of the year was divided in the ratio $2 : 1$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "After 6 month"
+        },
+        {
+          "label": "B",
+          "text": "After 12 month"
+        },
+        {
+          "label": "C",
+          "text": "After 9 month"
+        },
+        {
+          "label": "D",
+          "text": "After 3 month"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Let B invest for $t$ months.\n$$\\frac{45000 \\times 12}{30000 \\times t} = \\frac{2}{1} \\implies \\frac{18}{t} = 2 \\implies t = 9 \\text{ months}$$\nB joined after $12 - 9 = 3 \\text{ months}$."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - II: WHEN SOMEONE JOINED OR LEFT",
+      "examShift": "SSC CHSL 14/03/2023 (Shift-01)",
+      "questionText": "P invested ₹4000 for one year. Q joined him with an investment of ₹6000 after a few months. If at the end of one year the profits of P and Q is $4 : 3$, then Q joined after how many months?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 months"
+        },
+        {
+          "label": "B",
+          "text": "3 months"
+        },
+        {
+          "label": "C",
+          "text": "8 months"
+        },
+        {
+          "label": "D",
+          "text": "6 months"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\frac{4000 \\times 12}{6000 \\times t} = \\frac{4}{3} \\implies \\frac{8}{t} = \\frac{4}{3} \\implies t = 6 \\text{ months}$$\nQ joined after $12 - 6 = 6 \\text{ months}$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - II: WHEN SOMEONE JOINED OR LEFT",
+      "examShift": "SSC CGL TIER-II 07/03/2023",
+      "questionText": "A starts a business with ₹75,000 and B joins the business 5 months later with an investment of ₹80,000. After 1 year, they earn a profit of ₹4,08,800. Find the share of A and B (in ₹).",
+      "options": [
+        {
+          "label": "A",
+          "text": "2,52,000 and 1,56,800"
+        },
+        {
+          "label": "B",
+          "text": "2,50,000 and 1,58,800"
+        },
+        {
+          "label": "C",
+          "text": "2,48,000 and 1,60,800"
+        },
+        {
+          "label": "D",
+          "text": "2,49,500 and 1,59,300"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Profit ratio $= (75000 \\times 12) : (80000 \\times 7) = 900 : 560 = 45 : 28$.\n$$\\text{Total} = 45 + 28 = 73 \\text{ units} = ₹4,08,800$$\n$$1 \\text{ unit} = ₹5,600$$\n$$\\text{A's share} = 45 \\times 5600 = ₹2,52,000$$\n$$\\text{B's share} = 28 \\times 5600 = ₹1,56,800$$"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - II: WHEN SOMEONE JOINED OR LEFT",
+      "examShift": "SSC CGL TIER-II 11/09/2019",
+      "questionText": "A started a business with a capital of ₹54,000 and admitted B and C after 4 months and 6 months, respectively. At the end of the year, the profit was divided in the ratio $1 : 4 : 5$. What is the difference between the capitals invested by B and C?",
+      "options": [
+        {
+          "label": "A",
+          "text": "216000"
+        },
+        {
+          "label": "B",
+          "text": "324000"
+        },
+        {
+          "label": "C",
+          "text": "108000"
+        },
+        {
+          "label": "D",
+          "text": "162000"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A's profit unit corresponds to $54000 \\times 12 = 6,48,000$.\nProfit ratio $= 1 : 4 : 5$.\n$$C_B \\times 8 = 4 \\times 6,48,000 \\implies C_B = ₹3,24,000$$\n$$C_C \\times 6 = 5 \\times 6,48,000 \\implies C_C = ₹5,40,000$$\n$$\\text{Difference} = 5,40,000 - 3,24,000 = ₹2,16,000$$"
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - II: WHEN SOMEONE JOINED OR LEFT",
+      "examShift": "SSC CHSL TIER-II 02/11/2023 (Shift-01)",
+      "questionText": "A and B enter into a partnership with ₹25,000 and ₹50,000, respectively, in a company for a year. After 7 months, C gets into a partnership with them with ₹30,000 and A withdraws his contribution after 9 months. What would be C's share in the profit, assuming a total profit of ₹3,900 at the end of the year?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1,200"
+        },
+        {
+          "label": "B",
+          "text": "₹800"
+        },
+        {
+          "label": "C",
+          "text": "₹600"
+        },
+        {
+          "label": "D",
+          "text": "₹1,000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Profit ratio $= (25 \\times 9) : (50 \\times 12) : (30 \\times 5) = 225 : 600 : 150 = 3 : 8 : 2$.\n$$\\text{Total} = 3 + 8 + 2 = 13 \\text{ units} = ₹3,900$$\n$$1 \\text{ unit} = ₹300$$\n$$\\text{C's share} = 2 \\times 300 = ₹600$$"
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - II: WHEN SOMEONE JOINED OR LEFT",
+      "examShift": "SSC CGL TIER-II 08/08/2022",
+      "questionText": "A, B and C started a business with the investment of ₹100000, ₹140000 and ₹200000 respectively. After 3 months, C left the business. 7 months after C left the business, B also left the business. B and C took their investments with them. At the end of the year, C received his share of profit as ₹1155. What is the total share of profits of A and B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹6150"
+        },
+        {
+          "label": "B",
+          "text": "₹5555"
+        },
+        {
+          "label": "C",
+          "text": "₹5005"
+        },
+        {
+          "label": "D",
+          "text": "₹4995"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Ratio $= (100 \\times 12) : (140 \\times 10) : (200 \\times 3) = 1200 : 1400 : 600 = 6 : 7 : 3$.\n$$\\text{C's share} = 3 \\text{ units} = ₹1155 \\implies 1 \\text{ unit} = ₹385$$\n$$\\text{Total share of A and B} = (6 + 7) \\times 385 = 13 \\times 385 = ₹5,005$$"
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - II: WHEN SOMEONE JOINED OR LEFT",
+      "examShift": "SSC CHSL 02/08/2023 (Shift-04)",
+      "questionText": "Kapil initiated a business with an investment of ₹30,00,000 in April 2022. After six months, his friend Kunal joined him with an investment of ₹25,00,000. In February 2023, Kapil's Ex-Class fellow Saloni also invested an amount equal to the total investment made by the earlier two partners. In what ratio the profit earned after 3 years from the date on which Kapil initiated the business, will be distributed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "332 : 200 : 50"
+        },
+        {
+          "label": "B",
+          "text": "108 : 75 : 143"
+        },
+        {
+          "label": "C",
+          "text": "432 : 300 : 55"
+        },
+        {
+          "label": "D",
+          "text": "432 : 400 : 55"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Kapil invested for 36 months: $30 \\times 36 = 1080$.\nKunal joined after 6 months, invested for 30 months: $25 \\times 30 = 750$.\nSaloni invested in Feb 2023 (after 10 months), amount $= 30 + 25 = 55$, for 26 months: $55 \\times 26 = 1430$.\n$$\\text{Ratio} = 1080 : 750 : 1430 = 108 : 75 : 143$$"
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - III: INCREASE/DECREASE IN CAPITAL",
+      "examShift": "SSC CGL TIER-II 15/11/2020 (Shift-01)",
+      "questionText": "X and Y enter into a partnership with capital in the ratio $3 : 5$. After 5 months X adds 50% of his capital, while Y withdraws 60% of his capital. What is the share (in lakhs ₹) of X in the annual profit of ₹6.84 lakhs?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.72"
+        },
+        {
+          "label": "B",
+          "text": "4.2"
+        },
+        {
+          "label": "C",
+          "text": "3.6"
+        },
+        {
+          "label": "D",
+          "text": "3.12"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "X: $3 \\times 5 + 4.5 \\times 7 = 15 + 31.5 = 46.5$\nY: $5 \\times 5 + 2 \\times 7 = 25 + 14 = 39$\n$$\\text{Ratio } X : Y = 46.5 : 39 = 31 : 26$$\n$$\\text{Total} = 31 + 26 = 57 \\text{ units} = 6.84 \\text{ lakhs} \\implies 1 \\text{ unit} = 0.12 \\text{ lakhs}$$\n$$\\text{X's share} = 31 \\times 0.12 = 3.72 \\text{ lakhs}$$"
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - III: INCREASE/DECREASE IN CAPITAL",
+      "examShift": "SSC CGL TIER-II 03/03/2023",
+      "questionText": "Suresh, Dinesh and Ramesh became partners in a business by investing money in the ratio of $3 : 6 : 8$. If their investments is increased by 5%, 15% and 20%, respectively, then what will be the ratio of their profits for one year?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 : 46 : 64"
+        },
+        {
+          "label": "B",
+          "text": "19 : 46 : 64"
+        },
+        {
+          "label": "C",
+          "text": "21 : 46 : 64"
+        },
+        {
+          "label": "D",
+          "text": "35 : 46 : 64"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Ratio} = 3 \\times 1.05 : 6 \\times 1.15 : 8 \\times 1.20 = 3.15 : 6.90 : 9.60 = 315 : 690 : 960$$\nDividing by 15:\n$$21 : 46 : 64$$"
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - III: INCREASE/DECREASE IN CAPITAL",
+      "examShift": "SSC CGL 11/04/2022 (Shift -03)",
+      "questionText": "A, B and C started a business in partnership Initially, A invested ₹29,000, while B and C invested ₹25,000 each. After 4 months, A withdrew ₹3,000. After 2 more months, C invested ₹12,000 more. Find the share of C (in ₹) in the profit of ₹33,200 at the end of the year.",
+      "options": [
+        {
+          "label": "A",
+          "text": "10800"
+        },
+        {
+          "label": "B",
+          "text": "10000"
+        },
+        {
+          "label": "C",
+          "text": "11067"
+        },
+        {
+          "label": "D",
+          "text": "12400"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "A: $29 \\times 4 + 26 \\times 8 = 116 + 208 = 324$\nB: $25 \\times 12 = 300$\nC: $25 \\times 6 + 37 \\times 6 = 150 + 222 = 372$\n$$\\text{Ratio} = 324 : 300 : 372 = 27 : 25 : 31$$\n$$\\text{Total} = 83 \\text{ units} = ₹33,200 \\implies 1 \\text{ unit} = ₹400$$\n$$\\text{C's share} = 31 \\times 400 = ₹12,400$$"
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - III: INCREASE/DECREASE IN CAPITAL",
+      "examShift": "SSC CGL 21/04/2022 (Shift -03)",
+      "questionText": "Three partners X, Y and Z started their business by investing ₹40,000, ₹38,000 and ₹30,000, respectively. After 6 months, X and Z made additional investments of ₹20,000 and ₹15,000 respectively, whereas Y withdrew ₹8,000. Find the share of Y (in ₹) in the total profit of ₹38,880 made at the end of the year.",
+      "options": [
+        {
+          "label": "A",
+          "text": "10,950"
+        },
+        {
+          "label": "B",
+          "text": "10,200"
+        },
+        {
+          "label": "C",
+          "text": "9,800"
+        },
+        {
+          "label": "D",
+          "text": "10,880"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "X: $40 \\times 6 + 60 \\times 6 = 600$\nY: $38 \\times 6 + 30 \\times 6 = 408$\nZ: $30 \\times 6 + 45 \\times 6 = 450$\n$$\\text{Ratio } X : Y : Z = 600 : 408 : 450 = 100 : 68 : 75$$\n$$\\text{Total} = 243 \\text{ units} = ₹38,880 \\implies 1 \\text{ unit} = ₹160$$\n$$\\text{Y's share} = 68 \\times 160 = ₹10,880$$"
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - III: INCREASE/DECREASE IN CAPITAL",
+      "examShift": "SSC CGL TIER-II (08/08/2022)",
+      "questionText": "A, B and C started a business with initial investments of ₹20000, ₹25000 and ₹10000, respectively. After 5 months from start, A invested ₹4000 more. After 6 months from start, C invested ₹8000 more. After 4 months from start, B withdrew ₹8000. At the end of the year, they will receive a profit of 'x'. In what ratio they will share the profits?",
+      "options": [
+        {
+          "label": "A",
+          "text": "59 : 68 : 42"
+        },
+        {
+          "label": "B",
+          "text": "71 : 59 : 42"
+        },
+        {
+          "label": "C",
+          "text": "67 : 59 : 42"
+        },
+        {
+          "label": "D",
+          "text": "71 : 57 : 42"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "A: $20 \\times 5 + 24 \\times 7 = 100 + 168 = 268$\nB: $25 \\times 4 + 17 \\times 8 = 100 + 136 = 236$\nC: $10 \\times 6 + 18 \\times 6 = 60 + 108 = 168$\n$$\\text{Ratio} = 268 : 236 : 168 = 67 : 59 : 42$$"
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - III: INCREASE/DECREASE IN CAPITAL",
+      "examShift": "SSC CGL TIER-II 13/09/2019",
+      "questionText": "A, B and C started a business with their capitals in the ratio $2 : 3 : 5$. A increased his capital by 50% after 4 months, B increased his capital by $33\\frac{1}{3}\\%$ after 6 months and C withdrew 50% of his capital after 8 months, from the start of the business. If the total profit at the end of a year was ₹86,800, then the difference between the shares of A and C in the profit was:",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹12600"
+        },
+        {
+          "label": "B",
+          "text": "₹7000"
+        },
+        {
+          "label": "C",
+          "text": "₹9800"
+        },
+        {
+          "label": "D",
+          "text": "₹8400"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "A: $2 \\times 4 + 3 \\times 8 = 32$\nB: $3 \\times 6 + 4 \\times 6 = 42$\nC: $5 \\times 8 + 2.5 \\times 4 = 50$\n$$\\text{Ratio} = 32 : 42 : 50 = 16 : 21 : 25$$\n$$\\text{Total} = 62 \\text{ units} = ₹86,800 \\implies 1 \\text{ unit} = ₹1,400$$\n$$\\text{Difference (C - A)} = (25 - 16) \\times 1400 = 9 \\times 1400 = ₹12,600$$"
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - III: INCREASE/DECREASE IN CAPITAL",
+      "examShift": "SSC CGL 12/04/2022 (Shift-03)",
+      "questionText": "A, B and C invested ₹40,000, ₹48,000 and ₹80,000, respectively, for a business at the start of a year. After 6 months, for the remaining time of the year, A added ₹4,000, B added ₹4,000 while C withdrew ₹4,000 every month. If the total profit is ₹6,72,000, then what is C's share (in ₹)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "196750"
+        },
+        {
+          "label": "B",
+          "text": "180480"
+        },
+        {
+          "label": "C",
+          "text": "211200"
+        },
+        {
+          "label": "D",
+          "text": "280320"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "According to the official TCS answer key, C's share in the profit is ₹2,80,320 (Option D)."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - IV: BASED ON DONATION/TAX",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "Three people, A, B and C, invest in a business in the ratio $2 : 3 : 5$. It was decided that 9% of the profits will go to charity. If the total profit was ₹2,50,000, then find the share of C in the profit (in ₹).",
+      "options": [
+        {
+          "label": "A",
+          "text": "1,26,950"
+        },
+        {
+          "label": "B",
+          "text": "1,11,650"
+        },
+        {
+          "label": "C",
+          "text": "1,21,850"
+        },
+        {
+          "label": "D",
+          "text": "1,13,750"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Remaining profit} = 2,50,000 \\times 0.91 = ₹2,27,500$$\n$$\\text{C's share} = \\frac{5}{10} \\times 2,27,500 = ₹1,13,750$$"
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - IV: BASED ON DONATION/TAX",
+      "examShift": "SSC MTS 11/09/2023 (Shift-03)",
+      "questionText": "Mayur and Aham enter into a partnership by making investments in the ratio $2 : 3$. 10% of the total profit goes to charity. If Aham's share is ₹4,860, then what is the total profit (in ₹) earned?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7,200"
+        },
+        {
+          "label": "B",
+          "text": "9,000"
+        },
+        {
+          "label": "C",
+          "text": "11,000"
+        },
+        {
+          "label": "D",
+          "text": "8,500"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{3}{5} \\times 0.90 \\times P = 4860$$\n$$0.54 P = 4860 \\implies P = \\frac{4860}{0.54} = ₹9,000$$"
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - IV: BASED ON DONATION/TAX",
+      "examShift": "SSC CGL 18/07/2023 (Shift-04)",
+      "questionText": "A and B invested money in a business in the ratio of $7 : 5$. If 15% of the total profit goes for charity and A's share in the profit is ₹5,950, then what is the total profit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹12,500"
+        },
+        {
+          "label": "B",
+          "text": "₹12,000"
+        },
+        {
+          "label": "C",
+          "text": "₹10,500"
+        },
+        {
+          "label": "D",
+          "text": "₹11,750"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "$$\\frac{7}{12} \\times 0.85 \\times P = 5950$$\n$$0.85 P = \\frac{5950 \\times 12}{7} = 10,200 \\implies P = \\frac{10200}{0.85} = ₹12,000$$"
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - IV: BASED ON DONATION/TAX",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-01)",
+      "questionText": "Three partners decided to start a business. They decided to donate 10% of the profit to a charity organisation and then the remaining profit would be shared among first, second and third partner in the ratio $1 : 2 : 2$. The total profit received was ₹1,80,000. Find the share of the first partner.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹31,800"
+        },
+        {
+          "label": "B",
+          "text": "₹29,600"
+        },
+        {
+          "label": "C",
+          "text": "₹33,200"
+        },
+        {
+          "label": "D",
+          "text": "₹32,400"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Remaining profit} = 1,80,000 \\times 0.90 = ₹1,62,000$$\n$$\\text{First partner's share} = \\frac{1}{5} \\times 1,62,000 = ₹32,400$$"
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - V: BASED ON DISTRIBUTION",
+      "examShift": "SSC CGL 18/08/2021 (Shift-01)",
+      "questionText": "Keshav, Surjeet and Thomas started a business with investments in the ratio $2 : 3 : 4$. The ratio of their period of investments is $5 : 6 : 9$. Twenty percent of the profit was spent on rent and maintenance of the office. Remaining profit was distributed among themselves. If the difference in the shares of profit of Keshav and Surjeet is ₹7264, then how much is the total profit (in ₹)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "51060"
+        },
+        {
+          "label": "B",
+          "text": "58112"
+        },
+        {
+          "label": "C",
+          "text": "46490"
+        },
+        {
+          "label": "D",
+          "text": "72640"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Profit ratio $= (2 \\times 5) : (3 \\times 6) : (4 \\times 9) = 10 : 18 : 36 = 5 : 9 : 18$.\n$$\\text{Difference between Keshav and Surjeet} = 9 - 5 = 4 \\text{ units} = ₹7,264$$\n$$1 \\text{ unit} = ₹1,816$$\n$$\\text{Distributed profit (80%)} = 32 \\times 1816 = ₹58,112$$\n$$\\text{Total profit} = \\frac{58112}{0.80} = ₹72,640$$"
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - V: BASED ON DISTRIBUTION",
+      "examShift": "SSC CGL TIER-II 26/10/2023",
+      "questionText": "Two friends A and B started a business by investing ₹1,50,000 and ₹2,50,000, respectively. They agreed to distribute their earnings in the same ratio of their investments. After an year, the profit earned was ₹6,00,000. Each of them added ₹50,000 to their respective profits and invested in a different project. If this project gave an yield of ₹4,20,000, then A's share in the profit is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1,97,000"
+        },
+        {
+          "label": "B",
+          "text": "2,35,000"
+        },
+        {
+          "label": "C",
+          "text": "1,65,000"
+        },
+        {
+          "label": "D",
+          "text": "1,84,000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Initial profit share:\n$$\\text{A gets } \\frac{3}{8} \\times 600000 = ₹2,25,000$$\n$$\\text{B gets } \\frac{5}{8} \\times 600000 = ₹3,75,000$$\nNew investments: A invests $225000 + 50000 = ₹2,75,000$, B invests $375000 + 50000 = ₹4,25,000$.\n$$\\text{Ratio} = 275 : 425 = 11 : 17$$\n$$\\text{Total} = 28 \\text{ units} = ₹4,20,000 \\implies 1 \\text{ unit} = ₹15,000$$\n$$\\text{A's share} = 11 \\times 15000 = ₹1,65,000$$"
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - VI: BASED ON MANAGEMENT",
+      "examShift": "SSC CHSL 02/08/2023 (Shift-02)",
+      "questionText": "A is a working partner and B is a sleeping partner in a business. A invested ₹30,000 and B invested ₹50,000. A receives 20% of the profit for managing the business and the rest is divided in proportion to their capital. What does B get out of the profit of ₹10,000.",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹5500"
+        },
+        {
+          "label": "B",
+          "text": "₹5000"
+        },
+        {
+          "label": "C",
+          "text": "₹4500"
+        },
+        {
+          "label": "D",
+          "text": "₹4000"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Profit remaining after A's management fee $= 10000 \\times 0.80 = ₹8,000$.\n$$\\text{Capital ratio } A : B = 3 : 5$$\n$$\\text{B's share} = \\frac{5}{8} \\times 8000 = ₹5,000$$"
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - VI: BASED ON MANAGEMENT",
+      "examShift": "SSC CHSL TIER-II (18/11/2024)",
+      "questionText": "A, B and C jointly started a business in which A invested ₹7,000 for 12 months, B invested ₹8,000 for 10 months and C invested Rs.12,000 for 6 months. A was the working member for which he received 20% of the profits as his remuneration. The total profit earned at the end of one year was ₹14,750. What is C's share (in ₹) in the profit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2950"
+        },
+        {
+          "label": "B",
+          "text": "3600"
+        },
+        {
+          "label": "C",
+          "text": "4000"
+        },
+        {
+          "label": "D",
+          "text": "4200"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Remaining profit after A's remuneration $= 14750 \\times 0.80 = ₹11,800$.\n$$\\text{Ratio} = (7 \\times 12) : (8 \\times 10) : (12 \\times 6) = 84 : 80 : 72 = 21 : 20 : 18$$\n$$\\text{Total} = 59 \\text{ units} = ₹11,800 \\implies 1 \\text{ unit} = ₹200$$\n$$\\text{C's share} = 18 \\times 200 = ₹3,600$$"
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - VII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II 03/02/2022 (Shift-01)",
+      "questionText": "P and Q start a shop with a capital of ₹1,50,000 and ₹4,50,000, respectively. After a year, out of the profit of ₹2,00,000, P gets his share of profit plus some money as his salary that is not a part of the profit. If P gets a total of ₹90,000, what is the amount of salary (in ₹) that he received?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30,000"
+        },
+        {
+          "label": "B",
+          "text": "45,000"
+        },
+        {
+          "label": "C",
+          "text": "35,000"
+        },
+        {
+          "label": "D",
+          "text": "40,000"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "$$\\text{Capital ratio } P : Q = 1 : 3$$\n$$\\text{P's share in profit} = \\frac{1}{4} \\times 200000 = ₹50,000$$\n$$\\text{Salary} = 90000 - 50000 = ₹40,000$$"
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - VII: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 13/04/2022 (Shift -02)",
+      "questionText": "P and Q start a shop with a capital of ₹1,50,000 and ₹4,50,000, respectively. After a year, out of the profit of ₹1,60,000, P gets his share of profit plus some money that is not a part of the profit, as his salary. If P gets a total of ₹70,000, what is the salary (in ₹) he received:",
+      "options": [
+        {
+          "label": "A",
+          "text": "25,000"
+        },
+        {
+          "label": "B",
+          "text": "50,000"
+        },
+        {
+          "label": "C",
+          "text": "30,000"
+        },
+        {
+          "label": "D",
+          "text": "40,000"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "$$\\text{Capital ratio } P : Q = 1 : 3$$\n$$\\text{P's share in profit} = \\frac{1}{4} \\times 160000 = ₹40,000$$\n$$\\text{Salary} = 70000 - 40000 = ₹30,000$$"
+    }
+  ]
+}

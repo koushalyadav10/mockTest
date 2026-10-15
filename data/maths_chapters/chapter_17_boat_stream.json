@@ -1,0 +1,2011 @@
+{
+  "chapterNumber": 17,
+  "chapterCode": "SSC_MATHS_CH_17_BOAT_STREAM",
+  "chapterTitleEnglish": "Boat & Stream",
+  "chapterTitleHindi": "नाव और धारा",
+  "totalQuestions": 77,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "A boat travels at $15\\text{ km/h}$ in still water. If the stream speed is $4\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$19\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$21\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$15\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Downstream speed $= B + S = 15 + 4 = 19\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "A boat travels at $16\\text{ km/h}$ in still water. If the stream speed is $5\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$21\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$16\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Downstream speed $= B + S = 16 + 5 = 21\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "A boat travels at $17\\text{ km/h}$ in still water. If the stream speed is $6\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$25\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$17\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$23\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Downstream speed $= B + S = 17 + 6 = 23\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "A boat travels at $18\\text{ km/h}$ in still water. If the stream speed is $3\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$21\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$18\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Downstream speed $= B + S = 18 + 3 = 21\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "A boat travels at $19\\text{ km/h}$ in still water. If the stream speed is $4\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$25\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$19\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Downstream speed $= B + S = 19 + 4 = 23\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "A boat travels at $20\\text{ km/h}$ in still water. If the stream speed is $5\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$27\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$25\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$20\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Downstream speed $= B + S = 20 + 5 = 25\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "A boat travels at $21\\text{ km/h}$ in still water. If the stream speed is $6\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$29\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$21\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$27\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Downstream speed $= B + S = 21 + 6 = 27\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "A boat travels at $14\\text{ km/h}$ in still water. If the stream speed is $3\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$19\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$17\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$14\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Downstream speed $= B + S = 14 + 3 = 17\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "A boat travels at $15\\text{ km/h}$ in still water. If the stream speed is $4\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$19\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$21\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$15\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Downstream speed $= B + S = 15 + 4 = 19\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "A boat travels at $16\\text{ km/h}$ in still water. If the stream speed is $5\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$16\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$21\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Downstream speed $= B + S = 16 + 5 = 21\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "A boat travels at $17\\text{ km/h}$ in still water. If the stream speed is $6\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$25\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$17\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Downstream speed $= B + S = 17 + 6 = 23\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "A boat travels at $18\\text{ km/h}$ in still water. If the stream speed is $3\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$21\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$18\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Downstream speed $= B + S = 18 + 3 = 21\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "A boat travels at $19\\text{ km/h}$ in still water. If the stream speed is $4\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$25\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$19\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$23\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Downstream speed $= B + S = 19 + 4 = 23\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "A boat travels at $20\\text{ km/h}$ in still water. If the stream speed is $5\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$27\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$25\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$20\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Downstream speed $= B + S = 20 + 5 = 25\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "A boat travels at $21\\text{ km/h}$ in still water. If the stream speed is $6\\text{ km/h}$, find its downstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$27\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$29\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$21\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Downstream speed $= B + S = 21 + 6 = 27\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "A motorboat speed in still water is $16\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$21\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$9\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$16\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Upstream speed $= B - S = 16 - 5 = 11\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "A motorboat speed in still water is $17\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$11\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$9\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$17\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Upstream speed $= B - S = 17 - 6 = 11\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+      "questionText": "A motorboat speed in still water is $18\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$22\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$12\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$14\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$18\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Upstream speed $= B - S = 18 - 4 = 14\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "A motorboat speed in still water is $19\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$24\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$12\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$19\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$14\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Upstream speed $= B - S = 19 - 5 = 14\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "A motorboat speed in still water is $20\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$26\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$14\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$12\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$20\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Upstream speed $= B - S = 20 - 6 = 14\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+      "questionText": "A motorboat speed in still water is $21\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$17\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$25\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$21\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Upstream speed $= B - S = 21 - 4 = 17\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "A motorboat speed in still water is $22\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$27\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$17\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$22\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Upstream speed $= B - S = 22 - 5 = 17\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+      "questionText": "A motorboat speed in still water is $23\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$29\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$17\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Upstream speed $= B - S = 23 - 6 = 17\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+      "questionText": "A motorboat speed in still water is $16\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$20\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$10\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$12\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$16\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Upstream speed $= B - S = 16 - 4 = 12\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 25,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+      "questionText": "A motorboat speed in still water is $17\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$22\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$12\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$10\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$17\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Upstream speed $= B - S = 17 - 5 = 12\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "A motorboat speed in still water is $18\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$24\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$10\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$18\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$12\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Upstream speed $= B - S = 18 - 6 = 12\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
+      "questionText": "A motorboat speed in still water is $19\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$23\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$13\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$19\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Upstream speed $= B - S = 19 - 4 = 15\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "A motorboat speed in still water is $20\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$25\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$13\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$20\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Upstream speed $= B - S = 20 - 5 = 15\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "A motorboat speed in still water is $21\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$27\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$13\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$21\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$15\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Upstream speed $= B - S = 21 - 6 = 15\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+      "questionText": "A motorboat speed in still water is $22\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$26\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$16\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$18\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$22\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Upstream speed $= B - S = 22 - 4 = 18\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - II: UPSTREAM SPEED",
+      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+      "questionText": "A motorboat speed in still water is $23\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$18\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$28\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$16\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$23\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Upstream speed $= B - S = 23 - 5 = 18\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
+      "questionText": "A boat moves downstream at $20\\text{ km/h}$ and upstream at $10\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$17.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$13.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$5.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{20 + 10}{2} = 15.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "A boat moves downstream at $21\\text{ km/h}$ and upstream at $11\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$18.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$16.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$14.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$5.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{21 + 11}{2} = 16.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "A boat moves downstream at $22\\text{ km/h}$ and upstream at $12\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$19.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$17.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$5.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{22 + 12}{2} = 17.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "A boat moves downstream at $23\\text{ km/h}$ and upstream at $13\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$20.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$16.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$5.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$18.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{23 + 13}{2} = 18.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
+      "questionText": "A boat moves downstream at $18\\text{ km/h}$ and upstream at $10\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$16.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$14.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$12.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$4.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{18 + 10}{2} = 14.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "A boat moves downstream at $19\\text{ km/h}$ and upstream at $11\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$17.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$13.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$4.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{19 + 11}{2} = 15.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CGL Tier-II 27/10/2023 (Shift-01)",
+      "questionText": "A boat moves downstream at $20\\text{ km/h}$ and upstream at $12\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$18.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$14.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$16.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$4.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{20 + 12}{2} = 16.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "A boat moves downstream at $21\\text{ km/h}$ and upstream at $13\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$19.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$4.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$17.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{21 + 13}{2} = 17.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "A boat moves downstream at $22\\text{ km/h}$ and upstream at $10\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$18.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$14.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$16.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$6.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{22 + 10}{2} = 16.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "A boat moves downstream at $23\\text{ km/h}$ and upstream at $11\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$19.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$17.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$15.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$6.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{23 + 11}{2} = 17.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "A boat moves downstream at $18\\text{ km/h}$ and upstream at $12\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$17.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$13.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$3.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$15.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{18 + 12}{2} = 15.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 43,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-04)",
+      "questionText": "A boat moves downstream at $19\\text{ km/h}$ and upstream at $13\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$16.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$18.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$14.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$3.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{19 + 13}{2} = 16.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 44,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "A boat moves downstream at $20\\text{ km/h}$ and upstream at $10\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$17.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$13.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$5.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{20 + 10}{2} = 15.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 45,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+      "questionText": "A boat moves downstream at $21\\text{ km/h}$ and upstream at $11\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$18.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$14.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$5.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$16.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{21 + 11}{2} = 16.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 46,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "A boat moves downstream at $22\\text{ km/h}$ and upstream at $12\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$19.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$15.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$17.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$5.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{22 + 12}{2} = 17.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 47,
+      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "A boat moves downstream at $23\\text{ km/h}$ and upstream at $13\\text{ km/h}$. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$18.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$20.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$16.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$5.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{23 + 13}{2} = 18.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 48,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
+      "questionText": "A swimmer's speed downstream is $20\\text{ km/h}$ and upstream is $12\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$5.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$2.5\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$16.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{20 - 12}{2} = 4.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 49,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CGL Tier-II 02/03/2023 (Shift-01)",
+      "questionText": "A swimmer's speed downstream is $21\\text{ km/h}$ and upstream is $13\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$4.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$2.5\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$17.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{21 - 13}{2} = 4.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 50,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "A swimmer's speed downstream is $22\\text{ km/h}$ and upstream is $14\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$2.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$4.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$18.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{22 - 14}{2} = 4.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 51,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+      "questionText": "A swimmer's speed downstream is $23\\text{ km/h}$ and upstream is $15\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$2.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$19.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$4.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{23 - 15}{2} = 4.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 52,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
+      "questionText": "A swimmer's speed downstream is $24\\text{ km/h}$ and upstream is $12\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$7.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$6.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$4.5\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$18.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{24 - 12}{2} = 6.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 53,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "A swimmer's speed downstream is $25\\text{ km/h}$ and upstream is $13\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$6.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$7.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$4.5\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$19.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{25 - 13}{2} = 6.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 54,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "A swimmer's speed downstream is $20\\text{ km/h}$ and upstream is $14\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$1.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$3.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$17.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{20 - 14}{2} = 3.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 55,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "A swimmer's speed downstream is $21\\text{ km/h}$ and upstream is $15\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$1.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$18.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$3.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{21 - 15}{2} = 3.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 56,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "A swimmer's speed downstream is $22\\text{ km/h}$ and upstream is $12\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$6.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$3.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$5.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$17.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{22 - 12}{2} = 5.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 57,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "A swimmer's speed downstream is $23\\text{ km/h}$ and upstream is $13\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$6.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$5.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$3.5\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$18.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{23 - 13}{2} = 5.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 58,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "A swimmer's speed downstream is $24\\text{ km/h}$ and upstream is $14\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$6.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$3.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$19.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$5.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{24 - 14}{2} = 5.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 59,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-02)",
+      "questionText": "A swimmer's speed downstream is $25\\text{ km/h}$ and upstream is $15\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$6.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$3.5\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$20.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{25 - 15}{2} = 5.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 60,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "A swimmer's speed downstream is $20\\text{ km/h}$ and upstream is $12\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$4.0\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$2.5\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$16.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{20 - 12}{2} = 4.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 61,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "A swimmer's speed downstream is $21\\text{ km/h}$ and upstream is $13\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$2.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$17.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$4.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{21 - 13}{2} = 4.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 62,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "A swimmer's speed downstream is $22\\text{ km/h}$ and upstream is $14\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5.5\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$2.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$4.0\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$18.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{22 - 14}{2} = 4.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 63,
+      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+      "questionText": "A swimmer's speed downstream is $23\\text{ km/h}$ and upstream is $15\\text{ km/h}$. Find the speed of the river current.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4.0\\text{ km/h}$"
+        },
+        {
+          "label": "B",
+          "text": "$5.5\\text{ km/h}$"
+        },
+        {
+          "label": "C",
+          "text": "$2.5\\text{ km/h}$"
+        },
+        {
+          "label": "D",
+          "text": "$19.0\\text{ km/h}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{23 - 15}{2} = 4.0\\text{ km/h}$."
+    },
+    {
+      "questionNumber": 64,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 hours"
+        },
+        {
+          "label": "B",
+          "text": "6 hours"
+        },
+        {
+          "label": "C",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 65,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "5 hours"
+        },
+        {
+          "label": "C",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 66,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 67,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "5.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 68,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "5 hours"
+        },
+        {
+          "label": "C",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 69,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 hours"
+        },
+        {
+          "label": "B",
+          "text": "6 hours"
+        },
+        {
+          "label": "C",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 70,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 71,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "5.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 72,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 73,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "5 hours"
+        },
+        {
+          "label": "C",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 74,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "5.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 75,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 hours"
+        },
+        {
+          "label": "B",
+          "text": "6 hours"
+        },
+        {
+          "label": "C",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 76,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "5 hours"
+        },
+        {
+          "label": "C",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5.5 hours"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    },
+    {
+      "questionNumber": 77,
+      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hours"
+        },
+        {
+          "label": "B",
+          "text": "4.5 hours"
+        },
+        {
+          "label": "C",
+          "text": "5.5 hours"
+        },
+        {
+          "label": "D",
+          "text": "5 hours"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+    }
+  ]
+}
