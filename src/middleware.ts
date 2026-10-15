@@ -53,12 +53,13 @@ export function middleware(req: NextRequest) {
   const user = token ? parseJwt(token) : null;
   const path = req.nextUrl.pathname;
 
-  // Unauthenticated user -> strictly redirect to /login
+  // Unauthenticated user attempting to access protected route -> strictly redirect to /login
   if (!user) {
-    const loginUrl = new URL("/login", req.url);
-    if (path !== "/") {
-      loginUrl.searchParams.set("callbackUrl", path);
+    if (path === "/") {
+      return NextResponse.next();
     }
+    const loginUrl = new URL("/login", req.url);
+    loginUrl.searchParams.set("callbackUrl", path);
     return NextResponse.redirect(loginUrl);
   }
 

@@ -49,6 +49,21 @@ export default function LoginPage() {
   const [mailboxOpen, setMailboxOpen] = useState(false);
   const [recentEmails, setRecentEmails] = useState<any[]>([]);
 
+  // Auto-redirect if already logged in
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.user) {
+          const params = new URLSearchParams(window.location.search);
+          const callbackUrl = params.get("callbackUrl");
+          const target = callbackUrl || "/dashboard";
+          window.location.href = target;
+        }
+      })
+      .catch(() => {});
+  }, []);
+
   // Cooldown countdown timer
   useEffect(() => {
     if (cooldown > 0) {
@@ -640,6 +655,42 @@ export default function LoginPage() {
               </button>
             </form>
           )}
+
+          {/* Dedicated 1-Tap Mobile App Install Banner / Button for Phone */}
+          <div className="mt-6 pt-4 border-t border-slate-100">
+            <div className="p-3.5 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200/80 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 shadow-xs">
+              <div className="flex items-center gap-3">
+                <img
+                  src="/app-icon.png"
+                  alt="StudyBae"
+                  className="w-10 h-10 rounded-xl object-cover shadow-sm ring-1 ring-blue-300 shrink-0"
+                />
+                <div>
+                  <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                    <span>StudyBae Mobile App</span>
+                    <span className="text-[10px] bg-blue-600 text-white font-mono px-1.5 py-0.2 rounded font-bold">
+                      Direct Install
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-600 mt-0.5 leading-snug">
+                    Phone me app install karein — 1-click me full screen test khulega bina browser link ke!
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  if (typeof window !== "undefined") {
+                    window.dispatchEvent(new CustomEvent("open-pwa-install"));
+                  }
+                }}
+                className="w-full sm:w-auto px-4 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold rounded-xl shadow-sm transition-all flex items-center justify-center gap-2 shrink-0 active:scale-95"
+              >
+                <Download className="w-4 h-4" />
+                <span>📲 Download / Install App</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

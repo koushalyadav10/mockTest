@@ -1,11 +1,11 @@
 {
-  "id": "/",
+  "id": "studybae-smart-cbt-app",
   "name": "StudyBae — Smart CBT Tests & Exam Prep",
   "short_name": "StudyBae",
   "description": "StudyBae — Mock Tests • Real Progress • Together",
-  "start_url": "/",
+  "start_url": "/?source=pwa",
   "display": "standalone",
-  "background_color": "#0f172a",
+  "background_color": "#ffffff",
   "theme_color": "#2563eb",
   "orientation": "portrait-primary",
   "scope": "/",
@@ -38,6 +38,22 @@
       "src": "/icons/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mock Tests",
+      "short_name": "Tests",
+      "description": "Start CBT Mock Test",
+      "url": "/exams?source=pwa",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Books & Practice",
+      "short_name": "Books",
+      "description": "Study Chapters & Books",
+      "url": "/books?source=pwa",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
     }
   ],
   "categories": ["education", "productivity"]

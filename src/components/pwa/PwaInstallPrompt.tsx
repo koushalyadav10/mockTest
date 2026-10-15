@@ -75,11 +75,30 @@ export function PwaInstallPrompt() {
       const handleBeforeInstallPrompt = (e: Event) => {
         e.preventDefault();
         setDeferredPrompt(e);
+        (window as any).__studyBaeDeferredPrompt = e;
+        setShowBanner(true); // Re-open banner when native install becomes ready
         console.log("[PWA] beforeinstallprompt event captured");
       };
 
       // 4. Custom global event listener for any "Install App" button in UI
-      const handleOpenInstallModal = () => {
+      const handleOpenInstallModal = async () => {
+        const prompt = (window as any).__studyBaeDeferredPrompt || deferredPrompt;
+        if (prompt) {
+          try {
+            prompt.prompt();
+            const { outcome } = await prompt.userChoice;
+            console.log("[PWA] User choice outcome:", outcome);
+            if (outcome === "accepted") {
+              setShowModal(false);
+              setShowBanner(false);
+              setDeferredPrompt(null);
+              (window as any).__studyBaeDeferredPrompt = null;
+              return;
+            }
+          } catch (e) {
+            console.warn("[PWA] Install prompt error:", e);
+          }
+        }
         setShowModal(true);
       };
 
@@ -91,18 +110,20 @@ export function PwaInstallPrompt() {
         window.removeEventListener("open-pwa-install", handleOpenInstallModal);
       };
     }
-  }, []);
+  }, [deferredPrompt]);
 
   const handleTriggerInstall = async () => {
-    if (deferredPrompt) {
+    const prompt = (window as any).__studyBaeDeferredPrompt || deferredPrompt;
+    if (prompt) {
       try {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
+        prompt.prompt();
+        const { outcome } = await prompt.userChoice;
         console.log("[PWA] User choice outcome:", outcome);
         if (outcome === "accepted") {
           setShowModal(false);
           setShowBanner(false);
           setDeferredPrompt(null);
+          (window as any).__studyBaeDeferredPrompt = null;
           return;
         }
       } catch (e) {
@@ -115,12 +136,11 @@ export function PwaInstallPrompt() {
 
   const handleDismissBanner = () => {
     setShowBanner(false);
-    sessionStorage.setItem("pwa_banner_dismissed", "true");
   };
 
   return (
     <>
-      {/* 1. FLOATING BOTTOM APP INSTALL BANNER (Visible on both mobile & desktop unless running as standalone app) */}
+      {/* 1. FLOATING BOTTOM APP INSTALL BANNER (Visible on mobile & desktop unless running as standalone app) */}
       {!isStandalone && showBanner && (
         <div className="fixed bottom-3 left-3 right-3 sm:left-auto sm:right-6 sm:bottom-6 sm:w-[420px] z-50 animate-in slide-in-from-bottom-4 duration-300">
           <div className="bg-slate-900/95 text-white p-4 rounded-2xl shadow-2xl border border-slate-700/80 backdrop-blur-md">
@@ -171,6 +191,18 @@ export function PwaInstallPrompt() {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Discrete Persistent Mobile Floating Pill if banner is closed */}
+      {!isStandalone && !showBanner && (
+        <button
+          type="button"
+          onClick={() => handleTriggerInstall()}
+          className="fixed bottom-16 right-4 sm:bottom-6 sm:right-6 z-40 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-3.5 py-2 rounded-full shadow-lg border border-white/20 flex items-center gap-2 text-xs font-bold hover:scale-105 active:scale-95 transition-all"
+        >
+          <img src="/app-icon.png" alt="StudyBae" className="w-5 h-5 rounded-full object-cover" />
+          <span>📲 Install App</span>
+        </button>
       )}
 
       {/* 2. COMPREHENSIVE INTERACTIVE INSTALLATION MODAL GUIDE */}

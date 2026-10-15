@@ -17,6 +17,7 @@ import {
   X,
   PlayCircle,
   Sparkles,
+  Download,
 } from "lucide-react";
 
 export default function ExamForgeLandingPage() {
@@ -163,8 +164,20 @@ export default function ExamForgeLandingPage() {
             </Link>
           </nav>
 
-          {/* Right: Login & Sign Up */}
-          <div className="flex items-center gap-3">
+          {/* Right: Login & Sign Up & Install */}
+          <div className="flex items-center gap-2.5">
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  window.dispatchEvent(new CustomEvent("open-pwa-install"));
+                }
+              }}
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>📲 Install App</span>
+            </button>
             <Link
               href="/login"
               className="text-slate-700 hover:text-black font-semibold text-sm px-3 py-1.5 transition-colors"
@@ -206,6 +219,19 @@ export default function ExamForgeLandingPage() {
             <Link href="/login" onClick={() => setMobileMenuOpen(false)} className="block py-1.5 text-teal-700 font-bold">
               Login / Sign Up
             </Link>
+            <button
+              type="button"
+              onClick={() => {
+                setMobileMenuOpen(false);
+                if (typeof window !== "undefined") {
+                  window.dispatchEvent(new CustomEvent("open-pwa-install"));
+                }
+              }}
+              className="w-full text-left flex items-center gap-2 py-2 text-blue-600 font-bold"
+            >
+              <Download className="w-4 h-4" />
+              <span>📲 Install StudyBae App</span>
+            </button>
           </div>
         )}
       </header>
@@ -262,6 +288,19 @@ export default function ExamForgeLandingPage() {
                 <span>Start Free Test</span>
               </button>
             </Link>
+
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  window.dispatchEvent(new CustomEvent("open-pwa-install"));
+                }
+              }}
+              className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-sm sm:text-base px-7 py-3.5 rounded-xl shadow-lg transition-all flex items-center gap-2 active:scale-95"
+            >
+              <Download className="w-4 h-4" />
+              <span>📲 Install App on Phone</span>
+            </button>
           </div>
 
           {/* Quick Metrics Bar */}
