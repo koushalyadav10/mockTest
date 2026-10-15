@@ -126,33 +126,33 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto landscape:overflow-hidden scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300 p-2.5 sm:p-6 landscape:p-2 landscape:py-1.5">
-      {/* Top Header Bar: Ultra-compact single slim line in landscape */}
-      <div className="flex flex-wrap landscape:flex-nowrap items-center justify-between gap-1.5 sm:gap-2 pb-1.5 sm:pb-3.5 landscape:pb-1 border-b border-slate-200/80 text-xs shrink-0">
+    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto max-lg:landscape:overflow-hidden scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300 p-3.5 sm:p-6 lg:p-8 max-lg:landscape:p-2 max-lg:landscape:py-1.5">
+      {/* Top Header Bar */}
+      <div className="flex flex-wrap max-lg:landscape:flex-nowrap items-center justify-between gap-2 pb-2.5 sm:pb-4 max-lg:landscape:pb-1 border-b border-slate-200/80 text-xs shrink-0">
         {/* Left: Question No + Topic + Question Timer */}
-        <div className="flex items-center gap-1.5 sm:gap-2.5 flex-wrap landscape:flex-nowrap">
-          <span className="text-base sm:text-lg landscape:text-sm font-black text-slate-900 font-mono tracking-tight shrink-0">
+        <div className="flex items-center gap-2 sm:gap-3 flex-wrap max-lg:landscape:flex-nowrap">
+          <span className="text-base sm:text-xl font-black text-slate-900 font-mono tracking-tight shrink-0">
             Q.{questionNumber}
           </span>
 
           {topic && (
-            <span className="bg-slate-100 text-slate-700 font-semibold px-2 py-0.5 sm:px-2.5 sm:py-1 landscape:px-1.5 landscape:py-0.5 rounded-lg border border-slate-200/80 text-[11px] landscape:text-[10px] max-w-[130px] sm:max-w-none truncate shrink-0">
+            <span className="bg-slate-100 text-slate-800 font-bold px-2.5 py-1 max-lg:landscape:px-1.5 max-lg:landscape:py-0.5 rounded-lg border border-slate-200/80 text-xs max-lg:landscape:text-[10px] max-w-[150px] sm:max-w-none truncate shrink-0">
               {topic}
             </span>
           )}
 
-          {/* Exam Citation: hidden on mobile landscape to guarantee 1-row header */}
+          {/* Exam Citation */}
           {displayExamTag && (
-            <span className="hidden sm:inline-flex landscape:hidden lg:landscape:inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50/90 border border-amber-300/90 text-amber-950 font-bold text-[11px] shadow-2xs shrink-0">
+            <span className="hidden sm:inline-flex max-lg:landscape:hidden items-center gap-1.5 px-3 py-1 rounded-lg bg-amber-50/90 border border-amber-300/90 text-amber-950 font-bold text-xs shadow-2xs shrink-0">
               <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
               <Calendar className="w-3.5 h-3.5 text-amber-700 shrink-0" />
-              <span className="max-w-[160px] truncate">{displayExamTag}</span>
+              <span className="max-w-[200px] truncate">{displayExamTag}</span>
             </span>
           )}
 
           {/* Per-Question Live Timer & Speed Badge */}
-          <div className="inline-flex items-center gap-1 sm:gap-1.5 px-2 py-0.5 sm:px-2.5 sm:py-1 landscape:px-1.5 landscape:py-0.5 rounded-lg bg-blue-50 border border-blue-200/80 text-blue-800 text-[11px] landscape:text-[10px] font-mono font-bold shrink-0">
-            <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-blue-600 shrink-0" />
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 max-lg:landscape:px-1.5 max-lg:landscape:py-0.5 rounded-lg bg-blue-50 border border-blue-200/80 text-blue-800 text-xs max-lg:landscape:text-[10px] font-mono font-bold shrink-0">
+            <Clock className="w-3.5 h-3.5 text-blue-600 shrink-0" />
             <span>Time: {formatTimer(questionTimeSeconds)}</span>
             {selectedOptionStableId && (
               <span className="text-emerald-700 font-semibold ml-1 hidden sm:inline">
@@ -163,15 +163,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         </div>
 
         {/* Right: Bilingual Single-Question Switcher & Marks Badges */}
-        <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           {/* Official SSC Real-Time Question Language Toggle */}
-          <div className="flex items-center gap-1 sm:gap-1.5 bg-white border border-slate-300 rounded-lg sm:rounded-xl px-1.5 py-0.5 sm:px-2.5 sm:py-1 shadow-2xs hover:border-indigo-400 transition-colors">
-            <Languages className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-indigo-600 shrink-0" />
-            <span className="text-[10px] sm:text-[11px] font-bold text-slate-500 hidden md:inline">View in:</span>
+          <div className="flex items-center gap-1.5 bg-white border border-slate-300 rounded-lg sm:rounded-xl px-2 py-1 shadow-2xs hover:border-indigo-400 transition-colors">
+            <Languages className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
+            <span className="text-xs font-bold text-slate-500 hidden md:inline">View in:</span>
             <select
               value={questionLang}
               onChange={(e) => setQuestionLang(e.target.value as "en" | "hi")}
-              className="bg-transparent text-[11px] sm:text-xs font-black text-slate-900 border-none outline-none cursor-pointer pr-0.5"
+              className="bg-transparent text-xs font-black text-slate-900 border-none outline-none cursor-pointer pr-0.5"
               title="Switch language between English and Hindi for this question"
             >
               <option value="en">English</option>
@@ -179,24 +179,24 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             </select>
           </div>
 
-          <div className="flex items-center gap-0.5 sm:gap-1 font-mono text-[10px] sm:text-[11px] font-bold shrink-0">
-            <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 sm:px-2 sm:py-0.5 rounded">
+          <div className="flex items-center gap-1 font-mono text-xs font-bold shrink-0">
+            <span className="text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">
               +{marksPerCorrect.toFixed(1)}
             </span>
-            <span className="text-rose-700 bg-rose-50 border border-rose-200 px-1.5 py-0.5 sm:px-2 sm:py-0.5 rounded">
+            <span className="text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
               -{negativeMarks.toFixed(1)}
             </span>
           </div>
         </div>
       </div>
 
-      {/* Question Content Body: Single column in Portrait, 2-column half/half split in Landscape */}
-      <div className="py-2 sm:py-4 landscape:py-1 flex-1 w-full grid grid-cols-1 landscape:grid-cols-2 gap-3 sm:gap-6 landscape:gap-3 overflow-hidden min-h-0">
-        {/* Left Side: Question Text, Context Passage, DI Visuals / Diagrams */}
-        <div className="space-y-2.5 sm:space-y-3 landscape:space-y-1.5 overflow-y-auto pr-1 landscape:pr-2 scrollbar-thin scrollbar-thumb-slate-200 overscroll-contain [-webkit-overflow-scrolling:touch]">
+      {/* Question Content Body: Single spacious column in Desktop & Portrait, 2-column ONLY in Mobile Landscape */}
+      <div className="py-3 sm:py-5 max-lg:landscape:py-1 flex-1 w-full grid grid-cols-1 max-lg:landscape:grid-cols-2 gap-4 sm:gap-6 max-lg:landscape:gap-3 overflow-y-auto max-lg:landscape:overflow-hidden min-h-0">
+        {/* Question Text, Context Passage, DI Visuals / Diagrams */}
+        <div className="space-y-3 sm:space-y-4 max-lg:landscape:space-y-1.5 overflow-visible max-lg:landscape:overflow-y-auto pr-0 max-lg:landscape:pr-2">
           {/* Authentic Aditya Ranjan Type Badge (if present) */}
           {activeTypeHeader && (
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-lg bg-slate-900 text-white font-bold text-[11px] sm:text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
               <span className="text-amber-400">◆</span>
               <span>{activeTypeHeader}</span>
               <span className="text-amber-400">◆</span>
@@ -205,12 +205,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
           {/* Reading Comprehension Passage or Story Context */}
           {directionText && (
-            <div className="p-3 sm:p-5 landscape:p-2.5 rounded-xl sm:rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-1 sm:space-y-2">
-              <div className="flex items-center gap-1.5 sm:gap-2 text-[11px] sm:text-xs font-black uppercase tracking-wider text-amber-900">
-                <FileText className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-700 shrink-0" />
+            <div className="p-4 sm:p-5 max-lg:landscape:p-2.5 rounded-xl sm:rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+              <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
+                <FileText className="w-4 h-4 text-amber-700 shrink-0" />
                 <span>Reference Context / Reading Passage</span>
               </div>
-              <div className="text-[13px] sm:text-base landscape:text-[12px] landscape:leading-snug text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+              <div className="text-sm sm:text-base max-lg:landscape:text-[12px] text-slate-800 leading-relaxed font-normal whitespace-pre-line">
                 <MathRenderer text={directionText} />
               </div>
             </div>
@@ -229,30 +229,30 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           )}
 
           {/* Highlighted Crisp Large Question Text */}
-          <div className="text-[16px] sm:text-[21px] landscape:text-[14px] sm:landscape:text-[16px] font-semibold text-slate-900 leading-snug sm:leading-relaxed tracking-tight py-1 sm:py-2 landscape:py-0.5">
+          <div className="text-[18px] sm:text-[22px] lg:text-[24px] max-lg:landscape:text-[14px] font-bold text-slate-900 leading-snug sm:leading-relaxed tracking-tight py-1.5 sm:py-3 max-lg:landscape:py-0.5">
             <MathRenderer text={activeQuestionText} />
           </div>
 
           {/* Fallback Image for Non-DI questions if imageUrl exists */}
           {!isDataInterpretation && hasVisualContent && imageUrl && (
-            <div className="my-1.5 sm:my-2 p-2 sm:p-3 bg-white border border-slate-200 rounded-xl sm:rounded-2xl shadow-sm block w-full max-w-2xl">
+            <div className="my-2 p-3 bg-white border border-slate-200 rounded-2xl shadow-sm block w-full max-w-2xl">
               <img
                 src={imageUrl}
                 alt={`Question ${questionNumber} Diagram`}
-                className="max-h-[220px] sm:max-h-[480px] landscape:max-h-[150px] w-auto mx-auto object-contain rounded-xl cursor-pointer hover:opacity-95 transition-all"
+                className="max-h-[260px] sm:max-h-[480px] max-lg:landscape:max-h-[150px] w-auto mx-auto object-contain rounded-xl cursor-pointer hover:opacity-95 transition-all"
                 onClick={() => setIsZoomOpen(true)}
               />
             </div>
           )}
         </div>
 
-        {/* Right Side: Options & Instant Feedback Explanation */}
-        <div className="space-y-1.5 sm:space-y-2.5 landscape:space-y-1 overflow-y-auto pl-0 landscape:pl-2 scrollbar-thin scrollbar-thumb-slate-200 flex flex-col justify-start overscroll-contain [-webkit-overflow-scrolling:touch]">
-          <div className="text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider pb-0.5 shrink-0 landscape:hidden">
-            {questionLang === "hi" ? "अपना विकल्प चुनें:" : "Select Your Option:"}
+        {/* Options & Instant Feedback Explanation */}
+        <div className="space-y-2.5 sm:space-y-3.5 max-lg:landscape:space-y-1 overflow-visible max-lg:landscape:overflow-y-auto pl-0 max-lg:landscape:pl-2 flex flex-col justify-start">
+          <div className="text-xs sm:text-sm font-bold text-slate-500 uppercase tracking-wider pb-1 shrink-0 max-lg:landscape:hidden">
+            {questionLang === "hi" ? "अपना विकल्प चुनें (Select Your Option):" : "Select Your Option:"}
           </div>
 
-          <div className="space-y-1.5 sm:space-y-2.5 landscape:space-y-1 w-full">
+          <div className="space-y-2.5 sm:space-y-3.5 max-lg:landscape:space-y-1 w-full">
             {options.map((opt, idx) => {
               const isSelected = selectedOptionStableId === opt.stableId;
               const isCorrectOption = Boolean(

@@ -25,9 +25,9 @@ export const SectionTabs: React.FC<SectionTabsProps> = ({
   allowSwitching = true,
 }) => {
   return (
-    <div className="bg-[#f1f4f8] border-b border-slate-200/90 px-3 sm:px-4 py-1.5 sm:py-2 landscape:py-1 landscape:px-3 flex items-center justify-between gap-2 overflow-x-auto select-none no-scrollbar">
+    <div className="bg-[#f1f4f8] border-b border-slate-200/90 px-3.5 sm:px-6 py-2 sm:py-2.5 max-lg:landscape:py-1 max-lg:landscape:px-3 flex items-center justify-between gap-2 overflow-x-auto select-none no-scrollbar">
       <div className="flex items-center gap-2 overflow-x-auto no-scrollbar">
-        <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider mr-1 hidden sm:inline shrink-0">
+        <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mr-1 hidden sm:inline shrink-0">
           Sections:
         </span>
         {sections.map((section, idx) => {
@@ -39,7 +39,7 @@ export const SectionTabs: React.FC<SectionTabsProps> = ({
               key={section.id || idx}
               disabled={isLocked && !isActive}
               onClick={() => onSelectSection(idx)}
-              className={`group flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-1.5 landscape:py-1 landscape:px-2.5 text-xs landscape:text-[11px] font-semibold rounded-lg transition-all whitespace-nowrap shadow-xs ${
+              className={`group flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 max-lg:landscape:py-1 max-lg:landscape:px-2.5 text-xs sm:text-sm font-bold rounded-lg transition-all whitespace-nowrap shadow-xs ${
                 isActive
                   ? "bg-blue-600 text-white shadow-sm ring-1 ring-blue-600"
                   : isLocked

@@ -39,7 +39,7 @@ export const DataInterpretationVisual: React.FC<DataInterpretationVisualProps> =
         <img
           src={imageUrl}
           alt={`Question ${questionNumber} Diagram`}
-          className="max-h-[220px] sm:max-h-[340px] landscape:max-h-[150px] w-auto mx-auto object-contain rounded-lg cursor-pointer hover:opacity-95 transition-all"
+          className="max-h-[220px] sm:max-h-[380px] lg:max-h-[460px] max-lg:landscape:max-h-[150px] w-auto mx-auto object-contain rounded-lg cursor-pointer hover:opacity-95 transition-all"
           onClick={() => setIsZoomOpen(true)}
         />
         {isZoomOpen && (
