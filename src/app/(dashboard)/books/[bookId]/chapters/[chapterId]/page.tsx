@@ -651,7 +651,7 @@ export default function ChapterStudyHubPage() {
                               {opt.label}
                             </span>
                             <span className="leading-normal pt-0.5 flex-1">
-                              <MathRenderer text={opt.text} />
+                              <MathRenderer text={opt.text} inlineOnly />
                             </span>
                             {isAnswerRevealed && isCorrectOption && (
                               <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
@@ -916,7 +916,7 @@ export default function ChapterStudyHubPage() {
                               {opt.label}
                             </span>
                             <span className="leading-normal pt-0.5 flex-1">
-                              <MathRenderer text={opt.text} />
+                              <MathRenderer text={opt.text} inlineOnly />
                             </span>
                             {isAnswerRevealed && isCorrectOption && (
                               <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
@@ -1321,7 +1321,7 @@ export default function ChapterStudyHubPage() {
                               {opt.label}
                             </span>
                             <span className="leading-normal pt-0.5 flex-1">
-                              <MathRenderer text={opt.text} />
+                              <MathRenderer text={opt.text} inlineOnly />
                             </span>
                             {isAnswerRevealed && isCorrectOption && (
                               <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
@@ -1580,7 +1580,7 @@ export default function ChapterStudyHubPage() {
                               {opt.label}
                             </span>
                             <span className="leading-normal pt-0.5 flex-1">
-                              <MathRenderer text={opt.text} />
+                              <MathRenderer text={opt.text} inlineOnly />
                             </span>
                             {isAnswerRevealed && isCorrectOption && (
                               <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />

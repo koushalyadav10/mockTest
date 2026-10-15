@@ -161,7 +161,7 @@ export const QuestionReviewList: React.FC<QuestionReviewListProps> = ({ question
                     >
                       <span className="font-bold font-mono w-4">{opt.label}.</span>
                       <div className="flex-1">
-                        <MathRenderer text={opt.text} />
+                        <MathRenderer text={opt.text} inlineOnly />
                       </div>
                       {isThisCorrect && (
                         <span className="text-[10px] text-emerald-700 font-bold flex items-center gap-0.5 flex-shrink-0">

@@ -6,6 +6,7 @@ import katex from "katex";
 interface MathRendererProps {
   text: string;
   className?: string;
+  inlineOnly?: boolean;
 }
 
 /**
@@ -37,6 +38,22 @@ function parseMarkdownText(text: string, keyPrefix: string): React.ReactNode[] {
   return nodes;
 }
 
+const SUPERSCRIPT_MAP: Record<string, string> = {
+  "⁰": "0",
+  "¹": "1",
+  "²": "2",
+  "³": "3",
+  "⁴": "4",
+  "⁵": "5",
+  "⁶": "6",
+  "⁷": "7",
+  "⁸": "8",
+  "⁹": "9",
+  "⁺": "+",
+  "⁻": "-",
+  "ⁿ": "n",
+};
+
 /**
  * Auto-wrap unwrapped LaTeX math expressions and sanitize malformed tokens
  */
@@ -48,67 +65,120 @@ function sanitizeAndWrapLatex(text: string): string {
     .replace(/\/fskd/gi, "")
     .replace(/\/+(frac|sqrt|times|div|pm|circ|degree|pi|theta|alpha|beta)\b/gi, "\\$1");
 
-  // 2. Wrap unwrapped LaTeX commands and surrounding numbers/symbols
-  const parts = cleaned.split(/(\$\$[\s\S]*?\$\$|\$[^\$\n]+?\$)/g);
-  return parts
-    .map((part) => {
-      if (part.startsWith("$")) return part;
+  // 2. Protect existing math blocks ($$...$$ and $...$) so we never double-wrap
+  const mathPlaceholders: string[] = [];
+  const protect = (mathStr: string): string => {
+    const idx = mathPlaceholders.length;
+    mathPlaceholders.push(mathStr);
+    return `___MATH_PLACEHOLDER_${idx}___`;
+  };
 
-      let p = part;
+  let p = cleaned.replace(/(\$\$[\s\S]*?\$\$|\$[^\$\n]+?\$)/g, (match) => protect(match));
 
-      // Normalize unicode superscripts & roots
-      p = p.replace(/²/g, "^2").replace(/³/g, "^3").replace(/⁴/g, "^4").replace(/⁵/g, "^5");
-      p = p.replace(/∛\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[3]{$1}");
-      p = p.replace(/⁶√\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[6]{$1}");
-      p = p.replace(/④√\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[4]{$1}");
-      p = p.replace(/÷/g, " \\div ");
+  // 3. Normalize unicode superscripts & roots on non-math text
+  p = p.replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿ]+)/g, (m) => {
+    const mapped = [...m].map((ch) => SUPERSCRIPT_MAP[ch] || ch).join("");
+    return mapped.length === 1 ? `^${mapped}` : `^{${mapped}}`;
+  });
 
-      // Repeating decimal with overline
-      p = p.replace(/(\d+\.)(\d+)[\u0305\u0304]/g, "$1\\overline{$2}");
-      p = p.replace(/(\d+)[\u0305\u0304]/g, "\\overline{$1}");
-      p = p.replace(/(\d+\.\d+)̅/g, "\\overline{$1}");
+  p = p
+    .replace(/∛\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[3]{$1}")
+    .replace(/⁶√\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[6]{$1}")
+    .replace(/④√\s*([0-9a-zA-Z]+|\([^)]+\))/g, "\\sqrt[4]{$1}")
+    .replace(/÷/g, " \\div ");
 
-      // Auto-convert mixed fractions with %: e.g. "33 1/3%" or "2 21/29 %" -> "$33\frac{1}{3}\%$"
-      p = p.replace(/\b(\d+)\s+(\d+)\/(\d+)\s*%/g, (_, w, n, d) => `$${w}\\frac{${n}}{${d}}\\%$`);
-      // Auto-convert mixed fractions without %: e.g. "1852 1/3" -> "$1852\frac{1}{3}$"
-      p = p.replace(/(?<![\d/$])(\d+)\s+(\d+)\/(\d+)(?!\s*[%$/])/g, (_, w, n, d) => `$${w}\\frac{${n}}{${d}}$`);
-      // Auto-convert simple fractions with %: e.g. "175/4%" -> "$\frac{175}{4}\%$"
-      p = p.replace(/(?<![\d/$])(\d+)\/(\d+)\s*%/g, (_, n, d) => `$\\frac{${n}}{${d}}\\%$`);
-      // Auto-convert standalone option fractions: e.g. "17/200" or "3/4"
-      p = p.replace(/^\s*(\d+)\/(\d+)\s*$/, (_, n, d) => `$\\frac{${n}}{${d}}$`);
+  // Repeating decimal with overline
+  p = p
+    .replace(/(\d+\.)(\d+)[\u0305\u0304]/g, "$1\\overline{$2}")
+    .replace(/(\d+)[\u0305\u0304]/g, "\\overline{$1}")
+    .replace(/(\d+\.\d+)̅/g, "\\overline{$1}");
 
-      // Standalone roots: e.g. "√2" or "√67"
-      p = p.replace(/^\s*√\s*(\d+|\w+)\s*$/, (_, v) => `$\\sqrt{${v}}$`);
-      p = p.replace(/^\s*\\sqrt(\[\d+\])?\{[^}]+\}\s*$/, (m) => `$${m.trim()}$`);
+  // 4a. Brace fractions: {n(n + 1)(2n + 1)} / 6 -> \frac{n(n + 1)(2n + 1)}{6}
+  p = p.replace(/\{([^{}]+)\}\s*\/\s*(\{[^{}]+\}|\d+|[a-zA-Z]+)/g, (_, num, den) => {
+    const cleanDen = den.replace(/^\{|\}$/g, "").trim();
+    return protect(`$\\frac{${num.trim()}}{${cleanDen}}$`);
+  });
 
-      // Roots in expressions: √(inner) -> \sqrt{inner}
-      p = p.replace(/√\s*\(([^)]+)\)/g, (_, inner) => {
-        const cleanedInner = inner.replace(/(\b[a-zA-Z0-9]+)\s*\/\s*(\b[0-9]+)/g, "\\frac{$1}{$2}");
-        return `$\\sqrt{${cleanedInner}}$`;
-      });
-      p = p.replace(/√\s*\[([^\]]+)\]/g, (_, inner) => `$\\sqrt{${inner}}$`);
+  // 4b. Parenthesis fractions: (2n + 1) / 3 or (a + b) / (c + d)
+  p = p.replace(/\(([^()]+)\)\s*\/\s*(\([^()]+\)|\d+|[a-zA-Z]+)/g, (_, num, den) => {
+    const cleanDen = den.replace(/^\(|\)$/g, "").trim();
+    return protect(`$\\frac{${num.trim()}}{${cleanDen}}$`);
+  });
 
-      // Exponents: e.g. 2^(x+4) -> 2^{x+4}
-      p = p.replace(/(\d+|[a-zA-Z]|\([^)]+\))\^\(([^)]+)\)/g, "$1^{$2}");
+  // 4c. Mixed fractions with optional common units:
+  // e.g. "26 2/3 kg", "57 1/2 years", "33 1/3%", "1852 1/3", "7 1/2 दिन", "26 2/3 किग्रा"
+  const unitList =
+    "kg|g|mg|years?|months?|days?|hours?|hrs?|mins?|minutes?|sec|seconds?|km\\/h|m\\/s|km|m|cm|mm|%|percent|वर्ष|साल|दिन|घंटे|घंटा|मिनट|सेकंड|किग्रा|ग्राम|किमी|मीटर|सेमी|किमी\\/घंटा|लीटर|litres?|liters?";
+  const mixedFracWithUnitRegex = new RegExp(`(\\d+)\\s+(\\d+)\\/(\\d+)\\s*(${unitList})(?![a-zA-Z0-9])`, "gi");
+  p = p.replace(mixedFracWithUnitRegex, (_, w, n, d, u) => {
+    if (u === "%" || u.toLowerCase() === "percent") {
+      return protect(`$${w}\\frac{${n}}{${d}}\\%$`);
+    }
+    return protect(`$${w}\\frac{${n}}{${d}}\\text{ ${u}}$`);
+  });
 
-      return p.replace(
-        /((?:[-+±]|\b|\s|^)(?:[0-9.]*\s*)?\\[a-zA-Z]+(?:\{[^{}]*\}|\[[^\[\]]*\]|[0-9a-zA-Z_^{}\\+\-*\/])*)/g,
-        (m) => {
-          const trimmed = m.trim();
-          if (!trimmed) return m;
-          const leadingSpace = m.startsWith(" ") ? " " : "";
-          const trailingSpace = m.endsWith(" ") ? " " : "";
-          return `${leadingSpace}$${trimmed}$${trailingSpace}`;
-        }
-      );
-    })
-    .join("");
+  // Mixed fractions without units: "26 2/3" -> "$26\frac{2}{3}$"
+  p = p.replace(/(?<![\d/$])(\d+)\s+(\d+)\/(\d+)(?!\s*[%$/])/g, (_, w, n, d) => {
+    return protect(`$${w}\\frac{${n}}{${d}}$`);
+  });
+
+  // Simple fractions with unit or %: "175/4%" -> "$\frac{175}{4}\%$"
+  p = p.replace(/(?<![\d/$])(\d+)\/(\d+)\s*%/g, (_, n, d) => protect(`$\\frac{${n}}{${d}}\\%$`));
+
+  // Standalone simple fractions: "17/200" or "3/4"
+  p = p.replace(/^\s*(\d+)\/(\d+)\s*$/, (_, n, d) => protect(`$\\frac{${n}}{${d}}$`));
+
+  // 5. Roots:
+  p = p.replace(/^\s*√\s*(\d+|\w+)\s*$/, (_, v) => protect(`$\\sqrt{${v}}$`));
+  p = p.replace(/√\s*\(([^)]+)\)/g, (_, inner) => {
+    const cleanedInner = inner.replace(/(\b[a-zA-Z0-9]+)\s*\/\s*(\b[0-9]+)/g, "\\frac{$1}{$2}");
+    return protect(`$\\sqrt{${cleanedInner}}$`);
+  });
+  p = p.replace(/√\s*\[([^\]]+)\]/g, (_, inner) => protect(`$\\sqrt{${inner}}$`));
+  p = p.replace(/√\s*(\d+|[a-zA-Z]+)\b/g, (_, v) => protect(`$\\sqrt{${v}}$`));
+
+  // 6. Algebraic expressions containing powers (^):
+  // If the trimmed text is entirely an algebraic expression with powers (common in options, e.g. "rs (r^2 + s^2 - rs)")
+  const trimmed = p.trim();
+  const isEntirelyAlgebraic =
+    /^[a-zA-Z0-9\s()+\-*^/.]+(\s*=\s*[a-zA-Z0-9\s()+\-*^/.]+)?$/.test(trimmed) && trimmed.includes("^");
+  if (isEntirelyAlgebraic && !p.includes("___MATH_PLACEHOLDER_")) {
+    p = protect(`$${trimmed.replace(/\s+/g, " ")}$`);
+  } else {
+    // Standalone tokens or terms with carets in sentences: e.g. "r^4", "s^4", "x^2", "10^5", "2^(x+4)"
+    p = p.replace(/(?<![\$\w])([a-zA-Z0-9()]+\^[a-zA-Z0-9{}()+-]+)(?![\$\w])/g, (m) => {
+      const formatted = m.replace(/\^\(([^)]+)\)/g, "^{$1}");
+      return protect(`$${formatted}$`);
+    });
+  }
+
+  // Degree Celsius / Fahrenheit: 66^\circ C -> $66^\circ\text{C}$
+  p = p.replace(/\b(\d+(?:\.\d+)?)\s*\^\s*\\circ\s*([CF])\b/g, (_, val, unit) => {
+    return protect(`$${val}^\\circ\\text{${unit}}$`);
+  });
+
+  // 7. Unwrapped LaTeX commands: \frac, \sqrt, \alpha, \pm, \div, etc.
+  p = p.replace(
+    /((?:[-+±]|\b|\s|^)(?:[0-9.]*\s*)?\\[a-zA-Z]+(?:\{[^{}]*\}|\[[^\[\]]*\]|[0-9a-zA-Z_^{}\\+\-*\/])*)/g,
+    (m) => {
+      const tr = m.trim();
+      if (!tr || tr.startsWith("$") || tr.includes("___MATH_PLACEHOLDER_")) return m;
+      const leadingSpace = m.startsWith(" ") ? " " : "";
+      const trailingSpace = m.endsWith(" ") ? " " : "";
+      return `${leadingSpace}${protect(`$${tr}$`)}${trailingSpace}`;
+    }
+  );
+
+  // 8. Restore protected math blocks
+  return p.replace(/___MATH_PLACEHOLDER_(\d+)___/g, (_, idx) => {
+    return mathPlaceholders[parseInt(idx, 10)];
+  });
 }
 
 /**
  * Render inline text with KaTeX formulas and bold markdown
  */
-function renderInlineMath(content: string): React.ReactNode[] {
+function renderInlineMath(content: string, inlineOnly: boolean = false): React.ReactNode[] {
   if (!content) return [];
   const processedContent = sanitizeAndWrapLatex(content);
   const parts: React.ReactNode[] = [];
@@ -124,8 +194,10 @@ function renderInlineMath(content: string): React.ReactNode[] {
     }
 
     const rawMatch = match[0];
-    const isBlock = rawMatch.startsWith("$$") && rawMatch.endsWith("$$");
-    const formula = isBlock ? rawMatch.slice(2, -2).trim() : rawMatch.slice(1, -1).trim();
+    const isBlock = !inlineOnly && rawMatch.startsWith("$$") && rawMatch.endsWith("$$");
+    const formula = rawMatch.startsWith("$$") && rawMatch.endsWith("$$")
+      ? rawMatch.slice(2, -2).trim()
+      : rawMatch.slice(1, -1).trim();
 
     try {
       const html = katex.renderToString(formula, {
@@ -138,7 +210,11 @@ function renderInlineMath(content: string): React.ReactNode[] {
         <span
           key={`math-${match.index}`}
           dangerouslySetInnerHTML={{ __html: html }}
-          className={isBlock ? "block my-2 text-center" : "inline-block px-0.5"}
+          className={
+            isBlock
+              ? "block my-2 text-center"
+              : "inline-flex items-baseline whitespace-nowrap px-0.5 align-baseline"
+          }
         />
       );
     } catch (e) {
@@ -160,7 +236,7 @@ function renderInlineMath(content: string): React.ReactNode[] {
  * MathRenderer parses inline math ($...$), block math ($$...$$),
  * Markdown bold (**text**), and Markdown tables (| Col 1 | Col 2 |).
  */
-export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = "" }) => {
+export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = "", inlineOnly = false }) => {
   if (!text) return null;
 
   // Split content by lines to check for Markdown tables
@@ -176,8 +252,11 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
     if (currentTextBuffer.length > 0) {
       const blockText = currentTextBuffer.join("\n");
       elements.push(
-        <div key={`text-block-${elements.length}`} className="whitespace-pre-line">
-          {renderInlineMath(blockText)}
+        <div
+          key={`text-block-${elements.length}`}
+          className={inlineOnly ? "inline" : "whitespace-pre-line"}
+        >
+          {renderInlineMath(blockText, inlineOnly)}
         </div>
       );
       currentTextBuffer = [];
@@ -274,5 +353,11 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
   }
   flushTextBuffer();
 
-  return <div className={`font-sans leading-relaxed text-slate-900 ${className}`}>{elements}</div>;
+  return (
+    <div
+      className={`font-sans leading-relaxed text-slate-900 ${inlineOnly ? "inline" : ""} ${className}`}
+    >
+      {elements}
+    </div>
+  );
 };

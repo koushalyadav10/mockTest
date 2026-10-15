@@ -75,7 +75,7 @@ export const OptionCard: React.FC<OptionCardProps> = ({
 
       {/* Option Text with KaTeX and Hindi font support */}
       <div className="flex-1 text-[15px] sm:text-[18px] max-lg:landscape:text-[12px] font-semibold text-slate-900 leading-relaxed max-lg:landscape:leading-tight">
-        <MathRenderer text={text} />
+        <MathRenderer text={text} inlineOnly />
       </div>
 
       {/* Instant Feedback indicator badge */}

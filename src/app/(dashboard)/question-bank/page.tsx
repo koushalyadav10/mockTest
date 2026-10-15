@@ -1153,7 +1153,7 @@ export default function QuestionBankPage() {
                               {opt.label}
                             </span>
                             <div className="flex-1">
-                              <MathRenderer text={opt.text} />
+                              <MathRenderer text={opt.text} inlineOnly />
                             </div>
                             {isThisCorrect && (
                               <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />

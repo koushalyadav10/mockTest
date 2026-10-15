@@ -510,7 +510,7 @@ export const QuestionReviewEditor: React.FC<QuestionReviewEditorProps> = ({
                       {opt.label}.
                     </span>
                     <div className="flex-1 text-xs sm:text-sm text-slate-800">
-                      <MathRenderer text={opt.text} />
+                      <MathRenderer text={opt.text} inlineOnly />
                     </div>
                     {isDesignatedCorrect && (
                       <span className="text-[10px] bg-emerald-100 text-emerald-800 font-semibold px-2 py-0.5 rounded">
