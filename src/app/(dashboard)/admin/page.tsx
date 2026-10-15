@@ -562,15 +562,15 @@ export default function AdminDashboardPage() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 font-sans">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8 space-y-5 sm:space-y-8 font-sans">
       {/* 1. ADMIN HEADER */}
-      <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-200">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 sm:pb-6 border-b border-slate-200">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-purple-50 text-purple-700 text-xs font-bold mb-1 border border-purple-200">
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-purple-50 text-purple-700 text-[11px] sm:text-xs font-bold mb-1 border border-purple-200">
             <ShieldCheck className="w-3.5 h-3.5 text-purple-600" />
             <span>Platform Controller &bull; Full Strict RBAC</span>
           </div>
-          <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+          <h1 className="text-xl sm:text-3xl font-black text-slate-900 tracking-tight">
             Administrator Command Center
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
@@ -578,44 +578,44 @@ export default function AdminDashboardPage() {
           </p>
         </div>
 
-        <div className="flex items-center gap-3">
-          <Link href="/admin/books">
+        <div className="grid grid-cols-3 sm:flex items-center gap-2 w-full sm:w-auto">
+          <Link href="/admin/books" className="w-full">
             <button
               type="button"
-              className="px-4 py-2 rounded-xl border border-purple-300 bg-purple-50 hover:bg-purple-100 text-purple-800 font-bold text-xs shadow-2xs transition-all flex items-center gap-1.5"
+              className="w-full justify-center px-2 sm:px-4 py-2 rounded-xl border border-purple-300 bg-purple-50 hover:bg-purple-100 text-purple-800 font-bold text-[11px] sm:text-xs shadow-2xs transition-all flex items-center gap-1.5"
             >
-              <BookOpen className="w-4 h-4 text-purple-600" />
-              <span>Book Library</span>
+              <BookOpen className="w-3.5 h-3.5 text-purple-600 shrink-0" />
+              <span className="truncate">Book Library</span>
             </button>
           </Link>
 
-          <Link href="/upload">
+          <Link href="/upload" className="w-full">
             <button
               type="button"
-              className="px-4 py-2 rounded-xl border border-slate-300 bg-white hover:border-slate-400 text-slate-700 font-bold text-xs shadow-2xs transition-all flex items-center gap-1.5"
+              className="w-full justify-center px-2 sm:px-4 py-2 rounded-xl border border-slate-300 bg-white hover:border-slate-400 text-slate-700 font-bold text-[11px] sm:text-xs shadow-2xs transition-all flex items-center gap-1.5"
             >
-              <Upload className="w-4 h-4 text-teal-600" />
-              <span>Upload PDF / OCR</span>
+              <Upload className="w-3.5 h-3.5 text-teal-600 shrink-0" />
+              <span className="truncate">Upload / OCR</span>
             </button>
           </Link>
 
-          <Link href="/admin/test-builder">
+          <Link href="/admin/test-builder" className="w-full">
             <button
               type="button"
-              className="px-4 py-2 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-xs shadow-xs transition-all flex items-center gap-1.5"
+              className="w-full justify-center px-2 sm:px-4 py-2 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-[11px] sm:text-xs shadow-xs transition-all flex items-center gap-1.5"
             >
-              <PlusCircle className="w-4 h-4 text-teal-400" />
-              <span>Test Builder</span>
+              <PlusCircle className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+              <span className="truncate">Test Builder</span>
             </button>
           </Link>
         </div>
       </div>
 
       {/* 2. ADMIN NAVIGATION TABS */}
-      <div className="flex items-center gap-2 border-b border-slate-200 overflow-x-auto pb-px">
+      <div className="flex items-center gap-1.5 sm:gap-2 border-b border-slate-200 overflow-x-auto pb-px no-scrollbar">
         <button
           onClick={() => setActiveTab("OVERVIEW")}
-          className={`px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-2 border-b-2 ${
+          className={`px-3 sm:px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-1.5 sm:gap-2 border-b-2 shrink-0 whitespace-nowrap ${
             activeTab === "OVERVIEW"
               ? "border-blue-600 text-blue-700 bg-blue-50/50"
               : "border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-50"
@@ -627,7 +627,7 @@ export default function AdminDashboardPage() {
 
         <button
           onClick={() => setActiveTab("SUBMISSIONS")}
-          className={`px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-2 border-b-2 shrink-0 ${
+          className={`px-3 sm:px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-1.5 sm:gap-2 border-b-2 shrink-0 whitespace-nowrap ${
             activeTab === "SUBMISSIONS"
               ? "border-emerald-600 text-emerald-700 bg-emerald-50/50"
               : "border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-50"
@@ -644,7 +644,7 @@ export default function AdminDashboardPage() {
 
         <button
           onClick={() => setActiveTab("USERS")}
-          className={`px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-2 border-b-2 ${
+          className={`px-3 sm:px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-1.5 sm:gap-2 border-b-2 shrink-0 whitespace-nowrap ${
             activeTab === "USERS"
               ? "border-blue-600 text-blue-700 bg-blue-50/50"
               : "border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-50"
@@ -659,7 +659,7 @@ export default function AdminDashboardPage() {
 
         <button
           onClick={() => setActiveTab("TEACHERS")}
-          className={`px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-2 border-b-2 ${
+          className={`px-3 sm:px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-1.5 sm:gap-2 border-b-2 shrink-0 whitespace-nowrap ${
             activeTab === "TEACHERS"
               ? "border-purple-600 text-purple-700 bg-purple-50/50"
               : "border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-50"
@@ -674,7 +674,7 @@ export default function AdminDashboardPage() {
 
         <button
           onClick={() => setActiveTab("AUDIT_LOGS")}
-          className={`px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-2 border-b-2 ${
+          className={`px-3 sm:px-4 py-2.5 text-xs font-bold rounded-t-xl transition-all flex items-center gap-1.5 sm:gap-2 border-b-2 shrink-0 whitespace-nowrap ${
             activeTab === "AUDIT_LOGS"
               ? "border-slate-800 text-slate-900 bg-slate-100/70"
               : "border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-50"
@@ -691,60 +691,60 @@ export default function AdminDashboardPage() {
       {activeTab === "OVERVIEW" && (
         <div className="space-y-8 animate-in fade-in duration-200">
           {/* STATS CARDS GRID */}
-          <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
-            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5 sm:gap-4">
+            <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 shadow-2xs space-y-1">
               <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
                 <span>Total Students</span>
                 <Users className="w-4 h-4 text-blue-600" />
               </div>
-              <div className="text-3xl font-black font-mono text-slate-900 tabular-nums">
+              <div className="text-2xl sm:text-3xl font-black font-mono text-slate-900 tabular-nums">
                 {stats.totalStudents}
               </div>
-              <div className="text-[11px] text-emerald-600 font-medium">Registered Candidates</div>
+              <div className="text-[10px] sm:text-[11px] text-emerald-600 font-medium">Registered Candidates</div>
             </div>
 
-            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+            <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 shadow-2xs space-y-1">
               <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
                 <span>Faculty Members</span>
                 <GraduationCap className="w-4 h-4 text-purple-600" />
               </div>
-              <div className="text-3xl font-black font-mono text-slate-900 tabular-nums">
+              <div className="text-2xl sm:text-3xl font-black font-mono text-slate-900 tabular-nums">
                 {stats.totalTeachers}
               </div>
-              <div className="text-[11px] text-purple-700 font-medium">Provisioned Teachers</div>
+              <div className="text-[10px] sm:text-[11px] text-purple-700 font-medium">Provisioned Teachers</div>
             </div>
 
-            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+            <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 shadow-2xs space-y-1">
               <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
                 <span>Question Bank</span>
                 <BookOpen className="w-4 h-4 text-teal-600" />
               </div>
-              <div className="text-3xl font-black font-mono text-slate-900 tabular-nums">
+              <div className="text-2xl sm:text-3xl font-black font-mono text-slate-900 tabular-nums">
                 {stats.totalQuestions}
               </div>
-              <div className="text-[11px] text-teal-700 font-medium">Extracted &amp; Curated</div>
+              <div className="text-[10px] sm:text-[11px] text-teal-700 font-medium">Extracted &amp; Curated</div>
             </div>
 
-            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+            <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 shadow-2xs space-y-1">
               <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
                 <span>Exams &amp; Tests</span>
                 <FileCheck2 className="w-4 h-4 text-amber-600" />
               </div>
-              <div className="text-3xl font-black font-mono text-slate-900 tabular-nums">
+              <div className="text-2xl sm:text-3xl font-black font-mono text-slate-900 tabular-nums">
                 {stats.totalTests}
               </div>
-              <div className="text-[11px] text-amber-800 font-medium">Live Blueprints</div>
+              <div className="text-[10px] sm:text-[11px] text-amber-800 font-medium">Live Blueprints</div>
             </div>
 
-            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-1 col-span-2 sm:col-span-1">
+            <div className="bg-white p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 shadow-2xs space-y-1 col-span-2 sm:col-span-1">
               <div className="flex items-center justify-between text-xs text-slate-500 font-semibold">
                 <span>Total Attempts</span>
                 <PlayCircle className="w-4 h-4 text-rose-600" />
               </div>
-              <div className="text-3xl font-black font-mono text-slate-900 tabular-nums">
+              <div className="text-2xl sm:text-3xl font-black font-mono text-slate-900 tabular-nums">
                 {stats.totalAttempts}
               </div>
-              <div className="text-[11px] text-slate-500 font-medium">Submissions Scored</div>
+              <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium">Submissions Scored</div>
             </div>
           </div>
 
@@ -834,7 +834,7 @@ export default function AdminDashboardPage() {
                     return (
                       <div
                         key={cand.id}
-                        className={`p-4 flex items-center justify-between gap-3 text-xs transition-colors ${
+                        className={`p-3.5 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-3 text-xs transition-colors ${
                           isRunning ? "bg-emerald-50/40" : "hover:bg-slate-50/70"
                         }`}
                       >
@@ -911,7 +911,7 @@ export default function AdminDashboardPage() {
                     <Link
                       key={att.id}
                       href={`/mock/${att.id}/result`}
-                      className="p-4 flex items-center justify-between gap-3 text-xs hover:bg-slate-50 transition-colors group"
+                      className="p-3.5 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-3 text-xs hover:bg-slate-50 transition-colors group"
                       title="Click to view detailed mock result"
                     >
                       <div>
@@ -1246,7 +1246,7 @@ export default function AdminDashboardPage() {
             {/* Row 2: Search Input & Controls */}
             <div className="flex flex-wrap items-center justify-between gap-3">
             {/* Search Input */}
-            <div className="flex items-center gap-2 flex-1 min-w-[240px] max-w-md">
+            <div className="flex items-center gap-2 w-full md:w-auto md:flex-1 md:max-w-md">
               <div className="relative flex-1">
                 <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
                 <input
@@ -2134,8 +2134,122 @@ export default function AdminDashboardPage() {
             </div>
           </div>
 
-          {/* Users Table */}
-          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
+          {/* MOBILE CANDIDATE CARDS (Visible on phones) */}
+          <div className="block sm:hidden space-y-3">
+            {usersLoading ? (
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center text-xs text-slate-500">
+                <RefreshCw className="w-5 h-5 animate-spin mx-auto text-blue-600 mb-2" />
+                Loading candidate roster...
+              </div>
+            ) : users.length === 0 ? (
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center text-xs text-slate-400">
+                No users matching filter criteria.
+              </div>
+            ) : (
+              users.map((u) => {
+                const isWorking = userActionLoadingId === u.id;
+                return (
+                  <div key={u.id} className="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs space-y-3">
+                    <div className="flex items-start justify-between gap-2">
+                      <div>
+                        <div className="font-bold text-slate-900 text-sm">{u.name}</div>
+                        <div className="text-[11px] text-slate-500 font-mono flex items-center gap-1 mt-0.5">
+                          <span className="truncate max-w-[200px]">{u.email}</span>
+                          {u.isEmailVerified && (
+                            <span title="Email Verified">
+                              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                      <span
+                        className={`text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0 ${
+                          u.status === "ACTIVE"
+                            ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                            : "bg-rose-50 text-rose-700 border border-rose-200"
+                        }`}
+                      >
+                        {u.status || "ACTIVE"}
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-2 p-2.5 bg-slate-50 rounded-xl text-xs font-mono">
+                      <div>
+                        <span className="text-[10px] text-slate-400 block font-sans">Roll Number:</span>
+                        <span className="font-bold text-slate-700">{u.studentRollNo || "--"}</span>
+                      </div>
+                      <div>
+                        <span className="text-[10px] text-slate-400 block font-sans">Exams Taken:</span>
+                        <span className="font-bold text-blue-600">{u._count?.testAttempts ?? 0}</span>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-100">
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-xs text-slate-500 font-semibold">Role:</span>
+                        <select
+                          value={u.role}
+                          onChange={(e) => handleChangeRole(u.id, e.target.value)}
+                          disabled={isWorking}
+                          className={`text-[11px] font-bold px-2 py-1 rounded-lg border ${
+                            u.role === "ADMIN"
+                              ? "bg-purple-50 text-purple-700 border-purple-200"
+                              : u.role === "TEACHER"
+                              ? "bg-teal-50 text-teal-700 border-teal-200"
+                              : "bg-blue-50 text-blue-700 border-blue-200"
+                          }`}
+                        >
+                          <option value="STUDENT">STUDENT</option>
+                          <option value="TEACHER">TEACHER</option>
+                          <option value="ADMIN">ADMIN</option>
+                        </select>
+                      </div>
+
+                      <div className="flex items-center gap-1.5">
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          isLoading={isWorking}
+                          onClick={() => handleToggleUserStatus(u)}
+                          className={`text-[11px] font-bold py-1 px-2.5 ${
+                            u.status === "ACTIVE"
+                              ? "text-slate-700 hover:text-slate-900 hover:bg-slate-50 border-slate-200"
+                              : "text-emerald-700 hover:text-emerald-800 hover:bg-emerald-50 border-emerald-200"
+                          }`}
+                        >
+                          {u.status === "ACTIVE" ? (
+                            <>
+                              <Lock className="w-3 h-3 mr-1" />
+                              Suspend
+                            </>
+                          ) : (
+                            <>
+                              <Unlock className="w-3 h-3 mr-1" />
+                              Activate
+                            </>
+                          )}
+                        </Button>
+
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          isLoading={deletingUserId === u.id}
+                          onClick={() => handleDeleteUser(u)}
+                          className="text-[11px] font-bold text-rose-600 hover:text-rose-700 hover:bg-rose-50 border-rose-200 py-1 px-2"
+                          title="Permanently delete candidate account and test records"
+                        >
+                          <Trash2 className="w-3 h-3" />
+                        </Button>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })
+            )}
+          </div>
+
+          {/* Users Table (Desktop View) */}
+          <div className="hidden sm:block bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs">
                 <thead className="bg-slate-50 text-slate-700 font-bold uppercase text-[10px] border-b border-slate-200">
@@ -2295,8 +2409,68 @@ export default function AdminDashboardPage() {
             </Button>
           </div>
 
-          {/* Teachers Roster Table */}
-          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
+          {/* MOBILE TEACHER CARDS (Visible on phones) */}
+          <div className="block sm:hidden space-y-3">
+            {teachersLoading ? (
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center text-xs text-slate-500">
+                <RefreshCw className="w-5 h-5 animate-spin mx-auto text-purple-600 mb-2" />
+                Loading faculty roster...
+              </div>
+            ) : teachers.length === 0 ? (
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center text-xs text-slate-400">
+                No faculty accounts provisioned yet. Use the button above to add a teacher.
+              </div>
+            ) : (
+              teachers.map((t) => (
+                <div key={t.id} className="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs space-y-2.5">
+                  <div className="flex items-start justify-between gap-2">
+                    <div>
+                      <div className="font-bold text-slate-900 text-sm">{t.name}</div>
+                      <div className="text-[11px] text-slate-500 font-mono mt-0.5">{t.email}</div>
+                    </div>
+                    <span
+                      className={`text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0 ${
+                        t.status === "ACTIVE"
+                          ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                          : "bg-rose-50 text-rose-700 border border-rose-200"
+                      }`}
+                    >
+                      {t.status}
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-2 p-2.5 bg-slate-50 rounded-xl text-xs">
+                    <div>
+                      <span className="text-[10px] text-slate-400 block font-sans">Department:</span>
+                      <span className="font-semibold text-slate-700 truncate block">
+                        {t.department || "General Examination"}
+                      </span>
+                    </div>
+                    <div>
+                      <span className="text-[10px] text-slate-400 block font-sans">Papers Uploaded:</span>
+                      <span className="font-bold font-mono text-purple-700">
+                        {t._count?.uploadedDocuments ?? 0} Papers
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="text-[10px] text-slate-400 font-mono pt-1 border-t border-slate-100 flex items-center justify-between">
+                    <span>Provisioned On:</span>
+                    <span>
+                      {new Date(t.createdAt).toLocaleDateString("en-IN", {
+                        day: "2-digit",
+                        month: "short",
+                        year: "numeric",
+                      })}
+                    </span>
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+
+          {/* Teachers Roster Table (Desktop View) */}
+          <div className="hidden sm:block bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs">
                 <thead className="bg-slate-50 text-slate-700 font-bold uppercase text-[10px] border-b border-slate-200">
@@ -2409,7 +2583,66 @@ export default function AdminDashboardPage() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
+          {/* MOBILE AUDIT LOG CARDS (Visible on phones) */}
+          <div className="block sm:hidden space-y-3">
+            {auditLogsLoading ? (
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center text-xs text-slate-500">
+                <RefreshCw className="w-5 h-5 animate-spin mx-auto text-slate-600 mb-2" />
+                Loading audit logs...
+              </div>
+            ) : auditLogs.length === 0 ? (
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center text-xs text-slate-400">
+                No audit events recorded under this filter.
+              </div>
+            ) : (
+              auditLogs.map((log) => (
+                <div key={log.id} className="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs space-y-2">
+                  <div className="flex items-start justify-between gap-2">
+                    <span
+                      className={`text-[10px] font-bold font-mono px-2 py-0.5 rounded ${
+                        log.action.includes("PUBLISH")
+                          ? "bg-emerald-50 text-emerald-800 border border-emerald-200"
+                          : log.action.includes("TEACHER")
+                          ? "bg-purple-50 text-purple-800 border border-purple-200"
+                          : log.action.includes("USER")
+                          ? "bg-amber-50 text-amber-800 border border-amber-200"
+                          : "bg-slate-100 text-slate-800"
+                      }`}
+                    >
+                      {log.action}
+                    </span>
+                    <span className="text-[10px] font-mono text-slate-400">
+                      {new Date(log.timestamp).toLocaleDateString("en-IN", {
+                        day: "2-digit",
+                        month: "short",
+                        hour: "2-digit",
+                        minute: "2-digit",
+                      })}
+                    </span>
+                  </div>
+
+                  <div className="text-xs text-slate-700">
+                    <div className="font-medium text-slate-900">
+                      User: <span className="font-mono text-slate-600">{log.userEmail || "System / Automated"}</span>
+                    </div>
+                    {log.entity && (
+                      <div className="text-[11px] text-slate-500 font-mono mt-0.5">
+                        Target: {log.entity}
+                      </div>
+                    )}
+                    {log.details && (
+                      <div className="mt-1.5 p-2 bg-slate-50 rounded-lg border border-slate-100 text-[11px] text-slate-600">
+                        {log.details}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+
+          {/* Audit Logs Table (Desktop View) */}
+          <div className="hidden sm:block bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-2xs">
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs">
                 <thead className="bg-slate-50 text-slate-700 font-bold uppercase text-[10px] border-b border-slate-200">

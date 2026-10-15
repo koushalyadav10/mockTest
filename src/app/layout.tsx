@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "katex/dist/katex.min.css";
 import { Navbar } from "@/components/Navbar";
@@ -6,11 +6,18 @@ import { PwaInstallPrompt } from "@/components/pwa/PwaInstallPrompt";
 import { AppSplashScreen } from "@/components/pwa/AppSplashScreen";
 import { MobileBottomNav } from "@/components/pwa/MobileBottomNav";
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: "cover",
+  themeColor: "#5a4bda",
+};
+
 export const metadata: Metadata = {
   title: "StudyBae | Smart CBT Mock Test & Practice Engine",
   description: "StudyBae — Mock Tests • Real Progress • Together. AI-Powered CBT Mock-Test and Practice Platform.",
   manifest: "/manifest.json",
-  themeColor: "#2563eb",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
