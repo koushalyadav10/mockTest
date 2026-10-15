@@ -502,6 +502,7 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
         candidateName={candidate?.name || testData?.candidate?.name || "Candidate"}
         candidateRollNumber={candidate?.rollNumber || testData?.candidate?.studentRollNo || "EF-100179719"}
         onTimerExpire={handleFinalSubmit}
+        onSubmitPrompt={() => setIsSubmitModalOpen(true)}
         timerKey={params.id}
       />
 
@@ -571,6 +572,8 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
         onToggleMobilePalette={() => setIsMobilePaletteOpen(true)}
         currentQuestionNumber={currentIndex + 1}
         totalQuestions={questions.length}
+        examTitle={examConfig.title}
+        activeSectionName={currentQ?.subject || "General Section"}
       />
 
       {/* Mobile Question Palette Drawer (Slide-Up Bottom Sheet) */}

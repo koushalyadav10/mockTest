@@ -73,15 +73,38 @@ export default function LoginPage() {
 
   // Handle OTP digit inputs
   const handleDigitChange = (index: number, val: string) => {
-    const clean = val.replace(/\D/g, "");
+    const digitsOnly = val.replace(/\D/g, "");
+    if (!digitsOnly) {
+      const updated = [...otpDigits];
+      updated[index] = "";
+      setOtpDigits(updated);
+      return;
+    }
+
+    // Support pasting full OTP code
+    if (digitsOnly.length > 1) {
+      const updated = [...otpDigits];
+      for (let i = 0; i < 6; i++) {
+        if (digitsOnly[i]) updated[i] = digitsOnly[i];
+      }
+      setOtpDigits(updated);
+      const nextFocus = Math.min(digitsOnly.length, 5);
+      document.getElementById(`otp-box-${nextFocus}`)?.focus();
+      return;
+    }
+
+    const clean = digitsOnly.slice(-1);
     const updated = [...otpDigits];
-    updated[index] = clean.slice(-1);
+    updated[index] = clean;
     setOtpDigits(updated);
 
     // Auto-advance to next box
     if (clean && index < 5) {
-      const nextInput = document.getElementById(`otp-box-${index + 1}`);
-      nextInput?.focus();
+      const nextInput = document.getElementById(`otp-box-${index + 1}`) as HTMLInputElement;
+      if (nextInput) {
+        nextInput.focus();
+        nextInput.select?.();
+      }
     }
   };
 
@@ -416,7 +439,10 @@ export default function LoginPage() {
                     <input
                       key={idx}
                       id={`otp-box-${idx}`}
-                      type="text"
+                      type="tel"
+                      inputMode="numeric"
+                      pattern="[0-9]*"
+                      autoComplete={idx === 0 ? "one-time-code" : "off"}
                       maxLength={1}
                       value={digit}
                       onChange={(e) => handleDigitChange(idx, e.target.value)}

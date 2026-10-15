@@ -47,7 +47,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-[#f6f8fa] text-slate-800 font-sans antialiased pb-16 lg:pb-0">
+      <body className="min-h-screen flex flex-col bg-[#f6f8fa] text-slate-800 font-sans antialiased">
         {/* Dynamic App Splash Animation Screen on Open */}
         <AppSplashScreen />
         <Navbar />

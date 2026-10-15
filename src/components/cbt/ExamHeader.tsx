@@ -13,6 +13,7 @@ interface ExamHeaderProps {
   candidateName?: string;
   candidateRollNumber?: string;
   onTimerExpire: () => void;
+  onSubmitPrompt?: () => void;
   timerKey?: string;
 }
 
@@ -24,6 +25,7 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
   candidateName = "Aditya Sharma",
   candidateRollNumber = "SSC2026-CHSL-88491",
   onTimerExpire,
+  onSubmitPrompt,
   timerKey,
 }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -57,68 +59,122 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
 
   return (
     <>
-      <header className="bg-slate-900 text-slate-100 border-b border-slate-800 px-3.5 sm:px-6 py-2.5 sm:py-3.5 max-lg:landscape:py-1 max-lg:landscape:px-3 flex items-center justify-between select-none shadow-md z-30">
-        {/* Left: Exam and Section */}
-        <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
-            <span className="font-bold tracking-tight text-white text-xs sm:text-base md:text-lg truncate max-w-[150px] sm:max-w-xs md:max-w-none">
-              {formatCleanChapterTitle(examTitle)}
+      <header className="bg-slate-900 text-slate-100 border-b border-slate-800 px-2.5 sm:px-6 py-2 sm:py-3.5 max-lg:landscape:py-1 max-lg:landscape:px-3 flex items-center justify-between select-none shadow-md z-30">
+        {/* MOBILE VIEW (Image 2): Left Timer | Center Useful Badge + Fullscreen | Right Submit */}
+        <div className="flex lg:hidden items-center justify-between w-full gap-1.5">
+          {/* Left: Timer */}
+          <div className="shrink-0">
+            <ExamTimer
+              initialRemainingSeconds={remainingSeconds}
+              onExpire={onTimerExpire}
+              timerKey={timerKey}
+            />
+          </div>
+
+          {/* Center: Useful Section Badge + Fullscreen Toggle */}
+          <div className="flex items-center gap-1.5 min-w-0">
+            <div className="px-2 py-1 rounded-md bg-blue-950/80 border border-blue-500/30 text-blue-200 text-[11px] font-bold truncate max-w-[110px] sm:max-w-[150px]">
+              {activeSectionName}
+            </div>
+            <button
+              onClick={toggleFullscreen}
+              title={isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen"}
+              className="p-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors border border-slate-700 shrink-0"
+            >
+              {isFullscreen ? (
+                <Minimize2 className="w-3.5 h-3.5 text-emerald-400" />
+              ) : (
+                <Maximize2 className="w-3.5 h-3.5" />
+              )}
+            </button>
+          </div>
+
+          {/* Right: Submit Button in Header (matching user Image 2) */}
+          {onSubmitPrompt && (
+            <button
+              onClick={onSubmitPrompt}
+              className="px-2.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-1 shadow-sm shrink-0 active:scale-95 transition-all"
+            >
+              <CheckCircle2 className="w-3.5 h-3.5 text-white" />
+              <span>Submit</span>
+            </button>
+          )}
+        </div>
+
+        {/* DESKTOP VIEW (Spacious Laptop Layout) */}
+        <div className="hidden lg:flex items-center justify-between w-full">
+          {/* Left: Exam and Section */}
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
+              <span className="font-bold tracking-tight text-white text-base md:text-lg">
+                {formatCleanChapterTitle(examTitle)}
+              </span>
+            </div>
+            <span className="text-slate-500">|</span>
+            <span className="text-xs bg-slate-800 text-slate-300 border border-slate-700 px-2.5 py-0.5 rounded font-medium">
+              Section: {activeSectionName}
             </span>
           </div>
-          <span className="text-slate-500 hidden md:inline">|</span>
-          <span className="text-xs bg-slate-800 text-slate-300 border border-slate-700 px-2.5 py-0.5 rounded font-medium hidden md:inline">
-            Section: {activeSectionName}
-          </span>
-        </div>
 
-        {/* Center: Realtime Auto-Save Status */}
-        <div className="hidden lg:flex items-center gap-1.5 text-xs text-slate-400">
-          {syncStatus === "SAVED" && (
-            <>
-              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-              <span className="text-slate-300">Responses saved</span>
-            </>
-          )}
-          {syncStatus === "SYNCING" && (
-            <>
-              <RefreshCw className="w-3.5 h-3.5 text-blue-400 animate-spin" />
-              <span className="text-slate-300">Syncing responses...</span>
-            </>
-          )}
-          {syncStatus === "OFFLINE" && (
-            <>
-              <WifiOff className="w-3.5 h-3.5 text-amber-400" />
-              <span className="text-amber-300">Offline — cached locally</span>
-            </>
-          )}
-        </div>
-
-        {/* Right: Timer, Fullscreen & Candidate Details */}
-        <div className="flex items-center gap-3">
-          <ExamTimer
-            initialRemainingSeconds={remainingSeconds}
-            onExpire={onTimerExpire}
-            timerKey={timerKey}
-          />
-
-          <button
-            onClick={toggleFullscreen}
-            title={isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen Examination Mode"}
-            className="p-1.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors border border-slate-700"
-          >
-            {isFullscreen ? (
-              <Minimize2 className="w-4 h-4 text-emerald-400" />
-            ) : (
-              <Maximize2 className="w-4 h-4" />
+          {/* Center: Realtime Auto-Save Status */}
+          <div className="flex items-center gap-1.5 text-xs text-slate-400">
+            {syncStatus === "SAVED" && (
+              <>
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                <span className="text-slate-300">Responses saved</span>
+              </>
             )}
-          </button>
+            {syncStatus === "SYNCING" && (
+              <>
+                <RefreshCw className="w-3.5 h-3.5 text-blue-400 animate-spin" />
+                <span className="text-slate-300">Syncing responses...</span>
+              </>
+            )}
+            {syncStatus === "OFFLINE" && (
+              <>
+                <WifiOff className="w-3.5 h-3.5 text-amber-400" />
+                <span className="text-amber-300">Offline — cached locally</span>
+              </>
+            )}
+          </div>
 
-          <div className="hidden sm:flex items-center gap-2 pl-3 border-l border-slate-700 text-xs">
-            <span className="text-slate-400 font-medium">Stu. ID :</span>
-            <span className="font-mono font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-slate-700">
-              {candidateRollNumber.replace("SSC2026-CHSL-", "").replace("EF-", "")}
-            </span>
+          {/* Right: Timer, Fullscreen, Stu. ID, and Submit */}
+          <div className="flex items-center gap-3">
+            <ExamTimer
+              initialRemainingSeconds={remainingSeconds}
+              onExpire={onTimerExpire}
+              timerKey={timerKey}
+            />
+
+            <button
+              onClick={toggleFullscreen}
+              title={isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen Examination Mode"}
+              className="p-1.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors border border-slate-700"
+            >
+              {isFullscreen ? (
+                <Minimize2 className="w-4 h-4 text-emerald-400" />
+              ) : (
+                <Maximize2 className="w-4 h-4" />
+              )}
+            </button>
+
+            <div className="flex items-center gap-2 pl-3 border-l border-slate-700 text-xs">
+              <span className="text-slate-400 font-medium">Stu. ID :</span>
+              <span className="font-mono font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-slate-700">
+                {candidateRollNumber.replace("SSC2026-CHSL-", "").replace("EF-", "")}
+              </span>
+            </div>
+
+            {onSubmitPrompt && (
+              <button
+                onClick={onSubmitPrompt}
+                className="ml-2 px-3 py-1 rounded bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-1 shadow-sm transition-all"
+              >
+                <CheckCircle2 className="w-3.5 h-3.5 text-white" />
+                <span>Submit</span>
+              </button>
+            )}
           </div>
         </div>
       </header>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   ZoomIn,
   Image as ImageIcon,
@@ -12,6 +12,7 @@ import {
   AlertCircle,
   Languages,
   FileText,
+  Loader2,
 } from "lucide-react";
 import { MathRenderer } from "../math/MathRenderer";
 import { OptionCard } from "./OptionCard";
@@ -86,6 +87,14 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 }) => {
   const [isZoomOpen, setIsZoomOpen] = useState(false);
   const [questionLang, setQuestionLang] = useState<"en" | "hi">("en");
+  const [translatedMap, setTranslatedMap] = useState<Record<string, {
+    questionText: string;
+    typeHeader?: string;
+    directionText?: string | null;
+    options: Record<string, string>;
+    explanation?: string | null;
+  }>>({});
+  const [isTranslating, setIsTranslating] = useState(false);
 
   const { cleanQuestionText, examTag: inlineTag, year: parsedYear, examName: parsedExam } = extractExamTag(questionText, tags || exam);
   const rawTag = inlineTag || (exam && exam !== "CBT Assessment" ? exam : null) || (year ? `Exam ${year}` : null);
@@ -99,6 +108,61 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     typeHeader = typeMatch[1].trim();
     displayQuestionText = cleanQuestionText.replace(/\[Type:\s*[^\]]+\]\s*/i, "").trim();
   }
+
+  // Question translation key
+  const questionKey = `q_${questionNumber}_${displayQuestionText.slice(0, 35)}`;
+
+  useEffect(() => {
+    if (questionLang !== "hi") return;
+    if (translatedMap[questionKey]) return;
+
+    let isMounted = true;
+    setIsTranslating(true);
+
+    const texts = [
+      displayQuestionText,
+      typeHeader || "",
+      directionText || "",
+      explanation || "",
+      ...options.map((o) => o.text),
+    ];
+
+    fetch("/api/translate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ texts, targetLang: "hi" }),
+    })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (!isMounted || !data?.translatedTexts) return;
+        const [qText, tHeader, dText, exp, ...optTexts] = data.translatedTexts;
+        const optMap: Record<string, string> = {};
+        options.forEach((opt, idx) => {
+          optMap[opt.stableId] = optTexts[idx] || opt.text;
+        });
+
+        setTranslatedMap((prev) => ({
+          ...prev,
+          [questionKey]: {
+            questionText: qText || displayQuestionText,
+            typeHeader: tHeader || typeHeader,
+            directionText: dText || directionText,
+            options: optMap,
+            explanation: exp || explanation,
+          },
+        }));
+      })
+      .catch((err) => {
+        console.warn("Failed to fetch full translation:", err);
+      })
+      .finally(() => {
+        if (isMounted) setIsTranslating(false);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [questionLang, questionKey, displayQuestionText, typeHeader, directionText, explanation, options]);
 
   // Determine whether to display Data Interpretation visual card
   const isDataInterpretation =
@@ -115,9 +179,23 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     Boolean(imageUrl);
 
   // Bilingual translation support
-  const activeQuestionText = questionLang === "hi" ? translateTextToHindi(displayQuestionText) : displayQuestionText;
-  const activeTypeHeader = questionLang === "hi" && typeHeader ? translateTextToHindi(typeHeader) : typeHeader;
-  const activeExplanation = questionLang === "hi" ? translateExplanationToHindi(explanation) : explanation;
+  const currentTranslation = translatedMap[questionKey];
+  const activeQuestionText =
+    questionLang === "hi"
+      ? currentTranslation?.questionText || translateTextToHindi(displayQuestionText)
+      : displayQuestionText;
+  const activeTypeHeader =
+    questionLang === "hi"
+      ? currentTranslation?.typeHeader || (typeHeader ? translateTextToHindi(typeHeader) : typeHeader)
+      : typeHeader;
+  const activeDirectionText =
+    questionLang === "hi"
+      ? currentTranslation?.directionText || directionText
+      : directionText;
+  const activeExplanation =
+    questionLang === "hi"
+      ? currentTranslation?.explanation || translateExplanationToHindi(explanation)
+      : explanation;
 
   const formatTimer = (sec: number) => {
     const m = Math.floor(sec / 60);
@@ -177,6 +255,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
               <option value="en">English</option>
               <option value="hi">हिन्दी</option>
             </select>
+            {isTranslating && <Loader2 className="w-3 h-3 text-indigo-600 animate-spin shrink-0" />}
           </div>
 
           <div className="flex items-center gap-1 font-mono text-xs font-bold shrink-0">
@@ -267,7 +346,10 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                   opt.stableId !== correctOptionStableId
               );
 
-              const optionDisplay = questionLang === "hi" ? translateOptionToHindi(opt.text) : opt.text;
+              const optionDisplay =
+                questionLang === "hi"
+                  ? currentTranslation?.options[opt.stableId] || translateOptionToHindi(opt.text)
+                  : opt.text;
 
               return (
                 <OptionCard
