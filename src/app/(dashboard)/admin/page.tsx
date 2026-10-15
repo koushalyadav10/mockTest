@@ -38,8 +38,11 @@ import {
   Target,
   Trash2,
   Calendar,
+  Heart,
+  Sparkles,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { SumanCornerAdminModal } from "@/components/admin/SumanCornerAdminModal";
 
 type AdminTab = "OVERVIEW" | "SUBMISSIONS" | "USERS" | "TEACHERS" | "AUDIT_LOGS";
 
@@ -117,6 +120,9 @@ export default function AdminDashboardPage() {
   const [teacherPassword, setTeacherPassword] = useState("");
   const [invitingTeacher, setInvitingTeacher] = useState(false);
   const [inviteFeedback, setInviteFeedback] = useState<string | null>(null);
+
+  // Suman Special Corner Customizer Modal
+  const [showSumanCornerModal, setShowSumanCornerModal] = useState(false);
 
   // Audit Logs & Violations Data
   const [auditLogs, setAuditLogs] = useState<any[]>([]);
@@ -1343,6 +1349,17 @@ export default function AdminDashboardPage() {
                   <span>👤 Suman Chauhan</span>
                 </button>
 
+                {/* Suman Special Corner Customizer Button */}
+                <button
+                  type="button"
+                  onClick={() => setShowSumanCornerModal(true)}
+                  className="px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white shadow-2xs border border-pink-400 flex-1 sm:flex-initial"
+                  title="Set card layout, pin theme, or custom message for Suman"
+                >
+                  <Heart className="w-3.5 h-3.5 fill-white text-white" />
+                  <span>Suman Corner 💖</span>
+                </button>
+
                 {/* Download CSV Report */}
                 <button
                   type="button"
@@ -2043,6 +2060,36 @@ export default function AdminDashboardPage() {
                       </div>
                     </div>
 
+                    {/* Suman Special Corner Customizer Card */}
+                    {(candidatePerfData.candidate.email?.toLowerCase().includes("suman") ||
+                      candidatePerfData.candidate.name?.toLowerCase().includes("suman")) && (
+                      <div className="bg-gradient-to-r from-pink-50 via-rose-50 to-purple-50 p-4 rounded-xl border-2 border-pink-300 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-pink-500 to-rose-500 text-white flex items-center justify-center font-bold text-base shadow-sm">
+                            🌸
+                          </div>
+                          <div>
+                            <div className="font-black text-slate-900 text-sm flex items-center gap-1.5">
+                              <span>Special Corner for Suman Settings</span>
+                              <Heart className="w-4 h-4 fill-pink-500 text-pink-500" />
+                            </div>
+                            <div className="text-xs text-pink-900 mt-0.5">
+                              Card layout choose karein (e.g. Bandariya, Moti, Sunshine, Queen), timer fix karein, ya custom message likhein!
+                            </div>
+                          </div>
+                        </div>
+
+                        <button
+                          type="button"
+                          onClick={() => setShowSumanCornerModal(true)}
+                          className="w-full sm:w-auto px-4 py-2 rounded-xl bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-700 hover:to-rose-700 text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-1.5 shrink-0"
+                        >
+                          <Sparkles className="w-3.5 h-3.5" />
+                          <span>Change Layout &amp; Card 💖</span>
+                        </button>
+                      </div>
+                    )}
+
                     {/* Test History List */}
                     <div className="space-y-2">
                       <div className="text-xs font-bold text-slate-700 uppercase tracking-wider">
@@ -2212,6 +2259,19 @@ export default function AdminDashboardPage() {
                       </div>
 
                       <div className="flex items-center gap-1.5">
+                        {(u.email?.toLowerCase().includes("suman") || u.name?.toLowerCase().includes("suman")) && (
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => setShowSumanCornerModal(true)}
+                            className="text-[11px] font-bold text-pink-700 bg-pink-50 hover:bg-pink-100 border-pink-300 py-1 px-2.5"
+                            title="Open Suman's Special Corner Controller"
+                          >
+                            <Heart className="w-3 h-3 fill-pink-500 text-pink-500 mr-1" />
+                            <span>Suman Corner</span>
+                          </Button>
+                        )}
+
                         <Button
                           variant="outline"
                           size="sm"
@@ -2343,6 +2403,19 @@ export default function AdminDashboardPage() {
                           </td>
                           <td className="py-3 px-4 text-right">
                             <div className="inline-flex items-center gap-1.5 justify-end">
+                              {(u.email?.toLowerCase().includes("suman") || u.name?.toLowerCase().includes("suman")) && (
+                                <Button
+                                  variant="outline"
+                                  size="sm"
+                                  onClick={() => setShowSumanCornerModal(true)}
+                                  className="text-[11px] font-bold text-pink-700 bg-pink-50 hover:bg-pink-100 border-pink-300"
+                                  title="Open Suman's Special Corner Controller"
+                                >
+                                  <Heart className="w-3 h-3 fill-pink-500 text-pink-500 mr-1" />
+                                  <span>Suman Corner</span>
+                                </Button>
+                              )}
+
                               <Button
                                 variant="outline"
                                 size="sm"
@@ -2841,6 +2914,12 @@ export default function AdminDashboardPage() {
           </div>
         </div>
       )}
+
+      {/* Suman Special Corner Customizer Modal */}
+      <SumanCornerAdminModal
+        isOpen={showSumanCornerModal}
+        onClose={() => setShowSumanCornerModal(false)}
+      />
     </div>
   );
 }
