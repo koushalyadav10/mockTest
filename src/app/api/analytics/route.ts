@@ -43,7 +43,9 @@ export async function GET(req: NextRequest) {
         orderBy: { createdAt: "desc" },
       });
 
-      const allAttempts = allExams.flatMap((e) => e.testAttempts);
+      const allAttempts = allExams.flatMap((e) =>
+        e.testAttempts.map((att) => ({ ...att, examConfig: e }))
+      );
       const uniqueCandidates = new Set(allAttempts.map((a) => a.userId).filter(Boolean)).size;
 
       const evaluatedAttempts = allAttempts.filter((a) => a.status === "EVALUATED");
@@ -88,6 +90,43 @@ export async function GET(req: NextRequest) {
         };
       });
 
+      // Sort all attempts across all exams by createdAt desc (Last 50 Recent Exams)
+      const sortedAttempts = [...allAttempts].sort(
+        (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+      );
+      const recentTests = sortedAttempts.slice(0, 50).map((att) => {
+        let isHeld = false;
+        if (att.examConfig?.instructions) {
+          try {
+            const inst = JSON.parse(att.examConfig.instructions);
+            if (inst.holdResults) isHeld = true;
+          } catch (e) {}
+        }
+        return {
+          id: att.id,
+          candidateName: att.user?.name || "Candidate",
+          candidateEmail: att.user?.email || "N/A",
+          studentRollNo: att.user?.studentRollNo || att.studentRollNo || "N/A",
+          title: formatCleanChapterTitle(att.examConfig?.title || "Examination"),
+          category: att.examConfig?.category || "SSC",
+          mode: att.mode,
+          status: att.status,
+          isHeld,
+          score: Number(att.finalScore.toFixed(2)),
+          totalMarks: att.examConfig?.totalMarks || 200,
+          accuracy: Number(att.accuracy.toFixed(1)),
+          attempted: att.attemptedCount,
+          correctCount: att.correctCount,
+          incorrectCount: att.incorrectCount,
+          unattemptedCount: att.unattemptedCount,
+          totalQuestions: att.totalQuestions,
+          timeSpentSeconds: att.timeSpentSeconds,
+          startedAt: att.startedAt,
+          completedAt: att.completedAt,
+          createdAt: att.createdAt,
+        };
+      });
+
       return NextResponse.json({
         isAdmin: true,
         adminStats: {
@@ -96,6 +135,7 @@ export async function GET(req: NextRequest) {
           uniqueCandidates,
           overallAverageScore,
         },
+        recentTests,
         examAnalytics,
       });
     }
