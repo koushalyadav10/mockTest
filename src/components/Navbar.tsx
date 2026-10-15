@@ -105,9 +105,11 @@ export const Navbar: React.FC = () => {
           {/* Logo & Platform Brand */}
           <div className="flex items-center gap-6">
             <Link href="/dashboard" className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-full bg-[#1b212d] text-white flex items-center justify-center font-black text-lg tracking-tight shadow-xs select-none">
-                EF
-              </div>
+              <img
+                src="/app-icon.png"
+                alt="ExamForge AI"
+                className="w-10 h-10 rounded-xl object-cover shadow-sm ring-1 ring-purple-200"
+              />
               <div className="flex flex-col">
                 <span className="font-extrabold text-slate-900 text-base leading-tight tracking-tight">
                   ExamForge<span className="text-[#5a4bda]">.AI</span>
@@ -203,22 +205,6 @@ export const Navbar: React.FC = () => {
                 </button>
               </Link>
             )}
-
-            {/* Direct Mobile App Install Button */}
-            <button
-              type="button"
-              onClick={() => {
-                if (typeof window !== "undefined") {
-                  window.dispatchEvent(new CustomEvent("open-pwa-install"));
-                }
-              }}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-850 border border-emerald-300 font-bold text-xs shadow-2xs transition-all active:scale-95"
-              title="Install Mobile App on Phone"
-            >
-              <Download className="w-3.5 h-3.5 text-emerald-600" />
-              <span className="hidden sm:inline">📲 Install App</span>
-              <span className="sm:hidden">📲 App</span>
-            </button>
 
             {/* Profile Avatar & Greeting with Dropdown */}
             {user ? (

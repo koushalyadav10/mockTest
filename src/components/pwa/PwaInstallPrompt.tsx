@@ -126,9 +126,11 @@ export function PwaInstallPrompt() {
           <div className="bg-slate-900/95 text-white p-4 rounded-2xl shadow-2xl border border-slate-700/80 backdrop-blur-md">
             <div className="flex items-start justify-between gap-3">
               <div className="flex items-center gap-3">
-                <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center shadow-md shrink-0">
-                  <span className="font-black text-white text-base font-mono">EF</span>
-                </div>
+                <img
+                  src="/app-icon.png"
+                  alt="ExamForge App"
+                  className="w-11 h-11 rounded-xl object-cover shadow-md ring-1 ring-white/40 shrink-0"
+                />
                 <div>
                   <div className="font-bold text-sm text-white flex items-center gap-1.5">
                     <span>Install ExamForge App</span>
@@ -188,9 +190,11 @@ export function PwaInstallPrompt() {
 
             {/* Modal Header */}
             <div className="flex items-center gap-3.5 mb-4">
-              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-white font-black text-xl shadow-md shrink-0">
-                EF
-              </div>
+              <img
+                src="/app-icon.png"
+                alt="ExamForge AI"
+                className="w-13 h-13 rounded-2xl object-cover shadow-md ring-2 ring-purple-300 shrink-0"
+              />
               <div>
                 <h3 className="text-lg sm:text-xl font-black text-slate-900 tracking-tight flex items-center gap-2">
                   <span>Install ExamForge App</span>

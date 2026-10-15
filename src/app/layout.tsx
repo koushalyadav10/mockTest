@@ -3,6 +3,8 @@ import "./globals.css";
 import "katex/dist/katex.min.css";
 import { Navbar } from "@/components/Navbar";
 import { PwaInstallPrompt } from "@/components/pwa/PwaInstallPrompt";
+import { AppSplashScreen } from "@/components/pwa/AppSplashScreen";
+import { MobileBottomNav } from "@/components/pwa/MobileBottomNav";
 
 export const metadata: Metadata = {
   title: "ExamForge AI | SSC CBT Mock Test & Practice Engine",
@@ -29,6 +31,7 @@ export default function RootLayout({
         {/* PWA Manifest & App Icons */}
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+        <link rel="icon" href="/app-icon.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="ExamForge" />
@@ -44,11 +47,15 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-[#f6f8fa] text-slate-800 font-sans antialiased">
+      <body className="min-h-screen flex flex-col bg-[#f6f8fa] text-slate-800 font-sans antialiased pb-16 lg:pb-0">
+        {/* Dynamic App Splash Animation Screen on Open */}
+        <AppSplashScreen />
         <Navbar />
         <main className="flex-1 flex flex-col">{children}</main>
         {/* Floating PWA Install Prompt Banner for Mobile Devices */}
         <PwaInstallPrompt />
+        {/* Native Mobile App Bottom Navigation Bar */}
+        <MobileBottomNav />
       </body>
     </html>
   );
