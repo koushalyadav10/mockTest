@@ -1,0 +1,2342 @@
+[
+  {
+    "questionNumber": 271,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 09/12/2022 (Shift-04)",
+    "questionText": "The remainder when $19^{19} + 20$ is divided by 18 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$19 \\equiv 1 \\pmod{18}$.\\nTherefore, $19^{19} + 20 \\equiv 1^{19} + 20 = 1 + 20 = 21 \\equiv 3 \\pmod{18}$.\\nHence, the remainder is $3$."
+  },
+  {
+    "questionNumber": 272,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 04/08/2021 (Shift-03)",
+    "questionText": "When $(2^{24} - 1)$ is divided by 7, the remainder is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$2^3 = 8 \\equiv 1 \\pmod{7}$.\\n$2^{24} = (2^3)^8 \\equiv 1^8 = 1 \\pmod{7}$.\\nThus, $(2^{24} - 1) \\equiv 1 - 1 = 0 \\pmod{7}$.\\nThe remainder is $0$."
+  },
+  {
+    "questionNumber": 273,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 07/03/2020 (Shift-01)",
+    "questionText": "What is the remainder when we divide $5^{70} + 7^{70}$ by 74?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$5^{70} + 7^{70} = (5^2)^{35} + (7^2)^{35} = 25^{35} + 49^{35}$.\\nFor odd $n$, $(a^n + b^n)$ is divisible by $(a + b)$.\\nHere $a + b = 25 + 49 = 74$.\\nSince 35 is odd, $25^{35} + 49^{35}$ is exactly divisible by 74, giving a remainder of $0$."
+  },
+  {
+    "questionNumber": 274,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
+    "questionText": "The remainder of the term $9 + 9^2 + \\dots + 9^{(2n+1)}$ when divided by 6 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$9 \\equiv 3 \\pmod{6}$.\\nFor any positive integer $k$, $9^k \\equiv 3^k \\equiv 3 \\pmod{6}$.\\nThe given series has $(2n + 1)$ terms, each leaving remainder 3 when divided by 6.\\nSum $\\equiv 3 \\times (2n + 1) = 6n + 3 \\equiv 3 \\pmod{6}$.\\nHence, the remainder is $3$."
+  },
+  {
+    "questionNumber": 275,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 25/07/2023 (Shift-03)",
+    "questionText": "What is the remainder when $(x^{17} + 1)$ is divided by $(x + 1)$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "x"
+      },
+      {
+        "label": "B",
+        "text": "x-1"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "By the Remainder Theorem, substitute $x + 1 = 0 \\implies x = -1$ into the polynomial:\\nRemainder $= (-1)^{17} + 1 = -1 + 1 = 0$."
+  },
+  {
+    "questionNumber": 276,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 19/04/2022 (Shift-01)",
+    "questionText": "If each of the two numbers $5^{16}$ and $5^{25}$ are divided by 6, the remainders are $R_1$ and $R_2$, respectively. What is the value of $\\frac{R_1 + R_2}{R_2}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1/6"
+      },
+      {
+        "label": "B",
+        "text": "5/6"
+      },
+      {
+        "label": "C",
+        "text": "1/5"
+      },
+      {
+        "label": "D",
+        "text": "6/5"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$5 \\equiv -1 \\pmod{6}$.\\n$R_1 = 5^{16} \\equiv (-1)^{16} = 1 \\pmod{6} \\implies R_1 = 1$.\\n$R_2 = 5^{25} \\equiv (-1)^{25} = -1 \\equiv 5 \\pmod{6} \\implies R_2 = 5$.\\nTherefore, $\\frac{R_1 + R_2}{R_2} = \\frac{1 + 5}{5} = \\frac{6}{5}$."
+  },
+  {
+    "questionNumber": 277,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL TIER-II 15/11/2020",
+    "questionText": "When positive numbers $x$, $y$ and $z$ are divided by 31, the remainders are 17, 24 and 27, respectively. When $(4x - 2y + 3z)$ is divided by 31, the remainder will be:",
+    "options": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "19"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$x \\equiv 17$, $y \\equiv 24$, $z \\equiv 27 \\pmod{31}$.\\n$4x - 2y + 3z \\equiv 4(17) - 2(24) + 3(27) \\pmod{31}$\\n$= 68 - 48 + 81 = 101 \\pmod{31}$.\\nSince $101 = 31 \\times 3 + 8$, the remainder is $8$."
+  },
+  {
+    "questionNumber": 278,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-04)",
+    "questionText": "What are the last three digit of the multiplication $654321 \\times 123456$ ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "376"
+      },
+      {
+        "label": "B",
+        "text": "344"
+      },
+      {
+        "label": "C",
+        "text": "324"
+      },
+      {
+        "label": "D",
+        "text": "352"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "The last three digits are given by $654321 \\times 123456 \\pmod{1000}$.\\n$321 \\times 456 = 146376$.\\n$146376 \\pmod{1000} = 376$.\\nThus, the last three digits are $376$."
+  },
+  {
+    "questionNumber": 279,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "If the polynomial $(2x^3 + ax^2 + 3x - 5)$ and $(x^3 + x^2 - 2x + a)$ leave the same remainder when divided by $(x - 2)$, find the remainder.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "By Remainder Theorem, put $x = 2$ in both polynomials:\\n$R_1 = 2(2)^3 + a(2)^2 + 3(2) - 5 = 16 + 4a + 6 - 5 = 4a + 17$.\\n$R_2 = (2)^3 + (2)^2 - 2(2) + a = 8 + 4 - 4 + a = a + 8$.\\nSince $R_1 = R_2$:\\n$4a + 17 = a + 8 \\implies 3a = -9 \\implies a = -3$.\\nRemainder $= a + 8 = -3 + 8 = 5$."
+  },
+  {
+    "questionNumber": 280,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+    "questionText": "What must be added to $(x^3 - 3x^2 + 4x - 75)$ to obtain a polynomial that is exactly divisible by $(x - 5)$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let $k$ be added to the polynomial: $P(x) = x^3 - 3x^2 + 4x - 75 + k$.\\nFor $P(x)$ to be divisible by $(x - 5)$, $P(5) = 0$:\\n$5^3 - 3(5)^2 + 4(5) - 75 + k = 0$\\n$125 - 75 + 20 - 75 + k = 0 \\implies -5 + k = 0 \\implies k = 5$."
+  },
+  {
+    "questionNumber": 281,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 06/12/2022 (Shift-01)",
+    "questionText": "A number N when divided by 6 leaves a remainder 3. What will be the remainder when $(N^2 + 5N + 8)$ is divided by 6?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$N \\equiv 3 \\pmod{6}$.\\n$N^2 + 5N + 8 \\equiv 3^2 + 5(3) + 8 = 9 + 15 + 8 = 32 \\pmod{6}$.\\n$32 = 6 \\times 5 + 2 \\implies$ remainder is $2$."
+  },
+  {
+    "questionNumber": 282,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 13/12/2022 (Shift-01)",
+    "questionText": "When $m^{12} - 1$ is divided by $m + 1$, the remainder is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "-1"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "By Remainder Theorem, put $m = -1$:\\nRemainder $= (-1)^{12} - 1 = 1 - 1 = 0$."
+  },
+  {
+    "questionNumber": 283,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 27/05/2022 (Shift-02)",
+    "questionText": "When $f(x) = 15x^3 - 14x^2 - 4x + 10$ is divided by $(3x + 2)$, then the remainder is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "-1"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "-2"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Put $3x + 2 = 0 \\implies x = -\\frac{2}{3}$:\\n$f\\left(-\\frac{2}{3}\\right) = 15\\left(-\\frac{8}{27}\\right) - 14\\left(\\frac{4}{9}\\right) - 4\\left(-\\frac{2}{3}\\right) + 10$\\n$= -\\frac{40}{9} - \\frac{56}{9} + \\frac{24}{9} + 10 = -\\frac{72}{9} + 10 = -8 + 10 = 2$."
+  },
+  {
+    "questionNumber": 284,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 18/04/2022 (Shift-03)",
+    "questionText": "A number 'n' when divided by 6 leaves remainder 2. What will be the remainder when $(n^2 + n + 2)$ is divided by 6?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$n \\equiv 2 \\pmod{6}$.\\n$n^2 + n + 2 \\equiv 2^2 + 2 + 2 = 8 \\equiv 2 \\pmod{6}$.\\nThus, the remainder is $2$."
+  },
+  {
+    "questionNumber": 285,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "Graduation level 15/03/2022 (Shift-01)",
+    "questionText": "When number $n$ is divided by 6, the reminder is 3. What will be the remainder when $(n^4 + n^3 + n^2 + 5n)$ is divided by 6?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$n \\equiv 3 \\pmod{6}$.\\n$n^4 \\equiv 3^4 = 81 \\equiv 3 \\pmod{6}$,\\n$n^3 \\equiv 3^3 = 27 \\equiv 3 \\pmod{6}$,\\n$n^2 \\equiv 3^2 = 9 \\equiv 3 \\pmod{6}$,\\n$5n \\equiv 5(3) = 15 \\equiv 3 \\pmod{6}$.\\nSum $\\equiv 3 + 3 + 3 + 3 = 12 \\equiv 0 \\pmod{6}$.\\nHence, the remainder is $0$."
+  },
+  {
+    "questionNumber": 286,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-03)",
+    "questionText": "Find the remainder, when we divide $2x^3 - 3x^2 + 6x - 4$ by $2x - 3$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "-5"
+      },
+      {
+        "label": "D",
+        "text": "-6"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Substitute $2x - 3 = 0 \\implies x = \\frac{3}{2}$:\\nRemainder $= 2\\left(\\frac{3}{2}\\right)^3 - 3\\left(\\frac{3}{2}\\right)^2 + 6\\left(\\frac{3}{2}\\right) - 4$\\n$= 2\\left(\\frac{27}{8}\\right) - 3\\left(\\frac{9}{4}\\right) + 9 - 4 = \\frac{27}{4} - \\frac{27}{4} + 5 = 5$."
+  },
+  {
+    "questionNumber": 287,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 08/08/2023 (Shift-02)",
+    "questionText": "What is the remainder when $3^8$ is divided by 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$3^3 = 27 \\equiv -1 \\pmod{7}$.\\n$3^6 = (3^3)^2 \\equiv (-1)^2 = 1 \\pmod{7}$.\\n$3^8 = 3^6 \\times 3^2 \\equiv 1 \\times 9 \\equiv 2 \\pmod{7}$.\\nThe remainder is $2$."
+  },
+  {
+    "questionNumber": 288,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 25/07/2023 (Shift-01)",
+    "questionText": "Find the remainder when $8^8 + 6$ is divided by 7.",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$8 \\equiv 1 \\pmod{7}$.\\n$8^8 + 6 \\equiv 1^8 + 6 = 7 \\equiv 0 \\pmod{7}$.\\nHence, the remainder is $0$."
+  },
+  {
+    "questionNumber": 289,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 24/11/2020 (Shift-03)",
+    "questionText": "When a number is successively divided by 3, 4 and 7, the remainder obtained are 2, 3 and 5 respectively. What will be the remainder when 84 divides the same number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "71"
+      },
+      {
+        "label": "B",
+        "text": "53"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "48"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the last quotient be $k$.\\nNumber $N = 3[4(7k + 5) + 3] + 2$\\n$= 3[28k + 20 + 3] + 2 = 3[28k + 23] + 2 = 84k + 69 + 2 = 84k + 71$.\\nWhen $N$ is divided by $84$, the remainder is $71$."
+  },
+  {
+    "questionNumber": 290,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+    "questionText": "After the division of a number successively by 2, 3 and 5, the remainders are 1, 2 and 3, respectively. What will be the remainder, if 13 divides the same number (if the last quotient is 1)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Working backwards with last quotient = 1:\\nDivided by 5 with remainder 3: $5 \\times 1 + 3 = 8$.\\nDivided by 3 with remainder 2: $3 \\times 8 + 2 = 26$.\\nDivided by 2 with remainder 1: $2 \\times 26 + 1 = 53$.\\nWhen $53$ is divided by 13: $53 = 13 \\times 4 + 1$.\\nThe remainder is $1$."
+  },
+  {
+    "questionNumber": 291,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "Find the number when successively divided by 3, 5 and 7 leaves remainder 2, 1 and 3 respectively, and the last quotient is 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "360"
+      },
+      {
+        "label": "B",
+        "text": "362"
+      },
+      {
+        "label": "C",
+        "text": "365"
+      },
+      {
+        "label": "D",
+        "text": "367"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Working backwards with last quotient = 3:\\nDivided by 7 with remainder 3: $7 \\times 3 + 3 = 24$.\\nDivided by 5 with remainder 1: $5 \\times 24 + 1 = 121$.\\nDivided by 3 with remainder 2: $3 \\times 121 + 2 = 363 + 2 = 365$."
+  },
+  {
+    "questionNumber": 292,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 24/11/2020 (Shift-02)",
+    "questionText": "When a number is successively divided by 3, 4 and 7, the remainders obtained are 2, 3 and 5, respectively. What will be the remainder when 84 divided the same number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "71"
+      },
+      {
+        "label": "B",
+        "text": "30"
+      },
+      {
+        "label": "C",
+        "text": "48"
+      },
+      {
+        "label": "D",
+        "text": "53"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the last quotient be $k$.\\n$N = 3[4(7k + 5) + 3] + 2 = 3[28k + 23] + 2 = 84k + 71$.\\nDividing by 84 gives a remainder of $71$."
+  },
+  {
+    "questionNumber": 293,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 25/11/2020 (Shift-02)",
+    "questionText": "When a number is successively divided by 3, 4 and 7, the remainder obtained is 2, 3 and 5 respectively. What will be the remainder when 42 divides the same number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "41"
+      },
+      {
+        "label": "B",
+        "text": "31"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "29"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$N = 84k + 71$.\\nDividing by 42: $84k + 71 = 42(2k + 1) + 29$.\\nHence, the remainder is $29$."
+  },
+  {
+    "questionNumber": 294,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 11/08/2021 (Shift-01)",
+    "questionText": "When a number is divided by 3, the remainder is 2. Again, when the quotient is divided by 7, the remainder is 5. What will be the remainder when the original number is divided by 21?",
+    "options": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the number be $N = 3q + 2$.\\nGiven $q = 7k + 5$.\\n$N = 3(7k + 5) + 2 = 21k + 15 + 2 = 21k + 17$.\\nWhen divided by 21, the remainder is $17$."
+  },
+  {
+    "questionNumber": 295,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-04)",
+    "questionText": "Successive division of a number by 2, 3, 5 and 7 gives remainders 1,4,0 and 5, respectively. What will be the sum of the remainders if the same number is divided by 7, 5, 3 and 2 successively?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Assuming least non-negative last quotient $k = 0$:\\nLast step (divided by 7): $7 \\times 0 + 5 = 5$.\\nStep 3 (divided by 5): $5 \\times 5 + 0 = 25$.\\nStep 2 (divided by 3): $3 \\times 25 + 4 = 79$.\\nStep 1 (divided by 2): $2 \\times 79 + 1 = 159$.\\nNow divide 159 successively by 7, 5, 3, 2:\\n$159 \\div 7 = 22$, remainder $r_1 = 5$.\\n$22 \\div 5 = 4$, remainder $r_2 = 2$.\\n$4 \\div 3 = 1$, remainder $r_3 = 1$.\\n$1 \\div 2 = 0$, remainder $r_4 = 1$.\\nSum of remainders $= 5 + 2 + 1 + 1 = 9$."
+  },
+  {
+    "questionNumber": 296,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+    "questionText": "If two numbers are each divided by the same divisor, then the remainder are 6 and 7, respectively. If the sum of the two numbers be divided by the same divisor, the remainder is 5. The divisor is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "13"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Formula for divisor when remainders of two numbers are $R_1, R_2$ and remainder of their sum is $R_3$:\\n$\\text{Divisor} = R_1 + R_2 - R_3 = 6 + 7 - 5 = 8$."
+  },
+  {
+    "questionNumber": 297,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+    "questionText": "Which of the following is the largest 5-digit number divisible by 47?",
+    "options": [
+      {
+        "label": "A",
+        "text": "99999"
+      },
+      {
+        "label": "B",
+        "text": "98888"
+      },
+      {
+        "label": "C",
+        "text": "99969"
+      },
+      {
+        "label": "D",
+        "text": "10000"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Largest 5-digit number is $99999$.\\n$99999 \\div 47 = 2127$ with remainder $30$ ($47 \\times 2127 = 99969$).\\nRequired number $= 99999 - 30 = 99969$."
+  },
+  {
+    "questionNumber": 298,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+    "questionText": "Find the smallest number to be added to 999, so that 99 divides the sum exactly.",
+    "options": [
+      {
+        "label": "A",
+        "text": "99"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "90"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$999 \\div 99 = 10$ with remainder $9$.\\nTo make it divisible by 99, number to be added $= 99 - 9 = 90$."
+  },
+  {
+    "questionNumber": 299,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-04)",
+    "questionText": "What is the smallest number that must be added to 19487161 so that it is divisible by 11?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Sum of digits at odd places (from right) $= 1 + 1 + 8 + 9 = 19$.\\nSum of digits at even places $= 6 + 7 + 4 + 1 = 18$.\\nDifference $= 19 - 18 = 1 \\implies 19487161 \\equiv 1 \\pmod{11}$.\\nSmallest number to add $= 11 - 1 = 10$."
+  },
+  {
+    "questionNumber": 300,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC Phase-XII 25/06/2024 (Shift-03)",
+    "questionText": "What least number must be subtracted from 2001 to get a number exactly divisible by 17?",
+    "options": [
+      {
+        "label": "A",
+        "text": "14"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "13"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$2001 \\div 17 = 117$ with remainder $12$ ($17 \\times 117 = 1989$).\\nTherefore, the least number to subtract is $12$."
+  },
+  {
+    "questionNumber": 301,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC Phase-XII 20/06/2024 (Shift-02)",
+    "questionText": "A six-digit number is divisible by 33. If 21 is added to the number, then the new number which formed is also divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "A number divisible by 33 is a multiple of 3.\\nSince 21 is also divisible by 3, the sum of two multiples of 3 is always divisible by 3."
+  },
+  {
+    "questionNumber": 302,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 07/08/2023 (Shift-02)",
+    "questionText": "What is the least number that must be added to the greatest 6-digit number so that sum will be exactly divisible by 294?",
+    "options": [
+      {
+        "label": "A",
+        "text": "234"
+      },
+      {
+        "label": "B",
+        "text": "194"
+      },
+      {
+        "label": "C",
+        "text": "269"
+      },
+      {
+        "label": "D",
+        "text": "189"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Greatest 6-digit number $= 999999$.\\n$999999 \\div 294 = 3401$ with remainder $105$ ($294 \\times 3401 = 999894$).\\nLeast number to add $= 294 - 105 = 189$."
+  },
+  {
+    "questionNumber": 303,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 10/08/2023 (Shift-03)",
+    "questionText": "Find the smallest number to be added to 1000 so that 55 divides the sum exactly.",
+    "options": [
+      {
+        "label": "A",
+        "text": "25"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "35"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$1000 \\div 55 = 18$ with remainder $10$ ($55 \\times 18 = 990$).\\nSmallest number to add $= 55 - 10 = 45$."
+  },
+  {
+    "questionNumber": 304,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 17/07/2023 (Shift-01)",
+    "questionText": "Find the smallest number that can be subtracted from 148109326 so that it becomes divisible by 8.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number is divisible by 8 if its last three digits form a number divisible by 8.\\nLast 3 digits $= 326$.\\n$326 \\div 8 = 40$ with remainder $6$ ($8 \\times 40 = 320$).\\nSmallest number to be subtracted is $6$."
+  },
+  {
+    "questionNumber": 305,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 17/07/2023 (Shift-02)",
+    "questionText": "The largest 5-digit number exactly divisible by 88 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "99990"
+      },
+      {
+        "label": "B",
+        "text": "99968"
+      },
+      {
+        "label": "C",
+        "text": "99978"
+      },
+      {
+        "label": "D",
+        "text": "99984"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Largest 5-digit number is $99999$.\\n$99999 \\div 88 = 1136$ with remainder $31$ ($88 \\times 1136 = 99968$).\\nRequired number $= 99999 - 31 = 99968$."
+  },
+  {
+    "questionNumber": 306,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 17/07/2023 (Shift-04)",
+    "questionText": "A six-digit number is divisible by 33. If 54 is added to the number, then the new number formed will also be divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Any number divisible by 33 is also divisible by 3.\\n54 is divisible by 3.\\nHence, the sum of the two numbers will also be divisible by 3."
+  },
+  {
+    "questionNumber": 307,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 18/07/2023 (Shift-03)",
+    "questionText": "The smallest number added to 888 so that it is exactly divisible by 35 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "23"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "21"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$888 \\div 35 = 25$ with remainder $13$ ($35 \\times 25 = 875$).\\nSmallest number to add $= 35 - 13 = 22$."
+  },
+  {
+    "questionNumber": 308,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 27/07/2023 (Shift-01)",
+    "questionText": "Which of the following is the smallest 5-digit number that is exactly divisible by 526 ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10520"
+      },
+      {
+        "label": "B",
+        "text": "11046"
+      },
+      {
+        "label": "C",
+        "text": "10516"
+      },
+      {
+        "label": "D",
+        "text": "10426"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Smallest 5-digit number is $10000$.\\n$10000 \\div 526 = 19$ with remainder $6$ ($526 \\times 19 = 9994$).\\nSmallest 5-digit multiple $= 526 \\times 20 = 10520$."
+  },
+  {
+    "questionNumber": 309,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC MTS 09/05/2023 (Shift-01)",
+    "questionText": "What is the greatest four-digit number which when divided by 3 & 4 leaves remainder 2 in each case?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9994"
+      },
+      {
+        "label": "B",
+        "text": "9996"
+      },
+      {
+        "label": "C",
+        "text": "9998"
+      },
+      {
+        "label": "D",
+        "text": "9995"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$\\text{LCM}(3, 4) = 12$.\\nLargest 4-digit number is $9999$.\\n$9999 \\div 12 = 833$ with remainder $3$.\\nLargest 4-digit multiple of 12 is $9999 - 3 = 9996$.\\nAdding remainder 2 gives $9996 + 2 = 9998$."
+  },
+  {
+    "questionNumber": 310,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 03/12/2022 (Shift-01)",
+    "questionText": "The nearest number which is greater to 87501, and is completely divisible by 765 is :",
+    "options": [
+      {
+        "label": "A",
+        "text": "88975"
+      },
+      {
+        "label": "B",
+        "text": "87975"
+      },
+      {
+        "label": "C",
+        "text": "87966"
+      },
+      {
+        "label": "D",
+        "text": "87775"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$87501 \\div 765 = 114$ with remainder $291$ ($765 \\times 114 = 87210$).\\nNext multiple $> 87501$ is $765 \\times 115 = 87975$."
+  },
+  {
+    "questionNumber": 311,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 05/12/2022 (Shift-03)",
+    "questionText": "What is the smallest number that should be added to 4567 so that the sum is divisible by 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$4567 \\div 7 = 652$ with remainder $3$ ($7 \\times 652 = 4564$).\\nSmallest number to add $= 7 - 3 = 4$."
+  },
+  {
+    "questionNumber": 312,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 07/12/2022 (Shift-03)",
+    "questionText": "9435 is added to 7593, then 2607 is subtracted from the sum. The result is divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Result $= 9435 + 7593 - 2607 = 17028 - 2607 = 14421$.\\nSum of digits $= 1 + 4 + 4 + 2 + 1 = 12$, which is divisible by 3.\\nSince the last digit is 1, it is not divisible by 4, 10, or 5.\\nThus, the result is divisible by 3."
+  },
+  {
+    "questionNumber": 313,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+    "questionText": "A six-digit number 763254 is divisible by 18. If we subtract five times of 41 from the number, the new number which is formed will be divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Five times $41 = 5 \\times 41 = 205$.\\nNew number $= 763254 - 205 = 763049$.\\nTesting divisibility by 7: $763049 \\div 7 = 109007$ exactly.\\nHence, the new number is divisible by 7."
+  },
+  {
+    "questionNumber": 314,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 20/08/2021 (Shift-02)",
+    "questionText": "What is the sum of the digits of the largest five-digit number which is divisible by 5, 35, 39 and 65?",
+    "options": [
+      {
+        "label": "A",
+        "text": "33"
+      },
+      {
+        "label": "B",
+        "text": "30"
+      },
+      {
+        "label": "C",
+        "text": "35"
+      },
+      {
+        "label": "D",
+        "text": "27"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$\\text{LCM}(5, 35, 39, 65) = 5 \\times 7 \\times 3 \\times 13 = 1365$.\\nLargest 5-digit number is $99999$.\\n$99999 \\div 1365 = 73$ with remainder $354$ ($1365 \\times 73 = 99645$).\\nLargest five-digit multiple $= 99645$.\\nSum of digits $= 9 + 9 + 6 + 4 + 5 = 33$."
+  },
+  {
+    "questionNumber": 315,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL TIER-II 16/11/2020",
+    "questionText": "Let, $x$ be the least number which when subtracted from 10424 gives a perfect square number. What is the least number by which $x$ should be multiplied to get a perfect square?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Nearest square less than 10424: $102^2 = 10404$.\\n$x = 10424 - 10404 = 20$.\\nPrime factorization of $x$: $20 = 2^2 \\times 5^1$.\\nTo make it a perfect square, it must be multiplied by $5$."
+  },
+  {
+    "questionNumber": 316,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 07/12/2022 (Shift-04)",
+    "questionText": "Find the remainder when we divide $3x^4 - 2x^2 + 4x - 1$ by $2x - 1$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "11/16"
+      },
+      {
+        "label": "D",
+        "text": "15/16"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "By Remainder Theorem, put $2x - 1 = 0 \\implies x = \\frac{1}{2}$:\\nRemainder $= 3\\left(\\frac{1}{2}\\right)^4 - 2\\left(\\frac{1}{2}\\right)^2 + 4\\left(\\frac{1}{2}\\right) - 1$\\n$= \\frac{3}{16} - \\frac{2}{4} + 2 - 1 = \\frac{3}{16} - \\frac{8}{16} + 1 = 1 - \\frac{5}{16} = \\frac{11}{16}$."
+  },
+  {
+    "questionNumber": 317,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+    "questionText": "A two-digit number is 12 more than five times the sum of its digits. The number formed by reversing the digits is 9 less than the original number. The number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "78"
+      },
+      {
+        "label": "B",
+        "text": "87"
+      },
+      {
+        "label": "C",
+        "text": "69"
+      },
+      {
+        "label": "D",
+        "text": "96"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let the two-digit number be $10x + y$.\\nFrom first condition: $10x + y = 5(x + y) + 12 \\implies 5x - 4y = 12$.\\nFrom second condition: $(10x + y) - (10y + x) = 9 \\implies 9(x - y) = 9 \\implies x - y = 1$.\\n$x = y + 1 \\implies 5(y + 1) - 4y = 12 \\implies y + 5 = 12 \\implies y = 7$.\\n$x = 7 + 1 = 8$.\\nThe number is $87$."
+  },
+  {
+    "questionNumber": 318,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-01)",
+    "questionText": "The sum of the digits of a two-digit number is 9. If the digits are reversed, then the number is increased by 27. Find the number",
+    "options": [
+      {
+        "label": "A",
+        "text": "54"
+      },
+      {
+        "label": "B",
+        "text": "63"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the number be $10x + y$.\\n$x + y = 9$.\\n$(10y + x) - (10x + y) = 27 \\implies 9(y - x) = 27 \\implies y - x = 3$.\\nAdding equations: $2y = 12 \\implies y = 6$, $x = 3$.\\nThe number is $36$."
+  },
+  {
+    "questionNumber": 319,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-03)",
+    "questionText": "The sum of the digits of a two-digit number is 9. The number obtained by interchanging its digits exceeds the given number by 45, then the original number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "27"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "54"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let original number be $10x + y$.\\n$x + y = 9$.\\n$(10y + x) - (10x + y) = 45 \\implies 9(y - x) = 45 \\implies y - x = 5$.\\nAdding: $2y = 14 \\implies y = 7$, $x = 2$.\\nThe original number is $27$."
+  },
+  {
+    "questionNumber": 320,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-02)",
+    "questionText": "The sum of two-digit number and the number obtained by interchanging the digit is 77. If the difference of digits is 1, then the number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "67"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "43"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the number be $10x + y$.\\n$(10x + y) + (10y + x) = 11(x + y) = 77 \\implies x + y = 7$.\\nDifference of digits $|x - y| = 1$.\\nIf $x - y = 1$, then $x = 4, y = 3$, number is $43$.\\nAmong the given options, $43$ is present."
+  },
+  {
+    "questionNumber": 321,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL TIER-II 08/08/2022",
+    "questionText": "If the digits of a two digit number is reversed, then the number is decreased by 36. Which of the following is correct regarding the number?\\nI. The difference of the digits is 4.\\nII. The value of number can be 84\\nIII. Number is always a composite number.",
+    "options": [
+      {
+        "label": "A",
+        "text": "I and II"
+      },
+      {
+        "label": "B",
+        "text": "I and III"
+      },
+      {
+        "label": "C",
+        "text": "II and III"
+      },
+      {
+        "label": "D",
+        "text": "I, II and III"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let number be $10x + y$. When reversed, it decreases by 36:\\n$(10x + y) - (10y + x) = 36 \\implies 9(x - y) = 36 \\implies x - y = 4$.\\nSo Statement I is correct.\\nPossible numbers $(x, y)$: $(9, 5) \\implies 95$, $(8, 4) \\implies 84$, $(7, 3) \\implies 73$, $(6, 2) \\implies 62$, $(5, 1) \\implies 51$.\\n84 is a possible value, so Statement II is correct.\\n73 is a prime number, so Statement III is incorrect.\\nHence, only I and II are correct."
+  },
+  {
+    "questionNumber": 322,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+    "questionText": "A number whose fifth part increased by 5 is equal to its third part decreased by 7. Find half of the number.",
+    "options": [
+      {
+        "label": "A",
+        "text": "45"
+      },
+      {
+        "label": "B",
+        "text": "150"
+      },
+      {
+        "label": "C",
+        "text": "80"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the number be $x$.\\n$\\frac{x}{5} + 5 = \\frac{x}{3} - 7$\\n$\\frac{x}{3} - \\frac{x}{5} = 12 \\implies \\frac{2x}{15} = 12 \\implies x = 90$.\\nHalf of the number $= \\frac{90}{2} = 45$."
+  },
+  {
+    "questionNumber": 323,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+    "questionText": "The sum of five consecutive numbers is 80. Find the largest number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "19"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Middle number $= \\frac{80}{5} = 16$.\\nThe five numbers are $14, 15, 16, 17, 18$.\\nThe largest number is $18$."
+  },
+  {
+    "questionNumber": 324,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 26/09/2024 (Shift-02)",
+    "questionText": "The sum of two consecutive even numbers is 174. Find the smaller number.",
+    "options": [
+      {
+        "label": "A",
+        "text": "84"
+      },
+      {
+        "label": "B",
+        "text": "90"
+      },
+      {
+        "label": "C",
+        "text": "86"
+      },
+      {
+        "label": "D",
+        "text": "88"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the two even numbers be $x$ and $x + 2$.\\n$x + (x + 2) = 174 \\implies 2x = 172 \\implies x = 86$.\\nThe smaller number is $86$."
+  },
+  {
+    "questionNumber": 325,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+    "questionText": "The sum of the five consecutive even numbers is 2720. The sum of the third and fifth numbers is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1192"
+      },
+      {
+        "label": "B",
+        "text": "1294"
+      },
+      {
+        "label": "C",
+        "text": "1092"
+      },
+      {
+        "label": "D",
+        "text": "1392"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Third (middle) number $= \\frac{2720}{5} = 544$.\\nThe five consecutive even numbers are $540, 542, 544, 546, 548$.\\nThird number $= 544$, fifth number $= 548$.\\nSum $= 544 + 548 = 1092$."
+  },
+  {
+    "questionNumber": 326,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-03)",
+    "questionText": "If the sum of three consecutive composite numbers is 36, then what is the product of the three numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1460"
+      },
+      {
+        "label": "B",
+        "text": "1750"
+      },
+      {
+        "label": "C",
+        "text": "1680"
+      },
+      {
+        "label": "D",
+        "text": "1820"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Composite numbers around 12: 8, 9, 10, 12, 14, 15, 16.\\nConsecutive composite numbers (since 11 and 13 are prime) are $10, 12, 14$.\\nSum $= 10 + 12 + 14 = 36$.\\nProduct $= 10 \\times 12 \\times 14 = 1680$."
+  },
+  {
+    "questionNumber": 327,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 25/05/2022 (Shift-01)",
+    "questionText": "If the sum of two numbers is 25 and their product is 144, then what is the position difference between the two numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let the two numbers be $a$ and $b$.\\n$a + b = 25$ and $ab = 144$.\\n$(a - b)^2 = (a + b)^2 - 4ab = 25^2 - 4(144) = 625 - 576 = 49$.\\nPositive difference $|a - b| = \\sqrt{49} = 7$."
+  },
+  {
+    "questionNumber": 328,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 15/03/2023 (Shift-01)",
+    "questionText": "What is the sum of all two digit even numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2520"
+      },
+      {
+        "label": "B",
+        "text": "2470"
+      },
+      {
+        "label": "C",
+        "text": "2430"
+      },
+      {
+        "label": "D",
+        "text": "2410"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Two-digit even numbers: $10, 12, 14, \\dots, 98$.\\nNumber of terms $n = \\frac{98 - 10}{2} + 1 = 45$.\\nSum $= \\frac{n}{2}(a + l) = \\frac{45}{2}(10 + 98) = 45 \\times 54 = 2430$."
+  },
+  {
+    "questionNumber": 329,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 17/03/2023 (Shift-02)",
+    "questionText": "What is the sum of all two digit odd numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2375"
+      },
+      {
+        "label": "B",
+        "text": "2475"
+      },
+      {
+        "label": "C",
+        "text": "2325"
+      },
+      {
+        "label": "D",
+        "text": "2425"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Two-digit odd numbers: $11, 13, 15, \\dots, 99$.\\nNumber of terms $n = \\frac{99 - 11}{2} + 1 = 45$.\\nSum $= \\frac{n}{2}(a + l) = \\frac{45}{2}(11 + 99) = 45 \\times 55 = 2475$."
+  },
+  {
+    "questionNumber": 330,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-04)",
+    "questionText": "What is the number of digits required for numbering a book with 428 pages?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1176"
+      },
+      {
+        "label": "B",
+        "text": "1500"
+      },
+      {
+        "label": "C",
+        "text": "2000"
+      },
+      {
+        "label": "D",
+        "text": "988"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Pages 1 to 9 (1-digit): $9 \\times 1 = 9$ digits.\\nPages 10 to 99 (2-digit): $90 \\times 2 = 180$ digits.\\nPages 100 to 428 (3-digit): $(428 - 100 + 1) \\times 3 = 329 \\times 3 = 987$ digits.\\nTotal digits $= 9 + 180 + 987 = 1176$."
+  },
+  {
+    "questionNumber": 331,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-03)",
+    "questionText": "Divide 25 into two parts such that 6 times of the larger part added to 4 times of the smaller part is equal to 130. Find the larger part?",
+    "options": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let larger part be $x$, smaller part be $25 - x$.\\n$6x + 4(25 - x) = 130$\\n$2x + 100 = 130 \\implies 2x = 30 \\implies x = 15$."
+  },
+  {
+    "questionNumber": 332,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-01)",
+    "questionText": "The sum of two numbers is 76. Three times the larger number is 46 more than four times the smaller one. Find the two numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "50 and 26"
+      },
+      {
+        "label": "B",
+        "text": "35 and 41"
+      },
+      {
+        "label": "C",
+        "text": "44 and 32"
+      },
+      {
+        "label": "D",
+        "text": "40 and 36"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the numbers be $x$ (larger) and $76 - x$ (smaller).\\n$3x = 4(76 - x) + 46$\\n$3x = 304 - 4x + 46 \\implies 7x = 350 \\implies x = 50$.\\nSmaller number $= 76 - 50 = 26$.\\nThe numbers are $50$ and $26$."
+  },
+  {
+    "questionNumber": 333,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+    "questionText": "If the sum of two numbers $x$ and $y$ is 12 and their product is 27, then find the sum of their cubes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "657"
+      },
+      {
+        "label": "B",
+        "text": "576"
+      },
+      {
+        "label": "C",
+        "text": "765"
+      },
+      {
+        "label": "D",
+        "text": "756"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$x^3 + y^3 = (x + y)^3 - 3xy(x + y)$\\n$= 12^3 - 3(27)(12) = 1728 - 972 = 756$."
+  },
+  {
+    "questionNumber": 334,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+    "questionText": "The sum of two numbers is 28 and the sum of their squares is 528. Find the square root of the product of both the numbers.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$8\\sqrt{2}$"
+      },
+      {
+        "label": "B",
+        "text": "$2\\sqrt{2}$"
+      },
+      {
+        "label": "C",
+        "text": "$4\\sqrt{2}$"
+      },
+      {
+        "label": "D",
+        "text": "$6\\sqrt{2}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$(a + b)^2 = a^2 + b^2 + 2ab$\\n$28^2 = 528 + 2ab \\implies 784 - 528 = 2ab \\implies 2ab = 256 \\implies ab = 128$.\\n$\\sqrt{ab} = \\sqrt{128} = \\sqrt{64 \\times 2} = 8\\sqrt{2}$."
+  },
+  {
+    "questionNumber": 335,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "A gear 15 cm in diameter is turning a gear 21 cm in diameter. When the smaller gear has 105 revolutions, how many has the larger one made?",
+    "options": [
+      {
+        "label": "A",
+        "text": "75"
+      },
+      {
+        "label": "B",
+        "text": "100"
+      },
+      {
+        "label": "C",
+        "text": "85"
+      },
+      {
+        "label": "D",
+        "text": "90"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$\\text{Number of revolutions} \\times \\text{Diameter} = \\text{Constant}$.\\n$N_1 \\times D_1 = N_2 \\times D_2$\\n$105 \\times 15 = N_2 \\times 21 \\implies N_2 = \\frac{105 \\times 15}{21} = 5 \\times 15 = 75$."
+  },
+  {
+    "questionNumber": 336,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+    "questionText": "18 students of a class took part in a quiz. If the number of girls is 8 more than the number of boys, find the product of the number of boys and girls.",
+    "options": [
+      {
+        "label": "A",
+        "text": "56"
+      },
+      {
+        "label": "B",
+        "text": "36"
+      },
+      {
+        "label": "C",
+        "text": "63"
+      },
+      {
+        "label": "D",
+        "text": "65"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let boys be $b$ and girls be $g$.\\n$g + b = 18$ and $g - b = 8$.\\nAdding gives $2g = 26 \\implies g = 13$, so $b = 5$.\\nProduct $= 13 \\times 5 = 65$."
+  },
+  {
+    "questionNumber": 337,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC MTS 13/09/2023 (Shift-01)",
+    "questionText": "If the $\\frac{5}{6}$ of a number is 10 less than the number itself, then $\\frac{7}{5}$ of the number is _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "96"
+      },
+      {
+        "label": "B",
+        "text": "72"
+      },
+      {
+        "label": "C",
+        "text": "60"
+      },
+      {
+        "label": "D",
+        "text": "84"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the number be $x$.\\n$x - \\frac{5}{6}x = 10 \\implies \\frac{1}{6}x = 10 \\implies x = 60$.\\n$\\frac{7}{5}$ of the number $= \\frac{7}{5} \\times 60 = 84$."
+  },
+  {
+    "questionNumber": 338,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 20/07/2023 (Shift-03)",
+    "questionText": "The square of 72 is equal to the product of 216 and a number. Find the number.",
+    "options": [
+      {
+        "label": "A",
+        "text": "36"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "48"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$72^2 = 216 \\times n$\\n$n = \\frac{72 \\times 72}{216} = \\frac{72}{3} = 24$."
+  },
+  {
+    "questionNumber": 339,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 17/03/2023 (Shift-01)",
+    "questionText": "If the sum of a number and its reciprocal is 4, find the sum of their squares.",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Given $x + \\frac{1}{x} = 4$.\\nSquaring both sides: $x^2 + \\frac{1}{x^2} + 2 = 16 \\implies x^2 + \\frac{1}{x^2} = 16 - 2 = 14$."
+  },
+  {
+    "questionNumber": 340,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 20/03/2023 (Shift-03)",
+    "questionText": "If sum of squares of two real numbers is 12 and the product of the numbers is 4, find the difference between the numbers.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$a^2 + b^2 = 12$ and $ab = 4$.\\n$(a - b)^2 = a^2 + b^2 - 2ab = 12 - 2(4) = 4$.\\nDifference $= \\sqrt{4} = 2$."
+  },
+  {
+    "questionNumber": 341,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 08/12/2022 (Shift-03)",
+    "questionText": "7 is added to a certain number and the sum is multiplied by 5. The product is then divided by 3 and 4 is subtracted from the quotient. If the result comes to 16, then what is the original number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let original number be $x$.\\n$\\frac{5(x + 7)}{3} - 4 = 16 \\implies \\frac{5(x + 7)}{3} = 20$\\n$5(x + 7) = 60 \\implies x + 7 = 12 \\implies x = 5$."
+  },
+  {
+    "questionNumber": 342,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CPO 09/11/2022 (Shift-01)",
+    "questionText": "If A is greater than B by 7, B is greater than C by 16, and A + B + C is 255, then the value of $3A + C - 4B$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$A = B + 7$ and $C = B - 16$.\\n$A + B + C = (B + 7) + B + (B - 16) = 3B - 9 = 255 \\implies 3B = 264 \\implies B = 88$.\\n$A = 88 + 7 = 95$, $C = 88 - 16 = 72$.\\n$3A + C - 4B = 3(95) + 72 - 4(88) = 285 + 72 - 352 = 5$."
+  },
+  {
+    "questionNumber": 343,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CPO 11/11/2022 (Shift-03)",
+    "questionText": "Two positive number differ by 3951. When the larger number is divided by the smaller number, the quotient is 12 and the remainder is 13. The sum of the digits of the larger number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let numbers be $L$ and $S$. $L - S = 3951 \\implies L = S + 3951$.\\nAlso $L = 12S + 13$.\\n$S + 3951 = 12S + 13 \\implies 11S = 3938 \\implies S = 358$.\\nLarger number $L = 358 + 3951 = 4309$.\\nSum of digits of $L = 4 + 3 + 0 + 9 = 16$."
+  },
+  {
+    "questionNumber": 344,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+    "questionText": "8 apples and 10 oranges weigh 5 kg. 12 apples and 20 oranges weigh 9 kg. What is the weight (in kg, rounded off to the nearest integer) of 15 apples and 24 oranges?",
+    "options": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let apple weight $= a$, orange weight $= o$.\\n$8a + 10o = 5 \\implies 16a + 20o = 10$.\\n$12a + 20o = 9$.\\nSubtracting gives $4a = 1 \\implies a = 0.25\\text{ kg}$.\\n$10o = 5 - 8(0.25) = 3 \\implies o = 0.3\\text{ kg}$.\\nWeight of 15 apples and 24 oranges $= 15(0.25) + 24(0.3) = 3.75 + 7.2 = 10.95\\text{ kg} \\approx 11\\text{ kg}$."
+  },
+  {
+    "questionNumber": 345,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-03)",
+    "questionText": "The cost of 21 pencils and 9 pens is Rs. 276, and the cost of 6 pencils and 3 pens is Rs. 84. The cost of 1 pencil and 1 pen is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rs. 30"
+      },
+      {
+        "label": "B",
+        "text": "Rs. 40"
+      },
+      {
+        "label": "C",
+        "text": "Rs. 20"
+      },
+      {
+        "label": "D",
+        "text": "Rs. 10"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let pencil $= x$, pen $= y$.\\n$21x + 9y = 276 \\implies 7x + 3y = 92$.\\n$6x + 3y = 84$.\\nSubtracting: $(7x + 3y) - (6x + 3y) = 92 - 84 \\implies x = 8$.\\n$3y = 84 - 6(8) = 36 \\implies y = 12$.\\nCost of 1 pencil and 1 pen $= 8 + 12 = \\text{Rs. } 20$."
+  },
+  {
+    "questionNumber": 346,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+    "questionText": "The sum of two numbers $x$ and $y$ (where $x$ is greater than $y$) is equal to four times of their difference. Find the value of $\\frac{5xy}{3(x^2 - y^2)}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25/16"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "2 3/16"
+      },
+      {
+        "label": "D",
+        "text": "25"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$x + y = 4(x - y) \\implies x + y = 4x - 4y \\implies 3x = 5y \\implies \\frac{x}{y} = \\frac{5}{3}$.\\nLet $x = 5k, y = 3k$.\\n$\\frac{5xy}{3(x^2 - y^2)} = \\frac{5(5k)(3k)}{3(25k^2 - 9k^2)} = \\frac{75k^2}{3(16k^2)} = \\frac{25}{16}$."
+  },
+  {
+    "questionNumber": 347,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL TIER-II 29/01/2022",
+    "questionText": "If $847 \\times 385 \\times 675 \\times 3025 = 3^a \\times 5^b \\times 7^c \\times 11^d$, then the value of $ab - cd$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Prime factorize each number:\\n$847 = 7 \\times 11^2$\\n$385 = 5 \\times 7 \\times 11$\\n$675 = 3^3 \\times 5^2$\\n$3025 = 5^2 \\times 11^2$\\nProduct $= 3^3 \\times 5^{1+2+2} \\times 7^{1+1} \\times 11^{2+1+2} = 3^3 \\times 5^5 \\times 7^2 \\times 11^5$.\\n$a = 3, b = 5, c = 2, d = 5$.\\n$ab - cd = (3 \\times 5) - (2 \\times 5) = 15 - 10 = 5$."
+  },
+  {
+    "questionNumber": 348,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL TIER-II 11/09/2019",
+    "questionText": "Let a, b and c be the fractions such that $a < b < c$. If c is divided by a, the result is $\\frac{5}{2}$, which exceeds b by $\\frac{7}{4}$. If $a + b + c = 1\\frac{11}{12}$, the $(c - a)$ will be equal to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1/3"
+      },
+      {
+        "label": "B",
+        "text": "1/2"
+      },
+      {
+        "label": "C",
+        "text": "2/3"
+      },
+      {
+        "label": "D",
+        "text": "1/6"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$\\frac{c}{a} = \\frac{5}{2} \\implies c = \\frac{5}{2}a$.\\n$b = \\frac{5}{2} - \\frac{7}{4} = \\frac{3}{4}$.\\n$a + b + c = 1\\frac{11}{12} = \\frac{23}{12}$\\n$a + \\frac{3}{4} + \\frac{5}{2}a = \\frac{23}{12} \\implies \\frac{7}{2}a = \\frac{23}{12} - \\frac{9}{12} = \\frac{14}{12} = \\frac{7}{6}$\\n$a = \\frac{1}{3} \\implies c = \\frac{5}{2}\\left(\\frac{1}{3}\\right) = \\frac{5}{6}$.\\n$c - a = \\frac{5}{6} - \\frac{1}{3} = \\frac{1}{2}$."
+  },
+  {
+    "questionNumber": 349,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+    "questionText": "Find the quotient, when the mean proportional of $7\\frac{1}{5}$ and 245 is divided by an even prime number.",
+    "options": [
+      {
+        "label": "A",
+        "text": "49"
+      },
+      {
+        "label": "B",
+        "text": "42"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$7\\frac{1}{5} = \\frac{36}{5}$.\\nMean proportional $= \\sqrt{\\frac{36}{5} \\times 245} = \\sqrt{36 \\times 49} = 6 \\times 7 = 42$.\\nThe only even prime number is $2$.\\nQuotient $= \\frac{42}{2} = 21$."
+  },
+  {
+    "questionNumber": 350,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC Phase-XII 20/06/2024 (Shift-02)",
+    "questionText": "How many times does the hour hand and minute hand of a clock coincide in half a day?",
+    "options": [
+      {
+        "label": "A",
+        "text": "44"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "22"
+      },
+      {
+        "label": "D",
+        "text": "55"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "In a 12-hour period (half a day), the hour and minute hands coincide 11 times (between 11:00 and 1:00, they coincide only once, at 12:00).\\nHence, in half a day they coincide $11$ times."
+  },
+  {
+    "questionNumber": 351,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL TIER-II 12/09/2019",
+    "questionText": "Three fraction $x$, $y$ and $z$ are such that $x > y > z$, When the smallest of them is divided by the greatest, the result is $\\frac{9}{16}$, which exceeds by 0.0625. If $x + y + z = 1\\frac{13}{24}$, then the value of $x + z$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "7/8"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "25/24"
+      },
+      {
+        "label": "D",
+        "text": "7/6"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Smallest is $z$, greatest is $x$, so $\\frac{z}{x} = \\frac{9}{16}$.\\nThis exceeds $y$ by $0.0625 = \\frac{1}{16}$:\\n$y = \\frac{9}{16} - \\frac{1}{16} = \\frac{8}{16} = \\frac{1}{2}$.\\nGiven $x + y + z = 1\\frac{13}{24} = \\frac{37}{24}$.\\n$x + z = \\frac{37}{24} - y = \\frac{37}{24} - \\frac{1}{2} = \\frac{37 - 12}{24} = \\frac{25}{24}$."
+  },
+  {
+    "questionNumber": 352,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL TIER-II 18/11/2020",
+    "questionText": "Find the sum of $6 + 8 + 10 + 12 + 14 + \\dots + 40$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "424"
+      },
+      {
+        "label": "B",
+        "text": "1600"
+      },
+      {
+        "label": "C",
+        "text": "400"
+      },
+      {
+        "label": "D",
+        "text": "414"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "This is an arithmetic progression with first term $a = 6$, common difference $d = 2$, and last term $l = 40$.\\nNumber of terms $n = \\frac{40 - 6}{2} + 1 = 18$.\\nSum $= \\frac{n}{2}(a + l) = \\frac{18}{2}(6 + 40) = 9 \\times 46 = 414$."
+  },
+  {
+    "questionNumber": 353,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL TIER-II 12/09/2019",
+    "questionText": "When a two-digit number is multiplied by the sum of its digits, the product is 424. When the number obtained by interchanging its digits is multiplied by the sum of the digits, the result is 280. The sum of the digits of the given number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the number be $N = 10x + y$ and sum of digits $S = x + y$.\\n$(10x + y)S = 424$\\n$(10y + x)S = 280$\\nAdding both equations: $[(10x + y) + (10y + x)]S = 424 + 280 = 704$\\n$11(x + y)S = 704 \\implies 11S^2 = 704 \\implies S^2 = 64 \\implies S = 8$."
+  },
+  {
+    "questionNumber": 354,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL TIER-II 08/08/2022",
+    "questionText": "How many numbers are there from 400 to 700 in which the digit 6 occurs exactly twice?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19"
+      },
+      {
+        "label": "B",
+        "text": "21"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Consider numbers from 400 to 700:\\n1. Hundreds digit is 4 or 5: Both tens and units must be 6 $\\implies 466, 566$ (2 numbers).\\n2. Hundreds digit is 6: Exactly one of tens or units is 6:\\n- Tens is 6, units is not 6: $660, 661, \\dots, 669$ except $666$ ($9$ numbers).\\n- Units is 6, tens is not 6: $606, 616, \\dots, 696$ except $666$ ($9$ numbers).\\nTotal $= 2 + 9 + 9 = 20$ numbers."
+  },
+  {
+    "questionNumber": 355,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC Phase-XII 21/06/2024 (Shift-03)",
+    "questionText": "Ram gives a six-digit number 468312 to Shyam to check the divisibility. Shyam tells Ram that the number is divisible by 57. Shyam asks Ram, \"If we rearrange the digits of this number in descending order, then by which number will it be always divisible?\"",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "17"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "19"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Sum of the digits $= 4 + 6 + 8 + 3 + 1 + 2 = 24$, which is divisible by 3.\\nRearranging the digits in any order does not change the sum of the digits.\\nTherefore, the new number will always be divisible by $3$."
+  },
+  {
+    "questionNumber": 356,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+    "questionText": "In a garden, there are 6 daisy plants in first year. Each year, a gardener adds 3 new daisy plants. He has 26 jasmine plants in first year and loses 2 each year. When will the number of daisy plants equal to the number of jasmine plants after the first year?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 years"
+      },
+      {
+        "label": "B",
+        "text": "4 years"
+      },
+      {
+        "label": "C",
+        "text": "2 years"
+      },
+      {
+        "label": "D",
+        "text": "6 years"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let $t$ be the number of years after the first year.\\nNumber of daisy plants $= 6 + 3t$.\\nNumber of jasmine plants $= 26 - 2t$.\\n$6 + 3t = 26 - 2t \\implies 5t = 20 \\implies t = 4$ years."
+  },
+  {
+    "questionNumber": 357,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 13/09/2024 (Shift-03)",
+    "questionText": "2 biscuits and 1 chocolate cost ₹69. 2 chocolates and 3 cups of coffee cost ₹127. 3 biscuits, 4 chocolates and 2 cups of coffee cost ₹229. Find the total cost (in ₹) of 5 biscuits, 5 chocolates and 5 cups of coffee.",
+    "options": [
+      {
+        "label": "A",
+        "text": "304"
+      },
+      {
+        "label": "B",
+        "text": "375"
+      },
+      {
+        "label": "C",
+        "text": "345"
+      },
+      {
+        "label": "D",
+        "text": "355"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let cost of biscuit $= b$, chocolate $= c$, coffee $= k$.\\n(1) $2b + c = 69$\\n(2) $2c + 3k = 127$\\n(3) $3b + 4c + 2k = 229$\\nAdding all three equations:\\n$(2b + 3b) + (c + 2c + 4c) + (3k + 2k) = 69 + 127 + 229 = 425$\\n$5b + 7c + 5k = 425 \\implies 5b + 5c + 5k = 425 - 2c$.\\nFrom (1), $c = 69 - 2b$.\\nMultiply (3) by 3 and (2) by 2, then subtract:\\n$3(3b + 4c + 2k) - 2(2c + 3k) = 3(229) - 2(127) \\implies 9b + 8c = 687 - 254 = 433$.\\nSubstitute $c = 69 - 2b$:\\n$9b + 8(69 - 2b) = 433 \\implies 9b + 552 - 16b = 433 \\implies 7b = 119 \\implies b = 17$.\\nThen $c = 69 - 2(17) = 35$.\\nTotal cost of 5 biscuits, 5 chocolates, 5 cups of coffee $= 425 - 2(35) = 425 - 70 = ₹355$."
+  },
+  {
+    "questionNumber": 358,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 18/09/2024 (Shift-03)",
+    "questionText": "Anna and Ben each have a collection of marbles. If Anna gives one marble to Ben, they will both have an equal number of marbles. Conversely, if Ben gives one marble to Anna, she will end up with three times the number of marbles that Ben has. What is the total number of marbles they both have?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let Anna have $A$ marbles and Ben have $B$ marbles.\\nFrom first condition: $A - 1 = B + 1 \\implies A = B + 2$.\\nFrom second condition: $A + 1 = 3(B - 1) \\implies (B + 2) + 1 = 3B - 3 \\implies B + 3 = 3B - 3 \\implies 2B = 6 \\implies B = 3$.\\n$A = 3 + 2 = 5$.\\nTotal number of marbles $= A + B = 5 + 3 = 8$."
+  },
+  {
+    "questionNumber": 359,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+    "questionText": "Each of Ravi and Kavita had some marbles. Kavita had 12 more marbles than Ravi had. If each of them had one more marble, then three times the number of marbles Kavita would then have had would have been equal to four times the number of marbles Ravi would then have had. How many marbles did Kavita actually have?",
+    "options": [
+      {
+        "label": "A",
+        "text": "43"
+      },
+      {
+        "label": "B",
+        "text": "47"
+      },
+      {
+        "label": "C",
+        "text": "51"
+      },
+      {
+        "label": "D",
+        "text": "48"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let Ravi have $R$ marbles. Then Kavita has $K = R + 12$.\\nIf each gets 1 marble, Kavita has $R + 13$ and Ravi has $R + 1$.\\n$3(R + 13) = 4(R + 1)$\\n$3R + 39 = 4R + 4 \\implies R = 35$.\\nKavita actually had $K = 35 + 12 = 47$ marbles."
+  },
+  {
+    "questionNumber": 360,
+    "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-01)",
+    "questionText": "Raju has Rs.11,000 and starts saving Rs.5,000 each week towards buying a new laptop. At the same time, Ramesh has Rs.60,000 and begins spending Rs.2,000 per week on supplies for his art class. Will there be a week when they have the same amount of money?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, after 7 weeks"
+      },
+      {
+        "label": "B",
+        "text": "Yes, after 6 weeks"
+      },
+      {
+        "label": "C",
+        "text": "No, they will never have the same amount"
+      },
+      {
+        "label": "D",
+        "text": "Yes, after 5 weeks"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let $w$ be the number of weeks.\\nAmount with Raju $= 11000 + 5000w$.\\nAmount with Ramesh $= 60000 - 2000w$.\\nEquating the amounts:\\n$11000 + 5000w = 60000 - 2000w$\\n$7000w = 49000 \\implies w = 7$.\\nYes, they will have the same amount after 7 weeks."
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "questionNumber": 231,
+    "typeHeader": "TYPE - VI: CONTINUOUS FRACTION SERIES",
+    "examShift": "SSC CGL Tier-II 03/02/2022",
+    "questionText": "The value of $\\frac{3}{70} + \\frac{1}{42} + \\frac{1}{66} + \\frac{3}{286} + \\frac{1}{130} + \\frac{1}{170}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{7}{85}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{3}{85}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{11}{85}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{9}{85}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Decompose each term by partial fractions / telescoping form:\nNotice:\n$$\\frac{3}{70} = \\frac{1}{10} - \\frac{1}{17} \\dots \\text{let us calculate the terms:}$$\n$$\\frac{3}{70} = \\frac{1}{2}\\left(\\frac{1}{7} - \\frac{1}{10}\\right) + \\dots$$\nEvaluating the sum directly:\n$$\\frac{3}{70} + \\frac{1}{42} = \\frac{9 + 5}{210} = \\frac{14}{210} = \\frac{1}{15}$$\n$$\\frac{1}{15} + \\frac{1}{66} = \\frac{22 + 5}{330} = \\frac{27}{330} = \\frac{9}{110}$$\n$$\\frac{9}{110} + \\frac{3}{286} = \\frac{9 \\times 13 + 3 \\times 5}{1430} = \\frac{117 + 15}{1430} = \\frac{132}{1430} = \\frac{6}{65}$$\n$$\\frac{6}{65} + \\frac{1}{130} = \\frac{12 + 1}{130} = \\frac{13}{130} = \\frac{1}{10}$$\n$$\\frac{1}{10} + \\frac{1}{170} = \\frac{17 + 1}{170} = \\dots \\text{wait, in the problem, the last term is } -\\frac{1}{170} \\text{ or } \\frac{1}{10} - \\frac{1}{170} = \\frac{16}{170} = \\frac{8}{85} \\text{ or:}$$\n$$\\frac{1}{10} - \\frac{1}{17} = \\frac{7}{170} \\dots$$\nTotal sum of the given terms evaluates to $\\frac{9}{85}$.\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 232,
+    "typeHeader": "TYPE - VI: CONTINUOUS FRACTION SERIES",
+    "examShift": "SSC CHSL 17/03/2020 (Shift-01)",
+    "questionText": "Simplify $\\frac{4}{3 \\times 7} + \\frac{6}{7 \\times 13} + \\frac{8}{13 \\times 21} + \\frac{10}{21 \\times 31} + \\frac{12}{31 \\times 43}$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{39}{128}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{40}{129}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{41}{130}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{42}{135}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Notice that each numerator is the difference of the factors in the denominator:\n$$\\frac{4}{3 \\times 7} = \\frac{7 - 3}{3 \\times 7} = \\frac{1}{3} - \\frac{1}{7}$$\n$$\\frac{6}{7 \\times 13} = \\frac{13 - 7}{7 \\times 13} = \\frac{1}{7} - \\frac{1}{13}$$\n$$\\frac{8}{13 \\times 21} = \\frac{21 - 13}{13 \\times 21} = \\frac{1}{13} - \\frac{1}{21}$$\n$$\\frac{10}{21 \\times 31} = \\frac{31 - 21}{21 \\times 31} = \\frac{1}{21} - \\frac{1}{31}$$\n$$\\frac{12}{31 \\times 43} = \\frac{43 - 31}{31 \\times 43} = \\frac{1}{31} - \\frac{1}{43}$$\nAdding all terms, the intermediate terms cancel out:\n$$\\text{Sum} = \\frac{1}{3} - \\frac{1}{43} = \\frac{43 - 3}{3 \\times 43} = \\frac{40}{129}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 233,
+    "typeHeader": "TYPE - VI: CONTINUOUS FRACTION SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "Simplify $\\frac{1}{8} + 999\\frac{791}{792} \\times 99$",
+    "options": [
+      {
+        "label": "A",
+        "text": "89000"
+      },
+      {
+        "label": "B",
+        "text": "88900"
+      },
+      {
+        "label": "C",
+        "text": "95900"
+      },
+      {
+        "label": "D",
+        "text": "99000"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Express the mixed number $999\\frac{791}{792}$ as:\n$$999\\frac{791}{792} = 1000 - 1 + \\frac{791}{792} = 1000 - \\left(1 - \\frac{791}{792}\\right) = 1000 - \\frac{1}{792}$$\nNow multiply by 99:\n$$\\left(1000 - \\frac{1}{792}\\right) \\times 99 = 99000 - \\frac{99}{792}$$\nSince $792 = 99 \\times 8$, we have $\\frac{99}{792} = \\frac{1}{8}$.\nNow add $\\frac{1}{8}$:\n$$\\frac{1}{8} + 99000 - \\frac{1}{8} = 99000$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 234,
+    "typeHeader": "TYPE - VII: CONCEPT OF AP & GP",
+    "examShift": "SSC CHSL 09/03/2023 (Shift-02)",
+    "questionText": "What is the value of the expression $1 - 2 + 3 - 4 + 5 - 6 \\dots \\dots \\text{ to } 100 \\text{ terms}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-50"
+      },
+      {
+        "label": "B",
+        "text": "-55"
+      },
+      {
+        "label": "C",
+        "text": "-49"
+      },
+      {
+        "label": "D",
+        "text": "-60"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Pair consecutive terms together:\n$$(1 - 2) + (3 - 4) + (5 - 6) + \\dots + (99 - 100)$$\nEach pair evaluates to $-1$:\n$$(1 - 2) = -1$$\n$$(3 - 4) = -1$$\n$$\\dots$$\nWith 100 terms, there are $\\frac{100}{2} = 50$ such pairs.\n$$\\text{Total Sum} = 50 \\times (-1) = -50$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 235,
+    "typeHeader": "TYPE - VII: CONCEPT OF AP & GP",
+    "examShift": "SSC CHSL 21/03/2023 (Shift-03)",
+    "questionText": "What is the value of $4^2 - 3^2 + 6^2 - 5^2 + 8^2 - 7^2 + \\dots \\dots \\dots 92^2 - 91^2$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4272"
+      },
+      {
+        "label": "B",
+        "text": "4280"
+      },
+      {
+        "label": "C",
+        "text": "4278"
+      },
+      {
+        "label": "D",
+        "text": "4275"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Using $a^2 - b^2 = (a - b)(a + b)$ for each pair with $a - b = 1$:\n$$4^2 - 3^2 = 4 + 3 = 7$$\n$$6^2 - 5^2 = 6 + 5 = 11$$\n$$8^2 - 7^2 = 8 + 7 = 15$$\n$$\\dots$$\n$$92^2 - 91^2 = 92 + 91 = 183$$\nThis forms an Arithmetic Progression (AP):\nFirst term $a = 7$, common difference $d = 4$, last term $l = 183$.\nFind number of terms $n$:\n$$183 = 7 + (n - 1) \\times 4 \\implies (n - 1) \\times 4 = 176 \\implies n = 45$$\nSum of the AP:\n$$S_n = \\frac{n}{2}(a + l) = \\frac{45}{2}(7 + 183) = \\frac{45}{2} \\times 190 = 45 \\times 95 = 4275$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 236,
+    "typeHeader": "TYPE - VII: CONCEPT OF AP & GP",
+    "examShift": "SSC CHSL 17/03/2023 (Shift-04)",
+    "questionText": "What is the value of $98^2 - 97^2 + 96^2 - 95^2 + 94^2 - 93^2 + \\dots \\dots \\dots 12^2 - 11^2$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4725"
+      },
+      {
+        "label": "B",
+        "text": "4796"
+      },
+      {
+        "label": "C",
+        "text": "4851"
+      },
+      {
+        "label": "D",
+        "text": "4926"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Apply $a^2 - b^2 = (a - b)(a + b)$ to each pair:\n$$98^2 - 97^2 = 98 + 97$$\n$$96^2 - 95^2 = 96 + 95$$\n$$\\dots$$\n$$12^2 - 11^2 = 12 + 11$$\nThe sum is the sum of all integers from 11 to 98 inclusive:\n$$\\text{Sum} = 11 + 12 + 13 + \\dots + 98$$\nNumber of terms $n = 98 - 11 + 1 = 88$.\n$$\\text{Sum} = \\frac{n}{2}(\\text{first term} + \\text{last term}) = \\frac{88}{2}(11 + 98) = 44 \\times 109 = 4796$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 237,
+    "typeHeader": "SURDS & INDICES - TYPE - VIII: BASIC QUESTIONS",
+    "examShift": "SSC CPO 10/11/2022 (Shift-01)",
+    "questionText": "What is the simplified value of $(0.00243)^{(0.2)}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.3"
+      },
+      {
+        "label": "B",
+        "text": "0.03"
+      },
+      {
+        "label": "C",
+        "text": "0.003"
+      },
+      {
+        "label": "D",
+        "text": "0.0003"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Express $0.00243$ as a power of $0.3$ and $0.2$ as a fraction:\n$$0.00243 = (0.3)^5$$\n$$0.2 = \\frac{1}{5}$$\nTherefore:\n$$(0.00243)^{0.2} = \\left((0.3)^5\\right)^{1/5} = (0.3)^{5 \\times \\frac{1}{5}} = 0.3$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 238,
+    "typeHeader": "SURDS & INDICES - TYPE - VIII: BASIC QUESTIONS",
+    "examShift": "SSC MTS 16/05/2023 (Shift-01)",
+    "questionText": "Simplify: $\\sqrt{[(7^2 + 6^3 + 9^2) \\div 2 + 52]}$",
+    "options": [
+      {
+        "label": "A",
+        "text": "14"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluate inside the brackets following BODMAS:\n$$7^2 = 49$$\n$$6^3 = 216$$\n$$9^2 = 81$$\n$$7^2 + 6^3 + 9^2 = 49 + 216 + 81 = 346$$\nDivide by 2:\n$$346 \\div 2 = 173$$\nAdd 52:\n$$173 + 52 = 225$$\nTake the square root:\n$$\\sqrt{225} = 15$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 239,
+    "typeHeader": "SURDS & INDICES - TYPE - VIII: BASIC QUESTIONS",
+    "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+    "questionText": "What is the positive value of the following expression?\n$$\\sqrt{36 \\div 15 \\text{ of } 2 \\text{ of } \\left[25 \\times 4 \\div 4 \\text{ of } \\left\\{29 - (8 - 11) \\div (9 \\times 5 \\div 5 \\text{ of } 3)\\right\\}\\right]}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "1\\frac{5}{6}"
+      },
+      {
+        "label": "B",
+        "text": "1\\frac{1}{5}"
+      },
+      {
+        "label": "C",
+        "text": "2\\frac{4}{5}"
+      },
+      {
+        "label": "D",
+        "text": "2\\frac{3}{5}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Solve inside the brackets following the BODMAS rule:\n1. Inside the innermost parenthesis:\n$$8 - 11 = -3$$\n$$9 \\times 5 \\div 5 \\text{ of } 3 = 9 \\times 5 \\div 15 = 45 \\div 15 = 3$$\n2. Inside the curly brackets:\n$$29 - (-3) \\div 3 = 29 - (-1) = 29 + 1 = 30$$\n3. Inside the square brackets:\n$$25 \\times 4 \\div 4 \\text{ of } 30 = 25 \\times 4 \\div 120 = \\frac{100}{120} = \\frac{5}{6}$$\n4. Outside the brackets:\n$$15 \\text{ of } 2 = 30$$\n$$30 \\text{ of } \\frac{5}{6} = 30 \\times \\frac{5}{6} = 25$$\n$$36 \\div 25 = \\frac{36}{25}$$\n5. Take the square root:\n$$\\sqrt{\\frac{36}{25}} = \\frac{6}{5} = 1\\frac{1}{5}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 240,
+    "typeHeader": "SURDS & INDICES - TYPE - VIII: BASIC QUESTIONS",
+    "examShift": "SSC MTS 08/09/2023 (Shift-02)",
+    "questionText": "Simplifying the following expression:\n$$\\frac{24\\sqrt{45} - 16\\sqrt{20} + \\sqrt{245} - 47\\sqrt{5}}{3\\frac{1}{5} + 1\\frac{2}{5} - 2\\frac{1}{6} - 2\\frac{1}{5} - 5\\frac{2}{5} + 3\\frac{1}{6}}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Simplify the square roots in the numerator:\n$$\\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5} \\implies 24\\sqrt{45} = 24 \\times 3\\sqrt{5} = 72\\sqrt{5}$$\n$$\\sqrt{20} = \\sqrt{4 \\times 5} = 2\\sqrt{5} \\implies -16\\sqrt{20} = -16 \\times 2\\sqrt{5} = -32\\sqrt{5}$$\n$$\\sqrt{245} = \\sqrt{49 \\times 5} = 7\\sqrt{5}$$\nNow combine all terms in the numerator:\n$$\\text{Numerator} = 72\\sqrt{5} - 32\\sqrt{5} + 7\\sqrt{5} - 47\\sqrt{5} = (72 - 32 + 7 - 47)\\sqrt{5} = 0\\sqrt{5} = 0$$\nSince the numerator is 0 and the denominator is non-zero, the entire fraction equals 0.\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 241,
+    "typeHeader": "SURDS & INDICES - TYPE - VIII: BASIC QUESTIONS",
+    "examShift": "SSC CHSL 03/06/2022 (Shift-03)",
+    "questionText": "If $a, b, c$ are positive real numbers, what is the value of $\\sqrt{a^{-1} b} \\times \\sqrt{b^{-1} c} \\times \\sqrt{c^{-1} a}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Combine the radicals under a single square root:\n$$\\sqrt{a^{-1} b} \\times \\sqrt{b^{-1} c} \\times \\sqrt{c^{-1} a} = \\sqrt{\\frac{b}{a} \\times \\frac{c}{b} \\times \\frac{a}{c}}$$\nNotice that all variables cancel out:\n$$\\sqrt{\\frac{a \\times b \\times c}{a \\times b \\times c}} = \\sqrt{1} = 1$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 242,
+    "typeHeader": "SURDS & INDICES - TYPE - VIII: BASIC QUESTIONS",
+    "examShift": "SSC CGL Tier-II 03/02/2022",
+    "questionText": "If $\\sqrt{1 + \\frac{\\sqrt{3}}{2}} - \\sqrt{1 - \\frac{\\sqrt{3}}{2}} = c$, then the value of $c$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Square both sides to find $c^2$:\n$$c^2 = \\left(\\sqrt{1 + \\frac{\\sqrt{3}}{2}} - \\sqrt{1 - \\frac{\\sqrt{3}}{2}}\\right)^2$$\n$$c^2 = \\left(1 + \\frac{\\sqrt{3}}{2}\\right) + \\left(1 - \\frac{\\sqrt{3}}{2}\\right) - 2\\sqrt{\\left(1 + \\frac{\\sqrt{3}}{2}\\right)\\left(1 - \\frac{\\sqrt{3}}{2}\\right)}$$\n$$c^2 = 2 - 2\\sqrt{1 - \\frac{3}{4}} = 2 - 2\\sqrt{\\frac{1}{4}} = 2 - 2\\left(\\frac{1}{2}\\right) = 2 - 1 = 1$$\nSince $1 + \\frac{\\sqrt{3}}{2} > 1 - \\frac{\\sqrt{3}}{2}$, $c > 0$:\n$$c = \\sqrt{1} = 1$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 243,
+    "typeHeader": "SURDS & INDICES - TYPE - VIII: BASIC QUESTIONS",
+    "examShift": "SSC CGL TIER-II (18/01/2025)",
+    "questionText": "$\\frac{\\sqrt[3]{6859}}{\\sqrt[4]{1296}} \\times \\frac{3}{57} \\times 42 = ?$",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "-3"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluate the roots:\n$$\\sqrt[3]{6859} = 19 \\quad (\\text{since } 19^3 = 6859)$$\n$$\\sqrt[4]{1296} = 6 \\quad (\\text{since } 6^4 = 1296)$$\nNow substitute into the expression:\n$$\\frac{19}{6} \\times \\frac{3}{57} \\times 42$$\nSimplify step-by-step:\n$$\\frac{19}{57} = \\frac{1}{3}$$\n$$\\frac{1}{6} \\times \\frac{3}{3} \\times 42 = \\frac{1}{6} \\times 1 \\times 42 = \\frac{42}{6} = 7$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 244,
+    "typeHeader": "TYPE - IX: TO FIND SMALLEST/LARGEST",
+    "examShift": "SSC CPO 09/12/2019 (Shift-01)",
+    "questionText": "Which one among the following is the smallest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\sqrt{101} - \\sqrt{99}"
+      },
+      {
+        "label": "B",
+        "text": "\\sqrt{201} - \\sqrt{199}"
+      },
+      {
+        "label": "C",
+        "text": "\\sqrt{301} - \\sqrt{299}"
+      },
+      {
+        "label": "D",
+        "text": "\\sqrt{401} - \\sqrt{399}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Rationalize each expression using $(a - b) = \\frac{a^2 - b^2}{a + b}$:\n$$\\sqrt{x + 2} - \\sqrt{x} = \\frac{(x + 2) - x}{\\sqrt{x + 2} + \\sqrt{x}} = \\frac{2}{\\sqrt{x + 2} + \\sqrt{x}}$$\nSince the numerator is constant ($2$), the value is smallest when the denominator is largest.\nThe denominator $\\sqrt{x + 2} + \\sqrt{x}$ is strictly increasing with $x$.\nAmong $x = 99, 199, 299, 399$, the largest denominator occurs at $x = 399$:\n$$\\frac{2}{\\sqrt{401} + \\sqrt{399}}$$\nTherefore, $\\sqrt{401} - \\sqrt{399}$ is the smallest.\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 245,
+    "typeHeader": "TYPE - IX: TO FIND SMALLEST/LARGEST",
+    "examShift": "SSC CGL / CPO",
+    "questionText": "Which one among $\\sqrt[4]{6}, \\sqrt[3]{5}$ and $\\sqrt[6]{12}$ is the largest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\sqrt[4]{6}"
+      },
+      {
+        "label": "B",
+        "text": "\\sqrt[3]{5}"
+      },
+      {
+        "label": "C",
+        "text": "\\sqrt[6]{12}"
+      },
+      {
+        "label": "D",
+        "text": "All are equal"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "To compare the numbers, raise each to the power of $\\text{LCM}(4, 3, 6) = 12$:\n$$(\\sqrt[4]{6})^{12} = 6^{12/4} = 6^3 = 216$$\n$$(\\sqrt[3]{5})^{12} = 5^{12/3} = 5^4 = 625$$\n$$(\\sqrt[6]{12})^{12} = 12^{12/6} = 12^2 = 144$$\nComparing the values: $625 > 216 > 144$.\nTherefore, $\\sqrt[3]{5}$ is the largest.\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 246,
+    "typeHeader": "TYPE - IX: TO FIND SMALLEST/LARGEST",
+    "examShift": "SSC CGL",
+    "questionText": "The greatest among the numbers $\\sqrt{0.09}, \\sqrt[3]{0.064}, 0.5$ and $\\frac{3}{5}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\sqrt{0.09}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{3}{5}"
+      },
+      {
+        "label": "C",
+        "text": "0.5"
+      },
+      {
+        "label": "D",
+        "text": "\\sqrt[3]{0.064}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Convert all values to decimals:\n$$\\sqrt{0.09} = 0.3$$\n$$\\sqrt[3]{0.064} = 0.4$$\n$$0.5 = 0.5$$\n$$\\frac{3}{5} = 0.6$$\nComparing the decimals: $0.6 > 0.5 > 0.4 > 0.3$.\nThus, the greatest number is $\\frac{3}{5}$.\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 247,
+    "typeHeader": "TYPE - IX: TO FIND SMALLEST/LARGEST",
+    "examShift": "SSC CGL",
+    "questionText": "Which value among $\\sqrt{11} + \\sqrt{5}, \\sqrt{14} + \\sqrt{2}, \\sqrt{8} + \\sqrt{8}$ is the largest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\sqrt{11} + \\sqrt{5}"
+      },
+      {
+        "label": "B",
+        "text": "\\sqrt{14} + \\sqrt{2}"
+      },
+      {
+        "label": "C",
+        "text": "\\sqrt{8} + \\sqrt{8}"
+      },
+      {
+        "label": "D",
+        "text": "All are equal"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Square each expression:\n$$(\\sqrt{11} + \\sqrt{5})^2 = 11 + 5 + 2\\sqrt{55} = 16 + 2\\sqrt{55}$$\n$$(\\sqrt{14} + \\sqrt{2})^2 = 14 + 2 + 2\\sqrt{28} = 16 + 2\\sqrt{28}$$\n$$(\\sqrt{8} + \\sqrt{8})^2 = 8 + 8 + 2\\sqrt{64} = 16 + 2\\sqrt{64}$$\nSince the rational part is $16$ for all, the largest expression corresponds to the largest product under the square root:\n$$64 > 55 > 28$$\nTherefore, $\\sqrt{8} + \\sqrt{8}$ is the largest.\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 248,
+    "typeHeader": "TYPE - IX: TO FIND SMALLEST/LARGEST",
+    "examShift": "SSC CGL Tier-II (08/08/2022)",
+    "questionText": "Which of the following given value is greater than $\\sqrt[3]{12}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\sqrt[5]{60}"
+      },
+      {
+        "label": "B",
+        "text": "\\sqrt[12]{33214}"
+      },
+      {
+        "label": "C",
+        "text": "\\sqrt[6]{121}"
+      },
+      {
+        "label": "D",
+        "text": "\\sqrt[9]{1500}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Find the approximate value of $\\sqrt[3]{12}$:\n$$12^{1/3} \\approx 2.2894$$\nNow test the options:\nOption A: $60^{1/5} \\approx 2.2679 < 2.2894$\nOption B: $33214^{1/12} \\approx 2.3811 > 2.2894$\nAlternatively, compare $(12^{1/3})^{12} = 12^4 = 20736$.\nFor option B: $(\\sqrt[12]{33214})^{12} = 33214$.\nSince $33214 > 20736$, $\\sqrt[12]{33214} > \\sqrt[3]{12}$.\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 249,
+    "typeHeader": "TYPE - X: INFINITE SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "Find the value of $\\sqrt{a\\sqrt{a\\sqrt{a\\sqrt{a}}}}$",
+    "options": [
+      {
+        "label": "A",
+        "text": "a^{\\frac{7}{8}}"
+      },
+      {
+        "label": "B",
+        "text": "a^{\\frac{15}{16}}"
+      },
+      {
+        "label": "C",
+        "text": "a"
+      },
+      {
+        "label": "D",
+        "text": "a^4"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For a finite nested radical with $n$ square roots, the formula is:\n$$a^{\\frac{2^n - 1}{2^n}}$$\nHere, there are $n = 4$ radicals:\n$$a^{\\frac{2^4 - 1}{2^4}} = a^{\\frac{16 - 1}{16}} = a^{\\frac{15}{16}}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 250,
+    "typeHeader": "TYPE - X: INFINITE SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "Find the value of $\\sqrt{30 + \\sqrt{30 + \\sqrt{30 + \\sqrt{30 + \\dots \\infty}}}}$",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let $x = \\sqrt{30 + \\sqrt{30 + \\sqrt{30 + \\dots}}}$\nSquaring both sides:\n$$x^2 = 30 + x \\implies x^2 - x - 30 = 0$$\nFactorizing the quadratic equation:\n$$(x - 6)(x + 5) = 0$$\nSince the value of a principal square root must be positive, $x = 6$.\nHence, the correct option is D."
+  }
+]

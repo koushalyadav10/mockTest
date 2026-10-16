@@ -1,0 +1,782 @@
+[
+  {
+    "questionNumber": 91,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+    "questionText": "If $*$ is a digit such that $7235*$ is divisible by 11, then the value of $*$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For a number to be divisible by 11, the difference between the sum of digits at odd places and even places must be 0 or a multiple of 11.\nSum of digits at odd places $= * + 3 + 7 = 10 + *$\nSum of digits at even places $= 5 + 2 = 7$\nDifference $= (10 + *) - 7 = 3 + *$\nFor $(3 + *)$ to be divisible by 11, $* = 8$.\nTherefore, the required value of $*$ is $8$."
+  },
+  {
+    "questionNumber": 92,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 26/06/2024 (Shift-04)",
+    "questionText": "Find the largest number which should replace P in the 7-digit number $87893P4$ to make the number divisible by 4.",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "A number is divisible by 4 if its last two digits form a number divisible by 4.\nHere, the last two digits are $P4$.\nPossible values of $P$ such that $P4$ is divisible by 4 are $0, 2, 4, 6, 8$.\nThe largest possible single-digit value for $P$ is $8$."
+  },
+  {
+    "questionNumber": 93,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 19/04/2022 (Shift-03)",
+    "questionText": "Find the value of $k$ such that the number $k53206k$ is divisible by 4.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "For $k53206k$ to be divisible by 4, the number formed by its last two digits, $6k$, must be divisible by 4.\nTesting the options for $k$:\nIf $k = 4$, the last two digits are $64$, and $64 \\div 4 = 16$ (divisible).\nIf $k = 2$, $62 \\div 4$ is not divisible.\nAlso, $k$ cannot be 1 or 7 as the number must be even.\nThus, $k = 4$."
+  },
+  {
+    "questionNumber": 94,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 05/08/2021 (Shift-03)",
+    "questionText": "If the number $87m6203m$ is divisible by 6, then find the sum of all possible values of '$m$'.",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "A number is divisible by 6 if it is divisible by both 2 and 3.\n1. Divisibility by 2: Since $m$ is the units digit, $m$ must be even: $m \\in \\{0, 2, 4, 6, 8\\}$.\n2. Divisibility by 3: The sum of digits must be divisible by 3.\nSum of digits $= 8 + 7 + m + 6 + 2 + 0 + 3 + m = 26 + 2m$.\nTesting even values of $m$:\n- If $m = 0$: Sum $= 26$ (not div by 3)\n- If $m = 2$: Sum $= 26 + 4 = 30$ (divisible by 3) $\\implies m = 2$\n- If $m = 4$: Sum $= 26 + 8 = 34$ (not div by 3)\n- If $m = 6$: Sum $= 26 + 12 = 38$ (not div by 3)\n- If $m = 8$: Sum $= 26 + 16 = 42$ (divisible by 3) $\\implies m = 8$\nPossible values of $m$ are $2$ and $8$.\nSum of all possible values $= 2 + 8 = 10$."
+  },
+  {
+    "questionNumber": 95,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 09/09/2024 (Shift-01)",
+    "questionText": "Which of the following can be the value of '$k$' so that the number $217924k$ is divisible by 6?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For $217924k$ to be divisible by 6, it must be divisible by both 2 and 3.\nSum of digits $= 2 + 1 + 7 + 9 + 2 + 4 + k = 25 + k$.\nFor $(25 + k)$ to be divisible by 3:\n- If $k = 2$: $25 + 2 = 27$ (divisible by 3), and 2 is even.\n- If $k = 4$: $25 + 4 = 29$ (not div by 3)\n- If $k = 6$: $25 + 6 = 31$ (not div by 3)\n- If $k = 0$: $25 + 0 = 25$ (not div by 3)\nHence, the correct value of $k$ is $2$."
+  },
+  {
+    "questionNumber": 96,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+    "questionText": "Replace $*$ by the smallest digit so that $723*56*$ is divisible by 6.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the digit replacing $*$ be $d$.\nThe number is $723d56d$.\n1. Divisibility by 2: The last digit $d$ must be even: $d \\in \\{0, 2, 4, 6, 8\\}$.\n2. Divisibility by 3: Sum of digits must be divisible by 3.\nSum $= 7 + 2 + 3 + d + 5 + 6 + d = 23 + 2d$.\n- If $d = 0$: $23 + 0 = 23$ (not div by 3)\n- If $d = 2$: $23 + 4 = 27$ (divisible by 3)\nHence, the smallest digit is $2$."
+  },
+  {
+    "questionNumber": 97,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+    "questionText": "If $321y72$ is a multiple of 6, where $y$ is a digit, what is the least value of $y$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The number $321y72$ ends in 2, so it is already divisible by 2.\nFor it to be divisible by 6, it must also be divisible by 3.\nSum of digits $= 3 + 2 + 1 + y + 7 + 2 = 15 + y$.\nFor $(15 + y)$ to be divisible by 3, $y$ can be $0, 3, 6, 9$.\nThe least value of $y$ is $0$."
+  },
+  {
+    "questionNumber": 98,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+    "questionText": "Find the least value of $k$ for which a 7-digit number $249k876$ is divisible by 6.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The number $249k876$ ends in 6, so it is divisible by 2.\nFor divisibility by 3, the sum of digits must be a multiple of 3.\nSum of digits $= 2 + 4 + 9 + k + 8 + 7 + 6 = 36 + k$.\nSince 36 is already divisible by 3, the least non-negative digit value of $k$ is $0$."
+  },
+  {
+    "questionNumber": 99,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-01)",
+    "questionText": "If the 7-digit number $91876a2$ is divisible by 8, then what is the smallest value of '$a$'?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "A number is divisible by 8 if its last three digits form a number divisible by 8.\nHere, the last three digits are $6a2$.\nTesting values of $a$:\n- $a = 0: 602 \\div 8 = 75.25$\n- $a = 1: 612 \\div 8 = 76.5$\n- $a = 2: 622 \\div 8 = 77.75$\n- $a = 3: 632 \\div 8 = 79$ (exactly divisible)\nTherefore, the smallest value of $a$ is $3$."
+  },
+  {
+    "questionNumber": 100,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 14/07/2023 (Shift-02)",
+    "questionText": "When a natural number $r$ is divided by 8, the remainder is 3. What is the remainder when $(r^2 + 6r + 7)$ is divided by 8?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Given $r \\equiv 3 \\pmod 8$.\nSubstitute $r = 3$ into the given expression:\n$r^2 + 6r + 7 = 3^2 + 6(3) + 7 = 9 + 18 + 7 = 34$.\nDividing 34 by 8:\n$34 = 4 \\times 8 + 2$.\nHence, the remainder is $2$."
+  },
+  {
+    "questionNumber": 101,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC MTS 08/05/2023 (Shift-03)",
+    "questionText": "What is the smallest integer value that should replace $*$ in the number $2*4$ so that it is divisible by 8?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "For the three-digit number $2*4$ to be divisible by 8:\n- If $* = 0: 204 \\div 8 = 25.5$\n- If $* = 1: 214 \\div 8 = 26.75$\n- If $* = 2: 224 \\div 8 = 28$ (exact integer)\nTherefore, the smallest integer value of $*$ is $2$."
+  },
+  {
+    "questionNumber": 102,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+    "questionText": "How many pairs of $(x, y)$ are possible in the number $123456xy$ such that the number is divisible by 8?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For $123456xy$ to be divisible by 8, the last three digits $6xy$ must be divisible by 8.\nThe three-digit numbers starting with 6 that are divisible by 8 are:\n$600, 608, 616, 624, \\dots, 696$.\nNumber of pairs $= \\frac{696 - 600}{8} + 1 = \\frac{96}{8} + 1 = 12 + 1 = 13$ pairs."
+  },
+  {
+    "questionNumber": 103,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 15/03/2023 (Shift-04)",
+    "questionText": "What is the smallest possible value of $*$ such that the three-digit number $6*2$ is divisible by 8?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Testing values of $*$ from 0 to 9:\n- If $* = 1: 612 \\div 8 = 76.5$\n- If $* = 2: 622 \\div 8 = 77.75$\n- If $* = 3: 632 \\div 8 = 79$ (divisible)\nHence, the smallest possible value of $*$ is $3$."
+  },
+  {
+    "questionNumber": 104,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 18/07/2023 (Shift-03)",
+    "questionText": "If the number $1738b9c$ is divisible by 12, then what are the possible values of $c$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0, 4"
+      },
+      {
+        "label": "B",
+        "text": "4, 8"
+      },
+      {
+        "label": "C",
+        "text": "2, 6"
+      },
+      {
+        "label": "D",
+        "text": "1, 5"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number is divisible by 12 if it is divisible by both 3 and 4.\nFor divisibility by 4, the number formed by the last two digits, $9c$, must be divisible by 4.\nMultiples of 4 starting with 9 are $92$ and $96$.\nThus, $c$ can only be $2$ or $6$."
+  },
+  {
+    "questionNumber": 105,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 24/07/2023 (Shift-01)",
+    "questionText": "If the number $712x816$ is divisible by 12, then find the value of $x$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "The number $712x816$ ends in 16, which is divisible by 4.\nFor it to be divisible by 12, it must also be divisible by 3.\nSum of digits $= 7 + 1 + 2 + x + 8 + 1 + 6 = 25 + x$.\nFor $(25 + x)$ to be divisible by 3, the smallest non-negative digit is $x = 2$ ($25 + 2 = 27$)."
+  },
+  {
+    "questionNumber": 106,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 26/07/2023 (Shift-02)",
+    "questionText": "If the number $7823326867X$ is divisible by 18, then find the value of '$X$'.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "A number is divisible by 18 if it is divisible by both 2 and 9.\n1. Divisible by 2 $\\implies X$ must be an even digit: $X \\in \\{0, 2, 4, 6, 8\\}$.\n2. Divisible by 9 $\\implies$ sum of digits must be divisible by 9.\nSum of digits $= 7 + 8 + 2 + 3 + 3 + 2 + 6 + 8 + 6 + 7 + X = 52 + X$.\nFor $(52 + X)$ to be a multiple of 9, $52 + X = 54 \\implies X = 2$.\nSince 2 is even, $X = 2$ satisfies both conditions."
+  },
+  {
+    "questionNumber": 107,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+    "questionText": "If the number $62684*\\#$ is divisible by both 5 and 8, then what are the values of $*$ and $\\#$ respectively?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 and 5"
+      },
+      {
+        "label": "B",
+        "text": "4 and 0"
+      },
+      {
+        "label": "C",
+        "text": "6 and 5"
+      },
+      {
+        "label": "D",
+        "text": "8 and 5"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "1. Divisible by 5 $\\implies \\#$ must be 0 or 5. Since it is also divisible by 8 (an even number), $\\#$ cannot be 5, so $\\# = 0$.\n2. Divisible by 8 $\\implies$ last three digits $4*0$ must be divisible by 8.\nTesting options: if $* = 4$, $440 \\div 8 = 55$ (divisible).\nThus, $*$ and $\\#$ are $4$ and $0$ respectively."
+  },
+  {
+    "questionNumber": 108,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-01)",
+    "questionText": "If the number $72864*\\$$ is divisible by both 8 and 5, then what are the values of $*$ and $\\$$ respectively?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 and 0"
+      },
+      {
+        "label": "B",
+        "text": "2 and 5"
+      },
+      {
+        "label": "C",
+        "text": "6 and 0"
+      },
+      {
+        "label": "D",
+        "text": "8 and 5"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "For the number to be divisible by both 5 and 8, the unit digit $\\$$ must be 0 (since multiples of 8 are even).\nThe last three digits are $4*0$. For $4*0$ to be divisible by 8, $*$ can be 0, 4, or 8.\nFrom the given options, $* = 4$ and $\\$ = 0$ is the valid pair."
+  },
+  {
+    "questionNumber": 109,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 19/07/2023 (Shift-03)",
+    "questionText": "If the number $62684xy$ is divisible by 40, then find the value of $(x, y)$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(2, 0)"
+      },
+      {
+        "label": "B",
+        "text": "(4, 0)"
+      },
+      {
+        "label": "C",
+        "text": "(6, 0)"
+      },
+      {
+        "label": "D",
+        "text": "(8, 0)"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Divisibility by 40 requires the number to be divisible by both 5 and 8.\n1. Divisible by 5 and even $\\implies y = 0$.\n2. Divisible by 8 $\\implies$ last three digits $4x0$ must be divisible by 8.\nTesting $x = 4$: $440 \\div 8 = 55$ (divisible).\nTherefore, $(x, y) = (4, 0)$."
+  },
+  {
+    "questionNumber": 110,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 21/07/2023 (Shift-04)",
+    "questionText": "If the 9-digit number $5x79856y6$ is divisible by 36, then find the negative value of $\\sqrt{2x + y}$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "-6"
+      },
+      {
+        "label": "D",
+        "text": "-5"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "A number is divisible by 36 if it is divisible by both 4 and 9.\n1. Divisibility by 4: Last two digits $y6$ must be divisible by 4 $\\implies y \\in \\{1, 3, 5, 7, 9\\}$.\n2. Divisibility by 9: Sum of digits $= 5 + x + 7 + 9 + 8 + 5 + 6 + y + 6 = 46 + x + y$.\nFor $y = 9$, $46 + x + 9 = 55 + x \\implies x = 8$.\nThen $\\sqrt{2x + y} = \\sqrt{2(8) + 9} = \\sqrt{16 + 9} = \\sqrt{25} = \\pm 5$.\nTaking the negative value, the answer is $-5$."
+  },
+  {
+    "questionNumber": 111,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 25/07/2023 (Shift-01)",
+    "questionText": "If the five-digit number $45yz0$ is divisible by 40, then what is the maximum possible value of $(y + z)$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For $45yz0$ to be divisible by 40, the last three digits $yz0$ must be divisible by 8.\nWe want to maximize $(y + z)$ where $y, z \\in \\{0, 1, \\dots, 9\\}$.\nThe largest single-digit values are $y = 8, z = 8$:\n$880 \\div 8 = 110$ (exact integer).\nHence, maximum possible value of $(y + z) = 8 + 8 = 16$."
+  },
+  {
+    "questionNumber": 112,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 17/07/2023 (Shift-02)",
+    "questionText": "If the seven-digit number $489y5z6$ is divisible by 72, then find the highest possible product of $y$ and $z$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "28"
+      },
+      {
+        "label": "B",
+        "text": "35"
+      },
+      {
+        "label": "C",
+        "text": "42"
+      },
+      {
+        "label": "D",
+        "text": "49"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$72 = 8 \\times 9$.\n1. Divisible by 8: Last three digits $5z6$ must be divisible by 8 $\\implies z = 3$ or $7$.\n2. Divisible by 9: Sum of digits $= 4 + 8 + 9 + y + 5 + z + 6 = 32 + y + z$.\n- If $z = 3$: $32 + y + 3 = 35 + y \\implies y = 1 \\implies y \\times z = 1 \\times 3 = 3$.\n- If $z = 7$: $32 + y + 7 = 39 + y \\implies y = 6 \\implies y \\times z = 6 \\times 7 = 42$.\nThus, the highest possible product of $y$ and $z$ is $42$."
+  },
+  {
+    "questionNumber": 113,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 20/07/2023 (Shift-03)",
+    "questionText": "If the 9-digit number $389x6378y$ is divisible by 72, then what is the value of $(6x + 7y)$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "52"
+      },
+      {
+        "label": "B",
+        "text": "58"
+      },
+      {
+        "label": "C",
+        "text": "60"
+      },
+      {
+        "label": "D",
+        "text": "64"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$72 = 8 \\times 9$.\n1. Last 3 digits $78y$ divisible by 8: $784 \\div 8 = 98 \\implies y = 4$.\n2. Sum of digits divisible by 9:\n$3 + 8 + 9 + x + 6 + 3 + 7 + 8 + 4 = 48 + x$.\nFor $(48 + x)$ to be divisible by 9, $x = 6$.\nNow, $6x + 7y = 6(6) + 7(4) = 36 + 28 = 64$."
+  },
+  {
+    "questionNumber": 114,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+    "questionText": "If the 9-digit number $1039m837n$ is divisible by 72, then what is the value of $\\frac{n^2 - m}{4}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$72 = 8 \\times 9$.\n1. Last 3 digits $37n$ divisible by 8: $376 \\div 8 = 47 \\implies n = 6$.\n2. Sum of digits divisible by 9:\n$1 + 0 + 3 + 9 + m + 8 + 3 + 7 + 6 = 37 + m$.\nFor $(37 + m)$ to be divisible by 9, $m = 8$.\nRequired value $= \\frac{n^2 - m}{4} = \\frac{6^2 - 8}{4} = \\frac{36 - 8}{4} = \\frac{28}{4} = 7$."
+  },
+  {
+    "questionNumber": 115,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 18/07/2023 (Shift-01)",
+    "questionText": "If the 7-digit number $6p5157q$ is divisible by 88, then what is the value of $pq$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$88 = 8 \\times 11$.\n1. Last 3 digits $57q$ divisible by 8: $576 \\div 8 = 72 \\implies q = 6$.\n2. Divisibility by 11:\nSum of odd place digits $= q + 5 + 5 + 6 = 6 + 5 + 5 + 6 = 22$.\nSum of even place digits $= 7 + 1 + p = 8 + p$.\nDifference $= 22 - (8 + p) = 14 - p$.\nFor $(14 - p)$ to be 11, $p = 3$.\nTherefore, $pq = 3 \\times 6 = 18$."
+  },
+  {
+    "questionNumber": 116,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 10/08/2023 (Shift-02)",
+    "questionText": "If any number is divisible by 99, then the sum of its digits will always be divisible by which of the following numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "33"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Since $99 = 9 \\times 11$, any number divisible by 99 must be divisible by 9.\nBy the divisibility rule of 9, the sum of digits of the number must be divisible by 9."
+  },
+  {
+    "questionNumber": 117,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 25/07/2023 (Shift-02)",
+    "questionText": "Which of the following numbers is divisible by 72?",
+    "options": [
+      {
+        "label": "A",
+        "text": "31548"
+      },
+      {
+        "label": "B",
+        "text": "60687"
+      },
+      {
+        "label": "C",
+        "text": "44775"
+      },
+      {
+        "label": "D",
+        "text": "84456"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$72 = 8 \\times 9$.\nCheck divisibility of options:\nOption D: 84456\n1. Last 3 digits $= 456$. $456 \\div 8 = 57$ (divisible by 8).\n2. Sum of digits $= 8 + 4 + 4 + 5 + 6 = 27$ (divisible by 9).\nHence, 84456 is divisible by 72."
+  },
+  {
+    "questionNumber": 118,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 21/07/2023 (Shift-01)",
+    "questionText": "If the 5-digit number $725yz$ is divisible by 15, then what is the maximum value of $z \\times y$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40"
+      },
+      {
+        "label": "B",
+        "text": "35"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "30"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$15 = 3 \\times 5$.\n1. For divisibility by 5, $z = 0$ or $5$. To maximize $z \\times y$, we choose $z = 5$.\n2. Divisibility by 3: Sum of digits $= 7 + 2 + 5 + y + 5 = 19 + y$.\nFor $(19 + y)$ to be a multiple of 3, maximum single digit $y = 8$ ($19 + 8 = 27$).\nMaximum value of $z \\times y = 5 \\times 8 = 40$."
+  },
+  {
+    "questionNumber": 119,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 24/07/2023 (Shift-03)",
+    "questionText": "If the six-digit number $15x1y2$ is divisible by 44, then what is the value of $(x + y)$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$44 = 4 \\times 11$.\n1. Divisible by 4 $\\implies y2$ is divisible by 4 $\\implies y \\in \\{1, 3, 5, 7, 9\\}$.\n2. Divisible by 11: Difference of alternate digit sums:\nOdd places: $2 + 1 + 5 = 8$.\nEven places: $y + x + 1 = x + y + 1$.\nDifference $= |(x + y + 1) - 8| = |x + y - 7|$.\nFor this to be 0, $x + y = 7$."
+  },
+  {
+    "questionNumber": 120,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 27/07/2023 (Shift-02)",
+    "questionText": "If the six-digit number $11p9q4$ is divisible by 24, then what is the maximum value of $pq$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "42"
+      },
+      {
+        "label": "B",
+        "text": "48"
+      },
+      {
+        "label": "C",
+        "text": "56"
+      },
+      {
+        "label": "D",
+        "text": "63"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$24 = 8 \\times 3$.\n1. Last 3 digits $9q4$ divisible by 8: possible values of $q$ are $0, 4, 8$. To maximize $pq$, take $q = 8$.\n2. Divisible by 3: Sum of digits $= 1 + 1 + p + 9 + 8 + 4 = 23 + p$.\nFor $(23 + p)$ to be divisible by 3, maximum single digit $p = 7$ ($23 + 7 = 30$).\nMaximum value of $pq = 7 \\times 8 = 56$."
+  }
+]

@@ -1,0 +1,2342 @@
+[
+  {
+    "questionNumber": 1,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP CONSTABLE 23/11/2023 (Shift-01)",
+    "questionText": "If $a, b, c, d$ and $e$ are distinct prime numbers and the sum of these five numbers is odd, then $a + b + c + d$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "an even number"
+      },
+      {
+        "label": "B",
+        "text": "an even prime number"
+      },
+      {
+        "label": "C",
+        "text": "an odd number"
+      },
+      {
+        "label": "D",
+        "text": "an odd prime number"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "All prime numbers except $2$ are odd. If one of the five primes were $2$, the sum of the five primes would be $2 + (\\text{odd} + \\text{odd} + \\text{odd} + \\text{odd}) = 2 + \\text{even} = \\text{even}$, which contradicts the condition that the sum is odd. Hence, none of the five primes is $2$, meaning all five primes $a, b, c, d, e$ are odd primes. The sum of four odd numbers $a + b + c + d$ is odd + odd + odd + odd = even. Furthermore, since they are distinct odd primes, their sum is at least $3 + 5 + 7 + 11 = 26 > 2$, so it cannot be an even prime. Thus, $a + b + c + d$ is an even number."
+  },
+  {
+    "questionNumber": 2,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC GD 31/01/2023 (Shift-03)",
+    "questionText": "Which type of numbers are NOT co-prime?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Any two prime numbers"
+      },
+      {
+        "label": "B",
+        "text": "Any two consecutive odd numbers"
+      },
+      {
+        "label": "C",
+        "text": "Any two consecutive numbers"
+      },
+      {
+        "label": "D",
+        "text": "Any two consecutive even numbers"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Two numbers are co-prime if their greatest common divisor (HCF) is $1$. Any two consecutive even numbers have $2$ as a common factor, so their $\\gcd \\ge 2$. Thus, any two consecutive even numbers are never co-prime."
+  },
+  {
+    "questionNumber": 3,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP CONSTABLE 16/11/2023 (Shift-03)",
+    "questionText": "Let $a$ and $b$ be two numbers such that $a$ and $(b - a)$ are co-primes and $b$ and $(b + a)$ are co-primes, respectively. Which of the followings is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$b$ is prime"
+      },
+      {
+        "label": "B",
+        "text": "$a$ and $b$ are co-prime"
+      },
+      {
+        "label": "C",
+        "text": "$a$ is not prime"
+      },
+      {
+        "label": "D",
+        "text": "$a$ and $b$ are not co-prime"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Given that $\\gcd(a, b - a) = 1$ and $\\gcd(b, b + a) = 1$. By Euclidean algorithm properties, $\\gcd(a, b - a) = \\gcd(a, b) = 1$ and $\\gcd(b, b + a) = \\gcd(b, a) = 1$. According to the official answer key, option (A) is marked as the answer."
+  },
+  {
+    "questionNumber": 4,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC GD 24/01/2023 (Shift-02)",
+    "questionText": "Which of the following pairs of numbers are relatively prime?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24 & 38"
+      },
+      {
+        "label": "B",
+        "text": "24 & 92"
+      },
+      {
+        "label": "C",
+        "text": "39 & 68"
+      },
+      {
+        "label": "D",
+        "text": "24 & 68"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Two numbers are relatively prime if their $\\gcd$ is $1$.\n- For $24$ and $38$: $\\gcd(24, 38) = 2 \\neq 1$.\n- For $24$ and $92$: $\\gcd(24, 92) = 4 \\neq 1$.\n- For $39$ and $68$: $39 = 3 \\times 13$ and $68 = 2^2 \\times 17$, so $\\gcd(39, 68) = 1$.\n- For $24$ and $68$: $\\gcd(24, 68) = 4 \\neq 1$.\nHence, $39$ & $68$ are relatively prime."
+  },
+  {
+    "questionNumber": 5,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP CONSTABLE 14/11/2023 (Shift-01)",
+    "questionText": "Which of the following is a pair of co-primes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(198, 175)"
+      },
+      {
+        "label": "B",
+        "text": "(7, 35)"
+      },
+      {
+        "label": "C",
+        "text": "(217, 651)"
+      },
+      {
+        "label": "D",
+        "text": "(32, 62)"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let us check the $\\gcd$ of each pair:\n- For $(198, 175)$: $198 = 2 \\times 3^2 \\times 11$, $175 = 5^2 \\times 7$. They share no common factor other than $1$, so $\\gcd(198, 175) = 1$.\n- For $(7, 35)$: $\\gcd = 7$.\n- For $(217, 651)$: $651 = 3 \\times 217$, so $\\gcd = 217$.\n- For $(32, 62)$: $\\gcd = 2$.\nTherefore, $(198, 175)$ is a pair of co-primes."
+  },
+  {
+    "questionNumber": 6,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CPO 09/11/2022 (Shift-01)",
+    "questionText": "Which of the following is a prime number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "54"
+      },
+      {
+        "label": "B",
+        "text": "39"
+      },
+      {
+        "label": "C",
+        "text": "68"
+      },
+      {
+        "label": "D",
+        "text": "89"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Checking the options:\n- $54 = 2 \\times 27$ (composite)\n- $39 = 3 \\times 13$ (composite)\n- $68 = 2 \\times 34$ (composite)\n- $89$ is divisible only by $1$ and $89$, hence it is a prime number."
+  },
+  {
+    "questionNumber": 7,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP Head Constable 13/10/2022 (Shift-01)",
+    "questionText": "Which of the following is a prime number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "701"
+      },
+      {
+        "label": "B",
+        "text": "679"
+      },
+      {
+        "label": "C",
+        "text": "657"
+      },
+      {
+        "label": "D",
+        "text": "697"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Checking divisibility:\n- $679 = 7 \\times 97$ (divisible by $7$)\n- $657$: sum of digits $= 6 + 5 + 7 = 18$ (divisible by $9$)\n- $697 = 17 \\times 41$ (divisible by $17$)\n- For $701$: $\\sqrt{701} \\approx 26.47$. Testing primes up to $23$: $701$ is not divisible by $2, 3, 5, 7, 11, 13, 17, 19, 23$. Hence, $701$ is a prime number."
+  },
+  {
+    "questionNumber": 8,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP CONSTABLE 14/11/2023 (Shift-02)",
+    "questionText": "If $(k^2 + 3)$ and $(k^3 + 5)$ are prime numbers then what will be the value of $k$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Testing the given options:\n- For $k = 2$:\n  $k^2 + 3 = 2^2 + 3 = 7$ (prime),\n  $k^3 + 5 = 2^3 + 5 = 13$ (prime).\nBoth values are prime numbers. Hence, $k = 2$."
+  },
+  {
+    "questionNumber": 9,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP CONSTABLE 02/12/2023 (Shift-01)",
+    "questionText": "What is the smallest prime number of 5 digits?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10001"
+      },
+      {
+        "label": "B",
+        "text": "10007"
+      },
+      {
+        "label": "C",
+        "text": "1003"
+      },
+      {
+        "label": "D",
+        "text": "10009"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The smallest $5$-digit number is $10000$.\n- $10001 = 73 \\times 137$ (composite)\n- For $10007$: $\\sqrt{10007} \\approx 100$. Testing primes up to $97$, $10007$ is not divisible by any prime ($2, 3, 5, 7, 11, 13, 17, 19, \\dots$). Hence, $10007$ is the smallest $5$-digit prime number."
+  },
+  {
+    "questionNumber": 10,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CHSL 10/03/2023 (Shift-02)",
+    "questionText": "How many prime numbers are there between 20 and 50?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "The prime numbers between $20$ and $50$ are: $23, 29, 31, 37, 41, 43, 47$.\nCounting them gives a total of $7$ prime numbers."
+  },
+  {
+    "questionNumber": 11,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-02)",
+    "questionText": "How many prime numbers are there between 100 and 120 ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The prime numbers between $100$ and $120$ are: $101, 103, 107, 109, 113$.\nThere are exactly $5$ prime numbers."
+  },
+  {
+    "questionNumber": 12,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP CONSTABLE 16/11/2023 (Shift-01)",
+    "questionText": "Three numbers which are co-prime to each other are such that the product of the first two is 391 and that of the last two is 943. Find the middle number.",
+    "options": [
+      {
+        "label": "A",
+        "text": "19"
+      },
+      {
+        "label": "B",
+        "text": "41"
+      },
+      {
+        "label": "C",
+        "text": "17"
+      },
+      {
+        "label": "D",
+        "text": "23"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the three pairwise co-prime numbers be $a, b, c$.\nGiven $a \\times b = 391$ and $b \\times c = 943$.\nSince $a, b, c$ are co-prime, the middle number $b = \\gcd(391, 943)$.\nUsing Euclidean algorithm:\n$943 = 2 \\times 391 + 161$\n$391 = 2 \\times 161 + 69$\n$161 = 2 \\times 69 + 23$\n$69 = 3 \\times 23 + 0$.\nThus, $\\gcd(391, 943) = 23$. Hence, the middle number is $23$."
+  },
+  {
+    "questionNumber": 13,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP CONSTABLE 17/11/2023 (Shift-01)",
+    "questionText": "The sum of three primes is 72. If one of the numbers is 24 more than the other number, then which one is the number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "31"
+      },
+      {
+        "label": "B",
+        "text": "37"
+      },
+      {
+        "label": "C",
+        "text": "29"
+      },
+      {
+        "label": "D",
+        "text": "47"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the three prime numbers be $p_1, p_2, p_3$.\nSince their sum $p_1 + p_2 + p_3 = 72$ is even, one of the primes must be $2$.\nSo $p_1 = 2$.\nThen $p_2 + p_3 = 72 - 2 = 70$.\nGiven that one is $24$ more than the other: $p_3 - p_2 = 24$.\nAdding the equations: $2p_3 = 94 \\implies p_3 = 47$.\nThen $p_2 = 70 - 47 = 23$.\nAll three numbers $2, 23, 47$ are prime numbers. Among the options, $47$ is present."
+  },
+  {
+    "questionNumber": 14,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC GD 10/01/2023 (Shift-04)",
+    "questionText": "Four prime numbers are arranged in ascending order. The product of the first three numbers is 255 and that of the last three is 1955. The largest prime number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "23"
+      },
+      {
+        "label": "B",
+        "text": "31"
+      },
+      {
+        "label": "C",
+        "text": "17"
+      },
+      {
+        "label": "D",
+        "text": "29"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the four primes in ascending order be $p_1 < p_2 < p_3 < p_4$.\nProduct of the first three: $p_1 p_2 p_3 = 255$.\nFactorizing $255 = 3 \\times 5 \\times 17$.\nSince they are in ascending order, $p_1 = 3, p_2 = 5, p_3 = 17$.\nProduct of the last three: $p_2 p_3 p_4 = 1955 \\implies 5 \\times 17 \\times p_4 = 1955 \\implies 85 p_4 = 1955 \\implies p_4 = 23$.\nHence, the largest prime number is $23$."
+  },
+  {
+    "questionNumber": 15,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CGL TIER-II 08/08/2022",
+    "questionText": "$x, y$ and $z$ are distinct prime numbers where $x < y < z$. If $x + y + z = 70$, then what is the value of $z$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "31"
+      },
+      {
+        "label": "B",
+        "text": "29"
+      },
+      {
+        "label": "C",
+        "text": "43"
+      },
+      {
+        "label": "D",
+        "text": "37"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Given $x + y + z = 70$ (an even number) and $x < y < z$ are distinct primes.\nThe sum of three odd primes would be odd, so the smallest prime must be even: $x = 2$.\nThen $y + z = 70 - 2 = 68$.\nTesting primes for $z$ from largest:\n- If $z = 43$, $y = 68 - 43 = 25$ (not prime).\n- If $z = 37$, $y = 68 - 37 = 31$ (prime). Here $x=2 < y=31 < z=37$, which satisfies all conditions.\nThus, $z = 37$."
+  },
+  {
+    "questionNumber": 16,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "DP CONSTABLE 28/11/2023 (Shift-01)",
+    "questionText": "Let, N be a four-digit positive integer such that the unit digit of N is prime and the product of all the digits of N is also prime. The number of possible values of N is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let $N = d_1 d_2 d_3 d_4$ where each $d_i$ is a digit and $d_1 \\neq 0$.\nThe unit digit $d_4 \\in \\{2, 3, 5, 7\\}$ is prime.\nThe product of all digits $P = d_1 \\times d_2 \\times d_3 \\times d_4$ must also be a prime number.\nA product of integers can be prime if and only if one integer is a prime and all other integers are $1$.\nSince $d_4$ is already prime, we must have $d_1 = 1, d_2 = 1, d_3 = 1$.\nSince $d_4$ can be any of the $4$ prime digits $\\{2, 3, 5, 7\\}$, the possible values of $N$ are $1112, 1113, 1115, 1117$.\nHence, there are $4$ possible values of $N$."
+  },
+  {
+    "questionNumber": 17,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CGL TIER-II 16/11/2020",
+    "questionText": "Let $ab$, $a \\neq b$ is 2-digit prime number such that $ba$ is also a prime number. The sum of all such number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "374"
+      },
+      {
+        "label": "B",
+        "text": "418"
+      },
+      {
+        "label": "C",
+        "text": "407"
+      },
+      {
+        "label": "D",
+        "text": "396"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "We need to find all $2$-digit primes $ab$ ($a \\neq b$) such that reversing the digits gives another prime $ba$:\nThe pairs are:\n- $13$ and $31$\n- $17$ and $71$\n- $37$ and $73$\n- $79$ and $97$\nSum $= (13 + 31) + (17 + 71) + (37 + 73) + (79 + 97) = 44 + 88 + 110 + 176 = 418$."
+  },
+  {
+    "questionNumber": 18,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-01)",
+    "questionText": "How many composite numbers are there between 23 and 43?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Numbers strictly between $23$ and $43$ are the integers from $24$ to $42$.\nTotal integers $= 42 - 24 + 1 = 19$.\nThe prime numbers in this range are: $29, 31, 37, 41$ ($4$ primes).\nNumber of composite numbers $= 19 - 4 = 15$."
+  },
+  {
+    "questionNumber": 19,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CGL TIER-II 08/08/2022",
+    "questionText": "How many composite numbers are there from 53 to 97?",
+    "options": [
+      {
+        "label": "A",
+        "text": "36"
+      },
+      {
+        "label": "B",
+        "text": "37"
+      },
+      {
+        "label": "C",
+        "text": "35"
+      },
+      {
+        "label": "D",
+        "text": "38"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Total numbers from $53$ to $97$ inclusive $= 97 - 53 + 1 = 45$.\nPrime numbers from $53$ to $97$ inclusive are:\n$53, 59, 61, 67, 71, 73, 79, 83, 89, 97$ (total $10$ primes).\nNumber of composite numbers $= 45 - 10 = 35$."
+  },
+  {
+    "questionNumber": 20,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CHSL TIER II 26/06/2023",
+    "questionText": "How many whole numbers are there between $11^2$ and $12^2$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "23"
+      },
+      {
+        "label": "B",
+        "text": "21"
+      },
+      {
+        "label": "C",
+        "text": "22"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$11^2 = 121$ and $12^2 = 144$.\nThe whole numbers strictly between $121$ and $144$ are $122, 123, \\dots, 143$.\nTotal count $= 144 - 121 - 1 = 22$ (or $2n = 2 \\times 11 = 22$)."
+  },
+  {
+    "questionNumber": 21,
+    "typeHeader": "TYPE - I: CLASSIFICATION OF NUMBERS",
+    "examShift": "SSC CGL TIER-II 08/08/2022",
+    "questionText": "If $\\sqrt[3]{N}$ lies between 6 and 7, where N is an integer then how many values N can take?",
+    "options": [
+      {
+        "label": "A",
+        "text": "127"
+      },
+      {
+        "label": "B",
+        "text": "128"
+      },
+      {
+        "label": "C",
+        "text": "125"
+      },
+      {
+        "label": "D",
+        "text": "126"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Given $6 < \\sqrt[3]{N} < 7$.\nCubing all sides: $6^3 < N < 7^3 \\implies 216 < N < 343$.\nSince $N$ is an integer, $N \\in \\{217, 218, \\dots, 342\\}$.\nNumber of values $= 342 - 217 + 1 = 343 - 216 - 1 = 126$."
+  },
+  {
+    "questionNumber": 22,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "SSC GD 25/11/2021 (Shift-02)",
+    "questionText": "Find the unit's digit in $(263)^{149} + (263)^{150} + (263)^{151}$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "We find the unit digit of $3^{149} + 3^{150} + 3^{151}$:\nThe cyclicity of power of $3$ is $4$ ($3^1=3, 3^2=9, 3^3=27, 3^4=81$):\n- $149 = 4 \\times 37 + 1 \\implies 3^1 \\equiv 3 \\pmod{10}$\n- $150 = 4 \\times 37 + 2 \\implies 3^2 \\equiv 9 \\pmod{10}$\n- $151 = 4 \\times 37 + 3 \\implies 3^3 \\equiv 7 \\pmod{10}$\nSum of unit digits $= 3 + 9 + 7 = 19$.\nThus, the unit digit is $9$."
+  },
+  {
+    "questionNumber": 23,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-I 2021",
+    "questionText": "What is the unit digit in the expansion of $67^{32}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "The unit digit depends on $7^{32}$.\nThe cyclicity of powers of $7$ is $4$.\n$32 = 4 \\times 8$, which leaves remainder $0$.\n$7^4 = 2401 \\equiv 1 \\pmod{10}$.\nTherefore, the unit digit is $1$."
+  },
+  {
+    "questionNumber": 24,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-II 2020",
+    "questionText": "What is the digit in the unit place of $3^{99}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The cyclicity of power of $3$ is $4$.\nDividing $99$ by $4$: $99 = 4 \\times 24 + 3$, remainder is $3$.\n$3^3 = 27 \\equiv 7 \\pmod{10}$.\nThus, the unit digit is $7$."
+  },
+  {
+    "questionNumber": 25,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-I 2019",
+    "questionText": "What is the unit place digit in the expansion of $7^{73}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The cyclicity of powers of $7$ is $4$.\nDividing the exponent $73$ by $4$: $73 = 4 \\times 18 + 1$, remainder is $1$.\n$7^1 = 7 \\equiv 7 \\pmod{10}$.\nThus, the unit place digit is $7$."
+  },
+  {
+    "questionNumber": 26,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-II 2019",
+    "questionText": "What is the digit in the unit's place of the number represented by $3^{98} - 3^{89}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The cyclicity of $3$ is $4$:\n- $98 = 4 \\times 24 + 2 \\implies 3^{98}$ has unit digit $3^2 = 9$.\n- $89 = 4 \\times 22 + 1 \\implies 3^{89}$ has unit digit $3^1 = 3$.\nUnit digit of the difference $= 9 - 3 = 6$."
+  },
+  {
+    "questionNumber": 27,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "SSC CGL TIER-II 12/09/2019",
+    "questionText": "If $x = (164)^{169} + (333)^{337} - (727)^{726}$ then what is the unit digit of $x$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating unit digits of each term:\n- $(164)^{169}$: $4^{\\text{odd}} \\equiv 4 \\pmod{10}$.\n- $(333)^{337}$: $337 = 4 \\times 84 + 1 \\implies 3^1 \\equiv 3 \\pmod{10}$.\n- $(727)^{726}$: $726 = 4 \\times 181 + 2 \\implies 7^2 = 49 \\equiv 9 \\pmod{10}$.\nUnit digit $= (4 + 3 - 9) \\pmod{10} = (7 - 9) \\pmod{10} = -2 \\equiv 8 \\pmod{10}$.\nThus, the unit digit of $x$ is $8$."
+  },
+  {
+    "questionNumber": 28,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "SSC CGL TIER-II 22/01/2022",
+    "questionText": "If $x = (433)^{24} - (377)^{38} + (166)^{54}$ what is the unit digit of $x$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating unit digits of each term:\n- $(433)^{24}$: $24$ is a multiple of $4 \\implies 3^4 \\equiv 1 \\pmod{10}$.\n- $(377)^{38}$: $38 = 4 \\times 9 + 2 \\implies 7^2 = 49 \\equiv 9 \\pmod{10}$.\n- $(166)^{54}$: $6^n \\equiv 6 \\pmod{10}$.\nUnit digit $= (1 - 9 + 6) \\pmod{10} = -2 \\equiv 8 \\pmod{10}$.\nThus, the unit digit of $x$ is $8$."
+  },
+  {
+    "questionNumber": 29,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-I 2023",
+    "questionText": "What is the last digit of the sum $S = 9^{27} + 27^9$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating unit digit of each term:\n- $9^{27}$: $9$ raised to an odd power has unit digit $9$.\n- $27^9$: ends in $7^9$. Since $9 = 4 \\times 2 + 1$, unit digit is $7^1 = 7$.\nSum $= 9 + 7 = 16$, which has unit digit $6$."
+  },
+  {
+    "questionNumber": 30,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-I 2024",
+    "questionText": "What is the digit at the $100^{\\text{th}}$ place of number $(225)^{40}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "To find the digit at the $100^{\\text{th}}$ place (hundreds place), we find $(225)^{40} \\pmod{1000}$:\n$225^2 = 50625 \\equiv 625 \\pmod{1000}$.\nNotice that for any power $k \\ge 1$, $625^k \\equiv 625 \\pmod{1000}$ because $625 \\times 625 = 390625 \\equiv 625 \\pmod{1000}$.\nTherefore, $(225)^{40} = (225^2)^{20} \\equiv (625)^{20} \\equiv 625 \\pmod{1000}$.\nThe last three digits of $(225)^{40}$ are $625$.\nThus, the digit at the $100^{\\text{th}}$ place (hundreds digit) is $6$."
+  },
+  {
+    "questionNumber": 31,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-I 2019",
+    "questionText": "A prime number contains the digit $x$ at unit's place. How many such digits of $x$ are possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Prime numbers can have the following digits in their unit's place:\n- $2$ (e.g., $2$)\n- $3$ (e.g., $3, 13$)\n- $5$ (e.g., $5$)\n- $7$ (e.g., $7, 17$)\n- $1$ (e.g., $11, 31$)\n- $9$ (e.g., $19, 29$)\nThe possible digits are $\\{1, 2, 3, 5, 7, 9\\}$.\nThere are $6$ such possible digits."
+  },
+  {
+    "questionNumber": 32,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-I 2018",
+    "questionText": "All odd prime numbers upto 110 are multiplied together. What is the unit digit in this product?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "N.O.T."
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The set of odd prime numbers up to $110$ includes $5$ and all other factors are odd numbers ($3, 7, 11, 13, \\dots$).\nMultiplying $5$ by any odd number always results in a product ending in $5$.\nHence, the unit digit is $5$."
+  },
+  {
+    "questionNumber": 33,
+    "typeHeader": "TYPE - II: UNIT DIGIT",
+    "examShift": "UPSC CDS-II 01/09/2024",
+    "questionText": "What are the last three digits in the multiplication of $4321012345 \\times 98766789$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1, 0, 5"
+      },
+      {
+        "label": "B",
+        "text": "2, 0, 5"
+      },
+      {
+        "label": "C",
+        "text": "2, 1, 5"
+      },
+      {
+        "label": "D",
+        "text": "3, 0, 0"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The last three digits of the product depend only on the last three digits of each number modulo $1000$:\n$4321012345 \\equiv 345 \\pmod{1000}$\n$98766789 \\equiv 789 \\pmod{1000}$\nMultiplying: $345 \\times 789 = 272205$.\n$272205 \\equiv 205 \\pmod{1000}$.\nThus, the last three digits are $2, 0, 5$."
+  },
+  {
+    "questionNumber": 34,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "SSC CGL TIER-II 12/09/2019",
+    "questionText": "Find the total number of factors of 3600.",
+    "options": [
+      {
+        "label": "A",
+        "text": "45"
+      },
+      {
+        "label": "B",
+        "text": "44"
+      },
+      {
+        "label": "C",
+        "text": "43"
+      },
+      {
+        "label": "D",
+        "text": "42"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Prime factorization of $3600$:\n$3600 = 36 \\times 100 = (2^2 \\times 3^2) \\times (2^2 \\times 5^2) = 2^4 \\times 3^2 \\times 5^2$.\nTotal number of factors $= (4 + 1)(2 + 1)(2 + 1) = 5 \\times 3 \\times 3 = 45$."
+  },
+  {
+    "questionNumber": 35,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "UPSC CDS-I 2023",
+    "questionText": "Consider the following statements in respect of all factors of 360:\n1. The number of factors is 24.\n2. The sum of all factors is 1170.\nWhich of the above statements is/are correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only 1"
+      },
+      {
+        "label": "B",
+        "text": "Only 2"
+      },
+      {
+        "label": "C",
+        "text": "Both 1 and 2"
+      },
+      {
+        "label": "D",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Prime factorization of $360$:\n$360 = 2^3 \\times 3^2 \\times 5^1$.\n1. Number of factors $= (3 + 1)(2 + 1)(1 + 1) = 4 \\times 3 \\times 2 = 24$. (Statement 1 is correct)\n2. Sum of factors $= (2^0 + 2^1 + 2^2 + 2^3)(3^0 + 3^1 + 3^2)(5^0 + 5^1) = (1 + 2 + 4 + 8)(1 + 3 + 9)(1 + 5) = 15 \\times 13 \\times 6 = 1170$. (Statement 2 is correct)\nThus, both 1 and 2 are correct."
+  },
+  {
+    "questionNumber": 36,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "UPSC CDS-II 2022",
+    "questionText": "Consider the number $N = 12^6 \\times 3^8 \\times 5^3$. Which of the following statements is/are correct?\n1. The number of odd factors of $N$ is 60.\n2. The number of even factors of $N$ is 720.\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only 1"
+      },
+      {
+        "label": "B",
+        "text": "Only 2"
+      },
+      {
+        "label": "C",
+        "text": "Both 1 and 2"
+      },
+      {
+        "label": "D",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Expressing $N$ in standard prime factorized form:\n$N = (2^2 \\times 3)^6 \\times 3^8 \\times 5^3 = 2^{12} \\times 3^6 \\times 3^8 \\times 5^3 = 2^{12} \\times 3^{14} \\times 5^3$.\n1. Number of odd factors (ignoring power of $2$): $(14 + 1)(3 + 1) = 15 \\times 4 = 60$. (Statement 1 is correct)\n2. Number of even factors: $12 \\times (14 + 1)(3 + 1) = 12 \\times 15 \\times 4 = 720$. (Statement 2 is correct)\nThus, both 1 and 2 are correct."
+  },
+  {
+    "questionNumber": 37,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "SSC CPO 11/11/2022 (Shift-01)",
+    "questionText": "The sum of the odd divisors of 216 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "40"
+      },
+      {
+        "label": "D",
+        "text": "600"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Prime factorization of $216$:\n$216 = 2^3 \\times 3^3$.\nThe odd divisors are determined by the powers of $3$:\nSum of odd divisors $= 3^0 + 3^1 + 3^2 + 3^3 = 1 + 3 + 9 + 27 = 40$."
+  },
+  {
+    "questionNumber": 38,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "DP Head Constable 20/10/2022 (Shift - 01)",
+    "questionText": "Each prime number has _____ factor/factors.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "By definition, a prime number is a natural number greater than $1$ that has exactly two distinct natural number factors: $1$ and the number itself."
+  },
+  {
+    "questionNumber": 39,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "SSC CHSL 10/03/2023 (Shift-04)",
+    "questionText": "What is the total number of factors of the number 720 except 1 and the number itself?",
+    "options": [
+      {
+        "label": "A",
+        "text": "29"
+      },
+      {
+        "label": "B",
+        "text": "27"
+      },
+      {
+        "label": "C",
+        "text": "32"
+      },
+      {
+        "label": "D",
+        "text": "28"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Prime factorization of $720$:\n$720 = 72 \\times 10 = 2^3 \\times 3^2 \\times 2 \\times 5 = 2^4 \\times 3^2 \\times 5^1$.\nTotal number of factors $= (4 + 1)(2 + 1)(1 + 1) = 5 \\times 3 \\times 2 = 30$.\nExcluding $1$ and $720$: $30 - 2 = 28$."
+  },
+  {
+    "questionNumber": 40,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "UPSC CDS-II 2018",
+    "questionText": "The number of divisors of the number 38808, exclusive of the divisors 1 and itself, is",
+    "options": [
+      {
+        "label": "A",
+        "text": "74"
+      },
+      {
+        "label": "B",
+        "text": "72"
+      },
+      {
+        "label": "C",
+        "text": "70"
+      },
+      {
+        "label": "D",
+        "text": "68"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Prime factorization of $38808$:\n$38808 = 8 \\times 4851 = 2^3 \\times 9 \\times 539 = 2^3 \\times 3^2 \\times 7^2 \\times 11^1$.\nTotal number of divisors $= (3 + 1)(2 + 1)(2 + 1)(1 + 1) = 4 \\times 3 \\times 3 \\times 2 = 72$.\nExclusive of $1$ and itself $= 72 - 2 = 70$."
+  },
+  {
+    "questionNumber": 41,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "UPSC CDS-I 2022",
+    "questionText": "What is the number of divisors of 1000 (excluding 1 and 1000)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Prime factorization of $1000$:\n$1000 = 10^3 = 2^3 \\times 5^3$.\nTotal number of divisors $= (3 + 1)(3 + 1) = 4 \\times 4 = 16$.\nExcluding $1$ and $1000$: $16 - 2 = 14$."
+  },
+  {
+    "questionNumber": 42,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "SSC CHSL 15/03/2023 (Shift-02)",
+    "questionText": "What is the total number of factors of the number 840 except 1 and the number itself?",
+    "options": [
+      {
+        "label": "A",
+        "text": "29"
+      },
+      {
+        "label": "B",
+        "text": "30"
+      },
+      {
+        "label": "C",
+        "text": "28"
+      },
+      {
+        "label": "D",
+        "text": "31"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Prime factorization of $840$:\n$840 = 84 \\times 10 = 2^2 \\times 3 \\times 7 \\times 2 \\times 5 = 2^3 \\times 3^1 \\times 5^1 \\times 7^1$.\nTotal number of factors $= (3 + 1)(1 + 1)(1 + 1)(1 + 1) = 4 \\times 2 \\times 2 \\times 2 = 32$.\nExcept $1$ and $840$: $32 - 2 = 30$."
+  },
+  {
+    "questionNumber": 43,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "UPSC CDS-II 2021",
+    "questionText": "What is distinct prime factor of the number 26381?",
+    "options": [
+      {
+        "label": "A",
+        "text": "29, 17, 37"
+      },
+      {
+        "label": "B",
+        "text": "31, 17, 47"
+      },
+      {
+        "label": "C",
+        "text": "19, 37, 13"
+      },
+      {
+        "label": "D",
+        "text": "23, 31, 37"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Testing the products of the given options:\n- For (D): $23 \\times 31 = 713$, and $713 \\times 37 = 26381$.\nThus, the distinct prime factors of $26381$ are $23, 31, 37$."
+  },
+  {
+    "questionNumber": 44,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "SSC CGL TIER-II 18/11/2020",
+    "questionText": "Find the number of prime factors in the product $(30)^5 \\times (24)^5$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "45"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "35"
+      },
+      {
+        "label": "D",
+        "text": "30"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Prime factorization of each base:\n- $30 = 2 \\times 3 \\times 5 \\implies (30)^5 = 2^5 \\times 3^5 \\times 5^5$.\n- $24 = 2^3 \\times 3 \\implies (24)^5 = (2^3)^5 \\times 3^5 = 2^{15} \\times 3^5$.\nMultiplying together: $(30)^5 \\times (24)^5 = 2^{5 + 15} \\times 3^{5 + 5} \\times 5^5 = 2^{20} \\times 3^{10} \\times 5^5$.\nTotal number of prime factors $= 20 + 10 + 5 = 35$."
+  },
+  {
+    "questionNumber": 45,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "UPSC CDS-II 01/09/2024",
+    "questionText": "A 4-digit number N has exactly 15 distinct divisors. What is the total number of distinct divisors of $N^2$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "30"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "225"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The number of divisors of $N$ is $d(N) = 15$.\nSince $15 = 15 \\times 1 = 5 \\times 3$, $N$ can be of the form $p^{14}$ or $p^4 q^2$ where $p, q$ are distinct primes.\n- If $N = p^{14}$, the smallest value is $2^{14} = 16384$, which has $5$ digits (contradiction, since $N$ is a $4$-digit number).\n- Therefore, $N = p^4 q^2$.\nThen $N^2 = (p^4 q^2)^2 = p^8 q^4$.\nThe number of divisors of $N^2$ is $(8 + 1)(4 + 1) = 9 \\times 5 = 45$."
+  },
+  {
+    "questionNumber": 46,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "DP CONSTABLE 29/11/2023 (Shift-03)",
+    "questionText": "Which of the following numbers is greater than the sum of all the prime factors of 1560?",
+    "options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "23"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "41"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Prime factorization of $1560$:\n$1560 = 10 \\times 156 = (2 \\times 5) \\times (4 \\times 39) = 2^3 \\times 3 \\times 5 \\times 13$.\nThe distinct prime factors are $2, 3, 5, 13$.\nSum of distinct prime factors $= 2 + 3 + 5 + 13 = 23$.\nAmong the given options, $41$ is strictly greater than $23$."
+  },
+  {
+    "questionNumber": 47,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "SSC CPO 09/11/2022 (Shift-02)",
+    "questionText": "The number of factors of 196 which are divisible by 4 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "228"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "57"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Prime factorization of $196$:\n$196 = 4 \\times 49 = 2^2 \\times 7^2$.\nAny factor of $196$ divisible by $4$ is of the form $2^2 \\times 7^k$ where $k \\in \\{0, 1, 2\\}$.\nThese factors are: $4 \\times 7^0 = 4$, $4 \\times 7^1 = 28$, $4 \\times 7^2 = 196$.\nThus, there are $3$ such factors."
+  },
+  {
+    "questionNumber": 48,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "SSC CGL 20/07/2023 (Shift-01)",
+    "questionText": "What is the sum of the divisors of 484 that are perfect squares?",
+    "options": [
+      {
+        "label": "A",
+        "text": "125"
+      },
+      {
+        "label": "B",
+        "text": "35"
+      },
+      {
+        "label": "C",
+        "text": "610"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Prime factorization of $484$:\n$484 = 4 \\times 121 = 2^2 \\times 11^2$.\nThe divisors of $484$ that are perfect squares are formed by taking even powers of the prime factors:\nPowers of $2$: $2^0 = 1, 2^2 = 4$.\nPowers of $11$: $11^0 = 1, 11^2 = 121$.\nThe perfect square divisors are: $1, 4, 121, 484$.\nSum $= (1 + 4)(1 + 121) = 5 \\times 122 = 610$."
+  },
+  {
+    "questionNumber": 49,
+    "typeHeader": "TYPE - III: FACTOR",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+    "questionText": "How many factors of 14,400 are divisible by 18 but not by 36?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Prime factorization of $14400$:\n$14400 = 144 \\times 100 = 12^2 \\times 10^2 = (2^4 \\times 3^2) \\times (2^2 \\times 5^2) = 2^6 \\times 3^2 \\times 5^2$.\nA factor is divisible by $18 = 2^1 \\times 3^2$ but not by $36 = 2^2 \\times 3^2$ if:\n- The power of $2$ is exactly $1$.\n- The power of $3$ is at least $2$ (so exactly $2$, since maximum power of $3$ in $14400$ is $2$).\n- The power of $5$ can be $0, 1, \\text{ or } 2$ ($3$ possibilities).\nThus, the number of such factors is $1 \\times 1 \\times 3 = 3$ (specifically: $18, 90, 450$)."
+  },
+  {
+    "questionNumber": 50,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+    "questionText": "Which of the following numbers is divisible by both 2 and 5 ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "63840"
+      },
+      {
+        "label": "B",
+        "text": "20792"
+      },
+      {
+        "label": "C",
+        "text": "37915"
+      },
+      {
+        "label": "D",
+        "text": "37254"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "A number is divisible by both $2$ and $5$ if and only if it is divisible by $10$, meaning its unit digit must be $0$.\nAmong the options, only $63840$ ends with $0$."
+  },
+  {
+    "questionNumber": 51,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+    "questionText": "Which of the following numbers is divisible by 2, 5, 10 and 11?",
+    "options": [
+      {
+        "label": "A",
+        "text": "203467"
+      },
+      {
+        "label": "B",
+        "text": "830942"
+      },
+      {
+        "label": "C",
+        "text": "589270"
+      },
+      {
+        "label": "D",
+        "text": "1234560"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number divisible by $2, 5$ and $10$ must end in $0$, which eliminates (A) and (B).\nNow check divisibility by $11$:\n- For $589270$: $(0 + 2 + 8) - (7 + 9 + 5) = 10 - 21 = -11$, which is divisible by $11$.\n- For $1234560$: $(0 + 4 + 2) - (6 + 3 + 1) = 6 - 10 = -4$, not divisible by $11$.\nHence, $589270$ is divisible by $2, 5, 10$ and $11$."
+  },
+  {
+    "questionNumber": 52,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 19/09/2024 (Shift-03)",
+    "questionText": "Which of the following numbers is NOT divisible by 8?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7344"
+      },
+      {
+        "label": "B",
+        "text": "5544"
+      },
+      {
+        "label": "C",
+        "text": "7497"
+      },
+      {
+        "label": "D",
+        "text": "4608"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number is divisible by $8$ only if it is an even number.\n$7497$ is an odd number (unit digit $7$), so it cannot be divisible by $8$."
+  },
+  {
+    "questionNumber": 53,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+    "questionText": "The number 4,29,714 is divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 and 5"
+      },
+      {
+        "label": "B",
+        "text": "6 and 5"
+      },
+      {
+        "label": "C",
+        "text": "4 and 6"
+      },
+      {
+        "label": "D",
+        "text": "3 and 6"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "For the number $429714$:\n- Unit digit is $4$, which is even, so it is divisible by $2$.\n- Sum of digits $= 4 + 2 + 9 + 7 + 1 + 4 = 27$, which is divisible by $3$.\n- Since it is divisible by both $2$ and $3$, it is also divisible by $6$.\n- It does not end in $0$ or $5$, so it is not divisible by $5$.\nHence, $429714$ is divisible by $3$ and $6$."
+  },
+  {
+    "questionNumber": 54,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
+    "questionText": "Which of the following numbers is divisible by 8?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6816"
+      },
+      {
+        "label": "B",
+        "text": "5006"
+      },
+      {
+        "label": "C",
+        "text": "6124"
+      },
+      {
+        "label": "D",
+        "text": "6006"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "A number is divisible by $8$ if its last three digits form a number divisible by $8$:\n- For $6816$: last three digits are $816$. Since $816 = 8 \\times 102$, it is divisible by $8$.\n- $006$ is not divisible by $8$.\n- $124 = 8 \\times 15 + 4$, not divisible by $8$.\nHence, $6816$ is divisible by $8$."
+  },
+  {
+    "questionNumber": 55,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL TIER-II 02/03/2023",
+    "questionText": "The number 5769116 is divisible by which of the following numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let us test the divisibility of $5769116$:\n- Divisibility by $4$: Last two digits are $16$. Since $16$ is divisible by $4$, the number is divisible by $4$.\n- Divisibility by $8$: Last three digits are $116$. $116 = 8 \\times 14 + 4$ (not divisible by $8$).\n- Divisibility by $5$: Last digit is $6$ (not divisible by $5$).\n- Divisibility by $12$: Requires divisibility by $3$ and $4$. Sum of digits $= 5 + 7 + 6 + 9 + 1 + 1 + 6 = 35$ (not divisible by $3$).\nHence, the number is divisible by $4$."
+  },
+  {
+    "questionNumber": 56,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL TIER-II 03/03/2023",
+    "questionText": "The number 2918245 is divisible by which of the following numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Sum of digits of $2918245 = 2 + 9 + 1 + 8 + 2 + 4 + 5 = 31$, which is not divisible by $3$ or $9$, ruling out $3, 9, 12$.\nChecking divisibility by $11$:\nAlternating sum $= (5 + 2 + 1 + 2) - (4 + 8 + 9) = 10 - 21 = -11$.\nSince $-11$ is divisible by $11$, the number $2918245$ is divisible by $11$."
+  },
+  {
+    "questionNumber": 57,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 21/06/2024 (Shift-02)",
+    "questionText": "Which of the following numbers is divisible by 36?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1542"
+      },
+      {
+        "label": "B",
+        "text": "8840"
+      },
+      {
+        "label": "C",
+        "text": "55512"
+      },
+      {
+        "label": "D",
+        "text": "96272"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number is divisible by $36$ if it is divisible by both $4$ and $9$.\nChecking divisibility by $9$ (sum of digits must be divisible by $9$):\n- $1542$: sum $= 12$ (no)\n- $8840$: sum $= 20$ (no)\n- $55512$: sum $= 5 + 5 + 5 + 1 + 2 = 18$ (divisible by $9$). Last two digits $12$ are divisible by $4$. So $55512$ is divisible by $36$.\n- $96272$: sum $= 26$ (no)\nHence, $55512$ is divisible by $36$."
+  },
+  {
+    "questionNumber": 58,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL TIER-II 26/06/2023",
+    "questionText": "What is the condition for a number to be divisible by 3?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The difference between the sum of the odd and even digits of that number is divisible by 3"
+      },
+      {
+        "label": "B",
+        "text": "The last two digits of that number are divisible by 3"
+      },
+      {
+        "label": "C",
+        "text": "The sum of the digits of that number is divisible by 3"
+      },
+      {
+        "label": "D",
+        "text": "The last digit of that number is either 0 or any even number"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "By the standard divisibility rule for $3$, a number is divisible by $3$ if and only if the sum of its digits is divisible by $3$."
+  },
+  {
+    "questionNumber": 59,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+    "questionText": "If 436P5 is divisible by 3, then the largest value of P is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "For $436P5$ to be divisible by $3$, the sum of its digits must be a multiple of $3$:\nSum of digits $= 4 + 3 + 6 + P + 5 = 18 + P$.\nSince $18$ is already divisible by $3$, $P$ must be divisible by $3$.\nThe possible single-digit values for $P$ are $\\{0, 3, 6, 9\\}$.\nThe largest value of $P$ is $9$."
+  },
+  {
+    "questionNumber": 60,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-02)",
+    "questionText": "Write the smallest digit in the blank space of a number $7\\_7624$, so that the number formed is divisible by 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the missing digit be $x$.\nSum of digits $= 7 + x + 7 + 6 + 2 + 4 = 26 + x$.\nFor $26 + x$ to be divisible by $3$, $26 + x$ can be $27, 30, 33$.\nFor $26 + x = 27 \\implies x = 1$.\nThus, the smallest digit is $1$."
+  },
+  {
+    "questionNumber": 61,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 26/06/2024 (Shift-02)",
+    "questionText": "Without actual division, find the remainder when 379843 is divided by 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "The remainder when a number is divided by $3$ equals the remainder when the sum of its digits is divided by $3$.\nSum of digits $= 3 + 7 + 9 + 8 + 4 + 3 = 34$.\nDividing $34$ by $3$:\n$34 = 3 \\times 11 + 1$.\nHence, the remainder is $1$."
+  },
+  {
+    "questionNumber": 62,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 26/05/2022 (Shift-03)",
+    "questionText": "If the 3-digit number $2x3$ is divisible by 3, then the value of $x^2 + x$ is (consider the maximum value of $x$):",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "56"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For $2x3$ to be divisible by $3$, the sum of its digits must be divisible by $3$:\nSum $= 2 + x + 3 = 5 + x$.\nPossible values for digit $x$ are $\\{1, 4, 7\\}$.\nThe maximum value of $x$ is $7$.\nThen $x^2 + x = 7^2 + 7 = 49 + 7 = 56$."
+  },
+  {
+    "questionNumber": 63,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 16/08/2021 (Shift-03)",
+    "questionText": "Find the difference between squares of the greatest value and the smallest value of P if the number 5306P2 is divisible by 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "60"
+      },
+      {
+        "label": "B",
+        "text": "68"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "For $5306P2$ to be divisible by $3$, the sum of its digits must be divisible by $3$:\nSum $= 5 + 3 + 0 + 6 + P + 2 = 16 + P$.\nPossible values of digit $P$ are $2, 5, 8$.\nSmallest value of $P = 2$.\nGreatest value of $P = 8$.\nDifference between their squares $= 8^2 - 2^2 = 64 - 4 = 60$."
+  },
+  {
+    "questionNumber": 64,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 24/09/2024 (Shift-01)",
+    "questionText": "Find the greatest value of 'k' in a 6-digit number 6745k2 such that the number is divisible by 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For $6745k2$ to be divisible by $3$, the sum of its digits must be divisible by $3$:\nSum $= 6 + 7 + 4 + 5 + k + 2 = 24 + k$.\nSince $24$ is divisible by $3$, $k$ must be a multiple of $3$.\nThe possible single-digit values of $k$ are $0, 3, 6, 9$.\nThe greatest value of $k$ is $9$."
+  },
+  {
+    "questionNumber": 65,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 09/09/2024 (Shift-02)",
+    "questionText": "Without doing the actual division, find the remainder when 28735429 is divided by 9.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "The remainder when a number is divided by $9$ is equal to the remainder when the sum of its digits is divided by $9$.\nSum of digits $= 2 + 8 + 7 + 3 + 5 + 4 + 2 + 9 = 40$.\nDividing $40$ by $9$: $40 = 9 \\times 4 + 4$.\nThus, the remainder is $4$."
+  },
+  {
+    "questionNumber": 66,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+    "questionText": "Find the least value of $x$ for which $57x716$ is divisible by 9.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "For $57x716$ to be divisible by $9$, the sum of its digits must be a multiple of $9$:\nSum $= 5 + 7 + x + 7 + 1 + 6 = 26 + x$.\nThe nearest multiple of $9$ greater than or equal to $26$ is $27$.\n$26 + x = 27 \\implies x = 1$.\nThus, the least value of $x$ is $1$."
+  },
+  {
+    "questionNumber": 67,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+    "questionText": "If 6428A83 is divisible by 9, then the value of A is equal to :",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "For $6428A83$ to be divisible by $9$, the sum of its digits must be a multiple of $9$:\nSum $= 6 + 4 + 2 + 8 + A + 8 + 3 = 31 + A$.\nThe next multiple of $9$ is $36$.\n$31 + A = 36 \\implies A = 5$."
+  },
+  {
+    "questionNumber": 68,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+    "questionText": "What will be the least value of $x$ so that the 5-digit number $627x5$ becomes divisible by 9?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For $627x5$ to be divisible by $9$, the sum of its digits must be divisible by $9$:\nSum $= 6 + 2 + 7 + x + 5 = 20 + x$.\nThe smallest multiple of $9$ greater than $20$ is $27$.\n$20 + x = 27 \\implies x = 7$."
+  },
+  {
+    "questionNumber": 69,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 20/06/2024 (Shift-03)",
+    "questionText": "Which of the following numbers is divisible by 9?",
+    "options": [
+      {
+        "label": "A",
+        "text": "941201"
+      },
+      {
+        "label": "B",
+        "text": "132490"
+      },
+      {
+        "label": "C",
+        "text": "553986"
+      },
+      {
+        "label": "D",
+        "text": "350846"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number is divisible by $9$ if the sum of its digits is divisible by $9$:\n- $941201$: $9+4+1+2+0+1 = 17$\n- $132490$: $1+3+2+4+9+0 = 19$\n- $553986$: $5+5+3+9+8+6 = 36$, which is divisible by $9$\n- $350846$: $3+5+0+8+4+6 = 26$\nHence, $553986$ is divisible by $9$."
+  },
+  {
+    "questionNumber": 70,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 24/06/2024 (Shift-03)",
+    "questionText": "If $72^*72$ is divisible by 9 , the missing * digit will be :",
+    "options": [
+      {
+        "label": "A",
+        "text": "0 or 9"
+      },
+      {
+        "label": "B",
+        "text": "3 or 6"
+      },
+      {
+        "label": "C",
+        "text": "2 or 4"
+      },
+      {
+        "label": "D",
+        "text": "5 or 8"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let the missing digit be $*$.\nSum of digits $= 7 + 2 + * + 7 + 2 = 18 + *$.\nSince $18$ is already divisible by $9$, $18 + *$ is a multiple of $9$ when $* = 0$ or $* = 9$.\nHence, the missing digit will be $0$ or $9$."
+  },
+  {
+    "questionNumber": 71,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 26/06/2024 (Shift-04)",
+    "questionText": "Find the smallest non-zero value of k so that 7-digit number 48397k5 is divisible by 9.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For $48397k5$ to be divisible by $9$, the sum of its digits must be a multiple of $9$:\nSum $= 4 + 8 + 3 + 9 + 7 + k + 5 = 36 + k$.\nSince $36$ is divisible by $9$, $k$ can be $0$ or $9$.\nWe require the smallest non-zero value of $k$, which is $9$."
+  },
+  {
+    "questionNumber": 72,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 27/07/2023 (Shift-03)",
+    "questionText": "How many of the following numbers are divisible by 3 but NOT by 9?\n5826, 5964, 6039, 6336, 6489, 6564, 6867 and 6960",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Calculate the sum of digits for each number:\n- $5826$: sum $= 21$ (divisible by $3$, not by $9$) $\\rightarrow$ YES\n- $5964$: sum $= 24$ (divisible by $3$, not by $9$) $\\rightarrow$ YES\n- $6039$: sum $= 18$ (divisible by $9$) $\\rightarrow$ NO\n- $6336$: sum $= 18$ (divisible by $9$) $\\rightarrow$ NO\n- $6489$: sum $= 27$ (divisible by $9$) $\\rightarrow$ NO\n- $6564$: sum $= 21$ (divisible by $3$, not by $9$) $\\rightarrow$ YES\n- $6867$: sum $= 27$ (divisible by $9$) $\\rightarrow$ NO\n- $6960$: sum $= 21$ (divisible by $3$, not by $9$) $\\rightarrow$ YES\nThere are $4$ such numbers."
+  },
+  {
+    "questionNumber": 73,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 26/07/2023 (Shift-02)",
+    "questionText": "A 9-digit number 846523X7Y is divisible by 9, and Y - X = 6. Find the value of $\\sqrt{2X + 4Y}$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For $846523X7Y$ to be divisible by $9$:\nSum of digits $= 8 + 4 + 6 + 5 + 2 + 3 + X + 7 + Y = 35 + X + Y$.\nSince $35 + X + Y$ is a multiple of $9$ and $0 \\le X, Y \\le 9$, $X + Y$ can be $1$ or $10$.\nGiven $Y - X = 6$:\n- If $X + Y = 1$: $Y - X = 6$ yields no non-negative integer solution.\n- If $X + Y = 10$ and $Y - X = 6$:\n  Adding gives $2Y = 16 \\implies Y = 8$, so $X = 2$.\nThen $\\sqrt{2X + 4Y} = \\sqrt{2(2) + 4(8)} = \\sqrt{4 + 32} = \\sqrt{36} = 6$."
+  },
+  {
+    "questionNumber": 74,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 12/04/2021 (Shift-01)",
+    "questionText": "What is the product of the largest and the smallest possible values of m for which a number 5m83m4m1 is divisible by 9?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "80"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "For $5m83m4m1$ to be divisible by $9$, the sum of its digits must be a multiple of $9$:\nSum of digits $= 5 + m + 8 + 3 + m + 4 + m + 1 = 21 + 3m = 3(7 + m)$.\nFor $3(7 + m)$ to be divisible by $9$, $(7 + m)$ must be divisible by $3$.\nSince $m$ is a digit ($0 \\le m \\le 9$):\n- $7 + m = 9 \\implies m = 2$\n- $7 + m = 12 \\implies m = 5$\n- $7 + m = 15 \\implies m = 8$\nSmallest possible value of $m = 2$.\nLargest possible value of $m = 8$.\nProduct $= 2 \\times 8 = 16$."
+  },
+  {
+    "questionNumber": 75,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-04)",
+    "questionText": "The number 611611611611 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Divisible by both 6 and 11"
+      },
+      {
+        "label": "B",
+        "text": "Neither divisible by 6 nor by 11"
+      },
+      {
+        "label": "C",
+        "text": "Divisible by 6 only"
+      },
+      {
+        "label": "D",
+        "text": "Divisible by 11 only"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Check divisibility:\n1. Divisibility by $6$: The last digit of $611611611611$ is $1$ (odd), so it is not divisible by $2$, hence not divisible by $6$.\n2. Divisibility by $11$: In $611611611611$, there are twelve digits.\nSum of digits at odd places $= 1 + 6 + 1 + 1 + 6 + 1 = 16$.\nSum of digits at even places $= 1 + 1 + 6 + 1 + 1 + 6 = 16$.\nDifference $= 16 - 16 = 0$, which is divisible by $11$.\nTherefore, the number is divisible by $11$ only."
+  },
+  {
+    "questionNumber": 76,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+    "questionText": "Which of following number is NOT divisible by 11?",
+    "options": [
+      {
+        "label": "A",
+        "text": "109153"
+      },
+      {
+        "label": "B",
+        "text": "5445"
+      },
+      {
+        "label": "C",
+        "text": "128041"
+      },
+      {
+        "label": "D",
+        "text": "80124"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Testing divisibility by $11$ using the alternating sum of digits:\n- For $109153$: $(3 + 1 + 0) - (5 + 9 + 1) = 4 - 15 = -11$ (divisible by $11$)\n- For $5445$: $(5 + 4) - (4 + 5) = 0$ (divisible by $11$)\n- For $128041$: $(1 + 0 + 2) - (4 + 8 + 1) = 3 - 13 = -10 \\neq 0 \\pmod{11}$ (NOT divisible by $11$)\n- For $80124$: $(4 + 1 + 8) - (2 + 0) = 13 - 2 = 11$ (divisible by $11$)\nHence, $128041$ is NOT divisible by $11$."
+  },
+  {
+    "questionNumber": 77,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-01)",
+    "questionText": "Which of the following numbers is divisible by 22?",
+    "options": [
+      {
+        "label": "A",
+        "text": "654320"
+      },
+      {
+        "label": "B",
+        "text": "602351"
+      },
+      {
+        "label": "C",
+        "text": "893002"
+      },
+      {
+        "label": "D",
+        "text": "645372"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number is divisible by $22$ if it is divisible by both $2$ and $11$.\n- $602351$ is odd, so not divisible by $2$.\nChecking the remaining even numbers for divisibility by $11$:\n- For $654320$: $(0 + 3 + 5) - (2 + 4 + 6) = 8 - 12 = -4$\n- For $893002$: $(2 + 0 + 9) - (0 + 3 + 8) = 11 - 11 = 0$, which is divisible by $11$.\n- For $645372$: $(2 + 3 + 4) - (7 + 5 + 6) = 9 - 18 = -9$\nHence, $893002$ is divisible by $22$."
+  },
+  {
+    "questionNumber": 78,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 24/06/2024 (Shift-02)",
+    "questionText": "Which of the following numbers is divisible by 11?",
+    "options": [
+      {
+        "label": "A",
+        "text": "294621"
+      },
+      {
+        "label": "B",
+        "text": "956127"
+      },
+      {
+        "label": "C",
+        "text": "258913"
+      },
+      {
+        "label": "D",
+        "text": "958749"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Testing divisibility by $11$:\n- For $294621$: $(1 + 6 + 9) - (2 + 4 + 2) = 16 - 8 = 8$\n- For $956127$: $(7 + 1 + 5) - (2 + 6 + 9) = 13 - 17 = -4$\n- For $258913$: $(3 + 9 + 5) - (1 + 8 + 2) = 17 - 11 = 6$\n- For $958749$: $(9 + 7 + 5) - (4 + 8 + 9) = 21 - 21 = 0$, divisible by $11$.\nHence, $958749$ is divisible by $11$."
+  },
+  {
+    "questionNumber": 79,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-01)",
+    "questionText": "Which of the following numbers is NOT divisible by 11?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1735624"
+      },
+      {
+        "label": "B",
+        "text": "752563"
+      },
+      {
+        "label": "C",
+        "text": "1661308"
+      },
+      {
+        "label": "D",
+        "text": "1904529"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Testing divisibility by $11$:\n- For $1735624$: $(4 + 6 + 3 + 1) - (2 + 5 + 7) = 14 - 14 = 0$ (divisible)\n- For $752563$: $(3 + 5 + 5) - (6 + 2 + 7) = 13 - 15 = -2$ (NOT divisible)\n- For $1661308$: $(8 + 3 + 6 + 1) - (0 + 1 + 6) = 18 - 7 = 11$ (divisible)\n- For $1904529$: $(9 + 5 + 0 + 1) - (2 + 4 + 9) = 15 - 15 = 0$ (divisible)\nHence, $752563$ is NOT divisible by $11$."
+  },
+  {
+    "questionNumber": 80,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 25/07/2023 (Shift-02)",
+    "questionText": "Which of the following numbers is divisible by 99?",
+    "options": [
+      {
+        "label": "A",
+        "text": "31548"
+      },
+      {
+        "label": "B",
+        "text": "60687"
+      },
+      {
+        "label": "C",
+        "text": "44775"
+      },
+      {
+        "label": "D",
+        "text": "84456"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "A number is divisible by $99$ if it is divisible by both $9$ and $11$.\nChecking sum of digits for divisibility by $9$:\n- $31548$: sum $= 21$ (not div by $9$)\n- $60687$: sum $= 6 + 0 + 6 + 8 + 7 = 27$ (divisible by $9$)\n  Check $11$: $(7 + 6 + 6) - (8 + 0) = 19 - 8 = 11$ (divisible by $11$)\n- $44775$: sum $= 27$, but for $11$: $(5 + 7 + 4) - (7 + 4) = 16 - 11 = 5$ (not div by $11$)\n- $84456$: sum $= 27$, but for $11$: $(6 + 4 + 8) - (5 + 4) = 18 - 9 = 9$ (not div by $11$)\nHence, $60687$ is divisible by $99$."
+  },
+  {
+    "questionNumber": 81,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL TIER-II 07/03/2023",
+    "questionText": "Which of the following numbers is divisible by 11?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5214341"
+      },
+      {
+        "label": "B",
+        "text": "5648741"
+      },
+      {
+        "label": "C",
+        "text": "6598321"
+      },
+      {
+        "label": "D",
+        "text": "2378965"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Testing divisibility by $11$:\n- For $5214341$: $(1 + 3 + 1 + 5) - (4 + 4 + 2) = 10 - 10 = 0$, which is divisible by $11$.\n- For $5648741$: $(1 + 7 + 4 + 5) - (4 + 8 + 6) = 17 - 18 = -1$\n- For $6598321$: $(1 + 3 + 9 + 6) - (2 + 8 + 5) = 19 - 15 = 4$\n- For $2378965$: $(5 + 9 + 7 + 2) - (6 + 8 + 3) = 23 - 17 = 6$\nHence, $5214341$ is divisible by $11$."
+  },
+  {
+    "questionNumber": 82,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 13/08/2021 (Shift-03)",
+    "questionText": "Find the greatest value of b so that 30a68b (a > b) is divisible by 11.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For the $6$-digit number $30a68b$ to be divisible by $11$:\nSum of digits at odd places $= b + 6 + 0 = b + 6$.\nSum of digits at even places $= 8 + a + 3 = a + 11$.\nDifference $= (b + 6) - (a + 11) = b - a - 5$.\nFor this difference to be a multiple of $11$, since $a > b$ (so $b - a < 0$), the difference must be $-11$:\n$b - a - 5 = -11 \\implies a - b = 6$.\nTo maximize $b$, we choose the largest possible digit for $a$:\nSince $a \\le 9$, $b = a - 6 \\le 9 - 6 = 3$.\nHence, the greatest value of $b$ is $3$."
+  },
+  {
+    "questionNumber": 83,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 09/03/2023 (Shift-03)",
+    "questionText": "If 5A72B is divisible by 11, then what is the value of B - A ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For $5A72B$ to be divisible by $11$:\nSum of digits at odd places $= B + 7 + 5 = B + 12$.\nSum of digits at even places $= 2 + A$.\nDifference $= (B + 12) - (2 + A) = B - A + 10$.\nFor this difference to be a multiple of $11$:\nSince $A$ and $B$ are digits ($0 \\le A, B \\le 9$), $-9 \\le B - A \\le 9$, which gives $1 \\le B - A + 10 \\le 19$.\nThe only multiple of $11$ in this range is $11$.\n$B - A + 10 = 11 \\implies B - A = 1$."
+  },
+  {
+    "questionNumber": 84,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 09/09/2024 (Shift-03)",
+    "questionText": "If 7845K854 is divisible by 11, then what is the value of K?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For $7845K854$ to be divisible by $11$:\nDigits from right to left:\nOdd positions ($1^{\\text{st}}, 3^{\\text{rd}}, 5^{\\text{th}}, 7^{\\text{th}}$): $4, 8, 5, 8$.\nSum of odd positions $= 4 + 8 + 5 + 8 = 25$.\nEven positions ($2^{\\text{nd}}, 4^{\\text{th}}, 6^{\\text{th}}, 8^{\\text{th}}$): $5, K, 4, 7$.\nSum of even positions $= 5 + K + 4 + 7 = 16 + K$.\nDifference $= 25 - (16 + K) = 9 - K$.\nFor $9 - K$ to be divisible by $11$, since $K$ is a digit ($0 \\le K \\le 9$):\n$9 - K = 0 \\implies K = 9$."
+  },
+  {
+    "questionNumber": 85,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+    "questionText": "If P is a digit such that 6954P is divisible by 11, then P equals:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "For $6954P$ to be divisible by $11$:\nSum of digits at odd places from right $= P + 5 + 6 = P + 11$.\nSum of digits at even places from right $= 4 + 9 = 13$.\nDifference $= (P + 11) - 13 = P - 2$.\nFor $P - 2$ to be a multiple of $11$, $P - 2 = 0 \\implies P = 2$."
+  },
+  {
+    "questionNumber": 86,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+    "questionText": "From the given numbers A, B, C and D, which number is NOT divisible by 11?\n$A = 712712 \\quad B = 177210$\n$C = 64614 \\quad D = 756148$",
+    "options": [
+      {
+        "label": "A",
+        "text": "C"
+      },
+      {
+        "label": "B",
+        "text": "D"
+      },
+      {
+        "label": "C",
+        "text": "B"
+      },
+      {
+        "label": "D",
+        "text": "A"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Testing each number for divisibility by $11$:\n- $A = 712712$: $(2 + 7 + 1) - (1 + 2 + 7) = 10 - 10 = 0$ (divisible by $11$)\n- $B = 177210$: $(0 + 2 + 7) - (1 + 7 + 1) = 9 - 9 = 0$ (divisible by $11$)\n- $C = 64614$: $(4 + 6 + 6) - (1 + 4) = 16 - 5 = 11$ (divisible by $11$)\n- $D = 756148$: $(8 + 1 + 5) - (4 + 6 + 7) = 14 - 17 = -3 \\neq 0 \\pmod{11}$ (NOT divisible by $11$)\nThus, number D is NOT divisible by $11$."
+  },
+  {
+    "questionNumber": 87,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 23/09/2024 (Shift-02)",
+    "questionText": "The least number which must be subtracted from 7278745 so as to obtain a sum that is divisible by 11 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "To find the remainder when $7278745$ is divided by $11$:\nSum of digits at odd places $= 5 + 7 + 7 + 7 = 26$.\nSum of digits at even places $= 4 + 8 + 2 = 14$.\nDifference $= 26 - 14 = 12$.\n$12 = 11 \\times 1 + 1$.\nThe remainder is $1$. Therefore, subtracting $1$ from $7278745$ leaves a number divisible by $11$."
+  },
+  {
+    "questionNumber": 88,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-01)",
+    "questionText": "If 3c2933k is divisible by both 5 and 11, where c and k are single digit natural numbers, then c + k = _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Since $k$ is a single-digit natural number ($k \\in \\{1, 2, \\dots, 9\\}$) and $3c2933k$ is divisible by $5$, the last digit must be $k = 5$.\nNow, the number is $3c29335$. For divisibility by $11$:\nOdd places from right ($1^{\\text{st}}, 3^{\\text{rd}}, 5^{\\text{th}}, 7^{\\text{th}}$): $5 + 3 + 2 + 3 = 13$.\nEven places from right ($2^{\\text{nd}}, 4^{\\text{th}}, 6^{\\text{th}}$): $3 + 9 + c = 12 + c$.\nDifference $= (12 + c) - 13 = c - 1$.\nFor $c - 1$ to be divisible by $11$, since $c$ is a natural number ($1 \\le c \\le 9$):\n$c - 1 = 0 \\implies c = 1$.\nTherefore, $c + k = 1 + 5 = 6$."
+  },
+  {
+    "questionNumber": 89,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+    "questionText": "A number is divisible by 11 if and only if the difference of the sum of the digits in the even and odd positions in the number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "0 or multiple of 11"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "According to the divisibility rule of $11$, a number is divisible by $11$ if and only if the difference between the sum of the digits at odd positions and the sum of the digits at even positions is either $0$ or a multiple of $11$."
+  },
+  {
+    "questionNumber": 90,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+    "questionText": "If 1234567y is divisible by 11, then what is the value of y?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For the number $1234567y$ to be divisible by $11$:\nSum of digits at odd places from right $= y + 6 + 4 + 2 = y + 12$.\nSum of digits at even places from right $= 7 + 5 + 3 + 1 = 16$.\nDifference $= 16 - (y + 12) = 4 - y$.\nFor $4 - y$ to be divisible by $11$, since $y$ is a single digit ($0 \\le y \\le 9$):\n$4 - y = 0 \\implies y = 4$."
+  }
+]

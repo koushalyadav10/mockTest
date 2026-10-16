@@ -1,0 +1,293 @@
+# Builder script for Questions 251 to 269
+import json
+
+questions = []
+
+questions.append({
+    "questionNumber": 251,
+    "typeHeader": "TYPE - X: INFINITE SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "What is the value of : $\\left(\\sqrt{72 - \\sqrt{72 - \\sqrt{72 - \\dots \\infty}}}\\right) \\div \\left(\\sqrt{20 - \\sqrt{20 - \\sqrt{20 - \\dots \\infty}}}\\right)$",
+    "options": [
+        {"label": "A", "text": "4"},
+        {"label": "B", "text": "2"},
+        {"label": "C", "text": "3.6"},
+        {"label": "D", "text": "8"}
+    ],
+    "correctOption": "B",
+    "solution": "For $\\sqrt{n(n+1) - \\sqrt{n(n+1) - \\dots}}$, the value is $n$:\nFor $72 = 8 \\times 9$, since there is a minus sign, the value is $8$.\nFor $20 = 4 \\times 5$, since there is a minus sign, the value is $4$.\nNow divide:\n$$8 \\div 4 = 2$$\nHence, the correct option is B."
+})
+
+questions.append({
+    "questionNumber": 252,
+    "typeHeader": "TYPE - X: INFINITE SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "$\\sqrt{5 + \\sqrt{5 + \\sqrt{5 + \\dots \\infty}}} = ?$",
+    "options": [
+        {"label": "A", "text": "\\frac{\\sqrt{21} + 1}{2}"},
+        {"label": "B", "text": "\\frac{\\sqrt{21} - 1}{2}"},
+        {"label": "C", "text": "\\frac{\\sqrt{21} + 3}{2}"},
+        {"label": "D", "text": "\\frac{\\sqrt{21} - 3}{2}"}
+    ],
+    "correctOption": "A",
+    "solution": "Let $x = \\sqrt{5 + \\sqrt{5 + \\dots}}$\nSquaring both sides:\n$$x^2 = 5 + x \\implies x^2 - x - 5 = 0$$\nUsing the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$:\n$$x = \\frac{1 \\pm \\sqrt{(-1)^2 - 4(1)(-5)}}{2} = \\frac{1 \\pm \\sqrt{1 + 20}}{2} = \\frac{1 + \\sqrt{21}}{2} = \\frac{\\sqrt{21} + 1}{2}$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 253,
+    "typeHeader": "TYPE - X: INFINITE SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "Find $\\sqrt{19 - \\sqrt{19 - \\sqrt{19 - \\sqrt{19 \\dots \\infty}}}} = ?$",
+    "options": [
+        {"label": "A", "text": "\\frac{\\sqrt{77} - 1}{2}"},
+        {"label": "B", "text": "\\frac{\\sqrt{19} + 3}{2}"},
+        {"label": "C", "text": "\\frac{\\sqrt{77} + 1}{2}"},
+        {"label": "D", "text": "Between 4 & 5"}
+    ],
+    "correctOption": "A",
+    "solution": "Let $x = \\sqrt{19 - x}$\nSquaring both sides:\n$$x^2 = 19 - x \\implies x^2 + x - 19 = 0$$\nUsing the quadratic formula:\n$$x = \\frac{-1 \\pm \\sqrt{1^2 - 4(1)(-19)}}{2} = \\frac{-1 + \\sqrt{1 + 76}}{2} = \\frac{\\sqrt{77} - 1}{2}$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 254,
+    "typeHeader": "TYPE - X: INFINITE SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "If $P = \\sqrt{11 + 3\\sqrt{11 + 3\\sqrt{11 + 3\\sqrt{11 + \\dots \\infty}}}}$ and $Q = \\sqrt{11 - 3\\sqrt{11 - 3\\sqrt{11 - 3\\sqrt{11 - \\dots \\infty}}}}$, then $P + Q = ?$",
+    "options": [
+        {"label": "A", "text": "\\sqrt{47}"},
+        {"label": "B", "text": "\\sqrt{65}"},
+        {"label": "C", "text": "\\sqrt{41}"},
+        {"label": "D", "text": "\\sqrt{53}"}
+    ],
+    "correctOption": "D",
+    "solution": "For $P$:\n$$P = \\sqrt{11 + 3P} \\implies P^2 - 3P - 11 = 0 \\implies P = \\frac{3 + \\sqrt{9 + 44}}{2} = \\frac{3 + \\sqrt{53}}{2}$$\nFor $Q$:\n$$Q = \\sqrt{11 - 3Q} \\implies Q^2 + 3Q - 11 = 0 \\implies Q = \\frac{-3 + \\sqrt{9 + 44}}{2} = \\frac{-3 + \\sqrt{53}}{2}$$\nAdding $P$ and $Q$:\n$$P + Q = \\frac{3 + \\sqrt{53}}{2} + \\frac{-3 + \\sqrt{53}}{2} = \\frac{2\\sqrt{53}}{2} = \\sqrt{53}$$\nHence, the correct option is D."
+})
+
+questions.append({
+    "questionNumber": 255,
+    "typeHeader": "TYPE - X: INFINITE SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "$\\sqrt{7 + 2\\sqrt{7 - 2\\sqrt{7 + 2\\sqrt{7 - 2\\sqrt{7 + \\dots \\infty}}}}} = ?$",
+    "options": [
+        {"label": "A", "text": "\\sqrt{51}"},
+        {"label": "B", "text": "4"},
+        {"label": "C", "text": "\\frac{3 + \\sqrt{15}}{2}"},
+        {"label": "D", "text": "3"}
+    ],
+    "correctOption": "D",
+    "solution": "For alternating series of the form $\\sqrt{a + b\\sqrt{a - b\\sqrt{a + \\dots}}}$, the standard formula is:\n$$x = \\frac{\\sqrt{4a - 3b^2} + b}{2}$$\nHere, $a = 7$ and $b = 2$:\n$$4a - 3b^2 = 4(7) - 3(2^2) = 28 - 12 = 16$$\n$$x = \\frac{\\sqrt{16} + 2}{2} = \\frac{4 + 2}{2} = \\frac{6}{2} = 3$$\nVerification: $\\sqrt{7 - 2(3)} = \\sqrt{1} = 1$, and $\\sqrt{7 + 2(1)} = \\sqrt{9} = 3$.\nHence, the correct option is D."
+})
+
+questions.append({
+    "questionNumber": 256,
+    "typeHeader": "TYPE - X: INFINITE SERIES",
+    "examShift": "SSC CGL / CHSL",
+    "questionText": "Let $x = \\sqrt{6 - \\sqrt{6 + \\sqrt{6 - \\sqrt{6 + \\dots \\text{ to infinity}}}}}$; then $x$ equals:",
+    "options": [
+        {"label": "A", "text": "3"},
+        {"label": "B", "text": "\\sqrt{21}"},
+        {"label": "C", "text": "\\frac{\\sqrt{21} - 1}{2}"},
+        {"label": "D", "text": "\\frac{\\sqrt{21} + 1}{2}"}
+    ],
+    "correctOption": "C",
+    "solution": "For alternating series starting with a minus sign: $\\sqrt{a - b\\sqrt{a + b\\sqrt{a - \\dots}}}$, the formula is:\n$$x = \\frac{\\sqrt{4a - 3b^2} - b}{2}$$\nHere $a = 6$ and $b = 1$:\n$$4a - 3b^2 = 4(6) - 3(1^2) = 24 - 3 = 21$$\n$$x = \\frac{\\sqrt{21} - 1}{2}$$\nHence, the correct option is C."
+})
+
+questions.append({
+    "questionNumber": 257,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CGL Tier-II 26/10/2023",
+    "questionText": "Find the value of $\\frac{\\sqrt{1.24} \\times \\sqrt{2.79}}{\\sqrt{2.64} \\times \\sqrt{5.94}}$",
+    "options": [
+        {"label": "A", "text": "\\frac{31}{44}"},
+        {"label": "B", "text": "\\frac{33}{64}"},
+        {"label": "C", "text": "\\frac{31}{66}"},
+        {"label": "D", "text": "\\frac{33}{31}"}
+    ],
+    "correctOption": "C",
+    "solution": "Combine all terms under a single square root:\n$$\\sqrt{\\frac{1.24 \\times 2.79}{2.64 \\times 5.94}}$$\nNotice the factorizations:\n$$1.24 = 4 \\times 0.31$$\n$$2.79 = 9 \\times 0.31$$\n$$2.64 = 4 \\times 0.66$$\n$$5.94 = 9 \\times 0.66$$\nThus:\n$$\\frac{1.24 \\times 2.79}{2.64 \\times 5.94} = \\frac{(4 \\times 0.31) \\times (9 \\times 0.31)}{(4 \\times 0.66) \\times (9 \\times 0.66)} = \\frac{36 \\times (0.31)^2}{36 \\times (0.66)^2} = \\left(\\frac{0.31}{0.66}\\right)^2 = \\left(\\frac{31}{66}\\right)^2$$\nTaking the square root:\n$$\\sqrt{\\left(\\frac{31}{66}\\right)^2} = \\frac{31}{66}$$\nHence, the correct option is C."
+})
+
+questions.append({
+    "questionNumber": 258,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CHSL 08/08/2023 (Shift-04)",
+    "questionText": "Evaluate $\\frac{\\sqrt{3} + \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}}$, given that $\\sqrt{6} = 2.45$.",
+    "options": [
+        {"label": "A", "text": "7.7"},
+        {"label": "B", "text": "9.9"},
+        {"label": "C", "text": "8.8"},
+        {"label": "D", "text": "6.6"}
+    ],
+    "correctOption": "B",
+    "solution": "Rationalize the denominator:\n$$\\frac{\\sqrt{3} + \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}} = \\frac{(\\sqrt{3} + \\sqrt{2})^2}{(\\sqrt{3} - \\sqrt{2})(\\sqrt{3} + \\sqrt{2})} = \\frac{3 + 2 + 2\\sqrt{6}}{3 - 2} = 5 + 2\\sqrt{6}$$\nGiven $\\sqrt{6} = 2.45$:\n$$5 + 2(2.45) = 5 + 4.90 = 9.9$$\nHence, the correct option is B."
+})
+
+questions.append({
+    "questionNumber": 259,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CGL Tier-II (08/08/2022)",
+    "questionText": "What is the value of $\\frac{\\sqrt{29.16}}{\\sqrt{1.1664}} + \\frac{\\sqrt{0.2916}}{\\sqrt{116.64}} + \\frac{\\sqrt{0.0036}}{\\sqrt{0.36}} = ?$",
+    "options": [
+        {"label": "A", "text": "\\frac{101}{20}"},
+        {"label": "B", "text": "\\frac{103}{20}"},
+        {"label": "C", "text": "\\frac{26}{5}"},
+        {"label": "D", "text": "\\frac{27}{5}"}
+    ],
+    "correctOption": "B",
+    "solution": "Evaluate each fraction separately:\n1. $\\frac{\\sqrt{29.16}}{\\sqrt{1.1664}} = \\sqrt{\\frac{291600}{11664}} = \\sqrt{25} = 5$\n2. $\\frac{\\sqrt{0.2916}}{\\sqrt{116.64}} = \\sqrt{\\frac{2916}{1166400}} = \\sqrt{\\frac{1}{400}} = \\frac{1}{20}$\n3. $\\frac{\\sqrt{0.0036}}{\\sqrt{0.36}} = \\sqrt{\\frac{36}{3600}} = \\sqrt{\\frac{1}{100}} = \\frac{1}{10} = \\frac{2}{20}$\nAdding all three terms:\n$$5 + \\frac{1}{20} + \\frac{2}{20} = 5 + \\frac{3}{20} = \\frac{103}{20}$$\nHence, the correct option is B."
+})
+
+questions.append({
+    "questionNumber": 260,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CGL Tier-II (08/08/2022)",
+    "questionText": "What is the value of $\\frac{\\sqrt{7} + \\sqrt{5}}{\\sqrt{7} - \\sqrt{5}} \\times \\frac{\\sqrt{14} - \\sqrt{10}}{\\sqrt{14} + \\sqrt{10}} + \\frac{\\sqrt{10}}{\\sqrt{5}} = ?$",
+    "options": [
+        {"label": "A", "text": "\\sqrt{2} + 1"},
+        {"label": "B", "text": "2\\sqrt{2} + 2"},
+        {"label": "C", "text": "\\sqrt{2} + 2"},
+        {"label": "D", "text": "2\\sqrt{2} + 1"}
+    ],
+    "correctOption": "A",
+    "solution": "Factor out $\\sqrt{2}$ from the second fraction:\n$$\\sqrt{14} - \\sqrt{10} = \\sqrt{2}(\\sqrt{7} - \\sqrt{5})$$\n$$\\sqrt{14} + \\sqrt{10} = \\sqrt{2}(\\sqrt{7} + \\sqrt{5})$$\nSo:\n$$\\frac{\\sqrt{14} - \\sqrt{10}}{\\sqrt{14} + \\sqrt{10}} = \\frac{\\sqrt{7} - \\sqrt{5}}{\\sqrt{7} + \\sqrt{5}}$$\nMultiplying with the first term:\n$$\\frac{\\sqrt{7} + \\sqrt{5}}{\\sqrt{7} - \\sqrt{5}} \\times \\frac{\\sqrt{7} - \\sqrt{5}}{\\sqrt{7} + \\sqrt{5}} = 1$$\nNow evaluate the third term:\n$$\\frac{\\sqrt{10}}{\\sqrt{5}} = \\sqrt{\\frac{10}{5}} = \\sqrt{2}$$\nAdding the results:\n$$1 + \\sqrt{2} = \\sqrt{2} + 1$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 261,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC Phase-X 04/08/2022 (Shift-04)",
+    "questionText": "If $\\sqrt{5} = 2.24$ then find the value of $\\sqrt{\\frac{\\sqrt{5} - 1}{\\sqrt{5} + 1}}$",
+    "options": [
+        {"label": "A", "text": "0.62"},
+        {"label": "B", "text": "0.59"},
+        {"label": "C", "text": "0.68"},
+        {"label": "D", "text": "0.55"}
+    ],
+    "correctOption": "A",
+    "solution": "Rationalize inside the square root:\n$$\\frac{\\sqrt{5} - 1}{\\sqrt{5} + 1} = \\frac{(\\sqrt{5} - 1)^2}{(\\sqrt{5} + 1)(\\sqrt{5} - 1)} = \\frac{(\\sqrt{5} - 1)^2}{5 - 1} = \\frac{(\\sqrt{5} - 1)^2}{4}$$\nTaking the square root:\n$$\\sqrt{\\frac{(\\sqrt{5} - 1)^2}{4}} = \\frac{\\sqrt{5} - 1}{2}$$\nGiven $\\sqrt{5} = 2.24$:\n$$\\frac{2.24 - 1}{2} = \\frac{1.24}{2} = 0.62$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 262,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CGL Tier-II (08/08/2022)",
+    "questionText": "If $A = \\frac{\\sqrt{0.0004} \\times \\sqrt[3]{0.000008}}{\\sqrt[4]{16000} \\times \\sqrt[3]{125000} \\times \\sqrt[4]{810}}$ and $B = \\frac{\\sqrt[3]{0.729} \\times \\sqrt[4]{0.0016}}{\\sqrt{0.16}}$, then what is $A \\times B$?",
+    "options": [
+        {"label": "A", "text": "6 \\times 10^{-8}"},
+        {"label": "B", "text": "7 \\times 10^{-7}"},
+        {"label": "C", "text": "\\left(\\frac{7}{4}\\right) \\times 10^{-8}"},
+        {"label": "D", "text": "\\left(\\frac{7}{3}\\right) \\times 10^{-7}"}
+    ],
+    "correctOption": "A",
+    "solution": "Evaluate $A$:\nNumerator of $A$:\n$$\\sqrt{0.0004} = 0.02 = 2 \\times 10^{-2}$$\n$$\\sqrt[3]{0.000008} = 0.02 = 2 \\times 10^{-2}$$\n$$\\text{Numerator} = (2 \\times 10^{-2}) \\times (2 \\times 10^{-2}) = 4 \\times 10^{-4}$$\nDenominator of $A$:\n$$\\sqrt[4]{16000} \\times \\sqrt[4]{810} = \\sqrt[4]{16000 \\times 810} = \\sqrt[4]{12960000} = 60$$\n$$\\sqrt[3]{125000} = 50$$\n$$\\text{Denominator} = 60 \\times 50 = 3000 = 3 \\times 10^3$$\nSo $A = \\frac{4 \\times 10^{-4}}{3 \\times 10^3} = \\frac{4}{3} \\times 10^{-7}$.\n\nEvaluate $B$:\n$$\\sqrt[3]{0.729} = 0.9$$\n$$\\sqrt[4]{0.0016} = 0.2$$\n$$\\sqrt{0.16} = 0.4$$\n$$B = \\frac{0.9 \\times 0.2}{0.4} = \\frac{0.18}{0.4} = \\frac{9}{20}$$\nNow compute $A \\times B$:\n$$A \\times B = \\left(\\frac{4}{3} \\times 10^{-7}\\right) \\times \\frac{9}{20} = \\frac{36}{60} \\times 10^{-7} = 0.6 \\times 10^{-7} = 6 \\times 10^{-8}$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 263,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CGL Tier-II 29/01/2022",
+    "questionText": "If $\\frac{22\\sqrt{2}}{4\\sqrt{2} - \\sqrt{3 + \\sqrt{5}}} = a + \\sqrt{5}b$, with $a, b > 0$, then what is the value of $(ab) : (a + b)$?",
+    "options": [
+        {"label": "A", "text": "8 : 7"},
+        {"label": "B", "text": "4 : 7"},
+        {"label": "C", "text": "7 : 8"},
+        {"label": "D", "text": "7 : 4"}
+    ],
+    "correctOption": "C",
+    "solution": "Simplify the nested radical $\\sqrt{3 + \\sqrt{5}}$:\n$$\\sqrt{3 + \\sqrt{5}} = \\sqrt{\\frac{6 + 2\\sqrt{5}}{2}} = \\frac{\\sqrt{(\\sqrt{5} + 1)^2}}{\\sqrt{2}} = \\frac{\\sqrt{5} + 1}{\\sqrt{2}}$$\nSubstitute into the denominator:\n$$4\\sqrt{2} - \\frac{\\sqrt{5} + 1}{\\sqrt{2}} = \\frac{8 - (\\sqrt{5} + 1)}{\\sqrt{2}} = \\frac{7 - \\sqrt{5}}{\\sqrt{2}}$$\nNow simplify the fraction:\n$$\\frac{22\\sqrt{2}}{\\frac{7 - \\sqrt{5}}{\\sqrt{2}}} = \\frac{22\\sqrt{2} \\times \\sqrt{2}}{7 - \\sqrt{5}} = \\frac{44}{7 - \\sqrt{5}}$$\nRationalize by multiplying numerator and denominator by $(7 + \\sqrt{5})$:\n$$\\frac{44(7 + \\sqrt{5})}{7^2 - (\\sqrt{5})^2} = \\frac{44(7 + \\sqrt{5})}{49 - 5} = \\frac{44(7 + \\sqrt{5})}{44} = 7 + \\sqrt{5}$$\nComparing with $a + \\sqrt{5}b$:\n$$a = 7, \\quad b = 1$$\nFind $(ab) : (a + b)$:\n$$(ab) : (a + b) = (7 \\times 1) : (7 + 1) = 7 : 8$$\nHence, the correct option is C."
+})
+
+questions.append({
+    "questionNumber": 264,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CGL Tier-II 29/01/2022",
+    "questionText": "The value of $\\frac{1}{\\sqrt{16} - \\sqrt{15}} - \\frac{1}{\\sqrt{15} - \\sqrt{14}} + \\frac{1}{\\sqrt{14} - \\sqrt{13}} - \\frac{1}{\\sqrt{13} - \\sqrt{12}} + \\frac{1}{\\sqrt{12} - \\sqrt{11}} - \\frac{1}{\\sqrt{11} - \\sqrt{10}} + \\frac{1}{\\sqrt{10} - 3} - \\frac{1}{3 - \\sqrt{8}}$ is:",
+    "options": [
+        {"label": "A", "text": "2 + 2\\sqrt{2}"},
+        {"label": "B", "text": "2 - 2\\sqrt{2}"},
+        {"label": "C", "text": "4 - 2\\sqrt{2}"},
+        {"label": "D", "text": "4 + 2\\sqrt{2}"}
+    ],
+    "correctOption": "C",
+    "solution": "Rationalize each fraction (note that $3 = \\sqrt{9}$):\n$$\\frac{1}{\\sqrt{n} - \\sqrt{n-1}} = \\sqrt{n} + \\sqrt{n-1}$$\nWriting out the alternating sum:\n$$= (\\sqrt{16} + \\sqrt{15}) - (\\sqrt{15} + \\sqrt{14}) + (\\sqrt{14} + \\sqrt{13}) - (\\sqrt{13} + \\sqrt{12}) + (\\sqrt{12} + \\sqrt{11}) - (\\sqrt{11} + \\sqrt{10}) + (\\sqrt{10} + \\sqrt{9}) - (\\sqrt{9} + \\sqrt{8})$$\nNotice that all intermediate terms cancel out:\n$$= \\sqrt{16} - \\sqrt{8} = 4 - 2\\sqrt{2}$$\nHence, the correct option is C."
+})
+
+questions.append({
+    "questionNumber": 265,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CGL / CPO",
+    "questionText": "$\\frac{8\\sqrt{5}}{\\sqrt{10} - \\sqrt{2}} - \\frac{5\\sqrt{2}}{\\sqrt{10} - \\sqrt{5}} - \\frac{3\\sqrt{10}}{\\sqrt{2} - \\sqrt{5}} + \\frac{1}{2 - \\sqrt{2}} = a + b\\sqrt{2}$, then $(15a - 2b)$ value is equal to:",
+    "options": [
+        {"label": "A", "text": "3"},
+        {"label": "B", "text": "-6"},
+        {"label": "C", "text": "6"},
+        {"label": "D", "text": "-3"}
+    ],
+    "correctOption": "B",
+    "solution": "Rationalize each term:\nTerm 1:\n$$\\frac{8\\sqrt{5}(\\sqrt{10} + \\sqrt{2})}{10 - 2} = \\frac{8\\sqrt{5}(\\sqrt{10} + \\sqrt{2})}{8} = 5\\sqrt{2} + \\sqrt{10}$$\nTerm 2:\n$$-\\frac{5\\sqrt{2}(\\sqrt{10} + \\sqrt{5})}{10 - 5} = -\\frac{5(2\\sqrt{5} + \\sqrt{10})}{5} = -2\\sqrt{5} - \\sqrt{10}$$\nTerm 3:\n$$-\\frac{3\\sqrt{10}(\\sqrt{2} + \\sqrt{5})}{2 - 5} = -\\frac{3(2\\sqrt{5} + 5\\sqrt{2})}{-3} = +2\\sqrt{5} + 5\\sqrt{2}$$\nTerm 4:\n$$\\frac{1(2 + \\sqrt{2})}{4 - 2} = \\frac{2 + \\sqrt{2}}{2} = 1 + \\frac{1}{2}\\sqrt{2}$$\nSumming all four terms:\n$$(5\\sqrt{2} + \\sqrt{10}) - (2\\sqrt{5} + \\sqrt{10}) + (2\\sqrt{5} + 5\\sqrt{2}) + \\left(1 + \\frac{1}{2}\\sqrt{2}\\right)$$\n$$= 10\\sqrt{2} + 1 + 0.5\\sqrt{2} = 1 + 10.5\\sqrt{2} = 1 + \\frac{21}{2}\\sqrt{2}$$\nComparing with $a + b\\sqrt{2}$:\n$$a = 1, \\quad b = \\frac{21}{2} = 10.5$$\nNow evaluate $(15a - 2b)$:\n$$15(1) - 2(10.5) = 15 - 21 = -6$$\nHence, the correct option is B."
+})
+
+questions.append({
+    "questionNumber": 266,
+    "typeHeader": "TYPE - XI: SQUARE ROOT IN DENOMINATOR",
+    "examShift": "SSC CGL Tier-II 03/02/2022",
+    "questionText": "If $\\frac{\\sqrt{26 - 7\\sqrt{3}}}{\\sqrt{14 + 5\\sqrt{3}}} = \\frac{b + a\\sqrt{3}}{11}$, $b > 0$, then what is the value of $\\sqrt{b - a}$?",
+    "options": [
+        {"label": "A", "text": "5"},
+        {"label": "B", "text": "25"},
+        {"label": "C", "text": "12"},
+        {"label": "D", "text": "9"}
+    ],
+    "correctOption": "A",
+    "solution": "Combine the radicals under one square root and rationalize the denominator:\n$$\\frac{26 - 7\\sqrt{3}}{14 + 5\\sqrt{3}} \\times \\frac{14 - 5\\sqrt{3}}{14 - 5\\sqrt{3}} = \\frac{26(14) - 130\\sqrt{3} - 98\\sqrt{3} + 35(3)}{14^2 - (5\\sqrt{3})^2}$$\n$$= \\frac{364 + 105 - 228\\sqrt{3}}{196 - 75} = \\frac{469 - 228\\sqrt{3}}{121}$$\nNow take the square root:\n$$\\sqrt{\\frac{469 - 228\\sqrt{3}}{121}} = \\frac{\\sqrt{469 - 228\\sqrt{3}}}{11}$$\nTo find $\\sqrt{469 - 228\\sqrt{3}}$, set it as $x - y\\sqrt{3}$:\n$$x^2 + 3y^2 = 469 \\quad \\text{and} \\quad 2xy = 228 \\implies xy = 114$$\nTesting $x = 19, y = 6$:\n$$19^2 + 3(6^2) = 361 + 3(36) = 361 + 108 = 469$$\nThus, $\\sqrt{469 - 228\\sqrt{3}} = 19 - 6\\sqrt{3}$.\nSo:\n$$\\frac{19 - 6\\sqrt{3}}{11} = \\frac{b + a\\sqrt{3}}{11} \\implies b = 19, \\quad a = -6$$\nNow find $\\sqrt{b - a}$:\n$$\\sqrt{b - a} = \\sqrt{19 - (-6)} = \\sqrt{19 + 6} = \\sqrt{25} = 5$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 267,
+    "typeHeader": "TYPE - XII: SIMPLIFICATION OF POWERS",
+    "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+    "questionText": "Simplify: $9^{18} \\div 3^{14} \\text{ of } 27^3 \\times \\sqrt{6561}$",
+    "options": [
+        {"label": "A", "text": "3^{17}"},
+        {"label": "B", "text": "3^{16}"},
+        {"label": "C", "text": "3^{15}"},
+        {"label": "D", "text": "3^{18}"}
+    ],
+    "correctOption": "A",
+    "solution": "Express all terms with base 3:\n$$9^{18} = (3^2)^{18} = 3^{36}$$\n$$27^3 = (3^3)^3 = 3^9$$\n$$3^{14} \\text{ of } 27^3 = 3^{14} \\times 3^9 = 3^{23}$$\n$$\\sqrt{6561} = \\sqrt{3^8} = 3^4$$\nNow substitute back into the expression following BODMAS:\n$$3^{36} \\div 3^{23} \\times 3^4 = 3^{36 - 23 + 4} = 3^{13 + 4} = 3^{17}$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 268,
+    "typeHeader": "TYPE - XII: SIMPLIFICATION OF POWERS",
+    "examShift": "SSC CHSL TIER-II 10/01/2024",
+    "questionText": "Find the value of: $\\left(\\sqrt[3]{\\sqrt{343}}\\right)^2 \\times \\left(\\sqrt[3]{\\sqrt{216}}\\right)^2$",
+    "options": [
+        {"label": "A", "text": "42^3"},
+        {"label": "B", "text": "56"},
+        {"label": "C", "text": "42"},
+        {"label": "D", "text": "\\sqrt[3]{42}"}
+    ],
+    "correctOption": "C",
+    "solution": "Notice that $343 = 7^3$ and $216 = 6^3$.\nFor the first factor:\n$$\\left(\\sqrt[3]{\\sqrt{343}}\\right)^2 = \\left(\\left((7^3)^{1/2}\\right)^{1/3}\\right)^2 = \\left(7^{3/6}\\right)^2 = \\left(7^{1/2}\\right)^2 = 7$$\nFor the second factor:\n$$\\left(\\sqrt[3]{\\sqrt{216}}\\right)^2 = \\left(\\left((6^3)^{1/2}\\right)^{1/3}\\right)^2 = \\left(6^{3/6}\\right)^2 = \\left(6^{1/2}\\right)^2 = 6$$\nMultiplying the two values:\n$$7 \\times 6 = 42$$\nHence, the correct option is C."
+})
+
+questions.append({
+    "questionNumber": 269,
+    "typeHeader": "TYPE - XII: SIMPLIFICATION OF POWERS",
+    "examShift": "SSC CGL Tier-II 03/02/2022",
+    "questionText": "The value of $(0.3)^{\\left[\\left\\{\\frac{200 - 146}{3 \\times 3 \\times 3}\\right\\} - 3\\right]}$ is:",
+    "options": [
+        {"label": "A", "text": "\\frac{10}{3}"},
+        {"label": "B", "text": "\\frac{5}{3}"},
+        {"label": "C", "text": "\\frac{7}{3}"},
+        {"label": "D", "text": "\\frac{8}{3}"}
+    ],
+    "correctOption": "A",
+    "solution": "Simplify the exponent first:\nNumerator: $$200 - 146 = 54$$\nDenominator: $$3 \\times 3 \\times 3 = 27$$\nFraction: $$\\frac{54}{27} = 2$$\nSubtract 3: $$2 - 3 = -1$$\nNow evaluate the power with base $0.3 = \\frac{3}{10}$:\n$$(0.3)^{-1} = \\left(\\frac{3}{10}\\right)^{-1} = \\frac{10}{3}$$\nHence, the correct option is A."
+})
+
+with open('scripts/simplification_extracted/part3_q251_269.json', 'w') as f:
+    json.dump(questions, f, indent=2)
+print("Saved Q251-Q269")

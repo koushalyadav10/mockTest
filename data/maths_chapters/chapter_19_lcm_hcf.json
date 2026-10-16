@@ -7,2187 +7,2187 @@
   "questions": [
     {
       "questionNumber": 1,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 09/12/2022 (Shift-02)",
+      "questionText": "The LCM of 144, 360 and 450 is:",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "4800"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "3600"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "7200"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "2400"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "Prime factorization:\\n$144 = 2^4 \\times 3^2$\\n$360 = 2^3 \\times 3^2 \\times 5$\\n$450 = 2 \\times 3^2 \\times 5^2$\\n$\\text{LCM} = 2^4 \\times 3^2 \\times 5^2 = 16 \\times 9 \\times 25 = 3600$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 2,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 08/12/2022 (Shift-01)",
+      "questionText": "The HCF of three numbers 105, 335 and 465 will be:",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "11"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "5"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "7"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "3"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "Prime factorization:\\n$105 = 3 \\times 5 \\times 7$\\n$335 = 5 \\times 67$\\n$465 = 3 \\times 5 \\times 31$\\n$\\text{HCF} = 5$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 3,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 02/12/2022 (Shift-01)",
+      "questionText": "What is the largest common divisor of the numbers 1026, 2268 and 2430?",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "108"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "54"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "81"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "27"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "Difference method: $2430 - 2268 = 162 = 3 \\times 54$.\\n$54$ divides $1026$ ($54 \\times 19$), $2268$ ($54 \\times 42$), and $2430$ ($54 \\times 45$).\\n$\\text{HCF} = 54$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 4,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 10/11/2022 (Shift-01)",
+      "questionText": "The least common multiple of 48 and 64 is _____ times the highest common factor of 12 and 18.",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "28"
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "32"
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "24"
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "16"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "$\\text{LCM}(48, 64) = 192$.\\n$\\text{HCF}(12, 18) = 6$.\\nMultiple $= \\frac{192}{6} = 32$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 5,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "Find the LCM of $44$ and $56$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 10/11/2022 (Shift-02)",
+      "questionText": "The highest common factor of 108, 72 and 5a is a. What can be the least common multiple of 108, 72 and a?",
       "options": [
         {
           "label": "A",
-          "text": "$616$"
+          "text": "432"
         },
         {
           "label": "B",
-          "text": "$604$"
+          "text": "324"
         },
         {
           "label": "C",
-          "text": "$628$"
+          "text": "108"
         },
         {
           "label": "D",
-          "text": "$1232$"
+          "text": "216"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+      "solution": "$\\text{HCF}(108, 72) = 36$. Since $a$ divides both 108 and 72, $a$ must divide 36. If $a = 36$, then $5a = 180$, and $\\text{HCF}(108, 72, 180) = 36 = a$.\\nThen $\\text{LCM}(108, 72, 36) = \\text{LCM}(108, 72) = 216$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 6,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $48$ and $60$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 06/07/2022 (Shift-02)",
+      "questionText": "If $P = 2^8 \\times 3^5$, $Q = 2^3 \\times 3^4$, and $R = 3^5 \\times 2^7$ then what is the highest common factor of P, Q and R?",
       "options": [
         {
           "label": "A",
-          "text": "$240$"
+          "text": "2^3 \\times 3^4"
         },
         {
           "label": "B",
-          "text": "$228$"
+          "text": "2^8 \\times 3^5"
         },
         {
           "label": "C",
-          "text": "$252$"
+          "text": "2^2 \\times 3^2"
         },
         {
           "label": "D",
-          "text": "$480$"
+          "text": "2^4 \\times 3^5"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+      "solution": "$\\text{HCF}(P, Q, R) = 2^{\\min(8, 3, 7)} \\times 3^{\\min(5, 4, 5)} = 2^3 \\times 3^4$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 7,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $52$ and $64$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II 29/01/2022",
+      "questionText": "The LCM of $2^3 \\times 9^2 \\times 13$, $2^2 \\times 13^2 \\times 19$ and $9^3 \\times 13^2 \\times 19^2$ is:",
       "options": [
         {
           "label": "A",
-          "text": "$832$"
+          "text": "2^3 \\times 9^2 \\times 13^2 \\times 19"
         },
         {
           "label": "B",
-          "text": "$820$"
+          "text": "2^3 \\times 9^3 \\times 13^2 \\times 19^2"
         },
         {
           "label": "C",
-          "text": "$844$"
+          "text": "2^2 \\times 9^2 \\times 13^2 \\times 19^3"
         },
         {
           "label": "D",
-          "text": "$1664$"
+          "text": "2^2 \\times 9^3 \\times 13 \\times 19^2"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+      "solution": "Taking highest powers: $2^3 \\times 9^3 \\times 13^2 \\times 19^2$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 8,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $56$ and $68$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 09/12/2022 (Shift-04)",
+      "questionText": "The LCM of \\frac{3}{8}, \\frac{5}{16} and \\frac{7}{2} is",
       "options": [
         {
           "label": "A",
-          "text": "$952$"
+          "text": "101\\frac{1}{2}"
         },
         {
           "label": "B",
-          "text": "$940$"
+          "text": "52\\frac{1}{2}"
         },
         {
           "label": "C",
-          "text": "$964$"
+          "text": "28\\frac{1}{2}"
         },
         {
           "label": "D",
-          "text": "$1904$"
+          "text": "25\\frac{1}{4}"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+      "solution": "$\\text{LCM of fractions} = \\frac{\\text{LCM of numerators}}{\\text{HCF of denominators}} = \\frac{\\text{LCM}(3, 5, 7)}{\\text{HCF}(8, 16, 2)} = \\frac{105}{2} = 52\\frac{1}{2}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 9,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $60$ and $72$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 09/12/2022 (Shift-03)",
+      "questionText": "The HCF of \\frac{1}{2}, \\frac{3}{4}, \\frac{5}{6} and \\frac{7}{8} is.",
       "options": [
         {
           "label": "A",
-          "text": "$360$"
+          "text": "\\frac{105}{2}"
         },
         {
           "label": "B",
-          "text": "$348$"
+          "text": "\\frac{1}{24}"
         },
         {
           "label": "C",
-          "text": "$372$"
+          "text": "\\frac{7}{24}"
         },
         {
           "label": "D",
-          "text": "$720$"
+          "text": "\\frac{1}{48}"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+      "solution": "$\\text{HCF of fractions} = \\frac{\\text{HCF}(1, 3, 5, 7)}{\\text{LCM}(2, 4, 6, 8)} = \\frac{1}{24}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 10,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $24$ and $36$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 03/12/2022 (Shift-01)",
+      "questionText": "Calculate the HCF of \\frac{12}{5}, \\frac{14}{15} and \\frac{16}{17}.",
       "options": [
         {
           "label": "A",
-          "text": "$72$"
+          "text": "\\frac{4}{255}"
         },
         {
           "label": "B",
-          "text": "$60$"
+          "text": "\\frac{3}{255}"
         },
         {
           "label": "C",
-          "text": "$84$"
+          "text": "\\frac{2}{255}"
         },
         {
           "label": "D",
-          "text": "$144$"
+          "text": "\\frac{1}{255}"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+      "solution": "$\\text{HCF} = \\frac{\\text{HCF}(12, 14, 16)}{\\text{LCM}(5, 15, 17)} = \\frac{2}{255}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 11,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+      "questionText": "What is the LCM of 0.15, 0.18 and 0.45?",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "0.6"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "0.9"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "0.81"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "0.09"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "Expressing as integers with common denominator 100: $\\frac{15}{100}, \\frac{18}{100}, \\frac{45}{100}$.\\n$\\text{LCM}(15, 18, 45) = 90$.\\n$\\text{LCM} = \\frac{90}{100} = 0.9$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 12,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 07/12/2022 (Shift-03)",
+      "questionText": "Find the LCM of 186.6 and 373.2.",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "373.2"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "398.2"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "186.6"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "276.6"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "Notice $373.2 = 2 \\times 186.6$. Thus $\\text{LCM} = 373.2$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 13,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 20/10/2021 (Shift-03)",
+      "questionText": "What is the LCM of .126, 0.36 and 0.96?",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "20160"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "20.16"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "201.60"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "2.016"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "Express with denominator 1000: $\\frac{126}{1000}, \\frac{360}{1000}, \\frac{960}{1000}$.\\n$\\text{LCM}(126, 360, 960) = 20160$.\\n$\\frac{20160}{1000} = 20.16$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 14,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-2)",
+      "questionText": "The LCM of $x^2 - 8x + 15$ & $x^2 - 5x + 6$ is:",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "(x + 5)(x + 2)(x + 3)"
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "(x - 5)(x - 2)(x - 3)"
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "(x + 5)(x - 2)(x - 3)"
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "(x - 2)(x - 3)^2(x - 5)"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "$x^2 - 8x + 15 = (x - 3)(x - 5)$\\n$x^2 - 5x + 6 = (x - 2)(x - 3)$\\n$\\text{LCM} = (x - 5)(x - 2)(x - 3)$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 15,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $44$ and $56$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "What is the HCF of $(x^6 + 1)$ & $(x^4 - 1)$?",
       "options": [
         {
           "label": "A",
-          "text": "$616$"
+          "text": "(1 + x^2)"
         },
         {
           "label": "B",
-          "text": "$604$"
+          "text": "(1 + x)"
         },
         {
           "label": "C",
-          "text": "$628$"
+          "text": "1"
         },
         {
           "label": "D",
-          "text": "$1232$"
+          "text": "(1 - x^2)"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+      "solution": "$x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1)$\\n$x^4 - 1 = (x^2 + 1)(x^2 - 1)$\\n$\\text{HCF} = (x^2 + 1) = (1 + x^2)$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 16,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
-      "questionText": "Find the LCM of $48$ and $60$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL TIER-II 06/03/2023",
+      "questionText": "If the greatest common factor (HCF) of x and y is 15, then the HCF of $36x^2 - 81y^2$ and $81x^2 - 9y^2$ is divisible by _____?",
       "options": [
         {
           "label": "A",
-          "text": "$240$"
+          "text": "135"
         },
         {
           "label": "B",
-          "text": "$228$"
+          "text": "120"
         },
         {
           "label": "C",
-          "text": "$252$"
+          "text": "90"
         },
         {
           "label": "D",
-          "text": "$480$"
+          "text": "180"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+      "solution": "Let $x = 15a, y = 15b$ with $\\gcd(a, b) = 1$.\\n$36x^2 - 81y^2 = 9(4x^2 - 9y^2) = 9 \\times 15^2 (4a^2 - 9b^2) = 2025(4a^2 - 9b^2)$.\\n$81x^2 - 9y^2 = 9(9x^2 - y^2) = 9 \\times 15^2 (9a^2 - b^2) = 2025(9a^2 - b^2)$.\\nBoth are divisible by $9 \\times 15 = 135$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 17,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $52$ and $64$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 07/12/2022 (Shift 01)",
+      "questionText": "What is the LCM of $(8x^3 + 80x^2 + 200x)$ and $(4x^4 + 16x^3 - 20x^2)$?",
       "options": [
         {
           "label": "A",
-          "text": "$832$"
+          "text": "8x^2(x + 5)^2(x - 1)"
         },
         {
           "label": "B",
-          "text": "$820$"
+          "text": "8x^2(x - 1)^2(x + 5)"
         },
         {
           "label": "C",
-          "text": "$844$"
+          "text": "4x^2(x - 1)^2(x + 5)"
         },
         {
           "label": "D",
-          "text": "$1664$"
+          "text": "4x^2(x + 5)^2(x - 1)"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+      "solution": "$8x(x^2 + 10x + 25) = 8x(x + 5)^2$\\n$4x^2(x^2 + 4x - 5) = 4x^2(x + 5)(x - 1)$\\n$\\text{LCM} = 8x^2(x + 5)^2(x - 1)$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 18,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $56$ and $68$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 12/09/2023 (Shift-03)",
+      "questionText": "What is the HCF of the polynomials $(x^3 - 8)$, $(x^3 - 6x^2 + 12x - 8)$ and $(x^3 - 4x^2 + 4x)$?",
       "options": [
         {
           "label": "A",
-          "text": "$952$"
+          "text": "(x - 2)"
         },
         {
           "label": "B",
-          "text": "$940$"
+          "text": "(x - 1)"
         },
         {
           "label": "C",
-          "text": "$964$"
+          "text": "(x - 4)"
         },
         {
           "label": "D",
-          "text": "$1904$"
+          "text": "(x - 8)"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+      "solution": "$x^3 - 8 = (x - 2)(x^2 + 2x + 4)$\\n$x^3 - 6x^2 + 12x - 8 = (x - 2)^3$\\n$x(x^2 - 4x + 4) = x(x - 2)^2$\\n$\\text{HCF} = (x - 2)$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 19,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $60$ and $72$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 08/12/2022 (Shift-04)",
+      "questionText": "If the HCF of $xy^3$, $x^2y$ and $x^3y^4$ is $xy$, then their LCM is _____.",
       "options": [
         {
           "label": "A",
-          "text": "$360$"
+          "text": "x^3y^4"
         },
         {
           "label": "B",
-          "text": "$348$"
+          "text": "x^2y^3"
         },
         {
           "label": "C",
-          "text": "$372$"
+          "text": "x^4y^3"
         },
         {
           "label": "D",
-          "text": "$720$"
+          "text": "x^4y^4"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+      "solution": "$\\text{LCM} = x^{\\max(1, 2, 3)} y^{\\max(3, 1, 4)} = x^3y^4$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 20,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $24$ and $36$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+      "questionText": "What is the LCM of $a^3b - ab^3$, $a^3b^2 - a^2b^3$, $ab(a - b)$?",
       "options": [
         {
           "label": "A",
-          "text": "$72$"
+          "text": "a^2b^2(a^2 + b^2)"
         },
         {
           "label": "B",
-          "text": "$60$"
+          "text": "a^2b^2(a^2 - b^2)"
         },
         {
           "label": "C",
-          "text": "$84$"
+          "text": "a^2b^3(a^2 + b^2)"
         },
         {
           "label": "D",
-          "text": "$144$"
+          "text": "a^3b^2(a^2 - b^2)"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+      "solution": "$ab(a^2 - b^2) = ab(a - b)(a + b)$\\n$a^2b^2(a - b)$\\n$ab(a - b)$\\n$\\text{LCM} = a^2b^2(a - b)(a + b) = a^2b^2(a^2 - b^2)$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 21,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - II: WHEN THE RATIO OF NUMBERS IS GIVEN",
+      "examShift": "SSC CGL 03/12/2022 (Shift-03)",
+      "questionText": "The LCM of two numbers is 120 and the numbers are in the ratio 3 : 8. The sum of the numbers will be:",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "48"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "55"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "45"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "60"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "Let the numbers be $3x$ and $8x$. $\\text{LCM} = 24x = 120 \\implies x = 5$.\\nSum $= 3x + 8x = 11x = 11 \\times 5 = 55$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 22,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - II: WHEN THE RATIO OF NUMBERS IS GIVEN",
+      "examShift": "SSC CHSL TIER-II 18/11/2024",
+      "questionText": "Three numbers are in the ratio 5 : 7 : 9, and their LCM is 1260. What is the difference between the largest and the smallest number?",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "20"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "24"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "16"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "32"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "Let numbers be $5x, 7x, 9x$. $\\text{LCM}(5, 7, 9) \\times x = 315x = 1260 \\implies x = 4$.\\nDifference $= 9x - 5x = 4x = 4 \\times 4 = 16$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 23,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - II: WHEN THE RATIO OF NUMBERS IS GIVEN",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "Three numbers are in the ratio of 5 : 7 : 9 and their LCM is 34,650. Their HCF is:",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "110"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "315"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "99"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "55"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "$\\text{LCM} = 5 \\times 7 \\times 9 \\times H = 315 H = 34650 \\implies H = \\frac{34650}{315} = 110$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 24,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - II: WHEN THE RATIO OF NUMBERS IS GIVEN",
+      "examShift": "SSC CGL 13/12/2022 (Shift-02)",
+      "questionText": "The HCF of two numbers is 17 and the other two factors of their LCM are 11 and 19. The smaller of the two numbers is:",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "209"
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "187"
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "323"
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "306"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "Numbers are $17 \\times 11$ and $17 \\times 19$.\\nSmaller number $= 17 \\times 11 = 187$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 25,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $44$ and $56$.",
+      "typeHeader": "TYPE - II: WHEN THE RATIO OF NUMBERS IS GIVEN",
+      "examShift": "SSC CGL 02/12/2022 (Shift-04)",
+      "questionText": "Three numbers are in the ratio of 2 : 3 : 5 and their LCM is 90. Find their HCF.",
       "options": [
         {
           "label": "A",
-          "text": "$616$"
+          "text": "9"
         },
         {
           "label": "B",
-          "text": "$604$"
+          "text": "1"
         },
         {
           "label": "C",
-          "text": "$628$"
+          "text": "6"
         },
         {
           "label": "D",
-          "text": "$1232$"
+          "text": "3"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+      "solution": "$\\text{LCM} = 2 \\times 3 \\times 5 \\times H = 30 H = 90 \\implies H = 3$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 26,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
-      "questionText": "Find the LCM of $48$ and $60$.",
+      "typeHeader": "TYPE - II: WHEN THE RATIO OF NUMBERS IS GIVEN",
+      "examShift": "SSC CGL TIER II 03/02/2022",
+      "questionText": "Three numbers are in the ratio \\frac{1}{2} : \\frac{2}{3} : \\frac{3}{4}. If the difference between the greatest number and the smallest number is 33, then HCF of the three numbers is:",
       "options": [
         {
           "label": "A",
-          "text": "$240$"
+          "text": "9"
         },
         {
           "label": "B",
-          "text": "$228$"
+          "text": "5"
         },
         {
           "label": "C",
-          "text": "$252$"
+          "text": "13"
         },
         {
           "label": "D",
-          "text": "$480$"
+          "text": "11"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+      "solution": "Multiplying ratio by 12: $6 : 8 : 9$.\\nLet numbers be $6H, 8H, 9H$.\\nDifference $= 9H - 6H = 3H = 33 \\implies H = 11$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 27,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
-      "questionText": "Find the LCM of $52$ and $64$.",
+      "typeHeader": "TYPE - II: WHEN THE RATIO OF NUMBERS IS GIVEN",
+      "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+      "questionText": "Two numbers are in the ratio 7 : 11. If their HCF is 28, then the difference between the two numbers is:",
       "options": [
         {
           "label": "A",
-          "text": "$832$"
+          "text": "28"
         },
         {
           "label": "B",
-          "text": "$820$"
+          "text": "196"
         },
         {
           "label": "C",
-          "text": "$844$"
+          "text": "112"
         },
         {
           "label": "D",
-          "text": "$1664$"
+          "text": "308"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+      "solution": "Difference $= (11 - 7) \\times H = 4 \\times 28 = 112$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 28,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $56$ and $68$.",
+      "typeHeader": "TYPE - II: WHEN THE RATIO OF NUMBERS IS GIVEN",
+      "examShift": "SSC CPO 09/11/2022 (Shift-01)",
+      "questionText": "The least common multiple of a and b is 42. The LCM of 5a and 11b is:",
       "options": [
         {
           "label": "A",
-          "text": "$952$"
+          "text": "2310"
         },
         {
           "label": "B",
-          "text": "$940$"
+          "text": "4620"
         },
         {
           "label": "C",
-          "text": "$964$"
+          "text": "210"
         },
         {
           "label": "D",
-          "text": "$1904$"
+          "text": "462"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+      "solution": "Since 5 and 11 are co-prime to 42: $\\text{LCM}(5a, 11b) = 5 \\times 11 \\times \\text{LCM}(a, b) = 55 \\times 42 = 2310$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 29,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $60$ and $72$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL 12/12/2022 (Shift-01)",
+      "questionText": "The HCF of two numbers is 21 and their LCM is 840. If one of the numbers is 49, then the other number is:",
       "options": [
         {
           "label": "A",
-          "text": "$360$"
+          "text": "650"
         },
         {
           "label": "B",
-          "text": "$348$"
+          "text": "540"
         },
         {
           "label": "C",
-          "text": "$372$"
+          "text": "810"
         },
         {
           "label": "D",
-          "text": "$720$"
+          "text": "360"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+      "solution": "$\\text{Other number} = \\frac{\\text{LCM} \\times \\text{HCF}}{\\text{First number}} = \\frac{840 \\times 21}{49} = \\frac{840 \\times 3}{7} = 120 \\times 3 = 360$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 30,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $24$ and $36$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL 05/12/2022 (Shift-04)",
+      "questionText": "The LCM of the two numbers is 4104 and the HCF is 9. If one of the numbers is 171, find the other.",
       "options": [
         {
           "label": "A",
-          "text": "$72$"
+          "text": "218"
         },
         {
           "label": "B",
-          "text": "$60$"
+          "text": "215"
         },
         {
           "label": "C",
-          "text": "$84$"
+          "text": "220"
         },
         {
           "label": "D",
-          "text": "$144$"
+          "text": "216"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+      "solution": "$\\text{Other} = \\frac{4104 \\times 9}{171} = \\frac{4104}{19} = 216$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 31,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "The product of two numbers is 726 and their HCF is 11, then their LCM is:",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "68"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "76"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "66"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "58"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "$\\text{LCM} = \\frac{\\text{Product}}{\\text{HCF}} = \\frac{726}{11} = 66$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 32,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CPO 09/11/2022 (Shift-03)",
+      "questionText": "The LCM of x and y is 441 and their HCF is 7. If x = 49 then find y.",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "56"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "36"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "65"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "63"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "$y = \\frac{441 \\times 7}{49} = \\frac{441}{7} = 63$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 33,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC MTS 20/07/2022 (Shift-02)",
+      "questionText": "If $K_1$ and $K_2$ are two distinct prime numbers, then what is the product of the highest common factor and the least common multiple of $K_1$ and $K_2$?",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "1"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "\\frac{K_1}{K_2}"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "K_1 + K_2"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "K_1 \\times K_2"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "$\\text{HCF} \\times \\text{LCM} = \\text{Product of numbers} = K_1 \\times K_2$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 34,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "Let the HCF of m and n be 'a' and let n = ab, LCM of m and n is given by:",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "ab"
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "am"
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "bm"
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "mn"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "$m \\times n = \\text{HCF} \\times \\text{LCM} \\implies m \\times ab = a \\times \\text{LCM} \\implies \\text{LCM} = bm$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 35,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $44$ and $56$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC MTS 04/09/2023 (Shift-02)",
+      "questionText": "The least common multiple (LCM) of p and q is r. The LCM of $p^2q$ and $pq^2$ is ............",
       "options": [
         {
           "label": "A",
-          "text": "$616$"
+          "text": "pqr"
         },
         {
           "label": "B",
-          "text": "$604$"
+          "text": "pq"
         },
         {
           "label": "C",
-          "text": "$628$"
+          "text": "pqr^2"
         },
         {
           "label": "D",
-          "text": "$1232$"
+          "text": "pqr^3"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+      "solution": "$\\text{LCM}(p^2q, pq^2) = pq \\times \\text{LCM}(p, q) = pq \\times r = pqr$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 36,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $48$ and $60$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL TIER II 29/01/2022",
+      "questionText": "The sum of and difference between the LCM and HCF of two numbers are 512 and 496, respectively. If one number is 72, then the other number is:",
       "options": [
         {
           "label": "A",
-          "text": "$240$"
+          "text": "55"
         },
         {
           "label": "B",
-          "text": "$228$"
+          "text": "89"
         },
         {
           "label": "C",
-          "text": "$252$"
+          "text": "62"
         },
         {
           "label": "D",
-          "text": "$480$"
+          "text": "56"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+      "solution": "$L + H = 512$, $L - H = 496 \\implies 2L = 1008 \\implies L = 504$, $H = 8$.\\n$\\text{Other number} = \\frac{L \\times H}{72} = \\frac{504 \\times 8}{72} = \\frac{504}{9} = 56$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 37,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $52$ and $64$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL TIER-II 12/09/2019",
+      "questionText": "The HCF of two numbers is 21 and their LCM is 221 times the HCF. If one of the numbers lies between 200 and 300, then the sum of the digits of the other number is:",
       "options": [
         {
           "label": "A",
-          "text": "$832$"
+          "text": "14"
         },
         {
           "label": "B",
-          "text": "$820$"
+          "text": "17"
         },
         {
           "label": "C",
-          "text": "$844$"
+          "text": "18"
         },
         {
           "label": "D",
-          "text": "$1664$"
+          "text": "15"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+      "solution": "Let numbers be $21a$ and $21b$ with $\\gcd(a, b) = 1$.\\n$L = 21ab = 221 \\times 21 \\implies ab = 221 = 13 \\times 17$.\\nOne number $= 21 \\times 13 = 273$ (lies between 200 and 300).\\nOther number $= 21 \\times 17 = 357$.\\nSum of digits $= 3 + 5 + 7 = 15$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 38,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $56$ and $68$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CHSL TIER-II 26/06/2023",
+      "questionText": "The greatest common multiple (HCF) of two numbers is (\\frac{1}{20}) of their least common multiple (LCM). If a number is 96 and the difference between the least common multiple and the greatest common multiple is 456, then what will be the other number?",
       "options": [
         {
           "label": "A",
-          "text": "$952$"
+          "text": "48"
         },
         {
           "label": "B",
-          "text": "$940$"
+          "text": "120"
         },
         {
           "label": "C",
-          "text": "$964$"
+          "text": "144"
         },
         {
           "label": "D",
-          "text": "$1904$"
+          "text": "72"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+      "solution": "$L = 20H \\implies L - H = 19H = 456 \\implies H = 24, L = 480$.\\n$\\text{Other number} = \\frac{480 \\times 24}{96} = \\frac{480}{4} = 120$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 39,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $60$ and $72$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL 11/04/2022 (Shift-01)",
+      "questionText": "LCM of two numbers is 56 times their HCF. Sum of their HCF and LCM is 1710. If one of the two numbers is 240, then what is the other number?",
       "options": [
         {
           "label": "A",
-          "text": "$360$"
+          "text": "57"
         },
         {
           "label": "B",
-          "text": "$348$"
+          "text": "171"
         },
         {
           "label": "C",
-          "text": "$372$"
+          "text": "1680"
         },
         {
           "label": "D",
-          "text": "$720$"
+          "text": "210"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+      "solution": "$L = 56H \\implies 57H = 1710 \\implies H = 30, L = 1680$.\\n$\\text{Other number} = \\frac{1680 \\times 30}{240} = 7 \\times 30 = 210$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 40,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $24$ and $36$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL 18/04/2022 (Shift-01)",
+      "questionText": "LCM of two numbers is 22 times their HCF. If one of the numbers is 132 and the sum of LCM and HCF is 276, then what is the other number?",
       "options": [
         {
           "label": "A",
-          "text": "$72$"
+          "text": "24"
         },
         {
           "label": "B",
-          "text": "$60$"
+          "text": "30"
         },
         {
           "label": "C",
-          "text": "$84$"
+          "text": "25"
         },
         {
           "label": "D",
-          "text": "$144$"
+          "text": "20"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+      "solution": "$L = 22H \\implies 23H = 276 \\implies H = 12, L = 264$.\\n$\\text{Other number} = \\frac{264 \\times 12}{132} = 2 \\times 12 = 24$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 41,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL TIER II 13/09/2019",
+      "questionText": "The LCM of two numbers x and y is 204 times their HCF. If their HCF is 12 and the difference between the number is 60, then x + y = ?",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "660"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "426"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "852"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "348"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "$H = 12, L = 204 \\times 12 = 12ab \\implies ab = 204$.\\nDifference $= 12(a - b) = 60 \\implies a - b = 5$.\\nSince $ab = 204$ and $a - b = 5$, solving: $17 \\times 12 = 204$ and $17 - 12 = 5$.\\n$x + y = 12(a + b) = 12(17 + 12) = 12 \\times 29 = 348$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 42,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL 07/12/2022 (Shift-04)",
+      "questionText": "If the HCF of two numbers is 8, then which of the following can never be their LCM?",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "56"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "48"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "42"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "40"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "LCM must be an integer multiple of HCF. 42 is not divisible by 8.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 43,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL 01/12/2022 (Shift-01)",
+      "questionText": "The HCF of two numbers is 12. Which one of the following can never be their LCM?",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "72"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "60"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "90"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "84"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "LCM must be divisible by 12. 90 is not divisible by 12.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 44,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL 01/12/2022 (Shift-02)",
+      "questionText": "What is the ratio between the HCF and LCM of the numbers whose LCM is 48 and the product of the numbers is 384?",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "1 : 4"
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "1 : 6"
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "1 : 3"
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "2 : 5"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "$\\text{HCF} = \\frac{\\text{Product}}{\\text{LCM}} = \\frac{384}{48} = 8$.\\nRatio $= \\frac{8}{48} = \\frac{1}{6} = 1 : 6$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 45,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $44$ and $56$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL 06/12/2022 (Shift-02)",
+      "questionText": "Choose the correct statement from the following.",
       "options": [
         {
           "label": "A",
-          "text": "$616$"
+          "text": "HCF is the least common multiple of the given numbers"
         },
         {
           "label": "B",
-          "text": "$604$"
+          "text": "HCF of two or more numbers is the highest number which perfectly divides all the given numbers."
         },
         {
           "label": "C",
-          "text": "$628$"
+          "text": "HCF is also called the least common divisor"
         },
         {
           "label": "D",
-          "text": "$1232$"
+          "text": "In prime factorization method of HCF, the multiples of all the given numbers are listed"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+      "solution": "By definition, the Highest Common Factor (HCF) of two or more numbers is the greatest number that completely divides each of the numbers.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 46,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $48$ and $60$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC MTS 02/10/2021 (Shift-03)",
+      "questionText": "The HCF of two 2-digit number is 19 and their sum is 152. What is their difference?",
       "options": [
         {
           "label": "A",
-          "text": "$240$"
+          "text": "19"
         },
         {
           "label": "B",
-          "text": "$228$"
+          "text": "38"
         },
         {
           "label": "C",
-          "text": "$252$"
+          "text": "57"
         },
         {
           "label": "D",
-          "text": "$480$"
+          "text": "76"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+      "solution": "Numbers are $19a$ and $19b$. $19(a + b) = 152 \\implies a + b = 8$.\\nSince both are 2-digit numbers: $a, b \\in \\{3, 5\\}$ ($19 \\times 3 = 57, 19 \\times 5 = 95$).\\nDifference $= 95 - 57 = 38$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 47,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $52$ and $64$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL Tier II 18/11/2020",
+      "questionText": "The sum of two positive numbers is 240 and then HCF is 15. Find the number of pairs of number of satisfying the given condition.",
       "options": [
         {
           "label": "A",
-          "text": "$832$"
+          "text": "4"
         },
         {
           "label": "B",
-          "text": "$820$"
+          "text": "8"
         },
         {
           "label": "C",
-          "text": "$844$"
+          "text": "2"
         },
         {
           "label": "D",
-          "text": "$1664$"
+          "text": "5"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+      "solution": "$15(a + b) = 240 \\implies a + b = 16$ with $\\gcd(a, b) = 1$.\\nCoprime pairs: $(1, 15), (3, 13), (5, 11), (7, 9)$.\\nTotal pairs $= 4$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 48,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $56$ and $68$.",
+      "typeHeader": "TYPE - III: 1st NUMBER * 2nd NUMBER = L.C.M. * H.C.F.",
+      "examShift": "SSC CGL TIER-II 02/03/2023",
+      "questionText": "The product of two numbers is 1500 and their HCF is 10. The number of such possible pairs _____ is/are.",
       "options": [
         {
           "label": "A",
-          "text": "$952$"
+          "text": "1"
         },
         {
           "label": "B",
-          "text": "$940$"
+          "text": "3"
         },
         {
           "label": "C",
-          "text": "$964$"
+          "text": "4"
         },
         {
           "label": "D",
-          "text": "$1904$"
+          "text": "2"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+      "solution": "$10a \\times 10b = 1500 \\implies ab = 15$ with $\\gcd(a, b) = 1$.\\nCoprime pairs: $(1, 15), (3, 5)$.\\nNumber of pairs $= 2$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 49,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $60$ and $72$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CGL 24/07/2023 (Shift-02)",
+      "questionText": "Find the least number divisible by 2, 3, 5, 6, 9 and 18, which is a perfect square.",
       "options": [
         {
           "label": "A",
-          "text": "$360$"
+          "text": "900"
         },
         {
           "label": "B",
-          "text": "$348$"
+          "text": "400"
         },
         {
           "label": "C",
-          "text": "$372$"
+          "text": "144"
         },
         {
           "label": "D",
-          "text": "$720$"
+          "text": "3600"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+      "solution": "$\\text{LCM}(2, 3, 5, 6, 9, 18) = 90 = 2 \\times 3^2 \\times 5$.\\nTo make it a square, multiply by $2 \\times 5 = 10$: $90 \\times 10 = 900$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 50,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
-      "questionText": "Find the LCM of $24$ and $36$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CPO 04/10/2023 (Shift-3)",
+      "questionText": "What is the smallest perfect square number which is completely divisible by 4, 6, 9, 12 and 15?",
       "options": [
         {
           "label": "A",
-          "text": "$72$"
+          "text": "900"
         },
         {
           "label": "B",
-          "text": "$60$"
+          "text": "961"
         },
         {
           "label": "C",
-          "text": "$84$"
+          "text": "784"
         },
         {
           "label": "D",
-          "text": "$144$"
+          "text": "841"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+      "solution": "$\\text{LCM}(4, 6, 9, 12, 15) = 180 = 2^2 \\times 3^2 \\times 5$.\\nTo make it a square, multiply by 5: $180 \\times 5 = 900$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 51,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
+      "questionText": "Find the least number which is exactly divisible by 20, 28, 34, 60 and 75.",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "34500"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "35900"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "35700"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "36220"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "$\\text{LCM}(20, 28, 34, 60, 75)$:\\n$20 = 2^2 \\times 5$\\n$28 = 2^2 \\times 7$\\n$34 = 2 \\times 17$\\n$60 = 2^2 \\times 3 \\times 5$\\n$75 = 3 \\times 5^2$\\n$\\text{LCM} = 2^2 \\times 3 \\times 5^2 \\times 7 \\times 17 = 300 \\times 119 = 35700$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 52,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CGL 12/04/2022 (Shift - 02)",
+      "questionText": "Six bells begin to toll together and toll, respectively, at intervals of 3,4,6,7,8 and 12 seconds. After how many seconds, will they toll together again?",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "167"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "168"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "176"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "186"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "$\\text{LCM}(3, 4, 6, 7, 8, 12) = 168\\text{ seconds}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 53,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC MTS 25/07/2022 (Shift-03)",
+      "questionText": "Six bells commence tolling together at 7 : 59 am. They toll at intervals of 3, 6, 9, 12 and 15 seconds respectively. How many time will they toll together till 8:16 am? (excluding the toll at 7:59 am)",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "5"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "6"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "3"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "4"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "$\\text{LCM}(3, 6, 9, 12, 15) = 180\\text{ seconds} = 3\\text{ minutes}$.\\nDuration from 7:59 am to 8:16 am $= 17\\text{ minutes}$.\\nNumber of tolls $= \\lfloor \\frac{17}{3} \\rfloor = 5$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 54,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CPO 23/11/2020 (Shift-02)",
+      "questionText": "The least number which is exactly divisible by 5, 6, 8, 10 and 12 is:",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "180"
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "150"
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "240"
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "120"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "$\\text{LCM}(5, 6, 8, 10, 12) = 120$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 55,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
-      "questionText": "Find the LCM of $44$ and $56$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CPO 25/11/2020 (Shift-02)",
+      "questionText": "Five bells ring together at the intervals of 3, 5, 8, 9 and 10 seconds. All the bells ring simultaneously at the same time. The will again ring simultaneously after ............",
       "options": [
         {
           "label": "A",
-          "text": "$616$"
+          "text": "8 minutes"
         },
         {
           "label": "B",
-          "text": "$604$"
+          "text": "9 minutes"
         },
         {
           "label": "C",
-          "text": "$628$"
+          "text": "4 minutes"
         },
         {
           "label": "D",
-          "text": "$1232$"
+          "text": "6 minutes"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+      "solution": "$\\text{LCM}(3, 5, 8, 9, 10) = 360\\text{ seconds} = \\frac{360}{60} = 6\\text{ minutes}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 56,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $48$ and $60$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CGL 12/04/2022 (Shift-01)",
+      "questionText": "What is the smallest multiple of 7, which when divided by 8, 9, 12 and 15 leaves a remainder of 5 in each case?",
       "options": [
         {
           "label": "A",
-          "text": "$240$"
+          "text": "365"
         },
         {
           "label": "B",
-          "text": "$228$"
+          "text": "1085"
         },
         {
           "label": "C",
-          "text": "$252$"
+          "text": "2525"
         },
         {
           "label": "D",
-          "text": "$480$"
+          "text": "725"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+      "solution": "$\\text{LCM}(8, 9, 12, 15) = 360$.\\nForm is $360k + 5$. For $k = 3$: $360(3) + 5 = 1085$.\\nCheck divisibility by 7: $1085 = 7 \\times 155$ (divisible).",
+      "correctOption": "B"
     },
     {
       "questionNumber": 57,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $52$ and $64$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC MTS 26/07/2022 (Shift-03)",
+      "questionText": "Find the smallest natural number 'x' which must be subtracted from 1800 so that (1800 - x) is divided by 7, 11 and 23 leaving a remainder of 5 in each case.",
       "options": [
         {
           "label": "A",
-          "text": "$832$"
+          "text": "24"
         },
         {
           "label": "B",
-          "text": "$820$"
+          "text": "25"
         },
         {
           "label": "C",
-          "text": "$844$"
+          "text": "26"
         },
         {
           "label": "D",
-          "text": "$1664$"
+          "text": "20"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+      "solution": "$\\text{LCM}(7, 11, 23) = 7 \\times 11 \\times 23 = 1771$.\\nNumber $= 1771 + 5 = 1776$.\\n$1800 - x = 1776 \\implies x = 24$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 58,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $56$ and $68$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "The largest number of four digits that is exactly divisible by 17 and 36 is:",
       "options": [
         {
           "label": "A",
-          "text": "$952$"
+          "text": "8568"
         },
         {
           "label": "B",
-          "text": "$940$"
+          "text": "9180"
         },
         {
           "label": "C",
-          "text": "$964$"
+          "text": "9792"
         },
         {
           "label": "D",
-          "text": "$1904$"
+          "text": "7958"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+      "solution": "$\\text{LCM}(17, 36) = 17 \\times 36 = 612$.\\n$9999 \\div 612 = 16$ remainder $207$.\\nLargest number $= 9999 - 207 = 9792$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 59,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $60$ and $72$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "The least number which should be added to 1351 so that the sum is exactly divisible by 2,4,6 and 8 is:",
       "options": [
         {
           "label": "A",
-          "text": "$360$"
+          "text": "13"
         },
         {
           "label": "B",
-          "text": "$348$"
+          "text": "11"
         },
         {
           "label": "C",
-          "text": "$372$"
+          "text": "15"
         },
         {
           "label": "D",
-          "text": "$720$"
+          "text": "17"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+      "solution": "$\\text{LCM}(2, 4, 6, 8) = 24$.\\n$1351 \\div 24 = 56$ remainder $7$.\\nNumber to add $= 24 - 7 = 17$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 60,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "Find the LCM of $24$ and $36$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CPO 10/11/2022 (Shift-03)",
+      "questionText": "What is the greatest six digits number which when divided by each of 16, 24, 72 and 84, leaves the remainder 15?",
       "options": [
         {
           "label": "A",
-          "text": "$72$"
+          "text": "999981"
         },
         {
           "label": "B",
-          "text": "$60$"
+          "text": "999951"
         },
         {
           "label": "C",
-          "text": "$84$"
+          "text": "999963"
         },
         {
           "label": "D",
-          "text": "$144$"
+          "text": "999915"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+      "solution": "$\\text{LCM}(16, 24, 72, 84) = 504$.\\n$999999 \\div 504 = 1984$ remainder $63$.\\nGreatest divisible $= 999999 - 63 = 999936$.\\nRequired number $= 999936 + 15 = 999951$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 61,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CGL 18/04/2022 (Shift-02)",
+      "questionText": "What is the largest four digit number which when divided by 6, 7 and 8 leaves remainder 4, 5 and 6 respectively?",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "9910"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "9920"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "9921"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "9912"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "Common difference $= 6 - 4 = 7 - 5 = 8 - 6 = 2$.\\n$\\text{LCM}(6, 7, 8) = 168$.\\n$9999 \\div 168 = 59$ remainder $87$.\\nLargest divisible $= 9999 - 87 = 9912$.\\nRequired number $= 9912 - 2 = 9910$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 62,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+      "questionText": "What is the least number when divided by 15, 18 and 36 leaves the same remainder 9 in each case and is divisible by 11?",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "1269"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "1089"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "1080"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "1071"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "$\\text{LCM}(15, 18, 36) = 180$.\\nForm is $180k + 9$. For $k = 6$: $180(6) + 9 = 1089$.\\n$1089 = 11 \\times 99$ (divisible by 11).",
+      "correctOption": "B"
     },
     {
       "questionNumber": 63,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC MTS 11/05/2023 (Shift-01)",
+      "questionText": "There is a circular path around a sports field. Rahul takes 15 minutes to drive one round of the field, while Anil takes 18 minutes for the same. Suppose they both start from the same point and at the same time, and go in the same direction. After how many minutes will they meet again at the starting point?",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "120"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "100"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "80"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "90"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "$\\text{LCM}(15, 18) = 90\\text{ minutes}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 64,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC MTS 07/07/2022 (Shift-01)",
+      "questionText": "The traffic lights at 3 different road crossings change after every 48 sec, 72 sec and 108 sec, respectively. If they all change simultaneously at 8:20 a.m., then at what time will they next change again simultaneously?",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "8:27:12 a.m."
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "8:33:32 a.m."
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "9:12:18 am."
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "8:40:14 a.m."
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "$\\text{LCM}(48, 72, 108) = 432\\text{ seconds} = 7\\text{ minutes } 12\\text{ seconds}$.\\nNext change $= 8:20 + 7\\text{ min } 12\\text{ sec} = 8:27:12\\text{ a.m.}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 65,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
-      "questionText": "Find the LCM of $44$ and $56$.",
+      "typeHeader": "TYPE - IV: APPLICATION OF L.C.M.",
+      "examShift": "SSC CHSL 03/06/2022 (Shift-01)",
+      "questionText": "Four runners start running together from a point on a circular track. They took 400 seconds, 600 seconds, 720 seconds and 900 seconds to complete one round. After how much time did they meet at the starting point for the first time after the start of the race?",
       "options": [
         {
           "label": "A",
-          "text": "$616$"
+          "text": "4200 sec."
         },
         {
           "label": "B",
-          "text": "$604$"
+          "text": "2400 sec."
         },
         {
           "label": "C",
-          "text": "$628$"
+          "text": "3600 sec."
         },
         {
           "label": "D",
-          "text": "$1232$"
+          "text": "1800 sec."
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+      "solution": "$\\text{LCM}(400, 600, 720, 900) = 3600\\text{ seconds}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 66,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
-      "questionText": "Find the LCM of $48$ and $60$.",
+      "typeHeader": "TYPE - V: APPLICATION OF H.C.F.",
+      "examShift": "SSC CGL 18/04/2022 (Shift-01)",
+      "questionText": "The greatest number that divides 126, 224 and 608 leaving remainders 2, 7 and 19 respectively, is:",
       "options": [
         {
           "label": "A",
-          "text": "$240$"
+          "text": "31"
         },
         {
           "label": "B",
-          "text": "$228$"
+          "text": "27"
         },
         {
           "label": "C",
-          "text": "$252$"
+          "text": "21"
         },
         {
           "label": "D",
-          "text": "$480$"
+          "text": "37"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+      "solution": "$126 - 2 = 124$\\n$224 - 7 = 217$\\n$608 - 19 = 589$\\n$\\text{HCF}(124, 217, 589) = 31$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 67,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $52$ and $64$.",
+      "typeHeader": "TYPE - V: APPLICATION OF H.C.F.",
+      "examShift": "SSC CPO 10/11/2022 (Shift-02)",
+      "questionText": "What is the greatest positive integer that divides 554, 714 and 213 leaving the remainder 43, 57 and 67, respectively?",
       "options": [
         {
           "label": "A",
-          "text": "$832$"
+          "text": "95"
         },
         {
           "label": "B",
-          "text": "$820$"
+          "text": "71"
         },
         {
           "label": "C",
-          "text": "$844$"
+          "text": "83"
         },
         {
           "label": "D",
-          "text": "$1664$"
+          "text": "73"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+      "solution": "$554 - 43 = 511$\\n$714 - 57 = 657$\\n$213 - 67 = 146$\\n$\\text{HCF}(511, 657, 146) = 73$ ($73 \\times 2 = 146, 73 \\times 7 = 511, 73 \\times 9 = 657$).",
+      "correctOption": "D"
     },
     {
       "questionNumber": 68,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $56$ and $68$.",
+      "typeHeader": "TYPE - V: APPLICATION OF H.C.F.",
+      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
+      "questionText": "Find the greatest possible length (in meters) that can be used to exactly measure the lengths 6 m, 5 m 25 cm and 12 m 50 cm.",
       "options": [
         {
           "label": "A",
-          "text": "$952$"
+          "text": "0.35m"
         },
         {
           "label": "B",
-          "text": "$940$"
+          "text": "0.90 m"
         },
         {
           "label": "C",
-          "text": "$964$"
+          "text": "0.75 m"
         },
         {
           "label": "D",
-          "text": "$1904$"
+          "text": "0.25 m"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+      "solution": "Convert to cm: 600 cm, 525 cm, 1250 cm.\\n$\\text{HCF}(600, 525, 1250) = 25\\text{ cm} = 0.25\\text{ m}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 69,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $60$ and $72$.",
+      "typeHeader": "TYPE - V: APPLICATION OF H.C.F.",
+      "examShift": "SSC CPO 05/10/2023 (Shift-02)",
+      "questionText": "The greatest possible length that can be used to measure exactly the lengths of 3 m 15 cm, 5 m, and 6 m 85 cm is:",
       "options": [
         {
           "label": "A",
-          "text": "$360$"
+          "text": "11 cm"
         },
         {
           "label": "B",
-          "text": "$348$"
+          "text": "7 cm"
         },
         {
           "label": "C",
-          "text": "$372$"
+          "text": "9 cm"
         },
         {
           "label": "D",
-          "text": "$720$"
+          "text": "5 cm"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+      "solution": "315 cm, 500 cm, 685 cm.\\n$\\text{HCF}(315, 500, 685) = 5\\text{ cm}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 70,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $24$ and $36$.",
+      "typeHeader": "TYPE - V: APPLICATION OF H.C.F.",
+      "examShift": "SSC MTS 06/09/2023 (Shift- 02)",
+      "questionText": "Two tankers contain 850 liters and 680 liters of oil. Find the maximum capacity of a container which can measure the maximum oil of both tankers when used, an exact number of times.",
       "options": [
         {
           "label": "A",
-          "text": "$72$"
+          "text": "425 liters"
         },
         {
           "label": "B",
-          "text": "$60$"
+          "text": "680 liters"
         },
         {
           "label": "C",
-          "text": "$84$"
+          "text": "170 liters"
         },
         {
           "label": "D",
-          "text": "$144$"
+          "text": "340 liters"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+      "solution": "$\\text{HCF}(850, 680) = 170\\text{ liters}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 71,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - V: APPLICATION OF H.C.F.",
+      "examShift": "SSC MTS 21/07/2022 (Shift-03)",
+      "questionText": "Two wires of length 10 m 54 cm and 11m 56 cm are cut into pieces of length cm, x is an integer. Then find maximum value of x.",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "42"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "56"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "34"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "28"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "1054 cm and 1156 cm.\\nDifference $= 1156 - 1054 = 102 = 3 \\times 34$.\\n$34$ divides $1054$ ($34 \\times 31$) and $1156$ ($34 \\times 34$).\\n$\\text{HCF} = 34\\text{ cm}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 72,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - V: APPLICATION OF H.C.F.",
+      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+      "questionText": "A person has three iron bars whose lengths are 20, 30 and 40 meters, respectively. He wants to cut pieces of the same length from each of the three bars. What is the least number of total pieces if he cuts without any wastage?",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "9"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "10"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "8"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "11"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "Length of each piece $= \\text{HCF}(20, 30, 40) = 10\\text{ m}$.\\nNumber of pieces $= \\frac{20}{10} + \\frac{30}{10} + \\frac{40}{10} = 2 + 3 + 4 = 9$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 73,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - V: APPLICATION OF H.C.F.",
+      "examShift": "SSC MTS 11/10/2021 (Shift-02)",
+      "questionText": "The least number of square tiles required to pave the ceiling of a room, 12m 95cm long and 3m 85 cm broad, is:",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "417"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "517"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "407"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "507"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "$L = 1295\\text{ cm}, B = 385\\text{ cm}$.\\nSide of tile $= \\text{HCF}(1295, 385) = 35\\text{ cm}$.\\nNumber of tiles $= \\frac{1295 \\times 385}{35 \\times 35} = 37 \\times 11 = 407$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 74,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CHSL TIER-II 18/11/2024",
+      "questionText": "A milk vendor has 75 litres of cow milk, 45 litres of toned milk and 30 litres of full cream milk. These should be placed in different trays such that each tray contains the same quantity of milk and two kinds of milk should not be mixed in a tray. What is the least number of trays required to place all the milk?",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "20"
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "25"
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "10"
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "15"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "Capacity of each tray $= \\text{HCF}(75, 45, 30) = 15\\text{ litres}$.\\nTrays required $= \\frac{75}{15} + \\frac{45}{15} + \\frac{30}{15} = 5 + 3 + 2 = 10$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 75,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $44$ and $56$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 27/10/2021 (Shift-01)",
+      "questionText": "Three numbers are co-prime to each other such that that product of the first two numbers is 88 and that of the last two number is 165. The sum of all three numbers is :",
       "options": [
         {
           "label": "A",
-          "text": "$616$"
+          "text": "44"
         },
         {
           "label": "B",
-          "text": "$604$"
+          "text": "35"
         },
         {
           "label": "C",
-          "text": "$628$"
+          "text": "36"
         },
         {
           "label": "D",
-          "text": "$1232$"
+          "text": "34"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{44 \\times 56}{\\text{HCF}} = 616$."
+      "solution": "Middle number $= \\text{HCF}(88, 165) = 11$.\\nFirst number $= 88/11 = 8$.\\nThird number $= 165/11 = 15$.\\nSum $= 8 + 11 + 15 = 34$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 76,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $48$ and $60$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 05/07/2022 (Shift 02)",
+      "questionText": "The HCF and the LCM of two numbers are 5 and 120, respectively. If the sum of the two numbers is 55, then the sum of the reciprocals of these two numbers is equal to:",
       "options": [
         {
           "label": "A",
-          "text": "$240$"
+          "text": "\\frac{55}{601}"
         },
         {
           "label": "B",
-          "text": "$228$"
+          "text": "\\frac{11}{120}"
         },
         {
           "label": "C",
-          "text": "$252$"
+          "text": "\\frac{120}{11}"
         },
         {
           "label": "D",
-          "text": "$480$"
+          "text": "\\frac{601}{55}"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{48 \\times 60}{\\text{HCF}} = 240$."
+      "solution": "$\\frac{1}{a} + \\frac{1}{b} = \\frac{a + b}{ab} = \\frac{55}{\\text{LCM} \\times \\text{HCF}} = \\frac{55}{120 \\times 5} = \\frac{11}{120}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 77,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
-      "questionText": "Find the LCM of $52$ and $64$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 06/12/2022 (Shift-04)",
+      "questionText": "The sum of two numbers is 18 and their HCF and LCM are 3 and 54 respectively. What will be the sum of their reciprocals?",
       "options": [
         {
           "label": "A",
-          "text": "$832$"
+          "text": "\\frac{1}{7}"
         },
         {
           "label": "B",
-          "text": "$820$"
+          "text": "\\frac{1}{11}"
         },
         {
           "label": "C",
-          "text": "$844$"
+          "text": "\\frac{1}{6}"
         },
         {
           "label": "D",
-          "text": "$1664$"
+          "text": "\\frac{1}{9}"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{52 \\times 64}{\\text{HCF}} = 832$."
+      "solution": "$\\frac{1}{a} + \\frac{1}{b} = \\frac{a + b}{ab} = \\frac{18}{3 \\times 54} = \\frac{1}{9}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 78,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $56$ and $68$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 05/10/2023 (Shift-03)",
+      "questionText": "If the sum of two numbers is 60 and their HCF and LCM are 5 and 60 respectively, then the sum of the reciprocals of the numbers will be:",
       "options": [
         {
           "label": "A",
-          "text": "$952$"
+          "text": "\\frac{1}{4}"
         },
         {
           "label": "B",
-          "text": "$940$"
+          "text": "\\frac{1}{5}"
         },
         {
           "label": "C",
-          "text": "$964$"
+          "text": "\\frac{1}{11}"
         },
         {
           "label": "D",
-          "text": "$1904$"
+          "text": "\\frac{1}{6}"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{56 \\times 68}{\\text{HCF}} = 952$."
+      "solution": "$\\frac{1}{a} + \\frac{1}{b} = \\frac{60}{5 \\times 60} = \\frac{1}{5}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 79,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
-      "questionText": "Find the LCM of $60$ and $72$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL Tier II 13/09/2019",
+      "questionText": "In finding the HCF of two numbers by division method, the last divisor is 17 and the quotients are 1, 11 and 2, respectively. What is sum of the two numbers?",
       "options": [
         {
           "label": "A",
-          "text": "$360$"
+          "text": "833"
         },
         {
           "label": "B",
-          "text": "$348$"
+          "text": "867"
         },
         {
           "label": "C",
-          "text": "$372$"
+          "text": "816"
         },
         {
           "label": "D",
-          "text": "$720$"
+          "text": "901"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{60 \\times 72}{\\text{HCF}} = 360$."
+      "solution": "Working backwards:\\nLast dividend $= 17 \\times 2 = 34$.\\nPrevious dividend $= 34 \\times 11 + 17 = 374 + 17 = 391$.\\nFirst dividend $= 391 \\times 1 + 34 = 425$.\\nNumbers are 425 and 391.\\nSum $= 425 + 391 = 816$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 80,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
-      "questionText": "Find the LCM of $24$ and $36$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+      "questionText": "The LCM of two prime numbers x and y (x > y) is 533. The value of 4y - x is",
       "options": [
         {
           "label": "A",
-          "text": "$72$"
+          "text": "11"
         },
         {
           "label": "B",
-          "text": "$60$"
+          "text": "21"
         },
         {
           "label": "C",
-          "text": "$84$"
+          "text": "18"
         },
         {
           "label": "D",
-          "text": "$144$"
+          "text": "23"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{24 \\times 36}{\\text{HCF}} = 72$."
+      "solution": "$533 = 13 \\times 41$. Since $x > y$, $x = 41, y = 13$.\\n$4y - x = 4(13) - 41 = 52 - 41 = 11$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 81,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "Find the LCM of $28$ and $40$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "If the HCF of 45 and 55 is expressible in the form of $55 \\times 5 + 45m$, then what is the value of m?",
       "options": [
         {
           "label": "A",
-          "text": "$280$"
+          "text": "5"
         },
         {
           "label": "B",
-          "text": "$268$"
+          "text": "-6"
         },
         {
           "label": "C",
-          "text": "$292$"
+          "text": "-5"
         },
         {
           "label": "D",
-          "text": "$560$"
+          "text": "6"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{28 \\times 40}{\\text{HCF}} = 280$."
+      "solution": "$\\text{HCF}(45, 55) = 5$.\\n$55 \\times 5 + 45m = 5 \\implies 275 + 45m = 5 \\implies 45m = -270 \\implies m = -6$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 82,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
-      "questionText": "Find the LCM of $32$ and $44$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 17/07/2023 (Shift-01)",
+      "questionText": "If the LCM and the HCF of two numbers are 12 and 2 respectively, then find the mean proportional of these numbers.",
       "options": [
         {
           "label": "A",
-          "text": "$352$"
+          "text": "2\\sqrt{6}"
         },
         {
           "label": "B",
-          "text": "$340$"
+          "text": "\\sqrt{14}"
         },
         {
           "label": "C",
-          "text": "$364$"
+          "text": "2"
         },
         {
           "label": "D",
-          "text": "$704$"
+          "text": "\\sqrt{6}"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{32 \\times 44}{\\text{HCF}} = 352$."
+      "solution": "Mean proportional $= \\sqrt{ab} = \\sqrt{\\text{LCM} \\times \\text{HCF}} = \\sqrt{12 \\times 2} = \\sqrt{24} = 2\\sqrt{6}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 83,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "Find the LCM of $36$ and $48$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 12/04/2022 (Shift-03)",
+      "questionText": "A and B are two prime numbers such that A > B and their LCM is 209. The value of $A^2 - B$ is:",
       "options": [
         {
           "label": "A",
-          "text": "$144$"
+          "text": "350"
         },
         {
           "label": "B",
-          "text": "$132$"
+          "text": "372"
         },
         {
           "label": "C",
-          "text": "$156$"
+          "text": "361"
         },
         {
           "label": "D",
-          "text": "$288$"
+          "text": "339"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{36 \\times 48}{\\text{HCF}} = 144$."
+      "solution": "$209 = 19 \\times 11$. Since $A > B$, $A = 19, B = 11$.\\n$A^2 - B = 19^2 - 11 = 361 - 11 = 350$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 84,
-      "typeHeader": "LCM & HCF: PRODUCT RULE",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "Find the LCM of $40$ and $52$.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 13/04/2022 (Shift-01)",
+      "questionText": "13, a, b, c are four distinct numbers and the HCF of each pair of numbers (13, a) ; (13, b); (13, c) is 13, where a,b,c are each less than 60 and a < b < c. What is the value of \\frac{a+c}{b}?",
       "options": [
         {
           "label": "A",
-          "text": "$520$"
+          "text": "3.5"
         },
         {
           "label": "B",
-          "text": "$508$"
+          "text": "2"
         },
         {
           "label": "C",
-          "text": "$532$"
+          "text": "5"
         },
         {
           "label": "D",
-          "text": "$1040$"
+          "text": "4.5"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\text{LCM} = \\frac{40 \\times 52}{\\text{HCF}} = 520$."
+      "solution": "Multiples of 13 less than 60 other than 13: 26, 39, 52.\\n$a = 26, b = 39, c = 52$.\\n$\\frac{a + c}{b} = \\frac{26 + 52}{39} = \\frac{78}{39} = 2$.",
+      "correctOption": "B"
     }
   ]
 }

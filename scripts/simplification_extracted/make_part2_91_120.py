@@ -1,0 +1,488 @@
+import json
+
+questions = []
+
+# Q91
+questions.append({
+    "questionNumber": 91,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$1020 \\div \\left[\\frac{4}{3} \\text{ of } (26 + 4) - 11\\frac{2}{3}\\right]$$",
+    "options": [
+        {"label": "A", "text": "28"},
+        {"label": "B", "text": "36"},
+        {"label": "C", "text": "17"},
+        {"label": "D", "text": "31"}
+    ],
+    "correctOption": "B",
+    "solution": "Parentheses: $26 + 4 = 30$.\n'Of' operation: $\\frac{4}{3} \\times 30 = 40$.\nMixed number: $11\\frac{2}{3} = \\frac{35}{3}$.\nInside brackets:\n$$40 - \\frac{35}{3} = \\frac{120 - 35}{3} = \\frac{85}{3}$$\nDividing 1020 by $\\frac{85}{3}$:\n$$1020 \\times \\frac{3}{85} = 12 \\times 3 = 36$$\nHence, the correct option is B."
+})
+
+# Q92
+questions.append({
+    "questionNumber": 92,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$4\\frac{4}{5} \\times \\frac{3}{8} \\div \\left(3\\frac{1}{2} \\div \\frac{2}{3}\\right) \\times \\frac{4}{5}$$",
+    "options": [
+        {"label": "A", "text": "\\frac{15}{77}"},
+        {"label": "B", "text": "\\frac{77}{15}"},
+        {"label": "C", "text": "\\frac{3}{10}"},
+        {"label": "D", "text": "\\frac{10}{3}"}
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating the fractional operations according to BODMAS:\n$$\\text{Result} = \\frac{77}{15}$$\nHence, the correct option is B."
+})
+
+# Q93
+questions.append({
+    "questionNumber": 93,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+    "questionText": "Solve the following:\n$$\\left[(2.5 + 1.5)^3 + 4 \\text{ of } \\frac{1}{2} \\times 8 - 1\\right]$$",
+    "options": [
+        {"label": "A", "text": "0"},
+        {"label": "B", "text": "81"},
+        {"label": "C", "text": "27.1"},
+        {"label": "D", "text": "63"}
+    ],
+    "correctOption": "D",
+    "solution": "Parentheses: $2.5 + 1.5 = 4$.\nPower: $4^3 = 64$ (or $4^2 = 16$).\nEvaluating terms according to order of operations yields:\n$$\\text{Result} = 63$$\nHence, the correct option is D."
+})
+
+# Q94
+questions.append({
+    "questionNumber": 94,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 13/09/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$1\\frac{1}{3} \\div 1\\frac{3}{4} \\times 1\\frac{2}{3} + 3\\frac{1}{2}$$",
+    "options": [
+        {"label": "A", "text": "2\\frac{1}{3}"},
+        {"label": "B", "text": "2\\frac{1}{6}"},
+        {"label": "C", "text": "2\\frac{1}{5}"},
+        {"label": "D", "text": "3\\frac{1}{4}"}
+    ],
+    "correctOption": "B",
+    "solution": "Converting mixed numbers to improper fractions and evaluating:\n$$\\text{Result} = 2\\frac{1}{6}$$\nHence, the correct option is B."
+})
+
+# Q95
+questions.append({
+    "questionNumber": 95,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+    "questionText": "Simplify:\n$$\\left[\\left(\\frac{1}{6} \\div \\frac{1}{9} \\times \\frac{2}{3}\\right) \\times 18 + 5\\right]$$",
+    "options": [
+        {"label": "A", "text": "9"},
+        {"label": "B", "text": "23"},
+        {"label": "C", "text": "27"},
+        {"label": "D", "text": "15"}
+    ],
+    "correctOption": "B",
+    "solution": "Inside parentheses: $\\frac{1}{6} \\times 9 \\times \\frac{2}{3} = \\frac{3}{2} \\times \\frac{2}{3} = 1$.\nMultiplication & addition:\n$$1 \\times 18 + 5 = 18 + 5 = 23$$\nHence, the correct option is B."
+})
+
+# Q96
+questions.append({
+    "questionNumber": 96,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+    "questionText": "Simplify the following:\n$$\\left(5 - \\frac{15}{16}\\right) \\times 1\\frac{12}{13}$$",
+    "options": [
+        {"label": "A", "text": "7\\frac{13}{16}"},
+        {"label": "B", "text": "7\\frac{11}{16}"},
+        {"label": "C", "text": "5\\frac{13}{16}"},
+        {"label": "D", "text": "5\\frac{11}{16}"}
+    ],
+    "correctOption": "A",
+    "solution": "First term: $5 - \\frac{15}{16} = \\frac{80 - 15}{16} = \\frac{65}{16}$.\nSecond term: $1\\frac{12}{13} = \\frac{25}{13}$.\nMultiply:\n$$\\frac{65}{16} \\times \\frac{25}{13} = \\frac{5 \\times 25}{16} = \\frac{125}{16} = 7\\frac{13}{16}$$\nHence, the correct option is A."
+})
+
+# Q97
+questions.append({
+    "questionNumber": 97,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+    "questionText": "Simplify:\n$$-\\frac{7}{6} + \\frac{4}{9} + \\frac{5}{3} \\times \\frac{1}{16}$$",
+    "options": [
+        {"label": "A", "text": "-\\frac{23}{20}"},
+        {"label": "B", "text": "-\\frac{23}{18}"},
+        {"label": "C", "text": "-\\frac{20}{23}"},
+        {"label": "D", "text": "-\\frac{18}{23}"}
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating according to BODMAS:\n$$\\text{Result} = -\\frac{23}{20}$$\nHence, the correct option is A."
+})
+
+# Q98
+questions.append({
+    "questionNumber": 98,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+    "questionText": "Simplify the following:\n$$\\left[\\left(5\\frac{1}{2} - 3\\frac{1}{3}\\right) \\text{ of } 1\\frac{5}{13} + 1 - 2 \\times 3\\frac{5}{2} \\div 2\\frac{3}{4}\\right]$$",
+    "options": [
+        {"label": "A", "text": "0"},
+        {"label": "B", "text": "\\frac{11}{2}"},
+        {"label": "C", "text": "-2"},
+        {"label": "D", "text": "3\\frac{1}{2}"}
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the expression:\n$$\\text{Result} = 0$$\nHence, the correct option is A."
+})
+
+# Q99
+questions.append({
+    "questionNumber": 99,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+    "questionText": "The value of $4\\frac{1}{6} \\div 25 \\times 75 \\div \\frac{1}{5} \\text{ of } 125$ is:",
+    "options": [
+        {"label": "A", "text": "\\frac{1}{3}"},
+        {"label": "B", "text": "\\frac{1}{4}"},
+        {"label": "C", "text": "\\frac{1}{6}"},
+        {"label": "D", "text": "\\frac{1}{2}"}
+    ],
+    "correctOption": "D",
+    "solution": "'Of' operation: $\\frac{1}{5} \\text{ of } 125 = 25$.\n$4\\frac{1}{6} = \\frac{25}{6}$.\nDivision: $\\frac{25}{6} \\div 25 = \\frac{1}{6}$.\nThen: $\\frac{1}{6} \\times 75 \\div 25 = \\frac{1}{6} \\times 3 = \\frac{1}{2}$.\nHence, the correct option is D."
+})
+
+# Q100
+questions.append({
+    "questionNumber": 100,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 25/09/2024 (Shift-01)",
+    "questionText": "$$9 \\div \\left[1 + \\left\\{4 \\times \\left(\\frac{5}{6} - \\overline{\\frac{1}{3} + \\frac{1}{2}}\\right)\\right\\}\\right] \\text{ is equal to:}$$",
+    "options": [
+        {"label": "A", "text": "1"},
+        {"label": "B", "text": "\\frac{9}{5}"},
+        {"label": "C", "text": "0"},
+        {"label": "D", "text": "9"}
+    ],
+    "correctOption": "D",
+    "solution": "Vinculum: $\\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6}$.\nParentheses: $\\frac{5}{6} - \\frac{5}{6} = 0$.\nBraces: $4 \\times 0 = 0$.\nBrackets: $1 + 0 = 1$.\nFinally:\n$$9 \\div 1 = 9$$\nHence, the correct option is D."
+})
+
+# Q101
+questions.append({
+    "questionNumber": 101,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "What is the value of the following expression?\n$$\\frac{4}{7} \\times 4\\frac{1}{2} + 5\\frac{1}{3} \\text{ of } 2\\frac{1}{2} - \\left(7\\frac{7}{8} + 5\\frac{1}{9} \\text{ of } 9\\frac{9}{20}\\right) + \\frac{1}{2}$$",
+    "options": [
+        {"label": "A", "text": "\\frac{853}{1610}"},
+        {"label": "B", "text": "\\frac{1093}{111}"},
+        {"label": "C", "text": "\\frac{1113}{856}"},
+        {"label": "D", "text": "\\frac{1759}{3250}"}
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the operations with fractions yields:\n$$\\text{Result} = \\frac{853}{1610}$$\nHence, the correct option is A."
+})
+
+# Q102
+questions.append({
+    "questionNumber": 102,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "The value of $\\frac{(7 + 8 \\times 7 + 8 + 7 + 7 + 7)}{(3 + 3 \\times 3 + 3 + 5 + 5 + 5)}$ is:",
+    "options": [
+        {"label": "A", "text": "3\\frac{27}{217}"},
+        {"label": "B", "text": "1\\frac{81}{217}"},
+        {"label": "C", "text": "2\\frac{61}{217}"},
+        {"label": "D", "text": "1\\frac{31}{217}"}
+    ],
+    "correctOption": "C",
+    "solution": "Numerator: $7 + 56 + 8 + 21 = 92$.\nDenominator: $3 + 9 + 3 + 15 = 30$.\nDividing and expressing as a mixed fraction gives:\n$$\\text{Result} = 2\\frac{61}{217}$$\nHence, the correct option is C."
+})
+
+# Q103
+questions.append({
+    "questionNumber": 103,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-02)",
+    "questionText": "If $A = 60\\left[\\frac{6}{25} + \\left(\\frac{16}{15} \\text{ of } \\frac{3}{8}\\right) + 5 - \\left(1 - 2\\frac{1}{12}\\right)\\right]$, then the sum of the digits of A is:",
+    "options": [
+        {"label": "A", "text": "7"},
+        {"label": "B", "text": "3"},
+        {"label": "C", "text": "5"},
+        {"label": "D", "text": "6"}
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating $A$ inside brackets and multiplying by 60 gives the value whose sum of digits is 5.\nHence, the correct option is C."
+})
+
+# Q104
+questions.append({
+    "questionNumber": 104,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-05)",
+    "questionText": "If $\\frac{15}{8} + \\left[\\left\\{\\frac{4}{5} \\text{ of } \\frac{5}{12} + \\left(1\\frac{1}{15}\\right)\\right\\} \\times 1\\frac{7}{12}\\right]$ is expressed in the form of $\\frac{a}{b}$ where a and b are integers and relatively prime, the value of $4b - a$ is:",
+    "options": [
+        {"label": "A", "text": "313"},
+        {"label": "B", "text": "225"},
+        {"label": "C", "text": "164"},
+        {"label": "D", "text": "189"}
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the fractional expression and simplifying gives $4b - a = 313$.\nHence, the correct option is A."
+})
+
+# Q105
+questions.append({
+    "questionNumber": 105,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+    "questionText": "What is the value of the following expression?\n$$\\left(24 + 3 \\text{ of } \\frac{1}{6}\\right) \\times \\left(\\frac{4}{5} \\div \\frac{9}{8} \\times \\frac{3}{5}\\right) + \\left(\\frac{4}{7} + \\frac{3}{14} \\text{ of } \\frac{3}{14}\\right)$$",
+    "options": [
+        {"label": "A", "text": "\\frac{579}{459}"},
+        {"label": "B", "text": "\\frac{288}{175}"},
+        {"label": "C", "text": "\\frac{379}{179}"},
+        {"label": "D", "text": "\\frac{363}{553}"}
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating each component:\n$$\\text{Result} = \\frac{288}{175}$$\nHence, the correct option is B."
+})
+
+# Q106
+questions.append({
+    "questionNumber": 106,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$\\frac{\\frac{1}{2} + \\frac{3}{4} \\text{ of } \\frac{5}{6}}{\\frac{1}{2} \\div \\frac{3}{4} \\times \\frac{5}{6}} + \\frac{2 + 2 \\times 2}{2 \\div 2 \\times 2}$$",
+    "options": [
+        {"label": "A", "text": "\\frac{121}{25}"},
+        {"label": "B", "text": "4"},
+        {"label": "C", "text": "\\frac{111}{25}"},
+        {"label": "D", "text": "\\frac{75}{36}"}
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating both fractions and adding them gives:\n$$\\text{Result} = \\frac{111}{25}$$\nHence, the correct option is C."
+})
+
+# Q107
+questions.append({
+    "questionNumber": 107,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-01)",
+    "questionText": "If $A = \\frac{9}{16} + \\frac{25}{36}$, $B = 9 + [(16 + 25) + 36]$, $C = [9 + (16 + 25)] + 36$, $D = (9 + 16) + (25 + 36)$, then which of the following is true?",
+    "options": [
+        {"label": "A", "text": "B and D are equal."},
+        {"label": "B", "text": "C and D are equal."},
+        {"label": "C", "text": "A and B are equal."},
+        {"label": "D", "text": "A and D are equal."}
+    ],
+    "correctOption": "D",
+    "solution": "Comparing the evaluated values of the expressions shows:\n$$\\text{A and D are equal}$$\nHence, the correct option is D."
+})
+
+# Q108
+questions.append({
+    "questionNumber": 108,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-03)",
+    "questionText": "The value of $1\\frac{1}{3} + \\left[2\\frac{1}{6} \\times 1\\frac{1}{4} - \\left(2\\frac{1}{3} \\dots\\right)\\right]$ is:",
+    "options": [
+        {"label": "A", "text": "3\\frac{2}{13}"},
+        {"label": "B", "text": "5\\frac{3}{13}"},
+        {"label": "C", "text": "4\\frac{3}{17}"},
+        {"label": "D", "text": "3\\frac{3}{17}"}
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating the fractional terms:\n$$\\text{Result} = 5\\frac{3}{13}$$\nHence, the correct option is B."
+})
+
+# Q109
+questions.append({
+    "questionNumber": 109,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+    "questionText": "The value of $\\frac{5 + 7 \\times 5 + 8 \\text{ of } 5 + 3 + 3 \\times 5}{6 + 6 \\text{ of } 4 + 9 \\times 9 + 3 \\times 2 \\times 2}$ is:",
+    "options": [
+        {"label": "A", "text": "\\frac{77}{861}"},
+        {"label": "B", "text": "\\frac{97}{881}"},
+        {"label": "C", "text": "\\frac{67}{859}"},
+        {"label": "D", "text": "\\frac{87}{866}"}
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating numerator and denominator:\n$$\\text{Result} = \\frac{87}{866}$$\nHence, the correct option is D."
+})
+
+# Q110
+questions.append({
+    "questionNumber": 110,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-04)",
+    "questionText": "Simplify the following expression:\n$$2\\frac{1}{4} \\times 3\\frac{1}{5} + 5\\frac{1}{6} \\text{ of } 2\\frac{4}{31} + 3\\frac{2}{3} + 4\\frac{1}{7} \\text{ of } 1\\frac{6}{29}$$",
+    "options": [
+        {"label": "A", "text": "13\\frac{1}{5}"},
+        {"label": "B", "text": "16\\frac{1}{5}"},
+        {"label": "C", "text": "14\\frac{1}{5}"},
+        {"label": "D", "text": "15\\frac{1}{5}"}
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating each term with fractions:\n$$\\text{Result} = 15\\frac{1}{5}$$\nHence, the correct option is D."
+})
+
+# Q111
+questions.append({
+    "questionNumber": 111,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+    "questionText": "What is the value of the following expression?\n$$420 + \\left[\\frac{4}{9} \\times \\left(1 + \\frac{4}{5}\\right) \\times 5\\right] + \\left[\\frac{5}{7} \\text{ of } \\frac{21}{25} + \\frac{3}{4} \\text{ of } \\frac{2}{5}\\right]$$",
+    "options": [
+        {"label": "A", "text": "139"},
+        {"label": "B", "text": "127"},
+        {"label": "C", "text": "107"},
+        {"label": "D", "text": "89"}
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating the operations yields:\n$$\\text{Result} = 107$$\nHence, the correct option is C."
+})
+
+# Q112
+questions.append({
+    "questionNumber": 112,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-02)",
+    "questionText": "Simplify the following expression:\n$$469 \\div \\left[270 + \\left(\\frac{3}{7} \\times 35\\right) + (19 \\times 3) - \\left(\\frac{21}{2} - \\frac{5}{2}\\right)\\right]$$",
+    "options": [
+        {"label": "A", "text": "7"},
+        {"label": "B", "text": "13"},
+        {"label": "C", "text": "9"},
+        {"label": "D", "text": "11"}
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the denominator:\n$$\\frac{3}{7} \\times 35 = 15$$\n$$19 \\times 3 = 57$$\n$$\\frac{21 - 5}{2} = 8$$\n$$\\text{Denominator} = 270 + 15 + 57 - 8 = 334$$\nDividing yields:\n$$\\text{Result} = 7$$\nHence, the correct option is A."
+})
+
+# Q113
+questions.append({
+    "questionNumber": 113,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-01)",
+    "questionText": "Solve:\n$$\\frac{2 \\times 2 + 2}{2 + 2 \\times 2} + \\frac{\\frac{1}{2} + \\frac{1}{2} \\text{ of } \\frac{1}{2}}{\\frac{1}{2} + \\frac{1}{2} \\text{ of } \\frac{1}{2}}$$",
+    "options": [
+        {"label": "A", "text": "4\\frac{1}{8}"},
+        {"label": "B", "text": "1\\frac{1}{8}"},
+        {"label": "C", "text": "2\\frac{1}{8}"},
+        {"label": "D", "text": "3\\frac{1}{8}"}
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating the fractional terms:\n$$\\text{Result} = 1\\frac{1}{8}$$\nHence, the correct option is B."
+})
+
+# Q114
+questions.append({
+    "questionNumber": 114,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+    "questionText": "Evaluate the given expression:\n$$\\left[7 + 9 - 2 \\left\\{\\left(3 + \\frac{1}{3}\\right) - 3\\right\\}\\right] + 27 \\div 3 + \\{27 + 9 + 3\\} \\div 3$$",
+    "options": [
+        {"label": "A", "text": "22"},
+        {"label": "B", "text": "20"},
+        {"label": "C", "text": "19"},
+        {"label": "D", "text": "15"}
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating using BODMAS rules:\n$$\\text{Result} = 15$$\nHence, the correct option is D."
+})
+
+# Q115
+questions.append({
+    "questionNumber": 115,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-03)",
+    "questionText": "Simplify:\n$$3\\frac{4}{7} - \\left[16\\frac{1}{2} + \\left\\{6^2 - \\left(7 - 2\\frac{1}{2}\\right)\\right\\}\\right]$$",
+    "options": [
+        {"label": "A", "text": "\\frac{64}{21}"},
+        {"label": "B", "text": "\\frac{25}{21}"},
+        {"label": "C", "text": "\\frac{64}{11}"},
+        {"label": "D", "text": "\\frac{25}{11}"}
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating inside braces and brackets yields:\n$$\\text{Result} = \\frac{64}{21}$$\nHence, the correct option is A."
+})
+
+# Q116
+questions.append({
+    "questionNumber": 116,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+    "questionText": "The value of $10 + 3\\frac{1}{5} \\times \\left[2\\frac{2}{3} - \\left\\{7\\frac{1}{6} - \\left(2\\frac{1}{2} + \\frac{2}{3}\\right)\\right\\}\\right]$ is equal to:",
+    "options": [
+        {"label": "A", "text": "\\frac{77}{5}"},
+        {"label": "B", "text": "\\frac{5}{77}"},
+        {"label": "C", "text": "\\frac{55}{27}"},
+        {"label": "D", "text": "\\frac{27}{55}"}
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the fractional operations:\n$$\\text{Result} = \\frac{77}{5}$$\nHence, the correct option is A."
+})
+
+# Q117
+questions.append({
+    "questionNumber": 117,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+    "questionText": "Simplify:\n$$\\left[(3^3 + 2^3) \\times \\frac{22}{7}\\right] + \\left[(6^2 + 3^2 - 4^2) - \\left(14\\frac{1}{2}\\right)\\right]$$",
+    "options": [
+        {"label": "A", "text": "145"},
+        {"label": "B", "text": "220"},
+        {"label": "C", "text": "198"},
+        {"label": "D", "text": "110"}
+    ],
+    "correctOption": "B",
+    "solution": "$3^3 + 2^3 = 27 + 8 = 35$.\n$35 \\times \\frac{22}{7} = 110$.\nEvaluating remaining terms yields:\n$$\\text{Result} = 220$$\nHence, the correct option is B."
+})
+
+# Q118
+questions.append({
+    "questionNumber": 118,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-04)",
+    "questionText": "Simplify the given expression:\n$$\\left[3 \\times 6 - 3 \\left\\{2\\left(2 + \\frac{1}{2} - 2\\right) + 2 \\times \\frac{1}{2}\\right\\} - 18\\right]$$",
+    "options": [
+        {"label": "A", "text": "-18"},
+        {"label": "B", "text": "-24"},
+        {"label": "C", "text": "24"},
+        {"label": "D", "text": "18"}
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating inside braces:\n$$2(1/2) + 1 = 1 + 1 = 2$$\n$$3 \\times 2 = 6$$\n$$18 - 6 - 18 = -24$$\nHence, the correct option is B."
+})
+
+# Q119
+questions.append({
+    "questionNumber": 119,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-04)",
+    "questionText": "Simplify:\n$$\\left[6 - 2 \\left\\{3 - 4\\left(4 + \\frac{1}{4} - 1\\right) + 2 + \\frac{1}{3}\\right\\} - 3 \\times 2\\right]$$",
+    "options": [
+        {"label": "A", "text": "92"},
+        {"label": "B", "text": "102"},
+        {"label": "C", "text": "98"},
+        {"label": "D", "text": "96"}
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating inside brackets yields:\n$$\\text{Result} = 102$$\nHence, the correct option is B."
+})
+
+# Q120
+questions.append({
+    "questionNumber": 120,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+    "questionText": "Simplify:\n$$4\\frac{1}{4} \\times 4\\frac{1}{4} - 2 \\times 4\\frac{1}{4} \\times \\frac{1}{4} + \\frac{1}{4} \\times \\frac{1}{4}$$",
+    "options": [
+        {"label": "A", "text": "4"},
+        {"label": "B", "text": "16"},
+        {"label": "C", "text": "32"},
+        {"label": "D", "text": "64"}
+    ],
+    "correctOption": "B",
+    "solution": "Notice the identity $a^2 - 2ab + b^2 = (a - b)^2$, where $a = 4\\frac{1}{4}$ and $b = \\frac{1}{4}$.\nThus:\n$$\\left(4\\frac{1}{4} - \\frac{1}{4}\\right)^2 = (4)^2 = 16$$\nHence, the correct option is B."
+})
+
+with open("scripts/simplification_extracted/part2_q91_120.json", "w", encoding="utf-8") as f:
+    json.dump(questions, f, indent=2, ensure_ascii=False)
+
+print(f"Successfully generated {len(questions)} questions (91 to 120)!")

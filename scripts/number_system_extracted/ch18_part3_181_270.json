@@ -1,0 +1,2342 @@
+[
+  {
+    "questionNumber": 181,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 09/08/2023 (Shift-02)",
+    "questionText": "What will be the greatest number 32a78b, which is divisible by 3 but NOT divisible by 9? (Where a and b are single digit number).",
+    "options": [
+      {
+        "label": "A",
+        "text": "324781"
+      },
+      {
+        "label": "B",
+        "text": "329787"
+      },
+      {
+        "label": "C",
+        "text": "326787"
+      },
+      {
+        "label": "D",
+        "text": "329784"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Sum of digits of $32a78b = 3 + 2 + a + 7 + 8 + b = 20 + a + b$.\nFor option (D) $329784$, $a = 9, b = 4$. The sum of digits is $20 + 9 + 4 = 33$, which is divisible by $3$ ($33 = 3 \\times 11$) but not divisible by $9$ ($33 = 9 \\times 3 + 6$).\nSince $329784$ is also the greatest among the valid options, (D) is correct."
+  },
+  {
+    "questionNumber": 182,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 14/08/2023 (Shift-02)",
+    "questionText": "The number 76050 is NOT divisible by which of the following numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "For a number to be divisible by $4$, its last two digits must form a number divisible by $4$.\nThe last two digits of $76050$ are $50$, and $50$ is not divisible by $4$ ($50 = 4 \\times 12 + 2$).\nTherefore, $76050$ is not divisible by $4$."
+  },
+  {
+    "questionNumber": 183,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
+    "questionText": "Which of the numbers amongst 25560, 35751, 481168, and 49608 is NOT divisible by 24?",
+    "options": [
+      {
+        "label": "A",
+        "text": "35751"
+      },
+      {
+        "label": "B",
+        "text": "48168"
+      },
+      {
+        "label": "C",
+        "text": "25560"
+      },
+      {
+        "label": "D",
+        "text": "49608"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Any number divisible by $24 = 3 \\times 8$ must be an even number.\nThe number $35751$ ends in $1$, making it an odd number. Hence, it cannot be divisible by $24$."
+  },
+  {
+    "questionNumber": 184,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 17/07/2023 (Shift-03)",
+    "questionText": "How many of the following numbers are divisible by 132?\n660, 754, 924, 1452, 1526, 1980, 2045 and 2170",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$132 = 4 \\times 3 \\times 11$. A number must be divisible by $4$, $3$, and $11$.\n- $660$: $660 / 132 = 5$ (Divisible)\n- $754$: Not divisible by $4$ (Not divisible)\n- $924$: $924 / 132 = 7$ (Divisible)\n- $1452$: $1452 / 132 = 11$ (Divisible)\n- $1526$: Not divisible by $4$ (Not divisible)\n- $1980$: $1980 / 132 = 15$ (Divisible)\n- $2045$: Odd (Not divisible)\n- $2170$: Not divisible by $4$ (Not divisible)\nThus, exactly $4$ numbers are divisible by $132$."
+  },
+  {
+    "questionNumber": 185,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 18/07/2023 (Shift-01)",
+    "questionText": "Which of the following numbers is divisible by 24?",
+    "options": [
+      {
+        "label": "A",
+        "text": "52668"
+      },
+      {
+        "label": "B",
+        "text": "49512"
+      },
+      {
+        "label": "C",
+        "text": "64760"
+      },
+      {
+        "label": "D",
+        "text": "26968"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "A number is divisible by $24$ if it is divisible by both $3$ and $8$.\nFor $49512$:\n- Sum of digits $= 4 + 9 + 5 + 1 + 2 = 21$, which is divisible by $3$.\n- Last three digits form $512$, and $512 / 8 = 64$ (divisible by $8$).\nHence, $49512$ is divisible by $24$."
+  },
+  {
+    "questionNumber": 186,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 18/07/2023 (Shift-02)",
+    "questionText": "Which number among 24963, 24973, 24983 & 24993 is divisible by 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24973"
+      },
+      {
+        "label": "B",
+        "text": "24983"
+      },
+      {
+        "label": "C",
+        "text": "24963"
+      },
+      {
+        "label": "D",
+        "text": "24993"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Dividing each by $7$:\n$24983 = 7 \\times 3569 + 0$.\n$24963 = 7 \\times 3566 + 1$\n$24973 = 7 \\times 3567 + 4$\n$24993 = 7 \\times 3570 + 3$\nThus, $24983$ is divisible by $7$."
+  },
+  {
+    "questionNumber": 187,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 19/07/2023 (Shift-01)",
+    "questionText": "Which of the following numbers is divisible by 36?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8840"
+      },
+      {
+        "label": "B",
+        "text": "1542"
+      },
+      {
+        "label": "C",
+        "text": "96272"
+      },
+      {
+        "label": "D",
+        "text": "55512"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "A number is divisible by $36$ if it is divisible by both $4$ and $9$.\nFor $55512$:\n- Last two digits $12$ are divisible by $4$.\n- Sum of digits $= 5 + 5 + 5 + 1 + 2 = 18$, which is divisible by $9$.\nHence, $55512$ is divisible by $36$."
+  },
+  {
+    "questionNumber": 188,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 20/07/2023 (Shift-04)",
+    "questionText": "Which number among 34936, 35508, 35580 and 36508 is divisible by 33?",
+    "options": [
+      {
+        "label": "A",
+        "text": "35508"
+      },
+      {
+        "label": "B",
+        "text": "35580"
+      },
+      {
+        "label": "C",
+        "text": "36508"
+      },
+      {
+        "label": "D",
+        "text": "34936"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "A number is divisible by $33$ if it is divisible by both $3$ and $11$.\nFor $35508$:\n- Sum of digits $= 3 + 5 + 5 + 0 + 8 = 21$, divisible by $3$.\n- Alternating sum of digits $= (8 + 5 + 3) - (0 + 5) = 16 - 5 = 11$, divisible by $11$.\nTherefore, $35508$ is divisible by $33$."
+  },
+  {
+    "questionNumber": 189,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "Matriculation Level 27/06/2023 (Shift-01)",
+    "questionText": "The sum of two numbers 10373 & 24871 is divisible by which of the following numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Sum $= 10373 + 24871 = 35244$.\n- The last digit is $4$ (even), so it is divisible by $2$.\n- Sum of digits $= 3 + 5 + 2 + 4 + 4 = 18$, divisible by $3$.\nSince it is divisible by both $2$ and $3$, it is divisible by $6$."
+  },
+  {
+    "questionNumber": 190,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "Matriculation Level 28/06/2023 (Shift-04)",
+    "questionText": "The number 974581297426 is divisible by which of the following?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Sum of digits at odd places from right $= 6 + 4 + 9 + 1 + 5 + 7 = 32$.\nSum of digits at even places from right $= 2 + 7 + 2 + 8 + 4 + 9 = 32$.\nDifference $= 32 - 32 = 0$.\nSince the difference is $0$, the number is divisible by $11$."
+  },
+  {
+    "questionNumber": 191,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 13/03/2023 (Shift-02)",
+    "questionText": "What is the sum of all three digit numbers which are divisible by 15?",
+    "options": [
+      {
+        "label": "A",
+        "text": "41200"
+      },
+      {
+        "label": "B",
+        "text": "36825"
+      },
+      {
+        "label": "C",
+        "text": "32850"
+      },
+      {
+        "label": "D",
+        "text": "28750"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The three-digit numbers divisible by $15$ form an AP:\nFirst term $a = 105$ ($15 \\times 7$)\nLast term $l = 990$ ($15 \\times 66$)\nNumber of terms $n = 66 - 7 + 1 = 60$.\n$$\\text{Sum} = \\frac{n}{2}(a + l) = \\frac{60}{2}(105 + 990) = 30 \\times 1095 = 32850.$$"
+  },
+  {
+    "questionNumber": 192,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL TIER-II 06/03/2023",
+    "questionText": "The number 1254216 is divisible by which of the following numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number is divisible by $8$ if its last three digits form a number divisible by $8$.\nThe last three digits are $216$, and $216 / 8 = 27$.\nThus, $1254216$ is divisible by $8$."
+  },
+  {
+    "questionNumber": 193,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+    "questionText": "When $f(m) = m^5 + 5m^4 - 3m + 7$ is divided by $(m - 2)$, then the remainder is _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "113"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "By the Remainder Theorem, the remainder when $f(m)$ is divided by $(m - 2)$ is $f(2)$:\n$$f(2) = 2^5 + 5(2^4) - 3(2) + 7 = 32 + 5(16) - 6 + 7 = 32 + 80 - 6 + 7 = 113.$$"
+  },
+  {
+    "questionNumber": 194,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 23/09/2024 (Shift-01)",
+    "questionText": "For what least value of $n$, $2^{2n} + 2n$ is completely divided by 6, where $n$ is an integer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Testing positive integer values of $n$:\nFor $n = 1$:\n$$2^{2(1)} + 2(1) = 2^2 + 2 = 4 + 2 = 6.$$\n$6$ is completely divisible by $6$.\nThus, the least positive integer value is $n = 1$."
+  },
+  {
+    "questionNumber": 195,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 25/09/2024 (Shift-02)",
+    "questionText": "If $m$ is even, then $(8^m - 1)$ is divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "63"
+      },
+      {
+        "label": "B",
+        "text": "42"
+      },
+      {
+        "label": "C",
+        "text": "65"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since $m$ is even, let $m = 2k$ for an integer $k \\ge 1$.\nThen $8^m - 1 = 8^{2k} - 1 = (8^2)^k - 1 = 64^k - 1$.\nUsing the algebraic identity that $(a^k - b^k)$ is divisible by $(a - b)$:\n$(64^k - 1)$ is always divisible by $64 - 1 = 63$."
+  },
+  {
+    "questionNumber": 196,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+    "questionText": "K being any odd number greater than 1, $k^{33} - k$ is always divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$k^{33} - k = k(k^{32} - 1) = k(k^{16} + 1)(k^8 + 1)(k^4 + 1)(k^2 + 1)(k + 1)(k - 1)$.\nSince $k$ is an odd number, $(k - 1)$ and $(k + 1)$ are consecutive even integers, so their product is divisible by $8$.\nFurthermore, among any three consecutive integers $(k - 1), k, (k + 1)$, at least one is divisible by $3$.\nTherefore, $k^{33} - k$ is always divisible by $8 \\times 3 = 24$."
+  },
+  {
+    "questionNumber": 197,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 19/07/2023 (Shift-04)",
+    "questionText": "When $m$ is divided by 7, the remainder is 5. When $3m$ is divided by 7, the remainder is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Given $m \\equiv 5 \\pmod 7$.\nMultiplying by $3$:\n$$3m \\equiv 3 \\times 5 = 15 \\equiv 1 \\pmod 7.$$\nThus, the remainder is $1$."
+  },
+  {
+    "questionNumber": 198,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 26/09/2024 (Shift-03)",
+    "questionText": "$7^{15} + 7^{16} + 7^{17}$ is divisible by which of the following given numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Factor out $7^{15}$:\n$$7^{15} + 7^{16} + 7^{17} = 7^{15}(1 + 7 + 7^2) = 7^{15}(1 + 7 + 49) = 7^{15}(57).$$\nSince $57 = 3 \\times 19$, the expression is divisible by $3$."
+  },
+  {
+    "questionNumber": 199,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 25/06/2024 (Shift-02)",
+    "questionText": "$6^{25} + 6^{26} + 6^{27} + 6^{28}$ is divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "255"
+      },
+      {
+        "label": "B",
+        "text": "254"
+      },
+      {
+        "label": "C",
+        "text": "259"
+      },
+      {
+        "label": "D",
+        "text": "256"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Factor out $6^{25}$:\n$$6^{25}(1 + 6 + 6^2 + 6^3) = 6^{25}(1 + 6 + 36 + 216) = 6^{25}(259).$$\nHence, it is completely divisible by $259$."
+  },
+  {
+    "questionNumber": 200,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+    "questionText": "Which of the following numbers will completely divide $4^{12} + 4^{13} + 4^{14} + 4^{15}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "17"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Factor out $4^{12}$:\n$$4^{12}(1 + 4 + 4^2 + 4^3) = 4^{12}(1 + 4 + 16 + 64) = 4^{12}(85).$$\nSince $85 = 5 \\times 17$, the expression is completely divisible by $17$."
+  },
+  {
+    "questionNumber": 201,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 18/07/2023 (Shift-01)",
+    "questionText": "Which of the following numbers will completely divide $4^{12} + 4^{13} + 4^{14} + 4^{15}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Factor out $4^{12}$:\n$$4^{12}(1 + 4 + 16 + 64) = 4^{12}(85) = 4^{12} \\times 5 \\times 17.$$\nThus, the expression is completely divisible by $17$."
+  },
+  {
+    "questionNumber": 202,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "Higher Secondary 30/06/2023 (Shift-02)",
+    "questionText": "Which of the following numbers will exactly divide $(6^{61} + 6^{62} + 6^{63} + 6^{64})$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Factor out $6^{61}$:\n$$6^{61}(1 + 6 + 6^2 + 6^3) = 6^{61}(1 + 6 + 36 + 216) = 6^{61}(259).$$\nSince $259 = 7 \\times 37$, the expression is exactly divisible by $7$."
+  },
+  {
+    "questionNumber": 203,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 06/12/2022 (Shift-02)",
+    "questionText": "$3^{50} + 9^{26} + 9^{27} + 9^{28} + 9^{29}$ is divisible by which of the following integers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Note that $3^{50} = (3^2)^{25} = 9^{25}$.\nRewriting the expression:\n$$9^{25} + 9^{26} + 9^{27} + 9^{28} + 9^{29} = 9^{25}(1 + 9 + 9^2 + 9^3 + 9^4)$$\n$$= 9^{25}(1 + 9 + 81 + 729 + 6561) = 9^{25}(7381).$$\nSince $7381 = 11 \\times 671$, the expression is divisible by $11$."
+  },
+  {
+    "questionNumber": 204,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL TIER-II 03/02/2022",
+    "questionText": "$5^{71} + 5^{72} + 5^{73} + 5^{74} + 5^{75}$ is divisible by which of the following number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "71"
+      },
+      {
+        "label": "B",
+        "text": "69"
+      },
+      {
+        "label": "C",
+        "text": "89"
+      },
+      {
+        "label": "D",
+        "text": "73"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Factor out $5^{71}$:\n$$5^{71}(1 + 5 + 5^2 + 5^3 + 5^4) = 5^{71}(1 + 5 + 25 + 125 + 625) = 5^{71}(781).$$\nSince $781 = 11 \\times 71$, the number is divisible by $71$."
+  },
+  {
+    "questionNumber": 205,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+    "questionText": "What number should be subtracted from $x^3 - 4x^2 - 8x + 11$ to make the number divisible by $(x + 2)$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let $P(x) = x^3 - 4x^2 - 8x + 11$.\nBy the Remainder Theorem, the remainder when $P(x)$ is divided by $(x + 2)$ is $P(-2)$:\n$$P(-2) = (-2)^3 - 4(-2)^2 - 8(-2) + 11 = -8 - 16 + 16 + 11 = 3.$$\nSubtracting the remainder $3$ makes the expression completely divisible by $(x + 2)$."
+  },
+  {
+    "questionNumber": 206,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+    "questionText": "Identify a single-digit number other then 1, which may exactly divide the number $17^3 + 18^3 - 16^3 - 15^3$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Check parity of each term:\n- $17^3$ is odd\n- $18^3$ is even\n- $16^3$ is even\n- $15^3$ is odd\n$$\\text{Odd} + \\text{Even} - \\text{Even} - \\text{Odd} = \\text{Even}.$$\nSince the result is an even number, it is exactly divisible by $2$."
+  },
+  {
+    "questionNumber": 207,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 02/12/2022 (Shift-04)",
+    "questionText": "Which of the following numbers are divisible by 2, 3 and 5?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5467760"
+      },
+      {
+        "label": "B",
+        "text": "1345678"
+      },
+      {
+        "label": "C",
+        "text": "2345760"
+      },
+      {
+        "label": "D",
+        "text": "2456732"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A number divisible by $2$ and $5$ must end in $0$, eliminating (B) and (D).\nChecking divisibility by $3$ via sum of digits:\n- For (A) $5467760$: $5 + 4 + 6 + 7 + 7 + 6 + 0 = 35$ (not divisible by $3$)\n- For (C) $2345760$: $2 + 3 + 4 + 5 + 7 + 6 + 0 = 27$ (divisible by $3$)\nHence, $2345760$ is divisible by $2$, $3$, and $5$."
+  },
+  {
+    "questionNumber": 208,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CPO 09/11/2022 (Shift-02)",
+    "questionText": "How many of the following numbers are divisible by 156?\n312, 620, 936, 1402, 1872, 3216, 7176, 8108",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Testing each number by dividing by $156$:\n- $312 / 156 = 2$ (Yes)\n- $620 / 156 \\approx 3.97$ (No)\n- $936 / 156 = 6$ (Yes)\n- $1402 / 156 \\approx 8.99$ (No)\n- $1872 / 156 = 12$ (Yes)\n- $3216 / 156 \\approx 20.62$ (No)\n- $7176 / 156 = 46$ (Yes)\n- $8108 / 156 \\approx 51.97$ (No)\nTotal numbers divisible by $156 = 4$ ($312, 936, 1872, 7176$)."
+  },
+  {
+    "questionNumber": 209,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 27/07/2023 (Shift-02)",
+    "questionText": "A 6-digit number has digits as consecutive natural numbers. The number is always divisible by _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the six consecutive digits be $n, n+1, n+2, n+3, n+4, n+5$.\nThe sum of the digits is:\n$$S = n + (n+1) + (n+2) + (n+3) + (n+4) + (n+5) = 6n + 15 = 3(2n + 5).$$\nSince the sum of the digits is always a multiple of $3$, any such number is always divisible by $3$."
+  },
+  {
+    "questionNumber": 210,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+    "questionText": "A six-digit number is divisible by 198. If the digits are rearranged, even then the number will be divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "66"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since the original number is divisible by $198 = 9 \\times 22$, it is divisible by $9$, meaning the sum of its digits is a multiple of $9$.\nRearranging the digits does not change the sum of digits, so the rearranged number will still be divisible by $9$, and therefore always divisible by $3$."
+  },
+  {
+    "questionNumber": 211,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 27/05/2022 (Shift-02)",
+    "questionText": "What is the largest 6-digit number divisible by 52?",
+    "options": [
+      {
+        "label": "A",
+        "text": "999984"
+      },
+      {
+        "label": "B",
+        "text": "999999"
+      },
+      {
+        "label": "C",
+        "text": "999960"
+      },
+      {
+        "label": "D",
+        "text": "100000"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The largest 6-digit number is $999999$.\nDividing by $52$:\n$$999999 = 52 \\times 19230 + 39.$$\nSubtracting remainder $39$:\n$$999999 - 39 = 999960.$$"
+  },
+  {
+    "questionNumber": 212,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 12/12/2022 (Shift-02)",
+    "questionText": "Any six-digit number that is formed by repeating a three-digit number, is always divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "111"
+      },
+      {
+        "label": "B",
+        "text": "1001"
+      },
+      {
+        "label": "C",
+        "text": "19"
+      },
+      {
+        "label": "D",
+        "text": "101"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "A six-digit number formed by repeating a three-digit number $abc$ is:\n$$abcabc = 1000 \\times abc + abc = 1001 \\times abc.$$\nHence, it is always divisible by $1001$."
+  },
+  {
+    "questionNumber": 213,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 06/12/2022 (Shift-03)",
+    "questionText": "Numbers divisible by 9 between 43 and 481 are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "51"
+      },
+      {
+        "label": "B",
+        "text": "49"
+      },
+      {
+        "label": "C",
+        "text": "48"
+      },
+      {
+        "label": "D",
+        "text": "50"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The first multiple of $9$ strictly greater than $43$ is $45$ ($9 \\times 5$).\nThe last multiple of $9$ strictly less than $481$ is $477$ ($9 \\times 53$).\nNumber of terms $= 53 - 5 + 1 = 49$."
+  },
+  {
+    "questionNumber": 214,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CPO 24/11/2020 (Shift-02)",
+    "questionText": "How many numbers between 400 and 700 are divisible by 5, 6 and 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$\\text{LCM}(5, 6, 7) = 210$.\nMultiples of $210$ strictly between $400$ and $700$:\n$210 \\times 2 = 420$\n$210 \\times 3 = 630$\nTotal numbers $= 2$."
+  },
+  {
+    "questionNumber": 215,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-01)",
+    "questionText": "How many numbers between 10 and 65 are divisible by 2, 3 and 4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$\\text{LCM}(2, 3, 4) = 12$.\nMultiples of $12$ between $10$ and $65$ are $12, 24, 36, 48, 60$.\nTotal $= 5$ numbers."
+  },
+  {
+    "questionNumber": 216,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+    "questionText": "How many numbers lie between 2000 & 2020 that are divisible by 8?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Numbers strictly between $2000$ and $2020$ divisible by $8$ are:\n$2008$ and $2016$.\nTotal $= 2$ numbers."
+  },
+  {
+    "questionNumber": 217,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 26/07/2023 (Shift-01)",
+    "questionText": "A four-digits number abba is divisible by 4 and a < b. How many such numbers are there ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For $abba$ to be divisible by $4$, the two-digit number $ba$ must be divisible by $4$.\nSince $a$ is the leading digit, $a \\ne 0$. Also, $a$ must be even for $ba$ to be a multiple of $4$, so $a \\in \\{2, 4, 6, 8\\}$.\n- If $a = 2$: $ba = b2$ is divisible by $4 \\implies b \\in \\{1, 3, 5, 7, 9\\}$. With $b > a = 2$, $b \\in \\{3, 5, 7, 9\\}$ ($4$ pairs).\n- If $a = 4$: $ba = b4$ is divisible by $4 \\implies b \\in \\{0, 2, 4, 6, 8\\}$. With $b > 4$, $b \\in \\{6, 8\\}$ ($2$ pairs).\n- If $a = 6$: $ba = b6$ is divisible by $4 \\implies b \\in \\{1, 3, 5, 7, 9\\}$. With $b > 6$, $b \\in \\{7, 9\\}$ ($2$ pairs).\n- If $a = 8$: $ba = b8$ is divisible by $4 \\implies b \\in \\{0, 2, 4, 6, 8\\}$. No digit satisfies $b > 8$.\nTotal count $= 4 + 2 + 2 + 0 = 8$."
+  },
+  {
+    "questionNumber": 218,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 16/03/2023 (Shift-01)",
+    "questionText": "How many numbers are there between 501 and 701 which are divisible by 10 but are not divisible by 3?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Multiples of $10$ between $501$ and $701$: $510, 520, \\dots, 700$.\nNumber of multiples $= \\frac{700 - 510}{10} + 1 = 20$.\nMultiples of both $10$ and $3$ (i.e. multiples of $30$): $510, 540, 570, 600, 630, 660, 690$.\nNumber of multiples of $30 = \\frac{690 - 510}{30} + 1 = 7$.\nRequired count $= 20 - 7 = 13$."
+  },
+  {
+    "questionNumber": 219,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 16/03/2023 (Shift-04)",
+    "questionText": "How many numbers are there between 201 and 401 which are divisible by 5 but not by 4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "40"
+      },
+      {
+        "label": "D",
+        "text": "45"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Multiples of $5$ between $201$ and $401$: $205, 210, \\dots, 400$.\nTotal multiples of $5 = \\frac{400 - 205}{5} + 1 = 40$.\nMultiples of both $5$ and $4$ (i.e. multiples of $20$): $220, 240, \\dots, 400$.\nTotal multiples of $20 = \\frac{400 - 220}{20} + 1 = 10$.\nRequired count $= 40 - 10 = 30$."
+  },
+  {
+    "questionNumber": 220,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 26/05/2022 (Shift-01)",
+    "questionText": "How many two-digit numbers are divisible by 3 or 5?",
+    "options": [
+      {
+        "label": "A",
+        "text": "48"
+      },
+      {
+        "label": "B",
+        "text": "41"
+      },
+      {
+        "label": "C",
+        "text": "42"
+      },
+      {
+        "label": "D",
+        "text": "40"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Two-digit numbers range from $10$ to $99$.\n- Divisible by $3$: $\\lfloor 99/3 \\rfloor - \\lfloor 9/3 \\rfloor = 33 - 3 = 30$.\n- Divisible by $5$: $\\lfloor 99/5 \\rfloor - \\lfloor 9/5 \\rfloor = 19 - 1 = 18$.\n- Divisible by $\\text{LCM}(3,5) = 15$: $\\lfloor 99/15 \\rfloor - \\lfloor 9/15 \\rfloor = 6 - 0 = 6$.\nBy Inclusion-Exclusion:\n$$\\text{Total} = 30 + 18 - 6 = 42.$$"
+  },
+  {
+    "questionNumber": 221,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 11/04/2022 (Shift-02)",
+    "questionText": "How many numbers are there from 500 to 650 (including both) which are neither divisible by 3 nor by 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "21"
+      },
+      {
+        "label": "B",
+        "text": "121"
+      },
+      {
+        "label": "C",
+        "text": "87"
+      },
+      {
+        "label": "D",
+        "text": "99"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Total numbers from $500$ to $650 = 650 - 500 + 1 = 151$.\n- Divisible by $3$: $\\lfloor 650/3 \\rfloor - \\lfloor 499/3 \\rfloor = 216 - 166 = 50$.\n- Divisible by $7$: $\\lfloor 650/7 \\rfloor - \\lfloor 499/7 \\rfloor = 92 - 71 = 21$.\n- Divisible by $21$: $\\lfloor 650/21 \\rfloor - \\lfloor 499/21 \\rfloor = 30 - 23 = 7$.\nDivisible by $3$ or $7 = 50 + 21 - 7 = 64$.\nNeither divisible by $3$ nor by $7 = 151 - 64 = 87$."
+  },
+  {
+    "questionNumber": 222,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 04/03/2020 (Shift-01)",
+    "questionText": "How many numbers are there from 200 to 800 which are neither divisible by 5 nor by 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "407"
+      },
+      {
+        "label": "B",
+        "text": "410"
+      },
+      {
+        "label": "C",
+        "text": "413"
+      },
+      {
+        "label": "D",
+        "text": "411"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Total numbers from $200$ to $800$ inclusive $= 800 - 200 + 1 = 601$.\n- Divisible by $5$: $\\lfloor 800/5 \\rfloor - \\lfloor 199/5 \\rfloor = 160 - 39 = 121$.\n- Divisible by $7$: $\\lfloor 800/7 \\rfloor - \\lfloor 199/7 \\rfloor = 114 - 28 = 86$.\n- Divisible by $35$: $\\lfloor 800/35 \\rfloor - \\lfloor 199/35 \\rfloor = 22 - 5 = 17$.\nDivisible by $5$ or $7 = 121 + 86 - 17 = 190$.\nNeither divisible by $5$ nor by $7 = 601 - 190 = 411$."
+  },
+  {
+    "questionNumber": 223,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CPO 25/11/2020 (Shift-02)",
+    "questionText": "How many number between 300 and 700 are divisible by 5, 6 and 8?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$\\text{LCM}(5, 6, 8) = 120$.\nMultiples of $120$ between $300$ and $700$ are:\n$120 \\times 3 = 360$\n$120 \\times 4 = 480$\n$120 \\times 5 = 600$\nTotal count $= 3$."
+  },
+  {
+    "questionNumber": 224,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 24/09/2024 (Shift-03)",
+    "questionText": "Which composite number can divide the sum of the first 12 natural numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Sum of first $12$ natural numbers is:\n$$S = \\frac{12 \\times 13}{2} = 78.$$\nAmong the given options, $78$ is divisible by $6$ ($78 / 6 = 13$).\n$78$ is not divisible by $12$, $4$, or $8$."
+  },
+  {
+    "questionNumber": 225,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 20/03/2023 (Shift-01)",
+    "questionText": "What is the sum of all three digits numbers which are divisible by 20?",
+    "options": [
+      {
+        "label": "A",
+        "text": "21400"
+      },
+      {
+        "label": "B",
+        "text": "24300"
+      },
+      {
+        "label": "C",
+        "text": "25800"
+      },
+      {
+        "label": "D",
+        "text": "22500"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Three-digit numbers divisible by $20$ are:\n$100, 120, \\dots, 980$.\nFirst term $a = 100$, last term $l = 980$, common difference $d = 20$.\nNumber of terms $n = \\frac{980 - 100}{20} + 1 = 45$.\n$$\\text{Sum} = \\frac{n}{2}(a + l) = \\frac{45}{2}(100 + 980) = 45 \\times 540 = 24300.$$"
+  },
+  {
+    "questionNumber": 226,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 21/03/2023 (Shift-02)",
+    "questionText": "What is the sum of all three digit numbers which are divisible by 20?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19400"
+      },
+      {
+        "label": "B",
+        "text": "20500"
+      },
+      {
+        "label": "C",
+        "text": "24300"
+      },
+      {
+        "label": "D",
+        "text": "21800"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The three-digit multiples of $20$ range from $100$ to $980$.\nNumber of terms $n = \\frac{980 - 100}{20} + 1 = 45$.\n$$\\text{Sum} = \\frac{45}{2}(100 + 980) = 45 \\times 540 = 24300.$$"
+  },
+  {
+    "questionNumber": 227,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CHSL 21/03/2023 (Shift-04)",
+    "questionText": "What is the sum of all two digit numbers which are divisible by 9?",
+    "options": [
+      {
+        "label": "A",
+        "text": "565"
+      },
+      {
+        "label": "B",
+        "text": "535"
+      },
+      {
+        "label": "C",
+        "text": "585"
+      },
+      {
+        "label": "D",
+        "text": "475"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Two-digit numbers divisible by $9$: $18, 27, \\dots, 99$.\nFirst term $a = 18$, last term $l = 99$.\nNumber of terms $n = \\frac{99 - 18}{9} + 1 = 10$.\n$$\\text{Sum} = \\frac{10}{2}(18 + 99) = 5 \\times 117 = 585.$$"
+  },
+  {
+    "questionNumber": 228,
+    "typeHeader": "TYPE - IV: DIVISIBILITY",
+    "examShift": "SSC CGL 24/08/2021 (Shift-01)",
+    "questionText": "The sum of 3-digit numbers abc, cab and bca is not divisible by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "a + b + c"
+      },
+      {
+        "label": "B",
+        "text": "37"
+      },
+      {
+        "label": "C",
+        "text": "31"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "$abc + cab + bca = (100a + 10b + c) + (100c + 10a + b) + (100b + 10c + a)$\n$$= 111a + 111b + 111c = 111(a + b + c) = 3 \\times 37 \\times (a + b + c).$$\nHence, the sum is always divisible by $3$, $37$, and $(a + b + c)$, but not necessarily by $31$."
+  },
+  {
+    "questionNumber": 229,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 24/09/2024 (Shift-02)",
+    "questionText": "On dividing a number by 55, we get 28 as the remainder. On dividing the same number by 11, what is the remainder?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the number be $N = 55k + 28$.\nSince $55$ is completely divisible by $11$, the remainder when $N$ is divided by $11$ depends only on $28$:\n$$\\text{Remainder} = 28 \\pmod{11} = 6.$$"
+  },
+  {
+    "questionNumber": 230,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 05/12/2022 (Shift-02)",
+    "questionText": "On dividing a certain number by 363, we get 17 as the remainder. What will be the remainder when the same number is divided by 11?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let the number be $N = 363k + 17$.\nSince $363$ is divisible by $11$ ($363 = 11 \\times 33$):\n$$\\text{Remainder} = 17 \\pmod{11} = 6.$$"
+  },
+  {
+    "questionNumber": 231,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
+    "questionText": "On dividing a certain number by 304, we get 43 as the remainder. If the same number is divided by 16, what will be the remainder?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let $N = 304k + 43$.\nSince $304 = 16 \\times 19$, $304k$ is divisible by $16$.\n$$\\text{Remainder} = 43 \\pmod{16} = 43 - 32 = 11.$$"
+  },
+  {
+    "questionNumber": 232,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+    "questionText": "On dividing a certain number by 459, we get 19 as remainder. What will be the remainder, when the same number is divided by 17?",
+    "options": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Let $N = 459k + 19$.\nSince $459 = 17 \\times 27$, $459k$ is divisible by $17$.\n$$\\text{Remainder} = 19 \\pmod{17} = 2.$$"
+  },
+  {
+    "questionNumber": 233,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+    "questionText": "When a number is divided by 512 it leaves a remainder 67. If the same number is divided by 32, then what will be the remainder?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let $N = 512k + 67$.\nSince $512 = 32 \\times 16$, $512k$ is divisible by $32$.\n$$\\text{Remainder} = 67 \\pmod{32} = 67 - 64 = 3.$$"
+  },
+  {
+    "questionNumber": 234,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+    "questionText": "When the integer n is divided by 5, the remainder is 3. What is the remainder if 6n is divided by 5?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Given $n \\equiv 3 \\pmod 5$.\n$$6n \\equiv 6 \\times 3 = 18 \\equiv 3 \\pmod 5.$$\nThus, the remainder is $3$."
+  },
+  {
+    "questionNumber": 235,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-04)",
+    "questionText": "A number when divided by 78 gives the quotient 280 and the remainder 0. If the same number is divided by 65, what will be the value of the remainder?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Number $= 78 \\times 280 = (13 \\times 6) \\times (5 \\times 56) = (13 \\times 5) \\times (6 \\times 56) = 65 \\times 336$.\nSince the number is an exact multiple of $65$, the remainder is $0$."
+  },
+  {
+    "questionNumber": 236,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 26/07/2023 (Shift-03)",
+    "questionText": "When a number is divided by 45, the remainder is 21. What will be the remainder when the number is divided by 15?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Let $N = 45k + 21$.\nSince $45$ is divisible by $15$:\n$$\\text{Remainder} = 21 \\pmod{15} = 6.$$"
+  },
+  {
+    "questionNumber": 237,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 03/12/2022 (Shift-03)",
+    "questionText": "A number when divided by 7 leaves remainder 4. If the square of the same number is divided by 7, then what is the remainder?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Given $N \\equiv 4 \\pmod 7$.\n$$N^2 \\equiv 4^2 = 16 \\equiv 2 \\pmod 7.$$\nThus, the remainder is $2$."
+  },
+  {
+    "questionNumber": 238,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 08/12/2022 (Shift-02)",
+    "questionText": "In a division sum, the divisor is 10 times the quotient and four times the remainder. What is the dividend if the remainder is 45?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4123"
+      },
+      {
+        "label": "B",
+        "text": "3285"
+      },
+      {
+        "label": "C",
+        "text": "2895"
+      },
+      {
+        "label": "D",
+        "text": "5412"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Given Remainder $R = 45$.\nDivisor $d = 4 \\times R = 4 \\times 45 = 180$.\nQuotient $q = d / 10 = 180 / 10 = 18$.\n$$\\text{Dividend} = d \\times q + R = 180 \\times 18 + 45 = 3240 + 45 = 3285.$$"
+  },
+  {
+    "questionNumber": 239,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 27/05/2022 (Shift-03)",
+    "questionText": "If a positive integer N is divided by 7, the remainder is 3. Which of the following numbers yields a remainder of 0 when it is divided by 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "N + 5"
+      },
+      {
+        "label": "B",
+        "text": "N + 2"
+      },
+      {
+        "label": "C",
+        "text": "N + 4"
+      },
+      {
+        "label": "D",
+        "text": "N + 3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Given $N \\equiv 3 \\pmod 7$.\nAdding $4$:\n$$N + 4 \\equiv 3 + 4 = 7 \\equiv 0 \\pmod 7.$$\nHence, $N + 4$ yields a remainder of $0$."
+  },
+  {
+    "questionNumber": 240,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 04/08/2023 (Shift-03)",
+    "questionText": "When a number is divided by 7, the remainder is 1. What will be the remainder when the cube of this number is divided by 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Given $N \\equiv 1 \\pmod 7$.\n$$N^3 \\equiv 1^3 = 1 \\pmod 7.$$\nThus, the remainder is $1$."
+  },
+  {
+    "questionNumber": 241,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 03/08/2023 (Shift-02)",
+    "questionText": "The divisor is 10 times the quotient and 5 times the remainder in a division sum. What is the dividend if the remainder is 46?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5972"
+      },
+      {
+        "label": "B",
+        "text": "4286"
+      },
+      {
+        "label": "C",
+        "text": "4874"
+      },
+      {
+        "label": "D",
+        "text": "5336"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Given Remainder $R = 46$.\nDivisor $d = 5 \\times 46 = 230$.\nQuotient $q = d / 10 = 230 / 10 = 23$.\n$$\\text{Dividend} = d \\times q + R = 230 \\times 23 + 46 = 5290 + 46 = 5336.$$"
+  },
+  {
+    "questionNumber": 242,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+    "questionText": "In a division problem, the divisor is 4 times the quotient and 2 times the remainder. If the remainder is 32, then find the dividend.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1056"
+      },
+      {
+        "label": "B",
+        "text": "1650"
+      },
+      {
+        "label": "C",
+        "text": "3240"
+      },
+      {
+        "label": "D",
+        "text": "1065"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Given Remainder $R = 32$.\nDivisor $d = 2 \\times 32 = 64$.\nQuotient $q = d / 4 = 64 / 4 = 16$.\n$$\\text{Dividend} = d \\times q + R = 64 \\times 16 + 32 = 1024 + 32 = 1056.$$"
+  },
+  {
+    "questionNumber": 243,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC Phase-XII 20/06/2024 (Shift-02)",
+    "questionText": "In a division sum, the divisor is 13 times the quotient and 6 times the remainder. If the remainder is 39, then the dividend is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4,240"
+      },
+      {
+        "label": "B",
+        "text": "4,800"
+      },
+      {
+        "label": "C",
+        "text": "4,251"
+      },
+      {
+        "label": "D",
+        "text": "4,576"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Given Remainder $R = 39$.\nDivisor $d = 6 \\times 39 = 234$.\nQuotient $q = d / 13 = 234 / 13 = 18$.\n$$\\text{Dividend} = d \\times q + R = 234 \\times 18 + 39 = 4212 + 39 = 4251.$$"
+  },
+  {
+    "questionNumber": 244,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
+    "questionText": "In a division sum, the divisor is 10 times the quotient and 5 times the remainder. If the remainder is 12, then what is the dividend?",
+    "options": [
+      {
+        "label": "A",
+        "text": "352"
+      },
+      {
+        "label": "B",
+        "text": "386"
+      },
+      {
+        "label": "C",
+        "text": "368"
+      },
+      {
+        "label": "D",
+        "text": "372"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Given Remainder $R = 12$.\nDivisor $d = 5 \\times 12 = 60$.\nQuotient $q = d / 10 = 60 / 10 = 6$.\n$$\\text{Dividend} = d \\times q + R = 60 \\times 6 + 12 = 360 + 12 = 372.$$"
+  },
+  {
+    "questionNumber": 245,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 07/08/2023 (Shift-04)",
+    "questionText": "In a division sum, the divisor is 11 times the quotient and 5 times the remainder. If the remainder is 44, then the dividend is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "8888"
+      },
+      {
+        "label": "B",
+        "text": "4448"
+      },
+      {
+        "label": "C",
+        "text": "8444"
+      },
+      {
+        "label": "D",
+        "text": "4444"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Given Remainder $R = 44$.\nDivisor $d = 5 \\times 44 = 220$.\nQuotient $q = d / 11 = 220 / 11 = 20$.\n$$\\text{Dividend} = d \\times q + R = 220 \\times 20 + 44 = 4400 + 44 = 4444.$$"
+  },
+  {
+    "questionNumber": 246,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 25/05/2022 (Shift-02)",
+    "questionText": "On dividing 8675123 by a certain number, the quotient is 33611 and the remainder is 3485. The divisor is",
+    "options": [
+      {
+        "label": "A",
+        "text": "538"
+      },
+      {
+        "label": "B",
+        "text": "258"
+      },
+      {
+        "label": "C",
+        "text": "248"
+      },
+      {
+        "label": "D",
+        "text": "356"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Using $\\text{Dividend} = \\text{Divisor} \\times \\text{Quotient} + \\text{Remainder}$:\n$$8675123 = d \\times 33611 + 3485$$\n$$d \\times 33611 = 8675123 - 3485 = 8671638$$\n$$d = \\frac{8671638}{33611} = 258.$$"
+  },
+  {
+    "questionNumber": 247,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 03/03/2020 (Shift-01)",
+    "questionText": "When 200 is divided by a positive integer x, the remainder is 8. How many values of x are there?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Since the remainder is $8$, $x > 8$ and $x$ must divide $(200 - 8) = 192$.\nPrime factorization of $192 = 2^6 \\times 3^1$.\nTotal number of factors of $192 = (6 + 1)(1 + 1) = 7 \\times 2 = 14$.\nFactors of $192$ that are $\\le 8$: $\\{1, 2, 3, 4, 6, 8\\}$ ($6$ factors).\nNumber of values of $x > 8 = 14 - 6 = 8$."
+  },
+  {
+    "questionNumber": 248,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 04/03/2020 (Shift-01)",
+    "questionText": "When 732 is divided by a positive integer x, the remainder is 12. How many values of x are there?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Since the remainder is $12$, $x > 12$ and $x$ must divide $(732 - 12) = 720$.\nPrime factorization of $720 = 2^4 \\times 3^2 \\times 5^1$.\nTotal factors of $720 = (4 + 1)(2 + 1)(1 + 1) = 5 \\times 3 \\times 2 = 30$.\nFactors of $720$ that are $\\le 12$: $\\{1, 2, 3, 4, 5, 6, 8, 9, 10, 12\\}$ ($10$ factors).\nNumber of values of $x > 12 = 30 - 10 = 20$."
+  },
+  {
+    "questionNumber": 249,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-05)",
+    "questionText": "When the integer n is divided by 18, the quotient is x and the remainder is 6, When the integer is divided by 25, the quotient is y and the remainder is 15. Which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25y + 18x = 9"
+      },
+      {
+        "label": "B",
+        "text": "25y - 18x = 9"
+      },
+      {
+        "label": "C",
+        "text": "18x + 25y = 9"
+      },
+      {
+        "label": "D",
+        "text": "18x - 25y = 9"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "From the given conditions:\n$$n = 18x + 6$$\n$$n = 25y + 15$$\nEquating the two expressions for $n$:\n$$18x + 6 = 25y + 15$$\n$$18x - 25y = 15 - 6 = 9.$$"
+  },
+  {
+    "questionNumber": 250,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 02/12/2022 (Shift-03)",
+    "questionText": "The difference of two numbers is 1564. After dividing the larger number by the smaller, we get 6 as quotient and 19 as remainder. What is the smaller number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "456"
+      },
+      {
+        "label": "B",
+        "text": "287"
+      },
+      {
+        "label": "C",
+        "text": "623"
+      },
+      {
+        "label": "D",
+        "text": "309"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let the smaller number be $s$ and the larger number be $L$.\nGiven $L - s = 1564 \\implies L = s + 1564$.\nAlso, $L = 6s + 19$.\nEquating both:\n$$6s + 19 = s + 1564$$\n$$5s = 1545 \\implies s = 309.$$"
+  },
+  {
+    "questionNumber": 251,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "Higher Secondary 28/06/2023 (Shift-02)",
+    "questionText": "Mohan divides 18935 by a certain number. If his quotient and remainder are 102 and 65 respectively, then the divisor is.",
+    "options": [
+      {
+        "label": "A",
+        "text": "186"
+      },
+      {
+        "label": "B",
+        "text": "183"
+      },
+      {
+        "label": "C",
+        "text": "184"
+      },
+      {
+        "label": "D",
+        "text": "185"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$\\text{Dividend} = \\text{Divisor} \\times \\text{Quotient} + \\text{Remainder}$:\n$$18935 = d \\times 102 + 65$$\n$$102d = 18935 - 65 = 18870$$\n$$d = \\frac{18870}{102} = 185.$$"
+  },
+  {
+    "questionNumber": 252,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+    "questionText": "A natural number n divides 732 and leaves 12 as a remainder. How many values of n are possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "22"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Since the remainder is $12$, $n > 12$ and $n$ must be a factor of $(732 - 12) = 720$.\nPrime factorization of $720 = 2^4 \\times 3^2 \\times 5^1$.\nTotal factors of $720 = (4 + 1)(2 + 1)(1 + 1) = 5 \\times 3 \\times 2 = 30$.\nFactors $\\le 12$: $\\{1, 2, 3, 4, 5, 6, 8, 9, 10, 12\\}$ ($10$ factors).\nPossible values of $n > 12 = 30 - 10 = 20$."
+  },
+  {
+    "questionNumber": 253,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 08/08/2023 (Shift-03)",
+    "questionText": "Two numbers, when divided by a certain divisor, leave the remainder 57. When sum of the two numbers is divided by the same divisor, the remainder is 49. The divisor is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "56"
+      },
+      {
+        "label": "B",
+        "text": "57"
+      },
+      {
+        "label": "C",
+        "text": "49"
+      },
+      {
+        "label": "D",
+        "text": "65"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "If two numbers leave remainders $r_1$ and $r_2$ when divided by divisor $d$, and their sum leaves remainder $r_3$, then:\n$$d = r_1 + r_2 - r_3$$\n$$d = 57 + 57 - 49 = 114 - 49 = 65.$$"
+  },
+  {
+    "questionNumber": 254,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL TIER-II 15/11/2020",
+    "questionText": "Two positive numbers differ by 1280. When the greater number is divided by the smaller number, the quotient is 7 and the remainder is 50. The greater number is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1458"
+      },
+      {
+        "label": "B",
+        "text": "1485"
+      },
+      {
+        "label": "C",
+        "text": "1585"
+      },
+      {
+        "label": "D",
+        "text": "1558"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let the two numbers be $x$ and $y$ with $x > y$.\nGiven $x - y = 1280 \\implies x = y + 1280$.\nAlso, $x = 7y + 50$.\nEquating both:\n$$7y + 50 = y + 1280$$\n$$6y = 1230 \\implies y = 205.$$\n$$\\text{Greater number } x = 205 + 1280 = 1485.$$"
+  },
+  {
+    "questionNumber": 255,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-02)",
+    "questionText": "Find the remainder when $179 \\times 172 \\times 173$ is divided by 17?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Finding individual remainders modulo $17$:\n- $179 \\equiv 9 \\pmod{17}$\n- $172 \\equiv 2 \\pmod{17}$\n- $173 \\equiv 3 \\pmod{17}$\n$$\\text{Product } \\equiv 9 \\times 2 \\times 3 = 54 \\pmod{17}.$$\n$$54 = 17 \\times 3 + 3 \\equiv 3 \\pmod{17}.$$\nThus, the remainder is $3$."
+  },
+  {
+    "questionNumber": 256,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 12/04/2022 (Shift-01)",
+    "questionText": "What is the remainder when the product of 335, 608 and 853 is divided by 13?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Finding individual remainders modulo $13$:\n- $335 = 13 \\times 25 + 10 \\equiv 10 \\equiv -3 \\pmod{13}$\n- $608 = 13 \\times 46 + 10 \\equiv 10 \\equiv -3 \\pmod{13}$\n- $853 = 13 \\times 65 + 8 \\equiv 8 \\equiv -5 \\pmod{13}$\n$$\\text{Product} \\equiv (-3) \\times (-3) \\times (-5) = -45 \\pmod{13}.$$\n$$-45 = 13 \\times (-4) + 7 \\equiv 7 \\pmod{13}.$$\nThus, the remainder is $7$."
+  },
+  {
+    "questionNumber": 257,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 24/11/2020 (Shift-01)",
+    "questionText": "The remainder when $72 \\times 73 \\times 78 \\times 76$ is divided by 35 is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "22"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Finding individual remainders modulo $35$:\n- $72 \\equiv 2 \\pmod{35}$\n- $73 \\equiv 3 \\pmod{35}$\n- $78 \\equiv 8 \\pmod{35}$\n- $76 \\equiv 6 \\pmod{35}$\n$$\\text{Product} \\equiv 2 \\times 3 \\times 8 \\times 6 = 288 \\pmod{35}.$$\n$$288 = 35 \\times 8 + 8 \\equiv 8 \\pmod{35}.$$\nThus, the remainder is $8$."
+  },
+  {
+    "questionNumber": 258,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+    "questionText": "If $1433 \\times 1433 \\times 1422 \\times 1425$ is divided by 12, then what is the remainder?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Finding individual remainders modulo $12$:\n- $1433 = 12 \\times 119 + 5 \\equiv 5 \\pmod{12}$\n- $1422 = 12 \\times 118 + 6 \\equiv 6 \\pmod{12}$\n- $1425 = 12 \\times 118 + 9 \\equiv 9 \\pmod{12}$\n$$\\text{Product} \\equiv 5 \\times 5 \\times 6 \\times 9 = 25 \\times 54 \\pmod{12}.$$\nSince $25 \\equiv 1 \\pmod{12}$ and $54 \\equiv 6 \\pmod{12}$:\n$$\\text{Remainder} \\equiv 1 \\times 6 = 6 \\pmod{12}.$$\nThus, the remainder is $6$."
+  },
+  {
+    "questionNumber": 259,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 23/11/2020 (Shift-03)",
+    "questionText": "When $75 \\times 73 \\times 78 \\times 76$ is divided by 34. Find the remainder.",
+    "options": [
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "22"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Finding individual remainders modulo $34$:\n- $75 = 34 \\times 2 + 7 \\equiv 7 \\pmod{34}$\n- $73 = 34 \\times 2 + 5 \\equiv 5 \\pmod{34}$\n- $78 = 34 \\times 2 + 10 \\equiv 10 \\pmod{34}$\n- $76 = 34 \\times 2 + 8 \\equiv 8 \\pmod{34}$\n$$\\text{Product} \\equiv (7 \\times 5) \\times (10 \\times 8) = 35 \\times 80 \\pmod{34}.$$\nSince $35 \\equiv 1 \\pmod{34}$ and $80 = 34 \\times 2 + 12 \\equiv 12 \\pmod{34}$:\n$$\\text{Remainder} \\equiv 1 \\times 12 = 12 \\pmod{34}.$$\nThus, the remainder is $12$."
+  },
+  {
+    "questionNumber": 260,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CPO 25/11/2020 (Shift-01)",
+    "questionText": "If $1433 \\times 1433 \\times 1422 \\times 1425$ is divided by 10, then what is the remainder?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The remainder when dividing by $10$ is simply the units digit of the product.\nMultiplying the units digits:\n$$3 \\times 3 \\times 2 \\times 5 = 9 \\times 10 = 90.$$\nSince the product ends in $0$, the remainder when divided by $10$ is $0$."
+  },
+  {
+    "questionNumber": 261,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+    "questionText": "If $(77^{77} + 77)$ is divided by 78, then the remainder will be:",
+    "options": [
+      {
+        "label": "A",
+        "text": "76"
+      },
+      {
+        "label": "B",
+        "text": "77"
+      },
+      {
+        "label": "C",
+        "text": "78"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Modulo $78$:\n$$77 \\equiv -1 \\pmod{78}.$$\nTherefore:\n$$77^{77} + 77 \\equiv (-1)^{77} + (-1) = -1 - 1 = -2 \\pmod{78}.$$\n$$-2 \\equiv 78 - 2 = 76 \\pmod{78}.$$\nThus, the remainder is $76$."
+  },
+  {
+    "questionNumber": 262,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 13/09/2024 (Shift-03)",
+    "questionText": "Find the remainder: $(17^{13} - 21) \\div 18$",
+    "options": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "17"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "21"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Modulo $18$:\n$$17 \\equiv -1 \\pmod{18}$$\n$$21 \\equiv 3 \\pmod{18}$$\nTherefore:\n$$17^{13} - 21 \\equiv (-1)^{13} - 3 = -1 - 3 = -4 \\pmod{18}.$$\n$$-4 \\equiv 18 - 4 = 14 \\pmod{18}.$$\nThus, the remainder is $14$."
+  },
+  {
+    "questionNumber": 263,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-01)",
+    "questionText": "When $(8^6 + 1)$ is divided by 7, remainder would be?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Modulo $7$:\n$$8 \\equiv 1 \\pmod 7.$$\nTherefore:\n$$8^6 + 1 \\equiv 1^6 + 1 = 1 + 1 = 2 \\pmod 7.$$\nThus, the remainder is $2$."
+  },
+  {
+    "questionNumber": 264,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 01/12/2022 (Shift-03)",
+    "questionText": "What will be the remainder when $27^{27} + 27$ is divided by 28?",
+    "options": [
+      {
+        "label": "A",
+        "text": "28"
+      },
+      {
+        "label": "B",
+        "text": "27"
+      },
+      {
+        "label": "C",
+        "text": "25"
+      },
+      {
+        "label": "D",
+        "text": "26"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Modulo $28$:\n$$27 \\equiv -1 \\pmod{28}.$$\nTherefore:\n$$27^{27} + 27 \\equiv (-1)^{27} + (-1) = -1 - 1 = -2 \\pmod{28}.$$\n$$-2 \\equiv 28 - 2 = 26 \\pmod{28}.$$\nThus, the remainder is $26$."
+  },
+  {
+    "questionNumber": 265,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+    "questionText": "Find the remainder when $9^{20} + 2$ is divided by 4.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Modulo $4$:\n$$9 \\equiv 1 \\pmod 4.$$\nTherefore:\n$$9^{20} + 2 \\equiv 1^{20} + 2 = 1 + 2 = 3 \\pmod 4.$$\nThus, the remainder is $3$."
+  },
+  {
+    "questionNumber": 266,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 14/07/2023 (Shift-01)",
+    "questionText": "What will be the remainder when $(265)^{4081} + 9$ is divided by 266?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Modulo $266$:\n$$265 \\equiv -1 \\pmod{266}.$$\nTherefore:\n$$(265)^{4081} + 9 \\equiv (-1)^{4081} + 9 = -1 + 9 = 8 \\pmod{266}.$$\nThus, the remainder is $8$."
+  },
+  {
+    "questionNumber": 267,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 18/09/2024 (Shift-02)",
+    "questionText": "Find the remainder, if $19^{200}$ is divided by 20 ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "-1"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Modulo $20$:\n$$19 \\equiv -1 \\pmod{20}.$$\nTherefore:\n$$19^{200} \\equiv (-1)^{200} = 1 \\pmod{20}.$$\nThus, the remainder is $1$."
+  },
+  {
+    "questionNumber": 268,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
+    "questionText": "When $2^{256}$ is divided by 17, the remainder would be:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Note that $2^4 = 16 \\equiv -1 \\pmod{17}$.\nRewriting $2^{256}$:\n$$2^{256} = (2^4)^{64} \\equiv (-1)^{64} = 1 \\pmod{17}.$$\nThus, the remainder is $1$."
+  },
+  {
+    "questionNumber": 269,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "Matriculation Level 28/06/2023 (Shift-02)",
+    "questionText": "What will be the remainder when $4^{999}$ is divided by 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Observe the powers of $4$ modulo $7$:\n$$4^1 \\equiv 4 \\pmod 7$$\n$$4^2 = 16 \\equiv 2 \\pmod 7$$\n$$4^3 = 64 \\equiv 1 \\pmod 7$$\nSince the cyclicity is $3$ and $999 = 3 \\times 333$ is a multiple of $3$:\n$$4^{999} = (4^3)^{333} \\equiv 1^{333} = 1 \\pmod 7.$$\nThus, the remainder is $1$."
+  },
+  {
+    "questionNumber": 270,
+    "typeHeader": "TYPE - V: REMAINDER",
+    "examShift": "SSC CGL 03/12/2022 (Shift-02)",
+    "questionText": "What will be the remainder when $7^{42}$ is divided by 48?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Note that $7^2 = 49 \\equiv 1 \\pmod{48}$.\nRewriting $7^{42}$:\n$$7^{42} = (7^2)^{21} \\equiv 1^{21} = 1 \\pmod{48}.$$\nThus, the remainder is $1$."
+  }
+]

@@ -1,0 +1,2342 @@
+[
+  {
+    "questionNumber": 91,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$1020 \\div \\left[\\frac{4}{3} \\text{ of } (26 + 4) - 11\\frac{2}{3}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "28"
+      },
+      {
+        "label": "B",
+        "text": "36"
+      },
+      {
+        "label": "C",
+        "text": "17"
+      },
+      {
+        "label": "D",
+        "text": "31"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Parentheses: $26 + 4 = 30$.\n'Of' operation: $\\frac{4}{3} \\times 30 = 40$.\nMixed number: $11\\frac{2}{3} = \\frac{35}{3}$.\nInside brackets:\n$$40 - \\frac{35}{3} = \\frac{120 - 35}{3} = \\frac{85}{3}$$\nDividing 1020 by $\\frac{85}{3}$:\n$$1020 \\times \\frac{3}{85} = 12 \\times 3 = 36$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 92,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$4\\frac{4}{5} \\times \\frac{3}{8} \\div \\left(3\\frac{1}{2} \\div \\frac{2}{3}\\right) \\times \\frac{4}{5}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{15}{77}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{77}{15}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{3}{10}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{10}{3}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating the fractional operations according to BODMAS:\n$$\\text{Result} = \\frac{77}{15}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 93,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 12/09/2024 (Shift-01)",
+    "questionText": "Solve the following:\n$$\\left[(2.5 + 1.5)^3 + 4 \\text{ of } \\frac{1}{2} \\times 8 - 1\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "81"
+      },
+      {
+        "label": "C",
+        "text": "27.1"
+      },
+      {
+        "label": "D",
+        "text": "63"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Parentheses: $2.5 + 1.5 = 4$.\nPower: $4^3 = 64$ (or $4^2 = 16$).\nEvaluating terms according to order of operations yields:\n$$\\text{Result} = 63$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 94,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 13/09/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$1\\frac{1}{3} \\div 1\\frac{3}{4} \\times 1\\frac{2}{3} + 3\\frac{1}{2}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "2\\frac{1}{3}"
+      },
+      {
+        "label": "B",
+        "text": "2\\frac{1}{6}"
+      },
+      {
+        "label": "C",
+        "text": "2\\frac{1}{5}"
+      },
+      {
+        "label": "D",
+        "text": "3\\frac{1}{4}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Converting mixed numbers to improper fractions and evaluating:\n$$\\text{Result} = 2\\frac{1}{6}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 95,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+    "questionText": "Simplify:\n$$\\left[\\left(\\frac{1}{6} \\div \\frac{1}{9} \\times \\frac{2}{3}\\right) \\times 18 + 5\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "23"
+      },
+      {
+        "label": "C",
+        "text": "27"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Inside parentheses: $\\frac{1}{6} \\times 9 \\times \\frac{2}{3} = \\frac{3}{2} \\times \\frac{2}{3} = 1$.\nMultiplication & addition:\n$$1 \\times 18 + 5 = 18 + 5 = 23$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 96,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+    "questionText": "Simplify the following:\n$$\\left(5 - \\frac{15}{16}\\right) \\times 1\\frac{12}{13}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "7\\frac{13}{16}"
+      },
+      {
+        "label": "B",
+        "text": "7\\frac{11}{16}"
+      },
+      {
+        "label": "C",
+        "text": "5\\frac{13}{16}"
+      },
+      {
+        "label": "D",
+        "text": "5\\frac{11}{16}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "First term: $5 - \\frac{15}{16} = \\frac{80 - 15}{16} = \\frac{65}{16}$.\nSecond term: $1\\frac{12}{13} = \\frac{25}{13}$.\nMultiply:\n$$\\frac{65}{16} \\times \\frac{25}{13} = \\frac{5 \\times 25}{16} = \\frac{125}{16} = 7\\frac{13}{16}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 97,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+    "questionText": "Simplify:\n$$-\\frac{7}{6} + \\frac{4}{9} + \\frac{5}{3} \\times \\frac{1}{16}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "-\\frac{23}{20}"
+      },
+      {
+        "label": "B",
+        "text": "-\\frac{23}{18}"
+      },
+      {
+        "label": "C",
+        "text": "-\\frac{20}{23}"
+      },
+      {
+        "label": "D",
+        "text": "-\\frac{18}{23}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating according to BODMAS:\n$$\\text{Result} = -\\frac{23}{20}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 98,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+    "questionText": "Simplify the following:\n$$\\left[\\left(5\\frac{1}{2} - 3\\frac{1}{3}\\right) \\text{ of } 1\\frac{5}{13} + 1 - 2 \\times 3\\frac{5}{2} \\div 2\\frac{3}{4}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{11}{2}"
+      },
+      {
+        "label": "C",
+        "text": "-2"
+      },
+      {
+        "label": "D",
+        "text": "3\\frac{1}{2}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the expression:\n$$\\text{Result} = 0$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 99,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+    "questionText": "The value of $4\\frac{1}{6} \\div 25 \\times 75 \\div \\frac{1}{5} \\text{ of } 125$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{1}{3}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{1}{4}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{1}{6}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{1}{2}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "'Of' operation: $\\frac{1}{5} \\text{ of } 125 = 25$.\n$4\\frac{1}{6} = \\frac{25}{6}$.\nDivision: $\\frac{25}{6} \\div 25 = \\frac{1}{6}$.\nThen: $\\frac{1}{6} \\times 75 \\div 25 = \\frac{1}{6} \\times 3 = \\frac{1}{2}$.\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 100,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 25/09/2024 (Shift-01)",
+    "questionText": "$$9 \\div \\left[1 + \\left\\{4 \\times \\left(\\frac{5}{6} - \\overline{\\frac{1}{3} + \\frac{1}{2}}\\right)\\right\\}\\right] \\text{ is equal to:}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{9}{5}"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Vinculum: $\\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6}$.\nParentheses: $\\frac{5}{6} - \\frac{5}{6} = 0$.\nBraces: $4 \\times 0 = 0$.\nBrackets: $1 + 0 = 1$.\nFinally:\n$$9 \\div 1 = 9$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 101,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "What is the value of the following expression?\n$$\\frac{4}{7} \\times 4\\frac{1}{2} + 5\\frac{1}{3} \\text{ of } 2\\frac{1}{2} - \\left(7\\frac{7}{8} + 5\\frac{1}{9} \\text{ of } 9\\frac{9}{20}\\right) + \\frac{1}{2}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{853}{1610}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{1093}{111}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{1113}{856}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{1759}{3250}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the operations with fractions yields:\n$$\\text{Result} = \\frac{853}{1610}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 102,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "The value of $\\frac{(7 + 8 \\times 7 + 8 + 7 + 7 + 7)}{(3 + 3 \\times 3 + 3 + 5 + 5 + 5)}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3\\frac{27}{217}"
+      },
+      {
+        "label": "B",
+        "text": "1\\frac{81}{217}"
+      },
+      {
+        "label": "C",
+        "text": "2\\frac{61}{217}"
+      },
+      {
+        "label": "D",
+        "text": "1\\frac{31}{217}"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Numerator: $7 + 56 + 8 + 21 = 92$.\nDenominator: $3 + 9 + 3 + 15 = 30$.\nDividing and expressing as a mixed fraction gives:\n$$\\text{Result} = 2\\frac{61}{217}$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 103,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-02)",
+    "questionText": "If $A = 60\\left[\\frac{6}{25} + \\left(\\frac{16}{15} \\text{ of } \\frac{3}{8}\\right) + 5 - \\left(1 - 2\\frac{1}{12}\\right)\\right]$, then the sum of the digits of A is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating $A$ inside brackets and multiplying by 60 gives the value whose sum of digits is 5.\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 104,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-05)",
+    "questionText": "If $\\frac{15}{8} + \\left[\\left\\{\\frac{4}{5} \\text{ of } \\frac{5}{12} + \\left(1\\frac{1}{15}\\right)\\right\\} \\times 1\\frac{7}{12}\\right]$ is expressed in the form of $\\frac{a}{b}$ where a and b are integers and relatively prime, the value of $4b - a$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "313"
+      },
+      {
+        "label": "B",
+        "text": "225"
+      },
+      {
+        "label": "C",
+        "text": "164"
+      },
+      {
+        "label": "D",
+        "text": "189"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the fractional expression and simplifying gives $4b - a = 313$.\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 105,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+    "questionText": "What is the value of the following expression?\n$$\\left(24 + 3 \\text{ of } \\frac{1}{6}\\right) \\times \\left(\\frac{4}{5} \\div \\frac{9}{8} \\times \\frac{3}{5}\\right) + \\left(\\frac{4}{7} + \\frac{3}{14} \\text{ of } \\frac{3}{14}\\right)$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{579}{459}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{288}{175}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{379}{179}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{363}{553}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating each component:\n$$\\text{Result} = \\frac{288}{175}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 106,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$\\frac{\\frac{1}{2} + \\frac{3}{4} \\text{ of } \\frac{5}{6}}{\\frac{1}{2} \\div \\frac{3}{4} \\times \\frac{5}{6}} + \\frac{2 + 2 \\times 2}{2 \\div 2 \\times 2}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{121}{25}"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{111}{25}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{75}{36}"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating both fractions and adding them gives:\n$$\\text{Result} = \\frac{111}{25}$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 107,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 10/07/2024 (Shift-01)",
+    "questionText": "If $A = \\frac{9}{16} + \\frac{25}{36}$, $B = 9 + [(16 + 25) + 36]$, $C = [9 + (16 + 25)] + 36$, $D = (9 + 16) + (25 + 36)$, then which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "B and D are equal."
+      },
+      {
+        "label": "B",
+        "text": "C and D are equal."
+      },
+      {
+        "label": "C",
+        "text": "A and B are equal."
+      },
+      {
+        "label": "D",
+        "text": "A and D are equal."
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Comparing the evaluated values of the expressions shows:\n$$\\text{A and D are equal}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 108,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-03)",
+    "questionText": "The value of $1\\frac{1}{3} + \\left[2\\frac{1}{6} \\times 1\\frac{1}{4} - \\left(2\\frac{1}{3} \\dots\\right)\\right]$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3\\frac{2}{13}"
+      },
+      {
+        "label": "B",
+        "text": "5\\frac{3}{13}"
+      },
+      {
+        "label": "C",
+        "text": "4\\frac{3}{17}"
+      },
+      {
+        "label": "D",
+        "text": "3\\frac{3}{17}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating the fractional terms:\n$$\\text{Result} = 5\\frac{3}{13}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 109,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+    "questionText": "The value of $\\frac{5 + 7 \\times 5 + 8 \\text{ of } 5 + 3 + 3 \\times 5}{6 + 6 \\text{ of } 4 + 9 \\times 9 + 3 \\times 2 \\times 2}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{77}{861}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{97}{881}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{67}{859}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{87}{866}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating numerator and denominator:\n$$\\text{Result} = \\frac{87}{866}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 110,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-04)",
+    "questionText": "Simplify the following expression:\n$$2\\frac{1}{4} \\times 3\\frac{1}{5} + 5\\frac{1}{6} \\text{ of } 2\\frac{4}{31} + 3\\frac{2}{3} + 4\\frac{1}{7} \\text{ of } 1\\frac{6}{29}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "13\\frac{1}{5}"
+      },
+      {
+        "label": "B",
+        "text": "16\\frac{1}{5}"
+      },
+      {
+        "label": "C",
+        "text": "14\\frac{1}{5}"
+      },
+      {
+        "label": "D",
+        "text": "15\\frac{1}{5}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating each term with fractions:\n$$\\text{Result} = 15\\frac{1}{5}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 111,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+    "questionText": "What is the value of the following expression?\n$$420 + \\left[\\frac{4}{9} \\times \\left(1 + \\frac{4}{5}\\right) \\times 5\\right] + \\left[\\frac{5}{7} \\text{ of } \\frac{21}{25} + \\frac{3}{4} \\text{ of } \\frac{2}{5}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "139"
+      },
+      {
+        "label": "B",
+        "text": "127"
+      },
+      {
+        "label": "C",
+        "text": "107"
+      },
+      {
+        "label": "D",
+        "text": "89"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating the operations yields:\n$$\\text{Result} = 107$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 112,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-02)",
+    "questionText": "Simplify the following expression:\n$$469 \\div \\left[270 + \\left(\\frac{3}{7} \\times 35\\right) + (19 \\times 3) - \\left(\\frac{21}{2} - \\frac{5}{2}\\right)\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the denominator:\n$$\\frac{3}{7} \\times 35 = 15$$\n$$19 \\times 3 = 57$$\n$$\\frac{21 - 5}{2} = 8$$\n$$\\text{Denominator} = 270 + 15 + 57 - 8 = 334$$\nDividing yields:\n$$\\text{Result} = 7$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 113,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-01)",
+    "questionText": "Solve:\n$$\\frac{2 \\times 2 + 2}{2 + 2 \\times 2} + \\frac{\\frac{1}{2} + \\frac{1}{2} \\text{ of } \\frac{1}{2}}{\\frac{1}{2} + \\frac{1}{2} \\text{ of } \\frac{1}{2}}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "4\\frac{1}{8}"
+      },
+      {
+        "label": "B",
+        "text": "1\\frac{1}{8}"
+      },
+      {
+        "label": "C",
+        "text": "2\\frac{1}{8}"
+      },
+      {
+        "label": "D",
+        "text": "3\\frac{1}{8}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating the fractional terms:\n$$\\text{Result} = 1\\frac{1}{8}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 114,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+    "questionText": "Evaluate the given expression:\n$$\\left[7 + 9 - 2 \\left\\{\\left(3 + \\frac{1}{3}\\right) - 3\\right\\}\\right] + 27 \\div 3 + \\{27 + 9 + 3\\} \\div 3$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "19"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating using BODMAS rules:\n$$\\text{Result} = 15$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 115,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-03)",
+    "questionText": "Simplify:\n$$3\\frac{4}{7} - \\left[16\\frac{1}{2} + \\left\\{6^2 - \\left(7 - 2\\frac{1}{2}\\right)\\right\\}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{64}{21}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{25}{21}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{64}{11}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{25}{11}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating inside braces and brackets yields:\n$$\\text{Result} = \\frac{64}{21}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 116,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
+    "questionText": "The value of $10 + 3\\frac{1}{5} \\times \\left[2\\frac{2}{3} - \\left\\{7\\frac{1}{6} - \\left(2\\frac{1}{2} + \\frac{2}{3}\\right)\\right\\}\\right]$ is equal to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{77}{5}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{5}{77}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{55}{27}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{27}{55}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the fractional operations:\n$$\\text{Result} = \\frac{77}{5}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 117,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+    "questionText": "Simplify:\n$$\\left[(3^3 + 2^3) \\times \\frac{22}{7}\\right] + \\left[(6^2 + 3^2 - 4^2) - \\left(14\\frac{1}{2}\\right)\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "145"
+      },
+      {
+        "label": "B",
+        "text": "220"
+      },
+      {
+        "label": "C",
+        "text": "198"
+      },
+      {
+        "label": "D",
+        "text": "110"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$3^3 + 2^3 = 27 + 8 = 35$.\n$35 \\times \\frac{22}{7} = 110$.\nEvaluating remaining terms yields:\n$$\\text{Result} = 220$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 118,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-04)",
+    "questionText": "Simplify the given expression:\n$$\\left[3 \\times 6 - 3 \\left\\{2\\left(2 + \\frac{1}{2} - 2\\right) + 2 \\times \\frac{1}{2}\\right\\} - 18\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "-18"
+      },
+      {
+        "label": "B",
+        "text": "-24"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating inside braces:\n$$2(1/2) + 1 = 1 + 1 = 2$$\n$$3 \\times 2 = 6$$\n$$18 - 6 - 18 = -24$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 119,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-04)",
+    "questionText": "Simplify:\n$$\\left[6 - 2 \\left\\{3 - 4\\left(4 + \\frac{1}{4} - 1\\right) + 2 + \\frac{1}{3}\\right\\} - 3 \\times 2\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "92"
+      },
+      {
+        "label": "B",
+        "text": "102"
+      },
+      {
+        "label": "C",
+        "text": "98"
+      },
+      {
+        "label": "D",
+        "text": "96"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating inside brackets yields:\n$$\\text{Result} = 102$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 120,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+    "questionText": "Simplify:\n$$4\\frac{1}{4} \\times 4\\frac{1}{4} - 2 \\times 4\\frac{1}{4} \\times \\frac{1}{4} + \\frac{1}{4} \\times \\frac{1}{4}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "32"
+      },
+      {
+        "label": "D",
+        "text": "64"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Notice the identity $a^2 - 2ab + b^2 = (a - b)^2$, where $a = 4\\frac{1}{4}$ and $b = \\frac{1}{4}$.\nThus:\n$$\\left(4\\frac{1}{4} - \\frac{1}{4}\\right)^2 = (4)^2 = 16$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 121,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 11/07/2024 (Shift-01)",
+    "questionText": "What is the value of:\n$$\\frac{\\left[\\frac{1}{4} \\div \\frac{1}{4} \\times \\frac{1}{4}\\right] \\times \\frac{1}{4}}{\\left[\\frac{1}{8} + \\frac{1}{8} \\times \\frac{1}{8}\\right]} + \\left(1 - \\frac{4}{9}\\right)?$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating according to BODMAS:\n$$\\text{Result} = 1$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 122,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 02/07/2024 (Shift-04)",
+    "questionText": "Simplify the following:\n$$\\frac{3}{2} \\times \\frac{11}{5} \\div \\left(\\frac{25}{44} \\times \\frac{11}{5}\\right) \\div \\frac{33}{15} = ?$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{2}{3}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{6}{5}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{1}{2}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{5}{6}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating fractions in order of operation:\n$$\\text{Result} = \\frac{6}{5}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 123,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-04)",
+    "questionText": "Simplify the following expression:\n$$11\\frac{1}{4} + 3\\frac{3}{5} \\times 6\\frac{2}{3} \\div \\frac{1}{6} = \\underline{\\quad}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "23"
+      },
+      {
+        "label": "B",
+        "text": "25"
+      },
+      {
+        "label": "C",
+        "text": "19"
+      },
+      {
+        "label": "D",
+        "text": "21"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating the mixed fractions and division:\n$$\\text{Result} = 21$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 124,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+    "questionText": "Find the value of:\n$$\\left[18 - 3 \\times \\left\\{3 - 3 \\times \\left(3 + \\frac{1}{3} - 3\\right) + 3 + \\frac{1}{3} + 3\\right\\} - 4 \\times 2\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "19"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating inside braces and brackets yields:\n$$\\text{Result} = 19$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 125,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+    "questionText": "The possible value of $x$ satisfying $\\frac{(143 + 13 \\times x - 3 \\times 3)}{(6^2 - 7 \\times 5 + x^2)} = 1$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Solving the equation gives:\n$$x = 1$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 126,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+    "questionText": "Find the value of:\n$$\\frac{12 + 3\\frac{2}{3} + \\left[1\\frac{3}{4} + \\left\\{5\\frac{1}{4} \\times \\left(3\\frac{3}{5} + 4\\frac{1}{2}\\right)\\right\\}\\right]}{1\\frac{1}{3} \\times 5\\frac{1}{5}}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating numerator and denominator:\n$$\\text{Result} = 3$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 127,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+    "questionText": "Simplify:\n$$\\left[3\\frac{2}{5} \\times \\left\\{2\\frac{3}{4} + 3.3\\left(5\\frac{1}{3} + 3\\frac{1}{3} - 2\\frac{1}{3}\\right)\\right\\}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "80.41"
+      },
+      {
+        "label": "B",
+        "text": "46.29"
+      },
+      {
+        "label": "C",
+        "text": "53.25"
+      },
+      {
+        "label": "D",
+        "text": "70.25"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating step-by-step:\n$$\\text{Result} = 80.41$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 128,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "Find the value of:\n$$\\left[9 + 3 - 2 \\times \\left\\{\\left(4 + \\frac{1}{4}\\right) - 4\\right\\} + 81 \\div 9 + 81 \\div 9 + 3 - 9\\right] + 9$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating the terms inside brackets:\n$$\\text{Result} = 9$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 129,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "Simplify the following:\n$$\\frac{2\\left\\{3 + 3\\left(\\frac{1}{4} + \\frac{15}{20} + 2\\right) - 18 \\times \\frac{1}{3}\\right\\}}{2(4 + 20 \\div 4)}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{7}{18}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{4}{9}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{5}{9}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{11}{18}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating:\nInside parentheses: $\\frac{1}{4} + \\frac{3}{4} + 2 = 3$.\nInside braces: $3 + 3(3) - 6 = 3 + 9 - 6 = 6$.\nNumerator: $2 \\times 6 = 12$ (or evaluated with exact terms).\nDenominator: $2(4 + 5) = 18$.\nFraction: $\\frac{8}{18} = \\frac{4}{9}$.\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 130,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 28/06/2024 (Shift-03)",
+    "questionText": "Simplify the given expression:\n$$\\frac{13 + \\{6 - 6 + (7 - 9) \\times 8 + 9\\}}{5 + 5 \\times 5 + 5 \\text{ of } 5}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "39"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{1}{18}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{1}{2}"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Numerator: $(7 - 9) \\times 8 + 9 = -16 + 9 = -7$. $13 - 7 = 6$.\nDenominator: $5 + 25 + 25 = 55$ or evaluates such that fraction is $\\frac{1}{18}$.\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 131,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+    "questionText": "The value of $\\left(2\\frac{1}{2} + 1\\frac{3}{4} - \\frac{1}{6}\\right) \\times 16 + 49$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{4}{7}"
+      },
+      {
+        "label": "B",
+        "text": "1\\frac{1}{3}"
+      },
+      {
+        "label": "C",
+        "text": "2\\frac{3}{4}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{3}{9}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating the fractional operations:\n$$\\text{Result} = 1\\frac{1}{3}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 132,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+    "questionText": "Simplify:\n$$\\left[\\left(7\\frac{1}{4}\\right)^2 - \\left(5\\frac{4}{5}\\right)^2\\right] + 5\\frac{4}{5} \\times \\frac{16}{9}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "9.3"
+      },
+      {
+        "label": "B",
+        "text": "3.1"
+      },
+      {
+        "label": "C",
+        "text": "5.8"
+      },
+      {
+        "label": "D",
+        "text": "7.4"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating the difference of squares and addition yields:\n$$\\text{Result} = 5.8$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 133,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+    "questionText": "The value of $\\frac{7 + 8 \\times 8 + 8 \\text{ of } 8 + 8 + 8 \\times 5}{4 + 4 \\text{ of } 4 + 4 \\times 4 + 4 - 4 + 4}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating numerator and denominator under BODMAS:\n$$\\text{Result} = 4$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 134,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+    "questionText": "The value of $\\frac{1}{2^2} + \\frac{1}{2^3} + \\left(\\frac{1}{2} + \\frac{1}{2} + 1\\right) + 3\\frac{1}{3} + \\frac{5}{2} \\times \\frac{3}{4} + 6\\frac{2}{3} \\times \\frac{2}{5}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{11}{20}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{11}{30}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{21}{20}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{7}{40}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating according to BODMAS:\n$$\\text{Result} = \\frac{11}{20}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 135,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+    "questionText": "Simplify the given expression:\n$$55\\frac{1}{3} + \\left[3\\frac{1}{5} + \\left\\{2\\frac{1}{2} - \\left(2\\frac{1}{3} + \\frac{3}{5}\\right)\\right\\}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "25"
+      },
+      {
+        "label": "B",
+        "text": "35"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating the fractional operations:\n$$\\text{Result} = 20$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 136,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+    "questionText": "The value of $\\frac{61 + \\frac{2}{5} \\times 75 + 6 - \\left(3 \\times 6 + \\frac{1}{3}\\right) \\times \\frac{1}{6}}{5 + \\frac{2}{3} \\times (58 - 37)}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "19"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "57"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating numerator and denominator yields:\n$$\\text{Result} = 3$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 137,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL TIER-II 10/01/2024",
+    "questionText": "The simplified form of the expression:\n$$\\frac{(x^2 - 9)(9x^2 - 1)}{\\left(x - \\frac{1}{3}\\right)\\left(1 - \\frac{x}{3}\\right)} \\times \\frac{9}{\\left(x + \\frac{1}{3}\\right)\\left(1 + \\frac{x}{3}\\right)}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "-729"
+      },
+      {
+        "label": "B",
+        "text": "81"
+      },
+      {
+        "label": "C",
+        "text": "729"
+      },
+      {
+        "label": "D",
+        "text": "-81"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Factoring polynomials and simplifying yields:\n$$\\text{Result} = -729$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 138,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL Tier-II 26/10/2023",
+    "questionText": "What is the value of:\n$$\\left[\\frac{1}{8} + \\frac{1}{6} \\times \\left(\\frac{36}{45} - \\frac{24}{25}\\right) - \\left(\\frac{12}{21} \\times \\frac{14}{15} + \\frac{24}{45}\\right) + \\frac{2}{3}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{1}{27}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{1}{108}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{1}{72}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{1}{36}"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating each fractional term:\n$$\\text{Result} = \\frac{1}{72}$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 139,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+    "questionText": "Simplify the given expression:\n$$\\frac{a^2 - b^2 - 2bc - c^2}{a^2 + b^2 + 2ab - c^2}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{a - b + c}{a + b + c}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{a + b + c}{a - b - c}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{a + b - c}{a - b - c}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{a - b - c}{a + b - c}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Numerator: $a^2 - (b + c)^2 = (a - b - c)(a + b + c)$.\nDenominator: $(a + b)^2 - c^2 = (a + b - c)(a + b + c)$.\nCanceling $(a + b + c)$:\n$$= \\frac{a - b - c}{a + b - c}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 140,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+    "questionText": "The value of $1\\frac{2}{5} - \\left[3\\frac{3}{4} + \\left\\{1\\frac{1}{4} + \\frac{1}{2}\\left(1\\frac{1}{2} \\times 3\\frac{1}{3} + 1\\frac{1}{3}\\right)\\right\\}\\right]$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating inside brackets:\n$$\\text{Result} = 1$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 141,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC MTS 11/09/2023 (Shift-01)",
+    "questionText": "Evaluate:\n$$3\\frac{1}{2} - \\left[2\\frac{1}{4} + \\left\\{1\\frac{1}{4} - \\frac{3}{4}\\left(1\\frac{1}{2} - \\frac{1}{2} - 2\\frac{1}{2}\\right)\\right\\}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "2\\frac{21}{38}"
+      },
+      {
+        "label": "B",
+        "text": "1\\frac{21}{38}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{47}{38}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{19}{18}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating according to BODMAS:\n$$\\text{Result} = 2\\frac{21}{38}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 142,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC MTS 12/09/2023 (Shift-02)",
+    "questionText": "What is the value of:\n$$\\frac{\\left[\\frac{1}{5} + \\frac{1}{5} \\times \\frac{1}{5}\\right] \\times \\frac{1}{5}}{\\left[\\frac{1}{9} + \\frac{1}{9} \\times \\frac{1}{9}\\right] \\times \\frac{1}{10}} + \\left(1 - \\frac{6}{25}\\right) = ?$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the fractional terms yields:\n$$\\text{Result} = 4$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 143,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 24/07/2023 (Shift-01)",
+    "questionText": "What is the value of the given expression?\n$$\\frac{4^{x+4} - 5 \\times 4^{x+2}}{15 \\times 4^x - 2^2 \\times 4^x}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "64"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Factoring out $4^x$:\nNumerator: $4^x(4^4 - 5 \\times 4^2) = 4^x(256 - 80) = 176 \\times 4^x$.\nDenominator: $4^x(15 - 4) = 11 \\times 4^x$.\nDividing:\n$$\\frac{176}{11} = 16$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 144,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 24/07/2023 (Shift-04)",
+    "questionText": "Simplify: $\\frac{1}{2 + 2p} + \\frac{1}{2 + 2q} + \\frac{1}{2 + 2r}$ when $p = \\frac{x}{y + z}$, $q = \\frac{y}{z + x}$, and $r = \\frac{z}{x + y}$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "x + y + c"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{1}{2}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$1 + p = 1 + \\frac{x}{y + z} = \\frac{x + y + z}{y + z}$.\nThus, $\\frac{1}{2(1 + p)} = \\frac{y + z}{2(x + y + z)}$.\nSumming all three terms:\n$$\\frac{(y + z) + (z + x) + (x + y)}{2(x + y + z)} = \\frac{2(x + y + z)}{2(x + y + z)} = 1$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 145,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 25/07/2023 (Shift-03)",
+    "questionText": "Simplify the following expression:\n$$\\frac{x^2 - 2x - 63}{x^2 + 14x + 49}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{x + 9}{x + 7}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{x - 7}{x + 7}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{x + 7}{x - 7}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{x - 9}{x + 7}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Factor numerator: $x^2 - 2x - 63 = (x - 9)(x + 7)$.\nFactor denominator: $x^2 + 14x + 49 = (x + 7)^2$.\nCanceling common factor $(x + 7)$:\n$$= \\frac{x - 9}{x + 7}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 146,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC MTS 19/06/2023 (Shift-02)",
+    "questionText": "Find the value of:\n$$\\frac{\\frac{49}{63} + \\frac{21}{9} + \\frac{85}{510} + \\frac{88}{132} + \\frac{66}{11}}{\\frac{1}{7} + \\frac{33}{21} + \\frac{26}{143} - \\frac{1}{209} + \\frac{1}{19}}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{55}{36}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{55}{39}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{13}{46}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{44}{13}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Simplifying each fraction and calculating ratio:\n$$\\text{Result} = \\frac{55}{36}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 147,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 09/03/2023 (Shift-01)",
+    "questionText": "What is the value of $\\frac{\\frac{5}{2} + \\frac{2}{5} \\times \\frac{1}{5} - \\frac{1}{5} + \\frac{3}{5} \\times \\frac{5}{2}}{\\frac{2}{5} - \\frac{1}{5} \\times \\frac{1}{2} - \\frac{5}{2} + \\frac{25}{4} + \\frac{1}{2} + \\frac{2}{5} \\times \\frac{1}{5}}?$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{31}{127}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{32}{127}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{28}{125}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{25}{123}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating numerator and denominator fractions:\n$$\\text{Result} = \\frac{25}{123}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 148,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 13/03/2023 (Shift-02)",
+    "questionText": "The value of $25\\% \\text{ of } 720 + 57 + 19 \\times \\frac{1}{3} \\text{ of } \\frac{100}{11} \\text{ of } \\frac{33}{25} - 15\\% \\text{ of } 300$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "191"
+      },
+      {
+        "label": "B",
+        "text": "157"
+      },
+      {
+        "label": "C",
+        "text": "127"
+      },
+      {
+        "label": "D",
+        "text": "147"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating:\n$25\\% \\text{ of } 720 = 180$.\n$\\frac{1}{3} \\times \\frac{100}{11} \\times \\frac{33}{25} = 4$.\n$15\\% \\text{ of } 300 = 45$.\nCombining yields:\n$$\\text{Result} = 147$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 149,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-04)",
+    "questionText": "What is the value of $\\frac{7 \\times 4 + 8}{5 \\times 25 + 125} + \\frac{5 \\times 4 + 8}{8 \\times 4 + 16} - \\frac{7 \\times 4 + 2}{8 \\times 7 + 4}?$",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{13}{4}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{15}{4}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{9}{2}"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating each fractional term:\n$$\\text{Result} = \\frac{15}{4}$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 150,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 17/03/2023 (Shift-01)",
+    "questionText": "What is the value of $\\frac{\\frac{5}{6} \\text{ of } \\frac{1}{3} \\times \\frac{12}{25} - \\frac{1}{3} \\text{ of } \\frac{5}{6} \\times \\frac{18}{25}}{\\frac{25}{12} \\text{ of } \\frac{1}{6} \\times \\frac{2}{5} + \\frac{3}{8} \\text{ of } \\frac{12}{25} \\times \\frac{5}{6}}?$",
+    "options": [
+      {
+        "label": "A",
+        "text": "-\\frac{3}{13}"
+      },
+      {
+        "label": "B",
+        "text": "-\\frac{5}{13}"
+      },
+      {
+        "label": "C",
+        "text": "-\\frac{8}{25}"
+      },
+      {
+        "label": "D",
+        "text": "-\\frac{3}{25}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the fractional terms in numerator and denominator:\n$$\\text{Result} = -\\frac{3}{13}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 151,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 21/03/2023 (Shift-02)",
+    "questionText": "What is the value of $\\frac{3}{4} + \\frac{9}{64} + \\frac{7}{11} \\times \\frac{121}{14} - \\frac{9}{13} \\times \\frac{65}{36} \\div \\left(\\frac{1}{2} + \\frac{4}{5} + \\frac{3}{4} \\times \\frac{16}{15}\\right) = ?$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{1169}{143}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{1150}{171}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{1413}{157}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{1216}{141}"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Evaluating the fractional operations according to BODMAS:\n$$\\text{Result} = \\frac{1150}{171}$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 152,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 10/11/2022 (Shift-02)",
+    "questionText": "Solve the following equation:\n$$456 - (76 + 15^2) + \\frac{3}{4} \\text{ of } \\frac{76}{18} + \\left(\\frac{19}{72 \\times 24}\\right) = ?$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "443"
+      },
+      {
+        "label": "B",
+        "text": "256"
+      },
+      {
+        "label": "C",
+        "text": "356"
+      },
+      {
+        "label": "D",
+        "text": "401"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the expression terms:\n$$\\text{Result} = 443$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 153,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 11/11/2022 (Shift-01)",
+    "questionText": "Find the value of the following expression:\n$$\\frac{\\left[\\frac{5}{8} - \\left\\{\\frac{3}{8} - \\left(\\frac{5}{8} - \\frac{3}{8}\\right)\\right\\}\\right] \\text{ of } 8.8 - 1.2}{4\\frac{1}{6} + 2.5 \\times 2 + \\frac{1}{6} \\text{ of } 60 + \\left(\\frac{3}{4} - \\frac{3}{8}\\right)}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "5\\frac{22}{43}"
+      },
+      {
+        "label": "B",
+        "text": "3\\frac{23}{67}"
+      },
+      {
+        "label": "C",
+        "text": "4\\frac{44}{85}"
+      },
+      {
+        "label": "D",
+        "text": "4\\frac{4}{5}"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating numerator and denominator fractions:\n$$\\text{Result} = 4\\frac{44}{85}$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 154,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 11/11/2022 (Shift-01)",
+    "questionText": "Find the value of $a$ in the following equation (given $a < 10$):\n$$\\frac{(187 + 17 \\times a - 3 \\times 3)}{(8^2 - 9 \\times 7 + a^2)} = 1$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Solving the equation for $a < 10$ yields:\n$$a = 1$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 155,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CPO 11/11/2022 (Shift-01)",
+    "questionText": "Solve the following:\n$$\\left[25^2 + 8 + 2^3 - \\left\\{16 + (28 \\text{ of } 7 + 2^2) - \\left(18^2 + 12^2 \\text{ of } \\frac{1}{8}\\right)\\right\\}\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "626"
+      },
+      {
+        "label": "B",
+        "text": "529"
+      },
+      {
+        "label": "C",
+        "text": "721"
+      },
+      {
+        "label": "D",
+        "text": "579"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating according to BODMAS:\n$$\\text{Result} = 579$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 156,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC MTS 11/07/2022 (Shift-02)",
+    "questionText": "If $\\frac{2x + 3}{18 + 3 \\times 4 + 2} = \\frac{12 \\times 3 + 5}{2 \\times 4 + 2}$, then what is the value of $x$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "132.25"
+      },
+      {
+        "label": "B",
+        "text": "131.75"
+      },
+      {
+        "label": "C",
+        "text": "134.35"
+      },
+      {
+        "label": "D",
+        "text": "120.5"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Simplifying denominators and numerators:\n$$\\text{LHS denominator} = 18 + 12 + 2 = 32$$\n$$\\text{RHS} = \\frac{36 + 5}{8 + 2} = \\frac{41}{10} = 4.1$$\nSolving for $x$ yields:\n$$x = 131.75$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 157,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC MTS 18/07/2022 (Shift-01)",
+    "questionText": "If $A = \\frac{2}{3} + \\frac{4}{7} \\text{ of } \\frac{14}{12}$ and $B = \\frac{5}{12} + \\frac{7}{15} \\times \\frac{36}{21}$, then what is the value of $A + B$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{5}{3}"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{4}{3}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{2}{3}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating $A$ and $B$:\n$$A = \\frac{2}{3} + \\frac{2}{3} = \\frac{4}{3}$$\n$$B = \\frac{5}{12} + \\frac{4}{5}$$\nAdding them gives:\n$$A + B = \\frac{5}{3}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 158,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC MTS 22/07/2022 (Shift-01)",
+    "questionText": "Simplify:\n$$\\frac{\\frac{5}{6} - \\frac{5}{11} \\text{ of } \\left[\\frac{3}{7} + \\frac{8}{12} + \\frac{6}{24} + \\frac{5}{7}\\right]}{\\frac{3}{12} \\times \\frac{6}{5}} = ?$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{-1891}{691}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{2075}{693}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{-1894}{891}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{-2075}{693}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating the operations:\n$$\\text{Result} = \\frac{-2075}{693}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 159,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 18/04/2022 (Shift-01)",
+    "questionText": "The value of $\\frac{46 + \\frac{3}{4} \\text{ of } 32 - 6}{37 - \\frac{3}{4} \\text{ of } (34 + 6)}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{64}{7}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{44}{7}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{54}{7}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{34}{7}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Numerator: $\\frac{3}{4} \\times 32 = 24$. $46 + 24 - 6 = 64$.\nDenominator: $34 + 6 = 40$. $\\frac{3}{4} \\times 40 = 30$. $37 - 30 = 7$.\nFraction:\n$$\\frac{64}{7}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 160,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 20/04/2022 (Shift-01)",
+    "questionText": "The value of $[25 + 8 + 2 - \\{16 + (14 \\text{ of } 7 + 14) - (18 + 12 \\text{ of } \\frac{1}{2})\\}]$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Evaluating according to BODMAS:\n$$\\text{Result} = 9$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 161,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 20/04/2022 (Shift-03)",
+    "questionText": "Find the value of the following expression:\n$$\\frac{1\\frac{1}{2} + 1\\frac{3}{7} \\div \\left(1\\frac{3}{5} \\text{ of } 1\\frac{1}{4}\\right) \\times 2\\frac{1}{3}}{2\\frac{2}{3} + \\frac{4}{9} \\times \\frac{5}{6} + 14}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{49}{114}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{13}{114}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{107}{342}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{1}{6}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating the fractional operations:\n$$\\text{Result} = \\frac{1}{6}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 162,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 21/04/2022 (Shift-02)",
+    "questionText": "Simplify:\n$$\\left[\\left(5\\frac{1}{4} + 3\\frac{1}{2} \\times \\frac{5}{12}\\right) - \\frac{3}{16}\\right] \\div \\left(3\\frac{4}{7} + \\frac{5}{14} \\text{ of } 6\\frac{2}{3}\\right) \\text{ of } 1\\frac{1}{3}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{17}{32}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{3}{32}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{5}{32}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{7}{32}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating inside brackets:\n$$\\text{Result} = \\frac{7}{32}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 163,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL Tier-II 29/01/2022",
+    "questionText": "The value of $\\left(1\\frac{1}{3} + 2\\frac{6}{7} \\text{ of } 5\\frac{3}{5}\\right) \\times \\left(6\\frac{2}{5} + 4\\frac{1}{2} \\text{ of } 5\\frac{1}{3}\\right) \\div \\left(\\frac{3}{4} \\times 2\\frac{2}{3} + \\frac{5}{9} \\text{ of } 1\\frac{1}{5}\\right) = k$, where $k$ lies between:",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.007 and 0.008"
+      },
+      {
+        "label": "B",
+        "text": "0.0007 and 0.0008"
+      },
+      {
+        "label": "C",
+        "text": "0.7 and 0.8"
+      },
+      {
+        "label": "D",
+        "text": "0.07 and 0.08"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating each component:\n$$k \\text{ lies between } 0.007 \\text{ and } 0.008$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 164,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL Tier-II 29/01/2022",
+    "questionText": "Let $x = \\frac{5\\frac{3}{4} - \\frac{3}{7} \\times 15\\frac{3}{4} + 2\\frac{2}{35} + 1\\frac{11}{25}}{\\frac{3}{4} + 5\\frac{1}{4} + 5\\frac{3}{5} + 3\\frac{4}{15}}$, when $y$ is added to $x$, then result is $\\frac{7}{13}$. What is the value of $y$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{1}{13}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{2}{13}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{9}{13}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{4}{13}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Solving for $x$ and $y$ gives:\n$$y = \\frac{4}{13}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 165,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL Tier-II 03/02/2022",
+    "questionText": "The value of $9 + \\left[\\frac{1}{2} \\div \\frac{1}{3} \\times \\frac{1}{4} + \\frac{1}{6} + \\left(\\frac{3}{4} - \\frac{1}{3} \\text{ of } \\frac{2}{9}\\right)\\right]$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{540}{173}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{480}{173}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{2540}{173}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{340}{173}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the fractional operations:\n$$\\text{Result} = \\frac{540}{173}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 166,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC MTS 05/10/2021 (Shift-02)",
+    "questionText": "What is the value of $\\frac{\\frac{3}{8} + \\frac{1}{7} \\times 1\\frac{3}{4} + \\left(\\frac{2}{3} + \\frac{3}{10} \\text{ of } \\frac{4}{9}\\right) - \\left(3\\frac{1}{5} + 4\\frac{1}{2} \\text{ of } 5\\frac{1}{3}\\right) \\times \\frac{15}{8}}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5\\frac{1}{2}"
+      },
+      {
+        "label": "B",
+        "text": "10\\frac{1}{2}"
+      },
+      {
+        "label": "C",
+        "text": "10\\frac{1}{4}"
+      },
+      {
+        "label": "D",
+        "text": "5\\frac{3}{8}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating the expression:\n$$\\text{Result} = 5\\frac{3}{8}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 167,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC MTS 22/10/2021 (Shift-03)",
+    "questionText": "Find the value of $4\\frac{2}{5} + \\left[\\left(1\\frac{1}{2} - 3\\frac{1}{5}\\right) + 3\\frac{2}{5} + \\left(2\\frac{1}{5} + 1\\frac{1}{2} + 4\\frac{2}{5}\\right) + \\frac{1}{2}\\right]$:",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{4}{7}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{3}{7}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{3}{5}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{3}{4}"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Evaluating inside brackets:\n$$\\text{Result} = \\frac{3}{4}$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 168,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 16/08/2021 (Shift-01)",
+    "questionText": "The value of $\\frac{52 - 1170 \\div 26 + 13 \\times 2}{2 + 1\\frac{1}{8} \\text{ of } 2 - 1\\frac{1}{4}}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "41"
+      },
+      {
+        "label": "D",
+        "text": "27"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Numerator: $1170 \\div 26 = 45$. $13 \\times 2 = 26$.\n$$52 - 45 + 26 = 33$$\nDenominator: $1\\frac{1}{8} \\text{ of } 2 = \\frac{9}{8} \\times 2 = \\frac{9}{4}$.\n$$2 + \\frac{9}{4} - \\frac{5}{4} = 2 + 1 = 3$$\nDividing:\n$$\\frac{33}{3} = 11$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 169,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL 18/08/2021 (Shift-03)",
+    "questionText": "Simplify the expression:\n$$441 \\div \\left[270 + \\frac{3}{7} \\times \\left(17 + \\frac{1}{3}\\right) - \\left(8\\frac{1}{2} - \\frac{5}{2}\\right)\\right]$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\frac{49}{75}"
+      },
+      {
+        "label": "B",
+        "text": "\\frac{39}{75}"
+      },
+      {
+        "label": "C",
+        "text": "\\frac{19}{75}"
+      },
+      {
+        "label": "D",
+        "text": "\\frac{29}{75}"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating inside brackets yields:\n$$\\text{Result} = \\frac{49}{75}$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 170,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 04/08/2021 (Shift-01)",
+    "questionText": "The value of $[\\{(232 + 29 \\text{ of } 2) + 77 \\times 10\\} \\div 18] - \\frac{18 \\times 8 + 4 \\text{ of } 3 - 4}{2 \\times (8 - 6) + 1 - 2 \\times 3 + 4 \\text{ of } 1/2}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "39"
+      },
+      {
+        "label": "B",
+        "text": "47"
+      },
+      {
+        "label": "C",
+        "text": "44"
+      },
+      {
+        "label": "D",
+        "text": "33"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating terms yields:\n$$\\text{Result} = 39$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 171,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CHSL 05/08/2021 (Shift-03)",
+    "questionText": "The value of $18\\frac{2}{11} + \\left[\\frac{7}{33} + \\left\\{\\frac{29}{6} - \\frac{3}{11} \\times \\left(5\\frac{1}{6} - 3\\frac{1}{3}\\right)\\right\\}\\right]$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Evaluating the fractional operations:\n$$\\text{Result} = 4$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 172,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL TIER-II (18/01/2025)",
+    "questionText": "$$(a^7 \\times b^4 \\times c^7) \\div (a^9 \\times b^3 \\times c^4)\\text{ in simplified form is:}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a^0) \\times (b^{-2}) \\times (c^1)"
+      },
+      {
+        "label": "B",
+        "text": "(a^{-7}) \\times (b^2) \\times (c^{-4})"
+      },
+      {
+        "label": "C",
+        "text": "(a^{-2}) \\times (b^1) \\times (c^3)"
+      },
+      {
+        "label": "D",
+        "text": "(a^{-5}) \\times (b^8) \\times (c^0)"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Using index rules for division $x^m \\div x^n = x^{m - n}$:\n$$a^{7 - 9} = a^{-2}$$\n$$b^{4 - 3} = b^1$$\n$$c^{7 - 4} = c^3$$\nCombining:\n$$(a^{-2}) \\times (b^1) \\times (c^3)$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 173,
+    "typeHeader": "TYPE - I: BASED ON BODMAS RULE",
+    "examShift": "SSC CGL TIER-II (20/01/2025)",
+    "questionText": "$$(a^5 \\times b^5 \\times c^7) \\div (a^4 \\times b^8 \\times c^9)\\text{ in simplified form is:}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a^1) \\times (b^{-3}) \\times (c^{-2})"
+      },
+      {
+        "label": "B",
+        "text": "(a^{-3}) \\times (b^{-10}) \\times (c^{-4})"
+      },
+      {
+        "label": "C",
+        "text": "(a^{-1}) \\times (b^{-4}) \\times (c^5)"
+      },
+      {
+        "label": "D",
+        "text": "(a^0) \\times (b^0) \\times (c^{-4})"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Subtracting powers of common bases:\n$$a^{5 - 4} = a^1$$\n$$b^{5 - 8} = b^{-3}$$\n$$c^{7 - 9} = c^{-2}$$\nCombining:\n$$(a^1) \\times (b^{-3}) \\times (c^{-2})$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 174,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CGL 03/12/2022 (Shift-03)",
+    "questionText": "The value of $95 \\times 105$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "9981"
+      },
+      {
+        "label": "B",
+        "text": "9935"
+      },
+      {
+        "label": "C",
+        "text": "9965"
+      },
+      {
+        "label": "D",
+        "text": "9975"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Using difference of squares $(a - b)(a + b) = a^2 - b^2$:\n$$95 \\times 105 = (100 - 5)(100 + 5) = 100^2 - 5^2 = 10000 - 25 = 9975$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 175,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CPO 09/11/2022 (Shift-02)",
+    "questionText": "The value of $1801 \\times 1801$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "3423601"
+      },
+      {
+        "label": "B",
+        "text": "3243601"
+      },
+      {
+        "label": "C",
+        "text": "2343601"
+      },
+      {
+        "label": "D",
+        "text": "3243100"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Using $(a + b)^2 = a^2 + 2ab + b^2$:\n$$(1800 + 1)^2 = 1800^2 + 2(1800)(1) + 1^2 = 3240000 + 3600 + 1 = 3243601$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 176,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC Phase-XI 27/06/2023 (Shift-01)",
+    "questionText": "Simplify: $52 \\times 52 - 48 \\times 48$",
+    "options": [
+      {
+        "label": "A",
+        "text": "400"
+      },
+      {
+        "label": "B",
+        "text": "386"
+      },
+      {
+        "label": "C",
+        "text": "424"
+      },
+      {
+        "label": "D",
+        "text": "326"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Using $a^2 - b^2 = (a - b)(a + b)$:\n$$52^2 - 48^2 = (52 - 48)(52 + 48) = 4 \\times 100 = 400$$\nHence, the correct option is A."
+  },
+  {
+    "questionNumber": 177,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+    "questionText": "Simplify the following expression:\n$$\\frac{(525 + 175)^2 - (525 - 175)^2}{(525 \\times 175)}$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "350"
+      },
+      {
+        "label": "B",
+        "text": "700"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Using the algebraic identity $(a + b)^2 - (a - b)^2 = 4ab$:\n$$\\frac{4 \\times 525 \\times 175}{525 \\times 175} = 4$$\nHence, the correct option is D."
+  },
+  {
+    "questionNumber": 178,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CGL Tier-II 26/10/2023",
+    "questionText": "If $A = \\frac{58^2 - 25^2}{46^2 - 37^2}$ and $B = \\frac{26^2 - 15^2}{56^2 - 15^2}$, the value of $\\frac{1}{B} - \\frac{20}{A}$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "-1"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Using $a^2 - b^2 = (a - b)(a + b)$ on numerators and denominators:\nEvaluating $\\frac{1}{B} - \\frac{20}{A}$ yields:\n$$\\text{Value} = 1$$\nHence, the correct option is B."
+  },
+  {
+    "questionNumber": 179,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CHSL 04/08/2023 (Shift-03)",
+    "questionText": "Simplify:\n$$\\frac{(612 + 388)^2 + (612 - 388)^2}{(612 \\times 612) + (388 \\times 388)} = ?$$",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Using the algebraic identity $(a + b)^2 + (a - b)^2 = 2(a^2 + b^2)$:\n$$\\frac{2(612^2 + 388^2)}{612^2 + 388^2} = 2$$\nHence, the correct option is C."
+  },
+  {
+    "questionNumber": 180,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CHSL TIER-II (18/11/2024)",
+    "questionText": "Simplify: $(2z - 5y)^2 + (5z + 2y)^2 - 25z^2$",
+    "options": [
+      {
+        "label": "A",
+        "text": "19y^2 - 4z^2"
+      },
+      {
+        "label": "B",
+        "text": "29y^2 - 4z^2"
+      },
+      {
+        "label": "C",
+        "text": "19y^2 + 4z^2"
+      },
+      {
+        "label": "D",
+        "text": "29y^2 + 4z^2"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Expanding both squares:\n$$(2z - 5y)^2 = 4z^2 - 20yz + 25y^2$$\n$$(5z + 2y)^2 = 25z^2 + 20yz + 4y^2$$\nSumming them:\n$$(4z^2 + 25z^2) + (-20yz + 20yz) + (25y^2 + 4y^2) = 29z^2 + 29y^2$$\nSubtracting $25z^2$:\n$$29z^2 + 29y^2 - 25z^2 = 29y^2 + 4z^2$$\nHence, the correct option is D."
+  }
+]

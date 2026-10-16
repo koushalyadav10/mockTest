@@ -1,0 +1,159 @@
+# Builder script for Questions 181 to 269
+import json
+
+questions = []
+
+# Q181 - Q190
+questions.append({
+    "questionNumber": 181,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CGL 19/09/2024 (Shift-03)",
+    "questionText": "Simplify: $\\frac{(25)^4 + 1250 + 1 - (25)^2}{(25)^2 + 25 + 1}$",
+    "options": [
+        {"label": "A", "text": "602"},
+        {"label": "B", "text": "601"},
+        {"label": "C", "text": "603"},
+        {"label": "D", "text": "604"}
+    ],
+    "correctOption": "B",
+    "solution": "Notice that $1250 = 2 \\times 625 = 2 \\times (25)^2$.\nThus, the numerator can be rewritten as:\n$$((25)^2)^2 + 2(25)^2 + 1 - (25)^2 = ((25)^2 + 1)^2 - (25)^2$$\nUsing the identity $a^2 - b^2 = (a - b)(a + b)$:\n$$= ((25)^2 + 1 - 25)((25)^2 + 1 + 25) = ((25)^2 - 25 + 1)((25)^2 + 25 + 1)$$\nDividing by the denominator $((25)^2 + 25 + 1)$:\n$$\\frac{((25)^2 - 25 + 1)((25)^2 + 25 + 1)}{(25)^2 + 25 + 1} = (25)^2 - 25 + 1 = 625 - 25 + 1 = 601$$\nHence, the correct option is B."
+})
+
+questions.append({
+    "questionNumber": 182,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC Phase-XII 20/06/2024 (Shift-03)",
+    "questionText": "Simplify the following expression:\n$$\\frac{0.7^2 + (0.4 + 0.2)(0.7) + (0.4 \\times 0.2)}{(0.7 + 0.4)}$$",
+    "options": [
+        {"label": "A", "text": "0.9"},
+        {"label": "B", "text": "0.7"},
+        {"label": "C", "text": "0.3"},
+        {"label": "D", "text": "0.4"}
+    ],
+    "correctOption": "A",
+    "solution": "The numerator is of the form $x^2 + (a + b)x + ab = (x + a)(x + b)$, where $x = 0.7$, $a = 0.4$, and $b = 0.2$.\nTherefore:\n$$\\text{Numerator} = (0.7 + 0.4)(0.7 + 0.2)$$\nDividing by $(0.7 + 0.4)$:\n$$\\frac{(0.7 + 0.4)(0.7 + 0.2)}{(0.7 + 0.4)} = 0.7 + 0.2 = 0.9$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 183,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC Phase-XII 26/06/2024 (Shift-04)",
+    "questionText": "Simplify the following expression:\n$$\\frac{((32)^4 - 1)}{33 \\times 31 \\times (2^{10} + 1)}$$",
+    "options": [
+        {"label": "A", "text": "2"},
+        {"label": "B", "text": "1"},
+        {"label": "C", "text": "-2"},
+        {"label": "D", "text": "-1"}
+    ],
+    "correctOption": "B",
+    "solution": "We know $32 = 2^5$, so $(32)^4 = (2^5)^4 = 2^{20} = (2^{10})^2$.\nUsing the identity $a^2 - b^2 = (a - b)(a + b)$:\n$$(32)^4 - 1 = (2^{10})^2 - 1 = (2^{10} - 1)(2^{10} + 1)$$\nNow expand $2^{10} - 1 = (2^5)^2 - 1 = 32^2 - 1 = (32 - 1)(32 + 1) = 31 \\times 33$.\nThus:\n$$\\text{Numerator} = 31 \\times 33 \\times (2^{10} + 1)$$\nDividing by the denominator $33 \\times 31 \\times (2^{10} + 1)$:\n$$\\frac{31 \\times 33 \\times (2^{10} + 1)}{33 \\times 31 \\times (2^{10} + 1)} = 1$$\nHence, the correct option is B."
+})
+
+questions.append({
+    "questionNumber": 184,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+    "questionText": "The value of $\\frac{(157 \\times 157) + (157 \\times 133) + (133 \\times 133)}{(157 \\times 157 \\times 157) - (133 \\times 133 \\times 133)}$ is:",
+    "options": [
+        {"label": "A", "text": "24"},
+        {"label": "B", "text": "\\frac{1}{290}"},
+        {"label": "C", "text": "290"},
+        {"label": "D", "text": "\\frac{1}{24}"}
+    ],
+    "correctOption": "D",
+    "solution": "Let $a = 157$ and $b = 133$.\nThe given expression is:\n$$\\frac{a^2 + ab + b^2}{a^3 - b^3}$$\nUsing the algebraic identity $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$:\n$$\\frac{a^2 + ab + b^2}{(a - b)(a^2 + ab + b^2)} = \\frac{1}{a - b}$$\nSubstituting $a = 157$ and $b = 133$:\n$$\\frac{1}{157 - 133} = \\frac{1}{24}$$\nHence, the correct option is D."
+})
+
+questions.append({
+    "questionNumber": 185,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CGL 25/07/2023 (Shift-02)",
+    "questionText": "Simplify $\\frac{256x^4 - 16y^4}{(80x^2 - 20y^2)(16x^2 + 4y^2)}$",
+    "options": [
+        {"label": "A", "text": "5"},
+        {"label": "B", "text": "\\frac{1}{20}"},
+        {"label": "C", "text": "\\frac{1}{5}"},
+        {"label": "D", "text": "\\frac{2}{5}"}
+    ],
+    "correctOption": "C",
+    "solution": "Factorize the numerator:\n$$256x^4 - 16y^4 = 16(16x^4 - y^4) = 16(4x^2 - y^2)(4x^2 + y^2)$$\nFactorize the denominator:\n$$(80x^2 - 20y^2)(16x^2 + 4y^2) = 20(4x^2 - y^2) \\times 4(4x^2 + y^2) = 80(4x^2 - y^2)(4x^2 + y^2)$$\nDividing numerator by denominator:\n$$\\frac{16(4x^2 - y^2)(4x^2 + y^2)}{80(4x^2 - y^2)(4x^2 + y^2)} = \\frac{16}{80} = \\frac{1}{5}$$\nHence, the correct option is C."
+})
+
+questions.append({
+    "questionNumber": 186,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CGL 25/07/2023 (Shift-04)",
+    "questionText": "Simplify the expression $\\frac{s^2 + t^2 + 2st - u^2}{s^2 - t^2 - 2tu - u^2}$, provided $(s + t + u) \\neq 0$.",
+    "options": [
+        {"label": "A", "text": "\\frac{s + t - u}{s - t - u}"},
+        {"label": "B", "text": "\\frac{s + t + u}{s - t + u}"},
+        {"label": "C", "text": "\\frac{s - t - u}{s + t - u}"},
+        {"label": "D", "text": "\\frac{s - t + u}{s + t + u}"}
+    ],
+    "correctOption": "A",
+    "solution": "Group terms into perfect squares:\nNumerator:\n$$s^2 + 2st + t^2 - u^2 = (s + t)^2 - u^2 = (s + t + u)(s + t - u)$$\nDenominator:\n$$s^2 - (t^2 + 2tu + u^2) = s^2 - (t + u)^2 = (s - (t + u))(s + (t + u)) = (s - t - u)(s + t + u)$$\nDividing numerator by denominator:\n$$\\frac{(s + t + u)(s + t - u)}{(s - t - u)(s + t + u)} = \\frac{s + t - u}{s - t - u}$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 187,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CGL TIER-II (18/01/2025)",
+    "questionText": "Simplify $(5z - 12y)^2 + (12z + 5y)^2 - 144z^2$",
+    "options": [
+        {"label": "A", "text": "25z^2 + 169y^2"},
+        {"label": "B", "text": "23z^2 + 174y^2"},
+        {"label": "C", "text": "30z^2 + 170y^2"},
+        {"label": "D", "text": "23z^2 + 177y^2"}
+    ],
+    "correctOption": "A",
+    "solution": "Expand both squared binomials:\n$$(5z - 12y)^2 = 25z^2 - 120yz + 144y^2$$\n$$(12z + 5y)^2 = 144z^2 + 120yz + 25y^2$$\nAdding them cancels the cross terms:\n$$(5z - 12y)^2 + (12z + 5y)^2 = 169z^2 + 169y^2$$\nSubtracting $144z^2$:\n$$169z^2 + 169y^2 - 144z^2 = 25z^2 + 169y^2$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 188,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CGL TIER-II (20/01/2025)",
+    "questionText": "Simplify $(5z - 7y)^2 + (7z + 5y)^2 - 49z^2$",
+    "options": [
+        {"label": "A", "text": "25z^2 + 74y^2"},
+        {"label": "B", "text": "35z^2 + 70y^2"},
+        {"label": "C", "text": "26z^2 + 82y^2"},
+        {"label": "D", "text": "30z^2 + 83y^2"}
+    ],
+    "correctOption": "A",
+    "solution": "Expand the squared binomials:\n$$(5z - 7y)^2 = 25z^2 - 70yz + 49y^2$$\n$$(7z + 5y)^2 = 49z^2 + 70yz + 25y^2$$\nAdding them:\n$$(5z - 7y)^2 + (7z + 5y)^2 = (25 + 49)z^2 + (49 + 25)y^2 = 74z^2 + 74y^2$$\nSubtracting $49z^2$:\n$$74z^2 + 74y^2 - 49z^2 = 25z^2 + 74y^2$$\nHence, the correct option is A."
+})
+
+questions.append({
+    "questionNumber": 189,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-04)",
+    "questionText": "Simplify the given expression.\n$$\\frac{0.09 \\times 0.09 + 0.04 \\times 0.04 + 0.16 \\times 0.16 + 2 \\times 0.09 \\times 0.04 + 2 \\times 0.04 \\times 0.16 + 2 \\times 0.09 \\times 0.16}{0.3 \\times 0.3 + 0.2 \\times 0.2 + 0.4 \\times 0.4}$$",
+    "options": [
+        {"label": "A", "text": "0.38"},
+        {"label": "B", "text": "0.24"},
+        {"label": "C", "text": "0.32"},
+        {"label": "D", "text": "0.29"}
+    ],
+    "correctOption": "D",
+    "solution": "Let $a = 0.09$, $b = 0.04$, and $c = 0.16$.\nThe numerator is of the form:\n$$a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = (a + b + c)^2$$\nHere, $a + b + c = 0.09 + 0.04 + 0.16 = 0.29$.\nSo $\\text{Numerator} = (0.29)^2$.\nThe denominator is:\n$$0.3^2 + 0.2^2 + 0.4^2 = 0.09 + 0.04 + 0.16 = 0.29$$\nTherefore, the expression evaluates to:\n$$\\frac{(0.29)^2}{0.29} = 0.29$$\nHence, the correct option is D."
+})
+
+questions.append({
+    "questionNumber": 190,
+    "typeHeader": "TYPE - II: BASED ON ALGEBRAIC FORMULAE",
+    "examShift": "SSC CHSL 03/08/2023 (Shift-01)",
+    "questionText": "Simplify the following expression.\n$$0.01 + 0.68 \\times 0.68 + 0.22 \\times 0.22 + 0.044 + 0.136 + 0.44 \\times 0.68 = ?$$",
+    "options": [
+        {"label": "A", "text": "0.69"},
+        {"label": "B", "text": "1"},
+        {"label": "C", "text": "0.8"},
+        {"label": "D", "text": "0.9"}
+    ],
+    "correctOption": "B",
+    "solution": "Notice that:\n$$0.01 = (0.1)^2$$\n$$0.68 \\times 0.68 = (0.68)^2$$\n$$0.22 \\times 0.22 = (0.22)^2$$\n$$0.44 \\times 0.68 = 2 \\times 0.22 \\times 0.68$$\n$$0.044 = 2 \\times 0.22 \\times 0.1$$\n$$0.136 = 2 \\times 0.68 \\times 0.1$$\nThis matches $(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$ with $a = 0.68$, $b = 0.22$, and $c = 0.1$:\n$$(0.68 + 0.22 + 0.1)^2 = (1.0)^2 = 1$$\nHence, the correct option is B."
+})
+
+with open('scripts/simplification_extracted/part3_q181_190.json', 'w') as f:
+    json.dump(questions, f, indent=2)
+print("Saved Q181-Q190")

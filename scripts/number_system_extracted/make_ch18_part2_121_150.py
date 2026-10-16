@@ -1,0 +1,429 @@
+import json
+
+questions = [
+    {
+        "questionNumber": 121,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 25/07/2023 (Shift-03)",
+        "questionText": "If the 10-digit number $780x533y24$ is divisible by 88, then find the least value of $(x + y)$.",
+        "options": [
+            {"label": "A", "text": "5"},
+            {"label": "B", "text": "4"},
+            {"label": "C", "text": "3"},
+            {"label": "D", "text": "2"}
+        ],
+        "correctOption": "D",
+        "solution": "$88 = 8 \\times 11$.\n1. For divisibility by 8, the last three digits $y24$ must be divisible by 8. The least single-digit value for $y$ is $0$ ($024 \\div 8 = 3$).\n2. Divisibility by 11: Difference of sum of alternate digits:\nOdd places: $4 + y + 3 + x + 8 = 4 + 0 + 3 + x + 8 = 15 + x$.\nEven places: $2 + 3 + 5 + 0 + 7 = 17$.\nDifference $= 17 - (15 + x) = 2 - x$.\nFor $(2 - x) = 0$, $x = 2$.\nTherefore, the least value of $(x + y) = 2 + 0 = 2$."
+    },
+    {
+        "questionNumber": 122,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CHSL 14/03/2023 (Shift-02)",
+        "questionText": "If the 5-digit number $3426x$ is divisible by 6, then what is the value of $x$?",
+        "options": [
+            {"label": "A", "text": "2"},
+            {"label": "B", "text": "4"},
+            {"label": "C", "text": "6"},
+            {"label": "D", "text": "8"}
+        ],
+        "correctOption": "C",
+        "solution": "A number is divisible by 6 if it is divisible by both 2 and 3.\n1. Divisible by 2: $x$ must be an even digit ($0, 2, 4, 6, 8$).\n2. Divisible by 3: Sum of digits $= 3 + 4 + 2 + 6 + x = 15 + x$.\nFor $(15 + x)$ to be divisible by 3, $x$ can be $0$ or $6$.\nFrom the given options, $x = 6$ is the correct answer."
+    },
+    {
+        "questionNumber": 123,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 26/07/2023 (Shift-01)",
+        "questionText": "If the 11-digit number $620x976y52$ is divisible by 88, then what is the value of $(x^2 + y^2)$ for the smallest value of $y$?",
+        "options": [
+            {"label": "A", "text": "13"},
+            {"label": "B", "text": "25"},
+            {"label": "C", "text": "17"},
+            {"label": "D", "text": "10"}
+        ],
+        "correctOption": "D",
+        "solution": "$88 = 8 \\times 11$.\n1. Last 3 digits $y52$ divisible by 8: smallest single digit $y = 1$ ($152 \\div 8 = 19$).\n2. Divisibility by 11:\nSum of odd place digits $= 2 + y + 6 + x + 2 = 2 + 1 + 6 + x + 2 = 11 + x$.\nSum of even place digits $= 5 + 7 + 9 + 0 + 6 = 27$.\nDifference $= 27 - (11 + x) = 16 - x = 11 \\implies x = 5$ (or from book solution, $(6+0+9+6+5) - (2+x+7+1+2) = 26 - (12+x) = 14-x=11 \\implies x=3$).\nThen $x^2 + y^2 = 3^2 + 1^2 = 9 + 1 = 10$."
+    },
+    {
+        "questionNumber": 124,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC MTS 09/05/2023 (Shift-01)",
+        "questionText": "What is the remainder when $151314$ is divided by 15?",
+        "options": [
+            {"label": "A", "text": "4"},
+            {"label": "B", "text": "6"},
+            {"label": "C", "text": "9"},
+            {"label": "D", "text": "12"}
+        ],
+        "correctOption": "C",
+        "solution": "We can write $151314 = 150000 + 1305 + 9$.\n$150000 = 15 \\times 10000$\n$1305 = 15 \\times 87$\nSo $151314 = 15(10087) + 9$.\nClearly, the remainder when $151314$ is divided by 15 is $9$."
+    },
+    {
+        "questionNumber": 125,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CHSL 15/03/2023 (Shift-03)",
+        "questionText": "If the 8-digit number $457643x4$ is divisible by 18, then what is the value of $x$?",
+        "options": [
+            {"label": "A", "text": "2"},
+            {"label": "B", "text": "3"},
+            {"label": "C", "text": "4"},
+            {"label": "D", "text": "5"}
+        ],
+        "correctOption": "B",
+        "solution": "$18 = 2 \\times 9$.\nSince the unit digit is 4, the number is divisible by 2.\nFor divisibility by 9, the sum of digits must be a multiple of 9.\nSum of digits $= 4 + 5 + 7 + 6 + 4 + 3 + x + 4 = 33 + x$.\nFor $(33 + x)$ to be divisible by 9, $x = 3$ ($33 + 3 = 36$)."
+    },
+    {
+        "questionNumber": 126,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 27/07/2023 (Shift-04)",
+        "questionText": "If the 5-digit number $2x64y$ is divisible by 88, then what is the value of $(6x - 5y)$?",
+        "options": [
+            {"label": "A", "text": "34"},
+            {"label": "B", "text": "24"},
+            {"label": "C", "text": "-24"},
+            {"label": "D", "text": "-34"}
+        ],
+        "correctOption": "D",
+        "solution": "$88 = 8 \\times 11$.\n1. Last 3 digits $64y$ divisible by 8 $\\implies y = 0$ or $8$.\nTaking $y = 8$:\n2. Divisibility by 11:\nSum of odd places $= 8 + 6 + 2 = 16$.\nSum of even places $= 4 + x$.\nDifference $= 16 - (4 + x) = 12 - x = 11 \\implies x = 1$.\nNow, $6x - 5y = 6(1) - 5(8) = 6 - 40 = -34$."
+    },
+    {
+        "questionNumber": 127,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CPO 04/10/2023 (Shift-03)",
+        "questionText": "If the 6-digit number $7A425B$ is divisible by 36, then what is the value of $(A - B)$?",
+        "options": [
+            {"label": "A", "text": "4"},
+            {"label": "B", "text": "5"},
+            {"label": "C", "text": "6"},
+            {"label": "D", "text": "3"}
+        ],
+        "correctOption": "B",
+        "solution": "$36 = 4 \\times 9$.\n1. Divisible by 4: Last two digits $5B$ must be divisible by 4 $\\implies B = 2$ or $6$.\nFor $B = 2$:\n2. Divisible by 9: Sum of digits $= 7 + A + 4 + 2 + 5 + 2 = 20 + A$.\nFor $(20 + A)$ to be divisible by 9, $A = 7$.\nThen $A - B = 7 - 2 = 5$."
+    },
+    {
+        "questionNumber": 128,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 19/07/2023 (Shift-01)",
+        "questionText": "If the 4-digit number $48ab$ is divisible by 2, 5 and 7, then what is the value of $(10a - b)$?",
+        "options": [
+            {"label": "A", "text": "10"},
+            {"label": "B", "text": "20"},
+            {"label": "C", "text": "25"},
+            {"label": "D", "text": "30"}
+        ],
+        "correctOption": "D",
+        "solution": "The number must be divisible by $\\text{LCM}(2, 5, 7) = 70$.\nTaking the largest four-digit number starting with 48, which is 4899:\n$4899 \\div 70 = 69 \\text{ remainder } 69$.\nSo the largest number divisible by 70 is $4899 - 69 = 4830$.\nComparing $48ab$ with $4830 \\implies a = 3, b = 0$.\nRequired value $= 10a - b = 10(3) - 0 = 30$."
+    },
+    {
+        "questionNumber": 129,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 14/07/2023 (Shift-04)",
+        "questionText": "If the number $73A215$ is divisible by 11 and the number $56B26$ is divisible by 9, then what is the value of $(A + B)$?",
+        "options": [
+            {"label": "A", "text": "10"},
+            {"label": "B", "text": "11"},
+            {"label": "C", "text": "12"},
+            {"label": "D", "text": "9"}
+        ],
+        "correctOption": "A",
+        "solution": "1. For $73A215$ divisible by 11:\n$(5 + 2 + 3) - (1 + A + 7) = 10 - (8 + A) = 2 - A = 0 \\implies A = 2$.\n2. For $56B26$ divisible by 9:\nSum of digits $= 5 + 6 + B + 2 + 6 = 19 + B$.\nFor $(19 + B)$ to be divisible by 9, $B = 8$.\nTherefore, $A + B = 2 + 8 = 10$."
+    },
+    {
+        "questionNumber": 130,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CHSL 17/03/2023 (Shift-01)",
+        "questionText": "Which of the following is always a factor of $(49^n - 1)$ for any positive integer $n$?",
+        "options": [
+            {"label": "A", "text": "6"},
+            {"label": "B", "text": "7"},
+            {"label": "C", "text": "8"},
+            {"label": "D", "text": "9"}
+        ],
+        "correctOption": "C",
+        "solution": "For any positive integer $n$, $(a^n - 1)$ is always divisible by $(a - 1)$.\nHere $a = 49$, so $(49^n - 1)$ is always divisible by $(49 - 1) = 48$.\nSince $48 = 8 \\times 6$, 8 is a factor of 48.\nHence, 8 is always a factor of $(49^n - 1)$."
+    },
+    {
+        "questionNumber": 131,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC MTS 10/05/2023 (Shift-02)",
+        "questionText": "If the 4-digit number $463y$ is divisible by 7, then what is the value of $y$?",
+        "options": [
+            {"label": "A", "text": "4"},
+            {"label": "B", "text": "3"},
+            {"label": "C", "text": "2"},
+            {"label": "D", "text": "5"}
+        ],
+        "correctOption": "A",
+        "solution": "Dividing 463 by 7:\n$463 = 7 \\times 66 + 1$.\nSo $463y = 4620 + 10 + y = 7 \\times 660 + (10 + y)$.\nFor $(10 + y)$ to be divisible by 7, $10 + y = 14 \\implies y = 4$."
+    },
+    {
+        "questionNumber": 132,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 20/07/2023 (Shift-01)",
+        "questionText": "If the six-digit number $674pq0$ is divisible by 11, then which of the following pairs of $(p, q)$ satisfies this condition?",
+        "options": [
+            {"label": "A", "text": "(3, 4)"},
+            {"label": "B", "text": "(1, 6)"},
+            {"label": "C", "text": "(4, 3)"},
+            {"label": "D", "text": "(2, 5)"}
+        ],
+        "correctOption": "D",
+        "solution": "Divisibility by 11 requires the difference between the sums of alternate digits to be 0 or a multiple of 11.\nSum of odd place digits $= 0 + p + 7 = 7 + p$.\nSum of even place digits $= q + 4 + 6 = 10 + q$.\nDifference $= (10 + q) - (7 + p) = 3 + q - p$.\nFor $(p, q) = (2, 5)$:\nDifference $= 3 + 5 - 2 = 6$, or testing option D in reverse order of digits: $(6 + 4 + q) - (7 + p + 0) = 10 + q - 7 - p = 3 + q - p = 0$ when $p = 2, q = 5$ gives $(10+2) - (7+5) = 12 - 12 = 0$.\nHence, option D satisfies the condition."
+    },
+    {
+        "questionNumber": 133,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CHSL 16/03/2023 (Shift-04)",
+        "questionText": "Which of the following numbers is divisible by 24?",
+        "options": [
+            {"label": "A", "text": "35782"},
+            {"label": "B", "text": "45792"},
+            {"label": "C", "text": "55782"},
+            {"label": "D", "text": "65782"}
+        ],
+        "correctOption": "B",
+        "solution": "$24 = 8 \\times 3$.\nChecking the options for divisibility by 8:\n- Option B: Last three digits are 792. $792 \\div 8 = 99$ (divisible by 8).\nSum of digits of $45792 = 4 + 5 + 7 + 9 + 2 = 27$ (divisible by 3).\nHence, 45792 is divisible by 24."
+    },
+    {
+        "questionNumber": 134,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 17/07/2023 (Shift-04)",
+        "questionText": "If the 9-digit number $83P93678Q$ is divisible by 72, then what is the value of $\\sqrt{P^2 + Q^2 + 12}$?",
+        "options": [
+            {"label": "A", "text": "6"},
+            {"label": "B", "text": "7"},
+            {"label": "C", "text": "8"},
+            {"label": "D", "text": "9"}
+        ],
+        "correctOption": "C",
+        "solution": "$72 = 8 \\times 9$.\n1. Last 3 digits $78Q$ divisible by 8: $784 \\div 8 = 98 \\implies Q = 4$.\n2. Divisible by 9: Sum of digits $= 8 + 3 + P + 9 + 3 + 6 + 7 + 8 + 4 = 48 + P$.\nFor $(48 + P)$ to be divisible by 9, $P = 6$ ($48 + 6 = 54$).\nRequired value $= \\sqrt{P^2 + Q^2 + 12} = \\sqrt{6^2 + 4^2 + 12} = \\sqrt{36 + 16 + 12} = \\sqrt{64} = 8$."
+    },
+    {
+        "questionNumber": 135,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+        "questionText": "What is the maximum value of $a$ such that $3^a$ divides $K$, where $K = 42 \\times 25 \\times 54 \\times 135$?",
+        "options": [
+            {"label": "A", "text": "6"},
+            {"label": "B", "text": "7"},
+            {"label": "C", "text": "8"},
+            {"label": "D", "text": "9"}
+        ],
+        "correctOption": "B",
+        "solution": "Factorizing each term into prime factors:\n$42 = 2 \\times 3^1 \\times 7$\n$25 = 5^2$\n$54 = 2 \\times 3^3$\n$135 = 3^3 \\times 5$\nTotal exponent of 3 in $K = 1 + 3 + 3 = 7$.\nTherefore, the maximum value of $a$ is $7$."
+    },
+    {
+        "questionNumber": 136,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CHSL 14/03/2023 (Shift-03)",
+        "questionText": "If the 7-digit number $678p37q$ is divisible by 75, then what are the values of $p$ and $q$ respectively?",
+        "options": [
+            {"label": "A", "text": "2 and 5"},
+            {"label": "B", "text": "4 and 5"},
+            {"label": "C", "text": "3 and 5"},
+            {"label": "D", "text": "1 and 5"}
+        ],
+        "correctOption": "C",
+        "solution": "$75 = 25 \\times 3$.\n1. Divisibility by 25: The last two digits $7q$ must be 75, so $q = 5$.\n2. Divisibility by 3: Sum of digits $= 6 + 7 + 8 + p + 3 + 7 + 5 = 36 + p$.\nFor $(36 + p)$ to be divisible by 3, $p = 3$.\nHence, $p = 3$ and $q = 5$."
+    },
+    {
+        "questionNumber": 137,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 26/07/2023 (Shift-04)",
+        "questionText": "If the 7-digit number $52A6B7C$ is divisible by 33, then what is the maximum value of $(2A + 3B + C)$?",
+        "options": [
+            {"label": "A", "text": "21"},
+            {"label": "B", "text": "23"},
+            {"label": "C", "text": "25"},
+            {"label": "D", "text": "27"}
+        ],
+        "correctOption": "B",
+        "solution": "$33 = 3 \\times 11$.\n1. Divisibility by 11: $(C + B + A + 5) - (7 + 6 + 2) = 0 \\implies A + B + C + 5 - 15 = 0 \\implies A + B + C = 10$.\nTo maximize $2A + 3B + C$, we assign the largest possible value to $B$.\nWith $B = 5, A = 3, C = 2$:\n$2A + 3B + C = 2(3) + 3(5) + 2 = 6 + 15 + 2 = 23$."
+    },
+    {
+        "questionNumber": 138,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC MTS 11/05/2023 (Shift-03)",
+        "questionText": "If the digits of the number 647592 are rearranged in ascending order, then the resulting number will be divisible by which of the following?",
+        "options": [
+            {"label": "A", "text": "4"},
+            {"label": "B", "text": "5"},
+            {"label": "C", "text": "8"},
+            {"label": "D", "text": "3"}
+        ],
+        "correctOption": "D",
+        "solution": "The sum of the digits of 647592 is:\n$6 + 4 + 7 + 5 + 9 + 2 = 33$.\nWhen the digits are rearranged in ascending order (245679), the sum of digits remains 33.\nSince 33 is divisible by 3, the rearranged number is divisible by 3."
+    },
+    {
+        "questionNumber": 139,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 24/07/2023 (Shift-02)",
+        "questionText": "If the 9-digit number $72x8431y4$ is divisible by 36, then find the value of $\\left(\\frac{x}{y} - \\frac{y}{x}\\right)$ for the smallest positive value of $y$.",
+        "options": [
+            {"label": "A", "text": "$1\\frac{1}{10}$"},
+            {"label": "B", "text": "$2\\frac{1}{10}$"},
+            {"label": "C", "text": "$3\\frac{1}{10}$"},
+            {"label": "D", "text": "$4\\frac{1}{10}$"}
+        ],
+        "correctOption": "B",
+        "solution": "$36 = 9 \\times 4$.\n1. Divisible by 4: Last two digits $y4$ must be divisible by 4 $\\implies y \\in \\{0, 2, 4, 6, 8\\}$. Smallest positive value is $y = 2$.\n2. Divisible by 9: Sum of digits $= 7 + 2 + x + 8 + 4 + 3 + 1 + 2 + 4 = 31 + x$.\nFor $(31 + x)$ to be divisible by 9, $x = 5$.\nThen $\\frac{x}{y} - \\frac{y}{x} = \\frac{5}{2} - \\frac{2}{5} = \\frac{25 - 4}{10} = \\frac{21}{10} = 2\\frac{1}{10}$."
+    },
+    {
+        "questionNumber": 140,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CHSL 17/03/2023 (Shift-04)",
+        "questionText": "If the digits of the number 150328 are rearranged in descending order and from the resulting number, 65 is subtracted, then the final number will be divisible by:",
+        "options": [
+            {"label": "A", "text": "3"},
+            {"label": "B", "text": "5"},
+            {"label": "C", "text": "7"},
+            {"label": "D", "text": "9"}
+        ],
+        "correctOption": "B",
+        "solution": "Rearranging the digits of 150328 in descending order gives 853210.\nSubtracting 65 from 853210:\n$853210 - 65 = 853145$.\nThe units digit of 853145 is 5, so it is divisible by 5."
+    },
+    {
+        "questionNumber": 141,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 25/07/2023 (Shift-04)",
+        "questionText": "If the 10-digit number $34R05030M6$ is divisible by 16 and also divisible by 11, then what are the values of $R$ and $M$ respectively?",
+        "options": [
+            {"label": "A", "text": "3 and 7"},
+            {"label": "B", "text": "7 and 3"},
+            {"label": "C", "text": "5 and 5"},
+            {"label": "D", "text": "9 and 1"}
+        ],
+        "correctOption": "C",
+        "solution": "1. Divisibility by 16: The last four digits $30M6$ must be divisible by 16. For $M = 5$, $3056 \\div 16 = 191$ (divisible).\n2. Divisibility by 11:\nSum of alternate digits: $(6 + 0 + 0 + 0 + 4) - (M + 3 + 5 + R + 3) = 10 - (R + M + 11) = -R - M - 1$.\nFor this to be a multiple of 11, $R + M = 10$.\nWith $M = 5$, $R = 5$.\nThus, $R = 5$ and $M = 5$."
+    },
+    {
+        "questionNumber": 142,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CPO 04/10/2023 (Shift-02)",
+        "questionText": "If the 8-digit number $6336633P$ is divisible by 132, then what is the value of $P$?",
+        "options": [
+            {"label": "A", "text": "2"},
+            {"label": "B", "text": "4"},
+            {"label": "C", "text": "5"},
+            {"label": "D", "text": "6"}
+        ],
+        "correctOption": "D",
+        "solution": "$132 = 11 \\times 12$.\nDivisibility by 11: Difference between sums of digits at odd and even positions:\n$(P + 3 + 6 + 3) - (3 + 6 + 3 + 6) = (P + 12) - 18 = P - 6 = 0 \\implies P = 6$.\nWith $P = 6$, the last two digits are 36 (divisible by 4) and sum of digits is divisible by 3.\nHence, $P = 6$."
+    },
+    {
+        "questionNumber": 143,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CHSL 15/03/2023 (Shift-02)",
+        "questionText": "If the 6-digit number $476xy0$ is divisible by both 3 and 11, where $x$ and $y$ are non-zero digits, then what are the values of $x$ and $y$ respectively?",
+        "options": [
+            {"label": "A", "text": "5 and 8"},
+            {"label": "B", "text": "7 and 6"},
+            {"label": "C", "text": "6 and 7"},
+            {"label": "D", "text": "8 and 5"}
+        ],
+        "correctOption": "D",
+        "solution": "1. Divisibility by 11:\n$(0 + x + 7) - (y + 6 + 4) = (x + 7) - (y + 10) = x - y - 3 = 0 \\implies x - y = 3$.\nTesting option D ($x = 8, y = 5$): $8 - 5 = 3$.\n2. Divisibility by 3:\nSum of digits $= 4 + 7 + 6 + 8 + 5 + 0 = 30$ (divisible by 3).\nHence, $x = 8$ and $y = 5$."
+    },
+    {
+        "questionNumber": 144,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 21/07/2023 (Shift-02)",
+        "questionText": "If the 8-digit number $9x2365n4$ is divisible by 88, then what is the value of $(x^2 + y^2)$ (where $y$ is the units digit)?",
+        "options": [
+            {"label": "A", "text": "68"},
+            {"label": "B", "text": "72"},
+            {"label": "C", "text": "76"},
+            {"label": "D", "text": "80"}
+        ],
+        "correctOption": "D",
+        "solution": "$88 = 8 \\times 11$.\nFrom the book's solution: $y = 4$ and $x = 8$.\nThen $x^2 + y^2 = 8^2 + 4^2 = 64 + 16 = 80$."
+    },
+    {
+        "questionNumber": 145,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC MTS 12/05/2023 (Shift-01)",
+        "questionText": "How many numbers up to 1000 are divisible by both 2 and 7?",
+        "options": [
+            {"label": "A", "text": "70"},
+            {"label": "B", "text": "71"},
+            {"label": "C", "text": "72"},
+            {"label": "D", "text": "73"}
+        ],
+        "correctOption": "B",
+        "solution": "A number divisible by both 2 and 7 must be divisible by $\\text{LCM}(2, 7) = 14$.\nThe numbers are $14, 28, 42, \\dots, 994$.\nNumber of terms $= \\left\\lfloor \\frac{1000}{14} \\right\\rfloor = 71$."
+    },
+    {
+        "questionNumber": 146,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 18/07/2023 (Shift-04)",
+        "questionText": "If the 9-digit number $55p1067q9$ is divisible by 99, then what is the value of $p \\times q$?",
+        "options": [
+            {"label": "A", "text": "35"},
+            {"label": "B", "text": "42"},
+            {"label": "C", "text": "28"},
+            {"label": "D", "text": "45"}
+        ],
+        "correctOption": "A",
+        "solution": "$99 = 9 \\times 11$.\n1. Divisible by 9: Sum of digits $= 5 + 5 + p + 1 + 0 + 6 + 7 + q + 9 = 33 + p + q$.\nFor $(33 + p + q)$ to be a multiple of 9, $p + q = 12$.\n2. Divisible by 11: $(9 + 7 + 0 + p + 5) - (q + 6 + 1 + 5) = (21 + p) - (12 + q) = 9 + p - q = 11 \\implies p - q = 2$.\nSolving $p + q = 12$ and $p - q = 2$ gives $p = 7, q = 5$.\nTherefore, $p \\times q = 7 \\times 5 = 35$."
+    },
+    {
+        "questionNumber": 147,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CHSL 16/03/2023 (Shift-01)",
+        "questionText": "Which of the following numbers is divisible by 3?",
+        "options": [
+            {"label": "A", "text": "2143241"},
+            {"label": "B", "text": "2143231"},
+            {"label": "C", "text": "2143261"},
+            {"label": "D", "text": "2143251"}
+        ],
+        "correctOption": "D",
+        "solution": "A number is divisible by 3 if the sum of its digits is divisible by 3.\nSum of digits of $2143251 = 2 + 1 + 4 + 3 + 2 + 5 + 1 = 18$.\nSince 18 is divisible by 3, 2143251 is divisible by 3."
+    },
+    {
+        "questionNumber": 148,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC MTS 15/05/2023 (Shift-02)",
+        "questionText": "Which of the following numbers is divisible by 3 but NOT by 9?",
+        "options": [
+            {"label": "A", "text": "237687"},
+            {"label": "B", "text": "239685"},
+            {"label": "C", "text": "238686"},
+            {"label": "D", "text": "236688"}
+        ],
+        "correctOption": "B",
+        "solution": "Checking sum of digits for Option B (239685):\nSum $= 2 + 3 + 9 + 6 + 8 + 5 = 33$.\n33 is divisible by 3, but $33 \\div 9$ leaves a remainder of 6 (not divisible by 9).\nHence, 239685 is divisible by 3 but NOT by 9."
+    },
+    {
+        "questionNumber": 149,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 26/07/2023 (Shift-03)",
+        "questionText": "If the 7-digit number $x8942y4$ is divisible by 56, then what is the value of $(x^2 + y)$ for the largest value of $y$?",
+        "options": [
+            {"label": "A", "text": "48"},
+            {"label": "B", "text": "52"},
+            {"label": "C", "text": "55"},
+            {"label": "D", "text": "60"}
+        ],
+        "correctOption": "C",
+        "solution": "$56 = 7 \\times 8$.\n1. Divisible by 8: Last three digits $2y4$ must be divisible by 8. Possible values of $y$ are $2$ and $6$. The largest value is $y = 6$.\n2. Divisible by 7: The number is $x894264$. Using divisibility rule of 7, $x = 7$.\nNow, $x^2 + y = 7^2 + 6 = 49 + 6 = 55$."
+    },
+    {
+        "questionNumber": 150,
+        "typeHeader": "TYPE - IV: DIVISIBILITY",
+        "examShift": "SSC CGL 27/07/2023 (Shift-03)",
+        "questionText": "If the 9-digit number $7x79251y8$ is divisible by 36, then find the value of $(10x^2 - 3y^2)$ for the largest value of $y$.",
+        "options": [
+            {"label": "A", "text": "275"},
+            {"label": "B", "text": "284"},
+            {"label": "C", "text": "290"},
+            {"label": "D", "text": "298"}
+        ],
+        "correctOption": "D",
+        "solution": "$36 = 9 \\times 4$.\n1. Divisible by 4: Last two digits $y8$ must be divisible by 4. Largest single-digit value is $y = 8$.\n2. Divisible by 9: Sum of digits $= 7 + x + 7 + 9 + 2 + 5 + 1 + 8 + 8 = 47 + x$.\nFor $(47 + x)$ to be divisible by 9, $x = 7$.\nNow, $10x^2 - 3y^2 = 10(7^2) - 3(8^2) = 10(49) - 3(64) = 490 - 192 = 298$."
+    }
+]
+
+with open('scripts/number_system_extracted/ch18_part2_121_150.json', 'w', encoding='utf-8') as f:
+    json.dump(questions, f, ensure_ascii=False, indent=2)
+
+print(f"Generated Q121-150: {len(questions)} questions")

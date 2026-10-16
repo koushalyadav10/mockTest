@@ -1,0 +1,261 @@
+=== PAGE 2 COLUMN 1 ===
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+What is the last digit of the sum S
+9" 270?
+upsc CDS.t aoaa
+What is the digit at the 100th place
+of number (225)'0?
+ursc aoa•
+A prime number contains the digit
+x at unit's place, How many such
+digits of x are possible?
+orsc aot9
+All odd prime numbers upto I IO are
+multiplied together. What is the unit
+digit in this product?
+CDS.t aot8
+(d) N.O.T.
+What are the last three digits in the
+multiplication of
+4321012345 98766789?
+orc CDS-U 01/09/2024
+•TYPE-III •
+FACTOR
+Fmd total number of of 3600.
+(a) 45
+(c) 43
+—C CGL TER-n 12/09/2019
+(b) 44
+(d) 42
+Consider the following statements
+in respect of all factors Of 360:
+I. The number Of factors is 24.
+2. The sum of all factors is 1170.
+Which of the above statements is/
+are correct?
+CDS-1 2023
+(a) Only I
+(b) only 2
+(c) Both 1 and 2
+(d) Neither I nor 2
+Conskier the number N 126 x 38 x 53.
+Which of the following statements
+is/ are correct?
+1. The number Of Odd factors of
+N is 60.
+2. The number of even factors Of
+N is 720.
+Select the correct answer using the
+code given below:
+gpsc CDS-U aoaa
+(a) Only I
+(b) only 2
+(c) Both 1 and 2
+(d) Neither I nor 2
+The sum of the odd divisors Of 216 is:
+(a) 16
+(c) 40
+cpo 11/11/2022
+(b) 14
+(d) 600
+Each prime number has
+factor / factors.
+DP Head Constable 20/10/2023 01)
+Selection
+
+
+=== PAGE 2 COLUMN 2 ===
+Chapter - 18 : Number System
+39.
+40.
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.
+What is the total number of factors
+of the number 720 except I und the
+number itself?
+ggc 10/0ataoaa
+(n) 29
+(c) a2
+(b) 27
+(d) 28
+The number Of divisors of thc
+number 38808. exclusive of the
+divisoro I and itself. in
+(n) 74
+(c) 70
+uroc coo." aotg
+(b) 72
+(d) 68
+What ig the number of divisors of
+1000 (excluding 1 and 1000)?
+(n) 12
+upsc con.t aoaa
+(b) 13
+(d) 16
+What is the total number or factors
+of the number 840 except I and the
+number itselfi>
+(n) 29
+CROL 16/00/2023 (Shitt.02)
+(b) 30
+(c) 28
+(d) 31
+What is distinct prime factor of the
+number 26381?
+UPSC CDS-LI 2021
+(a) 29, 17, 37
+(b) 31, 17, 47
+(c) 19, 37, 13
+(d) 23, 31, 37
+Find the number of prime factors in
+the product (30)5 x (24)5.
+(a) 45
+(c) 35
+SSC CGL TIER.n 18/ 11/2020
+(b) 10
+(d) 30
+A 4-digit number N has exactly 15
+distinct divisors. What is thc total
+number of distinct divisors of N2?
+(a) 16
+(c) 45
+OPSC CDs-n 01/09/2024
+(b) 30
+(d) 225
+Which of the following numbers is
+greater than the sum of all the
+prime factors of 1560?
+DP CONSTABLE 29/ 11/2023 (Shirt. 03)
+(a) 22
+(c) 21
+(b) 23
+(d) 41
+The number of factors Of 196 which
+are divisible by 4 is:
+ssc cro 09/11/2022 (Shift-02)
+(a) 228
+(c) 57
+What is the sum of the divisors of
+484 that are perfect squares?
+88C COL ao/07taoaa (Shirt-ot)
+(a) 125
+(c) 610
+(b) 35
+(d) 13
+How many factors of 14,400 are
+divisible by 18 but not by 36?
+gec CHBL 05/07/aoa4
+• TYPE - •
+DIVISIBILITY
+Which of the following numbers is
+divisible by both 2 and 5 ?
+esc CGL 11/09/2024
+51.
+52.
+53.
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+61.
+62.
+(a) 63840
+(c) 37915
+(b) 20792
+(d) 37254
+
+
+=== PAGE 2 COLUMN 3 ===
+Which or the following numbern in
+divisible by 2, 5, IO and 1 1?
+98C COL 12/09/2024
+(a) 203467
+(b) 830942
+(c) 589270
+(d) 1234560
+Which of the following nurnbcrn in
+NOT divisible by 8?
+OOC COL 19/09/2024 (Ohtrt-oaj
+(a) 7344
+(c) 7497
+(b) 5544
+(d) 4608
+The number is divisible by:
+OSC COL 23/09/2024 (Shirt-oal
+(a) 3 and 5
+(b) 6 and 5
+(c) 4 nnd 6
+(d) 3 and 6
+Which of the following numbers is
+divisible by 8?
+ogc Pb..e.XJt 26/06/2024 (Bhitt-oaj
+(a) 6816
+(c) 6124
+(b) 5006
+(d) 6006
+The number 5769116 is divisible by
+which of thc following numbers?
+gsc COL 02toat2023
+(c) 12
+The number 2918245 is divisible by
+which of thc following numbers?
+sec COL 03/0a/2ma
+(b) 11
+(c) 12
+Which Of the following numbers is
+divisible by 36?
+SSC Pba..-xn 21/06/2024
+(a) 1542
+(c) 55512
+(b) 8840
+(d) 96272
+What is the condition for a number
+to be divisible by 3?
+SSC CHSL 26/06/20aa
+(a) The difference between the sum
+of the odd and even digits of that
+number is divisible by 3
+(b) The last two digits of that
+number are divisible by 3
+(c) The sum of the digits of that
+number is divisible by 3
+(d) The last digit of that number is
+either O or any even number
+If 436P5 is divisible by 3, then the
+largest value of P is:
+SSC COL 24/09/2024 (Shi.rt-031
+(a) 12
+Write the smallest digit in the blank
+space of a number 7_7624, so that
+the number formed is divisible by 3.
+sec CHU 05/07/2024 (shirt-oa
+Without actual division, find the
+remainder when 379843 is divided
+by 3.
+SSC Phase-xn 26/06/2024
+If the 3-digit number 2.0 is divisible
+by 3, then the value of + x is
+(consider the maximum value of S:
+SSC CHSL 26/05/2022 (Shirt-031
+(Excise Inspector)
+
+

@@ -7,2005 +7,2005 @@
   "questions": [
     {
       "questionNumber": 1,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
-      "questionText": "A boat travels at $15\\text{ km/h}$ in still water. If the stream speed is $4\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL / CHSL / CPO",
+      "questionText": "If the speed of swimmer is 9 km/hr in still water and the speed of stream is 5 km/hr then find the speed of swimmer against the stream and along the stream.",
       "options": [
         {
           "label": "A",
-          "text": "$11\\text{ km/h}$"
+          "text": "3, 12"
         },
         {
           "label": "B",
-          "text": "$19\\text{ km/h}$"
+          "text": "2, 10"
         },
         {
           "label": "C",
-          "text": "$21\\text{ km/h}$"
+          "text": "4, 14"
         },
         {
           "label": "D",
-          "text": "$15\\text{ km/h}$"
+          "text": "1, 8"
         }
       ],
-      "correctOption": "B",
-      "solution": "Downstream speed $= B + S = 15 + 4 = 19\\text{ km/h}$."
+      "solution": "Speed against stream (upstream) $= u - v = 9 - 5 = 4\\text{ km/hr}$.\\nSpeed along stream (downstream) $= u + v = 9 + 5 = 14\\text{ km/hr}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 2,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
-      "questionText": "A boat travels at $16\\text{ km/h}$ in still water. If the stream speed is $5\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-03)",
+      "questionText": "If the speed of a boat in still water is 3 km/h and if its upstream speed is 1 km/h, find the speed of the stream.",
       "options": [
         {
           "label": "A",
-          "text": "$11\\text{ km/h}$"
+          "text": "0.5 km/h"
         },
         {
           "label": "B",
-          "text": "$23\\text{ km/h}$"
+          "text": "1 km/h"
         },
         {
           "label": "C",
-          "text": "$21\\text{ km/h}$"
+          "text": "0.25 km/h"
         },
         {
           "label": "D",
-          "text": "$16\\text{ km/h}$"
+          "text": "2 km/h"
         }
       ],
-      "correctOption": "C",
-      "solution": "Downstream speed $= B + S = 16 + 5 = 21\\text{ km/h}$."
+      "solution": "Upstream speed $= u - v = 1\\text{ km/h}$.\\nGiven $u = 3\\text{ km/h} \\implies 3 - v = 1 \\implies v = 2\\text{ km/h}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 3,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
-      "questionText": "A boat travels at $17\\text{ km/h}$ in still water. If the stream speed is $6\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "A boatman rows 2 km in 10 min., along the stream and 12 km in 2 hrs against the stream. What is the speed of the stream?",
       "options": [
         {
           "label": "A",
-          "text": "$11\\text{ km/h}$"
+          "text": "3 km/h"
         },
         {
           "label": "B",
-          "text": "$25\\text{ km/h}$"
+          "text": "2.5 km/h"
         },
         {
           "label": "C",
-          "text": "$17\\text{ km/h}$"
+          "text": "4 km/h"
         },
         {
           "label": "D",
-          "text": "$23\\text{ km/h}$"
+          "text": "3.5 km/h"
         }
       ],
-      "correctOption": "D",
-      "solution": "Downstream speed $= B + S = 17 + 6 = 23\\text{ km/h}$."
+      "solution": "Downstream speed $D = \\frac{2}{10/60} = 12\\text{ km/h}$.\\nUpstream speed $U = \\frac{12}{2} = 6\\text{ km/h}$.\\nSpeed of stream $v = \\frac{D - U}{2} = \\frac{12 - 6}{2} = 3\\text{ km/h}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 4,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
-      "questionText": "A boat travels at $18\\text{ km/h}$ in still water. If the stream speed is $3\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
+      "questionText": "A boat covers a distance of 55 km downstream in 5 hours while it takes 11 hours to cover the same distance upstream. What is the speed of the boat?",
       "options": [
         {
           "label": "A",
-          "text": "$15\\text{ km/h}$"
+          "text": "8 km/h"
         },
         {
           "label": "B",
-          "text": "$21\\text{ km/h}$"
+          "text": "9 km/h"
         },
         {
           "label": "C",
-          "text": "$23\\text{ km/h}$"
+          "text": "11 km/h"
         },
         {
           "label": "D",
-          "text": "$18\\text{ km/h}$"
+          "text": "7 km/h"
         }
       ],
-      "correctOption": "B",
-      "solution": "Downstream speed $= B + S = 18 + 3 = 21\\text{ km/h}$."
+      "solution": "Downstream speed $D = \\frac{55}{5} = 11\\text{ km/h}$.\\nUpstream speed $U = \\frac{55}{11} = 5\\text{ km/h}$.\\nSpeed of boat in still water $u = \\frac{D + U}{2} = \\frac{11 + 5}{2} = 8\\text{ km/h}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 5,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
-      "questionText": "A boat travels at $19\\text{ km/h}$ in still water. If the stream speed is $4\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+      "questionText": "The speed of a boat when travelling downstream is 33 km/h, whereas when travelling upstream it is 27 km/h. What is the speed of the boat in still water?",
       "options": [
         {
           "label": "A",
-          "text": "$23\\text{ km/h}$"
+          "text": "6 km/h"
         },
         {
           "label": "B",
-          "text": "$15\\text{ km/h}$"
+          "text": "60 km/h"
         },
         {
           "label": "C",
-          "text": "$25\\text{ km/h}$"
+          "text": "12 km/h"
         },
         {
           "label": "D",
-          "text": "$19\\text{ km/h}$"
+          "text": "30 km/h"
         }
       ],
-      "correctOption": "A",
-      "solution": "Downstream speed $= B + S = 19 + 4 = 23\\text{ km/h}$."
+      "solution": "Speed of boat in still water $= \\frac{D + U}{2} = \\frac{33 + 27}{2} = 30\\text{ km/h}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 6,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "A boat travels at $20\\text{ km/h}$ in still water. If the stream speed is $5\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase XI 28/06/2023 (Shift-02)",
+      "questionText": "The speed of a boat when travelling downstream is 48 km/h, whereas when travelling upstream it is 32 km/h. What is the speed of the boat in still water?",
       "options": [
         {
           "label": "A",
-          "text": "$15\\text{ km/h}$"
+          "text": "80 km/h"
         },
         {
           "label": "B",
-          "text": "$27\\text{ km/h}$"
+          "text": "30 km/h"
         },
         {
           "label": "C",
-          "text": "$25\\text{ km/h}$"
+          "text": "40 km/h"
         },
         {
           "label": "D",
-          "text": "$20\\text{ km/h}$"
+          "text": "20 km/h"
         }
       ],
-      "correctOption": "C",
-      "solution": "Downstream speed $= B + S = 20 + 5 = 25\\text{ km/h}$."
+      "solution": "Speed of boat in still water $= \\frac{D + U}{2} = \\frac{48 + 32}{2} = 40\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 7,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
-      "questionText": "A boat travels at $21\\text{ km/h}$ in still water. If the stream speed is $6\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 15/05/2023 (Shift-03)",
+      "questionText": "Two boats move downstream in a river at the speed of 35 km/hr and 25 km/hr. The speed of the stream is 4 km/hr. Initially the distance between the two boats is 60 km. If both the boats are moving downstream, in what time will they meet each other?",
       "options": [
         {
           "label": "A",
-          "text": "$15\\text{ km/h}$"
+          "text": "10 hours"
         },
         {
           "label": "B",
-          "text": "$29\\text{ km/h}$"
+          "text": "13 hours"
         },
         {
           "label": "C",
-          "text": "$21\\text{ km/h}$"
+          "text": "6 hours"
         },
         {
           "label": "D",
-          "text": "$27\\text{ km/h}$"
+          "text": "8 hours"
         }
       ],
-      "correctOption": "D",
-      "solution": "Downstream speed $= B + S = 21 + 6 = 27\\text{ km/h}$."
+      "solution": "Relative speed between the two boats $= 35 - 25 = 10\\text{ km/hr}$.\\nTime to meet $= \\frac{60}{10} = 6\\text{ hours}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 8,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
-      "questionText": "A boat travels at $14\\text{ km/h}$ in still water. If the stream speed is $3\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+      "questionText": "The ratio of the speeds of a boat while going upstream and going downstream is 2 : 3 and the sum of these two speeds is 15 km/h. What is the speed of the stream?",
       "options": [
         {
           "label": "A",
-          "text": "$11\\text{ km/h}$"
+          "text": "3.5 km/h"
         },
         {
           "label": "B",
-          "text": "$19\\text{ km/h}$"
+          "text": "1.5 km/h"
         },
         {
           "label": "C",
-          "text": "$17\\text{ km/h}$"
+          "text": "3 km/h"
         },
         {
           "label": "D",
-          "text": "$14\\text{ km/h}$"
+          "text": "2.5 km/h"
         }
       ],
-      "correctOption": "C",
-      "solution": "Downstream speed $= B + S = 14 + 3 = 17\\text{ km/h}$."
+      "solution": "Let $U = 2x, D = 3x$. Sum $= 2x + 3x = 5x = 15 \\implies x = 3$.\\n$U = 6\\text{ km/h}, D = 9\\text{ km/h}$.\\nSpeed of stream $v = \\frac{9 - 6}{2} = 1.5\\text{ km/h}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 9,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "A boat travels at $15\\text{ km/h}$ in still water. If the stream speed is $4\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 25/07/2023 (Shift-03)",
+      "questionText": "A boat running upstream takes 10 hours to cover a certain distance, while it takes 7 hours to cover the same distance running downstream. What is the ratio between the speed of the boat and that of the water current respectively?",
       "options": [
         {
           "label": "A",
-          "text": "$11\\text{ km/h}$"
+          "text": "17 : 5"
         },
         {
           "label": "B",
-          "text": "$19\\text{ km/h}$"
+          "text": "3 : 17"
         },
         {
           "label": "C",
-          "text": "$21\\text{ km/h}$"
+          "text": "2 : 17"
         },
         {
           "label": "D",
-          "text": "$15\\text{ km/h}$"
+          "text": "17 : 3"
         }
       ],
-      "correctOption": "B",
-      "solution": "Downstream speed $= B + S = 15 + 4 = 19\\text{ km/h}$."
+      "solution": "Distance $d = (u - v) \\times 10 = (u + v) \\times 7 \\implies 10u - 10v = 7u + 7v \\implies 3u = 17v \\implies \\frac{u}{v} = \\frac{17}{3}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 10,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
-      "questionText": "A boat travels at $16\\text{ km/h}$ in still water. If the stream speed is $5\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 05/12/2022 (Shift-02)",
+      "questionText": "The speed of a boat in still water is $5\\frac{1}{3}\\text{ km/h}$. It is found that the boat takes thrice as much time to row up than it does to row down the same distance in the river stream. Find the speed of the river stream.",
       "options": [
         {
           "label": "A",
-          "text": "$11\\text{ km/h}$"
+          "text": "\\frac{23}{27} m/sec"
         },
         {
           "label": "B",
-          "text": "$23\\text{ km/h}$"
+          "text": "\\frac{22}{27} m/sec"
         },
         {
           "label": "C",
-          "text": "$16\\text{ km/h}$"
+          "text": "\\frac{20}{27} m/sec"
         },
         {
           "label": "D",
-          "text": "$21\\text{ km/h}$"
+          "text": "\\frac{19}{27} m/sec"
         }
       ],
-      "correctOption": "D",
-      "solution": "Downstream speed $= B + S = 16 + 5 = 21\\text{ km/h}$."
+      "solution": "Given $u = \\frac{16}{3}\\text{ km/h}$. Since $t_{up} = 3 t_{down} \\implies u + v = 3(u - v) \\implies 2u = 4v \\implies v = \\frac{u}{2} = \\frac{16}{6} = \\frac{8}{3}\\text{ km/h}$.\\nIn m/sec: $\\frac{8}{3} \\times \\frac{5}{18} = \\frac{20}{27}\\text{ m/sec}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 11,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
-      "questionText": "A boat travels at $17\\text{ km/h}$ in still water. If the stream speed is $6\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
+      "questionText": "A man can row 18 km/h in still water. It takes him two times as long to row up as to row down the river. Find the rate of the stream.",
       "options": [
         {
           "label": "A",
-          "text": "$23\\text{ km/h}$"
+          "text": "12 km/h"
         },
         {
           "label": "B",
-          "text": "$11\\text{ km/h}$"
+          "text": "6 km/h"
         },
         {
           "label": "C",
-          "text": "$25\\text{ km/h}$"
+          "text": "24 km/h"
         },
         {
           "label": "D",
-          "text": "$17\\text{ km/h}$"
+          "text": "9 km/h"
         }
       ],
-      "correctOption": "A",
-      "solution": "Downstream speed $= B + S = 17 + 6 = 23\\text{ km/h}$."
+      "solution": "$u + v = 2(u - v) \\implies u = 3v \\implies v = \\frac{18}{3} = 6\\text{ km/h}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 12,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "A boat travels at $18\\text{ km/h}$ in still water. If the stream speed is $3\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-04)",
+      "questionText": "A man can row a boat at speed of 8 km/h in still water. It takes thrice as long to row upstream as it does to row downstream. Find the speed of the stream (in km/h).",
       "options": [
         {
           "label": "A",
-          "text": "$15\\text{ km/h}$"
+          "text": "4"
         },
         {
           "label": "B",
-          "text": "$21\\text{ km/h}$"
+          "text": "6"
         },
         {
           "label": "C",
-          "text": "$23\\text{ km/h}$"
+          "text": "5"
         },
         {
           "label": "D",
-          "text": "$18\\text{ km/h}$"
+          "text": "3"
         }
       ],
-      "correctOption": "B",
-      "solution": "Downstream speed $= B + S = 18 + 3 = 21\\text{ km/h}$."
+      "solution": "$u + v = 3(u - v) \\implies 2u = 4v \\implies v = \\frac{u}{2} = \\frac{8}{2} = 4\\text{ km/h}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 13,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
-      "questionText": "A boat travels at $19\\text{ km/h}$ in still water. If the stream speed is $4\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 12/09/2023 (Shift-03)",
+      "questionText": "The time taken by a boat to cover a distance of x km upstream is double the time taken by the boat to cover the same distance downstream. The sum of the speeds of the boat and the stream is 90 km/h. The speed of the stream is ___ km/h.",
       "options": [
         {
           "label": "A",
-          "text": "$15\\text{ km/h}$"
+          "text": "22.5"
         },
         {
           "label": "B",
-          "text": "$25\\text{ km/h}$"
+          "text": "33.5"
         },
         {
           "label": "C",
-          "text": "$19\\text{ km/h}$"
+          "text": "27.5"
         },
         {
           "label": "D",
-          "text": "$23\\text{ km/h}$"
+          "text": "37.5"
         }
       ],
-      "correctOption": "D",
-      "solution": "Downstream speed $= B + S = 19 + 4 = 23\\text{ km/h}$."
+      "solution": "Downstream speed $D = u + v = 90\\text{ km/h}$.\\nSince $U = \\frac{D}{2} = 45\\text{ km/h} \\implies u - v = 45$.\\nSpeed of stream $v = \\frac{90 - 45}{2} = 22.5\\text{ km/h}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 14,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
-      "questionText": "A boat travels at $20\\text{ km/h}$ in still water. If the stream speed is $5\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 07/12/2022 (Shift-02)",
+      "questionText": "A man rows to a place 48 km distant and comes back in 14 hours. He finds that he can row 4 km with the stream in the same time as 3 km against the stream. The speed of the stream is:",
       "options": [
         {
           "label": "A",
-          "text": "$15\\text{ km/h}$"
+          "text": "1.5 km/h"
         },
         {
           "label": "B",
-          "text": "$27\\text{ km/h}$"
+          "text": "3.5 km/h"
         },
         {
           "label": "C",
-          "text": "$25\\text{ km/h}$"
+          "text": "1.8 km/h"
         },
         {
           "label": "D",
-          "text": "$20\\text{ km/h}$"
+          "text": "1 km/h"
         }
       ],
-      "correctOption": "C",
-      "solution": "Downstream speed $= B + S = 20 + 5 = 25\\text{ km/h}$."
+      "solution": "$\\frac{D}{U} = \\frac{4}{3} \\implies D = 4k, U = 3k$. $u = 3.5k, v = 0.5k$.\\nTotal time $= \\frac{48}{4k} + \\frac{48}{3k} = \\frac{12}{k} + \\frac{16}{k} = \\frac{28}{k} = 14 \\implies k = 2$.\\n$D = 8\\text{ km/h}, U = 6\\text{ km/h} \\implies v = \\frac{8 - 6}{2} = 1\\text{ km/h}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 15,
-      "typeHeader": "TYPE - I: DOWNSTREAM SPEED",
-      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
-      "questionText": "A boat travels at $21\\text{ km/h}$ in still water. If the stream speed is $6\\text{ km/h}$, find its downstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 27/10/2021 (Shift-02)",
+      "questionText": "The speed of a boat downstream is 2.5 times the speed of the boat upstream. If the time taken by the boat for going 30 km downstream and the same distance upstream is 7 hours, then what is the speed (in km/h) of the boat downstream?",
       "options": [
         {
           "label": "A",
-          "text": "$27\\text{ km/h}$"
+          "text": "9"
         },
         {
           "label": "B",
-          "text": "$15\\text{ km/h}$"
+          "text": "12.5"
         },
         {
           "label": "C",
-          "text": "$29\\text{ km/h}$"
+          "text": "15"
         },
         {
           "label": "D",
-          "text": "$21\\text{ km/h}$"
+          "text": "7.5"
         }
       ],
-      "correctOption": "A",
-      "solution": "Downstream speed $= B + S = 21 + 6 = 27\\text{ km/h}$."
+      "solution": "Let $U = y, D = 2.5y$.\\n$\\frac{30}{2.5y} + \\frac{30}{y} = \\frac{12}{y} + \\frac{30}{y} = \\frac{42}{y} = 7 \\implies y = 6\\text{ km/h}$.\\nDownstream speed $= 2.5 \\times 6 = 15\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 16,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
-      "questionText": "A motorboat speed in still water is $16\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 12/08/2021 (Shift-01)",
+      "questionText": "The speed of a boat downstream is 150% more than its speed upstream. If the time taken by the boat for going 80km downstream and 50km upstream is 8.2 hours, then what is the speed (in km/h) of the boat downstream?",
       "options": [
         {
           "label": "A",
-          "text": "$11\\text{ km/h}$"
+          "text": "16"
         },
         {
           "label": "B",
-          "text": "$21\\text{ km/h}$"
+          "text": "30"
         },
         {
           "label": "C",
-          "text": "$9\\text{ km/h}$"
+          "text": "25"
         },
         {
           "label": "D",
-          "text": "$16\\text{ km/h}$"
+          "text": "24"
         }
       ],
-      "correctOption": "A",
-      "solution": "Upstream speed $= B - S = 16 - 5 = 11\\text{ km/h}$."
+      "solution": "$D = U + 1.5U = 2.5U \\implies \\frac{D}{U} = \\frac{5}{2}$. Let $D = 5x, U = 2x$.\\n$\\frac{80}{5x} + \\frac{50}{2x} = \\frac{16}{x} + \\frac{25}{x} = \\frac{41}{x} = 8.2 \\implies x = 5$.\\nDownstream speed $= 5 \\times 5 = 25\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 17,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
-      "questionText": "A motorboat speed in still water is $17\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 19/07/2023 (Shift-03)",
+      "questionText": "The speed of the boat in downstream is 125% of the speed of the boat in still water. If the boat takes 30 minutes to cover a distance of 20 km in still water, then how much time (in hours) will it take to cover a distance of 15 km upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$23\\text{ km/h}$"
+          "text": "\\frac{3}{4}"
         },
         {
           "label": "B",
-          "text": "$11\\text{ km/h}$"
+          "text": "\\frac{1}{2}"
         },
         {
           "label": "C",
-          "text": "$9\\text{ km/h}$"
+          "text": "\\frac{1}{4}"
         },
         {
           "label": "D",
-          "text": "$17\\text{ km/h}$"
+          "text": "1"
         }
       ],
-      "correctOption": "B",
-      "solution": "Upstream speed $= B - S = 17 - 6 = 11\\text{ km/h}$."
+      "solution": "Speed in still water $u = \\frac{20}{30/60} = 40\\text{ km/h}$.\\n$D = 1.25 \\times 40 = 50\\text{ km/h} \\implies v = 10\\text{ km/h}$.\\n$U = 40 - 10 = 30\\text{ km/h}$.\\nTime for 15 km upstream $= \\frac{15}{30} = \\frac{1}{2}\\text{ hours}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 18,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "A motorboat speed in still water is $18\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 13/03/2023 (Shift-02)",
+      "questionText": "The ratio of the speed of the boat in still water to the speed of the stream is 8 : 3 and the boat can travel 22 km downstream in 24 minutes. Then, how much time will the boat take to cover 50 km upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$22\\text{ km/h}$"
+          "text": "4 hours"
         },
         {
           "label": "B",
-          "text": "$12\\text{ km/h}$"
+          "text": "2.5 hours"
         },
         {
           "label": "C",
-          "text": "$14\\text{ km/h}$"
+          "text": "3 hours"
         },
         {
           "label": "D",
-          "text": "$18\\text{ km/h}$"
+          "text": "2 hours"
         }
       ],
-      "correctOption": "C",
-      "solution": "Upstream speed $= B - S = 18 - 4 = 14\\text{ km/h}$."
+      "solution": "$u : v = 8 : 3 \\implies D = 11x, U = 5x$.\\n$D = \\frac{22}{24/60} = 55\\text{ km/h} \\implies 11x = 55 \\implies x = 5$.\\n$U = 5 \\times 5 = 25\\text{ km/h}$.\\nTime to cover 50 km upstream $= \\frac{50}{25} = 2\\text{ hours}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 19,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
-      "questionText": "A motorboat speed in still water is $19\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 13/07/2022 (Shift-01)",
+      "questionText": "A boat travels 5 km upstream in 15 minutes. If the ratio of the speed of the boat in still water to the speed of the stream is 6 : 1, then how much time will the boat take to cover a distance of 19.6 km in down stream? (in minutes)",
       "options": [
         {
           "label": "A",
-          "text": "$24\\text{ km/h}$"
+          "text": "54"
         },
         {
           "label": "B",
-          "text": "$12\\text{ km/h}$"
+          "text": "26"
         },
         {
           "label": "C",
-          "text": "$19\\text{ km/h}$"
+          "text": "42"
         },
         {
           "label": "D",
-          "text": "$14\\text{ km/h}$"
+          "text": "31"
         }
       ],
-      "correctOption": "D",
-      "solution": "Upstream speed $= B - S = 19 - 5 = 14\\text{ km/h}$."
+      "solution": "$U = \\frac{5}{15/60} = 20\\text{ km/h}$.\\n$u : v = 6 : 1 \\implies U = 5x = 20 \\implies x = 4$.\\n$D = 6x + 1x = 7x = 28\\text{ km/h}$.\\nTime for 19.6 km downstream $= \\frac{19.6}{28} \\times 60 = 42\\text{ minutes}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 20,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
-      "questionText": "A motorboat speed in still water is $20\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase IX 2022",
+      "questionText": "The speed of a boat in still water is 25 km/h. It takes $33\\frac{1}{3}\\%$ more time to cover a certain distance in still water than to cover the same distance downstream. How much time in hours will boat take to go 75 km downstream?",
       "options": [
         {
           "label": "A",
-          "text": "$26\\text{ km/h}$"
+          "text": "3"
         },
         {
           "label": "B",
-          "text": "$14\\text{ km/h}$"
+          "text": "2.25"
         },
         {
           "label": "C",
-          "text": "$12\\text{ km/h}$"
+          "text": "2"
         },
         {
           "label": "D",
-          "text": "$20\\text{ km/h}$"
+          "text": "18"
         }
       ],
-      "correctOption": "B",
-      "solution": "Upstream speed $= B - S = 20 - 6 = 14\\text{ km/h}$."
+      "solution": "$33\\frac{1}{3}\\% = \\frac{1}{3} \\implies \\frac{t_{still}}{t_{down}} = \\frac{4}{3} \\implies \\frac{D}{u} = \\frac{4}{3} \\implies D = \\frac{4}{3} \\times 25 = \\frac{100}{3}\\text{ km/h}$.\\nTime to go 75 km downstream $= \\frac{75}{100/3} = 2.25\\text{ hours}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 21,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
-      "questionText": "A motorboat speed in still water is $21\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 13/09/2024 (Shift-03)",
+      "questionText": "A boatman rows to a place 30 km distance and back in 14 hours. He finds that he can row 10 km with the stream at the same time as 4 km against the stream. Find the speed (in km/h) of the stream.",
       "options": [
         {
           "label": "A",
-          "text": "$17\\text{ km/h}$"
+          "text": "9/2"
         },
         {
           "label": "B",
-          "text": "$25\\text{ km/h}$"
+          "text": "9/4"
         },
         {
           "label": "C",
-          "text": "$15\\text{ km/h}$"
+          "text": "2/9"
         },
         {
           "label": "D",
-          "text": "$21\\text{ km/h}$"
+          "text": "4/9"
         }
       ],
-      "correctOption": "A",
-      "solution": "Upstream speed $= B - S = 21 - 4 = 17\\text{ km/h}$."
+      "solution": "$\\frac{D}{U} = \\frac{10}{4} = \\frac{5}{2} \\implies D = 5k, U = 2k$.\\n$\\frac{30}{5k} + \\frac{30}{2k} = 14 \\implies \\frac{6}{k} + \\frac{15}{k} = 14 \\implies \\frac{21}{k} = 14 \\implies k = \\frac{3}{2}$.\\nSpeed of stream $v = \\frac{D - U}{2} = \\frac{3k}{2} = \\frac{3 \\times 1.5}{2} = \\frac{9}{4}\\text{ km/h}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 22,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
-      "questionText": "A motorboat speed in still water is $22\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 29/06/2024 (Shift-02)",
+      "questionText": "A man rows 48 km and back in 48 hrs. He can row 4 km with the stream in the same time as 3 km against the stream. The speed of the stream (in km/h) is:",
       "options": [
         {
           "label": "A",
-          "text": "$27\\text{ km/h}$"
+          "text": "5/21"
         },
         {
           "label": "B",
-          "text": "$15\\text{ km/h}$"
+          "text": "7/21"
         },
         {
           "label": "C",
-          "text": "$17\\text{ km/h}$"
+          "text": "7/24"
         },
         {
           "label": "D",
-          "text": "$22\\text{ km/h}$"
+          "text": "3/29"
         }
       ],
-      "correctOption": "C",
-      "solution": "Upstream speed $= B - S = 22 - 5 = 17\\text{ km/h}$."
+      "solution": "$\\frac{D}{U} = \\frac{4}{3} \\implies D = 4k, U = 3k$.\\n$\\frac{48}{4k} + \\frac{48}{3k} = 48 \\implies \\frac{12}{k} + \\frac{16}{k} = 48 \\implies \\frac{28}{k} = 48 \\implies k = \\frac{7}{12}$.\\nSpeed of stream $v = \\frac{4k - 3k}{2} = \\frac{k}{2} = \\frac{7}{24}\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 23,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
-      "questionText": "A motorboat speed in still water is $23\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
+      "questionText": "Ashu can row 7.5 km an hour in still water. He finds that it takes four times as much time to row upstream, as it takes to row downstream. The speed of the stream is:",
       "options": [
         {
           "label": "A",
-          "text": "$29\\text{ km/h}$"
+          "text": "3.5 km/h"
         },
         {
           "label": "B",
-          "text": "$15\\text{ km/h}$"
+          "text": "1.5 km/h"
         },
         {
           "label": "C",
-          "text": "$23\\text{ km/h}$"
+          "text": "4.5 km/h"
         },
         {
           "label": "D",
-          "text": "$17\\text{ km/h}$"
+          "text": "2.5 km/h"
         }
       ],
-      "correctOption": "D",
-      "solution": "Upstream speed $= B - S = 23 - 6 = 17\\text{ km/h}$."
+      "solution": "$u + v = 4(u - v) \\implies 3u = 5v \\implies v = \\frac{3 \\times 7.5}{5} = 4.5\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 24,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "A motorboat speed in still water is $16\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
+      "questionText": "A man wishes to cover 1 km distance in river water. In still water he takes 12 minutes to cover it, but in the flowing river he takes 13 minutes. The speed of the flowing water of the river is:",
       "options": [
         {
           "label": "A",
-          "text": "$20\\text{ km/h}$"
+          "text": "25 km/h"
         },
         {
           "label": "B",
-          "text": "$10\\text{ km/h}$"
+          "text": "5/13 km/h"
         },
         {
           "label": "C",
-          "text": "$12\\text{ km/h}$"
+          "text": "22 km/h"
         },
         {
           "label": "D",
-          "text": "$16\\text{ km/h}$"
+          "text": "7/12 km/h"
         }
       ],
-      "correctOption": "C",
-      "solution": "Upstream speed $= B - S = 16 - 4 = 12\\text{ km/h}$."
+      "solution": "$u = \\frac{1}{12/60} = 5\\text{ km/h}$. Against stream $U = \\frac{1}{13/60} = \\frac{60}{13}\\text{ km/h}$.\\n$v = u - U = 5 - \\frac{60}{13} = \\frac{5}{13}\\text{ km/h}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 25,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
-      "questionText": "A motorboat speed in still water is $17\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "A boat can travel 60km downstream in 4 hours. If the speed of the boat in still water is 13 km/h, then in what time will it cover 30 km upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$22\\text{ km/h}$"
+          "text": "2\\frac{8}{11} hours"
         },
         {
           "label": "B",
-          "text": "$12\\text{ km/h}$"
+          "text": "3\\frac{4}{7} hours"
         },
         {
           "label": "C",
-          "text": "$10\\text{ km/h}$"
+          "text": "2\\frac{4}{7} hours"
         },
         {
           "label": "D",
-          "text": "$17\\text{ km/h}$"
+          "text": "3\\frac{5}{7} hours"
         }
       ],
-      "correctOption": "B",
-      "solution": "Upstream speed $= B - S = 17 - 5 = 12\\text{ km/h}$."
+      "solution": "$D = 60/4 = 15\\text{ km/h} \\implies v = 15 - 13 = 2\\text{ km/h}$.\\n$U = 13 - 2 = 11\\text{ km/h}$. Time for 30 km $= \\frac{30}{11} = 2\\frac{8}{11}\\text{ hours}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 26,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
-      "questionText": "A motorboat speed in still water is $18\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 04/08/2021 (Shift-01)",
+      "questionText": "A boat can travel with a speed of 19 km/h in still water. If the speed of the stream is 3 km/h, then what will be the total time (in hours) taken by the boat to go 88 km downstream and 24 km upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$24\\text{ km/h}$"
+          "text": "4.5"
         },
         {
           "label": "B",
-          "text": "$10\\text{ km/h}$"
+          "text": "5"
         },
         {
           "label": "C",
-          "text": "$18\\text{ km/h}$"
+          "text": "4"
         },
         {
           "label": "D",
-          "text": "$12\\text{ km/h}$"
+          "text": "5.5"
         }
       ],
-      "correctOption": "D",
-      "solution": "Upstream speed $= B - S = 18 - 6 = 12\\text{ km/h}$."
+      "solution": "$D = 19 + 3 = 22\\text{ km/h}, U = 19 - 3 = 16\\text{ km/h}$.\\nTotal time $= \\frac{88}{22} + \\frac{24}{16} = 4 + 1.5 = 5.5\\text{ hours}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 27,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
-      "questionText": "A motorboat speed in still water is $19\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 05/10/2021 (Shift-02)",
+      "questionText": "A person can row 5m/sec in still water. The speed of the stream is 6 km/h. The time (in hours) taken by him to row a distance of 76.8 km downstream is:",
       "options": [
         {
           "label": "A",
-          "text": "$15\\text{ km/h}$"
+          "text": "3.5"
         },
         {
           "label": "B",
-          "text": "$23\\text{ km/h}$"
+          "text": "2.8"
         },
         {
           "label": "C",
-          "text": "$13\\text{ km/h}$"
+          "text": "3.2"
         },
         {
           "label": "D",
-          "text": "$19\\text{ km/h}$"
+          "text": "2.4"
         }
       ],
-      "correctOption": "A",
-      "solution": "Upstream speed $= B - S = 19 - 4 = 15\\text{ km/h}$."
+      "solution": "$u = 5 \\times \\frac{18}{5} = 18\\text{ km/h}$. $D = 18 + 6 = 24\\text{ km/h}$.\\nTime $= \\frac{76.8}{24} = 3.2\\text{ hours}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 28,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
-      "questionText": "A motorboat speed in still water is $20\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CHSL 10/08/2021 (Shift-01)",
+      "questionText": "Sunil can row a boat 20 km upstream in 1 hour 15 minutes. If the speed of the current of the river is 2 km/h, then how much time will he take to row the boat 30 km downstream?",
       "options": [
         {
           "label": "A",
-          "text": "$25\\text{ km/h}$"
+          "text": "1 hr 10 min"
         },
         {
           "label": "B",
-          "text": "$15\\text{ km/h}$"
+          "text": "1 hr 45 min"
         },
         {
           "label": "C",
-          "text": "$13\\text{ km/h}$"
+          "text": "1 hr 30 min"
         },
         {
           "label": "D",
-          "text": "$20\\text{ km/h}$"
+          "text": "1 hr 20 min"
         }
       ],
-      "correctOption": "B",
-      "solution": "Upstream speed $= B - S = 20 - 5 = 15\\text{ km/h}$."
+      "solution": "$U = \\frac{20}{5/4} = 16\\text{ km/h} \\implies u = 16 + 2 = 18\\text{ km/h}$.\\n$D = 18 + 2 = 20\\text{ km/h}$. Time $= \\frac{30}{20} = 1.5\\text{ hr} = 1\\text{ hr } 30\\text{ min}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 29,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
-      "questionText": "A motorboat speed in still water is $21\\text{ km/h}$ and current speed is $6\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+      "questionText": "A boat can go 54 km upstream in 6 hours. If the speed of the stream is 4.8 km/h, then how much time (in hours) will the boat take to cover a distance of 279 km downstream?",
       "options": [
         {
           "label": "A",
-          "text": "$27\\text{ km/h}$"
+          "text": "20"
         },
         {
           "label": "B",
-          "text": "$13\\text{ km/h}$"
+          "text": "15"
         },
         {
           "label": "C",
-          "text": "$21\\text{ km/h}$"
+          "text": "18"
         },
         {
           "label": "D",
-          "text": "$15\\text{ km/h}$"
+          "text": "16"
         }
       ],
-      "correctOption": "D",
-      "solution": "Upstream speed $= B - S = 21 - 6 = 15\\text{ km/h}$."
+      "solution": "$U = 54/6 = 9\\text{ km/h} \\implies u = 9 + 4.8 = 13.8\\text{ km/h}$.\\n$D = 13.8 + 4.8 = 18.6\\text{ km/h}$. Time $= \\frac{279}{18.6} = 15\\text{ hours}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 30,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "A motorboat speed in still water is $22\\text{ km/h}$ and current speed is $4\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CPO 29/06/2024 (Shift-01)",
+      "questionText": "A boat can travel 16.9 km downstream in 52 min. If the speed of the current is 3 km/h, then how much time (in hours) will the boat take to travel 84 km upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$26\\text{ km/h}$"
+          "text": "6"
         },
         {
           "label": "B",
-          "text": "$16\\text{ km/h}$"
+          "text": "13.5"
         },
         {
           "label": "C",
-          "text": "$18\\text{ km/h}$"
+          "text": "6.22"
         },
         {
           "label": "D",
-          "text": "$22\\text{ km/h}$"
+          "text": "7.5"
         }
       ],
-      "correctOption": "C",
-      "solution": "Upstream speed $= B - S = 22 - 4 = 18\\text{ km/h}$."
+      "solution": "$D = \\frac{16.9}{52/60} = 19.5\\text{ km/h} \\implies u = 16.5\\text{ km/h}$.\\n$U = 16.5 - 3 = 13.5\\text{ km/h}$. Time $= \\frac{84}{13.5} \\approx 6.22\\text{ hours}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 31,
-      "typeHeader": "TYPE - II: UPSTREAM SPEED",
-      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
-      "questionText": "A motorboat speed in still water is $23\\text{ km/h}$ and current speed is $5\\text{ km/h}$. Find the upstream speed.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along with the current in 10 minutes. How long will it take to go 6 km in still water?",
       "options": [
         {
           "label": "A",
-          "text": "$18\\text{ km/h}$"
+          "text": "1 hr 30 min"
         },
         {
           "label": "B",
-          "text": "$28\\text{ km/h}$"
+          "text": "1 hr 15 min"
         },
         {
           "label": "C",
-          "text": "$16\\text{ km/h}$"
+          "text": "2 hr 30 min"
         },
         {
           "label": "D",
-          "text": "$23\\text{ km/h}$"
+          "text": "1 hr 45 min"
         }
       ],
-      "correctOption": "A",
-      "solution": "Upstream speed $= B - S = 23 - 5 = 18\\text{ km/h}$."
+      "solution": "$U = 2\\text{ km/h}, D = \\frac{1}{1/6} = 6\\text{ km/h} \\implies u = \\frac{6 + 2}{2} = 4\\text{ km/h}$.\\nTime for 6 km $= \\frac{6}{4} = 1.5\\text{ hr} = 1\\text{ hr } 30\\text{ min}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 32,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
-      "questionText": "A boat moves downstream at $20\\text{ km/h}$ and upstream at $10\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC Phase IX 2022",
+      "questionText": "Time taken by a boat to go a certain distance upstream is twice the time taken by it to go the same distance downstream. If the speed of the stream is 3 km/h, then how much time in hours will the boat take to go 52 km upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$15.0\\text{ km/h}$"
+          "text": "4\\frac{1}{3}"
         },
         {
           "label": "B",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "5\\frac{1}{5}"
         },
         {
           "label": "C",
-          "text": "$13.0\\text{ km/h}$"
+          "text": "5\\frac{7}{9}"
         },
         {
           "label": "D",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "8\\frac{2}{3}"
         }
       ],
-      "correctOption": "A",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{20 + 10}{2} = 15.0\\text{ km/h}$."
+      "solution": "$u + v = 2(u - v) \\implies u = 3v = 9\\text{ km/h}$.\\n$U = 9 - 3 = 6\\text{ km/h}$. Time $= \\frac{52}{6} = 8\\frac{2}{3}\\text{ hours}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 33,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "A boat moves downstream at $21\\text{ km/h}$ and upstream at $11\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 18/09/2024 (Shift-03)",
+      "questionText": "A man can row a distance of 6 km in 1 hour in still water. He can row the same distance in 45 minutes with the current. Find the total time taken by him to row a distance of 16 km with the current and to return to the starting point.",
       "options": [
         {
           "label": "A",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "4 h. & 40 m."
         },
         {
           "label": "B",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "6 h."
         },
         {
           "label": "C",
-          "text": "$14.0\\text{ km/h}$"
+          "text": "4 h."
         },
         {
           "label": "D",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "6 h. & 40 m."
         }
       ],
-      "correctOption": "B",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{21 + 11}{2} = 16.0\\text{ km/h}$."
+      "solution": "$u = 6, D = \\frac{6}{3/4} = 8\\text{ km/h} \\implies v = 2\\text{ km/h}, U = 4\\text{ km/h}$.\\nTotal time $= \\frac{16}{8} + \\frac{16}{4} = 2 + 4 = 6\\text{ hours}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 34,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
-      "questionText": "A boat moves downstream at $22\\text{ km/h}$ and upstream at $12\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC CGL 14/07/2023 (Shift-04)",
+      "questionText": "A man takes 15 minutes to row 16 km downstream, which is 25% less than the time he takes to row the same distance upstream. How many kilometers can the man row in an hour in still water? (Rounded off to nearest whole number)",
       "options": [
         {
           "label": "A",
-          "text": "$19.0\\text{ km/h}$"
+          "text": "56"
         },
         {
           "label": "B",
-          "text": "$15.0\\text{ km/h}$"
+          "text": "60"
         },
         {
           "label": "C",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "58"
         },
         {
           "label": "D",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "54"
         }
       ],
-      "correctOption": "C",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{22 + 12}{2} = 17.0\\text{ km/h}$."
+      "solution": "$t_{down} = 15\\text{ min} = 0.75 t_{up} \\implies t_{up} = 20\\text{ min}$.\\n$D = \\frac{16}{15/60} = 64\\text{ km/h}, U = \\frac{16}{20/60} = 48\\text{ km/h}$.\\n$u = \\frac{64 + 48}{2} = 56\\text{ km/h}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 35,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
-      "questionText": "A boat moves downstream at $23\\text{ km/h}$ and upstream at $13\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "SSC MTS 12/05/2023 (Shift-02)",
+      "questionText": "Time taken by boat to cover a distance of x km in upstream is 3 hrs more than the time taken by the boat to cover the same distance in downstream. Speed of the boat in upstream is 8 km/hr. Which of the following statement(s) is/are correct?\\nI. If the value of x is 48 km, then speed of boat in downstream is 16 km/hr.\\nII. If the speed of boat in downstream is 12 km/hr, then the value of x is 48 km.",
       "options": [
         {
           "label": "A",
-          "text": "$20.0\\text{ km/h}$"
+          "text": "Neither I nor II"
         },
         {
           "label": "B",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "Only II"
         },
         {
           "label": "C",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "Only I"
         },
         {
           "label": "D",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "Both I and II"
         }
       ],
-      "correctOption": "D",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{23 + 13}{2} = 18.0\\text{ km/h}$."
+      "solution": "If $x = 48$, $t_{up} = 48/8 = 6$ hrs $\\implies t_{down} = 3$ hrs $\\implies D = 48/3 = 16\\text{ km/hr}$ (Statement I is correct).\\nIf $D = 12$, $\\frac{x}{8} - \\frac{x}{12} = 3 \\implies x = 72\\text{ km}$ (Statement II is incorrect). Hence, Only I.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 36,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
-      "questionText": "A boat moves downstream at $18\\text{ km/h}$ and upstream at $10\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - II: BASED ON B/S = (T2+T1)/(T2-T1)",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-03)",
+      "questionText": "A boat covers a certain distance downstream in 2 hours, while it comes back in $2\\frac{1}{2}$ hours. If the speed of the stream is 3 km/h, then what is the speed of the boat in still water?",
       "options": [
         {
           "label": "A",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "29 km/h"
         },
         {
           "label": "B",
-          "text": "$14.0\\text{ km/h}$"
+          "text": "25 km/h"
         },
         {
           "label": "C",
-          "text": "$12.0\\text{ km/h}$"
+          "text": "20 km/h"
         },
         {
           "label": "D",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "27 km/h"
         }
       ],
-      "correctOption": "B",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{18 + 10}{2} = 14.0\\text{ km/h}$."
+      "solution": "$\\frac{u}{v} = \\frac{2.5 + 2}{2.5 - 2} = \\frac{4.5}{0.5} = 9 \\implies u = 9 \\times 3 = 27\\text{ km/h}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 37,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
-      "questionText": "A boat moves downstream at $19\\text{ km/h}$ and upstream at $11\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - II: BASED ON B/S = (T2+T1)/(T2-T1)",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "A motorboat takes 18 hours to go downstream, and it takes 36 hours to return the same distance. Find the ratio of the speed of the boat in still water to the speed of the stream.",
       "options": [
         {
           "label": "A",
-          "text": "$15.0\\text{ km/h}$"
+          "text": "3 : 1"
         },
         {
           "label": "B",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "2 : 3"
         },
         {
           "label": "C",
-          "text": "$13.0\\text{ km/h}$"
+          "text": "2 : 1"
         },
         {
           "label": "D",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "3 : 2"
         }
       ],
-      "correctOption": "A",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{19 + 11}{2} = 15.0\\text{ km/h}$."
+      "solution": "$\\frac{u}{v} = \\frac{36 + 18}{36 - 18} = \\frac{54}{18} = \\frac{3}{1}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 38,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CGL Tier-II 27/10/2023 (Shift-01)",
-      "questionText": "A boat moves downstream at $20\\text{ km/h}$ and upstream at $12\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - II: BASED ON B/S = (T2+T1)/(T2-T1)",
+      "examShift": "SSC CHSL 04/08/2023 (Shift-04)",
+      "questionText": "A boat takes 11 hours to travel a distance upstream and takes 5 hours to travel the same distance downstream. if the speed of the boat in still water is $2\\frac{2}{9}\\text{ m/sec}$, then the speed of the stream (in km/h)is:",
       "options": [
         {
           "label": "A",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "2"
         },
         {
           "label": "B",
-          "text": "$14.0\\text{ km/h}$"
+          "text": "3"
         },
         {
           "label": "C",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "1"
         },
         {
           "label": "D",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "4"
         }
       ],
-      "correctOption": "C",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{20 + 12}{2} = 16.0\\text{ km/h}$."
+      "solution": "$u = \\frac{20}{9} \\times \\frac{18}{5} = 8\\text{ km/h}$. $\\frac{u}{v} = \\frac{11 + 5}{11 - 5} = \\frac{16}{6} = \\frac{8}{3} \\implies v = 3\\text{ km/h}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 39,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "A boat moves downstream at $21\\text{ km/h}$ and upstream at $13\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - II: BASED ON B/S = (T2+T1)/(T2-T1)",
+      "examShift": "SSC CPO 29/06/2024 (Shift-03)",
+      "questionText": "The ratio of the speed of a boat to that of the current water is 35 : 8. The boat goes along with the current in 5 hours 10 minutes. What will be the time taken by the boat to come back?",
       "options": [
         {
           "label": "A",
-          "text": "$19.0\\text{ km/h}$"
+          "text": "5 hours 15 minutes 58 seconds"
         },
         {
           "label": "B",
-          "text": "$15.0\\text{ km/h}$"
+          "text": "6 hours 45 minutes 10 seconds"
         },
         {
           "label": "C",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "8 hours 13 minutes 48 seconds"
         },
         {
           "label": "D",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "9 hours 30 minutes 49 seconds"
         }
       ],
-      "correctOption": "D",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{21 + 13}{2} = 17.0\\text{ km/h}$."
+      "solution": "$D = 35 + 8 = 43, U = 35 - 8 = 27$.\\n$t_{up} = \\frac{43}{27} \\times 310\\text{ min} = 493.7\\text{ min} = 8\\text{ hr } 13\\text{ min } 48\\text{ sec}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 40,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
-      "questionText": "A boat moves downstream at $22\\text{ km/h}$ and upstream at $10\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - II: BASED ON B/S = (T2+T1)/(T2-T1)",
+      "examShift": "SSC CGL 20/07/2023 (Shift-04)",
+      "questionText": "The ratio of the speed of a motorboat to that of the current of water is 31:6. The motorboat starts from a point and covers a certain distance along the current in 4 h 10 min. Find the time taken by the motorboat to come back to its initial point.",
       "options": [
         {
           "label": "A",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "4 h 10 min"
         },
         {
           "label": "B",
-          "text": "$14.0\\text{ km/h}$"
+          "text": "5 h 10 min"
         },
         {
           "label": "C",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "5 h 50 min"
         },
         {
           "label": "D",
-          "text": "$6.0\\text{ km/h}$"
+          "text": "6 h 10 min"
         }
       ],
-      "correctOption": "C",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{22 + 10}{2} = 16.0\\text{ km/h}$."
+      "solution": "$D = 31 + 6 = 37, U = 31 - 6 = 25$.\\n$t_{up} = \\frac{37}{25} \\times 250\\text{ min} = 370\\text{ min} = 6\\text{ h } 10\\text{ min}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 41,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
-      "questionText": "A boat moves downstream at $23\\text{ km/h}$ and upstream at $11\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - II: BASED ON B/S = (T2+T1)/(T2-T1)",
+      "examShift": "SSC CPO 11/11/2022 (Shift-02)",
+      "questionText": "The speed of a boat in still water is thrice the speed of the stream. If the boat takes 15.5 sec to go to a certain place downstream, then find the additional time required to cover the same distance travelling upstream.",
       "options": [
         {
           "label": "A",
-          "text": "$19.0\\text{ km/h}$"
+          "text": "15.5 sec"
         },
         {
           "label": "B",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "29 sec"
         },
         {
           "label": "C",
-          "text": "$15.0\\text{ km/h}$"
+          "text": "31 sec"
         },
         {
           "label": "D",
-          "text": "$6.0\\text{ km/h}$"
+          "text": "35 sec"
         }
       ],
-      "correctOption": "B",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{23 + 11}{2} = 17.0\\text{ km/h}$."
+      "solution": "$u = 3v \\implies D = 4v, U = 2v \\implies t_{up} = 2 \\times t_{down} = 31\\text{ sec}$.\\nAdditional time $= 31 - 15.5 = 15.5\\text{ sec}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 42,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
-      "questionText": "A boat moves downstream at $18\\text{ km/h}$ and upstream at $12\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - III: BASED ON: T = (2 * D * x) / (x^2 - y^2)",
+      "examShift": "SSC CGL 23/09/2024 (Shift-02)",
+      "questionText": "A motorboat, whose speed in 15 km/h in still water goes 50 km downstream and comes back in a total of 7 hours 30 minutes. The speed of the stream (in km/h) is?",
       "options": [
         {
           "label": "A",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "9 km/h"
         },
         {
           "label": "B",
-          "text": "$13.0\\text{ km/h}$"
+          "text": "5 km/h"
         },
         {
           "label": "C",
-          "text": "$3.0\\text{ km/h}$"
+          "text": "11 km/h"
         },
         {
           "label": "D",
-          "text": "$15.0\\text{ km/h}$"
+          "text": "7 km/h"
         }
       ],
-      "correctOption": "D",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{18 + 12}{2} = 15.0\\text{ km/h}$."
+      "solution": "$\\frac{50}{15+v} + \\frac{50}{15-v} = 7.5 \\implies \\frac{50 \\times 30}{225 - v^2} = \\frac{15}{2} \\implies \\frac{100}{225 - v^2} = \\frac{1}{2} \\implies 225 - v^2 = 200 \\implies v^2 = 25 \\implies v = 5\\text{ km/h}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 43,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC Phase-XI 30/06/2023 (Shift-04)",
-      "questionText": "A boat moves downstream at $19\\text{ km/h}$ and upstream at $13\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - III: BASED ON: T = (2 * D * x) / (x^2 - y^2)",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-03)",
+      "questionText": "A motorboat, whose speed is 20 km/h in still water goes 75 km downstream and comes back in a total of 8 hours. The speed of the stream is:",
       "options": [
         {
           "label": "A",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "5 km/h"
         },
         {
           "label": "B",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "6 km/h"
         },
         {
           "label": "C",
-          "text": "$14.0\\text{ km/h}$"
+          "text": "4.5 km/h"
         },
         {
           "label": "D",
-          "text": "$3.0\\text{ km/h}$"
+          "text": "6.5 km/h"
         }
       ],
-      "correctOption": "A",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{19 + 13}{2} = 16.0\\text{ km/h}$."
+      "solution": "$\\frac{75}{20+v} + \\frac{75}{20-v} = 8$. Testing $v = 5$: $\\frac{75}{25} + \\frac{75}{15} = 3 + 5 = 8\\text{ hours}$. Hence $v = 5\\text{ km/h}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 44,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
-      "questionText": "A boat moves downstream at $20\\text{ km/h}$ and upstream at $10\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - III: BASED ON: T = (2 * D * x) / (x^2 - y^2)",
+      "examShift": "SSC CGL TIER-II 12/09/2019",
+      "questionText": "The speed of boat in still water is 18 km/h and the speed of the current is 6 km/h. In how much time (in hours) will the boat travel a distance of 90 km upstream and the same distance downstream?",
       "options": [
         {
           "label": "A",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "9\\frac{1}{2}"
         },
         {
           "label": "B",
-          "text": "$15.0\\text{ km/h}$"
+          "text": "11\\frac{1}{4}"
         },
         {
           "label": "C",
-          "text": "$13.0\\text{ km/h}$"
+          "text": "12"
         },
         {
           "label": "D",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "10"
         }
       ],
-      "correctOption": "B",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{20 + 10}{2} = 15.0\\text{ km/h}$."
+      "solution": "$t = \\frac{90}{18-6} + \\frac{90}{18+6} = \\frac{90}{12} + \\frac{90}{24} = 7.5 + 3.75 = 11.25\\text{ hours} = 11\\frac{1}{4}\\text{ hours}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 45,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
-      "questionText": "A boat moves downstream at $21\\text{ km/h}$ and upstream at $11\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - III: BASED ON: T = (2 * D * x) / (x^2 - y^2)",
+      "examShift": "SSC CHSL 24/05/2022 (Shift-02)",
+      "questionText": "A man can row 5 km/h in still water. If the speed of the current is 2.5 km/h, it takes 4 hours more in upstream than in the downstream for the same distance. The distance is:",
       "options": [
         {
           "label": "A",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "10.5 km"
         },
         {
           "label": "B",
-          "text": "$14.0\\text{ km/h}$"
+          "text": "15 km"
         },
         {
           "label": "C",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "7.5 km"
         },
         {
           "label": "D",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "12 km"
         }
       ],
-      "correctOption": "D",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{21 + 11}{2} = 16.0\\text{ km/h}$."
+      "solution": "$D_{down} = 5 + 2.5 = 7.5\\text{ km/h}, U_{up} = 5 - 2.5 = 2.5\\text{ km/h}$.\\n$\\frac{d}{2.5} - \\frac{d}{7.5} = 4 \\implies \\frac{2d}{7.5} = 4 \\implies d = 15\\text{ km}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 46,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
-      "questionText": "A boat moves downstream at $22\\text{ km/h}$ and upstream at $12\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC Phase XII 26/06/2024 (Shift-04)",
+      "questionText": "A motorboat, whose speed is 15 km/h in still water goes 20 km downstream and comes back in a total of 4 hours. The speed of the stream (in km/h) is:",
       "options": [
         {
           "label": "A",
-          "text": "$19.0\\text{ km/h}$"
+          "text": "7\\sqrt{3}"
         },
         {
           "label": "B",
-          "text": "$15.0\\text{ km/h}$"
+          "text": "5\\sqrt{3}"
         },
         {
           "label": "C",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "4\\sqrt{3}"
         },
         {
           "label": "D",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "6\\sqrt{3}"
         }
       ],
-      "correctOption": "C",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{22 + 12}{2} = 17.0\\text{ km/h}$."
+      "solution": "$\\frac{20}{15+v} + \\frac{20}{15-v} = 4 \\implies \\frac{20 \\times 30}{225 - v^2} = 4 \\implies 225 - v^2 = 150 \\implies v^2 = 75 \\implies v = 5\\sqrt{3}\\text{ km/h}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 47,
-      "typeHeader": "TYPE - III: SPEED OF BOAT FROM D & U",
-      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
-      "questionText": "A boat moves downstream at $23\\text{ km/h}$ and upstream at $13\\text{ km/h}$. Find the speed of the boat in still water.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC CGL 07/03/2020 (Shift-03)",
+      "questionText": "In a stream running at 3 km/h, a motorboat goes 12 km upstream and back to the starting point in 60 min. Find the speed of the motorboat in still water, (in km/h)",
       "options": [
         {
           "label": "A",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "2(2+\\sqrt{17})"
         },
         {
           "label": "B",
-          "text": "$20.0\\text{ km/h}$"
+          "text": "2(4+\\sqrt{15})"
         },
         {
           "label": "C",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "3(4+\\sqrt{17})"
         },
         {
           "label": "D",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "3(2+\\sqrt{17})"
         }
       ],
-      "correctOption": "A",
-      "solution": "Boat speed $= \\frac{D + U}{2} = \\frac{23 + 13}{2} = 18.0\\text{ km/h}$."
+      "solution": "$\\frac{12}{u-3} + \\frac{12}{u+3} = 1 \\implies \\frac{24u}{u^2-9} = 1 \\implies u^2 - 24u - 9 = 0$.\\n$u = \\frac{24 \\pm \\sqrt{576 + 36}}{2} = 12 + \\frac{\\sqrt{612}}{2} = 12 + 3\\sqrt{17} = 3(4+\\sqrt{17})\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 48,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
-      "questionText": "A swimmer's speed downstream is $20\\text{ km/h}$ and upstream is $12\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "The speed of a boat in still water is 18 km/h and the speed of the stream is 3 km/h. How much time (in hours) will it take to cover a distance of 105 km in downstream and in coming back?",
       "options": [
         {
           "label": "A",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "12"
         },
         {
           "label": "B",
-          "text": "$5.5\\text{ km/h}$"
+          "text": "10"
         },
         {
           "label": "C",
-          "text": "$2.5\\text{ km/h}$"
+          "text": "15"
         },
         {
           "label": "D",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "9"
         }
       ],
-      "correctOption": "A",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{20 - 12}{2} = 4.0\\text{ km/h}$."
+      "solution": "$t = \\frac{105}{18+3} + \\frac{105}{18-3} = \\frac{105}{21} + \\frac{105}{15} = 5 + 7 = 12\\text{ hours}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 49,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CGL Tier-II 02/03/2023 (Shift-01)",
-      "questionText": "A swimmer's speed downstream is $21\\text{ km/h}$ and upstream is $13\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC CHSL 08/07/2024 (Shift-03)",
+      "questionText": "The speed of a boat in still water is 12 km/h, and the speed of the stream is 3 km/h. A man goes to a place by boat, 45 km and comes back to the starting point. Find the total time taken by him.",
       "options": [
         {
           "label": "A",
-          "text": "$5.5\\text{ km/h}$"
+          "text": "6 hours"
         },
         {
           "label": "B",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "7 hours"
         },
         {
           "label": "C",
-          "text": "$2.5\\text{ km/h}$"
+          "text": "9 hours"
         },
         {
           "label": "D",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "8 hours"
         }
       ],
-      "correctOption": "B",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{21 - 13}{2} = 4.0\\text{ km/h}$."
+      "solution": "$t = \\frac{45}{12+3} + \\frac{45}{12-3} = \\frac{45}{15} + \\frac{45}{9} = 3 + 5 = 8\\text{ hours}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 50,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
-      "questionText": "A swimmer's speed downstream is $22\\text{ km/h}$ and upstream is $14\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC CPO 25/11/2020 (Shift-03)",
+      "questionText": "The speed of a boat in a still river is 15 km/h and the speed of the current is 5 km/h. In what time (in hours) will the boat cover a distance of 60 kilometers downstream and the same distance upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$5.5\\text{ km/h}$"
+          "text": "12"
         },
         {
           "label": "B",
-          "text": "$2.5\\text{ km/h}$"
+          "text": "9"
         },
         {
           "label": "C",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "10"
         },
         {
           "label": "D",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "20"
         }
       ],
-      "correctOption": "C",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{22 - 14}{2} = 4.0\\text{ km/h}$."
+      "solution": "$t = \\frac{60}{15+5} + \\frac{60}{15-5} = \\frac{60}{20} + \\frac{60}{10} = 3 + 6 = 9\\text{ hours}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 51,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "A swimmer's speed downstream is $23\\text{ km/h}$ and upstream is $15\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
+      "questionText": "The speed of a boat in standing water is 6 km/h and the speed of the stream is 2.5 km/h. A man rows to a place at a distance of 59.5 km and comes back to the starting point. The total time taken by him is:",
       "options": [
         {
           "label": "A",
-          "text": "$5.5\\text{ km/h}$"
+          "text": "22 hours"
         },
         {
           "label": "B",
-          "text": "$2.5\\text{ km/h}$"
+          "text": "18 hours"
         },
         {
           "label": "C",
-          "text": "$19.0\\text{ km/h}$"
+          "text": "16 hours"
         },
         {
           "label": "D",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "24 hours"
         }
       ],
-      "correctOption": "D",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{23 - 15}{2} = 4.0\\text{ km/h}$."
+      "solution": "$t = \\frac{59.5}{6+2.5} + \\frac{59.5}{6-2.5} = \\frac{59.5}{8.5} + \\frac{59.5}{3.5} = 7 + 17 = 24\\text{ hours}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 52,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
-      "questionText": "A swimmer's speed downstream is $24\\text{ km/h}$ and upstream is $12\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC CGL 06/12/2022 (Shift-01)",
+      "questionText": "A boat racer can row $21\\frac{3}{2}\\text{ km/h}$ in still water. If the speed of river is 12.5 km/h, it takes him 40 minutes to row to a place and back, how far off is the place (consider up to two decimals)?",
       "options": [
         {
           "label": "A",
-          "text": "$7.5\\text{ km/h}$"
+          "text": "5\\frac{5}{27} km"
         },
         {
           "label": "B",
-          "text": "$6.0\\text{ km/h}$"
+          "text": "5\\frac{5}{2} km"
         },
         {
           "label": "C",
-          "text": "$4.5\\text{ km/h}$"
+          "text": "4\\frac{5}{27} km"
         },
         {
           "label": "D",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "3\\frac{5}{27} km"
         }
       ],
-      "correctOption": "B",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{24 - 12}{2} = 6.0\\text{ km/h}$."
+      "solution": "Speed in still water $u = 21 + 1.5 = 22.5\\text{ km/h}, v = 12.5\\text{ km/h}$.\\n$D = 22.5 + 12.5 = 35\\text{ km/h}, U = 22.5 - 12.5 = 10\\text{ km/h}$.\\n$\\frac{d}{35} + \\frac{d}{10} = \\frac{40}{60} = \\frac{2}{3} \\implies \\frac{2d + 7d}{70} = \\frac{2}{3} \\implies \\frac{9d}{70} = \\frac{2}{3} \\implies d = \\frac{140}{27} = 5\\frac{5}{27}\\text{ km}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 53,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CPO 03/10/2023 (Shift-02)",
-      "questionText": "A swimmer's speed downstream is $25\\text{ km/h}$ and upstream is $13\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
+      "questionText": "The speed of a boat in still water is 20 km/h, while the river is flowing at a speed of 8 km/h and the time taken to cover a certain distance upstream is 6 h more than the time taken to cover the same distance downstream. Find the distance.",
       "options": [
         {
           "label": "A",
-          "text": "$6.0\\text{ km/h}$"
+          "text": "126 km"
         },
         {
           "label": "B",
-          "text": "$7.5\\text{ km/h}$"
+          "text": "125 km"
         },
         {
           "label": "C",
-          "text": "$4.5\\text{ km/h}$"
+          "text": "120 km"
         },
         {
           "label": "D",
-          "text": "$19.0\\text{ km/h}$"
+          "text": "336 km"
         }
       ],
-      "correctOption": "A",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{25 - 13}{2} = 6.0\\text{ km/h}$."
+      "solution": "$D = 20 + 8 = 28\\text{ km/h}, U = 20 - 8 = 12\\text{ km/h}$.\\n$\\frac{d}{12} - \\frac{d}{28} = 6 \\implies d\\left(\\frac{7-3}{84}\\right) = 6 \\implies \\frac{4d}{84} = 6 \\implies \\frac{d}{21} = 6 \\implies d = 126\\text{ km}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 54,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "A swimmer's speed downstream is $20\\text{ km/h}$ and upstream is $14\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC CGL 13/12/2022 (Shift-01)",
+      "questionText": "A motorboat whose speed is 20 km/h in still water takes 30 minutes more to go 24 km upstream than to cover the same distance downstream. If the speed of the boat in still water is increased by 2 km/h, then how much time will it take to go 39 km downstream and 30 km upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$4.5\\text{ km/h}$"
+          "text": "2 h 40 min"
         },
         {
           "label": "B",
-          "text": "$1.5\\text{ km/h}$"
+          "text": "3 h 10 min"
         },
         {
           "label": "C",
-          "text": "$3.0\\text{ km/h}$"
+          "text": "3 h 40 min"
         },
         {
           "label": "D",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "2 h 50 min"
         }
       ],
-      "correctOption": "C",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{20 - 14}{2} = 3.0\\text{ km/h}$."
+      "solution": "$\\frac{24}{20-v} - \\frac{24}{20+v} = 0.5 \\implies \\frac{48v}{400-v^2} = \\frac{1}{2} \\implies 96v = 400 - v^2 \\implies v^2 + 96v - 400 = 0 \\implies (v+100)(v-4) = 0 \\implies v = 4\\text{ km/h}$.\\nNew still water speed $= 20 + 2 = 22\\text{ km/h}$.\\n$D_{new} = 22 + 4 = 26\\text{ km/h}, U_{new} = 22 - 4 = 18\\text{ km/h}$.\\nTime $= \\frac{39}{26} + \\frac{30}{18} = 1.5 + \\frac{5}{3} = \\frac{9+10}{6} = \\frac{19}{6}\\text{ hours} = 3\\text{ h } 10\\text{ min}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 55,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
-      "questionText": "A swimmer's speed downstream is $21\\text{ km/h}$ and upstream is $15\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - IV: BASED ON: D = T * (B^2 - S^2) / (2B)",
+      "examShift": "SSC MTS 08/10/2021 (Shift-01)",
+      "questionText": "A boat sails downstream from a point P to point Q, Which is 24 km away from P, and then returns to P. If the actual speed of the boat (in still water) is 6 km/h. The entire trip from P to Q taken 3 hours less than what from Q to P. What should be the actual speed (in km/h) of the boat to sail from P to Q in 2 hours?",
       "options": [
         {
           "label": "A",
-          "text": "$4.5\\text{ km/h}$"
+          "text": "12"
         },
         {
           "label": "B",
-          "text": "$1.5\\text{ km/h}$"
+          "text": "15"
         },
         {
           "label": "C",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "10"
         },
         {
           "label": "D",
-          "text": "$3.0\\text{ km/h}$"
+          "text": "22"
         }
       ],
-      "correctOption": "D",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{21 - 15}{2} = 3.0\\text{ km/h}$."
+      "solution": "$\\frac{24}{6-v} - \\frac{24}{6+v} = 3 \\implies \\frac{48v}{36-v^2} = 3 \\implies 16v = 36-v^2 \\implies v^2+16v-36=0 \\implies (v+18)(v-2)=0 \\implies v = 2\\text{ km/h}$.\\nTo go 24 km downstream in 2 hours: $D' = \\frac{24}{2} = 12\\text{ km/h}$.\\nSpeed in still water $u' = D' - v = 12 - 2 = 10\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 56,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
-      "questionText": "A swimmer's speed downstream is $22\\text{ km/h}$ and upstream is $12\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CPO 09/11/2022 (Shift-03)",
+      "questionText": "A boat can go 40 km downstream and 25 km upstream in 7 hours 30 minutes. It can go 48 km downstream and 36 km upstream in 10 hours. What is the speed (in km/h) of the boat in still water?",
       "options": [
         {
           "label": "A",
-          "text": "$6.5\\text{ km/h}$"
+          "text": "6"
         },
         {
           "label": "B",
-          "text": "$3.5\\text{ km/h}$"
+          "text": "12"
         },
         {
           "label": "C",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "9"
         },
         {
           "label": "D",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "15"
         }
       ],
-      "correctOption": "C",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{22 - 12}{2} = 5.0\\text{ km/h}$."
+      "solution": "Let downstream speed be $D$ and upstream be $U$.\\n$40/D + 25/U = 7.5$ and $48/D + 36/U = 10$.\\nTesting common factors: $D = 16, U = 5$: $40/16 + 25/5 = 2.5 + 5 = 7.5$; $48/16 + 36/5 = 3 + 7.2 = 10.2 \\neq 10$.\\nTesting $D = 12, U = 6$: $48/12 + 36/6 = 4 + 6 = 10$; $40/12 + 25/6 = \\frac{105}{12} = 8.75 \\neq 7.5$.\\nSolving system: multiply eq 1 by 6, eq 2 by 5: $240/D + 150/U = 45$ and $240/D + 180/U = 50 \\implies 30/U = 5 \\implies U = 6\\text{ km/h}$.\\nThen $40/D + 25/6 = 7.5 \\implies 40/D = 7.5 - 4.167 = 3.333 = 10/3 \\implies D = 12\\text{ km/h}$.\\nSpeed of boat in still water $u = \\frac{D + U}{2} = \\frac{12 + 6}{2} = 9\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 57,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "A swimmer's speed downstream is $23\\text{ km/h}$ and upstream is $13\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+      "questionText": "A motorboat travelling at a certain speed can cover a distance of 24 km upstream and 40 km downstream in 17 hours. At the same speed it can travel 32 km downstream and 12 km upstream in 10 hours. What is the speed of the current?",
       "options": [
         {
           "label": "A",
-          "text": "$6.5\\text{ km/h}$"
+          "text": "5 km/h"
         },
         {
           "label": "B",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "4 km/h"
         },
         {
           "label": "C",
-          "text": "$3.5\\text{ km/h}$"
+          "text": "2 km/h"
         },
         {
           "label": "D",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "3 km/h"
         }
       ],
-      "correctOption": "B",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{23 - 13}{2} = 5.0\\text{ km/h}$."
+      "solution": "$40/D + 24/U = 17$ and $32/D + 12/U = 10$.\\nMultiply second by 2: $64/D + 24/U = 20$.\\nSubtract first from this: $24/D = 3 \\implies D = 8\\text{ km/h}$.\\nThen $40/8 + 24/U = 17 \\implies 5 + 24/U = 17 \\implies 24/U = 12 \\implies U = 2\\text{ km/h}$.\\nSpeed of current $v = \\frac{D - U}{2} = \\frac{8 - 2}{2} = 3\\text{ km/h}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 58,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
-      "questionText": "A swimmer's speed downstream is $24\\text{ km/h}$ and upstream is $14\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
+      "questionText": "A boat covers 24 km upstream and 36 km downstream in 10 hours, and 36 km upstream and 24 km down-stream in 12 hours. The speed of the current is:",
       "options": [
         {
           "label": "A",
-          "text": "$6.5\\text{ km/h}$"
+          "text": "\\frac{26}{9} km/h"
         },
         {
           "label": "B",
-          "text": "$3.5\\text{ km/h}$"
+          "text": "\\frac{33}{13} km/h"
         },
         {
           "label": "C",
-          "text": "$19.0\\text{ km/h}$"
+          "text": "\\frac{25}{8} km/h"
         },
         {
           "label": "D",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "\\frac{24}{7} km/h"
         }
       ],
-      "correctOption": "D",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{24 - 14}{2} = 5.0\\text{ km/h}$."
+      "solution": "$36/D + 24/U = 10$ and $24/D + 36/U = 12$.\\nAdding: $60(1/D + 1/U) = 22 \\implies 1/D + 1/U = 11/30$.\\nSubtracting: $-12(1/D) + 12(1/U) = 2 \\implies 1/U - 1/D = 1/6 = 5/30$.\\nAdding the two: $2/U = 16/30 \\implies 1/U = 4/15 \\implies U = 15/4\\text{ km/h}$.\\n$1/D = 11/30 - 8/30 = 3/30 = 1/10 \\implies D = 10\\text{ km/h}$.\\nSpeed of current $v = \\frac{D - U}{2} = \\frac{10 - 3.75}{2} = \\frac{6.25}{2} = \\frac{25}{8}\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 59,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC Phase-XII 25/06/2024 (Shift-02)",
-      "questionText": "A swimmer's speed downstream is $25\\text{ km/h}$ and upstream is $15\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL 20/07/2023 (Shift-01)",
+      "questionText": "A boat can go 60 km downstream and 40 km upstream in 12 hours 30 minutes. It can go 84 km downstream and 63 km upstream in 18 hours 54 minutes. What is the speed (in km/h, to the nearest integer) of the boat in still water?",
       "options": [
         {
           "label": "A",
-          "text": "$5.0\\text{ km/h}$"
+          "text": "7"
         },
         {
           "label": "B",
-          "text": "$6.5\\text{ km/h}$"
+          "text": "8"
         },
         {
           "label": "C",
-          "text": "$3.5\\text{ km/h}$"
+          "text": "9"
         },
         {
           "label": "D",
-          "text": "$20.0\\text{ km/h}$"
+          "text": "10"
         }
       ],
-      "correctOption": "A",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{25 - 15}{2} = 5.0\\text{ km/h}$."
+      "solution": "$60/D + 40/U = 12.5$ and $84/D + 63/U = 18.9$.\\nMultiplying first by 7, second by 5: $420/D + 280/U = 87.5$, $420/D + 315/U = 94.5$.\\nSubtracting: $35/U = 7 \\implies U = 5\\text{ km/h}$.\\n$60/D + 40/5 = 12.5 \\implies 60/D + 8 = 12.5 \\implies 60/D = 4.5 \\implies D = 60/4.5 = 40/3\\text{ km/h}$.\\nSpeed of boat in still water $u = \\frac{D + U}{2} = \\frac{40/3 + 5}{2} = \\frac{55}{6} \\approx 9.17 \\approx 9\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 60,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
-      "questionText": "A swimmer's speed downstream is $20\\text{ km/h}$ and upstream is $12\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CHSL 12/08/2021 (Shift-01)",
+      "questionText": "A boat can go 15 km downstream and 8 km upstream in 2h. It can go 20 km downstream and 12 km upstream in 2h 50 min . What is the speed (in km/h) of the boat while going downstream?",
       "options": [
         {
           "label": "A",
-          "text": "$5.5\\text{ km/h}$"
+          "text": "20"
         },
         {
           "label": "B",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "18"
         },
         {
           "label": "C",
-          "text": "$2.5\\text{ km/h}$"
+          "text": "15"
         },
         {
           "label": "D",
-          "text": "$16.0\\text{ km/h}$"
+          "text": "16"
         }
       ],
-      "correctOption": "B",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{20 - 12}{2} = 4.0\\text{ km/h}$."
+      "solution": "$15/D + 8/U = 2$ and $20/D + 12/U = 17/6$.\\nMultiply first by 3, second by 2: $45/D + 24/U = 6$ and $40/D + 24/U = 17/3$.\\nSubtracting: $5/D = 6 - 17/3 = 1/3 \\implies D = 15\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 61,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
-      "questionText": "A swimmer's speed downstream is $21\\text{ km/h}$ and upstream is $13\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL 07/06/2019 (Shift-01)",
+      "questionText": "A boat can cover a distance of 7.2 km downstream and 3.2 km upstream in 2 hours. It can also cover 1.5 km downstream and 0.6 km upstream in 24 minutes. What is the speed of the boat when going downstream (in km/hr)?",
       "options": [
         {
           "label": "A",
-          "text": "$5.5\\text{ km/h}$"
+          "text": "6"
         },
         {
           "label": "B",
-          "text": "$2.5\\text{ km/h}$"
+          "text": "4\\frac{1}{2}"
         },
         {
           "label": "C",
-          "text": "$17.0\\text{ km/h}$"
+          "text": "5"
         },
         {
           "label": "D",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "7\\frac{1}{2}"
         }
       ],
-      "correctOption": "D",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{21 - 13}{2} = 4.0\\text{ km/h}$."
+      "solution": "$7.2/D + 3.2/U = 2$ and $1.5/D + 0.6/U = 24/60 = 0.4$.\\nMultiply second by 4.8: $7.2/D + 2.88/U = 1.92$.\\nSubtract from first: $(3.2 - 2.88)/U = 2 - 1.92 \\implies 0.32/U = 0.08 \\implies U = 4\\text{ km/h}$.\\n$1.5/D + 0.6/4 = 0.4 \\implies 1.5/D + 0.15 = 0.4 \\implies 1.5/D = 0.25 \\implies D = 6\\text{ km/h}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 62,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
-      "questionText": "A swimmer's speed downstream is $22\\text{ km/h}$ and upstream is $14\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL TIER-II 18/11/2020",
+      "questionText": "A boat can go 5 km upstream 7\\frac{1}{2} km downstream in 45 minutes. It can also go 5 km downstream and 2.5 km upstream in 25 minutes. How much time (in minutes) will it take to go 6 km upstream?",
       "options": [
         {
           "label": "A",
-          "text": "$5.5\\text{ km/h}$"
+          "text": "30"
         },
         {
           "label": "B",
-          "text": "$2.5\\text{ km/h}$"
+          "text": "24"
         },
         {
           "label": "C",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "36"
         },
         {
           "label": "D",
-          "text": "$18.0\\text{ km/h}$"
+          "text": "32"
         }
       ],
-      "correctOption": "C",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{22 - 14}{2} = 4.0\\text{ km/h}$."
+      "solution": "$5/U + 7.5/D = 45/60 = 3/4$ and $2.5/U + 5/D = 25/60 = 5/12$.\\nMultiply second by 2: $5/U + 10/D = 10/12 = 5/6$.\\nSubtract first from this: $2.5/D = 5/6 - 3/4 = 1/12 \\implies D = 30\\text{ km/h}$.\\nThen $5/U + 7.5/30 = 3/4 \\implies 5/U + 1/4 = 3/4 \\implies 5/U = 1/2 \\implies U = 10\\text{ km/h}$.\\nTime to go 6 km upstream $= \\frac{6}{10}\\text{ hours} = 36\\text{ minutes}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 63,
-      "typeHeader": "TYPE - IV: SPEED OF STREAM FROM D & U",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
-      "questionText": "A swimmer's speed downstream is $23\\text{ km/h}$ and upstream is $15\\text{ km/h}$. Find the speed of the river current.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL 20/08/2021 (Shift-02)",
+      "questionText": "A boat can go 5 km upstream and 7\\frac{1}{2} km downstream in 45 minutes. It can also go 5 km downstream and 2.5 km upstream in 25 minute. How much time (in minutes) will it take to go 6 km downstream?",
       "options": [
         {
           "label": "A",
-          "text": "$4.0\\text{ km/h}$"
+          "text": "20"
         },
         {
           "label": "B",
-          "text": "$5.5\\text{ km/h}$"
+          "text": "10"
         },
         {
           "label": "C",
-          "text": "$2.5\\text{ km/h}$"
+          "text": "15"
         },
         {
           "label": "D",
-          "text": "$19.0\\text{ km/h}$"
+          "text": "12"
         }
       ],
-      "correctOption": "A",
-      "solution": "Stream speed $= \\frac{D - U}{2} = \\frac{23 - 15}{2} = 4.0\\text{ km/h}$."
+      "solution": "From previous question: $D = 30\\text{ km/h}$.\\nTime to go 6 km downstream $= \\frac{6}{30}\\text{ hours} = \\frac{1}{5}\\text{ hours} = 12\\text{ minutes}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 64,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL 04/03/2020 (Shift-01)",
+      "questionText": "A boat can go 3 km upstream and 5 km downstream in 55 minutes. It can also go 4 km upstream and 9 km downstream in 1 hour 25 minutes. In how much time (in hours) will it go 43.2 km downstream?",
       "options": [
         {
           "label": "A",
-          "text": "5 hours"
+          "text": "4.8"
         },
         {
           "label": "B",
-          "text": "6 hours"
+          "text": "5.4"
         },
         {
           "label": "C",
-          "text": "4.5 hours"
+          "text": "3.6"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "4.4"
         }
       ],
-      "correctOption": "A",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$3/U + 5/D = 55/60 = 11/12$ and $4/U + 9/D = 85/60 = 17/12$.\\nMultiply first by 4, second by 3: $12/U + 20/D = 44/12$ and $12/U + 27/D = 51/12$.\\nSubtracting: $7/D = 7/12 \\implies D = 12\\text{ km/h}$.\\nTime to go 43.2 km downstream $= \\frac{43.2}{12} = 3.6\\text{ hours}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 65,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL 16/08/2021 (Shift-03)",
+      "questionText": "A boat goes 27 km upstream and 33 km downstream in 6 hours. In the same time it can go 36 km upstream and 22 km downstream. How much time will it take to go 36 km upstream and 44 km downstream?",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "8h"
         },
         {
           "label": "B",
-          "text": "5 hours"
+          "text": "8h 10 m"
         },
         {
           "label": "C",
-          "text": "4.5 hours"
+          "text": "7h 50m"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "8h 30 m"
         }
       ],
-      "correctOption": "B",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$27/U + 33/D = 6$ and $36/U + 22/D = 6$.\\nEquating: $27/U + 33/D = 36/U + 22/D \\implies 11/D = 9/U \\implies D = \\frac{11}{9}U$.\\nSubstitute: $27/U + 33/(11U/9) = 6 \\implies 27/U + 27/U = 6 \\implies 54/U = 6 \\implies U = 9\\text{ km/h}, D = 11\\text{ km/h}$.\\nTime for 36 km upstream and 44 km downstream $= \\frac{36}{9} + \\frac{44}{11} = 4 + 4 = 8\\text{ hours}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 66,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "A boat can travel 78 km upstream and back in a total of 32 hours. It can travel 15 km upstream and 52 km downstream in a total of 9 hours. How much distance will the boat cover in 12 hours in still water?",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "92 km"
         },
         {
           "label": "B",
-          "text": "4.5 hours"
+          "text": "96 km"
         },
         {
           "label": "C",
-          "text": "5 hours"
+          "text": "104 km"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "100 km"
         }
       ],
-      "correctOption": "C",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$78/U + 78/D = 32$ and $15/U + 52/D = 9$.\\nNotice $52$ and $78$ are multiples of $13$ or $26$. Testing $D = 13$: $15/U + 52/13 = 15/U + 4 = 9 \\implies 15/U = 5 \\implies U = 3\\text{ km/h}$.\\nCheck first: $78/3 + 78/13 = 26 + 6 = 32\\text{ hours}$ (Matches!).\\nSpeed in still water $u = \\frac{D + U}{2} = \\frac{13 + 3}{2} = 8\\text{ km/h}$.\\nDistance covered in 12 hours $= 8 \\times 12 = 96\\text{ km}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 67,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CGL TIER-II 11/09/2019",
+      "questionText": "Abhi rows upstream a distance of 28 km in 4h and rows downstream a distance of 50 km in 2h. To row a distance of 44.8 km in still water, he will take:",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "3.2 hr"
         },
         {
           "label": "B",
-          "text": "4.5 hours"
+          "text": "2.2 hr"
         },
         {
           "label": "C",
-          "text": "5.5 hours"
+          "text": "2.4 hr"
         },
         {
           "label": "D",
-          "text": "5 hours"
+          "text": "2.8 hr"
         }
       ],
-      "correctOption": "D",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$U = \\frac{28}{4} = 7\\text{ km/h}$, $D = \\frac{50}{2} = 25\\text{ km/h}$.\\nSpeed in still water $u = \\frac{25 + 7}{2} = 16\\text{ km/h}$.\\nTime to row 44.8 km $= \\frac{44.8}{16} = 2.8\\text{ hours}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 68,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CHSL 16/04/2021 (Shift-02)",
+      "questionText": "A person rows upstream a distance of 55 km in 5 hours and rows downstream a distance of 75 km in 3 hours. How much time will he take to cover a distance of 96 km in still water?",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "4 hours 40 minutes"
         },
         {
           "label": "B",
-          "text": "5 hours"
+          "text": "5 hours 20 minutes"
         },
         {
           "label": "C",
-          "text": "4.5 hours"
+          "text": "6 hours 10 minutes"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "5 hours 45 minutes"
         }
       ],
-      "correctOption": "B",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$U = \\frac{55}{5} = 11\\text{ km/h}$, $D = \\frac{75}{3} = 25\\text{ km/h}$.\\nSpeed in still water $u = \\frac{25 + 11}{2} = 18\\text{ km/h}$.\\nTime $= \\frac{96}{18} = \\frac{16}{3}\\text{ hours} = 5\\text{ hours } 20\\text{ minutes}$.",
+      "correctOption": "B"
     },
     {
       "questionNumber": 69,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - V: UV CONCEPT",
+      "examShift": "SSC CHSL TIER-II 10/01/2024",
+      "questionText": "A boat travels 3 km upstream in 1 h and 1 km downstream in 12 min. How much time will it take for the boat to go 6 km in still water?",
       "options": [
         {
           "label": "A",
-          "text": "5 hours"
+          "text": "1 h 30 min"
         },
         {
           "label": "B",
-          "text": "6 hours"
+          "text": "1 h 25 min"
         },
         {
           "label": "C",
-          "text": "4.5 hours"
+          "text": "1 h 20 min"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "1 h 15 min"
         }
       ],
-      "correctOption": "A",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$U = \\frac{3}{1} = 3\\text{ km/h}$, $D = \\frac{1}{12/60} = 5\\text{ km/h}$.\\nSpeed in still water $u = \\frac{5 + 3}{2} = 4\\text{ km/h}$.\\nTime for 6 km $= \\frac{6}{4} = 1.5\\text{ hours} = 1\\text{ h } 30\\text{ min}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 70,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL TIER-II 13/09/2019",
+      "questionText": "A man can row a distance of 900 meters against the stream in 12 minutes and returns to the starting points in 9 minutes. What is the speed (in km/h) of the man in still water?",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "4\\frac{1}{2}"
         },
         {
           "label": "B",
-          "text": "4.5 hours"
+          "text": "6"
         },
         {
           "label": "C",
-          "text": "5 hours"
+          "text": "5\\frac{1}{4}"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "5"
         }
       ],
-      "correctOption": "C",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$U = \\frac{900}{12 \\times 60} = 1.25\\text{ m/s} = 1.25 \\times \\frac{18}{5} = 4.5\\text{ km/h}$.\\n$D = \\frac{900}{9 \\times 60} = \\frac{5}{3}\\text{ m/s} = \\frac{5}{3} \\times \\frac{18}{5} = 6\\text{ km/h}$.\\nSpeed in still water $u = \\frac{6 + 4.5}{2} = 5.25\\text{ km/h} = 5\\frac{1}{4}\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 71,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
+      "questionText": "A man's speed in still water is 4 km/h more than the speed of the current. If the man takes a total of 10 h to cover 45 km downstream and 35 km upstream, then the speed of the man in still water is:",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "20 km/h"
         },
         {
           "label": "B",
-          "text": "4.5 hours"
+          "text": "18 km/h"
         },
         {
           "label": "C",
-          "text": "5.5 hours"
+          "text": "15 km/h"
         },
         {
           "label": "D",
-          "text": "5 hours"
+          "text": "22 km/h"
         }
       ],
-      "correctOption": "D",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "Let current speed be $v$, so $u = v + 4$. Then $D = u + v = 2v + 4$, $U = u - v = 4\\text{ km/h}$.\\nTime $= \\frac{45}{2v+4} + \\frac{35}{4} = 10 \\implies \\frac{45}{2v+4} = 10 - 8.75 = 1.25 = \\frac{5}{4}$.\\n$2v + 4 = 36 \\implies 2v = 32 \\implies v = 16\\text{ km/h}$.\\nSpeed in still water $u = 16 + 4 = 20\\text{ km/h}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 72,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC Phase XII 24/06/2024 (Shift-02)",
+      "questionText": "The speed of a boat in still water is 6 km/h and the speed of the stream is 1.5 km/h. In going from point A to point B and returning to A, the boatman takes 2 hours 40 min. Find the distance between points A and B.",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "7.5 km"
         },
         {
           "label": "B",
-          "text": "4.5 hours"
+          "text": "7 km"
         },
         {
           "label": "C",
-          "text": "5 hours"
+          "text": "8 km"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "8.5 km"
         }
       ],
-      "correctOption": "C",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$D = 6 + 1.5 = 7.5\\text{ km/h}, U = 6 - 1.5 = 4.5\\text{ km/h}$.\\n$\\frac{d}{7.5} + \\frac{d}{4.5} = 2\\frac{2}{3} = \\frac{8}{3} \\implies \\frac{2d}{15} + \\frac{2d}{9} = \\frac{8}{3} \\implies d\\left(\\frac{3+5}{45}\\right) = \\frac{4}{3} \\implies \\frac{8d}{45} = \\frac{4}{3} \\implies d = \\frac{4}{3} \\times \\frac{45}{8} = 7.5\\text{ km}$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 73,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 01/12/2022 (Shift-03)",
+      "questionText": "A swimmer swims from a point P against the current for 6 min and then swims back along the current for next 6 min and reaches at a point Q. If the distance between P and Q is 120 m then the speed of the current (in km/h) is:",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "0.4"
         },
         {
           "label": "B",
-          "text": "5 hours"
+          "text": "0.2"
         },
         {
           "label": "C",
-          "text": "4.5 hours"
+          "text": "1"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "0.6"
         }
       ],
-      "correctOption": "B",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "Distance upstream $= (u - v) \\times t$, distance downstream $= (u + v) \\times t$.\\nNet distance $PQ = (u + v)t - (u - v)t = 2vt = 120\\text{ m}$.\\n$2v \\times (6 \\times 60) = 120 \\implies 2v \\times 360 = 120 \\implies v = \\frac{120}{720} = \\frac{1}{6}\\text{ m/s}$.\\n$v = \\frac{1}{6} \\times \\frac{18}{5} = \\frac{3}{5} = 0.6\\text{ km/h}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 74,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
+      "questionText": "A boat takes 20 hours for travelling downstream from point A to point B and comes back to a midpoint C between A and B. The speed of the stream is 5 km/h and the speed of the boat in still water is 10 km/h. Find the distance between A and B (in km).",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "100"
         },
         {
           "label": "B",
-          "text": "4.5 hours"
+          "text": "150"
         },
         {
           "label": "C",
-          "text": "5.5 hours"
+          "text": "75"
         },
         {
           "label": "D",
-          "text": "5 hours"
+          "text": "120"
         }
       ],
-      "correctOption": "D",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$D = 10 + 5 = 15\\text{ km/h}, U = 10 - 5 = 5\\text{ km/h}$.\\nDistance $AB = d$, distance $BC = d/2$.\\n$\\frac{d}{15} + \\frac{d/2}{5} = 20 \\implies \\frac{d}{15} + \\frac{d}{10} = 20 \\implies \\frac{5d}{30} = 20 \\implies \\frac{d}{6} = 20 \\implies d = 120\\text{ km}$.",
+      "correctOption": "D"
     },
     {
       "questionNumber": 75,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 23/08/2021 (Shift-01)",
+      "questionText": "A boat covers a round trip journey between two points A and B in a river in T hours. If its speed in still water becomes 2 times, it would take \\frac{80}{161} T hours for the same journey. Find the ratio of its speed in still water to the speed of the river.",
       "options": [
         {
           "label": "A",
-          "text": "5 hours"
+          "text": "11 : 1"
         },
         {
           "label": "B",
-          "text": "6 hours"
+          "text": "161 : 40"
         },
         {
           "label": "C",
-          "text": "4.5 hours"
+          "text": "1 : 11"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "2 : 1"
         }
       ],
-      "correctOption": "A",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$T = \\frac{d}{u+v} + \\frac{d}{u-v} = \\frac{2du}{u^2-v^2}$.\\nNew time $T' = \\frac{2d(2u)}{(2u)^2-v^2} = \\frac{4du}{4u^2-v^2} = \\frac{80}{161}T = \\frac{80}{161} \\times \\frac{2du}{u^2-v^2}$.\\n$\\frac{2}{4u^2-v^2} = \\frac{80}{161(u^2-v^2)} \\implies 161(u^2-v^2) = 40(4u^2-v^2) = 160u^2 - 40v^2$.\\n$161u^2 - 160u^2 = 161v^2 - 40v^2 \\implies u^2 = 121v^2 \\implies \\frac{u}{v} = \\frac{11}{1} = 11 : 1$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 76,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC MTS 12/07/2022 (Shift-03)",
+      "questionText": "A person rowing a boat goes from J to K (upstream) and returns from K to J (downstream) in a total time of 15 hours. The distance between J and K is 300 AU. The time taken by a man to row a boat a distance of 9 km downstream is equal to the time taken by him to row a boat a distance of 3 km upstream. What is the approximate speed of the boat in still water?",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "51.33"
         },
         {
           "label": "B",
-          "text": "5 hours"
+          "text": "47.67"
         },
         {
           "label": "C",
-          "text": "4.5 hours"
+          "text": "53.33"
         },
         {
           "label": "D",
-          "text": "5.5 hours"
+          "text": "43.67"
         }
       ],
-      "correctOption": "B",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$\\frac{9}{D} = \\frac{3}{U} \\implies D = 3U$.\\nTotal round trip time: $\\frac{300}{U} + \\frac{300}{3U} = 15 \\implies \\frac{300}{U} + \\frac{100}{U} = 15 \\implies \\frac{400}{U} = 15 \\implies U = \\frac{400}{15} = \\frac{80}{3}\\text{ km/h}$.\\n$D = 3 \\times \\frac{80}{3} = 80\\text{ km/h}$.\\nSpeed of boat in still water $u = \\frac{D + U}{2} = \\frac{80 + 26.67}{2} = \\frac{106.67}{2} = 53.33\\text{ km/h}$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 77,
-      "typeHeader": "TYPE - V: ROUND TRIP RIVER JOURNEY",
-      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
-      "questionText": "A boat covers $24\\text{ km}$ downstream and returns to the starting point. If boat speed in still water is $10\\text{ km/h}$ and stream is $2\\text{ km/h}$, find total time taken.",
+      "typeHeader": "TYPE - VI: MISCELLANEOUS QUESTIONS",
+      "examShift": "SSC CGL 13/08/2021 (Shift-01)",
+      "questionText": "X, Y are two points in a river. Point P and Q divide the straight line XY into three equal parts. The river flows along XY and the time taken by a boat to row from X to Q and from Y to Q are in the ratio 4 : 5. The ratio of the speed of the boat downstream to that of the river current is equal to:",
       "options": [
         {
           "label": "A",
-          "text": "6 hours"
+          "text": "3 : 10"
         },
         {
           "label": "B",
-          "text": "4.5 hours"
+          "text": "3 : 4"
         },
         {
           "label": "C",
-          "text": "5.5 hours"
+          "text": "10 : 3"
         },
         {
           "label": "D",
-          "text": "5 hours"
+          "text": "4 : 3"
         }
       ],
-      "correctOption": "D",
-      "solution": "Time $= \\frac{24}{10+2} + \\frac{24}{10-2} = \\frac{24}{12} + \\frac{24}{8} = 2 + 3 = 5\\text{ hours}$."
+      "solution": "$X$ to $Q$ is downstream with distance $2d$, $Y$ to $Q$ is upstream with distance $d$.\\n$t_1 = \\frac{2d}{D}$, $t_2 = \\frac{d}{U}$.\\n$\\frac{t_1}{t_2} = \\frac{2d/D}{d/U} = \\frac{2U}{D} = \\frac{4}{5} \\implies \\frac{U}{D} = \\frac{2}{5} \\implies D = 5k, U = 2k$.\\nRiver current speed $v = \\frac{D - U}{2} = \\frac{5k - 2k}{2} = 1.5k$.\\nRatio of downstream speed to river current $= \\frac{D}{v} = \\frac{5k}{1.5k} = \\frac{10}{3} = 10 : 3$.",
+      "correctOption": "C"
     }
   ]
 }
