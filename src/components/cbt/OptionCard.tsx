@@ -58,41 +58,41 @@ export const OptionCard: React.FC<OptionCardProps> = ({
           onSelect();
         }
       }}
-      className={`group relative flex items-center gap-3 sm:gap-4 max-lg:landscape:gap-2 py-3 sm:py-4 max-lg:landscape:py-1 px-4 sm:px-6 max-lg:landscape:px-2.5 rounded-xl border transition-all select-none cursor-pointer w-full max-lg:landscape:min-h-0 ${containerStyles}`}
+      className={`group relative flex items-center gap-2.5 sm:gap-3.5 max-lg:landscape:gap-1.5 py-2 sm:py-2.5 max-lg:landscape:py-1 px-3.5 sm:px-4.5 max-lg:landscape:px-2 rounded-xl border transition-all select-none cursor-pointer w-full max-lg:landscape:min-h-0 ${containerStyles}`}
     >
       {/* Radio Circle & Label */}
       <div
-        className={`flex-shrink-0 w-7 h-7 sm:w-9 sm:h-9 max-lg:landscape:w-5 max-lg:landscape:h-5 rounded-lg flex items-center justify-center font-bold text-xs sm:text-base max-lg:landscape:text-[10px] border transition-colors ${circleStyles}`}
+        className={`flex-shrink-0 w-6.5 h-6.5 sm:w-7.5 sm:h-7.5 max-lg:landscape:w-5 max-lg:landscape:h-5 rounded-lg flex items-center justify-center font-bold text-xs sm:text-sm max-lg:landscape:text-[10px] border transition-colors ${circleStyles}`}
       >
         {instantFeedbackActive && isCorrectOption ? (
-          <Check className="w-4 h-4 sm:w-5 sm:h-5 max-lg:landscape:w-3 max-lg:landscape:h-3 stroke-[3]" />
+          <Check className="w-3.5 h-3.5 sm:w-4 sm:h-4 max-lg:landscape:w-3 max-lg:landscape:h-3 stroke-[3]" />
         ) : instantFeedbackActive && isWrongOption ? (
-          <X className="w-4 h-4 sm:w-5 sm:h-5 max-lg:landscape:w-3 max-lg:landscape:h-3 stroke-[3]" />
+          <X className="w-3.5 h-3.5 sm:w-4 sm:h-4 max-lg:landscape:w-3 max-lg:landscape:h-3 stroke-[3]" />
         ) : (
           label
         )}
       </div>
 
       {/* Option Text with KaTeX and Hindi font support */}
-      <div className="flex-1 text-[15px] sm:text-[18px] max-lg:landscape:text-[12px] font-semibold text-slate-900 leading-relaxed max-lg:landscape:leading-tight">
+      <div className="flex-1 text-[14px] sm:text-[15.5px] max-lg:landscape:text-[12px] font-semibold text-slate-900 leading-snug max-lg:landscape:leading-tight">
         <MathRenderer text={text} inlineOnly />
       </div>
 
       {/* Instant Feedback indicator badge */}
       {instantFeedbackActive && isCorrectOption && (
-        <span className="text-[10px] sm:text-xs max-lg:landscape:text-[9px] font-bold text-emerald-700 bg-emerald-100/80 px-2 py-1 max-lg:landscape:py-0 rounded-md ml-auto shrink-0">
+        <span className="text-[10px] sm:text-xs max-lg:landscape:text-[9px] font-bold text-emerald-700 bg-emerald-100/80 px-2 py-0.5 max-lg:landscape:py-0 rounded-md ml-auto shrink-0">
           Correct
         </span>
       )}
       {instantFeedbackActive && isWrongOption && (
-        <span className="text-[10px] sm:text-xs max-lg:landscape:text-[9px] font-bold text-rose-700 bg-rose-100/80 px-2 py-1 max-lg:landscape:py-0 rounded-md ml-auto shrink-0">
+        <span className="text-[10px] sm:text-xs max-lg:landscape:text-[9px] font-bold text-rose-700 bg-rose-100/80 px-2 py-0.5 max-lg:landscape:py-0 rounded-md ml-auto shrink-0">
           Incorrect
         </span>
       )}
 
       {/* Optional keyboard shortcut hint */}
       {!instantFeedbackActive && keyboardShortcut && (
-        <span className="hidden sm:inline-block text-xs font-mono font-bold text-slate-400 bg-slate-100 border border-slate-200/80 px-2.5 py-1 rounded-md ml-auto shrink-0">
+        <span className="hidden sm:inline-block text-[11px] font-mono font-bold text-slate-400 bg-slate-100 border border-slate-200/80 px-2 py-0.5 rounded-md ml-auto shrink-0">
           {keyboardShortcut}
         </span>
       )}

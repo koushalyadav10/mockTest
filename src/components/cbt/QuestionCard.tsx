@@ -230,25 +230,23 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto max-lg:landscape:overflow-hidden scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300 p-3.5 sm:p-6 lg:p-8 max-lg:landscape:p-2 max-lg:landscape:py-1.5">
+    <div className="flex flex-col h-full bg-[#fafbfc] rounded-2xl border border-slate-200/90 shadow-2xs overflow-y-auto max-lg:landscape:overflow-hidden scrollbar-thin scrollbar-thumb-slate-200 hover:scrollbar-thumb-slate-300 p-3 sm:p-4 lg:p-5 max-lg:landscape:p-2 max-lg:landscape:py-1.5">
       {/* Top Header Bar */}
-      <div className="flex flex-wrap max-lg:landscape:flex-nowrap items-center justify-between gap-2 pb-2.5 sm:pb-4 max-lg:landscape:pb-1 border-b border-slate-200/80 text-xs shrink-0">
+      <div className="flex flex-wrap max-lg:landscape:flex-nowrap items-center justify-between gap-2 pb-2 sm:pb-2.5 max-lg:landscape:pb-1 border-b border-slate-200/80 text-xs shrink-0">
         {/* Left: Question No + Topic + Question Timer */}
         <div className="flex items-center gap-2 sm:gap-3 flex-wrap max-lg:landscape:flex-nowrap">
-          <span className="text-base sm:text-xl font-black text-slate-900 font-mono tracking-tight shrink-0">
+          <span className="text-base sm:text-lg font-black text-slate-900 font-mono tracking-tight shrink-0">
             Q.{questionNumber}
           </span>
 
           {topic && (
-            <span className="bg-slate-100 text-slate-800 font-bold px-2.5 py-1 max-lg:landscape:px-1.5 max-lg:landscape:py-0.5 rounded-lg border border-slate-200/80 text-xs max-lg:landscape:text-[10px] max-w-[150px] sm:max-w-none truncate shrink-0">
+            <span className="bg-slate-100 text-slate-800 font-bold px-2 py-0.5 max-lg:landscape:px-1.5 max-lg:landscape:py-0.5 rounded-lg border border-slate-200/80 text-xs max-lg:landscape:text-[10px] max-w-[150px] sm:max-w-none truncate shrink-0">
               {topic}
             </span>
           )}
 
-
-
           {/* Per-Question Live Timer & Speed Badge */}
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 max-lg:landscape:px-1.5 max-lg:landscape:py-0.5 rounded-lg bg-blue-50 border border-blue-200/80 text-blue-800 text-xs max-lg:landscape:text-[10px] font-mono font-bold shrink-0">
+          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 max-lg:landscape:px-1.5 max-lg:landscape:py-0.5 rounded-lg bg-blue-50 border border-blue-200/80 text-blue-800 text-xs max-lg:landscape:text-[10px] font-mono font-bold shrink-0">
             <Clock className="w-3.5 h-3.5 text-blue-600 shrink-0" />
             <span>Time: {formatTimer(questionTimeSeconds)}</span>
             {selectedOptionStableId && (
@@ -262,7 +260,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         {/* Right: Bilingual Single-Question Switcher & Marks Badges */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           {/* Official SSC Real-Time Question Language Toggle */}
-          <div className="flex items-center gap-1.5 bg-white border border-slate-300 rounded-lg sm:rounded-xl px-2 py-1 shadow-2xs hover:border-indigo-400 transition-colors">
+          <div className="flex items-center gap-1.5 bg-white border border-slate-300 rounded-lg sm:rounded-xl px-2 py-0.5 shadow-2xs hover:border-indigo-400 transition-colors">
             <Languages className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
             <span className="text-xs font-bold text-slate-500 hidden md:inline">View in:</span>
             <select
@@ -289,12 +287,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       </div>
 
       {/* Question Content Body: Single spacious column in Desktop & Portrait, 2-column ONLY in Mobile Landscape */}
-      <div className="py-3 sm:py-5 max-lg:landscape:py-1 flex-1 w-full grid grid-cols-1 max-lg:landscape:grid-cols-2 gap-4 sm:gap-6 max-lg:landscape:gap-3 overflow-y-auto max-lg:landscape:overflow-hidden min-h-0">
+      <div className="py-2 sm:py-3 max-lg:landscape:py-1 flex-1 w-full grid grid-cols-1 max-lg:landscape:grid-cols-2 gap-3.5 sm:gap-5 max-lg:landscape:gap-2.5 overflow-y-auto max-lg:landscape:overflow-hidden min-h-0">
         {/* Question Text, Context Passage, DI Visuals / Diagrams */}
-        <div className="space-y-3 sm:space-y-4 max-lg:landscape:space-y-1.5 overflow-visible max-lg:landscape:overflow-y-auto pr-0 max-lg:landscape:pr-2">
+        <div className="space-y-2 sm:space-y-3 max-lg:landscape:space-y-1.5 overflow-visible max-lg:landscape:overflow-y-auto pr-0 max-lg:landscape:pr-2">
           {/* Authentic Aditya Ranjan Type Badge (if present) */}
           {activeTypeHeader && (
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
+            <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-lg bg-slate-900 text-white font-bold text-xs uppercase tracking-wider shadow-2xs border border-slate-700">
               <span className="text-amber-400">◆</span>
               <span>{activeTypeHeader}</span>
               <span className="text-amber-400">◆</span>
@@ -303,12 +301,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
           {/* Reading Comprehension Passage or Story Context */}
           {directionText && (
-            <div className="p-4 sm:p-5 max-lg:landscape:p-2.5 rounded-xl sm:rounded-2xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-2">
+            <div className="p-3.5 sm:p-4 max-lg:landscape:p-2 rounded-xl bg-amber-50/70 border border-amber-200/90 shadow-2xs space-y-1.5">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-900">
                 <FileText className="w-4 h-4 text-amber-700 shrink-0" />
                 <span>Reference Context / Reading Passage</span>
               </div>
-              <div className="text-sm sm:text-base max-lg:landscape:text-[12px] text-slate-800 leading-relaxed font-normal whitespace-pre-line">
+              <div className="text-xs sm:text-sm max-lg:landscape:text-[11px] text-slate-800 leading-relaxed font-normal whitespace-pre-line">
                 <MathRenderer text={directionText} />
               </div>
             </div>
@@ -326,15 +324,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             />
           )}
 
-          {/* Highlighted Crisp Large Question Text */}
-          <div className="text-[18px] sm:text-[22px] lg:text-[24px] max-lg:landscape:text-[14px] font-bold text-slate-900 leading-snug sm:leading-relaxed tracking-tight py-1.5 sm:py-3 max-lg:landscape:py-0.5">
+          {/* Highlighted Crisp Large Question Text (Calibrated for comfortable single-screen fit) */}
+          <div className="text-[16px] sm:text-[18px] lg:text-[19px] max-lg:landscape:text-[13px] font-bold text-slate-900 leading-snug tracking-tight py-1 sm:py-1.5 max-lg:landscape:py-0.5">
             <MathRenderer text={activeQuestionText} />
           </div>
 
           {/* Official Exam Year & Shift Badge (Shown under question text only when year/shift exists) */}
           {hasYear && displayExamTag && (
-            <div className="flex justify-end pt-0.5 pb-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#c5e1dd] text-[#0f4037] border border-[#a8d3cc] font-bold text-xs sm:text-sm tracking-wide shadow-2xs select-none">
+            <div className="flex justify-end pt-0.5 pb-1">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-[#c5e1dd] text-[#0f4037] border border-[#a8d3cc] font-bold text-xs tracking-wide shadow-2xs select-none">
                 {displayExamTag}
               </span>
             </div>
@@ -346,7 +344,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
               <img
                 src={imageUrl}
                 alt={`Question ${questionNumber} Diagram`}
-                className="max-h-[260px] sm:max-h-[480px] max-lg:landscape:max-h-[150px] w-auto mx-auto object-contain rounded-xl cursor-pointer hover:opacity-95 transition-all"
+                className="max-h-[220px] sm:max-h-[380px] max-lg:landscape:max-h-[140px] w-auto mx-auto object-contain rounded-xl cursor-pointer hover:opacity-95 transition-all"
                 onClick={() => setIsZoomOpen(true)}
               />
             </div>
@@ -354,12 +352,12 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         </div>
 
         {/* Options & Instant Feedback Explanation */}
-        <div className="space-y-2.5 sm:space-y-3.5 max-lg:landscape:space-y-1 overflow-visible max-lg:landscape:overflow-y-auto pl-0 max-lg:landscape:pl-2 flex flex-col justify-start">
-          <div className="text-xs sm:text-sm font-bold text-slate-500 uppercase tracking-wider pb-1 shrink-0 max-lg:landscape:hidden">
+        <div className="space-y-1.5 sm:space-y-2 max-lg:landscape:space-y-1 overflow-visible max-lg:landscape:overflow-y-auto pl-0 max-lg:landscape:pl-2 flex flex-col justify-start">
+          <div className="text-[11px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider pb-0.5 shrink-0 max-lg:landscape:hidden">
             {effectiveLang === "hi" ? "अपना विकल्प चुनें (Select Your Option):" : "Select Your Option:"}
           </div>
 
-          <div className="space-y-2.5 sm:space-y-3.5 max-lg:landscape:space-y-1 w-full">
+          <div className="space-y-1.5 sm:space-y-2 max-lg:landscape:space-y-1 w-full">
             {options.map((opt, idx) => {
               const isSelected = selectedOptionStableId === opt.stableId;
               const isCorrectOption = Boolean(

@@ -55,6 +55,34 @@ const SUPERSCRIPT_MAP: Record<string, string> = {
 };
 
 /**
+ * Detect whether a string is a standalone mathematical expression
+ * (e.g. \frac{\sqrt{21}-1}{2}, a^{\frac{7}{8}}, 2\sqrt{3}+1)
+ * rather than a regular sentence.
+ */
+function isPureMathExpression(str: string): boolean {
+  const trimmed = str.trim();
+  if (!trimmed) return false;
+  // If already enclosed in $, don't re-wrap
+  if (trimmed.startsWith("$") && trimmed.endsWith("$")) return false;
+  // Math indicators: LaTeX command, caret powers, roots, plus-minus, standalone fractions
+  const hasMath = /\\\w+|[\^√±]|\b\d+\/\d+\b/.test(trimmed);
+  if (!hasMath) return false;
+  // Strip out LaTeX commands: \frac, \sqrt, \pm, \alpha etc.
+  const stripped = trimmed.replace(/\\[a-zA-Z]+/g, "");
+  // Words with 4+ characters usually indicate English/Hindi sentence text
+  const longWords = stripped.match(/[a-zA-Z\u0900-\u097F]{4,}/g);
+  if (longWords && longWords.length > 0) return false;
+  // Check balanced braces
+  let depth = 0;
+  for (const ch of trimmed) {
+    if (ch === "{") depth++;
+    else if (ch === "}") depth--;
+    if (depth < 0) return false;
+  }
+  return depth === 0;
+}
+
+/**
  * Auto-wrap unwrapped LaTeX math expressions and sanitize malformed tokens
  */
 function sanitizeAndWrapLatex(text: string): string {
@@ -64,6 +92,12 @@ function sanitizeAndWrapLatex(text: string): string {
   let cleaned = text
     .replace(/\/fskd/gi, "")
     .replace(/\/+(frac|sqrt|times|div|pm|circ|degree|pi|theta|alpha|beta)\b/gi, "\\$1");
+
+  // Fast-path: If the entire input is a pure mathematical formula (typical for option cards),
+  // wrap it completely so KaTeX processes it as a single cohesive expression.
+  if (isPureMathExpression(cleaned)) {
+    cleaned = `$${cleaned.trim()}$`;
+  }
 
   // 2. Protect existing math blocks ($$...$$ and $...$) so we never double-wrap
   const mathPlaceholders: string[] = [];
@@ -157,17 +191,18 @@ function sanitizeAndWrapLatex(text: string): string {
     return protect(`$${val}^\\circ\\text{${unit}}$`);
   });
 
-  // 7. Unwrapped LaTeX commands: \frac, \sqrt, \alpha, \pm, \div, etc.
-  p = p.replace(
-    /((?:[-+±]|\b|\s|^)(?:[0-9.]*\s*)?\\[a-zA-Z]+(?:\{[^{}]*\}|\[[^\[\]]*\]|[0-9a-zA-Z_^{}\\+\-*\/])*)/g,
-    (m) => {
-      const tr = m.trim();
-      if (!tr || tr.startsWith("$") || tr.includes("___MATH_PLACEHOLDER_")) return m;
-      const leadingSpace = m.startsWith(" ") ? " " : "";
-      const trailingSpace = m.endsWith(" ") ? " " : "";
-      return `${leadingSpace}${protect(`$${tr}$`)}${trailingSpace}`;
-    }
-  );
+  // 7. Unwrapped LaTeX commands and powers in sentences: \frac, \sqrt, a^{\frac{7}{8}}, etc.
+  // Supports nested braces up to 3 levels: e.g. \frac{\frac{49}{63} + ...}{\frac{1}{7} + ...}
+  const nestedLatexRegex =
+    /(?:(?<=\s|^|[+\-*/=(])|^)(?:[0-9.]*\s*)?(?:[a-zA-Z0-9()]+\^\{[^{}]*(?:\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}[^{}]*)*\}|\\[a-zA-Z]+(?:\[[^\]]*\]|\{(?:[^{}]*|\{(?:[^{}]*|\{[^{}]*\})*\})*\})*)(?:[0-9a-zA-Z_+\-*\/^.]+(?:\s*[+\-*/]\s*[0-9a-zA-Z_+\-*\/^.]+)*)?/g;
+
+  p = p.replace(nestedLatexRegex, (m) => {
+    const tr = m.trim();
+    if (!tr || tr.startsWith("$") || tr.includes("___MATH_PLACEHOLDER_")) return m;
+    const leadingSpace = m.startsWith(" ") ? " " : "";
+    const trailingSpace = m.endsWith(" ") ? " " : "";
+    return `${leadingSpace}${protect(`$${tr}$`)}${trailingSpace}`;
+  });
 
   // 8. Restore protected math blocks
   return p.replace(/___MATH_PLACEHOLDER_(\d+)___/g, (_, idx) => {

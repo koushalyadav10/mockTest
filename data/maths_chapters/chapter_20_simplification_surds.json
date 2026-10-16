@@ -221,19 +221,19 @@
       "options": [
         {
           "label": "A",
-          "text": "4^4"
+          "text": "$4^4$"
         },
         {
           "label": "B",
-          "text": "4^3"
+          "text": "$4^3$"
         },
         {
           "label": "C",
-          "text": "4^2"
+          "text": "$4^2$"
         },
         {
           "label": "D",
-          "text": "4^0"
+          "text": "$4^0$"
         }
       ],
       "correctOption": "A",
@@ -325,7 +325,7 @@
       "options": [
         {
           "label": "A",
-          "text": "-\\frac{7}{2}"
+          "text": "$-\\frac{7}{2}$"
         },
         {
           "label": "B",
@@ -333,7 +333,7 @@
         },
         {
           "label": "C",
-          "text": "\\frac{7}{2}"
+          "text": "$\\frac{7}{2}$"
         },
         {
           "label": "D",
@@ -437,11 +437,11 @@
         },
         {
           "label": "C",
-          "text": "2\\frac{3}{4}"
+          "text": "$2\\frac{3}{4}$"
         },
         {
           "label": "D",
-          "text": "7\\frac{3}{4}"
+          "text": "$7\\frac{3}{4}$"
         }
       ],
       "correctOption": "B",
@@ -819,19 +819,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{73}{9}"
+          "text": "$\\frac{73}{9}$"
         },
         {
           "label": "B",
-          "text": "\\frac{73}{21}"
+          "text": "$\\frac{73}{21}$"
         },
         {
           "label": "C",
-          "text": "\\frac{73}{21}"
+          "text": "$\\frac{73}{21}$"
         },
         {
           "label": "D",
-          "text": "\\frac{73}{8}"
+          "text": "$\\frac{73}{8}$"
         }
       ],
       "correctOption": "D",
@@ -905,7 +905,7 @@
         },
         {
           "label": "C",
-          "text": "6\\frac{1}{4}"
+          "text": "$6\\frac{1}{4}$"
         },
         {
           "label": "D",
@@ -1113,7 +1113,7 @@
         },
         {
           "label": "C",
-          "text": "\\frac{112}{5}"
+          "text": "$\\frac{112}{5}$"
         },
         {
           "label": "D",
@@ -1139,7 +1139,7 @@
         },
         {
           "label": "C",
-          "text": "6\\frac{1}{4}"
+          "text": "$6\\frac{1}{4}$"
         },
         {
           "label": "D",
@@ -1469,19 +1469,19 @@
       "options": [
         {
           "label": "A",
-          "text": "-26\\frac{2}{5}"
+          "text": "$-26\\frac{2}{5}$"
         },
         {
           "label": "B",
-          "text": "-17\\frac{2}{5}"
+          "text": "$-17\\frac{2}{5}$"
         },
         {
           "label": "C",
-          "text": "-21\\frac{3}{5}"
+          "text": "$-21\\frac{3}{5}$"
         },
         {
           "label": "D",
-          "text": "-23\\frac{1}{5}"
+          "text": "$-23\\frac{1}{5}$"
         }
       ],
       "correctOption": "C",
@@ -1703,19 +1703,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{2}{5}"
+          "text": "$\\frac{2}{5}$"
         },
         {
           "label": "B",
-          "text": "-\\frac{4}{5}"
+          "text": "$-\\frac{4}{5}$"
         },
         {
           "label": "C",
-          "text": "-\\frac{1}{5}"
+          "text": "$-\\frac{1}{5}$"
         },
         {
           "label": "D",
-          "text": "-\\frac{3}{5}"
+          "text": "$-\\frac{3}{5}$"
         }
       ],
       "correctOption": "C",
@@ -1729,19 +1729,19 @@
       "options": [
         {
           "label": "A",
-          "text": "x^{128} - y^{128}"
+          "text": "$x^{128} - y^{128}$"
         },
         {
           "label": "B",
-          "text": "x^{64} - y^{64}"
+          "text": "$x^{64} - y^{64}$"
         },
         {
           "label": "C",
-          "text": "x^{256} - y^{28}"
+          "text": "$x^{256} - y^{28}$"
         },
         {
           "label": "D",
-          "text": "x^{32} - y^{32}"
+          "text": "$x^{32} - y^{32}$"
         }
       ],
       "correctOption": "D",
@@ -1833,19 +1833,19 @@
       "options": [
         {
           "label": "A",
-          "text": "[2 \\times 3 + 5 - \\{1 - 2(3 - 2 \\times 2)\\}]"
+          "text": "$[2 \\times 3 + 5 - \\{1 - 2(3 - 2 \\times 2)\\}]$"
         },
         {
           "label": "B",
-          "text": "[2 \\times 3 - 5 - \\{1 + 2(3 - 2 \\times 2)\\}]"
+          "text": "$[2 \\times 3 - 5 - \\{1 + 2(3 - 2 \\times 2)\\}]$"
         },
         {
           "label": "C",
-          "text": "[2 \\times 3 - 5 + \\{1 - 2(3 - 2 \\times 2)\\}]"
+          "text": "$[2 \\times 3 - 5 + \\{1 - 2(3 - 2 \\times 2)\\}]$"
         },
         {
           "label": "D",
-          "text": "[2 \\times 3 - 5 - \\{1 - 2(3 - 2 \\times 2)\\}]"
+          "text": "$[2 \\times 3 - 5 - \\{1 - 2(3 - 2 \\times 2)\\}]$"
         }
       ],
       "correctOption": "C",
@@ -2015,19 +2015,19 @@
       "options": [
         {
           "label": "A",
-          "text": "24\\frac{1}{4}"
+          "text": "$24\\frac{1}{4}$"
         },
         {
           "label": "B",
-          "text": "21\\frac{1}{9}"
+          "text": "$21\\frac{1}{9}$"
         },
         {
           "label": "C",
-          "text": "27\\frac{4}{5}"
+          "text": "$27\\frac{4}{5}$"
         },
         {
           "label": "D",
-          "text": "29\\frac{4}{9}"
+          "text": "$29\\frac{4}{9}$"
         }
       ],
       "correctOption": "D",
@@ -2067,19 +2067,19 @@
       "options": [
         {
           "label": "A",
-          "text": "1296p^4 + 2401q^4"
+          "text": "$1296p^4 + 2401q^4$"
         },
         {
           "label": "B",
-          "text": "36p^4 - 49q^4"
+          "text": "$36p^4 - 49q^4$"
         },
         {
           "label": "C",
-          "text": "1296p^4 - 2401q^4"
+          "text": "$1296p^4 - 2401q^4$"
         },
         {
           "label": "D",
-          "text": "36p^4 + 49q^4"
+          "text": "$36p^4 + 49q^4$"
         }
       ],
       "correctOption": "C",
@@ -2119,7 +2119,7 @@
       "options": [
         {
           "label": "A",
-          "text": "15\\frac{1}{3}"
+          "text": "$15\\frac{1}{3}$"
         },
         {
           "label": "B",
@@ -2131,7 +2131,7 @@
         },
         {
           "label": "D",
-          "text": "17\\frac{1}{4}"
+          "text": "$17\\frac{1}{4}$"
         }
       ],
       "correctOption": "D",
@@ -2145,19 +2145,19 @@
       "options": [
         {
           "label": "A",
-          "text": "8\\frac{1}{5}"
+          "text": "$8\\frac{1}{5}$"
         },
         {
           "label": "B",
-          "text": "7\\frac{1}{3}"
+          "text": "$7\\frac{1}{3}$"
         },
         {
           "label": "C",
-          "text": "9\\frac{3}{5}"
+          "text": "$9\\frac{3}{5}$"
         },
         {
           "label": "D",
-          "text": "6\\frac{2}{3}"
+          "text": "$6\\frac{2}{3}$"
         }
       ],
       "correctOption": "C",
@@ -2171,19 +2171,19 @@
       "options": [
         {
           "label": "A",
-          "text": "4\\frac{1}{6}"
+          "text": "$4\\frac{1}{6}$"
         },
         {
           "label": "B",
-          "text": "2\\frac{1}{6}"
+          "text": "$2\\frac{1}{6}$"
         },
         {
           "label": "C",
-          "text": "3\\frac{1}{6}"
+          "text": "$3\\frac{1}{6}$"
         },
         {
           "label": "D",
-          "text": "1\\frac{1}{6}"
+          "text": "$1\\frac{1}{6}$"
         }
       ],
       "correctOption": "D",
@@ -2197,19 +2197,19 @@
       "options": [
         {
           "label": "A",
-          "text": "1\\frac{81}{120}"
+          "text": "$1\\frac{81}{120}$"
         },
         {
           "label": "B",
-          "text": "1\\frac{97}{120}"
+          "text": "$1\\frac{97}{120}$"
         },
         {
           "label": "C",
-          "text": "2\\frac{43}{120}"
+          "text": "$2\\frac{43}{120}$"
         },
         {
           "label": "D",
-          "text": "2\\frac{47}{120}"
+          "text": "$2\\frac{47}{120}$"
         }
       ],
       "correctOption": "C",
@@ -2223,19 +2223,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{53}{9}"
+          "text": "$\\frac{53}{9}$"
         },
         {
           "label": "B",
-          "text": "\\frac{56}{9}"
+          "text": "$\\frac{56}{9}$"
         },
         {
           "label": "C",
-          "text": "\\frac{58}{9}"
+          "text": "$\\frac{58}{9}$"
         },
         {
           "label": "D",
-          "text": "\\frac{55}{9}"
+          "text": "$\\frac{55}{9}$"
         }
       ],
       "correctOption": "C",
@@ -2249,19 +2249,19 @@
       "options": [
         {
           "label": "A",
-          "text": "1\\frac{3}{5}"
+          "text": "$1\\frac{3}{5}$"
         },
         {
           "label": "B",
-          "text": "2\\frac{2}{3}"
+          "text": "$2\\frac{2}{3}$"
         },
         {
           "label": "C",
-          "text": "1\\frac{4}{7}"
+          "text": "$1\\frac{4}{7}$"
         },
         {
           "label": "D",
-          "text": "2\\frac{3}{7}"
+          "text": "$2\\frac{3}{7}$"
         }
       ],
       "correctOption": "B",
@@ -2275,19 +2275,19 @@
       "options": [
         {
           "label": "A",
-          "text": "3\\frac{1}{5}"
+          "text": "$3\\frac{1}{5}$"
         },
         {
           "label": "B",
-          "text": "3\\frac{3}{4}"
+          "text": "$3\\frac{3}{4}$"
         },
         {
           "label": "C",
-          "text": "3\\frac{1}{2}"
+          "text": "$3\\frac{1}{2}$"
         },
         {
           "label": "D",
-          "text": "3\\frac{1}{4}"
+          "text": "$3\\frac{1}{4}$"
         }
       ],
       "correctOption": "D",
@@ -2301,19 +2301,19 @@
       "options": [
         {
           "label": "A",
-          "text": "-\\frac{2}{3}"
+          "text": "$-\\frac{2}{3}$"
         },
         {
           "label": "B",
-          "text": "-\\frac{1}{3}"
+          "text": "$-\\frac{1}{3}$"
         },
         {
           "label": "C",
-          "text": "\\frac{2}{3}"
+          "text": "$\\frac{2}{3}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{3}"
+          "text": "$\\frac{1}{3}$"
         }
       ],
       "correctOption": "A",
@@ -2379,19 +2379,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{15}{77}"
+          "text": "$\\frac{15}{77}$"
         },
         {
           "label": "B",
-          "text": "\\frac{77}{15}"
+          "text": "$\\frac{77}{15}$"
         },
         {
           "label": "C",
-          "text": "\\frac{3}{10}"
+          "text": "$\\frac{3}{10}$"
         },
         {
           "label": "D",
-          "text": "\\frac{10}{3}"
+          "text": "$\\frac{10}{3}$"
         }
       ],
       "correctOption": "B",
@@ -2431,19 +2431,19 @@
       "options": [
         {
           "label": "A",
-          "text": "2\\frac{1}{3}"
+          "text": "$2\\frac{1}{3}$"
         },
         {
           "label": "B",
-          "text": "2\\frac{1}{6}"
+          "text": "$2\\frac{1}{6}$"
         },
         {
           "label": "C",
-          "text": "2\\frac{1}{5}"
+          "text": "$2\\frac{1}{5}$"
         },
         {
           "label": "D",
-          "text": "3\\frac{1}{4}"
+          "text": "$3\\frac{1}{4}$"
         }
       ],
       "correctOption": "B",
@@ -2483,19 +2483,19 @@
       "options": [
         {
           "label": "A",
-          "text": "7\\frac{13}{16}"
+          "text": "$7\\frac{13}{16}$"
         },
         {
           "label": "B",
-          "text": "7\\frac{11}{16}"
+          "text": "$7\\frac{11}{16}$"
         },
         {
           "label": "C",
-          "text": "5\\frac{13}{16}"
+          "text": "$5\\frac{13}{16}$"
         },
         {
           "label": "D",
-          "text": "5\\frac{11}{16}"
+          "text": "$5\\frac{11}{16}$"
         }
       ],
       "correctOption": "A",
@@ -2509,19 +2509,19 @@
       "options": [
         {
           "label": "A",
-          "text": "-\\frac{23}{20}"
+          "text": "$-\\frac{23}{20}$"
         },
         {
           "label": "B",
-          "text": "-\\frac{23}{18}"
+          "text": "$-\\frac{23}{18}$"
         },
         {
           "label": "C",
-          "text": "-\\frac{20}{23}"
+          "text": "$-\\frac{20}{23}$"
         },
         {
           "label": "D",
-          "text": "-\\frac{18}{23}"
+          "text": "$-\\frac{18}{23}$"
         }
       ],
       "correctOption": "A",
@@ -2539,7 +2539,7 @@
         },
         {
           "label": "B",
-          "text": "\\frac{11}{2}"
+          "text": "$\\frac{11}{2}$"
         },
         {
           "label": "C",
@@ -2547,7 +2547,7 @@
         },
         {
           "label": "D",
-          "text": "3\\frac{1}{2}"
+          "text": "$3\\frac{1}{2}$"
         }
       ],
       "correctOption": "A",
@@ -2561,19 +2561,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{3}"
+          "text": "$\\frac{1}{3}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{4}"
+          "text": "$\\frac{1}{4}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{6}"
+          "text": "$\\frac{1}{6}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{2}"
+          "text": "$\\frac{1}{2}$"
         }
       ],
       "correctOption": "D",
@@ -2591,7 +2591,7 @@
         },
         {
           "label": "B",
-          "text": "\\frac{9}{5}"
+          "text": "$\\frac{9}{5}$"
         },
         {
           "label": "C",
@@ -2613,19 +2613,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{853}{1610}"
+          "text": "$\\frac{853}{1610}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1093}{111}"
+          "text": "$\\frac{1093}{111}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1113}{856}"
+          "text": "$\\frac{1113}{856}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1759}{3250}"
+          "text": "$\\frac{1759}{3250}$"
         }
       ],
       "correctOption": "A",
@@ -2639,19 +2639,19 @@
       "options": [
         {
           "label": "A",
-          "text": "3\\frac{27}{217}"
+          "text": "$3\\frac{27}{217}$"
         },
         {
           "label": "B",
-          "text": "1\\frac{81}{217}"
+          "text": "$1\\frac{81}{217}$"
         },
         {
           "label": "C",
-          "text": "2\\frac{61}{217}"
+          "text": "$2\\frac{61}{217}$"
         },
         {
           "label": "D",
-          "text": "1\\frac{31}{217}"
+          "text": "$1\\frac{31}{217}$"
         }
       ],
       "correctOption": "C",
@@ -2717,19 +2717,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{579}{459}"
+          "text": "$\\frac{579}{459}$"
         },
         {
           "label": "B",
-          "text": "\\frac{288}{175}"
+          "text": "$\\frac{288}{175}$"
         },
         {
           "label": "C",
-          "text": "\\frac{379}{179}"
+          "text": "$\\frac{379}{179}$"
         },
         {
           "label": "D",
-          "text": "\\frac{363}{553}"
+          "text": "$\\frac{363}{553}$"
         }
       ],
       "correctOption": "B",
@@ -2743,7 +2743,7 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{121}{25}"
+          "text": "$\\frac{121}{25}$"
         },
         {
           "label": "B",
@@ -2751,11 +2751,11 @@
         },
         {
           "label": "C",
-          "text": "\\frac{111}{25}"
+          "text": "$\\frac{111}{25}$"
         },
         {
           "label": "D",
-          "text": "\\frac{75}{36}"
+          "text": "$\\frac{75}{36}$"
         }
       ],
       "correctOption": "C",
@@ -2795,19 +2795,19 @@
       "options": [
         {
           "label": "A",
-          "text": "3\\frac{2}{13}"
+          "text": "$3\\frac{2}{13}$"
         },
         {
           "label": "B",
-          "text": "5\\frac{3}{13}"
+          "text": "$5\\frac{3}{13}$"
         },
         {
           "label": "C",
-          "text": "4\\frac{3}{17}"
+          "text": "$4\\frac{3}{17}$"
         },
         {
           "label": "D",
-          "text": "3\\frac{3}{17}"
+          "text": "$3\\frac{3}{17}$"
         }
       ],
       "correctOption": "B",
@@ -2821,19 +2821,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{77}{861}"
+          "text": "$\\frac{77}{861}$"
         },
         {
           "label": "B",
-          "text": "\\frac{97}{881}"
+          "text": "$\\frac{97}{881}$"
         },
         {
           "label": "C",
-          "text": "\\frac{67}{859}"
+          "text": "$\\frac{67}{859}$"
         },
         {
           "label": "D",
-          "text": "\\frac{87}{866}"
+          "text": "$\\frac{87}{866}$"
         }
       ],
       "correctOption": "D",
@@ -2847,19 +2847,19 @@
       "options": [
         {
           "label": "A",
-          "text": "13\\frac{1}{5}"
+          "text": "$13\\frac{1}{5}$"
         },
         {
           "label": "B",
-          "text": "16\\frac{1}{5}"
+          "text": "$16\\frac{1}{5}$"
         },
         {
           "label": "C",
-          "text": "14\\frac{1}{5}"
+          "text": "$14\\frac{1}{5}$"
         },
         {
           "label": "D",
-          "text": "15\\frac{1}{5}"
+          "text": "$15\\frac{1}{5}$"
         }
       ],
       "correctOption": "D",
@@ -2925,19 +2925,19 @@
       "options": [
         {
           "label": "A",
-          "text": "4\\frac{1}{8}"
+          "text": "$4\\frac{1}{8}$"
         },
         {
           "label": "B",
-          "text": "1\\frac{1}{8}"
+          "text": "$1\\frac{1}{8}$"
         },
         {
           "label": "C",
-          "text": "2\\frac{1}{8}"
+          "text": "$2\\frac{1}{8}$"
         },
         {
           "label": "D",
-          "text": "3\\frac{1}{8}"
+          "text": "$3\\frac{1}{8}$"
         }
       ],
       "correctOption": "B",
@@ -2977,19 +2977,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{64}{21}"
+          "text": "$\\frac{64}{21}$"
         },
         {
           "label": "B",
-          "text": "\\frac{25}{21}"
+          "text": "$\\frac{25}{21}$"
         },
         {
           "label": "C",
-          "text": "\\frac{64}{11}"
+          "text": "$\\frac{64}{11}$"
         },
         {
           "label": "D",
-          "text": "\\frac{25}{11}"
+          "text": "$\\frac{25}{11}$"
         }
       ],
       "correctOption": "A",
@@ -3003,19 +3003,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{77}{5}"
+          "text": "$\\frac{77}{5}$"
         },
         {
           "label": "B",
-          "text": "\\frac{5}{77}"
+          "text": "$\\frac{5}{77}$"
         },
         {
           "label": "C",
-          "text": "\\frac{55}{27}"
+          "text": "$\\frac{55}{27}$"
         },
         {
           "label": "D",
-          "text": "\\frac{27}{55}"
+          "text": "$\\frac{27}{55}$"
         }
       ],
       "correctOption": "A",
@@ -3159,19 +3159,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{2}{3}"
+          "text": "$\\frac{2}{3}$"
         },
         {
           "label": "B",
-          "text": "\\frac{6}{5}"
+          "text": "$\\frac{6}{5}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{2}"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "D",
-          "text": "\\frac{5}{6}"
+          "text": "$\\frac{5}{6}$"
         }
       ],
       "correctOption": "B",
@@ -3341,19 +3341,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{7}{18}"
+          "text": "$\\frac{7}{18}$"
         },
         {
           "label": "B",
-          "text": "\\frac{4}{9}"
+          "text": "$\\frac{4}{9}$"
         },
         {
           "label": "C",
-          "text": "\\frac{5}{9}"
+          "text": "$\\frac{5}{9}$"
         },
         {
           "label": "D",
-          "text": "\\frac{11}{18}"
+          "text": "$\\frac{11}{18}$"
         }
       ],
       "correctOption": "B",
@@ -3375,11 +3375,11 @@
         },
         {
           "label": "C",
-          "text": "\\frac{1}{18}"
+          "text": "$\\frac{1}{18}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{2}"
+          "text": "$\\frac{1}{2}$"
         }
       ],
       "correctOption": "C",
@@ -3393,19 +3393,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{4}{7}"
+          "text": "$\\frac{4}{7}$"
         },
         {
           "label": "B",
-          "text": "1\\frac{1}{3}"
+          "text": "$1\\frac{1}{3}$"
         },
         {
           "label": "C",
-          "text": "2\\frac{3}{4}"
+          "text": "$2\\frac{3}{4}$"
         },
         {
           "label": "D",
-          "text": "\\frac{3}{9}"
+          "text": "$\\frac{3}{9}$"
         }
       ],
       "correctOption": "B",
@@ -3471,19 +3471,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{11}{20}"
+          "text": "$\\frac{11}{20}$"
         },
         {
           "label": "B",
-          "text": "\\frac{11}{30}"
+          "text": "$\\frac{11}{30}$"
         },
         {
           "label": "C",
-          "text": "\\frac{21}{20}"
+          "text": "$\\frac{21}{20}$"
         },
         {
           "label": "D",
-          "text": "\\frac{7}{40}"
+          "text": "$\\frac{7}{40}$"
         }
       ],
       "correctOption": "A",
@@ -3575,19 +3575,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{27}"
+          "text": "$\\frac{1}{27}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{108}"
+          "text": "$\\frac{1}{108}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{72}"
+          "text": "$\\frac{1}{72}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{36}"
+          "text": "$\\frac{1}{36}$"
         }
       ],
       "correctOption": "C",
@@ -3601,19 +3601,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{a - b + c}{a + b + c}"
+          "text": "$\\frac{a - b + c}{a + b + c}$"
         },
         {
           "label": "B",
-          "text": "\\frac{a + b + c}{a - b - c}"
+          "text": "$\\frac{a + b + c}{a - b - c}$"
         },
         {
           "label": "C",
-          "text": "\\frac{a + b - c}{a - b - c}"
+          "text": "$\\frac{a + b - c}{a - b - c}$"
         },
         {
           "label": "D",
-          "text": "\\frac{a - b - c}{a + b - c}"
+          "text": "$\\frac{a - b - c}{a + b - c}$"
         }
       ],
       "correctOption": "D",
@@ -3653,19 +3653,19 @@
       "options": [
         {
           "label": "A",
-          "text": "2\\frac{21}{38}"
+          "text": "$2\\frac{21}{38}$"
         },
         {
           "label": "B",
-          "text": "1\\frac{21}{38}"
+          "text": "$1\\frac{21}{38}$"
         },
         {
           "label": "C",
-          "text": "\\frac{47}{38}"
+          "text": "$\\frac{47}{38}$"
         },
         {
           "label": "D",
-          "text": "\\frac{19}{18}"
+          "text": "$\\frac{19}{18}$"
         }
       ],
       "correctOption": "A",
@@ -3743,7 +3743,7 @@
         },
         {
           "label": "D",
-          "text": "\\frac{1}{2}"
+          "text": "$\\frac{1}{2}$"
         }
       ],
       "correctOption": "A",
@@ -3757,19 +3757,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{x + 9}{x + 7}"
+          "text": "$\\frac{x + 9}{x + 7}$"
         },
         {
           "label": "B",
-          "text": "\\frac{x - 7}{x + 7}"
+          "text": "$\\frac{x - 7}{x + 7}$"
         },
         {
           "label": "C",
-          "text": "\\frac{x + 7}{x - 7}"
+          "text": "$\\frac{x + 7}{x - 7}$"
         },
         {
           "label": "D",
-          "text": "\\frac{x - 9}{x + 7}"
+          "text": "$\\frac{x - 9}{x + 7}$"
         }
       ],
       "correctOption": "D",
@@ -3783,19 +3783,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{55}{36}"
+          "text": "$\\frac{55}{36}$"
         },
         {
           "label": "B",
-          "text": "\\frac{55}{39}"
+          "text": "$\\frac{55}{39}$"
         },
         {
           "label": "C",
-          "text": "\\frac{13}{46}"
+          "text": "$\\frac{13}{46}$"
         },
         {
           "label": "D",
-          "text": "\\frac{44}{13}"
+          "text": "$\\frac{44}{13}$"
         }
       ],
       "correctOption": "A",
@@ -3809,19 +3809,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{31}{127}"
+          "text": "$\\frac{31}{127}$"
         },
         {
           "label": "B",
-          "text": "\\frac{32}{127}"
+          "text": "$\\frac{32}{127}$"
         },
         {
           "label": "C",
-          "text": "\\frac{28}{125}"
+          "text": "$\\frac{28}{125}$"
         },
         {
           "label": "D",
-          "text": "\\frac{25}{123}"
+          "text": "$\\frac{25}{123}$"
         }
       ],
       "correctOption": "D",
@@ -3865,15 +3865,15 @@
         },
         {
           "label": "B",
-          "text": "\\frac{13}{4}"
+          "text": "$\\frac{13}{4}$"
         },
         {
           "label": "C",
-          "text": "\\frac{15}{4}"
+          "text": "$\\frac{15}{4}$"
         },
         {
           "label": "D",
-          "text": "\\frac{9}{2}"
+          "text": "$\\frac{9}{2}$"
         }
       ],
       "correctOption": "C",
@@ -3887,19 +3887,19 @@
       "options": [
         {
           "label": "A",
-          "text": "-\\frac{3}{13}"
+          "text": "$-\\frac{3}{13}$"
         },
         {
           "label": "B",
-          "text": "-\\frac{5}{13}"
+          "text": "$-\\frac{5}{13}$"
         },
         {
           "label": "C",
-          "text": "-\\frac{8}{25}"
+          "text": "$-\\frac{8}{25}$"
         },
         {
           "label": "D",
-          "text": "-\\frac{3}{25}"
+          "text": "$-\\frac{3}{25}$"
         }
       ],
       "correctOption": "A",
@@ -3913,19 +3913,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1169}{143}"
+          "text": "$\\frac{1169}{143}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1150}{171}"
+          "text": "$\\frac{1150}{171}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1413}{157}"
+          "text": "$\\frac{1413}{157}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1216}{141}"
+          "text": "$\\frac{1216}{141}$"
         }
       ],
       "correctOption": "B",
@@ -3965,19 +3965,19 @@
       "options": [
         {
           "label": "A",
-          "text": "5\\frac{22}{43}"
+          "text": "$5\\frac{22}{43}$"
         },
         {
           "label": "B",
-          "text": "3\\frac{23}{67}"
+          "text": "$3\\frac{23}{67}$"
         },
         {
           "label": "C",
-          "text": "4\\frac{44}{85}"
+          "text": "$4\\frac{44}{85}$"
         },
         {
           "label": "D",
-          "text": "4\\frac{4}{5}"
+          "text": "$4\\frac{4}{5}$"
         }
       ],
       "correctOption": "C",
@@ -4069,7 +4069,7 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{5}{3}"
+          "text": "$\\frac{5}{3}$"
         },
         {
           "label": "B",
@@ -4077,11 +4077,11 @@
         },
         {
           "label": "C",
-          "text": "\\frac{4}{3}"
+          "text": "$\\frac{4}{3}$"
         },
         {
           "label": "D",
-          "text": "\\frac{2}{3}"
+          "text": "$\\frac{2}{3}$"
         }
       ],
       "correctOption": "A",
@@ -4095,19 +4095,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{-1891}{691}"
+          "text": "$\\frac{-1891}{691}$"
         },
         {
           "label": "B",
-          "text": "\\frac{2075}{693}"
+          "text": "$\\frac{2075}{693}$"
         },
         {
           "label": "C",
-          "text": "\\frac{-1894}{891}"
+          "text": "$\\frac{-1894}{891}$"
         },
         {
           "label": "D",
-          "text": "\\frac{-2075}{693}"
+          "text": "$\\frac{-2075}{693}$"
         }
       ],
       "correctOption": "D",
@@ -4121,19 +4121,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{64}{7}"
+          "text": "$\\frac{64}{7}$"
         },
         {
           "label": "B",
-          "text": "\\frac{44}{7}"
+          "text": "$\\frac{44}{7}$"
         },
         {
           "label": "C",
-          "text": "\\frac{54}{7}"
+          "text": "$\\frac{54}{7}$"
         },
         {
           "label": "D",
-          "text": "\\frac{34}{7}"
+          "text": "$\\frac{34}{7}$"
         }
       ],
       "correctOption": "A",
@@ -4173,19 +4173,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{49}{114}"
+          "text": "$\\frac{49}{114}$"
         },
         {
           "label": "B",
-          "text": "\\frac{13}{114}"
+          "text": "$\\frac{13}{114}$"
         },
         {
           "label": "C",
-          "text": "\\frac{107}{342}"
+          "text": "$\\frac{107}{342}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{6}"
+          "text": "$\\frac{1}{6}$"
         }
       ],
       "correctOption": "D",
@@ -4199,19 +4199,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{17}{32}"
+          "text": "$\\frac{17}{32}$"
         },
         {
           "label": "B",
-          "text": "\\frac{3}{32}"
+          "text": "$\\frac{3}{32}$"
         },
         {
           "label": "C",
-          "text": "\\frac{5}{32}"
+          "text": "$\\frac{5}{32}$"
         },
         {
           "label": "D",
-          "text": "\\frac{7}{32}"
+          "text": "$\\frac{7}{32}$"
         }
       ],
       "correctOption": "D",
@@ -4251,19 +4251,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{13}"
+          "text": "$\\frac{1}{13}$"
         },
         {
           "label": "B",
-          "text": "\\frac{2}{13}"
+          "text": "$\\frac{2}{13}$"
         },
         {
           "label": "C",
-          "text": "\\frac{9}{13}"
+          "text": "$\\frac{9}{13}$"
         },
         {
           "label": "D",
-          "text": "\\frac{4}{13}"
+          "text": "$\\frac{4}{13}$"
         }
       ],
       "correctOption": "D",
@@ -4277,19 +4277,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{540}{173}"
+          "text": "$\\frac{540}{173}$"
         },
         {
           "label": "B",
-          "text": "\\frac{480}{173}"
+          "text": "$\\frac{480}{173}$"
         },
         {
           "label": "C",
-          "text": "\\frac{2540}{173}"
+          "text": "$\\frac{2540}{173}$"
         },
         {
           "label": "D",
-          "text": "\\frac{340}{173}"
+          "text": "$\\frac{340}{173}$"
         }
       ],
       "correctOption": "A",
@@ -4303,19 +4303,19 @@
       "options": [
         {
           "label": "A",
-          "text": "5\\frac{1}{2}"
+          "text": "$5\\frac{1}{2}$"
         },
         {
           "label": "B",
-          "text": "10\\frac{1}{2}"
+          "text": "$10\\frac{1}{2}$"
         },
         {
           "label": "C",
-          "text": "10\\frac{1}{4}"
+          "text": "$10\\frac{1}{4}$"
         },
         {
           "label": "D",
-          "text": "5\\frac{3}{8}"
+          "text": "$5\\frac{3}{8}$"
         }
       ],
       "correctOption": "D",
@@ -4329,19 +4329,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{4}{7}"
+          "text": "$\\frac{4}{7}$"
         },
         {
           "label": "B",
-          "text": "\\frac{3}{7}"
+          "text": "$\\frac{3}{7}$"
         },
         {
           "label": "C",
-          "text": "\\frac{3}{5}"
+          "text": "$\\frac{3}{5}$"
         },
         {
           "label": "D",
-          "text": "\\frac{3}{4}"
+          "text": "$\\frac{3}{4}$"
         }
       ],
       "correctOption": "D",
@@ -4381,19 +4381,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{49}{75}"
+          "text": "$\\frac{49}{75}$"
         },
         {
           "label": "B",
-          "text": "\\frac{39}{75}"
+          "text": "$\\frac{39}{75}$"
         },
         {
           "label": "C",
-          "text": "\\frac{19}{75}"
+          "text": "$\\frac{19}{75}$"
         },
         {
           "label": "D",
-          "text": "\\frac{29}{75}"
+          "text": "$\\frac{29}{75}$"
         }
       ],
       "correctOption": "A",
@@ -4459,19 +4459,19 @@
       "options": [
         {
           "label": "A",
-          "text": "(a^0) \\times (b^{-2}) \\times (c^1)"
+          "text": "$(a^0) \\times (b^{-2}) \\times (c^1)$"
         },
         {
           "label": "B",
-          "text": "(a^{-7}) \\times (b^2) \\times (c^{-4})"
+          "text": "$(a^{-7}) \\times (b^2) \\times (c^{-4})$"
         },
         {
           "label": "C",
-          "text": "(a^{-2}) \\times (b^1) \\times (c^3)"
+          "text": "$(a^{-2}) \\times (b^1) \\times (c^3)$"
         },
         {
           "label": "D",
-          "text": "(a^{-5}) \\times (b^8) \\times (c^0)"
+          "text": "$(a^{-5}) \\times (b^8) \\times (c^0)$"
         }
       ],
       "correctOption": "C",
@@ -4485,19 +4485,19 @@
       "options": [
         {
           "label": "A",
-          "text": "(a^1) \\times (b^{-3}) \\times (c^{-2})"
+          "text": "$(a^1) \\times (b^{-3}) \\times (c^{-2})$"
         },
         {
           "label": "B",
-          "text": "(a^{-3}) \\times (b^{-10}) \\times (c^{-4})"
+          "text": "$(a^{-3}) \\times (b^{-10}) \\times (c^{-4})$"
         },
         {
           "label": "C",
-          "text": "(a^{-1}) \\times (b^{-4}) \\times (c^5)"
+          "text": "$(a^{-1}) \\times (b^{-4}) \\times (c^5)$"
         },
         {
           "label": "D",
-          "text": "(a^0) \\times (b^0) \\times (c^{-4})"
+          "text": "$(a^0) \\times (b^0) \\times (c^{-4})$"
         }
       ],
       "correctOption": "A",
@@ -4667,19 +4667,19 @@
       "options": [
         {
           "label": "A",
-          "text": "19y^2 - 4z^2"
+          "text": "$19y^2 - 4z^2$"
         },
         {
           "label": "B",
-          "text": "29y^2 - 4z^2"
+          "text": "$29y^2 - 4z^2$"
         },
         {
           "label": "C",
-          "text": "19y^2 + 4z^2"
+          "text": "$19y^2 + 4z^2$"
         },
         {
           "label": "D",
-          "text": "29y^2 + 4z^2"
+          "text": "$29y^2 + 4z^2$"
         }
       ],
       "correctOption": "D",
@@ -4775,7 +4775,7 @@
         },
         {
           "label": "B",
-          "text": "\\frac{1}{290}"
+          "text": "$\\frac{1}{290}$"
         },
         {
           "label": "C",
@@ -4783,7 +4783,7 @@
         },
         {
           "label": "D",
-          "text": "\\frac{1}{24}"
+          "text": "$\\frac{1}{24}$"
         }
       ],
       "correctOption": "D",
@@ -4801,15 +4801,15 @@
         },
         {
           "label": "B",
-          "text": "\\frac{1}{20}"
+          "text": "$\\frac{1}{20}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{5}"
+          "text": "$\\frac{1}{5}$"
         },
         {
           "label": "D",
-          "text": "\\frac{2}{5}"
+          "text": "$\\frac{2}{5}$"
         }
       ],
       "correctOption": "C",
@@ -4823,19 +4823,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{s + t - u}{s - t - u}"
+          "text": "$\\frac{s + t - u}{s - t - u}$"
         },
         {
           "label": "B",
-          "text": "\\frac{s + t + u}{s - t + u}"
+          "text": "$\\frac{s + t + u}{s - t + u}$"
         },
         {
           "label": "C",
-          "text": "\\frac{s - t - u}{s + t - u}"
+          "text": "$\\frac{s - t - u}{s + t - u}$"
         },
         {
           "label": "D",
-          "text": "\\frac{s - t + u}{s + t + u}"
+          "text": "$\\frac{s - t + u}{s + t + u}$"
         }
       ],
       "correctOption": "A",
@@ -4849,19 +4849,19 @@
       "options": [
         {
           "label": "A",
-          "text": "25z^2 + 169y^2"
+          "text": "$25z^2 + 169y^2$"
         },
         {
           "label": "B",
-          "text": "23z^2 + 174y^2"
+          "text": "$23z^2 + 174y^2$"
         },
         {
           "label": "C",
-          "text": "30z^2 + 170y^2"
+          "text": "$30z^2 + 170y^2$"
         },
         {
           "label": "D",
-          "text": "23z^2 + 177y^2"
+          "text": "$23z^2 + 177y^2$"
         }
       ],
       "correctOption": "A",
@@ -4875,19 +4875,19 @@
       "options": [
         {
           "label": "A",
-          "text": "25z^2 + 74y^2"
+          "text": "$25z^2 + 74y^2$"
         },
         {
           "label": "B",
-          "text": "35z^2 + 70y^2"
+          "text": "$35z^2 + 70y^2$"
         },
         {
           "label": "C",
-          "text": "26z^2 + 82y^2"
+          "text": "$26z^2 + 82y^2$"
         },
         {
           "label": "D",
-          "text": "30z^2 + 83y^2"
+          "text": "$30z^2 + 83y^2$"
         }
       ],
       "correctOption": "A",
@@ -4979,19 +4979,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{3}{10}"
+          "text": "$\\frac{3}{10}$"
         },
         {
           "label": "B",
-          "text": "\\frac{9}{20}"
+          "text": "$\\frac{9}{20}$"
         },
         {
           "label": "C",
-          "text": "\\frac{7}{20}"
+          "text": "$\\frac{7}{20}$"
         },
         {
           "label": "D",
-          "text": "\\frac{3}{20}"
+          "text": "$\\frac{3}{20}$"
         }
       ],
       "correctOption": "B",
@@ -5057,19 +5057,19 @@
       "options": [
         {
           "label": "A",
-          "text": "3(1-x^2)"
+          "text": "$3(1-x^2)$"
         },
         {
           "label": "B",
-          "text": "6(1-x^2)"
+          "text": "$6(1-x^2)$"
         },
         {
           "label": "C",
-          "text": "-6(1-x^2)"
+          "text": "$-6(1-x^2)$"
         },
         {
           "label": "D",
-          "text": "-3(1-x^2)"
+          "text": "$-3(1-x^2)$"
         }
       ],
       "correctOption": "C",
@@ -5369,19 +5369,19 @@
       "options": [
         {
           "label": "A",
-          "text": "x^3 - 3x^2y"
+          "text": "$x^3 - 3x^2y$"
         },
         {
           "label": "B",
-          "text": "x^3 - 9x^2y"
+          "text": "$x^3 - 9x^2y$"
         },
         {
           "label": "C",
-          "text": "x^3 - 27y^3 - 9x^2y"
+          "text": "$x^3 - 27y^3 - 9x^2y$"
         },
         {
           "label": "D",
-          "text": "x^3 - 27y^3 - 9x^2y + 27xy^2 + 27y^3 - 27xy^2"
+          "text": "$x^3 - 27y^3 - 9x^2y + 27xy^2 + 27y^3 - 27xy^2$"
         }
       ],
       "correctOption": "B",
@@ -5525,19 +5525,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{ab}{(a^2 - ab + b^2)}"
+          "text": "$\\frac{ab}{(a^2 - ab + b^2)}$"
         },
         {
           "label": "B",
-          "text": "\\frac{a^3 b^3}{(a^2 - ab + b^2)}"
+          "text": "$\\frac{a^3 b^3}{(a^2 - ab + b^2)}$"
         },
         {
           "label": "C",
-          "text": "\\frac{a^2 b^2}{(a^2 + ab + b^2)}"
+          "text": "$\\frac{a^2 b^2}{(a^2 + ab + b^2)}$"
         },
         {
           "label": "D",
-          "text": "\\frac{a^2 b^2}{(a^2 - ab + b^2)}"
+          "text": "$\\frac{a^2 b^2}{(a^2 - ab + b^2)}$"
         }
       ],
       "correctOption": "D",
@@ -5629,19 +5629,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{11}{20} > \\frac{17}{30} > \\frac{27}{50} > \\frac{7}{15}"
+          "text": "$\\frac{11}{20} > \\frac{17}{30} > \\frac{27}{50} > \\frac{7}{15}$"
         },
         {
           "label": "B",
-          "text": "\\frac{17}{30} > \\frac{11}{20} > \\frac{27}{50} > \\frac{7}{15}"
+          "text": "$\\frac{17}{30} > \\frac{11}{20} > \\frac{27}{50} > \\frac{7}{15}$"
         },
         {
           "label": "C",
-          "text": "\\frac{17}{30} > \\frac{27}{50} > \\frac{11}{20} > \\frac{7}{15}"
+          "text": "$\\frac{17}{30} > \\frac{27}{50} > \\frac{11}{20} > \\frac{7}{15}$"
         },
         {
           "label": "D",
-          "text": "\\frac{7}{15} > \\frac{11}{20} > \\frac{27}{50} > \\frac{17}{30}"
+          "text": "$\\frac{7}{15} > \\frac{11}{20} > \\frac{27}{50} > \\frac{17}{30}$"
         }
       ],
       "correctOption": "B",
@@ -5655,19 +5655,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{8}{13}"
+          "text": "$\\frac{8}{13}$"
         },
         {
           "label": "B",
-          "text": "\\frac{5}{11}"
+          "text": "$\\frac{5}{11}$"
         },
         {
           "label": "C",
-          "text": "\\frac{9}{17}"
+          "text": "$\\frac{9}{17}$"
         },
         {
           "label": "D",
-          "text": "\\frac{7}{12}"
+          "text": "$\\frac{7}{12}$"
         }
       ],
       "correctOption": "B",
@@ -5733,19 +5733,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{7}{15}"
+          "text": "$\\frac{7}{15}$"
         },
         {
           "label": "B",
-          "text": "\\frac{3}{16}"
+          "text": "$\\frac{3}{16}$"
         },
         {
           "label": "C",
-          "text": "\\frac{7}{18}"
+          "text": "$\\frac{7}{18}$"
         },
         {
           "label": "D",
-          "text": "\\frac{3}{11}"
+          "text": "$\\frac{3}{11}$"
         }
       ],
       "correctOption": "C",
@@ -5759,19 +5759,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{2}{3}"
+          "text": "$\\frac{2}{3}$"
         },
         {
           "label": "B",
-          "text": "\\frac{5}{4}"
+          "text": "$\\frac{5}{4}$"
         },
         {
           "label": "C",
-          "text": "\\frac{4}{5}"
+          "text": "$\\frac{4}{5}$"
         },
         {
           "label": "D",
-          "text": "\\frac{3}{2}"
+          "text": "$\\frac{3}{2}$"
         }
       ],
       "correctOption": "C",
@@ -5837,19 +5837,19 @@
       "options": [
         {
           "label": "A",
-          "text": "40.\\overline{12}"
+          "text": "$40.\\overline{12}$"
         },
         {
           "label": "B",
-          "text": "4.\\overline{12}"
+          "text": "$4.\\overline{12}$"
         },
         {
           "label": "C",
-          "text": "0.4\\overline{12}"
+          "text": "$0.4\\overline{12}$"
         },
         {
           "label": "D",
-          "text": "0.04\\overline{12}"
+          "text": "$0.04\\overline{12}$"
         }
       ],
       "correctOption": "C",
@@ -5863,19 +5863,19 @@
       "options": [
         {
           "label": "A",
-          "text": "0.\\overline{97}"
+          "text": "$0.\\overline{97}$"
         },
         {
           "label": "B",
-          "text": "0.\\overline{87}"
+          "text": "$0.\\overline{87}$"
         },
         {
           "label": "C",
-          "text": "0.\\overline{57}"
+          "text": "$0.\\overline{57}$"
         },
         {
           "label": "D",
-          "text": "0.\\overline{77}"
+          "text": "$0.\\overline{77}$"
         }
       ],
       "correctOption": "B",
@@ -5889,19 +5889,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1211}{1100}"
+          "text": "$\\frac{1211}{1100}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1043}{1100}"
+          "text": "$\\frac{1043}{1100}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1097}{1100}"
+          "text": "$\\frac{1097}{1100}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1141}{1100}"
+          "text": "$\\frac{1141}{1100}$"
         }
       ],
       "correctOption": "D",
@@ -5967,19 +5967,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{3216}{315}"
+          "text": "$\\frac{3216}{315}$"
         },
         {
           "label": "B",
-          "text": "\\frac{3816}{325}"
+          "text": "$\\frac{3816}{325}$"
         },
         {
           "label": "C",
-          "text": "\\frac{3917}{355}"
+          "text": "$\\frac{3917}{355}$"
         },
         {
           "label": "D",
-          "text": "\\frac{3714}{345}"
+          "text": "$\\frac{3714}{345}$"
         }
       ],
       "correctOption": "B",
@@ -5993,19 +5993,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{7}{85}"
+          "text": "$\\frac{7}{85}$"
         },
         {
           "label": "B",
-          "text": "\\frac{3}{85}"
+          "text": "$\\frac{3}{85}$"
         },
         {
           "label": "C",
-          "text": "\\frac{11}{85}"
+          "text": "$\\frac{11}{85}$"
         },
         {
           "label": "D",
-          "text": "\\frac{9}{85}"
+          "text": "$\\frac{9}{85}$"
         }
       ],
       "correctOption": "D",
@@ -6019,19 +6019,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{39}{128}"
+          "text": "$\\frac{39}{128}$"
         },
         {
           "label": "B",
-          "text": "\\frac{40}{129}"
+          "text": "$\\frac{40}{129}$"
         },
         {
           "label": "C",
-          "text": "\\frac{41}{130}"
+          "text": "$\\frac{41}{130}$"
         },
         {
           "label": "D",
-          "text": "\\frac{42}{135}"
+          "text": "$\\frac{42}{135}$"
         }
       ],
       "correctOption": "B",
@@ -6201,19 +6201,19 @@
       "options": [
         {
           "label": "A",
-          "text": "1\\frac{5}{6}"
+          "text": "$1\\frac{5}{6}$"
         },
         {
           "label": "B",
-          "text": "1\\frac{1}{5}"
+          "text": "$1\\frac{1}{5}$"
         },
         {
           "label": "C",
-          "text": "2\\frac{4}{5}"
+          "text": "$2\\frac{4}{5}$"
         },
         {
           "label": "D",
-          "text": "2\\frac{3}{5}"
+          "text": "$2\\frac{3}{5}$"
         }
       ],
       "correctOption": "B",
@@ -6331,19 +6331,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\sqrt{101} - \\sqrt{99}"
+          "text": "$\\sqrt{101} - \\sqrt{99}$"
         },
         {
           "label": "B",
-          "text": "\\sqrt{201} - \\sqrt{199}"
+          "text": "$\\sqrt{201} - \\sqrt{199}$"
         },
         {
           "label": "C",
-          "text": "\\sqrt{301} - \\sqrt{299}"
+          "text": "$\\sqrt{301} - \\sqrt{299}$"
         },
         {
           "label": "D",
-          "text": "\\sqrt{401} - \\sqrt{399}"
+          "text": "$\\sqrt{401} - \\sqrt{399}$"
         }
       ],
       "correctOption": "D",
@@ -6357,15 +6357,15 @@
       "options": [
         {
           "label": "A",
-          "text": "\\sqrt[4]{6}"
+          "text": "$\\sqrt[4]{6}$"
         },
         {
           "label": "B",
-          "text": "\\sqrt[3]{5}"
+          "text": "$\\sqrt[3]{5}$"
         },
         {
           "label": "C",
-          "text": "\\sqrt[6]{12}"
+          "text": "$\\sqrt[6]{12}$"
         },
         {
           "label": "D",
@@ -6383,11 +6383,11 @@
       "options": [
         {
           "label": "A",
-          "text": "\\sqrt{0.09}"
+          "text": "$\\sqrt{0.09}$"
         },
         {
           "label": "B",
-          "text": "\\frac{3}{5}"
+          "text": "$\\frac{3}{5}$"
         },
         {
           "label": "C",
@@ -6395,7 +6395,7 @@
         },
         {
           "label": "D",
-          "text": "\\sqrt[3]{0.064}"
+          "text": "$\\sqrt[3]{0.064}$"
         }
       ],
       "correctOption": "B",
@@ -6409,15 +6409,15 @@
       "options": [
         {
           "label": "A",
-          "text": "\\sqrt{11} + \\sqrt{5}"
+          "text": "$\\sqrt{11} + \\sqrt{5}$"
         },
         {
           "label": "B",
-          "text": "\\sqrt{14} + \\sqrt{2}"
+          "text": "$\\sqrt{14} + \\sqrt{2}$"
         },
         {
           "label": "C",
-          "text": "\\sqrt{8} + \\sqrt{8}"
+          "text": "$\\sqrt{8} + \\sqrt{8}$"
         },
         {
           "label": "D",
@@ -6435,19 +6435,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\sqrt[5]{60}"
+          "text": "$\\sqrt[5]{60}$"
         },
         {
           "label": "B",
-          "text": "\\sqrt[12]{33214}"
+          "text": "$\\sqrt[12]{33214}$"
         },
         {
           "label": "C",
-          "text": "\\sqrt[6]{121}"
+          "text": "$\\sqrt[6]{121}$"
         },
         {
           "label": "D",
-          "text": "\\sqrt[9]{1500}"
+          "text": "$\\sqrt[9]{1500}$"
         }
       ],
       "correctOption": "B",
@@ -6461,11 +6461,11 @@
       "options": [
         {
           "label": "A",
-          "text": "a^{\\frac{7}{8}}"
+          "text": "$a^{\\frac{7}{8}}$"
         },
         {
           "label": "B",
-          "text": "a^{\\frac{15}{16}}"
+          "text": "$a^{\\frac{15}{16}}$"
         },
         {
           "label": "C",
@@ -6473,7 +6473,7 @@
         },
         {
           "label": "D",
-          "text": "a^4"
+          "text": "$a^4$"
         }
       ],
       "correctOption": "B",
@@ -6539,19 +6539,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{\\sqrt{21} + 1}{2}"
+          "text": "$\\frac{\\sqrt{21} + 1}{2}$"
         },
         {
           "label": "B",
-          "text": "\\frac{\\sqrt{21} - 1}{2}"
+          "text": "$\\frac{\\sqrt{21} - 1}{2}$"
         },
         {
           "label": "C",
-          "text": "\\frac{\\sqrt{21} + 3}{2}"
+          "text": "$\\frac{\\sqrt{21} + 3}{2}$"
         },
         {
           "label": "D",
-          "text": "\\frac{\\sqrt{21} - 3}{2}"
+          "text": "$\\frac{\\sqrt{21} - 3}{2}$"
         }
       ],
       "correctOption": "A",
@@ -6565,15 +6565,15 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{\\sqrt{77} - 1}{2}"
+          "text": "$\\frac{\\sqrt{77} - 1}{2}$"
         },
         {
           "label": "B",
-          "text": "\\frac{\\sqrt{19} + 3}{2}"
+          "text": "$\\frac{\\sqrt{19} + 3}{2}$"
         },
         {
           "label": "C",
-          "text": "\\frac{\\sqrt{77} + 1}{2}"
+          "text": "$\\frac{\\sqrt{77} + 1}{2}$"
         },
         {
           "label": "D",
@@ -6591,19 +6591,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\sqrt{47}"
+          "text": "$\\sqrt{47}$"
         },
         {
           "label": "B",
-          "text": "\\sqrt{65}"
+          "text": "$\\sqrt{65}$"
         },
         {
           "label": "C",
-          "text": "\\sqrt{41}"
+          "text": "$\\sqrt{41}$"
         },
         {
           "label": "D",
-          "text": "\\sqrt{53}"
+          "text": "$\\sqrt{53}$"
         }
       ],
       "correctOption": "D",
@@ -6617,7 +6617,7 @@
       "options": [
         {
           "label": "A",
-          "text": "\\sqrt{51}"
+          "text": "$\\sqrt{51}$"
         },
         {
           "label": "B",
@@ -6625,7 +6625,7 @@
         },
         {
           "label": "C",
-          "text": "\\frac{3 + \\sqrt{15}}{2}"
+          "text": "$\\frac{3 + \\sqrt{15}}{2}$"
         },
         {
           "label": "D",
@@ -6647,15 +6647,15 @@
         },
         {
           "label": "B",
-          "text": "\\sqrt{21}"
+          "text": "$\\sqrt{21}$"
         },
         {
           "label": "C",
-          "text": "\\frac{\\sqrt{21} - 1}{2}"
+          "text": "$\\frac{\\sqrt{21} - 1}{2}$"
         },
         {
           "label": "D",
-          "text": "\\frac{\\sqrt{21} + 1}{2}"
+          "text": "$\\frac{\\sqrt{21} + 1}{2}$"
         }
       ],
       "correctOption": "C",
@@ -6669,19 +6669,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{31}{44}"
+          "text": "$\\frac{31}{44}$"
         },
         {
           "label": "B",
-          "text": "\\frac{33}{64}"
+          "text": "$\\frac{33}{64}$"
         },
         {
           "label": "C",
-          "text": "\\frac{31}{66}"
+          "text": "$\\frac{31}{66}$"
         },
         {
           "label": "D",
-          "text": "\\frac{33}{31}"
+          "text": "$\\frac{33}{31}$"
         }
       ],
       "correctOption": "C",
@@ -6721,19 +6721,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{101}{20}"
+          "text": "$\\frac{101}{20}$"
         },
         {
           "label": "B",
-          "text": "\\frac{103}{20}"
+          "text": "$\\frac{103}{20}$"
         },
         {
           "label": "C",
-          "text": "\\frac{26}{5}"
+          "text": "$\\frac{26}{5}$"
         },
         {
           "label": "D",
-          "text": "\\frac{27}{5}"
+          "text": "$\\frac{27}{5}$"
         }
       ],
       "correctOption": "B",
@@ -6747,19 +6747,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\sqrt{2} + 1"
+          "text": "$\\sqrt{2} + 1$"
         },
         {
           "label": "B",
-          "text": "2\\sqrt{2} + 2"
+          "text": "$2\\sqrt{2} + 2$"
         },
         {
           "label": "C",
-          "text": "\\sqrt{2} + 2"
+          "text": "$\\sqrt{2} + 2$"
         },
         {
           "label": "D",
-          "text": "2\\sqrt{2} + 1"
+          "text": "$2\\sqrt{2} + 1$"
         }
       ],
       "correctOption": "A",
@@ -6799,19 +6799,19 @@
       "options": [
         {
           "label": "A",
-          "text": "6 \\times 10^{-8}"
+          "text": "$6 \\times 10^{-8}$"
         },
         {
           "label": "B",
-          "text": "7 \\times 10^{-7}"
+          "text": "$7 \\times 10^{-7}$"
         },
         {
           "label": "C",
-          "text": "\\left(\\frac{7}{4}\\right) \\times 10^{-8}"
+          "text": "$\\left(\\frac{7}{4}\\right) \\times 10^{-8}$"
         },
         {
           "label": "D",
-          "text": "\\left(\\frac{7}{3}\\right) \\times 10^{-7}"
+          "text": "$\\left(\\frac{7}{3}\\right) \\times 10^{-7}$"
         }
       ],
       "correctOption": "A",
@@ -6851,19 +6851,19 @@
       "options": [
         {
           "label": "A",
-          "text": "2 + 2\\sqrt{2}"
+          "text": "$2 + 2\\sqrt{2}$"
         },
         {
           "label": "B",
-          "text": "2 - 2\\sqrt{2}"
+          "text": "$2 - 2\\sqrt{2}$"
         },
         {
           "label": "C",
-          "text": "4 - 2\\sqrt{2}"
+          "text": "$4 - 2\\sqrt{2}$"
         },
         {
           "label": "D",
-          "text": "4 + 2\\sqrt{2}"
+          "text": "$4 + 2\\sqrt{2}$"
         }
       ],
       "correctOption": "C",
@@ -6929,19 +6929,19 @@
       "options": [
         {
           "label": "A",
-          "text": "3^{17}"
+          "text": "$3^{17}$"
         },
         {
           "label": "B",
-          "text": "3^{16}"
+          "text": "$3^{16}$"
         },
         {
           "label": "C",
-          "text": "3^{15}"
+          "text": "$3^{15}$"
         },
         {
           "label": "D",
-          "text": "3^{18}"
+          "text": "$3^{18}$"
         }
       ],
       "correctOption": "A",
@@ -6955,7 +6955,7 @@
       "options": [
         {
           "label": "A",
-          "text": "42^3"
+          "text": "$42^3$"
         },
         {
           "label": "B",
@@ -6967,7 +6967,7 @@
         },
         {
           "label": "D",
-          "text": "\\sqrt[3]{42}"
+          "text": "$\\sqrt[3]{42}$"
         }
       ],
       "correctOption": "C",
@@ -6981,19 +6981,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{10}{3}"
+          "text": "$\\frac{10}{3}$"
         },
         {
           "label": "B",
-          "text": "\\frac{5}{3}"
+          "text": "$\\frac{5}{3}$"
         },
         {
           "label": "C",
-          "text": "\\frac{7}{3}"
+          "text": "$\\frac{7}{3}$"
         },
         {
           "label": "D",
-          "text": "\\frac{8}{3}"
+          "text": "$\\frac{8}{3}$"
         }
       ],
       "correctOption": "A",

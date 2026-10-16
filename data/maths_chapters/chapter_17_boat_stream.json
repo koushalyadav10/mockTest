@@ -247,19 +247,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{23}{27} m/sec"
+          "text": "$\\frac{23}{27} m/sec$"
         },
         {
           "label": "B",
-          "text": "\\frac{22}{27} m/sec"
+          "text": "$\\frac{22}{27} m/sec$"
         },
         {
           "label": "C",
-          "text": "\\frac{20}{27} m/sec"
+          "text": "$\\frac{20}{27} m/sec$"
         },
         {
           "label": "D",
-          "text": "\\frac{19}{27} m/sec"
+          "text": "$\\frac{19}{27} m/sec$"
         }
       ],
       "solution": "Given $u = \\frac{16}{3}\\text{ km/h}$. Since $t_{up} = 3 t_{down} \\implies u + v = 3(u - v) \\implies 2u = 4v \\implies v = \\frac{u}{2} = \\frac{16}{6} = \\frac{8}{3}\\text{ km/h}$.\\nIn m/sec: $\\frac{8}{3} \\times \\frac{5}{18} = \\frac{20}{27}\\text{ m/sec}$.",
@@ -429,15 +429,15 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{3}{4}"
+          "text": "$\\frac{3}{4}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{2}"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{4}"
+          "text": "$\\frac{1}{4}$"
         },
         {
           "label": "D",
@@ -533,19 +533,19 @@
       "options": [
         {
           "label": "A",
-          "text": "9/2"
+          "text": "$9/2$"
         },
         {
           "label": "B",
-          "text": "9/4"
+          "text": "$9/4$"
         },
         {
           "label": "C",
-          "text": "2/9"
+          "text": "$2/9$"
         },
         {
           "label": "D",
-          "text": "4/9"
+          "text": "$4/9$"
         }
       ],
       "solution": "$\\frac{D}{U} = \\frac{10}{4} = \\frac{5}{2} \\implies D = 5k, U = 2k$.\\n$\\frac{30}{5k} + \\frac{30}{2k} = 14 \\implies \\frac{6}{k} + \\frac{15}{k} = 14 \\implies \\frac{21}{k} = 14 \\implies k = \\frac{3}{2}$.\\nSpeed of stream $v = \\frac{D - U}{2} = \\frac{3k}{2} = \\frac{3 \\times 1.5}{2} = \\frac{9}{4}\\text{ km/h}$.",
@@ -559,19 +559,19 @@
       "options": [
         {
           "label": "A",
-          "text": "5/21"
+          "text": "$5/21$"
         },
         {
           "label": "B",
-          "text": "7/21"
+          "text": "$7/21$"
         },
         {
           "label": "C",
-          "text": "7/24"
+          "text": "$7/24$"
         },
         {
           "label": "D",
-          "text": "3/29"
+          "text": "$3/29$"
         }
       ],
       "solution": "$\\frac{D}{U} = \\frac{4}{3} \\implies D = 4k, U = 3k$.\\n$\\frac{48}{4k} + \\frac{48}{3k} = 48 \\implies \\frac{12}{k} + \\frac{16}{k} = 48 \\implies \\frac{28}{k} = 48 \\implies k = \\frac{7}{12}$.\\nSpeed of stream $v = \\frac{4k - 3k}{2} = \\frac{k}{2} = \\frac{7}{24}\\text{ km/h}$.",
@@ -615,7 +615,7 @@
         },
         {
           "label": "B",
-          "text": "5/13 km/h"
+          "text": "$5/13 km/h$"
         },
         {
           "label": "C",
@@ -623,7 +623,7 @@
         },
         {
           "label": "D",
-          "text": "7/12 km/h"
+          "text": "$7/12 km/h$"
         }
       ],
       "solution": "$u = \\frac{1}{12/60} = 5\\text{ km/h}$. Against stream $U = \\frac{1}{13/60} = \\frac{60}{13}\\text{ km/h}$.\\n$v = u - U = 5 - \\frac{60}{13} = \\frac{5}{13}\\text{ km/h}$.",
@@ -819,19 +819,19 @@
       "options": [
         {
           "label": "A",
-          "text": "4\\frac{1}{3}"
+          "text": "$4\\frac{1}{3}$"
         },
         {
           "label": "B",
-          "text": "5\\frac{1}{5}"
+          "text": "$5\\frac{1}{5}$"
         },
         {
           "label": "C",
-          "text": "5\\frac{7}{9}"
+          "text": "$5\\frac{7}{9}$"
         },
         {
           "label": "D",
-          "text": "8\\frac{2}{3}"
+          "text": "$8\\frac{2}{3}$"
         }
       ],
       "solution": "$u + v = 2(u - v) \\implies u = 3v = 9\\text{ km/h}$.\\n$U = 9 - 3 = 6\\text{ km/h}$. Time $= \\frac{52}{6} = 8\\frac{2}{3}\\text{ hours}$.",
@@ -1131,11 +1131,11 @@
       "options": [
         {
           "label": "A",
-          "text": "9\\frac{1}{2}"
+          "text": "$9\\frac{1}{2}$"
         },
         {
           "label": "B",
-          "text": "11\\frac{1}{4}"
+          "text": "$11\\frac{1}{4}$"
         },
         {
           "label": "C",
@@ -1183,19 +1183,19 @@
       "options": [
         {
           "label": "A",
-          "text": "7\\sqrt{3}"
+          "text": "$7\\sqrt{3}$"
         },
         {
           "label": "B",
-          "text": "5\\sqrt{3}"
+          "text": "$5\\sqrt{3}$"
         },
         {
           "label": "C",
-          "text": "4\\sqrt{3}"
+          "text": "$4\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "6\\sqrt{3}"
+          "text": "$6\\sqrt{3}$"
         }
       ],
       "solution": "$\\frac{20}{15+v} + \\frac{20}{15-v} = 4 \\implies \\frac{20 \\times 30}{225 - v^2} = 4 \\implies 225 - v^2 = 150 \\implies v^2 = 75 \\implies v = 5\\sqrt{3}\\text{ km/h}$.",
@@ -1209,19 +1209,19 @@
       "options": [
         {
           "label": "A",
-          "text": "2(2+\\sqrt{17})"
+          "text": "$2(2+\\sqrt{17})$"
         },
         {
           "label": "B",
-          "text": "2(4+\\sqrt{15})"
+          "text": "$2(4+\\sqrt{15})$"
         },
         {
           "label": "C",
-          "text": "3(4+\\sqrt{17})"
+          "text": "$3(4+\\sqrt{17})$"
         },
         {
           "label": "D",
-          "text": "3(2+\\sqrt{17})"
+          "text": "$3(2+\\sqrt{17})$"
         }
       ],
       "solution": "$\\frac{12}{u-3} + \\frac{12}{u+3} = 1 \\implies \\frac{24u}{u^2-9} = 1 \\implies u^2 - 24u - 9 = 0$.\\n$u = \\frac{24 \\pm \\sqrt{576 + 36}}{2} = 12 + \\frac{\\sqrt{612}}{2} = 12 + 3\\sqrt{17} = 3(4+\\sqrt{17})\\text{ km/h}$.",
@@ -1339,19 +1339,19 @@
       "options": [
         {
           "label": "A",
-          "text": "5\\frac{5}{27} km"
+          "text": "$5\\frac{5}{27} km$"
         },
         {
           "label": "B",
-          "text": "5\\frac{5}{2} km"
+          "text": "$5\\frac{5}{2} km$"
         },
         {
           "label": "C",
-          "text": "4\\frac{5}{27} km"
+          "text": "$4\\frac{5}{27} km$"
         },
         {
           "label": "D",
-          "text": "3\\frac{5}{27} km"
+          "text": "$3\\frac{5}{27} km$"
         }
       ],
       "solution": "Speed in still water $u = 21 + 1.5 = 22.5\\text{ km/h}, v = 12.5\\text{ km/h}$.\\n$D = 22.5 + 12.5 = 35\\text{ km/h}, U = 22.5 - 12.5 = 10\\text{ km/h}$.\\n$\\frac{d}{35} + \\frac{d}{10} = \\frac{40}{60} = \\frac{2}{3} \\implies \\frac{2d + 7d}{70} = \\frac{2}{3} \\implies \\frac{9d}{70} = \\frac{2}{3} \\implies d = \\frac{140}{27} = 5\\frac{5}{27}\\text{ km}$.",
@@ -1495,19 +1495,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{26}{9} km/h"
+          "text": "$\\frac{26}{9} km/h$"
         },
         {
           "label": "B",
-          "text": "\\frac{33}{13} km/h"
+          "text": "$\\frac{33}{13} km/h$"
         },
         {
           "label": "C",
-          "text": "\\frac{25}{8} km/h"
+          "text": "$\\frac{25}{8} km/h$"
         },
         {
           "label": "D",
-          "text": "\\frac{24}{7} km/h"
+          "text": "$\\frac{24}{7} km/h$"
         }
       ],
       "solution": "$36/D + 24/U = 10$ and $24/D + 36/U = 12$.\\nAdding: $60(1/D + 1/U) = 22 \\implies 1/D + 1/U = 11/30$.\\nSubtracting: $-12(1/D) + 12(1/U) = 2 \\implies 1/U - 1/D = 1/6 = 5/30$.\\nAdding the two: $2/U = 16/30 \\implies 1/U = 4/15 \\implies U = 15/4\\text{ km/h}$.\\n$1/D = 11/30 - 8/30 = 3/30 = 1/10 \\implies D = 10\\text{ km/h}$.\\nSpeed of current $v = \\frac{D - U}{2} = \\frac{10 - 3.75}{2} = \\frac{6.25}{2} = \\frac{25}{8}\\text{ km/h}$.",
@@ -1577,7 +1577,7 @@
         },
         {
           "label": "B",
-          "text": "4\\frac{1}{2}"
+          "text": "$4\\frac{1}{2}$"
         },
         {
           "label": "C",
@@ -1585,7 +1585,7 @@
         },
         {
           "label": "D",
-          "text": "7\\frac{1}{2}"
+          "text": "$7\\frac{1}{2}$"
         }
       ],
       "solution": "$7.2/D + 3.2/U = 2$ and $1.5/D + 0.6/U = 24/60 = 0.4$.\\nMultiply second by 4.8: $7.2/D + 2.88/U = 1.92$.\\nSubtract from first: $(3.2 - 2.88)/U = 2 - 1.92 \\implies 0.32/U = 0.08 \\implies U = 4\\text{ km/h}$.\\n$1.5/D + 0.6/4 = 0.4 \\implies 1.5/D + 0.15 = 0.4 \\implies 1.5/D = 0.25 \\implies D = 6\\text{ km/h}$.",
@@ -1807,7 +1807,7 @@
       "options": [
         {
           "label": "A",
-          "text": "4\\frac{1}{2}"
+          "text": "$4\\frac{1}{2}$"
         },
         {
           "label": "B",
@@ -1815,7 +1815,7 @@
         },
         {
           "label": "C",
-          "text": "5\\frac{1}{4}"
+          "text": "$5\\frac{1}{4}$"
         },
         {
           "label": "D",

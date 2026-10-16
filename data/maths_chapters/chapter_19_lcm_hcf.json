@@ -143,19 +143,19 @@
       "options": [
         {
           "label": "A",
-          "text": "2^3 \\times 3^4"
+          "text": "$2^3 \\times 3^4$"
         },
         {
           "label": "B",
-          "text": "2^8 \\times 3^5"
+          "text": "$2^8 \\times 3^5$"
         },
         {
           "label": "C",
-          "text": "2^2 \\times 3^2"
+          "text": "$2^2 \\times 3^2$"
         },
         {
           "label": "D",
-          "text": "2^4 \\times 3^5"
+          "text": "$2^4 \\times 3^5$"
         }
       ],
       "solution": "$\\text{HCF}(P, Q, R) = 2^{\\min(8, 3, 7)} \\times 3^{\\min(5, 4, 5)} = 2^3 \\times 3^4$.",
@@ -169,19 +169,19 @@
       "options": [
         {
           "label": "A",
-          "text": "2^3 \\times 9^2 \\times 13^2 \\times 19"
+          "text": "$2^3 \\times 9^2 \\times 13^2 \\times 19$"
         },
         {
           "label": "B",
-          "text": "2^3 \\times 9^3 \\times 13^2 \\times 19^2"
+          "text": "$2^3 \\times 9^3 \\times 13^2 \\times 19^2$"
         },
         {
           "label": "C",
-          "text": "2^2 \\times 9^2 \\times 13^2 \\times 19^3"
+          "text": "$2^2 \\times 9^2 \\times 13^2 \\times 19^3$"
         },
         {
           "label": "D",
-          "text": "2^2 \\times 9^3 \\times 13 \\times 19^2"
+          "text": "$2^2 \\times 9^3 \\times 13 \\times 19^2$"
         }
       ],
       "solution": "Taking highest powers: $2^3 \\times 9^3 \\times 13^2 \\times 19^2$.",
@@ -195,19 +195,19 @@
       "options": [
         {
           "label": "A",
-          "text": "101\\frac{1}{2}"
+          "text": "$101\\frac{1}{2}$"
         },
         {
           "label": "B",
-          "text": "52\\frac{1}{2}"
+          "text": "$52\\frac{1}{2}$"
         },
         {
           "label": "C",
-          "text": "28\\frac{1}{2}"
+          "text": "$28\\frac{1}{2}$"
         },
         {
           "label": "D",
-          "text": "25\\frac{1}{4}"
+          "text": "$25\\frac{1}{4}$"
         }
       ],
       "solution": "$\\text{LCM of fractions} = \\frac{\\text{LCM of numerators}}{\\text{HCF of denominators}} = \\frac{\\text{LCM}(3, 5, 7)}{\\text{HCF}(8, 16, 2)} = \\frac{105}{2} = 52\\frac{1}{2}$.",
@@ -221,19 +221,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{105}{2}"
+          "text": "$\\frac{105}{2}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{24}"
+          "text": "$\\frac{1}{24}$"
         },
         {
           "label": "C",
-          "text": "\\frac{7}{24}"
+          "text": "$\\frac{7}{24}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{48}"
+          "text": "$\\frac{1}{48}$"
         }
       ],
       "solution": "$\\text{HCF of fractions} = \\frac{\\text{HCF}(1, 3, 5, 7)}{\\text{LCM}(2, 4, 6, 8)} = \\frac{1}{24}$.",
@@ -247,19 +247,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{4}{255}"
+          "text": "$\\frac{4}{255}$"
         },
         {
           "label": "B",
-          "text": "\\frac{3}{255}"
+          "text": "$\\frac{3}{255}$"
         },
         {
           "label": "C",
-          "text": "\\frac{2}{255}"
+          "text": "$\\frac{2}{255}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{255}"
+          "text": "$\\frac{1}{255}$"
         }
       ],
       "solution": "$\\text{HCF} = \\frac{\\text{HCF}(12, 14, 16)}{\\text{LCM}(5, 15, 17)} = \\frac{2}{255}$.",
@@ -363,7 +363,7 @@
         },
         {
           "label": "D",
-          "text": "(x - 2)(x - 3)^2(x - 5)"
+          "text": "$(x - 2)(x - 3)^2(x - 5)$"
         }
       ],
       "solution": "$x^2 - 8x + 15 = (x - 3)(x - 5)$\\n$x^2 - 5x + 6 = (x - 2)(x - 3)$\\n$\\text{LCM} = (x - 5)(x - 2)(x - 3)$.",
@@ -377,7 +377,7 @@
       "options": [
         {
           "label": "A",
-          "text": "(1 + x^2)"
+          "text": "$(1 + x^2)$"
         },
         {
           "label": "B",
@@ -389,7 +389,7 @@
         },
         {
           "label": "D",
-          "text": "(1 - x^2)"
+          "text": "$(1 - x^2)$"
         }
       ],
       "solution": "$x^6 + 1 = (x^2 + 1)(x^4 - x^2 + 1)$\\n$x^4 - 1 = (x^2 + 1)(x^2 - 1)$\\n$\\text{HCF} = (x^2 + 1) = (1 + x^2)$.",
@@ -429,19 +429,19 @@
       "options": [
         {
           "label": "A",
-          "text": "8x^2(x + 5)^2(x - 1)"
+          "text": "$8x^2(x + 5)^2(x - 1)$"
         },
         {
           "label": "B",
-          "text": "8x^2(x - 1)^2(x + 5)"
+          "text": "$8x^2(x - 1)^2(x + 5)$"
         },
         {
           "label": "C",
-          "text": "4x^2(x - 1)^2(x + 5)"
+          "text": "$4x^2(x - 1)^2(x + 5)$"
         },
         {
           "label": "D",
-          "text": "4x^2(x + 5)^2(x - 1)"
+          "text": "$4x^2(x + 5)^2(x - 1)$"
         }
       ],
       "solution": "$8x(x^2 + 10x + 25) = 8x(x + 5)^2$\\n$4x^2(x^2 + 4x - 5) = 4x^2(x + 5)(x - 1)$\\n$\\text{LCM} = 8x^2(x + 5)^2(x - 1)$.",
@@ -481,19 +481,19 @@
       "options": [
         {
           "label": "A",
-          "text": "x^3y^4"
+          "text": "$x^3y^4$"
         },
         {
           "label": "B",
-          "text": "x^2y^3"
+          "text": "$x^2y^3$"
         },
         {
           "label": "C",
-          "text": "x^4y^3"
+          "text": "$x^4y^3$"
         },
         {
           "label": "D",
-          "text": "x^4y^4"
+          "text": "$x^4y^4$"
         }
       ],
       "solution": "$\\text{LCM} = x^{\\max(1, 2, 3)} y^{\\max(3, 1, 4)} = x^3y^4$.",
@@ -507,19 +507,19 @@
       "options": [
         {
           "label": "A",
-          "text": "a^2b^2(a^2 + b^2)"
+          "text": "$a^2b^2(a^2 + b^2)$"
         },
         {
           "label": "B",
-          "text": "a^2b^2(a^2 - b^2)"
+          "text": "$a^2b^2(a^2 - b^2)$"
         },
         {
           "label": "C",
-          "text": "a^2b^3(a^2 + b^2)"
+          "text": "$a^2b^3(a^2 + b^2)$"
         },
         {
           "label": "D",
-          "text": "a^3b^2(a^2 - b^2)"
+          "text": "$a^3b^2(a^2 - b^2)$"
         }
       ],
       "solution": "$ab(a^2 - b^2) = ab(a - b)(a + b)$\\n$a^2b^2(a - b)$\\n$ab(a - b)$\\n$\\text{LCM} = a^2b^2(a - b)(a + b) = a^2b^2(a^2 - b^2)$.",
@@ -849,7 +849,7 @@
         },
         {
           "label": "B",
-          "text": "\\frac{K_1}{K_2}"
+          "text": "$\\frac{K_1}{K_2}$"
         },
         {
           "label": "C",
@@ -857,7 +857,7 @@
         },
         {
           "label": "D",
-          "text": "K_1 \\times K_2"
+          "text": "$K_1 \\times K_2$"
         }
       ],
       "solution": "$\\text{HCF} \\times \\text{LCM} = \\text{Product of numbers} = K_1 \\times K_2$.",
@@ -905,11 +905,11 @@
         },
         {
           "label": "C",
-          "text": "pqr^2"
+          "text": "$pqr^2$"
         },
         {
           "label": "D",
-          "text": "pqr^3"
+          "text": "$pqr^3$"
         }
       ],
       "solution": "$\\text{LCM}(p^2q, pq^2) = pq \\times \\text{LCM}(p, q) = pq \\times r = pqr$.",
@@ -1963,19 +1963,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{55}{601}"
+          "text": "$\\frac{55}{601}$"
         },
         {
           "label": "B",
-          "text": "\\frac{11}{120}"
+          "text": "$\\frac{11}{120}$"
         },
         {
           "label": "C",
-          "text": "\\frac{120}{11}"
+          "text": "$\\frac{120}{11}$"
         },
         {
           "label": "D",
-          "text": "\\frac{601}{55}"
+          "text": "$\\frac{601}{55}$"
         }
       ],
       "solution": "$\\frac{1}{a} + \\frac{1}{b} = \\frac{a + b}{ab} = \\frac{55}{\\text{LCM} \\times \\text{HCF}} = \\frac{55}{120 \\times 5} = \\frac{11}{120}$.",
@@ -1989,19 +1989,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{7}"
+          "text": "$\\frac{1}{7}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{11}"
+          "text": "$\\frac{1}{11}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{6}"
+          "text": "$\\frac{1}{6}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{9}"
+          "text": "$\\frac{1}{9}$"
         }
       ],
       "solution": "$\\frac{1}{a} + \\frac{1}{b} = \\frac{a + b}{ab} = \\frac{18}{3 \\times 54} = \\frac{1}{9}$.",
@@ -2015,19 +2015,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{4}"
+          "text": "$\\frac{1}{4}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{5}"
+          "text": "$\\frac{1}{5}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{11}"
+          "text": "$\\frac{1}{11}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{6}"
+          "text": "$\\frac{1}{6}$"
         }
       ],
       "solution": "$\\frac{1}{a} + \\frac{1}{b} = \\frac{60}{5 \\times 60} = \\frac{1}{5}$.",
@@ -2119,11 +2119,11 @@
       "options": [
         {
           "label": "A",
-          "text": "2\\sqrt{6}"
+          "text": "$2\\sqrt{6}$"
         },
         {
           "label": "B",
-          "text": "\\sqrt{14}"
+          "text": "$\\sqrt{14}$"
         },
         {
           "label": "C",
@@ -2131,7 +2131,7 @@
         },
         {
           "label": "D",
-          "text": "\\sqrt{6}"
+          "text": "$\\sqrt{6}$"
         }
       ],
       "solution": "Mean proportional $= \\sqrt{ab} = \\sqrt{\\text{LCM} \\times \\text{HCF}} = \\sqrt{12 \\times 2} = \\sqrt{24} = 2\\sqrt{6}$.",

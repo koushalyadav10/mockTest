@@ -403,19 +403,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{13}{2}"
+          "text": "$\\frac{13}{2}$"
         },
         {
           "label": "B",
-          "text": "\\frac{9}{2}"
+          "text": "$\\frac{9}{2}$"
         },
         {
           "label": "C",
-          "text": "\\frac{11}{2}"
+          "text": "$\\frac{11}{2}$"
         },
         {
           "label": "D",
-          "text": "\\frac{5}{2}"
+          "text": "$\\frac{5}{2}$"
         }
       ],
       "correctOption": "B",
@@ -429,19 +429,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{5a^2}{2}"
+          "text": "$\\frac{5a^2}{2}$"
         },
         {
           "label": "B",
-          "text": "\\frac{2a^2}{3}"
+          "text": "$\\frac{2a^2}{3}$"
         },
         {
           "label": "C",
-          "text": "\\frac{2a^2}{5}"
+          "text": "$\\frac{2a^2}{5}$"
         },
         {
           "label": "D",
-          "text": "\\frac{5a^2}{3}"
+          "text": "$\\frac{5a^2}{3}$"
         }
       ],
       "correctOption": "A",
@@ -507,19 +507,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{250}"
+          "text": "$\\frac{1}{250}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{275}"
+          "text": "$\\frac{1}{275}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{375}"
+          "text": "$\\frac{1}{375}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{350}"
+          "text": "$\\frac{1}{350}$"
         }
       ],
       "correctOption": "D",
@@ -585,19 +585,19 @@
       "options": [
         {
           "label": "A",
-          "text": "3^{24}"
+          "text": "$3^{24}$"
         },
         {
           "label": "B",
-          "text": "12^{-23}"
+          "text": "$12^{-23}$"
         },
         {
           "label": "C",
-          "text": "4^{24}"
+          "text": "$4^{24}$"
         },
         {
           "label": "D",
-          "text": "12^{-11}"
+          "text": "$12^{-11}$"
         }
       ],
       "correctOption": "B",
@@ -611,7 +611,7 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{2^3}"
+          "text": "$\\frac{1}{2^3}$"
         },
         {
           "label": "B",
@@ -619,7 +619,7 @@
         },
         {
           "label": "C",
-          "text": "2^3"
+          "text": "$2^3$"
         },
         {
           "label": "D",
@@ -637,11 +637,11 @@
       "options": [
         {
           "label": "A",
-          "text": "10\\sqrt{5}"
+          "text": "$10\\sqrt{5}$"
         },
         {
           "label": "B",
-          "text": "40\\sqrt{2}"
+          "text": "$40\\sqrt{2}$"
         },
         {
           "label": "C",
@@ -663,19 +663,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{(a^2 - ab + b^2)}{(a+b)}"
+          "text": "$\\frac{(a^2 - ab + b^2)}{(a+b)}$"
         },
         {
           "label": "B",
-          "text": "\\frac{(a^2 - ab + b^2)}{(a^2 + ab + b^2)}"
+          "text": "$\\frac{(a^2 - ab + b^2)}{(a^2 + ab + b^2)}$"
         },
         {
           "label": "C",
-          "text": "\\frac{(a^2 + ab + b^2)}{(a-b)}"
+          "text": "$\\frac{(a^2 + ab + b^2)}{(a-b)}$"
         },
         {
           "label": "D",
-          "text": "\\frac{(a^2 + ab + b^2)}{(a^2 - b^2)}"
+          "text": "$\\frac{(a^2 + ab + b^2)}{(a^2 - b^2)}$"
         }
       ],
       "correctOption": "B",
@@ -689,19 +689,19 @@
       "options": [
         {
           "label": "A",
-          "text": "(x^2 - y^2)^{-1}"
+          "text": "$(x^2 - y^2)^{-1}$"
         },
         {
           "label": "B",
-          "text": "(x^2 + y^2)^{-2}"
+          "text": "$(x^2 + y^2)^{-2}$"
         },
         {
           "label": "C",
-          "text": "(x^2 - y^2)^{-2}"
+          "text": "$(x^2 - y^2)^{-2}$"
         },
         {
           "label": "D",
-          "text": "(x^2 + y^2)^{-1}"
+          "text": "$(x^2 + y^2)^{-1}$"
         }
       ],
       "correctOption": "D",
@@ -1261,19 +1261,19 @@
       "options": [
         {
           "label": "A",
-          "text": "2\\sqrt{12}"
+          "text": "$2\\sqrt{12}$"
         },
         {
           "label": "B",
-          "text": "\\sqrt{14}"
+          "text": "$\\sqrt{14}$"
         },
         {
           "label": "C",
-          "text": "(6 - \\sqrt{8})"
+          "text": "$(6 - \\sqrt{8})$"
         },
         {
           "label": "D",
-          "text": "\\sqrt{15} - 7"
+          "text": "$\\sqrt{15} - 7$"
         }
       ],
       "correctOption": "B",
@@ -1287,19 +1287,19 @@
       "options": [
         {
           "label": "A",
-          "text": "3\\sqrt{5}"
+          "text": "$3\\sqrt{5}$"
         },
         {
           "label": "B",
-          "text": "5\\sqrt{2}"
+          "text": "$5\\sqrt{2}$"
         },
         {
           "label": "C",
-          "text": "9\\sqrt{5}"
+          "text": "$9\\sqrt{5}$"
         },
         {
           "label": "D",
-          "text": "2\\sqrt{5}"
+          "text": "$2\\sqrt{5}$"
         }
       ],
       "correctOption": "D",
@@ -1321,11 +1321,11 @@
         },
         {
           "label": "C",
-          "text": "c^3"
+          "text": "$c^3$"
         },
         {
           "label": "D",
-          "text": "c^2"
+          "text": "$c^2$"
         }
       ],
       "correctOption": "C",
@@ -1343,15 +1343,15 @@
         },
         {
           "label": "B",
-          "text": "x^2 y^2"
+          "text": "$x^2 y^2$"
         },
         {
           "label": "C",
-          "text": "x^3 y^3"
+          "text": "$x^3 y^3$"
         },
         {
           "label": "D",
-          "text": "x^4 y^4"
+          "text": "$x^4 y^4$"
         }
       ],
       "correctOption": "B",
@@ -1365,19 +1365,19 @@
       "options": [
         {
           "label": "A",
-          "text": "5x^2 y"
+          "text": "$5x^2 y$"
         },
         {
           "label": "B",
-          "text": "15x^2 y"
+          "text": "$15x^2 y$"
         },
         {
           "label": "C",
-          "text": "25x^4 y"
+          "text": "$25x^4 y$"
         },
         {
           "label": "D",
-          "text": "45x^2 y^2"
+          "text": "$45x^2 y^2$"
         }
       ],
       "correctOption": "B",
@@ -1395,15 +1395,15 @@
         },
         {
           "label": "B",
-          "text": "\\frac{b}{a}"
+          "text": "$\\frac{b}{a}$"
         },
         {
           "label": "C",
-          "text": "\\frac{a}{2b}"
+          "text": "$\\frac{a}{2b}$"
         },
         {
           "label": "D",
-          "text": "\\frac{a}{b}"
+          "text": "$\\frac{a}{b}$"
         }
       ],
       "correctOption": "D",
@@ -1443,7 +1443,7 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{12}{a^2}"
+          "text": "$\\frac{12}{a^2}$"
         },
         {
           "label": "B",
@@ -1451,11 +1451,11 @@
         },
         {
           "label": "C",
-          "text": "12a^2"
+          "text": "$12a^2$"
         },
         {
           "label": "D",
-          "text": "\\frac{12}{a}"
+          "text": "$\\frac{12}{a}$"
         }
       ],
       "correctOption": "D",
@@ -1469,19 +1469,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{100a^4}"
+          "text": "$\\frac{1}{100a^4}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{100a^2}"
+          "text": "$\\frac{1}{100a^2}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{25a^2}"
+          "text": "$\\frac{1}{25a^2}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{25a^4}"
+          "text": "$\\frac{1}{25a^4}$"
         }
       ],
       "correctOption": "A",
@@ -1495,19 +1495,19 @@
       "options": [
         {
           "label": "A",
-          "text": "(a+b)^2(a-b)"
+          "text": "$(a+b)^2(a-b)$"
         },
         {
           "label": "B",
-          "text": "(a+b)^2(a-b)^2"
+          "text": "$(a+b)^2(a-b)^2$"
         },
         {
           "label": "C",
-          "text": "(a+b)(a-b)^2"
+          "text": "$(a+b)(a-b)^2$"
         },
         {
           "label": "D",
-          "text": "a^2 - b^2"
+          "text": "$a^2 - b^2$"
         }
       ],
       "correctOption": "B",
@@ -1521,19 +1521,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{pq}{p-q}"
+          "text": "$\\frac{pq}{p-q}$"
         },
         {
           "label": "B",
-          "text": "\\frac{p-q}{pq}"
+          "text": "$\\frac{p-q}{pq}$"
         },
         {
           "label": "C",
-          "text": "\\frac{pq}{p+q}"
+          "text": "$\\frac{pq}{p+q}$"
         },
         {
           "label": "D",
-          "text": "\\frac{p+q}{pq}"
+          "text": "$\\frac{p+q}{pq}$"
         }
       ],
       "correctOption": "C",
@@ -1555,11 +1555,11 @@
         },
         {
           "label": "C",
-          "text": "\\frac{a+b}{a-b}"
+          "text": "$\\frac{a+b}{a-b}$"
         },
         {
           "label": "D",
-          "text": "\\sqrt{a+b}"
+          "text": "$\\sqrt{a+b}$"
         }
       ],
       "correctOption": "B",
@@ -1599,11 +1599,11 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{3}{2}"
+          "text": "$\\frac{3}{2}$"
         },
         {
           "label": "B",
-          "text": "2\\sqrt{3}"
+          "text": "$2\\sqrt{3}$"
         },
         {
           "label": "C",
@@ -1677,19 +1677,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{3}"
+          "text": "$\\frac{1}{3}$"
         },
         {
           "label": "B",
-          "text": "\\frac{1}{4}"
+          "text": "$\\frac{1}{4}$"
         },
         {
           "label": "C",
-          "text": "\\frac{1}{2}"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{8}"
+          "text": "$\\frac{1}{8}$"
         }
       ],
       "correctOption": "B",
@@ -1707,11 +1707,11 @@
         },
         {
           "label": "B",
-          "text": "\\frac{x - y}{x + y}"
+          "text": "$\\frac{x - y}{x + y}$"
         },
         {
           "label": "C",
-          "text": "\\frac{x + y}{x - y}"
+          "text": "$\\frac{x + y}{x - y}$"
         },
         {
           "label": "D",
@@ -1963,19 +1963,19 @@
       "options": [
         {
           "label": "A",
-          "text": "a \\propto \\sqrt{d}"
+          "text": "$a \\propto \\sqrt{d}$"
         },
         {
           "label": "B",
-          "text": "a \\propto d"
+          "text": "$a \\propto d$"
         },
         {
           "label": "C",
-          "text": "a \\propto \\frac{1}{d}"
+          "text": "$a \\propto \\frac{1}{d}$"
         },
         {
           "label": "D",
-          "text": "a \\propto d^2"
+          "text": "$a \\propto d^2$"
         }
       ],
       "correctOption": "C",
@@ -2067,7 +2067,7 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{1}{2}"
+          "text": "$\\frac{1}{2}$"
         },
         {
           "label": "B",
@@ -2075,11 +2075,11 @@
         },
         {
           "label": "C",
-          "text": "\\sqrt{69}"
+          "text": "$\\sqrt{69}$"
         },
         {
           "label": "D",
-          "text": "\\frac{1}{4}"
+          "text": "$\\frac{1}{4}$"
         }
       ],
       "correctOption": "A",
@@ -2093,19 +2093,19 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{281}{42}"
+          "text": "$\\frac{281}{42}$"
         },
         {
           "label": "B",
-          "text": "\\frac{243}{25}"
+          "text": "$\\frac{243}{25}$"
         },
         {
           "label": "C",
-          "text": "\\frac{264}{37}"
+          "text": "$\\frac{264}{37}$"
         },
         {
           "label": "D",
-          "text": "\\frac{275}{51}"
+          "text": "$\\frac{275}{51}$"
         }
       ],
       "correctOption": "B",
@@ -2171,7 +2171,7 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{9}{800}"
+          "text": "$\\frac{9}{800}$"
         },
         {
           "label": "B",
@@ -2179,7 +2179,7 @@
         },
         {
           "label": "C",
-          "text": "\\frac{800}{9}"
+          "text": "$\\frac{800}{9}$"
         },
         {
           "label": "D",
@@ -2197,7 +2197,7 @@
       "options": [
         {
           "label": "A",
-          "text": "\\frac{y-6}{z-24}"
+          "text": "$\\frac{y-6}{z-24}$"
         },
         {
           "label": "B",
@@ -2205,7 +2205,7 @@
         },
         {
           "label": "C",
-          "text": "\\frac{y-6}{z-12}"
+          "text": "$\\frac{y-6}{z-12}$"
         },
         {
           "label": "D",

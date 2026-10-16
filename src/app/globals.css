@@ -70,3 +70,12 @@
   50% { transform: translateX(0%); }
   100% { transform: translateX(100%); }
 }
+
+/* KaTeX compact spacing for CBT Single-Page Fit */
+.katex-display {
+  margin: 0.35em 0 !important;
+}
+.katex {
+  line-height: 1.25;
+}
+
