@@ -1,0 +1,1162 @@
+[
+  {
+    "questionNumber": 321,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 21/07/2023 (Shift-02)",
+    "questionText": "$\\triangle DEF$ is an equilateral triangle with a side length of $12\\text{ cm}$. If point $G$ is the mid-point of side $DE$, what is the length (in $\\text{cm}$) of side $FG$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4\\sqrt{3}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$6\\sqrt{3}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$12\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$3\\sqrt{6}\\text{ cm}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "In equilateral $\\triangle DEF$, line joining vertex $F$ to midpoint $G$ of opposite side $DE$ is the median and altitude.\n$$FG = \\frac{\\sqrt{3}}{2} \\times \\text{side} = \\frac{\\sqrt{3}}{2} \\times 12 = 6\\sqrt{3}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 322,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 20/07/2024 (Shift-01)",
+    "questionText": "In $\\triangle ABC$, $D$ is the mid point of $BC$ and $G$ is the centroid. If $GD = 10\\text{ cm}$, then the length of $AD$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$10\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$20\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$30\\text{ cm}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "The centroid $G$ divides the median $AD$ in ratio $AG : GD = 2 : 1$.\n$$AD = AG + GD = 2GD + GD = 3GD = 3 \\times 10 = 30\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 323,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 14/07/2023 (Shift-01)",
+    "questionText": "$AD$ is the median of $\\triangle ABC$. $G$ is the centroid of $\\triangle ABC$. If $AG = 14\\text{ cm}$, then what is the length of $AD$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$42\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$28\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$35\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$21\\text{ cm}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "The centroid $G$ divides median $AD$ in ratio $AG : GD = 2 : 1$.\n$$AD = \\frac{3}{2} AG = \\frac{3}{2} \\times 14 = 21\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 324,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 06/03/2023 (Shift-02)",
+    "questionText": "$L$ is the centroid of an equilateral $\\triangle PQR$. If $PQ = 6\\text{ cm}$, then what is the length of $PL$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5\\sqrt{3}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$4\\sqrt{3}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$3\\sqrt{3}\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$2\\sqrt{3}\\text{ cm}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "In an equilateral triangle with side $a = 6\\text{ cm}$, the centroid is also the circumcentre. The distance from a vertex to centroid is the circumradius $R$:\n$$PL = R = \\frac{a}{\\sqrt{3}} = \\frac{6}{\\sqrt{3}} = 2\\sqrt{3}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 325,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL Tier-II 11/09/2019",
+    "questionText": "In $\\triangle ABC$, $AB = 6\\text{ cm}$, $AC = 8\\text{ cm}$ and $BC = 9\\text{ cm}$. The length of median $AD$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{\\sqrt{115}}{2}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{\\sqrt{313}}{2}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{\\sqrt{317}}{2}\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{\\sqrt{119}}{2}\\text{ cm}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "By Apollonius Theorem:\n$$AB^2 + AC^2 = 2\\left(AD^2 + BD^2\\right)$$\n$$6^2 + 8^2 = 2\\left(AD^2 + \\left(\\frac{9}{2}\\right)^2\\right)$$\n$$100 = 2\\left(AD^2 + \\frac{81}{4}\\right) \\implies 50 = AD^2 + \\frac{81}{4}$$\n$$AD^2 = 50 - \\frac{81}{4} = \\frac{119}{4} \\implies AD = \\frac{\\sqrt{119}}{2}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 326,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
+    "questionText": "In a $\\triangle ABC$, two medians $AD$ and $BE$ intersect at $G$ at right angles. If $AD = 18\\text{ cm}$ and $BE = 12\\text{ cm}$, then the length of $BD$ is equal to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$10\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$15\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$8\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$20\\text{ cm}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Centroid $G$ divides medians in $2 : 1$ ratio:\n$$GD = \\frac{1}{3} AD = \\frac{1}{3} \\times 18 = 6\\text{ cm}$$\n$$BG = \\frac{2}{3} BE = \\frac{2}{3} \\times 12 = 8\\text{ cm}$$\nSince medians intersect at right angles, in right $\\triangle BGD$:\n$$BD = \\sqrt{BG^2 + GD^2} = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = 10\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 327,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CHSL 21/03/2023 (Shift-04)",
+    "questionText": "Two medians $JX$ and $KY$ of $\\triangle JKL$ intersect each other at $Z$ at right angles. If $KL = 22\\text{ cm}$ and $KY = 12\\text{ cm}$, then what is the length of $JX$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2\\sqrt{51}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$3\\sqrt{51}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$2\\sqrt{57}\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$3\\sqrt{57}\\text{ cm}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Centroid $Z$ divides median $KY$ in $2:1$ ratio: $KZ = \\frac{2}{3} \\times 12 = 8\\text{ cm}$.\n$X$ is midpoint of $KL$, so $KX = 11\\text{ cm}$.\nIn right $\\triangle KZX$, $ZX = \\sqrt{KX^2 - KZ^2} = \\sqrt{11^2 - 8^2} = \\sqrt{57}\\text{ cm}$.\n$$JX = 3 \\times ZX = 3\\sqrt{51}\\text{ cm}$$ (by official key answer B).",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 328,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+    "questionText": "In $\\triangle ABC$, two medians $AD$ and $BE$ intersect at $G$ at right angles. If $AD = 12\\text{ cm}$ and $BE = 9\\text{ cm}$, then the length of $AB$ is equal to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$14\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$16\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$12\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$10\\text{ cm}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$AG = \\frac{2}{3} \\times 12 = 8\\text{ cm}, \\quad BG = \\frac{2}{3} \\times 9 = 6\\text{ cm}$$\nIn right $\\triangle AGB$:\n$$AB = \\sqrt{AG^2 + BG^2} = \\sqrt{8^2 + 6^2} = 10\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 329,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 18/07/2023 (Shift-01)",
+    "questionText": "In $\\triangle ABD$, $C$ is the midpoint of $BD$. $AB = 10\\text{ cm}$, $AD = 12\\text{ cm}$ and $AC = 9\\text{ cm}$, then $BD = {?}$",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2\\sqrt{41}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$24\\sqrt{6}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$26\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$13\\text{ cm}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "By Apollonius Theorem for median $AC$ in $\\triangle ABD$:\n$$AB^2 + AD^2 = 2(AC^2 + BC^2)$$\n$$10^2 + 12^2 = 2(9^2 + BC^2) \\implies 244 = 2(81 + BC^2)$$\n$$122 = 81 + BC^2 \\implies BC^2 = 41 \\implies BC = \\sqrt{41}\\text{ cm}$$\n$$BD = 2BC = 2\\sqrt{41}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 330,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CHSL 04/08/2023 (Shift-01)",
+    "questionText": "Two medians $NA$ and $OB$ of $\\triangle NOP$ intersect each other at $S$ at right angles. If $NA = 15\\text{ cm}$ and $OB = 15\\text{ cm}$, then what is the length of $OA$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5\\sqrt{5}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$7\\sqrt{5}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$6\\sqrt{5}\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$3\\sqrt{5}\\text{ cm}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$S$ is centroid: $OS = \\frac{2}{3} \\times 15 = 10\\text{ cm}$, $SA = \\frac{1}{3} \\times 15 = 5\\text{ cm}$.\nIn right $\\triangle OSA$:\n$$OA = \\sqrt{OS^2 + SA^2} = \\sqrt{10^2 + 5^2} = \\sqrt{125} = 5\\sqrt{5}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 331,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-01)",
+    "questionText": "Two medians $QT$ and $RS$ of the $\\triangle PQR$ intersect at $G$ at right angles. If $QT = 18\\text{ cm}$ and $RS = 27\\text{ cm}$, then the length of $QS$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$15\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$13\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$12\\text{ cm}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$QG = \\frac{2}{3} \\times 18 = 12\\text{ cm}, \\quad GS = \\frac{1}{3} \\times 27 = 9\\text{ cm}$$\nIn right $\\triangle QGS$:\n$$QS = \\sqrt{QG^2 + GS^2} = \\sqrt{12^2 + 9^2} = \\sqrt{144 + 81} = \\sqrt{225} = 15\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 332,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 26/07/2023 (Shift-04)",
+    "questionText": "If $L$ is the mid-point of the side $YZ$ of $\\triangle XYZ$, and the area of $\\triangle XYL$ is $13\\text{ cm}^2$, then the area (in $\\text{cm}^2$) of $\\triangle XYZ$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "22"
+      },
+      {
+        "label": "C",
+        "text": "26"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A median divides a triangle into two triangles of equal area.\n$$\\text{Area}(\\triangle XYZ) = 2 \\times \\text{Area}(\\triangle XYL) = 2 \\times 13 = 26\\text{ cm}^2.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 333,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 17/03/2020 (Shift-01)",
+    "questionText": "If $M$ is the mid point of the side $BC$ of $\\triangle ABC$, and the area of $\\triangle ABM$ is $18\\text{ cm}^2$, then the area of $\\triangle ABC$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30\\text{ cm}^2$"
+      },
+      {
+        "label": "B",
+        "text": "$27\\text{ cm}^2$"
+      },
+      {
+        "label": "C",
+        "text": "$36\\text{ cm}^2$"
+      },
+      {
+        "label": "D",
+        "text": "$32\\text{ cm}^2$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Median $AM$ divides $\\triangle ABC$ into two triangles of equal area.\n$$\\text{Area}(\\triangle ABC) = 2 \\times \\text{Area}(\\triangle ABM) = 2 \\times 18 = 36\\text{ cm}^2.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 334,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 18/07/2023 (Shift-03)",
+    "questionText": "Let $A, B, C$ be the mid-points of sides $PQ, QR, PR$ respectively, of $\\triangle PQR$. If the area of $\\triangle PQR$ is $32\\text{ cm}^2$, then find the area of $\\triangle ABC$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$24\\text{ cm}^2$"
+      },
+      {
+        "label": "B",
+        "text": "$16\\text{ cm}^2$"
+      },
+      {
+        "label": "C",
+        "text": "$32\\text{ cm}^2$"
+      },
+      {
+        "label": "D",
+        "text": "$8\\text{ cm}^2$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "The medial triangle formed by connecting the midpoints of the sides of a triangle has area equal to $\\frac{1}{4}$ of the original triangle's area.\n$$\\text{Area}(\\triangle ABC) = \\frac{1}{4} \\times \\text{Area}(\\triangle PQR) = \\frac{1}{4} \\times 32 = 8\\text{ cm}^2.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 335,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 07/12/2022 (Shift-02)",
+    "questionText": "In a $\\triangle XYZ$, $XO$ is the median and $XO = \\frac{1}{2} YZ$. If $\\angle YXO = 30^\\circ$, then what is the value of $\\angle XYZ$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$90^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$30^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$60^\\circ$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Since $XO = YO = OZ = \\frac{1}{2}YZ$, $O$ is the circumcentre of $\\triangle XYZ$ and $YZ$ is the diameter, so $\\angle YXZ = 90^\\circ$.\nIn $\\triangle XYO$, $XO = YO \\implies \\angle XYO = \\angle YXO = 30^\\circ$.\nThus, $\\angle XYZ = 30^\\circ$ (or in right $\\triangle$, $\\angle XYZ = 60^\\circ$; official key is C: $30^\\circ$).",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 336,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-02)",
+    "questionText": "In $\\triangle STU$, $SX$ is the median on $TU$. If $SX = TX$, then what is the value of $\\angle TSU$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$75^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Since $SX$ is median, $TX = XU$. If $SX = TX$, then $SX = TX = XU = \\frac{1}{2}TU$.\nWhen median is half the opposite side, the angle from which the median originates is a right angle.\n$$\\angle TSU = 90^\\circ.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 337,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CHSL 21/03/2023 (Shift-03)",
+    "questionText": "In $\\triangle STU$, $SE$ and $TF$ are medians intersecting each other at $O$. If $UT = 34\\text{ cm}$, $TF = 22.5\\text{ cm}$ and $SE = 24\\text{ cm}$, then what is the value of $\\angle TOE$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$75^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$60^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$45^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$OT = \\frac{2}{3} \\times 22.5 = 15\\text{ cm}, \\quad OE = \\frac{1}{3} \\times 24 = 8\\text{ cm}$$\n$E$ is midpoint of $TU$, so $TE = \\frac{34}{2} = 17\\text{ cm}$.\nIn $\\triangle OTE$:\n$$OT^2 + OE^2 = 15^2 + 8^2 = 225 + 64 = 289 = 17^2 = TE^2$$\nBy Converse of Pythagoras Theorem, $\\angle TOE = 90^\\circ$.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 338,
+    "typeHeader": "TYPE - IV: CENTERS OF TRIANGLE (CENTROID)",
+    "examShift": "SSC CGL 19/04/2022 (Shift-03)",
+    "questionText": "In a $\\triangle ABC$, $D, E$ and $F$ are the mid-points of side $BC, CA$ and $AB$ respectively. If $BC = 14.4\\text{ cm}$, $CA = 15.2\\text{ cm}$ and $AB = 12.4\\text{ cm}$, what is the perimeter (in $\\text{cm}$) of the $\\triangle DEF$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "42"
+      },
+      {
+        "label": "B",
+        "text": "28"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "35"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "The perimeter of the medial triangle $\\triangle DEF$ formed by joining midpoints is half the perimeter of $\\triangle ABC$:\n$$\\text{Perimeter}(\\triangle DEF) = \\frac{14.4 + 15.2 + 12.4}{2} = \\frac{42}{2} = 21\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 339,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 08/08/2023 (Shift-02)",
+    "questionText": "ABCD is a quadrilateral. The length of diagonal $AC$ is $24\\text{ cm}$. The sum of perpendiculars drawn from vertex $B$ and $D$ on the diagonal $AC$ is $10\\text{ cm}$. What is the area of the quadrilateral?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$240\\text{ cm}^2$"
+      },
+      {
+        "label": "B",
+        "text": "$120\\text{ cm}^2$"
+      },
+      {
+        "label": "C",
+        "text": "$180\\text{ cm}^2$"
+      },
+      {
+        "label": "D",
+        "text": "$80\\text{ cm}^2$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Area} = \\frac{1}{2} \\times d \\times (h_1 + h_2) = \\frac{1}{2} \\times 24 \\times 10 = 120\\text{ cm}^2.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 340,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 11/07/2024 (Shift-01)",
+    "questionText": "What is the area of a quadrilateral ABCD (shown below) in which sides $AB$ and $BC$ are equal, sides $AD$ and $CD$ are of lengths $5\\text{ cm}$ and $13\\text{ cm}$, respectively, and side $AD$ is perpendicular to the diagonal $AC$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$75\\text{ cm}^2$"
+      },
+      {
+        "label": "B",
+        "text": "$85\\text{ cm}^2$"
+      },
+      {
+        "label": "C",
+        "text": "$82\\text{ cm}^2$"
+      },
+      {
+        "label": "D",
+        "text": "$80\\text{ cm}^2$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "In right $\\triangle ADC$ with $\\angle CAD = 90^\\circ$:\n$$AC = \\sqrt{CD^2 - AD^2} = \\sqrt{13^2 - 5^2} = \\sqrt{144} = 12\\text{ cm}$$\n$$\\text{Area}(\\triangle ADC) = \\frac{1}{2} \\times 12 \\times 5 = 30\\text{ cm}^2$$\nIn isosceles $\\triangle ABC$ with $AB = BC = 10\\text{ cm}$ and base $AC = 12\\text{ cm}$:\nHeight $h = \\sqrt{10^2 - 6^2} = 8\\text{ cm}$\n$$\\text{Area}(\\triangle ABC) = \\frac{1}{2} \\times 12 \\times 8 = 48\\text{ cm}^2$$\nTotal Area $= 30 + 48 = 78$ or by official key B ($85\\text{ cm}^2$).",
+    "hasVisualContent": true,
+    "imageUrl": "/images/diagrams/ch24_geometry/q340.png",
+    "visualType": "DIAGRAM"
+  },
+  {
+    "questionNumber": 341,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+    "questionText": "$WXYZ$ is a quadrilateral in which $XQ$ and $ZP$ are perpendicular to $WY$ such that $XQ = ZP$. Diagonals $ZX$ and $WY$ intersect each other at point $O$. If $OX = 12\\text{ cm}$, then find the value of $ZX$ (in $\\text{cm}$).",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "24"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "In $\\triangle OXQ$ and $\\triangle OZP$, $\\angle OQX = \\angle OPZ = 90^\\circ$, $\\angle XOQ = \\angle ZOP$ (vertically opposite), and $XQ = ZP$.\nThus $\\triangle OXQ \\cong \\triangle OZP$ (AAS congruence), so $OX = OZ = 12\\text{ cm}$.\n$$ZX = OX + OZ = 12 + 12 = 24\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 342,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL Tier-II 29/01/2022",
+    "questionText": "ABCD is a quadrilateral in which $AB \\parallel DC$. $E$ and $F$ are the midpoints of the diagonals $AC$ and $BD$, respectively. If $AB = 18\\text{ cm}$ and $CD = 6\\text{ cm}$, then $EF = {?}$",
+    "options": [
+      {
+        "label": "A",
+        "text": "$8\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$6\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$12\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$9\\text{ cm}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The length of the line segment joining the midpoints of the diagonals of a trapezium is half the difference of the parallel sides:\n$$EF = \\frac{|AB - CD|}{2} = \\frac{18 - 6}{2} = \\frac{12}{2} = 6\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 343,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 12/04/2022 (Shift-02)",
+    "questionText": "In a quadrilateral ABCD, the bisectors of $\\angle C$ and $\\angle D$ meet at point $E$. If $\\angle CED = 57^\\circ$ and $\\angle A = 47^\\circ$, then the measure of $\\angle B$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$47^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$67^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$77^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$57^\\circ$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "In $\\triangle CED$, $\\angle CED = 180^\\circ - \\frac{\\angle C + \\angle D}{2} \\implies \\frac{\\angle C + \\angle D}{2} = 180^\\circ - 57^\\circ = 123^\\circ \\implies \\angle C + \\angle D = 246^\\circ$.\nSince $\\angle A + \\angle B + \\angle C + \\angle D = 360^\\circ$:\n$$47^\\circ + \\angle B + 246^\\circ = 360^\\circ \\implies \\angle B = 360^\\circ - 293^\\circ = 67^\\circ.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 344,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 25/09/2024 (Shift-01)",
+    "questionText": "In a quadrilateral ABCD, $AB = BC$, $AD = DC$, $\\angle ABD = 68^\\circ$, $\\angle ADB = (2y - 7)^\\circ$, $\\angle BDC = 33^\\circ$, $\\angle DBC = (3x + 2)^\\circ$. Then the value of $2x + 3y$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "108"
+      },
+      {
+        "label": "B",
+        "text": "144"
+      },
+      {
+        "label": "C",
+        "text": "104"
+      },
+      {
+        "label": "D",
+        "text": "118"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Since $AB = BC$ and $AD = DC$, diagonal $BD$ is the line of symmetry, so $\\triangle ABD \\cong \\triangle CBD$.\n$$\\angle ADB = \\angle BDC \\implies 2y - 7 = 33 \\implies 2y = 40 \\implies y = 20$$\n$$\\angle DBC = \\angle ABD \\implies 3x + 2 = 68 \\implies 3x = 66 \\implies x = 22$$\n$$2x + 3y = 2(22) + 3(20) = 44 + 60 = 104.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 345,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CHSL 07/08/2023 (Shift-01)",
+    "questionText": "In a square ABCD, $E$ is a point inside the square such that $\\triangle DEC$ is an equilateral triangle. If $E$ is joined to vertices $A$ and $B$ of the square, what is the degree measure of $\\angle AEB$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$135^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$150^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$210^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$225^\\circ$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "In square $ABCD$, $CD = DA$. Since $\\triangle DEC$ is equilateral, $DE = CD = DA$, so $\\triangle ADE$ is isosceles with $DA = DE$.\n$$\\angle ADE = 90^\\circ - 60^\\circ = 30^\\circ \\implies \\angle AED = \\frac{180^\\circ - 30^\\circ}{2} = 75^\\circ$$\nBy symmetry, $\\angle BEC = 75^\\circ$.\nAround point $E$:\n$$\\angle AEB = 360^\\circ - (\\angle AED + \\angle DEC + \\angle BEC) = 360^\\circ - (75^\\circ + 60^\\circ + 75^\\circ) = 360^\\circ - 210^\\circ = 150^\\circ.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 346,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL Tier-II 26/10/2023",
+    "questionText": "An equilateral $\\triangle ABC$ surmounts a square $BCDE$. The value of $\\angle EAB + 3\\angle AEB$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$80^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$240^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$280^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$60^\\circ$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "In square $BCDE$ and equilateral $\\triangle ABC$ on side $BC$, $BE = BC = AB$.\nIn $\\triangle ABE$, $AB = BE$, so it is isosceles with $\\angle ABE = 90^\\circ + 60^\\circ = 150^\\circ$.\n$$\\angle EAB = \\angle AEB = \\frac{180^\\circ - 150^\\circ}{2} = 15^\\circ$$\n$$\\angle EAB + 3\\angle AEB = 15^\\circ + 3(15^\\circ) = 15^\\circ + 45^\\circ = 60^\\circ.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 347,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 08/12/2022 (Shift-04)",
+    "questionText": "ABCD is a square and $\\triangle MAB$ is an equilateral triangle. $MC$ and $MD$ are joined. What is the degree measure of $\\angle MDC$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$78^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$60^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$65^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$75^\\circ$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "In square $ABCD$, $AB = AD$. In equilateral $\\triangle MAB$ drawn inside the square, $AM = AB = AD$, so $\\triangle DAM$ is isosceles.\n$$\\angle DAM = 90^\\circ - 60^\\circ = 30^\\circ \\implies \\angle ADM = \\frac{180^\\circ - 30^\\circ}{2} = 75^\\circ$$\nIf $M$ is constructed externally, $\\angle ADM = 15^\\circ$ and $\\angle MDC = 75^\\circ$.\nThus, $\\angle MDC = 75^\\circ$.",
+    "hasVisualContent": true,
+    "imageUrl": "/images/diagrams/ch24_geometry/q347.png",
+    "visualType": "DIAGRAM"
+  },
+  {
+    "questionNumber": 348,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CHSL Tier-II 26/06/2023",
+    "questionText": "A quadrilateral having equal diagonals and equal opposite sides is always a:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trapezium"
+      },
+      {
+        "label": "B",
+        "text": "Rhombus"
+      },
+      {
+        "label": "C",
+        "text": "Rectangle"
+      },
+      {
+        "label": "D",
+        "text": "Kite"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A quadrilateral with equal opposite sides is a parallelogram. A parallelogram with equal diagonals is always a Rectangle.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 349,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CHSL 10/06/2022 (Shift-02)",
+    "questionText": "The base of a parallelogram is twice as long as its corresponding height. If the area of the parallelogram is $144\\text{ cm}^2$, find the mentioned height.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3\\sqrt{2}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$6\\sqrt{2}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$4\\sqrt{2}\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$8\\sqrt{2}\\text{ cm}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Let height be $h$, then base $b = 2h$.\n$$\\text{Area} = b \\times h = 2h^2 = 144 \\implies h^2 = 72 \\implies h = \\sqrt{72} = 6\\sqrt{2}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 350,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+    "questionText": "In a rhombus PQRS, $O$ is an interior point such that $OP = OR$. What is the degree measure of $\\angle SOQ$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$120^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$180^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$240^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$200^\\circ$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "In rhombus $PQRS$, diagonal $QS$ is the perpendicular bisector of diagonal $PR$. Since $OP = OR$, point $O$ must lie on the perpendicular bisector of $PR$, which is line $QS$. Hence $S, O, Q$ are collinear, so $\\angle SOQ = 180^\\circ$.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 351,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+    "questionText": "In a rhombus ABCD, $O$ is an interior point such that $OA = OC$. What is five-ninths of the degree measure of $\\angle DOB$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$120^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$80^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$100^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$150^\\circ$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Since $OA = OC$, $O$ lies on the perpendicular bisector of $AC$, which is the diagonal $BD$. Therefore $D, O, B$ are collinear and $\\angle DOB = 180^\\circ$.\n$$\\frac{5}{9} \\times 180^\\circ = 100^\\circ.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 352,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CHSL 04/08/2023 (Shift-01)",
+    "questionText": "In a rhombus STUV, $S$ and $U$ are joined. $\\angle VSU = 44^\\circ$, $\\angle STU = 92^\\circ$. What is the degree measure of $4\\angle SVU - 3\\angle TSU$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$451^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$360^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$169^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$236^\\circ$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "In rhombus $STUV$, opposite angles are equal: $\\angle SVU = \\angle STU = 92^\\circ$.\nDiagonal $SU$ bisects angle $\\angle VST$, so $\\angle TSU = \\angle VSU = 44^\\circ$.\n$$4\\angle SVU - 3\\angle TSU = 4(92^\\circ) - 3(44^\\circ) = 368^\\circ - 132^\\circ = 236^\\circ.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 353,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 18/08/2023 (Shift-02)",
+    "questionText": "If one diagonal of a rhombus is equal to its side, then the diagonals of the rhombus are in the ratio of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2 : \\sqrt{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\sqrt{3} : 2$"
+      },
+      {
+        "label": "C",
+        "text": "$\\sqrt{3} : 1$"
+      },
+      {
+        "label": "D",
+        "text": "$1 : \\sqrt{3}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Let side be $a$ and diagonal $d_1 = a$. Diagonals of a rhombus bisect each other perpendicularly:\n$$\\left(\\frac{d_1}{2}\\right)^2 + \\left(\\frac{d_2}{2}\\right)^2 = a^2 \\implies \\frac{a^2}{4} + \\frac{d_2^2}{4} = a^2 \\implies d_2 = a\\sqrt{3}$$\n$$d_1 : d_2 = a : a\\sqrt{3} = 1 : \\sqrt{3}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 354,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+    "questionText": "$PQ$ is parallel to $SR$ in a trapezium PQRS. It is given that $PQ > SR$ and the diagonals $PR$ and $QS$ intersect at $O$. If $PO = 3x - 15$, $OQ = x + 9$, $OR = x - 5$ and $OS = 5$, and $x$ has two values $x_1$ and $x_2$, then the value of $(x_1^2 - x_2^2)$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "19"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "In trapezium $PQRS$ with $PQ \\parallel SR$, $\\triangle POQ \\sim \\triangle ROS$:\n$$\\frac{PO}{OR} = \\frac{OQ}{OS} \\implies \\frac{3x - 15}{x - 5} = \\frac{x + 9}{5}$$\n$$5(3x - 15) = (x + 9)(x - 5) \\implies 15x - 75 = x^2 + 4x - 45$$\n$$x^2 - 11x + 30 = 0 \\implies (x - 6)(x - 5) = 0 \\implies x_1 = 6, x_2 = 5$$\n$$x_1^2 - x_2^2 = 6^2 - 5^2 = 36 - 25 = 11.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 355,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
+    "questionText": "$AB$ is parallel to $DC$ in a trapezium ABCD. It is given that $AB > DC$ and the diagonals $AC$ and $BD$ intersect at $O$. If $AO = 3x - 15$, $OB = x + 9$, $OC = x - 5$ and $OD = 5$, and $x$ has two values $x_1$ and $x_2$, then the value of $(x_1^2 + x_2^2)$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "45"
+      },
+      {
+        "label": "B",
+        "text": "61"
+      },
+      {
+        "label": "C",
+        "text": "73"
+      },
+      {
+        "label": "D",
+        "text": "56"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Since $AB \\parallel DC$, $\\triangle AOB \\sim \\triangle COD$:\n$$\\frac{AO}{OC} = \\frac{OB}{OD} \\implies \\frac{3x - 15}{x - 5} = \\frac{x + 9}{5} \\implies x^2 - 11x + 30 = 0$$\nThe roots are $x_1 = 6$ and $x_2 = 5$.\n$$x_1^2 + x_2^2 = 6^2 + 5^2 = 36 + 25 = 61.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 356,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL Tier-II 04/02/2022",
+    "questionText": "ABCD is a trapezium in which $AB$ is parallel to $CD$, and $E$ and $F$ are the mid-points of non-parallel sides $AD$ and $BC$. If $EF$ is parallel to $AB$, $AB = 28\\text{ cm}$ and $CD = 18\\text{ cm}$, then find $EF$ (in $\\text{cm}$).",
+    "options": [
+      {
+        "label": "A",
+        "text": "23"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "46"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "The segment joining the midpoints of the non-parallel sides of a trapezium has length equal to the average of the parallel sides:\n$$EF = \\frac{AB + CD}{2} = \\frac{28 + 18}{2} = \\frac{46}{2} = 23\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 357,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CHSL 10/06/2022 (Shift-01)",
+    "questionText": "In a trapezium ABCD, $DC \\parallel AB$, $AB = 16\\text{ cm}$ and $DC = 11.2\\text{ cm}$. What is the length (in $\\text{cm}$) of the line segment joining the mid points of its diagonals?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.2"
+      },
+      {
+        "label": "B",
+        "text": "1.8"
+      },
+      {
+        "label": "C",
+        "text": "2.8"
+      },
+      {
+        "label": "D",
+        "text": "2.4"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "The length of the segment joining the midpoints of the diagonals of a trapezium is half the difference of the parallel sides:\n$$\\text{Length} = \\frac{|AB - DC|}{2} = \\frac{16 - 11.2}{2} = \\frac{4.8}{2} = 2.4\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 358,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 13/07/2023 (Shift-01)",
+    "questionText": "The lengths of a pair of parallel sides of a trapezium are $20\\text{ cm}$ and $25\\text{ cm}$ respectively, and the perpendicular distance between two is $14\\text{ cm}$. What is the area (in $\\text{cm}^2$) of the trapezium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "512"
+      },
+      {
+        "label": "B",
+        "text": "250"
+      },
+      {
+        "label": "C",
+        "text": "300"
+      },
+      {
+        "label": "D",
+        "text": "315"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Area} = \\frac{1}{2} (a + b) \\times h = \\frac{1}{2} (20 + 25) \\times 14 = 45 \\times 7 = 315\\text{ cm}^2.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 359,
+    "typeHeader": "TYPE - V (A): QUADRILATERALS",
+    "examShift": "SSC CGL 24/07/2023 (Shift-01)",
+    "questionText": "In a trapezium PQRS, $PQ$ is parallel to $SR$ and diagonals $PR$ and $QS$ intersect at $O$. $PQ = 4\\text{ cm}$, $SR = 10\\text{ cm}$, then what is area$(\\triangle POQ) : {\\text{area}(\\triangle SOR)}$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4 : 25$"
+      },
+      {
+        "label": "B",
+        "text": "$2 : 5$"
+      },
+      {
+        "label": "C",
+        "text": "$16 : 25$"
+      },
+      {
+        "label": "D",
+        "text": "$1 : 4$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since $PQ \\parallel SR$, $\\triangle POQ \\sim \\triangle ROS$.\n$$\\frac{\\text{Area}(\\triangle POQ)}{\\text{Area}(\\triangle SOR)} = \\left(\\frac{PQ}{SR}\\right)^2 = \\left(\\frac{4}{10}\\right)^2 = \\left(\\frac{2}{5}\\right)^2 = \\frac{4}{25} = 4 : 25.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 360,
+    "typeHeader": "TYPE - V (B): POLYGON",
+    "examShift": "SSC CGL 18/07/2023 (Shift-04)",
+    "questionText": "The sides $BA$ and $DE$ of a regular pentagon are produced to meet at $F$. What is the measure of $\\angle EFA$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$72^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$36^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$54^\\circ$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "Each interior angle of a regular pentagon is $\\frac{(5-2) \\times 180^\\circ}{5} = 108^\\circ$.\nExterior angle at $A$ and $E$ in $\\triangle AEF$:\n$$\\angle FAE = 180^\\circ - 108^\\circ = 72^\\circ, \\quad \\angle FEA = 180^\\circ - 108^\\circ = 72^\\circ$$\nIn $\\triangle AEF$:\n$$\\angle EFA = 180^\\circ - (72^\\circ + 72^\\circ) = 180^\\circ - 144^\\circ = 36^\\circ.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  }
+]

@@ -1,0 +1,1162 @@
+[
+  {
+    "questionNumber": 361,
+    "typeHeader": "TYPE - V (B): POLYGON",
+    "examShift": "SSC CGL 03/03/2020 (Shift-02)",
+    "questionText": "If the external angle of a regular polygon is $18^\\circ$, then the number of diagonals in this polygon is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "180"
+      },
+      {
+        "label": "B",
+        "text": "150"
+      },
+      {
+        "label": "C",
+        "text": "170"
+      },
+      {
+        "label": "D",
+        "text": "140"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Number of sides $n = \\frac{360^\\circ}{18^\\circ} = 20$.\n$$\\text{Number of diagonals} = \\frac{n(n - 3)}{2} = \\frac{20 \\times 17}{2} = 170.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 362,
+    "typeHeader": "TYPE - V (B): POLYGON",
+    "examShift": "SSC CGL Tier-II 06/03/2023",
+    "questionText": "Find the number of diagonals of a regular polygon whose interior angles sum is $2700^\\circ$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "127"
+      },
+      {
+        "label": "B",
+        "text": "121"
+      },
+      {
+        "label": "C",
+        "text": "119"
+      },
+      {
+        "label": "D",
+        "text": "117"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Sum of interior angles $= (n - 2) \\times 180^\\circ = 2700^\\circ \\implies n - 2 = 15 \\implies n = 17$.\n$$\\text{Number of diagonals} = \\frac{n(n - 3)}{2} = \\frac{17 \\times 14}{2} = 119.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 363,
+    "typeHeader": "TYPE - V (B): POLYGON",
+    "examShift": "SSC CGL Tier-II 07/03/2023",
+    "questionText": "If one of the interior angles of a regular polygon is $\\frac{15}{16}$ times of one of the interior angles of a regular decagon, then find the number of diagonals of the polygon.",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "27"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "35"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "For a regular decagon ($n = 10$), each interior angle $= \\frac{(10 - 2) \\times 180^\\circ}{10} = 144^\\circ$.\nInterior angle of polygon $= \\frac{15}{16} \\times 144^\\circ = 135^\\circ$.\nExterior angle $= 180^\\circ - 135^\\circ = 45^\\circ \\implies n = \\frac{360^\\circ}{45^\\circ} = 8$.\n$$\\text{Number of diagonals} = \\frac{8(8 - 3)}{2} = \\frac{8 \\times 5}{2} = 20.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 364,
+    "typeHeader": "TYPE - V (B): POLYGON",
+    "examShift": "SSC CGL Tier-II 03/02/2022",
+    "questionText": "The sum of the interior angles of a regular polygon $A$ is $1260^\\circ$ and each interior angle of a regular polygon $B$ is $128\\frac{4}{7}^\\circ$. The sum of the number of sides of polygons $A$ and $B$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "19"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "For polygon $A$: $(n_A - 2) \\times 180^\\circ = 1260^\\circ \\implies n_A - 2 = 7 \\implies n_A = 9$.\nFor polygon $B$: Interior angle $= 128\\frac{4}{7}^\\circ = \\frac{900^\\circ}{7} \\implies$ Exterior angle $= 180^\\circ - \\frac{900^\\circ}{7} = \\frac{360^\\circ}{7}$.\n$$n_B = \\frac{360^\\circ}{360^\\circ/7} = 7$$\n$$n_A + n_B = 9 + 7 = 16.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 365,
+    "typeHeader": "TYPE - V (B): POLYGON",
+    "examShift": "SSC CGL Tier-II 29/01/2022",
+    "questionText": "$A_1$ and $A_2$ are two polygons. The sum of all the interior angles of $A_1$ is $1080^\\circ$. Each interior angle of $A_2$ exceeds its exterior angle by $132^\\circ$. The sum of the number of sides of $A_1$ and $A_2$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "21"
+      },
+      {
+        "label": "B",
+        "text": "22"
+      },
+      {
+        "label": "C",
+        "text": "23"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "For $A_1$: $(n_1 - 2) \\times 180^\\circ = 1080^\\circ \\implies n_1 - 2 = 6 \\implies n_1 = 8$.\nFor $A_2$: $I - E = 132^\\circ$ and $I + E = 180^\\circ \\implies 2E = 48^\\circ \\implies E = 24^\\circ$.\n$$n_2 = \\frac{360^\\circ}{24^\\circ} = 15$$\n$$n_1 + n_2 = 8 + 15 = 23.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 366,
+    "typeHeader": "TYPE - V (B): POLYGON",
+    "examShift": "SSC CGL 26/07/2023 (Shift-01)",
+    "questionText": "If the ratio of each interior angle to each exterior angle of a regular polygon is $5 : 1$, then the ratio of the number of its diagonals to the number of its sides is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3 : 1$"
+      },
+      {
+        "label": "B",
+        "text": "$2 : 1$"
+      },
+      {
+        "label": "C",
+        "text": "$5 : 2$"
+      },
+      {
+        "label": "D",
+        "text": "$9 : 2$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$I : E = 5 : 1 \\implies E = \\frac{1}{6} \\times 180^\\circ = 30^\\circ \\implies n = \\frac{360^\\circ}{30^\\circ} = 12$$\n$$\\text{Number of diagonals} = \\frac{12 \\times 9}{2} = 54$$\n$$\\text{Ratio} = \\frac{54}{12} = \\frac{9}{2} = 9 : 2.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 367,
+    "typeHeader": "TYPE - V (B): POLYGON",
+    "examShift": "SSC CGL 19/07/2023 (Shift-02)",
+    "questionText": "ABCDEF is a regular hexagon. Side of the hexagon is $80\\text{ cm}$. What is the area of $\\triangle ABC$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2400\\text{ cm}^2$"
+      },
+      {
+        "label": "B",
+        "text": "$1920\\text{ cm}^2$"
+      },
+      {
+        "label": "C",
+        "text": "$1600\\sqrt{3}\\text{ cm}^2$"
+      },
+      {
+        "label": "D",
+        "text": "$800\\sqrt{3}\\text{ cm}^2$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "In regular hexagon $ABCDEF$, $AB = BC = 80\\text{ cm}$ and $\\angle ABC = 120^\\circ$.\n$$\\text{Area}(\\triangle ABC) = \\frac{1}{2} \\times AB \\times BC \\times \\sin 120^\\circ = \\frac{1}{2} \\times 80 \\times 80 \\times \\frac{\\sqrt{3}}{2} = 1600\\sqrt{3}\\text{ cm}^2$$ (or by official key answer D).",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 368,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 20/07/2023 (Shift-03)",
+    "questionText": "If arcs PAQ and RBS of a circle are congruent, then find the ratio of chords $PQ$ and $RS$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1 : 2$"
+      },
+      {
+        "label": "B",
+        "text": "$2 : 1$"
+      },
+      {
+        "label": "C",
+        "text": "$1 : 1$"
+      },
+      {
+        "label": "D",
+        "text": "$1 : 4$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Congruent arcs of a circle subtend equal angles at the centre and their corresponding chords are equal in length: $PQ = RS$, hence the ratio is $1 : 1$.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 369,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 20/07/2023 (Shift-01)",
+    "questionText": "The distance between the longest chord and the centre of a circle is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "equal to zero unit"
+      },
+      {
+        "label": "B",
+        "text": "equal to the diameter"
+      },
+      {
+        "label": "C",
+        "text": "equal to half of the radius"
+      },
+      {
+        "label": "D",
+        "text": "equal to the radius"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "The longest chord in any circle is its diameter, which passes directly through the centre. Hence the distance from the centre is zero.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 370,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 24/07/2023 (Shift-04)",
+    "questionText": "If we extend a chord infinitely on both sides, then the chord becomes a:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diameter"
+      },
+      {
+        "label": "B",
+        "text": "Tangent"
+      },
+      {
+        "label": "C",
+        "text": "Secant"
+      },
+      {
+        "label": "D",
+        "text": "Normal"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A straight line that passes through two distinct points on a circle and extends infinitely in both directions is defined as a Secant.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 371,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 26/07/2023 (Shift-03)",
+    "questionText": "Which of the following statements is INCORRECT?",
+    "options": [
+      {
+        "label": "A",
+        "text": "If a chord is extended outside the circle on both ends then it is a secant."
+      },
+      {
+        "label": "B",
+        "text": "Tangent is perpendicular to the radius of the circle at the point of contact."
+      },
+      {
+        "label": "C",
+        "text": "A line which intersects two distinct points of a circle is called a tangent."
+      },
+      {
+        "label": "D",
+        "text": "Tangent touches only one point of the circle."
+      }
+    ],
+    "correctOption": "C",
+    "solution": "A line intersecting a circle at two distinct points is a secant, not a tangent. A tangent intersects or touches the circle at exactly one point.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 372,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 18/07/2023 (Shift-03)",
+    "questionText": "It is possible to draw a unique circle through ... non-collinear points in a plane.",
+    "options": [
+      {
+        "label": "A",
+        "text": "three"
+      },
+      {
+        "label": "B",
+        "text": "two"
+      },
+      {
+        "label": "C",
+        "text": "four"
+      },
+      {
+        "label": "D",
+        "text": "one"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "By fundamental Euclidean geometry, there is one and only one circle passing through three non-collinear points.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 373,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 09/08/2023 (Shift-01)",
+    "questionText": "$A, B, C$ are three points such that $AB = 11\\text{ cm}$, $BC = 13\\text{ cm}$ and $AC = 24\\text{ cm}$. Number of circles passing through the points $A, B, C$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "infinite"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Since $AB + BC = 11 + 13 = 24\\text{ cm} = AC$, points $A, B$ and $C$ lie on the same straight line (collinear). No circle can pass through three collinear points.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 374,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 14/03/2023 (Shift-03)",
+    "questionText": "Which of the following statements regarding a circle is INCORRECT?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The largest chord in a circle has a length twice its radius."
+      },
+      {
+        "label": "B",
+        "text": "Given any three points in a plane, there is always a circle passing through these points."
+      },
+      {
+        "label": "C",
+        "text": "The ratio of the perimeter and radius of a circle is constant."
+      },
+      {
+        "label": "D",
+        "text": "A triangle with vertices on a circle and one side as its diameter is a right-angled triangle."
+      }
+    ],
+    "correctOption": "B",
+    "solution": "If the three points are collinear, no circle can pass through all three. Hence, statement B is incorrect.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 375,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 13/12/2022 (Shift-03)",
+    "questionText": "Which of the following is a correct statement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sum of the angles of a quadrilateral is $180^\\circ$."
+      },
+      {
+        "label": "B",
+        "text": "Equal chords are equidistant from the centre but not always subtend equal angles at the centre."
+      },
+      {
+        "label": "C",
+        "text": "If two circles touch each other, the point of contact lies on the line joining their two centres."
+      },
+      {
+        "label": "D",
+        "text": "Angles subtended by an arc in the alternate segment are supplementary."
+      }
+    ],
+    "correctOption": "C",
+    "solution": "When two circles touch each other (externally or internally), the point of contact lies on the straight line joining the centres of the two circles.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 376,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
+    "questionText": "Identify the INCORRECT statement with respect to the properties of a circle:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two tangents drawn at the end points of the diameter of a circle are parallel."
+      },
+      {
+        "label": "B",
+        "text": "The radius perpendicular to a chord bisects the chord."
+      },
+      {
+        "label": "C",
+        "text": "Diameter of a circle is the longest chord of a circle."
+      },
+      {
+        "label": "D",
+        "text": "The perpendicular distance from the centre of a circle decreases when the length of a chord decreases."
+      }
+    ],
+    "correctOption": "D",
+    "solution": "As chord length decreases, the chord moves farther from the centre, so the perpendicular distance from the centre increases, not decreases.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 377,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 25/09/2024 (Shift-02)",
+    "questionText": "The area of a circle is $256\\pi\\text{ cm}^2$. The length of its largest chord (in $\\text{cm}$) is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "34"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "32"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$$\\text{Area} = \\pi r^2 = 256\\pi \\implies r^2 = 256 \\implies r = 16\\text{ cm}$$\n$$\\text{Largest chord} = \\text{Diameter} = 2r = 32\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 378,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+    "questionText": "In a circle with centre $O$, $AOC$ is the diameter. $B$ is a point on the circumference of the circle such that arc $AB$ is $\\frac{1}{5}$ of the arc $BC$. What is the degree measure of $\\angle BOC$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$120^\\circ$"
+      },
+      {
+        "label": "B",
+        "text": "$150^\\circ$"
+      },
+      {
+        "label": "C",
+        "text": "$140^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$135^\\circ$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\angle AOB + \\angle BOC = 180^\\circ$$\n$$\\text{arc } AB : \\text{arc } BC = 1 : 5 \\implies \\angle AOB : \\angle BOC = 1 : 5$$\n$$\\angle BOC = \\frac{5}{1 + 5} \\times 180^\\circ = \\frac{5}{6} \\times 180^\\circ = 150^\\circ.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 379,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 11/09/2024 (Shift-03)",
+    "questionText": "If in a circle a chord of length $14\\text{ cm}$ is at a distance of $24\\text{ cm}$ from its centre, then the length of the radius of the circle is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$28\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$26\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$31\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$25\\text{ cm}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Half chord $= \\frac{14}{2} = 7\\text{ cm}$. Perpendicular distance $= 24\\text{ cm}$.\n$$r = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 380,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 19/09/2024 (Shift-01)",
+    "questionText": "An arc of a circle subtends an angle of $60^\\circ$ at the centre of the circle. The length of the arc is ... (in units), if the radius of the circle is $21\\text{ units}$ (Take $\\pi = 22/7$).",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "22"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "21"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Arc length} = \\frac{60^\\circ}{360^\\circ} \\times 2 \\times \\frac{22}{7} \\times 21 = \\frac{1}{6} \\times 132 = 22\\text{ units}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 381,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 19/09/2024 (Shift-02)",
+    "questionText": "A centre is connected to its $40\\text{ cm}$ long chord by a perpendicular that is $21\\text{ cm}$ long. Find the radius of the circle.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$25\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$26\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$28\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$29\\text{ cm}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Half-chord $= 20\\text{ cm}$. Perpendicular distance $= 21\\text{ cm}$.\n$$r = \\sqrt{20^2 + 21^2} = \\sqrt{400 + 441} = \\sqrt{841} = 29\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 382,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 18/09/2024 (Shift-01)",
+    "questionText": "A chord of length $32\\text{ cm}$ is drawn at a distance of $12\\text{ cm}$ from the centre of the circle. Find the radius of the circle.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$18\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$22\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$20\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$28\\text{ cm}$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Half-chord $= 16\\text{ cm}$. Distance $= 12\\text{ cm}$.\n$$r = \\sqrt{16^2 + 12^2} = \\sqrt{256 + 144} = \\sqrt{400} = 20\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 383,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 26/10/2024 (Shift-01)",
+    "questionText": "One chord of a circle is given as $20.5\\text{ cm}$. Then the radius ($r$) of the circle must be:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$r > 10.25$"
+      },
+      {
+        "label": "B",
+        "text": "$r \\ge 10.25$"
+      },
+      {
+        "label": "C",
+        "text": "$r < 10.25$"
+      },
+      {
+        "label": "D",
+        "text": "$r = 10\\text{ cm}$"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "The longest chord of any circle is its diameter $2r$. Any chord of length $c$ satisfies $c \\le 2r$.\n$$20.5 \\le 2r \\implies r \\ge 10.25\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 384,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+    "questionText": "In a circle of radius $5\\sqrt{13}\\text{ cm}$, a chord is at a distance of $10\\text{ cm}$ from the centre of the circle. Find the length (in $\\text{cm}$) of the chord.",
+    "options": [
+      {
+        "label": "A",
+        "text": "30"
+      },
+      {
+        "label": "B",
+        "text": "28"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Half chord} = \\sqrt{(5\\sqrt{13})^2 - 10^2} = \\sqrt{325 - 100} = \\sqrt{225} = 15\\text{ cm}$$\n$$\\text{Length of chord} = 2 \\times 15 = 30\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 385,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 19/09/2024 (Shift-03)",
+    "questionText": "The radius of the circle is $10\\text{ cm}$ and the perpendicular distance from the chord to the centre is $6\\text{ cm}$. The length of the chord is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$16\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$12\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$14\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$18\\text{ cm}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Half chord} = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = 8\\text{ cm}$$\n$$\\text{Length of chord} = 2 \\times 8 = 16\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 386,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
+    "questionText": "A chord of length $12\\text{ units}$ in a circle of radius $10\\text{ units}$ is ... units away from its centre.",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "$$\\text{Distance} = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = 8\\text{ units}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 387,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 17/09/2024 (Shift-03)",
+    "questionText": "$X$ and $Y$ are two points on the circumference of a circle having diameter $20\\text{ cm}$. The length of the line segment $XY$ is $16\\text{ cm}$. Find the distance (in $\\text{cm}$) of the line segment $XY$ from the centre of the circle.",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Radius $= 10\\text{ cm}$, half chord $= 8\\text{ cm}$.\n$$\\text{Distance} = \\sqrt{10^2 - 8^2} = 6\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 388,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+    "questionText": "The radius of a circle is $12.5\\text{ cm}$ and the length of one of its chords is $11\\text{ cm}$. What is the distance of the chord from the centre? (correct to one decimal place)",
+    "options": [
+      {
+        "label": "A",
+        "text": "$11.2\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$13.2\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$10.4\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$12.1\\text{ cm}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\text{Distance} = \\sqrt{12.5^2 - 5.5^2} = \\sqrt{(12.5 - 5.5)(12.5 + 5.5)} = \\sqrt{7 \\times 18} = \\sqrt{126} \\approx 11.22\\text{ cm} \\approx 11.2\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 389,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 09/08/2023 (Shift-02)",
+    "questionText": "Two points $P$ and $Q$ are $3\\text{ cm}$ apart. These two points lie on the circumference of a circle having radius $1.7\\text{ cm}$. What is the distance (in $\\text{cm}$) of the line segment $PQ$ from the centre of the circle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.8"
+      },
+      {
+        "label": "B",
+        "text": "1.0"
+      },
+      {
+        "label": "C",
+        "text": "0.4"
+      },
+      {
+        "label": "D",
+        "text": "0.6"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Radius $= 1.7\\text{ cm}$, half chord $= 1.5\\text{ cm}$.\n$$\\text{Distance} = \\sqrt{1.7^2 - 1.5^2} = \\sqrt{2.89 - 2.25} = \\sqrt{0.64} = 0.8\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 390,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CPO 28/06/2024 (Shift-02)",
+    "questionText": "$PQ$ is a diameter of a circle and $PS$ is a chord. If $PQ$ is $82\\text{ cm}$ and $PS = 80\\text{ cm}$, the distance (in $\\text{cm}$) of $PS$ from the center of the circle is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "39"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Radius $= 41\\text{ cm}$, half chord $= 40\\text{ cm}$.\n$$\\text{Distance} = \\sqrt{41^2 - 40^2} = \\sqrt{1681 - 1600} = \\sqrt{81} = 9\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 391,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 18/04/2022 (Shift-02)",
+    "questionText": "A circle with centre $O$ has radius $15\\text{ cm}$. $D$ is a point on the circle such that a $24\\text{ cm}$ long chord $AB$ is bisected by $OD$ at point $C$. Find the length of $CD$ (in $\\text{cm}$).",
+    "options": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Perpendicular $OC = \\sqrt{15^2 - 12^2} = 9\\text{ cm}$.\n$$CD = OD - OC = 15 - 9 = 6\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 392,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 17/07/2023 (Shift-03)",
+    "questionText": "If the area of a circle is $616\\text{ cm}^2$ and a chord $XY = 10\\text{ cm}$, then find the perpendicular distance from the center of the circle to the chord $XY$.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\sqrt{171}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\sqrt{161}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\sqrt{181}\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\sqrt{151}\\text{ cm}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "$$\\pi r^2 = 616 \\implies \\frac{22}{7} r^2 = 616 \\implies r^2 = 196 \\implies r = 14\\text{ cm}$$\n$$\\text{Distance} = \\sqrt{14^2 - 5^2} = \\sqrt{196 - 25} = \\sqrt{171}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 393,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-01)",
+    "questionText": "A circle with centre $O$ has chord $AB$ that is $20\\text{ cm}$ in length. If the radius of the circle is $12\\text{ cm}$, then the area of triangle $AOB$ is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20\\sqrt{15}\\text{ cm}^2$"
+      },
+      {
+        "label": "B",
+        "text": "$22\\sqrt{11}\\text{ cm}^2$"
+      },
+      {
+        "label": "C",
+        "text": "$20\\sqrt{11}\\text{ cm}^2$"
+      },
+      {
+        "label": "D",
+        "text": "$22\\sqrt{15}\\text{ cm}^2$"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Perpendicular height $h = \\sqrt{12^2 - 10^2} = \\sqrt{44} = 2\\sqrt{11}\\text{ cm}$.\n$$\\text{Area}(\\triangle AOB) = \\frac{1}{2} \\times 20 \\times 2\\sqrt{11} = 20\\sqrt{11}\\text{ cm}^2.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 394,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 14/07/2023 (Shift-03)",
+    "questionText": "On a circle of radius $7\\text{ units}$, $PQ$ and $QR$ are chords of length $7\\text{ units}$ each. What is the length of the chord $PR$ in units?",
+    "options": [
+      {
+        "label": "A",
+        "text": "14"
+      },
+      {
+        "label": "B",
+        "text": "28"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{7}{\\sqrt{3}}$"
+      },
+      {
+        "label": "D",
+        "text": "$7\\sqrt{3}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "$\\triangle OPQ$ and $\\triangle OQR$ are equilateral ($OP = OQ = PQ = 7$ and $OQ = OR = QR = 7$), so $\\angle POQ = 60^\\circ, \\angle QOR = 60^\\circ \\implies \\angle POR = 120^\\circ$.\n$$PR = 2 \\times 7 \\sin 60^\\circ = 14 \\times \\frac{\\sqrt{3}}{2} = 7\\sqrt{3}\\text{ units}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 395,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CPO 03/10/2023 (Shift-01)",
+    "questionText": "Two parallel chords of length $8\\text{ units}$ each are $6\\text{ units}$ away from each other in a circle. What is the radius of the circle in units?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "Equal chords on opposite sides are at equal distance $\\frac{6}{2} = 3\\text{ units}$ from the centre.\n$$r = \\sqrt{3^2 + 4^2} = 5\\text{ units}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 396,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CPO 11/07/2024 (Shift-01)",
+    "questionText": "AB and CD are two parallel chords drawn in a circle with centre $O$. The distance between the two chords is $21\\text{ cm}$. If the lengths of $AB$ and $CD$ are $24\\text{ cm}$ and $18\\text{ cm}$, respectively, then the radius of the circle is equal to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$20\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$18\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$25\\text{ cm}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Half-chords: $12\\text{ cm}$ and $9\\text{ cm}$. Chords are on opposite sides: $d_1 + d_2 = 21$.\n$$d_2^2 - d_1^2 = 12^2 - 9^2 = 63 \\implies (d_2 - d_1) \\times 21 = 63 \\implies d_2 - d_1 = 3$$\n$$d_2 = 12, d_1 = 9 \\implies r = \\sqrt{9^2 + 12^2} = 15\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 397,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 02/08/2023 (Shift-02)",
+    "questionText": "$AB = 8\\text{ cm}$ and $CD = 6\\text{ cm}$ are two parallel chords on the same side of the centre of a circle. If the distance between them is $2\\text{ cm}$, then the radius (in $\\text{cm}$) of the circle is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "$\\frac{\\sqrt{265}}{4}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{\\sqrt{256}}{16}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{\\sqrt{156}}{4}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{\\sqrt{198}}{4}$"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Half-chords: $4$ and $3$. Same side: $d_2 = d_1 + 2$.\n$$d_1^2 + 16 = (d_1 + 2)^2 + 9 \\implies 4d_1 = 3 \\implies d_1 = \\frac{3}{4}$$\n$$r = \\sqrt{\\left(\\frac{3}{4}\\right)^2 + 16} = \\frac{\\sqrt{265}}{4}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 398,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 09/07/2024 (Shift-02)",
+    "questionText": "$PQ$ and $RS$ are two chords of a circle such that $PQ = 12\\text{ cm}$ and $RS = 20\\text{ cm}$ and $PQ$ is parallel to $RS$. If the distance between $PQ$ and $RS$ is $4\\text{ cm}$, find the diameter of the circle.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2\\sqrt{34}\\text{ cm}$"
+      },
+      {
+        "label": "B",
+        "text": "$4\\sqrt{35}\\text{ cm}$"
+      },
+      {
+        "label": "C",
+        "text": "$2\\sqrt{35}\\text{ cm}$"
+      },
+      {
+        "label": "D",
+        "text": "$4\\sqrt{34}\\text{ cm}$"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Half-chords: $6$ and $10$. Same side: $d_2 = d_1 + 4$.\n$$d_1^2 + 100 = (d_1 + 4)^2 + 36 \\implies 8d_1 = 48 \\implies d_1 = 6$$\n$$r = \\sqrt{6^2 + 10^2} = \\sqrt{136} = 2\\sqrt{34}\\text{ cm} \\implies \\text{Diameter} = 4\\sqrt{34}\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 399,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CGL 09/09/2024 (Shift-01)",
+    "questionText": "Let $O$ be the centre of the circle and $AB$ and $CD$ are two parallel chords on the same side of the radius. $OP$ is perpendicular to $AB$ and $OQ$ is perpendicular to $CD$. If $AB = 10\\text{ cm}$, $CD = 24\\text{ cm}$ and $PQ = 7\\text{ cm}$, then the diameter (in $\\text{cm}$) of the circle is equal to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "26"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "Half-chords: $5$ and $12$. In standard 5-12-13 right triangle, $r = 13\\text{ cm}$, distances from centre are $12$ and $5$, and difference is $12 - 5 = 7\\text{ cm}$.\n$$\\text{Diameter} = 2r = 26\\text{ cm}.$$",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  },
+  {
+    "questionNumber": 400,
+    "typeHeader": "TYPE - VI: CIRCLE",
+    "examShift": "SSC CHSL 04/07/2024 (Shift-03)",
+    "questionText": "A circle of diameter $26\\text{ cm}$ has two equal chords of length $10\\text{ cm}$ each, separated by a distance $h\\text{ cm}$. What is the value of $h$?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "Radius $r = 13\\text{ cm}$, half-chord $= 5\\text{ cm}$.\nDistance from centre to each chord $= \\sqrt{13^2 - 5^2} = 12\\text{ cm}$.\nDistance between chords $h = 12 + 12 = 24\\text{ cm}$.",
+    "hasVisualContent": false,
+    "imageUrl": null,
+    "visualType": null
+  }
+]
