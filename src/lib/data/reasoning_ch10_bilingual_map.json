@@ -1,0 +1,3015 @@
+{
+  "q_pinnacle_reasoning_ch10_0001": {
+    "englishQuestion": "Five articles, bat, ball, fan, table and chair, are kept one above the other (not necessarily in the same order). The bat is four places above the fan. The table is between the ball and the chair. The chair is three places below the bat. Which article is at the second position from the top? ̾",
+    "hindiQuestion": "पांच वस्तुओं यथा, बʟा, गŐद, पंखा, मेज और कुर्सी, को एक के ऊपर एक रखा गया है लेिकन ज़ŝरी नहीं िक इसी क्रम में | बʟा पंखे से चार स्थान ऊपर है | मेज, गŐद तथा कुर्सी के बीच है | कुर्सी, बʟे से तीन स्थान नीचे है | कौन सी वस्तु ऊपर से दूसरे स्थान पर है ?",
+    "options": {
+      "A": {
+        "english": "Fan  / पंखा",
+        "hindi": "Fan / पंखा"
+      },
+      "B": {
+        "english": "Table  / मेज",
+        "hindi": "Table / मेज"
+      },
+      "C": {
+        "english": "Ball  /गŐद",
+        "hindi": "Ball /गŐद"
+      },
+      "D": {
+        "english": "Chair  /कुसŎ",
+        "hindi": "Chair /कुर्सी"
+      }
+    },
+    "solution": "(c) As per given conditions, the \n \n \n \n \n \n \n \n \nfollowing order is obtained: \n \nHence, Ball is at the second position from \n \n \n \n \n \n \nthe top."
+  },
+  "q_pinnacle_reasoning_ch10_0002": {
+    "englishQuestion": "Five teachers, H, K, P, R and T, are sitting around a circular table facing towards the centre (not necessarily in the same order). T is between H and R. P is second to the right of R. H is to the immediate left of T. Who is sitting to the",
+    "hindiQuestion": "immediate left of K? / पांच िशƗक - H, K, P, R और T एक वृत्ताकार मेज के चारो ओर केंद्र की ओर मुख करके बैठे Šए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | T, H और R के बीच है | P, R के दाएं को दूसरे स्थान पर है | H, T के तुरंत बाएं को है | K के तुरंत बाएं को कौन बैठा Šआ है ?",
+    "options": {
+      "A": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "B": {
+        "english": "H",
+        "hindi": "H"
+      },
+      "C": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "D": {
+        "english": "R",
+        "hindi": "R"
+      }
+    },
+    "solution": "As per given data, circular table \n \n \n \n \n \n \n \n \narrangement is as follows: \n \nHence, R is sitting to the immediate left \n \n \n \n \n \n \n \n \nof K."
+  },
+  "q_pinnacle_reasoning_ch10_0003": {
+    "englishQuestion": "Six laptops, N, Q, P, L, R and A, are placed in a row facing towards the north (not necessarily in the same order). N is placed to the immediate left of A. R is placed second to the left of Q. P is placed second to the right of A. P is placed to the immediate right of R. L is placed to the left of N. Which laptop is placed to the immediate right of L?",
+    "hindiQuestion": "छह लैपटॉप, N, Q, P, L, R और A को उत्तर की ओर एक पंक्ति में रखा गया है (जŝरी नहीं िक उसी क्रम में)। N को A के तǽाल बाएं रखा गया है।R, Q के बाएं से दूसरे स्थान पर है।P को A के दाईं ओर दूसरा स्थान दिया गया है।P, R के तǽाल दाएं रखा जाता है। L, N के बाईं ओर रखा गया है। L के तǽाल दाएं को कौन सा लैपटॉप रखा गया है?",
+    "options": {
+      "A": {
+        "english": "N",
+        "hindi": "N"
+      },
+      "B": {
+        "english": "Q",
+        "hindi": "Q"
+      },
+      "C": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "D": {
+        "english": "A",
+        "hindi": "A"
+      }
+    },
+    "solution": "N is placed to the immediate \n \n \n \n \n \n \n \n \nright of L."
+  },
+  "q_pinnacle_reasoning_ch10_0004": {
+    "englishQuestion": "Six friends, C, E, G, I K and M, are sitting around a circular table facing towards the centre and at equal distance from each other (not necessarily in the same order). E is second to the right of C, K is to the immediate right of G. G and I are facing towards each other. Moving towards the left of I, how many friends are sitting between I and M?",
+    "hindiQuestion": "छः िमũ - C, E, G, I, K और M एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | सभी एक-दूसरे से बराबर दूरी पर हैं | E, C के दाएं को दूसरे स्थान पर है | K, G के तुरंत दाएं को है | G और I एक-दूसरे के सामने हैं | I के बाएं को I और M के बीच िकतने लोग हैं ?",
+    "options": {
+      "A": {
+        "english": "0",
+        "hindi": "0"
+      },
+      "B": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "C": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "D": {
+        "english": "2",
+        "hindi": "2"
+      }
+    },
+    "solution": "(b) As per given data, following \n \n \n \n \n \n \n \n \ncircular sitting arrangement is obtained: \n \nHence, going towards the left of I, there \n \n \n \n \n \n \n \nare a total of three persons between I and \n \n \n \n \n \n \n \nM (namely C, K and G)."
+  },
+  "q_pinnacle_reasoning_ch10_0005": {
+    "englishQuestion": "Five persons, F, J, N, R and V, are sitting around a circular table facing towards the centre (not necessarily in the same order). J is to the immediate left of F. N is second to the left to F, V is second to the left of J. WHo is sitting second to the right of J?",
+    "hindiQuestion": "पांच लोग - F, J, N, R और V एक वृत्ताकार मेज के चारो ओर केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | J, F के तुरंत बाएं को है | N, F के बाएं को दूसरे स्थान पर है | V, J के बाएं को दूसरे स्थान पर है | J के दाएं को दूसरे स्थान पर कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "N",
+        "hindi": "N"
+      },
+      "B": {
+        "english": "F",
+        "hindi": "F"
+      },
+      "C": {
+        "english": "V",
+        "hindi": "V"
+      },
+      "D": {
+        "english": "R",
+        "hindi": "R"
+      }
+    },
+    "solution": "(d) As per given data, following \n \n \n \n \n \n \n \n \ncircular sitting arrangement is obtained: \n \nHence, R is sitting second to the right of \n \n \n \n \n \n \n \n \n \nJ."
+  },
+  "q_pinnacle_reasoning_ch10_0006": {
+    "englishQuestion": "Five books labelled B, G, N, P and T are kept one above the other(Not necessarily in the same order). Only one book is kept between N and G. B is just above P. B is above N. G is not above N. Which book is at the top?",
+    "hindiQuestion": "B, G, N, P और T नामक पाँच पुˑकŐ एक के ऊपर एक रखी गई हैं (जŝरी नहीं िक उसी क्रम में)। N और G. B के बीच केवल एक पुˑक रखी गई है। B, P के ठीक ऊपर है। G, N के ऊपर नहीं है। कौन सी पुˑक सबसे ऊपर है?",
+    "options": {
+      "A": {
+        "english": "G",
+        "hindi": "G"
+      },
+      "B": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "C": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "D": {
+        "english": "T",
+        "hindi": "T"
+      }
+    },
+    "solution": "(c) Correct order of books is :- \nTop - B - P - N - T - G - Bottom \nBook B is at the top."
+  },
+  "q_pinnacle_reasoning_ch10_0007": {
+    "englishQuestion": "Six computers labelled E, F, G, H, I and J are placed in a row facing towards the north(not necessarily in the same order). Two computers are placed between E and I. G is placed second to the right of J, F is placed second to the right of E. I is placed to the left of E. Which computer is placed to the right of G?",
+    "hindiQuestion": "छः कंɗूटर- E, F, G, H, I और J एक पंक्ति में उत्तर की ओर मुख करके रखे गए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | E और I के बीच दो कंɗूटर हैं | G, J के दाएं को दूसरे स्थान पर है | F, E के दाएं को दूसरे स्थान पर है | I, E के बाएं को रखा गया है | G के दाएं को कौन सा कंɗूटर है ?",
+    "options": {
+      "A": {
+        "english": "E",
+        "hindi": "E"
+      },
+      "B": {
+        "english": "F",
+        "hindi": "F"
+      },
+      "C": {
+        "english": "H",
+        "hindi": "H"
+      },
+      "D": {
+        "english": "G",
+        "hindi": "G"
+      }
+    },
+    "solution": "(b) \n As per the given data, \n \n \n \n \n \n \n \narrangement of computers are as follows: \n \nHence, F is placed to the right of G."
+  },
+  "q_pinnacle_reasoning_ch10_0008": {
+    "englishQuestion": "Five articles K,L,P,R and T, are kept one above the other(not necessarily in the same order). K is just above T and just below R. L is just above P and just below T. Which article is at the second position from the bottom?",
+    "hindiQuestion": "पांच वस्तुएँ- K, L, P, R और T एक के ऊपर एक रखी गयी हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | K, T के तुरंत ऊपर है और R के तुरंत नीचे है | L, P से तुरंत ऊपर और T से तुरंत नीचे है | नीचे से दूसरे स्थान पर कौन सी वस्तु है ?",
+    "options": {
+      "A": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "B": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "C": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "D": {
+        "english": "L",
+        "hindi": "L"
+      }
+    },
+    "solution": "(d) \n As per given data, sitting \n \n \n \n \n \n \n \narrangement of persons are in the \n \n \n \n \n \n \nfollowing sequence: \nTop - R - K - T - L - P - Bottom \nHence, L is at the second position from \n \n \n \n \n \n \n \n \nthe bottom."
+  },
+  "q_pinnacle_reasoning_ch10_0009": {
+    "englishQuestion": "Five products, N, L, T, U, and R, are placed in a row facing towards the east (Not necessarily in the same order). T is second to the left of U. N is second to the right of L. R is to the immediate right of U. Which product is at the second position from the north end? ̾",
+    "hindiQuestion": "पांच उȋाद N, L, T, U और R एक पंक्ति में पूरब की ओर मुख करके रखे गए हैं | ( ज़ŝरी नहीं िक इसी क्रम में ) T, U के बाएं को दूसरे स्थान पर है | N, L के दाएं को दूसरे स्थान पर है | R, U के तुरंत दाएं को है | उत्तर की ओर से कौन सा उȋाद दूसरे स्थान पर है ?",
+    "options": {
+      "A": {
+        "english": "U",
+        "hindi": "U"
+      },
+      "B": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "C": {
+        "english": "N",
+        "hindi": "N"
+      },
+      "D": {
+        "english": "L       340 Pinnacle  SSC  Reasoning",
+        "hindi": "L 340 Pinnacle SSC Reasoning"
+      }
+    },
+    "solution": "(b) T is at the second place from the \n \n \n \n \n \n \n \nnorth end."
+  },
+  "q_pinnacle_reasoning_ch10_0010": {
+    "englishQuestion": "Five boys, G, K, P, R and T, are sitting around a circular table facing towards the centre (not necessarily in the same order). R is third to the left of K. P and G are the immediate neighbours of K. T is to the immediate left of P. Who is ̾",
+    "hindiQuestion": "sitting second to the right of P? / पांच लड़के - G, K, P, R और T एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | R, K के बाएं को तीसरे स्थान पर है | P और G, K के िनकट पड़ोसी हैं | T, P के तुरंत बाएं को है | P के दाएं को दूसरे स्थान पर कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "G",
+        "hindi": "G"
+      },
+      "B": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "C": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "D": {
+        "english": "R",
+        "hindi": "R"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing \n circular \n arrangement \n is \n \n \n \n \nobtained: \nd \nHence, G is sitting second to the right of \n \n \n \n \n \n \n \n \n \nP."
+  },
+  "q_pinnacle_reasoning_ch10_0011": {
+    "englishQuestion": "Five phones, H, M, R, T and V, are kept one above the other (not necessarily in the same order). The number of phones above T is same as the number of phones below V. R is just above H. V is at the bottom. There are two phones between M and V. Which of the following phones are",
+    "hindiQuestion": "above R? / पांच फोन - H, M, R, T और V एक दूसरे के ऊपर रखे गए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | T के ऊपर रखे गए फोन की संƥा V के नीचे रखे गए फ़ोन की संƥा के बराबर है | R, H के ठीक ऊपर है | V तल पर है | M और V के बीच दो फ़ोन हैं | R के ऊपर इनमें से कौन से फ़ोन हैं ?",
+    "options": {
+      "A": {
+        "english": "M  and  T",
+        "hindi": "M and T"
+      },
+      "B": {
+        "english": "H  and  T",
+        "hindi": "H and T"
+      },
+      "C": {
+        "english": "M  and  V",
+        "hindi": "M and V"
+      },
+      "D": {
+        "english": "M  and  H",
+        "hindi": "M and H"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, M and T are above R."
+  },
+  "q_pinnacle_reasoning_ch10_0012": {
+    "englishQuestion": "Six tables labelled C, D, L, N, P and X are placed in a row facing towards the south (not necessarily in the same order). D is placed second to the left of L. X is placed second to the right of P. N is placed third to the left of D. How many tables are placed between C and X?",
+    "hindiQuestion": "छः मेज- C, D, L, N, P और X दक्षिण की ओर मुख करके एक पंक्ति में रखे गए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | D, L के बाएं को दूसरे स्थान पर है | X, P के दाएं को दूसरे स्थान पर है | N, D के बाएं को तीसरे स्थान पर है | C और X के बीच िकतने मेज हैं ?",
+    "options": {
+      "A": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "B": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "C": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "D": {
+        "english": "4",
+        "hindi": "4"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \n \n \n1.(c) \n2.(d) \n3.(a) \n4.(b) \n5.(d) \n6.(c) \n7.(b) \n8.(d) \n9.(b) \n10.(a) \n11.(a) \n12.(c) \n13.(b) \n14.(d) \n15.(a) \n16.(d) \n17.(a) \n18.(b) \n19.(c) \n20.(b) \n21.(d) \n22.(a) \n23.(c) \n24.(b) \n25.(a) \n26.(c) \n27.(c) \n28.(a) \n29.(c) \n30.(b) \n31.(b) \n32.(a) \n33.(d) \n34.(a) \n35.(b) \n36.(a) \n37.(d) \n38.(c) \n39.(a) \n40.(c) \n41.(c) \n42.(d) \n43.(d) \n44.(b) \n45.(d) \n46.(b) \n47.(d) \n48.(a) \n49.(b) \n50.(d) \n51.(d) \n52.(d) \n53.(b) \n54.(c) \n55.(d) \n56.(a) \n57.(a) \n58.(b) \n59.(b) \n60.(c) \n61.(a) \n62.(a) \n63.(d) \n64.(c) \n65.(c) \n66.(c) \n67.(c) \n68.(b) \n69.(d) \n70.(d) \n71.(b) \n72.(c) \n73.(c) \n74.(c) \n75.(a) \n76.(d) \n77.(d) \n78.(b) \n79.(c) \n80.(c) \n81.(a) \n82.(b) \n83.(d) \n84.(a) \n85.(a) \n86.(c) \n87.(c) \n88.(c) \n89.(d) \n90.(c) \n91.(c) \n92.(a) \n93.(a) \n94.(d) \n95.(d) \n96.(a) \n97.(d) \n98.(b) \n99.(a) \n100.(c) \n101.(c) \n102.(b) \n103.(d) \n104.(b) \n105.(d) \n106.(b) \n107.(b) \n108.(c) \n109.(a) \n110.(c) \n111.(d) \n112.(a) \n113.(c) \n114.(d) \n115.(a) \n116.(c) \n117.(c) \n118.(a) \n119.(c) \n120.(d) \n121.(a) \n122.(d) \n123.(c) \n124.(d) \n125.(b) \n126.(a) \n127.(b) \n128.(d) \n129.(b) \n130.(d) \n131.(c) \n132.(d) \n133.(a) \nHence, there are two tables ( P and D) \n \n \n \n \n \n \n \nbetween C and X."
+  },
+  "q_pinnacle_reasoning_ch10_0013": {
+    "englishQuestion": "Six chairs labelled J, K, P, R, S and T are kept one above the other (notnecessarily in the same order). R is above only P and S. There are four chairs between J and S, K is three places above P. If we arrange these chairs in alphabetical order from top to bottom, then the position of how many chairs (excluding J) will be remains same?",
+    "hindiQuestion": "छः कुिसŊयाँ- J, K, P, R, S और T एक-दूसरे के ऊपर रखी गयी हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | R केवल P और S से ऊपर है | J और S के बीच चार कुिसŊयाँ हैं | K, P से तीन स्थान ऊपर है | यिद हम कुिसŊयों को नीचे से ऊपर तक वणŊमाला के क्रम में ʩवİ̾ थत कर दŐ, तो ( िसवाय J के ) िकतनी कुिसŊयों का स्थान बदल जाएगा ?",
+    "options": {
+      "A": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "B": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "C": {
+        "english": "0",
+        "hindi": "0"
+      },
+      "D": {
+        "english": "1",
+        "hindi": "1"
+      }
+    },
+    "solution": ". As per given directions, \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, the positions of three chairs have \n \n \n \n \n \n \n \nbeen changed."
+  },
+  "q_pinnacle_reasoning_ch10_0014": {
+    "englishQuestion": "Six persons, L, M, N, P, Q and R, are sitting in a row facing towards the north (not necessarily in the same order). There are three person between P and M.P is not at any of the ends. There are three persons between L and Q. N is to the left of R. L is at one of the ends. M is to the right of P. How many person are sitting to the left of N?",
+    "hindiQuestion": "छः व्यक्ति - L, M, N, P, Q और R उत्तर की ओर मुख करके एक पंक्ति में बैठे Šए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | P और M के बीच तीन लोग हैं | P किसी भी छोर पर नहीं है | L और Q के बीच केवल तीन लोग हैं | N, R के बाएं को है | L किसी एक छोर पर है | M, के दाएं को है | N के बाएं को िकतने लोग हैं ?",
+    "options": {
+      "A": {
+        "english": "4",
+        "hindi": "4"
+      },
+      "B": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "C": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "D": {
+        "english": "2",
+        "hindi": "2"
+      }
+    },
+    "solution": ". \n As per given direction, \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, there are only two people (namely \n \n \n \n \n \n \n \nP and L) on the left on N."
+  },
+  "q_pinnacle_reasoning_ch10_0015": {
+    "englishQuestion": "Five girls, D, L, N, O and Q, are sitting in a row facing towards the south ( not necessarily in the same order). L is second to the right of O, Q is to the immediate right of D. Two girls are between Q and N. How many girls are sitting to the right of D?",
+    "hindiQuestion": "पाँच लड़िकयाँ - D, L, N, O और Q दक्षिण की ओर मुख करके एक पंक्ति में बैठी Šई हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | L, O के दाएं को दूसरे स्थान पर है | Q, D के तुरंत दाएं को है | Q और N के बीच दो लड़िकयाँ हैं | D के दाएं को िकतनी लड़िकयाँ हैं ?",
+    "options": {
+      "A": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "B": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "C": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "D": {
+        "english": "4",
+        "hindi": "4"
+      }
+    },
+    "solution": ". \n As per given direction, \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, there is only one girl to the right \n \n \n \n \n \n \n \n \n \nof D."
+  },
+  "q_pinnacle_reasoning_ch10_0016": {
+    "englishQuestion": "Six cars labelled D, F, H, J, L and N are parked around a circular path facing towards the centre (not necessarily in the same order). H is third to the right of N. J is to the immediate left of D, F is second to the left of N, D is second to the left of F, Which car is parked second to the right",
+    "hindiQuestion": "of H? / छः कारŐ - D, F, H, J, L और N एक वृत्ताकार पथ के चारो ओर खड़ी की गयी हैं िजनका मुख केंद्र की ओर है | ( ज़ŝरी नहीं िक इसी क्रम में ) | H, N के दाएं को तीसरे स्थान पर है | J, D के तुरंत बाएं को है | F, N के बाएं को दूसरे स्थान पर है | D, F के बाएं को दूसरे स्थान पर है | H के दाएं को दूसरे स्थान पर कौन सी कार है ?",
+    "options": {
+      "A": {
+        "english": "F",
+        "hindi": "F"
+      },
+      "B": {
+        "english": "N",
+        "hindi": "N"
+      },
+      "C": {
+        "english": "J",
+        "hindi": "J"
+      },
+      "D": {
+        "english": "L",
+        "hindi": "L"
+      }
+    },
+    "solution": "(c) L is second to the right of \n \n \n \n \n \n \n \n \n \n \nH."
+  },
+  "q_pinnacle_reasoning_ch10_0017": {
+    "englishQuestion": "Six actors, C, E, G, I, K and M, are sitting around a circular table facing towards the centre ( not necessarily in the same order). M is second to the left of G. E is second to the right of C. K is to the immediate left of M. Who is sitting to the immediate right of E?",
+    "hindiQuestion": "छह अिभनेता, C, E, G, I, K और M, केंद्र की ओर एक गोलाकार टेबल के चारों ओर बैठे हैं (जŝरी नहीं िक उसी क्रम में हों)। M, G के बाएं से दूसरा है। E, C के दाईं ओर से दूसरा है। K, M के एकदम बाएं है। E के एकदम दाएं कौन बैठा है?",
+    "options": {
+      "A": {
+        "english": "I",
+        "hindi": "I"
+      },
+      "B": {
+        "english": "M",
+        "hindi": "M"
+      },
+      "C": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "D": {
+        "english": "G",
+        "hindi": "G"
+      }
+    },
+    "solution": "As \n per \n given \n directions, following \n \n \n \n \n \narrangement is obtained: \n \nHence, I was sitting on the immediate \n \n \n \n \n \n \nright of E."
+  },
+  "q_pinnacle_reasoning_ch10_0018": {
+    "englishQuestion": "Five subjects, R, T, V, X and Z, are taught from Monday to Friday (not necessarily in the same order). One subject is taught on one day. Only Z is taught before R. T is taught before X. T is not taught on Wednesday. How many subjects are taught before V?",
+    "hindiQuestion": "पांच िवषयों, आर, टी, वी, एƛ और जेड को सोमवार से शुŢवार तक पढ़ाया जाता है (जŝरी नहीं िक उसी क्रम में)। एक िदन में एक िवषय पढ़ाया जाता है। केवल R को T से पहले पढ़ाया जाता है। X को बुधवार को नहीं पढ़ाया जाता है। V के पहले िकतने िवषय पढ़ाए जाते हैं?",
+    "options": {
+      "A": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "B": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "C": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "D": {
+        "english": "0",
+        "hindi": "0"
+      }
+    },
+    "solution": "2 subjects are taught before V. \n \n \n \n \n \n \n \n \nand the sequence of subjects from \n \n \n \n \n \n \nMonday to Friday is Z , R , V , T and X."
+  },
+  "q_pinnacle_reasoning_ch10_0019": {
+    "englishQuestion": "Six teachers A, D, G, J, M and P are sitting around a circular table facing towards the centre ( not necessarily in the same order). M is third to the-left of G. D is to the immediate left of J. A is to the immediate left of M. If we count in clockwise direction from P, then how many teachers are sitting between P and J?",
+    "hindiQuestion": "छः िशƗक A, D, G, J, M और P एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे Šए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | M, G के बाएं को तीसरे स्थान पर है | D, J के तुरंत बाएं को है | A, M के तुरंत बाएं को है | यिद हम P से दक्षिणावतŊ िगनती करŐ, तो P और J के बीच िकतने िशƗक बैठे Šए हैं ?",
+    "options": {
+      "A": {
+        "english": "4",
+        "hindi": "4"
+      },
+      "B": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "C": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "D": {
+        "english": "3",
+        "hindi": "3"
+      }
+    },
+    "solution": "As per given direction, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, between P and J in the clockwise \n \n \n \n \n \n \ndirection only G is sitting."
+  },
+  "q_pinnacle_reasoning_ch10_0020": {
+    "englishQuestion": "Six trucks K, M, O, Q, S and u are parked around a circular path facing towards the centre ( not necessarily in the same order). Q is second to the left of U. S is to the immediate left of M. K is second to the right of O. O is to the 341 Sitting Arrangement immediate right of Q. Which truck is parked at second position to the left of O.",
+    "hindiQuestion": "छः टŌक - K, M, O, Q, S और U एक वृत्ताकार मागŊ के चारो तरफ खड़े िकये गए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | Q, U के बाएं को दूसरे स्थान पर है | S, M के तुरंत बाएं को है | K, O के दाएं को दूसरे स्थान पर है | O, Q के तुरंत दाएं को है | O के बाएं को दूसरे स्थान पर कौन सा टŌक खड़ा है ?",
+    "options": {
+      "A": {
+        "english": "S",
+        "hindi": "S"
+      },
+      "B": {
+        "english": "M",
+        "hindi": "M"
+      },
+      "C": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "D": {
+        "english": "U",
+        "hindi": "U"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, Truck M is at the second left of O."
+  },
+  "q_pinnacle_reasoning_ch10_0021": {
+    "englishQuestion": "Five articles A, K, P, R and T are kept one above the other (not necessarily in the same order). Only T is between K and P. P is below K. R is just below P. A is three places below T, Which article is at the bottom?",
+    "hindiQuestion": "पांच वस्तुएँ - A, K, P, R और T एक के ऊपर एक रखी गयी हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | K और P के बीच केवल T है | P, K के नीचे है | R, P के ठीक नीचे है | A, T से तीन स्थान नीचे है | सबसे नीचे कौन सी वस्तु है ?",
+    "options": {
+      "A": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "B": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "C": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "D": {
+        "english": "A",
+        "hindi": "A"
+      }
+    },
+    "solution": "A is at the bottom. \nTop K - T - P - R - A Bottom"
+  },
+  "q_pinnacle_reasoning_ch10_0022": {
+    "englishQuestion": "Six doctors E, G, I, K, M and O are standing in a row facing towards the north (Not necessarily in the same order). M is standing to the immediate right of E. K is standing second to the right of O. Two doctors are standing between I and M. K is towards the left of G. Who is standing to the immediate right of K?",
+    "hindiQuestion": "छः िचिकȖक E, G, I, K, M और O उत्तर की ओर मुख करके एक पंक्ति में खड़े हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | M, E के तुरंत दाएं को है | K, O के दाएं को दूसरे स्थान पर है | I और M के बीच दो िचिकȖक हैं | K, G के बाएं को है | K के तुरंत दाएं को कौन है ?",
+    "options": {
+      "A": {
+        "english": "E",
+        "hindi": "E"
+      },
+      "B": {
+        "english": "M",
+        "hindi": "M"
+      },
+      "C": {
+        "english": "I",
+        "hindi": "I"
+      },
+      "D": {
+        "english": "G",
+        "hindi": "G"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nE is to the immediate right of K."
+  },
+  "q_pinnacle_reasoning_ch10_0023": {
+    "englishQuestion": "Five movies K, L, M, N and P (not necessarily in the same order) are displayed from Monday to Friday. Only one movie is displayed on one day. Each movie is displayed only one time. Movie K is displayed on Monday. Two movies are displayed between N and P. L is displayed just one day after p. How many movies are displayed before M?",
+    "hindiQuestion": "पांच िफ़ʝŐ K, L, M, N और P सोमवार से शुŢवार तक अलग-अलग िदनों को िदखाई गयी, लेिकन ज़ŝरी नहीं िक इसी क्रम में | हर िदन एक िफʝ िदखाई गयी | िफʝ K सोमवार को िदखाई गयी | N और P के बीच दो िफ़ʝŐ िदखाई गयी | L को P के बस एक िदन बाद िदखाया गया | M के पहले िकतनी िफ़ʝŐ िदखाई गयी ?",
+    "options": {
+      "A": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "B": {
+        "english": "4",
+        "hindi": "4"
+      },
+      "C": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "D": {
+        "english": "2",
+        "hindi": "2"
+      }
+    },
+    "solution": "Sequence of movies displayed \n \n \n \n \n \n \n \nfrom Monday to Friday is K P L M N. 3 \n \n \n \n \n \n \nmovies are shown before M."
+  },
+  "q_pinnacle_reasoning_ch10_0024": {
+    "englishQuestion": "Six employees L, N, P, R, T and V are sitting around circular table facing towards centre(not necessarily in the same order),V is second to the left of N. L is to the immediate left of P. R is second to the left of P. P is third to the right of N. Who is sitting immediately right of V? ?",
+    "hindiQuestion": "छः कमŊचारी, L, N, P, R, T और V एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | V, N के बाएं को दूसरे स्थान पर है | L, P के तुरंत बाएं को है | R, P के बाएं को दूसरे स्थान पर है | P, N के दाएं को तीसरे स्थान पर है | V के तुरंत दाएं को कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "R",
+        "hindi": "R"
+      },
+      "B": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "C": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "D": {
+        "english": "N",
+        "hindi": "N"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, T is sitting to the immediate right \n \n \n \n \n \n \nof V."
+  },
+  "q_pinnacle_reasoning_ch10_0025": {
+    "englishQuestion": "Five boys J, K, L, M and T are standing in a queue one after the other (not necessarily in the same order). There is only one boy between K and J. There is only one boy between K and L. There are four boys behind J. T is three places ahead of L. How many boys are ahead of M?",
+    "hindiQuestion": "पांच लड़के - J, K, L, M और T एक कतार में एक के बाद एक खड़े हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | K और J के बीच केवल एक लड़का है | K और L के बीच केवल एक लड़का है | J के पीछे चार लड़के हैं | T, L से तीन स्थान आगे है | M से आगे िकतने लड़के हैं ?",
+    "options": {
+      "A": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "B": {
+        "english": "0",
+        "hindi": "0"
+      },
+      "C": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "D": {
+        "english": "1",
+        "hindi": "1"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \nTop J - T - K - M - L Bottom \n \nHence, 3 boys (namely K, T and J) are \n \n \n \n \n \n \n \nahead of M."
+  },
+  "q_pinnacle_reasoning_ch10_0026": {
+    "englishQuestion": "Six cameras G, H, P, S, K and I are placed in a row facing towards north (Not necessarily in the same order). S is placed second to the left of I. H is placed second to the right of G. K is placed third to the left of G. Which of the following statements is correct about camera I? ̾",
+    "hindiQuestion": "छः कैमरे G, H, P, S, K और I एक पंक्ति में उत्तर की ओर मुख करके लगाए गए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | S को I के बाएं दूसरे स्थान पर लगाया गया है | H को G के दाएं को दूसरे स्थान पर लगाया गया है | K को G के बाएं को तीसरे स्थान पर लगाया गया है | कैमरा I के बारे में निम्न में से कौन सा कथन सही है ?",
+    "options": {
+      "A": {
+        "english": "I  is  not  the  immediate  neighbour  of  H                  /  ‘I’  'H'  का  िनकटतम  पड़ोसी  नहीं  है",
+        "hindi": "I is not the immediate neighbour of H / ‘I’ 'H' का िनकटतम पड़ोसी नहीं है"
+      },
+      "B": {
+        "english": "I  is  between  G  and  S  /  I,  G  और  S  के  बीच                       है",
+        "hindi": "I is between G and S / I, G और S के बीच है"
+      },
+      "C": {
+        "english": "P  is  third  to  left  of  I  /  P,  I  के  बाएं  से  तीसरा                         है",
+        "hindi": "P is third to left of I / P, I के बाएं से तीसरा है"
+      },
+      "D": {
+        "english": "I  is  to  the  immediate  left  of  G  /  I,  G  के                        तǽाल  बाएं  है",
+        "hindi": "I is to the immediate left of G / I, G के तǽाल बाएं है"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, P is third to the left of I."
+  },
+  "q_pinnacle_reasoning_ch10_0027": {
+    "englishQuestion": "Six players C, E, G, I, K and M are standing in a row facing towards north (Not necessarily in the same order). Two players are standing between C and M. I is standing to the immediate left of C. E is standing second to the left of G. K is third to the right of G. Who is standing second to the right of I?",
+    "hindiQuestion": "छः İखलाड़ी - C, E, G, I, K और M एक पंक्ति में उत्तर की ओर मुख करके खड़े हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | C और M के बीच दो İखलाड़ी खड़े हैं | I, C के तुरंत बाएं को खड़ा है | E, G के बाएं को दूसरे स्थान पर है | K, G के दाएं को तीसरे स्थान पर है | I के दाएं को दूसरे स्थान पर कौन खड़ा है ?",
+    "options": {
+      "A": {
+        "english": "E",
+        "hindi": "E"
+      },
+      "B": {
+        "english": "M",
+        "hindi": "M"
+      },
+      "C": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "D": {
+        "english": "C",
+        "hindi": "C"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, K is standing second to the right \n \n \n \n \n \n \n \n \nof I."
+  },
+  "q_pinnacle_reasoning_ch10_0028": {
+    "englishQuestion": "Six shopkeepers K, P, R, X, A and C are sitting around a circular table facing towards the centre (not necessarily in the same order). C is second to the left of A. P is to the immediate the right of K. X is second to the right of R. A is to the immediate left of X. Which of the following pairs of shopkeepers represents the immediate neighbours of X? ?",
+    "hindiQuestion": "छः दुकानदार - K, P, R, X, A और C एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | C, A के बाएं को दूसरे स्थान पर है | P, K के तुरंत दाएं को है | X, R के दाएं को दूसरे स्थान पर है | A, X के तुरंत बाएं को है | दुकानदारों का निम्न में से कौन सा युƵ X के िनकट पड़ोिसयों को दशाŊता है ?",
+    "options": {
+      "A": {
+        "english": "A  and  K",
+        "hindi": "A and K"
+      },
+      "B": {
+        "english": "A  and  C",
+        "hindi": "A and C"
+      },
+      "C": {
+        "english": "K  and  P",
+        "hindi": "K and P"
+      },
+      "D": {
+        "english": "A  and  R",
+        "hindi": "A and R"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, A and K are the immediate \n \n \n \n \n \n \n \nneighbour of X."
+  },
+  "q_pinnacle_reasoning_ch10_0029": {
+    "englishQuestion": "Six friends B, D, F, H, J and L are sitting around a circular table facing towards the centre (not necessarily in the same order). B is to the immediate right of L. D is second to the left of J. F is second to the left of H. L is second to the right of H. Who is sitting third to the left of F?",
+    "hindiQuestion": "छः िमũ B, D, F, H, J और L एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | B, L के तुरंत दाएं को है | D, J के बाएं को दूसरे स्थान पर है | F, H के बाएं को दूसरे स्थान पर है | L, H के दाएं को दूसरे स्थान पर है | F के बाएं को तीसरे स्थान पर कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "B": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "C": {
+        "english": "J",
+        "hindi": "J"
+      },
+      "D": {
+        "english": "L",
+        "hindi": "L"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, J is sitting third to the left of F."
+  },
+  "q_pinnacle_reasoning_ch10_0030": {
+    "englishQuestion": "There are five cinema halls in a building - Hall 1, Hall 2, Hall 3, Hall 4 342 and Hall 5. They are one above the other. Hall 1 is at the bottom, then Hall 2 above it and so on. Five movies A, B, C, D and E are displayed in these given halls. Only one movie is displayed in a particular cinema hall. Each movie is displayed only one time. Movie E is displayed at a even numbered hall. Movie B is displayed at Hall 1 Movie A is displayed at the hall just below E. Movie D is not displayed at even numbered hall. Which of the following statements is not",
+    "hindiQuestion": "एक इमारत में पांच िसनेमा हॉल हैं - हॉल 1, हॉल 2, हॉल 3, हॉल 4 और हॉल 5. वे एक के ऊपर एक हैं। हॉल 1 सबसे नीचे है, तो हॉल 2 इसके ऊपर और इसी तरह। इन दिए गए हॉल में पांच िफʝŐ A, B, C, D और E ŮदिशŊत हैं। केवल एक िफʝ किसी िवशेष िसनेमा हॉल में ŮदिशŊत की जाती है। Ůȑेक िफʝ को केवल एक बार ŮदिशŊत िकया जाता है। मूवी E एक सम संƥा वाले हॉल में ŮदिशŊत िकया गया। मूवी B को हॉल 1 में िदखाया गया है। मूवी A को हॉल E के ठीक नीचे ŮदिशŊत िकया गया है। मूवी D को किसी सम संƥा वाले हॉल में ŮदिशŊत नहीं िकया जाता है। Which of the following statements is not correct about movie C? / निम्नलिखित में से कौन सा कथन िफʝ C के बारे में सही नहीं है?",
+    "options": {
+      "A": {
+        "english": "C  is  displayed  at  the  hall  just  below  A.                    /  C,  A  के  ठीक  नीचे  हॉल  मŐ  ŮदिशŊत  होता  है।",
+        "hindi": "C is displayed at the hall just below A. / C, A के ठीक नीचे हॉल में ŮदिशŊत होता है।"
+      },
+      "B": {
+        "english": "C  is  displayed  at  the  odd  number  Hall.                  /  C  को  िवषम  संƥा  हॉल  मŐ  ŮदिशŊत  िकया  जाता                      है।",
+        "hindi": "C is displayed at the odd number Hall. / C को िवषम संƥा हॉल में ŮदिशŊत िकया जाता है।"
+      },
+      "C": {
+        "english": "B  is  displayed  at  the  hall  just  below  C                   /  B,  C  के  ठीक  नीचे  हॉल  मŐ  ŮदिशŊत  होता  है।",
+        "hindi": "B is displayed at the hall just below C / B, C के ठीक नीचे हॉल में ŮदिशŊत होता है।"
+      },
+      "D": {
+        "english": "C  is  displayed  at  the  even  number                   Hall.  /  C  सम  संƥा  हॉल  मŐ  ŮदिशŊत  िकया  गया                     है।",
+        "hindi": "C is displayed at the even number Hall. / C सम संƥा हॉल में ŮदिशŊत िकया गया है।"
+      }
+    },
+    "solution": ""
+  },
+  "q_pinnacle_reasoning_ch10_0031": {
+    "englishQuestion": "Six phones P1, P2, P3, P4, P5 and P6 are placed in a row facing towards north (Not necessarily in the same order). P1 is placed to the immediate left of P6. P5 is placed second to the left of P2. P4 is placed second to the right of P6. P4 is to the immediate right of P5. P3 is towards the left of P1. How many phones are placed between P3 and P6? ̾ ̾",
+    "hindiQuestion": "छः फ़ोन - P1, P2, P3, P4, P5 और P6 एक पंक्ति में उत्तर की ओर ,मुख करके रखे गए हैं लेिकन ज़ŝरी नहीं िक इसी क्रम में | P1 को P6 के तुरंत बाएं को रखा गया है | P5 को P2 के बाएं को दूसरे स्थान पर रखा गया है | P4 को P6 के दाएं को दूसरे स्थान पर रखा गया है | P4, P5 के तुरंत दाएं को है | P3, P1 के बायीं ओर है | P3 और P6 के बीच िकतने फ़ोन रखे गए हैं ?",
+    "options": {
+      "A": {
+        "english": "4",
+        "hindi": "4"
+      },
+      "B": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "C": {
+        "english": "0",
+        "hindi": "0"
+      },
+      "D": {
+        "english": "2",
+        "hindi": "2"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, only 1 person is placed between \n \n \n \n \n \n \nP3 and P6."
+  },
+  "q_pinnacle_reasoning_ch10_0032": {
+    "englishQuestion": "Five tables T1, T2, T3, T4 and T5 are kept one above the other (Not necessarily in the same order). Number of tables above T4 are the same as the number of tables below T5. T3 is just above T1. T5 is at the bottom. There are two tables between T2 and T5. Which of the following is the correct position of T1?",
+    "hindiQuestion": "पांच टेबल T1, T2, T3, T4 और T5 को एक के ऊपर एक रखा गया है, लेिकन ज़ŝरी नहीं िक इसी क्रम में | T4 के ऊपर टेबल की संƥा T5 के नीचे रखे गए टेबलों की संƥा के बराबर है | T3, T1 के ठीक ऊपर है | T5 सबसे नीचे है | T2 और T5 के बीच दो टेबल हैं | T1 का सही स्थान निम्न में से कौन सा है ?",
+    "options": {
+      "A": {
+        "english": "T1  is  just  above  T5",
+        "hindi": "T1 is just above T5"
+      },
+      "B": {
+        "english": "T1  is  just  below  T5",
+        "hindi": "T1 is just below T5"
+      },
+      "C": {
+        "english": "T1  is  three  places  below  T2",
+        "hindi": "T1 is three places below T2"
+      },
+      "D": {
+        "english": "T2  is  two  places  below  T1",
+        "hindi": "T2 is two places below T1"
+      }
+    },
+    "solution": "As per given directions, \n \n \n \n \n \n \n \nfollowing arrangement is obtained: \n \nHence, T1 is just above T5, is the correct \n \n \n \n \n \n \n \nstatement. \nHall \n \nMovie \nHall 5 \nD \nHall 4 \nE \nHall 3 \nA \nHall 2 \nC \nHall 1 \nB"
+  },
+  "q_pinnacle_reasoning_ch10_0033": {
+    "englishQuestion": "Five teachers P, K, A, R and M are sitting in a row facing towards south (Not necessarily in the same order). K is sitting second to the right of R. M is sitting to the immediate right of P. Two teachers are sitting between M and A. Who is sitting to the immediate left of R?",
+    "hindiQuestion": "पांच िशƗक- P, K, A, R और M दक्षिण की ओर मुख करके एक पंक्ति में बैठे Šए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | K, R के दाएं को दूसरे स्थान पर है | M, P के तुरंत दाएं को बैठा है | M और A के बीच दो िशƗक बैठे हैं | R के तुरंत बाएं को कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "M",
+        "hindi": "M"
+      },
+      "B": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "C": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "D": {
+        "english": "A",
+        "hindi": "A"
+      }
+    },
+    "solution": "A is sitting to the immediate \n \n \n \n \n \n \n \n \nleft of R."
+  },
+  "q_pinnacle_reasoning_ch10_0034": {
+    "englishQuestion": "Five pens D, E, F, G and H are kept one above the other (not necessarily in the same order). Only H is between E and F. F is below E. G is just below F. D is three places below H. How many pens are between E and D?",
+    "hindiQuestion": "पांच पेन D, E, F, G और H को एक के ऊपर एक रखा जाता है (जŝरी नहीं िक उसी क्रम में)। केवल H, E और F के बीच है। F, E के नीचे है। G, F के ठीक नीचे है। D, H के नीचे तीन जगह है। E और D के बीच िकतने पेन है?",
+    "options": {
+      "A": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "B": {
+        "english": "0",
+        "hindi": "0"
+      },
+      "C": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "D": {
+        "english": "1",
+        "hindi": "1"
+      }
+    },
+    "solution": "Three pens are between E and \n \n \n \n \n \n \n \n \nD."
+  },
+  "q_pinnacle_reasoning_ch10_0035": {
+    "englishQuestion": "Six boys R1, R2, R3, R4, R5 and R6 are sitting in a row facing towards the north (Not necessarily in the same order). There are three boys between R4 and R2. R4 is not at any of the end. Only three boys are between R1 and R5. R3 is towards the left of R6. R1 is at one of the end. R2 is towards the right of R4. Which of the following statements is correct?",
+    "hindiQuestion": "छः लड़के R1, R2, R3, R4, R5 और R6 एक पंक्ति में उत्तर की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | R4 और R2 के बीच तीन लड़के हैं | R4 किसी भी छोर पर नहीं है | R1 तथा R5 के बीच केवल तीन लड़के हैं | R3, R6 के बाएं तरफ है | R1 किसी एक छोर पर है | R2, R4 के दाएं को है | निम्न में से कौन सा कथन सही है ?",
+    "options": {
+      "A": {
+        "english": "R1  is  towards  the  right  of  R4",
+        "hindi": "R1 is towards the right of R4"
+      },
+      "B": {
+        "english": "R4  is  second  to  the  left  of  R6",
+        "hindi": "R4 is second to the left of R6"
+      },
+      "C": {
+        "english": "R5  is  at  one  of  the  end",
+        "hindi": "R5 is at one of the end"
+      },
+      "D": {
+        "english": "R3  is  to  the  immediate  right  of  R6",
+        "hindi": "R3 is to the immediate right of R6"
+      }
+    },
+    "solution": "R4 is second to the left of R6."
+  },
+  "q_pinnacle_reasoning_ch10_0036": {
+    "englishQuestion": "Six tablets T1, T2, T3, T4, T5 and T6 are placed in a row facing towards North (Not necessarily in the same order). Two tablets are placed between T1 and T5. T3 is placed second to the right of T6. T2 is placed second to the right of T1. T5 is towards the left of T1. Which of the following pair of tablets represents the tablets to the immediate right of T6 and T5 respectively? ̾",
+    "hindiQuestion": "छह गोिलयाँ T1, T2, T3, T4, T5 और T6 को उत्तर की ओर एक पंक्ति में रखा गया है (जŝरी नहीं िक उसी क्रम में)। दो गोिलयाँ T1 और T5 के बीच रखी गई हैं।T3 को T6 के दाईं ओर दूसरे स्थान पर रखा गया है। T2 को T1 के दाईं ओर रखा गया है। T5 T1 के बाईं ओर है। निम्न में से कौन सी टैबलेट क्रमशः T6 और T5 के दाईं ओर टैबलेट का Ůितिनिधȕ करती है?",
+    "options": {
+      "A": {
+        "english": "T1,  T4",
+        "hindi": "T1, T4"
+      },
+      "B": {
+        "english": "T4,  T1",
+        "hindi": "T4, T1"
+      },
+      "C": {
+        "english": "T3,  T4",
+        "hindi": "T3, T4"
+      },
+      "D": {
+        "english": "T1,  T2",
+        "hindi": "T1, T2"
+      }
+    },
+    "solution": ""
+  },
+  "q_pinnacle_reasoning_ch10_0037": {
+    "englishQuestion": "Five subjects S1, S2, S3, S4 and S5 (not necessarily in the same order) are to be taught from Monday to Friday. One subject will be taught one day. Only S5 is taught before S1. S2 is taught before S4. S2 will not be taught on Wednesday. Which of the following pairs of subjects",
+    "hindiQuestion": "is taught after S3? / पांच िवषयों - S1, S2, S3, S4 और S5 को सोमवार से शुŢवार तक पढ़ाया जाना है, लेिकन ज़ŝरी नहीं िक इसी क्रम में | एक िदन केवल एक ही िवषय पढ़ाया जाएगा | S1 के पहले केवल S5 को पढ़ाया जाता है | S2 को S4 से पहले पढ़ाया जाता है | S2 को बुधवार को नहीं पढ़ाया जाएगा | निम्न में से कौन से दो िवषय S3 के बाद पढ़ाये जाते हैं ?",
+    "options": {
+      "A": {
+        "english": "S4,  S1",
+        "hindi": "S4, S1"
+      },
+      "B": {
+        "english": "S2,  S5",
+        "hindi": "S2, S5"
+      },
+      "C": {
+        "english": "S1,  S2",
+        "hindi": "S1, S2"
+      },
+      "D": {
+        "english": "S2,  S4",
+        "hindi": "S2, S4"
+      }
+    },
+    "solution": "S2, S4 pair of subjects is \n \n \n \n \n \n \n \n \n \ntaught after S3."
+  },
+  "q_pinnacle_reasoning_ch10_0038": {
+    "englishQuestion": "Six tailors T1, T2, T3, T4, T5 and T6 are sitting around a circular table facing towards the centre (Not necessarily in the same order). T2 is second to the right of T1. T5 is to the immediate right 343 Sitting Arrangement of T3. T3 and T4 are facing towards each other. Three of the four given options follow the same logic. Which of the following does",
+    "hindiQuestion": "not follow that logic? छः दरजी - T1, T2, T3, T4, T5 और T6 एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | T2, T1 के दाएं को दूसरे स्थान पर है | T5, T3 के तुरंत दाएं को है | T3 और T4 एक-दूसरे के सामने हैं | निम्नलिखित चार में से तीन विकल्प समान तकŊ का अनुसरण करते हैं | निम्न में से कौन उस तकŊ का अनुसरण नहीं करता ?",
+    "options": {
+      "A": {
+        "english": "T2,  T3",
+        "hindi": "T2, T3"
+      },
+      "B": {
+        "english": "T4,  T6",
+        "hindi": "T4, T6"
+      },
+      "C": {
+        "english": "T1,  T3",
+        "hindi": "T1, T3"
+      },
+      "D": {
+        "english": "T6,  T5",
+        "hindi": "T6, T5"
+      }
+    },
+    "solution": "T1, T3 does not follow the \n \n \n \n \n \n \n \n \n \nlogic given in the solution."
+  },
+  "q_pinnacle_reasoning_ch10_0039": {
+    "englishQuestion": "Five advocates G, N, M, L and A are sitting around a circular table facing towards the centre (not necessarily in the same order). A is sitting between G and L. M is second to the right of L. G is towards the immediate left of A. Who is sitting second to the left of A?",
+    "hindiQuestion": "पांच अिधवƅा G, N, M, L और A केंद्र की ओर एक पįरपũ तािलका के चारों ओर बैठे हैं (जŝरी नहीं िक उसी क्रम में हों)। A, G और L के बीच बैठा है। M, L के दाएं से दूसरे स्थान पर है। G, A के बायीं ओर है। A के बाएं से दूसरा कौन बैठा है?",
+    "options": {
+      "A": {
+        "english": "M",
+        "hindi": "M"
+      },
+      "B": {
+        "english": "G",
+        "hindi": "G"
+      },
+      "C": {
+        "english": "L",
+        "hindi": "L"
+      },
+      "D": {
+        "english": "N",
+        "hindi": "N"
+      }
+    },
+    "solution": "M is sitting 2nd to the left of A."
+  },
+  "q_pinnacle_reasoning_ch10_0040": {
+    "englishQuestion": "Six scientists R, L, T, S, N and P are standing in a row facing towards north (Not necessarily in the same order). N is standing to the immediate right of R. S is standing second to the right of P. Two scientists are standing between T and N. S is towards the left of L. Which of the following is correct about the position of L?",
+    "hindiQuestion": "छः वैǒािनक R, L, T, S, N और P उत्तर की ओर मुख करके एक पंक्ति में खड़े हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | N, R के तुरंत दाएं को खड़ा है | S, P के दाएं को दूसरे स्थान पर है | T और N के बीच दो वैǒािनक खड़े हैं | S, L के बायीं ओर है | L के स्थान के िवषय में निम्न में से कौन सा विकल्प सही है ?",
+    "options": {
+      "A": {
+        "english": "Between  R  and  N",
+        "hindi": "Between R and N"
+      },
+      "B": {
+        "english": "Third  to  the  right  of  R",
+        "hindi": "Third to the right of R"
+      },
+      "C": {
+        "english": "L  is  at  one  of  the  end",
+        "hindi": "L is at one of the end"
+      },
+      "D": {
+        "english": "Towards  the  immediate  left  of  N",
+        "hindi": "Towards the immediate left of N"
+      }
+    },
+    "solution": "L is at one of the ends , i.e. , at \n \n \n \n \n \n \n \n \n \nthe right end of the row."
+  },
+  "q_pinnacle_reasoning_ch10_0041": {
+    "englishQuestion": "There are five classes: class 1, class 2, class 3, class 4 and class 5 in a school. They are one above the other. Class 1 is at the bottom, then class 2 above it and so on. Five videos M1, M2, M3, M4 and M5 are displayed in these given classes. Only one video is displayed in a particular class. Each video is displayed only one time. Video M5 is displayed at a even numbered class. Video M2 is displayed at class 1. Video M1 is displayed at the class just below M5. Video M4 is not displayed at even numbered class. Which of the following statement is not",
+    "hindiQuestion": "एक ˋूल में पाँच कƗाएं हैं: कƗा 1, कƗा 2, कƗा 3, कƗा 4 और कƗा 5। वे एक के ऊपर एक हैं। कƗा 1 सबसे नीचे है, िफर कƗा 2 इसके ऊपर और इसी तरह ऊपर। इन दिए गए वगŘ में पांच वीिडयो M 1, M 2, M 3, M 4 और M 5 ŮदिशŊत िकए गए हैं। केवल एक वीिडयो एक िवशेष वगŊ में ŮदिशŊत होता है। Ůȑेक वीिडयो को केवल एक बार ŮदिशŊत िकया जाता है। वीिडयो M5 को एक सम संƥा वाले वगŊ में ŮदिशŊत िकया जाता है। वीिडयो M2 को कƗा 1 में ŮदिशŊत िकया गया है। वीिडयो M1 को M5 के ठीक नीचे की कƗा में ŮदिशŊत िकया गया है। वीिडयो M4 को किसी भी सम संƥा वाले में ŮदिशŊत नहीं िकया गया है। Which of the following statement is not correct? / निम्नलिखित में से कौन सा कथन सही नहीं है?",
+    "options": {
+      "A": {
+        "english": "Only  one  video  is  displayed  after  M3  /                   M  3  के  बाद  केवल  एक  वीिडयो  ŮदिशŊत  िकया                    जाता  है",
+        "hindi": "Only one video is displayed after M3 / M 3 के बाद केवल एक वीिडयो ŮदिशŊत िकया जाता है"
+      },
+      "B": {
+        "english": "Only  two  videos  are  displayed  above                 M1  /  M1  के  ऊपर  केवल  दो  वीिडयो  ŮदिशŊत                    िकया  जाता  हœ",
+        "hindi": "Only two videos are displayed above M1 / M1 के ऊपर केवल दो वीिडयो ŮदिशŊत िकया जाता हैं"
+      },
+      "C": {
+        "english": "Only  one  video  is  displayed  between                 M2  and  M5  /  केवल  एक  वीिडयो  M2  और  M5                      के  बीच  ŮदिशŊत  होता  है",
+        "hindi": "Only one video is displayed between M2 and M5 / केवल एक वीिडयो M2 और M5 के बीच ŮदिशŊत होता है"
+      },
+      "D": {
+        "english": "M1  is  displayed  between  M3  and  M5  /                   M1  को  M3  और  M5  के  बीच  ŮदिशŊत  िकया  जाता                       है",
+        "hindi": "M1 is displayed between M3 and M5 / M1 को M3 और M5 के बीच ŮदिशŊत िकया जाता है"
+      }
+    },
+    "solution": ""
+  },
+  "q_pinnacle_reasoning_ch10_0042": {
+    "englishQuestion": "Five persons H1, H2, H3, H4 and H5 are sitting around a circular table facing towards the centre (Not necessarily in the same order). H4 is third to the left of H2. H3 and H1 are the immediate neighbours of H2. H5 is to the immediate left of H3. Who is sitting third to the right of H1? ?",
+    "hindiQuestion": "पांच व्यक्ति H1, H2, H3, H4 और H5 एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | H4, H2 के बाएं को तीसरे स्थान पर है | H3 तथा H1, H2 के िनकट पड़ोसी हैं | H5, H3 के तुरंत बाएं को है | H1 के दाएं को तीसरे स्थान पर कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "H2",
+        "hindi": "H2"
+      },
+      "B": {
+        "english": "H4",
+        "hindi": "H4"
+      },
+      "C": {
+        "english": "H5",
+        "hindi": "H5"
+      },
+      "D": {
+        "english": "H3",
+        "hindi": "H3"
+      }
+    },
+    "solution": "H3 is sitting third to the right \n \n \n \n \n \n \n \n \n \nof H1."
+  },
+  "q_pinnacle_reasoning_ch10_0043": {
+    "englishQuestion": "Six buses B1, B2, B3, B4, B5 and B6 are parked around a circular path (not necessarily in the same order). B3 is third to the right of B6. B4 is to the immediate left of B1. B2 is second to the left of B6. How many buses are between B5 and B1?",
+    "hindiQuestion": "छः बसŐ B1, B2, B3, B4, B5 और B6 एक वृत्ताकार मागŊ के चारो तरफ खड़ी की गयी हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | B3, B6 के दाएं को तीसरे स्थान पर है | B4, B1 के तुरंत बाएं को है | B2, B6 के बाएं को दूसरे स्थान पर है | B5 और B1 के बीच िकतनी बसŐ हैं ?",
+    "options": {
+      "A": {
+        "english": "0",
+        "hindi": "0"
+      },
+      "B": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "C": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "D": {
+        "english": "2",
+        "hindi": "2"
+      }
+    },
+    "solution": "2 buses are between B5 and \n \n \n \n \n \n \n \n \n \nB1."
+  },
+  "q_pinnacle_reasoning_ch10_0044": {
+    "englishQuestion": "Five chairs J, H, P, S and M are placed in a row facing towards east (Not necessarily in the same order). P is second to the left of S. J is second to the right of H. M is to the immediate right of S. Which of the following is the correct position of J?",
+    "hindiQuestion": "पांच कुिसŊयाँ J, H, P, S और M पूरब की ओर मुख करके एक पंक्ति में रखी गयी हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | P, S के बाएं को दूसरे स्थान पर है | J, H के दाएं को दूसरे स्थान पर है | M, S के तुरंत दाएं को है | J का सही स्थान निम्न में से कौन सा है ?",
+    "options": {
+      "A": {
+        "english": ".  Third  to  the  left  of  M  /  M  के  बायŐ  तीसरा",
+        "hindi": ". Third to the left of M / M के बाएं तीसरा"
+      },
+      "B": {
+        "english": ".  Second  to  the  right  of  H  /  H  के  दाईं  ओर                       दूसरा",
+        "hindi": ". Second to the right of H / H के दाईं ओर दूसरा"
+      },
+      "C": {
+        "english": ".  Exactly  between  S  and  H  /  िबʋुल  S                  और  H  के  बीच",
+        "hindi": ". Exactly between S and H / िबʋुल S और H के बीच"
+      },
+      "D": {
+        "english": ".  To  the  immediate  right  of  S  /  'S'  के                     तǽाल  दाईं  ओर",
+        "hindi": ". To the immediate right of S / 'S' के तǽाल दाईं ओर"
+      }
+    },
+    "solution": "J is second to the right of H."
+  },
+  "q_pinnacle_reasoning_ch10_0045": {
+    "englishQuestion": "Five toys A, B, C, D and E are kept one above the other (not necessarily in the same order). A is four places above C. D is between B and E. E is three places below A. Three of the given four options follow the same logic based on their arrangement. Which of the following does ̾",
+    "hindiQuestion": "not follow that logic? / पांच İखलौने- A, B, C, D और E एक के ऊपर एक रखे गए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | A, C से चार स्थान ऊपर है | D, B और E के बीच में है | E, A से तीन स्थान नीचे है | निम्नलिखित चार में से तीन विकल्प समान तकŊ का अनुसरण करते हैं | इनमें से कौन सा विकल्प उस तकŊ का अनुसरण नहीं करता है ?",
+    "options": {
+      "A": {
+        "english": "BD",
+        "hindi": "BD"
+      },
+      "B": {
+        "english": "DE",
+        "hindi": "DE"
+      },
+      "C": {
+        "english": "EC",
+        "hindi": "EC"
+      },
+      "D": {
+        "english": "AC",
+        "hindi": "AC"
+      }
+    },
+    "solution": "AC does not follow that logic."
+  },
+  "q_pinnacle_reasoning_ch10_0046": {
+    "englishQuestion": "Six boys R, L, B, T, W and N are standing in a row facing towards north (Not necessarily in the same order). Two boys are standing between R and N. T is standing to the immediate left of R. L is standing second to the left of B. W is third to the right of B. Who is standing to the immediate right of R? 344 ̾",
+    "hindiQuestion": "छः लड़के- R, L, B, T, W और N एक पंक्ति में उत्तर की ओर मुख करके खड़े हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | R तथा N के बीच दो लड़के खड़े हैं | T, R के तुरंत बाएं को खड़ा है | L, B के 344 बाएं को दूसरे स्थान पर है | W, B के दाएं को तीसरे स्थान पर है | R के तुरंत दाएं को कौन खड़ा है ?",
+    "options": {
+      "A": {
+        "english": "L",
+        "hindi": "L"
+      },
+      "B": {
+        "english": "W",
+        "hindi": "W"
+      },
+      "C": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "D": {
+        "english": "B",
+        "hindi": "B"
+      }
+    },
+    "solution": "W is standing to the \n \n \n \n \n \n \n \n \nimmediate right of R."
+  },
+  "q_pinnacle_reasoning_ch10_0047": {
+    "englishQuestion": "Six employees R1, R2, R3, R4, R5 and R6 are sitting around a circular table facing towards the centre (not necessarily in the same order). R5 is third to the left of R3. R2 is to the immediate left of R4. R1 is to the immediate left of R5. Which of the following statements is incorrect about R6?",
+    "hindiQuestion": "छः कमŊचारी - R1, R2, R3, R4, R5 और R6 एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके खड़े हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | R5, R3 के बाएं को तीसरे स्थान पर है | R2, R4 के तुरंत बाएं को है | R1, R5 के तुरंत बाएं को है | R6 के बारे में निम्न में से कौन सा कथन गलत है ?",
+    "options": {
+      "A": {
+        "english": ".  R4  is  second  to  the  left  of  R6.  / R4,  R6                        के  बाईं  ओर  से  दूसरा  है।",
+        "hindi": ". R4 is second to the left of R6. / R4, R6 के बाईं ओर से दूसरा है।"
+      },
+      "B": {
+        "english": ".  R6  is  between  R3  and  R1./  R6,  R3  और                      R1  के  बीच  है।",
+        "hindi": ". R6 is between R3 and R1./ R6, R3 और R1 के बीच है।"
+      },
+      "C": {
+        "english": ".  R2  is  sitting  opposite  to  R6./  R2  R6  के                     िवपरीत  बैठा  है।",
+        "hindi": ". R2 is sitting opposite to R6./ R2 R6 के विपरीत बैठा है।"
+      },
+      "D": {
+        "english": ".  R5  is  to  the  immediate  right  of  R6./                     R5  R6  के  तǽाल  दाईं  ओर  है।",
+        "hindi": ". R5 is to the immediate right of R6./ R5 R6 के तǽाल दाईं ओर है।"
+      }
+    },
+    "solution": "This is absolutely wrong that \n \n \n \n \n \n \n \nR5 is to the immediate right of R6."
+  },
+  "q_pinnacle_reasoning_ch10_0048": {
+    "englishQuestion": "Five movies F1, F2, F3, F4 and F5 (not necessarily in the same order) are displayed from Monday to Friday. Only one movie is displayed on one day. Each movie is displayed only one time. Movie F1 is displayed on Monday. Two movies are displayed between F4 and F5. F2 is displayed just one day after F5. Which movie is displayed on Wednesday?",
+    "hindiQuestion": "पांच िफ़ʝŐ F1, F2, F3, F4, तथा F5 सोमवार से शुŢवार तक ŮदिशŊत की जाती हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | एक िदन केवल एक ही िफʝ िदखाई जाती है | एक समय में केवल एक ही िफʝ का ŮदशŊन िकया जाता है | िफʝ F1 का ŮदशŊन सोमवार को िकया गया | F4 तथा F5 के बीच दो िफ़ʝŐ ŮदिशŊत की गयी | F2 का ŮदशŊन F5 के ठीक एक िदन बाद िकया गया | बुधवार को कौन सी िफʝ ŮदिशŊत की गयी ?",
+    "options": {
+      "A": {
+        "english": "F2",
+        "hindi": "F2"
+      },
+      "B": {
+        "english": "F3",
+        "hindi": "F3"
+      },
+      "C": {
+        "english": "F4",
+        "hindi": "F4"
+      },
+      "D": {
+        "english": "F5",
+        "hindi": "F5"
+      }
+    },
+    "solution": "F2 movie is displayed on \n \n \n \n \n \n \n \n \nWednesday."
+  },
+  "q_pinnacle_reasoning_ch10_0049": {
+    "englishQuestion": "Five balls L1, L2, L3, L4 and L5 are kept one above the other (not necessarily in the same order). L1 is just above L5 and just below L4. L2 is just above L3 and just below L5. How many balls are above L2?",
+    "hindiQuestion": "पांच गŐदों L1, L2, L3, L4 और L5 को एक के ऊपर एक रखा जाता है (जŝरी नहीं िक उसी क्रम में)। L1, L5 के ठीक ऊपर और L4 के ठीक नीचे है। L2, L3 के ठीक ऊपर और L5 के ठीक नीचे है। L2 के ऊपर िकतनी गŐͤदŐ हैं?",
+    "options": {
+      "A": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "B": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "C": {
+        "english": "4",
+        "hindi": "4"
+      },
+      "D": {
+        "english": "1",
+        "hindi": "1"
+      }
+    },
+    "solution": "Top L4 - L1 - L5 - L2 - L3 Bottom \nThere are 3 balls above L2"
+  },
+  "q_pinnacle_reasoning_ch10_0050": {
+    "englishQuestion": "Six sellers G, H, J, K, C and M are sitting around a circular table facing towards the centre (not necessarily in the same order). M is second to the left of C. H is to the immediate right of G. K is second to the right of J. C is to the immediate left of K. Which of the following pair of sellers represents the immediate neighbours of J and G respectively? ?",
+    "hindiQuestion": "छः िवŢेता G, H, J, K, C और M एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | M, C के बाएं को दूसरे स्थान पर है | H, G के तुरंत दाएं को है | K, J के दाएं को दूसरे स्थान पर है | C, K के तुरंत बाएं को है | िवŢेताओं का निम्न में से कौन सा युƵ क्रमशः J और G के िनकट पड़ोिसयों को दशाŊता है ?",
+    "options": {
+      "A": {
+        "english": "CK,  HM",
+        "hindi": "CK, HM"
+      },
+      "B": {
+        "english": "CM,  HM",
+        "hindi": "CM, HM"
+      },
+      "C": {
+        "english": "KH,  MC",
+        "hindi": "KH, MC"
+      },
+      "D": {
+        "english": "CM,KH",
+        "hindi": "CM,KH"
+      }
+    },
+    "solution": "CM,KH pair of sellers \n \n \n \n \n \n \n \nrepresents the immediate neighbours of J \n \n \n \n \n \nand G respectively."
+  },
+  "q_pinnacle_reasoning_ch10_0051": {
+    "englishQuestion": "Six toys T1, T2, T3, T4, T5 and T6 are kept around a circular path (not necessarily in the same order). T4 is second to the left of T6. T5 is to the immediate left of T2. T1 is second to the right of T3. T3 is to the immediate right of T4. If we start counting the number of toys towards the left of T5, then how many toys are kept between T6 and T5? ?",
+    "hindiQuestion": "छः İखलौने - T1, T2, T3, T4, T5 और T6 एक वृत्ताकार मागŊ पर रखे गए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | T4, T6 के बाएं को दूसरे स्थान पर है | T5, T2 के तुरंत बाएं को है | T1, T3 के दाएं को दूसरा है | T3, T4 के तुरंत दाएं को है | यिद हम T5 के बायीं ओर İखलौनों की िगनती करना शुŝ करŐ, तो T6 और T5 के बीच िकतने İखलौने रखे हैं ?",
+    "options": {
+      "A": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "B": {
+        "english": "0",
+        "hindi": "0"
+      },
+      "C": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "D": {
+        "english": "1",
+        "hindi": "1"
+      }
+    },
+    "solution": "If we start counting the \n \n \n \n \n \n \n \n \nnumber of toys towards the left of T5, \n \n \n \n \n \n \n \n \nthen 1 toy T1 is kept between T5 and T6."
+  },
+  "q_pinnacle_reasoning_ch10_0052": {
+    "englishQuestion": "Six tailors G1, G2, G3, G4, G5 and G6 are sitting around a table facing towards the centre(not necessarily in the same order). G6 is second to the left of G3. G2 is second to the right of G1. G5 goes to the immediate left of G6. Which tailor is sitting second to the right of G3?",
+    "hindiQuestion": "छः दजŎ - G1, G2, G3, G4, G5 और G6 एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे Šए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | G6, G3 के बाएं को दूसरे स्थान पर है | G2, G1 के दाएं को दूसरे स्थान पर है | G5, G6 के तुरंत बाएं है | G3 के दाएं को दूसरे स्थान पर कौन सा दजŎ बैठा है ?",
+    "options": {
+      "A": {
+        "english": "G1",
+        "hindi": "G1"
+      },
+      "B": {
+        "english": "G6",
+        "hindi": "G6"
+      },
+      "C": {
+        "english": "G5",
+        "hindi": "G5"
+      },
+      "D": {
+        "english": "G4",
+        "hindi": "G4"
+      }
+    },
+    "solution": "G4 is sitting second to the \n \n \n \n \n \n \n \n \n \nright of G3."
+  },
+  "q_pinnacle_reasoning_ch10_0053": {
+    "englishQuestion": "Six boys P, Q, R, S, T and G are sitting around a circular table facing towards the centre (not necessarily in the same order). P is to the immediate right of G. Q is second to the left of T. R is second to the left of S. G is second to the right of S. How many boys are sitting between R and T?",
+    "hindiQuestion": "छः लड़के - P, Q, R, S, T और G एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | P, G के तुरंत दाएं को है | Q, T के बाएं को दूसरे स्थान पर है | R, S के बाएं को दूसरे स्थान पर है | G, S के दाएं को दूसरे स्थान पर है | R तथा T के बीच िकतने लड़के बैठे हैं ?",
+    "options": {
+      "A": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "B": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "C": {
+        "english": "3",
+        "hindi": "3"
+      },
+      "D": {
+        "english": "0",
+        "hindi": "0"
+      }
+    },
+    "solution": "2 boys are sitting between R \n \n \n \n \n \n \n \n \nand T."
+  },
+  "q_pinnacle_reasoning_ch10_0054": {
+    "englishQuestion": "Six benches N1, N2, N3, N4, N5 and N6 are kept one above the other (not necessarily in the same order). N4 is above N3 and N5 only. There are four benches between N1 and N5. N2 is three places above N3. Which of the following statements is not correct?",
+    "hindiQuestion": "छः बŐच - N1, N2, N3, N4, N5 और N6 एक के ऊपर एक रखी गयी हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | N4, N3 और N5 के ठीक ऊपर है | N1 और N5 के बीच चार बŐच हैं | N2, N3 से तीन स्थान ऊपर है | निम्न में से कौन सा कथन गलत है ?",
+    "options": {
+      "A": {
+        "english": "N2  is  just  above  N6/  N2  N6  के  ठीक                       ऊपर  है",
+        "hindi": "N2 is just above N6/ N2 N6 के ठीक ऊपर है"
+      },
+      "B": {
+        "english": "There  are  two  bench  between  N3  and                   N2/ N3  और  N2  के  बीच  दो  बŐच  हœ",
+        "hindi": "There are two bench between N3 and N2/ N3 और N2 के बीच दो बŐच हैं"
+      },
+      "C": {
+        "english": "N1  is  between  N6  and  N2/ N1,  N6  और                    N2  के  बीच  है",
+        "hindi": "N1 is between N6 and N2/ N1, N6 और N2 के बीच है"
+      },
+      "D": {
+        "english": "N5  is  at  the  bottom  end/  N5  सबसे  िनचले                     िसरे  पर  है",
+        "hindi": "N5 is at the bottom end/ N5 सबसे िनचले िसरे पर है"
+      }
+    },
+    "solution": "This is absolutely wrong that \n \n \n \n \n \n \n \nN1 is in between N2 and N6. \n \n \n \n \nMon \nS5 \nTue \nS1 \nWed \nS3 \nThurs \nS2 \nFri \nS4 \nClass \nVideo \n5 \n \nM 4 \n4 \n \nM 5 \n3 \n \nM 1 \n2 \n \nM 3 \n1 \n \nM 2 \nMon \nF1 \nTues \nF5 \nWed \nF2 \nThrus \nF3 \nFri \nF4"
+  },
+  "q_pinnacle_reasoning_ch10_0055": {
+    "englishQuestion": "Eight boys P, Q, R, S, T, U, V and W are sitting in a Circular table. P and Q are sitting in front of each other. S is sitting second from the right of P and V is sitting second to the right of Q. T and W are sitting in front of each other. R is sitting between P and V. How many boys are sitting between U and V, When counted from the right of U? 345 Sitting Arrangement",
+    "hindiQuestion": "आठ लड़के - P, Q, R, S, T, U, V और W एक वृत्ताकार मेज के चारो तरफ बैठे Šए हैं | P तथा Q एक दूसरे के सामने हैं | S, P के दाएं को दूसरे स्थान पर तथा V, Q के दाएं को दूसरे स्थान पर है | T और W एक-दूसरे के सामने हैं | R, P और V के बीच में बैठा Šआ है |यिद हम U के दािहनी ओर से िगनना 345 Sitting Arrangement शुŝ करŐ, तो U और V के बीच िकतने लड़के बैठे Šए हैं ?",
+    "options": {
+      "A": {
+        "english": "Three  / तीन",
+        "hindi": "Three / तीन"
+      },
+      "B": {
+        "english": "Five  /  पांच",
+        "hindi": "Five / पांच"
+      },
+      "C": {
+        "english": "Four  /चार",
+        "hindi": "Four /चार"
+      },
+      "D": {
+        "english": "Two  /दो",
+        "hindi": "Two /दो"
+      }
+    },
+    "solution": "If we count from the right side \n \n \n \n \n \n \n \n \n \nof U , two boys are sitting between U and \n \n \n \n \n \n \n \nV."
+  },
+  "q_pinnacle_reasoning_ch10_0056": {
+    "englishQuestion": "Six friends A, B, C, C, E and F are standing in a row facing north. B is exactly in between F and D. E is standing exactly in between A and C. A is not a neighbour of D and F. C is not a neighbour of D but immediate right of F. C is standing in between which of the following?",
+    "hindiQuestion": "छः िमũ - A, B, C, D, E और F उत्तर की ओर मुख करके एक पंक्ति में खड़े हैं | B, F और D के बीच खड़ा है | E, A और C के बीच खड़ा है | A, D और F का पड़ोसी नहीं है | C, D का पड़ोसी नहीं है, लेिकन C, F के एकदम दाएं को है | इनमें से िकन दो लोगों के बीच में C खड़ा है ?",
+    "options": {
+      "A": {
+        "english": "E  and  F",
+        "hindi": "E and F"
+      },
+      "B": {
+        "english": "E  and  B",
+        "hindi": "E and B"
+      },
+      "C": {
+        "english": "D  and  F",
+        "hindi": "D and F"
+      },
+      "D": {
+        "english": "A  and  E",
+        "hindi": "A and E"
+      }
+    },
+    "solution": "C is standing between E and F."
+  },
+  "q_pinnacle_reasoning_ch10_0057": {
+    "englishQuestion": "Compare the salary of employees B, R, G, A, and M in relation to each other: M get more salary than A and G. R's salary is less than three persons. B's salary is the lowest. Whose salary is the second lowest?",
+    "hindiQuestion": "एक दूसरे के संबंध में कमŊचाįरयों के वेतन की तुलना B, R, G, A और M करŐ: M को A और G से अिधक वेतन िमलता है। R का वेतन तीन व्यक्तियों से कम है। B का वेतन सबसे कम है। िकसका वेतन दूसरा सबसे कम है?",
+    "options": {
+      "A": {
+        "english": "R",
+        "hindi": "R"
+      },
+      "B": {
+        "english": "A",
+        "hindi": "A"
+      },
+      "C": {
+        "english": "G",
+        "hindi": "G"
+      },
+      "D": {
+        "english": "M",
+        "hindi": "M"
+      }
+    },
+    "solution": "In 5 employees R’s salary is less than 3 \n \n \n \n \n \n \n \nemployees so R’s salary is the second \n \n \n \n \n \n \n \nlowest in all."
+  },
+  "q_pinnacle_reasoning_ch10_0058": {
+    "englishQuestion": "Amrit is older than Vikrant. Shanaz is older than Joya. Ketan is younger than Joya.Vikrant is older than Shanaz. Who is the youngest in the group?",
+    "hindiQuestion": "अमृत िवŢांत से बड़ा है। जोया से शनाज बड़ी है। केतन जोया से छोटा है। िवŢांत शनाज़ से बड़ा है। समूह में सबसे छोटा कौन है?",
+    "options": {
+      "A": {
+        "english": "Shanaz",
+        "hindi": "Shanaz"
+      },
+      "B": {
+        "english": "Ketan",
+        "hindi": "Ketan"
+      },
+      "C": {
+        "english": "Joya",
+        "hindi": "Joya"
+      },
+      "D": {
+        "english": "Vikrant",
+        "hindi": "Vikrant"
+      }
+    },
+    "solution": "A > V > S > J > K \nKetan is the youngest in the group."
+  },
+  "q_pinnacle_reasoning_ch10_0059": {
+    "englishQuestion": "Eight friends P, Q, R, S, T, U, V and W are sitting around a circular table at equal distances from each other. U is sitting extremely opposite to P. S is between V and Q. R is between U and W. P is sitting to the immediate right of Q. Who is sitting between P and W?",
+    "hindiQuestion": "आठ िमũ - P, Q, R, S, T, U, V और W एक वृत्ताकार मेज के चारो तरफ एक-दूसरे से बराबर दूरी पर बैठे Šए हैं | U, P के एकदम सामने बैठा है | S, V और Q के बीच है | R, U और W के बीच है | P, Q के तुरंत दाएं को बैठा है | P और W के बीच कौन बैठा Šआ है ?",
+    "options": {
+      "A": {
+        "english": "U",
+        "hindi": "U"
+      },
+      "B": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "C": {
+        "english": "V",
+        "hindi": "V"
+      },
+      "D": {
+        "english": "Q",
+        "hindi": "Q"
+      }
+    },
+    "solution": "T is sitting between P and W."
+  },
+  "q_pinnacle_reasoning_ch10_0060": {
+    "englishQuestion": "Six persons A, B, C, D, E and F are sitting in a line. E is between D and F. A is second to the right of F. C is at the extreme right. Who is sitting at second place to the left of C?",
+    "hindiQuestion": "छः व्यक्ति A, B, C, D, E और F एक पंक्ति में बैठे Šए हैं | E, D और F के बीच है | A, F के दाएं को दूसरे स्थान पर है | C एकदम दायीं ओर है | C के बाएं को दूसरे स्थान पर कौन बैठा Šआ है ?",
+    "options": {
+      "A": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "B": {
+        "english": "A",
+        "hindi": "A"
+      },
+      "C": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "D": {
+        "english": "F",
+        "hindi": "F"
+      }
+    },
+    "solution": "B is sitting at second place to \n \n \n \n \n \n \n \nthe left of C."
+  },
+  "q_pinnacle_reasoning_ch10_0061": {
+    "englishQuestion": "Among five rods P, Q, R, S and T, S is lengthier than T. R is shorter than P. Q is lengthier than S. P is lengthier than only one rod. Which rod is second lengthiest among all the rods?",
+    "hindiQuestion": "पांच छड़ों - P, Q, R, S और T में से, S, T से लंबा है | R, P से छोटा है | Q, S से लंबा है| P केवल एक ही छड़ से लंबा है | सभी छड़ों में दूसरा सबसे लंबा छड़ कौन सा है ?",
+    "options": {
+      "A": {
+        "english": "S",
+        "hindi": "S"
+      },
+      "B": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "C": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "D": {
+        "english": "Q",
+        "hindi": "Q"
+      }
+    },
+    "solution": "S is second lengthiest among \n \n \n \n \n \n \n \nall the rods. Diagram in order of shortest \n \n \n \n \n \n \n \n \nto lengthiest."
+  },
+  "q_pinnacle_reasoning_ch10_0062": {
+    "englishQuestion": "Total 42 students are standing in a line facing east. Neha's position is 16th from the right end. Vinita is standing at 26th position from the left. If Mangala is standing at the 7th place to the right of Neha, what is Mangala's position from the left end of the row?",
+    "hindiQuestion": "कुल 42 छाũ पूर्व की ओर एक पंक्ति में खड़े हैं। दािहने छोर से नेहा की İ̾ थित 16वीं है। िवनीता बाईं ओर से 26 वŐ स्थान पर हैं। यिद मंगला नेहा के दािहने से 7वŐ स्थान पर खड़ी है, तो पंक्ति के बाएं छोर से मंगला की İ̾ थित क्या है?",
+    "options": {
+      "A": {
+        "english": "34th",
+        "hindi": "34th"
+      },
+      "B": {
+        "english": "33rd",
+        "hindi": "33rd"
+      },
+      "C": {
+        "english": "35th",
+        "hindi": "35th"
+      },
+      "D": {
+        "english": "32nd",
+        "hindi": "32nd"
+      }
+    },
+    "solution": "Neha is 16th from the right end and \n \n \n \n \n \n \n \n \nmeghna is 7th to the right of Neha. That \n \n \n \n \n \n \n \n \n \nmeans meghna is 9th from the right end. \nPosition on Neha from the left end \n \n \n \n \n \n \n \n=42-9+1=34"
+  },
+  "q_pinnacle_reasoning_ch10_0063": {
+    "englishQuestion": "The houses of eight persons A, B, C, D, E, F, G and H are located in two rows of four houses each. Both rows are facing each other. E's house is between F and G's house. B and H's houses are at corners. B's house is diagonally located to C's house. A's house is facing B's house. Whose house is located between C's and H's house?",
+    "hindiQuestion": "आठ व्यक्तियों - A, B, C, D, E, F, G और H के घर दो पंक्तियों में İ̾ थत हैं िजनमें से Ůȑेक पंक्ति में चार घर हैं | दोनों पंक्तियाँ एक-दूसरे के सामने हैं | E का घर F और G के घर के बीच है | B तथा H के घर िकनारों पर हैं | B का घर C के घर से ितरछी िदशा ( diagonally ) İ̾ थत है | A का घर B के घर के सामने है | C तथा H के घरों के बीच िकसका घर İ̾ थत है ?",
+    "options": {
+      "A": {
+        "english": "A",
+        "hindi": "A"
+      },
+      "B": {
+        "english": "G",
+        "hindi": "G"
+      },
+      "C": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "D": {
+        "english": "D",
+        "hindi": "D"
+      }
+    },
+    "solution": "Clearly option D is the right answer."
+  },
+  "q_pinnacle_reasoning_ch10_0064": {
+    "englishQuestion": "Eight friends A, B, C, D, E, F, G and H are standing in two lines of four students each during school prayer. H is after D. C is just before A. E is after B. C and G are in the front positions. F is between G and B. Which two persons are standing at third position in both the rows? ̾",
+    "hindiQuestion": "आठ िमũ - A, B, C, D, E, F, G और H दो पंक्तियों में बैठे हैं िजनमें से Ůȑेक पंक्ति में चार लोग हैं | H, D के बाद है | C, A के ठीक पहले है | E, B के बाद है | C और G अपनी पंक्तियों में आगे हैं | F, G और B के बीच है | Ůȑेक पंक्ति के तीसरे स्थान पर कौन से दो िमũ बैठे हैं ?",
+    "options": {
+      "A": {
+        "english": "B  and  H",
+        "hindi": "B and H"
+      },
+      "B": {
+        "english": "B  and  F",
+        "hindi": "B and F"
+      },
+      "C": {
+        "english": "D  and  B",
+        "hindi": "D and B"
+      },
+      "D": {
+        "english": "D  and  F",
+        "hindi": "D and F"
+      }
+    },
+    "solution": "D and B are standing at 3rd \n \n \n \n \n \n \n \n \n \n \nplace of each row. In the First row"
+  },
+  "q_pinnacle_reasoning_ch10_0065": {
+    "englishQuestion": "Five persons participated in a race. Kartik finished the race immediately after Prabhjot. Faraz finished just before Lakshya.Anil finished the race just before Faraz. Anil came at third place. Who came second in the race? ̾",
+    "hindiQuestion": "एक दौड़ में पांच व्यक्तियों ने भाग िलया। Ůभजोत के तुरंत बाद काितŊक ने दौड़ पूरी की। फ़राज़ ने लƙा से ठीक पहले समाɑ िकया। अिनल ने फ़राज़ से ठीक पहले समाɑ िकया।अिनल तीसरे स्थान पर आए। दौड़ में दूसरे नंबर पर कौन आया?",
+    "options": {
+      "A": {
+        "english": "Faraz/ फ़राज़",
+        "hindi": "Faraz/ फ़राज़"
+      },
+      "B": {
+        "english": "Lakshya/ लƙा",
+        "hindi": "Lakshya/ लƙा"
+      },
+      "C": {
+        "english": "Kartik/ काितŊक",
+        "hindi": "Kartik/ काितŊक"
+      },
+      "D": {
+        "english": "Prabhjot/ Ůभजोत",
+        "hindi": "Prabhjot/ Ůभजोत"
+      }
+    },
+    "solution": "Sequence of person who finish the race \n \n \n \n \n \n \n \n:Prabhjot, Kartik, Anil, Faraz , Lakshya."
+  },
+  "q_pinnacle_reasoning_ch10_0066": {
+    "englishQuestion": "Some players are standing in a queue. Veer is 15th from the front and Sanket is 20th from the rear end of the queue. Aryan is after Veer but has two players between him and Veer. Sanket is immediately after Aryan. How many players are there in the queue?",
+    "hindiQuestion": "कुछ İखलाड़ी एक पंक्ति में खड़े हैं | वीर आगे से 15वŐ स्थान पर खड़ा है | साकेत पीछे से 20वŐ स्थान पर है | आयŊन, वीर के पीछे है तथा उनके बीच दो İखलाड़ी हैं | साकेत आयŊन के ठीक बाद है | इस पंक्ति में िकतने İखलाड़ी हैं ?",
+    "options": {
+      "A": {
+        "english": "37",
+        "hindi": "37"
+      },
+      "B": {
+        "english": "39",
+        "hindi": "39"
+      },
+      "C": {
+        "english": "38",
+        "hindi": "38"
+      },
+      "D": {
+        "english": "36",
+        "hindi": "36"
+      }
+    },
+    "solution": "Aryan is behind Veer and two \n \n \n \n \n \n \n \n \nplayers are standing between them. So \n \n \n \n \n \n \nAryan = 15 + 3 = 18th from the front and \n \n \n \n \n \n \n \nSaket is just after Aryan So Aryan is 21st \n \n \n \n \n \n \n \nfrom the back. So total students = 18 + 21 \n \n \n \n \n \n \n \n \n- 1 = 38."
+  },
+  "q_pinnacle_reasoning_ch10_0067": {
+    "englishQuestion": "Yuvraj has got more marks than Shakti. Neha has got less marks than Anamika. Swapnil has got more marks than Adil. Yuvraj gets less marks than Adil. Anamika and Shakti has got equal marks. Aditya has got more marks than Adil but less than only one person in the group. Who has got the highest and lowest marks? 346 ?",
+    "hindiQuestion": "युवराज को शİƅ से अिधक अंक िमले हैं | नेहा को अनािमका से कम अंक िमले हैं | ˢिɓल को आिदल से अिधक अंक िमले हैं | युवराज को आिदल से कम अंक िमले हैं | अनािमका और शİƅ को बराबर अंक िमले हैं | आिदȑ को आिदल से अिधक लेिकन समूह में केवल एक ही व्यक्ति से कम अंक िमले हैं | सबसे अिधक एवं सबसे कम अंक िकसको िमले हैं ?",
+    "options": {
+      "A": {
+        "english": "Yuvraj  -  highest,  Neha  -  lowest",
+        "hindi": "Yuvraj - highest, Neha - lowest"
+      },
+      "B": {
+        "english": "Swapnil  -  highest,  Shakti  -  lowest",
+        "hindi": "Swapnil - highest, Shakti - lowest"
+      },
+      "C": {
+        "english": "Swapnil  -  highest,  Neha  -  lowest",
+        "hindi": "Swapnil - highest, Neha - lowest"
+      },
+      "D": {
+        "english": "Adil  -  highest,  Swapnil  -  lowest",
+        "hindi": "Adil - highest, Swapnil - lowest"
+      }
+    },
+    "solution": "Swapnil has got the highest \n \n \n \n \n \n \n \n \nand Neha has got the lowest marks."
+  },
+  "q_pinnacle_reasoning_ch10_0068": {
+    "englishQuestion": "In a class of 70 students, 40 students have passed in philosophy, 36 have passed in History, 10 students have failed in both the subjects. How many students have passed in Philosophy only?",
+    "hindiQuestion": "70 छाũों की एक कƗा में, 40 छाũ दशŊन में पास Šए है, 36 इितहास में उȅीणŊ Šए है, दोनों िवषयों में 10 छाũ असफल रहे हैं। केवल दशŊनशा˓ में िकतने छाũ उȅीणŊ Šए हैं?",
+    "options": {
+      "A": {
+        "english": "16",
+        "hindi": "16"
+      },
+      "B": {
+        "english": "24",
+        "hindi": "24"
+      },
+      "C": {
+        "english": "20",
+        "hindi": "20"
+      },
+      "D": {
+        "english": "34",
+        "hindi": "34"
+      }
+    },
+    "solution": "a+b=philosophy=40 \nb+c=History=36 \nd=failed in both the subjects=10 \na+b+c=70-d=60 \na+2b+c=76 \nb=76-60=16 \na=40-16=24"
+  },
+  "q_pinnacle_reasoning_ch10_0069": {
+    "englishQuestion": "Six persons A, B, C, D, E and F are sitting in two lines with three persons in each line. All are facing north. B is ahead of D. F is behind E. C and D are diagonal to each other. C is just before E. A is after D. Which two persons are sitting at the last positions of both the rows?",
+    "hindiQuestion": "छः व्यक्ति - A, B, C, D, E और F दो पंक्तियों में बैठे Šए हैं, िजनमें से Ůȑेक पंक्ति में तीन लोग हैं | सभी का मुख उत्तर िदशा में है | B, D से आगे है | F, E के पीछे है | C तथा D एक दूसरे के ितरछी िदशा में हैं | C, E से ठीक पहले है | A, D के बाद है | कौन से दो व्यक्ति Ůȑेक पंक्ति में अंितम स्थान पर बैठे Šए हैं ?",
+    "options": {
+      "A": {
+        "english": "D  and  E",
+        "hindi": "D and E"
+      },
+      "B": {
+        "english": "B  and  E",
+        "hindi": "B and E"
+      },
+      "C": {
+        "english": "B  and  F",
+        "hindi": "B and F"
+      },
+      "D": {
+        "english": "A  and  F",
+        "hindi": "A and F"
+      }
+    },
+    "solution": "A and F are sitting at the last \n \n \n \n \n \n \n \n \n \npositions of both the rows."
+  },
+  "q_pinnacle_reasoning_ch10_0070": {
+    "englishQuestion": "Eight friends P, Q, R, S, T, U, V and W are sitting around a circular table at equal distances from each other. S is between V and Q. Also Q is between P and S. V is sitting in north-east and P is sitting in the south direction. W and S, T and V, and Q and R are sitting at exact opposite ends. Who is sitting between R and V? ?",
+    "hindiQuestion": "आठ िमũ - P, Q, R, S, T, U, V और W एक वृत्ताकार मेज के चारो तरफ एक दूसरे से बराबर दूसरी पर बैठे Šए हैं | S, V और Q के बीच है | Q, P और S के बीच है | V उत्तर-पूर्व में बैठा Šआ है | W तथा S, T और V तथा Q एवं R ठीक विपरीत छोरों पर बैठे Šए हैं | R और V के बीच कौन बैठा Šआ है ?",
+    "options": {
+      "A": {
+        "english": "S",
+        "hindi": "S"
+      },
+      "B": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "C": {
+        "english": "W",
+        "hindi": "W"
+      },
+      "D": {
+        "english": "U",
+        "hindi": "U"
+      }
+    },
+    "solution": "U is sitting between R and V."
+  },
+  "q_pinnacle_reasoning_ch10_0071": {
+    "englishQuestion": "Among 45 students of a class, 26 attend Yoga class, 28 attend Gymnastic class and 5 students attend neither Yoga nor Gymnastic class. How many students attend both Yoga and Gymnastic classes?",
+    "hindiQuestion": "एक कƗा के 45 छाũों में से, 26 योग की कƗा में शािमल Šए, 28 िजमनाİːक की कƗा में शािमल Šए तथा 5 छाũ ना तो योग ना ही िजमनाİːक की कƗा में शािमल Šए | िकतने छाũ योग तथा िजमनाİːक दोनों की कƗाओं में शािमल Šए ?",
+    "options": {
+      "A": {
+        "english": "16",
+        "hindi": "16"
+      },
+      "B": {
+        "english": "14",
+        "hindi": "14"
+      },
+      "C": {
+        "english": "12",
+        "hindi": "12"
+      },
+      "D": {
+        "english": "10",
+        "hindi": "10"
+      }
+    },
+    "solution": "Among 45 students of a class , \n \n \n \n \n \n \n \n \n26 attend a Yoga class, 28 attend \n \n \n \n \n \n \n \nGymnastic class , and 5 students attend \n \n \n \n \n \nneither Yoga nor Gymnastic class, which \n \n \n \n \n \n \nmeans 45 - 5 = 40. So 26 + 28 = 54 - 40 = \n \n \n \n \n \n \n \n \n14 are attending both the classes."
+  },
+  "q_pinnacle_reasoning_ch10_0072": {
+    "englishQuestion": "Six persons P, Q, R, S, T and U are standing in a circular form. U is standing between S and T. T is not standing adjacent to P. P is standing between S and R. Who is standing between T and R?",
+    "hindiQuestion": "छः व्यक्ति P, Q, R, S, T और U गोल घेरा बना कर खड़े हैं | U, S और T के बीच खड़ा है | T, P के सिɄकट नहीं खड़ा है | P, S और R के बीच खड़ा है | T और R के बीच कौन खड़ा है ?",
+    "options": {
+      "A": {
+        "english": "U",
+        "hindi": "U"
+      },
+      "B": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "C": {
+        "english": "Q",
+        "hindi": "Q"
+      },
+      "D": {
+        "english": "S",
+        "hindi": "S"
+      }
+    },
+    "solution": "Q is standing between T and \n \n \n \n \n \n \n \n \nR."
+  },
+  "q_pinnacle_reasoning_ch10_0073": {
+    "englishQuestion": "Among five vehicles, A, B, C, D and E, the mileage of D is more than B and C. A's mileage is less than B but more than C. E's mileage is more than A but less than B. Which vehicles's mileage is the highest among all five vehicles?",
+    "hindiQuestion": "पांच वाहनों - A, B, C, D और E में से, D का माइलेज B और C से अिधक है | A का माइलेज B से कम लेिकन C से अिधक है | E का माइलेज A से अिधक लेिकन B से कम है | इन पाँचों में से िकस वाहन का माइलेज सबसे अिधक है ?",
+    "options": {
+      "A": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "B": {
+        "english": "A",
+        "hindi": "A"
+      },
+      "C": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "D": {
+        "english": "E",
+        "hindi": "E"
+      }
+    },
+    "solution": "D vehicle's mileage is the \n \n \n \n \n \n \n \n \nhighest among all five vehicles. The \n \n \n \n \n \n \nsequence of vehicles with the highest \n \n \n \n \n \n \nmileage to the lowest mileage is D , B , E \n \n \n \n \n \n, A and C. \nHighest D - B - E - A - C Lowest"
+  },
+  "q_pinnacle_reasoning_ch10_0074": {
+    "englishQuestion": "Five friends' houses are located in an straight line. Amit's house is not near Dipesh's house. Shayana's house is between Brinda's and Sheetal's house. Brinda's house is between Shayana and Dipesh. Whose houses are located near Sheetal?",
+    "hindiQuestion": "पांच िमũों के घर एक ही पंक्ति में हैं | अिमत का घर दीपेश के घर के समीप नहीं है | शानाया का घर बृंदा तथा शीतल के घर के बीच है | बृंदा का घर शानाया और दीपेश के घर के बीच है | शीतल के घर के समीप िकन लोगों के घर İ̾ थत हैं ?",
+    "options": {
+      "A": {
+        "english": "Shayana  and  Brinda",
+        "hindi": "Shayana and Brinda"
+      },
+      "B": {
+        "english": "Amit  and  Dipesh",
+        "hindi": "Amit and Dipesh"
+      },
+      "C": {
+        "english": "Amit  and  Shayana",
+        "hindi": "Amit and Shayana"
+      },
+      "D": {
+        "english": "Amit  and  Brinda",
+        "hindi": "Amit and Brinda"
+      }
+    },
+    "solution": "Amit and Shayana houses are \n \n \n \n \n \n \n \n \nlocated \n near \n Sheetal’s \n house. \n The \n \n \n \n \n \nsequence of houses from the first to the \n \n \n \n \n \n \n \n \nlast is Dipesh , Brinda , Shayana , Sheetal \n \n \n \n \n \nand Amit."
+  },
+  "q_pinnacle_reasoning_ch10_0075": {
+    "englishQuestion": "M, N, P, R, T, W, F and H are sitting around a circle at the centre, P is third to the left of M and second to the right of T. N is second to the right of P. R is second to the right of W who is second to the right of M. F is not an immediate neighbour of P. Who is to the immediate right of P?",
+    "hindiQuestion": "M, N, P, R, T, W, F और H केंद्र में एक वृत्त के चारों ओर बैठे हैं, P, M के बाएं से तीसरे और T के दाएं से दूसरे स्थान पर है।N, P के दाईं ओर दूसरा है।R, W के दाएं से दूसरे नंबर पर है, जो M के दाएं से दूसरे नंबर पर है, P का तǽाल पड़ोसी नहीं है। P के तǽाल दाएं को कौन है?",
+    "options": {
+      "A": {
+        "english": "H",
+        "hindi": "H"
+      },
+      "B": {
+        "english": "F",
+        "hindi": "F"
+      },
+      "C": {
+        "english": "R",
+        "hindi": "R"
+      },
+      "D": {
+        "english": "W",
+        "hindi": "W"
+      }
+    },
+    "solution": "H is the immediate right of P."
+  },
+  "q_pinnacle_reasoning_ch10_0076": {
+    "englishQuestion": "Six people have different heights. U is the tallest one. P is taller than R, who is shorter than S. Q is shorter than R, but taller than T. Who is the shortest one?",
+    "hindiQuestion": "छह लोगों की अलग-अलग ऊंचाइयां हैं। U सबसे लंबा है।P, R से लंबा है, जो S से छोटा है।Q, R से छोटा है, लेिकन T से लंबा है। सबसे छोटा कौन है?",
+    "options": {
+      "A": {
+        "english": "Q",
+        "hindi": "Q"
+      },
+      "B": {
+        "english": "S",
+        "hindi": "S"
+      },
+      "C": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "D": {
+        "english": "T",
+        "hindi": "T"
+      }
+    },
+    "solution": "U -- S -- P -- R -- Q -- T \nT is the shortest one."
+  },
+  "q_pinnacle_reasoning_ch10_0077": {
+    "englishQuestion": "Satish is 9 ranks ahead of Ajay in the class of 39 students. If Ajay's rank is 15th from the last, then what is Satish's",
+    "hindiQuestion": "rank from the start? सतीश 39 छाũों की कƗा में अजय से 9 रœक आगे है। अगर अजय की रœक आİखरी से 15वीं है, तो सतीश की रœक शुŝ से क्या है?",
+    "options": {
+      "A": {
+        "english": "18th",
+        "hindi": "18th"
+      },
+      "B": {
+        "english": "14th",
+        "hindi": "14th"
+      },
+      "C": {
+        "english": "24th",
+        "hindi": "24th"
+      },
+      "D": {
+        "english": "16th",
+        "hindi": "16th"
+      }
+    },
+    "solution": "Satish rank = 39-15-9+1 = 16"
+  },
+  "q_pinnacle_reasoning_ch10_0078": {
+    "englishQuestion": "Six friends A, B, C, D, E and F are standing in a row. B is exactly in between F and D. E is standing in between A and C. A is not a neighbor of D and F. C is not a neighbor of D but the immediate right of F.In between which of the following pairs , is F standing?",
+    "hindiQuestion": "छः िमũ- A, B, C, D, E और F एक पंक्ति में खड़े हैं | B, F और D के बीच है | E, A और C के बीच है | A, D तथा F का पड़ोसी नहीं है | C, D का पड़ोसी नहीं है लेिकन F के तुरंत दाएं को है | निम्न में से िकन दो लोगों के बीच F खड़ा है ?",
+    "options": {
+      "A": {
+        "english": "C  and  A",
+        "hindi": "C and A"
+      },
+      "B": {
+        "english": "B  and  C",
+        "hindi": "B and C"
+      },
+      "C": {
+        "english": "Band  A",
+        "hindi": "Band A"
+      },
+      "D": {
+        "english": "B  and  D",
+        "hindi": "B and D"
+      }
+    },
+    "solution": "F is standing between B and \n \n \n \n \n \n \n \n \nC."
+  },
+  "q_pinnacle_reasoning_ch10_0079": {
+    "englishQuestion": "Among 6 persons A, B, C, D, E and F, it is known that; A is taller than at-least 3 persons. C is taller than B, who is taller than exactly 1 person. D is not shorter than C. E is taller than A and D is shorter 347 Sitting Arrangement than A. Who is 4 th shortest than A. Who is 4 th shortest person among all?",
+    "hindiQuestion": "6 व्यक्तियों में A, B, C, D, E और F, यह ǒात है िक; A कम से कम 3 व्यक्तियों से लंबा है। C, ठीक 1 व्यक्ति से लंबा है। D, C से छोटा नहीं है। E, A से लंबा है और D, A से छोटा है। A से 4 वाँ सबसे छोटा और कौन 4 से सबसे छोटा व्यक्ति है ?",
+    "options": {
+      "A": {
+        "english": "F",
+        "hindi": "F"
+      },
+      "B": {
+        "english": "C",
+        "hindi": "C"
+      },
+      "C": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "D": {
+        "english": "A",
+        "hindi": "A"
+      }
+    },
+    "solution": "The \n sequence: \n \n \n \n \n \nE>A>D>C>B>F \nSo, D is the fourth shortest person."
+  },
+  "q_pinnacle_reasoning_ch10_0080": {
+    "englishQuestion": "Study the following information carefully and answer the question given below. (i) Eight boys P, Q, R, S, T, U, V and W (ii) P and Q are sitting opposite to each (iii) S is sitting second to the right of P and V is sitting second to the right of Q/ (iv) T and W are sitting opposite to each What is the position of T with respect to",
+    "hindiQuestion": "निम्नलिखित जानकारी का ȯानपूर्वक अȯयन करŐ और नीचे दिए गए प्रश्न का उत्तर दŐ। (i) Eight boys P, Q, R, S, T, U, V and W are sitting in a circular table. आठ लड़के P, Q, R, S, T, U, V और W एक गोलाकार टेबल में बैठे हैं। (ii) P and Q are sitting opposite to each other. / P और Q एक दूसरे के विपरीत बैठे हैं। (iii) S is sitting second to the right of P and V is sitting second to the right of Q/ S, P के दाएं से दूसरे स्थान पर बैठा है और V, Q के दाएं से दूसरे स्थान पर बैठा है (iv) T and W are sitting opposite to each other. / T और W एक दूसरे के विपरीत बैठे हैं। (v) R is sitting between P and V./ R, P और V के बीच में बैठा है। What is the position of T with respect to Q? / Q के संबंध में T की İ̾ थित क्या है?",
+    "options": {
+      "A": {
+        "english": "Second  to  the  left  /  बाईं  ओर  दूसरा",
+        "hindi": "Second to the left / बाईं ओर दूसरा"
+      },
+      "B": {
+        "english": "second  to  the  right  /  दाईं  ओर  दूसरा",
+        "hindi": "second to the right / दाईं ओर दूसरा"
+      },
+      "C": {
+        "english": "Third  to  the  left  /  बाईं  ओर  तीसरा",
+        "hindi": "Third to the left / बाईं ओर तीसरा"
+      },
+      "D": {
+        "english": "Third  to  the  right  /  दाईं  ओर  तीसरा",
+        "hindi": "Third to the right / दाईं ओर तीसरा"
+      }
+    },
+    "solution": "So, T might be in the third to the left of Q \n \n \n \n \n \n \n \n \nor at the immediate to the right of Q. But \n \n \n \n \n \n \n \n \n \nin the option only one option is given that \n \n \n \n \n \n \n \n \nT is third to the left of Q."
+  },
+  "q_pinnacle_reasoning_ch10_0081": {
+    "englishQuestion": "Five persons are sitting in a row facing north C is fourth to the left of M and both have only one neighbour. B is sitting exactly at the middle of the row. N is sitting immediate left of M. V is another person. What is the position of N with respect to V?",
+    "hindiQuestion": "पांच व्यक्ति एक पंक्ति में उत्तर की ओर मुख करके बैठे Šए हैं | C, M के बाएं को चौथा है तथा दोनों का केवल एक ही पड़ोसी है | B इस पंक्ति के ठीक बीच में है | N, M के तुरंत बाएं को है | V एक अɊ व्यक्ति है | V के संबंध में N का स्थान क्या है ?",
+    "options": {
+      "A": {
+        "english": "Second  to  the  right  /  दाईं  ओर  दूसरा",
+        "hindi": "Second to the right / दाईं ओर दूसरा"
+      },
+      "B": {
+        "english": "Immediate  right  /  तǽाल  दाईं",
+        "hindi": "Immediate right / तǽाल दाईं"
+      },
+      "C": {
+        "english": "Second  to  the  left  /  बाईं  ओर  दूसरा",
+        "hindi": "Second to the left / बाईं ओर दूसरा"
+      },
+      "D": {
+        "english": "Immediate  left  /  तǽाल  बाईं",
+        "hindi": "Immediate left / तǽाल बाईं"
+      }
+    },
+    "solution": "N is 2nd to the right of V."
+  },
+  "q_pinnacle_reasoning_ch10_0082": {
+    "englishQuestion": "In a class of 35 children, Aarav's rank is sixth from the top. Ronnie is seven ranks below Aarav. What is Ronnie's rank from the bottom? ̾",
+    "hindiQuestion": "35 बǄों की कƗा में, आरव की रœक शीषŊ से छठे स्थान पर है। रोनी आरव से सात रœक नीचे है। नीचे से रोनी की रœक क्या है ?",
+    "options": {
+      "A": {
+        "english": "30th",
+        "hindi": "30th"
+      },
+      "B": {
+        "english": "23rd",
+        "hindi": "23rd"
+      },
+      "C": {
+        "english": "20th",
+        "hindi": "20th"
+      },
+      "D": {
+        "english": "22nd",
+        "hindi": "22nd"
+      }
+    },
+    "solution": "In the class \nFrom Top… 5 students… Aarav ….6 \n \n \n \n \n \n \nstudents ….Ronnie…. Left students \nLeft students = 35-(5+1+6+1) = 22 \nSo, Ronnie is 23 rd from the bottom."
+  },
+  "q_pinnacle_reasoning_ch10_0083": {
+    "englishQuestion": "Six boys are sitting around a circular table facing centre.M is second to the right of K who is sitting opposite to F.L and O are sitting opposite to each other.Neither L nor R is sitting near F. Who is sitting opposite to R?",
+    "hindiQuestion": "छः लड़के एक गोल घेरा बना कर बैठे हैं तथा उनका मुख केंद्र की ओर है | K, F के सामने है तथा M, K के दाएं को दूसरा है | L और O एक-दूसरे के सामने है | ना तो L ना ही R, F के समीप हैं | R के सामने कौन है ?",
+    "options": {
+      "A": {
+        "english": "F",
+        "hindi": "F"
+      },
+      "B": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "C": {
+        "english": "O",
+        "hindi": "O"
+      },
+      "D": {
+        "english": "M",
+        "hindi": "M"
+      }
+    },
+    "solution": "M is opposite to R."
+  },
+  "q_pinnacle_reasoning_ch10_0084": {
+    "englishQuestion": "Six persons B, C, D, F, G and H are sitting in a row facing the north. B and C are sitting at the ends. F is sitting second to the left of C. D is adjacent to both B and H. What is the position of G with respect to F?",
+    "hindiQuestion": "छः व्यक्ति - B, C, D, F, G और H एक पंक्ति में उत्तर की ओर मुख करके बैठे Šए हैं | B तथा C िकनारों पर हैं | F, C के बाएं को दूसरे स्थान पर है | D, B और H दोनों के सिɄकट है | F के संबंध में G का स्थान कौन सा है ?",
+    "options": {
+      "A": {
+        "english": "Immediate  right  /  तǽाल  दाएं",
+        "hindi": "Immediate right / तǽाल दाएं"
+      },
+      "B": {
+        "english": "Immediate  left   /  तǽाल  बाएं",
+        "hindi": "Immediate left / तǽाल बाएं"
+      },
+      "C": {
+        "english": "Second  to  the  left  /  बाईं  ओर  दूसरा",
+        "hindi": "Second to the left / बाईं ओर दूसरा"
+      },
+      "D": {
+        "english": "Second  to  the  right  /  दायीं  ओर  दूसरा",
+        "hindi": "Second to the right / दायीं ओर दूसरा"
+      }
+    },
+    "solution": "The position of G is the \n \n \n \n \n \n \n \n \n \nimmediate right of F."
+  },
+  "q_pinnacle_reasoning_ch10_0085": {
+    "englishQuestion": "Six friends A, B, C, D, E and F are sitting around a round table facing the centre. A sits second to the right of B, E sits second to the left of C. B doesn't sit adjacent to E.D does not sit opposite to E or C. Who sits to the immediate left of E?",
+    "hindiQuestion": "छः िमũ - A, B, C, D, E और F एक गोलाकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे Šए हैं | A, B के दाएं को दूसरे स्थान पर है | E, C के बाएं को दूसरे स्थान पर है| B, E के सिɄकट नहीं बैठा है | D, E या C के समीप नहीं बैठा है | E के तुरंत बाएं को कौन बैठा Šआ है ?",
+    "options": {
+      "A": {
+        "english": "A",
+        "hindi": "A"
+      },
+      "B": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "C": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "D": {
+        "english": "C",
+        "hindi": "C"
+      }
+    },
+    "solution": "A sits to the immediate left of \n \n \n \n \n \n \n \n \n \nE."
+  },
+  "q_pinnacle_reasoning_ch10_0086": {
+    "englishQuestion": "Five friends A, B, C, D and E bought cars which were priced differently. B's car was costlier than C's car but was less costly than E's car. A's car was costlier than D's car but less costly than C's car. Whose car was the 2nd costliest? /",
+    "hindiQuestion": "पांच िमũ- A, B, C, D और E ने कारŐ ख़रीदी िजनकी कीमतŐ अलग-अलग थीं | B की कार C की कार से महँगी थी लेिकन E की कार से सˑी थी | A की कार D की कार से महँगी थी लेिकन C की कार से सˑी थी | िकसकी कार दूसरी सबसे महँगी कार थी ?",
+    "options": {
+      "A": {
+        "english": "E",
+        "hindi": "E"
+      },
+      "B": {
+        "english": "A",
+        "hindi": "A"
+      },
+      "C": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "D": {
+        "english": "C",
+        "hindi": "C"
+      }
+    },
+    "solution": "B’s car was the 2nd costliest. \n \n \n \n \n \n \n \n \nAnd the sequence from costliest to the \n \n \n \n \n \n \n \ncheapest car is \n \nE , B , C , A and D."
+  },
+  "q_pinnacle_reasoning_ch10_0087": {
+    "englishQuestion": "Among A, B, C, D and each having a different weight, D is heavier than A and E, while M is lighter than C who is lighter than E. Who among them is the heaviest?",
+    "hindiQuestion": "A, B, C, D और E - इन सभी के वज़न अलग-अलग हैं | D का वज़न A और E से अिधक है तथा B का वज़न C से कम है, जो E से हʋा है | सबसे अिधक वज़न िकसका है ?",
+    "options": {
+      "A": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "B": {
+        "english": "C",
+        "hindi": "C"
+      },
+      "C": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "D": {
+        "english": "A",
+        "hindi": "A"
+      }
+    },
+    "solution": "D is the heaviest. The \n \n \n \n \n \n \n \n \nsequence from the heaviest to lowest is D \n \n \n \n \n \n \n, A , E , C and B."
+  },
+  "q_pinnacle_reasoning_ch10_0088": {
+    "englishQuestion": "(i) Five boys A, B, C, D, E are (ii) A is facing south-west and D is facing (iii) B and E are right opposite A and D (iv) C is equidistant between D and B. / C,",
+    "hindiQuestion": "sitting in a park in a circle. / पांच लड़के A, B, C, D, E एक वृताकार पाकŊ में बैठे हैं। (ii) A is facing south-west and D is facing south-east. / A का मुख दक्षिण-पश्चिम की तरफ है और D का मुख दक्षिण-पूर्व की तरफ है। (iii) B and E are right opposite A and D respectively. / B और E क्रमशः A और D के ठीक विपरीत हैं। (iv) C is equidistant between D and B. / C, D और B के बीच समान दुरी पर है। In which direction C is facing? / C का मुख िकस िदशा में है?",
+    "options": {
+      "A": {
+        "english": "West  /  पिʮम",
+        "hindi": "West / पश्चिम"
+      },
+      "B": {
+        "english": "South  /  दिƗण",
+        "hindi": "South / दक्षिण"
+      },
+      "C": {
+        "english": "East  /  पूवŊ",
+        "hindi": "East / पूर्व"
+      },
+      "D": {
+        "english": "North  /  उȅर",
+        "hindi": "North / उत्तर"
+      }
+    },
+    "solution": "According to the above figure, C is facing \n \n \n \n \n \n \nEast."
+  },
+  "q_pinnacle_reasoning_ch10_0089": {
+    "englishQuestion": "Seven kids M, N, O, P, Q, R and S are standing in a row facing north. S is to the immediate right of P and to the immediate left of N. M is on the immediate right of O. M and P have one kid standing between them. Q and N have two kids between them. P and R have also two kids standing between them. Who is exactly in the middle?",
+    "hindiQuestion": "सात बǄे M, N, O, P, Q, R और S उत्तर की ओर एक पंक्ति में खड़े हैं। S, P के तǽाल दाएं और N के बाएं है। M, O के तǽाल दाईं ओर है। M और P के बीच एक बǄा खड़ा है। Q और N के बीच दो बǄे हैं। P और R के बीच दो बǄे भी हैं। िबलकुल बीच में कौन है?",
+    "options": {
+      "A": {
+        "english": "M",
+        "hindi": "M"
+      },
+      "B": {
+        "english": "S",
+        "hindi": "S"
+      },
+      "C": {
+        "english": "O",
+        "hindi": "O"
+      },
+      "D": {
+        "english": "P",
+        "hindi": "P"
+      }
+    },
+    "solution": "From the diagram, it can be observed that \n \n \n \n \n \n \n \nP is exactly in the middle"
+  },
+  "q_pinnacle_reasoning_ch10_0090": {
+    "englishQuestion": "There are five cousins namely Ashish, Manish, Kailash, Daksh, and Lalit of different ages. All these cousins are arranged in the descending order of their ages. Ashish, brother of Kailash, is 348 the second youngest and is 19 years old. Daksh, brother of Lalit, is between Kailash and Manish. Kailash is 42 years old and Ashish is 20 years younger than Daksh. Who among the following is the youngest?",
+    "hindiQuestion": "पांच चचेरे भाई - आशीष, मनीष, कैलाश, दƗ और लिलत हैं िजनकी उŲ अलग-अलग है | इन सभी भाइयों को इनकी उŲ के अनुसार अवरोही क्रम में खड़ा िकया जाता है | आशीष, जो कैलाश का भाई है, दूसरा सबसे छोटा है एवं 19 वषŊ का है | दƗ, जो लिलत का भाई है, कैलाश और मनीष के बीच है | कैलाश 42 वषŊ का है तथा आशीष दƗ से 20 वषŊ छोटा है | इनमें से सबसे छोटा कौन है ?",
+    "options": {
+      "A": {
+        "english": "Ashish/ आशीष",
+        "hindi": "Ashish/ आशीष"
+      },
+      "B": {
+        "english": "Daksh/ दƗ",
+        "hindi": "Daksh/ दƗ"
+      },
+      "C": {
+        "english": "Lalit/ लिलत",
+        "hindi": "Lalit/ लिलत"
+      },
+      "D": {
+        "english": "Manish/ मनीष",
+        "hindi": "Manish/ मनीष"
+      }
+    },
+    "solution": "Lalit is the youngest. \nKailash - 42 \nDaksh - 39 \nManish - \n \nAshish - 19 \nLalit -"
+  },
+  "q_pinnacle_reasoning_ch10_0091": {
+    "englishQuestion": "There are five different cottages, M to Q in a row. M is to the right of N and Q is to the left of O and right of M. N is to the right of P. The first cottage from the left is______.",
+    "hindiQuestion": "M से लेकर Q तक एक पंक्ति में पांच अलग-अलग कॉटेज हैं | M, N के दाएं को है तथा Q, O के बाएं को तथा M के दाएं को है | N, P के दाएं को है | बायीं ओर से पहला कॉटेज है ______",
+    "options": {
+      "A": {
+        "english": "M",
+        "hindi": "M"
+      },
+      "B": {
+        "english": "N",
+        "hindi": "N"
+      },
+      "C": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "D": {
+        "english": "Q",
+        "hindi": "Q"
+      }
+    },
+    "solution": "The first cottage from the left \n \n \n \n \n \n \n \n \n \nis P."
+  },
+  "q_pinnacle_reasoning_ch10_0092": {
+    "englishQuestion": "Harmeet, Ishpreet, Jaspreet, Karpreet and Rashmeet are sitting on a bench facing North. Jaspreet is between Ishpreet and Rashmeet. Harmeet is to the right of Ishpreet. Karpreet is not next to Rashmeet. Who is to the right of Harmeet?",
+    "hindiQuestion": "हरमीत, इशŮीत, जसŮीत, करŮीत तथा रसŮीत उत्तर की ओर मुख करके एक बŐच पर बैठे Šए हैं | जसŮीत, इशŮीत और रसŮीत के बीच है | हरमीत, इशŮीत के दाएं को है | करŮीत, रसŮीत के बगल में नहीं है | हरमीत के दाएं को कौन है ?",
+    "options": {
+      "A": {
+        "english": "Karpreet",
+        "hindi": "Karpreet"
+      },
+      "B": {
+        "english": "Ishpreet",
+        "hindi": "Ishpreet"
+      },
+      "C": {
+        "english": "Rashmeet",
+        "hindi": "Rashmeet"
+      },
+      "D": {
+        "english": "Jaspreet",
+        "hindi": "Jaspreet"
+      }
+    },
+    "solution": "Using the given equation the \n \n \n \n \n \n \n \nSequence will be as : \n R J I H K \nTherefore, Karpreet is to the right of \n \n \n \n \n \n \n \nHarmeet."
+  },
+  "q_pinnacle_reasoning_ch10_0093": {
+    "englishQuestion": "Six plays A,B,C,D,E and F are to be staged on 6 days of the week starting from Monday and ending on Saturday. Play D is staged on Tuesday. Play A, C,F are staged one after the other in the same order. Play E is not staged on a Monday or a Wednesday. Which plays are staged Monday & Wednesday respectively?",
+    "hindiQuestion": "नाटक A, B, C, D, E और F का मंचन सोमवार से शुŝ होकर शिनवार को समाɑ होने वाले सɑाह के 6 िदनों में िकया जाना है । मंगलवार को नाटक D का मंचन िकया जाता है। एक ही क्रम में एक के बाद एक नाटक C, F का मंचन िकया जाता है। नाटक E का मंचन सोमवार या बुधवार को नहीं होता है। िकन नाटकों का मंचन सोमवार को होता है ?",
+    "options": {
+      "A": {
+        "english": "B  &  A",
+        "hindi": "B & A"
+      },
+      "B": {
+        "english": "A  &  F",
+        "hindi": "A & F"
+      },
+      "C": {
+        "english": "B  &  C",
+        "hindi": "B & C"
+      },
+      "D": {
+        "english": "C  &  E",
+        "hindi": "C & E"
+      }
+    },
+    "solution": "From the given information, we \n \n \n \n \n \n \n \n \ncan conclude: \n \nB Staged on Monday and A staged on \n \n \n \n \n \n \n \n \nWednesday."
+  },
+  "q_pinnacle_reasoning_ch10_0094": {
+    "englishQuestion": "A group of friends A,B,C,D and E are sitting in a row. D is sitting to B's immediate right. C is sitting to E's immediate left and is at one of the ends. If A is not sitting at either end, who among these friends are sitting at the two ends of the sequence?",
+    "hindiQuestion": "एक समूह के पांच िमũ - A, B, C, D और E किसी पंक्ति में बैठे Šए हैं | D, B के तुरंत दाएं को है | C, E के तुरंत बाएं को है तथा किसी एक छोर पर बैठा है | यिद A किसी भी छोर पर नहीं है, तो कौन से दो िमũ िकनारों पर बैठे Šए हैं ?",
+    "options": {
+      "A": {
+        "english": "B  and  C",
+        "hindi": "B and C"
+      },
+      "B": {
+        "english": "D  and  E",
+        "hindi": "D and E"
+      },
+      "C": {
+        "english": "B  and  E",
+        "hindi": "B and E"
+      },
+      "D": {
+        "english": "D  and  C",
+        "hindi": "D and C"
+      }
+    },
+    "solution": "Using the given information, \n \n \n \n \n \n \nwe can conclude: \n \n \n D and C are sitting on the corners."
+  },
+  "q_pinnacle_reasoning_ch10_0095": {
+    "englishQuestion": "B,I,J,T,A and D are sitting around a round table facing the centre. D is to the right of I who is opposite of T, B is not next to J, who is to the right of T. Who is to the left of A?",
+    "hindiQuestion": "B, I, J, T, A और D एक वृत्ताकार मेज के चारो तरफ बैठे Šए हैं | D, I के दाएं को है जो T के सामने है | B, J का पड़ोसी नहीं है जो T के दाएं को है | A के बाएं को कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "B": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "C": {
+        "english": "I",
+        "hindi": "I"
+      },
+      "D": {
+        "english": "J",
+        "hindi": "J"
+      }
+    },
+    "solution": "J is sitting to the left of A."
+  },
+  "q_pinnacle_reasoning_ch10_0096": {
+    "englishQuestion": "(i) K,L,M,N,O,P and Q are sitting around a circular table facing the centre. (ii) L sits between N and O. (iii) K is third to the left of O. (iv) Q is second to the left of M who is to the left of P. Which of the following pairs has the first person sitting to the immediate left of the second person?",
+    "hindiQuestion": "(i) K, L, M, N, O, P और Q एक वृत्ताकार मेज के चारो तरफ बैठे Šए हैं | (ii) L, N तथा O के बीच बैठा है | (iii) K, O के बाएं को तीसरे स्थान पर बैठा है | (iv) Q, M के बाएं को दूसरे स्थान पर है , जो P के तुरंत बाएं को है | निम्न में से िकस युƵ में, पहला व्यक्ति दूसरे व्यक्ति के बायीं ओर बैठा Šआ है ?",
+    "options": {
+      "A": {
+        "english": "LN",
+        "hindi": "LN"
+      },
+      "B": {
+        "english": "QN",
+        "hindi": "QN"
+      },
+      "C": {
+        "english": "LO",
+        "hindi": "LO"
+      },
+      "D": {
+        "english": "MK",
+        "hindi": "MK"
+      }
+    },
+    "solution": "In the pair LN , the first \n \n \n \n \n \n \n \n \n \nperson is sitting to the immediate left of \n \n \n \n \n \n \n \n \nthe 2nd person."
+  },
+  "q_pinnacle_reasoning_ch10_0097": {
+    "englishQuestion": "A is taller than F, three persons. C is shorter than D, who is the tallest. B is taller than E. C is neither shorter than F nor taller than A.Who is the second shortest person among the given?",
+    "hindiQuestion": "A, F से तीन व्यक्ति से लंबा है।C, D से छोटा है, जो सबसे लंबा है। B, E से लंबा है।C, F से न तो छोटा है और न ही A से लंबा है।दिए गए लोगों में दूसरा सबसे छोटा व्यक्ति कौन है?",
+    "options": {
+      "A": {
+        "english": "C",
+        "hindi": "C"
+      },
+      "B": {
+        "english": "A",
+        "hindi": "A"
+      },
+      "C": {
+        "english": "E",
+        "hindi": "E"
+      },
+      "D": {
+        "english": "B",
+        "hindi": "B"
+      }
+    },
+    "solution": "Using all given information, we \n \n \n \n \n \n \n \ncan conclude: \n \nD> A> >C>F>B> E \n \nSo, B is the second shortest person among \n \n \n \n \n \n \nthe given arrangements."
+  },
+  "q_pinnacle_reasoning_ch10_0098": {
+    "englishQuestion": "P, Q, R, S, T, U are 6 persons sitting in a straight line facing north but not in the same order. There are sitting between the P and T,S is to the immediate right of P,R is at the extreme right. Q is second to the left of P. U is sitting between Q & P. Who is sitting at the left end?",
+    "hindiQuestion": "P, Q, R, S, T और U एक सीधी पंक्ति में उत्तर की ओर मुख करके बैठे Šए हैं, लेिकन ज़ŝरी नहीं िक इसी क्रम में | P और T के बीच दो व्यक्ति बैठे Šए हैं | S, P के तुरंत बाएं को है | R दायीं छोर पर है | Q, P के बाएं को दूसरा है | R, Q और P के बीच बैठा है | बायीं छोर पर कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "S",
+        "hindi": "S"
+      },
+      "B": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "C": {
+        "english": "Q",
+        "hindi": "Q"
+      },
+      "D": {
+        "english": "P",
+        "hindi": "P"
+      }
+    },
+    "solution": "Using all given information, we \n \n \n \n \n \n \n \ncan conclude: \n \n T is sitting at the left end."
+  },
+  "q_pinnacle_reasoning_ch10_0099": {
+    "englishQuestion": "Seven children A, B, C, D, E, F and G are standing in a queue from top to bottom. E is at fifth place. Only C is between A and B. G is at bottom. B is three places after F. What is the position of D from top?",
+    "hindiQuestion": "सात बǄे - A, B, C, D, E, F और G एक कतार में ऊपर से नीचे तक खड़े हैं | E 5वŐ स्थान पर है | A और B के बीच केवल C है | G अंितम में है | B, F से तीन स्थान पीछे है | शीषŊ से D का स्थान क्या है ?",
+    "options": {
+      "A": {
+        "english": "Sixth",
+        "hindi": "Sixth"
+      },
+      "B": {
+        "english": "Fourth",
+        "hindi": "Fourth"
+      },
+      "C": {
+        "english": "Second",
+        "hindi": "Second"
+      },
+      "D": {
+        "english": "Last",
+        "hindi": "Last"
+      }
+    },
+    "solution": "D is at the 6th position from \n \n \n \n \n \n \n \n \n \n \nthe top."
+  },
+  "q_pinnacle_reasoning_ch10_0100": {
+    "englishQuestion": "Radhika ranks sixteenth from the top and thirteenth from the bottom in a certain examination. How many students are there in the class?",
+    "hindiQuestion": "रािधका एक िनिʮत परीƗा में शीषŊ से सोलहवीं और नीचे से तेरहवीं रœक पर हैं। कƗा में िकतने छाũ हैं?",
+    "options": {
+      "A": {
+        "english": "27",
+        "hindi": "27"
+      },
+      "B": {
+        "english": "29",
+        "hindi": "29"
+      },
+      "C": {
+        "english": "28",
+        "hindi": "28"
+      },
+      "D": {
+        "english": "30",
+        "hindi": "30"
+      }
+    },
+    "solution": "Number of Students = \n \n \n \n \n \n \n16+13-1 = 28"
+  },
+  "q_pinnacle_reasoning_ch10_0101": {
+    "englishQuestion": "Priya, Dinesh, Mahi, Chetan, Jay, Bravo, Amit and Alok are sitting around a circle facing the centre. Bravo is third to the right of Mahi and second to the left of Alok. Chetan is not an immediate neighbour of Mahi or Alok. Jay is on the immediate right of Priya, who is second to the right of Amit.Who sits to the immediate right of Alok? 349 Sitting Arrangement",
+    "hindiQuestion": "िŮया, िदनेश, मािह, चेतन, जय, Űावो, अिमत और आलोक किसी गोल मेज के चारो तरफ केंद्र की ओर मुख करके बैठे Šए हैं | Űावो, मािह के दाएं को तीसरा तथा आलोक के बाएं को दूसरा है | चेतन, 349 Sitting Arrangement मािह तथा आलोक का पड़ोसी नहीं है | जय, िŮया के तुरंत दाएं को है, जो अिमत के दाएं को दूसरी है | आलोक के तुरंत दाएं को कौन बैठा/बैठी है ?",
+    "options": {
+      "A": {
+        "english": "Mahi",
+        "hindi": "Mahi"
+      },
+      "B": {
+        "english": "Chetan",
+        "hindi": "Chetan"
+      },
+      "C": {
+        "english": "Priya",
+        "hindi": "Priya"
+      },
+      "D": {
+        "english": "Bravo",
+        "hindi": "Bravo"
+      }
+    },
+    "solution": "Priya is sitting to the \n \n \n \n \n \n \n \nimmediate right of Alok."
+  },
+  "q_pinnacle_reasoning_ch10_0102": {
+    "englishQuestion": "L, M, N, O, P and Q are sitting around a round table facing the centre. P is opposite Q, Q is to the left of L, O is not next to N, N is to the opposite L. Who is to the right of M?",
+    "hindiQuestion": "L, M, N, O, P और Q एक गोल मेज के चारो तरफ केंद्र की ओर मुख करके बैठे Šए हैं | P, Q के सामने है | Q, L के बाएं को है | O, N का पड़ोसी नहीं है | N, L के सामने है | M के दाएं कौन है ?",
+    "options": {
+      "A": {
+        "english": "P",
+        "hindi": "P"
+      },
+      "B": {
+        "english": "Q",
+        "hindi": "Q"
+      },
+      "C": {
+        "english": "N",
+        "hindi": "N"
+      },
+      "D": {
+        "english": "L",
+        "hindi": "L"
+      }
+    },
+    "solution": "Q is to the right of M."
+  },
+  "q_pinnacle_reasoning_ch10_0103": {
+    "englishQuestion": "V, W, X, Y and Z are sitting in a row facing north. W is between V and X. Y is to the left of Z, who is at one end. X sits in the centre of the row. Who is to the right of X?",
+    "hindiQuestion": "V, W, X, Y और Z एक पंक्ति में उत्तर की ओर मुख करके बैठे Šए हैं | W, V और X के बीच है | Y, Z के बाएं को है | Z किसी एक छोर पर है | X केंद्र पर है | X के दाएं को कौन है ?",
+    "options": {
+      "A": {
+        "english": "Z",
+        "hindi": "Z"
+      },
+      "B": {
+        "english": "V",
+        "hindi": "V"
+      },
+      "C": {
+        "english": "W",
+        "hindi": "W"
+      },
+      "D": {
+        "english": "Y",
+        "hindi": "Y"
+      }
+    },
+    "solution": "Y is to the right of X."
+  },
+  "q_pinnacle_reasoning_ch10_0104": {
+    "englishQuestion": "Five persons are standing in one line facing north. One of the two persons at extreme end is a painter and the other is a basketball player. A lawyer is to the right of a student. A dancer is to the left of the basketball player. What is the position of lawyer from the left.",
+    "hindiQuestion": "पांच व्यक्ति एक पंक्ति में उत्तर की ओर मुख करके खड़े हैं | िकनारों पर खड़े दो व्यक्तियों में से एक िचũकार है तथा दूसरा बाˋेटबॉल İखलाड़ी है | वकील, छाũ के दाएं को खड़ा है| नतŊक, बाˋेटबॉल İखलाड़ी के बाएं को खड़ा है | बायीं ओर से वकील का स्थान कौन सा है ?",
+    "options": {
+      "A": {
+        "english": "5th",
+        "hindi": "5th"
+      },
+      "B": {
+        "english": "3rd",
+        "hindi": "3rd"
+      },
+      "C": {
+        "english": "2nd",
+        "hindi": "2nd"
+      },
+      "D": {
+        "english": "4th",
+        "hindi": "4th"
+      }
+    },
+    "solution": "From the given information, \n \n \n \n \n \n \nwe can conclude: \n \n \nLawyer is at the 3rd position from the left \n \n \n \n \n \n \n \nend."
+  },
+  "q_pinnacle_reasoning_ch10_0105": {
+    "englishQuestion": "Six performers Akash, Bishal, Nisha, Diksha, Esha and Firoz will perform on one day each of the six days of the week starting from Monday and ending on Saturday. Nisha will perform on Tuesday. Akash, Firoz and Bishal will perform one after the other in the same order. Diksha will not perform on Monday or Wednesday. How many performers perform after Akash?",
+    "hindiQuestion": "छह कलाकार आकाश, िबशाल, िनशा, दीƗा, एशा और िफरोज सɑाह के छह िदनों में से एक िदन सोमवार से शुŝ होकर शिनवार को समाɑ होंगे। िनशा मंगलवार को ŮदशŊन करŐगी। आकाश, िफरोज और िबशाल एक ही क्रम में एक के बाद एक ŮदशŊन करŐगे। दीƗा सोमवार या बुधवार को ŮदशŊन नहीं करŐगे। आकाश के बाद िकतने कलाकार ŮदशŊन करते हैं?",
+    "options": {
+      "A": {
+        "english": "4",
+        "hindi": "4"
+      },
+      "B": {
+        "english": "2",
+        "hindi": "2"
+      },
+      "C": {
+        "english": "1",
+        "hindi": "1"
+      },
+      "D": {
+        "english": "3",
+        "hindi": "3"
+      }
+    },
+    "solution": "(d) The final arrangement as per \n \n \n \n \n \n \n \ngiven information: \n \n \n \nMon \nday \nTues \nday \nWedn \nesday \nThur \nsday \nFri \nday \nSatu \nrday \nB \nD \nA \nC \nF \nE \nMonday \nEsha \nTuesday \nNisha \nWednesday \nAkash \nThursday \nFiroz \nFriday \nBishal \nAfter \n Akash, three performers will \n \n \n \n \n \nperform."
+  },
+  "q_pinnacle_reasoning_ch10_0106": {
+    "englishQuestion": "F1, F2, F3, F4 and F5 are sitting on a bench. F4 sits to the immediate left of F2. F3 sits to the immediate right of F5. F1 is sitting at one of the corners and F2 has only one neighbour. Then who among the following friends is sitting in the middle with two friends at both the ends?",
+    "hindiQuestion": "F1, F2, F3, F4 तथा F5 एक बŐच पर बैठे हैं | F4, F2 के तुरंत बाएं को बैठा है | F3, F5 के तुरंत दाएं को है | F1 किसी एक छोर पर है तथा F2 का केवल एक ही पड़ोसी है | बीच में कौन बैठा है िजसके दोनों तरफ दो-दो िमũ हैं ?",
+    "options": {
+      "A": {
+        "english": "F2",
+        "hindi": "F2"
+      },
+      "B": {
+        "english": "F3",
+        "hindi": "F3"
+      },
+      "C": {
+        "english": "F5",
+        "hindi": "F5"
+      },
+      "D": {
+        "english": "F4",
+        "hindi": "F4"
+      }
+    },
+    "solution": "(b) As per the given information, \n \n \n \n \n \n \n \nwe can conclude the sequence of the line \n \n \n \n \n \n \n \n \nassuming all are facing north direction: \n \n \nF3 is in the middle."
+  },
+  "q_pinnacle_reasoning_ch10_0107": {
+    "englishQuestion": "R,N, O, W, Q and C are sitting around a circular table facing inside the centre. R is sitting immediately to the left of W, who is facing O. O is sitting immediately to the left to the N. C is not an immediate neighbour of W. Who is sitting to the left of Q?",
+    "hindiQuestion": "R, N, O, W, Q और C एक गोल मेज के चारो तरफ केंद्र की ओर मुख करके बैठे Šए हैं | R, W के बाएं को दूसरा है , जो O के सामने है | C, W का पड़ोसी नहीं है तथा N, R के सामने नहीं है | Q के बाएं को कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "O",
+        "hindi": "O"
+      },
+      "B": {
+        "english": "W",
+        "hindi": "W"
+      },
+      "C": {
+        "english": "R",
+        "hindi": "R"
+      },
+      "D": {
+        "english": "C",
+        "hindi": "C"
+      }
+    },
+    "solution": "(b) W is sitting to the left of Q."
+  },
+  "q_pinnacle_reasoning_ch10_0108": {
+    "englishQuestion": "Eight executives J, K, L, M, N, O, P, & Q are sitting around a circular table for a meeting. J is second to the right of P who is third to the right of K. M is second to the left of O who sits between P & J, L is not a neighbour of K or N. Who is to the immediate left of L?",
+    "hindiQuestion": "आठ कायŊकारी अिधकारी J, K, L, M, N, O, P और Q बैठक करने के िलए एक गोल मेज के चारो तरफ बैठे Šए हैं | J, P के दाएं को दूसरा है जो K के दाएं को तीसरा है | M, O के बाएं दूसरा है जो P तथा J के बीच बैठा है | L, K या N का पड़ोसी नहीं है | L के तुरंत बाएं को कौन है ?",
+    "options": {
+      "A": {
+        "english": "Q",
+        "hindi": "Q"
+      },
+      "B": {
+        "english": "N",
+        "hindi": "N"
+      },
+      "C": {
+        "english": "J",
+        "hindi": "J"
+      },
+      "D": {
+        "english": "K",
+        "hindi": "K"
+      }
+    },
+    "solution": "(c) J is to the immediate left of \n \n \n \n \n \n \n \n \n \nL."
+  },
+  "q_pinnacle_reasoning_ch10_0109": {
+    "englishQuestion": "(i) A,B,C,D,E and T are standing in a row facing south. (ii) A is third to the right of E. (iii) C is fourth from one end of the row. (iv) B who is in between A and D, is third to the Left of T. (v) D is at the left end. Which of the following is true?",
+    "hindiQuestion": "(i) A,B,C,D,E और T दक्षिण की ओर मुख करके एक पंक्ति में खड़े हैं | (ii) A, E के दाएं को तीसरा है | (iii) C पंक्ति के एक छोर से चौथा है | (iv) B, जो A और D के बीच है, T के बाएं को तीसरा है | (v ) D बायीं छोर पर है | निम्न में से क्या सही है ?",
+    "options": {
+      "A": {
+        "english": "C  is  in  between  T  and  E  /  C,  T  और  E  के                          बीच  मŐ  है",
+        "hindi": "C is in between T and E / C, T और E के बीच में है"
+      },
+      "B": {
+        "english": "C  is  second  to  the  right  of  B  /  C,  B  के  दाईं                          ओर  है",
+        "hindi": "C is second to the right of B / C, B के दाईं ओर है"
+      },
+      "C": {
+        "english": "E  is  immediate  right  of  T  /  E,  T  के  ठीक                       दायŐ  है",
+        "hindi": "E is immediate right of T / E, T के ठीक दाएं है"
+      },
+      "D": {
+        "english": "A  is  immediate  left  of  C  /  C  के  तुरंत  बायŐ  है",
+        "hindi": "A is immediate left of C / C के तुरंत बाएं है"
+      }
+    },
+    "solution": "(a) C is between T and E. This is \n \n \n \n \n \n \n \ntrue. \nFrom north view point : \n \nFrom south view point :"
+  },
+  "q_pinnacle_reasoning_ch10_0110": {
+    "englishQuestion": "Jassi, Akash, Garima, Nitin, Vaishali and Kailash are sitting around a round table facing the centre. Kailash is to the left of Garima, who is opposite Akash, Vaishali is between Akash and Jassi. Who is to the left of Nitin?",
+    "hindiQuestion": "जˣी, आकाश, गįरमा, िनितन, वैशाली और कैलाश केंद्र की ओर मुख करके एक गोल मेज के चारो तरफ बैठे Šए हैं | कैलाश, गįरमा के बाएं को है, जो आकाश के सामने है | वैशाली, आकाश और जˣी के बीच है | िनितन के बाएं को कौन है ?",
+    "options": {
+      "A": {
+        "english": "Vaishali  / वैशाली",
+        "hindi": "Vaishali / वैशाली"
+      },
+      "B": {
+        "english": "Garima  / गįरमा",
+        "hindi": "Garima / गįरमा"
+      },
+      "C": {
+        "english": "Akash  / आकाश",
+        "hindi": "Akash / आकाश"
+      },
+      "D": {
+        "english": "Kailash  /  कैलाश",
+        "hindi": "Kailash / कैलाश"
+      }
+    },
+    "solution": "(c) Akash is to the left of Nitin."
+  },
+  "q_pinnacle_reasoning_ch10_0111": {
+    "englishQuestion": "Four students are sitting on a bench in a classroom facing North. Sarita is sitting to the left of Raman. Manish is sitting to the right side of Raman. Rakesh is sitting between Raman and Manish. Who is sitting in the second position from the left hand side on the bench?",
+    "hindiQuestion": "चार छाũ एक कƗा में बŐच पर उत्तर की ओर मुख करके बैठे Šए हैं | सįरता, रमण के बाएं को बैठी है | मनीष, रमण के दायीं ओर बैठा है | राकेश रमण और मनीष के बीच बैठा है | बŐच पर बायीं ओर से दूसरे स्थान पर कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "Manish  / मनीष",
+        "hindi": "Manish / मनीष"
+      },
+      "B": {
+        "english": "Sarita  / सįरता",
+        "hindi": "Sarita / सįरता"
+      },
+      "C": {
+        "english": "Rakesh  / राकेश",
+        "hindi": "Rakesh / राकेश"
+      },
+      "D": {
+        "english": "Raman  / रमण",
+        "hindi": "Raman / रमण"
+      }
+    },
+    "solution": "Using the given information, \n \n \n \n \n \n \n \nwe can conclude that : \n \nSarita Raman Rakesh Manish \nSo, Raman is sitting in the second \n \n \n \n \n \n \n \nposition from the left hand \n \nside on the bench."
+  },
+  "q_pinnacle_reasoning_ch10_0112": {
+    "englishQuestion": "Pratik, Esha, Rashmi, Sakshi and Trisha are sitting on a bench facing North. Trisha & Esha are sitting together, Trisha & Rashmi are sitting together, Pratik is on the extreme left, Esha is second from extreme right. Who is sitting between Pratik & Esha? 350",
+    "hindiQuestion": "Ůतीक, ईशा, रİʳ, साƗी तथा तृषा उत्तर की ओर मुख करके एक बŐच पर बैठे Šए हैं | तृषा तथा ईशा 350 एक साथ है | तृषा तथा रİʳ एक साथ बैठी है | Ůतीक सबसे बायीं ओर है | ईशा दायीं ओर से दूसरी है | Ůतीक और ईशा के बीच कौन बैठा/बैठी है ?",
+    "options": {
+      "A": {
+        "english": "Rashmi  and  Trisha  /  रİʳ  और  तृषा",
+        "hindi": "Rashmi and Trisha / रİʳ और तृषा"
+      },
+      "B": {
+        "english": "Rashmi  and  Sakshi  /  रİʳ  और  साƗी",
+        "hindi": "Rashmi and Sakshi / रİʳ और साƗी"
+      },
+      "C": {
+        "english": "Esha  and  Trisha  /  ईशा  और  तृषा",
+        "hindi": "Esha and Trisha / ईशा और तृषा"
+      },
+      "D": {
+        "english": "Trisha  and  Sakshi  /  तृषा  और  साƗी",
+        "hindi": "Trisha and Sakshi / तृषा और साƗी"
+      }
+    },
+    "solution": "As, it is evident from the \n \n \n \n \n \n \n \n \n \ndiagram below, Rashmi and Trisha are \n \n \n \n \n \n \nsitting between Pratik & Esha."
+  },
+  "q_pinnacle_reasoning_ch10_0113": {
+    "englishQuestion": "Usha, Damini, Amisha, Manju, Lalita and Harshita are sitting around a round table facing the centre. Usha is opposite Damini, who is to the right of Manju, Usha is between Amisha and Harshita, Harshita is not next to Manju. Who is to the right of Lalita? ?",
+    "hindiQuestion": "ऊषा, दािमनी, अमीषा, मंजू, लिलता और हिषŊता केंद्र की ओर मुख करके एक गोल मेज पर बैठी Šई हैं | ऊषा, दािमनी के सामने है, जो मंजू के दाएं को है | ऊषा, अमीषा और हिषŊता के बीच है | हिषŊता मंजू के बगल में नहीं है | लिलता के दाएं को कौन है ?",
+    "options": {
+      "A": {
+        "english": "Damini  /दािमनी",
+        "hindi": "Damini /दािमनी"
+      },
+      "B": {
+        "english": "Usha  / ऊषा",
+        "hindi": "Usha / ऊषा"
+      },
+      "C": {
+        "english": "Harshita  / हिषŊता",
+        "hindi": "Harshita / हिषŊता"
+      },
+      "D": {
+        "english": "Manju  / मंजू          CPO  2019  TIER  I",
+        "hindi": "Manju / मंजू CPO 2019 TIER I"
+      }
+    },
+    "solution": "According to the above figure, Harshita is \n \n \n \n \n \n \nright to Lalita. \n \nCpo 2019 Tier I"
+  },
+  "q_pinnacle_reasoning_ch10_0114": {
+    "englishQuestion": "A, E, I, O, U, H, F and W are sitting around a circular table in clockwise manner in the same sequence at equal distances from each other. Then O and F interchange their positions. If H is facing the north, then which direction will O be facing?",
+    "hindiQuestion": "A, E, I, O, U, H, F और W किसी गोलाकार मेज के चारो तरफ दक्षिणावतŊ तरीके से समान क्रम में बैठे Šए हैं | तभी O और F आपस में अपना स्थान बदल लेते हैं | यिद H का मुख उत्तर िदशा की ओर है, तो O का मुख िकस िदशा में होगा ?",
+    "options": {
+      "A": {
+        "english": "East/  पूरब",
+        "hindi": "East/ पूरब"
+      },
+      "B": {
+        "english": "South  -west./  दिƗण  पिʮम",
+        "hindi": "South -west./ दक्षिण पश्चिम"
+      },
+      "C": {
+        "english": "West/  पिʮम",
+        "hindi": "West/ पश्चिम"
+      },
+      "D": {
+        "english": "North-east/  उȅर-पूवŊ",
+        "hindi": "North-east/ उत्तर-पूर्व"
+      }
+    },
+    "solution": "(d) \n After interchanging the \n \n \n \n \n \n \npositions of O and F , the new sitting \n \n \n \n \n \n \n \n \narrangement will be as \n \n \nSo , according to the new arrangement , O \n \n \n \n \n \nis facing the North-East."
+  },
+  "q_pinnacle_reasoning_ch10_0115": {
+    "englishQuestion": "A, B, C, D, E, F, G and H are sitting around a circular table facing toward the centre. H is on the immediate left of A but is not a neighbour of D and E. F is on the immediate right of B. C is between E and F , G is neighbour of E. Who is between A and B?",
+    "hindiQuestion": "A, B, C, D, E, F, G और H एक वृत्ताकार मेज के चारो तरफ केंद्र की ओर मुख करके बैठे हैं | H, A के तुरंत बाएं को है लेिकन D और E का पड़ोसी नहीं है | F, B के तुरंत दाएं को है | C, E और F के बीच है | G, E का पड़ोसी है | A और B के बीच कौन है ?",
+    "options": {
+      "A": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "B": {
+        "english": "G",
+        "hindi": "G"
+      },
+      "C": {
+        "english": "F",
+        "hindi": "F"
+      },
+      "D": {
+        "english": "H",
+        "hindi": "H"
+      }
+    },
+    "solution": "(a) According to the question the \n \n \n \n \n \n \n \nfigure is"
+  },
+  "q_pinnacle_reasoning_ch10_0116": {
+    "englishQuestion": "Seven professionals are standing in a row. A journalistis to the immediate right of a pharmacist and to the immediate left of a teacher. An advocate is on the immediate right of an accountant . The advocate and pharmacist have one person between them .The teacher and a doctor have two persons between them, an architect and the pharmacist have two persons between them . Who is in the middle?",
+    "hindiQuestion": "सात पेशेवर एक पंक्ति में खड़े हैं। एक फामाŊिसː के तǽाल दाईं ओर एक पũकार और एक िशƗक के तǽाल बाईं ओर है। एक वकील एक एकाउंटŐट के तǽाल दाईं ओर है। अिधवƅा और फामाŊिसː के बीच एक व्यक्ति है। िशƗक और डॉƃर के बीच दो व्यक्ति हैं। आिकŊ टेƃ और फामाŊिसː बीच में दो व्यक्ति होते हैं। बीच में कौन है?",
+    "options": {
+      "A": {
+        "english": "Pharmacist  /  फामाŊिसː",
+        "hindi": "Pharmacist / फामाŊिसː"
+      },
+      "B": {
+        "english": "Doctor  /  डॉƃर",
+        "hindi": "Doctor / डॉƃर"
+      },
+      "C": {
+        "english": "Journalist  /  पũकार",
+        "hindi": "Journalist / पũकार"
+      },
+      "D": {
+        "english": "Teacher  /  िशƗक",
+        "hindi": "Teacher / िशƗक"
+      }
+    },
+    "solution": "(c) According to the given \n \n \n \n \n \n \n \nstatement , the following figure will be \n \n \n \n \n \n \ndrawn. \n \nAccording to the given figure, Pharmacist \n \n \n \n \n \n \nis in the middle of the line."
+  },
+  "q_pinnacle_reasoning_ch10_0117": {
+    "englishQuestion": "Naveen, Sapna, Alka, Jenny, Megan, Farhad and Bhavna are sitting in a row in a cinema hall. All of them are facing the screen that is towards the east. Sapna is at the extreme end and her immediate neighbour is Megan. Jenny is on the right of Megan. Bhavna has Megan and Farhad on each side. Alka is to the immediate right of Jenny who is sitting third from the south end. Jenny is sitting immediately between which of the following pairs of people?",
+    "hindiQuestion": "नवीन, सपना, अलका, जेनी, मेगन, फरहाद और भावना िसनेमा हॉल में एक पंक्ति में बैठे हैं। उन सभी को ˌीन का सामना करना पड़ रहा है जो पूर्व की ओर है। सपना चरम छोर पर है और उसका तǽाल पड़ोसी मेगन है। जेनी मेगन के दािहने तरफ है। हर तरफ मेवना और फरहाद हैं। अलका जेनी के तǽाल दाईं ओर है जो दक्षिण छोर से तीसरे स्थान पर बैठा है। जेनी निम्नलिखित लोगों में से िकस जोड़े के बीच तुरंत बैठी है ?",
+    "options": {
+      "A": {
+        "english": "Bhavna  and  Farhad  /  भावना  और  फरहाद",
+        "hindi": "Bhavna and Farhad / भावना और फरहाद"
+      },
+      "B": {
+        "english": "Naveen  and  Alka  /  नवीन  और  अलका",
+        "hindi": "Naveen and Alka / नवीन और अलका"
+      },
+      "C": {
+        "english": "Farhad  and  Alka  /  फरहाद  और  अलका",
+        "hindi": "Farhad and Alka / फरहाद और अलका"
+      },
+      "D": {
+        "english": "Megan  and  Bhavna  /  मेगन  और  भावना",
+        "hindi": "Megan and Bhavna / मेगन और भावना"
+      }
+    },
+    "solution": "(c) \n According to the given \n \n \n \n \n \n \n \nstatement, the row will be as follows : \n \nSo , it is clear that Jenny is sitting \n \n \n \n \n \n \n \n \nbetween Farhan and Alka."
+  },
+  "q_pinnacle_reasoning_ch10_0118": {
+    "englishQuestion": "Seven friends are sitting in a row. Jyoti is to the immediate right of Priya and to the immediate left of Trisha. Aditi is to the immediate right of Akshaya. Aditi and Priya have one person between them. Trisha and Diksha have two people between them. Anika and Priya have two people between them. Who is at the extreme right end?",
+    "hindiQuestion": "सात िमũ एक पंक्ति में बैठे हैं। Ǜोित िŮया के तǽाल दाएं और िũशा के बाईं ओर है। अिदित अƗय के तǽाल दाएं में है। अिदित और िŮया के बीच एक व्यक्ति है। िũशा और दीƗा के बीच दो लोग हैं। अिनका और िŮया के बीच दो लोग हैं। दािहने छोर पर कौन है ?",
+    "options": {
+      "A": {
+        "english": "Anika  /  अिनका",
+        "hindi": "Anika / अिनका"
+      },
+      "B": {
+        "english": "Akshaya  /  अƗय",
+        "hindi": "Akshaya / अƗय"
+      },
+      "C": {
+        "english": "Jyoti  /  Ǜोित",
+        "hindi": "Jyoti / Ǜोित"
+      },
+      "D": {
+        "english": "Trisha  /  तृषा",
+        "hindi": "Trisha / तृषा"
+      }
+    },
+    "solution": "(a) \n According \n to \n the \n \n \n \n \n \n \narrangement of the people in the row as \n \n \n \n \n \n \n \n \nshown in the figure given below, Anika is \n \n \n \n \n \n \n \nat the extreme right end."
+  },
+  "q_pinnacle_reasoning_ch10_0119": {
+    "englishQuestion": "A, E, I, O and U are sitting in a row facing north, 'O' is sitting next to 'E' and 'U'. 'A' is sitting next to 'I' who is sitting on the extreme left. 'U' is not sitting next to' A '. Who is sitting in the middle?",
+    "hindiQuestion": "A, E, I, O और U उत्तर की मुँह करके एक पंक्ति मे बैठे हैं 'O' , 'E' और 'U' के बगल मे बैठा हैं l 'A', 'I' के बगल में बैठा है, जो सबसे बाईं और बैठा है l'U' , 'A' के बगल में नहीं बैठा है l बीच मे कौन बैठा है ?",
+    "options": {
+      "A": {
+        "english": "O",
+        "hindi": "O"
+      },
+      "B": {
+        "english": "U",
+        "hindi": "U"
+      },
+      "C": {
+        "english": "E",
+        "hindi": "E"
+      },
+      "D": {
+        "english": "A       CHSL  2019  TIER  I",
+        "hindi": "A CHSL 2019 TIER I"
+      }
+    },
+    "solution": "(c) \n According to the given \n \n \n \n \n \n \n \nstatement, E is sitting in the middle of the \n \n \n \n \n \n \nline. \n \n \n \nCHSL 2019 TIER I"
+  },
+  "q_pinnacle_reasoning_ch10_0120": {
+    "englishQuestion": "The six faces of a dice have been marked with the letters A, B, C, D, E and F. If A is adjacent to B, C and E, then which of the following statements is true?",
+    "hindiQuestion": "/ एक पासे के छह मुख दिए गए है िजनपे अƗर A, B, C, D, E और F िलखे Šए है | यिद A के बगल में B, C और E िलखे Šए है, तो निम्नलिखित में से कौन सा कथन सȑ है ?",
+    "options": {
+      "A": {
+        "english": "B  is  adjacent  to  E  /  B,  E  के  समीप  है।",
+        "hindi": "B is adjacent to E / B, E के समीप है।"
+      },
+      "B": {
+        "english": "A  is  adjacent  to  D  /  A,  D  के  समीप  है।",
+        "hindi": "A is adjacent to D / A, D के समीप है।"
+      },
+      "C": {
+        "english": "A  is  adjacent  to  F  /  A,  F  के  समीप  है।",
+        "hindi": "A is adjacent to F / A, F के समीप है।"
+      },
+      "D": {
+        "english": "D  is  adjacent  to  F  /  D,  F  के  समीप  है।",
+        "hindi": "D is adjacent to F / D, F के समीप है।"
+      }
+    },
+    "solution": "(d) \n \nLet A be on the top, then, B, C and E are \n \n \n \n \n \n \n \n \n \non three sides of four sides adjacent to A. \n \nAs we are not given fixed positions of B, \n \n \n \n \n \n \n \n \n \nC and E, we cannot say anything specific \n \n \n \n \n \n \n \n \nabout them. \n \nHowever, D and F will definitely be \n \n \n \n \n \n \n \nadjacent to each other irrespective of their \n \n \n \n \n \n \n \ndefinite positions."
+  },
+  "q_pinnacle_reasoning_ch10_0121": {
+    "englishQuestion": "Read the given statements carefully. Assuming that the information given in the statements is true, decide which of the given conclusions is correct Statements: 1. Ram goes to mathematics class on 2. He attends literature classes on Friday. 351 Sitting Arrangement 3. He goes to guitar classes the day before 4. He attends history classes 2 days before",
+    "hindiQuestion": "based on the statements. / दिए गए वाƐों और िनʺषŖ को ȯान पूर्वक पढ़Ő और दी गयी जानकारी को सȑ मानते Šए निम्नलिखित विकल्पों में से सटीक विकल्प का चुनाव करŐ | Statements: 1. Ram goes to mathematics class on Monday. / राम सोमवार को गिणत की कƗा में जाता है। 2. He attends literature classes on Friday. / वह शुŢवार को सािहȑ कƗाओं में भाग लेता है। 351 Sitting Arrangement 3. He goes to guitar classes the day before he goes to history classes. / वह इितहास की कƗाओं में जाने से एक िदन पहले िगटार कƗाओं में जाता है। 4. He attends history classes 2 days before literature classes. / वह सािहȑ कƗाओं से 2 िदन पहले इितहास की कƗाओं में भाग लेता है।",
+    "options": {
+      "A": {
+        "english": "Ram  goes  to  guitar  classes  on                 Tuesday.  /  राम  मंगलवार  को  िगटार  की  कƗाओं                  मŐ  जाता  है।",
+        "hindi": "Ram goes to guitar classes on Tuesday. / राम मंगलवार को िगटार की कƗाओं में जाता है।"
+      },
+      "B": {
+        "english": "Ram  goes  to  guitar  classes  on  Sunday.                   /   राम  रिववार  को  िगटार  की  कƗाओं  मŐ  जाता  है।",
+        "hindi": "Ram goes to guitar classes on Sunday. / राम रिववार को िगटार की कƗाओं में जाता है।"
+      },
+      "C": {
+        "english": "Ram  attends  history  classes  on               Saturday.  /  राम  शिनवार  को  इितहास  की                 कƗाओं  मŐ  भाग  लेते  हœ ।",
+        "hindi": "Ram attends history classes on Saturday. / राम शिनवार को इितहास की कƗाओं में भाग लेते हैं ।"
+      },
+      "D": {
+        "english": "Ram  goes  to  guitar  classes  on                 Saturday.  /  राम  शिनवार  को  िगटार  की  कƗाओं                  मŐ  जाता  है।       CPO  2020  TIER  1",
+        "hindi": "Ram goes to guitar classes on Saturday. / राम शिनवार को िगटार की कƗाओं में जाता है। CPO 2020 TIER 1"
+      }
+    },
+    "solution": "(a) \nMathematics class \n Monday \n→\n \nLiterature class \n Friday \n→\n \nHistory class \n Wednesday \n→\n \nGuitar class \n Tuesday \n→"
+  },
+  "q_pinnacle_reasoning_ch10_0122": {
+    "englishQuestion": "Four friends are playing carrom and sitting on the four sides of the carrom board. B is on the right of C, D is to the left of A. Who is sitting to the left of C?",
+    "hindiQuestion": "चार िमũ कैरम खेल रहे हैं और कैरम बोडŊ के चारों तरफ बैठे Šए हैं। B, C के दाएँ को है, D, A के बाएँ को है। C के बाएँ को कौन बैठा है?",
+    "options": {
+      "A": {
+        "english": "Data  is  inadequate/  सूचना  अपयाŊɑ  है।",
+        "hindi": "Data is inadequate/ सूचना अपयाŊɑ है।"
+      },
+      "B": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "C": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "D": {
+        "english": "A",
+        "hindi": "A"
+      }
+    },
+    "solution": "(d) \nAssuming all A,B,C,D are \n \n \n \n \nsitting facing inwards we get the seating \n \n \n \n \n \n \n \narrangement. From the figure we can \n \n \n \n \n \n \nclearly see that A is sitting to the left of \n \n \n \n \n \n \n \n \n \n \nC."
+  },
+  "q_pinnacle_reasoning_ch10_0125": {
+    "englishQuestion": "At the time of sunrise, Diksha and Arpita are sitting in a park with their backs facing each other. If the shadow of Diksha falls to the right of Arpita, then in which direction is Arpita facing.",
+    "hindiQuestion": "सूयŖदय के समय, दीƗा तथा अिपŊता एक उȨान में बैठी Šई हैं तथा उनकी पीठ एक-दूसरे के सामने है। यिद दीƗा की परछाई अिपŊता के दायीं तरफ पड़ती है, तो अिपŊता का मुख िकस िदशा में है।",
+    "options": {
+      "A": {
+        "english": "North/  उȅर",
+        "hindi": "North/ उत्तर"
+      },
+      "B": {
+        "english": "South/  दिƗण",
+        "hindi": "South/ दक्षिण"
+      },
+      "C": {
+        "english": "West/  पिʮम",
+        "hindi": "West/ पश्चिम"
+      },
+      "D": {
+        "english": "East/  पूरब",
+        "hindi": "East/ पूरब"
+      }
+    },
+    "solution": "(b) \nSaturday \nDiksha \nDiksha and Arpita are not facing east \n \n \n \n \n \n \n \nwest (because the shadow of one would \n \n \n \n \n \n \n \nbe on the right hand of the other whereas \n \n \n \n \n \n \n \n \n \nif they were facing east west their shadow \n \n \n \n \n \n \n \n \nwould be on the front side or backside of \n \n \n \n \n \n \n \n \n \nthe other) \nAccording to the question shadow of \n \n \n \n \n \n \nDiksha falls to the right of Arpita \nIt is only possible when Arpita is facing \n \n \n \n \n \n \n \n \nsouth."
+  },
+  "q_pinnacle_reasoning_ch10_0126": {
+    "englishQuestion": "Five persons Lopa, Kripa, Sumi, Jani and Sush are sitting in a straight line facing north. Sush is to the immediate left of Sumi, Jani is to the immediate right of Lopa. Kripa is between Sush and Jani. Who is sitting between Lopa and Kripa?",
+    "hindiQuestion": "पाँच व्यक्ति लोपा, कृपा, सुमी, जानी तथा सुष एक सीधी रेखा में उत्तर की ओर मुख करके बैठे Šए हैं। सुष, सुमी के तुरंत बाएँ को है, जानी, लोपा के तुरंत दाएँ को है। कृपा सुष तथा जानी के बीच है। लोपा तथा कृपा के बीच कौन बैठा Šआ है?",
+    "options": {
+      "A": {
+        "english": "Jani/  जानी",
+        "hindi": "Jani/ जानी"
+      },
+      "B": {
+        "english": "Sush/  सुष",
+        "hindi": "Sush/ सुष"
+      },
+      "C": {
+        "english": "Data  is  inadequate/  आंकड़े  अपयाŊɑ  हœ",
+        "hindi": "Data is inadequate/ आंकड़े अपयाŊɑ हैं"
+      },
+      "D": {
+        "english": "Either  Sush  or  Sumi  /  या  तो  सुष  या  सुमी",
+        "hindi": "Either Sush or Sumi / या तो सुष या सुमी"
+      }
+    },
+    "solution": "(a) \n \nJani is clearly sitting between Lopa and \n \n \n \n \n \n \n \nJani so option A will be the correct \n \n \n \n \n \n \n \n \nanswer."
+  },
+  "q_pinnacle_reasoning_ch10_0127": {
+    "englishQuestion": "Eight friends A, B, C, D, E, F, G and H are sitting clockwise at equal distances from each other in the same sequence around a circular table facing the centre. If D is facing southwest, then who is sitting third to the right of H?",
+    "hindiQuestion": "आठ िमũ A, B, C, D, E, F, G और H दक्षिणावतŊ िदशा में एक-दूसरे से बराबर दूरी पर इसी अनुक्रम में वृत्ताकार मेज के चारों तरफ बैठे Šए हैं। यिद D का मुख दक्षिण पश्चिम िदशा की ओर है, तो H के दाएँ से तीसरे स्थान पर कौन बैठा है?",
+    "options": {
+      "A": {
+        "english": "D",
+        "hindi": "D"
+      },
+      "B": {
+        "english": "F",
+        "hindi": "F"
+      },
+      "C": {
+        "english": "C",
+        "hindi": "C"
+      },
+      "D": {
+        "english": "E",
+        "hindi": "E"
+      }
+    },
+    "solution": "(b) \nThe person sitting third to the right of H \n \n \n \n \n \n \n \n \nis E"
+  },
+  "q_pinnacle_reasoning_ch10_0128": {
+    "englishQuestion": "Eight friends A, B,C,D,E,F,G and H are sitting in a straight line, all facing the North. F is sitting between D and G. B is sitting between H and A. E is third to the left of G, who is sitting at one of the corners. H is third to the left of C. Who is",
+    "hindiQuestion": "sitting between A and E? / आठ िमũ A, B, C, D, E, F, G और H एक सीधी रेखा में बैठे हैं, सभी उत्तर की ओर मुंह िकए Šए हैं। F, D के बीच बैठा है और B, H के बीच बैठा है और E, G के बाएं से तीसरा है, जो किसी छोर में से एक पर बैठा है। H, C के बाएं से तीसरा है। A और E के बीच कौन बैठा है?",
+    "options": {
+      "A": {
+        "english": "H",
+        "hindi": "H"
+      },
+      "B": {
+        "english": "B",
+        "hindi": "B"
+      },
+      "C": {
+        "english": "G",
+        "hindi": "G"
+      },
+      "D": {
+        "english": "C",
+        "hindi": "C"
+      }
+    },
+    "solution": "(d) \nThe \n correct \n order \n of \n sitting \n is \n \n \n \n \n \n \nH-B-A-C-E-D-F-G. \nHence, C is sitting between A and C."
+  },
+  "q_pinnacle_reasoning_ch10_0129": {
+    "englishQuestion": "Six friends P, Q, R, S, T and U are sitting around a circular table, facing the centre of the table. P is second to right of S. Q is sitting to the immediate left of T. P is sitting between R and U. S is sitting to the immediate left of R. Who is sitting between P and S?",
+    "hindiQuestion": "छह िमũ P, Q, R, S, T और U एक गोल मेज के चारों ओर बैठे हैं, जो तािलका के केंद्र का सामना कर रहे हैं। P, S के दूसरे से दाईं ओर है। Q, T के बाएं बाएँ पर बैठा है। P, R के बीच बैठा है। S, R के तǽाल बाएँ से बैठा है। P और S के बीच में कौन बैठा है?",
+    "options": {
+      "A": {
+        "english": "Q",
+        "hindi": "Q"
+      },
+      "B": {
+        "english": "R",
+        "hindi": "R"
+      },
+      "C": {
+        "english": "T",
+        "hindi": "T"
+      },
+      "D": {
+        "english": "U",
+        "hindi": "U"
+      }
+    },
+    "solution": "(b) \n \nR is sitting between P and S."
+  },
+  "q_pinnacle_reasoning_ch10_0130": {
+    "englishQuestion": "Six friends are sitting in two lines, one behind the other line and all the friends are facing north. Each line has three friends. Jogi is sitting between Vikrant and Saroj.Shrikant is sitting just behind Vikrant. Vaani is to the immediate right of Tripti. Which three persons are sitting in the same line?",
+    "hindiQuestion": "छह िमũ दो लाइनों में बैठे हैं, दूसरी पंक्ति के पीछे एक और सभी िमũ उत्तर की ओर हैं। Ůȑेक पंक्ति में तीन िमũ हैं। जोगी, िवŢांत और सरोज के बीच बैठा है। ŵीकांत िवŢांत के ठीक पीछे बैठा है। वाणी, िũɑी के तǽाल दाईं ओर है। एक ही पंक्ति में कौन से तीन व्यक्ति बैठे हैं?",
+    "options": {
+      "A": {
+        "english": "Jogi,  Vikrant  and  Tripti",
+        "hindi": "Jogi, Vikrant and Tripti"
+      },
+      "B": {
+        "english": "Jogi,  Tripti  and  Vaani",
+        "hindi": "Jogi, Tripti and Vaani"
+      },
+      "C": {
+        "english": "Vikrant,Vaani  and  Tripti",
+        "hindi": "Vikrant,Vaani and Tripti"
+      },
+      "D": {
+        "english": "Jogi,  Vikrant  and  Saroj",
+        "hindi": "Jogi, Vikrant and Saroj"
+      }
+    },
+    "solution": "(d) Line from the question - Jogi \n \n \n \n \n \n \n \n \nis sitting between Vikrant and Saroj \nClearly tells that Jogi, Vikrant and Saroj \n \n \n \n \n \n \n \nare sitting in the same row."
+  },
+  "q_pinnacle_reasoning_ch10_0131": {
+    "englishQuestion": "Eight friends A, B, C, D, E, F, G, and H are sitting anticlockwise in the same sequence around a circular table at equal distance from each other. All are facing the centre of the table. If G is sitting in the Southeast, then in which",
+    "hindiQuestion": "direction is A sitting? / आठ िमũ A, B, C, D, E, F, G, और H एक ही क्रम में एक दूसरे से समान दूरी पर एक गोलाकार टेबल के चारों ओर वामावतŊ क्रम में बैठे हैं। सभी टेबल के केंद्र का सामना कर रहे हैं। यिद G दक्षिण पूर्व में बैठा है, तो A िकस िदशा में बैठा है?",
+    "options": {
+      "A": {
+        "english": "South-west  /  दिƗण-पिʮम",
+        "hindi": "South-west / दक्षिण-पश्चिम"
+      },
+      "B": {
+        "english": "North-west  /  उȅर-पिʮम",
+        "hindi": "North-west / उत्तर-पश्चिम"
+      },
+      "C": {
+        "english": "North-east  /  उȅर-पूवŊ",
+        "hindi": "North-east / उत्तर-पूर्व"
+      },
+      "D": {
+        "english": "North  /  उȅर",
+        "hindi": "North / उत्तर"
+      }
+    },
+    "solution": "(c) \n \nSo, the direction of A is north east."
+  },
+  "q_pinnacle_reasoning_ch10_0132": {
+    "englishQuestion": "Five students J,K,L,M and N are sitting on a bench facing the blackboard. K is sitting to the immediate right of M, who is sitting at the extreme left. If J is to the immediate left of L but exactly right of N, then who is sitting in the middle of",
+    "hindiQuestion": "the bench? / ɰैकबोडŊ का सामना करने वाली बŐच पर पांच छाũ J, K, L, M और N बैठे हैं। K, M के एकदम दाएं बैठा है, जो सबसे बायीं ओर बैठा है। यिद J, L के तǽाल बाएं है, लेिकन N के ठीक दाएं है, तो बŐच के बीच में कौन बैठा है?",
+    "options": {
+      "A": {
+        "english": "J",
+        "hindi": "J"
+      },
+      "B": {
+        "english": "L",
+        "hindi": "L"
+      },
+      "C": {
+        "english": "K",
+        "hindi": "K"
+      },
+      "D": {
+        "english": "N",
+        "hindi": "N"
+      }
+    },
+    "solution": "(d) \n \nClearly, N is sitting in the middle of the \n \n \n \n \n \n \n \n \n \nbench."
+  },
+  "q_pinnacle_reasoning_ch10_0133": {
+    "englishQuestion": "Six persons P,Q,R,S,T and U were sitting around a hexagon table facing the centre. U was sitting opposite to P, who was to the immediate left of R, S was sitting to the immediate right of U, and T was exactly between P and S. What was the sitting location of Q?",
+    "hindiQuestion": "छह व्यक्ति P, Q, R, S, T और U केंद्र की ओर एक षट्भुज टेबल के चारों ओर बैठे थे। U, P के ठीक विपरीत बैठा है, जो R के तǽाल बाएं तरफ है, S, U के एकदम दाएं बैठा है, और T, P और S के बीच में है। Q का बैठने का स्थान क्या था?",
+    "options": {
+      "A": {
+        "english": "Opposite  to  T  /  T  के  िवपरीत",
+        "hindi": "Opposite to T / T के विपरीत"
+      },
+      "B": {
+        "english": "Opposite  to  R  /  R  के  िवपरीत",
+        "hindi": "Opposite to R / R के विपरीत"
+      },
+      "C": {
+        "english": "Opposite  to  S  /  S  के  िवपरीत",
+        "hindi": "Opposite to S / S के विपरीत"
+      },
+      "D": {
+        "english": "Immediate  left  of  P  /  P  के  तुरंत  बाएं       ANSWERS       352",
+        "hindi": "Immediate left of P / P के तुरंत बाएं ANSWERS 352"
+      }
+    },
+    "solution": "(a) \n \nFrom the diagram it is clear that Q is \n \n \n \n \n \n \n \n \n \nsitting opposite to T."
+  }
+}
