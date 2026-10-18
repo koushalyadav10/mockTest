@@ -1,0 +1,1514 @@
+[
+  {
+    "questionNumber": 1,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 12/03/2019(Morning",
+    "questionText": "Priya's school bus was facing north-west when it reached her school. After starting from her house, the bus took one left turn, one right turn and another left turn to reach her school. In which direction was the bus facing when it left Priya's house?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South-east/  दिƗण-पूवŊ",
+        "isCorrect": false,
+        "stableId": "opt_1_a"
+      },
+      {
+        "label": "B",
+        "text": "North-west/  उȅर-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_1_b"
+      },
+      {
+        "label": "C",
+        "text": "South-west /  दिƗण-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_1_c"
+      },
+      {
+        "label": "D",
+        "text": "North-east/  उȅर-पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_1_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "If priya starts her journey in the\nnorth direction then she will face west\nafter reaching school. After replacing the\nwest direction from the north west, the\nnorth direction becomes North-East.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 2,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 12/03/2019(Morning",
+    "questionText": "After starting from her house, Sameera walked a few metres towards the east, from there, she took a right turn and walked 100 m, and then took a left turn and walked 30m. Finally, she took a left turn again and walked 40 m to reach the market. If the air distance between her house and the market is 100m, how far did Sameera walk towards the east initially from her house?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30  m",
+        "isCorrect": false,
+        "stableId": "opt_2_a"
+      },
+      {
+        "label": "B",
+        "text": "50  m",
+        "isCorrect": true,
+        "stableId": "opt_2_b"
+      },
+      {
+        "label": "C",
+        "text": "60  m",
+        "isCorrect": false,
+        "stableId": "opt_2_c"
+      },
+      {
+        "label": "D",
+        "text": "80  m",
+        "isCorrect": false,
+        "stableId": "opt_2_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "BC=50m",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 3,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 12/03/2019(Evening",
+    "questionText": "After starting from his house, Naren walked a few meters towards the east. From there, he took a right turn and walked 80m, and then took a left turn and walked 20m. Finally, he took a right turn again and walked 40m to reach the hospital. If the air distance between his house and the hospital is 130m, how far did Naren walk towards the east initially?",
+    "options": [
+      {
+        "label": "A",
+        "text": "50m",
+        "isCorrect": false,
+        "stableId": "opt_3_a"
+      },
+      {
+        "label": "B",
+        "text": "25m",
+        "isCorrect": false,
+        "stableId": "opt_3_b"
+      },
+      {
+        "label": "C",
+        "text": "40m",
+        "isCorrect": false,
+        "stableId": "opt_3_c"
+      },
+      {
+        "label": "D",
+        "text": "30m",
+        "isCorrect": true,
+        "stableId": "opt_3_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d) From the figure formed:\nThe triangle forms a right angle triangle,\nwith pythagoras triplet of 130, 120 and",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 4,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 12/03/2019(Evening",
+    "questionText": "Rakesh starts walking from his house and then takes two left turns and one right turn to reach the market. If he is facing north on reaching the market, in which direction was Rakesh facing when he started from his house?",
+    "options": [
+      {
+        "label": "A",
+        "text": "North/ उȅर",
+        "isCorrect": false,
+        "stableId": "opt_4_a"
+      },
+      {
+        "label": "B",
+        "text": "South/  दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_4_b"
+      },
+      {
+        "label": "C",
+        "text": "East/ पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_4_c"
+      },
+      {
+        "label": "D",
+        "text": "West/ पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_4_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c) Figure as per instructions:\nRakesh was facing East, when he started\nfrom his house.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 5,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 13/03/2019(Morning",
+    "questionText": "Starting from Anand's house, the school bus takes a right turn and covers 3 km. Then, it takes a left turn and covers 2 km Finally, it takes a right turn again and covers 4 km to reach the school. Upon reaching the school, the bus faces south-east. In which direction was the bus facing when it left Anand's house?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South-west/  दिƗण-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_5_a"
+      },
+      {
+        "label": "B",
+        "text": "South-east/  दिƗण-पूवŊ",
+        "isCorrect": false,
+        "stableId": "opt_5_b"
+      },
+      {
+        "label": "C",
+        "text": "North-east/  उȅर-पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_5_c"
+      },
+      {
+        "label": "D",
+        "text": "North/  उȅर",
+        "isCorrect": false,
+        "stableId": "opt_5_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)\nIf Bus starts in the north direction, It will\nface the East after reaching school. Now,\nIf we replace East direction from\nSouth-East North becomes North-East.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 6,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 13/03/2019(Morning",
+    "questionText": "Riya walked 90 m towards the north from her house, and then took a right turn and walked 60 m to reach the market. Then, she took a left turn and walked a few meters from the market to reach the post office, from where she took a left turn again and walked 160m to reach the school. If the air distance between Riya's house and the school is 260 m, what is the air distance between the market and the post office?",
+    "options": [
+      {
+        "label": "A",
+        "text": "180  m",
+        "isCorrect": false,
+        "stableId": "opt_6_a"
+      },
+      {
+        "label": "B",
+        "text": "120  m",
+        "isCorrect": false,
+        "stableId": "opt_6_b"
+      },
+      {
+        "label": "C",
+        "text": "150  m",
+        "isCorrect": true,
+        "stableId": "opt_6_c"
+      },
+      {
+        "label": "D",
+        "text": "100  m",
+        "isCorrect": false,
+        "stableId": "opt_6_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)\nPM=Distance between post office and\nmarket\nLet AB=PM=x, AS=(160-60)m=100m\nIn\nAHS\n△\n+\n=\nAH2\nAS2\nHS2\n+\n=\n(x\n0)\n+ 9\n2\n1002\n2602\nx=150m",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 7,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 13/03/2019(Evening",
+    "questionText": "Rinky walked 70 m towards the east from her house, and then take a right turn and walk 50 m to reach the post office, From there she took a right turn again and walked 150m to reach the market, from where she took a left turn and walked a few meters to reach the school. If the air distance between Rinky's house and the school is 170m. What is the air distance between the market and the school?",
+    "options": [
+      {
+        "label": "A",
+        "text": "70m",
+        "isCorrect": false,
+        "stableId": "opt_7_a"
+      },
+      {
+        "label": "B",
+        "text": "90m",
+        "isCorrect": false,
+        "stableId": "opt_7_b"
+      },
+      {
+        "label": "C",
+        "text": "100m",
+        "isCorrect": true,
+        "stableId": "opt_7_c"
+      },
+      {
+        "label": "D",
+        "text": "120m",
+        "isCorrect": false,
+        "stableId": "opt_7_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c) 100m\nLet the starting point is A and the final\npoint is E.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 8,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 13/03/2019(Evening",
+    "questionText": "Swati's school bus starts from her house and takes one left turn to reach the hospital. Then,it takes a right turn and covers5 km, On reaching the school, the bus faces south-west. In which direction was the bus facing when it left Swati's house.",
+    "options": [
+      {
+        "label": "A",
+        "text": "North-east/  उȅर-पूवŊ",
+        "isCorrect": false,
+        "stableId": "opt_8_a"
+      },
+      {
+        "label": "B",
+        "text": "East/  पूरब",
+        "isCorrect": false,
+        "stableId": "opt_8_b"
+      },
+      {
+        "label": "C",
+        "text": "North-west  उȅर-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_8_c"
+      },
+      {
+        "label": "D",
+        "text": "South-west/  दिƗण-पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_8_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 9,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 14/03/2019(Morning",
+    "questionText": "Mayank's house faces South. He leaves from the back gate of his house and walks 18 m. Then he turns right and walks 28m. Then he turns right and walks 35m. Then he turns left and walks 12 m. He then turns left and walks 17m. In which direction and how many metres away is he from the original position?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20  m  North/20  मीटर  उȅर",
+        "isCorrect": false,
+        "stableId": "opt_9_a"
+      },
+      {
+        "label": "B",
+        "text": "17  m  South/17  मीटर  दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_9_b"
+      },
+      {
+        "label": "C",
+        "text": "30  m  West/30  मीटर  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_9_c"
+      },
+      {
+        "label": "D",
+        "text": "40  m  East/40  मीटर  पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_9_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 10,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 14/03/2019(Morning",
+    "questionText": "If South-East becomes North, North-East becomes West and so on, what will South-West become?",
+    "options": [
+      {
+        "label": "A",
+        "text": "North/ उȅर",
+        "isCorrect": false,
+        "stableId": "opt_10_a"
+      },
+      {
+        "label": "B",
+        "text": "West/  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_10_b"
+      },
+      {
+        "label": "C",
+        "text": "East/ पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_10_c"
+      },
+      {
+        "label": "D",
+        "text": "South/ दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_10_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 11,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 14/03/2019(Evening",
+    "questionText": "Tina is to the 75 m south east of veena. Rina is to the 75m south west of veena. Tina is to the _____ of Rina.",
+    "options": [
+      {
+        "label": "A",
+        "text": "East  /  पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_11_a"
+      },
+      {
+        "label": "B",
+        "text": "West /  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_11_b"
+      },
+      {
+        "label": "C",
+        "text": "South/ दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_11_c"
+      },
+      {
+        "label": "D",
+        "text": "North/ उȅर",
+        "isCorrect": false,
+        "stableId": "opt_11_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 12,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 14/03/2019(Evening",
+    "questionText": "Abhijit comes out of his house and runs 30 meters northwest. After this, he runs 30 meters southwest. After this, he runs 30 meters south east. After this, he runs 30 meters north east. How far is he from his house?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20m",
+        "isCorrect": false,
+        "stableId": "opt_12_a"
+      },
+      {
+        "label": "B",
+        "text": "0m",
+        "isCorrect": true,
+        "stableId": "opt_12_b"
+      },
+      {
+        "label": "C",
+        "text": "10m",
+        "isCorrect": false,
+        "stableId": "opt_12_c"
+      },
+      {
+        "label": "D",
+        "text": "30m",
+        "isCorrect": false,
+        "stableId": "opt_12_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 13,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 15/03/2019(Morning",
+    "questionText": "Abhishek started from a point A and walked 15 meters towards south. He turned left and walked 20 meters. He then turned left again and walked 15 meters. He again turned left and walked 35 metres and reached a point B. How far and in which direction is point B with respect to point 'A'?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15  meters,  West",
+        "isCorrect": true,
+        "stableId": "opt_13_a"
+      },
+      {
+        "label": "B",
+        "text": "20  meters,  North",
+        "isCorrect": false,
+        "stableId": "opt_13_b"
+      },
+      {
+        "label": "C",
+        "text": "35  meters,  South",
+        "isCorrect": false,
+        "stableId": "opt_13_c"
+      },
+      {
+        "label": "D",
+        "text": "15  meters,  East",
+        "isCorrect": false,
+        "stableId": "opt_13_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 14,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 15/03/2019(Morning",
+    "questionText": "Seema walks to her office, she is facing south when she reaches her office, after starting from home, she turned left twice and then right before reaching her office. Which direction was Seema facing when she started from her home?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South/ दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_14_a"
+      },
+      {
+        "label": "B",
+        "text": "East/ पूरब",
+        "isCorrect": false,
+        "stableId": "opt_14_b"
+      },
+      {
+        "label": "C",
+        "text": "North/  उȅर",
+        "isCorrect": false,
+        "stableId": "opt_14_c"
+      },
+      {
+        "label": "D",
+        "text": "West/ पिʮम",
+        "isCorrect": true,
+        "stableId": "opt_14_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 15,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 15/03/2019 (Evening",
+    "questionText": "Kartik started walking from a mall. First of all, he turned 8 towards the north direction. From there, he turned to the right and went 3 km. After that, he turned to the right and turned 5 km. After this he turned to the right and turned 7. What is the shortest distance from the mall to the last place of Kartik?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7  km",
+        "isCorrect": false,
+        "stableId": "opt_15_a"
+      },
+      {
+        "label": "B",
+        "text": "3  km",
+        "isCorrect": false,
+        "stableId": "opt_15_b"
+      },
+      {
+        "label": "C",
+        "text": "5  km",
+        "isCorrect": true,
+        "stableId": "opt_15_c"
+      },
+      {
+        "label": "D",
+        "text": "10  km",
+        "isCorrect": false,
+        "stableId": "opt_15_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 16,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 15/03/2019 (Evening",
+    "questionText": "Arjun starts moving in the east direction. After running 50 meters, he turns his left and walks 15 meters straight. Then, from there, he turns to his left and walks 30 meters straight. He again turns 15 turns to his left. How far is he from the starting point ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10  m",
+        "isCorrect": false,
+        "stableId": "opt_16_a"
+      },
+      {
+        "label": "B",
+        "text": "40  m",
+        "isCorrect": false,
+        "stableId": "opt_16_b"
+      },
+      {
+        "label": "C",
+        "text": "20  m",
+        "isCorrect": true,
+        "stableId": "opt_16_c"
+      },
+      {
+        "label": "D",
+        "text": "30  m",
+        "isCorrect": false,
+        "stableId": "opt_16_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 17,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 16/03/2019 (Morning",
+    "questionText": "Kunal's house is located to the south of a coffee shop. There is a park to the east of the coffee shop. The local market is to the north of the park. If the distance of the market from the park is equal to the distance of the coffee shop from Kunal's house in which direction is the market with respect to the coffee shop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South  -  West /  दिƗण-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_17_a"
+      },
+      {
+        "label": "B",
+        "text": "West/  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_17_b"
+      },
+      {
+        "label": "C",
+        "text": "South-East/  दिƗण-पूवŊ",
+        "isCorrect": false,
+        "stableId": "opt_17_c"
+      },
+      {
+        "label": "D",
+        "text": "North-East/  उȅर-पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_17_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 18,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 16/03/2019 (Morning",
+    "questionText": "Arjun starts walking towards the east, after walking 50 Km he turns to his left and walks 15 m. From there he again turns to the left and walk 30m. Finally he turns to the left one last time and walk 15 m. How far is he from the starting point?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20  m",
+        "isCorrect": true,
+        "stableId": "opt_18_a"
+      },
+      {
+        "label": "B",
+        "text": "10  m",
+        "isCorrect": false,
+        "stableId": "opt_18_b"
+      },
+      {
+        "label": "C",
+        "text": "40",
+        "isCorrect": false,
+        "stableId": "opt_18_c"
+      },
+      {
+        "label": "D",
+        "text": "30  m",
+        "isCorrect": false,
+        "stableId": "opt_18_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 19,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 16/03/2019 (Afternoon",
+    "questionText": "A man is facing towards the east. He then turns 45° anti-clockwise, again 180° anti-clockwise and then 225° clockwise. In which direction is he facing now?",
+    "options": [
+      {
+        "label": "A",
+        "text": "West/  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_19_a"
+      },
+      {
+        "label": "B",
+        "text": "North/  उȅर",
+        "isCorrect": false,
+        "stableId": "opt_19_b"
+      },
+      {
+        "label": "C",
+        "text": "South/  दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_19_c"
+      },
+      {
+        "label": "D",
+        "text": "East/  पूरब",
+        "isCorrect": true,
+        "stableId": "opt_19_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 20,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 16/03/2019 (Afternoon",
+    "questionText": "From his house, Avinash went to Kapil's house situated 500 m towards the north-east of his own house. From there, both of them went to Varun's house situated 400 m towards the south of Kapil's house. What is the shortest distance between Avinash's current location and his location at the beginning?",
+    "options": [
+      {
+        "label": "A",
+        "text": "900  m",
+        "isCorrect": false,
+        "stableId": "opt_20_a"
+      },
+      {
+        "label": "B",
+        "text": "400  m",
+        "isCorrect": false,
+        "stableId": "opt_20_b"
+      },
+      {
+        "label": "C",
+        "text": "300  m",
+        "isCorrect": true,
+        "stableId": "opt_20_c"
+      },
+      {
+        "label": "D",
+        "text": "500  m",
+        "isCorrect": false,
+        "stableId": "opt_20_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 21,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 16/03/2019 (Evening",
+    "questionText": "A Nurse moved 90 m in the East in a hospital to look for her duty Doctor, then she turned right and went 20m. After this she turned right and after going 30m she reached I.C.U, but the Doctor was not there. From there she went 100m to her north and met her doctor. What distance did she move to meet her duty doctor from the starting point. ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "80  m",
+        "isCorrect": false,
+        "stableId": "opt_21_a"
+      },
+      {
+        "label": "B",
+        "text": "100  m",
+        "isCorrect": true,
+        "stableId": "opt_21_b"
+      },
+      {
+        "label": "C",
+        "text": "140  m",
+        "isCorrect": false,
+        "stableId": "opt_21_c"
+      },
+      {
+        "label": "D",
+        "text": "120  m",
+        "isCorrect": false,
+        "stableId": "opt_21_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 22,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 16/03/2019 (Evening",
+    "questionText": "Rama walks from his university campus 4 km towards north and then turns to the right to reach his department. After walking 2.5 km from the department he turns to the left and walks 4 km and reached Conference hall. Now in which direction is he from the starting place? SSC CPO 2019 TIER I",
+    "options": [
+      {
+        "label": "A",
+        "text": "South/  दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_22_a"
+      },
+      {
+        "label": "B",
+        "text": "West/  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_22_b"
+      },
+      {
+        "label": "C",
+        "text": "South-West/  दिƗण-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_22_c"
+      },
+      {
+        "label": "D",
+        "text": "North-East/  उȅर-पूवŊ",
+        "isCorrect": true,
+        "stableId": "opt_22_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 23,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 09/12/2019(Morning",
+    "questionText": "A farmer is preparing his field. He starts his tractor from the garageand drives 5 km towards the east. From there he turns right and drives 6 km. Then, he turns right and drives 8km. Again, he turns right and drives 10 km when his tractor breaks down. What is the shortest distance between his current location and garage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9  km",
+        "isCorrect": false,
+        "stableId": "opt_23_a"
+      },
+      {
+        "label": "B",
+        "text": "6  km",
+        "isCorrect": false,
+        "stableId": "opt_23_b"
+      },
+      {
+        "label": "C",
+        "text": "5  km",
+        "isCorrect": true,
+        "stableId": "opt_23_c"
+      },
+      {
+        "label": "D",
+        "text": "2  km",
+        "isCorrect": false,
+        "stableId": "opt_23_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 24,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 09/12/2019(Morning",
+    "questionText": "Satyen starts walking towards the North. After walking 70m he turns to the left and walks 35m straight. He then turns to the left and walks 30m, again he turns to the left and walks a distance of 35m. How far is he from the starting point and in which direction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40m,  south/  40  मी,  दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_24_a"
+      },
+      {
+        "label": "B",
+        "text": "35m,  North/  35  मी,  उȅर",
+        "isCorrect": false,
+        "stableId": "opt_24_b"
+      },
+      {
+        "label": "C",
+        "text": "35m,  South/  35  मी,  दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_24_c"
+      },
+      {
+        "label": "D",
+        "text": "40m,  North/  40  मी,  उȅर",
+        "isCorrect": true,
+        "stableId": "opt_24_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 25,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 09/12/2019(Evening",
+    "questionText": "A bus driver started from a point 'A' and drove 25 km towards the east. He turned left and drove 30 km. He then turned left and drove 15 km. He again turned left and drove 30 km and reached a point 'B'. How far and in which direction is the point 'B' from the point 'A'?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40  km,  East/  पूरब",
+        "isCorrect": false,
+        "stableId": "opt_25_a"
+      },
+      {
+        "label": "B",
+        "text": "40  km,  West/  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_25_b"
+      },
+      {
+        "label": "C",
+        "text": "10  km,  West/  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_25_c"
+      },
+      {
+        "label": "D",
+        "text": "10  km,  East/  पूरब",
+        "isCorrect": true,
+        "stableId": "opt_25_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 26,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 11/12/2019(Morning",
+    "questionText": "Richa starts walking from her home and walks 50m towards west and then turns left and walks 90m. Then she again turns left and walks 30m. After that she again turns left and goes 120 m. She finally turns right and walks 20m and reaches her final destination. How far is she from her home now and in which direction in reference to her home? ̾",
+    "options": [
+      {
+        "label": "A",
+        "text": "40m,  North  West/  उȅर-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_26_a"
+      },
+      {
+        "label": "B",
+        "text": "30m,  South/  दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_26_b"
+      },
+      {
+        "label": "C",
+        "text": "40m  ,  North  East/  उȅर-पूवŊ",
+        "isCorrect": false,
+        "stableId": "opt_26_c"
+      },
+      {
+        "label": "D",
+        "text": "30m,  North/  उȅर",
+        "isCorrect": true,
+        "stableId": "opt_26_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 27,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 11/12/2019(Evening",
+    "questionText": "Rishabh starts walking towards the west. After walking 70 m he turns to the left and walks 35 m straight. He turns left again and walks 30 m, again he turns to the left and walks a distance of 35 m. How far is he from the starting point?",
+    "options": [
+      {
+        "label": "A",
+        "text": "60  m",
+        "isCorrect": false,
+        "stableId": "opt_27_a"
+      },
+      {
+        "label": "B",
+        "text": "10  m",
+        "isCorrect": false,
+        "stableId": "opt_27_b"
+      },
+      {
+        "label": "C",
+        "text": "70  m",
+        "isCorrect": false,
+        "stableId": "opt_27_c"
+      },
+      {
+        "label": "D",
+        "text": "40  m",
+        "isCorrect": true,
+        "stableId": "opt_27_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 28,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 11/12/2019(Evening",
+    "questionText": "Mayank started driving from his oﬃce to the hotel. He drove 10 km north. From there, he turned right and drove 8 km. Then, he turned right and drove 6 km. Again, he turned right and drove 5 km and reached his hotel. What is the shortest distance from the office to his hotel?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5  km",
+        "isCorrect": true,
+        "stableId": "opt_28_a"
+      },
+      {
+        "label": "B",
+        "text": "9  km",
+        "isCorrect": false,
+        "stableId": "opt_28_b"
+      },
+      {
+        "label": "C",
+        "text": "2  km",
+        "isCorrect": false,
+        "stableId": "opt_28_c"
+      },
+      {
+        "label": "D",
+        "text": "6  km",
+        "isCorrect": false,
+        "stableId": "opt_28_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 29,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 12/12/2019(Morning",
+    "questionText": "Ameeta walks 20 m towards the north and then turns right and walks 30m. Then she turns left and walks 25m. After that she turns right and walks 30m . From there, she turns right and walks 65m. Then she again turns left and walks 40 m . She finally turns left and walks 20m . How far is she from her home now and in which direction with reference to her home?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20m,  west",
+        "isCorrect": false,
+        "stableId": "opt_29_a"
+      },
+      {
+        "label": "B",
+        "text": "40m  ,  south",
+        "isCorrect": false,
+        "stableId": "opt_29_b"
+      },
+      {
+        "label": "C",
+        "text": "100m,  East",
+        "isCorrect": true,
+        "stableId": "opt_29_c"
+      },
+      {
+        "label": "D",
+        "text": "20m,  East",
+        "isCorrect": false,
+        "stableId": "opt_29_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 30,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 12/12/2019(Evening",
+    "questionText": "Rohan is facing west and turns 45° clockwise, again 180° clockwise and then turns 225° anticlockwise. In which direction is he facing now?",
+    "options": [
+      {
+        "label": "A",
+        "text": "West  /  पिʮम",
+        "isCorrect": true,
+        "stableId": "opt_30_a"
+      },
+      {
+        "label": "B",
+        "text": "East  /  पूवŊ",
+        "isCorrect": false,
+        "stableId": "opt_30_b"
+      },
+      {
+        "label": "C",
+        "text": "South  /  दिƗण",
+        "isCorrect": false,
+        "stableId": "opt_30_c"
+      },
+      {
+        "label": "D",
+        "text": "North  /  उȅर",
+        "isCorrect": false,
+        "stableId": "opt_30_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 31,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 13/12/2019(Morning",
+    "questionText": "Vimla starts from her home and walks 30 m towards north and then turns right and walks 40 m. Then, she turns left and walks 35 m. After that, she turns right and walks 40 m. From there, she turns right and walks 85 m. Then, she again turns right and walks 50 m. From there, she finally turns right and walks 20 m. How far is she from her home now and in which direction with reference to her home?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30  m,  South",
+        "isCorrect": false,
+        "stableId": "opt_31_a"
+      },
+      {
+        "label": "B",
+        "text": "20  m,  West",
+        "isCorrect": false,
+        "stableId": "opt_31_b"
+      },
+      {
+        "label": "C",
+        "text": "100  m,  East",
+        "isCorrect": false,
+        "stableId": "opt_31_c"
+      },
+      {
+        "label": "D",
+        "text": "30  m,  East",
+        "isCorrect": true,
+        "stableId": "opt_31_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 32,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 13/12/2019(Evening",
+    "questionText": "Rehana drives 6 km west from her home and turns left and drives 3 km and then turns left again and drives 10 km. What is the shortest distance between her home and office? SSC CPO 2020 TIER 1",
+    "options": [
+      {
+        "label": "A",
+        "text": "10  km",
+        "isCorrect": false,
+        "stableId": "opt_32_a"
+      },
+      {
+        "label": "B",
+        "text": "5  km",
+        "isCorrect": true,
+        "stableId": "opt_32_b"
+      },
+      {
+        "label": "C",
+        "text": "4  km",
+        "isCorrect": false,
+        "stableId": "opt_32_c"
+      },
+      {
+        "label": "D",
+        "text": "9  km",
+        "isCorrect": false,
+        "stableId": "opt_32_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 33,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 23/11/2020 (Morning",
+    "questionText": "Ratan walks 15m towards the north and then turns right and walks 23m. Then he turns left and walks 16m. After that, he turns left and walks 11m. Then he turns right and walks 17m. Then, he turns left and walks 12m. He finally turns right and walks 19m. In which direction and how far is he now with reference to the starting point?",
+    "options": [
+      {
+        "label": "A",
+        "text": "North/  उȅर  ,  52m",
+        "isCorrect": false,
+        "stableId": "opt_33_a"
+      },
+      {
+        "label": "B",
+        "text": "South/  दिƗण  ,  51m",
+        "isCorrect": false,
+        "stableId": "opt_33_b"
+      },
+      {
+        "label": "C",
+        "text": "North/  उȅर  ,  67m",
+        "isCorrect": true,
+        "stableId": "opt_33_c"
+      },
+      {
+        "label": "D",
+        "text": "North/  उȅर  ,  48m",
+        "isCorrect": false,
+        "stableId": "opt_33_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 34,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 23/11/2020 (Evening",
+    "questionText": "Kartik walks 40 m straight from his home towards the North,Then he turns left and walks 25 m. He turns left again and walks 15 m.Finally he turns left and walks 25 m to reach point X. What is the shortest distance between his Home and Point-X.",
+    "options": [
+      {
+        "label": "A",
+        "text": "55",
+        "isCorrect": false,
+        "stableId": "opt_34_a"
+      },
+      {
+        "label": "B",
+        "text": "22",
+        "isCorrect": false,
+        "stableId": "opt_34_b"
+      },
+      {
+        "label": "C",
+        "text": "25",
+        "isCorrect": true,
+        "stableId": "opt_34_c"
+      },
+      {
+        "label": "D",
+        "text": "15",
+        "isCorrect": false,
+        "stableId": "opt_34_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 35,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 24/11/2020 (Morning",
+    "questionText": "If the minute hand of a clock points towards the South at 12:00 a.m., then in which direction will the minute hand point at 3:00 a.m. in the same clock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South",
+        "isCorrect": true,
+        "stableId": "opt_35_a"
+      },
+      {
+        "label": "B",
+        "text": "East",
+        "isCorrect": false,
+        "stableId": "opt_35_b"
+      },
+      {
+        "label": "C",
+        "text": "North",
+        "isCorrect": false,
+        "stableId": "opt_35_c"
+      },
+      {
+        "label": "D",
+        "text": "West",
+        "isCorrect": false,
+        "stableId": "opt_35_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 36,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 24/11/2020 (Morning",
+    "questionText": "Bismita walks 200 m towards the East and then turns right and walks 210 m to reach a hospital. What is the shortest distance between the starting point and the hospital?",
+    "options": [
+      {
+        "label": "A",
+        "text": "220  m",
+        "isCorrect": false,
+        "stableId": "opt_36_a"
+      },
+      {
+        "label": "B",
+        "text": "290  m",
+        "isCorrect": true,
+        "stableId": "opt_36_b"
+      },
+      {
+        "label": "C",
+        "text": "260  m",
+        "isCorrect": false,
+        "stableId": "opt_36_c"
+      },
+      {
+        "label": "D",
+        "text": "310  m",
+        "isCorrect": false,
+        "stableId": "opt_36_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 37,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 24/11/2020(Evening",
+    "questionText": "Z's house is 45m South to P's house. J's house is 50m South to H's house. Q's house is 30m West to Z's house. M's house is 50m North to P's house. H's house is 30m West to M's house. In which direction and at what distance is J's house with reference to Q's house?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South,  50m",
+        "isCorrect": false,
+        "stableId": "opt_37_a"
+      },
+      {
+        "label": "B",
+        "text": "West,  30m",
+        "isCorrect": false,
+        "stableId": "opt_37_b"
+      },
+      {
+        "label": "C",
+        "text": "North,45m",
+        "isCorrect": true,
+        "stableId": "opt_37_c"
+      },
+      {
+        "label": "D",
+        "text": "South,45m",
+        "isCorrect": false,
+        "stableId": "opt_37_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 38,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 24/11/2020(Evening",
+    "questionText": "Arjun walks 40 m towards the South from his home, and then he turns left and walks 55 m. Then, he takes another left turn and walks 15 m. Then, he turns left again walks 55 m. How far is he from his home now ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "35",
+        "isCorrect": false,
+        "stableId": "opt_38_a"
+      },
+      {
+        "label": "B",
+        "text": "15",
+        "isCorrect": false,
+        "stableId": "opt_38_b"
+      },
+      {
+        "label": "C",
+        "text": "30",
+        "isCorrect": false,
+        "stableId": "opt_38_c"
+      },
+      {
+        "label": "D",
+        "text": "25",
+        "isCorrect": true,
+        "stableId": "opt_38_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 39,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 25/11/2020(Morning",
+    "questionText": "While coming home from school at 5 p.m., Ketaki's shadow was falling to her left. In which direction is the school from her home?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South",
+        "isCorrect": false,
+        "stableId": "opt_39_a"
+      },
+      {
+        "label": "B",
+        "text": "North-West",
+        "isCorrect": false,
+        "stableId": "opt_39_b"
+      },
+      {
+        "label": "C",
+        "text": "North",
+        "isCorrect": true,
+        "stableId": "opt_39_c"
+      },
+      {
+        "label": "D",
+        "text": "North-East",
+        "isCorrect": false,
+        "stableId": "opt_39_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 40,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 25/11/2020(Morning",
+    "questionText": "John went straight from a hotel and turned left after covering 3 km and travelled 5 km in that direction to reach point X. From here, he took a right turn and travelled 4 km, and again took a right turn and travelled 4 km. From here, he took a turn to reach point X straight. If john is now moving towards the North-West direction, in which direction did he start moving from the hotel?",
+    "options": [
+      {
+        "label": "A",
+        "text": "East",
+        "isCorrect": true,
+        "stableId": "opt_40_a"
+      },
+      {
+        "label": "B",
+        "text": "West",
+        "isCorrect": false,
+        "stableId": "opt_40_b"
+      },
+      {
+        "label": "C",
+        "text": "North",
+        "isCorrect": false,
+        "stableId": "opt_40_c"
+      },
+      {
+        "label": "D",
+        "text": "South-East",
+        "isCorrect": false,
+        "stableId": "opt_40_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 41,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC CPO 25/11/2020 (Evening",
+    "questionText": "While going to school, Rohit goes straight for 2km from his house, then takes a left turn and travels 4km. From here, he takes a right turn, and after covering 2 km, he again turns right and finally travels 2 km to reach the school. If he was finally travelling towards the West, in which direction is his house from the school?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South-west  /  दिƗण-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_41_a"
+      },
+      {
+        "label": "B",
+        "text": "North-west  /  उȅर-पिʮम",
+        "isCorrect": true,
+        "stableId": "opt_41_b"
+      },
+      {
+        "label": "C",
+        "text": "West  /  पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_41_c"
+      },
+      {
+        "label": "D",
+        "text": "North  /  उȅर",
+        "isCorrect": false,
+        "stableId": "opt_41_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 42,
+    "typeHeader": "Direction Sense (दिशा ज्ञान)",
+    "examShift": "SSC S SC CPO 25/11/2020 (Evening",
+    "questionText": "Hritik went straight eastward from his office and took a right turn after travelling 4 km. From here, he covered a distance of 3 km and again took a right turn. After covering a distance of 4 km, he finally turned left and travelled straight. In which direction was Hritik moving at the end?",
+    "options": [
+      {
+        "label": "A",
+        "text": "South-west  /  दिƗण-पिʮम",
+        "isCorrect": false,
+        "stableId": "opt_42_a"
+      },
+      {
+        "label": "B",
+        "text": "South  /  दिƗण",
+        "isCorrect": true,
+        "stableId": "opt_42_b"
+      },
+      {
+        "label": "C",
+        "text": "South-east  /  दिƗण-पूवŊ",
+        "isCorrect": false,
+        "stableId": "opt_42_c"
+      },
+      {
+        "label": "D",
+        "text": "North  /  उȅर",
+        "isCorrect": false,
+        "stableId": "opt_42_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)\nAE = 170 m\nAF = 150 -70 = 80 m\nEF =\n= 150\n√1702 −802\nDistance between market and school\n(DE) = 150-50 = 100 m",
+    "hasVisualContent": false,
+    "imageUrl": null
+  }
+]

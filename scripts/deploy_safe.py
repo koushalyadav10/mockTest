@@ -31,7 +31,15 @@ def main():
     sync_cmd = "cd /var/www/examforge-ai && python3 scripts/safe_sync_production.py"
     res_sync = run_ssh(sync_cmd, "Running Safe In-Place Database Sync (Backups + Preserving Test Attempts)")
 
-    # 4. Restart PM2
+    # 4. Clean up any OCR newline artifacts in existing explanations on EC2 database
+    clean_cmd = "cd /var/www/examforge-ai && DB_PATH=prisma/examforge.db python3 scripts/clean_explanations.py"
+    run_ssh(clean_cmd, "Cleaning up explanation whitespace on EC2 database")
+
+    # 5. Ingest New Reasoning Chapters (Ch 3, 7, 11) on EC2
+    reasoning_cmd = "cd /var/www/examforge-ai && DB_PATH=prisma/examforge.db python3 scripts/ingest_reasoning_new_chapters.py"
+    run_ssh(reasoning_cmd, "Ingesting New Reasoning Chapters (Ch 3, 7, 11) on EC2")
+
+    # 6. Restart PM2
     restart_cmd = "pm2 restart all"
     run_ssh(restart_cmd, "Restarting PM2 Service")
 

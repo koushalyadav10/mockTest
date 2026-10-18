@@ -1,0 +1,3926 @@
+[
+  {
+    "questionNumber": 1,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 04/06/2019 (Morning",
+    "questionText": "In a family of eight persons, there are two couples, each having two children. B and D are brothers and each has two children. E is the aunt of A. who is the cousin brother of C. C is the sister of H, who is the cousin brother of G, F is the wife of B. How is H related to F?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nephew/  भतीजा",
+        "isCorrect": true,
+        "stableId": "opt_1_a"
+      },
+      {
+        "label": "B",
+        "text": "Son-in-law/  दामाद",
+        "isCorrect": false,
+        "stableId": "opt_1_b"
+      },
+      {
+        "label": "C",
+        "text": "Son/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_1_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother-in-law/  साला",
+        "isCorrect": false,
+        "stableId": "opt_1_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)\nAs, F is wife of B and H is son of D. So,\nH is the son of her husband’s brother. So\nH is the nephew of F.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 2,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 04/06/2019- (Afternoon",
+    "questionText": "P is the father of Q and the grandfather of R, who is the brother of S. S's mother, T is married to V. T is the sister of Q. How is V related to P?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nephew/  भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_2_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother-in-law/  बहनोई",
+        "isCorrect": false,
+        "stableId": "opt_2_b"
+      },
+      {
+        "label": "C",
+        "text": "Son/  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_2_c"
+      },
+      {
+        "label": "D",
+        "text": "Son-in-law/  दामाद",
+        "isCorrect": true,
+        "stableId": "opt_2_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d) By observing the question , we\ngot the family chart as given below.\nFrom here , we can see clearly that V is\nSon-in-law of P.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 3,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 04/06/2019 (Evening",
+    "questionText": "P is the father of Q and R is the son of S. T is the brother of P. Q is the sister of R. How is S related to T?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother-in-law/  बहनोई",
+        "isCorrect": false,
+        "stableId": "opt_3_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_3_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister-in-law/ ननद  या  भाभी",
+        "isCorrect": true,
+        "stableId": "opt_3_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_3_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c) According to the question, the\nfollowing family chart will be followed.\nAnd according to the figure, S is\nsister-in-law of T.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 4,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 06/06/2019 (Morning",
+    "questionText": "D is son of C and brother of E. E is niece of F. C is the sister of B and aunt of A. The father of B has two kids, a son and a daughter. If A is the son of F , then how F is related to C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cousin/  चचेरा  मौसेरा  भाई  /बहन",
+        "isCorrect": false,
+        "stableId": "opt_4_a"
+      },
+      {
+        "label": "B",
+        "text": "Aunt/  आंटी",
+        "isCorrect": false,
+        "stableId": "opt_4_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister  -  in  -  law/  ननद  या  भाभी",
+        "isCorrect": true,
+        "stableId": "opt_4_c"
+      },
+      {
+        "label": "D",
+        "text": "Sister/  बहन",
+        "isCorrect": false,
+        "stableId": "opt_4_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c) As the statements are given in\nthe question, we get the following\ndiagram.\nAccording to the family chart, F is\nsister-in-law of C.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 5,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 06/06/19 (Afternoon",
+    "questionText": "In a family of eight persons, there are two couples, each having two children. C and D are cousin brothers. The father of E is married to G, who is the aunt of F. F's mother, H, is married to B, the brother of A. C is the nephew of H. How is A related to D?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uncle/  अंकल",
+        "isCorrect": true,
+        "stableId": "opt_5_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_5_b"
+      },
+      {
+        "label": "C",
+        "text": "Nephew/  भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_5_c"
+      },
+      {
+        "label": "D",
+        "text": "Father/  िपता",
+        "isCorrect": false,
+        "stableId": "opt_5_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a) According to the question , the\nfollowing family chart will be obtained.\nAccording to the family chart, A is Uncle\nof D.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 6,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 07/06/2019 (Morning",
+    "questionText": "In a family of 8 persons with two couples, P is the son of Q and brother of R. S is the daughter of M, who is married to R. T is the aunt of S and mother of V. R's nephew W is the son of P and has a sister V. How is V related to M?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nephew/  भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_6_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_6_b"
+      },
+      {
+        "label": "C",
+        "text": "Niece/  भतीजी",
+        "isCorrect": true,
+        "stableId": "opt_6_c"
+      },
+      {
+        "label": "D",
+        "text": "Cousin  Sister/  चचेरी-मौसेरी  बहन",
+        "isCorrect": false,
+        "stableId": "opt_6_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c) By observing the family chart\ngiven below. we can easily say that V is\nthe niece of M.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 7,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 07/06/2019(Afternoon",
+    "questionText": "P is the sister of Q and mother of R. S is the daughter-in-law of W and wife of Q. W's grandson M is the nephew of P and brother of V. W has only two children. How is Q related to V?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uncle/  अंकल",
+        "isCorrect": false,
+        "stableId": "opt_7_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/  िपता",
+        "isCorrect": true,
+        "stableId": "opt_7_b"
+      },
+      {
+        "label": "C",
+        "text": "Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_7_c"
+      },
+      {
+        "label": "D",
+        "text": "Son/  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_7_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b) By observing the family chart\ngiven below. We can see that Q is the\nfather of V.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 8,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 10/06/2019 (Morning",
+    "questionText": "In a family of seven persons, B is the brother of A and the son of C. D is the son-in-law of C, who has two grandchildren , E and F. A is the mother of F, who is the niece of G. E is the son of G. If C has two children , how is E related to D?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother-in-law/  साला  या  बहनोई",
+        "isCorrect": false,
+        "stableId": "opt_8_a"
+      },
+      {
+        "label": "B",
+        "text": "Son/  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_8_b"
+      },
+      {
+        "label": "C",
+        "text": "Cousin/  चचेरा-मौसेरा  įरʱेदार",
+        "isCorrect": false,
+        "stableId": "opt_8_c"
+      },
+      {
+        "label": "D",
+        "text": "Nephew/  भतीजा",
+        "isCorrect": true,
+        "stableId": "opt_8_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d) After observing the following\nfamily chart. We can see that E is the\nnephew of A.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 9,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 10/06/2019(Afternoon",
+    "questionText": "Saksham introduced Nidhi to his friend,\" She is the daughter of the only son of my father's wife.\" How is Saksham related to Nidhi?/ सƗम ने िनिध को",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son,बेटा",
+        "isCorrect": false,
+        "stableId": "opt_9_a"
+      },
+      {
+        "label": "B",
+        "text": "Cousin/चचेरा  भाई",
+        "isCorrect": false,
+        "stableId": "opt_9_b"
+      },
+      {
+        "label": "C",
+        "text": "Father/िपता",
+        "isCorrect": true,
+        "stableId": "opt_9_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother/भइया",
+        "isCorrect": false,
+        "stableId": "opt_9_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)\nFather’s wife is a mother and if they had\nonly one son he is certainly Saksham and\nthen Nidhi is his Daughter.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 10,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 10/06/2019(Evening",
+    "questionText": "Bharat and Sapna are husband and wife. Rohit and Bharat are brothers. Suresh is the father of Rohit. Sapna's son is Krish. How is Krish related to Suresh?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son/  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_10_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/  िपता",
+        "isCorrect": false,
+        "stableId": "opt_10_b"
+      },
+      {
+        "label": "C",
+        "text": "Uncle/  अंकल",
+        "isCorrect": false,
+        "stableId": "opt_10_c"
+      },
+      {
+        "label": "D",
+        "text": "Grandson/  पोता",
+        "isCorrect": true,
+        "stableId": "opt_10_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d) After seeing the family chart\ngiven below it is clear that Krish is the\ngrandson of Suresh.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 11,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 11/06/2019 (Morning",
+    "questionText": "Priyank is Akshay's brother. Sonia is Saksham's sister. Akshay is Sonia's son. How is Priyank related to Sonia?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nephew  /  भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_11_a"
+      },
+      {
+        "label": "B",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_11_b"
+      },
+      {
+        "label": "C",
+        "text": "Son/  बेटा",
+        "isCorrect": true,
+        "stableId": "opt_11_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_11_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c) After observing the following\npicture. We can see that Priyank is the son\nof Sonia.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 12,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 11/06/2019(Afternoon",
+    "questionText": "Introducing Rukmani, Vijay said , \" She is the mother of the son of only brother of my wife.\" What is the relation of Rukmani's husband with Vijay?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother-in-law/  साला  या  बहनोई",
+        "isCorrect": true,
+        "stableId": "opt_12_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/  िपता",
+        "isCorrect": false,
+        "stableId": "opt_12_b"
+      },
+      {
+        "label": "C",
+        "text": "Father-in-law/  ससुर",
+        "isCorrect": false,
+        "stableId": "opt_12_c"
+      },
+      {
+        "label": "D",
+        "text": "Son/  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_12_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 13,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 11/06/2019 (Evening",
+    "questionText": "Read the following information carefully and answer the question which follow: If 'A x B' means 'A is sister of B'./ यिद 'A If 'A + B' means 'A is the mother of If 'A B' means 'A is daughter 'of ÷ ÷ If 'A- B' means 'A is father of B'./ यिद A- If P + R ⨯ T - Q ÷ S + U, then how is S related to T?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter  /बेटी",
+        "isCorrect": true,
+        "stableId": "opt_13_a"
+      },
+      {
+        "label": "B",
+        "text": "Mother/मां",
+        "isCorrect": false,
+        "stableId": "opt_13_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister  /बहन",
+        "isCorrect": false,
+        "stableId": "opt_13_c"
+      },
+      {
+        "label": "D",
+        "text": "Wife/पȉी",
+        "isCorrect": false,
+        "stableId": "opt_13_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 14,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 12/06/2019 (Morning",
+    "questionText": "'A + B' means 'A is the sister of 'A - B' means 'A is the brother of B'./ 'A B' means 'A is the mother of B'./ ' A × × 'A B' means 'A is the father of B'./ 'A ÷ ÷ If V + S Q - P T + R U, then how × ÷ × is R related to S? Q - P T + R × ÷ ×",
+    "options": [
+      {
+        "label": "A",
+        "text": "Grandson/  पोता  या  नाती",
+        "isCorrect": false,
+        "stableId": "opt_14_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_14_b"
+      },
+      {
+        "label": "C",
+        "text": "Grand-Daughter/  पोती  या  नितनी",
+        "isCorrect": true,
+        "stableId": "opt_14_c"
+      },
+      {
+        "label": "D",
+        "text": "Maternal  grandmother/  नानी",
+        "isCorrect": false,
+        "stableId": "opt_14_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 15,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 12/06/2019 (Afternoon",
+    "questionText": "'A + B,' means 'A is the brother of 'A - B' means 'A is the wife of B'./ A - B 'A B' means 'A is the daughter of B'./ × × 'A B' means 'A is the father of B'./ ' A ÷ ÷ If P + S Q R - T V U, then × × ÷ ÷ how is T related to P ? Q R - T V × × ÷ ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  grandmother/  दादी",
+        "isCorrect": false,
+        "stableId": "opt_15_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal  grandmother/  नानी",
+        "isCorrect": false,
+        "stableId": "opt_15_b"
+      },
+      {
+        "label": "C",
+        "text": "Maternal  grandfather/  नाना",
+        "isCorrect": true,
+        "stableId": "opt_15_c"
+      },
+      {
+        "label": "D",
+        "text": "Paternal  grandfather/  दादा",
+        "isCorrect": false,
+        "stableId": "opt_15_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 16,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 12/06/2019(Evening",
+    "questionText": "'A + B' means 'A is the wife of B'./ 'A - B' means 'A is the husband of B'./ A 'A ✖ B' means 'A is the son of B'./ 'A ✖ 'A ÷ B' means 'A is the mother of B'./ ' A If T + Q ✖ P - U ÷ R ÷ S + V, then how is R related to Q? यिद T + Q ✖ P - U ÷ R ÷ S + V है, तो R, Q से",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_16_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal  Grandmother/  नानी",
+        "isCorrect": false,
+        "stableId": "opt_16_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister/  बहन",
+        "isCorrect": true,
+        "stableId": "opt_16_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother/  माँ",
+        "isCorrect": false,
+        "stableId": "opt_16_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 17,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 13/06/2019(Morning",
+    "questionText": "'A + B' means 'A is the daughter of 'A - B' means 'A is the brother of B'/ 'A - A B' means 'A is the mother of B'./ A × × 'A B' means 'A is the son of B'./' A B' ÷ × If U + C Q - P R S - T, then how is S × ÷ ÷ related to U? × ÷ ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maternal  grandfather/  नाना",
+        "isCorrect": false,
+        "stableId": "opt_17_a"
+      },
+      {
+        "label": "B",
+        "text": "Paternal  grandfather/  दादा",
+        "isCorrect": true,
+        "stableId": "opt_17_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother/  माँ",
+        "isCorrect": false,
+        "stableId": "opt_17_c"
+      },
+      {
+        "label": "D",
+        "text": "Paternal  grandmother/  दादी",
+        "isCorrect": false,
+        "stableId": "opt_17_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 18,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 13/06/2019(Afternoon",
+    "questionText": "'A + B' means 'A is the sister of B'/ 'A - B' means 'A is the daughter of B'/ A-B 'A B' means 'A is the brother of B'/ 'A × × 'A B' means 'A is the husband of B'/ 'A ÷ ÷ If V + U Q - T R + P S, then how × ÷ × is P related to V? यिद V + U Q - T R + P S है, तो P, V से × ÷ ×",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  uncle/  चाचा",
+        "isCorrect": false,
+        "stableId": "opt_18_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal  aunt/  मामी",
+        "isCorrect": false,
+        "stableId": "opt_18_b"
+      },
+      {
+        "label": "C",
+        "text": "Maternal  uncle/  मामा",
+        "isCorrect": true,
+        "stableId": "opt_18_c"
+      },
+      {
+        "label": "D",
+        "text": "Paternal  aunt/  चाची",
+        "isCorrect": false,
+        "stableId": "opt_18_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 19,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 13/06/2019(Evening",
+    "questionText": "Introducing Kavi, Veena said, \"She is the sister of the son of the wife of my husband.\" How is veena related to Kavi? SSC CHSL 2018 TIER I",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_19_a"
+      },
+      {
+        "label": "B",
+        "text": "Sister/  बहन",
+        "isCorrect": false,
+        "stableId": "opt_19_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother/  माँ",
+        "isCorrect": true,
+        "stableId": "opt_19_c"
+      },
+      {
+        "label": "D",
+        "text": "Aunt/  चाची",
+        "isCorrect": false,
+        "stableId": "opt_19_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 20,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 01-July-19(Evening",
+    "questionText": "In a family, B is the father of K. B has only two children. K is the brother of R. R is the daughter of P. A is the grand daughter of P. S is the father of A. How is S related to K?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son/ बेटा",
+        "isCorrect": false,
+        "stableId": "opt_20_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother-in-law/ बहनोई",
+        "isCorrect": true,
+        "stableId": "opt_20_b"
+      },
+      {
+        "label": "C",
+        "text": "Brother/ भाई",
+        "isCorrect": false,
+        "stableId": "opt_20_c"
+      },
+      {
+        "label": "D",
+        "text": "Son-in-law/ दामाद",
+        "isCorrect": false,
+        "stableId": "opt_20_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 21,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 01-July-19(Evening",
+    "questionText": "In a family of 5 members, X is the sister of Y. M has 2 children and he is the son of E, who is the father-in-law of H. H has only one son. Y is not the grand-daughter of E. How is X related to E?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sister  /  बहन",
+        "isCorrect": false,
+        "stableId": "opt_21_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter  /  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_21_b"
+      },
+      {
+        "label": "C",
+        "text": "Grand-daughter  /  पोती",
+        "isCorrect": true,
+        "stableId": "opt_21_c"
+      },
+      {
+        "label": "D",
+        "text": "Grandson  /  पोता",
+        "isCorrect": false,
+        "stableId": "opt_21_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 22,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2/7/2019 (Evening",
+    "questionText": "T is the sister of D. D is married to P. P is the son of M. T is the mother of J. Y is the father of U. Y has only one son and one daughter. U is the daughter of T. Q is the son of D. If M is the wife of W, then how is Q related to W?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son-in-law/ दामाद",
+        "isCorrect": false,
+        "stableId": "opt_22_a"
+      },
+      {
+        "label": "B",
+        "text": "Son/ बेटा",
+        "isCorrect": false,
+        "stableId": "opt_22_b"
+      },
+      {
+        "label": "C",
+        "text": "Grandson/ पोता",
+        "isCorrect": true,
+        "stableId": "opt_22_c"
+      },
+      {
+        "label": "D",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_22_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 23,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2/7/2019 (Evening",
+    "questionText": "There are two married couples in a family. % has two children. A is the wife of @, who is the brother of #. F is the daughter of %. U is the sister of S, who is the son of @. T is son of #, who is a male. How is A related to %?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sister/ बहन",
+        "isCorrect": false,
+        "stableId": "opt_23_a"
+      },
+      {
+        "label": "B",
+        "text": "Sister-in-law/ भाभी",
+        "isCorrect": true,
+        "stableId": "opt_23_b"
+      },
+      {
+        "label": "C",
+        "text": "Brother/ भइया",
+        "isCorrect": false,
+        "stableId": "opt_23_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother-in-law/ बहनोई",
+        "isCorrect": false,
+        "stableId": "opt_23_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 24,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 3-7-2019 (Afternoon",
+    "questionText": "Mayank is the son of Chhaya. Chhaya and Deepa are sisters. Gayatri is the mother of Deepa. If Naman is the son of Gayatri , How is Mayank related to Naman?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": true,
+        "stableId": "opt_24_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother/ भइया",
+        "isCorrect": false,
+        "stableId": "opt_24_b"
+      },
+      {
+        "label": "C",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_24_c"
+      },
+      {
+        "label": "D",
+        "text": "Son/ बेटा",
+        "isCorrect": false,
+        "stableId": "opt_24_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 25,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 3-7-2019 (Afternoon",
+    "questionText": "'A + B' means 'A is the mother of B'. 'A - B' means 'A is the wife of B'. 'A ✕ B' means 'A is the brother of B'. 'A ÷ B' means 'A is the husband of B'. If T ÷ V + Q - J ✕ M + U , then how is T related to J? × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Father-in-law/  ससुर",
+        "isCorrect": true,
+        "stableId": "opt_25_a"
+      },
+      {
+        "label": "B",
+        "text": "Son-in-law/  दामाद",
+        "isCorrect": false,
+        "stableId": "opt_25_b"
+      },
+      {
+        "label": "C",
+        "text": "Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_25_c"
+      },
+      {
+        "label": "D",
+        "text": "Father/  िपता",
+        "isCorrect": false,
+        "stableId": "opt_25_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 26,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 3-7-2019 (Evening",
+    "questionText": "'A + B' means 'A is the brother of B'. 'A - B' means 'A is the husband of B'. 'A ⨯ B' means 'A is the mother of B'. 'A ÷ B' means 'A is the sister of B'. If P + R ÷ T - K ⨯ O ⨯ C, then how is P related to O?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  Grandfather  /  दादाजी",
+        "isCorrect": false,
+        "stableId": "opt_26_a"
+      },
+      {
+        "label": "B",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_26_b"
+      },
+      {
+        "label": "C",
+        "text": "Paternal  Uncle  /  चाचा",
+        "isCorrect": true,
+        "stableId": "opt_26_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother  /  भाई",
+        "isCorrect": false,
+        "stableId": "opt_26_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 27,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 4-7-2019 (Morning",
+    "questionText": "A + B means 'A is sister of B'. A - B means ' A is son of B'. A ⨯ B means 'A is husband of B'. A ÷ B means 'A is mother of B'. If P + Q ÷ C - D -L ⨯ J , then how is J related to Q?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother/ मां",
+        "isCorrect": false,
+        "stableId": "opt_27_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter/ बेटी",
+        "isCorrect": false,
+        "stableId": "opt_27_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother-in-law/ सास",
+        "isCorrect": true,
+        "stableId": "opt_27_c"
+      },
+      {
+        "label": "D",
+        "text": "Father-in-law/ ससुर",
+        "isCorrect": false,
+        "stableId": "opt_27_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 28,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 4-7-2019 (Afternoon",
+    "questionText": "Rishabh is Namita's only brother. Rishabh's wife, Mridu has a brother Sonu. Illena is Namita's only niece. How is Sonu related to Illena?",
+    "options": [
+      {
+        "label": "A",
+        "text": ".  Maternal  uncle  /  मामा",
+        "isCorrect": true,
+        "stableId": "opt_28_a"
+      },
+      {
+        "label": "B",
+        "text": ".  Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_28_b"
+      },
+      {
+        "label": "C",
+        "text": ".  Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_28_c"
+      },
+      {
+        "label": "D",
+        "text": ".  Paternal  uncle  /  चाचा",
+        "isCorrect": false,
+        "stableId": "opt_28_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 29,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 4-7-2019 (Evening",
+    "questionText": "Mayank's father has a brother, Prakash, whose daughter, Ritu is Kavita's mother. Sonu is Ritu's only brother. How is Sonu related to Mayank?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother/ भाई",
+        "isCorrect": false,
+        "stableId": "opt_29_a"
+      },
+      {
+        "label": "B",
+        "text": "Cousin/ चचेरा-मौसेरा",
+        "isCorrect": true,
+        "stableId": "opt_29_b"
+      },
+      {
+        "label": "C",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_29_c"
+      },
+      {
+        "label": "D",
+        "text": "Son/ बेटा",
+        "isCorrect": false,
+        "stableId": "opt_29_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 30,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 4-7-2019 (Evening",
+    "questionText": "M is the brother of N. N is the brother of P. Q is the father of M. Based on these statements, which of the following statements cannot be definitely true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "P  is  the  brother  of  M  /  P,  M  का  भाई  है",
+        "isCorrect": true,
+        "stableId": "opt_30_a"
+      },
+      {
+        "label": "B",
+        "text": "M  is  the  brother  of  P  /  M,  P  का  भाई  है",
+        "isCorrect": false,
+        "stableId": "opt_30_b"
+      },
+      {
+        "label": "C",
+        "text": "N  is  the  son  of  Q  /  N,  Q  का  पुũ  है",
+        "isCorrect": false,
+        "stableId": "opt_30_c"
+      },
+      {
+        "label": "D",
+        "text": "N  is  the  brother  of  M  /  N,  M  का  भाई  है",
+        "isCorrect": false,
+        "stableId": "opt_30_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 31,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 5-7-2019 (Morning",
+    "questionText": "A + B means 'A is husband of B' A – B means 'A is brother of B' / A - B का A × B means 'A is sister of B' / A x B का A ÷ B means 'A is mother of B'/ A ÷ B का If P + R ÷ S × M – K, then how is R related to K?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  grandmother  /  दादी",
+        "isCorrect": false,
+        "stableId": "opt_31_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter  /  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_31_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother  /  माँ",
+        "isCorrect": true,
+        "stableId": "opt_31_c"
+      },
+      {
+        "label": "D",
+        "text": "Sister  /  बहन",
+        "isCorrect": false,
+        "stableId": "opt_31_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 32,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 5-7-2019 (Afternoon",
+    "questionText": "A + B means 'A is brother of B'/ A + A - B means 'A is daughter of B'/ A - B का A x B means 'A is husband of B'/ A x B का A B means 'A is son of B'/ A ÷ ÷ If J + R T K - Z, then how is K related ÷ × ÷ ×",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maternal  grandmother/  नानी",
+        "isCorrect": false,
+        "stableId": "opt_32_a"
+      },
+      {
+        "label": "B",
+        "text": "Paternal  grandmother/  दादी",
+        "isCorrect": false,
+        "stableId": "opt_32_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister/  बहन",
+        "isCorrect": false,
+        "stableId": "opt_32_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother/  माँ",
+        "isCorrect": true,
+        "stableId": "opt_32_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 33,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 5-7-2019 (Evening",
+    "questionText": "A + B means 'A is son of B'/ A + B A - B means 'A is husband of B' / A - B का A x B means 'A is sister of B'/ A x B का A B means 'A is daughter of B'/ A B ÷ ÷ If F x R x S G - P X, then how is X ÷ ÷ related to R? यिद F x R x S G - P ÷ ÷ grandfather or paternal grandfather or maternal",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal",
+        "isCorrect": false,
+        "stableId": "opt_33_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal",
+        "isCorrect": true,
+        "stableId": "opt_33_b"
+      },
+      {
+        "label": "C",
+        "text": "Father  or  mother/  िपता  या  माता",
+        "isCorrect": false,
+        "stableId": "opt_33_c"
+      },
+      {
+        "label": "D",
+        "text": "Grandson  or  granddaughter/",
+        "isCorrect": false,
+        "stableId": "opt_33_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 34,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 8-7-2019 (Morning",
+    "questionText": "A + B means 'A is mother of B' / A A – B means 'A is husband of B' / A - B A × B means 'A is son of B' / A × B का A ÷ B means 'A is brother of B' / A ÷ B If Q ÷ U × K × H – D + J, then how is K related to J?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother/  भाई",
+        "isCorrect": true,
+        "stableId": "opt_34_a"
+      },
+      {
+        "label": "B",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_34_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister  /  बहन",
+        "isCorrect": false,
+        "stableId": "opt_34_c"
+      },
+      {
+        "label": "D",
+        "text": "Paternal  uncle  /  चाचा",
+        "isCorrect": false,
+        "stableId": "opt_34_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 35,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 8-7-2019 (Afternoon",
+    "questionText": "A + B means 'A is sister of B' / A + A – B means 'A is son of B' / A - B का अथŊ A × B means 'A is father of B' / A × B का A ÷ B means 'A is brother of B' / A ÷ B If S × M ÷ U + L × Z – I, then how is L related to I?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother  /  भाई",
+        "isCorrect": false,
+        "stableId": "opt_35_a"
+      },
+      {
+        "label": "B",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_35_b"
+      },
+      {
+        "label": "C",
+        "text": "Son  /  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_35_c"
+      },
+      {
+        "label": "D",
+        "text": "Husband  / पित",
+        "isCorrect": true,
+        "stableId": "opt_35_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 36,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 8-7-2019 (Evening",
+    "questionText": "A + B means 'A is sister of B'/ A + B A – B means 'A is daughter of B' / A - B A × B means 'A is brother of B' / A × B का A ÷ B means 'A is mother of B' / A ÷ B If D + P ÷ I × K ÷ T – R, then how is R related to P?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son  /  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_36_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother  /  भाई",
+        "isCorrect": false,
+        "stableId": "opt_36_b"
+      },
+      {
+        "label": "C",
+        "text": "Daughter’s  husband/  बेटी  का  पित",
+        "isCorrect": true,
+        "stableId": "opt_36_c"
+      },
+      {
+        "label": "D",
+        "text": "Daughter’s  son/  बेटी  का  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_36_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 37,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 09-July-19 (Morning",
+    "questionText": "A + B means 'A is daughter of B' A – B means 'A is wife of B' / A - B का A × B means 'A is husband of B' / A × B A ÷ B means 'A is father of B' / A ÷ B का If K – S ÷ J × B + C – Q, then how is Q related to J?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_37_a"
+      },
+      {
+        "label": "B",
+        "text": "Father-in-law  /  दामाद",
+        "isCorrect": true,
+        "stableId": "opt_37_b"
+      },
+      {
+        "label": "C",
+        "text": "Maternal  grandfather  /  नाना",
+        "isCorrect": false,
+        "stableId": "opt_37_c"
+      },
+      {
+        "label": "D",
+        "text": "Son  /  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_37_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 38,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 09-July-19 (Afternoon",
+    "questionText": "Dev is the brother of Sneha and son of Mayank. Swati is the sister of Sneha. How is Mayank related to Swati?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son  /  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_38_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_38_b"
+      },
+      {
+        "label": "C",
+        "text": "Father  /  िपता",
+        "isCorrect": true,
+        "stableId": "opt_38_c"
+      },
+      {
+        "label": "D",
+        "text": "Sister/  बहन",
+        "isCorrect": false,
+        "stableId": "opt_38_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 39,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 09-July-19 (Evening",
+    "questionText": "Sona is sister of Ramesh and daughter of Mohit. Rama is wife of Mohit and mother of Prabhat. How Ramesh is related to Prabhat ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Father/  िपता",
+        "isCorrect": false,
+        "stableId": "opt_39_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother/  भाई",
+        "isCorrect": true,
+        "stableId": "opt_39_b"
+      },
+      {
+        "label": "C",
+        "text": "Son/  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_39_c"
+      },
+      {
+        "label": "D",
+        "text": "Cousin/ चचेरा-मौसेरा  įरʱेदार",
+        "isCorrect": false,
+        "stableId": "opt_39_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 40,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 10-July-19 (Morning",
+    "questionText": "Manju introduced Sushma to her friend, \"Her (Sushma's) father's only son's wife is my mother-in-law.\" How is Manju's husband related to Sushma?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son/  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_40_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_40_b"
+      },
+      {
+        "label": "C",
+        "text": "Nephew/  भतीजा",
+        "isCorrect": true,
+        "stableId": "opt_40_c"
+      },
+      {
+        "label": "D",
+        "text": "Father  / िपता",
+        "isCorrect": false,
+        "stableId": "opt_40_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 41,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 10/7/19 (Afternoon",
+    "questionText": "S is son of M. R is the father of Q and A. A is the daughter of M. How is A related to S?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aunt  /  आंटी",
+        "isCorrect": false,
+        "stableId": "opt_41_a"
+      },
+      {
+        "label": "B",
+        "text": "Mother  /  माँ",
+        "isCorrect": false,
+        "stableId": "opt_41_b"
+      },
+      {
+        "label": "C",
+        "text": "Daughter  /  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_41_c"
+      },
+      {
+        "label": "D",
+        "text": "Sister  /  बहन",
+        "isCorrect": true,
+        "stableId": "opt_41_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 42,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 10-July-19 (Evening",
+    "questionText": "Deepthi said to her friend, \"That girl playing with the dog is the younger of the two sisters of the son of my mother's husband.\" How is the girl playing with the dog related to Deepthi ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Grand  daughter/  पोती",
+        "isCorrect": false,
+        "stableId": "opt_42_a"
+      },
+      {
+        "label": "B",
+        "text": "Wife/  पȉी",
+        "isCorrect": false,
+        "stableId": "opt_42_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister  /  बहन",
+        "isCorrect": true,
+        "stableId": "opt_42_c"
+      },
+      {
+        "label": "D",
+        "text": "Daughter  –  in  -  law/  बš",
+        "isCorrect": false,
+        "stableId": "opt_42_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 43,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 11/7/2019 (Morning",
+    "questionText": "Anil and Abhay are brothers. Swati is the daughter of Samir and sister of Anil. How is Abhay's mother related to Samir?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sister  /  बहन",
+        "isCorrect": false,
+        "stableId": "opt_43_a"
+      },
+      {
+        "label": "B",
+        "text": "Wife/  पȉी",
+        "isCorrect": true,
+        "stableId": "opt_43_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister-in-law/  ननद  या  भाभी",
+        "isCorrect": false,
+        "stableId": "opt_43_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother/  माँ",
+        "isCorrect": false,
+        "stableId": "opt_43_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 44,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 11/7/2019 (Afternoon",
+    "questionText": "Mala and Lali are sisters. Mahesh is the father of Dev. Gargi is the mother of Mala and Dev. How Mahesh's father is related to Lali?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  Grand  Father  /  दादा",
+        "isCorrect": true,
+        "stableId": "opt_44_a"
+      },
+      {
+        "label": "B",
+        "text": "Uncle/  अंकल",
+        "isCorrect": false,
+        "stableId": "opt_44_b"
+      },
+      {
+        "label": "C",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_44_c"
+      },
+      {
+        "label": "D",
+        "text": "Maternal  Grand  Father  /  नाना",
+        "isCorrect": false,
+        "stableId": "opt_44_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 45,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 11/7/2019 (Evening",
+    "questionText": "Shyam is Riya's brother. Mohini is the mother of Anuj. Riya is the daughter of Ram. Anuj is Shyam's brother. How is Mohini related to Ram? SSC CGL 2019 TIER I",
+    "options": [
+      {
+        "label": "A",
+        "text": "daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_45_a"
+      },
+      {
+        "label": "B",
+        "text": "mother/  माँ",
+        "isCorrect": false,
+        "stableId": "opt_45_b"
+      },
+      {
+        "label": "C",
+        "text": "sister/  बहन",
+        "isCorrect": false,
+        "stableId": "opt_45_c"
+      },
+      {
+        "label": "D",
+        "text": "wife/  पȉी",
+        "isCorrect": true,
+        "stableId": "opt_45_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 46,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 3/3/2020 (Morning",
+    "questionText": "Amit is brother of Sonia , Jyoti is the sister of Nikita , Sonia is the daughter of Satish's father . Nikita is the daughter of Kavinder , Jyoti is the mother of Amit . Mukesh is Nikita's only sister's husband . How is Satish related to Kavinder ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Grandson/  पोता  या  नाती",
+        "isCorrect": true,
+        "stableId": "opt_46_a"
+      },
+      {
+        "label": "B",
+        "text": "Son-in-law  /  दामाद",
+        "isCorrect": false,
+        "stableId": "opt_46_b"
+      },
+      {
+        "label": "C",
+        "text": "Son   /  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_46_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother  /  भाई",
+        "isCorrect": false,
+        "stableId": "opt_46_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 47,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 3/3/2020 (Afternoon",
+    "questionText": "A+B means, 'B is the brother of A;/ A-B means 'A is the mother of B; / A-B A B means 'A is the father of B;/ A x B × A B means 'A is the son of B;/ A B का ÷ ÷ If,P+R T-Q S+U, then how is S related × ÷ to R? × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Grandfather/  दादा  या  नाना",
+        "isCorrect": false,
+        "stableId": "opt_47_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother  /  भाई",
+        "isCorrect": false,
+        "stableId": "opt_47_b"
+      },
+      {
+        "label": "C",
+        "text": "Grandson  /  पोता  या  नाती",
+        "isCorrect": false,
+        "stableId": "opt_47_c"
+      },
+      {
+        "label": "D",
+        "text": "Son-in-law  /  दामाद",
+        "isCorrect": true,
+        "stableId": "opt_47_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 48,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 3/3/2020 (Evening",
+    "questionText": "A+ B means 'A is the father of B; / A - B means 'A is the sister of B; / A-B का A B means 'A is the brother of B; / A × × A B means 'A is the mother of B;/ A ÷ ÷ If, U + H L - Q R - Y, then how is L × ÷ related to Y ? / L - Q × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother’s  brother/  माँ  का  भाई",
+        "isCorrect": false,
+        "stableId": "opt_48_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal  grandmother  /  नानी",
+        "isCorrect": false,
+        "stableId": "opt_48_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister  /  बहन",
+        "isCorrect": false,
+        "stableId": "opt_48_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother’s  Sister  /  माँ  की  बहन",
+        "isCorrect": true,
+        "stableId": "opt_48_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 49,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 4/3/2020 (Morning",
+    "questionText": "Arsh is Shivam's father and Dhruv is the son of Bimla.Eshwar is the father of Arsh . If Shivam is the brother of Dhruv , how is Bimla related to Eshwar?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter-in-law/  बš",
+        "isCorrect": true,
+        "stableId": "opt_49_a"
+      },
+      {
+        "label": "B",
+        "text": "Mother/  माँ",
+        "isCorrect": false,
+        "stableId": "opt_49_b"
+      },
+      {
+        "label": "C",
+        "text": "Wife  /  पȉी",
+        "isCorrect": false,
+        "stableId": "opt_49_c"
+      },
+      {
+        "label": "D",
+        "text": "Sister-in-law  /  ननद  या  भाभी",
+        "isCorrect": false,
+        "stableId": "opt_49_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 50,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 4/3/2020 (Afternoon",
+    "questionText": "A + B means ' B is the sister of A;/ A-B means 'A is the father of B;/ A-B का A B means 'B is the son of A;/ A x B × A B means 'B is the husband of A'. / A ÷ ÷ If, E F - H + J G + D, then how is D ÷ × related to H ? यिद E F - H + J ÷ ×",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uncle/  अंकल",
+        "isCorrect": false,
+        "stableId": "opt_50_a"
+      },
+      {
+        "label": "B",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_50_b"
+      },
+      {
+        "label": "C",
+        "text": "Niece  /  भांजी",
+        "isCorrect": true,
+        "stableId": "opt_50_c"
+      },
+      {
+        "label": "D",
+        "text": "Aunt  /  आंटी",
+        "isCorrect": false,
+        "stableId": "opt_50_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 51,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 4/3/2020 (Evening",
+    "questionText": "A + B means 'A is the wife of B'/ A - B means 'B is the daughter of A'/ A - A B means 'B is the brother of A'/ A x B × A B means 'A is the father of B'./ A ÷ ÷ If, P+ R T - Q + S U, then how is P × ÷ related to the mother of U ?/ यिद P+ R T - Q + S × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maternal  grandmother  /  नानी",
+        "isCorrect": false,
+        "stableId": "opt_51_a"
+      },
+      {
+        "label": "B",
+        "text": "Mother  /  माँ",
+        "isCorrect": false,
+        "stableId": "opt_51_b"
+      },
+      {
+        "label": "C",
+        "text": "Paternal  grandmother  /  दादी",
+        "isCorrect": false,
+        "stableId": "opt_51_c"
+      },
+      {
+        "label": "D",
+        "text": "Aunt  /  आंटी",
+        "isCorrect": true,
+        "stableId": "opt_51_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 52,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 5/3/2020 (Morning",
+    "questionText": "There is a family of five members: K, L, M, N and O. Among them , there is one married couple.O is unmarried and is the brother of K, N is the sister of O, M is the only married female and the mother of N, L and O are the only males in the group. Who is the father of K?",
+    "options": [
+      {
+        "label": "A",
+        "text": "O",
+        "isCorrect": false,
+        "stableId": "opt_52_a"
+      },
+      {
+        "label": "B",
+        "text": "M",
+        "isCorrect": false,
+        "stableId": "opt_52_b"
+      },
+      {
+        "label": "C",
+        "text": "K",
+        "isCorrect": false,
+        "stableId": "opt_52_c"
+      },
+      {
+        "label": "D",
+        "text": "L",
+        "isCorrect": true,
+        "stableId": "opt_52_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 53,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 5/3/2020 (Afternoon",
+    "questionText": "Pointing to the photograph of Sanchi, Nitin said, \"Her mother's son's wife is my mother-in-law's only daughter\". How is Nitin related to Sanchi's mother?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maternal  Uncle/  मामा",
+        "isCorrect": false,
+        "stableId": "opt_53_a"
+      },
+      {
+        "label": "B",
+        "text": "Paternal  grandfather/  दादा",
+        "isCorrect": false,
+        "stableId": "opt_53_b"
+      },
+      {
+        "label": "C",
+        "text": "Brother/  भाई",
+        "isCorrect": true,
+        "stableId": "opt_53_c"
+      },
+      {
+        "label": "D",
+        "text": "Paternal  uncle/  चाचा",
+        "isCorrect": false,
+        "stableId": "opt_53_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 54,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 5/3/2020 (Evening",
+    "questionText": "A + B means 'A is the mother of A - B means 'A is the brother of B '/ A-B A B means 'A is the father of B'/ A B × × A B means 'A is the daughter of B '/ A ÷ ÷ If, P - K Y - J S + R, then which of × ÷ the following statements is NOT correct? Y - J × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "P  is  paternal  uncle  of  R/  P,  R  का  चाचा  है",
+        "isCorrect": false,
+        "stableId": "opt_54_a"
+      },
+      {
+        "label": "B",
+        "text": "J  is  daughter  of  P/  J,  P  की  बेटी  है  |",
+        "isCorrect": true,
+        "stableId": "opt_54_b"
+      },
+      {
+        "label": "C",
+        "text": "Y  is  the  son  of  S/  Y,  S  का  पुũ  है  |",
+        "isCorrect": false,
+        "stableId": "opt_54_c"
+      },
+      {
+        "label": "D",
+        "text": "K  is  husband  of  S/  K,  S  का  पित  है  |",
+        "isCorrect": false,
+        "stableId": "opt_54_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 55,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 6/3/2020 (Morning",
+    "questionText": "A + B means ' A is the husband of A - B means 'B is the sister of A' ;/ A - B A B means 'A is the mother of B;/ A x × A B means 'B is the son of A;/ A B ÷ ÷ If, P + R T - Q S + U , then how is P × ÷ related to S? T - Q × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Father  -in  -  law/  ससुर",
+        "isCorrect": false,
+        "stableId": "opt_55_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal  grandfather/  नाना",
+        "isCorrect": true,
+        "stableId": "opt_55_b"
+      },
+      {
+        "label": "C",
+        "text": "Paternal  grandfather/  दादा",
+        "isCorrect": false,
+        "stableId": "opt_55_c"
+      },
+      {
+        "label": "D",
+        "text": "Uncle/  अंकल",
+        "isCorrect": false,
+        "stableId": "opt_55_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 56,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 6/3/2020 (Afternoon",
+    "questionText": "A + B means 'A is the father of B'/ A - B means 'A is the sister of B' / A - B A B means 'A is the brother of B'/ A × × A B means 'A is the daughter of B'/ A ÷ ÷ If, R + S T - V U, then how is S × ÷ related to U ? T - V × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother/  भाई",
+        "isCorrect": false,
+        "stableId": "opt_56_a"
+      },
+      {
+        "label": "B",
+        "text": "Son/  बेटा",
+        "isCorrect": true,
+        "stableId": "opt_56_b"
+      },
+      {
+        "label": "C",
+        "text": "Husband/  पित",
+        "isCorrect": false,
+        "stableId": "opt_56_c"
+      },
+      {
+        "label": "D",
+        "text": "Daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_56_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 57,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 6/3/2020 (Evening",
+    "questionText": "A + B means 'A is the husband of A - B means 'A is the wife of B' / A - B A B means 'A is the mother of B'/ A × × A B means 'A is the son of B'/ A B ÷ ÷ If, W R J - S V + L, then which × × ÷ of the following statements is NOT correct?/ यिद W R J - S × × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "V  is  the  father-in-law  of  J./  V,  J  का",
+        "isCorrect": false,
+        "stableId": "opt_57_a"
+      },
+      {
+        "label": "B",
+        "text": "L  is  the  wife  of  V./  L,  V  की  पȉी  है  |",
+        "isCorrect": false,
+        "stableId": "opt_57_b"
+      },
+      {
+        "label": "C",
+        "text": "L  is  the  mother-in-law  of  S./  L,  S  की",
+        "isCorrect": true,
+        "stableId": "opt_57_c"
+      },
+      {
+        "label": "D",
+        "text": "W  is  the  maternal  grandmother  of  J/",
+        "isCorrect": false,
+        "stableId": "opt_57_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 58,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 7/3/2020 (Morning",
+    "questionText": "A + B means 'A is the mother of B'/ A - B means 'A is the husband of B'/ A - A B means 'A is son of B' / A × × A B means 'A is the daughter of B'./ A ÷ ÷ If , W Z + Y X , then how is X × ÷ related to Z? Z + Y × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_58_a"
+      },
+      {
+        "label": "B",
+        "text": "Son/  बेटा",
+        "isCorrect": false,
+        "stableId": "opt_58_b"
+      },
+      {
+        "label": "C",
+        "text": "Wife/  पȉी",
+        "isCorrect": false,
+        "stableId": "opt_58_c"
+      },
+      {
+        "label": "D",
+        "text": "Husband/  पित",
+        "isCorrect": true,
+        "stableId": "opt_58_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 59,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 7/3/2020 (Afternoon",
+    "questionText": "A-B means 'A is the mother of B'/ A A B means 'A is the sister of B'/ A B × × A B means 'A is the daughter of B'./ A ÷ ÷ Which of the following expressions means 'U is the daughter of Q' ?/ ÷ × × ÷ ÷ × ÷ ×",
+    "options": [
+      {
+        "label": "A",
+        "text": "Q  -  Z    U    K",
+        "isCorrect": false,
+        "stableId": "opt_59_a"
+      },
+      {
+        "label": "B",
+        "text": "Q  -  Z    U    K",
+        "isCorrect": true,
+        "stableId": "opt_59_b"
+      },
+      {
+        "label": "C",
+        "text": "K  -  Z    U    Q",
+        "isCorrect": false,
+        "stableId": "opt_59_c"
+      },
+      {
+        "label": "D",
+        "text": "K  -  U  Z    Q",
+        "isCorrect": false,
+        "stableId": "opt_59_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 60,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 7/3/2020 (Evening",
+    "questionText": "A + B means ' B is the daughter of A - B means 'B is the sister of A '/ A - B A B means 'B is the husband of A'/ A × A B means 'A is the father of B './ A ÷ ÷ If, P R T + Q - S U + Z, then how ÷ × × is R related to Z? R T + Q - S ÷ × ×",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maternal  grandmother  /  नानी",
+        "isCorrect": true,
+        "stableId": "opt_60_a"
+      },
+      {
+        "label": "B",
+        "text": "Paternal  grandmother  /  दादी",
+        "isCorrect": false,
+        "stableId": "opt_60_b"
+      },
+      {
+        "label": "C",
+        "text": "Paternal  grandfather/  दादा",
+        "isCorrect": false,
+        "stableId": "opt_60_c"
+      },
+      {
+        "label": "D",
+        "text": "Maternal  grandfather/  नाना",
+        "isCorrect": false,
+        "stableId": "opt_60_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 61,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 9/3/2020 (Morning",
+    "questionText": "A + B means 'A is the father of B' / A B means 'A is the brother of B;/ A x × A B means 'A is the sister of B '/ A ÷ ÷ Which of the following expressions means 'H is the paternal grandson of P'? × ÷ × ÷ ÷ × × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "H  +  K  +  D    P    M",
+        "isCorrect": false,
+        "stableId": "opt_61_a"
+      },
+      {
+        "label": "B",
+        "text": "D  +  H  +  K    M    P",
+        "isCorrect": false,
+        "stableId": "opt_61_b"
+      },
+      {
+        "label": "C",
+        "text": "P  +  K  +  D    H    M",
+        "isCorrect": true,
+        "stableId": "opt_61_c"
+      },
+      {
+        "label": "D",
+        "text": "P  +  K  +  D    H    M",
+        "isCorrect": false,
+        "stableId": "opt_61_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 62,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 9/3/2020 (Afternoon",
+    "questionText": "A - B means 'A is the sister of B / A B means 'A is the husband of B'/ A × × A B means ' A is the son of B / A B ÷ ÷ If, Y M - T - Z L U, then how is × ÷ × U related to Y ? M - T - Z L × ÷ ×",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother-in-law/  सास",
+        "isCorrect": true,
+        "stableId": "opt_62_a"
+      },
+      {
+        "label": "B",
+        "text": "Mother/  माँ",
+        "isCorrect": false,
+        "stableId": "opt_62_b"
+      },
+      {
+        "label": "C",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_62_c"
+      },
+      {
+        "label": "D",
+        "text": "Father  -in  -  law/  ससुर",
+        "isCorrect": false,
+        "stableId": "opt_62_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 63,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CGL 9/3/2020 (Evening",
+    "questionText": "Pointing to the photograph of a girl Akansha, Rajeev said, \" Her daughter's father's wife's mother is my wife's daughter's mother's mother - in - law\". How is Rajeev related to Akansha? SSC CHSL 2019 TIER I",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  Uncle/  चाचा",
+        "isCorrect": false,
+        "stableId": "opt_63_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother/  भाई",
+        "isCorrect": true,
+        "stableId": "opt_63_b"
+      },
+      {
+        "label": "C",
+        "text": "Father/  िपता",
+        "isCorrect": false,
+        "stableId": "opt_63_c"
+      },
+      {
+        "label": "D",
+        "text": "Maternal  Uncle/  मामा",
+        "isCorrect": false,
+        "stableId": "opt_63_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 64,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 17/03/20(Morning",
+    "questionText": "P is the brother of Q. R is the daughter of Q. S is the sister of P. Q is sister of S. T is the brother of R. Who is the uncle of T? / P Q का भाई है | R Q की बेटी",
+    "options": [
+      {
+        "label": "A",
+        "text": "Q",
+        "isCorrect": false,
+        "stableId": "opt_64_a"
+      },
+      {
+        "label": "B",
+        "text": "C",
+        "isCorrect": false,
+        "stableId": "opt_64_b"
+      },
+      {
+        "label": "C",
+        "text": "S",
+        "isCorrect": false,
+        "stableId": "opt_64_c"
+      },
+      {
+        "label": "D",
+        "text": "P",
+        "isCorrect": true,
+        "stableId": "opt_64_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 65,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 17/03/20(Afternoon",
+    "questionText": "A + B means 'A is the father of B; / A - B means 'A is the wife of B', / A - B का A B means 'A is daughter of B', / A B × × A B means 'A is the son of B' / A B ÷ ÷ If J , then how is M related × K + L ÷ M × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother/ मां",
+        "isCorrect": true,
+        "stableId": "opt_65_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_65_b"
+      },
+      {
+        "label": "C",
+        "text": "Brother/ भइया",
+        "isCorrect": false,
+        "stableId": "opt_65_c"
+      },
+      {
+        "label": "D",
+        "text": "Sister/ बहन",
+        "isCorrect": false,
+        "stableId": "opt_65_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 66,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 18/03/20(Morning",
+    "questionText": "Sheela introduced Rahul saying, \"His sister is the single daughter of my mother\". How are Rahul and Sheela related to each other?'",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uncle-Niece/ चाचा-भतीजी",
+        "isCorrect": false,
+        "stableId": "opt_66_a"
+      },
+      {
+        "label": "B",
+        "text": "Son-Mother /बेटे-मां",
+        "isCorrect": false,
+        "stableId": "opt_66_b"
+      },
+      {
+        "label": "C",
+        "text": "Cousins /चचेरे  भाई  बिहन",
+        "isCorrect": false,
+        "stableId": "opt_66_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother-Sister/ भाई  बहन",
+        "isCorrect": true,
+        "stableId": "opt_66_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 67,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 18/03/20(Afternoon",
+    "questionText": "B does not have a sister. A is the sister-in-law of B. D is the only brother of B, while B is unmarried. F is the father-in-law of D. K is the wife of F. How is K related to A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother  in  law/ सास",
+        "isCorrect": false,
+        "stableId": "opt_67_a"
+      },
+      {
+        "label": "B",
+        "text": "Sister/ बहन",
+        "isCorrect": false,
+        "stableId": "opt_67_b"
+      },
+      {
+        "label": "C",
+        "text": "Daughter/ बेटी",
+        "isCorrect": false,
+        "stableId": "opt_67_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother/ मां",
+        "isCorrect": true,
+        "stableId": "opt_67_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 68,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 18/03/20(Evening",
+    "questionText": "If A is the sister of B, C is the father of D, L is the paternal uncle of D and B is the sister of L, then how is A related to D?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  aunt/ पैतृक  चाची",
+        "isCorrect": true,
+        "stableId": "opt_68_a"
+      },
+      {
+        "label": "B",
+        "text": "Sister/ बहन",
+        "isCorrect": false,
+        "stableId": "opt_68_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother/ मां",
+        "isCorrect": false,
+        "stableId": "opt_68_c"
+      },
+      {
+        "label": "D",
+        "text": "Paternal  grandmother/ दादी",
+        "isCorrect": false,
+        "stableId": "opt_68_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 69,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 19/03/20(Morning",
+    "questionText": "X is the sister of Y. Y is the daughter of M. M is the mother of P. P is the brother of Y.T is the brother of X's mother. How is T related to M?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son/ बेटा",
+        "isCorrect": false,
+        "stableId": "opt_69_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_69_b"
+      },
+      {
+        "label": "C",
+        "text": "Husband/ पित",
+        "isCorrect": false,
+        "stableId": "opt_69_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother/ भइया",
+        "isCorrect": true,
+        "stableId": "opt_69_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 70,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 19/03/20(Afternoon",
+    "questionText": "Pointing to the photograph of Amit, Gagan Said, 'His sister's mother's husband is my daughter's mother's husband's father. How is Amit related to Gagan? /",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_70_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal  uncle/ मामा",
+        "isCorrect": false,
+        "stableId": "opt_70_b"
+      },
+      {
+        "label": "C",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_70_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother/ भइया",
+        "isCorrect": true,
+        "stableId": "opt_70_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 71,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 19/03/20(Evening",
+    "questionText": "Himmat is the husband of Kavita. Sharda is the daughter of Ravi whose wife is Ketaki. Kavita is Shraddha's sister. How is Ravi related to Himmat?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother/ भइया",
+        "isCorrect": false,
+        "stableId": "opt_71_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/िपता",
+        "isCorrect": false,
+        "stableId": "opt_71_b"
+      },
+      {
+        "label": "C",
+        "text": "Paternal  Uncle/ चाचा",
+        "isCorrect": false,
+        "stableId": "opt_71_c"
+      },
+      {
+        "label": "D",
+        "text": "Father-in-law/ ससुर",
+        "isCorrect": true,
+        "stableId": "opt_71_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 72,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 12/10/20(Afternoon",
+    "questionText": "X is the mother of A. Y is the sister of B's father. R is the father of B. A and Z are sisters. B is the brother of Z. How is R related to X?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son/ बेटा",
+        "isCorrect": false,
+        "stableId": "opt_72_a"
+      },
+      {
+        "label": "B",
+        "text": "Husband/ पित",
+        "isCorrect": false,
+        "stableId": "opt_72_b"
+      },
+      {
+        "label": "C",
+        "text": "Father-in-law/ ससुर",
+        "isCorrect": false,
+        "stableId": "opt_72_c"
+      },
+      {
+        "label": "D",
+        "text": "Father/ िपता",
+        "isCorrect": true,
+        "stableId": "opt_72_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 73,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 12/10/20(Afternoon",
+    "questionText": "Showing the picture of shikha, Parul said. \"she is the grandmother of my father's only son\". How is the Shikha related to Parul?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Grandmother/ दादी  मा",
+        "isCorrect": true,
+        "stableId": "opt_73_a"
+      },
+      {
+        "label": "B",
+        "text": "Sister/ बहन",
+        "isCorrect": false,
+        "stableId": "opt_73_b"
+      },
+      {
+        "label": "C",
+        "text": "Daughter  in  law/ बŠॅ",
+        "isCorrect": false,
+        "stableId": "opt_73_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother/ माँ",
+        "isCorrect": false,
+        "stableId": "opt_73_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 74,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 12/10/20(Evening",
+    "questionText": "B is the only son of A. C is the mother of D. A is the mother of C. The relation of B with D is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  uncle/  पैतृक  चाचा",
+        "isCorrect": false,
+        "stableId": "opt_74_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_74_b"
+      },
+      {
+        "label": "C",
+        "text": "Maternal  uncle/  मातृ  चाचा",
+        "isCorrect": true,
+        "stableId": "opt_74_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother/ भाई",
+        "isCorrect": false,
+        "stableId": "opt_74_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 75,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 13/10/20(Morning",
+    "questionText": "A B means ' A is the wife of B; / A × × A B means 'A is the father of B; / A B ÷ ÷ Which of the following expressions means 'R is the paternal grandfather of S'? × ÷ × ÷ × ÷ ÷ ÷ × × × ÷",
+    "options": [
+      {
+        "label": "A",
+        "text": "J S R U",
+        "isCorrect": false,
+        "stableId": "opt_75_a"
+      },
+      {
+        "label": "B",
+        "text": "S U J R",
+        "isCorrect": false,
+        "stableId": "opt_75_b"
+      },
+      {
+        "label": "C",
+        "text": "R J S U",
+        "isCorrect": true,
+        "stableId": "opt_75_c"
+      },
+      {
+        "label": "D",
+        "text": "S U R J",
+        "isCorrect": false,
+        "stableId": "opt_75_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 76,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 13/10/20(Afternoon",
+    "questionText": "A+B means 'A is the mother of B'. / A-B means 'A is the sister of B'. / A-B का A B means 'A is the son of B'. / A B × × A B means 'A is the father of B'. / A B ÷ ÷ In K+U-T R M, then how is K related × ÷ to M?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother/ माता",
+        "isCorrect": true,
+        "stableId": "opt_76_a"
+      },
+      {
+        "label": "B",
+        "text": "Sister/ बहन",
+        "isCorrect": false,
+        "stableId": "opt_76_b"
+      },
+      {
+        "label": "C",
+        "text": "Wife/ पȉी",
+        "isCorrect": false,
+        "stableId": "opt_76_c"
+      },
+      {
+        "label": "D",
+        "text": "Maternal  Grandmother/ नानी",
+        "isCorrect": false,
+        "stableId": "opt_76_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 77,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 13/10/20(Evening",
+    "questionText": "Pointing to a picture of Rajiv, a lady Neena said, ''His sister's father is the only son of my father-in-law.'' How is Neena related to Rajiv?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sister/  बहन",
+        "isCorrect": false,
+        "stableId": "opt_77_a"
+      },
+      {
+        "label": "B",
+        "text": "Grandfather/ दादा",
+        "isCorrect": false,
+        "stableId": "opt_77_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother/ माँ",
+        "isCorrect": true,
+        "stableId": "opt_77_c"
+      },
+      {
+        "label": "D",
+        "text": "Paternal  Grandmother/ दादी",
+        "isCorrect": false,
+        "stableId": "opt_77_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 78,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 14/10/20(Morning",
+    "questionText": "If A is the mother of B, X is the father of Y, H is the brother of J, L is the brother of Y's father, B is the sister of L and J is the husband of A, then how is J related to Y?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son-in-law/ दामाद",
+        "isCorrect": false,
+        "stableId": "opt_78_a"
+      },
+      {
+        "label": "B",
+        "text": "Paternal  grandfather/ दादा",
+        "isCorrect": true,
+        "stableId": "opt_78_b"
+      },
+      {
+        "label": "C",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_78_c"
+      },
+      {
+        "label": "D",
+        "text": "Son/ पुũ",
+        "isCorrect": false,
+        "stableId": "opt_78_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 79,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 14/10/20(Afternoon",
+    "questionText": "Introducing Shikha, Arvind said, \"The only daughter of her mother is my son's wife\". How is Arvind related to Shikha?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Father-in-Law/ ससुर",
+        "isCorrect": true,
+        "stableId": "opt_79_a"
+      },
+      {
+        "label": "B",
+        "text": "Uncle/ चाचा",
+        "isCorrect": false,
+        "stableId": "opt_79_b"
+      },
+      {
+        "label": "C",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_79_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother/ माँ",
+        "isCorrect": false,
+        "stableId": "opt_79_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 80,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 14/10/20(Evening",
+    "questionText": "A is husband of M who is sister-in-law of N, N is daughter of R and U, M is daughter-in-law of U. How A is related to U?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Father/िपता",
+        "isCorrect": false,
+        "stableId": "opt_80_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother/भाई",
+        "isCorrect": false,
+        "stableId": "opt_80_b"
+      },
+      {
+        "label": "C",
+        "text": "Son/पुũ",
+        "isCorrect": true,
+        "stableId": "opt_80_c"
+      },
+      {
+        "label": "D",
+        "text": "Brother-in-law/जीजा",
+        "isCorrect": false,
+        "stableId": "opt_80_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 81,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 15/10/20(Morning",
+    "questionText": "Introducing a lady, Raman said, ''She is the wife of my father's father-in-law.'' How is the lady related to Raman?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother  in  law/ सास",
+        "isCorrect": false,
+        "stableId": "opt_81_a"
+      },
+      {
+        "label": "B",
+        "text": "Paternal  grandmother/ दादी",
+        "isCorrect": false,
+        "stableId": "opt_81_b"
+      },
+      {
+        "label": "C",
+        "text": "Maternal  grandmother/ नानी",
+        "isCorrect": true,
+        "stableId": "opt_81_c"
+      },
+      {
+        "label": "D",
+        "text": "Maternal  aunt/ मामी",
+        "isCorrect": false,
+        "stableId": "opt_81_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 82,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 15/10/20(Afternoon",
+    "questionText": "What is the relation of Ramesh with his mother's son-in-law's wife's sister?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Husband/ पित",
+        "isCorrect": false,
+        "stableId": "opt_82_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother/ भाई",
+        "isCorrect": true,
+        "stableId": "opt_82_b"
+      },
+      {
+        "label": "C",
+        "text": "Father/  िपता",
+        "isCorrect": false,
+        "stableId": "opt_82_c"
+      },
+      {
+        "label": "D",
+        "text": "Father-in-law/ ससुर",
+        "isCorrect": false,
+        "stableId": "opt_82_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 83,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 2019 15/10/20(Evening",
+    "questionText": "Pointing to the photograph of a boy, Vikas said, ''His father's mother, Sunitha, is my wife's sister's mother.\" How is Sunitha related to Vikas?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother-in-law/ सास",
+        "isCorrect": true,
+        "stableId": "opt_83_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal  grandmother/ नानी",
+        "isCorrect": false,
+        "stableId": "opt_83_b"
+      },
+      {
+        "label": "C",
+        "text": "Maternal  aunt  / मामी",
+        "isCorrect": false,
+        "stableId": "opt_83_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother/ माँ",
+        "isCorrect": false,
+        "stableId": "opt_83_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 84,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 16-10-2020 (Morning",
+    "questionText": "When Laxmi saw Mahesh, she said, \"He is the son of the father-in-law of the father of my daughter\". How is Mahesh related to Laxmi?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother/ भाई",
+        "isCorrect": true,
+        "stableId": "opt_84_a"
+      },
+      {
+        "label": "B",
+        "text": "Son/ बेटा",
+        "isCorrect": false,
+        "stableId": "opt_84_b"
+      },
+      {
+        "label": "C",
+        "text": "Maternal  uncle/ मामा",
+        "isCorrect": false,
+        "stableId": "opt_84_c"
+      },
+      {
+        "label": "D",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_84_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 85,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 16/10/2020 (Afternoon",
+    "questionText": "Pointing to a photograph, Mohan said, \"The person who is standing with my mother in the photograph is the only son of my father\". How is the person related to Mohan?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_85_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_85_b"
+      },
+      {
+        "label": "C",
+        "text": "Cousin/ चचेरे  भाई",
+        "isCorrect": false,
+        "stableId": "opt_85_c"
+      },
+      {
+        "label": "D",
+        "text": "Mohan  himself/ मोहन",
+        "isCorrect": true,
+        "stableId": "opt_85_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 86,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 16/10/2020 (Evening",
+    "questionText": "Between the siblings A and B, one is a brother and the other a sister. B is the son of X. X is Y's husband and O's brother. How is A related to O?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cousin/ चचेरा  भाई",
+        "isCorrect": false,
+        "stableId": "opt_86_a"
+      },
+      {
+        "label": "B",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_86_b"
+      },
+      {
+        "label": "C",
+        "text": "Granddaughter/ पोती",
+        "isCorrect": false,
+        "stableId": "opt_86_c"
+      },
+      {
+        "label": "D",
+        "text": "Niece/ भतीजी",
+        "isCorrect": true,
+        "stableId": "opt_86_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 87,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 19/10/2020 (Morning",
+    "questionText": "Anita is the sister of Babita and Dharmendar is the brother of Sushma. If Sushma is the sister of Anita, then how is Babita related to Sushma?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother/ भाई",
+        "isCorrect": false,
+        "stableId": "opt_87_a"
+      },
+      {
+        "label": "B",
+        "text": "Information  is  incomplete/ सूचना  अपूणŊ",
+        "isCorrect": false,
+        "stableId": "opt_87_b"
+      },
+      {
+        "label": "C",
+        "text": "Aunt/ आंटी",
+        "isCorrect": false,
+        "stableId": "opt_87_c"
+      },
+      {
+        "label": "D",
+        "text": "Sister  / बहन",
+        "isCorrect": true,
+        "stableId": "opt_87_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 88,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 19-10-2020 (Afternoon",
+    "questionText": "Introducing a boy, Ritika said, 'This is the son of the only son of my father.' So how is Ritika related to that boy's mother?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aunt/  बुआ",
+        "isCorrect": false,
+        "stableId": "opt_88_a"
+      },
+      {
+        "label": "B",
+        "text": "sister/  बहन",
+        "isCorrect": false,
+        "stableId": "opt_88_b"
+      },
+      {
+        "label": "C",
+        "text": "sister-in-law/ ननद",
+        "isCorrect": true,
+        "stableId": "opt_88_c"
+      },
+      {
+        "label": "D",
+        "text": "cousin  /  मौसेरी  बहन",
+        "isCorrect": false,
+        "stableId": "opt_88_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 89,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 20-10-2020 (Morning",
+    "questionText": "A and B are brothers of C. B is the son of D and E. D is the daughter of F. P is the father-in-law of E. Q is the son of F. How is A related to P?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter/  पुũी",
+        "isCorrect": false,
+        "stableId": "opt_89_a"
+      },
+      {
+        "label": "B",
+        "text": "Grandson /  नाती",
+        "isCorrect": true,
+        "stableId": "opt_89_b"
+      },
+      {
+        "label": "C",
+        "text": "Son/ पुũ",
+        "isCorrect": false,
+        "stableId": "opt_89_c"
+      },
+      {
+        "label": "D",
+        "text": "Father/  िपता",
+        "isCorrect": false,
+        "stableId": "opt_89_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 90,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC है SSC CHSL 20/10/2020 (Afternoon",
+    "questionText": "G is the grandfather of S. B has only two sons E and F. A and B are the only sons of G. Who is the father of S?",
+    "options": [
+      {
+        "label": "A",
+        "text": "F",
+        "isCorrect": false,
+        "stableId": "opt_90_a"
+      },
+      {
+        "label": "B",
+        "text": "B",
+        "isCorrect": false,
+        "stableId": "opt_90_b"
+      },
+      {
+        "label": "C",
+        "text": "E",
+        "isCorrect": false,
+        "stableId": "opt_90_c"
+      },
+      {
+        "label": "D",
+        "text": "A",
+        "isCorrect": true,
+        "stableId": "opt_90_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 91,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 20/10/2020 (Evening",
+    "questionText": "Shraddha says to Sharayu, \"Your mother-in-law is my father's mother who is the eldest son, but your husband is not my father.\" How is Sharayu related to Shraddha?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Niece/ भतीजी",
+        "isCorrect": false,
+        "stableId": "opt_91_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter/ बेटी",
+        "isCorrect": false,
+        "stableId": "opt_91_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother/ माँ",
+        "isCorrect": false,
+        "stableId": "opt_91_c"
+      },
+      {
+        "label": "D",
+        "text": "Aunt  / आंटी",
+        "isCorrect": true,
+        "stableId": "opt_91_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 92,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 21/10/2020 (Morning",
+    "questionText": "Jay is husband of Geetanjali who is sister of Deepali. Deepali is daughter of Vijay. Sarita is mother-in-law of Rohit. Harish Chander is the father of Jay and Sarita is the wife of Vijay. Vijay and Sarita have only two daughters. How is Rohit related to Vijay?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Son/ बेटा",
+        "isCorrect": false,
+        "stableId": "opt_92_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_92_b"
+      },
+      {
+        "label": "C",
+        "text": "Brother/ भाई",
+        "isCorrect": false,
+        "stableId": "opt_92_c"
+      },
+      {
+        "label": "D",
+        "text": "Son-in-law/ दामाद",
+        "isCorrect": true,
+        "stableId": "opt_92_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 93,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 21/10/2020 (Afternoon",
+    "questionText": "Introducing a boy, I said, \"His mother is the only daughter of my mother in law\". How am I related to the boy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother/ भाई",
+        "isCorrect": false,
+        "stableId": "opt_93_a"
+      },
+      {
+        "label": "B",
+        "text": "Father/ िपता",
+        "isCorrect": true,
+        "stableId": "opt_93_b"
+      },
+      {
+        "label": "C",
+        "text": "Brother-in-law/ जीजाजी",
+        "isCorrect": false,
+        "stableId": "opt_93_c"
+      },
+      {
+        "label": "D",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_93_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 94,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 21/10/2020 (Evening",
+    "questionText": "Pointing to Rehan, Rukhsana said, \"His paternal grandfather's daughter-in-law is my daughter's paternal grandmother\". How is Rukhsana related to Rehan?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother/ माता",
+        "isCorrect": false,
+        "stableId": "opt_94_a"
+      },
+      {
+        "label": "B",
+        "text": "Wife/ पȉी",
+        "isCorrect": true,
+        "stableId": "opt_94_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister/ बहन",
+        "isCorrect": false,
+        "stableId": "opt_94_c"
+      },
+      {
+        "label": "D",
+        "text": "Daughter/ बेटी",
+        "isCorrect": false,
+        "stableId": "opt_94_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 95,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 26/10/2020 (Morning",
+    "questionText": "Deepali is daughter of Vijay, who is married to Sunita. If Deepali is the wife of Mohit, then how is Mohit related to Vijay?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother  /  भाई",
+        "isCorrect": false,
+        "stableId": "opt_95_a"
+      },
+      {
+        "label": "B",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_95_b"
+      },
+      {
+        "label": "C",
+        "text": "Son  /  पुũ",
+        "isCorrect": false,
+        "stableId": "opt_95_c"
+      },
+      {
+        "label": "D",
+        "text": "Son-in-law  /  दामाद",
+        "isCorrect": true,
+        "stableId": "opt_95_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 96,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 26/10/2020 (Afternoon",
+    "questionText": "If A is the brother of B, C is the father of D, F is the daughter of E, L is the brother of D's father, B is the sister of L and E is the wife of C, then how is F related to A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aunt/ चाची",
+        "isCorrect": false,
+        "stableId": "opt_96_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter  in  law/ बŠॅ",
+        "isCorrect": false,
+        "stableId": "opt_96_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister/ बहन",
+        "isCorrect": false,
+        "stableId": "opt_96_c"
+      },
+      {
+        "label": "D",
+        "text": "Niece/ भतीजी",
+        "isCorrect": true,
+        "stableId": "opt_96_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 97,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CHSL 26/10/2020 (Evening",
+    "questionText": "Seeing a portrait, Rucha asked Seema, ''Whose portrait is this?''. Seema replied, ''Her son is the father of my daughter''.Whose portrait is it? SSC CPO 2020 TIER I",
+    "options": [
+      {
+        "label": "A",
+        "text": "Seema/  सीमा",
+        "isCorrect": false,
+        "stableId": "opt_97_a"
+      },
+      {
+        "label": "B",
+        "text": "Seema's  mother-in-law/ सीमा  की  सास",
+        "isCorrect": true,
+        "stableId": "opt_97_b"
+      },
+      {
+        "label": "C",
+        "text": "Seema's  sister/ सीमा  की  बहन",
+        "isCorrect": false,
+        "stableId": "opt_97_c"
+      },
+      {
+        "label": "D",
+        "text": "Seema's  mother /सीमा  की  माँ",
+        "isCorrect": false,
+        "stableId": "opt_97_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 98,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 23/11/20(Morning",
+    "questionText": "Ronita's only brother Vikram is the husband of Kartik's mother Sejal. How is Ronita's mother Chandni related to Kartik ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mother-in-law/  सास",
+        "isCorrect": false,
+        "stableId": "opt_98_a"
+      },
+      {
+        "label": "B",
+        "text": "Maternal  grandmother/  नानी",
+        "isCorrect": false,
+        "stableId": "opt_98_b"
+      },
+      {
+        "label": "C",
+        "text": "Paternal  aunt/  चाची",
+        "isCorrect": false,
+        "stableId": "opt_98_c"
+      },
+      {
+        "label": "D",
+        "text": "Parental  grandmother/  दादी",
+        "isCorrect": true,
+        "stableId": "opt_98_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 99,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 23/11/2020 (Morning",
+    "questionText": "'A % B' means 'A is the mother of 'A $ B' means 'A is the father of B'./ ' A $ 'A # B' means 'A is the brother of B'./ 'A 'A & B' means 'A is the sister of B'./ If J $ H # R % N & T # U % P, then which of the following statements is NOT correct ? यिद J $ H # R % N & T # U % P है, तो",
+    "options": [
+      {
+        "label": "A",
+        "text": "J  is  the  maternal  grandfather  of  N./  J,",
+        "isCorrect": false,
+        "stableId": "opt_99_a"
+      },
+      {
+        "label": "B",
+        "text": "R  is  the  maternal  grandmother  of  P.  /",
+        "isCorrect": false,
+        "stableId": "opt_99_b"
+      },
+      {
+        "label": "C",
+        "text": "R  is  the  mother  of  U./  R,  U  की  माँ  है।",
+        "isCorrect": false,
+        "stableId": "opt_99_c"
+      },
+      {
+        "label": "D",
+        "text": "N  is  the  sister  of  P./  N,  P  की  बहन  है।",
+        "isCorrect": true,
+        "stableId": "opt_99_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 100,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 23/11/2020 (Evening",
+    "questionText": "'A % B' means 'A is the sister of 'A + B' means 'A is the father of B'./ A + 'A ! B' means 'A is the brother of B'./ A ! If P ! H + Q % M + T % K ! J, then how is Q related to J? यिद P ! H + Q % M + T % K ! J है, तो Q, J से",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  aunt/  चाची",
+        "isCorrect": true,
+        "stableId": "opt_100_a"
+      },
+      {
+        "label": "B",
+        "text": "Daughter-in-law  /  बŠ",
+        "isCorrect": false,
+        "stableId": "opt_100_b"
+      },
+      {
+        "label": "C",
+        "text": "Sister-in-law/  ननद",
+        "isCorrect": false,
+        "stableId": "opt_100_c"
+      },
+      {
+        "label": "D",
+        "text": "Maternal  aunt  /  मासी",
+        "isCorrect": false,
+        "stableId": "opt_100_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 101,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 23/11/2020 (Evening",
+    "questionText": "pointing to a photograph of a girl, Dev said, \"She is my wife's sister's mother's only son's daughter\". How is Dev's wife related to that girl's paternal grandfather?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter/  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_101_a"
+      },
+      {
+        "label": "B",
+        "text": "Sister/  बहन",
+        "isCorrect": false,
+        "stableId": "opt_101_b"
+      },
+      {
+        "label": "C",
+        "text": "paternal  aunt/  चाची",
+        "isCorrect": false,
+        "stableId": "opt_101_c"
+      },
+      {
+        "label": "D",
+        "text": "Daughter-in-law/  बŠ",
+        "isCorrect": true,
+        "stableId": "opt_101_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 102,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 24/11/2020 (Morning",
+    "questionText": "Preeti is the only sister of Virat. Manoj is the son of Dileep, who is the husband of Maaya. Virat is the son of Devansh. Devansh is Manoj's father-in-law. How is Maaya related to Preeti?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Daughter-in-law/  बŠ",
+        "isCorrect": false,
+        "stableId": "opt_102_a"
+      },
+      {
+        "label": "B",
+        "text": "Sister-in-law/  ननद/भाभी",
+        "isCorrect": false,
+        "stableId": "opt_102_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother/  माँ",
+        "isCorrect": true,
+        "stableId": "opt_102_c"
+      },
+      {
+        "label": "D",
+        "text": "mother-in-law/  सास",
+        "isCorrect": false,
+        "stableId": "opt_102_d"
+      }
+    ],
+    "correctOption": "C",
+    "solution": "(c)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 103,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 24/11/2020 (Morning",
+    "questionText": "'A#B' means 'A is the husband of 'A@B' means 'A is the sister of B'. / 'A&B' means 'A is the mother of B'. / 'A%B' means 'A is the son of B'. / A%B If S#Z@R%K#J&T#N, then which of the following statements is NOT correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "R  and  T  are  brothers.  /  R  और  T  भाई  हœ ।",
+        "isCorrect": false,
+        "stableId": "opt_103_a"
+      },
+      {
+        "label": "B",
+        "text": "Z  is  the  sister  of  T.  /  Z,  T  की  बहन  है।",
+        "isCorrect": false,
+        "stableId": "opt_103_b"
+      },
+      {
+        "label": "C",
+        "text": "K  is  the  father  in  law  of  N.  /  K,  N  का",
+        "isCorrect": false,
+        "stableId": "opt_103_c"
+      },
+      {
+        "label": "D",
+        "text": "J  is  the  mother  of  S.  /  J,  S  की  माँ  है।",
+        "isCorrect": true,
+        "stableId": "opt_103_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 104,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 24/11/2020(Evening",
+    "questionText": "'A # B' means 'A is the brother of 'A @ B' means 'A is the wife of B'. / 'A & B' means 'A is the daughter of B'. / 'A % B' means 'A is the sister of B'. / If P % R & Y @ Z # M % N, then how is M related to P?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paternal  aunt  /  चाची",
+        "isCorrect": true,
+        "stableId": "opt_104_a"
+      },
+      {
+        "label": "B",
+        "text": "Paternal  uncle  /  चाचा",
+        "isCorrect": false,
+        "stableId": "opt_104_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother  /  माँ",
+        "isCorrect": false,
+        "stableId": "opt_104_c"
+      },
+      {
+        "label": "D",
+        "text": "Maternal  aunt  /  मौसी",
+        "isCorrect": false,
+        "stableId": "opt_104_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 105,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 24/11/2020(Evening",
+    "questionText": "Pointing towards a man a lady said, \"His brother is my mother's only daughter's husband's son's father'. How is the man related to the lady's husband?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Brother-in-law  /  जीजा  /  साला",
+        "isCorrect": false,
+        "stableId": "opt_105_a"
+      },
+      {
+        "label": "B",
+        "text": "Brother  /  भाई",
+        "isCorrect": true,
+        "stableId": "opt_105_b"
+      },
+      {
+        "label": "C",
+        "text": "Father  /  िपता",
+        "isCorrect": false,
+        "stableId": "opt_105_c"
+      },
+      {
+        "label": "D",
+        "text": "Paternal  uncle  /  चाचा",
+        "isCorrect": false,
+        "stableId": "opt_105_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 106,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 25/11/2020(Morning",
+    "questionText": "Pointing to a portrait of a man, Ravish said, \" I am the only child of my parents but that man's father is my father's son\". How is the man in the portrait related to Ravish?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cousin/ चचेरा  भाई",
+        "isCorrect": false,
+        "stableId": "opt_106_a"
+      },
+      {
+        "label": "B",
+        "text": "Nephew/ भतीजा",
+        "isCorrect": false,
+        "stableId": "opt_106_b"
+      },
+      {
+        "label": "C",
+        "text": "Father/ िपता",
+        "isCorrect": false,
+        "stableId": "opt_106_c"
+      },
+      {
+        "label": "D",
+        "text": "Son/ पुũ",
+        "isCorrect": true,
+        "stableId": "opt_106_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 107,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 25/11/2020(Morning",
+    "questionText": "In a family of five members, P is Q's sister and R is Q's mother. S is R's father and T is S's mother. How is P related to S?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Grand-daughter  /  पोती",
+        "isCorrect": true,
+        "stableId": "opt_107_a"
+      },
+      {
+        "label": "B",
+        "text": "Niece  /  भतीजी",
+        "isCorrect": false,
+        "stableId": "opt_107_b"
+      },
+      {
+        "label": "C",
+        "text": "Mother  /  माँ",
+        "isCorrect": false,
+        "stableId": "opt_107_c"
+      },
+      {
+        "label": "D",
+        "text": "Daughter  /  बेटी",
+        "isCorrect": false,
+        "stableId": "opt_107_d"
+      }
+    ],
+    "correctOption": "A",
+    "solution": "(a)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 108,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 25/11/2020 (Evening",
+    "questionText": "C is the mother-in-law of B; A is the elder son of C and the father of D. If B is not the wife of A, then how is B related to D?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sister  /  बहन",
+        "isCorrect": false,
+        "stableId": "opt_108_a"
+      },
+      {
+        "label": "B",
+        "text": "Mother  /  माँ",
+        "isCorrect": false,
+        "stableId": "opt_108_b"
+      },
+      {
+        "label": "C",
+        "text": "Maternal  Aunt  /  मामी",
+        "isCorrect": false,
+        "stableId": "opt_108_c"
+      },
+      {
+        "label": "D",
+        "text": "Aunt  /  आंटी",
+        "isCorrect": true,
+        "stableId": "opt_108_d"
+      }
+    ],
+    "correctOption": "D",
+    "solution": "(d)",
+    "hasVisualContent": false,
+    "imageUrl": null
+  },
+  {
+    "questionNumber": 109,
+    "typeHeader": "Blood Relation (रक्त संबंध)",
+    "examShift": "SSC CPO 25/11/2020 (Evening",
+    "questionText": "Pointing to a portrait of a lady, kanika said, \"Her daughter-in-law is the wife of my son's grandfather's only son.\" How is the lady in the portrait related to kanika?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sister-in-law/ भाभी",
+        "isCorrect": false,
+        "stableId": "opt_109_a"
+      },
+      {
+        "label": "B",
+        "text": "Mother-in-law/ सास",
+        "isCorrect": true,
+        "stableId": "opt_109_b"
+      },
+      {
+        "label": "C",
+        "text": "Paternal  aunt/ चाची",
+        "isCorrect": false,
+        "stableId": "opt_109_c"
+      },
+      {
+        "label": "D",
+        "text": "Mother/ माँ",
+        "isCorrect": false,
+        "stableId": "opt_109_d"
+      }
+    ],
+    "correctOption": "B",
+    "solution": "(b)\nSo , Vijay is the brother in law of\nRukmani.",
+    "hasVisualContent": false,
+    "imageUrl": null
+  }
+]

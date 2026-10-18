@@ -1,0 +1,4742 @@
+{
+  "q_1": {
+    "questionText": "एक कूट भाषा में BANKER को NABREK िलखा जाता है | इसी भाषा में STRING कैसे िलखा जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RSTGIN",
+      "B": "RTSGNI",
+      "C": "TSIRGN",
+      "D": "RTGSNI"
+    }
+  },
+  "q_2": {
+    "questionText": "If CAB=12 and FED=30, then HIDE=____. यिद CAB = 12 और FED = 30 है, तो HIDE = ______",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "44",
+      "B": "68",
+      "C": "52",
+      "D": "48"
+    }
+  },
+  "q_3": {
+    "questionText": "िलखा जाता है | इसी भाषा में FACTOR को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "SUPEGB",
+      "B": "BGDSPU",
+      "C": "SPUDBG",
+      "D": "QPUDBE"
+    }
+  },
+  "q_4": {
+    "questionText": "यिद HECK को 94410 और DIG को 588 के रूप में कोडित किया गया है, तो BIKE को कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "38124",
+      "B": "38115",
+      "C": "19113",
+      "D": "39105"
+    }
+  },
+  "q_5": {
+    "questionText": "यिद FAKE को 52106 और MAD को 1225 के रूप में कोडित किया जाता है, तो DEER को कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "35418",
+      "B": "36420",
+      "C": "36419",
+      "D": "47520"
+    }
+  },
+  "q_6": {
+    "questionText": "के रूप में िलखा जाता है। उस भाषा में MONSTER को कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NOMSRET",
+      "B": "OMNSETR",
+      "C": "NOMETSR",
+      "D": "SNOMRET"
+    }
+  },
+  "q_7": {
+    "questionText": "एक कोड भाषा में, को SNMDIBBA के रूप में िलखा जाता है। उसी भाषा में COHESION को कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ONIFTJBP",
+      "B": "ONJRFGPB",
+      "C": "NPHTDIND",
+      "D": "BPJTFINO"
+    }
+  },
+  "q_8": {
+    "questionText": "If CAB = 13 and FEED = 41, then JADE = ________. यिद CAB = 13 और FEED = 41, तो JADE = ________.",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "35",
+      "B": "43",
+      "C": "41",
+      "D": "45"
+    }
+  },
+  "q_9": {
+    "questionText": "िलखा जाता है | इसी भाषा में SMARTER को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RATESMR",
+      "B": "RATEMSR",
+      "C": "RATMESR",
+      "D": "RETRAMS"
+    }
+  },
+  "q_10": {
+    "questionText": "यिद MADE को 12236 तथा BAD को 123 के रूप में कूटबद्ध किया जाता है, तो DECK को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "36212",
+      "B": "34312",
+      "C": "36201",
+      "D": "44412"
+    }
+  },
+  "q_11": {
+    "questionText": "किसी कूट भाषा में MONEY को LPMLDZ िलखा जाता है | इसी भाषा में STROKE को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TSSNLD",
+      "B": "RUQFJP",
+      "C": "RUQNLD",
+      "D": "RUQPJF"
+    }
+  },
+  "q_12": {
+    "questionText": "If DIG=41 and GOAD=55, then FACT=____. यिद DIG = 41 तथा GOAD = 55 है, तो FACT = _____ ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "45",
+      "B": "61",
+      "C": "53",
+      "D": "63"
+    }
+  },
+  "q_13": {
+    "questionText": "िलखा जाता है | इसी भाषा में FACTORY को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "AFTCROY",
+      "B": "CAFOTYR",
+      "C": "AFOTCYR",
+      "D": "AFTOCYR"
+    }
+  },
+  "q_14": {
+    "questionText": "यिद DRIVE का कूट 59372 तथा SPUR का कूट 6489 है, तो PRIDE का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "49235",
+      "B": "94532",
+      "C": "49352",
+      "D": "43925"
+    }
+  },
+  "q_15": {
+    "questionText": "एक कूट भाषा में PENCIL को PNEICL िलखा जाता है | इसी भाषा में MOTHER को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "MTOREH",
+      "B": "MHTORE",
+      "C": "OMHTRE",
+      "D": "MTOEHR"
+    }
+  },
+  "q_16": {
+    "questionText": "If FATHER = 7 and DAUGHTER = 9, then DISTANT = ______. यिद FATHER = 7 और DAUGHTER = 9 है, तो DISTANT = _______",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "6",
+      "B": "10",
+      "C": "8",
+      "D": "7"
+    }
+  },
+  "q_17": {
+    "questionText": "एक निश्चित भाषा में को MEEBZZEL के रूप में कोडित किया गया है। उसी भाषा में MAXIMIZE को कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "AIMXMIEZ",
+      "B": "AMIXIMEZ",
+      "C": "AMIMIXEZ",
+      "D": "EMIXIMEM"
+    }
+  },
+  "q_18": {
+    "questionText": "यिद एक निश्चित कोड में OPERATION ’को िलखा जाता है, तो ORIENT ’को उस कोड में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "PSJFOU",
+      "B": "BAPDJX",
+      "C": "BPADJX",
+      "D": "BWPDJX"
+    }
+  },
+  "q_19": {
+    "questionText": "एक निश्चित कूट भाषा में 'CANDLE' को जाता है। Will BEWARE ’को समान कूट भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "D2OEM2",
+      "B": "C2X2S2",
+      "C": "CFY2S2",
+      "D": "C2X1S2"
+    }
+  },
+  "q_20": {
+    "questionText": "If AN=14 and CAT=60, then BEG=? यिद AN=14 और CAT=60, तो BEG=?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "68",
+      "B": "72",
+      "C": "74",
+      "D": "70"
+    }
+  },
+  "q_21": {
+    "questionText": "यिद A=4 है और C=6 है, तो आप Power को कैसे कूटबद्ध करेंगे",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "181726821",
+      "B": "191826821",
+      "C": "191825821",
+      "D": "181725720"
+    }
+  },
+  "q_22": {
+    "questionText": "किसी कूट भाषा में ‘EXAMPLE’ को रूप ‘DWZLOKD’ में कूटबद्ध किया गया है | उसी भाषा में ‘ELECTION’ को कैसे कूटबद्ध किया जायेगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DKDBSJHM",
+      "B": "DKDBSHNM",
+      "C": "EKDBSHNM",
+      "D": "DKEBSHNM"
+    }
+  },
+  "q_23": {
+    "questionText": "किसी कूट भाषा में ‘DEAR’ को ‘7465’ के रूप में कूटबद्ध किया गया है और ‘LIFE’ को ‘8394’ के रूप में कूटबद्ध किया गया है| उसी भाषा में ‘IDEAL’ को कैसे कूटबद्ध किया जायेगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "73648",
+      "B": "37684",
+      "C": "84673",
+      "D": "37468"
+    }
+  },
+  "q_24": {
+    "questionText": "यिद किसी निश्चित कूट भाषा में EARTH को FZSSI िलखा जाता है, तो किस शब्द का कूट",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "WATER",
+      "B": "WAVES",
+      "C": "WAVER",
+      "D": "YXVET"
+    }
+  },
+  "q_25": {
+    "questionText": "यिद एक निश्चित कूट भाषा में EDITION को VWRGRLM िलखा जाता है, तो किस शब्द का",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HAUGHTY",
+      "B": "HONESTY",
+      "C": "EDITORS",
+      "D": "AMNESTY"
+    }
+  },
+  "q_26": {
+    "questionText": "यिद किसी निश्चित कूट भाषा में ‘ROCK’ को 3587 तथा TIDE को 4261 िलखा जाता है, तो इसी कूट भाषा में DOCTOR को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "658453",
+      "B": "658435",
+      "C": "654853",
+      "D": "685453"
+    }
+  },
+  "q_27": {
+    "questionText": "िलखा जाता है | इसी भाषा में JUPITER को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "JPUIERT",
+      "B": "PJUIETR",
+      "C": "JPUEITR",
+      "D": "JPUIETR"
+    }
+  },
+  "q_28": {
+    "questionText": "यिद AS = 19 तथा BAT = 40 है, तो BREAD का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "30",
+      "B": "720",
+      "C": "205",
+      "D": "625"
+    }
+  },
+  "q_29": {
+    "questionText": "यिद किसी निश्चित कूट भाषा में ‘HAMMER’ को ‘GBLNDS’ िलखा जाता है, तो NEEDLE का कूट होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DLENEE",
+      "B": "OFLEKF",
+      "C": "MFENKF",
+      "D": "MFDEKF"
+    }
+  },
+  "q_30": {
+    "questionText": "यिद X=48 है और ACT=48 है , तो TALL होगा |",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "88",
+      "B": "92",
+      "C": "90",
+      "D": "45"
+    }
+  },
+  "q_31": {
+    "questionText": "िलखा जाता है | इसी भाषा में GINPQSRTDF को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HERBS",
+      "B": "HORSE",
+      "C": "HOESR",
+      "D": "HORTF"
+    }
+  },
+  "q_32": {
+    "questionText": "एक कूट भाषा में, TANK को 7-26-13-16 िलखा जाता है | इसी भाषा में CARGO को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "24-26-9-20-15",
+      "B": "24-26-9-20-12",
+      "C": "24-26-18-20-12",
+      "D": "23-01-9-20-12"
+    }
+  },
+  "q_33": {
+    "questionText": "एक निश्चित भाषा में CADET को 31457 िलखा जाता है | इसी भाषा में DEFER को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "45678",
+      "B": "45769",
+      "C": "35658",
+      "D": "45659"
+    }
+  },
+  "q_34": {
+    "questionText": "यिद किसी दिए गए कोड भाषा में, WATER को XZUDS के रूप में पढ़ा जाता है,तो BMHKF के किसे पढ़ा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ALIEN",
+      "B": "CLING",
+      "C": "ANGLE",
+      "D": "EARTH"
+    }
+  },
+  "q_35": {
+    "questionText": "रूप में िलखा जाता है, इस भाषा में SUMMER कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TVNNFS",
+      "B": "TVNNFT",
+      "C": "RVNNFS",
+      "D": "TUNMFS"
+    }
+  },
+  "q_36": {
+    "questionText": "If A = 2, C= 4, then PARTICLE = _____. यिद A = 2, C= 4,तो PARTICLE = ________",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1721921104136",
+      "B": "172172094136",
+      "C": "172192094126",
+      "D": "1621820104136"
+    }
+  },
+  "q_37": {
+    "questionText": "यिद AT = 20 तथा BEG = 70 है, तो BANK =",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "318",
+      "B": "308",
+      "C": "228",
+      "D": "282"
+    }
+  },
+  "q_38": {
+    "questionText": "एक निश्चित कूट भाषा में SON को 345 तथा ROAM को 6412 िलखा जाता है | इसी भाषा में RANSOM को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "615342",
+      "B": "651342",
+      "C": "615324",
+      "D": "612435"
+    }
+  },
+  "q_39": {
+    "questionText": "यिद किसी निश्चित कूट भाषा में EDITION को VWRGRLM िलखा जाता है, तो किस शब्द का",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HAUGHTY",
+      "B": "HONESTY",
+      "C": "AMNESTY",
+      "D": "EDITORS"
+    }
+  },
+  "q_40": {
+    "questionText": "CHURCH का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HCURHC",
+      "B": "HCRUHC",
+      "C": "HCURCH",
+      "D": "HCRUCH"
+    }
+  },
+  "q_41": {
+    "questionText": "एक निश्चित कूट भाषा में ‘mee muk pic’ का अथŊ है are fruits’ , तो इस भाषा में ‘white’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "nil",
+      "B": "pic",
+      "C": "dic",
+      "D": "muk"
+    }
+  },
+  "q_42": {
+    "questionText": "यिद ARUN का कूट 54 है, तो VARUN का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "87",
+      "B": "67",
+      "C": "76",
+      "D": "78"
+    }
+  },
+  "q_43": {
+    "questionText": "एक कूट भाषा में 54831 का कूट 63922 है | इसी भाषा में 86274 का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "95365",
+      "B": "95185",
+      "C": "77185",
+      "D": "75365"
+    }
+  },
+  "q_44": {
+    "questionText": "यिद DIG को 25 एवं CUT को 49 के रूप में कूटबद्ध किया जाता है, तो KICK को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "43",
+      "B": "39",
+      "C": "41",
+      "D": "34"
+    }
+  },
+  "q_45": {
+    "questionText": "िलखा जाता है |इसी भाषा में TRAITOR को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RATHORT",
+      "B": "RTAJORT",
+      "C": "ARTJOTR",
+      "D": "ARTHROT"
+    }
+  },
+  "q_46": {
+    "questionText": "यिद BACK का कूट 11312 तथा CAKE का कूट 51113 है, तो MADE को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "51413",
+      "B": "54113",
+      "C": "31145",
+      "D": "13145"
+    }
+  },
+  "q_47": {
+    "questionText": "किसी कूट भाषा में, TEMPLE को DKOLDS िलखा जाता है | इसी भाषा में WORSHIP को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OHGRQNV",
+      "B": "VNQGHOR",
+      "C": "QJITSPX",
+      "D": "OGHQRVN"
+    }
+  },
+  "q_48": {
+    "questionText": "कूट 18 है, तो BUREAUCRAT को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "22",
+      "B": "18",
+      "C": "20",
+      "D": "28"
+    }
+  },
+  "q_49": {
+    "questionText": "एक कूट भाषा में यिद FRIDGE को GTLHLK िलखा जाता है, तो इसी भाषा में शब्द KETTLE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "WQLGXK",
+      "B": "LGWXQK",
+      "C": "GLXWQK",
+      "D": "XKWQLG"
+    }
+  },
+  "q_50": {
+    "questionText": "किसी कूट भाषा में SUNDAY को DNUAYS िलखा जाता है | इसी भाषा में MOTHER को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HTEOMR",
+      "B": "HTOERM",
+      "C": "HOTERM",
+      "D": "THEORM"
+    }
+  },
+  "q_51": {
+    "questionText": "यिद CAB का कूट 6 तथा BED का कूट 40 है, तो HAD का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "16",
+      "B": "52",
+      "C": "32",
+      "D": "46"
+    }
+  },
+  "q_52": {
+    "questionText": "एक कूट भाषा में को OCREPMTU िलखा जाता है | इसी भाषा में DAUGHTER को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "READTHGU",
+      "B": "ADTHREGU",
+      "C": "ADREGUTH",
+      "D": "ADERUGTH"
+    }
+  },
+  "q_53": {
+    "questionText": "के रूप में कूटबद्ध किया जाता है, तो STROKE का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "234917",
+      "B": "234971",
+      "C": "493287",
+      "D": "329417"
+    }
+  },
+  "q_54": {
+    "questionText": "एक कूट भाषा में, को SDBDGHOH िलखा जाता है | इसी भाषा में BOOKWORM को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ANPLXNNS",
+      "B": "ANPLXPSL",
+      "C": "CPNJXPSL",
+      "D": "ANPLVNSN"
+    }
+  },
+  "q_55": {
+    "questionText": "किसी कूट भाषा में SEDATIVE का कूट किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OSREPLAN",
+      "B": "SOPERLAN",
+      "C": "SOREPLAN",
+      "D": "SOERPANL"
+    }
+  },
+  "q_56": {
+    "questionText": "किसी कूट भाषा में, यिद VERY को ‘UDQX’ िलखा जाता है, तो इसी भाषा में, आप URGENT शब्द को कैसे िलखŐगे ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TMSQF",
+      "B": "MSQTFD",
+      "C": "QFDTMS",
+      "D": "TQFDMS"
+    }
+  },
+  "q_57": {
+    "questionText": "एक कूट भाषा में, STROKE को FLPSUT िलखा जाता है | इसी कूट भाषा में BRIGHT को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UIHJSC",
+      "B": "CSJHIU",
+      "C": "SGFHQA",
+      "D": "UJHHCS"
+    }
+  },
+  "q_58": {
+    "questionText": "यिद SMOKE का कूट 81643 और PRANK का कूट 72954 है, तो आप ROSE को किस प्रकार कूटबद्ध करेंगे ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2682",
+      "B": "3276",
+      "C": "9238",
+      "D": "2683"
+    }
+  },
+  "q_59": {
+    "questionText": "यिद CLEAN का कूट 1415123 और BLOW का कूट 2315122 है, तो JOKE को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "4111612",
+      "B": "5121611",
+      "C": "5111510",
+      "D": "1011155"
+    }
+  },
+  "q_60": {
+    "questionText": "िलखा जाता है | इस भाषा में BROTHER को कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ORBSREH",
+      "B": "ROBSERH",
+      "C": "ORBUREH",
+      "D": "ORBEHTS"
+    }
+  },
+  "q_61": {
+    "questionText": "कूटबद्ध किया जाता है, तो SAVAGE के कूट का तीसरा अक्षर कौन सा होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "B",
+      "B": "U",
+      "C": "W",
+      "D": "X"
+    }
+  },
+  "q_62": {
+    "questionText": "यिद HEAD का कूट 37 है और BANK का कूट 57 है, तो KITE का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "87",
+      "B": "91",
+      "C": "69",
+      "D": "76"
+    }
+  },
+  "q_63": {
+    "questionText": "रूप में कूटबद्ध किया जाता है | इसी भाषा में SEVENTY का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ENVETYS",
+      "B": "NSYTEVN",
+      "C": "ESYETNV",
+      "D": "ESYTEVN"
+    }
+  },
+  "q_64": {
+    "questionText": "एक कूट भाषा में, को िलखा जाता है | इस भाषा में TELEPHONE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "VMNSKVOVG",
+      "B": "GVOVKSLMV",
+      "C": "VMLSKUOVG",
+      "D": "VMLSKVOVG"
+    }
+  },
+  "q_65": {
+    "questionText": "यिद EAGER का कूट 51759 है, तो CADET का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "31457",
+      "B": "34157",
+      "C": "31547",
+      "D": "31450"
+    }
+  },
+  "q_66": {
+    "questionText": "एक कूट भाषा में, SUN को NUS तथा TOP को POT िलखा जाता है | शब्द FUR के कूट का अंितम अक्षर कौन सा होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "F",
+      "B": "U",
+      "C": "R",
+      "D": "E"
+    }
+  },
+  "q_67": {
+    "questionText": "यिद DON का कूट 345 और ROAM का कूट 6412 है, तो RANDOM का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "615342",
+      "B": "615324",
+      "C": "613542",
+      "D": "651342"
+    }
+  },
+  "q_68": {
+    "questionText": "यिद AU = 21 और EGG = 245 है, तो BAKE को आप किस प्रकार कूटबद्ध करेंगे ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "19",
+      "B": "75",
+      "C": "110",
+      "D": "155"
+    }
+  },
+  "q_69": {
+    "questionText": "एक कूट भाषा में, NEEDLE को MFDEKF िलखा जाता है | इस भाषा में HAMMER को क्या िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "GBLNFTS",
+      "B": "IBLNDS",
+      "C": "GALNDS",
+      "D": "GBLNDS"
+    }
+  },
+  "q_70": {
+    "questionText": "िलखा जाता है | शब्द WRITER का कूट क्या होगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "YTLVHT",
+      "B": "ZTLVHU",
+      "C": "ZTLVHT",
+      "D": "ZTLVGV"
+    }
+  },
+  "q_71": {
+    "questionText": "यिद N = 28 और ORE = 76 है, तो आप PALE का कूट क्या िलखŐगे ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "68",
+      "B": "76",
+      "C": "19",
+      "D": "72"
+    }
+  },
+  "q_72": {
+    "questionText": "एक कूट भाषा में, PICTURE को 16932021185 िलखा जाता है | इसी भाषा में FUNCTION को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "6211432091413",
+      "B": "6211432081514",
+      "C": "6211432091514",
+      "D": "6211332091513"
+    }
+  },
+  "q_73": {
+    "questionText": "एक कूट भाषा में, को ESELDITNO िलखा जाता है | इसी भाषा में NOSTALGIA को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ONSTBGLAI",
+      "B": "ONTSBGLAI",
+      "C": "NOTSBLGAI",
+      "D": "ONTSZGLAI"
+    }
+  },
+  "q_74": {
+    "questionText": "एक कूट भाषा में, को 251578211820 िलखा जाता है | इसी भाषा में DEVELOP को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "45225111516",
+      "B": "45215121516",
+      "C": "45225121516",
+      "D": "45225121515"
+    }
+  },
+  "q_75": {
+    "questionText": "एक कूट भाषा में, को EPMRBENTN िलखा जाता है | इसी भाषा में TECHNICAL को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TEHCOCIAL",
+      "B": "ETCHOCILA",
+      "C": "ETHCPCILA",
+      "D": "ETHCOCILA"
+    }
+  },
+  "q_76": {
+    "questionText": "एक कूट भाषा ROFNILEVITA िलखा जाता है | इसी भाषा में SUPERFICIAL को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "USEPRFICAIL",
+      "B": "REPUSGLAICI",
+      "C": "LAICIGREPUS",
+      "D": "REPUSELAICI"
+    }
+  },
+  "q_77": {
+    "questionText": "एक कूट भाषा में, ARDOUS को 1184152119 िलखा जाता है | इसी भाषा में SYSTEM को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "19251920513",
+      "B": "19251920514",
+      "C": "19251921513",
+      "D": "18251820513"
+    }
+  },
+  "q_78": {
+    "questionText": "एक कूट भाषा में, CLIMAX को 312913124 िलखा जाता है | इसी भाषा में RESIGN को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "185199714",
+      "B": "185198614",
+      "C": "195209714",
+      "D": "185199713"
+    }
+  },
+  "q_79": {
+    "questionText": "SIDIRTTUBNOI िलखा जाता है | इसी भाषा में ABBREVIATING को किस प्रकार िलखा जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BBAVERIATGNI",
+      "B": "VERBBAGNITAI",
+      "C": "BBAVERTAIGNI",
+      "D": "BABRVEAIITGN"
+    }
+  },
+  "q_80": {
+    "questionText": "एक कूट भाषा में, को 181521209145 िलखा जाता है | इसी भाषा में VEHICLE को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "215893125",
+      "B": "225893125",
+      "C": "225893115",
+      "D": "225793125"
+    }
+  },
+  "q_81": {
+    "questionText": "एक कूट भाषा में, को SARTPONYM िलखा जाता है | इसी भाषा में FENUGREEK को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UNEFGKEER",
+      "B": "EFUNHKEER",
+      "C": "EFUNFERKE",
+      "D": "EFUNHERKE"
+    }
+  },
+  "q_82": {
+    "questionText": "िलखा जाता है | इस भाषा में DISTANCE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ISTSNAEF",
+      "B": "TSIDECNA",
+      "C": "TSIDECAN",
+      "D": "STIDECNA"
+    }
+  },
+  "q_83": {
+    "questionText": "एक कूट भाषा में, को 125139141205 के रूप में कूटबद्ध किया जाता है | इसी भाषा में SYSTEMETIC का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1925192051393",
+      "B": "1925192051493",
+      "C": "1825182051393",
+      "D": "1925192051383"
+    }
+  },
+  "q_84": {
+    "questionText": "यिद J का कूट 20 और BAT का कूट 46 है, तो CRICKET को किस प्रकार कूटबद्ध किया जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "138",
+      "B": "158",
+      "C": "142",
+      "D": "140"
+    }
+  },
+  "q_85": {
+    "questionText": "एक कूट भाषा में, FRIEND को GQJDOC िलखा जाता है | इसी भाषा में PEACE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "QDBDF",
+      "B": "ODBBF",
+      "C": "QFBBF",
+      "D": "QDBBF"
+    }
+  },
+  "q_86": {
+    "questionText": "एक कोड भाषा में, BLEND को ENHPG के रूप में िलखा जाता है। WinNER को उसी भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ZKQPHT",
+      "B": "ZKQPHU",
+      "C": "YKQPHT",
+      "D": "ZKOPHT"
+    }
+  },
+  "q_87": {
+    "questionText": "यिद V = 44 और FAT = 54 है, तो आप LATE को कैसे कोड करेंगे?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "76",
+      "B": "110",
+      "C": "54",
+      "D": "19"
+    }
+  },
+  "q_88": {
+    "questionText": "किसी कोड भाषा में, PERMUTATION को IBKFRMXMFLG के रूप में कोडित किया गया है। PUBLICSECTOR को उसी भाषा में कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ICUFEVLBVNLK",
+      "B": "ICUFEVLBVMLJ",
+      "C": "IRUEFVLBVMLK",
+      "D": "IRVEFVLBVMLK"
+    }
+  },
+  "q_89": {
+    "questionText": "यिद MASTER को 26138402536 के रूप में और GOVIND को 142254481288 के रूप में कोडित किया गया है, तो BACKSPACE को कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "4162238321625",
+      "B": "5172339317125",
+      "C": "4172393337125",
+      "D": "5172933373215"
+    }
+  },
+  "q_90": {
+    "questionText": "एक कोड भाषा में, को IADCYGAPJ के रूप में िलखा जाता है। BACKSPACE को उसी भाषा में कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DAEBJGAEY",
+      "B": "DEIBJGEIY",
+      "C": "DAJBJGAJY",
+      "D": "DAIBJGAIY"
+    }
+  },
+  "q_91": {
+    "questionText": "यिद PEAR को 7519 और TOIL को 2693 के रूप में कोडित किया जाता है, तो DOCTOR को कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "463269",
+      "B": "463729",
+      "C": "463296",
+      "D": "463239"
+    }
+  },
+  "q_92": {
+    "questionText": "के रूप में कोडित किया जाता है। उसी कूट भाषा में PURPOSE कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OTQONRD",
+      "B": "MXOSLVB",
+      "C": "SRUMRPG",
+      "D": "QVSQPTF"
+    }
+  },
+  "q_93": {
+    "questionText": "यिद MARBLES को 181132192512 के रूप में कोडित किया गया है और INVITED को 221969942520 के रूप में कोडित किया गया है, तो COMPARE को कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1322531253221",
+      "B": "1312531653241",
+      "C": "1322531652241",
+      "D": "1322531653241"
+    }
+  },
+  "q_94": {
+    "questionText": "को QOJKYOUYJWP के रूप में िलखा जाता है। उस भाषा में MASTERMINDS कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "APOWIIOZJEI",
+      "B": "APOWHIOZJEI",
+      "C": "APOWIHOZJEI",
+      "D": "APOWJIOZJEI"
+    }
+  },
+  "q_95": {
+    "questionText": "यिद एक खास भाषा में FORTUNE को ‘6521347’ कोड किया जाता है और PREY को 8279 कोड किया जाता है तो NEPTUNE को कैसे कोड किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "4781347",
+      "B": "4781342",
+      "C": "4782347",
+      "D": "4781343"
+    }
+  },
+  "q_96": {
+    "questionText": "यिद एक खास भाषा में CERTAIN को ‘XVIGZRM’ कोड किया जाता है तो CLIMATE को कैसे कोड किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "XORNZGV",
+      "B": "XORNZVG",
+      "C": "XRONZGV",
+      "D": "XONRZGV"
+    }
+  },
+  "q_97": {
+    "questionText": "के रूप में कोडित किया गया है और 'MARKET' को 14192916252 के रूप में कोडित किया गया है, तो 'MILTON' को किस प्रकार कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "22213235295",
+      "B": "22122353295",
+      "C": "2222213355",
+      "D": "21223239525"
+    }
+  },
+  "q_98": {
+    "questionText": "एक कोड भाषा में, को 'CFCEBAYD' िलखा जाता है। उसी भाषा में ‘INFORMATION’ कैसे िलखी जाएगी?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "EEBFIDBWFEE",
+      "B": "EBEDIFBWFEE",
+      "C": "EEBFIDWBEFE",
+      "D": "EBEFDIWBEFE"
+    }
+  },
+  "q_99": {
+    "questionText": "एक कूट भाषा में, को FLQYBBBU िलखा जाता है | इसी भाषा में PERSONAL को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "SBUVLQXO",
+      "B": "SBOULQXO",
+      "C": "SBUVLQDO",
+      "D": "RAUVMQYO"
+    }
+  },
+  "q_100": {
+    "questionText": "यिद W = 46 और CAT = 48 है, तो आप SALE को किस प्रकार कूटबद्ध करेंगे ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "54",
+      "B": "74",
+      "C": "110",
+      "D": "19"
+    }
+  },
+  "q_101": {
+    "questionText": "िलखा जाता है | इसी भाषा में EXAMPLE को किस प्रकार िलखा जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FWZLOKD",
+      "B": "DWZLOKD",
+      "C": "DYZLOKD",
+      "D": "DWZLOKF"
+    }
+  },
+  "q_102": {
+    "questionText": "िलखा जाता है | इसी भाषा में SMARTER को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DPVTUGW",
+      "B": "DOTUUHX",
+      "C": "EQVUUHW",
+      "D": "DPVUUHW"
+    }
+  },
+  "q_103": {
+    "questionText": "यिद MAGENTA का कूट 1317514201 है, तो VISCOUS को किस प्रकार कूटबद्ध किया जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "218193162018",
+      "B": "229193152119",
+      "C": "239203152219",
+      "D": "228193142118"
+    }
+  },
+  "q_104": {
+    "questionText": "एक कूट भाषा में, को ‘QRUUDKGN’ िलखा जाता है | इसी भाषा में FAREWELL को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BHGUGYNN",
+      "B": "CIGTGZNN",
+      "C": "CHGTGYNN",
+      "D": "CHGTGYMM"
+    }
+  },
+  "q_105": {
+    "questionText": "यिद REGIONAL का कूट 185791514112 है, तो PICTURES को किस प्रकार कूटबद्ध किया जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1693202118519",
+      "B": "1693192117523",
+      "C": "1693202118520",
+      "D": "1693202219520"
+    }
+  },
+  "q_106": {
+    "questionText": "यिद COLD का कूट ALHY है, तो IRON का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "GOKI",
+      "B": "GPKI",
+      "C": "FOKI",
+      "D": "GUKI"
+    }
+  },
+  "q_107": {
+    "questionText": "एक कूट भाषा में, को ‘QFGJOUKP’ िलखा जाता है | इसी भाषा में, PROFITED को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HQTSFFVK",
+      "B": "HQTRFGVK",
+      "C": "GSQRFGUK",
+      "D": "HQTREGVL"
+    }
+  },
+  "q_108": {
+    "questionText": "एक कूट भाषा में, को 2018114196518 िलखा जाता है | इसी भाषा में, ‘INCLUDED’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "91431221454",
+      "B": "18231220454",
+      "C": "91331121454",
+      "D": "81431222353"
+    }
+  },
+  "q_109": {
+    "questionText": "यिद E का कूट 5 और PEN का कूट 35 है, तो PAGE का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "28",
+      "B": "27",
+      "C": "36",
+      "D": "29"
+    }
+  },
+  "q_110": {
+    "questionText": "यिद R का कूट 36 और BIN का कूट 50 है, तो TALE को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "19",
+      "B": "110",
+      "C": "76",
+      "D": "54"
+    }
+  },
+  "q_111": {
+    "questionText": "एक कूट भाषा में, को EUHYPLWD िलखा जाता है | इसी भाषा में SALESMAN को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "VDOHQDPV",
+      "B": "HODVQDPV",
+      "C": "HODVVPDQ",
+      "D": "OHVDDQVP"
+    }
+  },
+  "q_112": {
+    "questionText": "यिद YOGHURT का कूट 7678392 है, तो QUICKLY को किस प्रकार कूटबद्ध किया जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "8393117",
+      "B": "8393237",
+      "C": "7383237",
+      "D": "8393127"
+    }
+  },
+  "q_113": {
+    "questionText": "यिद FASHION का कूट 6118965 है, तो LASTING को किस प्रकार कूटबद्ध किया जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "3112947",
+      "B": "3113947",
+      "C": "3112957",
+      "D": "2112857"
+    }
+  },
+  "q_114": {
+    "questionText": "एक कूट भाषा में, को QXFCCRYA िलखा जाता है | इसी भाषा में DIALOGUE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NCFKCSEN",
+      "B": "NCKFCSEM",
+      "C": "NCKFMESC",
+      "D": "MCKFCSEM"
+    }
+  },
+  "q_115": {
+    "questionText": "िलखा जाता है | इसी भाषा में LICENSE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "EKNGPUG",
+      "B": "EKNGGUP",
+      "C": "EKMHHUP",
+      "D": "NKEGGUP"
+    }
+  },
+  "q_116": {
+    "questionText": "यिद LUCRATIVE का कूट 333912945 है, तो AMSTERDAM का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "141248414",
+      "B": "141259414",
+      "C": "149248414",
+      "D": "131458311"
+    }
+  },
+  "q_117": {
+    "questionText": "के रूप में िलखा जाता है | इसी भाषा में DISTANCE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RQGBDAMY",
+      "B": "SQHBCALZ",
+      "C": "RQGBCALY",
+      "D": "RPGBCZLY"
+    }
+  },
+  "q_118": {
+    "questionText": "यिद FINANCIAL का कूट 695153913 है, तो LUCRATIVE को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "333912955",
+      "B": "433922945",
+      "C": "343912945",
+      "D": "333912945"
+    }
+  },
+  "q_119": {
+    "questionText": "किसी कूट भाषा में, को ZQTRKAVKO िलखा जाता है, तो इस भाषा में ILLOGICAL को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "QNNLINBEL",
+      "B": "QMMKIMCEK",
+      "C": "QNNKINCEK",
+      "D": "RNNLINCEK"
+    }
+  },
+  "q_120": {
+    "questionText": "यिद CALLOSUM को 31336134 के रूप में कूटबद्ध किया जाता है, तो CEREMONY को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "35954657",
+      "B": "35954547",
+      "C": "25945757",
+      "D": "35854656"
+    }
+  },
+  "q_121": {
+    "questionText": "िलखा जाता है | इसी भाषा में CHEMICAL को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "MFOHFLOD",
+      "B": "KFQHFLPE",
+      "C": "JFPGFMOD",
+      "D": "KFPHFLOD"
+    }
+  },
+  "q_122": {
+    "questionText": "यिद DIRECTOR का कूट 49953269 है, तो FRIENDLY को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "69955437",
+      "B": "69845447",
+      "C": "79954435",
+      "D": "68955438"
+    }
+  },
+  "q_123": {
+    "questionText": "िलखा जाता है | इसी भाषा में DISORDER को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TIFSQULH",
+      "B": "TGFTQUKF",
+      "C": "SHGTRUKF",
+      "D": "TGFTSTLF"
+    }
+  },
+  "q_124": {
+    "questionText": "एक कूट भाषा में, AWESOME को 1551645 िलखा जाता है | इसी भाषा में DIGNITY को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "4975927",
+      "B": "4875928",
+      "C": "4974937",
+      "D": "3965927"
+    }
+  },
+  "q_125": {
+    "questionText": "िलखा जाता है | इसी भाषा में SUCROSE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "PSBRPUH",
+      "B": "PSBSPUH",
+      "C": "PSBRPVH",
+      "D": "PSBTPUH"
+    }
+  },
+  "q_126": {
+    "questionText": "यिद BOOK का कूट 24411 है तथा EQUATION का कूट 51721203414 है, तो FOOTBALL को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "64420212212",
+      "B": "64420221212",
+      "C": "61520211212",
+      "D": "64420211212"
+    }
+  },
+  "q_127": {
+    "questionText": "यिद RUBY का कूट 264 तथा PAY का कूट 126 है, तो RUPAY को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "81",
+      "B": "145",
+      "C": "405",
+      "D": "375"
+    }
+  },
+  "q_128": {
+    "questionText": "एक कूट भाषा में, को PBFRORJV िलखा जाता है | इसी भाषा में AMMONIA को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DPPRQLX",
+      "B": "DPJRQLX",
+      "C": "DPQRQLD",
+      "D": "CPPSQJX"
+    }
+  },
+  "q_129": {
+    "questionText": "िलखा जाता है | इसी भाषा में FRAGILE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ILEGFRA",
+      "B": "ALEGFRI",
+      "C": "ALEGFRA",
+      "D": "ILEGFRB"
+    }
+  },
+  "q_130": {
+    "questionText": "यिद BUS को 126 के रूप में कोडित किया गया है और FUEL को 176 के रूप में कोडित किया गया है, तो SHRUB को कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "340",
+      "B": "68",
+      "C": "204",
+      "D": "272"
+    }
+  },
+  "q_131": {
+    "questionText": "एक कूट भाषा में, ROCKET को TEKROC िलखा जाता है | इसी भाषा में DRIVER को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "REVDRI",
+      "B": "RFVDRI",
+      "C": "REVDRJ",
+      "D": "REUDRI"
+    }
+  },
+  "q_132": {
+    "questionText": "यिद EAST का कूट 180 तथा NORTH का कूट 375 है, तो SOUTH का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "625",
+      "B": "415",
+      "C": "83",
+      "D": "332"
+    }
+  },
+  "q_133": {
+    "questionText": "यिद CAT का कूट 72 तथा TROT का कूट 292 है, तो STAG को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "47",
+      "B": "235",
+      "C": "141",
+      "D": "188"
+    }
+  },
+  "q_134": {
+    "questionText": "एक कूट भाषा में, HUSK को LZYR िलखा जाता है | इस भाषा में SERIAL को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "WJXPIU",
+      "B": "WKYQJU",
+      "C": "WKYQJV",
+      "D": "WJXPIV"
+    }
+  },
+  "q_135": {
+    "questionText": "एक कूट भाषा में, GOURD को IQSTF िलखा जाता है | APHID को इस भाषा में क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "CRJKF",
+      "B": "CRFLF",
+      "C": "CRFKF",
+      "D": "CREKF"
+    }
+  },
+  "q_136": {
+    "questionText": "यिद BARBER का कूट 136 और GLINT का कूट 184 है, तो LIZARD का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "92",
+      "B": "93",
+      "C": "91",
+      "D": "90"
+    }
+  },
+  "q_137": {
+    "questionText": "यिद SAW का कूट 8264 तथा CUDDLE का कूट 24623231522 है, तो MEDULLA को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1422237151525",
+      "B": "1422236151526",
+      "C": "1422236151625",
+      "D": "1422236161526"
+    }
+  },
+  "q_138": {
+    "questionText": "एक कूट भाषा में, KNIFE को MPGHG िलखा जाता है | इसी भाषा में SWORD को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UYMTF",
+      "B": "VYMTF",
+      "C": "UYMTE",
+      "D": "UYQTF"
+    }
+  },
+  "q_139": {
+    "questionText": "यिद WIND का कूट 414923 तथा CARDS का कूट 1941813 है, तो ORIENT को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2014591815",
+      "B": "2013591815",
+      "C": "2014581815",
+      "D": "1518951420"
+    }
+  },
+  "q_140": {
+    "questionText": "किसी कूट भाषा में, THRUST को UJUYXZ िलखा जाता है | इसी भाषा में WOOD को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "XQSH",
+      "B": "XQRI",
+      "C": "XORH",
+      "D": "XQRH"
+    }
+  },
+  "q_141": {
+    "questionText": "निश्चित कूट भाषा में ‘RIGIDS’ का कूट ‘TFIFFP’ है | इसी कूट भाषा में ‘CORNET’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "GNVMIS",
+      "B": "FMULHR",
+      "C": "ELTKRQ",
+      "D": "ELTKGQ"
+    }
+  },
+  "q_142": {
+    "questionText": "किसी निश्चित कूट भाषा में ‘ROK’ को 44 तथा ‘MIG’ को 29 िलखा जाता है | इसी कूट भाषा में ‘TAL’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "33",
+      "B": "34",
+      "C": "41",
+      "D": "43"
+    }
+  },
+  "q_143": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘PING’ को 4 तथा ‘METAL’ को 5 िलखा जाता है | इसी कूट भाषा में ‘STEADYS’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "5",
+      "D": "6"
+    }
+  },
+  "q_144": {
+    "questionText": "निश्चित कूट भाषा में, ‘GROUND’ को ‘BMJPIY’ िलखा जाता है | इसी कूट भाषा में ‘FREAK’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BOAYH",
+      "B": "AMYVF",
+      "C": "BNAWG",
+      "D": "AMZVF"
+    }
+  },
+  "q_145": {
+    "questionText": "एक निश्चित कूट भाषा में, ‘PRINT’ को ‘96512’ तथा ‘FROM’ को 8603 िलखा जाता है | इस कूट भाषा में ‘PROMPT’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "960398",
+      "B": "980392",
+      "C": "960392",
+      "D": "960395"
+    }
+  },
+  "q_146": {
+    "questionText": "एक निश्चित कूट भाषा में, ‘TAN’ को 33, ‘PAM’ को 28 िलखा जाता है | इसी कूट भाषा में ‘BUG’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "30",
+      "B": "32",
+      "C": "29",
+      "D": "28"
+    }
+  },
+  "q_147": {
+    "questionText": "एक निश्चित कूट भाषा में ‘GREAT’ को ‘ALYUN’ िलखा जाता है | इसी कूट भाषा में ‘RAPID’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RVKDY",
+      "B": "LUJCX",
+      "C": "LVJCX",
+      "D": "SWLEZ"
+    }
+  },
+  "q_148": {
+    "questionText": "एक निश्चित कूट भाषा में ‘STEALH’ को ‘UXGENL’ िलखा जाता है | इसी कूट भाषा में ‘ROBNRT’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TSERTX",
+      "B": "TSDRTX",
+      "C": "UTESUY",
+      "D": "UTFSUY"
+    }
+  },
+  "q_149": {
+    "questionText": "एक निश्चित कूट भाषा में, 'PAIN’ को '161914’ और 'TYRE’ को '2025185’ िलखा जाता है। उस कोड भाषा में 'LONG' के िलए कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1215197",
+      "B": "1215417",
+      "C": "1215147",
+      "D": "1215917"
+    }
+  },
+  "q_150": {
+    "questionText": "एक निश्चित कोड भाषा में, 'TOPAS' को 'WRSDV' िलखा जाता है। उस कोड भाषा में 'FREIGHT' के िलए कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "IVHLJKW",
+      "B": "IUHLJKW",
+      "C": "KWJNLMY",
+      "D": "JVIMKLX"
+    }
+  },
+  "q_151": {
+    "questionText": "एक निश्चित भाषा में, 'ROCKER' को 'SNDJFQ' के रूप में िलखा जाता है। उस कोड भाषा में 'PRIEST' का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RRKEUT",
+      "B": "SSLFVU",
+      "C": "QQJDTS",
+      "D": "QQJDTU"
+    }
+  },
+  "q_152": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘ROAD’ को ‘40’ और ‘HEAR’ को 34 िलखा जाता है | इसी कूट भाषा में ‘POEM’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "50",
+      "B": "49",
+      "C": "47",
+      "D": "51"
+    }
+  },
+  "q_153": {
+    "questionText": "किसी निश्चित कूट भाषा में, MANGO को ‘93425’ तथा GREAT को ‘28631’ िलखा जाता है | इसी कूट भाषा में ‘GREEN’ का कूट क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "28664",
+      "B": "28994",
+      "C": "28661",
+      "D": "28665"
+    }
+  },
+  "q_154": {
+    "questionText": "किसी निश्चित कूट भाषा में, CAP को 20 और ROM को 46 िलखा जाता है | इस कूट भाषा में RUB को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "47",
+      "B": "41",
+      "C": "53",
+      "D": "51"
+    }
+  },
+  "q_155": {
+    "questionText": "एक निश्चित कोड भाषा में, 'RIMPY' को 'OFJMV' के रूप में िलखा जाता है। उस कोड भाषा में 'CORPSE’ के िलए कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BNQORD",
+      "B": "ZLOMPB",
+      "C": "ZLONPB",
+      "D": "AMPNQC"
+    }
+  },
+  "q_156": {
+    "questionText": "किसी निश्चित कूट भाषा में, COMFORTS को ‘FJPARMWN’ िलखा जाता है | इसी भाषा में ‘HINDWARE’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KDRYZVUZ",
+      "B": "LERZAWVA",
+      "C": "KDQYZVUZ",
+      "D": "MFSABXWB"
+    }
+  },
+  "q_157": {
+    "questionText": "code language?/ किसी निश्चित कूट भाषा में, ‘PAPER’ को ‘UFUJW’ िलखा जाता है | इसी कूट भाषा में ‘MOURN’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "SUAXT",
+      "B": "RTAWS",
+      "C": "RTZWS",
+      "D": "SUBXT"
+    }
+  },
+  "q_158": {
+    "questionText": "किसी निश्चित कूट भाषा में, ROGER को ‘5’, ‘MOULDS’ को ‘6’ िलखा जाता है | इसी कूट भाषा में ‘PIN’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "8",
+      "B": "3",
+      "C": "2",
+      "D": "4"
+    }
+  },
+  "q_159": {
+    "questionText": "किसी निश्चित कूट भाषा में, ALERT को ‘11251820’ तथा HERD को ‘85184’ िलखा जाता है | इसी कूट भाषा में ‘CLOTH’ को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "38152014",
+      "B": "31215218",
+      "C": "31215208",
+      "D": "31512207"
+    }
+  },
+  "q_160": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘EMPTYD’ को ‘CJNQWA’ िलखा जाता है | इसी कूट भाषा में ‘VACANT’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TXAXLQ",
+      "B": "UYBYMR",
+      "C": "UYAMYR",
+      "D": "TXBXLQ"
+    }
+  },
+  "q_161": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘PLANTS’ को ‘QNBPUU’ िलखा जाता है | इसी कूट भाषा में ‘KIDNEY’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LKFPFA",
+      "B": "MLEQGE",
+      "C": "LKEPFA",
+      "D": "MLFQGB"
+    }
+  },
+  "q_162": {
+    "questionText": "किसी निश्चित कूट भाषा में, RIP को 42 और MOL को 39 िलखा जाता है | इसी कूट भाषा में ‘GAN’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "22",
+      "B": "20",
+      "C": "21",
+      "D": "23"
+    }
+  },
+  "q_163": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘POLE’ को 48 तथा ROG को 40 िलखा जाता है | इस कूट भाषा में ‘TIP’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "35",
+      "B": "45",
+      "C": "48",
+      "D": "44"
+    }
+  },
+  "q_164": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘BOTANY’ को ‘CQWBPB’ िलखा जाता है | इसी कूट भाषा में ‘INSECT’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KQWGFX",
+      "B": "JPVFEW",
+      "C": "JPUFEW",
+      "D": "KRWGFX"
+    }
+  },
+  "q_165": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘GARAGE’ को ‘JEUEJI’ िलखा जाता है | इस कूट भाषा में ‘OFFICE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "JLNGJ",
+      "B": "JKJNGJ",
+      "C": "RKIMFI",
+      "D": "RJIMFI"
+    }
+  },
+  "q_166": {
+    "questionText": "किसी निश्चित कूट भाषा में, POEM को ‘1351516’ तथा ROB को ‘21518’ िलखा जाता है | इसी कूट",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "49113",
+      "B": "59146",
+      "C": "13195",
+      "D": "13194"
+    }
+  },
+  "q_167": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘FOSSIL’ को ‘KHRRNE’ िलखा जाता है | इसी कूट भाषा में ‘FUNGAL’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LAGMUF",
+      "B": "LAGNUF",
+      "C": "KZFMTE",
+      "D": "KAFMTE"
+    }
+  },
+  "q_168": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘RIGHT’ को ‘98653’ , ‘CLERK’ को ‘04297’ िलखा जाता है | इसी भाषा में ‘GREET’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "69227",
+      "B": "69332",
+      "C": "69223",
+      "D": "69330"
+    }
+  },
+  "q_169": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘SOLVED’ को ‘OSVLDE’ िलखा जाता है | इस भाषा में ‘CREATE’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RCAEET",
+      "B": "RCAETE",
+      "C": "RCTAEE",
+      "D": "RCEAET"
+    }
+  },
+  "q_170": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘FRAUD’ को ‘6181214’, RING को ‘189147’ िलखा जाता है | इस कूट भाषा में GLOBE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "7131525",
+      "B": "7125125",
+      "C": "7121525",
+      "D": "7525121"
+    }
+  },
+  "q_171": {
+    "questionText": "किसी निश्चित कूट भाषा में, LIP को 40 और GILT को 51 िलखा जाता है | इस कूट भाषा में ROPE का",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "57",
+      "D": "51"
+    }
+  },
+  "q_172": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘RAPID’ को ‘LUJCX’ िलखा जाता है | इसी कूट भाषा में STARE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NPULY",
+      "B": "NOULY",
+      "C": "MMULY",
+      "D": "MNULY"
+    }
+  },
+  "q_173": {
+    "questionText": "किसी निश्चित कूट भाषा में, JAN को 25 तथा WED को 32 िलखा जाता है | इसी कूट भाषा में SEP को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "38",
+      "B": "39",
+      "C": "40",
+      "D": "41"
+    }
+  },
+  "q_174": {
+    "questionText": "किसी निश्चित कूट भाषा में ‘DRAUGH’ को ‘LKYEVH’ िलखा जाता है | इसी कूट भाषा में ‘MAHTOS’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "WSXLFQ",
+      "B": "XTYMER",
+      "C": "WSXLEQ",
+      "D": "XTYMFR"
+    }
+  },
+  "q_175": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘MOTHER’ को ‘TOMREH’ िलखा जाता है | इसी भाषा में ‘STORME’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OUSEMR",
+      "B": "EMROTS",
+      "C": "MROTES",
+      "D": "OTSEMR"
+    }
+  },
+  "q_176": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘82649’ , ‘MENTR’ को ‘01578’ िलखा जाता है | इस कूट भाषा में ‘TROMN’ का कूट क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "78205",
+      "B": "78203",
+      "C": "76205",
+      "D": "70581"
+    }
+  },
+  "q_177": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘STORED’ को ‘URQPGB’ िलखा जाता है | इस भाषा में ‘POINTA’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "SNMLWZ",
+      "B": "SNLMWZ",
+      "C": "RMLKVY",
+      "D": "RMKLVY"
+    }
+  },
+  "q_178": {
+    "questionText": "किसी निश्चित कूट भाषा में, TABLE को ‘2012125’, ROBIN को ‘18152914’ िलखा जाता है | इस कूट भाषा में NATOM को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "142101153",
+      "B": "142011513",
+      "C": "141201315",
+      "D": "141201513"
+    }
+  },
+  "q_179": {
+    "questionText": "किसी निश्चित कूट भाषा में, PANKIL को ‘SDQNLO’ िलखा जाता है | इस कूट भाषा में ‘ROHANS’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "VRKDQU",
+      "B": "VRKDQV",
+      "C": "URKDQU",
+      "D": "URKDQV"
+    }
+  },
+  "q_180": {
+    "questionText": "/ किसी निश्चित कूट भाषा में, ‘GUD’ को 31, ‘PUH’ को 44 िलखा जाता है | इस कूट भाषा में ‘FAR’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "25",
+      "B": "23",
+      "C": "24",
+      "D": "26"
+    }
+  },
+  "q_181": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘RAFTS’ को ‘96432’ और ‘WEBAR’ को ‘75169’ िलखा जाता है | इस कूट भाषा में ‘FRAWT’ को क्या िलखा जायेगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "49673",
+      "B": "49672",
+      "C": "49675",
+      "D": "49671"
+    }
+  },
+  "q_182": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘HORSED’ को ‘ABPOLE’ िलखा जाता है | इस कूट भाषा में ‘PRISON’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LMQGPN",
+      "B": "LNQGPN",
+      "C": "KMPFOM",
+      "D": "KLPFOM"
+    }
+  },
+  "q_183": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘CHIRPS’ को ‘AJGTNU’ िलखा जाता है | इस कूट भाषा में ‘RAINED’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "QEHQEG",
+      "B": "PDGPDF",
+      "C": "PCGPCF",
+      "D": "QDHQDG"
+    }
+  },
+  "q_184": {
+    "questionText": "एक निश्चित कूट भाषा में, ‘SOL’ को 45, KIN को 33 िलखा जाता है | इस कूट भाषा में OWL को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "49",
+      "B": "50",
+      "C": "48",
+      "D": "51"
+    }
+  },
+  "q_185": {
+    "questionText": "किसी निश्चित कूट भाषा में ‘FLOWER’ को ‘GKPVFQ’ िलखा जाता है | इसी कूट भाषा में ‘PRODUC’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RRWDQC",
+      "B": "RRQDWC",
+      "C": "QQRCVB",
+      "D": "QQPCVB"
+    }
+  },
+  "q_186": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘DRAPE’ को िलखा जाता है | इस कूट भाषा में ‘PRINTR’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "16184192018",
+      "B": "16418920188",
+      "C": "16189142018",
+      "D": "16819412018"
+    }
+  },
+  "q_187": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘FMTXAW’ िलखा जाता है | इस कूट भाषा में ‘MONDAX’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "PTRIDD",
+      "B": "ORPHCB",
+      "C": "PTQIDD",
+      "D": "OSPHCB"
+    }
+  },
+  "q_188": {
+    "questionText": "किसी निश्चित कूट भाषा में, TYRE को 70 और MON को 44 िलखा जाता है | इस भाषा में ‘FROM’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "50",
+      "B": "52",
+      "C": "55",
+      "D": "54"
+    }
+  },
+  "q_189": {
+    "questionText": "किसी निश्चित कूट भाषा में, PRISON को ‘659210’ तथा ‘SCAMP’ को ‘23476’ िलखा जाता है | इसी कूट भाषा में ‘CROPS’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "35762",
+      "B": "35462",
+      "C": "35160",
+      "D": "35162"
+    }
+  },
+  "q_190": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘STABLE’ को ‘TVDFQK’ िलखा जाता है | इस कूट भाषा में ‘COWARD’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DQZEWJ",
+      "B": "DRZEWJ",
+      "C": "ERAFXU",
+      "D": "ERBFXV"
+    }
+  },
+  "q_191": {
+    "questionText": "किसी निश्चित कूट भाषा में, RODENT को ‘PJAZKN’ िलखा जाता है | इस कूट भाषा में CURTAN का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KXPNQY",
+      "B": "JVPNQY",
+      "C": "KWPNQY",
+      "D": "JWPNQY"
+    }
+  },
+  "q_192": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘COW’ को ‘41’ िलखा जाता है | ‘PIG’ को 32 िलखा जाता है। इसी भाषा में ‘CUP’ का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "44",
+      "B": "38",
+      "C": "40",
+      "D": "30"
+    }
+  },
+  "q_193": {
+    "questionText": "एक निश्चित भाषा में 'RAM' को '31' . 'FAN' को '20' िलखा जाता है। ‘COR’ को इस भाषा में कैसे िलखा जायेगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "34",
+      "B": "37",
+      "C": "35",
+      "D": "36"
+    }
+  },
+  "q_194": {
+    "questionText": "एक निश्चित कोड भाषा में, 'SHOES' को '19815519', 'SEED' को '19554' िलखा जाता है। उस कोड भाषा में 'CHAIR' के िलए क्या कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "389111",
+      "B": "371918",
+      "C": "381918",
+      "D": "381917"
+    }
+  },
+  "q_195": {
+    "questionText": "एक निश्चित कोड भाषा में, 'BRICK' को 'WMDXF' के रूप में िलखा जाता है। उस कोड भाषा में 'GOLDS' का कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BJGYM",
+      "B": "BJGYN",
+      "C": "BKGYM",
+      "D": "BKGYN"
+    }
+  },
+  "q_196": {
+    "questionText": "एक निश्चित कोड भाषा में, 'BLADE' को 'LBAED' िलखा जाता है। उस कोड भाषा में 'TABLE' के िलए क्या कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ATLBE",
+      "B": "ATBEL",
+      "C": "ATLEB",
+      "D": "ATBLE"
+    }
+  },
+  "q_197": {
+    "questionText": "एक निश्चित कोड भाषा में, 'WINDOW' को 'TLAKFT' के रूप में िलखा जाता है। उस कोड भाषा में 'BLADES' के िलए क्या कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "QCBYJZ",
+      "B": "PBBXIY",
+      "C": "PBAXIY",
+      "D": "QBBYJZ"
+    }
+  },
+  "q_198": {
+    "questionText": "एक निश्चित कोड भाषा में, ROAM को 44, HIMP को 43 िलखा जाता है। उस कोड भाषा में ’BONE’ के िलए क्या कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "33",
+      "B": "34",
+      "C": "39",
+      "D": "36"
+    }
+  },
+  "q_199": {
+    "questionText": "एक निश्चित कोड भाषा में, 'PENCIL' को 'RIPGKP' िलखा जाता है। उस कोड भाषा में 'FABRIC' के िलए क्या कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HFDVKG",
+      "B": "HEDVKG",
+      "C": "IEFWLH",
+      "D": "IFEWLH"
+    }
+  },
+  "q_200": {
+    "questionText": "एक निश्चित कूट भाषा में PAL को 29, CAR को 22 िलखा जाता है। उस कोड भाषा में ZON के िलए क्या कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "43",
+      "B": "45",
+      "C": "55",
+      "D": "51"
+    }
+  },
+  "q_201": {
+    "questionText": "एक निश्चित कोड भाषा में, 'PHONE' को '5', 'MONDAY' को '6' िलखा जाता है। उस कोड भाषा में 'WEDNESDAY' का क्या कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "7",
+      "B": "11",
+      "C": "9",
+      "D": "8"
+    }
+  },
+  "q_202": {
+    "questionText": "एक निश्चित कोड भाषा में, 'MOUSE' को 'FTVPN' िलखा जाता है। उस कोड भाषा में 'ROPED' के िलए क्या कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FESQT",
+      "B": "EFQPS",
+      "C": "EEQPS",
+      "D": "FGRQT"
+    }
+  },
+  "q_203": {
+    "questionText": "एक निश्चित कोड भाषा में, 'HORSE' को '98543', 'WASTE' को '16423' िलखा जाता है। उस कोड भाषा में ’ROAST’ का कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "58692",
+      "B": "51642",
+      "C": "58642",
+      "D": "53642"
+    }
+  },
+  "q_204": {
+    "questionText": "को 'GXNIPY' के रूप में िलखा जाता है। उस कोड भाषा में ’TRAVEL’ का कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ZYGCKS",
+      "B": "YXFBJR",
+      "C": "YYFBJR",
+      "D": "ZZGCKS"
+    }
+  },
+  "q_205": {
+    "questionText": "एक निश्चित कोड भाषा में FORT को 56, MAN को 25 िलखा जाता है। उस कोड भाषा में 'CALF' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": ".  21",
+      "B": "22",
+      "C": "25",
+      "D": "19"
+    }
+  },
+  "q_206": {
+    "questionText": "ए क निश्चित कोड भाषा में, 'ALGAES' को 'XJFLQF' के रूप में िलखा जाता है। उस कोड भाषा में 'ROBUST' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "YXZGTW",
+      "B": "ZYAHUX",
+      "C": "ZYBUHX",
+      "D": "YYZGTW"
+    }
+  },
+  "q_207": {
+    "questionText": "एक निश्चित कोड भाषा में, 'TABLE' को 'ATBEL' िलखा जाता है। उस कोड भाषा में 'CHAIR' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "CHARI",
+      "B": "HCAIR",
+      "C": "HCARI",
+      "D": "RIAHC"
+    }
+  },
+  "q_208": {
+    "questionText": "एक निश्चित कूट भाषा में, FISHES को 69198519, BODY को 215425 िलखा जाता है। उस कोड भाषा में 'LEAD' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "121514",
+      "B": "12514",
+      "C": "215412",
+      "D": "12511"
+    }
+  },
+  "q_209": {
+    "questionText": "एक निश्चित कूट भाषा में, PRO को 48, BAL को 14 िलखा जाता है। उस कोड भाषा में COH का कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "26",
+      "B": "25",
+      "C": "24",
+      "D": "27"
+    }
+  },
+  "q_210": {
+    "questionText": "एक निश्चित कोड भाषा में, 'REASON' को 'SDBRPM' के रूप में िलखा जाता है। उस कोड भाषा में 'NGLISH' के िलए कोड क्या है",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OFMHTG",
+      "B": "PGMIUH",
+      "C": "PGNIUH",
+      "D": "OEMHTG"
+    }
+  },
+  "q_211": {
+    "questionText": "एक निश्चित कूट भाषा में, VERBAL को जाता है। उस कोड भाषा में SOLVER के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "19152412518",
+      "B": "19151222518",
+      "C": "19151122518",
+      "D": "19151123518"
+    }
+  },
+  "q_212": {
+    "questionText": "एक निश्चित कोड भाषा में, 'MODERN' को 'JLABOK' के रूप में िलखा जाता है। उस कोड भाषा में NUMBER का कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LSKZCP",
+      "B": "LTKZCP",
+      "C": "KRJYBO",
+      "D": "LRKUBO"
+    }
+  },
+  "q_213": {
+    "questionText": "एक निश्चित कूट भाषा में, 'CLASSIFY' को 'XOZHHRUB' के रूप में िलखा जाता है। उस कोड भाषा में 'MODIFY' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RUBNLW",
+      "B": "NLRUBW",
+      "C": "NLWRUB",
+      "D": "RUBNWL"
+    }
+  },
+  "q_214": {
+    "questionText": "एक निश्चित कोड भाषा में, RUN को 202316, PEN को 18716 िलखा जाता है। उस कोड भाषा में RANSOM का कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "20316211715",
+      "B": "20114131915",
+      "C": "18114191315",
+      "D": "1841491315"
+    }
+  },
+  "q_215": {
+    "questionText": "एक निश्चित कोड भाषा में, LEMON को NCOMP के रूप में िलखा जाता है। उस कोड भाषा में MANGO के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OYPEQ",
+      "B": "OZRDS",
+      "C": "ZDRHP",
+      "D": "RZPES"
+    }
+  },
+  "q_216": {
+    "questionText": "एक निश्चित कोड भाषा में, HACB को 8132 िलखा जाता है। उस कोड भाषा में 'DEFA' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "5641",
+      "B": "4156",
+      "C": "4561",
+      "D": "4651"
+    }
+  },
+  "q_217": {
+    "questionText": "एक कोड भाषा में, 18101621818 िलखा गया है, तो उस भाषा में 'GALAXY' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "721212425",
+      "B": "721222425",
+      "C": "711212425",
+      "D": "611212324"
+    }
+  },
+  "q_218": {
+    "questionText": "एक कोड भाषा में, अगर CLASS को 24152688 िलखा जाता है, तो MORPH को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "151291119",
+      "B": "141291119",
+      "C": "131291018",
+      "D": "141181118"
+    }
+  },
+  "q_219": {
+    "questionText": "’को 'kur duk sur' के रूप में िलखा गया है, 'we honesty' को 'lur jur nur' के रूप में िलखा गया है। 'confident' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "bur",
+      "B": "duk",
+      "C": "jur",
+      "D": "lur"
+    }
+  },
+  "q_220": {
+    "questionText": "िलखा जाता है। उस भाषा में 'POSITIVE' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "IIEPOSTV",
+      "B": "EIIOPTVS",
+      "C": "ISOPEVIT",
+      "D": "EIIOPSTV"
+    }
+  },
+  "q_221": {
+    "questionText": "एक कोड भाषा में, यिद 22181942212, िलखा जाता है, तो DETOX' को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "310301524",
+      "B": "410203024",
+      "C": "405302022",
+      "D": "420204024"
+    }
+  },
+  "q_222": {
+    "questionText": "एक कोड भाषा में, यिद ‘CAMPER’ को 314567 और SORE को 8976 िलखा जाता है, तो’ CEASE को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "36286",
+      "B": "36186",
+      "C": "34186",
+      "D": "86315"
+    }
+  },
+  "q_223": {
+    "questionText": "एक कोड भाषा में, 'FRESH' को 'UIVHS' िलखा जाता है। उस भाषा में DOUGH ’कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "VKFHS",
+      "B": "UKERT",
+      "C": "WKGSS",
+      "D": "WLFTS"
+    }
+  },
+  "q_224": {
+    "questionText": "िलखा जाता है, इसी भाषा में ‘FRIEND’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HTKGPF",
+      "B": "KTHFPG",
+      "C": "JSHFPG",
+      "D": "KTHGOG"
+    }
+  },
+  "q_225": {
+    "questionText": "एक कोड भाषा में, 'PARTY' को '161182025' िलखा जाता है, उस भाषा में 'CAMERA' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "32116181",
+      "B": "24116126",
+      "C": "31135181",
+      "D": "31451926"
+    }
+  },
+  "q_226": {
+    "questionText": "िलखा जाता है, उस भाषा में 'AUDIBLE' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FVBJFNC",
+      "B": "DVBJFMC",
+      "C": "EUBKFMC",
+      "D": "EVBJFMC"
+    }
+  },
+  "q_227": {
+    "questionText": "के रूप में िलखा जाता है, उस भाषा में 'SCRIBBLE' को कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ELBBISCR",
+      "B": "ELBBIRCS",
+      "C": "CSIRBBEL",
+      "D": "RCSIBELB"
+    }
+  },
+  "q_228": {
+    "questionText": "एक कूट भाषा में, यिद ‘CITRUS’ को ‘982154’ िलखा जाता है, तो ‘YOU’ को ‘365’ िलखा जाता है, िफर उस भाषा में ‘SURITY’ कैसे िलखी जाएगी?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "651832",
+      "B": "451923",
+      "C": "451823",
+      "D": "481623"
+    }
+  },
+  "q_229": {
+    "questionText": "एक कूट भाषा में, यिद 'SOLID' को '8415323' िलखा जाता है, तो उस भाषा में 'LUCID' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "14524323",
+      "B": "15524323",
+      "C": "15424322",
+      "D": "15423322"
+    }
+  },
+  "q_230": {
+    "questionText": "pom’ के रूप में िलखा जाता है। 'right' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "pom",
+      "B": "sot",
+      "C": "kla",
+      "D": "gla"
+    }
+  },
+  "q_231": {
+    "questionText": "एक कोड भाषा में, यिद BADGE को '4281410’ िलखा जाता है, तो उस भाषा में NORMS ’कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2832362436",
+      "B": "2430362630",
+      "C": "1415181320",
+      "D": "2830362638"
+    }
+  },
+  "q_232": {
+    "questionText": "िलखा जाता है। 'LECTURE’ को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "CELTURE",
+      "B": "CELTERU",
+      "C": "ELTCERU",
+      "D": "CLETERU"
+    }
+  },
+  "q_233": {
+    "questionText": "एक कोड भाषा में, यिद 'LODGE' को '' 122254725 '' िलखा जाता है, तो उस भाषा में 'CARING' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "411809146",
+      "B": "321881147",
+      "C": "311809137",
+      "D": "311881147"
+    }
+  },
+  "q_234": {
+    "questionText": "एक कोड भाषा में, 'SAMPLE' को 'MASELP' के रूप में िलखा जाता है, उस भाषा में 'COTTON' को कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TOCTON",
+      "B": "TOCNOT",
+      "C": "OCTTNO",
+      "D": "COTNOT"
+    }
+  },
+  "q_235": {
+    "questionText": "कोड भाषा में, यिद ’HE '= 40 और' GO '= 105 है, तो उस भाषा में' BAND 'के िलए कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "52",
+      "B": "112",
+      "C": "21",
+      "D": "102"
+    }
+  },
+  "q_236": {
+    "questionText": "mor' के रूप में िलखा जाता है, और 'you are okay' को 'hok nok loj' के रूप में िलखा जाता है, उस भाषा में 'that' के िलए कोड है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "mor",
+      "B": "loj",
+      "C": "koj",
+      "D": "roj"
+    }
+  },
+  "q_237": {
+    "questionText": "If J = 10 and JAM = 130, then JAR = ? यिद J = 10 और JAM = 130, तो JAR =?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "170",
+      "B": "140",
+      "C": "150",
+      "D": "180"
+    }
+  },
+  "q_238": {
+    "questionText": "यिद A = 1, B = 3, C = 5 और इसी तरह Z = 51 है, तो PULSE के िलए कोड ǒात करें?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "314123379",
+      "B": "323412379",
+      "C": "342231279",
+      "D": "314213279"
+    }
+  },
+  "q_239": {
+    "questionText": "एक कोड भाषा में, 'GRAPH' को 'JUZSK'िलखा जाता है। 'CARE' को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FZTO",
+      "B": "FZUU",
+      "C": "FZZD",
+      "D": "FZUD"
+    }
+  },
+  "q_240": {
+    "questionText": "एक कोड भाषा में, 'MIGHTY' को 'BJFISN'िलखा जाता है। 'BUILDER' को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "IHVMGFY",
+      "B": "IVHMCFY",
+      "C": "YUIMCFI",
+      "D": "YFCMHVI"
+    }
+  },
+  "q_241": {
+    "questionText": "यिद एक कोडिंग में, 3 + 4 = 25 और 7 + 24 = 625, तो 9 + 40 = ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1681",
+      "B": "1649",
+      "C": "2048",
+      "D": "1709"
+    }
+  },
+  "q_242": {
+    "questionText": "एक कोड भाषा में, 'TABLE' को 'IPFEX'िलखा जाता है। 'SCRAP' को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TDSBQ",
+      "B": "TEVGW",
+      "C": "VAUDM",
+      "D": "RBQZO"
+    }
+  },
+  "q_243": {
+    "questionText": "एक कूट भाषा में, यिद PL APPLES ’को िलखा जाता है, तो if CLEANESS ’को lthat भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "45399824",
+      "B": "94518566",
+      "C": "98263332",
+      "D": "89214634"
+    }
+  },
+  "q_244": {
+    "questionText": "एक कोड भाषा में, को 'CHIPSSY'िलखा जाता है। 'HISTORY' को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HIORTSY",
+      "B": "HIOSRTY",
+      "C": "HIORSYT",
+      "D": "HIORSTY"
+    }
+  },
+  "q_245": {
+    "questionText": "एक कोड भाषा में, अगर FLY ’को, 285’, और 'ACCESS ’को, 399711’ िलखा जाता है, तो CYCLE ’को उस भाषा में कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "95987",
+      "B": "95978",
+      "C": "95897",
+      "D": "98597"
+    }
+  },
+  "q_246": {
+    "questionText": "एक कोड भाषा में, अगर VER FEVER ’को िलखा जाता है, और REVOLVE ’को as 3825128’ िलखा जाता है, तो VER ROVER ’को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "35283",
+      "B": "35832",
+      "C": "32538",
+      "D": "38253"
+    }
+  },
+  "q_247": {
+    "questionText": "एक कोड भाषा में, 'TAMIL' को 'WZPHO'िलखा जाता है। 'MATHS' को उस भाषा में कैसे िलखा जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LBSHV",
+      "B": "PZWGV",
+      "C": "PXHWV",
+      "D": "ZWGVP"
+    }
+  },
+  "q_248": {
+    "questionText": "एक कोड भाषा में, 'LANE' को 'KZOF'िलखा जाता है। 'MASK' को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NZTM",
+      "B": "LZSK",
+      "C": "LZTL",
+      "D": "NBTL"
+    }
+  },
+  "q_249": {
+    "questionText": "यिद HA = 8 और CAT = 60 है, तो HEN =?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "542",
+      "B": "560",
+      "C": "524",
+      "D": "564"
+    }
+  },
+  "q_250": {
+    "questionText": "यिद एक निश्चित कूट भाषा में, 'RAW' को 'TIN' के रूप में िलखा जाता है, तो 'NET' को 'SHG' के रूप में िलखा जाता है, उस कोड में 'WATER' को कैसे िलखा जाता है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "GHTIN",
+      "B": "TINGH",
+      "C": "NIGHT",
+      "D": "NIGTH"
+    }
+  },
+  "q_251": {
+    "questionText": "/ एक कोड भाषा में, 'EVITUCEXE' िलखा जाता है। 'MAUSOLEUM' को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "AUUCOSLMM",
+      "B": "MUELOSUAM",
+      "C": "MUELOSUMA",
+      "D": "ALUEOSUMM"
+    }
+  },
+  "q_252": {
+    "questionText": "एक कोड भाषा में, ‘BHAI’ को ‘2819’िलखा जाता है। ‘CDGH’ को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "3478",
+      "B": "8437",
+      "C": "3487",
+      "D": "7348"
+    }
+  },
+  "q_253": {
+    "questionText": "यिद B = 2 और BUT = 43 है तो BOSS =?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "56",
+      "B": "59",
+      "C": "55",
+      "D": "57"
+    }
+  },
+  "q_254": {
+    "questionText": "यिद 4+5 = 41 और 10+12 = 244, तो 6+8 =?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "200",
+      "B": "88",
+      "C": "96",
+      "D": "100"
+    }
+  },
+  "q_255": {
+    "questionText": "एक कोड भाषा में, को ‘23615455’िलखा जाता है। ‘XEROX’ को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "24154610",
+      "B": "2410546024",
+      "C": "24105460120",
+      "D": "2410546012"
+    }
+  },
+  "q_256": {
+    "questionText": "बराबर होगा:",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "72",
+      "B": "56",
+      "C": "58",
+      "D": "62"
+    }
+  },
+  "q_257": {
+    "questionText": "एक कोड भाषा में, को ‘XVIGZRM’ िलखा जाता है। ‘ACQUIRE’ को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ZXJFIRV",
+      "B": "ZXJFRIV",
+      "C": "ZXJRFIV",
+      "D": "ZXJFRVI"
+    }
+  },
+  "q_258": {
+    "questionText": "एक कोड भाषा में, ‘SOUL’ को ‘USLO’िलखा जाता है। ‘DUST’ को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "STUD",
+      "B": "STDU",
+      "C": "SDTU",
+      "D": "SDUT"
+    }
+  },
+  "q_259": {
+    "questionText": "एक निश्चित कूट भाषा में, ’6532’ को ‘3467’ िलखा जाता है। उस कोड भाषा में ‘7915’ का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2084",
+      "B": "3939",
+      "C": "1463",
+      "D": "2658"
+    }
+  },
+  "q_260": {
+    "questionText": "एक कोड भाषा में, ‘CLAY’ को ‘FODB’िलखा जाता है। ‘FROG’ को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "IMSK",
+      "B": "JMOI",
+      "C": "KMRI",
+      "D": "IURJ"
+    }
+  },
+  "q_261": {
+    "questionText": "यिद एक निश्चित कूट भाषा में, 'DECEMBER' को को िलखा जाता है, तो 'STAMPEDE' को उस कोड में कैसे िलखा जाता है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "132101954516",
+      "B": "131201954510",
+      "C": "131201954516",
+      "D": "131201594510"
+    }
+  },
+  "q_262": {
+    "questionText": "एक कोड भाषा में, ‘SLAM’ को ‘OHWI’िलखा जाता है। ‘NEST’ को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RHID",
+      "B": "JAOP",
+      "C": "IAOP",
+      "D": "IBMQ"
+    }
+  },
+  "q_263": {
+    "questionText": "यिद एक निश्चित कोड भाषा में DOCTOR को ALZQLO के रूप में िलखा जाता है, तो उस भाषा में NURSE ’कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KROPB\\",
+      "B": "KSPQC",
+      "C": "LQNOA",
+      "D": "LROPC"
+    }
+  },
+  "q_264": {
+    "questionText": "यिद एक निश्चित कोड भाषा में JACKET को 8-25-1-9-3-18 के रूप में िलखा जाता है, तो उस भाषा में 'SWEATER' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "17-21-3-25-18-3-16",
+      "B": "19-22-4-26-17-4-17",
+      "C": "19-23-5-27-20-5-17",
+      "D": "17-20-2-24-18-3-16"
+    }
+  },
+  "q_265": {
+    "questionText": "यिद",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "69",
+      "B": "65",
+      "C": "63",
+      "D": "60"
+    }
+  },
+  "q_266": {
+    "questionText": "एक निश्चित कोड भाषा में GUN को JXQ िलखा जाता है, तो RIFLE को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "WLJQH",
+      "B": "UKIOE",
+      "C": "WMIPH",
+      "D": "ULIOH"
+    }
+  },
+  "q_267": {
+    "questionText": "यिद एक निश्चित कोड भाषा में STAY को 19403100 िलखा जाता है, तो उस भाषा में HOUR कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "8306372",
+      "B": "8456478",
+      "C": "456372",
+      "D": "8306072"
+    }
+  },
+  "q_268": {
+    "questionText": "If A=1 and ANT=105 then ASK=? यिद A = 1 और ANT = 105 तो ASK =?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "99",
+      "B": "93",
+      "C": "96",
+      "D": "91"
+    }
+  },
+  "q_269": {
+    "questionText": "यिद एक निश्चित कूट भाषा में, 'HAMMER' को '8 # 66 $ *' िलखा जाता है, 'DISTRICT' को '7 & 51 * & 21' िलखा जाता है, उस कोड में 'MERCI' कैसे िलखा जाएगा है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "6#21",
+      "B": "6#*24",
+      "C": "6$*2&",
+      "D": "6$*24"
+    }
+  },
+  "q_270": {
+    "questionText": "यिद एक निश्चित कोड भाषा में, 'ADETP' को जाता है, तो 'DTPQUV' को उस कोड में कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "GQSTYX",
+      "B": "GQRTXY",
+      "C": "GWSTXY",
+      "D": "GSQTYX"
+    }
+  },
+  "q_271": {
+    "questionText": "यिद एक निश्चित कोड भाषा में LANDMARK को 1311811121144 िलखा जाता है, तो उस भाषा में NOTEBOOK कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "21510111415205",
+      "B": "21515111415205",
+      "C": "21515101415205",
+      "D": "14152052151511"
+    }
+  },
+  "q_272": {
+    "questionText": "यिद एक निश्चित कोड भाषा में PLAIN को NJYGL के रूप में िलखा जाता है, तो उस भाषा में MUG कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LTF",
+      "B": "JPE",
+      "C": "JPF",
+      "D": "KSE"
+    }
+  },
+  "q_273": {
+    "questionText": "यिद एक निश्चित कोड भाषा में BHOPAL को DKTWLY के रूप में िलखा जाता है, तो उस भाषा में MHOW ’कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TDKO",
+      "B": "OKDT",
+      "C": "OKTD",
+      "D": "DTOK"
+    }
+  },
+  "q_274": {
+    "questionText": "If RACK=9; TOP = 5; then MAPLE = ? यिद RACK = 9; TOP = 5; िफर MAPLE =?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "12",
+      "B": "10",
+      "C": "28",
+      "D": "7"
+    }
+  },
+  "q_275": {
+    "questionText": "यिद एक निश्चित कोड भाषा में HISTORY को IJTUPSZ िलखा जाता है, तो उस भाषा में ‘ENGLISH’ कैसे िलखी जाएगी?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DNHMHTI",
+      "B": "FOGMJSI",
+      "C": "FOHMJTI",
+      "D": "DMFKHRG"
+    }
+  },
+  "q_276": {
+    "questionText": "यिद एक निश्चित कोड भाषा में TIGER को 18-7-5-3-16 िलखा जाता है, तो LEOPARD को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "8-3-10-12-25-16-2",
+      "B": "10-3-13-14-25-16-2",
+      "C": "8-3-13-14-25-16-2",
+      "D": "10-2-12-14-25-15-2"
+    }
+  },
+  "q_277": {
+    "questionText": "यिद किसी निश्चित भाषा में CITY को BSHX िलखा जाता है, तो उस भाषा में 'CAPITAL' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BZOHSZK",
+      "B": "BXMHSYK",
+      "C": "EAPHTZM",
+      "D": "EZOJUAL"
+    }
+  },
+  "q_278": {
+    "questionText": "यिद एक निश्चित कोड भाषा में 98563 को 32896 िलखा जाता है, तो उस भाषा में 72104 ’कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "24650",
+      "B": "21362",
+      "C": "15495",
+      "D": "15437"
+    }
+  },
+  "q_279": {
+    "questionText": "यिद एक निश्चित कोड भाषा में FLAG को KQFL के रूप में िलखा जाता है, तो उस भाषा में TRUCK कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "YWAHR",
+      "B": "VWXLR",
+      "C": "XWAJR",
+      "D": "YWZHP"
+    }
+  },
+  "q_280": {
+    "questionText": "यिद एक निश्चित कोड भाषा में PARROT को RYTPQR के रूप में िलखा जाता है, तो उस भाषा में BEHOLD कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DESNOC",
+      "B": "EDTMNB",
+      "C": "EDTNOC",
+      "D": "DCJMNB"
+    }
+  },
+  "q_281": {
+    "questionText": "यिद किसी निश्चित भाषा में DBFEI को 33568 िलखा जाता है, तो उस भाषा में EFIBB कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "47831",
+      "B": "41325",
+      "C": "12358",
+      "D": "65112"
+    }
+  },
+  "q_282": {
+    "questionText": "यिद एक निश्चित कोड भाषा में GLOBE को EJMZC के रूप में िलखा जाता है, तो उस भाषा में WATCH कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UYRAF",
+      "B": "VYRBF",
+      "C": "UYSBF",
+      "D": "UYRBE"
+    }
+  },
+  "q_283": {
+    "questionText": "यिद एक निश्चित कोड भाषा में GYM को FXL िलखा जाता है, तो उस भाषा में ’TRAINER’ कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "POZHLCQ",
+      "B": "SQZHMDQ",
+      "C": "POYFMDQ",
+      "D": "SQAJMES"
+    }
+  },
+  "q_284": {
+    "questionText": "यिद एक निश्चित कोड भाषा में DINNER को 5-10-15-15-6-19 िलखा जाता है, तो उस भाषा में SNACKS कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "20-15-2-4-12-20",
+      "B": "20-16-2-5-12-20",
+      "C": "19-14-2-4-11-19",
+      "D": "19-5-1-3-12-19"
+    }
+  },
+  "q_285": {
+    "questionText": "एक निश्चित कोडिंग Ůणाली में 'HYBRID' को 'IAEUOE' िलखा जाता है। 'PENCIL' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "QGQGNM",
+      "B": "UIOEEO",
+      "C": "UIOEOO",
+      "D": "QGQGNR"
+    }
+  },
+  "q_286": {
+    "questionText": "language? /एक निश्चित भाषा में 'CAKE' को '2163' और 'KATTLE' को 617743 के रूप में िलखा गया है, उस भाषा में 'LAKE' को कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1743",
+      "B": "3157",
+      "C": "4136",
+      "D": "4163"
+    }
+  },
+  "q_287": {
+    "questionText": "यिद A को '+' के रूप में कोडित किया जाता है, B को 'x' के रूप में कोडित किया जाता है, C को '÷' 'के रूप में कोडित किया जाता है और D को ' - ' के रूप में कोडित किया जाता है, तो 18 A 6 B 2 C",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2",
+      "B": "-1",
+      "C": "0",
+      "D": "1"
+    }
+  },
+  "q_288": {
+    "questionText": "एक निश्चित कोडिंग Ůणाली में 'BROWN' को 'ZPMUL' िलखा जाता है। 'VIOLET' के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TGMJCR",
+      "B": "SGMJCQ",
+      "C": "TGMJCQ",
+      "D": "TGWCQ"
+    }
+  },
+  "q_289": {
+    "questionText": "एक निश्चित कोड भाषा में 'BREAK' को '23615455' के रूप में िलखा गया है ,उस कोड भाषा में XEROX कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2410546024",
+      "B": "2410546012",
+      "C": "24105460120",
+      "D": "24154610"
+    }
+  },
+  "q_290": {
+    "questionText": "एक निश्चित कोड भाषा में, 'STAY' को 'WXEC' िलखा जाता है। उस कोड भाषा में PERK के िलए कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TIVO",
+      "B": "SJWO",
+      "C": "SJWP",
+      "D": "TJVO"
+    }
+  },
+  "q_291": {
+    "questionText": "एक निश्चित कोड भाषा में, 'HANKER' को 'KXQHHO' िलखा जाता है। उस कोड भाषा में JINGLE का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "MFRDOC",
+      "B": "NERCPC",
+      "C": "MFQDOB",
+      "D": "NERDOB"
+    }
+  },
+  "q_292": {
+    "questionText": "एक निश्चित कोड भाषा में, AEBI को।2618 िलखा जाता है। उस कोड भाषा में DFCH ’के िलए कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "5727",
+      "B": "3527",
+      "C": "5749",
+      "D": "5635"
+    }
+  },
+  "q_293": {
+    "questionText": "एक निश्चित कोड भाषा में, '231' को '4-9-1' के रूप में िलखा जाता है। उस कोड भाषा में 569 ’का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "7-9-1",
+      "B": "25-36-81",
+      "C": "25-36-64",
+      "D": "20-30-45"
+    }
+  },
+  "q_294": {
+    "questionText": "एक निश्चित कोड भाषा में, 'FRAUD' को 'KWFZI' िलखा जाता है। उस कोड भाषा में 'GLAIR' के िलए कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KRHOX",
+      "B": "KQGMX",
+      "C": "LQFNW",
+      "D": "LRHMX"
+    }
+  },
+  "q_295": {
+    "questionText": "एक निश्चित कोड भाषा में, 'GIBECH' को '974356' िलखा जाता है। उस कोड भाषा में 'FHCIAD' के िलए कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "965726",
+      "B": "572803",
+      "C": "794125",
+      "D": "865732"
+    }
+  },
+  "q_296": {
+    "questionText": "एक निश्चित कोड भाषा में, 'BLANCH' को 'YIXKZE' िलखा जाता है। उस कोड भाषा में 'DEFAME' का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "CDEJKL",
+      "B": "BCDXJC",
+      "C": "ABCXJB",
+      "D": "ABDXIB"
+    }
+  },
+  "q_297": {
+    "questionText": "एक निश्चित कूट भाषा में, 15 -78-25-36 को 28-154-48-70 िलखा जाता है। उस कोड भाषा में 23-63-42-81 का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "44-124-82-160",
+      "B": "125-511-152-982",
+      "C": "65-218-362-542",
+      "D": "46-126-84-164"
+    }
+  },
+  "q_298": {
+    "questionText": "यिद D = 12, AGE = 39 है, तो JADE का मान क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "62",
+      "B": "48",
+      "C": "52",
+      "D": "60"
+    }
+  },
+  "q_299": {
+    "questionText": "एक निश्चित कूट भाषा में, RIVER को 10-3-5-2-10 िलखा जाता है | इसी कूट भाषा में ‘PETROL’ को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "11-2-7-10-13-16",
+      "B": "13-5-8-9-4-15",
+      "C": "12-2-8-10-13-15",
+      "D": "12-2-8-10-4-16"
+    }
+  },
+  "q_300": {
+    "questionText": "यिद किसी निश्चित कूट में, BRIDGE को का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OQNPVXEFRS",
+      "B": "OQNPVXDFQS",
+      "C": "QONPXVDFQS",
+      "D": "QOPNVXDFSQ"
+    }
+  },
+  "q_301": {
+    "questionText": "एक निश्चित कूट में, ‘सेब’ को ‘नाशपाती’, ‘नाशपाती’ को ‘संतरा’ , ‘संतरे’ को ‘अमŜद’ तथा ‘अमŜद’ को ‘खरबूज’ कहा जाता है | इस भाषा में, निम्न में से कौन एक खǥा फल है ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "Pear/  नाशपाती",
+      "B": "Melon/  खरबूज",
+      "C": "Guava/  अमŜद",
+      "D": "Orange/  संतरा"
+    }
+  },
+  "q_302": {
+    "questionText": "एक निश्चित कूट भाषा में ULTERIOR को ‘33259969’ िलखा जाता है | इसी भाषा में ‘NAVIGATION’ को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1412297215",
+      "B": "5149722965",
+      "C": "1419712915",
+      "D": "5149712965"
+    }
+  },
+  "q_303": {
+    "questionText": "किसी निश्चित कूट भाषा में ‘PAYCHECK’ को िलखा जाता है | इसी भाषा में ‘YACHT’ को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "QHZFN",
+      "B": "HQZFB",
+      "C": "QXZFN",
+      "D": "YHZF"
+    }
+  },
+  "q_304": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘KITE’ को 9 तथा MAGIC को 11 िलखा जाता है | इसी भाषा में",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "25",
+      "B": "22",
+      "C": "24",
+      "D": "12"
+    }
+  },
+  "q_305": {
+    "questionText": "एक निश्चित कूट भाषा में ‘dee duc tic’ का अथŊ कूट क्या है ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "doe",
+      "B": "dee",
+      "C": "tic",
+      "D": "dur"
+    }
+  },
+  "q_306": {
+    "questionText": "एक कूट भाषा में, HONEY को G4M2X िलखा जाता है | इसी भाषा में STATUE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RS1S5D",
+      "B": "RS1S52",
+      "C": "RS1T5D",
+      "D": "TS1S5D"
+    }
+  },
+  "q_307": {
+    "questionText": "यिद Y = 50, SEA = 50 है, तो YACHT का मान क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "100",
+      "B": "114",
+      "C": "102",
+      "D": "104"
+    }
+  },
+  "q_308": {
+    "questionText": "यिद Ůȑेक अक्षर को सम संख्या का मान दिया जाए, जैसे A= 2, B = 4 तथा आगे भी इसी प्रकार, तो EARTH का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "102384218",
+      "B": "122384216",
+      "C": "102364016",
+      "D": "102364018"
+    }
+  },
+  "q_309": {
+    "questionText": "किसी निश्चित कूट भाषा में, W को B िलखा जाता है, K को H िलखा जाता है, L को U िलखा जाता है, N को A िलखा जाता है, O को M िलखा जाता है, E को R िलखा जाता है, D को G िलखा जाता है, G को E िलखा जाता है, तो इस कूट भाषा में KNOWLEDGE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HAMBUGREG",
+      "B": "MAHBURGER",
+      "C": "MAHBERGUR",
+      "D": "HAMBURGER"
+    }
+  },
+  "q_310": {
+    "questionText": "किसी निश्चित कूट भाषा में, गुलाबी को लकड़ी कहा जाता है, लकड़ी को कलम, कलम को रंग तथा रंग को भूरा कहा जाता है | इस भाषा में, निम्न में से किसका Ůयोग िलखने के िलए किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "Pink/  गुलाबी",
+      "B": "Brown/  भूरा",
+      "C": "Pen  /  कलम",
+      "D": "Colour/  रंग"
+    }
+  },
+  "q_311": {
+    "questionText": "किसी निश्चित कूट भाषा में, GOURD को 21-4-5-10-24 िलखा जाता है | इसी कूट भाषा में BRINJAL को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2-10-3-14-18-1-12",
+      "B": "26-10-3-14-18-1-16",
+      "C": "26-10-5-14-18-2-16",
+      "D": "25-9-3-14-18-1-15"
+    }
+  },
+  "q_312": {
+    "questionText": "यिद W = 46, BAT = 46 है, तो ‘LAMB’ का मान किसके बराबर होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "54",
+      "B": "56",
+      "C": "52",
+      "D": "28"
+    }
+  },
+  "q_313": {
+    "questionText": "यिद किसी निश्चित कूट भाषा में, HORSE को GINPQSRTDF िलखा जाता है, तो इसी भाषा में JOCKEY को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KIPNBDJLDFXZ",
+      "B": "IKNPBDJLDFXZ",
+      "C": "KINPBDJLDFZX",
+      "D": "IKNPDBJLFDZX"
+    }
+  },
+  "q_314": {
+    "questionText": "एक निश्चित कोड भाषा में, 'MACHINE' को 'N5XS3M4'H के रूप में िलखा जाता है। उस भाषा में' PREDICT 'कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "K34W3XH",
+      "B": "KI4W3XG",
+      "C": "KI2W3YF",
+      "D": "JI4V3YG"
+    }
+  },
+  "q_315": {
+    "questionText": "यिद अंŤेजी वणŊमाला के Ůȑेक अक्षर को एक िवषम संख्याȏक मान से इंिगत किया जाये जैसे A = 1, B = 3 और इसी तरह, तो NOMINAL शब्द के अक्षरों का कुल मान क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "150",
+      "B": "144",
+      "C": "146",
+      "D": "149"
+    }
+  },
+  "q_316": {
+    "questionText": "एक निश्चित कोड भाषा में, 'REQUEST' को '22 -21-7-23-19-7-20 'िलखा जाता है। ‘SWITCH’ को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "21-25-11-22-5-10",
+      "B": "19-23-11-22-5-8",
+      "C": "10-5-20-11-25-21",
+      "D": "10-5-22-11-25-21"
+    }
+  },
+  "q_317": {
+    "questionText": "एक निश्चित कोड भाषा में, O को R के रूप में िलखा जाता है, R को A के रूप में िलखा जाता है, I को N के रूप में िलखा जाता है, N को E के रूप में िलखा जाता है, E को P के रूप में िलखा जाता है, P को T के रूप में िलखा जाता है। C को M के रूप में िलखा जाता है, और L को L के रूप में िलखा गया है, िफर उस कोड भाषा में PORCELAIN कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TRAMPLINE",
+      "B": "ERAMPLINT",
+      "C": "TAMRPLINE",
+      "D": "PLINETRAM"
+    }
+  },
+  "q_318": {
+    "questionText": "एक निश्चित कोड भाषा में, U को A के रूप में, A को G के रूप में, D को I के रूप में, N को T के रूप में , B को R के रूप में, E को D के रूप में, और C के रूप में U िलखा जाता है। उस कोड में ABUNDANCE कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "GRATITUDE",
+      "B": "GRATITGUD",
+      "C": "RGATIGTUD",
+      "D": "GRATIGTUD"
+    }
+  },
+  "q_319": {
+    "questionText": "एक निश्चित भाषा में, अगर MOUNTAIN को 46352195 िलखा जाता है, तो UNIVERSE को उसी भाषा में कैसे कोडित किया जाता है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "25945905",
+      "B": "45945915",
+      "C": "13594591",
+      "D": "35945915"
+    }
+  },
+  "q_320": {
+    "questionText": "एक निश्चित कोड में, 'REASON' को 13 के रूप में कोडित किया गया है, ‘CHAIR’ को 11 के रूप में कोडित किया गया है, िफर 'EXAMINATION' का कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "22",
+      "B": "11",
+      "C": "23",
+      "D": "12"
+    }
+  },
+  "q_321": {
+    "questionText": "यिद अंŤेजी वणŊमाला के Ůȑेक अक्षर को एक िवषम संख्याȏक मान से इंिगत किया जाये जैसे A = 1, B = 3 और इसी तरह, तो शब्द CARDINAL के अक्षरों का कुल मान क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "114",
+      "B": "116",
+      "C": "110",
+      "D": "119"
+    }
+  },
+  "q_322": {
+    "questionText": "एक निश्चित कोड भाषा में, G को S के रूप में िलखा जाता है, L को A के रूप में, A को O के रूप में, O को N के रूप, N को E के रूप में, E को G के रूप में, H को L के रूप में, और S को H के रूप िलखा जाता है , उसी कोड में HALOGENS को कैसे िलखŐगे ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LNAOSGEH",
+      "B": "LOANSGEH",
+      "C": "HOANSGEL",
+      "D": "HOENSGAH"
+    }
+  },
+  "q_323": {
+    "questionText": "एक निश्चित कोड भाषा में, SCIENCE को 7-5-16-7-11-5-21 के रूप में िलखा जाता है। उस कोड भाषा में MUSEUM कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "14-22-5-5-22-14",
+      "B": "13-21-6-21-21-13",
+      "C": "15-23-7-21-23-15",
+      "D": "13-23-7-21-23-13"
+    }
+  },
+  "q_324": {
+    "questionText": "एक निश्चित कोड में, CATHODE को X5GS2W4 के रूप में िलखा जाता है। उस कोड में RELATION कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "J4O1G32N",
+      "B": "I3O1G32M",
+      "C": "I4O5G32M",
+      "D": "J3O5G32M"
+    }
+  },
+  "q_325": {
+    "questionText": "यिद अंŤेजी वणŊमाला के Ůȑेक अक्षर को एक िवषम संख्याȏक मान से इंिगत किया जाये जैसे A = 1, B = 3 और इसी तरह, तो शब्द RADICAL के अक्षरों का कुल मान क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "88",
+      "B": "89",
+      "C": "90",
+      "D": "99"
+    }
+  },
+  "q_326": {
+    "questionText": "एक निश्चित कोड भाषा में, I को P के रूप में िलखा जाता है , L को A के रूप में, A को O के रूप में, O को N के रूप में, N को C के रूप में, C को T के रूप में, P को L के रूप में, T को I के रूप में, िलखा जाता है। उसी कोड में POLITICIAN को कैसे िलखŐगे",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LNAPIPTPON",
+      "B": "LNAPIPTPOC",
+      "C": "TNAPIPLPOC",
+      "D": "LNAIPITPOC"
+    }
+  },
+  "q_327": {
+    "questionText": "एक निश्चित भाषा में ABIDE को 14811625 िलखा जाता है, िफर CAGED को उस भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "11493514",
+      "B": "91416514",
+      "C": "61492516",
+      "D": "91492516"
+    }
+  },
+  "q_328": {
+    "questionText": "किसी निश्चित कूट भाषा में, HARVEST को 22-21-7-24-20-3-10 के रूप में कूटबद्ध किया जाता है | इसी भाषा में FARMER का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "20-7-14-21-3-8",
+      "B": "19-7-15-20-3-7",
+      "C": "19-7-15-19-3-8",
+      "D": "20-7-15-20-3-8"
+    }
+  },
+  "q_329": {
+    "questionText": "किसी निश्चित कूट भाषा में, WARDROBE को YXVYXHJV िलखा जाता है | इसी भाषा में ACCURATE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DZGPXTBV",
+      "B": "CZHPYTBV",
+      "C": "BZHPXTBV",
+      "D": "CZGPXTBV"
+    }
+  },
+  "q_330": {
+    "questionText": "किसी निश्चित कूट भाषा में, HAMMER को ICPQJX िलखा जाता है | इसी भाषा में WRENCH को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "XTIRIN",
+      "B": "XTIRHN",
+      "C": "XTHRIN",
+      "D": "XTHRHN"
+    }
+  },
+  "q_331": {
+    "questionText": "किसी निश्चित कूट भाषा में, PEN को 321028 िलखा जाता है | इस भाषा में, TUB को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "40422",
+      "B": "40424",
+      "C": "42404",
+      "D": "44024"
+    }
+  },
+  "q_332": {
+    "questionText": "किसी निश्चित कूट भाषा में, SERVANT को 192182211420 िलखा जाता है | इसी भाषा में MAGNIFY को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1317143625",
+      "B": "1417139625",
+      "C": "1316143522",
+      "D": "1426693625"
+    }
+  },
+  "q_333": {
+    "questionText": "किसी निश्चित कूट भाषा में DEPEND को EPHTJJ िलखा जाता है | इसी भाषा में TRAVEL को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "MGWEWY",
+      "B": "MGZEXZ",
+      "C": "MGYEWZ",
+      "D": "NGYFWZ"
+    }
+  },
+  "q_334": {
+    "questionText": "किसी निश्चित कूट भाषा में, STRAIGHT को TSARGITH िलखा जाता है | इस भाषा में THURSDAY को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UHTDRSYA",
+      "B": "AYSDURTH",
+      "C": "HTRUDSYA",
+      "D": "HTRUDSAY"
+    }
+  },
+  "q_335": {
+    "questionText": "किसी निश्चित कूट भाषा में, LARVAE को 15-1-9-5-1-2 िलखा जाता है | इसी भाषा में INSECT को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "18-13-8-2-24-7",
+      "B": "9-13-8-22-24-7",
+      "C": "3-13-8-2-24-7",
+      "D": "3-13-8-2-24-8"
+    }
+  },
+  "q_336": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘GUM’ का कूट ‘49441169’ है | इसी भाषा में ‘WAX’ को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "5291576",
+      "B": "2891400",
+      "C": "3611121",
+      "D": "8412525"
+    }
+  },
+  "q_337": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘PYTHON’ को ‘LMFRWN’ िलखा जाता है | इसी भाषा में ‘RHYTHM’ को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KFRWFP",
+      "B": "NFRWFS",
+      "C": "MFRWFT",
+      "D": "MFRWFX"
+    }
+  },
+  "q_338": {
+    "questionText": "किसी निश्चित कूट भाषा में, EARTH का कूट ‘8201815’ है | इसी भाषा में ORBIT का कूट क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "18172372",
+      "B": "20921815",
+      "C": "37681026",
+      "D": "17113912"
+    }
+  },
+  "q_339": {
+    "questionText": "किसी निश्चित कूट भाषा में, JUPITER को ‘JVOJSFR’ िलखा जाता है | इसी भाषा में ‘NEPTUNE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NDPSVME",
+      "B": "NGOUTOE",
+      "C": "NFOUTOE",
+      "D": "NFOSTOE"
+    }
+  },
+  "q_340": {
+    "questionText": "code of HONEY?/ यिद अंŤेजी वणŊमाला के Ůȑेक अक्षर को बढ़ते Ţम में एक िवषम संख्याȏक मान दिया जाए, जैसे A = 1, B = 3 तथा इसी प्रकार से आगे, तो HONEY का कूट क्या होगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "132725745",
+      "B": "132725747",
+      "C": "152927949",
+      "D": "152927947"
+    }
+  },
+  "q_341": {
+    "questionText": "कूट भाषा में, U को C िलखा जाता है, K को H िलखा जाता है, L को U िलखा जाता है, N को E िलखा जाता है, S को L िलखा जाता है, E को K िलखा जाता है तथा C को N िलखा जाता है | इस भाषा में ‘KNUCKLES’ को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KECNKUHL",
+      "B": "CHUECKN",
+      "C": "HECNHULK",
+      "D": "HECNHUKL"
+    }
+  },
+  "q_342": {
+    "questionText": "language? / किसी निश्चित कूट भाषा में, ‘CAUGHT’ को ‘326212087’ के रूप में कूटबद्ध किया जाता है | इसी भाषा में ‘SOLDIER’ को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1812122459",
+      "B": "1915124359",
+      "C": "2012152358",
+      "D": "1912122359"
+    }
+  },
+  "q_343": {
+    "questionText": "that language?/ किसी निश्चित कूट भाषा में, इसी भाषा में ‘PROFOUND’ को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UWTKJPIY",
+      "B": "UWTKKPIZ",
+      "C": "VWUKMPI",
+      "D": "UXTKNQIY"
+    }
+  },
+  "q_344": {
+    "questionText": "का कूट ‘13102595’ है | उस भाषा में “SETTING’ को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "11522867",
+      "B": "10522948",
+      "C": "10522957",
+      "D": "11544957"
+    }
+  },
+  "q_345": {
+    "questionText": "language? / किसी निश्चित कूट भाषा में, ‘FASTER’ को ‘CDPQHO’ िलखा जाता है | इसी भाषा में ‘VIOLIN’ को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "SKIRKO",
+      "B": "SLRILK",
+      "C": "RLTILK",
+      "D": "SLIRLM"
+    }
+  },
+  "q_346": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘DKOX’ को ‘WPJC’ िलखा जाता है | इसी भाषा में “AFKP’ को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ZVQL",
+      "B": "ZTOK",
+      "C": "ZUQJ",
+      "D": "ZUPK"
+    }
+  },
+  "q_347": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘PAGE’ को 161495 िलखा जाता है | इसी भाषा में ‘PART’ को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "16128620",
+      "B": "16132420",
+      "C": "16125020",
+      "D": "16136220"
+    }
+  },
+  "q_348": {
+    "questionText": "किसी निश्चित कूट भाषा में, BREATHER को 29512859 के रूप में कूटबद्ध किया जाता है | इसी भाषा में AVIATION को कैसे कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "12910965",
+      "B": "12912954",
+      "C": "14912965",
+      "D": "14912956"
+    }
+  },
+  "q_349": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘VERBAL’ को िलखा जाता है | इस भाषा में ‘BRAVE’ को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "YNXQM",
+      "B": "KQNMX",
+      "C": "YMXQN",
+      "D": "KMQXN"
+    }
+  },
+  "q_350": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘BLINK’ को 78 तथा PURSE को 54 के रूप में कूटबद्ध किया जाता है | इसी भाषा में FIRST को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "71",
+      "B": "64",
+      "C": "76",
+      "D": "54"
+    }
+  },
+  "q_351": {
+    "questionText": "एक निश्चित भाषा में, NECTAR को ‘DFOSBU’ िलखा जाता है | इसी भाषा में ‘CARPET’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DBSQGR",
+      "B": "SBDUFQ",
+      "C": "BDSSUG",
+      "D": "SBDVFR"
+    }
+  },
+  "q_352": {
+    "questionText": "िलखा जाता है | इसी भाषा में ‘SEQUENCE’ को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ESUQENEC",
+      "B": "QESEUENC",
+      "C": "ESUQNEEC",
+      "D": "QESEUCNE"
+    }
+  },
+  "q_353": {
+    "questionText": "? / किसी निश्चित कूट भाषा में, CIRCULAR को 24-3-9-24-1-15-5-9 के रूप में कूटबद्ध किया जाता है | इसी भाषा में VERTICAL को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "5  -  4  -9  -  7  -  3  -  24  -  5  -  15",
+      "B": "22  -  4  -  9  -  7  -  3  -  23  -  1  -  15",
+      "C": "5  -  2  -  9  -  7  -  3  -  24  -  5  -  15",
+      "D": "22  -  4  -  9  -  7  -  9  -  24  -  5  -  15"
+    }
+  },
+  "q_354": {
+    "questionText": "language?/ किसी निश्चित भाषा में, ‘SOLID’ को 64 तथा ‘POUR’ को 74 के रूप में कूटबद्ध किया जाता है । इस भाषा में ‘TON’ को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "49",
+      "B": "60",
+      "C": "85",
+      "D": "52"
+    }
+  },
+  "q_355": {
+    "questionText": "किसी निश्चित कूट भाषा में ‘PAINTS’ को ‘CRPKUV’ िलखा जाता है । इसी भाषा में ‘PURITY’ को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "WRKTAV",
+      "B": "XSISBM",
+      "C": "WRKSU",
+      "D": "VSKTAZ"
+    }
+  },
+  "q_356": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘FIGURE’ को ‘DJEVPE’ िलखा जाता है । इस भाषा में ‘DECODE’ को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BFDNBF",
+      "B": "BDDNBD",
+      "C": "BFAPBF",
+      "D": "BDANBD"
+    }
+  },
+  "q_357": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘LAMP’ को ‘2422632’ के रूप में कूटबद्ध किया जाता है । इसी भाषा में ‘FORK’ को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "12303422",
+      "B": "12303622",
+      "C": "12302624",
+      "D": "12303424"
+    }
+  },
+  "q_358": {
+    "questionText": "किसी निश्चित भाषा में, DRONE’ को ‘SERFO’ िलखा जाता है । उसी भाषा में HOUSE को कैसे िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "PAWGS",
+      "B": "PIVFT",
+      "C": "PIXFT",
+      "D": "QJXGB"
+    }
+  },
+  "q_359": {
+    "questionText": "किसी निश्चित कूट भाषा में, POUND को 106 तथा CLEAN को 41 के रूप में कूटबद्ध किया जाता है । इसी भाषा में MAKER को किस प्रकार कूटबद्ध किया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "50",
+      "B": "54",
+      "C": "112",
+      "D": "78"
+    }
+  },
+  "q_360": {
+    "questionText": "किसी निश्चित कूट भाषा में ‘FIXATION को ‘AXIFNOIT िलखा जाता है । इसी भाषा में ‘GLYCERIN’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LGZDGINR",
+      "B": "YLGECRNI",
+      "C": "NIRECYLG",
+      "D": "CYLGNIRE"
+    }
+  },
+  "q_361": {
+    "questionText": "that language? / किसी निश्चित कूट भाषा में SPECIAL को ‘20176410213’ िलखा जाता है । इसी भाषा में MACHINE को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "1424910156",
+      "B": "1424901056",
+      "C": "1524910146",
+      "D": "1324810155"
+    }
+  },
+  "q_362": {
+    "questionText": "किसी निश्चित कूट भाषा में, ‘FOX’ को 108 तथा SOUP को 148 िलखा जाता है । इसी भाषा में UPSIDE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "528",
+      "B": "590",
+      "C": "385",
+      "D": "494"
+    }
+  },
+  "q_363": {
+    "questionText": "किसी निश्चित कूट भाषा में, को ‘SUZBOQDF’ िलखा जाता है । इसी भाषा में MOCK को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "MOPQDELM",
+      "B": "LNNPBDJL",
+      "C": "LOPQBCKL",
+      "D": "KNNPBEBL"
+    }
+  },
+  "q_364": {
+    "questionText": "किसी भाषा में RUMMY को QVLNX िलखा जाता है | उसी भाषा में CHESS को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BGFTR",
+      "B": "BIFRT",
+      "C": "BGDTR",
+      "D": "BIDTR"
+    }
+  },
+  "q_365": {
+    "questionText": "किसी भाषा में 683 को FOX, 654 को FIN और 4581 को NIOC िलखा जाता है | उसी भाषा में 654513 को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FINICX",
+      "B": "FINNCX",
+      "C": "FIXICN",
+      "D": "FNINXC"
+    }
+  },
+  "q_366": {
+    "questionText": "िलखा जाता है | उसी भाषा में ACCIDENT को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BADGFFOR",
+      "B": "ABDGECOR",
+      "C": "BADGECOR",
+      "D": "BADGECRO"
+    }
+  },
+  "q_367": {
+    "questionText": "किसी भाषा में 3129 को CCI और 5674 को िलखा जाता है | उसी भाषा में 6878 को क्या िलखा जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FOH",
+      "B": "FHO",
+      "C": "GOI",
+      "D": "NGH"
+    }
+  },
+  "q_368": {
+    "questionText": "किसी भाषा में 214673 को SEARCH, 73456 को CHAIR और 961473 को PREACH िलखा जाता है | उसी भाषा में 734673 को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "CHARH",
+      "B": "CARRCH",
+      "C": "CHARCH",
+      "D": "RHACRH"
+    }
+  },
+  "q_369": {
+    "questionText": "िलखा जाता है | उसी भाषा में INVISIBLE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "JMWHTHCID",
+      "B": "JMUHTHCKD",
+      "C": "HNWHTHCKF",
+      "D": "JMWHTHCKF"
+    }
+  },
+  "q_370": {
+    "questionText": "को 60 और TUNE को 56 िलखा जाता है | उसी भाषा में LYRIC को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "65",
+      "B": "67",
+      "C": "63",
+      "D": "62"
+    }
+  },
+  "q_371": {
+    "questionText": "िलखा जाता है | उसी भाषा में ‘ORANGE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LHZMSV",
+      "B": "LIZMTV",
+      "C": "VTMZIL",
+      "D": "VTNZHM"
+    }
+  },
+  "q_372": {
+    "questionText": "किसी भाषा में PAGER को MIDOO िलखा जाता है | उसी भाषा में ANGEL को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "IKDOI",
+      "B": "AVIDI",
+      "C": "AOIDK",
+      "D": "ILVDN"
+    }
+  },
+  "q_373": {
+    "questionText": "किसी भाषा में को '5-3-6-17-19-9-10' िलखा जाता है | उसी भाषा में ‘DENTIST’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "19-18-10-4-15-5-4",
+      "B": "20-19-10-4-15-5-4",
+      "C": "20-19-10-4-15-6-5",
+      "D": "23-22-13-7-18-8-7"
+    }
+  },
+  "q_374": {
+    "questionText": "किसी भाषा में STAR को 55 और CUT को 42 िलखा जाता है | उसी भाषा में PEN को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "63",
+      "B": "55",
+      "C": "51",
+      "D": "68"
+    }
+  },
+  "q_375": {
+    "questionText": "किसी भाषा में ‘MARINE’ को 'IRMVEQ' िलखा जाता है | उसी भाषा में ‘BEAUTY’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "CJHZE",
+      "B": "CDOPLY",
+      "C": "CXYEIF",
+      "D": "CIGZYD"
+    }
+  },
+  "q_376": {
+    "questionText": "किसी भाषा में ‘JACKET’ को ‘MEHQLB’ िलखा जाता है | उसी भाषा में ‘BLAZER’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "EPFFLZ",
+      "B": "EQFGLY",
+      "C": "DQPGLY",
+      "D": "DOEFLZ"
+    }
+  },
+  "q_377": {
+    "questionText": "किसी भाषा में SUM को 62 और POT को 66 िलखा जाता है | उसी भाषा में HULK को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "132",
+      "B": "112",
+      "C": "130",
+      "D": "120"
+    }
+  },
+  "q_378": {
+    "questionText": "किसी भाषा में 21683 को UFHC और 15654 को OFED िलखा जाता है | उसी भाषा में 15236 को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FOX",
+      "B": "OBCF",
+      "C": "FAEBC",
+      "D": "AEFOF"
+    }
+  },
+  "q_379": {
+    "questionText": "किसी भाषा में JONAILL को IRMDHO िलखा जाता है | उसी भाषा में PLMUTG को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OOLXSJ",
+      "B": "OPLXSJ",
+      "C": "OOLYTJ",
+      "D": "OOLLXRK"
+    }
+  },
+  "q_380": {
+    "questionText": "किसी भाषा में को '231518118191211' िलखा जाता है | उसी भाषा में ‘NOVEMBER’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "14152251425229",
+      "B": "13172251325229",
+      "C": "11151251422227",
+      "D": "14142251424228"
+    }
+  },
+  "q_381": {
+    "questionText": "Ram' को '379' िलखा जाता है | इस भाषा में 'Ram likes blue' को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "503",
+      "B": "257",
+      "C": "573",
+      "D": "512"
+    }
+  },
+  "q_382": {
+    "questionText": "िलखा जाता है | उसी भाषा में ‘ORDER’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OPQTCEDFQS",
+      "B": "NPQSCEGFQT",
+      "C": "NQRSCFDFRS",
+      "D": "NPQSCEDFQS"
+    }
+  },
+  "q_383": {
+    "questionText": "किसी भाषा में ‘WARDEN’ को 'SJIWFB' िलखा जाता है | उसी भाषा में ‘OFFICE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "JHOKKU",
+      "B": "JHNKKT",
+      "C": "JGNKKS",
+      "D": "KHNJJT"
+    }
+  },
+  "q_384": {
+    "questionText": "किसी भाषा में ‘SHARP’ को ‘73’ िलखा जाता है | उसी भाषा में ‘AUDIT’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "80",
+      "B": "84",
+      "C": "76",
+      "D": "72"
+    }
+  },
+  "q_385": {
+    "questionText": "किसी सांकेितक भाषा में N को 30 और COT को 78 का संकेत दिया गया है| इस भाषा में PET का संकेत क्या होगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "100",
+      "B": "70",
+      "C": "84",
+      "D": "41"
+    }
+  },
+  "q_386": {
+    "questionText": "किसी भाषा में BROWSE को GUYQTD िलखा गया है | उसी भाषा में AMALGAM को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "OCINCOC",
+      "B": "PMDGCPD",
+      "C": "DPMDGCP",
+      "D": "CONCICO"
+    }
+  },
+  "q_387": {
+    "questionText": "िनİ̢̱ लİखत विकल्पों में से कौन सा शब्द समूह तीसरे शब्द समूह से उसी प्रकार संबंधित है जैसे दूसरा शब्द समूह पहले वाले संबंधित से है |",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "VNGB",
+      "B": "WOHB",
+      "C": "QUBH",
+      "D": "UMFA"
+    }
+  },
+  "q_388": {
+    "questionText": "यिद किसी भाषा में 'LOCKER' को 'OLXPVI' िलखा गया है | उसी भाषा में 'GLOBAL' को किस प्रकार िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UPMZAP",
+      "B": "HUYTRE",
+      "C": "TOLYZO",
+      "D": "JOREDO"
+    }
+  },
+  "q_389": {
+    "questionText": "यिद किसी भाषा में 'NIB' को 112 और 'COB' को 122 िलखा गया है, तो उसी भाषा में JET को किस प्रकार िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "92",
+      "B": "81",
+      "C": "119",
+      "D": "102"
+    }
+  },
+  "q_390": {
+    "questionText": "किसी िविशʼ भाषा में BLINK को 2226 और ALL को 1312 िलखा गया है | इस भाषा में EYES को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "3219",
+      "B": "5448",
+      "C": "6513",
+      "D": "1044"
+    }
+  },
+  "q_391": {
+    "questionText": "किसी भाषा में TRAIN को FHYQL िलखा गया है | उस भाषा में CHEQUE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "WRUIEU",
+      "B": "VQTHDT",
+      "C": "XSVJFV",
+      "D": "OTQCGQ"
+    }
+  },
+  "q_392": {
+    "questionText": "किसी भाषा में ‘TENDER’ को ‘185414520’ का कोड दिया गया है | इसी भाषा में ‘REQUESTED’ को क्या कोड दिया जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "45221942116518",
+      "B": "45203952017558",
+      "C": "65101852117516",
+      "D": "45201952117518"
+    }
+  },
+  "q_393": {
+    "questionText": "िलखा गया है | उसी भाषा में ‘HOSTELS’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ERPRGIP",
+      "B": "EQPSHIP",
+      "C": "ERPQHIP",
+      "D": "FSPPQHIQ"
+    }
+  },
+  "q_394": {
+    "questionText": "किसी भाषा में ‘REQUIRE’ को ‘100’ िलखा गया है | उसी भाषा में ‘ARRANGE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "68",
+      "B": "88",
+      "C": "77",
+      "D": "71"
+    }
+  },
+  "q_395": {
+    "questionText": "किसी भाषा में ‘BEAUTY’ को ‘ZUVBFC’ िलखा गया है | उसी भाषा में ‘MARTYR’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "SZUSBN",
+      "B": "TXURBN",
+      "C": "SYUSDM",
+      "D": "SZUQDN"
+    }
+  },
+  "q_396": {
+    "questionText": "किसी भाषा में को ‘DEEGKLNOW’ िलखा गया है | इस भाषा में ‘SERIAL’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "AEIRS",
+      "B": "AEIRM",
+      "C": "AEIRM",
+      "D": "AEILRS"
+    }
+  },
+  "q_397": {
+    "questionText": "किसी भाषा में IF को 225 और BUT को 1849 िलखा गया है | इस भाषा में SLIP को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "3136",
+      "B": "1336",
+      "C": "6313",
+      "D": "3163"
+    }
+  },
+  "q_398": {
+    "questionText": "यिद किसी भाषा में O = 20 और LIT = 46, तो उसी भाषा में PIG को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "41",
+      "B": "53",
+      "C": "46",
+      "D": "37"
+    }
+  },
+  "q_399": {
+    "questionText": "िलखा जाता है | उसी भाषा में ‘ANGLE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "PCVAT",
+      "B": "QDWBU",
+      "C": "HOPLY",
+      "D": "REXCV"
+    }
+  },
+  "q_400": {
+    "questionText": "किसी भाषा में LIFE को MOGI िलखा जाता है | उसी भाषा में SOUP को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "TUVO",
+      "B": "TUOQ",
+      "C": "TUAQ",
+      "D": "TATU"
+    }
+  },
+  "q_401": {
+    "questionText": "किसी भाषा में ‘SITUATION’ को ‘133’ और ‘RIGHT’ को ‘67’ िलखा जाता है | उसी भाषा में",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "179",
+      "B": "132",
+      "C": "167",
+      "D": "184"
+    }
+  },
+  "q_402": {
+    "questionText": "किसी भाषा में PATNA को 260 और GOA को 69 िलखा जाता है | उसी भाषा में RANCHI को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "620",
+      "B": "360",
+      "C": "135",
+      "D": "318"
+    }
+  },
+  "q_403": {
+    "questionText": "किसी भाषा में TIGER को ROEIP िलखा जाता है | उसी भाषा में LION को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "JOUL",
+      "B": "JOIL",
+      "C": "JOUR",
+      "D": "JOMR"
+    }
+  },
+  "q_404": {
+    "questionText": "किसी भाषा में ‘STYLE’ को ‘181924114’ िलखा जाता है | उसी भाषा में ‘FIRST’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "69181920",
+      "B": "58171820",
+      "C": "58181920",
+      "D": "58171819"
+    }
+  },
+  "q_405": {
+    "questionText": "किसी भाषा में TIFFIN को 67 और BOX को 44 िलखा जाता है | उसी भाषा में CARDBOARD को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "69",
+      "B": "66",
+      "C": "67",
+      "D": "64"
+    }
+  },
+  "q_406": {
+    "questionText": "िलखा जाता है | उसी भाषा में MAGNETIC को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "GAMNECIT",
+      "B": "ETICNGAM",
+      "C": "CIETNGAM",
+      "D": "CITENGAM"
+    }
+  },
+  "q_407": {
+    "questionText": "किसी भाषा में ‘DESIGN’ को ‘OHJTFE’ िलखा जाता है | उसी भाषा में ‘STRONG’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "HOPSUT",
+      "B": "DOPSKJ",
+      "C": "TUSPOH",
+      "D": "HOPSVU"
+    }
+  },
+  "q_408": {
+    "questionText": "एक भाषा में BOARD को CMDNI िलखा गया है | उसी भाषा में WHITE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "XJMQZ",
+      "B": "VJFPZ",
+      "C": "VFJQB",
+      "D": "XFLPJ"
+    }
+  },
+  "q_409": {
+    "questionText": "किसी भाषा में SYNC को 4417 और MINT को 2234 िलखा गया है | उसी भाषा में NOSE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2924",
+      "B": "5729",
+      "C": "1758",
+      "D": "3419"
+    }
+  },
+  "q_410": {
+    "questionText": "िलखा जाता है , उसी भाषा में ‘HOSTING’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "VQKSLSL",
+      "B": "VRKSJQL",
+      "C": "VRKTJRL",
+      "D": "WXKSJQN"
+    }
+  },
+  "q_411": {
+    "questionText": "किसी भाषा में ‘VARIOUS’ को ‘519812254418’ िलखा जाता है | उसी भाषा में ‘PENSION’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "16551388120513",
+      "B": "11251388122513",
+      "C": "16251488122812",
+      "D": "11241398122514"
+    }
+  },
+  "q_412": {
+    "questionText": "किसी भाषा में 458693 को 367784 िलखा जाता है । उसी भाषा में 742351 को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "651442",
+      "B": "655442",
+      "C": "651462",
+      "D": "863442"
+    }
+  },
+  "q_413": {
+    "questionText": "िलखा जाता है । उसी भाषा में MOHANDEV को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "LMICMBFX",
+      "B": "LMICMBXF",
+      "C": "NQGCLBFX",
+      "D": "NQICMBFX"
+    }
+  },
+  "q_414": {
+    "questionText": "यिद किसी भाषा में ‘UNIQ’ को ‘SJCI’ िलखा जाता है , उसी भाषा में ‘MODE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "KKXW",
+      "B": "KKXV",
+      "C": "KKXX",
+      "D": "KKXT"
+    }
+  },
+  "q_415": {
+    "questionText": "किसी भाषा में 458 को ‘she is good’, 742 को जाता है | उस भाषा में निम्नलिखित में से कौन सा अंक ‘bad’ को दशाŊता है |",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "8",
+      "D": "1"
+    }
+  },
+  "q_416": {
+    "questionText": "किसी भाषा में RDHKLP को QCJMKO िलखा जाता है | उसी भाषा में ROHINY को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "QNJKMX",
+      "B": "QNJKCX",
+      "C": "QNJLNX",
+      "D": "QNIJMX"
+    }
+  },
+  "q_417": {
+    "questionText": "किसी भाषा में SCIENCE को TFNLWNR िलखा जाता है , उसी भाषा में ARTS को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "BTYZ",
+      "B": "TSRA",
+      "C": "BTYA",
+      "D": "BUYZ"
+    }
+  },
+  "q_418": {
+    "questionText": "किसी भाषा में SKILL को 57 और LOVE को 40 िलखा जाता है | उसी भाषा में LIE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "22",
+      "B": "20",
+      "C": "26",
+      "D": "17"
+    }
+  },
+  "q_419": {
+    "questionText": "िलखा जाता है | उसी भाषा में ‘SRILANKA’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UQKKCMMZ",
+      "B": "TQJKBPJC",
+      "C": "UPKJCLMY",
+      "D": "UTKNCMMZ"
+    }
+  },
+  "q_420": {
+    "questionText": "किसी भाषा में RAMP को 46 और HORSE को 63 िलखा जाता है | उसी भाषा में CARPENTER को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "98",
+      "B": "102",
+      "C": "96",
+      "D": "100"
+    }
+  },
+  "q_421": {
+    "questionText": "किस भाषा में ‘ORAL’ को ‘1518112’ िलखा जाता है | उसी भाषा में ‘WRITTEN’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "231892020614",
+      "B": "231892020514",
+      "C": "221792020514",
+      "D": "221891919514"
+    }
+  },
+  "q_422": {
+    "questionText": "किसी भाषा में COBBLER को 130 और TABLE को 93 िलखा जाता है | उसी भाषा में ALMIRAH को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "125",
+      "B": "129",
+      "C": "123",
+      "D": "127"
+    }
+  },
+  "q_423": {
+    "questionText": "किसी भाषा में GOOGLE को IMIENC िलखा जाता है | उसी भाषा में PENCIL को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NGLEGN",
+      "B": "RGPEKN",
+      "C": "RCPAKJ",
+      "D": "NCLAGJ"
+    }
+  },
+  "q_424": {
+    "questionText": "किसी भाषा में एक अक्षर को उसी ̾ थान पर उसका अंक पीछे से िगनती करने पर िलखा जाता है | इस भाषा में MANGO को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NZMTL",
+      "B": "MNZLT",
+      "C": "NMZLT",
+      "D": "NMZTL"
+    }
+  },
+  "q_425": {
+    "questionText": "किसी भाषा में CLOTH को LCPHT िलखा जाता है | उसी भाषा में GARMENT को क्या िलखा जाएगा",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "AGMRTNE",
+      "B": "RAGMTNE",
+      "C": "RAGNTNE",
+      "D": "AGTNMRE"
+    }
+  },
+  "q_426": {
+    "questionText": "किसी भाषा में अगर RAT को 93 और RABBIT को 25 िलखा जाता है | तो उसी भाषा में HORSE को क्या िलखŐगे ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "65",
+      "B": "70",
+      "C": "07",
+      "D": "56"
+    }
+  },
+  "q_427": {
+    "questionText": "किसी भाषा में VICTORY को XGERQPA िलखा जाता है | उसी भाषा में KINDLE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "SOWNEQ",
+      "B": "IKLFJG",
+      "C": "BEDRVH",
+      "D": "MGPBNC"
+    }
+  },
+  "q_428": {
+    "questionText": "किसी भाषा में PARK को 6739, ROAD को 3574, POND को 6584 और LANE को 2781 िलखा जाता है | उसी भाषा में LORD को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "5304",
+      "B": "7432",
+      "C": "5213",
+      "D": "2534"
+    }
+  },
+  "q_429": {
+    "questionText": "किसी भाषा में DEAF को HJGM िलखा जाता है | उसी भाषा में CALM को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "E  B  X  Y",
+      "B": "G  F  R  T",
+      "C": "F  B  X  Y",
+      "D": "G  C  Y  Z"
+    }
+  },
+  "q_430": {
+    "questionText": "किसी भाषा में BOOK को 139 और PEN को 302 िलखा जाता है | उसी भाषा में COPY को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "167",
+      "B": "279",
+      "C": "2822",
+      "D": "2547"
+    }
+  },
+  "q_431": {
+    "questionText": "किसी भाषा में MENTION को NEITNOM िलखा जाता है | उसी भाषा में PATTERN को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DOEECTS",
+      "B": "NAETTRP",
+      "C": "LSOIANN",
+      "D": "RESWNDU"
+    }
+  },
+  "q_432": {
+    "questionText": "किसी भाषा में ‘salute’ को ‘iuamet’ िलखा जाता है | उसी भाषा में ‘mango’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "uhoen",
+      "B": "phobn",
+      "C": "uhobn",
+      "D": "uhpen"
+    }
+  },
+  "q_433": {
+    "questionText": "किस भाषा में ‘Wand’ को ‘240153’ और ‘curd’ को ‘420193’ िलखा जाता है | उसी भाषा में ‘East’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "421821",
+      "B": "602019",
+      "C": "612120",
+      "D": "421719"
+    }
+  },
+  "q_434": {
+    "questionText": "किसी भाषा में को ‘OPJTJWFMFU’ िलखा जाता है | उसी भाषा में ‘REMOTE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FUPNFS",
+      "B": "ETOMER",
+      "C": "PUPFNS",
+      "D": "SFNPUF"
+    }
+  },
+  "q_435": {
+    "questionText": "िलखा जाता है, उसी भाषा में ‘POLICE’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RMNGEC",
+      "B": "ONKHBD",
+      "C": "RQNKEG",
+      "D": "RMJGEC"
+    }
+  },
+  "q_436": {
+    "questionText": "यिद SMART को 191311820 िलखा जाता है तो FUNNY को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "622131325",
+      "B": "620131325",
+      "C": "621141425",
+      "D": "621131325"
+    }
+  },
+  "q_437": {
+    "questionText": "किसी भाषा में BRDKE को AQCJD िलखा जाता है , उसी भाषा में SLEEP को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "PJDDQ",
+      "B": "RKDDO",
+      "C": "PNDDO",
+      "D": "RJDDN"
+    }
+  },
+  "q_438": {
+    "questionText": "किसी भाषा में ‘TIGER’ को ‘YMJGS’ िलखा जाता है | उसी भाषा में ‘PANDA’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "UEQFB",
+      "B": "UFSIF",
+      "C": "EQUFB",
+      "D": "USIFC"
+    }
+  },
+  "q_439": {
+    "questionText": "किसी भाषा में ‘SMART’ को ‘AMRST’ िलखा जाता है | उसी भाषा में ‘DESIGN’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "EIADGS",
+      "B": "DEIGNS",
+      "C": "DAISGN",
+      "D": "SGITMD"
+    }
+  },
+  "q_440": {
+    "questionText": "किसी भाषा में को और को िलखा जाता है | उसी भाषा में को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "21",
+      "B": "78",
+      "C": "58",
+      "D": "87"
+    }
+  },
+  "q_441": {
+    "questionText": "िलखा जाता है | उसी भाषा में ‘COMPUTER’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "AQKRSVCT",
+      "B": "EMONWRGP",
+      "C": "AQKRWRGP",
+      "D": "EMNOWRGU"
+    }
+  },
+  "q_442": {
+    "questionText": "किसी भाषा में ‘BREEZE’ को ‘ZOAZTX’ िलखा जाता है | उसी भाषा में ‘FROTHY’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DOJNAQ",
+      "B": "DOLPCS",
+      "C": "DOKOBR",
+      "D": "DKOPHG"
+    }
+  },
+  "q_443": {
+    "questionText": "किसी भाषा में PERNMETER को 152785352, AREA को 4254 और METAL को 85349 िलखा जाता है | उसी भाषा में LANE को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "8451",
+      "B": "9475",
+      "C": "5214",
+      "D": "3245"
+    }
+  },
+  "q_444": {
+    "questionText": "िलखा जाता है | उसी भाषा में ‘ANSWER’ को क्या िलखा जाएगा ?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NRVDQ",
+      "B": "YQUCP",
+      "C": "YMRVDQ",
+      "D": "ZMRVDQ"
+    }
+  },
+  "q_445": {
+    "questionText": "किसी कूट भाषा में, यिद ‘265’ को PNH, 187 को ‘OXB’ तथा 248 को ‘NUB’ िलखा जाता है, तो संख्या 4 के िलए कूट कौन सा है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "U",
+      "B": "B",
+      "C": "N",
+      "D": "P"
+    }
+  },
+  "q_446": {
+    "questionText": "किसी कूट भाषा में, ‘TORCH’ को ‘UNPSDI’ तथा ‘BEST’ को ‘CDFTU’ िलखा जाता है। इसी भाषा में, ‘MARKS को क्या िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NABSLU",
+      "B": "NZCSLT",
+      "C": "OZBSMT",
+      "D": "NZBSLT"
+    }
+  },
+  "q_447": {
+    "questionText": "किसी कूट भाषा में, यिद ‘you are there’ को ‘ter इस भाषा में ‘you stay late’ को किस प्रकार िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ter  yer  ser",
+      "B": "ter  yer  mer",
+      "C": "der  yer  ser",
+      "D": "ter  mer  ser"
+    }
+  },
+  "q_448": {
+    "questionText": "किसी कूट भाषा में DENT को 51 तथा LOAD को 40 िलखा जाता है। इसी भाषा में COST को किस प्रकार िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "65",
+      "B": "62",
+      "C": "75",
+      "D": "57"
+    }
+  },
+  "q_449": {
+    "questionText": "किसी कूट भाषा में, को ‘TPEYEVH’ िलखा जाता है। इसी भाषा में, ‘MONSTER’ को कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "RTSOXIV",
+      "B": "QSROXIV",
+      "C": "QSRRXIV",
+      "D": "PSSOXJV"
+    }
+  },
+  "q_450": {
+    "questionText": "किसी कूट भाषा में, ‘CLARITY’ को 176 िलखा जाता है। इसी भाषा में ‘FROZEN’ को किस प्रकार िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "160",
+      "B": "216",
+      "C": "168",
+      "D": "186"
+    }
+  },
+  "q_451": {
+    "questionText": "किसी कूट भाषा में, ‘TORCH’ को ‘WRUFK’ िलखा जाता है। इसी भाषा में ‘WINTER’ को कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ZLQWHV",
+      "B": "YLQXHU",
+      "C": "ZLQWHU",
+      "D": "ZLPWGU"
+    }
+  },
+  "q_452": {
+    "questionText": "किसी कूट भाषा में ‘NIGHT’ को ‘GHINT’ िलखा जाता है। उसी भाषा में ‘AMPLITUDE’ को क्या िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "PDEILMATU",
+      "B": "ADELPIMATU",
+      "C": "ADEILMPTU",
+      "D": "PDEILMTPU"
+    }
+  },
+  "q_453": {
+    "questionText": "किसी कूट भाषा में, यिद ‘she was working’ को curious’ को ‘987’ िलखा जाता है, तो शब्द ‘she’ के िलए इस भाषा में कौन सा कूट आएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "9",
+      "B": "2",
+      "C": "8",
+      "D": "5"
+    }
+  },
+  "q_454": {
+    "questionText": "किसी कूट भाषा में, यिद ‘dish is tasty’ को ‘lam है, तो इस भाषा में ‘tasty sweet’ को क्या िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "sam  lam",
+      "B": "lam  ram",
+      "C": "sam  dam",
+      "D": "sam  kam"
+    }
+  },
+  "q_455": {
+    "questionText": "किसी कूट भाषा में, PLUM को ‘KQOMFVNN’ िलखा जाता है। इसी भाषा में ‘BIG’ को क्या िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "YCRJTH",
+      "B": "CYTJGT",
+      "C": "YCRKTM",
+      "D": "XCSJTH"
+    }
+  },
+  "q_456": {
+    "questionText": "किसी कूट भाषा में, ‘BLOCK’ को ‘31316412’ िलखा जाता है। इसी भाषा में, ‘SUPREME’ को क्या िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "202217196146",
+      "B": "192217196156",
+      "C": "202317206146",
+      "D": "192116185605"
+    }
+  },
+  "q_457": {
+    "questionText": "एक कोड भाषा में, अगर ‘fast and furious’ को को ‘cha mo ga’' के रूप में िलखा जाता है, और है, िफर इस भाषा में 'do' शब्द का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "mo",
+      "B": "ga",
+      "C": "cha",
+      "D": "nop"
+    }
+  },
+  "q_458": {
+    "questionText": "'958' िलखा जाता है, 'हमने चॉकलेट खरीदी' को '153' िलखा है, और ‘we like them’ को '816' के रूप में िलखा गया है, िफर ‘I bought them’' 'इसे किस भाषा में िलखा जाए?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "936",
+      "B": "951",
+      "C": "859",
+      "D": "251"
+    }
+  },
+  "q_459": {
+    "questionText": "िलखा जाता है। उस भाषा में language FIXTURE ’कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "IFYGERU",
+      "B": "XIFGERU",
+      "C": "XIFMERU",
+      "D": "XIFGEUS"
+    }
+  },
+  "q_460": {
+    "questionText": "एक कोड भाषा में, अगर ‘my personal use’ को को ‘29’ के रूप में िलखा जाता है, िफर इस भाषा में ‘569’ का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "these  personal  things",
+      "B": "my  these  things",
+      "C": "my  personal  things",
+      "D": "my  personal  use"
+    }
+  },
+  "q_461": {
+    "questionText": "एक कोड भाषा में, 'EAGER' को 'BXJBU' और 'MARKS' को 'PXNUV' िलखा जाता है। उस भाषा में language LOCUTS ’कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ORFXVW",
+      "B": "OLGRBW",
+      "C": "ILZRPQ",
+      "D": "OLFRVW"
+    }
+  },
+  "q_462": {
+    "questionText": "एक कोड भाषा में, 'DOUBLE' को 'VPEFMC' के रूप में िलखा जाता है। उस भाषा में 'CLIQUE' कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "JMDFVS",
+      "B": "KNDFVR",
+      "C": "JMDGVQ",
+      "D": "JMDFVR"
+    }
+  },
+  "q_463": {
+    "questionText": "एक कोड भाषा में, 'SOGGY' को '78' और 'PLINTH' को '85' िलखा जाता है। उस भाषा में DEVOTION ’कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "112",
+      "B": "120",
+      "C": "104",
+      "D": "98"
+    }
+  },
+  "q_464": {
+    "questionText": "एक कोड भाषा में, अगर ‘get up now’ को ‘pax को ‘max dax zax’ के रूप में िलखा जाता है, और जाता है, िफर इस भाषा में 'dax’' शब्द का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "get",
+      "B": "it",
+      "C": "he",
+      "D": "will"
+    }
+  },
+  "q_465": {
+    "questionText": "एक कोड भाषा में, अगर ‘Read this book’ को ‘689’ के रूप में िलखा जाता है, ‘This book is useful’ को ‘9675’ के रूप में िलखा जाता है, और िलखा जाता है, िफर इस भाषा में ‘This book is good’ शब्द का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "4965",
+      "B": "7859",
+      "C": "6457",
+      "D": "8495"
+    }
+  },
+  "q_466": {
+    "questionText": "एक निश्चित कोडिंग िसːम में, अगर OXBRIDGE को िलखा जाता है, तो MOUTHFUL को उसी कोडिंग िसːम में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "FGLNOTUU",
+      "B": "FHLMOTUU",
+      "C": "HFULMOUT",
+      "D": "FLHMOTUV"
+    }
+  },
+  "q_467": {
+    "questionText": "एक निश्चित कोड Ůणाली में, ‘how are you’ ’को, 639’ के रूप में कोडित किया जाता है, ‘are you fine today’ को ‘6453’ ’के रूप में कोडित किया गया है और ‘stay fine’ को ’58’ के रूप में कोडित किया गया है। इस Ůणाली में ‘ today’ के िलए कोड क्या है?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "5",
+      "D": "8"
+    }
+  },
+  "q_468": {
+    "questionText": "यिद एक कोडिंग Ůणाली में, FIXED को 86 के रूप में कोडित किया गया है और कंपनी को 101 के रूप में कोडित किया गया है, तो INTERIM को उसी कोडिंग Ůणाली में कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "102",
+      "B": "101",
+      "C": "99",
+      "D": "100"
+    }
+  },
+  "q_469": {
+    "questionText": "एक निश्चित कोडिंग Ůणाली में, यिद िलखा जाता है, तो CRANE को उसी कोडिंग Ůणाली में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "DKTHV",
+      "B": "HKSHO",
+      "C": "DOTKV",
+      "D": "CJSGU"
+    }
+  },
+  "q_470": {
+    "questionText": "एक निश्चित कोड भाषा में, यिद TRAILER को उसी कोड भाषा में कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "NBYZMZI",
+      "B": "OCXALAI",
+      "C": "NCYAMAI",
+      "D": "MBXZLZH"
+    }
+  },
+  "q_471": {
+    "questionText": "यिद एक कोडिंग िसːम में, SUBSTANCE को 101 के रूप में कोडित किया जाता है और SUPREME को 94 के रूप में कोडित किया जाता है, तो PORTRAIT को उसी कोडिंग िसːम में कैसे कोडित किया जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "117",
+      "B": "114",
+      "C": "116",
+      "D": "115"
+    }
+  },
+  "q_472": {
+    "questionText": "एक निश्चित कोड भाषा में, यिद CARPENTER को ACEENPRRT िलखा जाता है, तो उसी कोड भाषा में BLACKSMITH कैसे िलखा जाएगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "ALBSKCIMHT",
+      "B": "CALBIMKSTH",
+      "C": "ABCHIKLMST",
+      "D": "LBCASKIMHT"
+    }
+  },
+  "q_473": {
+    "questionText": "एक कोड भाषा में, अगर ‘mango is sweet’ को ‘629’ के रूप में िलखा जाता है, ‘mango tree is tall’ को ‘7289’ के रूप में िलखा जाता है, और जाता है, िफर इस भाषा में ‘healthy’ शब्द का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "2",
+      "B": "8",
+      "C": "5",
+      "D": "7"
+    }
+  },
+  "q_474": {
+    "questionText": "को ‘856’ के रूप में िलखा जाता है, ‘Beautiful preferred’ को ‘3874’. के रूप में िलखा जाता है, का कोड क्या होगा?",
+    "typeHeader": "कोडिंग-डिकोडिंग (Coding-Decoding)",
+    "options": {
+      "A": "765",
+      "B": "876",
+      "C": "785",
+      "D": "476"
+    }
+  }
+}

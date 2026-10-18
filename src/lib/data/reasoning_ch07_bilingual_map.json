@@ -1,0 +1,1092 @@
+{
+  "q_1": {
+    "questionText": "आठ लोगों के एक परिवार में, दो जोड़े हैं, जिनमें से Ůȑेक के दो बच्चे हैं | B तथा D भाई हैं तथा Ůȑेक को दो बच्चे हैं | E, A की आंटी है जो C का चचेरा भाई है | C, H की बहन है, जो G का चचेरा भाई है | F, B की पȉी है | H, F से कैसे संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Nephew/  भतीजा",
+      "B": "Son-in-law/  दामाद",
+      "C": "Son/  भाई",
+      "D": "Brother-in-law/  साला"
+    }
+  },
+  "q_2": {
+    "questionText": "P, Q का पिता है और R का नाना है, जो S का भाई है | S की माँ, T की शादी V से Šई है | T, Q की बहन है | V, P से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Nephew/  भतीजा",
+      "B": "Brother-in-law/  बहनोई",
+      "C": "Son/  बेटा",
+      "D": "Son-in-law/  दामाद"
+    }
+  },
+  "q_3": {
+    "questionText": "P, Q का पिता है और R, S का बेटा है | T, P का भाई है | Q, R की बहन है | S, T से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother-in-law/  बहनोई",
+      "B": "Daughter/  बेटी",
+      "C": "Sister-in-law/ ननद  या  भाभी",
+      "D": "Brother/  भाई"
+    }
+  },
+  "q_4": {
+    "questionText": "D, C का बेटा है और E का भाई है | E, F की भतीजी है | C, B की बहन और A की आंटी है | B के पिता के दो बच्चे हैं - एक बेटा और एक बेटी | यिद A, F का बेटा है, तो F, C से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Cousin/  चचेरा  मौसेरा  भाई  /बहन",
+      "B": "Aunt/  आंटी",
+      "C": "Sister  -  in  -  law/  ननद  या  भाभी",
+      "D": "Sister/  बहन"
+    }
+  },
+  "q_5": {
+    "questionText": "आठ लोगों के एक परिवार में, दो जोड़े हैं, जिनमें से Ůȑेक के दो बच्चे हैं। C और D चचेरे भाई हैं। E के पिता का िववाह G से Šआ है, जो F की आंटी है। F की माँ, H, B से विवाहित है जो A का भाई है। C, H का भतीजा है। A, D से किस प्रकार संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Uncle/  अंकल",
+      "B": "Brother/  भाई",
+      "C": "Nephew/  भतीजा",
+      "D": "Father/  िपता"
+    }
+  },
+  "q_6": {
+    "questionText": "दो युƵों वाले एक परिवार जिसमें आठ सद˟ हैं, उसमें P, Q का बेटा और R का भाई है | S, M की बेटी है जिसकी शादी R से Šई है | T, S की आंटी है और V की माँ है | R का भतीजा W, P का बेटा है तथा उसे एक बहन V है | V, M से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Nephew/  भतीजा",
+      "B": "Daughter/  बेटी",
+      "C": "Niece/  भतीजी",
+      "D": "Cousin  Sister/  चचेरी-मौसेरी  बहन"
+    }
+  },
+  "q_7": {
+    "questionText": "P, Q की बहन और R की माँ है | S, W की बŠ तथा Q की पȉी है | W का पोता M, P का भतीजा तथा V का भाई है | W के केवल दो बच्चे हैं | Q, V से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Uncle/  अंकल",
+      "B": "Father/  िपता",
+      "C": "Brother/  भाई",
+      "D": "Son/  बेटा"
+    }
+  },
+  "q_8": {
+    "questionText": "सात ʩİƅयों के परिवार में, B, A का भाई है और C का पुत्र है. D, C का दामाद है, जिसके दो पोते, E और F हैं। F की माँ A है, जो भतीजी है G िक . E का पुत्र G है। यिद C के दो बच्चे हैं, तो E, D से कैसे संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother-in-law/  साला  या  बहनोई",
+      "B": "Son/  बेटा",
+      "C": "Cousin/  चचेरा-मौसेरा  įरʱेदार",
+      "D": "Nephew/  भतीजा"
+    }
+  },
+  "q_9": {
+    "questionText": "अपने दोˑ से िमलवाया, \"वह मेरे पिता की पȉी के इकलौते बेटे की बेटी है।\" सƗम,िनिध से कैसे जुड़ा है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son,बेटा",
+      "B": "Cousin/चचेरा  भाई",
+      "C": "Father/िपता",
+      "D": "Brother/भइया"
+    }
+  },
+  "q_10": {
+    "questionText": "भरत तथा सपना पित-पȉी हैं | रोिहत तथा भरत भाई हैं | सुरेश रोिहत का पिता है | सपना का बेटा कृष है | कृष सुरेश से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son/  बेटा",
+      "B": "Father/  िपता",
+      "C": "Uncle/  अंकल",
+      "D": "Grandson/  पोता"
+    }
+  },
+  "q_11": {
+    "questionText": "िŮयांक अƗय का भाई है | सोिनया सƗम की बहन है | अƗय सोिनया का बेटा है | िŮयांक, सोिनया से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Nephew  /  भतीजा",
+      "B": "Father  /  िपता",
+      "C": "Son/  बेटा",
+      "D": "Brother/  भाई"
+    }
+  },
+  "q_12": {
+    "questionText": "ŜİƏणी का पįरचय करवाते Šए, िवजय ने कहा, “वह मेरी पȉी के एकमाũ भाई के बेटे की माँ है | ŜİƏणी के पित का िवजय से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother-in-law/  साला  या  बहनोई",
+      "B": "Father/  िपता",
+      "C": "Father-in-law/  ससुर",
+      "D": "Son/  बेटा"
+    }
+  },
+  "q_13": {
+    "questionText": "निम्नलिखित जानकारी को ध्यान से पढ़Ő और प्रश्न के उȅर दŐ जो निम्नलिखित हैं: x B' का अर्थ 'A B बहन है'। B'./ यिद A + B ’का अर्थ है A, B की माँ है’। B'./ यिद ‘A B’ का अर्थ है A, B की पुत्री है ’। B ’का अर्थ है A, B का पिता है’",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Daughter  /बेटी",
+      "B": "Mother/मां",
+      "C": "Sister  /बहन",
+      "D": "Wife/पȉी"
+    }
+  },
+  "q_14": {
+    "questionText": "B’./ A+B का अर्थ है, A, B की बहन है | A-B का अर्थ है, A, B का भाई है | B’ का अर्थ है, A, B की माँ है | B’ का अर्थ है, A, B का पिता है | यिद V + S U है, तो R, S से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Grandson/  पोता  या  नाती",
+      "B": "Daughter/  बेटी",
+      "C": "Grand-Daughter/  पोती  या  नितनी",
+      "D": "Maternal  grandmother/  नानी"
+    }
+  },
+  "q_15": {
+    "questionText": "B’ / A + B का अर्थ है, A, B की भाई है | का अर्थ है, A, B की पȉी है | ‘A B’ का अर्थ है, A, B की बेटी है | B’ का अर्थ है, A, B का पिता है| यिद P + S U है, तो T, P से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  grandmother/  दादी",
+      "B": "Maternal  grandmother/  नानी",
+      "C": "Maternal  grandfather/  नाना",
+      "D": "Paternal  grandfather/  दादा"
+    }
+  },
+  "q_16": {
+    "questionText": "A+B का अर्थ है, A, B की पȉी है| - B का अर्थ है, A, B का पित है | B’ का अर्थ है, A, B का बेटा है | ÷ B’ का अर्थ है, A, B की माँ है | किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Daughter/  बेटी",
+      "B": "Maternal  Grandmother/  नानी",
+      "C": "Sister/  बहन",
+      "D": "Mother/  माँ"
+    }
+  },
+  "q_17": {
+    "questionText": "B'./ 'A + B' का अर्थ है, A, B की बेटी है | B' का अर्थ है, A, B का भाई है | B' का अर्थ है, A, B की माँ है | का अर्थ है, A, B का बेटा है | यिद U + C Q - P R S - T है, तो S, U से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Maternal  grandfather/  नाना",
+      "B": "Paternal  grandfather/  दादा",
+      "C": "Mother/  माँ",
+      "D": "Paternal  grandmother/  दादी"
+    }
+  },
+  "q_18": {
+    "questionText": "' A + B' का अर्थ है, A , B की बहन है | का अर्थ है, A, B की बेटी है | B' का अर्थ है, A, B का भाई है | B' का अर्थ है, A, B का पित है | किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  uncle/  चाचा",
+      "B": "Maternal  aunt/  मामी",
+      "C": "Maternal  uncle/  मामा",
+      "D": "Paternal  aunt/  चाची"
+    }
+  },
+  "q_19": {
+    "questionText": "किव से पįरचय करवाते Šए, वीना ने कहा, “ वह मेरे पित की पȉी के बेटे की बहन है|” वीना का किव से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Daughter/  बेटी",
+      "B": "Sister/  बहन",
+      "C": "Mother/  माँ",
+      "D": "Aunt/  चाची"
+    }
+  },
+  "q_20": {
+    "questionText": "किसी परिवार में, B, K का पिता है | B के केवल दो बच्चे हैं | K, R का भाई है | R, P की बेटी है | A, P की पोती है | S, A का पिता है | S का K से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son/ बेटा",
+      "B": "Brother-in-law/ बहनोई",
+      "C": "Brother/ भाई",
+      "D": "Son-in-law/ दामाद"
+    }
+  },
+  "q_21": {
+    "questionText": "5 सद˟ों वाले परिवार में, X, Y की बहन है। M के 2 बच्चे हैं और वह E का बेटा है, जो H का ससुर है, जिसका केवल एक ही बेटा है। Y, E की पोती नहीं है। X, E से कैसे संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Sister  /  बहन",
+      "B": "Daughter  /  बेटी",
+      "C": "Grand-daughter  /  पोती",
+      "D": "Grandson  /  पोता"
+    }
+  },
+  "q_22": {
+    "questionText": "T, D की बहन है। D की शादी P से होती है। P, M का बेटा है। T, J की माँ है। Y, U का पिता है। Y का एक ही बेटा और एक बेटी है। U, T की बेटी है। Q, D का पुत्र है। M, W की पȉी है, तो Q, W से कैसे संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son-in-law/ दामाद",
+      "B": "Son/ बेटा",
+      "C": "Grandson/ पोता",
+      "D": "Nephew/ भतीजा"
+    }
+  },
+  "q_23": {
+    "questionText": "एक परिवार में दो विवाहित जोड़े हैं | % के दो बच्चे हैं | A, @ की पȉी है, जो # का भाई है | F, % की बेटी है | U, S की बहन है, जो @ का बेटा है | T, # का बेटा है, जो पुरुष है | A, % से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Sister/ बहन",
+      "B": "Sister-in-law/ भाभी",
+      "C": "Brother/ भइया",
+      "D": "Brother-in-law/ बहनोई"
+    }
+  },
+  "q_24": {
+    "questionText": "मयंक छाया का बेटा है | छाया और दीपा बहनŐ हैं | गायũी, दीपा की माँ है | यिद नमन, गायũी का बेटा है, तो मयंक, नमन से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Nephew/ भतीजा",
+      "B": "Brother/ भइया",
+      "C": "Father/ िपता",
+      "D": "Son/ बेटा"
+    }
+  },
+  "q_25": {
+    "questionText": "‘A+B’ का अर्थ है ‘A, B की माता है’ ‘A - B’ का अर्थ है ‘A, B की पȉी है’ ‘A B’ का मतलब ‘A,B का भाई है’ ‘A B’ का अर्थ है ‘A, B का पित है’ यिद T ÷ V + Q - J ✕ M + U है, तो T, J से कैसे संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Father-in-law/  ससुर",
+      "B": "Son-in-law/  दामाद",
+      "C": "Brother/  भाई",
+      "D": "Father/  िपता"
+    }
+  },
+  "q_26": {
+    "questionText": "A + B' का अर्थ है 'A' B का भाई है। ‘A - B 'का अर्थ है' A, B का पित है | A x B का अर्थ है, A, B की माँ है | ‘A ÷ B’ का अर्थ है, A, B की बहन है | यिद P + R ÷ T - K ⨯ O ⨯ C है, तो P, O से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  Grandfather  /  दादाजी",
+      "B": "Father  /  िपता",
+      "C": "Paternal  Uncle  /  चाचा",
+      "D": "Brother  /  भाई"
+    }
+  },
+  "q_27": {
+    "questionText": "A + B का अर्थ है 'A, B की बहन है' A - B का अर्थ है 'A, B का पुत्र है' A ⨯ 'B का अर्थ है' A, B का पित है। ' A ÷ B का अर्थ है' A, B की माता है। यिद P + Q ÷ C - D -L ⨯ J है, तो J, Q से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother/ मां",
+      "B": "Daughter/ बेटी",
+      "C": "Mother-in-law/ सास",
+      "D": "Father-in-law/ ससुर"
+    }
+  },
+  "q_28": {
+    "questionText": "ऋषभ निमता का एकमाũ भाई है | ऋषभ की पȉी मृदु का एक भाई सोनू है | इिलयाना निमता की एकमाũ भतीजी है | सोनू, इिलयाना से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": ".  Maternal  uncle  /  मामा",
+      "B": ".  Father  /  िपता",
+      "C": ".  Brother/  भाई",
+      "D": ".  Paternal  uncle  /  चाचा"
+    }
+  },
+  "q_29": {
+    "questionText": "मयंक के पिता के एक भाई Ůकाश है, जिनकी बेटी ऋतु किवता की माँ है|सोनू, ऋतु का एकमाũ भाई है| सोनू, मयंक से किस प्रकार संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother/ भाई",
+      "B": "Cousin/ चचेरा-मौसेरा",
+      "C": "Nephew/ भतीजा",
+      "D": "Son/ बेटा"
+    }
+  },
+  "q_30": {
+    "questionText": "M, N का भाई है। N, P का भाई है। Q, M का पिता है। इन कथनों के आधार पर, निम्नलिखित में से कौन सा कथन िनिʮत ŝप से सȑ नहीं हो सकता है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "P  is  the  brother  of  M  /  P,  M  का  भाई  है",
+      "B": "M  is  the  brother  of  P  /  M,  P  का  भाई  है",
+      "C": "N  is  the  son  of  Q  /  N,  Q  का  पुũ  है",
+      "D": "N  is  the  brother  of  M  /  N,  M  का  भाई  है"
+    }
+  },
+  "q_31": {
+    "questionText": "/ A+ B का अर्थ है, A, B का पित है अर्थ है, A, B का भाई है अर्थ है, A, B की बहन है अर्थ है, A, B की माँ है | यिद P + R ÷ S × M – K है, तो R, K से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  grandmother  /  दादी",
+      "B": "Daughter  /  बेटी",
+      "C": "Mother  /  माँ",
+      "D": "Sister  /  बहन"
+    }
+  },
+  "q_32": {
+    "questionText": "B का अर्थ है 'A, B का भाई है | अर्थ है 'A, B की बेटी है | अर्थ है 'A, B का पित है| B का अर्थ है 'A, B का पुत्र है | to j? यिद J + R T K - Z है, तो K, J से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Maternal  grandmother/  नानी",
+      "B": "Paternal  grandmother/  दादी",
+      "C": "Sister/  बहन",
+      "D": "Mother/  माँ"
+    }
+  },
+  "q_33": {
+    "questionText": "का अर्थ है 'A, B का पुत्र है' अर्थ है 'A, B का पित है' अर्थ है 'A, B की बहन है' का अर्थ है 'A, B की बेटी है' X है, तो X, R से किस प्रकार संबंधित है ? grandfather/ दादाजी या दादीजी grandmother/ नानाजी या नानाजी पोता या पोती",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal",
+      "B": "Maternal",
+      "C": "Father  or  mother/  िपता  या  माता",
+      "D": "Grandson  or  granddaughter/"
+    }
+  },
+  "q_34": {
+    "questionText": "+ B का अर्थ है 'A, B की मां है' का अर्थ है 'A, B का पित है' अर्थ है 'A, B का पुत्र है का अर्थ है 'A, B का भाई है' यिद Q ÷ U × K × H – D + J है, तो K, J से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother/  भाई",
+      "B": "Father  /  िपता",
+      "C": "Sister  /  बहन",
+      "D": "Paternal  uncle  /  चाचा"
+    }
+  },
+  "q_35": {
+    "questionText": "B का अर्थ है 'A, B की बहन है' है 'A, B का पुत्र है' अर्थ है 'A, B का पिता है' का अर्थ है 'A, B का भाई है यिद S × M ÷ U + L × Z – I है, तो L, I से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother  /  भाई",
+      "B": "Father  /  िपता",
+      "C": "Son  /  बेटा",
+      "D": "Husband  / पित"
+    }
+  },
+  "q_36": {
+    "questionText": "का अर्थ है 'A, B की बहन है' का अर्थ है 'A, B की बेटी है' अर्थ है 'A, B का भाई है' का अर्थ है 'A, B की माता है यिद D + P ÷ I × K ÷ T – R है, तो R, P से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son  /  बेटा",
+      "B": "Brother  /  भाई",
+      "C": "Daughter’s  husband/  बेटी  का  पित",
+      "D": "Daughter’s  son/  बेटी  का  बेटा"
+    }
+  },
+  "q_37": {
+    "questionText": "/ A + B का अर्थ है 'A, B की बेटी है' अर्थ है 'A, B की पȉी है' का अर्थ है 'A, B का पित है' अर्थ है 'A, B का पिता है यिद K – S ÷ J × B + C – Q है, तो Q, J से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Father  /  िपता",
+      "B": "Father-in-law  /  दामाद",
+      "C": "Maternal  grandfather  /  नाना",
+      "D": "Son  /  बेटा"
+    }
+  },
+  "q_38": {
+    "questionText": "देव ˘ेहा का भाई और मयंक का बेटा है | ˢाित ˘ेहा की बहन है | मयंक, ˢाित से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son  /  बेटा",
+      "B": "Brother/  भाई",
+      "C": "Father  /  िपता",
+      "D": "Sister/  बहन"
+    }
+  },
+  "q_39": {
+    "questionText": "सोना रमेश की बहन और मोिहत की बेटी है | रमा मोिहत की पȉी और Ůभात की माँ है | रमेश Ůभात से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Father/  िपता",
+      "B": "Brother/  भाई",
+      "C": "Son/  बेटा",
+      "D": "Cousin/ चचेरा-मौसेरा  įरʱेदार"
+    }
+  },
+  "q_40": {
+    "questionText": "मंजू ने सुषमा का पįरचय अपनी दोˑ से करवाते Šए कहा, “उसके ( सुषमा के ) पिता के एकमाũ बेटे की पȉी मेरी सास हैं | मंजू का पित सुषमा से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son/  बेटा",
+      "B": "Brother/  भाई",
+      "C": "Nephew/  भतीजा",
+      "D": "Father  / िपता"
+    }
+  },
+  "q_41": {
+    "questionText": "S, M का बेटा है | R, Q और A का पिता है | A, M की बेटी है | A, S से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Aunt  /  आंटी",
+      "B": "Mother  /  माँ",
+      "C": "Daughter  /  बेटी",
+      "D": "Sister  /  बहन"
+    }
+  },
+  "q_42": {
+    "questionText": "दीİɑ ने अपनी दोˑ से कहा, “कुȅे के साथ खेल रही वह लड़की मेरी माँ के पित के बेटे की दो बहनों में से छोटी बहन है |” कुȅे के साथ खेल रही लड़की का दीİɑ के साथ क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Grand  daughter/  पोती",
+      "B": "Wife/  पȉी",
+      "C": "Sister  /  बहन",
+      "D": "Daughter  –  in  -  law/  बš"
+    }
+  },
+  "q_43": {
+    "questionText": "अिनल और अभय भाई हैं | ˢाित समीर की बेटी और अिनल की बहन है | अभय की माँ का समीर से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Sister  /  बहन",
+      "B": "Wife/  पȉी",
+      "C": "Sister-in-law/  ननद  या  भाभी",
+      "D": "Mother/  माँ"
+    }
+  },
+  "q_44": {
+    "questionText": "माला और लाली बहनŐ हैं | महेश देव का पिता है | गागŎ, माला और देव की माँ है | महेश के पिता का लाली से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  Grand  Father  /  दादा",
+      "B": "Uncle/  अंकल",
+      "C": "Father  /  िपता",
+      "D": "Maternal  Grand  Father  /  नाना"
+    }
+  },
+  "q_45": {
+    "questionText": "ʴाम įरया का भाई है। मोिहनी अनुज की माता है। įरया राम की बेटी है। अनुज ʴाम का भाई है। मोिहनी का राम से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "daughter/  बेटी",
+      "B": "mother/  माँ",
+      "C": "sister/  बहन",
+      "D": "wife/  पȉी"
+    }
+  },
+  "q_46": {
+    "questionText": "अिमत सोिनया का भाई है, Ǜोित िनिकता की बहन है, सोिनया सतीश के पिता की बेटी है | िनिकता, किवंदर की बेटी है, Ǜोित अिमत की माँ है | मुकेश िनिकता की एकमाũ बहन का पित है | सतीश, किवंदर से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Grandson/  पोता  या  नाती",
+      "B": "Son-in-law  /  दामाद",
+      "C": "Son   /  बेटा",
+      "D": "Brother  /  भाई"
+    }
+  },
+  "q_47": {
+    "questionText": "A+B का अर्थ है, B, A का भाई है | का अर्थ है, A, B की माँ है | का अर्थ है, ‘A, B का पिता है | अर्थ है, A, B का बेटा है | यिद P+R T-Q S+U है, तो S, R से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Grandfather/  दादा  या  नाना",
+      "B": "Brother  /  भाई",
+      "C": "Grandson  /  पोता  या  नाती",
+      "D": "Son-in-law  /  दामाद"
+    }
+  },
+  "q_48": {
+    "questionText": "A+B का अर्थ है, ‘A, B का पिता है | अर्थ है, ‘A, B की बहन है| B का अर्थ है, A, B का भाई है | B का अर्थ है, ‘A, B की माँ है | यिद U + H R - Y है, तो L, Y से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother’s  brother/  माँ  का  भाई",
+      "B": "Maternal  grandmother  /  नानी",
+      "C": "Sister  /  बहन",
+      "D": "Mother’s  Sister  /  माँ  की  बहन"
+    }
+  },
+  "q_49": {
+    "questionText": "अशŊ िशवम का पिता है तथा Ŭुव िबमला का बेटा है | ईʷर, अशŊ का पिता है | यिद िशवम Ŭुव का भाई है, तो िबमला का ईʷर से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Daughter-in-law/  बš",
+      "B": "Mother/  माँ",
+      "C": "Wife  /  पȉी",
+      "D": "Sister-in-law  /  ननद  या  भाभी"
+    }
+  },
+  "q_50": {
+    "questionText": "A+B का अर्थ है, ‘B, A की बहन है |’ अर्थ है, ‘A, B का पिता है |’ का अर्थ है, ‘B, A का बेटा है |’ B का अर्थ है, ‘B, A का पित है|’ G + D है, तो D, H से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Uncle/  अंकल",
+      "B": "Father  /  िपता",
+      "C": "Niece  /  भांजी",
+      "D": "Aunt  /  आंटी"
+    }
+  },
+  "q_51": {
+    "questionText": "A+B का अर्थ है, ‘A, B की पȉी है | ; B का अर्थ है, ‘B, A की बेटी है |; का अर्थ है, B, A का भाई है | ; B का अर्थ है, ‘A, B का पिता है | U है, तो P, U की माँ से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Maternal  grandmother  /  नानी",
+      "B": "Mother  /  माँ",
+      "C": "Paternal  grandmother  /  दादी",
+      "D": "Aunt  /  आंटी"
+    }
+  },
+  "q_52": {
+    "questionText": "पाँच सद˟ों- K, L, M, N तथा O का एक परिवार है | उनमें से एक विवाहित जोड़ा है| O अविवाहित है तथा K का भाई है | N, O की बहन है | M एकमाũ विवाहित मिहला है तथा N की माँ है | समूह में केवल L और O ही पुरुष हैं | K का पिता कौन है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "O",
+      "B": "M",
+      "C": "K",
+      "D": "L"
+    }
+  },
+  "q_53": {
+    "questionText": "साँची की तˢीर की तरफ इशारा करते Šए, िनितन ने कहा, “उसकी माँ के बेटे की पȉी मेरी सास की एकमाũ बेटी है |” िनितन का साँची की माँ से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Maternal  Uncle/  मामा",
+      "B": "Paternal  grandfather/  दादा",
+      "C": "Brother/  भाई",
+      "D": "Paternal  uncle/  चाचा"
+    }
+  },
+  "q_54": {
+    "questionText": "B’/ A+B का अर्थ है, ‘A, B की माँ है | का अर्थ है, A, B का भाई है | का अर्थ है, A, B का पिता है | B का अर्थ है, A, B की बेटी है | यिद, P - K S + R है, तो निम्नलिखित में से कौन सा कथन सही नहीं है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "P  is  paternal  uncle  of  R/  P,  R  का  चाचा  है",
+      "B": "J  is  daughter  of  P/  J,  P  की  बेटी  है  |",
+      "C": "Y  is  the  son  of  S/  Y,  S  का  पुũ  है  |",
+      "D": "K  is  husband  of  S/  K,  S  का  पित  है  |"
+    }
+  },
+  "q_55": {
+    "questionText": "B’ / A+B का अर्थ है ‘A, B का पित है |’ का अर्थ है, ‘B, A की बहन है |’ B का अर्थ है ‘A, B की माँ है |’ का अर्थ है ‘B, A का पुत्र है |’ यिद P + R S + U है, तो P, S से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Father  -in  -  law/  ससुर",
+      "B": "Maternal  grandfather/  नाना",
+      "C": "Paternal  grandfather/  दादा",
+      "D": "Uncle/  अंकल"
+    }
+  },
+  "q_56": {
+    "questionText": "A + B का अर्थ है, ‘A, B का पिता है । का अर्थ है, ‘A, B की बहन है । B का अर्थ है, ‘A, B का भाई है । B का अर्थ है ‘A, B की बेटी है । यिद R + S U है, तो S, U से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother/  भाई",
+      "B": "Son/  बेटा",
+      "C": "Husband/  पित",
+      "D": "Daughter/  बेटी"
+    }
+  },
+  "q_57": {
+    "questionText": "B’ / A+B का अर्थ है, ‘A, B का पित है |’ का अर्थ है, ‘A, B की पȉी है | B का अर्थ है, A, B की माँ है| का अर्थ है A, B का बेटा है | V + L है, तो निम्नलिखित में से कौन सा कथन सही नहीं है ? ससुर है | सास है | W, J की नानी है |",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "V  is  the  father-in-law  of  J./  V,  J  का",
+      "B": "L  is  the  wife  of  V./  L,  V  की  पȉी  है  |",
+      "C": "L  is  the  mother-in-law  of  S./  L,  S  की",
+      "D": "W  is  the  maternal  grandmother  of  J/"
+    }
+  },
+  "q_58": {
+    "questionText": "A+B का अर्थ है, ‘A, B की माँ है |’ B का अर्थ है, ‘A, B का पिता है | B का अर्थ है, ‘A, B का बेटा है |’ B का अर्थ है, ‘A, B की बेटी है | यिद W X है, तो X, Z से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Daughter/  बेटी",
+      "B": "Son/  बेटा",
+      "C": "Wife/  पȉी",
+      "D": "Husband/  पित"
+    }
+  },
+  "q_59": {
+    "questionText": "- B का अर्थ है, A, B की माँ है। का अर्थ है, A, B की बहन है । B का अर्थ है, A, B की बेटी है । निम्नलिखित में से किस समीकरण का अर्थ है िक ‘U, Q की बेटी है।’ ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Q  -  Z    U    K",
+      "B": "Q  -  Z    U    K",
+      "C": "K  -  Z    U    Q",
+      "D": "K  -  U  Z    Q"
+    }
+  },
+  "q_60": {
+    "questionText": "B’ / A + B का अर्थ है, B, B की बेटी है। का अर्थ है, B, A की बहन है । x B का अर्थ है, B, A का पित है । B का अर्थ है, A, B का पिता है । यिद P U + Z है, तो R, Z से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Maternal  grandmother  /  नानी",
+      "B": "Paternal  grandmother  /  दादी",
+      "C": "Paternal  grandfather/  दादा",
+      "D": "Maternal  grandfather/  नाना"
+    }
+  },
+  "q_61": {
+    "questionText": "A + B का अर्थ है, A, B का पिता है । B का अर्थ है, A, B का भाई है । B का अर्थ है, A, B की बहन है । निम्नलिखित में से किस समीकरण का अर्थ है िक H, P का पोता है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "H  +  K  +  D    P    M",
+      "B": "D  +  H  +  K    M    P",
+      "C": "P  +  K  +  D    H    M",
+      "D": "P  +  K  +  D    H    M"
+    }
+  },
+  "q_62": {
+    "questionText": "A - B का अर्थ है, ‘A, B की बहन है । B का अर्थ है, A, B का पित है । का अर्थ है, A, B का बेटा है । यिद Y U है, तो U, Y से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother-in-law/  सास",
+      "B": "Mother/  माँ",
+      "C": "Father  /  िपता",
+      "D": "Father  -in  -  law/  ससुर"
+    }
+  },
+  "q_63": {
+    "questionText": "आकांƗा नाम की एक लड़की की तˢीर की ओर इशारा करते Šए, राजीव ने कहा, “उसकी बेटी के पिता की पȉी की माँ मेरी पȉी की बेटी की माँ की सास है । राजीव, आकांƗा से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  Uncle/  चाचा",
+      "B": "Brother/  भाई",
+      "C": "Father/  िपता",
+      "D": "Maternal  Uncle/  मामा"
+    }
+  },
+  "q_64": {
+    "questionText": "है | S P की बहन है | Q S की बहन है | T R का भाई है | T का अंकल कौन है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Q",
+      "B": "C",
+      "C": "S",
+      "D": "P"
+    }
+  },
+  "q_65": {
+    "questionText": "A + B का अर्थ है 'A B का पिता है | अर्थ है 'A B की पȉी है | का अर्थ है 'A B की बेटी है | का अर्थ है 'A B का बेटा है | to J? / यिद J K+L M, तो M, L से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother/ मां",
+      "B": "Father/ िपता",
+      "C": "Brother/ भइया",
+      "D": "Sister/ बहन"
+    }
+  },
+  "q_66": {
+    "questionText": "शीला ने राŠल का पįरचय देते Šए कहा, \" इसकी बहन मेरी माँ की इकलौती बेटी है |\" राŠल और शीला एक दूसरे से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Uncle-Niece/ चाचा-भतीजी",
+      "B": "Son-Mother /बेटे-मां",
+      "C": "Cousins /चचेरे  भाई  बिहन",
+      "D": "Brother-Sister/ भाई  बहन"
+    }
+  },
+  "q_67": {
+    "questionText": "B की कोई बहन नहीं है | A, B की नȽ है | D, B का इकलौता भाई है जबिक B कुंवारा है | F, D का ससुर है | K, F की पȉी है | K, A से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother  in  law/ सास",
+      "B": "Sister/ बहन",
+      "C": "Daughter/ बेटी",
+      "D": "Mother/ मां"
+    }
+  },
+  "q_68": {
+    "questionText": "यिद A, B की बहन है, C, D का पिता है, L, D के चाचा है और B, L की बहन है , तो A, D से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  aunt/ पैतृक  चाची",
+      "B": "Sister/ बहन",
+      "C": "Mother/ मां",
+      "D": "Paternal  grandmother/ दादी"
+    }
+  },
+  "q_69": {
+    "questionText": "X, Y की बहन है, Y, M की बेटी है | M, P की माँ है | P, Y का भाई है | T, X की माँ का भाई है | T, M से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son/ बेटा",
+      "B": "Father/ िपता",
+      "C": "Husband/ पित",
+      "D": "Brother/ भइया"
+    }
+  },
+  "q_70": {
+    "questionText": "अिमत की तˢीर की तरफ इशारा करते Šए गगन ने कहा, \"इसकी बहन की माँ के पित मेरी बेटी की माँ के पित के पिता है | \" अिमत गगन से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Nephew/ भतीजा",
+      "B": "Maternal  uncle/ मामा",
+      "C": "Father/ िपता",
+      "D": "Brother/ भइया"
+    }
+  },
+  "q_71": {
+    "questionText": "िहʃत किवता का पित है | ŵȠा रिव की बेटी है जिसकी पȉी केतकी है | किवता ŵȠा की बहन है | रिव िहʃत से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother/ भइया",
+      "B": "Father/िपता",
+      "C": "Paternal  Uncle/ चाचा",
+      "D": "Father-in-law/ ससुर"
+    }
+  },
+  "q_72": {
+    "questionText": "X , A की माँ है | Y , B के पिता की बहन है | R , B का पिता है | A और Z बहने है | B , Z का भाई है | R , X से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son/ बेटा",
+      "B": "Husband/ पित",
+      "C": "Father-in-law/ ससुर",
+      "D": "Father/ िपता"
+    }
+  },
+  "q_73": {
+    "questionText": "पाŜल ने िशखा की तˢीर िदखाते Šए कहा, \" यह मेरे पिता के इकलौते बेटे की दादी है \" | िशखा पाŜल से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Grandmother/ दादी  मा",
+      "B": "Sister/ बहन",
+      "C": "Daughter  in  law/ बŠॅ",
+      "D": "Mother/ माँ"
+    }
+  },
+  "q_74": {
+    "questionText": "B , A का इकलौता पुत्र है | C , D की माँ है | A , C की माँ है | B और D के िबच क्या संबंध है |",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  uncle/  पैतृक  चाचा",
+      "B": "Father/ िपता",
+      "C": "Maternal  uncle/  मातृ  चाचा",
+      "D": "Brother/ भाई"
+    }
+  },
+  "q_75": {
+    "questionText": "B का अर्थ ' A , B की बीवी है |' का अर्थ ' A , B का पिता है |' / निम्नलिखित में से किस अिभʩİƅ का अर्थ ' R , S का नाना है |' से है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "J S R U",
+      "B": "S U J R",
+      "C": "R J S U",
+      "D": "S U R J"
+    }
+  },
+  "q_76": {
+    "questionText": "A+B का अर्थ 'A, B की माँ है |' अर्थ 'A, B की बहन है |' का अर्थ 'A, B की बेटा है |' का अर्थ 'A, B की पिता है |' निम्नलिखित अिभʩİƅ के अनुसार K, M से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother/ माता",
+      "B": "Sister/ बहन",
+      "C": "Wife/ पȉी",
+      "D": "Maternal  Grandmother/ नानी"
+    }
+  },
+  "q_77": {
+    "questionText": "राजीव की तरफ इशारा करते Šए नीना के कहा, \" इसकी बहन के पिता मेरे ससुर के इकलौते बेटे हैं |\" नीना राजीव से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Sister/  बहन",
+      "B": "Grandfather/ दादा",
+      "C": "Mother/ माँ",
+      "D": "Paternal  Grandmother/ दादी"
+    }
+  },
+  "q_78": {
+    "questionText": "यिद A, B की माँ है; X, Y का पिता है ; H, J का भाई है ; L, Y के पिता का भाई है ; B, L की बहन है और J, A का पित है , तो J, Y से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son-in-law/ दामाद",
+      "B": "Paternal  grandfather/ दादा",
+      "C": "Nephew/ भतीजा",
+      "D": "Son/ पुũ"
+    }
+  },
+  "q_79": {
+    "questionText": "िशखा का पįरचय देते Šए अरिवȽ ने कहा, \" इसकी माँ की इकलौती बेटी मेरे बेटे की पȉी है |\" अरिवȽ िशखा से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Father-in-Law/ ससुर",
+      "B": "Uncle/ चाचा",
+      "C": "Father/ िपता",
+      "D": "Mother/ माँ"
+    }
+  },
+  "q_80": {
+    "questionText": "A, M का पित है जो की N की भाभी है | N, R और U की बेटी है, M, U की बŠ है | A , U से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Father/िपता",
+      "B": "Brother/भाई",
+      "C": "Son/पुũ",
+      "D": "Brother-in-law/जीजा"
+    }
+  },
+  "q_81": {
+    "questionText": "एक औरत का पįरचय देते Šए रमन ने कहा, \" यह में पिता के ससुर की पȉी है |\" वह औरत रमन से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother  in  law/ सास",
+      "B": "Paternal  grandmother/ दादी",
+      "C": "Maternal  grandmother/ नानी",
+      "D": "Maternal  aunt/ मामी"
+    }
+  },
+  "q_82": {
+    "questionText": "रमेश का अपनी माँ के दामाद की वधु की बहन से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Husband/ पित",
+      "B": "Brother/ भाई",
+      "C": "Father/  िपता",
+      "D": "Father-in-law/ ससुर"
+    }
+  },
+  "q_83": {
+    "questionText": "एक लड़के की तˢीर की तरफ इशारा करते Šए िवकास ने कहा, \" इसके पिता की माँ सुनीता , मेरी पȉी की बहन की माँ है |\" सुनीता िवकास से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother-in-law/ सास",
+      "B": "Maternal  grandmother/ नानी",
+      "C": "Maternal  aunt  / मामी",
+      "D": "Mother/ माँ"
+    }
+  },
+  "q_84": {
+    "questionText": "जब लƘी में महेश को देखो, उसने कहा, \" यह मेरी बेटी के पिता के ससुर का बेटा है |\" महेश लƘी से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother/ भाई",
+      "B": "Son/ बेटा",
+      "C": "Maternal  uncle/ मामा",
+      "D": "Nephew/ भतीजा"
+    }
+  },
+  "q_85": {
+    "questionText": "एक तˢीर की तरफ इशारा करते Šए मोहन ने कहा, \" तˢीर में जो ʩİƅ मेरी माँ के पास खड़ा है वह मेरे पिता का इकलौता बेटा है | \" वह ʩİƅ मोहन से किस प्रकार संबंधित है |",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Nephew/ भतीजा",
+      "B": "Father/ िपता",
+      "C": "Cousin/ चचेरे  भाई",
+      "D": "Mohan  himself/ मोहन"
+    }
+  },
+  "q_86": {
+    "questionText": "A और B में से एक भाई और दूसरी बहन है | B, X का बेटा है, X, Y का पित है और O का भाई | A, O से कैसे संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Cousin/ चचेरा  भाई",
+      "B": "Nephew/ भतीजा",
+      "C": "Granddaughter/ पोती",
+      "D": "Niece/ भतीजी"
+    }
+  },
+  "q_87": {
+    "questionText": "अनीता बिबता की बहन है और धमŒदर शुˆा का भाई है | अगर शुˆा अनीता की बहन है, तो बिबता शुˆा से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother/ भाई",
+      "B": "Information  is  incomplete/ सूचना  अपूणŊ",
+      "C": "Aunt/ आंटी",
+      "D": "Sister  / बहन"
+    }
+  },
+  "q_88": {
+    "questionText": "एक लड़के से पįरचय कराते Šए įरितका ने कहा 'यह मेरे पिता के इकलौते पुत्र का पुत्र है|' तो įरितका का उस लड़के की माँ से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Aunt/  बुआ",
+      "B": "sister/  बहन",
+      "C": "sister-in-law/ ननद",
+      "D": "cousin  /  मौसेरी  बहन"
+    }
+  },
+  "q_89": {
+    "questionText": "A और B, C के भाई हैं | B, D और E का पुत्र है | D, F की पुत्री है | P, E का ससुर है | Q, F का पुत्र है | A का P से क्या संबंध है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Daughter/  पुũी",
+      "B": "Grandson /  नाती",
+      "C": "Son/ पुũ",
+      "D": "Father/  िपता"
+    }
+  },
+  "q_90": {
+    "questionText": "G, S का दादा है | B के केवल दो बेटे है E और F G के केवल दो बेटे है A और B| S का पिता कौन",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "F",
+      "B": "B",
+      "C": "E",
+      "D": "A"
+    }
+  },
+  "q_91": {
+    "questionText": "ŵȠा शरयु से कहती है , \" तुʉारी सासु माँ मेरे पिता की माँ है जो की सबसे बड़ा बेटा है पर तुʉारा पित मेरा पिता नहीं है |\" शरयु ŵȠा से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Niece/ भतीजी",
+      "B": "Daughter/ बेटी",
+      "C": "Mother/ माँ",
+      "D": "Aunt  / आंटी"
+    }
+  },
+  "q_92": {
+    "questionText": "जय गीतांजिल का पित है जो की दीपाली की बहन है | दीपाली िवजय की बेटी है | सįरता रोिहत की सासु माँ है | हरीश चȽर जय के पिता है और सįरता िवजय की पȉी है | िवजय और सįरता के केवल दो बेिटयां है | रोिहत िवजय से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Son/ बेटा",
+      "B": "Father/ िपता",
+      "C": "Brother/ भाई",
+      "D": "Son-in-law/ दामाद"
+    }
+  },
+  "q_93": {
+    "questionText": "एक लड़के का पįरचय कराते Šए मैने कहा, \" इसकी माँ मेरी सासु माँ की इकलौती बेटी है |\" में उस लड़के से किस प्रकार संबंधित šँ ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother/ भाई",
+      "B": "Father/ िपता",
+      "C": "Brother-in-law/ जीजाजी",
+      "D": "Nephew/ भतीजा"
+    }
+  },
+  "q_94": {
+    "questionText": "रेहान की तरफ इशारा करते Šए Ŝकसाना ने कहा , \" इसके दादा की बŠ मेरी बेटी की दादी है |\" ŝकसाना रेहान से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother/ माता",
+      "B": "Wife/ पȉी",
+      "C": "Sister/ बहन",
+      "D": "Daughter/ बेटी"
+    }
+  },
+  "q_95": {
+    "questionText": "दीपाली िवजय की बेटी है जिसकी पȉी सुनीता है | यिद दीपाली मोिहत की पȉी है, तो मोिहत िवजय से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother  /  भाई",
+      "B": "Father  /  िपता",
+      "C": "Son  /  पुũ",
+      "D": "Son-in-law  /  दामाद"
+    }
+  },
+  "q_96": {
+    "questionText": "यिद A, B का भाई है, C, D का पिता है, F, E की बेटी है, L, D के पिता का भाई है, B, L की बहन है और E, C की पȉी है | तो F, A से किस प्रकार संबंधित है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Aunt/ चाची",
+      "B": "Daughter  in  law/ बŠॅ",
+      "C": "Sister/ बहन",
+      "D": "Niece/ भतीजी"
+    }
+  },
+  "q_97": {
+    "questionText": "एक तˢीर को देखते Šए Ŝचा सीमा से पूछती है, \"यह तˢीर किसकी है ?\" सीमा ने कहा, \" इसका बेटा मेरी बेटी का पिता है |\" तˢीर किसकी है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Seema/  सीमा",
+      "B": "Seema's  mother-in-law/ सीमा  की  सास",
+      "C": "Seema's  sister/ सीमा  की  बहन",
+      "D": "Seema's  mother /सीमा  की  माँ"
+    }
+  },
+  "q_98": {
+    "questionText": "रोिनता का एकमाũ भाई िवŢम, काितŊक की माँ सेजल का पित है। रोिनता की माँ चांदनी, काितŊक से किस प्रकार संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Mother-in-law/  सास",
+      "B": "Maternal  grandmother/  नानी",
+      "C": "Paternal  aunt/  चाची",
+      "D": "Parental  grandmother/  दादी"
+    }
+  },
+  "q_99": {
+    "questionText": "B’./ A % B’ का अर्थ है, ‘A, B की माँ है।’ B’ का अर्थ है, ‘A, B का पिता है।’ # B’ का अर्थ है, A, B का भाई है।’ A&B का अर्थ है, A, B की बहन है। निम्नलिखित में से कौन सा कथन सही नहीं है? N का नाना है। R, P का नानी है।",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "J  is  the  maternal  grandfather  of  N./  J,",
+      "B": "R  is  the  maternal  grandmother  of  P.  /",
+      "C": "R  is  the  mother  of  U./  R,  U  की  माँ  है।",
+      "D": "N  is  the  sister  of  P./  N,  P  की  बहन  है।"
+    }
+  },
+  "q_100": {
+    "questionText": "B’./ ‘ A % B’ का अर्थ है, A, B की बहन है। B का अर्थ है, A, B का पिता है। B का अर्थ है A, B का भाई है। किस प्रकार संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  aunt/  चाची",
+      "B": "Daughter-in-law  /  बŠ",
+      "C": "Sister-in-law/  ननद",
+      "D": "Maternal  aunt  /  मासी"
+    }
+  },
+  "q_101": {
+    "questionText": "एक लड़की की तˢीर की ओर इशारा करते Šए, देव ने कहा, “वह मेरी पȉी की बहन की माँ के एकमाũ बेटे की बेटी है। “ देव की पȉी उस लड़की के दादा की क्या लगती है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Daughter/  बेटी",
+      "B": "Sister/  बहन",
+      "C": "paternal  aunt/  चाची",
+      "D": "Daughter-in-law/  बŠ"
+    }
+  },
+  "q_102": {
+    "questionText": "Ůीित िवराट की एकमाũ बहन है। मनोज, िदलीप का पुत्र है, जो माया का पित है। िवराट देवांश का पुत्र है। देवांश मनोज का ससुर है। माया, Ůीित से किस प्रकार संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Daughter-in-law/  बŠ",
+      "B": "Sister-in-law/  ननद/भाभी",
+      "C": "Mother/  माँ",
+      "D": "mother-in-law/  सास"
+    }
+  },
+  "q_103": {
+    "questionText": "B’. / A#B का अर्थ है, A, B का पित है। A@B का अर्थ है, A, B की बहन है। A&B का अर्थ है, A, B की माँ है। का अर्थ है, A, B का बेटा है। यिद S#Z@R%K#J&T#N है तो निम्न में से कौन सा कथन गलत है ? ससुर है।",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "R  and  T  are  brothers.  /  R  और  T  भाई  हœ ।",
+      "B": "Z  is  the  sister  of  T.  /  Z,  T  की  बहन  है।",
+      "C": "K  is  the  father  in  law  of  N.  /  K,  N  का",
+      "D": "J  is  the  mother  of  S.  /  J,  S  की  माँ  है।"
+    }
+  },
+  "q_104": {
+    "questionText": "B’. / A#B का अर्थ है, A, B का भाई है । A@B का अर्थ है, A, B की पȉी है। A&B का अर्थ है, A, B की पुत्री है। A%B का अर्थ है, A, B का बहन है। यिद P % R & Y @ Z # M % N है तो M, P से कैसे सम्बन्धित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Paternal  aunt  /  चाची",
+      "B": "Paternal  uncle  /  चाचा",
+      "C": "Mother  /  माँ",
+      "D": "Maternal  aunt  /  मौसी"
+    }
+  },
+  "q_105": {
+    "questionText": "एक आदमी की ओर इशारा करते Šए एक मिहला ने कहा, \"उसका भाई मेरी माँ की बेटी के बेटे का पिता है।\" मिहला के पित से आदमी से क्या संबंध है ?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Brother-in-law  /  जीजा  /  साला",
+      "B": "Brother  /  भाई",
+      "C": "Father  /  िपता",
+      "D": "Paternal  uncle  /  चाचा"
+    }
+  },
+  "q_106": {
+    "questionText": "एक ʩİƅ के िचũ की ओर इशारा करते Šए, रवीश ने कहा, \"मœ अपने माता-पिता की एकमाũ संतान šं लेिकन उस ʩİƅ का पिता मेरे पिता का पुत्र है\"। िचũ का आदमी रवीश से कैसे संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Cousin/ चचेरा  भाई",
+      "B": "Nephew/ भतीजा",
+      "C": "Father/ िपता",
+      "D": "Son/ पुũ"
+    }
+  },
+  "q_107": {
+    "questionText": "पांच सद˟ों वाले परिवार में P, Q की बहन है और R, Q की मां है। S, R का पिता है और T, S की माँ है। P, S से कैसे संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Grand-daughter  /  पोती",
+      "B": "Niece  /  भतीजी",
+      "C": "Mother  /  माँ",
+      "D": "Daughter  /  बेटी"
+    }
+  },
+  "q_108": {
+    "questionText": "C, B की सास है; A, C का बड़ा पुत्र है और D का पिता है। यिद B, A की पȉी नहीं है, तो B, D से किस प्रकार संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Sister  /  बहन",
+      "B": "Mother  /  माँ",
+      "C": "Maternal  Aunt  /  मामी",
+      "D": "Aunt  /  आंटी"
+    }
+  },
+  "q_109": {
+    "questionText": "एक मिहला के िचũ की ओर इशारा करते Šए किणका ने कहा, \"उनकी बš मेरे बेटे के दादा के इकलौते बेटे की पȉी है।\" िचũ में मिहला किनका से कैसे संबंधित है?",
+    "typeHeader": "रक्त संबंध (Blood Relation)",
+    "options": {
+      "A": "Sister-in-law/ भाभी",
+      "B": "Mother-in-law/ सास",
+      "C": "Paternal  aunt/ चाची",
+      "D": "Mother/ माँ"
+    }
+  }
+}
