@@ -134,6 +134,23 @@ export const ExamFooter: React.FC<ExamFooterProps> = ({
           </Button>
         </div>
 
+        {/* Keyboard Shortcuts Hint Pill */}
+        <div className="hidden xl:flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-800/90 border border-slate-700/80 text-[11px] text-slate-300 select-none">
+          <span className="text-amber-400 font-bold">⌨️</span>
+          <span>Keys:</span>
+          <kbd className="px-1.5 py-0.5 rounded bg-slate-700 text-slate-200 font-mono text-[10px] font-bold">1-4</kbd>
+          <span className="text-slate-400">Select</span>
+          <span className="text-slate-600">•</span>
+          <kbd className="px-1.5 py-0.5 rounded bg-slate-700 text-slate-200 font-mono text-[10px] font-bold">Enter</kbd>
+          <span className="text-slate-400">Save &amp; Next</span>
+          <span className="text-slate-600">•</span>
+          <kbd className="px-1.5 py-0.5 rounded bg-slate-700 text-slate-200 font-mono text-[10px] font-bold">M</kbd>
+          <span className="text-slate-400">Mark</span>
+          <span className="text-slate-600">•</span>
+          <kbd className="px-1.5 py-0.5 rounded bg-slate-700 text-slate-200 font-mono text-[10px] font-bold">C</kbd>
+          <span className="text-slate-400">Clear</span>
+        </div>
+
         {/* Right Navigation & Submission Buttons */}
         <div className="flex items-center gap-2 ml-auto">
           <Button

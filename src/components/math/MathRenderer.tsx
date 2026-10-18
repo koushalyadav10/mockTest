@@ -3,6 +3,8 @@
 import React from "react";
 import katex from "katex";
 
+import { cleanExplanationText } from "@/lib/utils/textCleaner";
+
 interface MathRendererProps {
   text: string;
   className?: string;
@@ -274,8 +276,12 @@ function renderInlineMath(content: string, inlineOnly: boolean = false): React.R
 export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = "", inlineOnly = false }) => {
   if (!text) return null;
 
+  // Sanitize excessive whitespace, broken OCR newlines, and dangling lines
+  const sanitizedText = cleanExplanationText(text);
+  if (!sanitizedText) return null;
+
   // Split content by lines to check for Markdown tables
-  const lines = text.split(/\r?\n/);
+  const lines = sanitizedText.split(/\r?\n/);
   const elements: React.ReactNode[] = [];
 
   let inTable = false;
@@ -285,15 +291,17 @@ export const MathRenderer: React.FC<MathRendererProps> = ({ text, className = ""
 
   const flushTextBuffer = () => {
     if (currentTextBuffer.length > 0) {
-      const blockText = currentTextBuffer.join("\n");
-      elements.push(
-        <div
-          key={`text-block-${elements.length}`}
-          className={inlineOnly ? "inline" : "whitespace-pre-line"}
-        >
-          {renderInlineMath(blockText, inlineOnly)}
-        </div>
-      );
+      const blockText = currentTextBuffer.join("\n").trim();
+      if (blockText.length > 0) {
+        elements.push(
+          <div
+            key={`text-block-${elements.length}`}
+            className={inlineOnly ? "inline" : "whitespace-pre-line leading-relaxed"}
+          >
+            {renderInlineMath(blockText, inlineOnly)}
+          </div>
+        );
+      }
       currentTextBuffer = [];
     }
   };

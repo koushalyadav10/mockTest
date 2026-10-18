@@ -428,6 +428,73 @@ function CBTExaminationTestContent({ params }: { params: { id: string } }) {
     }
   };
 
+  // Keyboard Shortcuts for authentic CBT Exam Experience
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Never intercept when user is typing in form fields
+      const targetTag = (e.target as HTMLElement)?.tagName;
+      if (["INPUT", "TEXTAREA", "SELECT"].includes(targetTag)) return;
+      if (isSubmitModalOpen || showFullscreenModal || isProctoringWarningOpen || isAuthGateOpen) return;
+
+      if (!currentQ) return;
+
+      // Keys 1, 2, 3, 4 -> Select Options 1, 2, 3, 4
+      if (["1", "2", "3", "4"].includes(e.key)) {
+        const optIdx = parseInt(e.key, 10) - 1;
+        if (currentQ.options && currentQ.options[optIdx]) {
+          handleSelectOption(currentQ.options[optIdx].stableId);
+        }
+        return;
+      }
+
+      // Enter -> Save & Next
+      if (e.key === "Enter") {
+        e.preventDefault();
+        handleSaveAndNext();
+        return;
+      }
+
+      // M / m -> Mark for Review & Next
+      if (e.key === "m" || e.key === "M") {
+        e.preventDefault();
+        handleMarkForReview();
+        return;
+      }
+
+      // C / c -> Clear Response
+      if (e.key === "c" || e.key === "C" || e.key === "Backspace") {
+        e.preventDefault();
+        handleClearResponse();
+        return;
+      }
+
+      // ArrowLeft -> Previous Question
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        handlePrevious();
+        return;
+      }
+
+      // ArrowRight -> Save & Next Question
+      if (e.key === "ArrowRight") {
+        e.preventDefault();
+        handleSaveAndNext();
+        return;
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [
+    currentQ,
+    currentIndex,
+    questions,
+    isSubmitModalOpen,
+    showFullscreenModal,
+    isProctoringWarningOpen,
+    isAuthGateOpen,
+  ]);
+
   // Final Submission with guaranteed max 3.5-second completion
   const handleFinalSubmit = async () => {
     try {

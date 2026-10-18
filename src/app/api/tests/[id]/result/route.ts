@@ -140,6 +140,7 @@ export async function GET(
       }
 
       return {
+        questionId: resp.questionId,
         questionNumber: resp.orderIndex,
         subject: resp.question.subject,
         topic: resp.question.topic,
