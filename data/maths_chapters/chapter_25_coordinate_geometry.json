@@ -1,1713 +1,1713 @@
 {
   "chapterNumber": 25,
   "chapterCode": "SSC_MATHS_CH_25_CO_ORDINATE_GEOMETRY",
-  "chapterTitleEnglish": "Co-Ordinate Geometry",
+  "chapterTitleEnglish": "Coordinate Geometry",
   "chapterTitleHindi": "निर्देशांक ज्यामिति",
   "totalQuestions": 88,
   "questions": [
     {
       "questionNumber": 1,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "",
+      "questionText": "Which of the following is the Co-ordinate of the origin?",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "$(0, x)$"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "$(x, 0)$"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "$(0, 0)$"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
-    },
-    {
-      "questionNumber": 2,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$2$"
-        },
-        {
-          "label": "B",
-          "text": "$\\frac{1}{2}$"
-        },
-        {
-          "label": "C",
-          "text": "$-2$"
-        },
-        {
-          "label": "D",
-          "text": "$3$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
-    },
-    {
-      "questionNumber": 3,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "6"
-        },
-        {
-          "label": "B",
-          "text": "4"
-        },
-        {
-          "label": "C",
-          "text": "12"
-        },
-        {
-          "label": "D",
-          "text": "3"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
-    },
-    {
-      "questionNumber": 4,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "12"
-        },
-        {
-          "label": "B",
-          "text": "24"
-        },
-        {
-          "label": "C",
-          "text": "10"
-        },
-        {
-          "label": "D",
-          "text": "16"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
-    },
-    {
-      "questionNumber": 5,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$(3, 4)$"
-        },
-        {
-          "label": "B",
-          "text": "$(4, 3)$"
-        },
-        {
-          "label": "C",
-          "text": "$(3, 3)$"
-        },
-        {
-          "label": "D",
-          "text": "$(4, 4)$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
-    },
-    {
-      "questionNumber": 6,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "Find the distance between the points $A(6, 2)$ and $B(9, 6)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "5"
-        },
-        {
-          "label": "B",
-          "text": "6"
-        },
-        {
-          "label": "C",
-          "text": "7"
-        },
-        {
-          "label": "D",
-          "text": "4"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(9-6)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = 5$."
-    },
-    {
-      "questionNumber": 7,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$(5, 7)$"
-        },
-        {
-          "label": "B",
-          "text": "$(6, 7)$"
-        },
-        {
-          "label": "C",
-          "text": "$(5, 8)$"
-        },
-        {
-          "label": "D",
-          "text": "$(4, 6)$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
-    },
-    {
-      "questionNumber": 8,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$2$"
-        },
-        {
-          "label": "B",
-          "text": "$\\frac{1}{2}$"
-        },
-        {
-          "label": "C",
-          "text": "$-2$"
-        },
-        {
-          "label": "D",
-          "text": "$3$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
-    },
-    {
-      "questionNumber": 9,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "6"
-        },
-        {
-          "label": "B",
-          "text": "4"
-        },
-        {
-          "label": "C",
-          "text": "12"
-        },
-        {
-          "label": "D",
-          "text": "3"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
-    },
-    {
-      "questionNumber": 10,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "12"
-        },
-        {
-          "label": "B",
-          "text": "24"
-        },
-        {
-          "label": "C",
-          "text": "10"
-        },
-        {
-          "label": "D",
-          "text": "16"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
-    },
-    {
-      "questionNumber": 11,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$(3, 4)$"
-        },
-        {
-          "label": "B",
-          "text": "$(4, 3)$"
-        },
-        {
-          "label": "C",
-          "text": "$(3, 3)$"
-        },
-        {
-          "label": "D",
-          "text": "$(4, 4)$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
-    },
-    {
-      "questionNumber": 12,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
-      "questionText": "Find the distance between the points $A(2, 4)$ and $B(5, 8)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "5"
-        },
-        {
-          "label": "B",
-          "text": "6"
-        },
-        {
-          "label": "C",
-          "text": "7"
-        },
-        {
-          "label": "D",
-          "text": "4"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(5-2)^2 + (8-4)^2} = \\sqrt{3^2 + 4^2} = 5$."
-    },
-    {
-      "questionNumber": 13,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$(5, 7)$"
-        },
-        {
-          "label": "B",
-          "text": "$(6, 7)$"
-        },
-        {
-          "label": "C",
-          "text": "$(5, 8)$"
-        },
-        {
-          "label": "D",
-          "text": "$(4, 6)$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
-    },
-    {
-      "questionNumber": 14,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$2$"
-        },
-        {
-          "label": "B",
-          "text": "$\\frac{1}{2}$"
-        },
-        {
-          "label": "C",
-          "text": "$-2$"
-        },
-        {
-          "label": "D",
-          "text": "$3$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
-    },
-    {
-      "questionNumber": 15,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "6"
-        },
-        {
-          "label": "B",
-          "text": "4"
-        },
-        {
-          "label": "C",
-          "text": "12"
-        },
-        {
-          "label": "D",
-          "text": "3"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
-    },
-    {
-      "questionNumber": 16,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "12"
-        },
-        {
-          "label": "B",
-          "text": "24"
-        },
-        {
-          "label": "C",
-          "text": "10"
-        },
-        {
-          "label": "D",
-          "text": "16"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
-    },
-    {
-      "questionNumber": 17,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
-      "questionText": "Calculate the slope of the straight line passing through points $A(8, 10)$ and $B(13, 21)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$\\frac{5}{11}$"
-        },
-        {
-          "label": "B",
-          "text": "$-\\frac{11}{5}$"
-        },
-        {
-          "label": "C",
-          "text": "$\\frac{11}{5}$"
-        },
-        {
-          "label": "D",
-          "text": "11"
+          "text": "$(x, x)$"
         }
       ],
       "correctOption": "C",
-      "solution": "$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{21 - 10}{13 - 8} = \\frac{11}{5}$."
+      "solution": "The origin is the point of intersection of the $x$-axis and $y$-axis. Its coordinates are $(0, 0)$."
     },
     {
-      "questionNumber": 18,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
-      "questionText": "Find the distance between the points $A(8, 6)$ and $B(11, 10)$.",
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "",
+      "questionText": "What is ordinate of point $A(5, 6)$?",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "2"
         },
         {
           "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
           "text": "6"
-        },
-        {
-          "label": "C",
-          "text": "7"
-        },
-        {
-          "label": "D",
-          "text": "4"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(11-8)^2 + (10-6)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "D",
+      "solution": "In any coordinate pair $(x, y)$, the $y$-coordinate is called the ordinate. For point $A(5, 6)$, the ordinate is $6$."
     },
     {
-      "questionNumber": 19,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "",
+      "questionText": "What is abscissa of point $A(2, 3)$?",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "2"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
-        },
-        {
-          "label": "C",
-          "text": "$(5, 8)$"
-        },
-        {
-          "label": "D",
-          "text": "$(4, 6)$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
-    },
-    {
-      "questionNumber": 20,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
-      "questionText": "Calculate the slope of the straight line passing through points $A(1, 3)$ and $B(9, 8)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$-\\frac{5}{8}$"
-        },
-        {
-          "label": "B",
-          "text": "$\\frac{5}{8}$"
-        },
-        {
-          "label": "C",
-          "text": "$\\frac{8}{5}$"
-        },
-        {
-          "label": "D",
           "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "In any coordinate pair $(x, y)$, the $x$-coordinate is called the abscissa. For point $A(2, 3)$, the abscissa is $2$."
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "",
+      "questionText": "What is the difference of the abscissa and ordinate of the point $P(7, -3)$?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "-7"
+        },
+        {
+          "label": "C",
+          "text": "-4"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "For point $P(7, -3)$:\nAbscissa $= 7$, Ordinate $= -3$.\nDifference $= \\text{Abscissa} - \\text{Ordinate} = 7 - (-3) = 7 + 3 = 10$."
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "",
+      "questionText": "The ordinate and abscissa of the point $(k, 2k - 1)$ be equal, The value of $k$ is ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "0.5"
+        }
+      ],
+      "correctOption": "C",
+      "solution": "Given that the abscissa and ordinate are equal:\n$$k = 2k - 1$$\n$$2k - k = 1 \\implies k = 1$$"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "",
+      "questionText": "The point $(-2, 4)$ lies in which quadrant?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1^{\\text{st}}$"
+        },
+        {
+          "label": "B",
+          "text": "$2^{\\text{nd}}$"
+        },
+        {
+          "label": "C",
+          "text": "$3^{\\text{rd}}$"
+        },
+        {
+          "label": "D",
+          "text": "$4^{\\text{th}}$"
         }
       ],
       "correctOption": "B",
-      "solution": "$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{8 - 3}{9 - 1} = \\frac{5}{8}$."
+      "solution": "For point $(-2, 4)$, the $x$-coordinate is negative ($-2 < 0$) and the $y$-coordinate is positive ($4 > 0$).\nA point with signs $(-, +)$ lies in the $2^{\\text{nd}}$ quadrant."
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: BASIC QUESTIONS",
+      "examShift": "",
+      "questionText": "What is the polar co-ordinate of $(1, \\sqrt{3})$",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(2\\cos 60^\\circ, 2\\sin 60^\\circ)$"
+        },
+        {
+          "label": "B",
+          "text": "$(2\\cos 30^\\circ, 2\\sin 30^\\circ)$"
+        },
+        {
+          "label": "C",
+          "text": "$(2\\sin 60^\\circ, 2\\cos 60^\\circ)$"
+        },
+        {
+          "label": "D",
+          "text": "$(2\\sin 30^\\circ, 2\\cos 30^\\circ)$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let $(x, y) = (1, \\sqrt{3})$.\n$$r = \\sqrt{x^2 + y^2} = \\sqrt{1^2 + (\\sqrt{3})^2} = \\sqrt{1 + 3} = 2$$\n$$\\tan \\theta = \\frac{y}{x} = \\frac{\\sqrt{3}}{1} = \\sqrt{3} \\implies \\theta = 60^\\circ$$\nPolar coordinates expressed in terms of $(r\\cos\\theta, r\\sin\\theta)$ are $(2\\cos 60^\\circ, 2\\sin 60^\\circ)$."
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - II: DISTANCE FORMULA",
+      "examShift": "",
+      "questionText": "Find the distance between points $A(3, -7)$ & $B(-5, 8)$",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Using distance formula:\n$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n$$d = \\sqrt{(-5 - 3)^2 + (8 - (-7))^2} = \\sqrt{(-8)^2 + (15)^2} = \\sqrt{64 + 225} = \\sqrt{289} = 17$$"
+    },
+    {
+      "questionNumber": 9,
+      "typeHeader": "TYPE - II: DISTANCE FORMULA",
+      "examShift": "",
+      "questionText": "Find the value of $x$, if the distance between the points $(x, -1)$ and $(3, 2)$ is $5\\text{ cm}$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Distance formula:\n$$d^2 = (3 - x)^2 + (2 - (-1))^2 = 5^2$$\n$$(3 - x)^2 + 3^2 = 25$$\n$$(3 - x)^2 = 25 - 9 = 16$$\n$$3 - x = \\pm 4$$\nTaking $3 - x = -4 \\implies x = 7$.\nAmong the given options, $x = 7$."
+    },
+    {
+      "questionNumber": 10,
+      "typeHeader": "TYPE - III: MID POINT FORMULA",
+      "examShift": "",
+      "questionText": "If the mid-point of joining $(-8, 13)$ and $(k, 7)$ is $(4, 10)$ then find the value of $k$ ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Mid-point formula for $x$-coordinate:\n$$x = \\frac{x_1 + x_2}{2}$$\n$$4 = \\frac{-8 + k}{2}$$\n$$-8 + k = 8 \\implies k = 16$$"
+    },
+    {
+      "questionNumber": 11,
+      "typeHeader": "TYPE - IV: SECTION FORMULA",
+      "examShift": "",
+      "questionText": "Find the coordinates of the point which divides the line segment joining the points $(2, -3)$ and $(-4, 6)$ in the ratio $1 : 2$ internally.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(8, 0)$"
+        },
+        {
+          "label": "B",
+          "text": "$(0, 0)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, -5)$"
+        },
+        {
+          "label": "D",
+          "text": "$(4, 3)$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Using internal division section formula with $m : n = 1 : 2$:\n$$x = \\frac{m x_2 + n x_1}{m + n} = \\frac{1(-4) + 2(2)}{1 + 2} = \\frac{-4 + 4}{3} = 0$$\n$$y = \\frac{m y_2 + n y_1}{m + n} = \\frac{1(6) + 2(-3)}{1 + 2} = \\frac{6 - 6}{3} = 0$$\nThus, the coordinates are $(0, 0)$."
+    },
+    {
+      "questionNumber": 12,
+      "typeHeader": "TYPE - IV: SECTION FORMULA",
+      "examShift": "",
+      "questionText": "In which ratio point $P(1, 2)$ divides the line segment joining $(-2, 1)$ and $(7, 4)$",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1 : 2$"
+        },
+        {
+          "label": "B",
+          "text": "$2 : 1$"
+        },
+        {
+          "label": "C",
+          "text": "$3 : 2$"
+        },
+        {
+          "label": "D",
+          "text": "$2 : 3$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Let the ratio be $k : 1$.\nUsing the section formula for the $x$-coordinate:\n$$1 = \\frac{k(7) + 1(-2)}{k + 1}$$\n$$k + 1 = 7k - 2$$\n$$6k = 3 \\implies k = \\frac{1}{2}$$\nThus, the ratio is $1 : 2$."
+    },
+    {
+      "questionNumber": 13,
+      "typeHeader": "TYPE - IV: SECTION FORMULA",
+      "examShift": "",
+      "questionText": "Find the coordinates of the point which divides the line segment joining the points $(2, 1)$ and $(3, 5)$ externally in the ratio $2 : 3$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(0, -6)$"
+        },
+        {
+          "label": "B",
+          "text": "$(0, 0)$"
+        },
+        {
+          "label": "C",
+          "text": "$(3, -5)$"
+        },
+        {
+          "label": "D",
+          "text": "$(0, -7)$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "Using external division formula with $m : n = 2 : 3$:\n$$x = \\frac{m x_2 - n x_1}{m - n} = \\frac{2(3) - 3(2)}{2 - 3} = \\frac{6 - 6}{-1} = 0$$\n$$y = \\frac{m y_2 - n y_1}{m - n} = \\frac{2(5) - 3(1)}{2 - 3} = \\frac{10 - 3}{-1} = \\frac{7}{-1} = -7$$\nThus, the required point is $(0, -7)$."
+    },
+    {
+      "questionNumber": 14,
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "",
+      "questionText": "Find the slope of a line which passes through $(4, 2)$ and $(7, 6)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{3}$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Slope formula:\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{6 - 2}{7 - 4} = \\frac{4}{3}$$"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "The length of the portion of the straight line $5x + 12y = 60$ intercepted between the axes is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "13"
+        },
+        {
+          "label": "C",
+          "text": "17"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Rewriting $5x + 12y = 60$ in intercept form:\n$$\\frac{x}{12} + \\frac{y}{5} = 1$$\n$x$-intercept $a = 12$, $y$-intercept $b = 5$.\nLength of intercept between coordinate axes:\n$$L = \\sqrt{a^2 + b^2} = \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13$$"
+    },
+    {
+      "questionNumber": 16,
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
+      "questionText": "The shortest length of the intercept between the x-axis and y-axis of the equation $6x + 8y - 48 = 0$ is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 units"
+        },
+        {
+          "label": "B",
+          "text": "6 units"
+        },
+        {
+          "label": "C",
+          "text": "14 units"
+        },
+        {
+          "label": "D",
+          "text": "12 units"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Rewriting $6x + 8y = 48$ in intercept form:\n$$\\frac{x}{8} + \\frac{y}{6} = 1$$\n$x$-intercept $a = 8$, $y$-intercept $b = 6$.\nIntercept length between the axes:\n$$L = \\sqrt{a^2 + b^2} = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10\\text{ units}$$"
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
+      "questionText": "If the graph of the equation $20x + 21y = 420$ cuts the coordinate axes at P and Q, then what is the measure of the length (in units) of PQ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "29"
+        },
+        {
+          "label": "C",
+          "text": "40"
+        },
+        {
+          "label": "D",
+          "text": "35"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "Divide $20x + 21y = 420$ by $420$:\n$$\\frac{x}{21} + \\frac{y}{20} = 1$$\nIntercept points are $P(21, 0)$ and $Q(0, 20)$.\n$$PQ = \\sqrt{21^2 + 20^2} = \\sqrt{441 + 400} = \\sqrt{841} = 29\\text{ units}$$"
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "",
+      "questionText": "Find the length of the x-intercept made by the line $12x - 9y - 108 = 0$ between the coordinate axis.",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 unit"
+        },
+        {
+          "label": "B",
+          "text": "12 unit"
+        },
+        {
+          "label": "C",
+          "text": "15 unit"
+        },
+        {
+          "label": "D",
+          "text": "18 unit"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "For the $x$-intercept, set $y = 0$:\n$$12x - 108 = 0 \\implies 12x = 108 \\implies x = 9$$\nThus, the length of the $x$-intercept is $9\\text{ units}$."
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "",
+      "questionText": "Find the equation of a line whose slope is 5 and y intercept is 12.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y - 5x - 12 = 0$"
+        },
+        {
+          "label": "B",
+          "text": "$y + 5x + 12 = 0$"
+        },
+        {
+          "label": "C",
+          "text": "$5x - y - 12 = 0$"
+        },
+        {
+          "label": "D",
+          "text": "$3x + y - 15 = 0$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Slope-intercept form: $y = mx + c$.\nGiven $m = 5$ and $c = 12$:\n$$y = 5x + 12 \\implies y - 5x - 12 = 0$$"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "",
+      "questionText": "Find the equation of a line whose slope is -3 and it passes through point $(2, -5)$.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3x + y - 1 = 0$"
+        },
+        {
+          "label": "B",
+          "text": "$x + 3y - 1 = 0$"
+        },
+        {
+          "label": "C",
+          "text": "$3x + y + 1 = 0$"
+        },
+        {
+          "label": "D",
+          "text": "$x + 3y + 1 = 0$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Point-slope form: $y - y_1 = m(x - x_1)$.\n$$y - (-5) = -3(x - 2)$$\n$$y + 5 = -3x + 6$$\n$$3x + y - 1 = 0$$"
     },
     {
       "questionNumber": 21,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "",
+      "questionText": "Find the equation of a line whose slope is $\\frac{2}{3}$ and it passes through point $(-3, 5)$.",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$2x - 3y = -21$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$2x - 3y = 21$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$3x - 2y = 21$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$2x + 3y = 21$"
         }
       ],
       "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "solution": "Point-slope form:\n$$y - 5 = \\frac{2}{3}(x - (-3))$$\n$$3(y - 5) = 2(x + 3)$$\n$$3y - 15 = 2x + 6$$\n$$2x - 3y = -21$$"
     },
     {
       "questionNumber": 22,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "",
+      "questionText": "Find the equation of a line passing through points $(-1, 5)$ and $(2, 7)$",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "$2x - 3y - 17 = 0$"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "$2x + 3y - 17 = 0$"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "$2x + 3y + 17 = 0$"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "$2x - 3y + 17 = 0$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "correctOption": "D",
+      "solution": "Two-point form:\n$$y - y_1 = \\frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$$\n$$y - 5 = \\frac{7 - 5}{2 - (-1)}(x + 1) = \\frac{2}{3}(x + 1)$$\n$$3(y - 5) = 2(x + 1)$$\n$$3y - 15 = 2x + 2$$\n$$2x - 3y + 17 = 0$$"
     },
     {
       "questionNumber": 23,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "",
+      "questionText": "Find the equation of a line passing through points $(2, 3)$ and mid-point of the line whose end points are $(4, 9)$ & $(6, 5)$.",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "$3y + 4x = 1$"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "$4x - 3y = -1$"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "$3x + 4y = 1$"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "$3x - 4y = 1$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "B",
+      "solution": "Mid-point of $(4, 9)$ and $(6, 5)$:\n$$M = \\left(\\frac{4 + 6}{2}, \\frac{9 + 5}{2}\\right) = (5, 7)$$\nEquation of line through $(2, 3)$ and $(5, 7)$:\n$$m = \\frac{7 - 3}{5 - 2} = \\frac{4}{3}$$\n$$y - 3 = \\frac{4}{3}(x - 2)$$\n$$3(y - 3) = 4(x - 2)$$\n$$3y - 9 = 4x - 8 \\implies 4x - 3y = -1$$"
     },
     {
       "questionNumber": 24,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
-      "questionText": "Find the distance between the points $A(4, 8)$ and $B(7, 12)$.",
+      "typeHeader": "TYPE - V: SLOP OF A LINE",
+      "examShift": "",
+      "questionText": "Find the equation of a line whose x and y intercepts are 5 & 4",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "$4x + 5y - 20 = 0$"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "$5x + 4y - 20 = 0$"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "$4x - 5y - 20 = 0$"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "$4x + 5y + 20 = 0$"
         }
       ],
       "correctOption": "A",
-      "solution": "$d = \\sqrt{(7-4)^2 + (12-8)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "solution": "Using intercept form:\n$$\\frac{x}{a} + \\frac{y}{b} = 1$$\n$$\\frac{x}{5} + \\frac{y}{4} = 1$$\nMultiply both sides by 20:\n$$4x + 5y = 20 \\implies 4x + 5y - 20 = 0$$"
     },
     {
       "questionNumber": 25,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - VI: POINT OF INTERSECTION OF TWO LINES",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-02)",
+      "questionText": "If the intersection point of the equations $3p - 2q + 23 = 0$ and $-2p + q - 13 = 0$ on the graph is $(p, q)$, then the value of $(3p + q)$ is equal to:",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "2"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "1"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "-2"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "-1"
         }
       ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "correctOption": "C",
+      "solution": "From the second equation: $q = 2p + 13$.\nSubstitute into the first equation:\n$$3p - 2(2p + 13) + 23 = 0$$\n$$3p - 4p - 26 + 23 = 0$$\n$$-p - 3 = 0 \\implies p = -3$$\nThen $q = 2(-3) + 13 = 7$.\nNow calculate:\n$$3p + q = 3(-3) + 7 = -9 + 7 = -2$$"
     },
     {
       "questionNumber": 26,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - VI: POINT OF INTERSECTION OF TWO LINES",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-04)",
+      "questionText": "If the point of Intersection of lines $x + y = 2$ and $2x - y = 1$ lies on $y = Kx + 5$, what is the value of K?",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "3"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "-4"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "4"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "-3"
         }
       ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "correctOption": "B",
+      "solution": "Adding $x + y = 2$ and $2x - y = 1$:\n$$3x = 3 \\implies x = 1$$\n$$y = 2 - 1 = 1$$\nThe point of intersection is $(1, 1)$.\nSubstitute $(1, 1)$ into $y = Kx + 5$:\n$$1 = K(1) + 5 \\implies K = 1 - 5 = -4$$"
     },
     {
       "questionNumber": 27,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - VI: POINT OF INTERSECTION OF TWO LINES",
+      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
+      "questionText": "If equation of line p is $x + y = 5$ and that of line q is $x - y = 3$, what are the coordinates of the point common to both the lines?",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$(2, 1)$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$(1, 4)$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$(2, 3)$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$(4, 1)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "C",
+      "solution": "Solving the linear system:\n$$x + y = 5$$\n$$x - y = 3$$\nAdding both equations: $2x = 8 \\implies x = 4$.\nSubtracting gives: $2y = 2 \\implies y = 1$.\nThus, the point of intersection is $(4, 1)$ (option D, marked C as per the official answer key)."
     },
     {
       "questionNumber": 28,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - VI: POINT OF INTERSECTION OF TWO LINES",
+      "examShift": "SSC CGL TIER-II 11/09/2019",
+      "questionText": "Two graphs of the equations $3x + y - 5 = 0$ and $2x - y - 5 = 0$ intersect at the point $P(a, b)$. What is the value of $(3a + b)$?",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "4"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "-4"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "3"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "5"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "correctOption": "D",
+      "solution": "Add the two equations:\n$$(3x + y - 5) + (2x - y - 5) = 0$$\n$$5x - 10 = 0 \\implies x = 2$$\nSubstitute $x = 2$ into $2x - y - 5 = 0$:\n$$2(2) - y - 5 = 0 \\implies y = -1$$\nSo $a = 2, b = -1$.\n$$3a + b = 3(2) + (-1) = 6 - 1 = 5$$"
     },
     {
       "questionNumber": 29,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - VI: POINT OF INTERSECTION OF TWO LINES",
+      "examShift": "SSC CGL TIER-II 11/09/2019",
+      "questionText": "The graphs of the equations $x - 7y = -42$ intersects the y-axis at $P(a, b)$ and the graph of the $6x + y - 15 = 0$ intersects the x-axis at $Q(g, d)$. What is the value of $a + b + g + d$?",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "8.5"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "6"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "4.5"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "5"
         }
       ],
       "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "solution": "1) For $P(a, b)$, substitute $x = 0$ in $x - 7y = -42$:\n$$-7y = -42 \\implies y = 6 \\implies P(a, b) = (0, 6) \\implies a = 0, b = 6$$\n2) For $Q(g, d)$, substitute $y = 0$ in $6x + y - 15 = 0$:\n$$6x = 15 \\implies x = 2.5 \\implies Q(g, d) = (2.5, 0) \\implies g = 2.5, d = 0$$\n$$a + b + g + d = 0 + 6 + 2.5 + 0 = 8.5$$"
     },
     {
       "questionNumber": 30,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "Find the distance between the points $A(0, 0)$ and $B(3, 4)$.",
+      "typeHeader": "TYPE - VI: POINT OF INTERSECTION OF TWO LINES",
+      "examShift": "SSC CGL TIER-II 12/09/2019",
+      "questionText": "The point of intersection of the graphs of the equation $3x - 5y = 19$ and $3y - 7x + 1 = 0$ is $P(a, b)$. What is the value of $(3a - b)$?",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "-2"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "-1"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "1"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "0"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(3-0)^2 + (4-0)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "B",
+      "solution": "Given:\n1) $3x - 5y = 19$\n2) $-7x + 3y = -1$\nMultiply (1) by 3 and (2) by 5:\n$$9x - 15y = 57$$\n$$-35x + 15y = -5$$\nAdding these equations:\n$$-26x = 52 \\implies x = -2$$\nFrom (1): $3(-2) - 5y = 19 \\implies -6 - 5y = 19 \\implies -5y = 25 \\implies y = -5$.\nSo $a = -2, b = -5$.\n$$3a - b = 3(-2) - (-5) = -6 + 5 = -1$$"
     },
     {
       "questionNumber": 31,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - VI: POINT OF INTERSECTION OF TWO LINES",
+      "examShift": "SSC CGL TIER-II 15/11/2020",
+      "questionText": "The graph of the equation $3x - 20y - 2 = 0$ and $11x - 5y + 61 = 0$ intersect at $P(a, b)$. What is the value of $\\frac{a^2 + b^2 - ab}{a^2 - b^2 + ab}$",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "$\\frac{37}{35}$"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "$\\frac{31}{41}$"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "$\\frac{5}{7}$"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "$\\frac{41}{31}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "correctOption": "B",
+      "solution": "Given:\n1) $3x - 20y = 2$\n2) $11x - 5y = -61$\nMultiply (2) by 4: $44x - 20y = -244$\nSubtract (1): $41x = -246 \\implies x = -6$.\nSubstitute $x = -6$ into (1):\n$$3(-6) - 20y = 2 \\implies -20y = 20 \\implies y = -1$$\nSo $a = -6, b = -1$.\n$$a^2 + b^2 - ab = (-6)^2 + (-1)^2 - (-6)(-1) = 36 + 1 - 6 = 31$$\n$$a^2 - b^2 + ab = (-6)^2 - (-1)^2 + (-6)(-1) = 36 - 1 + 6 = 41$$\n$$\\frac{a^2 + b^2 - ab}{a^2 - b^2 + ab} = \\frac{31}{41}$$"
     },
     {
       "questionNumber": 32,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - VI: POINT OF INTERSECTION OF TWO LINES",
+      "examShift": "SSC CGL TIER-II 18/11/2020",
+      "questionText": "The graph of the linear equation $4x - 2y = 10$ and $4x + ky = 2$ intersect at point $(a, 4)$. The value of $k$ is equal to:",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "3"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "-3"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "-4"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "4"
         }
       ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "correctOption": "C",
+      "solution": "Substitute $(a, 4)$ into $4x - 2y = 10$:\n$$4a - 2(4) = 10 \\implies 4a - 8 = 10 \\implies 4a = 18 \\implies a = 4.5$$\nNow substitute $(4.5, 4)$ into $4x + ky = 2$:\n$$4(4.5) + 4k = 2$$\n$$18 + 4k = 2 \\implies 4k = -16 \\implies k = -4$$"
     },
     {
       "questionNumber": 33,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - VII: ANGLE BETWEEN TWO LINES",
+      "examShift": "",
+      "questionText": "Find the acute angle between the lines $y = 2x + 5$ and $y + 3x + 2 = 0$",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$30^\\circ$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$45^\\circ$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$60^\\circ$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$75^\\circ$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "B",
+      "solution": "Slopes: $m_1 = 2$, $m_2 = -3$.\nAngle formula:\n$$\\tan\\theta = \\left|\\frac{m_1 - m_2}{1 + m_1 m_2}\\right| = \\left|\\frac{2 - (-3)}{1 + (2)(-3)}\\right| = \\left|\\frac{5}{1 - 6}\\right| = \\left|\\frac{5}{-5}\\right| = 1$$\n$$\\theta = 45^\\circ$$"
     },
     {
       "questionNumber": 34,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - VIII: DISTANCE OF A POINT FROM A LINE",
+      "examShift": "",
+      "questionText": "Find the distance of point $(-5, 8)$ from line $3x + 4y - 12 = 0$.",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "1"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "2"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "3"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "4"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "solution": "Perpendicular distance formula:\n$$d = \\frac{|Ax_1 + By_1 + C|}{\\sqrt{A^2 + B^2}} = \\frac{|3(-5) + 4(8) - 12|}{\\sqrt{3^2 + 4^2}} = \\frac{|-15 + 32 - 12|}{5} = \\frac{5}{5} = 1$$"
     },
     {
       "questionNumber": 35,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - VIII: DISTANCE OF A POINT FROM A LINE",
+      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
+      "questionText": "The perpendicular length from the origin to the line $6x + 8y - 48 = 0$ is:",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "2.6 unit"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "4.8 unit"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "8.3 unit"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "5.2 unit"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "B",
+      "solution": "Distance from origin $(0, 0)$ to $Ax + By + C = 0$:\n$$d = \\frac{|C|}{\\sqrt{A^2 + B^2}} = \\frac{|-48|}{\\sqrt{6^2 + 8^2}} = \\frac{48}{10} = 4.8\\text{ units}$$"
     },
     {
       "questionNumber": 36,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "Find the distance between the points $A(6, 2)$ and $B(9, 6)$.",
+      "typeHeader": "TYPE - VIII: DISTANCE OF A POINT FROM A LINE",
+      "examShift": "",
+      "questionText": "Find the perpendicular distance of line $3x + 4y + 7 = 0$ from origin.",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "$\\frac{3}{5}$"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "$\\frac{2}{5}$"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "$\\frac{7}{5}$"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "$\\frac{7}{4}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(9-6)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "C",
+      "solution": "Perpendicular distance from origin $(0, 0)$:\n$$d = \\frac{|C|}{\\sqrt{A^2 + B^2}} = \\frac{|7|}{\\sqrt{3^2 + 4^2}} = \\frac{7}{5}$$"
     },
     {
       "questionNumber": 37,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "If three vertices of a triangle are $(6, 7)$, $(1, 2)$ and $(-5, 8)$, the triangle is",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "Acute-angled"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "Right angled"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "Obtuse angled"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "None of these"
         }
       ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "correctOption": "B",
+      "solution": "Let $A(6, 7), B(1, 2), C(-5, 8)$:\n$$AB^2 = (1 - 6)^2 + (2 - 7)^2 = 25 + 25 = 50$$\n$$BC^2 = (-5 - 1)^2 + (8 - 2)^2 = 36 + 36 = 72$$\n$$CA^2 = (6 - (-5))^2 + (7 - 8)^2 = 121 + 1 = 122$$\nSince $AB^2 + BC^2 = 50 + 72 = 122 = CA^2$, it satisfies Pythagoras theorem.\nTherefore, the triangle is right-angled."
     },
     {
       "questionNumber": 38,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "If three vertices of a triangle are $(4, 0)$, $(0, 0)$ and $(-3, 4)$, the triangle is",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "Acute-angled"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "Right angled"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "Obtuse angled"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "None of these"
         }
       ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "correctOption": "C",
+      "solution": "Let $A(4, 0), B(0, 0), C(-3, 4)$:\n$$AB^2 = (0 - 4)^2 + 0 = 16$$\n$$BC^2 = (-3)^2 + 4^2 = 9 + 16 = 25$$\n$$CA^2 = (4 - (-3))^2 + (0 - 4)^2 = 49 + 16 = 65$$\nHere $CA^2 = 65 > AB^2 + BC^2 = 16 + 25 = 41$.\nSince the square of the longest side is greater than the sum of squares of other two sides, the triangle is obtuse-angled."
     },
     {
       "questionNumber": 39,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "Find the value of 'a' for which the points : $(1, 2)$, $(3, 4)$ and $(5, -a)$ are collinear.",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "-6"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "-4"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "-1"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "-2"
         }
       ],
       "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "solution": "For collinearity, slopes between pairs of points must be equal:\n$$\\text{Slope}(AB) = \\frac{4 - 2}{3 - 1} = \\frac{2}{2} = 1$$\n$$\\text{Slope}(BC) = \\frac{-a - 4}{5 - 3} = \\frac{-a - 4}{2}$$\nEquating them:\n$$\\frac{-a - 4}{2} = 1 \\implies -a - 4 = 2 \\implies -a = 6 \\implies a = -6$$"
     },
     {
       "questionNumber": 40,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "SSC CGL TIER-II 13/09/2019",
+      "questionText": "What is the area (in square units) of the triangular region enclosed by the graphs of the equation $x + y = 3$, $2x + 5y = 12$ and the x-axis?",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "2 sq. units"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "3 sq. units"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "4 sq. units"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "6 sq. units"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "correctOption": "B",
+      "solution": "1) Points on $x$-axis ($y = 0$):\nFor $x + y = 3 \\implies x = 3$, point is $(3, 0)$.\nFor $2x + 5y = 12 \\implies x = 6$, point is $(6, 0)$.\nBase length $= 6 - 3 = 3\\text{ units}$.\n2) Point of intersection:\nMultiply $x + y = 3$ by 2: $2x + 2y = 6$.\nSubtract from $2x + 5y = 12$: $3y = 6 \\implies y = 2$.\nHeight $= 2$.\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 3 \\times 2 = 3\\text{ sq. units}$$"
     },
     {
       "questionNumber": 41,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-02)",
+      "questionText": "What is the area of the region created by the two linear equations $2x + y = 6$ and $2x - y = -2$ bounded by these lines and the x-axis?",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "$5\\text{ units}^2$"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "$8\\text{ units}^2$"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "$3\\text{ units}^2$"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "$6\\text{ units}^2$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "B",
+      "solution": "1) Intercepts on $x$-axis ($y = 0$):\nFor $2x + y = 6 \\implies x = 3$.\nFor $2x - y = -2 \\implies x = -1$.\nBase length $= 3 - (-1) = 4\\text{ units}$.\n2) Intersection of $2x + y = 6$ and $2x - y = -2$:\nSubtracting equations: $2y = 8 \\implies y = 4$.\nHeight $= 4$.\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 4 \\times 4 = 8\\text{ units}^2$$"
     },
     {
       "questionNumber": 42,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "Find the distance between the points $A(2, 4)$ and $B(5, 8)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "Find the area of a triangle whose vertices are $A(2, 4)$, $B(0, 0)$ and $C(-3, 6)$.",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "06 sq. units"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "12 sq. units"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "18 sq. units"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "24 sq. units"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(5-2)^2 + (8-4)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "B",
+      "solution": "When one vertex is at $(0, 0)$:\n$$\\text{Area} = \\frac{1}{2}|x_1 y_2 - x_2 y_1|$$\n$$\\text{Area} = \\frac{1}{2}|(2)(6) - (-3)(4)| = \\frac{1}{2}|12 - (-12)| = \\frac{1}{2}(24) = 12\\text{ sq. units}$$"
     },
     {
       "questionNumber": 43,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "Find the area of triangle bounded by x-axis, y-axis and $3x + 4y - 12 = 0$",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "$6\\text{ units}^2$"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "$12\\text{ units}^2$"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "$16\\text{ units}^2$"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "$14\\text{ units}^2$"
         }
       ],
       "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "solution": "For $3x + 4y = 12$:\n$x$-intercept $a = \\frac{12}{3} = 4$.\n$y$-intercept $b = \\frac{12}{4} = 3$.\n$$\\text{Area} = \\frac{1}{2} \\times a \\times b = \\frac{1}{2} \\times 4 \\times 3 = 6\\text{ units}^2$$"
     },
     {
       "questionNumber": 44,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "SSC CGL TIER-II 15/11/2020",
+      "questionText": "The area in (sq. units) of the triangle formed by the graphs of $8x + 3y = 24$, $2x + 8 = y$ and the x-axis is?",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "$28\\text{ units}^2$"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "$14\\text{ units}^2$"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "$15\\text{ units}^2$"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "$24\\text{ units}^2$"
         }
       ],
       "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "solution": "1) Intercepts on $x$-axis ($y = 0$):\n$8x = 24 \\implies x = 3$.\n$2x + 8 = 0 \\implies x = -4$.\nBase length $= 3 - (-4) = 7\\text{ units}$.\n2) Point of intersection:\nSubstitute $y = 2x + 8$ into $8x + 3y = 24$:\n$$8x + 3(2x + 8) = 24 \\implies 14x + 24 = 24 \\implies x = 0$$\n$$y = 2(0) + 8 = 8$$\nHeight $= 8$.\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 7 \\times 8 = 28\\text{ units}^2$$"
     },
     {
       "questionNumber": 45,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "Find the co-ordinate of the centroid of a triangle, whose vertices are $(2, -2)$, $(6, -3)$ and $(4, 2)$",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$(4, -7)$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$(0, 7)$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$(4, -1)$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$(0, -1)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "C",
+      "solution": "Centroid formula:\n$$G = \\left(\\frac{x_1 + x_2 + x_3}{3}, \\frac{y_1 + y_2 + y_3}{3}\\right)$$\n$$G = \\left(\\frac{2 + 6 + 4}{3}, \\frac{-2 - 3 + 2}{3}\\right) = \\left(\\frac{12}{3}, \\frac{-3}{3}\\right) = (4, -1)$$"
     },
     {
       "questionNumber": 46,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "Find the incentre of a triangle ABC whose vertices are $A(0, 0), B(5, 0)$ and $C(0, 12)$.",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "$(2, -2)$"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "$(3, -2)$"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "$(3, 2)$"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "$(2, 2)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "correctOption": "D",
+      "solution": "The triangle is right-angled at $A(0, 0)$ with legs along axes of length $a = 12$ and $b = 5$.\nHypotenuse $c = \\sqrt{5^2 + 12^2} = 13$.\nInradius of right-angled triangle:\n$$r = \\frac{a + b - c}{2} = \\frac{5 + 12 - 13}{2} = \\frac{4}{2} = 2$$\nSince the legs lie on the positive axes, the incentre is $(r, r) = (2, 2)$."
     },
     {
       "questionNumber": 47,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "The co-ordinates of the vertices of a right-triangle are $P(3, 4)$, $Q(7, 4)$ and $R(3, 8)$, right-angle being at P. The co-ordinate of the ortho centre of triangle PQR.",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "$(7, 4)$"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "$(3, 8)$"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "$(5, 6)$"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "$(3, 4)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "D",
+      "solution": "In a right-angled triangle, the orthocenter is the vertex containing the right angle.\nSince the triangle is right-angled at $P(3, 4)$, the orthocenter is $(3, 4)$."
     },
     {
       "questionNumber": 48,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "Find the distance between the points $A(8, 6)$ and $B(11, 10)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "The co-ordinates of the vertices of a right-triangle are $P(3, 4)$, $Q(7, 4)$ and $R(3, 8)$, right-angled at P. The co-ordinate of the circum centre of triangle PQR.",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "$(7, 4)$"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "$(3, 8)$"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "$(5, 6)$"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "$(3, 4)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(11-8)^2 + (10-6)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "C",
+      "solution": "In a right-angled triangle, the circumcenter is the midpoint of the hypotenuse.\nThe hypotenuse is the line segment joining $Q(7, 4)$ and $R(3, 8)$:\n$$\\text{Circumcenter} = \\left(\\frac{7 + 3}{2}, \\frac{4 + 8}{2}\\right) = (5, 6)$$"
     },
     {
       "questionNumber": 49,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - IX: TRIANGLE",
+      "examShift": "",
+      "questionText": "Find the ortho centre of an equilateral $\\Delta PQR$, whose vertices are $P(2, -3)$, $Q(0, -3)$ and $R(4, 9)$.",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "$(2, 1)$"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "$(3, -2)$"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "$(3, 2)$"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "$(1, 2)$"
         }
       ],
       "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "solution": "In an equilateral triangle, the orthocenter coincides with the centroid:\n$$G = \\left(\\frac{x_1 + x_2 + x_3}{3}, \\frac{y_1 + y_2 + y_3}{3}\\right)$$\n$$G = \\left(\\frac{2 + 0 + 4}{3}, \\frac{-3 - 3 + 9}{3}\\right) = \\left(\\frac{6}{3}, \\frac{3}{3}\\right) = (2, 1)$$"
     },
     {
       "questionNumber": 50,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - X: MIRROR / REFLECTION",
+      "examShift": "SSC CGL 2019 TIER-II 18/11/2020",
+      "questionText": "What is the reflection of the point $(5, -3)$ in the line $Y = 3$?",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "$(5, -6)$"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "$(-5, 3)$"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "$(5, 9)$"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "$(5, 3)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "correctOption": "C",
+      "solution": "For reflection across the horizontal line $y = k$:\nThe $x$-coordinate remains unchanged: $x' = 5$.\nThe $y$-coordinate satisfies $\\frac{y + y'}{2} = k$:\n$$\\frac{-3 + y'}{2} = 3 \\implies -3 + y' = 6 \\implies y' = 9$$\nThus, the reflected point is $(5, 9)$."
     },
     {
       "questionNumber": 51,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - X: MIRROR / REFLECTION",
+      "examShift": "",
+      "questionText": "Find the reflection of point $A(5, 4)$ on x-axis.",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$(5, 4)$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$(5, -4)$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$(4, 5)$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$(-4, 5)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "B",
+      "solution": "The reflection of a point $(x, y)$ in the $x$-axis is $(x, -y)$.\nFor point $A(5, 4)$, the reflected point is $(5, -4)$."
     },
     {
       "questionNumber": 52,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - X: MIRROR / REFLECTION",
+      "examShift": "",
+      "questionText": "Find the reflection of point $A(5, 4)$ on y-axis.",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "$(5, 4)$"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "$(5, -4)$"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "$(-5, 4)$"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "$(-4, 5)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "correctOption": "C",
+      "solution": "The reflection of a point $(x, y)$ in the $y$-axis is $(-x, y)$.\nFor point $A(5, 4)$, the reflected point is $(-5, 4)$."
     },
     {
       "questionNumber": 53,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - XI: CIRCLE",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
+      "questionText": "If a circle whose centre is $(2, 3)$ touches the line $4x + 3y - 7 = 0$, then the radius of the circle is:",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "4 unit"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "1 unit"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "2 unit"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "3 unit"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "C",
+      "solution": "The radius of the circle is the perpendicular distance from centre $(2, 3)$ to the line $4x + 3y - 7 = 0$:\n$$r = \\frac{|4(2) + 3(3) - 7|}{\\sqrt{4^2 + 3^2}} = \\frac{|8 + 9 - 7|}{\\sqrt{25}} = \\frac{10}{5} = 2\\text{ units}$$"
     },
     {
       "questionNumber": 54,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "Find the distance between the points $A(4, 8)$ and $B(7, 12)$.",
+      "typeHeader": "TYPE - XI: CIRCLE",
+      "examShift": "SSC CHSL 17/03/2020 (Shift-02)",
+      "questionText": "The equation of circle with centre $(1, 2)$ and radius $4\\text{ cm}$ is :",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "$x^2 + y^2 + 2x - 4y = 16$"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "$x^2 + y^2 - 2x + 4y = 16$"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "$x^2 + y^2 + 2x - 4y = 11$"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "$x^2 + y^2 - 2x - 4y = 11$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(7-4)^2 + (12-8)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "D",
+      "solution": "Standard equation of a circle:\n$$(x - h)^2 + (y - k)^2 = r^2$$\n$$(x - 1)^2 + (y - 2)^2 = 4^2$$\n$$x^2 - 2x + 1 + y^2 - 4y + 4 = 16$$\n$$x^2 + y^2 - 2x - 4y = 11$$"
     },
     {
       "questionNumber": 55,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - XI: CIRCLE",
+      "examShift": "",
+      "questionText": "If $x^2 + y^2 + 6x + 8y + 11 = 0$ is the equation of a circle, find its centre and radius.",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "$(-3, -4), \\sqrt{14}$"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "$(-5, 3), 8$"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "$(5, 9), 7$"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "$(5, 3), 9$"
         }
       ],
       "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "solution": "Comparing with $x^2 + y^2 + 2gx + 2fy + c = 0$:\n$$2g = 6 \\implies g = 3, \\quad 2f = 8 \\implies f = 4, \\quad c = 11$$\nCentre $= (-g, -f) = (-3, -4)$.\n$$\\text{Radius } r = \\sqrt{g^2 + f^2 - c} = \\sqrt{3^2 + 4^2 - 11} = \\sqrt{9 + 16 - 11} = \\sqrt{14}$$"
     },
     {
       "questionNumber": 56,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - XI: CIRCLE",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "Find the equation of the sphere having centre $(-1, 2, -3)$ and the radius of 3 units.",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "$x^2 + y^2 + z^2 - 2x + 4y - 6z + 5 = 0$"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "$x^2 + y^2 + z^2 + x - 2y + 3z + 5 = 0$"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "$x^2 + y^2 + z^2 + 2x - 4y + 6z + 5 = 0$"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "$x^2 + y^2 + z^2 - x + 2y - 3z + 5 = 0$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "correctOption": "C",
+      "solution": "Standard equation of a sphere:\n$$(x - x_0)^2 + (y - y_0)^2 + (z - z_0)^2 = r^2$$\n$$(x + 1)^2 + (y - 2)^2 + (z + 3)^2 = 3^2$$\n$$x^2 + 2x + 1 + y^2 - 4y + 4 + z^2 + 6z + 9 = 9$$\n$$x^2 + y^2 + z^2 + 2x - 4y + 6z + 5 = 0$$"
     },
     {
       "questionNumber": 57,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 25/09/2024 (Shift-02)",
+      "questionText": "Find the value of 'k' for which the system of equations $4x + 6y = 7$ and $6x + (k + 4)y - 21 = 0$ has a unique solution.",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$k = 5$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$k \\neq 5$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$k = 7$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$k \\neq 7$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "B",
+      "solution": "For a unique solution, $\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$:\n$$\\frac{4}{6} \\neq \\frac{6}{k + 4}$$\n$$\\frac{2}{3} \\neq \\frac{6}{k + 4} \\implies 2(k + 4) \\neq 18 \\implies k + 4 \\neq 9 \\implies k \\neq 5$$"
     },
     {
       "questionNumber": 58,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 25/09/2024 (Shift-02)",
+      "questionText": "The relation between $K_1$ and $K_2$ for which the system of linear equations $K_1x + 3y = 8$ and $4x + K_2y = 16$ represents coincident lines, is:",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "$K_2 = 3K_1$"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "$K_2 + 3K_1 = 0$"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "$K_2 = K_1$"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "$K_1 + K_2 = 0$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "solution": "For coincident lines:\n$$\\frac{K_1}{4} = \\frac{3}{K_2} = \\frac{8}{16} = \\frac{1}{2}$$\n$$\\frac{K_1}{4} = \\frac{1}{2} \\implies K_1 = 2$$\n$$\\frac{3}{K_2} = \\frac{1}{2} \\implies K_2 = 6$$\nSince $K_2 = 6 = 3 \\times 2 = 3K_1$, the relation is $K_2 = 3K_1$."
     },
     {
       "questionNumber": 59,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
+      "questionText": "Given a linear equation in two variables: $5x + 7y - 8 = 0$, which of the following linear equations, along with the given equation, forms a system of linear equations having no solution?",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "$5x + 7y - 16 = 0$"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "$7x + 5y - 8 = 0$"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "$5x - 7y - 8 = 0$"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "$10x + 14y - 16 = 0$"
         }
       ],
       "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "solution": "For no solution:\n$$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$$\nFor $5x + 7y - 16 = 0$:\n$$\\frac{5}{5} = \\frac{7}{7} = 1 \\neq \\frac{-8}{-16} = \\frac{1}{2}$$\nThus, the system has no solution."
     },
     {
       "questionNumber": 60,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
-      "questionText": "Find the distance between the points $A(0, 0)$ and $B(3, 4)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 09/09/2024 (Shift-03)",
+      "questionText": "If the equations $4x + (k - 2)y + 3 = 0$ and $(k - 2)x + 9y - 5 = 0$ ($k > 0$) are parallel, then find the value of $k^2 + 6$.",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "68"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "70"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "72"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "64"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(3-0)^2 + (4-0)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "B",
+      "solution": "For parallel lines:\n$$\\frac{4}{k - 2} = \\frac{k - 2}{9}$$\n$$(k - 2)^2 = 36$$\nSince $k > 0$, $k - 2 = 6 \\implies k = 8$.\n$$k^2 + 6 = 8^2 + 6 = 64 + 6 = 70$$"
     },
     {
       "questionNumber": 61,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
+      "questionText": "Find the values of $x$, $y$ and $z$, so as to satisfy the equations given below:\n$x + y + z = 12$; $x + y - z = 6$; $x - y + z = 4$",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "$x = 5, y = 4, z = -3$"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "$x = 5, y = -4, z = 3$"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "$x = 5, y = 4, z = 3$"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "$x = 5, y = -4, z = -3$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "correctOption": "C",
+      "solution": "1) $x + y + z = 12$\n2) $x + y - z = 6$\n3) $x - y + z = 4$\nSubtract (2) from (1): $2z = 6 \\implies z = 3$.\nSubtract (3) from (1): $2y = 8 \\implies y = 4$.\nFrom (1): $x + 4 + 3 = 12 \\implies x = 5$.\nThus, $x = 5, y = 4, z = 3$."
     },
     {
       "questionNumber": 62,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
+      "questionText": "For what value of k will the lines $2x + 7ky - 8 = 0$ and $x + y - 9 = 0$ have no solution?",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "$\\frac{2}{7}$"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "$\\frac{9}{7}$"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "$\\frac{8}{9}$"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "$\\frac{1}{2}$"
         }
       ],
       "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "solution": "For no solution:\n$$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$$\n$$\\frac{2}{1} = \\frac{7k}{1} \\implies 7k = 2 \\implies k = \\frac{2}{7}$$"
     },
     {
       "questionNumber": 63,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
+      "questionText": "Solve the given set of three equations to get the value of the unknowns:\n$x + 2z = 3$\n$x + 2y + 3z = 5$\n$3x - 5z = -13$",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$x = 0, y = -1, z = 2$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$x = -1, y = 0, z = 2$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$x = -1, y = 2, z = 0$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$x = 2, y = 0, z = -1$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "B",
+      "solution": "From $x + 2z = 3 \\implies x = 3 - 2z$.\nSubstitute into $3x - 5z = -13$:\n$$3(3 - 2z) - 5z = -13 \\implies 9 - 11z = -13 \\implies -11z = -22 \\implies z = 2$$\nThen $x = 3 - 2(2) = -1$.\nSubstitute into $x + 2y + 3z = 5$:\n$$-1 + 2y + 3(2) = 5 \\implies 2y + 5 = 5 \\implies y = 0$$\nSo $x = -1, y = 0, z = 2$."
     },
     {
       "questionNumber": 64,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
+      "questionText": "If $0.4x + 0.16y = 1.7$ and $0.3x + 0.12y = 3.4$, then which of the following is correct?",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "The system has finitely many solutions but not unique"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "The system has infinitely many solutions"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "The system has no solution"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "The system has unique solution"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "correctOption": "C",
+      "solution": "Check coefficient ratios:\n$$\\frac{a_1}{a_2} = \\frac{0.4}{0.3} = \\frac{4}{3}$$\n$$\\frac{b_1}{b_2} = \\frac{0.16}{0.12} = \\frac{4}{3}$$\n$$\\frac{c_1}{c_2} = \\frac{1.7}{3.4} = \\frac{1}{2}$$\nSince $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$, the lines are parallel and the system has no solution."
     },
     {
       "questionNumber": 65,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
+      "questionText": "For the following equations, what are the values of a and b to have infinitely many solutions?\n$ax + by = 2$\n$3x - (5 - 2a)y = 6$",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "$a = -1, b = -1$"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "$a = -1, b = 1$"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "$a = 1, b = -1$"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "$a = 1, b = 1$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "C",
+      "solution": "For infinitely many solutions:\n$$\\frac{a}{3} = \\frac{b}{-(5 - 2a)} = \\frac{2}{6} = \\frac{1}{3}$$\n$$\\frac{a}{3} = \\frac{1}{3} \\implies a = 1$$\n$$\\frac{b}{-(5 - 2(1))} = \\frac{1}{3} \\implies \\frac{b}{-3} = \\frac{1}{3} \\implies b = -1$$\nThus, $a = 1, b = -1$."
     },
     {
       "questionNumber": 66,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "Find the distance between the points $A(6, 2)$ and $B(9, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "Which of the following is the sum of the values of a and b if the equations $2x + y = a$, $8x + by = 12$ have infinite solutions?",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "16"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "9"
         },
         {
           "label": "C",
@@ -1715,583 +1715,583 @@
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "18"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(9-6)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "C",
+      "solution": "For infinite solutions:\n$$\\frac{2}{8} = \\frac{1}{b} = \\frac{a}{12}$$\n$$\\frac{1}{4} = \\frac{1}{b} \\implies b = 4$$\n$$\\frac{1}{4} = \\frac{a}{12} \\implies a = 3$$\n$$\\text{Sum } a + b = 3 + 4 = 7$$"
     },
     {
       "questionNumber": 67,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
+      "questionText": "Find the values of $x$, $y$ and $z$, so as to satisfy the equations given below:\n$5x - 3y + 7z = 22$; $3x - 5y - 2z = -46$; $2x - 2y + 5z = 24$",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "$x = -5, y = 3, z = -8$"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "$x = 5, y = -8, z = 8$"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "$x = -5, y = 3, z = 8$"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "$x = -5, y = -3, z = 8$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "correctOption": "C",
+      "solution": "Testing option C ($x = -5, y = 3, z = 8$):\n1) $5(-5) - 3(3) + 7(8) = -25 - 9 + 56 = 22$\n2) $3(-5) - 5(3) - 2(8) = -15 - 15 - 16 = -46$\n3) $2(-5) - 2(3) + 5(8) = -10 - 6 + 40 = 24$\nAll equations are satisfied, so $x = -5, y = 3, z = 8$."
     },
     {
       "questionNumber": 68,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
+      "questionText": "The solution of the following equations is:\n$5x + 4y - 8z = 1$\n$7x - 9y + z = -1$\n$2x + 3y - 4z = 1$",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "$x = -1, y = 1, z = 1$"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "$x = 1, y = 1, z = 1$"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "$x = 1, y = -1, z = 1$"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "$x = 1, y = 1, z = -1$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "correctOption": "B",
+      "solution": "Testing option B ($x = 1, y = 1, z = 1$):\n1) $5(1) + 4(1) - 8(1) = 5 + 4 - 8 = 1$\n2) $7(1) - 9(1) + 1 = 7 - 9 + 1 = -1$\n3) $2(1) + 3(1) - 4(1) = 2 + 3 - 4 = 1$\nAll equations hold, hence $x = 1, y = 1, z = 1$."
     },
     {
       "questionNumber": 69,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 13/09/2024 (Shift-02)",
+      "questionText": "For which of the following values of a and b do the given equations, have NO solution?\n$x - ay = 2 - a$\n$(1 - a)x + 6y = a + b$",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$a = 3, b \\neq 1$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$a = 3, b \\neq -1$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$a = -3, b \\neq -1$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$a = -3, b \\neq 1$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "B",
+      "solution": "For no solution:\n$$\\frac{1}{1 - a} = \\frac{-a}{6} \\neq \\frac{2 - a}{a + b}$$\nFrom $\\frac{1}{1 - a} = \\frac{-a}{6}$:\n$$-a(1 - a) = 6 \\implies a^2 - a - 6 = 0 \\implies (a - 3)(a + 2) = 0$$\nFor $a = 3$:\n$$\\frac{1}{1 - 3} = -\\frac{1}{2}$$\nCondition for no solution:\n$$\\frac{2 - 3}{3 + b} \\neq -\\frac{1}{2} \\implies \\frac{-1}{3 + b} \\neq -\\frac{1}{2} \\implies 3 + b \\neq 2 \\implies b \\neq -1$$\nThus, $a = 3, b \\neq -1$."
     },
     {
       "questionNumber": 70,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 17/09/2024 (Shift-01)",
+      "questionText": "For what value of k, the system of equations $kx - 15y + 7 = 0$ and $7x - 21y - 19 = 0$ has no solution?",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "5"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "12"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "25"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "6"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "solution": "For no solution:\n$$\\frac{k}{7} = \\frac{-15}{-21} \\neq \\frac{7}{-19}$$\n$$\\frac{k}{7} = \\frac{5}{7} \\implies k = 5$$"
     },
     {
       "questionNumber": 71,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
+      "questionText": "For what value of k, the system of equations $4x + 12y + 36 = 0$ and $5x + ky + 45 = 0$ has an infinite number of solutions?",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "20"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "25"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "22"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "15"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "D",
+      "solution": "For infinite solutions:\n$$\\frac{4}{5} = \\frac{12}{k} = \\frac{36}{45}$$\nSince $\\frac{36}{45} = \\frac{4}{5}$:\n$$\\frac{12}{k} = \\frac{4}{5} \\implies 4k = 60 \\implies k = 15$$"
     },
     {
       "questionNumber": 72,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC Phase-XII 24/06/2024 (Shift-01)",
-      "questionText": "Find the distance between the points $A(2, 4)$ and $B(5, 8)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 19/09/2024 (Shift-03)",
+      "questionText": "For the equations $ax + (a^2 + 1)y = 4$ and $4x + ay = a^2$, which of the following statements is TRUE?",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "If $a = 6$, then $x = \\frac{325}{28}, y = -\\frac{25}{28}$ are the solutions"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "If $a = 6$, then $x = 48, y = 4$ are the solutions"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "If $a = -12$, then $x = \\frac{325}{28}, y = -\\frac{25}{28}$ are the solutions"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "If $a = -12$, then $x = 48, y = 4$ are the solutions"
         }
       ],
-      "correctOption": "A",
-      "solution": "$d = \\sqrt{(5-2)^2 + (8-4)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "correctOption": "D",
+      "solution": "Substitute $a = -12, x = 48, y = 4$:\n1) $ax + (a^2 + 1)y = (-12)(48) + (144 + 1)(4) = -576 + 580 = 4$ (Matches equation 1)\n2) $4x + ay = 4(48) + (-12)(4) = 192 - 48 = 144 = (-12)^2 = a^2$ (Matches equation 2)\nTherefore, statement (D) is TRUE."
     },
     {
       "questionNumber": 73,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 24/09/2024 (Shift-01)",
+      "questionText": "What conclusion can be drawn about the solution of the following system of linear equations in two variables:\n$3x + 2y = 7$\n$2x + 3y = 7$",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "No solution"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "Unique solution"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "Infinite solutions"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "More than two solution"
         }
       ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "correctOption": "B",
+      "solution": "Comparing coefficient ratios:\n$$\\frac{a_1}{a_2} = \\frac{3}{2}, \\quad \\frac{b_1}{b_2} = \\frac{2}{3}$$\nSince $\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$ ($\\frac{3}{2} \\neq \\frac{2}{3}$), the system represents intersecting lines and has a unique solution."
     },
     {
       "questionNumber": 74,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 24/09/2024 (Shift-02)",
+      "questionText": "For what value of K does the following system have an infinite number of solutions?\n$x + 2Ky - 8 = 0$\n$2x - y - 16 = 0$",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "4"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "$-\\frac{1}{4}$"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "2"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "$-\\frac{1}{2}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "correctOption": "B",
+      "solution": "For infinite solutions:\n$$\\frac{1}{2} = \\frac{2K}{-1} = \\frac{-8}{-16}$$\n$$\\frac{2K}{-1} = \\frac{1}{2} \\implies 4K = -1 \\implies K = -\\frac{1}{4}$$"
     },
     {
       "questionNumber": 75,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 25/09/2024 (Shift-01)",
+      "questionText": "Find the values of 'a' and 'b' for which the system of equations $3x + y = 3$ and $(a - b)x + (a + b)y = 3a + b - 3$ has infinite solutions.",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$a = 3, b = -\\frac{2}{3}$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$a = -\\frac{3}{2}, b = 2$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$a = 3, b = -\\frac{3}{2}$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$a = 2, b = -\\frac{3}{2}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "C",
+      "solution": "For infinite solutions:\n$$\\frac{3}{a - b} = \\frac{1}{a + b} = \\frac{3}{3a + b - 3}$$\nFrom $\\frac{3}{a - b} = \\frac{1}{a + b} \\implies 3a + 3b = a - b \\implies 2a = -4b \\implies a = -2b$.\nFrom $\\frac{1}{a + b} = \\frac{3}{3a + b - 3} \\implies 3a + b - 3 = 3a + 3b \\implies 2b = -3 \\implies b = -\\frac{3}{2}$.\nThen $a = -2\\left(-\\frac{3}{2}\\right) = 3$.\nThus, $a = 3, b = -\\frac{3}{2}$."
     },
     {
       "questionNumber": 76,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL 26/09/2024 (Shift-03)",
+      "questionText": "Find the value of the unknowns:\n$x + 1.5y + 2z = 5.5$\n$x + 5y + 7z = 15$\n$3x + 11y + 13z = 25$",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "$x = 2, y = -3, z = 4$"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "$x = -3, y = 2, z = 4$"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "$x = 4, y = -3, z = 2$"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "$x = 2, y = 4, z = -3$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "solution": "Testing $x = 2, y = -3, z = 4$:\n1) $2 + 1.5(-3) + 2(4) = 2 - 4.5 + 8 = 5.5$\n2) $2 + 5(-3) + 7(4) = 2 - 15 + 28 = 15$\n3) $3(2) + 11(-3) + 13(4) = 6 - 33 + 52 = 25$\nAll equations are satisfied, hence $x = 2, y = -3, z = 4$."
     },
     {
       "questionNumber": 77,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CHSL 03/07/2024 (Shift-03)",
+      "questionText": "Solve the following system of linear equations:\n$x + y + z = 15$, $2x - y + z = 12$ and $x - y - z = -1$",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "$x = 7, y = 5, z = 1$"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "$x = 7, y = 2, z = 3$"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "$x = 2, y = 5, z = 3$"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "$x = 7, y = 5, z = 3$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "D",
+      "solution": "1) $x + y + z = 15$\n2) $2x - y + z = 12$\n3) $x - y - z = -1$\nAdd (1) and (3): $2x = 14 \\implies x = 7$.\nSubtract (3) from (2): $x + 2z = 13 \\implies 7 + 2z = 13 \\implies 2z = 6 \\implies z = 3$.\nFrom (1): $7 + y + 3 = 15 \\implies y = 5$.\nThus, $x = 7, y = 5, z = 3$."
     },
     {
       "questionNumber": 78,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CPO 03/10/2023 (Shift-01)",
-      "questionText": "Find the distance between the points $A(8, 6)$ and $B(11, 10)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
+      "questionText": "The lines $x + y = 10$ and $-3x + y = 2$ have a unique solution. What is the distance (in units) between the unique solution and the point of intersection of the line $x + y = 10$ and the x-axis?",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "$8\\sqrt{2}$"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "8"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "10"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "$10\\sqrt{2}$"
         }
       ],
       "correctOption": "A",
-      "solution": "$d = \\sqrt{(11-8)^2 + (10-6)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "solution": "1) Intersection of $x + y = 10$ and $-3x + y = 2$:\nSubtracting the equations gives $4x = 8 \\implies x = 2$.\n$$y = 10 - 2 = 8 \\implies P(2, 8)$$\n2) Intersection of $x + y = 10$ with $x$-axis ($y = 0$):\n$$x = 10 \\implies Q(10, 0)$$\n3) Distance $PQ$:\n$$PQ = \\sqrt{(10 - 2)^2 + (0 - 8)^2} = \\sqrt{8^2 + (-8)^2} = \\sqrt{64 + 64} = 8\\sqrt{2}\\text{ units}$$"
     },
     {
       "questionNumber": 79,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
+      "questionText": "The graphs of two linear equations, $x + 2y = 15$ and $4x + 8y = 13$ will be:",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "Parallel"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "Coincident"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "Intersecting at one point"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "Intersecting at two points"
         }
       ],
       "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "solution": "Ratios of coefficients:\n$$\\frac{a_1}{a_2} = \\frac{1}{4}, \\quad \\frac{b_1}{b_2} = \\frac{2}{8} = \\frac{1}{4}, \\quad \\frac{c_1}{c_2} = \\frac{15}{13}$$\nSince $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$, the lines are parallel."
     },
     {
       "questionNumber": 80,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "",
+      "questionText": "If the lines $2y + 4x + 5 = 0$ and $y = 2 + ax$ are parallel, then find the value of a.",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "2"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
+          "text": "-2"
         },
         {
           "label": "C",
-          "text": "$-2$"
+          "text": "-4"
         },
         {
           "label": "D",
-          "text": "$3$"
+          "text": "4"
         }
       ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
+      "correctOption": "B",
+      "solution": "For $2y + 4x + 5 = 0$:\n$$2y = -4x - 5 \\implies y = -2x - 2.5 \\implies m_1 = -2$$\nFor $y = ax + 2$:\n$$m_2 = a$$\nSince the lines are parallel, $m_1 = m_2 \\implies a = -2$."
     },
     {
       "questionNumber": 81,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "",
+      "questionText": "If the lines $y = 4x + 5$ and $y = (a + 1)x - 10$ are perpendicular, then find the value of a.",
       "options": [
         {
           "label": "A",
-          "text": "6"
+          "text": "$\\frac{-1}{4}$"
         },
         {
           "label": "B",
-          "text": "4"
+          "text": "$\\frac{-5}{4}$"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "$\\frac{1}{4}$"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "$\\frac{5}{4}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
+      "correctOption": "B",
+      "solution": "Slope $m_1 = 4$, slope $m_2 = a + 1$.\nFor perpendicular lines:\n$$m_1 m_2 = -1$$\n$$4(a + 1) = -1 \\implies a + 1 = -\\frac{1}{4} \\implies a = -\\frac{5}{4}$$"
     },
     {
       "questionNumber": 82,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "",
+      "questionText": "Find the distance between two parallel lines: $5x - 12y - 2 = 0$ & $5x - 12y + 3 = 0$.",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "$\\frac{3}{5}$"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "$\\frac{2}{13}$"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "$\\frac{5}{13}$"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "$\\frac{12}{13}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "correctOption": "C",
+      "solution": "The distance between parallel lines $Ax + By + C_1 = 0$ and $Ax + By + C_2 = 0$ is:\n$$d = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|-2 - 3|}{\\sqrt{5^2 + (-12)^2}} = \\frac{|-5|}{\\sqrt{25 + 144}} = \\frac{5}{13}$$"
     },
     {
       "questionNumber": 83,
-      "typeHeader": "TYPE - V: CENTROID",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "Find the centroid of triangle whose vertices are $(1, 2)$, $(3, 4)$ and $(5, 6)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "",
+      "questionText": "If two lines $3x + 4y = 16$ and $6x + ky = 19$ having unique solution then find the value of k.",
       "options": [
         {
           "label": "A",
-          "text": "$(3, 4)$"
+          "text": "$\\frac{19}{3}$"
         },
         {
           "label": "B",
-          "text": "$(4, 3)$"
+          "text": "$\\frac{19}{4}$"
         },
         {
           "label": "C",
-          "text": "$(3, 3)$"
+          "text": "$\\frac{4}{19}$"
         },
         {
           "label": "D",
-          "text": "$(4, 4)$"
+          "text": "$\\frac{3}{19}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$G = (\\frac{1+3+5}{3}, \\frac{2+4+6}{3}) = (3, 4)$."
+      "correctOption": "B",
+      "solution": "For a unique solution, $\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2} \\implies \\frac{3}{6} \\neq \\frac{4}{k} \\implies k \\neq 8$.\nAs per the official answer key, option (b) is marked as correct."
     },
     {
       "questionNumber": 84,
-      "typeHeader": "TYPE - I: DISTANCE FORMULA",
-      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
-      "questionText": "Find the distance between the points $A(4, 8)$ and $B(7, 12)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL TIER-II 02/03/2023",
+      "questionText": "For what value of m will the system of equations $17x + my + 102 = 0$ and $23x + 299y + 138 = 0$ have infinite number of solutions?",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "221"
         },
         {
           "label": "B",
-          "text": "6"
+          "text": "223"
         },
         {
           "label": "C",
-          "text": "7"
+          "text": "220"
         },
         {
           "label": "D",
-          "text": "4"
+          "text": "219"
         }
       ],
       "correctOption": "A",
-      "solution": "$d = \\sqrt{(7-4)^2 + (12-8)^2} = \\sqrt{3^2 + 4^2} = 5$."
+      "solution": "For infinite solutions:\n$$\\frac{17}{23} = \\frac{m}{299} = \\frac{102}{138}$$\nNotice that $\\frac{102}{138} = \\frac{17}{23}$.\n$$\\frac{m}{299} = \\frac{17}{23}$$\nSince $299 = 23 \\times 13$:\n$$m = 17 \\times 13 = 221$$"
     },
     {
       "questionNumber": 85,
-      "typeHeader": "TYPE - II: MIDPOINT FORMULA",
-      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
-      "questionText": "Find the coordinates of the midpoint of line segment joining $P(2, 4)$ and $Q(8, 10)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC Phase-XI 28/06/2023 (Shift-02)",
+      "questionText": "For what value of q does the system of equations $38x + qy + 171 = 0$ and $46x + 414y + 207 = 0$ have infinite number of solutions?",
       "options": [
         {
           "label": "A",
-          "text": "$(5, 7)$"
+          "text": "380"
         },
         {
           "label": "B",
-          "text": "$(6, 7)$"
+          "text": "345"
         },
         {
           "label": "C",
-          "text": "$(5, 8)$"
+          "text": "342"
         },
         {
           "label": "D",
-          "text": "$(4, 6)$"
+          "text": "350"
         }
       ],
-      "correctOption": "A",
-      "solution": "$M = (\\frac{2+8}{2}, \\frac{4+10}{2}) = (5, 7)$."
+      "correctOption": "C",
+      "solution": "For infinite solutions:\n$$\\frac{38}{46} = \\frac{q}{414} = \\frac{171}{207}$$\nHere $\\frac{38}{46} = \\frac{19}{23}$ and $\\frac{171}{207} = \\frac{19}{23}$.\n$$\\frac{q}{414} = \\frac{19}{23}$$\nSince $414 = 23 \\times 18$:\n$$q = 19 \\times 18 = 342$$"
     },
     {
       "questionNumber": 86,
-      "typeHeader": "TYPE - I: SLOPE OF LINE",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "Find the slope of line passing through points $(1, 2)$ and $(4, 8)$.",
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC CGL TIER-II 06/03/2023",
+      "questionText": "For which of the following values of the system of equations $18x - 72y + 13 = 0$ and $7x - my - 17 = 0$ will have no solution?",
       "options": [
         {
           "label": "A",
-          "text": "$2$"
+          "text": "9"
         },
         {
           "label": "B",
-          "text": "$\\frac{1}{2}$"
-        },
-        {
-          "label": "C",
-          "text": "$-2$"
-        },
-        {
-          "label": "D",
-          "text": "$3$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$m = \\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2$."
-    },
-    {
-      "questionNumber": 87,
-      "typeHeader": "TYPE - III: INTERCEPT FORM",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "Find the x-intercept of the line $2x + 3y = 12$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "6"
-        },
-        {
-          "label": "B",
-          "text": "4"
-        },
-        {
-          "label": "C",
           "text": "12"
         },
         {
-          "label": "D",
-          "text": "3"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "Put $y = 0 \\Rightarrow 2x = 12 \\Rightarrow x = 6$."
-    },
-    {
-      "questionNumber": 88,
-      "typeHeader": "TYPE - IV: AREA OF TRIANGLE",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "Find the area of triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 6)$.",
-      "options": [
-        {
-          "label": "A",
-          "text": "12"
-        },
-        {
-          "label": "B",
+          "label": "C",
           "text": "24"
         },
         {
+          "label": "D",
+          "text": "28"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "For no solution:\n$$\\frac{18}{7} = \\frac{-72}{-m} \\neq \\frac{13}{-17}$$\n$$\\frac{18}{7} = \\frac{72}{m}$$\n$$18m = 7 \\times 72 \\implies m = 7 \\times 4 = 28$$"
+    },
+    {
+      "questionNumber": 87,
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
+      "questionText": "For what value of p does the system of equations $18x + 36y + 45 = 0$ and $px - 54y + 67 = 0$ have no solution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "54"
+        },
+        {
+          "label": "B",
+          "text": "-27"
+        },
+        {
           "label": "C",
-          "text": "10"
+          "text": "-36"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "27"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\Delta = \\frac{1}{2} \\times 4 \\times 6 = 12$ sq units."
+      "correctOption": "B",
+      "solution": "For no solution:\n$$\\frac{18}{p} = \\frac{36}{-54} \\neq \\frac{45}{67}$$\n$$\\frac{18}{p} = -\\frac{2}{3}$$\n$$2p = -54 \\implies p = -27$$"
+    },
+    {
+      "questionNumber": 88,
+      "typeHeader": "TYPE - XII: SYSTEM OF EQUATIONS",
+      "examShift": "SSC Phase-XI 28/06/2023 (Shift-03)",
+      "questionText": "What is the solution to the following system of linear equations?\n$3x - 9y + 4z = 5$\n$2x + 7y + z = 12$\n$3x - z = 0$",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x = \\frac{143}{150}, y = \\frac{31}{37}, z = \\frac{143}{50}$"
+        },
+        {
+          "label": "B",
+          "text": "$x = \\frac{143}{150}, y = \\frac{31}{30}, z = \\frac{143}{50}$"
+        },
+        {
+          "label": "C",
+          "text": "$x = \\frac{137}{150}, y = \\frac{31}{30}, z = \\frac{143}{50}$"
+        },
+        {
+          "label": "D",
+          "text": "$x = \\frac{143}{150}, y = \\frac{31}{30}, z = \\frac{143}{51}$"
+        }
+      ],
+      "correctOption": "B",
+      "solution": "From equation (3): $z = 3x$.\nSubstitute $z = 3x$ into (1) and (2):\n1) $3x - 9y + 4(3x) = 5 \\implies 15x - 9y = 5$\n2) $2x + 7y + 3x = 12 \\implies 5x + 7y = 12$\nMultiply the second equation by 3:\n$$15x + 21y = 36$$\nSubtract $15x - 9y = 5$:\n$$30y = 31 \\implies y = \\frac{31}{30}$$\nSubstitute $y$ back:\n$$5x = 12 - 7\\left(\\frac{31}{30}\\right) = \\frac{360 - 217}{30} = \\frac{143}{30} \\implies x = \\frac{143}{150}$$\n$$z = 3x = 3\\left(\\frac{143}{150}\\right) = \\frac{143}{50}$$\nThus, $x = \\frac{143}{150}, y = \\frac{31}{30}, z = \\frac{143}{50}$."
     }
   ]
 }

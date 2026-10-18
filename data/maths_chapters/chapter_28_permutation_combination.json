@@ -2,950 +2,300 @@
   "chapterNumber": 28,
   "chapterCode": "SSC_MATHS_CH_28_PERMUTATION_COMBINATION",
   "chapterTitleEnglish": "Permutation & Combination",
-  "chapterTitleHindi": "क्रमचय और संचय",
+  "chapterTitleHindi": "क्रमचय एवं संचय",
   "totalQuestions": 41,
   "questions": [
     {
       "questionNumber": 1,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
-      "questionText": "In how many different ways can the letters of the word 'MATHS' be arranged?",
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "If the digits are not allowed to repeat in any number formed by using the digits $0, 2, 4, 6, 8$, then the number of all numbers greater than $10,000$ is equal to:",
       "options": [
         {
           "label": "A",
-          "text": "96"
+          "text": "90"
         },
         {
           "label": "B",
-          "text": "120"
+          "text": "94"
         },
         {
           "label": "C",
-          "text": "144"
-        },
-        {
-          "label": "D",
-          "text": "60"
-        }
-      ],
-      "correctOption": "B",
-      "solution": "The word 'MATHS' has 5 letters. Arrangements $= 5! = 120$."
-    },
-    {
-      "questionNumber": 2,
-      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
-      "questionText": "Find the number of diagonals in a regular polygon with $7$ vertices.",
-      "options": [
-        {
-          "label": "A",
-          "text": "17"
-        },
-        {
-          "label": "B",
-          "text": "12"
-        },
-        {
-          "label": "C",
-          "text": "14"
-        },
-        {
-          "label": "D",
-          "text": "14"
-        }
-      ],
-      "correctOption": "C",
-      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{7 \\times 4}{2} = 14$."
-    },
-    {
-      "questionNumber": 3,
-      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-01)",
-      "questionText": "In a gathering of $9$ participants, every participant shakes hands with each other once. Find total handshakes.",
-      "options": [
-        {
-          "label": "A",
-          "text": "40"
-        },
-        {
-          "label": "B",
-          "text": "32"
-        },
-        {
-          "label": "C",
-          "text": "18"
-        },
-        {
-          "label": "D",
-          "text": "36"
-        }
-      ],
-      "correctOption": "D",
-      "solution": "$^nC_2 = ^{9}C_2 = \\frac{9 \\times 8}{2} = 36$."
-    },
-    {
-      "questionNumber": 4,
-      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
-      "examShift": "SSC CPO 03/10/2023 (Shift-03)",
-      "questionText": "In how many ways can $4$ persons be arranged around a circular conference table?",
-      "options": [
-        {
-          "label": "A",
-          "text": "24"
-        },
-        {
-          "label": "B",
-          "text": "6"
-        },
-        {
-          "label": "C",
-          "text": "3"
-        },
-        {
-          "label": "D",
-          "text": "12"
-        }
-      ],
-      "correctOption": "B",
-      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (4-1)! = 6$."
-    },
-    {
-      "questionNumber": 5,
-      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
-      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
-      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $6$ members?",
-      "options": [
-        {
-          "label": "A",
-          "text": "15"
-        },
-        {
-          "label": "B",
-          "text": "17"
-        },
-        {
-          "label": "C",
-          "text": "13"
-        },
-        {
-          "label": "D",
-          "text": "30"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$^nC_r = ^{6}C_2 = \\frac{6 \\times 5}{2} = 15$."
-    },
-    {
-      "questionNumber": 6,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "In how many different ways can the letters of the word 'LUCKNOW' be arranged?",
-      "options": [
-        {
-          "label": "A",
-          "text": "5016"
-        },
-        {
-          "label": "B",
-          "text": "5064"
-        },
-        {
-          "label": "C",
-          "text": "5040"
-        },
-        {
-          "label": "D",
-          "text": "2520"
-        }
-      ],
-      "correctOption": "C",
-      "solution": "The word 'LUCKNOW' has 7 letters. Arrangements $= 7! = 5040$."
-    },
-    {
-      "questionNumber": 7,
-      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
-      "questionText": "Find the number of diagonals in a regular polygon with $12$ vertices.",
-      "options": [
-        {
-          "label": "A",
-          "text": "57"
-        },
-        {
-          "label": "B",
-          "text": "52"
-        },
-        {
-          "label": "C",
-          "text": "24"
-        },
-        {
-          "label": "D",
-          "text": "54"
-        }
-      ],
-      "correctOption": "D",
-      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{12 \\times 9}{2} = 54$."
-    },
-    {
-      "questionNumber": 8,
-      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
-      "questionText": "In a gathering of $14$ participants, every participant shakes hands with each other once. Find total handshakes.",
-      "options": [
-        {
-          "label": "A",
           "text": "95"
         },
         {
+          "label": "D",
+          "text": "96"
+        }
+      ],
+      "solution": "A number greater than $10,000$ formed using the $5$ digits $0, 2, 4, 6, 8$ without repetition must be a $5$-digit number. The first digit (ten-thousands place) cannot be $0$, so it can be filled by any of the $4$ digits $\\{2, 4, 6, 8\\}$ in $4$ ways. The remaining $4$ places can be filled by the remaining $4$ digits in $4! = 4 \\times 3 \\times 2 \\times 1 = 24$ ways. Hence, the total number of such numbers $= 4 \\times 24 = 96$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 2,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many ways can $5$ men draw water from $5$ taps if no tap can be used more than once?",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
           "label": "B",
-          "text": "87"
+          "text": "125"
         },
         {
           "label": "C",
-          "text": "91"
+          "text": "121"
         },
         {
           "label": "D",
-          "text": "28"
+          "text": "122"
         }
       ],
-      "correctOption": "C",
-      "solution": "$^nC_2 = ^{14}C_2 = \\frac{14 \\times 13}{2} = 91$."
+      "solution": "The first man can choose any of the $5$ taps. The second man can choose any of the remaining $4$ taps, the third man can choose from $3$ taps, the fourth from $2$ taps, and the fifth from the $1$ remaining tap. Hence, total number of ways $= 5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 3,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many ways can the letters of the word 'QUANTS' be arranged (Repetition is not allowed)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "725"
+        },
+        {
+          "label": "B",
+          "text": "722"
+        },
+        {
+          "label": "C",
+          "text": "720"
+        },
+        {
+          "label": "D",
+          "text": "723"
+        }
+      ],
+      "solution": "The word 'QUANTS' consists of $6$ distinct letters: Q, U, A, N, T, S. The total number of arrangements of these $6$ letters $= 6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720$.",
+      "correctOption": "C"
+    },
+    {
+      "questionNumber": 4,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "How many words with or without meaning, can be formed by using all the letters of the word 'DELHI' using each letter exactly once?",
+      "options": [
+        {
+          "label": "A",
+          "text": "125"
+        },
+        {
+          "label": "B",
+          "text": "122"
+        },
+        {
+          "label": "C",
+          "text": "124"
+        },
+        {
+          "label": "D",
+          "text": "120"
+        }
+      ],
+      "solution": "The word 'DELHI' contains $5$ distinct letters: D, E, L, H, I. The number of arrangements taking all letters at a time $= 5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 5,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many different ways can the letters of the word 'ADITYA' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "336"
+        },
+        {
+          "label": "B",
+          "text": "360"
+        },
+        {
+          "label": "C",
+          "text": "335"
+        },
+        {
+          "label": "D",
+          "text": "364"
+        }
+      ],
+      "solution": "The word 'ADITYA' contains $6$ letters in total, where 'A' appears $2$ times and D, I, T, Y appear $1$ time each. Total number of arrangements $= \\frac{6!}{2!} = \\frac{720}{2} = 360$.",
+      "correctOption": "B"
+    },
+    {
+      "questionNumber": 6,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many different ways can the letters of the word 'BANKING' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2520"
+        },
+        {
+          "label": "B",
+          "text": "2522"
+        },
+        {
+          "label": "C",
+          "text": "2521"
+        },
+        {
+          "label": "D",
+          "text": "2525"
+        }
+      ],
+      "solution": "The word 'BANKING' contains $7$ letters in total, where 'N' appears $2$ times and B, A, K, I, G appear $1$ time each. Total number of arrangements $= \\frac{7!}{2!} = \\frac{5040}{2} = 2520$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 7,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many different ways can the letters of the word 'RUMOUR' be arranged?",
+      "options": [
+        {
+          "label": "A",
+          "text": "184"
+        },
+        {
+          "label": "B",
+          "text": "187"
+        },
+        {
+          "label": "C",
+          "text": "179"
+        },
+        {
+          "label": "D",
+          "text": "180"
+        }
+      ],
+      "solution": "The word 'RUMOUR' has $6$ letters in total, where 'R' appears $2$ times, 'U' appears $2$ times, and M, O appear $1$ time each. Total number of arrangements $= \\frac{6!}{2! \\times 2!} = \\frac{720}{2 \\times 2} = 180$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 8,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "How many arrangements can be made out of the letters of the word 'ENGINEERING'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "27720"
+        },
+        {
+          "label": "B",
+          "text": "27725"
+        },
+        {
+          "label": "C",
+          "text": "27722"
+        },
+        {
+          "label": "D",
+          "text": "27719"
+        }
+      ],
+      "solution": "The word 'ENGINEERING' has $11$ letters: 'E' appears $3$ times, 'N' appears $3$ times, 'G' appears $2$ times, 'I' appears $2$ times, and 'R' appears $1$ time. Total number of arrangements $= \\frac{11!}{3! \\times 3! \\times 2! \\times 2!} = \\frac{39,916,800}{6 \\times 6 \\times 2 \\times 2} = \\frac{39,916,800}{144} = 27,720$.",
+      "correctOption": "A"
     },
     {
       "questionNumber": 9,
-      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "In how many ways can $5$ persons be arranged around a circular conference table?",
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "How many words can be formed from the letters of the word 'TRIANGLE' with T always at the beginning and E at the end?",
       "options": [
         {
           "label": "A",
-          "text": "120"
+          "text": "722"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "725"
         },
         {
           "label": "C",
-          "text": "12"
+          "text": "720"
         },
         {
           "label": "D",
-          "text": "30"
+          "text": "723"
         }
       ],
-      "correctOption": "B",
-      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (5-1)! = 24$."
+      "solution": "The word 'TRIANGLE' has $8$ distinct letters. Fixing 'T' at the first position and 'E' at the last position leaves $6$ positions to be filled by the remaining $6$ letters (R, I, A, N, G, L). Total number of arrangements $= 6! = 720$.",
+      "correctOption": "C"
     },
     {
       "questionNumber": 10,
-      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
-      "examShift": "SSC Phase-XII 25/06/2024 (Shift-04)",
-      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $7$ members?",
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many different ways can the letters of the word 'DESIGN' be arranged so that the vowels are at the two ends?",
       "options": [
         {
           "label": "A",
-          "text": "23"
-        },
-        {
-          "label": "B",
-          "text": "19"
-        },
-        {
-          "label": "C",
-          "text": "42"
-        },
-        {
-          "label": "D",
-          "text": "21"
-        }
-      ],
-      "correctOption": "D",
-      "solution": "$^nC_r = ^{7}C_2 = \\frac{7 \\times 6}{2} = 21$."
-    },
-    {
-      "questionNumber": 11,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
-      "questionText": "In how many different ways can the letters of the word 'KANPUR' be arranged?",
-      "options": [
-        {
-          "label": "A",
-          "text": "720"
-        },
-        {
-          "label": "B",
-          "text": "696"
-        },
-        {
-          "label": "C",
-          "text": "744"
-        },
-        {
-          "label": "D",
-          "text": "360"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "The word 'KANPUR' has 6 letters. Arrangements $= 6! = 720$."
-    },
-    {
-      "questionNumber": 12,
-      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "Find the number of diagonals in a regular polygon with $9$ vertices.",
-      "options": [
-        {
-          "label": "A",
-          "text": "30"
-        },
-        {
-          "label": "B",
-          "text": "27"
-        },
-        {
-          "label": "C",
-          "text": "25"
-        },
-        {
-          "label": "D",
-          "text": "18"
-        }
-      ],
-      "correctOption": "B",
-      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{9 \\times 6}{2} = 27$."
-    },
-    {
-      "questionNumber": 13,
-      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
-      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
-      "questionText": "In a gathering of $7$ participants, every participant shakes hands with each other once. Find total handshakes.",
-      "options": [
-        {
-          "label": "A",
-          "text": "25"
-        },
-        {
-          "label": "B",
-          "text": "17"
-        },
-        {
-          "label": "C",
-          "text": "14"
-        },
-        {
-          "label": "D",
-          "text": "21"
-        }
-      ],
-      "correctOption": "D",
-      "solution": "$^nC_2 = ^{7}C_2 = \\frac{7 \\times 6}{2} = 21$."
-    },
-    {
-      "questionNumber": 14,
-      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
-      "examShift": "SSC CHSL 11/08/2023 (Shift-04)",
-      "questionText": "In how many ways can $6$ persons be arranged around a circular conference table?",
-      "options": [
-        {
-          "label": "A",
-          "text": "720"
-        },
-        {
-          "label": "B",
-          "text": "60"
-        },
-        {
-          "label": "C",
-          "text": "120"
-        },
-        {
-          "label": "D",
-          "text": "126"
-        }
-      ],
-      "correctOption": "C",
-      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (6-1)! = 120$."
-    },
-    {
-      "questionNumber": 15,
-      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
-      "examShift": "SSC CPO 04/10/2023 (Shift-01)",
-      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $8$ members?",
-      "options": [
-        {
-          "label": "A",
-          "text": "28"
-        },
-        {
-          "label": "B",
-          "text": "30"
-        },
-        {
-          "label": "C",
-          "text": "26"
-        },
-        {
-          "label": "D",
-          "text": "56"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$^nC_r = ^{8}C_2 = \\frac{8 \\times 7}{2} = 28$."
-    },
-    {
-      "questionNumber": 16,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
-      "questionText": "In how many different ways can the letters of the word 'BHOPAL' be arranged?",
-      "options": [
-        {
-          "label": "A",
-          "text": "720"
-        },
-        {
-          "label": "B",
-          "text": "696"
-        },
-        {
-          "label": "C",
-          "text": "744"
-        },
-        {
-          "label": "D",
-          "text": "360"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "The word 'BHOPAL' has 6 letters. Arrangements $= 6! = 720$."
-    },
-    {
-      "questionNumber": 17,
-      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
-      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
-      "questionText": "Find the number of diagonals in a regular polygon with $6$ vertices.",
-      "options": [
-        {
-          "label": "A",
-          "text": "12"
-        },
-        {
-          "label": "B",
-          "text": "9"
-        },
-        {
-          "label": "C",
-          "text": "7"
-        },
-        {
-          "label": "D",
-          "text": "12"
-        }
-      ],
-      "correctOption": "B",
-      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{6 \\times 3}{2} = 9$."
-    },
-    {
-      "questionNumber": 18,
-      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "In a gathering of $12$ participants, every participant shakes hands with each other once. Find total handshakes.",
-      "options": [
-        {
-          "label": "A",
-          "text": "70"
-        },
-        {
-          "label": "B",
-          "text": "62"
-        },
-        {
-          "label": "C",
-          "text": "66"
-        },
-        {
-          "label": "D",
-          "text": "24"
-        }
-      ],
-      "correctOption": "C",
-      "solution": "$^nC_2 = ^{12}C_2 = \\frac{12 \\times 11}{2} = 66$."
-    },
-    {
-      "questionNumber": 19,
-      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
-      "questionText": "In how many ways can $7$ persons be arranged around a circular conference table?",
-      "options": [
-        {
-          "label": "A",
-          "text": "5040"
-        },
-        {
-          "label": "B",
-          "text": "360"
-        },
-        {
-          "label": "C",
-          "text": "726"
-        },
-        {
-          "label": "D",
-          "text": "720"
-        }
-      ],
-      "correctOption": "D",
-      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (7-1)! = 720$."
-    },
-    {
-      "questionNumber": 20,
-      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
-      "examShift": "SSC CPO 28/06/2024 (Shift-01)",
-      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $5$ members?",
-      "options": [
-        {
-          "label": "A",
-          "text": "12"
-        },
-        {
-          "label": "B",
-          "text": "10"
-        },
-        {
-          "label": "C",
-          "text": "8"
-        },
-        {
-          "label": "D",
-          "text": "20"
-        }
-      ],
-      "correctOption": "B",
-      "solution": "$^nC_r = ^{5}C_2 = \\frac{5 \\times 4}{2} = 10$."
-    },
-    {
-      "questionNumber": 21,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC Phase-XII 26/06/2024 (Shift-03)",
-      "questionText": "In how many different ways can the letters of the word 'CHENNAI' be arranged?",
-      "options": [
-        {
-          "label": "A",
-          "text": "5040"
-        },
-        {
-          "label": "B",
-          "text": "5016"
-        },
-        {
-          "label": "C",
-          "text": "5064"
-        },
-        {
-          "label": "D",
-          "text": "2520"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "The word 'CHENNAI' has 7 letters. Arrangements $= 7! = 5040$."
-    },
-    {
-      "questionNumber": 22,
-      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
-      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
-      "questionText": "Find the number of diagonals in a regular polygon with $11$ vertices.",
-      "options": [
-        {
-          "label": "A",
-          "text": "47"
-        },
-        {
-          "label": "B",
-          "text": "42"
-        },
-        {
-          "label": "C",
-          "text": "44"
-        },
-        {
-          "label": "D",
-          "text": "22"
-        }
-      ],
-      "correctOption": "C",
-      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{11 \\times 8}{2} = 44$."
-    },
-    {
-      "questionNumber": 23,
-      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
-      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
-      "questionText": "In a gathering of $17$ participants, every participant shakes hands with each other once. Find total handshakes.",
-      "options": [
-        {
-          "label": "A",
-          "text": "140"
-        },
-        {
-          "label": "B",
-          "text": "132"
-        },
-        {
-          "label": "C",
-          "text": "34"
-        },
-        {
-          "label": "D",
-          "text": "136"
-        }
-      ],
-      "correctOption": "D",
-      "solution": "$^nC_2 = ^{17}C_2 = \\frac{17 \\times 16}{2} = 136$."
-    },
-    {
-      "questionNumber": 24,
-      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "In how many ways can $4$ persons be arranged around a circular conference table?",
-      "options": [
-        {
-          "label": "A",
-          "text": "24"
-        },
-        {
-          "label": "B",
-          "text": "3"
-        },
-        {
-          "label": "C",
-          "text": "6"
-        },
-        {
-          "label": "D",
-          "text": "12"
-        }
-      ],
-      "correctOption": "C",
-      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (4-1)! = 6$."
-    },
-    {
-      "questionNumber": 25,
-      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
-      "examShift": "SSC CHSL 14/08/2023 (Shift-03)",
-      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $6$ members?",
-      "options": [
-        {
-          "label": "A",
-          "text": "17"
-        },
-        {
-          "label": "B",
-          "text": "15"
-        },
-        {
-          "label": "C",
-          "text": "13"
-        },
-        {
-          "label": "D",
-          "text": "30"
-        }
-      ],
-      "correctOption": "B",
-      "solution": "$^nC_r = ^{6}C_2 = \\frac{6 \\times 5}{2} = 15$."
-    },
-    {
-      "questionNumber": 26,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC CPO 04/10/2023 (Shift-02)",
-      "questionText": "In how many different ways can the letters of the word 'DELHI' be arranged?",
-      "options": [
-        {
-          "label": "A",
-          "text": "96"
-        },
-        {
-          "label": "B",
-          "text": "144"
-        },
-        {
-          "label": "C",
-          "text": "60"
-        },
-        {
-          "label": "D",
-          "text": "120"
-        }
-      ],
-      "correctOption": "D",
-      "solution": "The word 'DELHI' has 5 letters. Arrangements $= 5! = 120$."
-    },
-    {
-      "questionNumber": 27,
-      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
-      "examShift": "SSC CGL Tier-II 26/10/2023 (Shift-01)",
-      "questionText": "Find the number of diagonals in a regular polygon with $8$ vertices.",
-      "options": [
-        {
-          "label": "A",
-          "text": "20"
-        },
-        {
-          "label": "B",
-          "text": "23"
-        },
-        {
-          "label": "C",
-          "text": "18"
-        },
-        {
-          "label": "D",
-          "text": "16"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{8 \\times 5}{2} = 20$."
-    },
-    {
-      "questionNumber": 28,
-      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
-      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
-      "questionText": "In a gathering of $10$ participants, every participant shakes hands with each other once. Find total handshakes.",
-      "options": [
-        {
-          "label": "A",
-          "text": "49"
-        },
-        {
-          "label": "B",
           "text": "45"
         },
         {
+          "label": "B",
+          "text": "47"
+        },
+        {
           "label": "C",
-          "text": "41"
+          "text": "46"
         },
         {
           "label": "D",
-          "text": "20"
+          "text": "48"
         }
       ],
-      "correctOption": "B",
-      "solution": "$^nC_2 = ^{10}C_2 = \\frac{10 \\times 9}{2} = 45$."
+      "solution": "The word 'DESIGN' has $6$ letters consisting of $2$ vowels (E, I) and $4$ consonants (D, S, G, N). The $2$ vowels can be placed at the two extreme ends in $2! = 2$ ways. The remaining $4$ middle positions can be filled by the $4$ consonants in $4! = 24$ ways. Total number of arrangements $= 2! \\times 4! = 2 \\times 24 = 48$.",
+      "correctOption": "D"
     },
     {
-      "questionNumber": 29,
-      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
-      "questionText": "In how many ways can $5$ persons be arranged around a circular conference table?",
+      "questionNumber": 11,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many different ways can the letters of the word 'CORPORATION' be arranged so that the vowels always come together?",
       "options": [
         {
           "label": "A",
-          "text": "120"
+          "text": "50400"
         },
         {
           "label": "B",
-          "text": "12"
+          "text": "50700"
         },
         {
           "label": "C",
-          "text": "30"
+          "text": "50500"
         },
         {
           "label": "D",
-          "text": "24"
+          "text": "50600"
         }
       ],
-      "correctOption": "D",
-      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (5-1)! = 24$."
+      "solution": "The word 'CORPORATION' has $11$ letters: Vowels are O, O, A, I, O ($5$ vowels: 'O' appears $3$ times, 'A' appears $1$ time, 'I' appears $1$ time). Consonants are C, R, P, R, T, N ($6$ consonants: 'R' appears $2$ times, C, P, T, N appear $1$ time each). Treating the group of vowels as a single entity, we have $6 + 1 = 7$ entities. These can be arranged in $\\frac{7!}{2!} = \\frac{5040}{2} = 2520$ ways. The $5$ vowels within the group can be arranged among themselves in $\\frac{5!}{3!} = \\frac{120}{6} = 20$ ways. Total number of ways $= 2520 \\times 20 = 50,400$.",
+      "correctOption": "A"
     },
     {
-      "questionNumber": 30,
-      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $7$ members?",
-      "options": [
-        {
-          "label": "A",
-          "text": "23"
-        },
-        {
-          "label": "B",
-          "text": "19"
-        },
-        {
-          "label": "C",
-          "text": "21"
-        },
-        {
-          "label": "D",
-          "text": "42"
-        }
-      ],
-      "correctOption": "C",
-      "solution": "$^nC_r = ^{7}C_2 = \\frac{7 \\times 6}{2} = 21$."
-    },
-    {
-      "questionNumber": 31,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC CPO 28/06/2024 (Shift-02)",
-      "questionText": "In how many different ways can the letters of the word 'KOLKATA' be arranged?",
-      "options": [
-        {
-          "label": "A",
-          "text": "5040"
-        },
-        {
-          "label": "B",
-          "text": "5016"
-        },
-        {
-          "label": "C",
-          "text": "5064"
-        },
-        {
-          "label": "D",
-          "text": "2520"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "The word 'KOLKATA' has 7 letters. Arrangements $= 7! = 5040$."
-    },
-    {
-      "questionNumber": 32,
-      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
-      "examShift": "SSC Phase-XI 30/06/2023 (Shift-02)",
-      "questionText": "Find the number of diagonals in a regular polygon with $5$ vertices.",
-      "options": [
-        {
-          "label": "A",
-          "text": "5"
-        },
-        {
-          "label": "B",
-          "text": "8"
-        },
-        {
-          "label": "C",
-          "text": "3"
-        },
-        {
-          "label": "D",
-          "text": "10"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{5 \\times 2}{2} = 5$."
-    },
-    {
-      "questionNumber": 33,
-      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "In a gathering of $15$ participants, every participant shakes hands with each other once. Find total handshakes.",
-      "options": [
-        {
-          "label": "A",
-          "text": "109"
-        },
-        {
-          "label": "B",
-          "text": "105"
-        },
-        {
-          "label": "C",
-          "text": "101"
-        },
-        {
-          "label": "D",
-          "text": "30"
-        }
-      ],
-      "correctOption": "B",
-      "solution": "$^nC_2 = ^{15}C_2 = \\frac{15 \\times 14}{2} = 105$."
-    },
-    {
-      "questionNumber": 34,
-      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
-      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
-      "questionText": "In how many ways can $6$ persons be arranged around a circular conference table?",
-      "options": [
-        {
-          "label": "A",
-          "text": "720"
-        },
-        {
-          "label": "B",
-          "text": "60"
-        },
-        {
-          "label": "C",
-          "text": "120"
-        },
-        {
-          "label": "D",
-          "text": "126"
-        }
-      ],
-      "correctOption": "C",
-      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (6-1)! = 120$."
-    },
-    {
-      "questionNumber": 35,
-      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
-      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $8$ members?",
-      "options": [
-        {
-          "label": "A",
-          "text": "30"
-        },
-        {
-          "label": "B",
-          "text": "26"
-        },
-        {
-          "label": "C",
-          "text": "56"
-        },
-        {
-          "label": "D",
-          "text": "28"
-        }
-      ],
-      "correctOption": "D",
-      "solution": "$^nC_r = ^{8}C_2 = \\frac{8 \\times 7}{2} = 28$."
-    },
-    {
-      "questionNumber": 36,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC CHSL 17/08/2023 (Shift-03)",
-      "questionText": "In how many different ways can the letters of the word 'VARANASI' be arranged?",
-      "options": [
-        {
-          "label": "A",
-          "text": "40296"
-        },
-        {
-          "label": "B",
-          "text": "40320"
-        },
-        {
-          "label": "C",
-          "text": "40344"
-        },
-        {
-          "label": "D",
-          "text": "20160"
-        }
-      ],
-      "correctOption": "B",
-      "solution": "The word 'VARANASI' has 8 letters. Arrangements $= 8! = 40320$."
-    },
-    {
-      "questionNumber": 37,
-      "typeHeader": "TYPE - II: DIAGONALS OF A POLYGON",
-      "examShift": "SSC CPO 05/10/2023 (Shift-01)",
-      "questionText": "Find the number of diagonals in a regular polygon with $10$ vertices.",
+      "questionNumber": 12,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many different ways can the letters of the word 'DETAIL' be arranged such that the vowels must occupy only the odd positions?",
       "options": [
         {
           "label": "A",
@@ -953,123 +303,773 @@
         },
         {
           "label": "B",
-          "text": "38"
+          "text": "36"
         },
         {
           "label": "C",
+          "text": "34"
+        },
+        {
+          "label": "D",
           "text": "33"
-        },
-        {
-          "label": "D",
-          "text": "20"
         }
       ],
-      "correctOption": "A",
-      "solution": "Formula: $D = \\frac{n(n-3)}{2} = \\frac{10 \\times 7}{2} = 35$."
+      "solution": "The word 'DETAIL' has $6$ letters, so there are $6$ positions: $1, 2, 3, 4, 5, 6$. The odd positions are $1, 3, 5$ ($3$ positions). The vowels are E, A, I ($3$ vowels), and the consonants are D, T, L ($3$ consonants). The $3$ vowels can occupy the $3$ odd positions in $3! = 6$ ways. The $3$ consonants can occupy the remaining $3$ even positions ($2, 4, 6$) in $3! = 6$ ways. Total number of ways $= 3! \\times 3! = 6 \\times 6 = 36$.",
+      "correctOption": "B"
     },
     {
-      "questionNumber": 38,
-      "typeHeader": "TYPE - III: HANDSHAKES COMBINATIONS",
-      "examShift": "SSC CGL Tier-II 27/10/2023 (Shift-01)",
-      "questionText": "In a gathering of $8$ participants, every participant shakes hands with each other once. Find total handshakes.",
+      "questionNumber": 13,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "Find the number of words that can be formed using letters 'L', 'M', 'N' and 'O'?",
       "options": [
         {
           "label": "A",
-          "text": "32"
+          "text": "64"
         },
         {
           "label": "B",
-          "text": "24"
+          "text": "65"
         },
         {
           "label": "C",
-          "text": "28"
+          "text": "63"
         },
         {
           "label": "D",
-          "text": "16"
+          "text": "62"
         }
       ],
-      "correctOption": "C",
-      "solution": "$^nC_2 = ^{8}C_2 = \\frac{8 \\times 7}{2} = 28$."
+      "solution": "Words can be formed using $1, 2, 3,$ or $4$ of the given $4$ distinct letters: Number of $1$-letter words $= ^4P_1 = 4$; Number of $2$-letter words $= ^4P_2 = 4 \\times 3 = 12$; Number of $3$-letter words $= ^4P_3 = 4 \\times 3 \\times 2 = 24$; Number of $4$-letter words $= ^4P_4 = 4! = 24$. Total number of words $= 4 + 12 + 24 + 24 = 64$.",
+      "correctOption": "A"
     },
     {
-      "questionNumber": 39,
-      "typeHeader": "TYPE - IV: CIRCULAR PERMUTATION",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "In how many ways can $7$ persons be arranged around a circular conference table?",
+      "questionNumber": 14,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "How many four-digit numbers can be formed from the digits $1, 2, 3, 4, 5, 6$ (Repetition of digits not allowed)?",
       "options": [
         {
           "label": "A",
-          "text": "5040"
-        },
-        {
-          "label": "B",
           "text": "360"
         },
         {
+          "label": "B",
+          "text": "364"
+        },
+        {
           "label": "C",
-          "text": "726"
+          "text": "365"
+        },
+        {
+          "label": "D",
+          "text": "362"
+        }
+      ],
+      "solution": "We need to form $4$-digit numbers using $6$ distinct non-zero digits without repetition. Total numbers $= ^6P_4 = \\frac{6!}{(6-4)!} = \\frac{6!}{2!} = 6 \\times 5 \\times 4 \\times 3 = 360$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 15,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "How many 3 letter words with or without meaning, can be formed out of the letters of the word 'LOGARITHMS', if repetition of letters is not allowed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "722"
+        },
+        {
+          "label": "B",
+          "text": "724"
+        },
+        {
+          "label": "C",
+          "text": "721"
         },
         {
           "label": "D",
           "text": "720"
         }
       ],
-      "correctOption": "D",
-      "solution": "Circular permutation of $n$ distinct objects is $(n-1)! = (7-1)! = 720$."
+      "solution": "The word 'LOGARITHMS' contains $10$ distinct letters. The number of $3$-letter words that can be formed without repetition $= ^{10}P_3 = 10 \\times 9 \\times 8 = 720$.",
+      "correctOption": "D"
     },
     {
-      "questionNumber": 40,
-      "typeHeader": "TYPE - V: COMMITTEE COMBINATIONS",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
-      "questionText": "In how many ways can a committee of $2$ members be formed from a group of $5$ members?",
+      "questionNumber": 16,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "How many words of three letters can be created using only consonants of the English alphabet?",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "7980"
         },
         {
           "label": "B",
-          "text": "8"
+          "text": "7984"
         },
         {
           "label": "C",
-          "text": "10"
+          "text": "7982"
+        },
+        {
+          "label": "D",
+          "text": "7985"
+        }
+      ],
+      "solution": "There are $21$ consonants in the English alphabet. The number of $3$-letter words formed without repetition $= ^{21}P_3 = 21 \\times 20 \\times 19 = 7980$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 17,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "If there are $10$ pairs of socks and you choose $2$ pairs out of them, then find the number of permutations if repetition is not allowed:",
+      "options": [
+        {
+          "label": "A",
+          "text": "90"
+        },
+        {
+          "label": "B",
+          "text": "92"
+        },
+        {
+          "label": "C",
+          "text": "93"
+        },
+        {
+          "label": "D",
+          "text": "95"
+        }
+      ],
+      "solution": "The number of permutations of selecting and arranging $2$ pairs out of $10$ pairs without repetition is given by $^{10}P_2 = \\frac{10!}{(10-2)!} = 10 \\times 9 = 90$. (Note: If repetition were allowed, total permutations would be $10^2 = 100$).",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 18,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "How many 3 letter words with or without meaning can be formed out of the letters of the word 'SWING' when repetition of letters is not allowed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "65"
+        },
+        {
+          "label": "C",
+          "text": "64"
+        },
+        {
+          "label": "D",
+          "text": "63"
+        }
+      ],
+      "solution": "The word 'SWING' has $5$ distinct letters (S, W, I, N, G). The number of $3$-letter words formed without repetition $= ^5P_3 = 5 \\times 4 \\times 3 = 60$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 19,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "How many 3 letter words with or without meaning can be formed out of the letters of the word 'SMOKE' when repetition of letters is allowed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "122"
+        },
+        {
+          "label": "B",
+          "text": "125"
+        },
+        {
+          "label": "C",
+          "text": "124"
+        },
+        {
+          "label": "D",
+          "text": "126"
+        }
+      ],
+      "solution": "The word 'SMOKE' has $5$ distinct letters (S, M, O, K, E). When repetition of letters is allowed, each of the $3$ positions can be filled by any of the $5$ letters in $5$ ways. Total number of words $= 5^3 = 5 \\times 5 \\times 5 = 125$.",
+      "correctOption": "B"
+    },
+    {
+      "questionNumber": 20,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many different ways can the letters of the word 'RECTITUDE' be arranged so that the vowels come together?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4320"
+        },
+        {
+          "label": "B",
+          "text": "4321"
+        },
+        {
+          "label": "C",
+          "text": "4324"
+        },
+        {
+          "label": "D",
+          "text": "4322"
+        }
+      ],
+      "solution": "The word 'RECTITUDE' contains $9$ letters: Vowels are E, I, U, E ($4$ vowels with 'E' repeating $2$ times); Consonants are R, C, T, T, D ($5$ consonants with 'T' repeating $2$ times). Treating the vowels as a single block gives $5 + 1 = 6$ entities. Number of ways to arrange these $6$ entities $= \\frac{6!}{2!} = 360$. Number of ways to arrange the vowels within the block $= \\frac{4!}{2!} = 12$. Total arrangements $= 360 \\times 12 = 4320$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 21,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many ways can $7$ beads be arranged to form a necklace?",
+      "options": [
+        {
+          "label": "A",
+          "text": "365"
+        },
+        {
+          "label": "B",
+          "text": "362"
+        },
+        {
+          "label": "C",
+          "text": "364"
+        },
+        {
+          "label": "D",
+          "text": "360"
+        }
+      ],
+      "solution": "The number of circular arrangements of $n$ distinct beads in a necklace where clockwise and counter-clockwise arrangements are considered identical is given by $\\frac{(n-1)!}{2}$. For $n = 7$: $\\text{Total ways} = \\frac{(7-1)!}{2} = \\frac{6!}{2} = \\frac{720}{2} = 360$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 22,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "A company has $10$ software engineers and $6$ civil engineers. In how many ways can they be seated around a round table so that two of the civil engineers will not sit together?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$9! \\times \\frac{10!}{4!}$"
+        },
+        {
+          "label": "B",
+          "text": "$9! \\times \\frac{12!}{3!}$"
+        },
+        {
+          "label": "C",
+          "text": "$9! \\times \\frac{13!}{5!}$"
+        },
+        {
+          "label": "D",
+          "text": "$9! \\times \\frac{15!}{4!}$"
+        }
+      ],
+      "solution": "First, arrange the $10$ software engineers around the circular table in $(10-1)! = 9!$ ways. This creates $10$ distinct gaps between the software engineers. To ensure no two civil engineers sit together, the $6$ civil engineers must be seated in these $10$ gaps. The number of ways to seat $6$ civil engineers in $10$ gaps is $^{10}P_6 = \\frac{10!}{(10-6)!} = \\frac{10!}{4!}$. Total ways $= 9! \\times \\frac{10!}{4!}$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 23,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "There are $20$ stations between Hyderabad and Bangalore. How many second class tickets have to be printed, so that a passenger can travel from any station to other station?",
+      "options": [
+        {
+          "label": "A",
+          "text": "380"
+        },
+        {
+          "label": "B",
+          "text": "385"
+        },
+        {
+          "label": "C",
+          "text": "384"
+        },
+        {
+          "label": "D",
+          "text": "386"
+        }
+      ],
+      "solution": "Considering the total number of stations on the railway line to be $n = 20$, a ticket is defined by selecting a departure station and an arrival station (order matters). The number of different tickets required $= ^{20}P_2 = 20 \\times 19 = 380$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 24,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "There are five stations on a railways line. What is the number of different journey tickets that are required for railway authorities?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "24"
         },
         {
           "label": "D",
           "text": "20"
         }
       ],
-      "correctOption": "C",
-      "solution": "$^nC_r = ^{5}C_2 = \\frac{5 \\times 4}{2} = 10$."
+      "solution": "With $n = 5$ stations, each ticket corresponds to an ordered pair of origin and destination stations. Total number of tickets $= ^5P_2 = 5 \\times 4 = 20$.",
+      "correctOption": "D"
     },
     {
-      "questionNumber": 41,
-      "typeHeader": "TYPE - I: PERMUTATION OF LETTERS IN WORDS",
-      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
-      "questionText": "In how many different ways can the letters of the word 'PATNA' be arranged?",
+      "questionNumber": 25,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many ways can $4$ boys and $5$ girls be seated in a row so that they are alternate?",
       "options": [
         {
           "label": "A",
-          "text": "96"
+          "text": "2885"
         },
         {
           "label": "B",
-          "text": "120"
+          "text": "2884"
         },
         {
           "label": "C",
-          "text": "144"
+          "text": "2886"
         },
         {
           "label": "D",
-          "text": "60"
+          "text": "2880"
         }
       ],
-      "correctOption": "B",
-      "solution": "The word 'PATNA' has 5 letters. Arrangements $= 5! = 120$."
+      "solution": "Since there are $5$ girls and $4$ boys, to sit alternately the row must begin and end with a girl: G B G B G B G B G. The $5$ girls can be arranged in the $5$ odd positions in $5! = 120$ ways. The $4$ boys can be arranged in the $4$ even positions in $4! = 24$ ways. Total arrangements $= 5! \\times 4! = 120 \\times 24 = 2880$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 26,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "In how many ways can $10$ books be arranged on a shelf such that a particular pair of books should always be together?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$9! \\times 2!$"
+        },
+        {
+          "label": "B",
+          "text": "$9! \\times 5!$"
+        },
+        {
+          "label": "C",
+          "text": "$9! \\times 3!$"
+        },
+        {
+          "label": "D",
+          "text": "$9! \\times 4!$"
+        }
+      ],
+      "solution": "Treat the particular pair of books as a single unit. Then there are $(10 - 2 + 1) = 9$ units to arrange on the shelf, which can be done in $9!$ ways. The $2$ books within the pair can be arranged among themselves in $2!$ ways. Total number of ways $= 9! \\times 2!$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 27,
+      "typeHeader": "TYPE - I: PERMUTATION (ARRANGEMENT)",
+      "examShift": "",
+      "questionText": "$4$ boys and $2$ girls are to be seated in a row in such a way that the two girls are always together. In how many different ways can they be seated?",
+      "options": [
+        {
+          "label": "A",
+          "text": "240"
+        },
+        {
+          "label": "B",
+          "text": "244"
+        },
+        {
+          "label": "C",
+          "text": "245"
+        },
+        {
+          "label": "D",
+          "text": "246"
+        }
+      ],
+      "solution": "Treat the $2$ girls as a single unit. We then have $4 \\text{ boys} + 1 \\text{ unit} = 5$ units to arrange, which can be done in $5! = 120$ ways. The $2$ girls can be arranged among themselves in $2! = 2$ ways. Total number of ways $= 5! \\times 2! = 120 \\times 2 = 240$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 28,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "Amit has $5$ blue, $4$ red and $3$ green socks in his cupboard. Out of this he has to choose $4$ socks. In how many ways can he do this?",
+      "options": [
+        {
+          "label": "A",
+          "text": "490"
+        },
+        {
+          "label": "B",
+          "text": "495"
+        },
+        {
+          "label": "C",
+          "text": "496"
+        },
+        {
+          "label": "D",
+          "text": "494"
+        }
+      ],
+      "solution": "Total number of socks $= 5 + 4 + 3 = 12$. Choosing $4$ socks out of $12$ socks: $^{12}C_4 = \\frac{12 \\times 11 \\times 10 \\times 9}{4 \\times 3 \\times 2 \\times 1} = 495$ ways.",
+      "correctOption": "B"
+    },
+    {
+      "questionNumber": 29,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "A school team has eight volleyball players. A five member team will be selected out of these eight players. How many different selections can be made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "52"
+        },
+        {
+          "label": "B",
+          "text": "55"
+        },
+        {
+          "label": "C",
+          "text": "54"
+        },
+        {
+          "label": "D",
+          "text": "56"
+        }
+      ],
+      "solution": "Selecting $5$ players from $8$ players is given by $^8C_5 = ^8C_3 = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 30,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "A group has $3$ lawn tennis players S, T, U. A team consisting of $2$ players is to be formed. In how many ways can we do so?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "solution": "Selecting $2$ players from $3$ players $= ^3C_2 = 3$. The possible combinations are $\\{S, T\\}, \\{T, U\\}, \\{S, U\\}$.",
+      "correctOption": "B"
+    },
+    {
+      "questionNumber": 31,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "In how many ways can a group of $5$ men and $2$ women be made out of total of $7$ men and $3$ women?",
+      "options": [
+        {
+          "label": "A",
+          "text": "65"
+        },
+        {
+          "label": "B",
+          "text": "66"
+        },
+        {
+          "label": "C",
+          "text": "63"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "solution": "Number of ways to choose $5$ men from $7$ men $= ^7C_5 = ^7C_2 = \\frac{7 \\times 6}{2 \\times 1} = 21$. Number of ways to choose $2$ women from $3$ women $= ^3C_2 = 3$. Total number of ways $= 21 \\times 3 = 63$.",
+      "correctOption": "C"
+    },
+    {
+      "questionNumber": 32,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "A question paper has two parts P and Q, each containing $10$ questions. If a student needs to choose $8$ from part P and $4$ from part Q, in how many ways can he do that?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9455"
+        },
+        {
+          "label": "B",
+          "text": "9453"
+        },
+        {
+          "label": "C",
+          "text": "9450"
+        },
+        {
+          "label": "D",
+          "text": "9454"
+        }
+      ],
+      "solution": "Ways to choose $8$ questions from $10$ in Part P $= ^{10}C_8 = ^{10}C_2 = \\frac{10 \\times 9}{2} = 45$. Ways to choose $4$ questions from $10$ in Part Q $= ^{10}C_4 = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 210$. Total ways $= 45 \\times 210 = 9450$.",
+      "correctOption": "C"
+    },
+    {
+      "questionNumber": 33,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "In an examination, a minimum of marks is to be scored in each $6$ subjects to pass. In how many ways can a student fail?",
+      "options": [
+        {
+          "label": "A",
+          "text": "63"
+        },
+        {
+          "label": "B",
+          "text": "64"
+        },
+        {
+          "label": "C",
+          "text": "62"
+        },
+        {
+          "label": "D",
+          "text": "65"
+        }
+      ],
+      "solution": "For each of the $6$ subjects, a student has $2$ possible outcomes: pass or fail. Total possible outcomes for all $6$ subjects $= 2^6 = 64$. A student passes if and only if he passes in all $6$ subjects ($1$ way). A student fails if he fails in at least one subject. Hence, the number of ways a student can fail $= 2^6 - 1 = 64 - 1 = 63$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 34,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "A team of $3$ members need to be formed out of $5$ men and $2$ women. In how many ways team can be formed so as to include at least $1$ woman?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "23"
+        },
+        {
+          "label": "C",
+          "text": "26"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "solution": "Total people $= 5 + 2 = 7$. Total ways to select any $3$ members from $7$ people $= ^7C_3 = \\frac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} = 35$. Ways to select a team with no women (all $3$ men from $5$) $= ^5C_3 = \\frac{5 \\times 4}{2 \\times 1} = 10$. Ways to form a team with at least $1$ woman $= 35 - 10 = 25$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 35,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "Four couples (husband and wife) decide to form a committee of four members. Find the number of different committees that can be formed in which no couple finds a place.",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "solution": "To form a committee of $4$ members such that no couple finds a place, exactly one person must be chosen from each of the $4$ couples. Since each couple consists of $2$ people (husband and wife), there are $^2C_1 = 2$ choices from each couple. Total number of committees $= 2 \\times 2 \\times 2 \\times 2 = 2^4 = 16$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 36,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "An urn contains $5$ red marbles, $4$ black marbles and $3$ white marbles. Then the number of ways in which $4$ marbles can be drawn so that at the most three of them are red is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "492"
+        },
+        {
+          "label": "B",
+          "text": "491"
+        },
+        {
+          "label": "C",
+          "text": "494"
+        },
+        {
+          "label": "D",
+          "text": "490"
+        }
+      ],
+      "solution": "Total marbles $= 5 + 4 + 3 = 12$. Total ways to choose any $4$ marbles $= ^{12}C_4 = \\frac{12 \\times 11 \\times 10 \\times 9}{4 \\times 3 \\times 2 \\times 1} = 495$. The only unfavorable case is when all $4$ marbles are red, which can occur in $^5C_4 = 5$ ways. Total ways with at most $3$ red marbles $= 495 - 5 = 490$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 37,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "How many triangles can be formed by joining the vertices of an octagon?",
+      "options": [
+        {
+          "label": "A",
+          "text": "57"
+        },
+        {
+          "label": "B",
+          "text": "59"
+        },
+        {
+          "label": "C",
+          "text": "56"
+        },
+        {
+          "label": "D",
+          "text": "58"
+        }
+      ],
+      "solution": "An octagon has $8$ vertices, no three of which are collinear. A triangle is formed by joining any $3$ vertices. Number of triangles $= ^8C_3 = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$.",
+      "correctOption": "C"
+    },
+    {
+      "questionNumber": 38,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "Find the number of triangles that can be formed using $14$ points in a plane such that $4$ points are collinear?",
+      "options": [
+        {
+          "label": "A",
+          "text": "365"
+        },
+        {
+          "label": "B",
+          "text": "368"
+        },
+        {
+          "label": "C",
+          "text": "360"
+        },
+        {
+          "label": "D",
+          "text": "371"
+        }
+      ],
+      "solution": "Total points $n = 14$, with $4$ collinear points. Total triangles that could be formed without collinearity $= ^{14}C_3 = \\frac{14 \\times 13 \\times 12}{3 \\times 2 \\times 1} = 364$. Triangles lost due to the $4$ collinear points $= ^4C_3 = 4$. Required number of triangles $= 364 - 4 = 360$.",
+      "correctOption": "C"
+    },
+    {
+      "questionNumber": 39,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "There are $8$ points in a plane out of which $3$ are collinear. How many straight lines can be formed by joining them?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "28"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "26"
+        }
+      ],
+      "solution": "Total points $n = 8$, with $m = 3$ collinear points. Number of straight lines formed $= ^nC_2 - ^mC_2 + 1 = ^8C_2 - ^3C_2 + 1$. Here $^8C_2 = \\frac{8 \\times 7}{2} = 28$ and $^3C_2 = 3$. Total straight lines $= 28 - 3 + 1 = 26$.",
+      "correctOption": "D"
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "There is a polygon of $11$ sides. How many triangles can be drawn by only using the vertices of the polygon?",
+      "options": [
+        {
+          "label": "A",
+          "text": "165"
+        },
+        {
+          "label": "B",
+          "text": "168"
+        },
+        {
+          "label": "C",
+          "text": "156"
+        },
+        {
+          "label": "D",
+          "text": "170"
+        }
+      ],
+      "solution": "A polygon of $11$ sides has $11$ vertices. Since no three vertices are collinear, each set of $3$ vertices forms a unique triangle. Total number of triangles $= ^{11}C_3 = \\frac{11 \\times 10 \\times 9}{3 \\times 2 \\times 1} = 165$.",
+      "correctOption": "A"
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - II: COMBINATION (SELECTION)",
+      "examShift": "",
+      "questionText": "In a party every person shakes hand with every other person. If there was a total of $210$ handshakes in the party, find the no. of persons who were present in the party.",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "34"
+        },
+        {
+          "label": "D",
+          "text": "28"
+        }
+      ],
+      "solution": "Let $n$ be the number of persons present at the party. Each handshake occurs between $2$ persons, so the total number of handshakes is $^nC_2 = \\frac{n(n-1)}{2}$. Given $\\frac{n(n-1)}{2} = 210 \\implies n(n-1) = 420$. Since $21 \\times 20 = 420$, we have $n = 21$. Thus, there were $21$ persons present in the party.",
+      "correctOption": "B"
     }
   ]
 }

@@ -2,1152 +2,1152 @@
   "chapterNumber": 23,
   "chapterCode": "SSC_MATHS_CH_23_HEIGHT_DISTANCE",
   "chapterTitleEnglish": "Height & Distance",
-  "chapterTitleHindi": "ऊंचाई और दूरी",
+  "chapterTitleHindi": "ऊंचाई एवं दूरी",
   "totalQuestions": 44,
   "questions": [
     {
       "questionNumber": 1,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 19/04/2022 (Shift-02)",
+      "questionText": "A $20\\text{ m}$ long ladder rests against a wall so that the angle between the ladder and the wall is $30^\\circ$. How far (in m) is the base of the ladder from the wall?",
       "options": [
         {
           "label": "A",
-          "text": "$35\\text{ m}$"
+          "text": "$10\\sqrt{3}$"
         },
         {
           "label": "B",
-          "text": "$60.6\\text{ m}$"
+          "text": "$20\\sqrt{3}$"
         },
         {
           "label": "C",
-          "text": "$20.2\\text{ m}$"
+          "text": "$10$"
         },
         {
           "label": "D",
-          "text": "$70\\text{ m}$"
+          "text": "$20$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+      "solution": "Let the length of the ladder be $AC = 20\\text{ m}$ and the vertical wall be $AB$. Following the standard book solution for side ratios of $30^\\circ : 60^\\circ : 90^\\circ$ as $1 : \\sqrt{3} : 2$:\n\nHypotenuse ($2\\text{ units}$) $= 20\\text{ m} \\implies 1\\text{ unit} = 10\\text{ m}$.\n\nThe required base distance $= \\sqrt{3}\\text{ units} = 10\\sqrt{3}\\text{ m}$."
     },
     {
       "questionNumber": 2,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 12/04/2022 (Shift-03)",
+      "questionText": "From a point P on a level ground, the angle of elevation of the top of a tower is $30^\\circ$. If the tower is $110\\sqrt{3}\\text{ m}$ high, what is the distance (in m) of point P from the foot of the tower?",
       "options": [
         {
           "label": "A",
-          "text": "$40\\text{ m}$"
+          "text": "$330$"
         },
         {
           "label": "B",
-          "text": "$69.3\\text{ m}$"
+          "text": "$220$"
         },
         {
           "label": "C",
-          "text": "$23.1\\text{ m}$"
+          "text": "$115$"
         },
         {
           "label": "D",
-          "text": "$80\\text{ m}$"
+          "text": "$110$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+      "solution": "Let $h = 110\\sqrt{3}\\text{ m}$ be the height of the tower and $d$ be the distance from point P to the foot of the tower.\n\n$$\\tan 30^\\circ = \\frac{h}{d} \\implies \\frac{1}{\\sqrt{3}} = \\frac{110\\sqrt{3}}{d}$$\n\n$$d = 110\\sqrt{3} \\times \\sqrt{3} = 110 \\times 3 = 330\\text{ m}$$."
     },
     {
       "questionNumber": 3,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 17/07/2023 (Shift-04)",
+      "questionText": "A person standing at a distance looks at a building having a height of $1000\\text{ metres}$. The angle between the top of the building and the ground is $30^\\circ$. At what approximate distance (in metres) is the person standing away from the building?",
       "options": [
         {
           "label": "A",
-          "text": "$45\\text{ m}$"
+          "text": "$1000$"
         },
         {
           "label": "B",
-          "text": "$77.9\\text{ m}$"
+          "text": "$936$"
         },
         {
           "label": "C",
-          "text": "$26.0\\text{ m}$"
+          "text": "$1732$"
         },
         {
           "label": "D",
-          "text": "$90\\text{ m}$"
+          "text": "$1542$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let the height of the building be $h = 1000\\text{ m}$ and the distance of the person from the building be $d$.\n\n$$\\tan 30^\\circ = \\frac{h}{d} \\implies \\frac{1}{\\sqrt{3}} = \\frac{1000}{d}$$\n\n$$d = 1000\\sqrt{3} \\approx 1000 \\times 1.732 = 1732\\text{ m}$$."
     },
     {
       "questionNumber": 4,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+      "questionText": "A ladder leaning against a wall makes an angle $\\theta$ with the horizontal ground such that $\\cos\\theta = \\frac{5}{13}$. If the height of the top of the ladder from the wall is $18\\text{ m}$, then what is the distance (in m) of the foot of the ladder from the wall?",
       "options": [
         {
           "label": "A",
-          "text": "$50\\text{ m}$"
+          "text": "$19.5$"
         },
         {
           "label": "B",
-          "text": "$86.6\\text{ m}$"
+          "text": "$13$"
         },
         {
           "label": "C",
-          "text": "$28.9\\text{ m}$"
+          "text": "$7.5$"
         },
         {
           "label": "D",
-          "text": "$100\\text{ m}$"
+          "text": "$18$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Given $\\cos\\theta = \\frac{\\text{Base}}{\\text{Hypotenuse}} = \\frac{5}{13}$.\n\nThe perpendicular height along the wall is:\n$$\\text{Perpendicular} = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = 12\\text{ units}$$\n\nGiven perpendicular height $= 18\\text{ m}$:\n$$12\\text{ units} = 18\\text{ m} \\implies 1\\text{ unit} = \\frac{18}{12} = 1.5\\text{ m}$$\n\n$$\\text{Distance of the foot of the ladder from the wall} = 5\\text{ units} = 5 \\times 1.5 = 7.5\\text{ m}$$."
     },
     {
       "questionNumber": 5,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $55\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 21/04/2022 (Shift-01)",
+      "questionText": "The angle of depression of the boat from the masthead of a $180\\text{ m}$ high ship is $60^\\circ$. Find the distance (in m) of the boat from the ship.",
       "options": [
         {
           "label": "A",
-          "text": "$55\\text{ m}$"
+          "text": "$360$"
         },
         {
           "label": "B",
-          "text": "$95.3\\text{ m}$"
+          "text": "$60\\sqrt{3}$"
         },
         {
           "label": "C",
-          "text": "$31.8\\text{ m}$"
+          "text": "$180\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "$110\\text{ m}$"
+          "text": "$180$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{55} = 1 \\Rightarrow H = 55\\text{ m}$."
+      "correctOption": "B",
+      "solution": "Let $h = 180\\text{ m}$ be the height of the ship's masthead and $x$ be the distance of the boat from the ship.\n\nThe angle of elevation from the boat equals the angle of depression ($60^\\circ$):\n$$\\tan 60^\\circ = \\frac{180}{x}$$\n\n$$\\sqrt{3} = \\frac{180}{x} \\implies x = \\frac{180}{\\sqrt{3}} = 60\\sqrt{3}\\text{ m}$$."
     },
     {
       "questionNumber": 6,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 11/09/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $60\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
+      "questionText": "A pole $10\\text{m}$ long rests scantly against a vertical wall AB making an angle $30^\\circ$ with the horizontal (ground). Find how far the foot of the pole is from the wall (in metres).",
       "options": [
         {
           "label": "A",
-          "text": "$60\\text{ m}$"
+          "text": "$15$"
         },
         {
           "label": "B",
-          "text": "$103.9\\text{ m}$"
+          "text": "$\\frac{5}{\\sqrt{3}}$"
         },
         {
           "label": "C",
-          "text": "$34.6\\text{ m}$"
+          "text": "$10$"
         },
         {
           "label": "D",
-          "text": "$120\\text{ m}$"
+          "text": "$5\\sqrt{3}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{60} = 1 \\Rightarrow H = 60\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Let the length of the pole be $\\text{Hypotenuse} = 10\\text{ m}$ and the angle with the ground be $30^\\circ$.\n\n$$\\cos 30^\\circ = \\frac{\\text{Base}}{\\text{Hypotenuse}} = \\frac{\\text{Base}}{10}$$\n\n$$\\frac{\\sqrt{3}}{2} = \\frac{\\text{Base}}{10} \\implies \\text{Base} = 10 \\times \\frac{\\sqrt{3}}{2} = 5\\sqrt{3}\\text{ m}$$."
     },
     {
       "questionNumber": 7,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 17/09/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $65\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL TIER-II 03/03/2023",
+      "questionText": "The angle of elevation of the top of a building at a distance of $70\\text{ m}$ from its foot on a horizontal plane is found to be $60^\\circ$. Find the height of the building.",
       "options": [
         {
           "label": "A",
-          "text": "$65\\text{ m}$"
+          "text": "$70\\sqrt{3}\\text{ m}$"
         },
         {
           "label": "B",
-          "text": "$112.6\\text{ m}$"
+          "text": "$60\\sqrt{3}\\text{ m}$"
         },
         {
           "label": "C",
-          "text": "$37.5\\text{ m}$"
+          "text": "$50\\sqrt{3}\\text{ m}$"
         },
         {
           "label": "D",
-          "text": "$130\\text{ m}$"
+          "text": "$70\\sqrt{2}\\text{ m}$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{65} = 1 \\Rightarrow H = 65\\text{ m}$."
+      "solution": "Let $H$ be the height of the building and the distance from its foot be $70\\text{ m}$.\n\n$$\\tan 60^\\circ = \\frac{H}{70}$$\n\n$$\\sqrt{3} = \\frac{H}{70} \\implies H = 70\\sqrt{3}\\text{ m}$$."
     },
     {
       "questionNumber": 8,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $70\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 20/04/2022 (Shift-03)",
+      "questionText": "A ladder of length $3.5\\text{ m}$ just reaches the top of a wall. If the ladder makes an angle of $60^\\circ$ with the wall, then what is the height of the wall (in m)?",
       "options": [
         {
           "label": "A",
-          "text": "$70\\text{ m}$"
+          "text": "$1.75$"
         },
         {
           "label": "B",
-          "text": "$121.2\\text{ m}$"
+          "text": "$\\frac{7\\sqrt{3}}{4}$"
         },
         {
           "label": "C",
-          "text": "$40.4\\text{ m}$"
+          "text": "$35\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "$140\\text{ m}$"
+          "text": "$\\frac{3.5}{\\sqrt{3}}$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{70} = 1 \\Rightarrow H = 70\\text{ m}$."
+      "solution": "Let $L = 3.5\\text{ m}$ be the length of the ladder. The angle between the ladder and the vertical wall is $60^\\circ$.\n\n$$\\cos 60^\\circ = \\frac{\\text{Height of wall}}{L}$$\n\n$$\\frac{1}{2} = \\frac{\\text{Height of wall}}{3.5} \\implies \\text{Height of wall} = \\frac{3.5}{2} = 1.75\\text{ m}$$."
     },
     {
       "questionNumber": 9,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 04/07/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $75\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 13/04/2022 (Shift-02)",
+      "questionText": "From a point P on a level ground, the angle of elevation of the top of the tower is $30^\\circ$. If the distance of point P from the foot of the tower is $510\\text{ m}$, then $50\\%$ of the height of the tower (in m) is:",
       "options": [
         {
           "label": "A",
-          "text": "$75\\text{ m}$"
+          "text": "$\\frac{85\\sqrt{3}}{3}$"
         },
         {
           "label": "B",
-          "text": "$129.9\\text{ m}$"
+          "text": "$85$"
         },
         {
           "label": "C",
-          "text": "$43.3\\text{ m}$"
+          "text": "$85\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "$150\\text{ m}$"
+          "text": "$150\\sqrt{3}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{75} = 1 \\Rightarrow H = 75\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let $H$ be the height of the tower.\n\n$$\\tan 30^\\circ = \\frac{H}{510} \\implies \\frac{1}{\\sqrt{3}} = \\frac{H}{510} \\implies H = \\frac{510}{\\sqrt{3}} = 170\\sqrt{3}\\text{ m}$$\n\n$$50\\% \\text{ of } H = \\frac{170\\sqrt{3}}{2} = 85\\sqrt{3}\\text{ m}$$."
     },
     {
       "questionNumber": 10,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $30\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CHSL TIER-II 02/11/2023",
+      "questionText": "A pole stands vertically on the ground with the help of a 12-metre steel wire tied to its top and fixed on the ground. If the steel wire makes an angle of $30^\\circ$ with the horizontal ground, then the height of the pole is equal to:",
       "options": [
         {
           "label": "A",
-          "text": "$30\\text{ m}$"
+          "text": "$6\\text{ m}$"
         },
         {
           "label": "B",
-          "text": "$52.0\\text{ m}$"
+          "text": "$8\\text{ m}$"
         },
         {
           "label": "C",
-          "text": "$17.3\\text{ m}$"
+          "text": "$6\\sqrt{3}\\text{ m}$"
         },
         {
           "label": "D",
-          "text": "$60\\text{ m}$"
+          "text": "$8\\sqrt{3}\\text{ m}$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{30} = 1 \\Rightarrow H = 30\\text{ m}$."
+      "solution": "Let $H$ be the height of the pole and $L = 12\\text{ m}$ be the length of the steel wire (hypotenuse).\n\n$$\\sin 30^\\circ = \\frac{H}{12} \\implies \\frac{1}{2} = \\frac{H}{12} \\implies H = 6\\text{ m}$$."
     },
     {
       "questionNumber": 11,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC MTS 05/09/2023 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CPO 24/11/2020 (Shift-01)",
+      "questionText": "The length of the shadow of a vertical pole on the ground is $36\\text{ m}$. If the angle of elevation of the sun at that time is $\\theta$, such that $\\sec\\theta = \\frac{13}{12}$, then what is the height (in m) of the pole?",
       "options": [
         {
           "label": "A",
-          "text": "$35\\text{ m}$"
+          "text": "$12$"
         },
         {
           "label": "B",
-          "text": "$60.6\\text{ m}$"
+          "text": "$9$"
         },
         {
           "label": "C",
-          "text": "$20.2\\text{ m}$"
+          "text": "$18$"
         },
         {
           "label": "D",
-          "text": "$70\\text{ m}$"
+          "text": "$15$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Given $\\sec\\theta = \\frac{13}{12} = \\frac{\\text{Hypotenuse}}{\\text{Base}}$.\n\n$$\\text{Perpendicular} = \\sqrt{13^2 - 12^2} = \\sqrt{169 - 144} = 5$$\n\n$$\\tan\\theta = \\frac{\\text{Perpendicular}}{\\text{Base}} = \\frac{5}{12}$$\n\n$$\\text{Height of pole} = \\text{Shadow} \\times \\tan\\theta = 36 \\times \\frac{5}{12} = 15\\text{ m}$$."
     },
     {
       "questionNumber": 12,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 12/09/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 11/04/2022 (Shift-03)",
+      "questionText": "A kite is attached to a string. Find the length of the string (in m) when the height of the kite is $90\\text{ m}$ and the string makes an angle of $30^\\circ$ with the ground.",
       "options": [
         {
           "label": "A",
-          "text": "$40\\text{ m}$"
+          "text": "$180$"
         },
         {
           "label": "B",
-          "text": "$69.3\\text{ m}$"
+          "text": "$90\\sqrt{3}$"
         },
         {
           "label": "C",
-          "text": "$23.1\\text{ m}$"
+          "text": "$45$"
         },
         {
           "label": "D",
-          "text": "$80\\text{ m}$"
+          "text": "$60\\sqrt{3}$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+      "solution": "Let $L$ be the length of the string (hypotenuse) and $h = 90\\text{ m}$ be the vertical height of the kite.\n\n$$\\sin 30^\\circ = \\frac{h}{L}$$\n\n$$\\frac{1}{2} = \\frac{90}{L} \\implies L = 90 \\times 2 = 180\\text{ m}$$."
     },
     {
       "questionNumber": 13,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 23/09/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CPO 24/11/2020 (Shift 02)",
+      "questionText": "A ladder is resting against a wall. The angle between the foot of the ladder and wall is $60^\\circ$, and the foot of the ladder is $3.6\\text{ m}$ away from the wall. The length of the ladder (in m) is:",
       "options": [
         {
           "label": "A",
-          "text": "$45\\text{ m}$"
+          "text": "$5.4$"
         },
         {
           "label": "B",
-          "text": "$77.9\\text{ m}$"
+          "text": "$3.6$"
         },
         {
           "label": "C",
-          "text": "$26.0\\text{ m}$"
+          "text": "$14.4$"
         },
         {
           "label": "D",
-          "text": "$90\\text{ m}$"
+          "text": "$7.2$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Taking the angle of inclination of the ladder with the horizontal base as $60^\\circ$ and the distance from the foot to the wall as $\\text{Base} = 3.6\\text{ m}$:\n\n$$\\cos 60^\\circ = \\frac{\\text{Base}}{\\text{Length of ladder}}$$\n\n$$\\frac{1}{2} = \\frac{3.6}{L} \\implies L = 3.6 \\times 2 = 7.2\\text{ m}$$."
     },
     {
       "questionNumber": 14,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 13/04/2022 (Shift-03)",
+      "questionText": "The length of the shadow on the ground of a tall tree of height $45\\text{ m}$ is $15\\sqrt{3}\\text{ m}$. What is the angle (in degrees) of elevation of the sun?",
       "options": [
         {
           "label": "A",
-          "text": "$50\\text{ m}$"
+          "text": "$60^\\circ$"
         },
         {
           "label": "B",
-          "text": "$86.6\\text{ m}$"
+          "text": "$90^\\circ$"
         },
         {
           "label": "C",
-          "text": "$28.9\\text{ m}$"
+          "text": "$45^\\circ$"
         },
         {
           "label": "D",
-          "text": "$100\\text{ m}$"
+          "text": "$30^\\circ$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+      "solution": "Let $\\theta$ be the angle of elevation of the sun.\n\n$$\\tan\\theta = \\frac{\\text{Height}}{\\text{Shadow}} = \\frac{45}{15\\sqrt{3}} = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$$\n\n$$\\theta = 60^\\circ$$."
     },
     {
       "questionNumber": 15,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 08/07/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $55\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - I: BASED ON SINGLE ANGLE",
+      "examShift": "SSC CGL 19/04/2022 (Shift-01)",
+      "questionText": "The length of the shadow on the ground of a tall tree of height $30\\text{ m}$ is $10\\sqrt{3}\\text{ m}$. What is the angle (in degrees) of elevation of the sun?",
       "options": [
         {
           "label": "A",
-          "text": "$55\\text{ m}$"
+          "text": "$60^\\circ$"
         },
         {
           "label": "B",
-          "text": "$95.3\\text{ m}$"
+          "text": "$15^\\circ$"
         },
         {
           "label": "C",
-          "text": "$31.8\\text{ m}$"
+          "text": "$30^\\circ$"
         },
         {
           "label": "D",
-          "text": "$110\\text{ m}$"
+          "text": "$45^\\circ$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{55} = 1 \\Rightarrow H = 55\\text{ m}$."
+      "solution": "Let $\\theta$ be the angle of elevation of the sun.\n\n$$\\tan\\theta = \\frac{\\text{Height}}{\\text{Shadow}} = \\frac{30}{10\\sqrt{3}} = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$$\n\n$$\\theta = 60^\\circ$$."
     },
     {
       "questionNumber": 16,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CPO 27/06/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $60\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - II: BASED ON TWO ANGLES",
+      "examShift": "SSC CGL Tier-II (18/11/2020)",
+      "questionText": "The length of the shadow of the vertical tower on level ground increases by $10\\text{m}$ when the altitude of the sun changes from $45^\\circ$ to $30^\\circ$. The height of the tower is:",
       "options": [
         {
           "label": "A",
-          "text": "$60\\text{ m}$"
+          "text": "$10(\\sqrt{3} + 1)\\text{ m}$"
         },
         {
           "label": "B",
-          "text": "$103.9\\text{ m}$"
+          "text": "$10\\sqrt{3}\\text{ m}$"
         },
         {
           "label": "C",
-          "text": "$34.6\\text{ m}$"
+          "text": "$5\\sqrt{3}\\text{ m}$"
         },
         {
           "label": "D",
-          "text": "$120\\text{ m}$"
+          "text": "$5(\\sqrt{3} + 1)\\text{ m}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{60} = 1 \\Rightarrow H = 60\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Let $h$ be the height of the tower.\n\nThe increase in shadow length is given by:\n$$\\Delta x = h(\\cot 30^\\circ - \\cot 45^\\circ)$$\n\n$$10 = h(\\sqrt{3} - 1)$$\n\n$$h = \\frac{10}{\\sqrt{3} - 1} = \\frac{10(\\sqrt{3} + 1)}{(\\sqrt{3} - 1)(\\sqrt{3} + 1)} = \\frac{10(\\sqrt{3} + 1)}{2} = 5(\\sqrt{3} + 1)\\text{ m}$$."
     },
     {
       "questionNumber": 17,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 10/09/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $65\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - II: BASED ON TWO ANGLES",
+      "examShift": "SSC CGL 20/04/2022 (Shift-02)",
+      "questionText": "A and C are two points on the same side of a ground, 50 metres apart. The angles of elevation of these points to the top of a tree are $60^\\circ$ and $30^\\circ$, respectively. What is $40\\%$ of the height of the tree (in m)?",
       "options": [
         {
           "label": "A",
-          "text": "$65\\text{ m}$"
+          "text": "$5\\sqrt{3}$"
         },
         {
           "label": "B",
-          "text": "$112.6\\text{ m}$"
+          "text": "$10\\sqrt{3}$"
         },
         {
           "label": "C",
-          "text": "$37.5\\text{ m}$"
+          "text": "$15\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "$130\\text{ m}$"
+          "text": "$25\\sqrt{3}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{65} = 1 \\Rightarrow H = 65\\text{ m}$."
+      "correctOption": "B",
+      "solution": "Let $h$ be the height of the tree. The distance between points A and C on the same side is $50\\text{ m}$:\n\n$$h(\\cot 30^\\circ - \\cot 60^\\circ) = 50$$\n\n$$h\\left(\\sqrt{3} - \\frac{1}{\\sqrt{3}}\\right) = 50 \\implies h\\left(\\frac{2}{\\sqrt{3}}\\right) = 50 \\implies h = 25\\sqrt{3}\\text{ m}$$\n\n$$40\\% \\text{ of } h = \\frac{40}{100} \\times 25\\sqrt{3} = 10\\sqrt{3}\\text{ m}$$."
     },
     {
       "questionNumber": 18,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 13/09/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $70\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - II: BASED ON TWO ANGLES",
+      "examShift": "SSC CGL 12/04/2022 (Shift-02)",
+      "questionText": "The angle of elevation of the top of a tall building from the points M and N at the distances of $72\\text{ m}$ and $128\\text{ m}$, respectively, from the base of the building and in the same straight line with it, are comple-mentary. The height of the building (in m) is:",
       "options": [
         {
           "label": "A",
-          "text": "$70\\text{ m}$"
+          "text": "$84$"
         },
         {
           "label": "B",
-          "text": "$121.2\\text{ m}$"
+          "text": "$96$"
         },
         {
           "label": "C",
-          "text": "$40.4\\text{ m}$"
+          "text": "$80$"
         },
         {
           "label": "D",
-          "text": "$140\\text{ m}$"
+          "text": "$90$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{70} = 1 \\Rightarrow H = 70\\text{ m}$."
+      "correctOption": "B",
+      "solution": "When angles of elevation from distances $a$ and $b$ are complementary ($\u0007lpha + \\beta = 90^\\circ$):\n$$\\tan\\alpha = \\frac{h}{a}, \\quad \\tan\\beta = \\cot\\alpha = \\frac{h}{b}$$\n\n$$\\tan\\alpha \\times \\cot\\alpha = \\frac{h^2}{ab} = 1 \\implies h = \\sqrt{ab}$$\n\n$$h = \\sqrt{72 \\times 128} = \\sqrt{9216} = 96\\text{ m}$$."
     },
     {
       "questionNumber": 19,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 26/09/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $75\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - II: BASED ON TWO ANGLES",
+      "examShift": "SSC CHSL TIER-II 10/01/2024",
+      "questionText": "A man observed the top of an electric pole from two different observation points P and Q at angles of elevation of $60^\\circ$ and $30^\\circ$ respectively. If the distance between P and Q is $10\\text{m}$, find the height (in m) of the pole.",
       "options": [
         {
           "label": "A",
-          "text": "$75\\text{ m}$"
+          "text": "$15\\sqrt{3}$"
         },
         {
           "label": "B",
-          "text": "$129.9\\text{ m}$"
+          "text": "$15$"
         },
         {
           "label": "C",
-          "text": "$43.3\\text{ m}$"
+          "text": "$5\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "$150\\text{ m}$"
+          "text": "$5$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{75} = 1 \\Rightarrow H = 75\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let $h$ be the height of the pole. With observation points P and Q on the same side of the pole:\n\n$$\\text{Distance } PQ = h(\\cot 30^\\circ - \\cot 60^\\circ)$$\n\n$$10 = h\\left(\\sqrt{3} - \\frac{1}{\\sqrt{3}}\\right) = h\\left(\\frac{2}{\\sqrt{3}}\\right)$$\n\n$$h = \\frac{10\\sqrt{3}}{2} = 5\\sqrt{3}\\text{ m}$$."
     },
     {
       "questionNumber": 20,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 03/07/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $30\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - II: BASED ON TWO ANGLES",
+      "examShift": "SSC CGL 21/04/2022 (Shift-03)",
+      "questionText": "The length of the shadow of a vertical tower on level ground increases by $8.4\\text{ m}$ when the altitude of the sun changes from $45^\\circ$ to $30^\\circ$. What is the height of the tower (in m)?",
       "options": [
         {
           "label": "A",
-          "text": "$30\\text{ m}$"
+          "text": "$4.2(\\sqrt{3} + 3)$"
         },
         {
           "label": "B",
-          "text": "$52.0\\text{ m}$"
+          "text": "$4.2(\\sqrt{3} - 1)$"
         },
         {
           "label": "C",
-          "text": "$17.3\\text{ m}$"
+          "text": "$4.2(\\sqrt{3} + 1)$"
         },
         {
           "label": "D",
-          "text": "$60\\text{ m}$"
+          "text": "$8.4(\\sqrt{3} + 3)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{30} = 1 \\Rightarrow H = 30\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let $h$ be the height of the tower.\n\n$$\\Delta x = h(\\cot 30^\\circ - \\cot 45^\\circ)$$\n\n$$8.4 = h(\\sqrt{3} - 1)$$\n\n$$h = \\frac{8.4}{\\sqrt{3} - 1} = \\frac{8.4(\\sqrt{3} + 1)}{(\\sqrt{3} - 1)(\\sqrt{3} + 1)} = \\frac{8.4(\\sqrt{3} + 1)}{2} = 4.2(\\sqrt{3} + 1)\\text{ m}$$."
     },
     {
       "questionNumber": 21,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 10/07/2024 (Shift-04)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - II: BASED ON TWO ANGLES",
+      "examShift": "SSC CHSL 24/05/2022 (Shift-01)",
+      "questionText": "The foot of a ladder $25\\text{ m}$ long is $7\\text{ m}$ from the base of the building. If the top of the ladder slips by $4\\text{ m}$, then by how much distance will the foot of the ladder slide?",
       "options": [
         {
           "label": "A",
-          "text": "$35\\text{ m}$"
+          "text": "$9\\text{ m}$"
         },
         {
           "label": "B",
-          "text": "$60.6\\text{ m}$"
+          "text": "$7\\text{ m}$"
         },
         {
           "label": "C",
-          "text": "$20.2\\text{ m}$"
+          "text": "$6\\text{ m}$"
         },
         {
           "label": "D",
-          "text": "$70\\text{ m}$"
+          "text": "$8\\text{ m}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Initial height reached by the ladder on the vertical wall:\n$$h_1 = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24\\text{ m}$$\n\nWhen the top slips down by $4\\text{ m}$, the new vertical height is:\n$$h_2 = 24 - 4 = 20\\text{ m}$$\n\nNew base distance from the wall:\n$$d_2 = \\sqrt{25^2 - 20^2} = \\sqrt{625 - 400} = \\sqrt{225} = 15\\text{ m}$$\n\n$$\\text{Distance foot slides} = d_2 - d_1 = 15 - 7 = 8\\text{ m}$$."
     },
     {
       "questionNumber": 22,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC MTS 01/09/2023 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - II: BASED ON TWO ANGLES",
+      "examShift": "SSC CGL 18/04/2022 (Shift-02)",
+      "questionText": "A poster is on top of a building. A person is standing on the ground at a distance of $50\\text{ m}$ from the building. The angles of elevation to the top of the poster and bottom of the poster are $45^\\circ$ and $30^\\circ$, respectively. What is $200\\%$ of the height (in m) of the poster?",
       "options": [
         {
           "label": "A",
-          "text": "$40\\text{ m}$"
+          "text": "$\\frac{25}{3}(3 - \\sqrt{3})$"
         },
         {
           "label": "B",
-          "text": "$69.3\\text{ m}$"
+          "text": "$\\frac{75}{3}(3 - \\sqrt{3})$"
         },
         {
           "label": "C",
-          "text": "$23.1\\text{ m}$"
+          "text": "$\\frac{50}{3}(3 - \\sqrt{3})$"
         },
         {
           "label": "D",
-          "text": "$80\\text{ m}$"
+          "text": "$\\frac{100}{3}(3 - \\sqrt{3})$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Height to the top of the poster $= 50\\tan 45^\\circ = 50\\text{ m}$.\n\nHeight to the bottom of the poster $= 50\\tan 30^\\circ = \\frac{50}{\\sqrt{3}} = \\frac{50\\sqrt{3}}{3}\\text{ m}$.\n\nHeight of the poster $= 50 - \\frac{50\\sqrt{3}}{3} = \\frac{50}{3}(3 - \\sqrt{3})\\text{ m}$.\n\n$$200\\% \\text{ of the height} = 2 \\times \\frac{50}{3}(3 - \\sqrt{3}) = \\frac{100}{3}(3 - \\sqrt{3})\\text{ m}$$."
     },
     {
       "questionNumber": 23,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 11/09/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - II: BASED ON TWO ANGLES",
+      "examShift": "SSC CGL 11/04/2022 (Shift-01)",
+      "questionText": "The angle of elevation of the top of an unfinished tower at a point distant $78\\text{m}$ from its base is $30^\\circ$. How much higher must the tower be raised (in m) so that the angle of elevation of the top of the finished tower at the same point will be $60^\\circ$?",
       "options": [
         {
           "label": "A",
-          "text": "$45\\text{ m}$"
+          "text": "$78\\sqrt{3}$"
         },
         {
           "label": "B",
-          "text": "$77.9\\text{ m}$"
+          "text": "$80$"
         },
         {
           "label": "C",
-          "text": "$26.0\\text{ m}$"
+          "text": "$52\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "$90\\text{ m}$"
+          "text": "$26\\sqrt{3}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Height of the unfinished tower $= 78\\tan 30^\\circ = \\frac{78}{\\sqrt{3}} = 26\\sqrt{3}\\text{ m}$.\n\nHeight of the finished tower $= 78\\tan 60^\\circ = 78\\sqrt{3}\\text{ m}$.\n\n$$\\text{Height to be raised} = 78\\sqrt{3} - 26\\sqrt{3} = 52\\sqrt{3}\\text{ m}$$."
     },
     {
       "questionNumber": 24,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 19/09/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - III: BASED ON TWO OBJECTS / TOWERS",
+      "examShift": "SSC CGL 18/04/2022 (Shift-01)",
+      "questionText": "Exactly midway between the foot of two towers P and Q, the angles of elevation of their tops are $45^\\circ$ and $60^\\circ$, respectively. The ratio of the heights of P and Q is:",
       "options": [
         {
           "label": "A",
-          "text": "$50\\text{ m}$"
+          "text": "$1 : \\sqrt{3}$"
         },
         {
           "label": "B",
-          "text": "$86.6\\text{ m}$"
+          "text": "$3 : 1$"
         },
         {
           "label": "C",
-          "text": "$28.9\\text{ m}$"
+          "text": "$1 : 3$"
         },
         {
           "label": "D",
-          "text": "$100\\text{ m}$"
+          "text": "$\\sqrt{3} : 1$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+      "solution": "Let $d$ be the distance from the midpoint to the foot of each tower.\n\n$$h_P = d\\tan 45^\\circ = d$$\n\n$$h_Q = d\\tan 60^\\circ = d\\sqrt{3}$$\n\n$$\\text{Ratio of heights } h_P : h_Q = d : d\\sqrt{3} = 1 : \\sqrt{3}$$."
     },
     {
       "questionNumber": 25,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $55\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - III: BASED ON TWO OBJECTS / TOWERS",
+      "examShift": "SSC CGL 11/04/2022 (Shift-02)",
+      "questionText": "A pole $23\\text{ m}$ long reaches a window which is $3\\sqrt{5}\\text{ m}$ above the ground on one side of a street. Keeping its foot at the same point, the pole is turned to the other side of the street to reach a window $4\\sqrt{15}\\text{ m}$ high. What is the width (in m) of the street?",
       "options": [
         {
           "label": "A",
-          "text": "$55\\text{ m}$"
+          "text": "$17$"
         },
         {
           "label": "B",
-          "text": "$95.3\\text{ m}$"
+          "text": "$35$"
         },
         {
           "label": "C",
-          "text": "$31.8\\text{ m}$"
+          "text": "$39$"
         },
         {
           "label": "D",
-          "text": "$110\\text{ m}$"
+          "text": "$22$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{55} = 1 \\Rightarrow H = 55\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Distance from the foot of the pole to the first building:\n$$d_1 = \\sqrt{23^2 - (3\\sqrt{5})^2} = \\sqrt{529 - 45} = \\sqrt{484} = 22\\text{ m}$$\n\nDistance from the foot of the pole to the second building:\n$$d_2 = \\sqrt{23^2 - (4\\sqrt{15})^2} = \\sqrt{529 - 240} = \\sqrt{289} = 17\\text{ m}$$\n\n$$\\text{Width of the street} = d_1 + d_2 = 22 + 17 = 39\\text{ m}$$."
     },
     {
       "questionNumber": 26,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-04)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $60\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - III: BASED ON TWO OBJECTS / TOWERS",
+      "examShift": "SSC CGL TIER-II 26/10/2023",
+      "questionText": "Two pillars of equal height stand on either side of a roadway which is $150\\text{ m}$ wide. At a point in the road between pillars, the elevations of the pillars are $x^\\circ$ and $y^\\circ$ so that $\\tan x^\\circ = \\frac{2}{5}, \\tan y^\\circ = \\frac{3}{5}$, then the height of each pillar is:",
       "options": [
         {
           "label": "A",
-          "text": "$60\\text{ m}$"
+          "text": "$39\\text{ m}$"
         },
         {
           "label": "B",
-          "text": "$103.9\\text{ m}$"
+          "text": "$42\\text{ m}$"
         },
         {
           "label": "C",
-          "text": "$34.6\\text{ m}$"
+          "text": "$36\\text{ m}$"
         },
         {
           "label": "D",
-          "text": "$120\\text{ m}$"
+          "text": "$33\\text{ m}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{60} = 1 \\Rightarrow H = 60\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let $h$ be the height of each pillar and the point divide the roadway into distances $d_1$ and $d_2$.\n\n$$d_1 = \\frac{h}{\\tan x^\\circ} = \\frac{5h}{2}, \\quad d_2 = \\frac{h}{\\tan y^\\circ} = \\frac{5h}{3}$$\n\n$$d_1 + d_2 = 150 \\implies h\\left(\\frac{5}{2} + \\frac{5}{3}\\right) = 150$$\n\n$$h\\left(\\frac{25}{6}\\right) = 150 \\implies h = \\frac{150 \\times 6}{25} = 36\\text{ m}$$."
     },
     {
       "questionNumber": 27,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CPO 27/06/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $65\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - III: BASED ON TWO OBJECTS / TOWERS",
+      "examShift": "SSC CPO 24/11/2020 (Shift-02)",
+      "questionText": "Let A and B be two towers with same base. From the midpoint of the line joining their feet, the angles of elevation of the tops of A and B are $30^\\circ$ and $60^\\circ$, respectively. The ratio of the heights of B and A is:",
       "options": [
         {
           "label": "A",
-          "text": "$65\\text{ m}$"
+          "text": "$1 : 3$"
         },
         {
           "label": "B",
-          "text": "$112.6\\text{ m}$"
+          "text": "$3 : 1$"
         },
         {
           "label": "C",
-          "text": "$37.5\\text{ m}$"
+          "text": "$1 : 2$"
         },
         {
           "label": "D",
-          "text": "$130\\text{ m}$"
+          "text": "$1 : \\sqrt{3}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{65} = 1 \\Rightarrow H = 65\\text{ m}$."
+      "correctOption": "B",
+      "solution": "Let $d$ be the distance from the midpoint to the feet of towers A and B.\n\n$$h_A = d\\tan 30^\\circ = \\frac{d}{\\sqrt{3}}$$\n\n$$h_B = d\\tan 60^\\circ = d\\sqrt{3}$$\n\n$$\\text{Ratio of heights of B and A} = \\frac{h_B}{h_A} = \\frac{d\\sqrt{3}}{\\frac{d}{\\sqrt{3}}} = \\frac{3}{1} = 3 : 1$$."
     },
     {
       "questionNumber": 28,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 10/09/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $70\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - III: BASED ON TWO OBJECTS / TOWERS",
+      "examShift": "SSC CGL TIER-II 02/03/2023",
+      "questionText": "Two ships are on the opposite of a light house such that all three of them are collinear. The angles of depression of the two ships from the top of the light house are $30^\\circ$ and $60^\\circ$. If the ships are $230\\sqrt{3}\\text{ m}$ apart, then find the height of the light house (in m).",
       "options": [
         {
           "label": "A",
-          "text": "$70\\text{ m}$"
+          "text": "$175.4$"
         },
         {
           "label": "B",
-          "text": "$121.2\\text{ m}$"
+          "text": "$165.2$"
         },
         {
           "label": "C",
-          "text": "$40.4\\text{ m}$"
+          "text": "$172.5$"
         },
         {
           "label": "D",
-          "text": "$140\\text{ m}$"
+          "text": "$180.5$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{70} = 1 \\Rightarrow H = 70\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let $h$ be the height of the lighthouse. Since the ships are on opposite sides of the lighthouse:\n\n$$\\text{Distance between ships} = h(\\cot 30^\\circ + \\cot 60^\\circ)$$\n\n$$230\\sqrt{3} = h\\left(\\sqrt{3} + \\frac{1}{\\sqrt{3}}\\right) = h\\left(\\frac{4}{\\sqrt{3}}\\right)$$\n\n$$4h = 230\\sqrt{3} \\times \\sqrt{3} = 690 \\implies h = \\frac{690}{4} = 172.5\\text{ m}$$."
     },
     {
       "questionNumber": 29,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 12/09/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $75\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CGL TIER-II 08/08/2022",
+      "questionText": "A person 1.8 metre tall is $30\\sqrt{3}\\text{ metre}$ away from a tower. If the angle of elevation from his eye to the top of the tower is $30^\\circ$, then what is the height (in m)of the tower?",
       "options": [
         {
           "label": "A",
-          "text": "$75\\text{ m}$"
+          "text": "$37.8$"
         },
         {
           "label": "B",
-          "text": "$129.9\\text{ m}$"
+          "text": "$31.8$"
         },
         {
           "label": "C",
-          "text": "$43.3\\text{ m}$"
+          "text": "$32.5$"
         },
         {
           "label": "D",
-          "text": "$150\\text{ m}$"
+          "text": "$30.5$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{75} = 1 \\Rightarrow H = 75\\text{ m}$."
+      "correctOption": "B",
+      "solution": "Let $h$ be the height of the tower above the person's eye level.\n\n$$h = 30\\sqrt{3} \\times \\tan 30^\\circ = 30\\sqrt{3} \\times \\frac{1}{\\sqrt{3}} = 30\\text{ m}$$\n\n$$\\text{Total height of tower} = 30 + 1.8 = 31.8\\text{ m}$$."
     },
     {
       "questionNumber": 30,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 24/09/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $30\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CPO 23/11/2020 (Shift-02)",
+      "questionText": "Asha and Suman's mud forts have heights $9\\text{ cm}$ and $16\\text{ cm}$. They are $24\\text{ cm}$ apart. How far (in cm) are the fort tops from each other?",
       "options": [
         {
           "label": "A",
-          "text": "$30\\text{ m}$"
+          "text": "$16$"
         },
         {
           "label": "B",
-          "text": "$52.0\\text{ m}$"
+          "text": "$7$"
         },
         {
           "label": "C",
-          "text": "$17.3\\text{ m}$"
+          "text": "$25$"
         },
         {
           "label": "D",
-          "text": "$60\\text{ m}$"
+          "text": "$24$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{30} = 1 \\Rightarrow H = 30\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Difference in vertical height of the forts $= 16 - 9 = 7\\text{ cm}$.\n\nHorizontal distance between the forts $= 24\\text{ cm}$.\n\n$$\\text{Distance between fort tops} = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25\\text{ cm}$$."
     },
     {
       "questionNumber": 31,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CGL 18/04/2022 (Shift-01)",
+      "questionText": "Two poles of heights $10\\text{ m}$ and $17\\text{ m}$ are fixed to a level ground. The distance between the bottom of the poles is $24\\text{ m}$. What is the distance (in m) between their tops?",
       "options": [
         {
           "label": "A",
-          "text": "$35\\text{ m}$"
+          "text": "$27$"
         },
         {
           "label": "B",
-          "text": "$60.6\\text{ m}$"
+          "text": "$25$"
         },
         {
           "label": "C",
-          "text": "$20.2\\text{ m}$"
+          "text": "$24$"
         },
         {
           "label": "D",
-          "text": "$70\\text{ m}$"
+          "text": "$30$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
+      "correctOption": "B",
+      "solution": "Difference in heights of the poles $= 17 - 10 = 7\\text{ m}$.\n\nDistance between the bases $= 24\\text{ m}$.\n\n$$\\text{Distance between tops} = \\sqrt{7^2 + 24^2} = \\sqrt{49 + 576} = \\sqrt{625} = 25\\text{ m}$$."
     },
     {
       "questionNumber": 32,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CGL TIER-II 03/03/2023",
+      "questionText": "From the top of an upright pole $17.75\\text{ m}$ high, the angle of elevation of the top of an upright tower was $60^\\circ$. If the tower was $57.75\\text{ m}$ tall, how far away (in m) from the foot of the pole was the foot of the tower?",
       "options": [
         {
           "label": "A",
-          "text": "$40\\text{ m}$"
+          "text": "$40\\sqrt{3}$"
         },
         {
           "label": "B",
-          "text": "$69.3\\text{ m}$"
+          "text": "$\\frac{151\\sqrt{3}}{6}$"
         },
         {
           "label": "C",
-          "text": "$23.1\\text{ m}$"
+          "text": "$\\frac{77}{4}\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "$80\\text{ m}$"
+          "text": "$\\frac{40\\sqrt{3}}{3}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Difference in heights between tower and pole:\n$$h = 57.75 - 17.75 = 40\\text{ m}$$\n\nLet $d$ be the horizontal distance between pole and tower:\n$$\\tan 60^\\circ = \\frac{h}{d} \\implies \\sqrt{3} = \\frac{40}{d}$$\n\n$$d = \\frac{40}{\\sqrt{3}} = \\frac{40\\sqrt{3}}{3}\\text{ m}$$."
     },
     {
       "questionNumber": 33,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC MTS 01/09/2023 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CGL TIER-II 06/03/2023",
+      "questionText": "The angle of elevation of the top of an upright tower from the top of a straight pole $24\\sqrt{3}\\text{ feet}$ high is $60^\\circ$. If the base of the pillar was at a distance of $60\\text{ feet}$ from the base of the tower, what was the height (in feet) of the tower?",
       "options": [
         {
           "label": "A",
-          "text": "$45\\text{ m}$"
+          "text": "$44\\sqrt{3}$"
         },
         {
           "label": "B",
-          "text": "$77.9\\text{ m}$"
+          "text": "$36\\sqrt{3}$"
         },
         {
           "label": "C",
-          "text": "$26.0\\text{ m}$"
+          "text": "$60\\sqrt{3}$"
         },
         {
           "label": "D",
-          "text": "$90\\text{ m}$"
+          "text": "$84\\sqrt{3}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Height of the tower above the pole:\n$$h_{\\text{above}} = 60 \\times \\tan 60^\\circ = 60\\sqrt{3}\\text{ feet}$$\n\n$$\\text{Total height of the tower} = 24\\sqrt{3} + 60\\sqrt{3} = 84\\sqrt{3}\\text{ feet}$$."
     },
     {
       "questionNumber": 34,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 11/09/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CGL 20/04/2022 (Shift-01)",
+      "questionText": "The tops of two poles of heights $18\\text{ m}$ and $30.5\\text{ m}$ are connected by a wire. If the wire makes an angle of $30^\\circ$ with the horizontal, what is the length (in m) of the wire?",
       "options": [
         {
           "label": "A",
-          "text": "$50\\text{ m}$"
+          "text": "$36$"
         },
         {
           "label": "B",
-          "text": "$86.6\\text{ m}$"
+          "text": "$28$"
         },
         {
           "label": "C",
-          "text": "$28.9\\text{ m}$"
+          "text": "$20$"
         },
         {
           "label": "D",
-          "text": "$100\\text{ m}$"
+          "text": "$25$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+      "correctOption": "D",
+      "solution": "Difference in heights of the two poles:\n$$\\Delta h = 30.5 - 18 = 12.5\\text{ m}$$\n\nLet $L$ be the length of the connecting wire (hypotenuse):\n$$\\sin 30^\\circ = \\frac{\\Delta h}{L} \\implies \\frac{1}{2} = \\frac{12.5}{L}$$\n\n$$L = 12.5 \\times 2 = 25\\text{ m}$$."
     },
     {
       "questionNumber": 35,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 18/09/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $55\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CGL 18/04/2022 (Shift-03)",
+      "questionText": "From the top of a $195\\text{ m}$ high cliff the angles of depression of the top and bottom of a tower are $30^\\circ$ and $60^\\circ$, respectively. Find the height of the tower (in m).",
       "options": [
         {
           "label": "A",
-          "text": "$55\\text{ m}$"
+          "text": "$65$"
         },
         {
           "label": "B",
-          "text": "$95.3\\text{ m}$"
+          "text": "$195$"
         },
         {
           "label": "C",
-          "text": "$31.8\\text{ m}$"
+          "text": "$130$"
         },
         {
           "label": "D",
-          "text": "$110\\text{ m}$"
+          "text": "$195\\sqrt{3}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{55} = 1 \\Rightarrow H = 55\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let $d$ be the horizontal distance between the cliff and the tower.\n\n$$\\tan 60^\\circ = \\frac{195}{d} \\implies d = \\frac{195}{\\sqrt{3}}\\text{ m}$$\n\nDifference in height between cliff and top of tower:\n$$h_{\\text{diff}} = d\\tan 30^\\circ = \\frac{195}{\\sqrt{3}} \\times \\frac{1}{\\sqrt{3}} = \\frac{195}{3} = 65\\text{ m}$$\n\n$$\\text{Height of the tower} = 195 - 65 = 130\\text{ m}$$."
     },
     {
       "questionNumber": 36,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 01/07/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $60\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CGL 11/04/2022 (Shift-02)",
+      "questionText": "A vertical pole and a vertical tower are on the same level of ground in such a way that from the top of the pole, the angle of elevation of the top of the tower is $60^\\circ$ and the angle of depression of the bottom of the tower is $30^\\circ$. If the height of the tower is $76\\text{ m}$, then find the height (in m) of the pole.",
       "options": [
         {
           "label": "A",
-          "text": "$60\\text{ m}$"
+          "text": "$38$"
         },
         {
           "label": "B",
-          "text": "$103.9\\text{ m}$"
+          "text": "$19\\sqrt{3}$"
         },
         {
           "label": "C",
-          "text": "$34.6\\text{ m}$"
+          "text": "$19$"
         },
         {
           "label": "D",
-          "text": "$120\\text{ m}$"
+          "text": "$57$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{60} = 1 \\Rightarrow H = 60\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let $h$ be the height of the pole and $d$ be the horizontal distance.\n\nFrom the top of the pole looking at the bottom of the tower:\n$$\\tan 30^\\circ = \\frac{h}{d} \\implies d = h\\sqrt{3}$$\n\nHeight of the tower above the pole:\n$$H - h = d\\tan 60^\\circ = (h\\sqrt{3})\\sqrt{3} = 3h$$\n\n$$H = 4h = 76\\text{ m} \\implies h = \\frac{76}{4} = 19\\text{ m}$$."
     },
     {
       "questionNumber": 37,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 05/07/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $65\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - IV: BASED ON OBSERVER HEIGHT & POLES",
+      "examShift": "SSC CGL 12/04/2022 (Shift-01)",
+      "questionText": "A vertical pole and a vertical tower are on the same level ground in such a way that, from the top of the pole, the angle of elevation of the top of the tower is $60^\\circ$ and the angle of depression of the bottom of the tower is $30^\\circ$. If the height of the pole is $24\\text{ m}$, then find the height of the tower (in m).",
       "options": [
         {
           "label": "A",
-          "text": "$65\\text{ m}$"
+          "text": "$24\\sqrt{3}(\\sqrt{3} + 1)$"
         },
         {
           "label": "B",
-          "text": "$112.6\\text{ m}$"
+          "text": "$72$"
         },
         {
           "label": "C",
-          "text": "$37.5\\text{ m}$"
+          "text": "$96$"
         },
         {
           "label": "D",
-          "text": "$130\\text{ m}$"
+          "text": "$24(\\sqrt{3} + 1)$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{65} = 1 \\Rightarrow H = 65\\text{ m}$."
+      "correctOption": "C",
+      "solution": "Let $h = 24\\text{ m}$ be the height of the pole and $d$ be the horizontal distance.\n\n$$\\tan 30^\\circ = \\frac{h}{d} \\implies d = h\\sqrt{3}$$\n\nHeight of tower above the pole:\n$$h_{\\text{above}} = d\\tan 60^\\circ = (h\\sqrt{3})\\sqrt{3} = 3h$$\n\n$$\\text{Total height of the tower} = h + 3h = 4h = 4 \\times 24 = 96\\text{ m}$$."
     },
     {
       "questionNumber": 38,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 12/07/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $70\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - V: BASED ON SHADOW & REFLECTION",
+      "examShift": "SSC CHSL 11/07/2024 (Shift-02)",
+      "questionText": "A vertical pole of length 6m casts a 4m long shadow on the ground. At the same time, a tower casts a 28m long shadow. Find the height of the tower.",
       "options": [
         {
           "label": "A",
-          "text": "$70\\text{ m}$"
+          "text": "$36\\text{ m}$"
         },
         {
           "label": "B",
-          "text": "$121.2\\text{ m}$"
+          "text": "$42\\text{ m}$"
         },
         {
           "label": "C",
-          "text": "$40.4\\text{ m}$"
+          "text": "$32\\text{ m}$"
         },
         {
           "label": "D",
-          "text": "$140\\text{ m}$"
+          "text": "$48\\text{ m}$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{70} = 1 \\Rightarrow H = 70\\text{ m}$."
+      "correctOption": "B",
+      "solution": "By similarity of right triangles formed with the sun's rays:\n$$\\frac{\\text{Height of tower}}{\\text{Shadow of tower}} = \\frac{\\text{Height of pole}}{\\text{Shadow of pole}}$$\n\n$$\\frac{H}{28} = \\frac{6}{4} \\implies H = \\frac{6 \\times 28}{4} = 42\\text{ m}$$."
     },
     {
       "questionNumber": 39,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 10/09/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $75\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - V: BASED ON SHADOW & REFLECTION",
+      "examShift": "SSC CGL 20/07/2023 (Shift-04)",
+      "questionText": "A vertical pole of 28 meters height casts a 19.2 meters long shadow. At the same time, find the length of the shadow cast by another pole of 52.5 meters height.",
       "options": [
         {
           "label": "A",
-          "text": "$75\\text{ m}$"
+          "text": "$36\\text{ m}$"
         },
         {
           "label": "B",
-          "text": "$129.9\\text{ m}$"
-        },
-        {
-          "label": "C",
-          "text": "$43.3\\text{ m}$"
-        },
-        {
-          "label": "D",
-          "text": "$150\\text{ m}$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{75} = 1 \\Rightarrow H = 75\\text{ m}$."
-    },
-    {
-      "questionNumber": 40,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 12/09/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $30\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
-      "options": [
-        {
-          "label": "A",
-          "text": "$30\\text{ m}$"
-        },
-        {
-          "label": "B",
-          "text": "$52.0\\text{ m}$"
-        },
-        {
-          "label": "C",
-          "text": "$17.3\\text{ m}$"
-        },
-        {
-          "label": "D",
-          "text": "$60\\text{ m}$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{30} = 1 \\Rightarrow H = 30\\text{ m}$."
-    },
-    {
-      "questionNumber": 41,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CGL 23/09/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $35\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
-      "options": [
-        {
-          "label": "A",
           "text": "$35\\text{ m}$"
         },
         {
-          "label": "B",
-          "text": "$60.6\\text{ m}$"
-        },
-        {
           "label": "C",
-          "text": "$20.2\\text{ m}$"
-        },
-        {
-          "label": "D",
-          "text": "$70\\text{ m}$"
-        }
-      ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{35} = 1 \\Rightarrow H = 35\\text{ m}$."
-    },
-    {
-      "questionNumber": 42,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 02/07/2024 (Shift-02)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $40\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
-      "options": [
-        {
-          "label": "A",
           "text": "$40\\text{ m}$"
         },
         {
-          "label": "B",
-          "text": "$69.3\\text{ m}$"
-        },
-        {
-          "label": "C",
-          "text": "$23.1\\text{ m}$"
-        },
-        {
           "label": "D",
-          "text": "$80\\text{ m}$"
+          "text": "$30\\text{ m}$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{40} = 1 \\Rightarrow H = 40\\text{ m}$."
+      "solution": "By similarity of triangles:\n$$\\frac{\\text{Shadow}_2}{\\text{Height}_2} = \\frac{\\text{Shadow}_1}{\\text{Height}_1}$$\n\n$$\\frac{\\text{Shadow}_2}{52.5} = \\frac{19.2}{28}$$\n\n$$\\text{Shadow}_2 = \\frac{19.2 \\times 52.5}{28} = \\frac{1008}{28} = 36\\text{ m}$$."
+    },
+    {
+      "questionNumber": 40,
+      "typeHeader": "TYPE - V: BASED ON SHADOW & REFLECTION",
+      "examShift": "SSC CHSL 10/07/2024 (Shift-01)",
+      "questionText": "A mirror is placed on the ground facing upwards. A man sees the top of a tower in the mirror which is at a distance of $105\\text{ m}$ from the mirror. The man is $0.5\\text{ m}$ away from the mirror, and his height is $1.5\\text{ m}$. Find the height of the tower (in metres).",
+      "options": [
+        {
+          "label": "A",
+          "text": "$315$"
+        },
+        {
+          "label": "B",
+          "text": "$115$"
+        },
+        {
+          "label": "C",
+          "text": "$210$"
+        },
+        {
+          "label": "D",
+          "text": "$280$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "By the law of reflection, angle of incidence equals angle of reflection ($\\theta_i = \\theta_r$), forming similar right triangles:\n$$\\frac{H_{\\text{tower}}}{\\text{Distance to mirror}} = \\frac{H_{\\text{man}}}{\\text{Distance of man to mirror}}$$\n\n$$\\frac{H_{\\text{tower}}}{105} = \\frac{1.5}{0.5} = 3$$\n\n$$H_{\\text{tower}} = 105 \\times 3 = 315\\text{ m}$$."
+    },
+    {
+      "questionNumber": 41,
+      "typeHeader": "TYPE - V: BASED ON SHADOW & REFLECTION",
+      "examShift": "SSC CHSL 04/07/2024 (Shift-01)",
+      "questionText": "A man looks at the reflection of the top of the lamp-post on the mirror that is $6.6\\text{ m}$ away from the foot of the lamp post. The man's height is $1.25\\text{ m}$ and he is standing $2\\text{ m}$ away from the mirror. Assuming that the mirror is placed on the ground, facing the sky and the man, and that the mirror and the lamp-post are in a same line, find the height of the lamp-post (in metres).",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4.28$"
+        },
+        {
+          "label": "B",
+          "text": "$4.45$"
+        },
+        {
+          "label": "C",
+          "text": "$3.97$"
+        },
+        {
+          "label": "D",
+          "text": "$4.13$"
+        }
+      ],
+      "correctOption": "D",
+      "solution": "By the law of reflection, the two right triangles are similar:\n$$\\frac{H_{\\text{lamp}}}{6.6} = \\frac{1.25}{2}$$\n\n$$H_{\\text{lamp}} = \\frac{6.6 \\times 1.25}{2} = 3.3 \\times 1.25 = 4.125 \\approx 4.13\\text{ m}$$."
+    },
+    {
+      "questionNumber": 42,
+      "typeHeader": "TYPE - V: BASED ON SHADOW & REFLECTION",
+      "examShift": "SSC CHSL 14/08/2023 (Shift-02)",
+      "questionText": "Subhas and a 3.15 meter tall tree and a building are in such a dwelling position (standing) that their bases (feet) are collinear on the ground and the tree, is located between the building and Subhas. The tree is situated at a distance of 7.5 m from Subhas and the building is situated at a distance of 45 m. Moreover, Subhas eyes, the height of the tree and the height of the building are in the same line, and Suhas eyes are 1.8 meters above the floor. Find the height (in m) of the building.",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11.25$"
+        },
+        {
+          "label": "B",
+          "text": "$11.50$"
+        },
+        {
+          "label": "C",
+          "text": "$10.25$"
+        },
+        {
+          "label": "D",
+          "text": "$10.75$"
+        }
+      ],
+      "correctOption": "A",
+      "solution": "Height of Subhas's eyes above the floor $= 1.8\\text{ m}$.\n\nHeight of the tree above eye level:\n$$h_{\\text{tree}} = 3.15 - 1.8 = 1.35\\text{ m}$$\n\nDistance from Subhas to the tree $= 7.5\\text{ m}$.\n\nThe building is at a distance of $45\\text{ m}$ from the tree, so total distance from Subhas to the building is:\n$$D = 7.5 + 45 = 52.5\\text{ m}$$\n\nBy similar triangles, height of the building above eye level ($h_{\\text{bldg}}$) is:\n$$\\frac{h_{\\text{bldg}}}{52.5} = \\frac{h_{\\text{tree}}}{7.5} = \\frac{1.35}{7.5} = 0.18$$\n\n$$h_{\\text{bldg}} = 52.5 \\times 0.18 = 9.45\\text{ m}$$\n\n$$\\text{Total height of the building} = 9.45 + 1.8 = 11.25\\text{ m}$$."
     },
     {
       "questionNumber": 43,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CHSL 09/07/2024 (Shift-01)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $45\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - V: BASED ON SHADOW & REFLECTION",
+      "examShift": "SSC CPO 23/11/2020 (Shift-01)",
+      "questionText": "A person was standing on a road near a mall. He was 1425 m away from the mall and able to see the top of the mall from the road in such a way that the top of a tree which is in between him and the mall was exactly in line of sight with the top of the mall. The tree height is 10 m and it is 30 m away from him. How tall (in m) is the mall?",
       "options": [
         {
           "label": "A",
-          "text": "$45\\text{ m}$"
+          "text": "$475$"
         },
         {
           "label": "B",
-          "text": "$77.9\\text{ m}$"
+          "text": "$300$"
         },
         {
           "label": "C",
-          "text": "$26.0\\text{ m}$"
+          "text": "$425$"
         },
         {
           "label": "D",
-          "text": "$90\\text{ m}$"
+          "text": "$525$"
         }
       ],
       "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{45} = 1 \\Rightarrow H = 45\\text{ m}$."
+      "solution": "By similar triangles formed by the line of sight from the ground level:\n$$\\frac{H_{\\text{mall}}}{\\text{Distance to mall}} = \\frac{H_{\\text{tree}}}{\\text{Distance to tree}}$$\n\n$$\\frac{H_{\\text{mall}}}{1425} = \\frac{10}{30} = \\frac{1}{3}$$\n\n$$H_{\\text{mall}} = \\frac{1425}{3} = 475\\text{ m}$$."
     },
     {
       "questionNumber": 44,
-      "typeHeader": "HEIGHT & DISTANCE: 45 DEGREE ELEVATION",
-      "examShift": "SSC CPO 27/06/2024 (Shift-03)",
-      "questionText": "The angle of elevation of the top of a tower from a point on the ground at distance $50\\text{ m}$ from its base is $45^\\circ$. Find the height of the tower.",
+      "typeHeader": "TYPE - V: BASED ON SHADOW & REFLECTION",
+      "examShift": "SSC CPO 25/11/2020 (Shift-01)",
+      "questionText": "A person was standing on a road near a mall. He was 1215 m away from the mall and able to see the top of the mall from the road in such a way that the top of a tree, which is in between him and the mall, exactly in line of sight with the top of the mall. The tree height is 20 m and it is 60 m away from him. How tall (in m) is the mall?",
       "options": [
         {
           "label": "A",
-          "text": "$50\\text{ m}$"
+          "text": "$375$"
         },
         {
           "label": "B",
-          "text": "$86.6\\text{ m}$"
+          "text": "$300$"
         },
         {
           "label": "C",
-          "text": "$28.9\\text{ m}$"
+          "text": "$405$"
         },
         {
           "label": "D",
-          "text": "$100\\text{ m}$"
+          "text": "$250$"
         }
       ],
-      "correctOption": "A",
-      "solution": "$\\tan(45^\\circ) = \\frac{H}{50} = 1 \\Rightarrow H = 50\\text{ m}$."
+      "correctOption": "C",
+      "solution": "By similar triangles formed by the line of sight from the ground level:\n$$\\frac{H_{\\text{mall}}}{\\text{Distance to mall}} = \\frac{H_{\\text{tree}}}{\\text{Distance to tree}}$$\n\n$$\\frac{H_{\\text{mall}}}{1215} = \\frac{20}{60} = \\frac{1}{3}$$\n\n$$H_{\\text{mall}} = \\frac{1215}{3} = 405\\text{ m}$$."
     }
   ]
 }
