@@ -12,12 +12,21 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=3000
+      - DATABASE_URL=file:/app/prisma/examforge.db
     env_file:
       - .env
     volumes:
+      # Persistent volume: SQLite database and backups never get lost on container rebuild/restart
       - examforge-data:/app/prisma
+      # Persistent volume: User uploads and avatars
       - examforge-uploads:/app/public/uploads
+      # Persistent volume: Question diagrams and figures
+      - examforge-diagrams:/app/public/images/diagrams
 
 volumes:
   examforge-data:
+    name: examforge_production_data
   examforge-uploads:
+    name: examforge_production_uploads
+  examforge-diagrams:
+    name: examforge_production_diagrams
