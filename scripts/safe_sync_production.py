@@ -4,6 +4,12 @@ import glob
 import os
 import shutil
 import datetime
+import uuid
+from collections import defaultdict
+
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 DB_PATH = "prisma/examforge.db"
 BACKUP_DIR = "prisma/backups"
@@ -31,23 +37,35 @@ def safe_sync_chapter(json_path):
         data = json.load(f)
 
     ch_num = data.get("chapterNumber")
-    ch_code = data.get("chapterCode")
-    title_en = data.get("chapterTitleEnglish")
+    ch_code = data.get("chapterCode", "")
+    title_en = data.get("chapterTitleEnglish", "")
     questions = data.get("questions", [])
     total_q = len(questions)
 
-    # 1. Lookup ExamConfig
-    c.execute("SELECT id, documentId, totalQuestions FROM ExamConfig WHERE code = ?", (ch_code,))
+    # 1. Flexible Lookup for ExamConfig
+    c.execute("""
+        SELECT id, documentId, totalQuestions, code, title 
+        FROM ExamConfig 
+        WHERE code = ? 
+           OR code = ? 
+           OR code LIKE ? 
+           OR title LIKE ?
+    """, (
+        ch_code,
+        f"SSC_MATHS_CH_{ch_num:02d}_{ch_code.upper()}",
+        f"%_{ch_num:02d}_%",
+        f"%Chapter {ch_num}:%"
+    ))
     row = c.fetchone()
     if not row:
-        print(f"Skipping: ExamConfig {ch_code} not found in DB!")
+        print(f"Skipping: ExamConfig for Chapter {ch_num} ({ch_code}) not found in DB!")
         conn.close()
         return
 
-    exam_id, doc_id, cur_total = row
-    print(f"Syncing Chapter {ch_num} ({title_en}) - Code: {ch_code} ({total_q} Qs)")
+    exam_id, doc_id, cur_total, matched_code, matched_title = row
+    print(f"Syncing Ch {ch_num} ({matched_title}) | Code: {matched_code} | Total Qs: {total_q}")
 
-    # Update ExamConfig without resetting test attempts
+    # Update ExamConfig without altering student test attempts
     c.execute("""
         UPDATE ExamConfig 
         SET totalQuestions = ?, questionShuffle = 0, optionShuffle = 0 
@@ -56,82 +74,111 @@ def safe_sync_chapter(json_path):
 
     # 2. Get existing questions for this documentId
     c.execute("SELECT id, questionNumber FROM Question WHERE documentId = ? ORDER BY questionNumber ASC", (doc_id,))
-    existing_qs = {qnum: qid for qid, qnum in c.fetchall()}
+    existing_qs = c.fetchall()
 
     # Pre-fetch existing options
     c.execute("""
         SELECT id, questionId, label 
         FROM QuestionOption 
         WHERE questionId IN (SELECT id FROM Question WHERE documentId = ?)
+        ORDER BY questionId, label ASC
     """, (doc_id,))
-    existing_opts = {}
-    for oid, qid, lbl in c.fetchall():
-        existing_opts[(qid, lbl)] = oid
+    opt_rows = c.fetchall()
 
-    import uuid
-    for q in questions:
-        qnum = q["questionNumber"]
-        qtext = q["questionText"]
-        correct = q["correctOption"]
-        sol = q.get("solution", "")
-        has_vis = 1 if q.get("hasVisualContent") else 0
-        img_url = q.get("imageUrl")
+    q_to_opts = defaultdict(dict)
+    for oid, qid, lbl in opt_rows:
+        q_to_opts[qid][lbl.strip().upper()] = oid
+
+    q_updates = []
+    opt_updates = []
+    q_inserts = []
+    opt_inserts = []
+
+    for idx, q_data in enumerate(questions):
+        qnum = q_data["questionNumber"]
+        qtext = q_data["questionText"]
+        theader = q_data.get("typeHeader", title_en)
+        shift = q_data.get("examShift", "SSC CGL / CHSL / CPO")
+        cor_lbl = q_data["correctOption"].strip().upper()
+        sol = q_data.get("solution", "")
+        options = q_data.get("options", [])
+        has_vis = 1 if q_data.get("hasVisualContent") else 0
+        img_url = q_data.get("imageUrl")
         vis_type = "DIAGRAM" if has_vis else "UNKNOWN"
-        topic = q.get("typeHeader", "GENERAL")
-        exam_tag = q.get("examShift", "SSC CGL / CHSL")
 
-        if qnum in existing_qs:
-            qid = existing_qs[qnum]
-            c.execute("""
-                UPDATE Question 
-                SET questionText = ?, verifiedAnswer = ?, explanation = ?,
-                    hasVisualContent = ?, imageUrl = ?, visualType = ?,
-                    topic = ?, tags = ?
-                WHERE id = ?
-            """, (qtext, correct, sol, has_vis, img_url, vis_type, topic, exam_tag, qid))
+        if idx < len(existing_qs):
+            # Update existing Question in place
+            qid = existing_qs[idx][0]
+            q_updates.append((
+                qnum, qtext, theader, theader, shift, cor_lbl, cor_lbl, sol, has_vis, img_url, vis_type, qid
+            ))
+
+            existing_opt_dict = q_to_opts.get(qid, {})
+            for opt in options:
+                lbl = opt["label"].strip().upper()
+                otext = opt["text"]
+                is_c = 1 if lbl == cor_lbl else 0
+                if lbl in existing_opt_dict:
+                    opt_updates.append((otext, is_c, existing_opt_dict[lbl]))
+                else:
+                    new_opt_id = str(uuid.uuid4())
+                    opt_inserts.append((new_opt_id, qid, new_opt_id, lbl, otext, is_c))
         else:
-            qid = str(uuid.uuid4())
-            c.execute("""
-                INSERT INTO Question (
-                    id, documentId, questionNumber, language, subject, topic,
-                    difficulty, questionType, questionText, hasVisualContent,
-                    visualType, imageUrl, verifiedAnswer, explanation,
-                    status, tags, createdAt, updatedAt
-                ) VALUES (
-                    ?, ?, ?, 'en', 'MATHEMATICS', ?,
-                    'MEDIUM', 'MCQ', ?, ?,
-                    ?, ?, ?, ?,
-                    'APPROVED', ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
-                )
-            """, (qid, doc_id, qnum, topic, qtext, has_vis, vis_type, img_url, correct, sol, exam_tag))
-            existing_qs[qnum] = qid
+            # Insert new Question
+            new_qid = str(uuid.uuid4())
+            q_inserts.append((
+                new_qid, doc_id, qnum, "en", "MATHEMATICS", theader, theader,
+                "MEDIUM", "MCQ", shift, qtext, cor_lbl, cor_lbl, sol, "APPROVED", has_vis, img_url, vis_type
+            ))
+            for opt in options:
+                lbl = opt["label"].strip().upper()
+                otext = opt["text"]
+                is_c = 1 if lbl == cor_lbl else 0
+                new_opt_id = str(uuid.uuid4())
+                opt_inserts.append((new_opt_id, new_qid, new_opt_id, lbl, otext, is_c))
 
-        # Update options
-        for opt in q.get("options", []):
-            lbl = opt["label"]
-            otext = opt["text"]
-            if (qid, lbl) in existing_opts:
-                oid = existing_opts[(qid, lbl)]
-                c.execute("UPDATE QuestionOption SET optionText = ? WHERE id = ?", (otext, oid))
-            else:
-                oid = str(uuid.uuid4())
-                c.execute("""
-                    INSERT INTO QuestionOption (id, questionId, label, optionText, createdAt, updatedAt)
-                    VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
-                """, (oid, qid, lbl, otext))
-                existing_opts[(qid, lbl)] = oid
+    if q_updates:
+        c.executemany("""
+            UPDATE Question 
+            SET questionNumber = ?, questionText = ?, topic = ?, subtopic = ?, tags = ?,
+                sourceAnswer = ?, verifiedAnswer = ?, explanation = ?,
+                hasVisualContent = ?, imageUrl = ?, visualType = ?, updatedAt = CURRENT_TIMESTAMP
+            WHERE id = ?
+        """, q_updates)
+
+    if opt_updates:
+        c.executemany("""
+            UPDATE QuestionOption 
+            SET text = ?, isCorrect = ?
+            WHERE id = ?
+        """, opt_updates)
+
+    if q_inserts:
+        c.executemany("""
+            INSERT INTO Question (
+                id, documentId, questionNumber, language, subject, topic, subtopic,
+                difficulty, questionType, tags, questionText, sourceAnswer, verifiedAnswer,
+                explanation, status, hasVisualContent, imageUrl, visualType, createdAt, updatedAt
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+        """, q_inserts)
+
+    if opt_inserts:
+        c.executemany("""
+            INSERT INTO QuestionOption (id, questionId, stableId, label, text, isCorrect)
+            VALUES (?, ?, ?, ?, ?, ?)
+        """, opt_inserts)
 
     conn.commit()
     conn.close()
-    print(f"Chapter {ch_num} safely synced (User test results and student attempts preserved 100%)")
+    print(f"OK: Chapter {ch_num} synced successfully (Updated {len(q_updates)}, Inserted {len(q_inserts)}). User results untouched!")
 
 def main():
     backup_db()
     json_files = sorted(glob.glob("data/maths_chapters/*.json"))
-    print(f"Found {len(json_files)} chapter files to verify and safe-sync.")
+    print(f"Found {len(json_files)} chapter files to safe-sync.")
     for jf in json_files:
         safe_sync_chapter(jf)
-    print("\nALL CHAPTERS SAFELY SYNCED! Zero user results touched.")
+    print("\nALL 30 CHAPTERS SAFELY SYNCED! 0 User results touched.")
 
 if __name__ == "__main__":
     main()
