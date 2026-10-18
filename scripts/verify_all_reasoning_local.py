@@ -20,3 +20,8 @@ print(f"Total Chapter Questions: {tot_qs}")
 
 c.execute("SELECT COUNT(*) FROM Question WHERE subject = 'Reasoning'")
 print(f"Total Reasoning Questions in DB: {c.fetchone()[0]}")
+
+c.execute("SELECT COUNT(*) FROM TestAttempt")
+print(f"Total Student Test Attempts (Preserved): {c.fetchone()[0]}")
+c.execute("SELECT COUNT(*) FROM TestResponse")
+print(f"Total Student Test Responses (Preserved): {c.fetchone()[0]}")
