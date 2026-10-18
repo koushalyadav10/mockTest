@@ -372,7 +372,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                   opt.stableId !== correctOptionStableId
               );
 
-              const optionDisplay = needsTranslation
+              const isCodeOrFormulaOrNumber = (t: string) => {
+                const s = t.trim();
+                if (/^[\d\s,\-_+*/\\()=?:.><%^&!$]+$/.test(s)) return true;
+                if (/^[A-Z0-9\s,\-_+*/\\()=?:.><%^&!$]+$/.test(s) && !/[a-z]/.test(s)) return true;
+                if (s.length <= 15 && !/\s/.test(s) && /^[A-Z0-9]+$/i.test(s)) return true;
+                return false;
+              };
+
+              const optionDisplay = needsTranslation && !isCodeOrFormulaOrNumber(opt.text)
                 ? currentTranslation?.options[opt.stableId] || (effectiveLang === "hi" ? translateOptionToHindi(opt.text) : opt.text)
                 : opt.text;
 

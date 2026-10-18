@@ -16,6 +16,30 @@ try {
       for (const [k, v] of Object.entries(raw)) {
         if (typeof v === "string" && v.trim()) {
           translationCache.set(k, v.trim());
+          translationCache.set(`hi:${k.trim()}`, v.trim());
+        } else if (v && typeof v === "object") {
+          const item: any = v;
+          if (item.englishQuestion && item.hindiQuestion) {
+            translationCache.set(`hi:${item.englishQuestion.trim()}`, item.hindiQuestion.trim());
+            translationCache.set(`en:${item.hindiQuestion.trim()}`, item.englishQuestion.trim());
+          }
+          if (item.questionText && typeof item.questionText === "string") {
+            translationCache.set(`hi:${item.questionText.trim()}`, item.questionText.trim());
+          }
+          if (item.options && typeof item.options === "object") {
+            for (const optVal of Object.values(item.options)) {
+              if (typeof optVal === "string" && optVal.trim()) {
+                translationCache.set(`hi:${optVal.trim()}`, optVal.trim());
+                translationCache.set(`en:${optVal.trim()}`, optVal.trim());
+              } else if (optVal && typeof optVal === "object") {
+                const optObj: any = optVal;
+                if (optObj.english && optObj.hindi) {
+                  translationCache.set(`hi:${optObj.english.trim()}`, optObj.hindi.trim());
+                  translationCache.set(`en:${optObj.hindi.trim()}`, optObj.english.trim());
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -82,15 +106,13 @@ async function translateSingleText(text: string, targetLang: string = "hi"): Pro
   const trimmed = text.trim();
   if (!trimmed) return text;
 
-  const devanagariCount = (trimmed.match(/[\u0900-\u097F]/g) || []).length;
-
-  // If target is Hindi and text is ALREADY in Hindi Devanagari, preserve it EXACTLY (do not modify original Hindi)
-  if (targetLang === "hi" && devanagariCount > 3) {
-    return trimmed;
-  }
-
-  // If target is English and text is ALREADY in English (no Devanagari characters), preserve it EXACTLY
-  if (targetLang === "en" && devanagariCount === 0) {
+  // Never translate numbers, hyphenated numbers, codes, or uppercase abbreviations to Hindi
+  // (e.g. "RSTGIN", "19-18-10-4-15-5-4", "44", "BZD, DXF, GUI")
+  if (
+    /^[\d\s,\-_+*/\\()=?:.><%^&!$]+$/.test(trimmed) ||
+    (/^[A-Z0-9\s,\-_+*/\\()=?:.><%^&!$]+$/.test(trimmed) && !/[a-z]/.test(trimmed)) ||
+    (trimmed.length <= 15 && !/\s/.test(trimmed) && /^[A-Z0-9]+$/i.test(trimmed))
+  ) {
     return trimmed;
   }
 
