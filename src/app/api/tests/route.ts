@@ -3,6 +3,7 @@ import { prisma } from "@/lib/db";
 import { safelyShuffleQuestions, safelyShuffleOptions } from "@/lib/exam/shuffling";
 import { getSessionUser } from "@/lib/auth/session";
 import { getEffectiveDurationMinutes } from "@/lib/exam/timer";
+import { sampleBlueprintQuestions } from "@/lib/exam/blueprintSampler";
 
 export async function POST(req: NextRequest) {
   try {
@@ -103,9 +104,16 @@ export async function POST(req: NextRequest) {
     let effectiveRangeFrom = rangeFrom !== undefined && rangeFrom !== null ? Number(rangeFrom) : undefined;
     let effectiveRangeTo = rangeTo !== undefined && rangeTo !== null ? Number(rangeTo) : undefined;
 
+    let isBlueprintExam = false;
+    let blueprintParsed: any = null;
+
     if (examConfig.instructions) {
       try {
         const parsed = JSON.parse(examConfig.instructions);
+        if (parsed.isBlueprint) {
+          isBlueprintExam = true;
+          blueprintParsed = parsed;
+        }
         if (parsed.subtopicFilter && !effectiveSubtopicFilter) {
           effectiveSubtopicFilter = parsed.subtopicFilter;
         }
@@ -127,38 +135,66 @@ export async function POST(req: NextRequest) {
       } catch (e) {}
     }
 
-    // Query questions from Question Bank
-    const whereClause: any = {};
-    if (documentId) {
-      whereClause.documentId = documentId;
-    } else if (examConfig.documentId) {
-      whereClause.documentId = examConfig.documentId;
+    let selectedQuestions: any[] = [];
+
+    if (isBlueprintExam && blueprintParsed) {
+      if (
+        blueprintParsed.paperMode === "FIXED" &&
+        Array.isArray(blueprintParsed.fixedQuestionIds) &&
+        blueprintParsed.fixedQuestionIds.length > 0
+      ) {
+        // Load exact pre-locked questions
+        const fixedQuestions = await prisma.question.findMany({
+          where: { id: { in: blueprintParsed.fixedQuestionIds } },
+          include: {
+            options: {
+              orderBy: { label: "asc" },
+            },
+          },
+        });
+        const qMap = new Map(fixedQuestions.map((q) => [q.id, q]));
+        selectedQuestions = blueprintParsed.fixedQuestionIds
+          .map((id: string) => qMap.get(id))
+          .filter(Boolean);
+      } else if (Array.isArray(blueprintParsed.allocations)) {
+        // Dynamic fresh sampling per student attempt
+        const sampleResult = await sampleBlueprintQuestions(
+          blueprintParsed.allocations,
+          blueprintParsed.orderingMode || "JUMBLED"
+        );
+        const sampledIds = sampleResult.questions.map((q) => q.id);
+        const dynamicQuestions = await prisma.question.findMany({
+          where: { id: { in: sampledIds } },
+          include: {
+            options: {
+              orderBy: { label: "asc" },
+            },
+          },
+        });
+        const qMap = new Map(dynamicQuestions.map((q) => [q.id, q]));
+        selectedQuestions = sampledIds.map((id) => qMap.get(id)).filter(Boolean);
+      }
     } else {
-      whereClause.status = "APPROVED";
-    }
-    if (subjectFilter && subjectFilter !== "ALL") whereClause.subject = subjectFilter;
-    if (topicFilter && topicFilter !== "ALL") whereClause.topic = topicFilter;
-    if (effectiveSubtopicFilter && effectiveSubtopicFilter !== "ALL") {
-      whereClause.subtopic = { contains: effectiveSubtopicFilter };
-    }
-    if (effectiveExamFilter && effectiveExamFilter !== "ALL") {
-      whereClause.questionText = { contains: effectiveExamFilter };
-    }
+      // Standard Question Bank Query
+      const whereClause: any = {};
+      if (documentId) {
+        whereClause.documentId = documentId;
+      } else if (examConfig.documentId) {
+        whereClause.documentId = examConfig.documentId;
+      } else {
+        whereClause.status = "APPROVED";
+      }
+      if (subjectFilter && subjectFilter !== "ALL") whereClause.subject = subjectFilter;
+      if (topicFilter && topicFilter !== "ALL") whereClause.topic = topicFilter;
+      if (effectiveSubtopicFilter && effectiveSubtopicFilter !== "ALL") {
+        whereClause.subtopic = { contains: effectiveSubtopicFilter };
+      }
+      if (effectiveExamFilter && effectiveExamFilter !== "ALL") {
+        whereClause.questionText = { contains: effectiveExamFilter };
+      }
 
-    let availableQuestions = await prisma.question.findMany({
-      where: whereClause,
-      include: {
-        options: {
-          orderBy: { label: "asc" },
-        },
-      },
-      orderBy: { questionNumber: "asc" },
-    });
-
-    if (availableQuestions.length === 0 && !documentId && !examConfig.documentId) {
-      // Fallback to all approved questions
-      availableQuestions = await prisma.question.findMany({
-        where: { status: "APPROVED" },
+      let availableQuestions = await prisma.question.findMany({
+        where: whereClause,
         include: {
           options: {
             orderBy: { label: "asc" },
@@ -166,30 +202,43 @@ export async function POST(req: NextRequest) {
         },
         orderBy: { questionNumber: "asc" },
       });
-    }
 
-    // Apply Question Range Filter (e.g. Q.55 to Q.80)
-    if (
-      effectiveRangeFrom !== undefined &&
-      effectiveRangeTo !== undefined &&
-      effectiveRangeFrom >= 1 &&
-      effectiveRangeTo >= effectiveRangeFrom
-    ) {
-      const fromIdx = Math.max(0, effectiveRangeFrom - 1);
-      const toIdx = Math.min(availableQuestions.length, effectiveRangeTo);
-      availableQuestions = availableQuestions.slice(fromIdx, toIdx);
-    }
+      if (availableQuestions.length === 0 && !documentId && !examConfig.documentId) {
+        // Fallback to all approved questions
+        availableQuestions = await prisma.question.findMany({
+          where: { status: "APPROVED" },
+          include: {
+            options: {
+              orderBy: { label: "asc" },
+            },
+          },
+          orderBy: { questionNumber: "asc" },
+        });
+      }
 
-    // Determine target count: if filtered or document-linked, preserve all available filtered questions
-    const hasFilter = Boolean(
-      effectiveSubtopicFilter ||
-      effectiveExamFilter ||
-      effectiveRangeFrom !== undefined ||
-      documentId ||
-      examConfig.documentId
-    );
-    const targetCount = questionCountLimit || (hasFilter ? availableQuestions.length : Math.min(availableQuestions.length, examConfig.totalQuestions));
-    const selectedQuestions = availableQuestions.slice(0, targetCount);
+      // Apply Question Range Filter (e.g. Q.55 to Q.80)
+      if (
+        effectiveRangeFrom !== undefined &&
+        effectiveRangeTo !== undefined &&
+        effectiveRangeFrom >= 1 &&
+        effectiveRangeTo >= effectiveRangeFrom
+      ) {
+        const fromIdx = Math.max(0, effectiveRangeFrom - 1);
+        const toIdx = Math.min(availableQuestions.length, effectiveRangeTo);
+        availableQuestions = availableQuestions.slice(fromIdx, toIdx);
+      }
+
+      // Determine target count: if filtered or document-linked, preserve all available filtered questions
+      const hasFilter = Boolean(
+        effectiveSubtopicFilter ||
+        effectiveExamFilter ||
+        effectiveRangeFrom !== undefined ||
+        documentId ||
+        examConfig.documentId
+      );
+      const targetCount = questionCountLimit || (hasFilter ? availableQuestions.length : Math.min(availableQuestions.length, examConfig.totalQuestions));
+      selectedQuestions = availableQuestions.slice(0, targetCount);
+    }
 
     // Honor explicit shuffle flag (e.g. from Chapter Hub mix mode), else adhere to examConfig settings
     const shouldShuffleQuestions =
@@ -203,6 +252,8 @@ export async function POST(req: NextRequest) {
 
     const orderedQuestions = shouldShuffleQuestions
       ? safelyShuffleQuestions(selectedQuestions, true)
+      : isBlueprintExam
+      ? selectedQuestions
       : [...selectedQuestions].sort((a, b) => (a.questionNumber || 0) - (b.questionNumber || 0));
 
     const effectiveDurationMinutes = getEffectiveDurationMinutes(
@@ -251,10 +302,10 @@ export async function POST(req: NextRequest) {
 
       const effectiveCorrectLabel = q.verifiedAnswer || q.sourceAnswer || q.aiSuggestedAnswer;
       let correctOpt = effectiveCorrectLabel
-        ? q.options.find((o) => o.label.trim().toUpperCase() === effectiveCorrectLabel.trim().toUpperCase())
+        ? q.options.find((o: any) => o.label.trim().toUpperCase() === effectiveCorrectLabel.trim().toUpperCase())
         : null;
       if (!correctOpt) {
-        correctOpt = q.options.find((o) => o.isCorrect) || null;
+        correctOpt = q.options.find((o: any) => o.isCorrect) || null;
       }
 
       return {
