@@ -39,6 +39,7 @@ import {
   isUpssscSubjectBank,
   isBlueprintExam,
   getBlueprintMeta,
+  getSubjectQuestionCount,
 } from "@/lib/exam/tag-parser";
 
 const SUBJECTS = [
@@ -500,19 +501,26 @@ function ExamsCatalogContent() {
             const bdown = bp.subjectBreakdown;
             const isMathMatch =
               (selectedSubject === "MATHS" || selectedSubject === "MATHEMATICS") &&
-              ((bdown["Quantitative Aptitude"] ?? 0) > 0 || (bdown["MATHS"] ?? 0) > 0 || (bdown["Mathematics"] ?? 0) > 0);
+              (getSubjectQuestionCount(bdown["Quantitative Aptitude"]) > 0 ||
+                getSubjectQuestionCount(bdown["MATHS"]) > 0 ||
+                getSubjectQuestionCount(bdown["Mathematics"]) > 0);
             const isReasonMatch =
               selectedSubject === "REASONING" &&
-              ((bdown["Reasoning"] ?? 0) > 0 || (bdown["REASONING"] ?? 0) > 0);
+              (getSubjectQuestionCount(bdown["Reasoning"]) > 0 ||
+                getSubjectQuestionCount(bdown["REASONING"]) > 0);
             const isEnglishMatch =
               selectedSubject === "ENGLISH" &&
-              ((bdown["English"] ?? 0) > 0 || (bdown["ENGLISH"] ?? 0) > 0);
+              (getSubjectQuestionCount(bdown["English"]) > 0 ||
+                getSubjectQuestionCount(bdown["ENGLISH"]) > 0);
             const isGkMatch =
               selectedSubject === "GK_GS" &&
-              ((bdown["GK_GS"] ?? 0) > 0 || (bdown["General Awareness"] ?? 0) > 0 || (bdown["GK"] ?? 0) > 0);
+              (getSubjectQuestionCount(bdown["GK_GS"]) > 0 ||
+                getSubjectQuestionCount(bdown["General Awareness"]) > 0 ||
+                getSubjectQuestionCount(bdown["GK"]) > 0);
             const isHindiMatch =
               selectedSubject === "HINDI" &&
-              ((bdown["Hindi"] ?? 0) > 0 || (bdown["HINDI"] ?? 0) > 0);
+              (getSubjectQuestionCount(bdown["Hindi"]) > 0 ||
+                getSubjectQuestionCount(bdown["HINDI"]) > 0);
 
             if (!isMathMatch && !isReasonMatch && !isEnglishMatch && !isGkMatch && !isHindiMatch) {
               return false;
@@ -1059,7 +1067,7 @@ function ExamsCatalogContent() {
                       <div className="flex flex-wrap items-center gap-1.5 pt-1">
                         <span className="text-[11px] font-semibold text-slate-400">Composition:</span>
                         {breakdownKeys.map((subjName) => {
-                          const count = breakdown[subjName];
+                          const count = getSubjectQuestionCount(breakdown[subjName]);
                           const isMath = subjName.toLowerCase().includes("math") || subjName.toLowerCase().includes("quant");
                           const isReasoning = subjName.toLowerCase().includes("reason");
                           const isEnglish = subjName.toLowerCase().includes("english");
@@ -1606,15 +1614,18 @@ function ExamsCatalogContent() {
                       {isBp && bpMeta?.subjectBreakdown && Object.keys(bpMeta.subjectBreakdown).length > 0 && (
                         <div className="flex flex-wrap items-center gap-1.5 pt-1">
                           <span className="text-[11px] font-semibold text-slate-500">Composition:</span>
-                          {Object.entries(bpMeta.subjectBreakdown).map(([subj, count]) => (
-                            <span
-                              key={subj}
-                              className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 flex items-center gap-1"
-                            >
-                              <span>{subj.toLowerCase().includes("math") ? "📐" : subj.toLowerCase().includes("reason") ? "🧠" : "📚"}</span>
-                              <span>{subj}: {count} Qs</span>
-                            </span>
-                          ))}
+                          {Object.entries(bpMeta.subjectBreakdown).map(([subj, rawVal]) => {
+                            const count = getSubjectQuestionCount(rawVal);
+                            return (
+                              <span
+                                key={subj}
+                                className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 flex items-center gap-1"
+                              >
+                                <span>{subj.toLowerCase().includes("math") ? "📐" : subj.toLowerCase().includes("reason") ? "🧠" : "📚"}</span>
+                                <span>{subj}: {count} Qs</span>
+                              </span>
+                            );
+                          })}
                         </div>
                       )}
 

@@ -212,7 +212,7 @@ export interface BlueprintMeta {
   paperMode?: string;
   orderingMode?: string;
   totalAllocatedQuestions?: number;
-  subjectBreakdown?: Record<string, number>;
+  subjectBreakdown?: Record<string, any>;
   allocations?: {
     subject: string;
     chapterTitle: string;
@@ -220,6 +220,18 @@ export interface BlueprintMeta {
     quota: number;
     selectionMode: string;
   }[];
+}
+
+/**
+ * Safely extracts question count from subject breakdown value (which may be a number or an object { total, chapters })
+ */
+export function getSubjectQuestionCount(val: any): number {
+  if (typeof val === "number") return val;
+  if (val && typeof val.total === "number") return val.total;
+  if (val && Array.isArray(val.chapters)) {
+    return val.chapters.reduce((sum: number, c: any) => sum + (Number(c.count) || 0), 0);
+  }
+  return 0;
 }
 
 /**

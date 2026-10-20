@@ -35,6 +35,7 @@ import {
   isUpssscSubjectBank,
   isBlueprintExam,
   getBlueprintMeta,
+  getSubjectQuestionCount,
 } from "@/lib/exam/tag-parser";
 
 const EXAM_FILTERS = ["ALL", "CHSL", "CGL", "CPO", "MTS", "Selection Post"];
@@ -705,7 +706,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
 
               {bpMeta?.subjectBreakdown && (
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-1">
-                  {Object.entries(bpMeta.subjectBreakdown).map(([subj, count]) => {
+                  {Object.entries(bpMeta.subjectBreakdown).map(([subj, rawVal]) => {
+                    const count = getSubjectQuestionCount(rawVal);
                     const isMath = subj.toLowerCase().includes("math") || subj.toLowerCase().includes("quant");
                     const isReasoning = subj.toLowerCase().includes("reason");
                     const icon = isMath ? "📐" : isReasoning ? "🧠" : "📚";
