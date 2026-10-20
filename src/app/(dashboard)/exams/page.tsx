@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState, Suspense } from "react";
+import React, { useEffect, useState, useMemo, Suspense } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
@@ -25,6 +25,9 @@ import {
   ChevronRight,
   Trash2,
   Mail,
+  Eye,
+  ArrowRight,
+  Zap,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import {
@@ -34,6 +37,8 @@ import {
   isUpssscExam,
   isUpssscFullMock,
   isUpssscSubjectBank,
+  isBlueprintExam,
+  getBlueprintMeta,
 } from "@/lib/exam/tag-parser";
 
 const SUBJECTS = [
@@ -122,9 +127,19 @@ function ExamsCatalogContent() {
   const searchParams = useSearchParams();
   const subjectParam = searchParams.get("subject");
   const boardParam = searchParams.get("board") || searchParams.get("category");
+  const tabParam = searchParams.get("tab");
   const [selectedBoard, setSelectedBoard] = useState<"ALL" | "UPSSSC_PET" | "SSC" | "RAILWAY">("ALL");
   const [upssscTab, setUpssscTab] = useState<"ALL" | "FULL_MOCKS" | "SUBJECT_BANKS">("ALL");
   const [selectedSubject, setSelectedSubject] = useState<string>("ALL");
+
+  // Filters & Tabs
+  const [activeTab, setActiveTab] = useState<"ALL" | "LIVE" | "ACTIVE_ONGOING" | "ASSIGNED" | "UPCOMING" | "EXPIRED" | "DRAFT">("LIVE");
+  const [modeFilter, setModeFilter] = useState<"ALL" | "MOCK" | "EXAM">("ALL");
+  const [searchQuery, setSearchQuery] = useState("");
+  const [sortOrder, setSortOrder] = useState<"NEWEST" | "DURATION">("NEWEST");
+
+  // Fast CBT Attempt Launch State
+  const [launchingExamId, setLaunchingExamId] = useState<string | null>(null);
 
   useEffect(() => {
     if (boardParam) {
@@ -146,13 +161,15 @@ function ExamsCatalogContent() {
       else if (["HINDI"].includes(up)) setSelectedSubject("HINDI");
       else if (["ALL"].includes(up)) setSelectedSubject("ALL");
     }
-  }, [subjectParam, boardParam]);
-
-  // Filters & Tabs
-  const [activeTab, setActiveTab] = useState<"ALL" | "LIVE" | "ASSIGNED" | "UPCOMING" | "EXPIRED" | "DRAFT">("LIVE");
-  const [modeFilter, setModeFilter] = useState<"ALL" | "MOCK" | "EXAM">("ALL");
-  const [searchQuery, setSearchQuery] = useState("");
-  const [sortOrder, setSortOrder] = useState<"NEWEST" | "DURATION">("NEWEST");
+    if (tabParam) {
+      const upTab = tabParam.toUpperCase();
+      if (["ACTIVE_ONGOING", "ACTIVE", "ONGOING", "CUSTOM"].includes(upTab)) setActiveTab("ACTIVE_ONGOING");
+      else if (["LIVE", "PERMANENT"].includes(upTab)) setActiveTab("LIVE");
+      else if (["ASSIGNED"].includes(upTab)) setActiveTab("ASSIGNED");
+      else if (["UPCOMING"].includes(upTab)) setActiveTab("UPCOMING");
+      else if (["ALL"].includes(upTab)) setActiveTab("ALL");
+    }
+  }, [subjectParam, boardParam, tabParam]);
 
   // Admin Scheduling & Edit Modal
   const [editingExam, setEditingExam] = useState<ExamConfigItem | null>(null);
@@ -199,6 +216,53 @@ function ExamsCatalogContent() {
   }, []);
 
   const isAdminOrTeacher = currentUser?.role === "ADMIN" || currentUser?.role === "TEACHER";
+
+  // Active & Ongoing Designed Tests (Custom Mocks, Blueprint Tests, and Assigned Tests)
+  const activeOngoingTests = useMemo(() => {
+    return exams.filter((e) => {
+      const isBp = isBlueprintExam(e);
+      const isCustom = e.category === "CUSTOM" || e.code?.startsWith("CUSTOM_TEST_") || e.code?.startsWith("BLUEPRINT_MOCK_");
+      const isAssigned = isAssignedExam(e);
+
+      if (isBp || isCustom || isAssigned) {
+        if (e.status !== "PUBLISHED" && !isAdminOrTeacher) return false;
+        if (e.scheduledStatus === "EXPIRED") return false;
+        return true;
+      }
+      return false;
+    });
+  }, [exams, isAdminOrTeacher]);
+
+  // Fast 1-Click Launch CBT Attempt
+  const handleDirectLaunchAttempt = async (examId: string) => {
+    try {
+      setLaunchingExamId(examId);
+      const res = await fetch("/api/tests", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          examConfigId: examId,
+          mode: "MOCK",
+        }),
+      });
+
+      if (res.status === 401) {
+        router.push(`/login?callbackUrl=${encodeURIComponent(`/exams/${examId}`)}`);
+        return;
+      }
+
+      const data = await res.json();
+      if (data.testAttemptId) {
+        router.push(`/mock/${data.testAttemptId}/test`);
+      } else {
+        router.push(`/exams/${examId}`);
+      }
+    } catch (err) {
+      router.push(`/exams/${examId}`);
+    } finally {
+      setLaunchingExamId(null);
+    }
+  };
 
   // Quick 1-Click Toggle Public / Draft status
   const handleTogglePublish = async (exam: ExamConfigItem) => {
@@ -429,22 +493,55 @@ function ExamsCatalogContent() {
       // 2. Subject Module filter (only when not ALL)
       if (selectedSubject && selectedSubject !== "ALL") {
         const examSub = getExamSubject(e);
-        if (examSub !== selectedSubject) return false;
+        if (examSub !== selectedSubject) {
+          // If this is a blueprint multi-subject mock, check constituent breakdown
+          const bp = getBlueprintMeta(e);
+          if (bp && bp.subjectBreakdown) {
+            const bdown = bp.subjectBreakdown;
+            const isMathMatch =
+              (selectedSubject === "MATHS" || selectedSubject === "MATHEMATICS") &&
+              ((bdown["Quantitative Aptitude"] ?? 0) > 0 || (bdown["MATHS"] ?? 0) > 0 || (bdown["Mathematics"] ?? 0) > 0);
+            const isReasonMatch =
+              selectedSubject === "REASONING" &&
+              ((bdown["Reasoning"] ?? 0) > 0 || (bdown["REASONING"] ?? 0) > 0);
+            const isEnglishMatch =
+              selectedSubject === "ENGLISH" &&
+              ((bdown["English"] ?? 0) > 0 || (bdown["ENGLISH"] ?? 0) > 0);
+            const isGkMatch =
+              selectedSubject === "GK_GS" &&
+              ((bdown["GK_GS"] ?? 0) > 0 || (bdown["General Awareness"] ?? 0) > 0 || (bdown["GK"] ?? 0) > 0);
+            const isHindiMatch =
+              selectedSubject === "HINDI" &&
+              ((bdown["Hindi"] ?? 0) > 0 || (bdown["HINDI"] ?? 0) > 0);
+
+            if (!isMathMatch && !isReasonMatch && !isEnglishMatch && !isGkMatch && !isHindiMatch) {
+              return false;
+            }
+          } else {
+            return false;
+          }
+        }
       }
 
       // 3. Role filter: Students only see published exams
       if (!isAdminOrTeacher && e.status === "DRAFT") return false;
 
       // 4. Status & Category Tab filter
-      if (activeTab === "LIVE") {
+      if (activeTab === "ACTIVE_ONGOING") {
+        const isBp = isBlueprintExam(e);
+        const isCustom = e.category === "CUSTOM" || e.code?.startsWith("CUSTOM_TEST_") || e.code?.startsWith("BLUEPRINT_MOCK_");
+        if (!isBp && !isCustom && !isAssigned) return false;
+        if (!isAdminOrTeacher && e.status !== "PUBLISHED") return false;
+        if (e.scheduledStatus === "EXPIRED") return false;
+      } else if (activeTab === "LIVE") {
         // Only published & live exams!
         if (e.status !== "PUBLISHED") return false;
         if (e.scheduledStatus !== "LIVE") return false;
-        // In Live Now, strictly display permanent chapters/tests!
-        if (isAssigned) return false;
+        // In Live Now, allow permanent chapters AND custom blueprint mocks!
+        if (isAssigned && !isBlueprintExam(e)) return false;
       } else if (activeTab === "ASSIGNED") {
-        // Assigned CBT tests only!
-        if (!isAssigned) return false;
+        // Assigned CBT tests and blueprint mocks!
+        if (!isAssigned && !isBlueprintExam(e)) return false;
         if (!isAdminOrTeacher && e.status !== "PUBLISHED") return false;
       } else if (activeTab === "UPCOMING") {
         if (e.scheduledStatus !== "UPCOMING") return false;
@@ -852,6 +949,234 @@ function ExamsCatalogContent() {
         </div>
       )}
 
+      {/* 0B. ACTIVE & ONGOING DESIGNED TESTS (Hero Showcase Card) */}
+      {activeOngoingTests.length > 0 && (
+        <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white p-4 sm:p-6 rounded-3xl border border-indigo-500/30 shadow-xl space-y-4 relative overflow-hidden">
+          {/* Decorative Ambient Background Glow */}
+          <div className="absolute -top-24 -right-24 w-72 h-72 bg-indigo-500/15 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-24 -left-24 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+
+          {/* Section Header */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-indigo-800/50 pb-3 relative z-10">
+            <div className="flex items-center gap-2.5">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500" />
+              </span>
+              <h2 className="text-sm sm:text-base font-black tracking-wide uppercase text-white flex items-center gap-2">
+                <span>Active &amp; Ongoing Designed Tests</span>
+                <span className="text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 px-2 py-0.5 rounded-full font-mono font-bold">
+                  🟢 LIVE NOW &bull; {activeOngoingTests.length} AVAILABLE
+                </span>
+              </h2>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setActiveTab("ACTIVE_ONGOING")}
+                className="px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-bold transition-all cursor-pointer"
+              >
+                View in Filtered Table &rarr;
+              </button>
+
+              {isAdminOrTeacher && (
+                <Link
+                  href="/admin/test-builder"
+                  className="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white border border-indigo-400/40 text-xs font-bold flex items-center gap-1.5 transition-all shadow-xs shrink-0"
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-indigo-200" />
+                  <span>+ Design Another Mock</span>
+                </Link>
+              )}
+            </div>
+          </div>
+
+          {/* Tests Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 relative z-10">
+            {activeOngoingTests.map((exam) => {
+              const bpMeta = getBlueprintMeta(exam);
+              const isBp = Boolean(bpMeta?.isBlueprint);
+              const breakdown = bpMeta?.subjectBreakdown || {};
+              const breakdownKeys = Object.keys(breakdown);
+
+              return (
+                <div
+                  key={exam.id}
+                  className="bg-slate-800/80 backdrop-blur-md rounded-2xl border border-indigo-500/30 p-4 sm:p-5 flex flex-col justify-between hover:border-indigo-400/60 transition-all shadow-lg group relative"
+                >
+                  {/* Top row: Badges */}
+                  <div className="space-y-3">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex flex-wrap items-center gap-1.5">
+                        <span className="text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 flex items-center gap-1">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                          LIVE &bull; ONGOING
+                        </span>
+
+                        {isBp ? (
+                          <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/30 flex items-center gap-1">
+                            <Sparkles className="w-3 h-3 text-indigo-300" />
+                            Custom Mixed Mock
+                          </span>
+                        ) : (
+                          <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-purple-500/30 text-purple-200 border border-purple-400/30">
+                            🎯 Assigned Exam
+                          </span>
+                        )}
+
+                        <span className="text-[10px] font-mono text-slate-400 bg-slate-900/60 px-2 py-0.5 rounded-md border border-slate-700">
+                          {exam.category || "SSC"}
+                        </span>
+                      </div>
+
+                      {/* Attempt count if any */}
+                      {typeof exam.totalAttempts === "number" && exam.totalAttempts > 0 && (
+                        <span className="text-[10px] text-slate-400 font-medium">
+                          👥 {exam.totalAttempts} Submissions
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Title */}
+                    <div>
+                      <h3
+                        onClick={() => router.push(`/exams/${exam.id}`)}
+                        className="text-base sm:text-lg font-black text-white hover:text-indigo-300 transition-colors cursor-pointer flex items-center gap-1.5"
+                      >
+                        <span>{formatCleanChapterTitle(exam.title)}</span>
+                        <ChevronRight className="w-4 h-4 text-slate-400 group-hover:text-indigo-300 group-hover:translate-x-0.5 transition-transform" />
+                      </h3>
+                      {exam.description && (
+                        <p className="text-xs text-slate-300 mt-1 line-clamp-1">
+                          {exam.description}
+                        </p>
+                      )}
+                    </div>
+
+                    {/* Subject Breakdown Pills if Multi-Subject */}
+                    {breakdownKeys.length > 0 && (
+                      <div className="flex flex-wrap items-center gap-1.5 pt-1">
+                        <span className="text-[11px] font-semibold text-slate-400">Composition:</span>
+                        {breakdownKeys.map((subjName) => {
+                          const count = breakdown[subjName];
+                          const isMath = subjName.toLowerCase().includes("math") || subjName.toLowerCase().includes("quant");
+                          const isReasoning = subjName.toLowerCase().includes("reason");
+                          const isEnglish = subjName.toLowerCase().includes("english");
+                          const isGk = subjName.toLowerCase().includes("gk") || subjName.toLowerCase().includes("gs");
+
+                          const icon = isMath ? "📐" : isReasoning ? "🧠" : isEnglish ? "📖" : isGk ? "🌍" : "📚";
+                          const badgeClass = isMath
+                            ? "bg-blue-500/20 text-blue-200 border-blue-500/40"
+                            : isReasoning
+                            ? "bg-purple-500/20 text-purple-200 border-purple-500/40"
+                            : isEnglish
+                            ? "bg-emerald-500/20 text-emerald-200 border-emerald-500/40"
+                            : "bg-amber-500/20 text-amber-200 border-amber-500/40";
+
+                          return (
+                            <span
+                              key={subjName}
+                              className={`text-[11px] font-bold px-2 py-0.5 rounded-lg border flex items-center gap-1 ${badgeClass}`}
+                            >
+                              <span>{icon}</span>
+                              <span>{subjName}: {count} Qs</span>
+                            </span>
+                          );
+                        })}
+                      </div>
+                    )}
+
+                    {/* Specs Pills (Questions, Duration, Marks) */}
+                    <div className="grid grid-cols-3 gap-2 pt-2 border-t border-slate-700/60 text-center">
+                      <div className="bg-slate-900/50 rounded-xl p-2 border border-slate-700/50">
+                        <div className="text-[10px] text-slate-400 uppercase font-semibold">Questions</div>
+                        <div className="text-sm font-black text-white mt-0.5 flex items-center justify-center gap-1">
+                          <span>📝</span>
+                          <span>{exam.totalQuestions} Qs</span>
+                        </div>
+                      </div>
+
+                      <div className="bg-slate-900/50 rounded-xl p-2 border border-slate-700/50">
+                        <div className="text-[10px] text-slate-400 uppercase font-semibold">Time Limit</div>
+                        <div className="text-sm font-black text-amber-300 mt-0.5 flex items-center justify-center gap-1">
+                          <Clock className="w-3.5 h-3.5 text-amber-400" />
+                          <span>{exam.totalDurationMinutes} Mins</span>
+                        </div>
+                      </div>
+
+                      <div className="bg-slate-900/50 rounded-xl p-2 border border-slate-700/50">
+                        <div className="text-[10px] text-slate-400 uppercase font-semibold">Total Marks</div>
+                        <div className="text-sm font-black text-emerald-400 mt-0.5 flex items-center justify-center gap-1">
+                          <Target className="w-3.5 h-3.5 text-emerald-400" />
+                          <span>{exam.totalMarks} M</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Bottom Actions Row */}
+                  <div className="mt-4 pt-3 border-t border-slate-700/60 flex flex-wrap items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        onClick={() => router.push(`/exams/${exam.id}`)}
+                        className="px-3 py-2 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-200 text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer"
+                      >
+                        <Eye className="w-3.5 h-3.5 text-slate-300" />
+                        <span>View Details</span>
+                      </button>
+
+                      {isAdminOrTeacher && (
+                        <>
+                          <button
+                            type="button"
+                            onClick={() => handleOpenEditModal(exam)}
+                            className="p-2 rounded-xl bg-slate-700/60 hover:bg-slate-600 text-slate-300 hover:text-white transition-all text-xs cursor-pointer"
+                            title="Edit Settings / Schedule"
+                          >
+                            <SlidersHorizontal className="w-3.5 h-3.5" />
+                          </button>
+
+                          <button
+                            type="button"
+                            onClick={() => handleDeleteExam(exam)}
+                            className="p-2 rounded-xl bg-rose-950/60 hover:bg-rose-900 text-rose-300 hover:text-rose-100 border border-rose-800/40 transition-all text-xs cursor-pointer"
+                            title="Delete Test"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        </>
+                      )}
+                    </div>
+
+                    {/* Primary Start CBT Test CTA */}
+                    <button
+                      type="button"
+                      onClick={() => handleDirectLaunchAttempt(exam.id)}
+                      disabled={launchingExamId === exam.id}
+                      className="px-4 sm:px-5 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 font-black text-xs shadow-md shadow-emerald-500/20 hover:shadow-lg transition-all flex items-center gap-2 active:scale-98 disabled:opacity-50 cursor-pointer"
+                    >
+                      {launchingExamId === exam.id ? (
+                        <>
+                          <div className="w-3.5 h-3.5 border-2 border-slate-950 border-t-transparent rounded-full animate-spin" />
+                          <span>Launching CBT...</span>
+                        </>
+                      ) : (
+                        <>
+                          <PlayCircle className="w-4 h-4 fill-slate-950 text-emerald-400" />
+                          <span>Start CBT Test Now &rarr;</span>
+                        </>
+                      )}
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* 0C. SUBJECT CURRICULUM SELECTION CARDS */}
       <div className="space-y-2.5">
         <div className="flex items-center justify-between">
@@ -992,6 +1317,19 @@ function ExamsCatalogContent() {
         {/* Status Tabs */}
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-3">
           <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 touch-pan-x w-full sm:w-auto">
+            {/* Active & Ongoing Designed Tests Tab */}
+            <button
+              onClick={() => setActiveTab("ACTIVE_ONGOING")}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 flex items-center gap-1.5 ${
+                activeTab === "ACTIVE_ONGOING"
+                  ? "bg-gradient-to-r from-emerald-600 to-teal-700 text-white shadow-xs ring-2 ring-emerald-400/50"
+                  : "bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200/80"
+              }`}
+            >
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              <span>⚡ Active &amp; Ongoing ({activeOngoingTests.length})</span>
+            </button>
+
             {isAdminOrTeacher && (
               <button
                 onClick={() => setActiveTab("ALL")}
@@ -1148,11 +1486,13 @@ function ExamsCatalogContent() {
         ) : (
           <div className="space-y-3">
             {filteredExams.map((exam) => {
+              const isBp = isBlueprintExam(exam);
+              const bpMeta = getBlueprintMeta(exam);
               const isAssigned = isAssignedExam(exam);
               const isUpsssc = isUpssscExam(exam);
               const isFullMock = isUpssscFullMock(exam);
               const isSubjBank = isUpssscSubjectBank(exam);
-              const isExamMode = exam.mode === "EXAM" || isAssigned || isFullMock;
+              const isExamMode = exam.mode === "EXAM" || isAssigned || isFullMock || isBp;
               const isScheduled = exam.availability === "SCHEDULED";
               const isDraft = exam.status === "DRAFT";
               const isLive = exam.scheduledStatus === "LIVE" && !isDraft;
@@ -1165,6 +1505,8 @@ function ExamsCatalogContent() {
                   className={`p-4 sm:p-5 rounded-2xl border transition-all ${
                     isDraft
                       ? "bg-slate-50/70 border-slate-300/80 border-dashed"
+                      : isBp
+                      ? "bg-white hover:border-emerald-400 shadow-2xs hover:shadow-xs border-emerald-200/90 ring-1 ring-emerald-500/10"
                       : isUpsssc
                       ? "bg-white hover:border-amber-300 shadow-2xs hover:shadow-xs border-amber-200/80"
                       : "bg-white hover:border-slate-300 shadow-2xs hover:shadow-xs border-slate-200/90"
@@ -1177,7 +1519,9 @@ function ExamsCatalogContent() {
                         {/* Mode Badge */}
                         <span
                           className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider border ${
-                            isAssigned
+                            isBp
+                              ? "bg-emerald-50 text-emerald-800 border-emerald-300 font-black flex items-center gap-1"
+                              : isAssigned
                               ? "bg-indigo-50 text-indigo-700 border-indigo-200"
                               : isUpsssc
                               ? isFullMock
@@ -1188,15 +1532,20 @@ function ExamsCatalogContent() {
                               : "bg-slate-100 text-slate-700 border-slate-200"
                           }`}
                         >
-                          {isAssigned
-                            ? "🎯 Assigned CBT Exam"
-                            : isUpsssc
-                            ? isFullMock
-                              ? "🏆 UP PET Full CBT Mock (100 Qs)"
-                              : "📚 UP PET Subject Bank (150 Qs)"
-                            : isExamMode
-                            ? "Official CBT Exam"
-                            : "Practice Mock"}
+                          {isBp ? (
+                            <>
+                              <Sparkles className="w-3 h-3 text-emerald-600" />
+                              <span>Custom Mixed Mock</span>
+                            </>
+                          ) : isAssigned ? (
+                            "🎯 Assigned CBT Exam"
+                          ) : isUpsssc ? (
+                            isFullMock ? "🏆 UP PET Full CBT Mock (100 Qs)" : "📚 UP PET Subject Bank (150 Qs)"
+                          ) : isExamMode ? (
+                            "Official CBT Exam"
+                          ) : (
+                            "Practice Mock"
+                          )}
                         </span>
 
                         {/* Scheduled / Availability Status Badge */}
@@ -1251,6 +1600,22 @@ function ExamsCatalogContent() {
 
                       {exam.description && (
                         <p className="text-xs text-slate-500 line-clamp-2">{exam.description}</p>
+                      )}
+
+                      {/* Subject composition chips for blueprint mocks */}
+                      {isBp && bpMeta?.subjectBreakdown && Object.keys(bpMeta.subjectBreakdown).length > 0 && (
+                        <div className="flex flex-wrap items-center gap-1.5 pt-1">
+                          <span className="text-[11px] font-semibold text-slate-500">Composition:</span>
+                          {Object.entries(bpMeta.subjectBreakdown).map(([subj, count]) => (
+                            <span
+                              key={subj}
+                              className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 flex items-center gap-1"
+                            >
+                              <span>{subj.toLowerCase().includes("math") ? "📐" : subj.toLowerCase().includes("reason") ? "🧠" : "📚"}</span>
+                              <span>{subj}: {count} Qs</span>
+                            </span>
+                          ))}
+                        </div>
                       )}
 
                       {/* Time Window & Exam Metrics */}
@@ -1402,6 +1767,8 @@ function ExamsCatalogContent() {
                             <span>
                               {isUpcoming
                                 ? "Preview (Admin)"
+                                : isBp
+                                ? "Take CBT Mock Test"
                                 : isAssigned
                                 ? "Take Assigned Test"
                                 : isUpsssc

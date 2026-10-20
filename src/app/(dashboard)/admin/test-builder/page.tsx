@@ -92,6 +92,9 @@ export default function TestBuilderPage() {
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [submitSuccess, setSubmitSuccess] = useState<string | null>(null);
 
+  // Existing Active Blueprint Tests
+  const [existingBlueprintTests, setExistingBlueprintTests] = useState<any[]>([]);
+
   // Fetch subjects and chapters on mount
   useEffect(() => {
     async function loadCatalog() {
@@ -107,7 +110,29 @@ export default function TestBuilderPage() {
         setLoadingSubjects(false);
       }
     }
+    async function loadExistingTests() {
+      try {
+        const res = await fetch("/api/exams");
+        const data = await res.json();
+        if (data.exams && Array.isArray(data.exams)) {
+          const bp = data.exams.filter((e: any) => {
+            const isCodeBp = e.code?.startsWith("BLUEPRINT_MOCK_");
+            const isCatCustom = e.category === "CUSTOM";
+            let hasBpInstr = false;
+            if (e.instructions) {
+              try {
+                const parsed = typeof e.instructions === "string" ? JSON.parse(e.instructions) : e.instructions;
+                if (parsed.isBlueprint || parsed.blueprintType) hasBpInstr = true;
+              } catch (err) {}
+            }
+            return isCodeBp || (isCatCustom && hasBpInstr);
+          });
+          setExistingBlueprintTests(bp);
+        }
+      } catch (e) {}
+    }
     loadCatalog();
+    loadExistingTests();
   }, []);
 
   // Compute total selected questions & marks
@@ -266,10 +291,10 @@ export default function TestBuilderPage() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Failed to create mixed mock test");
 
-      setSubmitSuccess("Mixed mock test published successfully! Redirecting to Exams Catalog...");
+      setSubmitSuccess("Mixed mock test published successfully! Redirecting to Active & Ongoing Tests...");
       setTimeout(() => {
-        router.push("/exams");
-      }, 1000);
+        router.push("/exams?tab=ACTIVE_ONGOING");
+      }, 900);
     } catch (err: any) {
       setSubmitError(err.message || "Failed to publish test");
     } finally {
@@ -379,11 +404,78 @@ export default function TestBuilderPage() {
         </div>
 
         <Link href="/admin">
-          <button className="text-xs font-semibold text-slate-600 hover:text-black self-start sm:self-auto">
+          <button className="text-xs font-semibold text-slate-600 hover:text-black self-start sm:self-auto cursor-pointer">
             &larr; Back to Admin Dashboard
           </button>
         </Link>
       </div>
+
+      {/* Active & Ongoing Designed Tests Card in Builder */}
+      {existingBlueprintTests.length > 0 && (
+        <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white rounded-3xl p-5 sm:p-6 border border-indigo-500/30 shadow-lg space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-indigo-800/50 pb-3">
+            <div className="flex items-center gap-2">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500" />
+              </span>
+              <h2 className="text-sm font-extrabold uppercase tracking-wide text-white">
+                Your Active &amp; Ongoing Designed Tests ({existingBlueprintTests.length})
+              </h2>
+            </div>
+            <Link
+              href="/exams?tab=ACTIVE_ONGOING"
+              className="text-xs font-bold text-indigo-300 hover:text-white flex items-center gap-1"
+            >
+              <span>View All in Catalog</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+            {existingBlueprintTests.map((t) => (
+              <div
+                key={t.id}
+                className="bg-slate-800/90 rounded-2xl p-4 border border-indigo-500/30 flex flex-col justify-between hover:border-indigo-400 transition-all space-y-3"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-2 mb-1.5">
+                    <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                      🟢 LIVE NOW
+                    </span>
+                    <span className="text-[10px] font-mono text-slate-400">
+                      {t.category || "SSC"}
+                    </span>
+                  </div>
+                  <h3 className="font-bold text-white text-sm sm:text-base">{t.title}</h3>
+                  <div className="flex items-center gap-3 text-xs text-slate-300 mt-2">
+                    <span>📝 {t.totalQuestions} Questions</span>
+                    <span>⏱️ {t.totalDurationMinutes} Mins</span>
+                    <span>🎯 {t.totalMarks} Marks</span>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/60">
+                  <Link
+                    href={`/exams/${t.id}`}
+                    className="px-3 py-1.5 rounded-xl bg-slate-700 hover:bg-slate-600 text-xs font-bold text-slate-200 transition-all"
+                  >
+                    View Details
+                  </Link>
+
+                  <Link
+                    href={`/exams?tab=ACTIVE_ONGOING`}
+                    className="px-3.5 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-black transition-all flex items-center gap-1.5"
+                  >
+                    <span>Open in Exam Hall</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Top Level Builder Switch */}
       <div className="flex p-1 bg-slate-100 rounded-2xl border border-slate-200 max-w-xl">

@@ -33,6 +33,8 @@ import {
   isUpssscExam,
   isUpssscFullMock,
   isUpssscSubjectBank,
+  isBlueprintExam,
+  getBlueprintMeta,
 } from "@/lib/exam/tag-parser";
 
 const EXAM_FILTERS = ["ALL", "CHSL", "CGL", "CPO", "MTS", "Selection Post"];
@@ -356,6 +358,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
   }
 
   const cleanTitle = formatCleanChapterTitle(exam.title);
+  const isBp = isBlueprintExam(exam);
+  const bpMeta = getBlueprintMeta(exam);
   const isUpsssc = isUpssscExam(exam);
   const isFullMock = isUpssscFullMock(exam);
   const isSubjBank = isUpssscSubjectBank(exam);
@@ -365,15 +369,17 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
       {/* 1. Breadcrumb Navigation */}
       <div className="flex items-center gap-2 text-xs text-slate-500 flex-wrap">
         <Link
-          href={`/exams${isUpsssc ? "?board=UPSSSC_PET" : ""}`}
+          href={`/exams${isUpsssc ? "?board=UPSSSC_PET" : isBp ? "?tab=ACTIVE_ONGOING" : ""}`}
           className="inline-flex items-center gap-1.5 font-bold text-indigo-600 hover:text-indigo-800 transition-colors"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
-          <span>{isUpsssc ? "UPSSSC PET 2026 Portal" : "All Examinations"}</span>
+          <span>{isUpsssc ? "UPSSSC PET 2026 Portal" : isBp ? "Active & Ongoing Tests" : "All Examinations"}</span>
         </Link>
         <span>/</span>
         <span className="font-semibold text-slate-700">
-          {isUpsssc
+          {isBp
+            ? "Custom Designed Mocks"
+            : isUpsssc
             ? isFullMock
               ? "Full CBT Verified Papers"
               : "Subject-wise Question Banks"
@@ -388,11 +394,15 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
             <span className={`px-3 py-1 rounded-lg font-black text-xs uppercase tracking-wider ${
-              isUpsssc
+              isBp
+                ? "bg-gradient-to-r from-emerald-400 to-teal-500 text-slate-950 font-black"
+                : isUpsssc
                 ? "bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950"
                 : "bg-amber-400 text-slate-950"
             }`}>
-              {isUpsssc
+              {isBp
+                ? "🎯 Custom Designed Mock Test"
+                : isUpsssc
                 ? isFullMock
                   ? "UP PET 2026 Official CBT Paper"
                   : "UP PET 2026 Subject Bank"
@@ -406,7 +416,9 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
           <div className="flex items-center gap-2 text-xs text-emerald-400 font-bold bg-emerald-950/60 border border-emerald-800 px-3 py-1 rounded-full">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span>
-              {isUpsssc
+              {isBp
+                ? "Multi-Subject Cross Mixed Blueprint"
+                : isUpsssc
                 ? "100% Devanagari Hindi Verified Solutions"
                 : `Strict Sequential Order (1..${exam.totalQuestions})`}
             </span>
@@ -668,144 +680,204 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
             </div>
           )}
 
-          {/* Custom Question Number Range Selector for Students */}
-          <div className="p-4 sm:p-5 rounded-2xl border border-indigo-200/90 bg-indigo-50/40 space-y-3.5">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-              <div>
-                <h4 className="text-xs font-bold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
-                  <Target className="w-3.5 h-3.5 text-indigo-600" />
-                  <span>Question Range Selection / प्रश्न संख्या चुनें</span>
-                </h4>
-                <p className="text-[11px] text-slate-500">
-                  Select a specific range of questions to practice (e.g. Q.1 to Q.30, or Q.55 to Q.80)
-                </p>
+          {/* Custom Question Number Range Selector for Students OR Blueprint Breakdown */}
+          {isBp ? (
+            <div className="p-4 sm:p-5 rounded-2xl border border-indigo-200/90 bg-indigo-50/40 space-y-3.5">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                <div>
+                  <h4 className="text-xs font-bold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
+                    <span>Multi-Subject &amp; Chapter Composition</span>
+                  </h4>
+                  <p className="text-[11px] text-slate-500">
+                    Balanced cross-mixed question quotas assembled by instructor
+                  </p>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className="text-[10px] font-mono bg-white px-2.5 py-1 rounded-full border border-indigo-200 font-bold text-indigo-700">
+                    {bpMeta?.orderingMode || "JUMBLED"} QUESTION ORDER
+                  </span>
+                  <span className="text-[10px] font-mono bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded-full border border-emerald-300 font-bold">
+                    RANDOM ALLOTMENT
+                  </span>
+                </div>
               </div>
 
-              {/* Mode Toggle */}
-              <div className="inline-flex p-1 bg-white rounded-xl border border-indigo-200 text-xs font-bold shadow-2xs">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setIsCustomRangeActive(false);
-                    setRangeError(null);
-                  }}
-                  className={`px-3 py-1.5 rounded-lg transition-all ${
-                    !isCustomRangeActive
-                      ? "bg-indigo-600 text-white shadow-xs"
-                      : "text-slate-600 hover:text-slate-900"
-                  }`}
-                >
-                  Whole Chapter ({totalChapterQuestions} Qs)
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setIsCustomRangeActive(true);
-                    setRangeError(null);
-                  }}
-                  className={`px-3 py-1.5 rounded-lg transition-all ${
-                    isCustomRangeActive
-                      ? "bg-indigo-600 text-white shadow-xs"
-                      : "text-slate-600 hover:text-slate-900"
-                  }`}
-                >
-                  Custom Range
-                </button>
-              </div>
+              {bpMeta?.subjectBreakdown && (
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-1">
+                  {Object.entries(bpMeta.subjectBreakdown).map(([subj, count]) => {
+                    const isMath = subj.toLowerCase().includes("math") || subj.toLowerCase().includes("quant");
+                    const isReasoning = subj.toLowerCase().includes("reason");
+                    const icon = isMath ? "📐" : isReasoning ? "🧠" : "📚";
+
+                    return (
+                      <div key={subj} className="bg-white p-3 rounded-xl border border-indigo-100 shadow-2xs">
+                        <div className="text-[10px] text-slate-500 font-bold uppercase truncate flex items-center gap-1">
+                          <span>{icon}</span>
+                          <span>{subj}</span>
+                        </div>
+                        <div className="text-base font-black text-indigo-950 mt-1">{count} Questions</div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {bpMeta?.allocations && bpMeta.allocations.length > 0 && (
+                <div className="pt-2 border-t border-indigo-100">
+                  <div className="text-[11px] font-bold text-slate-600 mb-1.5">Chapter Quota Breakdown:</div>
+                  <div className="flex flex-wrap gap-1.5">
+                    {bpMeta.allocations.map((a, idx) => (
+                      <span
+                        key={idx}
+                        className="text-[10px] bg-white text-slate-800 border border-slate-200 px-2 py-0.5 rounded-md font-medium"
+                      >
+                        {a.chapterTitle}: <strong>{a.quota} Qs</strong> ({a.selectionMode || "RANDOM"})
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
-
-            {isCustomRangeActive && (
-              <div className="pt-2 border-t border-indigo-100 space-y-3 animate-in fade-in duration-150">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  <div>
-                    <label className="block text-[11px] font-bold text-slate-700 mb-1">
-                      Start Question # (से शुरू):
-                    </label>
-                    <div className="relative">
-                      <span className="absolute left-3 top-2.5 text-xs font-bold text-slate-400">Q.</span>
-                      <input
-                        type="number"
-                        min={1}
-                        max={totalChapterQuestions}
-                        value={rangeFrom}
-                        onChange={(e) => handleRangeFromChange(parseInt(e.target.value) || 1)}
-                        className="w-full pl-8 pr-3 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-[11px] font-bold text-slate-700 mb-1">
-                      End Question # (तक):
-                    </label>
-                    <div className="relative">
-                      <span className="absolute left-3 top-2.5 text-xs font-bold text-slate-400">Q.</span>
-                      <input
-                        type="number"
-                        min={rangeFrom}
-                        max={totalChapterQuestions}
-                        value={rangeTo}
-                        onChange={(e) => handleRangeToChange(parseInt(e.target.value) || rangeFrom)}
-                        className="w-full pl-8 pr-3 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
-                      />
-                    </div>
-                  </div>
+          ) : (
+            <div className="p-4 sm:p-5 rounded-2xl border border-indigo-200/90 bg-indigo-50/40 space-y-3.5">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                <div>
+                  <h4 className="text-xs font-bold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
+                    <Target className="w-3.5 h-3.5 text-indigo-600" />
+                    <span>Question Range Selection / प्रश्न संख्या चुनें</span>
+                  </h4>
+                  <p className="text-[11px] text-slate-500">
+                    Select a specific range of questions to practice (e.g. Q.1 to Q.30, or Q.55 to Q.80)
+                  </p>
                 </div>
 
-                {/* Validation Message if User Tries to Exceed Max Available */}
-                {rangeError && (
-                  <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold flex items-center gap-2">
-                    <AlertCircle className="w-4 h-4 text-amber-600 shrink-0" />
-                    <span>{rangeError}</span>
-                  </div>
-                )}
-
-                {/* Quick Presets */}
-                <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
-                  <span className="text-[11px] font-bold text-slate-500 mr-1">Quick Sets:</span>
-                  {[
-                    { label: "Q. 1 - 25", from: 1, to: Math.min(25, totalChapterQuestions) },
-                    { label: "Q. 26 - 50", from: 26, to: Math.min(50, totalChapterQuestions) },
-                    { label: "Q. 51 - 75", from: 51, to: Math.min(75, totalChapterQuestions) },
-                    { label: "Q. 76 - 100", from: 76, to: Math.min(100, totalChapterQuestions) },
-                    { label: "Q. 101 - 150", from: 101, to: Math.min(150, totalChapterQuestions) },
-                    { label: "Q. 151 - 200", from: 151, to: Math.min(200, totalChapterQuestions) },
-                    { label: "Q. 201 - 250", from: 201, to: Math.min(250, totalChapterQuestions) },
-                  ].filter((p) => p.from <= totalChapterQuestions).map((preset) => (
-                    <button
-                      key={preset.label}
-                      type="button"
-                      onClick={() => {
-                        setRangeFrom(preset.from);
-                        setRangeTo(preset.to);
-                        setRangeError(null);
-                      }}
-                      className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border transition-all ${
-                        rangeFrom === preset.from && rangeTo === preset.to
-                          ? "bg-indigo-600 text-white border-indigo-600 shadow-2xs"
-                          : "bg-white text-slate-700 border-slate-200 hover:bg-slate-100"
-                      }`}
-                    >
-                      {preset.label}
-                    </button>
-                  ))}
-                </div>
-
-                {/* Range Summary Status Pill */}
-                <div className="p-2.5 rounded-xl bg-white border border-indigo-200 text-xs flex flex-wrap items-center justify-between gap-2 shadow-2xs">
-                  <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                    <span className="font-bold text-slate-900">
-                      Selected: <span className="text-indigo-600 font-extrabold">{effectiveQuestionCount} Questions</span> (Q.{rangeFrom} to Q.{rangeTo})
-                    </span>
-                  </div>
-                  <div className="text-[11px] font-semibold text-slate-500">
-                    Max in Chapter: <strong className="text-slate-800">{totalChapterQuestions} Qs</strong> &bull; Est. Duration: <strong>{effectiveQuestionCount} Mins</strong>
-                  </div>
+                {/* Mode Toggle */}
+                <div className="inline-flex p-1 bg-white rounded-xl border border-indigo-200 text-xs font-bold shadow-2xs">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsCustomRangeActive(false);
+                      setRangeError(null);
+                    }}
+                    className={`px-3 py-1.5 rounded-lg transition-all ${
+                      !isCustomRangeActive
+                        ? "bg-indigo-600 text-white shadow-xs"
+                        : "text-slate-600 hover:text-slate-900"
+                    }`}
+                  >
+                    Whole Chapter ({totalChapterQuestions} Qs)
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsCustomRangeActive(true);
+                      setRangeError(null);
+                    }}
+                    className={`px-3 py-1.5 rounded-lg transition-all ${
+                      isCustomRangeActive
+                        ? "bg-indigo-600 text-white shadow-xs"
+                        : "text-slate-600 hover:text-slate-900"
+                    }`}
+                  >
+                    Custom Range
+                  </button>
                 </div>
               </div>
-            )}
-          </div>
+
+              {isCustomRangeActive && (
+                <div className="pt-2 border-t border-indigo-100 space-y-3 animate-in fade-in duration-150">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                      <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                        Start Question # (से शुरू):
+                      </label>
+                      <div className="relative">
+                        <span className="absolute left-3 top-2.5 text-xs font-bold text-slate-400">Q.</span>
+                        <input
+                          type="number"
+                          min={1}
+                          max={totalChapterQuestions}
+                          value={rangeFrom}
+                          onChange={(e) => handleRangeFromChange(parseInt(e.target.value) || 1)}
+                          className="w-full pl-8 pr-3 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="block text-[11px] font-bold text-slate-700 mb-1">
+                        End Question # (तक):
+                      </label>
+                      <div className="relative">
+                        <span className="absolute left-3 top-2.5 text-xs font-bold text-slate-400">Q.</span>
+                        <input
+                          type="number"
+                          min={rangeFrom}
+                          max={totalChapterQuestions}
+                          value={rangeTo}
+                          onChange={(e) => handleRangeToChange(parseInt(e.target.value) || rangeFrom)}
+                          className="w-full pl-8 pr-3 py-2 text-xs font-bold rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-2xs"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Validation Message if User Tries to Exceed Max Available */}
+                  {rangeError && (
+                    <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold flex items-center gap-2">
+                      <AlertCircle className="w-4 h-4 text-amber-600 shrink-0" />
+                      <span>{rangeError}</span>
+                    </div>
+                  )}
+
+                  {/* Quick Presets */}
+                  <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
+                    <span className="text-[11px] font-bold text-slate-500 mr-1">Quick Sets:</span>
+                    {[
+                      { label: "Q. 1 - 25", from: 1, to: Math.min(25, totalChapterQuestions) },
+                      { label: "Q. 26 - 50", from: 26, to: Math.min(50, totalChapterQuestions) },
+                      { label: "Q. 51 - 75", from: 51, to: Math.min(75, totalChapterQuestions) },
+                      { label: "Q. 76 - 100", from: 76, to: Math.min(100, totalChapterQuestions) },
+                      { label: "Q. 101 - 150", from: 101, to: Math.min(150, totalChapterQuestions) },
+                      { label: "Q. 151 - 200", from: 151, to: Math.min(200, totalChapterQuestions) },
+                      { label: "Q. 201 - 250", from: 201, to: Math.min(250, totalChapterQuestions) },
+                    ].filter((p) => p.from <= totalChapterQuestions).map((preset) => (
+                      <button
+                        key={preset.label}
+                        type="button"
+                        onClick={() => {
+                          setRangeFrom(preset.from);
+                          setRangeTo(preset.to);
+                          setRangeError(null);
+                        }}
+                        className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border transition-all ${
+                          rangeFrom === preset.from && rangeTo === preset.to
+                            ? "bg-indigo-600 text-white border-indigo-600 shadow-2xs"
+                            : "bg-white text-slate-700 border-slate-200 hover:bg-slate-100"
+                        }`}
+                      >
+                        {preset.label}
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* Range Summary Status Pill */}
+                  <div className="p-2.5 rounded-xl bg-white border border-indigo-200 text-xs flex flex-wrap items-center justify-between gap-2 shadow-2xs">
+                    <div className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                      <span className="font-bold text-slate-900">
+                        Selected: <span className="text-indigo-600 font-extrabold">{effectiveQuestionCount} Questions</span> (Q.{rangeFrom} to Q.{rangeTo})
+                      </span>
+                    </div>
+                    <div className="text-[11px] font-semibold text-slate-500">
+                      Max in Chapter: <strong className="text-slate-800">{totalChapterQuestions} Qs</strong> &bull; Est. Duration: <strong>{effectiveQuestionCount} Mins</strong>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
 
           <Button
             onClick={handleStartSelfTest}
@@ -813,6 +885,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
             className={`w-full py-4 text-sm font-bold text-white rounded-2xl shadow-md flex items-center justify-center gap-2 active:scale-98 ${
               isUpsssc
                 ? "bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 shadow-amber-500/20"
+                : isBp
+                ? "bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 shadow-emerald-500/20 font-black text-base"
                 : "bg-indigo-600 hover:bg-indigo-700"
             }`}
           >
@@ -822,6 +896,8 @@ export default function DedicatedChapterPage({ params }: { params: { id: string 
                 ? "Launching CBT Session..."
                 : isCustomRangeActive
                 ? `Start Practice: Q.${rangeFrom} to Q.${rangeTo} (${effectiveQuestionCount} Questions) 🚀`
+                : isBp
+                ? `Start Full CBT Mock Test (${exam.totalQuestions} Questions • ${exam.totalDurationMinutes} Mins) 🚀`
                 : isUpsssc
                 ? isFullMock
                   ? `Start Official UP PET Full CBT Exam (${exam.totalQuestions} Qs • ${exam.totalDurationMinutes} Mins) 🚀`

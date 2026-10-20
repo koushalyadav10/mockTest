@@ -204,6 +204,73 @@ export function isUpssscSubjectBank(exam: { title?: string; code?: string; categ
 }
 
 /**
+ * Blueprint Mock Metadata Interface
+ */
+export interface BlueprintMeta {
+  isBlueprint: boolean;
+  blueprintType?: string;
+  paperMode?: string;
+  orderingMode?: string;
+  totalAllocatedQuestions?: number;
+  subjectBreakdown?: Record<string, number>;
+  allocations?: {
+    subject: string;
+    chapterTitle: string;
+    chapterNumber: number;
+    quota: number;
+    selectionMode: string;
+  }[];
+}
+
+/**
+ * Determines whether an exam is a custom-designed / blueprint mock test.
+ */
+export function isBlueprintExam(exam: { title?: string; code?: string; instructions?: string | null; category?: string } | null | undefined): boolean {
+  if (!exam) return false;
+  if (exam.code?.startsWith("BLUEPRINT_MOCK_")) return true;
+  if (exam.category === "CUSTOM" && exam.code?.includes("MOCK")) return true;
+  if (exam.instructions) {
+    try {
+      const parsed = typeof exam.instructions === "string" ? JSON.parse(exam.instructions) : exam.instructions;
+      if (parsed && (parsed.isBlueprint || parsed.blueprintType || parsed.allocations)) return true;
+    } catch (e) {}
+  }
+  return false;
+}
+
+/**
+ * Extracts structured blueprint metadata from an exam configuration.
+ */
+export function getBlueprintMeta(exam: { instructions?: string | null; code?: string } | null | undefined): BlueprintMeta | null {
+  if (!exam) return null;
+  if (exam.instructions) {
+    try {
+      const parsed = typeof exam.instructions === "string" ? JSON.parse(exam.instructions) : exam.instructions;
+      if (parsed && (parsed.isBlueprint || parsed.blueprintType || parsed.allocations || exam.code?.startsWith("BLUEPRINT_MOCK_"))) {
+        return {
+          isBlueprint: true,
+          blueprintType: parsed.blueprintType || "MULTI_SUBJECT_CROSS_MIXED",
+          paperMode: parsed.paperMode || "FIXED",
+          orderingMode: parsed.orderingMode || "JUMBLED",
+          totalAllocatedQuestions: parsed.totalAllocatedQuestions,
+          subjectBreakdown: parsed.subjectBreakdown,
+          allocations: parsed.allocations,
+        };
+      }
+    } catch (e) {}
+  }
+  if (exam.code?.startsWith("BLUEPRINT_MOCK_")) {
+    return {
+      isBlueprint: true,
+      blueprintType: "MULTI_SUBJECT_CROSS_MIXED",
+      paperMode: "FIXED",
+      orderingMode: "JUMBLED",
+    };
+  }
+  return null;
+}
+
+/**
  * Determines which subject curriculum module an exam belongs to:
  * "GK_GS" | "MATHS" | "REASONING" | "ENGLISH" | "HINDI" | "FULL_MOCK"
  */
@@ -218,6 +285,22 @@ export function getExamSubject(exam: {
 
   const code = (exam.code || "").toUpperCase();
   const title = (exam.title || "").toLowerCase();
+
+  // Multi-Subject Blueprint Mock Check
+  if (isBlueprintExam(exam)) {
+    if (exam.instructions) {
+      try {
+        const parsed = typeof exam.instructions === "string" ? JSON.parse(exam.instructions) : exam.instructions;
+        if (
+          parsed.blueprintType === "MULTI_SUBJECT_CROSS_MIXED" ||
+          (parsed.subjectBreakdown && Object.keys(parsed.subjectBreakdown).length > 1) ||
+          (parsed.allocations && new Set(parsed.allocations.map((a: any) => a.subject)).size > 1)
+        ) {
+          return "FULL_MOCK";
+        }
+      } catch (e) {}
+    }
+  }
 
   // UPSSSC PET explicit subject mappings
   if (code.includes("SUBJ_01_HINDI") || title.includes("सामान्य हिंदी")) return "HINDI";
