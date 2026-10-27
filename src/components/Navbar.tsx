@@ -67,8 +67,12 @@ export const Navbar: React.FC = () => {
     }
   };
 
-  // On root landing page or during an active exam test, let the page control its own header
-  if (pathname === "/" || (pathname?.includes("/mock/") && pathname?.endsWith("/test"))) {
+  // On root landing page, active mock test, or proctored SVAR assessment, let the page control its own header
+  if (
+    pathname === "/" ||
+    pathname?.startsWith("/svar") ||
+    (pathname?.includes("/mock/") && pathname?.endsWith("/test"))
+  ) {
     return null;
   }
 

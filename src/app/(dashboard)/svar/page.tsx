@@ -20,7 +20,7 @@ export default function SvarAssessmentPage() {
   }, []);
 
   return (
-    <div className="-m-4 sm:-m-6 lg:-m-10">
+    <div className="fixed inset-0 z-50 bg-slate-950 text-slate-100 overflow-hidden flex flex-col">
       <SvarAssessmentView
         candidateName={userName}
         onExit={() => router.push("/dashboard")}

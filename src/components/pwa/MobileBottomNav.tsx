@@ -38,9 +38,11 @@ export function MobileBottomNav() {
 
   // HIDE RULES:
   // 1. Unauthenticated / auth pages
-  // 2. "test dene ke time": during CBT examination (/mock/.../test)
+  // 2. "test dene ke time": during CBT examination (/mock/.../test) or SVAR spoken assessment (/svar)
   // 3. "padhai krte time": when reading/studying specific book chapters (/books/[bookId]/...)
-  const isTakingTest = pathname?.includes("/mock/") && (pathname?.endsWith("/test") || pathname?.includes("/test/"));
+  const isTakingTest =
+    (pathname?.includes("/mock/") && (pathname?.endsWith("/test") || pathname?.includes("/test/"))) ||
+    pathname?.startsWith("/svar");
   const isStudyingBook = Boolean(pathname?.startsWith("/books/") && pathname !== "/books");
   const isAuthPage = pathname === "/" || pathname === "/login" || pathname === "/register";
 

@@ -17,12 +17,13 @@ import {
   ArrowLeft,
   Settings,
   History,
-  VolumeX,
   Shield,
   Layers,
   ChevronRight,
   LogOut,
-  Info,
+  X,
+  ListFilter,
+  Check,
 } from "lucide-react";
 import {
   SvarQuestion,
@@ -57,11 +58,12 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
     durationMinutes: 25,
   });
 
-  // Modals
+  // Modals & Drawers
   const [showAudioCheck, setShowAudioCheck] = useState(false);
   const [showConfigModal, setShowConfigModal] = useState(false);
   const [showHistoryModal, setShowHistoryModal] = useState(false);
   const [showReportModal, setShowReportModal] = useState(false);
+  const [showMobilePalette, setShowMobilePalette] = useState(false);
   const [finalReport, setFinalReport] = useState<SvarEvaluationResult | null>(null);
 
   // Fullscreen Proctored State
@@ -91,10 +93,7 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
   const [prepSecondsRemaining, setPrepSecondsRemaining] = useState<number | null>(null);
   const prepTimerRef = useRef<any>(null);
 
-  // Browser capability warning
-  const [capabilities, setCapabilities] = useState<any>(null);
-
-  // Toggle Fullscreen helper
+  // Toggle Fullscreen
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
       document.documentElement.requestFullscreen().then(() => setIsFullscreen(true)).catch(() => {});
@@ -115,9 +114,6 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
 
   // Initialize fresh test questions
   const initializeTest = (cfg: SvarTestConfig) => {
-    const caps = checkSpeechCapabilities();
-    setCapabilities(caps);
-
     const generated = generateTestQuestions(cfg.mode, cfg.difficulty);
     setQuestions(generated.questions);
     setCurrentQIndex(0);
@@ -204,7 +200,7 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
         setAudioLevel(lvl);
       },
       onError: (err) => {
-        console.warn("Recording warning:", err);
+        console.warn("Recording notice:", err);
       },
     });
   };
@@ -270,7 +266,7 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
       onStart: () => setIsPlayingAudioPrompt(true),
       onEnd: () => {
         setIsPlayingAudioPrompt(false);
-        // In repeat sentences / sentence builds: trigger beep buzzer after audio prompt ends!
+        // In repeat sentences / sentence builds: trigger beep buzzer after audio ends!
         if (
           currentQ.sectionId === "repeat_sentences" ||
           currentQ.sectionId === "sentence_builds" ||
@@ -294,7 +290,6 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
         if (prev === null || prev <= 1) {
           clearInterval(prepTimerRef.current);
           prepTimerRef.current = null;
-          // Synthesize proctor beep buzzer and auto start recording!
           speechService.playBeepBuzzer().then(() => {
             handleStartRecording();
           });
@@ -324,7 +319,7 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
       const total = questions.length;
       const confirmMsg =
         answeredCount < total
-          ? `You have answered ${answeredCount} of ${total} questions. Are you sure you want to finish and generate your Accenture/SVAR diagnostic scorecard?`
+          ? `You have completed ${answeredCount} of ${total} questions. Are you sure you want to finish and generate your diagnostic scorecard?`
           : "Are you ready to submit your assessment and view your final transparent scorecard?";
       if (!window.confirm(confirmMsg)) return;
     }
@@ -353,7 +348,7 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
 
   if (!currentQ) {
     return (
-      <div className="flex items-center justify-center min-h-[500px] text-slate-400">
+      <div className="flex items-center justify-center h-full w-full bg-slate-950 text-slate-400">
         <Sparkles className="w-6 h-6 animate-spin text-indigo-400 mr-2" /> Loading assessment engine...
       </div>
     );
@@ -378,71 +373,81 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
   const liveFillerCount = fillerMatch ? fillerMatch.length : 0;
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans select-none antialiased">
-      {/* Proctored Top Bar */}
-      <header className="h-16 px-4 sm:px-6 bg-slate-900/90 border-b border-slate-800 flex items-center justify-between sticky top-0 z-30 backdrop-blur-md">
+    <div className="h-full w-full flex flex-col bg-slate-950 text-slate-100 font-sans select-none antialiased overflow-hidden">
+      {/* 1. Proctored Top Bar (Compact & Full Visibility) */}
+      <header className="h-14 shrink-0 px-3 sm:px-6 bg-slate-900/95 border-b border-slate-800 flex items-center justify-between z-30 backdrop-blur-md">
         {/* Brand & Candidate Info */}
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg shadow-indigo-600/30 text-white font-black text-sm">
+        <div className="flex items-center gap-2.5">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center shadow-md shadow-indigo-600/30 text-white font-black text-xs">
             🎙️
           </div>
           <div>
-            <div className="flex items-center gap-2">
-              <h1 className="text-sm sm:text-base font-extrabold text-white tracking-tight flex items-center gap-1.5">
-                Accenture Versant &amp; SVAR
-                <span className="hidden sm:inline-block px-2 py-0.5 rounded text-[10px] font-black bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950 uppercase">
+            <div className="flex items-center gap-1.5">
+              <h1 className="text-xs sm:text-sm font-extrabold text-white tracking-tight flex items-center gap-1.5">
+                <span>Accenture Versant &amp; SVAR</span>
+                <span className="hidden md:inline-block px-1.5 py-0.2 rounded text-[9px] font-black bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950 uppercase">
                   Accenture Special
                 </span>
               </h1>
             </div>
-            <p className="text-[11px] text-slate-400">
-              Candidate: <span className="text-slate-200 font-semibold">{candidateName}</span> • Proctored Spoken CBT Engine
+            <p className="text-[10px] text-slate-400 hidden sm:block">
+              Candidate: <span className="text-slate-200 font-semibold">{candidateName}</span> • Proctored CBT Mode
             </p>
           </div>
         </div>
 
         {/* Center Timer */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <div
-            className={`flex items-center gap-2 px-4 py-1.5 rounded-full border text-xs font-mono font-bold transition-all shadow-md ${
+            className={`flex items-center gap-1.5 px-3 py-1 rounded-full border text-xs font-mono font-bold transition-all shadow-sm ${
               isUrgent
                 ? "bg-rose-500/20 border-rose-500/50 text-rose-300 animate-pulse"
-                : "bg-slate-950/80 border-slate-800 text-indigo-300"
+                : "bg-slate-950 border-slate-800 text-indigo-300"
             }`}
           >
-            <Clock className="w-4 h-4 text-indigo-400" />
+            <Clock className="w-3.5 h-3.5 text-indigo-400" />
             <span>{timerStr}</span>
           </div>
+
+          {/* Mobile Question Palette Trigger */}
+          <button
+            onClick={() => setShowMobilePalette(true)}
+            className="lg:hidden flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-indigo-600/20 border border-indigo-500/30 text-indigo-300"
+          >
+            <ListFilter className="w-3.5 h-3.5" />
+            <span>Q {currentQIndex + 1}/{questions.length}</span>
+          </button>
         </div>
 
         {/* Action Controls */}
-        <div className="flex items-center gap-1.5 sm:gap-2">
+        <div className="flex items-center gap-1.5">
           <button
             onClick={() => setShowAudioCheck(true)}
-            className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 transition"
+            className="hidden md:flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 transition"
             title="Audio Hardware Check"
           >
-            <Volume2 className="w-3.5 h-3.5 text-indigo-400" /> Sound Check
+            <Volume2 className="w-3.5 h-3.5 text-indigo-400" />
+            <span>Sound Check</span>
           </button>
           <button
             onClick={() => setShowConfigModal(true)}
-            className="p-2 sm:px-3 sm:py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 transition flex items-center gap-1.5"
-            title="Assessment Settings"
+            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 transition flex items-center gap-1"
+            title="Settings"
           >
             <Settings className="w-3.5 h-3.5 text-purple-400" />
-            <span className="hidden sm:inline">Settings</span>
+            <span className="hidden lg:inline">Settings</span>
           </button>
           <button
             onClick={() => setShowHistoryModal(true)}
-            className="p-2 sm:px-3 sm:py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 transition flex items-center gap-1.5"
-            title="Practice History"
+            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 transition flex items-center gap-1"
+            title="Past Practice Attempts"
           >
             <History className="w-3.5 h-3.5 text-amber-400" />
-            <span className="hidden sm:inline">Past Attempts</span>
+            <span className="hidden lg:inline">History</span>
           </button>
           <button
             onClick={toggleFullscreen}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-600/20 border border-indigo-500/30 text-indigo-300 hover:bg-indigo-600/30 transition"
+            className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-bold bg-indigo-600/20 border border-indigo-500/30 text-indigo-300 hover:bg-indigo-600/30 transition"
             title="Toggle Proctored Fullscreen"
           >
             {isFullscreen ? (
@@ -462,7 +467,7 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
                   onExit();
                 }
               }}
-              className="p-2 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 transition"
+              className="p-1.5 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 transition"
               title="Exit Assessment"
             >
               <LogOut className="w-4 h-4" />
@@ -471,8 +476,8 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
         </div>
       </header>
 
-      {/* Sub-Section Progress Tabs */}
-      <div className="bg-slate-900/60 border-b border-slate-800/80 px-4 sm:px-6 py-2.5 overflow-x-auto flex items-center gap-2 scrollbar-none">
+      {/* 2. Sub-Section Progress Tabs (Clean Horizontal Scrollbar) */}
+      <div className="h-11 shrink-0 bg-slate-900/60 border-b border-slate-800/80 px-3 sm:px-6 flex items-center gap-1.5 overflow-x-auto scrollbar-none">
         {uniqueSections.map((secId) => {
           const secDef = SVAR_SECTIONS.find((s) => s.id === secId);
           const qCountInSec = questions.filter((q) => q.sectionId === secId).length;
@@ -481,6 +486,9 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
           ).length;
           const isCurrentSec = currentQ.sectionId === secId;
 
+          // Short title for sleek display
+          const displayLabel = secDef?.accentureEquivalent || secDef?.title.split("—")[1] || secId;
+
           return (
             <button
               key={secId}
@@ -488,18 +496,18 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
                 const targetIdx = questions.findIndex((q) => q.sectionId === secId);
                 if (targetIdx !== -1) setCurrentQIndex(targetIdx);
               }}
-              className={`flex items-center gap-2 px-3 py-1.5 rounded-xl text-xs font-bold transition whitespace-nowrap border ${
+              className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-bold transition whitespace-nowrap border shrink-0 ${
                 isCurrentSec
-                  ? "bg-indigo-600 text-white border-indigo-500 shadow-lg shadow-indigo-600/20"
+                  ? "bg-indigo-600 text-white border-indigo-500 shadow-md shadow-indigo-600/30"
                   : answeredInSec === qCountInSec
                   ? "bg-emerald-500/10 border-emerald-500/30 text-emerald-300 hover:bg-emerald-500/20"
-                  : "bg-slate-900 border-slate-800 text-slate-400 hover:text-white hover:border-slate-700"
+                  : "bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-700"
               }`}
             >
-              <span>{secDef?.icon || "🎙️"}</span>
-              <span>{secDef?.accentureEquivalent || secDef?.title.split("—")[1] || secId}</span>
+              <span className="text-xs">{secDef?.icon || "🎙️"}</span>
+              <span className="text-[11px]">{displayLabel}</span>
               <span
-                className={`px-1.5 py-0.2 rounded-full text-[10px] font-mono ${
+                className={`px-1.5 py-0.2 rounded-full text-[9px] font-mono ${
                   isCurrentSec ? "bg-white/20 text-white" : "bg-slate-800 text-slate-300"
                 }`}
               >
@@ -510,465 +518,531 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
         })}
       </div>
 
-      {/* Main Examination Workspace */}
-      <div className="flex-1 max-w-[1720px] w-full mx-auto p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6">
-        {/* Left Column: Active Question Workspace (8 cols) */}
-        <div className="lg:col-span-8 flex flex-col space-y-4">
-          <div className="rounded-2xl border border-slate-800 bg-slate-900/70 backdrop-blur-md p-5 sm:p-6 shadow-xl flex-1 flex flex-col">
-            {/* Question Top Info */}
-            <div className="flex items-center justify-between pb-4 border-b border-slate-800/80 mb-5">
-              <div className="flex items-center gap-2.5">
-                <span className="px-2.5 py-1 rounded-lg text-xs font-black bg-indigo-500/20 border border-indigo-500/30 text-indigo-300">
+      {/* 3. Main Examination Workspace (Fits within 100vh on Desktop, Smooth Scroll on Mobile) */}
+      <div className="flex-1 min-h-0 w-full p-2.5 sm:p-4 overflow-hidden">
+        <div className="h-full w-full max-w-[1720px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-3.5 overflow-hidden">
+          
+          {/* Left Column: Active Question Card (8 cols) */}
+          <div className="lg:col-span-8 flex flex-col h-full min-h-0 rounded-2xl border border-slate-800/80 bg-slate-900/70 backdrop-blur-xl p-3.5 sm:p-5 shadow-2xl overflow-hidden">
+            
+            {/* Top row: Q index pill + Section name + Status */}
+            <div className="shrink-0 flex items-center justify-between pb-2 mb-2 border-b border-slate-800/80">
+              <div className="flex items-center gap-2">
+                <span className="px-2 py-0.5 rounded-md text-xs font-black bg-indigo-500/20 border border-indigo-500/30 text-indigo-300">
                   Question {currentQIndex + 1} of {questions.length}
                 </span>
-                <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300">
+                <span className="px-2 py-0.5 rounded-md text-xs font-bold bg-slate-800 text-slate-300">
                   {currentQ.sectionId.replace(/_/g, " ").toUpperCase()}
                 </span>
-                <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-slate-800/60 text-slate-400">
+                <span className="px-1.5 py-0.2 rounded text-[10px] font-bold uppercase bg-slate-800/60 text-slate-400">
                   {currentQ.difficulty}
                 </span>
               </div>
 
-              {isQuestionAnswered && (
-                <span className="flex items-center gap-1.5 text-xs font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/20">
-                  <CheckCircle2 className="w-3.5 h-3.5" /> Response Captured
+              {isQuestionAnswered ? (
+                <span className="flex items-center gap-1 text-[11px] font-bold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                  <CheckCircle2 className="w-3 h-3" /> Recorded
                 </span>
+              ) : (
+                <span className="text-[11px] text-slate-500">Unanswered</span>
               )}
             </div>
 
-            {/* Instruction / Strategic AI Tip */}
+            {/* AI Strategic Tip (Compact Banner) */}
             {currentQ.tip && (
-              <div className="mb-5 p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-start gap-2.5 text-xs text-amber-200">
-                <Sparkles className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
-                <div>
-                  <strong className="font-bold text-amber-300">Accenture AI Scoring Tip: </strong>
-                  <span>{currentQ.tip}</span>
-                </div>
+              <div className="shrink-0 mb-2 py-1.5 px-3 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center gap-2 text-[11px] text-amber-200">
+                <Sparkles className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                <span className="truncate">
+                  <strong className="text-amber-300 font-bold">Tip: </strong>
+                  {currentQ.tip}
+                </span>
               </div>
             )}
 
-            {/* Section Specific Prompts */}
-
-            {/* 1. Reading: Display Sentence clearly */}
-            {currentQ.sectionId === "reading" && (
-              <div className="my-auto py-6 text-center space-y-4">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                  Read the following sentence aloud clearly:
-                </span>
-                <p className="text-xl sm:text-2xl font-bold text-white max-w-2xl mx-auto leading-relaxed">
-                  &quot;{currentQ.targetText}&quot;
-                </p>
-                {currentQ.stressNote && (
-                  <p className="text-xs text-indigo-300 italic">
-                    Word Stress Note: {currentQ.stressNote}
-                  </p>
-                )}
-              </div>
-            )}
-
-            {/* 2. Repeat Sentences: Audio Prompt -> Beep -> Repeat */}
-            {currentQ.sectionId === "repeat_sentences" && (
-              <div className="my-auto py-6 text-center space-y-4">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                  Listen to the sentence. After the beep, repeat it ditto:
-                </span>
-                <div className="flex flex-col items-center justify-center gap-3">
-                  <button
-                    onClick={handlePlayAudioPrompt}
-                    disabled={isPlayingAudioPrompt || replaysRemaining <= 0}
-                    className={`flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold transition shadow-lg ${
-                      isPlayingAudioPrompt
-                        ? "bg-indigo-600 text-white animate-pulse cursor-wait"
-                        : replaysRemaining <= 0
-                        ? "bg-slate-800 text-slate-500 cursor-not-allowed"
-                        : "bg-indigo-600 hover:bg-indigo-500 text-white shadow-indigo-600/30"
-                    }`}
-                  >
-                    {isPlayingAudioPrompt ? (
-                      <>
-                        <Volume2 className="w-5 h-5 animate-spin" /> Playing Audio Prompt...
-                      </>
-                    ) : (
-                      <>
-                        <Play className="w-5 h-5" /> Play Audio Prompt ({replaysRemaining} replay left)
-                      </>
-                    )}
-                  </button>
-                  <span className="text-[11px] text-slate-400">
-                    💡 The microphone will automatically activate right after the beep tone!
+            {/* Prompt Display Area (Center aligned, flex-1 min-h-0 overflow-y-auto) */}
+            <div className="flex-1 min-h-0 flex flex-col justify-center items-center text-center px-2 py-2 overflow-y-auto">
+              {/* 1. Reading */}
+              {currentQ.sectionId === "reading" && (
+                <div className="space-y-3 max-w-2xl mx-auto">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+                    Read the following sentence aloud clearly into the microphone:
                   </span>
-                </div>
-              </div>
-            )}
-
-            {/* 3. Short Answers: Audio Question -> Direct 1-2 words */}
-            {currentQ.sectionId === "short_answers" && (
-              <div className="my-auto py-6 text-center space-y-4">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                  Listen to the question. Answer directly in one or two words only:
-                </span>
-                <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800 max-w-xl mx-auto">
-                  <p className="text-lg font-bold text-white mb-3">
-                    {currentQ.questionText}
+                  <p className="text-lg sm:text-xl md:text-2xl font-bold text-slate-100 leading-relaxed tracking-normal selection:bg-indigo-500 selection:text-white">
+                    &quot;{currentQ.targetText}&quot;
                   </p>
-                  <button
-                    onClick={handlePlayAudioPrompt}
-                    disabled={isPlayingAudioPrompt || replaysRemaining <= 0}
-                    className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg text-xs font-bold bg-slate-800 hover:bg-slate-700 text-indigo-300 transition"
-                  >
-                    <Volume2 className="w-4 h-4" /> Listen Audio ({replaysRemaining} left)
-                  </button>
+                  {currentQ.stressNote && (
+                    <p className="text-xs text-indigo-300/90 italic">
+                      Word Stress: {currentQ.stressNote}
+                    </p>
+                  )}
                 </div>
-              </div>
-            )}
+              )}
 
-            {/* 4. Sentence Builds: 3 Jumbled fragments */}
-            {currentQ.sectionId === "sentence_builds" && (
-              <div className="my-auto py-6 text-center space-y-4">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                  Rearrange the 3 fragments mentally and speak the correct sentence:
-                </span>
-                <div className="flex flex-wrap items-center justify-center gap-3 max-w-xl mx-auto">
-                  {currentQ.jumbledFragments?.map((frag, idx) => (
-                    <span
-                      key={idx}
-                      className="px-4 py-2 rounded-xl text-base font-bold bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 shadow-md"
+              {/* 2. Repeat Sentences */}
+              {currentQ.sectionId === "repeat_sentences" && (
+                <div className="space-y-3 max-w-xl mx-auto">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+                    Listen to the audio sentence. After the beep, repeat it ditto:
+                  </span>
+                  <div className="flex flex-col items-center gap-2">
+                    <button
+                      onClick={handlePlayAudioPrompt}
+                      disabled={isPlayingAudioPrompt || replaysRemaining <= 0}
+                      className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold transition shadow-lg ${
+                        isPlayingAudioPrompt
+                          ? "bg-indigo-600 text-white animate-pulse cursor-wait"
+                          : replaysRemaining <= 0
+                          ? "bg-slate-800 text-slate-500 cursor-not-allowed"
+                          : "bg-indigo-600 hover:bg-indigo-500 text-white shadow-indigo-600/30"
+                      }`}
                     >
-                      {frag}
+                      {isPlayingAudioPrompt ? (
+                        <>
+                          <Volume2 className="w-4 h-4 animate-spin" /> Playing Audio Sentence...
+                        </>
+                      ) : (
+                        <>
+                          <Play className="w-4 h-4" /> Play Audio Prompt ({replaysRemaining} replay remaining)
+                        </>
+                      )}
+                    </button>
+                    <span className="text-[10px] text-slate-400">
+                      💡 Mic automatically turns ON right after the proctor beep!
                     </span>
-                  ))}
+                  </div>
                 </div>
-                <button
-                  onClick={handlePlayAudioPrompt}
-                  disabled={isPlayingAudioPrompt || replaysRemaining <= 0}
-                  className="flex items-center gap-2 mx-auto px-4 py-2 rounded-lg text-xs font-bold bg-slate-800 hover:bg-slate-700 text-indigo-300 transition"
-                >
-                  <Volume2 className="w-4 h-4" /> Listen Jumbled Audio ({replaysRemaining} left)
-                </button>
-              </div>
-            )}
+              )}
 
-            {/* 5. Story Retelling: 30s prep -> summarize story */}
-            {currentQ.sectionId === "story_retelling" && (
-              <div className="my-auto py-4 space-y-4">
-                <div className="text-center">
-                  <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                    Listen to the short narrative, prepare for 30s, then retell the story:
+              {/* 3. Short Answers */}
+              {currentQ.sectionId === "short_answers" && (
+                <div className="space-y-3 max-w-xl mx-auto">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+                    Listen to the question. Answer directly in one or two words only:
                   </span>
+                  <div className="p-3.5 rounded-xl bg-slate-950/80 border border-slate-800">
+                    <p className="text-base sm:text-lg font-bold text-white mb-2">
+                      {currentQ.questionText}
+                    </p>
+                    <button
+                      onClick={handlePlayAudioPrompt}
+                      disabled={isPlayingAudioPrompt || replaysRemaining <= 0}
+                      className="flex items-center gap-1.5 mx-auto px-3.5 py-1.5 rounded-lg text-xs font-bold bg-slate-800 hover:bg-slate-700 text-indigo-300 transition"
+                    >
+                      <Volume2 className="w-3.5 h-3.5" /> Listen Audio ({replaysRemaining} left)
+                    </button>
+                  </div>
                 </div>
+              )}
 
-                <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800 max-w-xl mx-auto flex flex-col items-center gap-3">
+              {/* 4. Sentence Builds */}
+              {currentQ.sectionId === "sentence_builds" && (
+                <div className="space-y-3 max-w-xl mx-auto">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+                    Rearrange the 3 fragments mentally and speak the correct sentence:
+                  </span>
+                  <div className="flex flex-wrap items-center justify-center gap-2">
+                    {currentQ.jumbledFragments?.map((frag, idx) => (
+                      <span
+                        key={idx}
+                        className="px-3.5 py-1.5 rounded-xl text-sm font-bold bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 shadow-md"
+                      >
+                        {frag}
+                      </span>
+                    ))}
+                  </div>
                   <button
                     onClick={handlePlayAudioPrompt}
                     disabled={isPlayingAudioPrompt || replaysRemaining <= 0}
-                    className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white transition shadow-lg shadow-indigo-600/20"
+                    className="flex items-center gap-1.5 mx-auto px-3.5 py-1.5 rounded-lg text-xs font-bold bg-slate-800 hover:bg-slate-700 text-indigo-300 transition"
                   >
-                    <Play className="w-4 h-4" /> Play Narrative Audio ({replaysRemaining} left)
+                    <Volume2 className="w-3.5 h-3.5" /> Listen Jumbled Audio ({replaysRemaining} left)
                   </button>
+                </div>
+              )}
 
-                  {/* 30s Prep countdown */}
-                  <div className="flex items-center gap-3 mt-1">
+              {/* 5. Story Retelling */}
+              {currentQ.sectionId === "story_retelling" && (
+                <div className="space-y-3 max-w-xl mx-auto">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+                    Listen to the narrative story, prepare for 30s, then summarize it:
+                  </span>
+                  <div className="flex flex-wrap items-center justify-center gap-2">
+                    <button
+                      onClick={handlePlayAudioPrompt}
+                      disabled={isPlayingAudioPrompt || replaysRemaining <= 0}
+                      className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white transition shadow-md shadow-indigo-600/20"
+                    >
+                      <Play className="w-4 h-4" /> Play Narrative Audio ({replaysRemaining} left)
+                    </button>
+
                     {prepSecondsRemaining !== null ? (
-                      <span className="text-sm font-mono font-bold text-amber-400 animate-pulse">
-                        ⏳ Preparation Time Remaining: {prepSecondsRemaining}s
+                      <span className="px-3 py-1.5 rounded-xl text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 animate-pulse">
+                        ⏳ Prep: {prepSecondsRemaining}s
                       </span>
                     ) : (
                       <button
                         onClick={handleStartPrepTimer}
-                        className="px-4 py-1.5 rounded-lg text-xs font-bold bg-amber-500/20 border border-amber-500/30 text-amber-300 hover:bg-amber-500/30 transition"
+                        className="px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-500/20 border border-amber-500/30 text-amber-300 hover:bg-amber-500/30 transition"
+                      >
+                        ⏱ Start 30s Prep
+                      </button>
+                    )}
+                  </div>
+
+                  {currentQ.storyPrompt && (
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5 text-center text-[10px] w-full">
+                      <div className="p-1.5 rounded-lg bg-slate-950/50 border border-slate-800">
+                        <span className="text-slate-400 block font-bold">1. Character</span>
+                        <span className="text-indigo-300 font-semibold truncate block">{currentQ.storyPrompt.character}</span>
+                      </div>
+                      <div className="p-1.5 rounded-lg bg-slate-950/50 border border-slate-800">
+                        <span className="text-slate-400 block font-bold">2. Setting</span>
+                        <span className="text-slate-200 truncate block">{currentQ.storyPrompt.setting}</span>
+                      </div>
+                      <div className="p-1.5 rounded-lg bg-slate-950/50 border border-slate-800">
+                        <span className="text-slate-400 block font-bold">3. Conflict</span>
+                        <span className="text-rose-300 truncate block">{currentQ.storyPrompt.conflict}</span>
+                      </div>
+                      <div className="p-1.5 rounded-lg bg-slate-950/50 border border-slate-800">
+                        <span className="text-slate-400 block font-bold">4. Resolution</span>
+                        <span className="text-emerald-300 truncate block">{currentQ.storyPrompt.resolution}</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* 6. Open Speaking */}
+              {currentQ.sectionId === "open_speaking" && (
+                <div className="space-y-3 max-w-xl mx-auto">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+                    Spontaneous Speaking Topic (Speak for 45 to 60 seconds):
+                  </span>
+                  <h3 className="text-lg sm:text-xl font-bold text-white">
+                    &quot;{currentQ.openTopic}&quot;
+                  </h3>
+
+                  <div className="flex justify-center">
+                    {prepSecondsRemaining !== null ? (
+                      <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 animate-pulse">
+                        ⏳ Prep: {prepSecondsRemaining}s remaining
+                      </span>
+                    ) : (
+                      <button
+                        onClick={handleStartPrepTimer}
+                        className="px-3.5 py-1 rounded-lg text-xs font-bold bg-amber-500/20 border border-amber-500/30 text-amber-300 hover:bg-amber-500/30 transition"
                       >
                         ⏱ Start 30s Prep Timer
                       </button>
                     )}
                   </div>
-                </div>
 
-                {currentQ.storyPrompt && (
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-[11px] max-w-xl mx-auto">
-                    <div className="p-2 rounded-lg bg-slate-950/50 border border-slate-800">
-                      <span className="text-slate-400 block font-bold">1. Character</span>
-                      <span className="text-indigo-300 font-semibold">{currentQ.storyPrompt.character}</span>
+                  {currentQ.prepFormulaTips && (
+                    <div className="p-2.5 rounded-xl bg-slate-950/80 border border-slate-800 text-[11px] text-slate-300 w-full space-y-1 text-left">
+                      <span className="font-bold text-indigo-400 block">PREP Framework Guide:</span>
+                      <div className="grid grid-cols-2 gap-1.5 text-[10px]">
+                        <div><strong className="text-white">P:</strong> {currentQ.prepFormulaTips.point}</div>
+                        <div><strong className="text-white">R:</strong> {currentQ.prepFormulaTips.reason}</div>
+                        <div><strong className="text-white">E:</strong> {currentQ.prepFormulaTips.example}</div>
+                        <div><strong className="text-white">P:</strong> {currentQ.prepFormulaTips.summary}</div>
+                      </div>
                     </div>
-                    <div className="p-2 rounded-lg bg-slate-950/50 border border-slate-800">
-                      <span className="text-slate-400 block font-bold">2. Setting</span>
-                      <span className="text-slate-200">{currentQ.storyPrompt.setting}</span>
-                    </div>
-                    <div className="p-2 rounded-lg bg-slate-950/50 border border-slate-800">
-                      <span className="text-slate-400 block font-bold">3. Conflict</span>
-                      <span className="text-rose-300">{currentQ.storyPrompt.conflict}</span>
-                    </div>
-                    <div className="p-2 rounded-lg bg-slate-950/50 border border-slate-800">
-                      <span className="text-slate-400 block font-bold">4. Resolution</span>
-                      <span className="text-emerald-300">{currentQ.storyPrompt.resolution}</span>
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* 6. Open Speaking: Topic -> 45-60s speaking */}
-            {currentQ.sectionId === "open_speaking" && (
-              <div className="my-auto py-4 space-y-4">
-                <div className="text-center">
-                  <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                    Spontaneous Speaking Topic (Speak for 45 to 60 seconds):
-                  </span>
-                  <h3 className="text-xl sm:text-2xl font-bold text-white mt-2 max-w-xl mx-auto">
-                    &quot;{currentQ.openTopic}&quot;
-                  </h3>
-                </div>
-
-                {/* 30s Prep timer */}
-                <div className="flex justify-center">
-                  {prepSecondsRemaining !== null ? (
-                    <span className="px-4 py-1.5 rounded-full text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 animate-pulse">
-                      ⏳ Prep Countdown: {prepSecondsRemaining}s remaining
-                    </span>
-                  ) : (
-                    <button
-                      onClick={handleStartPrepTimer}
-                      className="px-4 py-1.5 rounded-lg text-xs font-bold bg-amber-500/20 border border-amber-500/30 text-amber-300 hover:bg-amber-500/30 transition"
-                    >
-                      ⏱ Start 30s Prep Timer
-                    </button>
                   )}
                 </div>
+              )}
 
-                {currentQ.prepFormulaTips && (
-                  <div className="p-3.5 rounded-xl bg-slate-950/80 border border-slate-800 text-xs max-w-xl mx-auto space-y-1.5">
-                    <span className="font-bold text-indigo-400 block mb-1">
-                      💡 PREP Framework Speaking Blueprint:
-                    </span>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] text-slate-300">
-                      <div><strong className="text-white">P (Point):</strong> {currentQ.prepFormulaTips.point}</div>
-                      <div><strong className="text-white">R (Reason):</strong> {currentQ.prepFormulaTips.reason}</div>
-                      <div><strong className="text-white">E (Example):</strong> {currentQ.prepFormulaTips.example}</div>
-                      <div><strong className="text-white">P (Summary):</strong> {currentQ.prepFormulaTips.summary}</div>
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* 7 & 8: Listening & Grammar MCQs */}
-            {(currentQ.sectionId === "listening_comp" || currentQ.sectionId === "grammar_correction") && (
-              <div className="my-auto py-4 space-y-4">
-                {currentQ.audioScript && (
-                  <div className="text-center">
+              {/* 7 & 8: Listening & Grammar MCQs */}
+              {(currentQ.sectionId === "listening_comp" || currentQ.sectionId === "grammar_correction") && (
+                <div className="space-y-3 max-w-xl mx-auto w-full">
+                  {currentQ.audioScript && (
                     <button
                       onClick={handlePlayAudioPrompt}
                       disabled={isPlayingAudioPrompt || replaysRemaining <= 0}
-                      className="flex items-center gap-2 mx-auto px-5 py-2 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white transition shadow-lg shadow-indigo-600/20"
+                      className="flex items-center gap-1.5 mx-auto px-4 py-1.5 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white transition shadow-md"
                     >
-                      <Play className="w-4 h-4" /> Play Audio Dialogue ({replaysRemaining} left)
+                      <Play className="w-3.5 h-3.5" /> Play Dialogue ({replaysRemaining} left)
                     </button>
-                  </div>
-                )}
+                  )}
 
-                <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800 max-w-xl mx-auto">
-                  <p className="text-sm font-bold text-white mb-4">
+                  <p className="text-sm font-bold text-white text-left">
                     {currentQ.questionText}
                   </p>
 
-                  <div className="space-y-2">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-left">
                     {currentQ.options?.map((opt, oIdx) => {
                       const isSelected = currentAnswer.selectedOptionIndex === oIdx;
                       return (
                         <button
                           key={oIdx}
                           onClick={() => handleSelectOption(oIdx)}
-                          className={`w-full p-3 rounded-xl border text-left text-xs font-semibold flex items-center gap-3 transition ${
+                          className={`p-2.5 rounded-xl border text-left text-xs font-medium flex items-center gap-2.5 transition ${
                             isSelected
                               ? "border-indigo-500 bg-indigo-500/20 text-white"
                               : "border-slate-800 bg-slate-900/60 text-slate-300 hover:border-slate-700"
                           }`}
                         >
                           <span
-                            className={`w-6 h-6 rounded-lg flex items-center justify-center font-bold font-mono text-[11px] ${
+                            className={`w-5 h-5 rounded-md flex items-center justify-center font-bold font-mono text-[10px] ${
                               isSelected ? "bg-indigo-600 text-white" : "bg-slate-800 text-slate-400"
                             }`}
                           >
                             {String.fromCharCode(65 + oIdx)}
                           </span>
-                          <span>{opt}</span>
+                          <span className="truncate">{opt}</span>
                         </button>
                       );
                     })}
                   </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
 
-            {/* Speech Recording Console (For all Spoken sections) */}
+            {/* Speech Console & Big Recording Button (Always visible without scrolling) */}
             {currentQ.sectionId !== "listening_comp" && currentQ.sectionId !== "grammar_correction" && (
-              <div className="mt-auto pt-4 border-t border-slate-800/80">
-                {/* Visualizer & Record button */}
-                <div className="flex flex-col items-center gap-3">
-                  {/* VU volume level meter */}
-                  {isRecording && (
-                    <div className="w-full max-w-xs space-y-1">
-                      <div className="flex justify-between text-[10px] text-slate-400">
-                        <span>Mic Volume Level:</span>
-                        <span className="font-mono text-emerald-400 font-bold">{audioLevel}%</span>
-                      </div>
-                      <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden p-0.5">
+              <div className="shrink-0 pt-2 border-t border-slate-800/80 flex flex-col items-center gap-2">
+                
+                {/* Real-time telemetry (VU meter, WPM, and Filler Word Detector) */}
+                {isRecording && (
+                  <div className="w-full flex items-center justify-between gap-3 text-xs max-w-md">
+                    {/* VU Level bar */}
+                    <div className="flex-1 flex items-center gap-2">
+                      <span className="text-[10px] text-slate-400">Mic:</span>
+                      <div className="flex-1 h-2 rounded-full bg-slate-800 overflow-hidden p-0.5">
                         <div
                           className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-emerald-500 transition-all duration-75"
                           style={{ width: `${Math.min(100, Math.max(5, audioLevel))}%` }}
                         />
                       </div>
                     </div>
-                  )}
 
-                  {/* Big Record Button */}
-                  <div className="flex items-center gap-4">
-                    {!isRecording ? (
-                      <button
-                        onClick={handleStartRecording}
-                        className="group relative flex items-center gap-2.5 px-7 py-3.5 rounded-2xl text-sm font-extrabold bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white shadow-xl shadow-indigo-600/30 transition-all hover:scale-105 active:scale-95 cursor-pointer"
-                      >
-                        <Mic className="w-5 h-5 group-hover:scale-110 transition" />
-                        <span>{activeRecordedAudioUrl ? "Re-record Response" : "Record Your Voice"}</span>
-                      </button>
-                    ) : (
-                      <button
-                        onClick={handleStopRecording}
-                        className="flex items-center gap-2.5 px-7 py-3.5 rounded-2xl text-sm font-extrabold bg-rose-600 hover:bg-rose-500 text-white shadow-xl shadow-rose-600/40 transition-all animate-pulse hover:scale-105 active:scale-95 cursor-pointer"
-                      >
-                        <Square className="w-5 h-5" />
-                        <span>Stop Recording ({recordingDuration}s)</span>
-                      </button>
-                    )}
-
-                    {/* Voice Replay button */}
-                    {activeRecordedAudioUrl && !isRecording && (
-                      <button
-                        onClick={() => {
-                          const a = new Audio(activeRecordedAudioUrl);
-                          a.play();
-                        }}
-                        className="flex items-center gap-2 px-4 py-3 rounded-2xl text-xs font-bold bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 transition cursor-pointer"
-                        title="Listen to what you just spoke"
-                      >
-                        <Play className="w-4 h-4" /> Replay Your Voice
-                      </button>
-                    )}
-                  </div>
-
-                  {/* Real-time speech telemetry */}
-                  {isRecording && (
-                    <div className="flex items-center gap-4 text-xs">
-                      <span className="flex items-center gap-1.5 text-slate-300 font-mono">
-                        <Clock className="w-3.5 h-3.5 text-indigo-400" /> {recordingDuration}s
-                      </span>
+                    <div className="flex items-center gap-2">
+                      <span className="font-mono text-indigo-300 font-bold">{recordingDuration}s</span>
                       <span
-                        className={`flex items-center gap-1.5 font-bold font-mono ${
+                        className={`font-mono font-bold ${
                           liveWpm >= 115 && liveWpm <= 160 ? "text-emerald-400" : "text-amber-400"
                         }`}
                       >
-                        ⚡ {liveWpm} WPM (Ideal: 125-145)
+                        ⚡ {liveWpm} WPM
                       </span>
-                      {liveFillerCount > 0 && (
-                        <span className="flex items-center gap-1 text-rose-400 font-bold bg-rose-500/10 px-2 py-0.5 rounded-full border border-rose-500/20 animate-bounce">
-                          <AlertCircle className="w-3 h-3" /> {liveFillerCount} Filler Detected!
-                        </span>
-                      )}
                     </div>
+
+                    {liveFillerCount > 0 && (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30 animate-pulse">
+                        ⚠️ Filler Detected!
+                      </span>
+                    )}
+                  </div>
+                )}
+
+                {/* Main Action Buttons */}
+                <div className="flex items-center gap-3">
+                  {!isRecording ? (
+                    <button
+                      onClick={handleStartRecording}
+                      className="flex items-center gap-2 px-6 py-2.5 rounded-xl text-xs sm:text-sm font-extrabold bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white shadow-lg shadow-indigo-600/30 transition-all hover:scale-105 active:scale-95 cursor-pointer"
+                    >
+                      <Mic className="w-4 h-4" />
+                      <span>{activeRecordedAudioUrl ? "Re-record Response" : "Record Your Voice"}</span>
+                    </button>
+                  ) : (
+                    <button
+                      onClick={handleStopRecording}
+                      className="flex items-center gap-2 px-6 py-2.5 rounded-xl text-xs sm:text-sm font-extrabold bg-rose-600 hover:bg-rose-500 text-white shadow-lg shadow-rose-600/40 transition-all animate-pulse hover:scale-105 active:scale-95 cursor-pointer"
+                    >
+                      <Square className="w-4 h-4" />
+                      <span>Stop Recording ({recordingDuration}s)</span>
+                    </button>
                   )}
 
-                  {/* Live speech recognition transcription */}
-                  {liveTranscript && (
-                    <div className="w-full p-3 rounded-xl bg-slate-950/80 border border-slate-800 text-xs">
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 block mb-1">
-                        Live Speech Recognition:
-                      </span>
-                      <p className="text-slate-100 font-mono">
-                        {liveTranscript}
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Pronunciation word tags preview if already evaluated */}
-                  {currentAnswer.wordDiffs && currentAnswer.wordDiffs.length > 0 && !isRecording && (
-                    <div className="w-full p-3 rounded-xl bg-slate-950/80 border border-slate-800 text-xs">
-                      <div className="flex items-center justify-between mb-1.5">
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
-                          Pronunciation Word Match ({currentAnswer.accuracy ?? 0}% fidelity):
-                        </span>
-                        <span className="text-[11px] text-emerald-400 font-bold">
-                          {(currentAnswer.accuracy ?? 0) >= 75 ? "Clear Articulation" : "Needs Syllable Drill"}
-                        </span>
-                      </div>
-                      <div className="flex flex-wrap gap-1.5">
-                        {currentAnswer.wordDiffs.map((diff, i) => (
-                          <span
-                            key={i}
-                            className={`px-2 py-0.5 rounded text-[11px] font-medium ${
-                              diff.status === "matched"
-                                ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/30"
-                                : diff.status === "missing"
-                                ? "bg-rose-500/20 text-rose-300 border border-rose-500/30 line-through"
-                                : "bg-amber-500/20 text-amber-300 border border-amber-500/30"
-                            }`}
-                          >
-                            {diff.word}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
+                  {activeRecordedAudioUrl && !isRecording && (
+                    <button
+                      onClick={() => {
+                        const a = new Audio(activeRecordedAudioUrl);
+                        a.play();
+                      }}
+                      className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs font-bold bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 transition cursor-pointer"
+                      title="Replay candidate voice recording"
+                    >
+                      <Play className="w-3.5 h-3.5" /> Replay Voice
+                    </button>
                   )}
                 </div>
+
+                {/* Live transcript single-line / 2-line box */}
+                {liveTranscript && (
+                  <div className="w-full max-h-12 overflow-y-auto px-3 py-1.5 rounded-lg bg-slate-950/80 border border-slate-800 text-[11px] font-mono text-slate-200">
+                    <span className="text-slate-500 font-bold mr-1.5">Transcript:</span>
+                    {liveTranscript}
+                  </div>
+                )}
+
+                {/* Pronunciation Word Match Tags */}
+                {currentAnswer.wordDiffs && currentAnswer.wordDiffs.length > 0 && !isRecording && (
+                  <div className="w-full flex items-center justify-between text-[10px] px-2 py-1 rounded bg-slate-950/60 border border-slate-800">
+                    <span className="text-slate-400">
+                      Word Fidelity: <strong className="text-white">{currentAnswer.accuracy ?? 0}%</strong>
+                    </span>
+                    <div className="flex flex-wrap gap-1 max-w-md justify-end">
+                      {currentAnswer.wordDiffs.slice(0, 8).map((d, i) => (
+                        <span
+                          key={i}
+                          className={`px-1.5 py-0.2 rounded text-[9px] font-medium ${
+                            d.status === "matched"
+                              ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/30"
+                              : d.status === "missing"
+                              ? "bg-rose-500/20 text-rose-300 line-through"
+                              : "bg-amber-500/20 text-amber-300"
+                          }`}
+                        >
+                          {d.word}
+                        </span>
+                      ))}
+                      {currentAnswer.wordDiffs.length > 8 && (
+                        <span className="text-[9px] text-slate-500">+{currentAnswer.wordDiffs.length - 8} more</span>
+                      )}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 
-            {/* Navigation Buttons */}
-            <div className="flex items-center justify-between pt-5 mt-4 border-t border-slate-800">
+            {/* Bottom Card Navigation Footer */}
+            <div className="shrink-0 pt-2.5 mt-2 border-t border-slate-800/80 flex items-center justify-between">
               <button
                 onClick={() => setCurrentQIndex((prev) => Math.max(0, prev - 1))}
                 disabled={currentQIndex === 0}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 disabled:opacity-40 disabled:pointer-events-none text-slate-300 transition"
+                className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 disabled:opacity-40 disabled:pointer-events-none text-slate-300 transition"
               >
-                <ArrowLeft className="w-4 h-4" /> Previous
+                <ArrowLeft className="w-3.5 h-3.5" /> Previous
               </button>
 
               <div className="flex items-center gap-2">
                 {currentQIndex < questions.length - 1 ? (
                   <button
                     onClick={() => setCurrentQIndex((prev) => Math.min(questions.length - 1, prev + 1))}
-                    className="flex items-center gap-1.5 px-5 py-2 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/20 transition cursor-pointer"
+                    className="flex items-center gap-1.5 px-4 py-1.5 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white shadow-md shadow-indigo-600/20 transition cursor-pointer"
                   >
                     <span>Next Question</span>
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-3.5 h-3.5" />
                   </button>
                 ) : (
                   <button
                     onClick={() => handleFinishTest(false)}
-                    className="flex items-center gap-1.5 px-6 py-2 rounded-xl text-xs font-black bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-xl shadow-emerald-600/30 transition cursor-pointer"
+                    className="flex items-center gap-1.5 px-5 py-1.5 rounded-xl text-xs font-black bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-lg shadow-emerald-600/30 transition cursor-pointer"
                   >
-                    <CheckCircle2 className="w-4 h-4" />
+                    <CheckCircle2 className="w-3.5 h-3.5" />
                     <span>Submit Assessment</span>
                   </button>
                 )}
               </div>
             </div>
-          </div>
-        </div>
 
-        {/* Right Column: Question Navigator & Strategy Box (4 cols) */}
-        <div className="lg:col-span-4 flex flex-col space-y-4">
-          {/* Question Navigator Palette */}
-          <div className="rounded-2xl border border-slate-800 bg-slate-900/70 backdrop-blur-md p-5 shadow-xl">
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-300">
-                Question Navigator
-              </h3>
-              <span className="text-xs font-mono font-bold text-indigo-400">
-                {Object.keys(userAnswers).length} / {questions.length} Answered
-              </span>
+          </div>
+
+          {/* Right Column: Question Navigator & Strategy Box (4 cols - Desktop Only) */}
+          <div className="hidden lg:flex lg:col-span-4 flex-col h-full min-h-0 space-y-3 overflow-hidden">
+            
+            {/* Question Navigator Palette */}
+            <div className="flex-1 min-h-0 flex flex-col rounded-2xl border border-slate-800/80 bg-slate-900/70 backdrop-blur-xl p-3.5 shadow-xl overflow-hidden">
+              <div className="shrink-0 flex items-center justify-between mb-2">
+                <h3 className="text-xs font-bold uppercase tracking-wider text-slate-300">
+                  Question Navigator
+                </h3>
+                <span className="text-xs font-mono font-bold text-indigo-400">
+                  {Object.keys(userAnswers).length} / {questions.length} Answered
+                </span>
+              </div>
+
+              {/* Scrollable Palette Grid */}
+              <div className="flex-1 min-h-0 overflow-y-auto grid grid-cols-6 gap-1.5 pr-1 scrollbar-thin">
+                {questions.map((q, idx) => {
+                  const isAnswered =
+                    !!userAnswers[q.id]?.transcript ||
+                    userAnswers[q.id]?.selectedOptionIndex !== undefined;
+                  const isCurrent = idx === currentQIndex;
+
+                  return (
+                    <button
+                      key={q.id}
+                      onClick={() => setCurrentQIndex(idx)}
+                      className={`h-8 rounded-lg text-xs font-bold font-mono transition flex items-center justify-center ${
+                        isCurrent
+                          ? "bg-indigo-600 text-white ring-2 ring-indigo-400 ring-offset-1 ring-offset-slate-900 scale-105"
+                          : isAnswered
+                          ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 hover:bg-emerald-500/30"
+                          : "bg-slate-950/80 text-slate-400 border border-slate-800 hover:border-slate-700"
+                      }`}
+                    >
+                      {idx + 1}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Legend */}
+              <div className="shrink-0 flex items-center justify-between text-[10px] text-slate-400 mt-2 pt-2 border-t border-slate-800">
+                <div className="flex items-center gap-1">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                  <span>Answered</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <span className="w-2 h-2 rounded-full bg-indigo-600" />
+                  <span>Current</span>
+                </div>
+                <div className="flex items-center gap-1">
+                  <span className="w-2 h-2 rounded-full bg-slate-800" />
+                  <span>Pending</span>
+                </div>
+              </div>
+
+              {/* End Test Button */}
+              <button
+                onClick={() => handleFinishTest(false)}
+                className="shrink-0 w-full mt-2.5 py-2 rounded-xl text-xs font-bold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition"
+              >
+                End Test &amp; View Scorecard
+              </button>
             </div>
 
-            {/* Grid */}
-            <div className="grid grid-cols-6 sm:grid-cols-8 lg:grid-cols-6 gap-2 max-h-56 overflow-y-auto pr-1">
+            {/* Strategic Hacks Box (Compact) */}
+            <div className="shrink-0 rounded-2xl border border-slate-800/80 bg-slate-900/70 backdrop-blur-xl p-3 shadow-xl space-y-1.5 text-[11px]">
+              <div className="flex items-center gap-1.5 font-bold text-amber-400 text-xs">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Accenture Versant Scoring Hacks</span>
+              </div>
+              <p className="text-slate-300 leading-snug">
+                • <strong>Repeat Sentences:</strong> Never say &quot;um&quot; if you miss a word. Continue speech rhythm.
+              </p>
+              <p className="text-slate-300 leading-snug">
+                • <strong>Short Answers:</strong> Speak only 1–2 words directly (e.g. &quot;At a beach&quot;).
+              </p>
+              <p className="text-slate-300 leading-snug">
+                • <strong>Story Arc:</strong> Mention Character &rarr; Setting &rarr; Conflict &rarr; Resolution.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      {/* Mobile Question Palette Bottom Sheet / Modal */}
+      {showMobilePalette && (
+        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-950/80 backdrop-blur-sm lg:hidden animate-in fade-in">
+          <div className="w-full sm:max-w-md rounded-t-2xl sm:rounded-2xl border border-slate-800 bg-slate-900 p-4 shadow-2xl max-h-[80vh] flex flex-col">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+              <span className="text-xs font-bold text-white uppercase tracking-wider">
+                Question Navigator ({Object.keys(userAnswers).length}/{questions.length})
+              </span>
+              <button
+                onClick={() => setShowMobilePalette(false)}
+                className="p-1 rounded-lg text-slate-400 hover:text-white"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <div className="flex-1 overflow-y-auto grid grid-cols-6 gap-2 py-4">
               {questions.map((q, idx) => {
                 const isAnswered =
                   !!userAnswers[q.id]?.transcript ||
@@ -978,13 +1052,16 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
                 return (
                   <button
                     key={q.id}
-                    onClick={() => setCurrentQIndex(idx)}
+                    onClick={() => {
+                      setCurrentQIndex(idx);
+                      setShowMobilePalette(false);
+                    }}
                     className={`h-9 rounded-xl text-xs font-bold font-mono transition flex items-center justify-center ${
                       isCurrent
-                        ? "bg-indigo-600 text-white ring-2 ring-indigo-400 ring-offset-2 ring-offset-slate-900 scale-105"
+                        ? "bg-indigo-600 text-white ring-2 ring-indigo-400"
                         : isAnswered
-                        ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 hover:bg-emerald-500/30"
-                        : "bg-slate-950/80 text-slate-400 border border-slate-800 hover:border-slate-700"
+                        ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/40"
+                        : "bg-slate-950 text-slate-400 border border-slate-800"
                     }`}
                   >
                     {idx + 1}
@@ -993,57 +1070,18 @@ export const SvarAssessmentView: React.FC<SvarAssessmentViewProps> = ({
               })}
             </div>
 
-            {/* Legend */}
-            <div className="flex items-center justify-between text-[10px] text-slate-400 mt-4 pt-3 border-t border-slate-800">
-              <div className="flex items-center gap-1.5">
-                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
-                <span>Answered</span>
-              </div>
-              <div className="flex items-center gap-1.5">
-                <span className="w-2.5 h-2.5 rounded-full bg-indigo-600" />
-                <span>Current</span>
-              </div>
-              <div className="flex items-center gap-1.5">
-                <span className="w-2.5 h-2.5 rounded-full bg-slate-800" />
-                <span>Pending</span>
-              </div>
-            </div>
-
-            {/* Submit button */}
             <button
-              onClick={() => handleFinishTest(false)}
-              className="w-full mt-4 py-2.5 rounded-xl text-xs font-bold bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 transition"
+              onClick={() => {
+                setShowMobilePalette(false);
+                handleFinishTest(false);
+              }}
+              className="w-full py-2.5 rounded-xl text-xs font-bold bg-indigo-600 text-white"
             >
-              End Test &amp; View Scorecard
+              Finish Assessment &amp; Generate Scorecard
             </button>
           </div>
-
-          {/* Accenture Versant Cheatsheet & Secret Hacks Card */}
-          <div className="rounded-2xl border border-slate-800 bg-slate-900/70 backdrop-blur-md p-5 shadow-xl space-y-3">
-            <div className="flex items-center gap-2 text-xs font-bold text-amber-400">
-              <Sparkles className="w-4 h-4" />
-              <span>Accenture Versant Secret Hacks</span>
-            </div>
-
-            <div className="space-y-2 text-xs text-slate-300 leading-relaxed">
-              <div className="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800">
-                <strong className="text-white block font-semibold mb-0.5">Repeat Sentences:</strong>
-                If you forget a word in between, never pause or say &quot;um&quot;! Continue speaking naturally; Versant gives partial marks for flow but 0 for pauses.
-              </div>
-
-              <div className="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800">
-                <strong className="text-white block font-semibold mb-0.5">Short Answer Questions:</strong>
-                Strictly 1-2 words only! (e.g. &quot;At a beach&quot;). Never frame full explanations.
-              </div>
-
-              <div className="p-2.5 rounded-lg bg-slate-950/60 border border-slate-800">
-                <strong className="text-white block font-semibold mb-0.5">Story Retelling Arc:</strong>
-                Lock the 4 anchors in mind: Character Name &rarr; Setting &rarr; Conflict &rarr; Resolution.
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+      )}
 
       {/* Modals */}
       <SvarAudioCheckModal
