@@ -24,6 +24,7 @@ import {
   User as UserIcon,
   Download,
   Smartphone,
+  Mic,
 } from "lucide-react";
 
 export const Navbar: React.FC = () => {
@@ -76,6 +77,7 @@ export const Navbar: React.FC = () => {
   // Strict Role-Based Navigation: Students must never see Upload & OCR or Question Bank
   const studentNavLinks = [
     { href: "/dashboard", label: "Dashboard", icon: Layers },
+    { href: "/svar", label: "SVAR Spoken Test", icon: Mic, badge: "Accenture" },
     { href: "/exams?board=UPSSSC_PET", label: "UP PET 2026", icon: Sparkles, badge: "NEW" },
     { href: "/exams", label: "Mock Tests", icon: FileCheck2 },
     { href: "/books", label: "Books & Learning", icon: BookOpen },
@@ -86,6 +88,7 @@ export const Navbar: React.FC = () => {
 
   const facultyNavLinks = [
     { href: "/dashboard", label: "Dashboard", icon: Layers },
+    { href: "/svar", label: "SVAR Spoken Test", icon: Mic, badge: "Accenture" },
     { href: "/exams?board=UPSSSC_PET", label: "UP PET 2026", icon: Sparkles, badge: "NEW" },
     { href: "/exams", label: "Exams", icon: FileCheck2 },
     { href: "/books", label: "Books & Learning", icon: BookOpen },

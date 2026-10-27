@@ -28,6 +28,7 @@ import {
   Eye,
   ArrowRight,
   Zap,
+  Mic,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import {
@@ -827,6 +828,44 @@ function ExamsCatalogContent() {
               </span>
             </div>
           </button>
+        </div>
+      </div>
+
+      {/* 0A. DEDICATED SVAR & ACCENTURE COMMUNICATION HERO BANNER */}
+      <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white rounded-3xl p-5 sm:p-7 border border-indigo-500/30 shadow-xl relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-80 h-80 bg-gradient-to-br from-indigo-500/20 to-purple-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-5">
+          <div className="space-y-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="px-3 py-1 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950 font-black text-xs uppercase tracking-wider shadow-sm flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Accenture Special</span>
+              </span>
+              <span className="px-2.5 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-bold text-[11px]">
+                🎙️ SVAR &amp; Pearson Versant Engine
+              </span>
+              <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 font-bold text-[11px]">
+                6 Authentic Sub-Sections • 150+ PYQ Bank
+              </span>
+            </div>
+            <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight flex items-center gap-2">
+              <span>Accenture Spoken English &amp; Communication Assessment</span>
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
+              Automated AI speech practice simulating Mercer Mettl &amp; Pearson Versant. Includes Reading, Repeat Sentences, Short Answers, Sentence Builds, Story Retelling, and Open Speaking with live WPM meter and filler word detection.
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3 shrink-0">
+            <Link
+              href="/svar"
+              className="flex items-center gap-2 px-6 py-3 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 text-white font-extrabold text-sm shadow-xl shadow-indigo-500/25 transition-all hover:scale-105 active:scale-95"
+            >
+              <Mic className="w-4 h-4" />
+              <span>Start Accenture Spoken Test</span>
+              <ChevronRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
       </div>
 
